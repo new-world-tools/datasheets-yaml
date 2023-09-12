@@ -5624,6 +5624,394 @@
   SoundTableID: 1H_Sword
   IsShieldCompatible: true
   HideMainWeaponMeshWhileSheathed: null
+- WeaponID: FlailT2
+  BaseWeaponID: ""
+  DEV Prio: 3.0
+  PrimaryUse: Combat Melee
+  IconPath: weapon_ironrapier
+  MaxStackSize: 1.0
+  EquipType: RSword_LeftHolster
+  DamageStatMultiplier: OneHandSwordDamage
+  WeaponMasteryCategoryId: FlailAbilityTable
+  TierNumber: 1.0
+  BaseDamage: 58.0
+  CritChance: 0.06
+  CritDamageMultiplier: 1.2
+  BaseStaggerDamage: 30.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: melee
+  ReticleTargetName: spearHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: ""
+  MaxLoadedAmmo: null
+  AutoReloadAmmoSeconds: null
+  AmmoMesh: ""
+  MannequinTag: 1H_Melee,Flail
+  OffHandMannequinTag: Melee_OH
+  MeshOverride: Objects/Weapons/Melee/Flails/1h/flailT2/wep_mel_flail_1h_flailT2.cdf
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: ""
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: 1H_Flail_LightAttack1
+  TooltipAlternateAttackData: 1H_Flail_HeavyAttackChain_1
+  AnimDbPath: Animations/Mannequin/ADB/PlayerMaleAnims_1H_MeleeAttach.adb
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: null
+  MaxGatherEFF: null
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.009
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0065
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: WeaponHit2
+  PhysicalArmorSetScaleFactor: null
+  ElementalArmorSetScaleFactor: null
+  ArmorRatingScaleFactor: null
+  WeightOverride: 30.0
+  BlockStaminaDamage: 34.0
+  BlockStability: 22.0
+  DeflectionRating: 1.0
+  BLAStandard: "1"
+  BLASiege: 1.0
+  BLAStrike: 1.0
+  BLASlash: 1.0
+  BLAThrust: 1.0
+  BLAArcane: 1.0
+  BLAFire: 1.0
+  BLAIce: 1.0
+  BLANature: 1.0
+  BLALightning: 1.0
+  BLACorruption: 1.0
+  ABAPoison: 0.4
+  ABADisease: 0.4
+  ABABleed: 0.4
+  ABAFrostbite: 0.4
+  ABACurse: 0.4
+  RangedAttackProfile: ""
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: true
+  RangedBlockHealthDamageScaling: 0.5
+  RangedBlockStaminaDamageScaling: 0.5
+  ManaCostId: SpecialAttack
+  WeaponEffectId: Flail
+  BaseAccuracy: 89.0
+  SoundTableID: 1H_Flail
+  IsShieldCompatible: true
+  HideMainWeaponMeshWhileSheathed: null
+- WeaponID: FlailT3
+  BaseWeaponID: ""
+  DEV Prio: 3.0
+  PrimaryUse: Combat Melee
+  IconPath: weapon_ironrapier
+  MaxStackSize: 1.0
+  EquipType: RSword_LeftHolster
+  DamageStatMultiplier: OneHandSwordDamage
+  WeaponMasteryCategoryId: FlailAbilityTable
+  TierNumber: 2.0
+  BaseDamage: 58.0
+  CritChance: 0.06
+  CritDamageMultiplier: 1.2
+  BaseStaggerDamage: 32.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: melee
+  ReticleTargetName: spearHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: ""
+  MaxLoadedAmmo: null
+  AutoReloadAmmoSeconds: null
+  AmmoMesh: ""
+  MannequinTag: 1H_Melee,Flail
+  OffHandMannequinTag: Melee_OH
+  MeshOverride: Objects/Weapons/Melee/Flails/1h/flailT3/wep_mel_flail_1h_flailT3.cdf
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: ""
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: 1H_Flail_LightAttack1
+  TooltipAlternateAttackData: 1H_Flail_HeavyAttackChain_1
+  AnimDbPath: Animations/Mannequin/ADB/PlayerMaleAnims_1H_MeleeAttach.adb
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: null
+  MaxGatherEFF: null
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.009
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0065
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: WeaponHit3
+  PhysicalArmorSetScaleFactor: null
+  ElementalArmorSetScaleFactor: null
+  ArmorRatingScaleFactor: null
+  WeightOverride: 30.0
+  BlockStaminaDamage: 36.0
+  BlockStability: 22.0
+  DeflectionRating: 1.0
+  BLAStandard: "1"
+  BLASiege: 1.0
+  BLAStrike: 1.0
+  BLASlash: 1.0
+  BLAThrust: 1.0
+  BLAArcane: 1.0
+  BLAFire: 1.0
+  BLAIce: 1.0
+  BLANature: 1.0
+  BLALightning: 1.0
+  BLACorruption: 1.0
+  ABAPoison: 0.4
+  ABADisease: 0.4
+  ABABleed: 0.4
+  ABAFrostbite: 0.4
+  ABACurse: 0.4
+  RangedAttackProfile: ""
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: true
+  RangedBlockHealthDamageScaling: 0.5
+  RangedBlockStaminaDamageScaling: 0.5
+  ManaCostId: SpecialAttack
+  WeaponEffectId: Flail
+  BaseAccuracy: 89.0
+  SoundTableID: 1H_Flail
+  IsShieldCompatible: true
+  HideMainWeaponMeshWhileSheathed: null
+- WeaponID: FlailT4
+  BaseWeaponID: ""
+  DEV Prio: 3.0
+  PrimaryUse: Combat Melee
+  IconPath: weapon_ironrapier
+  MaxStackSize: 1.0
+  EquipType: RSword_LeftHolster
+  DamageStatMultiplier: OneHandSwordDamage
+  WeaponMasteryCategoryId: FlailAbilityTable
+  TierNumber: 2.0
+  BaseDamage: 58.0
+  CritChance: 0.06
+  CritDamageMultiplier: 1.2
+  BaseStaggerDamage: 34.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: melee
+  ReticleTargetName: spearHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: ""
+  MaxLoadedAmmo: null
+  AutoReloadAmmoSeconds: null
+  AmmoMesh: ""
+  MannequinTag: 1H_Melee,Flail
+  OffHandMannequinTag: Melee_OH
+  MeshOverride: Objects/Weapons/Melee/Flails/1h/flailT4/wep_mel_flail_1h_flailT4.cdf
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: ""
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: 1H_Flail_LightAttack1
+  TooltipAlternateAttackData: 1H_Flail_HeavyAttackChain_1
+  AnimDbPath: Animations/Mannequin/ADB/PlayerMaleAnims_1H_MeleeAttach.adb
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: null
+  MaxGatherEFF: null
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.009
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0065
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: WeaponHit4
+  PhysicalArmorSetScaleFactor: null
+  ElementalArmorSetScaleFactor: null
+  ArmorRatingScaleFactor: null
+  WeightOverride: 30.0
+  BlockStaminaDamage: 38.0
+  BlockStability: 22.0
+  DeflectionRating: 1.0
+  BLAStandard: "1"
+  BLASiege: 1.0
+  BLAStrike: 1.0
+  BLASlash: 1.0
+  BLAThrust: 1.0
+  BLAArcane: 1.0
+  BLAFire: 1.0
+  BLAIce: 1.0
+  BLANature: 1.0
+  BLALightning: 1.0
+  BLACorruption: 1.0
+  ABAPoison: 0.4
+  ABADisease: 0.4
+  ABABleed: 0.4
+  ABAFrostbite: 0.4
+  ABACurse: 0.4
+  RangedAttackProfile: ""
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: true
+  RangedBlockHealthDamageScaling: 0.5
+  RangedBlockStaminaDamageScaling: 0.5
+  ManaCostId: SpecialAttack
+  WeaponEffectId: Flail
+  BaseAccuracy: 89.0
+  SoundTableID: 1H_Flail
+  IsShieldCompatible: true
+  HideMainWeaponMeshWhileSheathed: null
+- WeaponID: FlailT5
+  BaseWeaponID: ""
+  DEV Prio: 3.0
+  PrimaryUse: Combat Melee
+  IconPath: weapon_ironrapier
+  MaxStackSize: 1.0
+  EquipType: RSword_LeftHolster
+  DamageStatMultiplier: OneHandSwordDamage
+  WeaponMasteryCategoryId: FlailAbilityTable
+  TierNumber: 2.0
+  BaseDamage: 58.0
+  CritChance: 0.06
+  CritDamageMultiplier: 1.2
+  BaseStaggerDamage: 36.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: melee
+  ReticleTargetName: spearHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: ""
+  MaxLoadedAmmo: null
+  AutoReloadAmmoSeconds: null
+  AmmoMesh: ""
+  MannequinTag: 1H_Melee,Flail
+  OffHandMannequinTag: Melee_OH
+  MeshOverride: Objects/Weapons/Melee/Flails/1h/flailT5/wep_mel_flail_1h_flailT5.cdf
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: ""
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: 1H_Flail_LightAttack1
+  TooltipAlternateAttackData: 1H_Flail_HeavyAttackChain_1
+  AnimDbPath: Animations/Mannequin/ADB/PlayerMaleAnims_1H_MeleeAttach.adb
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: null
+  MaxGatherEFF: null
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.009
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0065
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: WeaponHit5
+  PhysicalArmorSetScaleFactor: null
+  ElementalArmorSetScaleFactor: null
+  ArmorRatingScaleFactor: null
+  WeightOverride: 30.0
+  BlockStaminaDamage: 40.0
+  BlockStability: 22.0
+  DeflectionRating: 1.0
+  BLAStandard: "1"
+  BLASiege: 1.0
+  BLAStrike: 1.0
+  BLASlash: 1.0
+  BLAThrust: 1.0
+  BLAArcane: 1.0
+  BLAFire: 1.0
+  BLAIce: 1.0
+  BLANature: 1.0
+  BLALightning: 1.0
+  BLACorruption: 1.0
+  ABAPoison: 0.4
+  ABADisease: 0.4
+  ABABleed: 0.4
+  ABAFrostbite: 0.4
+  ABACurse: 0.4
+  RangedAttackProfile: ""
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: true
+  RangedBlockHealthDamageScaling: 0.5
+  RangedBlockStaminaDamageScaling: 0.5
+  ManaCostId: SpecialAttack
+  WeaponEffectId: Flail
+  BaseAccuracy: 89.0
+  SoundTableID: 1H_Flail
+  IsShieldCompatible: true
+  HideMainWeaponMeshWhileSheathed: null
 - WeaponID: RapierT2
   BaseWeaponID: ""
   DEV Prio: 3.0
@@ -9417,7 +9805,7 @@
   DamageStatMultiplier: BowDamage
   WeaponMasteryCategoryId: BowAbilityTable
   TierNumber: 0.0
-  BaseDamage: 64.0
+  BaseDamage: 72.0
   CritChance: 0.07
   CritDamageMultiplier: 1.3
   BaseStaggerDamage: 34.0
@@ -9514,7 +9902,7 @@
   DamageStatMultiplier: BowDamage
   WeaponMasteryCategoryId: BowAbilityTable
   TierNumber: 1.0
-  BaseDamage: 64.0
+  BaseDamage: 72.0
   CritChance: 0.07
   CritDamageMultiplier: 1.3
   BaseStaggerDamage: 36.0
@@ -9611,7 +9999,7 @@
   DamageStatMultiplier: BowDamage
   WeaponMasteryCategoryId: BowAbilityTable
   TierNumber: 1.0
-  BaseDamage: 64.0
+  BaseDamage: 72.0
   CritChance: 0.07
   CritDamageMultiplier: 1.3
   BaseStaggerDamage: 36.0
@@ -9708,7 +10096,7 @@
   DamageStatMultiplier: BowDamage
   WeaponMasteryCategoryId: BowAbilityTable
   TierNumber: 2.0
-  BaseDamage: 64.0
+  BaseDamage: 72.0
   CritChance: 0.07
   CritDamageMultiplier: 1.3
   BaseStaggerDamage: 38.0
@@ -9805,7 +10193,7 @@
   DamageStatMultiplier: BowDamage
   WeaponMasteryCategoryId: BowAbilityTable
   TierNumber: 2.0
-  BaseDamage: 64.0
+  BaseDamage: 72.0
   CritChance: 0.07
   CritDamageMultiplier: 1.3
   BaseStaggerDamage: 38.0
@@ -9902,7 +10290,7 @@
   DamageStatMultiplier: BowDamage
   WeaponMasteryCategoryId: BowAbilityTable
   TierNumber: 2.0
-  BaseDamage: 64.0
+  BaseDamage: 72.0
   CritChance: 0.07
   CritDamageMultiplier: 1.3
   BaseStaggerDamage: 40.0
@@ -9999,7 +10387,7 @@
   DamageStatMultiplier: BowDamage
   WeaponMasteryCategoryId: BowAbilityTable
   TierNumber: 2.0
-  BaseDamage: 64.0
+  BaseDamage: 72.0
   CritChance: 0.07
   CritDamageMultiplier: 1.3
   BaseStaggerDamage: 42.0
@@ -10096,7 +10484,7 @@
   DamageStatMultiplier: RifleDamage
   WeaponMasteryCategoryId: MusketAbilityTable
   TierNumber: 0.0
-  BaseDamage: 82.0
+  BaseDamage: 83.0
   CritChance: 0.06
   CritDamageMultiplier: 1.3
   BaseStaggerDamage: 48.0
@@ -10193,7 +10581,7 @@
   DamageStatMultiplier: RifleDamage
   WeaponMasteryCategoryId: MusketAbilityTable
   TierNumber: 0.0
-  BaseDamage: 82.0
+  BaseDamage: 83.0
   CritChance: 0.06
   CritDamageMultiplier: 1.3
   BaseStaggerDamage: 50.0
@@ -10290,7 +10678,7 @@
   DamageStatMultiplier: RifleDamage
   WeaponMasteryCategoryId: MusketAbilityTable
   TierNumber: 1.0
-  BaseDamage: 82.0
+  BaseDamage: 83.0
   CritChance: 0.06
   CritDamageMultiplier: 1.3
   BaseStaggerDamage: 53.0
@@ -10387,7 +10775,7 @@
   DamageStatMultiplier: RifleDamage
   WeaponMasteryCategoryId: MusketAbilityTable
   TierNumber: 1.0
-  BaseDamage: 82.0
+  BaseDamage: 83.0
   CritChance: 0.06
   CritDamageMultiplier: 1.3
   BaseStaggerDamage: 56.0
@@ -10484,7 +10872,7 @@
   DamageStatMultiplier: RifleDamage
   WeaponMasteryCategoryId: BlunderbussAbilityTable
   TierNumber: 0.0
-  BaseDamage: 75.0
+  BaseDamage: 80.0
   CritChance: 0.06
   CritDamageMultiplier: 1.15
   BaseStaggerDamage: 46.0
@@ -10581,7 +10969,7 @@
   DamageStatMultiplier: RifleDamage
   WeaponMasteryCategoryId: BlunderbussAbilityTable
   TierNumber: 0.0
-  BaseDamage: 75.0
+  BaseDamage: 80.0
   CritChance: 0.06
   CritDamageMultiplier: 1.15
   BaseStaggerDamage: 48.0
@@ -10678,7 +11066,7 @@
   DamageStatMultiplier: RifleDamage
   WeaponMasteryCategoryId: BlunderbussAbilityTable
   TierNumber: 0.0
-  BaseDamage: 75.0
+  BaseDamage: 80.0
   CritChance: 0.06
   CritDamageMultiplier: 1.15
   BaseStaggerDamage: 50.0
@@ -10775,7 +11163,7 @@
   DamageStatMultiplier: RifleDamage
   WeaponMasteryCategoryId: BlunderbussAbilityTable
   TierNumber: 1.0
-  BaseDamage: 75.0
+  BaseDamage: 80.0
   CritChance: 0.06
   CritDamageMultiplier: 1.15
   BaseStaggerDamage: 53.0
@@ -10872,7 +11260,7 @@
   DamageStatMultiplier: RifleDamage
   WeaponMasteryCategoryId: BlunderbussAbilityTable
   TierNumber: 1.0
-  BaseDamage: 75.0
+  BaseDamage: 80.0
   CritChance: 0.06
   CritDamageMultiplier: 1.15
   BaseStaggerDamage: 56.0
@@ -10969,7 +11357,7 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: FireMagicAbilityTable
   TierNumber: 2.0
-  BaseDamage: 59.0
+  BaseDamage: 62.0
   CritChance: 0.1
   CritDamageMultiplier: 1.25
   BaseStaggerDamage: 26.0
@@ -11066,7 +11454,7 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: FireMagicAbilityTable
   TierNumber: 3.0
-  BaseDamage: 59.0
+  BaseDamage: 62.0
   CritChance: 0.1
   CritDamageMultiplier: 1.25
   BaseStaggerDamage: 28.0
@@ -11163,7 +11551,7 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: FireMagicAbilityTable
   TierNumber: 4.0
-  BaseDamage: 59.0
+  BaseDamage: 62.0
   CritChance: 0.1
   CritDamageMultiplier: 1.25
   BaseStaggerDamage: 31.0
@@ -11260,7 +11648,7 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: FireMagicAbilityTable
   TierNumber: 5.0
-  BaseDamage: 59.0
+  BaseDamage: 62.0
   CritChance: 0.1
   CritDamageMultiplier: 1.25
   BaseStaggerDamage: 34.0
@@ -11357,7 +11745,7 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: LifeMagicAbilityTable
   TierNumber: 2.0
-  BaseDamage: 52.0
+  BaseDamage: 55.0
   CritChance: 0.06
   CritDamageMultiplier: 1.2
   BaseStaggerDamage: 24.0
@@ -11454,7 +11842,7 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: LifeMagicAbilityTable
   TierNumber: 3.0
-  BaseDamage: 52.0
+  BaseDamage: 55.0
   CritChance: 0.06
   CritDamageMultiplier: 1.2
   BaseStaggerDamage: 26.0
@@ -11551,7 +11939,7 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: LifeMagicAbilityTable
   TierNumber: 4.0
-  BaseDamage: 52.0
+  BaseDamage: 55.0
   CritChance: 0.06
   CritDamageMultiplier: 1.2
   BaseStaggerDamage: 29.0
@@ -11648,7 +12036,7 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: LifeMagicAbilityTable
   TierNumber: 5.0
-  BaseDamage: 52.0
+  BaseDamage: 55.0
   CritChance: 0.06
   CritDamageMultiplier: 1.2
   BaseStaggerDamage: 32.0
@@ -12091,7 +12479,7 @@
   ElementalArmorSetScaleFactor: 0.055
   ArmorRatingScaleFactor: 0.25
   WeightOverride: 27.225
-  BlockStaminaDamage: 61.0
+  BlockStaminaDamage: 55.0
   BlockStability: 25.0
   DeflectionRating: 1.0
   BLAStandard: "1"
@@ -12188,7 +12576,7 @@
   ElementalArmorSetScaleFactor: 0.055
   ArmorRatingScaleFactor: 0.25
   WeightOverride: 27.225
-  BlockStaminaDamage: 58.0
+  BlockStaminaDamage: 57.0
   BlockStability: 27.0
   DeflectionRating: 1.0
   BLAStandard: "1"
@@ -12285,7 +12673,7 @@
   ElementalArmorSetScaleFactor: 0.055
   ArmorRatingScaleFactor: 0.25
   WeightOverride: 27.225
-  BlockStaminaDamage: 55.0
+  BlockStaminaDamage: 59.0
   BlockStability: 29.0
   DeflectionRating: 1.0
   BLAStandard: "1"
@@ -12382,7 +12770,7 @@
   ElementalArmorSetScaleFactor: 0.055
   ArmorRatingScaleFactor: 0.25
   WeightOverride: 27.225
-  BlockStaminaDamage: 55.0
+  BlockStaminaDamage: 61.0
   BlockStability: 30.0
   DeflectionRating: 1.0
   BLAStandard: "1"
@@ -12479,7 +12867,7 @@
   ElementalArmorSetScaleFactor: 0.11
   ArmorRatingScaleFactor: 0.25
   WeightOverride: 54.45
-  BlockStaminaDamage: 52.0
+  BlockStaminaDamage: 48.0
   BlockStability: 30.0
   DeflectionRating: 1.0
   BLAStandard: "1"
@@ -12576,7 +12964,7 @@
   ElementalArmorSetScaleFactor: 0.11
   ArmorRatingScaleFactor: 0.25
   WeightOverride: 54.45
-  BlockStaminaDamage: 52.0
+  BlockStaminaDamage: 50.0
   BlockStability: 35.0
   DeflectionRating: 1.0
   BLAStandard: "1"
@@ -12964,7 +13352,7 @@
   ElementalArmorSetScaleFactor: 0.22
   ArmorRatingScaleFactor: 0.25
   WeightOverride: 110.0
-  BlockStaminaDamage: 46.0
+  BlockStaminaDamage: 43.0
   BlockStability: 45.0
   DeflectionRating: 1.0
   BLAStandard: "1"
@@ -13061,7 +13449,7 @@
   ElementalArmorSetScaleFactor: 0.22
   ArmorRatingScaleFactor: 0.25
   WeightOverride: 110.0
-  BlockStaminaDamage: 43.0
+  BlockStaminaDamage: 46.0
   BlockStability: 50.0
   DeflectionRating: 1.0
   BLAStandard: "1"
@@ -13103,7 +13491,7 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: IceMagicAbilityTable
   TierNumber: 2.0
-  BaseDamage: 56.0
+  BaseDamage: 59.0
   CritChance: 0.09
   CritDamageMultiplier: 1.3
   BaseStaggerDamage: 36.0
@@ -13200,7 +13588,7 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: IceMagicAbilityTable
   TierNumber: 3.0
-  BaseDamage: 56.0
+  BaseDamage: 59.0
   CritChance: 0.09
   CritDamageMultiplier: 1.3
   BaseStaggerDamage: 38.0
@@ -13297,7 +13685,7 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: IceMagicAbilityTable
   TierNumber: 4.0
-  BaseDamage: 56.0
+  BaseDamage: 59.0
   CritChance: 0.09
   CritDamageMultiplier: 1.3
   BaseStaggerDamage: 41.0
@@ -13394,7 +13782,7 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: IceMagicAbilityTable
   TierNumber: 5.0
-  BaseDamage: 56.0
+  BaseDamage: 59.0
   CritChance: 0.09
   CritDamageMultiplier: 1.3
   BaseStaggerDamage: 44.0
@@ -13491,7 +13879,7 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: VoidGauntletAbilityTable
   TierNumber: 2.0
-  BaseDamage: 54.0
+  BaseDamage: 57.0
   CritChance: 0.08
   CritDamageMultiplier: 1.3
   BaseStaggerDamage: 34.0
@@ -13588,7 +13976,7 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: VoidGauntletAbilityTable
   TierNumber: 3.0
-  BaseDamage: 54.0
+  BaseDamage: 57.0
   CritChance: 0.08
   CritDamageMultiplier: 1.3
   BaseStaggerDamage: 36.0
@@ -13685,7 +14073,7 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: VoidGauntletAbilityTable
   TierNumber: 4.0
-  BaseDamage: 54.0
+  BaseDamage: 57.0
   CritChance: 0.08
   CritDamageMultiplier: 1.3
   BaseStaggerDamage: 39.0
@@ -13782,7 +14170,7 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: VoidGauntletAbilityTable
   TierNumber: 5.0
-  BaseDamage: 54.0
+  BaseDamage: 57.0
   CritChance: 0.08
   CritDamageMultiplier: 1.3
   BaseStaggerDamage: 42.0
@@ -14267,7 +14655,7 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: SwordAbilityTable
   TierNumber: 4.0
-  BaseDamage: 56.0
+  BaseDamage: 60.0
   CritChance: 0.07
   CritDamageMultiplier: 1.3
   BaseStaggerDamage: 43.0
@@ -14645,6 +15033,103 @@
   SoundTableID: 1H_Axe
   IsShieldCompatible: null
   HideMainWeaponMeshWhileSheathed: null
+- WeaponID: 1hFlail_Debug_NoCrits
+  BaseWeaponID: ""
+  DEV Prio: 3.0
+  PrimaryUse: Combat Melee
+  IconPath: weapon_ironrapier
+  MaxStackSize: 1.0
+  EquipType: RSword_LeftHolster
+  DamageStatMultiplier: OneHandSwordDamage
+  WeaponMasteryCategoryId: FlailAbilityTable
+  TierNumber: 2.0
+  BaseDamage: 58.0
+  CritChance: 0.0
+  CritDamageMultiplier: 1.0
+  BaseStaggerDamage: 36.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: melee
+  ReticleTargetName: spearHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: ""
+  MaxLoadedAmmo: null
+  AutoReloadAmmoSeconds: null
+  AmmoMesh: ""
+  MannequinTag: 1H_Melee,Flail
+  OffHandMannequinTag: Melee_OH
+  MeshOverride: objects/weapons/Melee/Flails/1h/flailAncestral/wep_mel_flail_1h_flailAncestral.cdf
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: ""
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: 1H_Flail_LightAttack1
+  TooltipAlternateAttackData: 1H_Flail_HeavyAttackChain_1
+  AnimDbPath: Animations/Mannequin/ADB/PlayerMaleAnims_1H_MeleeAttach.adb
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: null
+  MaxGatherEFF: null
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.009
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0065
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: WeaponHit5
+  PhysicalArmorSetScaleFactor: null
+  ElementalArmorSetScaleFactor: null
+  ArmorRatingScaleFactor: null
+  WeightOverride: 30.0
+  BlockStaminaDamage: 40.0
+  BlockStability: 22.0
+  DeflectionRating: 1.0
+  BLAStandard: "1"
+  BLASiege: 1.0
+  BLAStrike: 1.0
+  BLASlash: 1.0
+  BLAThrust: 1.0
+  BLAArcane: 1.0
+  BLAFire: 1.0
+  BLAIce: 1.0
+  BLANature: 1.0
+  BLALightning: 1.0
+  BLACorruption: 1.0
+  ABAPoison: 0.4
+  ABADisease: 0.4
+  ABABleed: 0.4
+  ABAFrostbite: 0.4
+  ABACurse: 0.4
+  RangedAttackProfile: ""
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: true
+  RangedBlockHealthDamageScaling: null
+  RangedBlockStaminaDamageScaling: null
+  ManaCostId: SpecialAttack
+  WeaponEffectId: Flail
+  BaseAccuracy: 89.0
+  SoundTableID: 1H_Flail
+  IsShieldCompatible: true
+  HideMainWeaponMeshWhileSheathed: true
 - WeaponID: 1hGreatsword_Debug_NoCrits
   BaseWeaponID: ""
   DEV Prio: 1.0
@@ -14655,7 +15140,7 @@
   DamageStatMultiplier: TwoHandSwordDamage
   WeaponMasteryCategoryId: GreatSwordAbilityTable
   TierNumber: 2.0
-  BaseDamage: 83.0
+  BaseDamage: 75.0
   CritChance: 0.0
   CritDamageMultiplier: 1.0
   BaseStaggerDamage: 62.0
@@ -15043,7 +15528,7 @@
   DamageStatMultiplier: BowDamage
   WeaponMasteryCategoryId: BowAbilityTable
   TierNumber: 2.0
-  BaseDamage: 64.0
+  BaseDamage: 67.0
   CritChance: 0.0
   CritDamageMultiplier: 1.0
   BaseStaggerDamage: 42.0
@@ -15140,7 +15625,7 @@
   DamageStatMultiplier: RifleDamage
   WeaponMasteryCategoryId: MusketAbilityTable
   TierNumber: 1.0
-  BaseDamage: 82.0
+  BaseDamage: 78.0
   CritChance: 0.0
   CritDamageMultiplier: 1.0
   BaseStaggerDamage: 56.0
@@ -15237,7 +15722,7 @@
   DamageStatMultiplier: RifleDamage
   WeaponMasteryCategoryId: BlunderbussAbilityTable
   TierNumber: 1.0
-  BaseDamage: 75.0
+  BaseDamage: 78.0
   CritChance: 0.0
   CritDamageMultiplier: 1.0
   BaseStaggerDamage: 56.0
@@ -15334,7 +15819,7 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: FireMagicAbilityTable
   TierNumber: 5.0
-  BaseDamage: 57.0
+  BaseDamage: 62.0
   CritChance: 0.0
   CritDamageMultiplier: 1.0
   BaseStaggerDamage: 34.0
@@ -15431,7 +15916,7 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: LifeMagicAbilityTable
   TierNumber: 5.0
-  BaseDamage: 52.0
+  BaseDamage: 55.0
   CritChance: 0.0
   CritDamageMultiplier: 1.0
   BaseStaggerDamage: 32.0
@@ -15528,7 +16013,7 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: VoidGauntletAbilityTable
   TierNumber: 5.0
-  BaseDamage: 54.0
+  BaseDamage: 57.0
   CritChance: 0.0
   CritDamageMultiplier: 1.0
   BaseStaggerDamage: 42.0
@@ -15625,7 +16110,7 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: IceMagicAbilityTable
   TierNumber: 5.0
-  BaseDamage: 56.0
+  BaseDamage: 59.0
   CritChance: 0.0
   CritDamageMultiplier: 1.0
   BaseStaggerDamage: 44.0
@@ -17679,200 +18164,6 @@
   MeshOverride: ""
   SkinOverride1: ""
   MaterialOverride1: ""
-  SkinOverride2: ""
-  MaterialOverride2: ""
-  SkinOverride3: ""
-  MaterialOverride3: ""
-  SkinOverride4: ""
-  MaterialOverride4: ""
-  FireJoint: ""
-  DamageTableRow: ""
-  TooltipPrimaryAttackData: ""
-  TooltipAlternateAttackData: ""
-  AnimDbPath: Animations/Mannequin/ADB/PlayerMaleAnims_1H_MeleeAttach.adb
-  GatheringTypes: None
-  GatheringMultiplier: 1.0
-  GatheringEfficiency: 0.0
-  MinGatherEFF: null
-  MaxGatherEFF: null
-  AudioPickup: Play_Beep1_2D
-  AudioPlace: Play_Beep3_2D
-  Primary Hand: Main
-  EquipmentCategories: ""
-  RequiredStrength: 0.0
-  RequiredDexterity: 0.0
-  RequiredIntelligence: 0.0
-  RequiredFocus: 0.0
-  ScalingStrength: 0.0
-  ScalingDexterity: 0.0
-  ScalingIntelligence: 0.0
-  ScalingFocus: 0.0
-  Resistances: ""
-  Weaknesses: ""
-  StatBonuses: ""
-  StatMultipliers: ""
-  EquipmentCategoryMultiplier: ""
-  AttackGameEventID: WeaponHit1
-  PhysicalArmorSetScaleFactor: null
-  ElementalArmorSetScaleFactor: null
-  ArmorRatingScaleFactor: null
-  WeightOverride: null
-  BlockStaminaDamage: 0.0
-  BlockStability: 100.0
-  DeflectionRating: 0.0
-  BLAStandard: ""
-  BLASiege: null
-  BLAStrike: null
-  BLASlash: null
-  BLAThrust: null
-  BLAArcane: null
-  BLAFire: null
-  BLAIce: null
-  BLANature: null
-  BLALightning: null
-  BLACorruption: null
-  ABAPoison: null
-  ABADisease: null
-  ABABleed: null
-  ABAFrostbite: null
-  ABACurse: null
-  RangedAttackProfile: ""
-  AttachedSpellData: ""
-  Appearance: ""
-  FemaleAppearance: ""
-  CanBlockRanged: null
-  RangedBlockHealthDamageScaling: null
-  RangedBlockStaminaDamageScaling: null
-  ManaCostId: ""
-  WeaponEffectId: ""
-  BaseAccuracy: 89.0
-  SoundTableID: ""
-  IsShieldCompatible: null
-  HideMainWeaponMeshWhileSheathed: null
-- WeaponID: Instrument_Flute_T0
-  BaseWeaponID: ""
-  DEV Prio: 1.0
-  PrimaryUse: Tool
-  IconPath: LoggingAxe
-  MaxStackSize: 1.0
-  EquipType: RSword_LeftHolster
-  DamageStatMultiplier: ""
-  WeaponMasteryCategoryId: ""
-  TierNumber: 0.0
-  BaseDamage: 5.0
-  CritChance: 0.03
-  CritDamageMultiplier: 1.3
-  BaseStaggerDamage: 0.0
-  CritStaggerDamageMultiplier: 1.5
-  ReticleName: melee
-  ReticleTargetName: meleeHaveTarget
-  ReticleRayCastDistance: 3.0
-  AmmoType: ""
-  MaxLoadedAmmo: null
-  AutoReloadAmmoSeconds: null
-  AmmoMesh: ""
-  MannequinTag: 1H_Melee,Instrument,InstrumentFife
-  OffHandMannequinTag: ""
-  MeshOverride: Objects/Instruments/Wind/FifeA/jav_inst_fifea_t0.cgf
-  SkinOverride1: ""
-  MaterialOverride1: Objects/Instruments/Wind/FifeA/jav_inst_FifeA_mat.mtl
-  SkinOverride2: ""
-  MaterialOverride2: ""
-  SkinOverride3: ""
-  MaterialOverride3: ""
-  SkinOverride4: ""
-  MaterialOverride4: ""
-  FireJoint: ""
-  DamageTableRow: ""
-  TooltipPrimaryAttackData: ""
-  TooltipAlternateAttackData: ""
-  AnimDbPath: Animations/Mannequin/ADB/PlayerMaleAnims_1H_MeleeAttach.adb
-  GatheringTypes: None
-  GatheringMultiplier: 1.0
-  GatheringEfficiency: 0.0
-  MinGatherEFF: null
-  MaxGatherEFF: null
-  AudioPickup: Play_Beep1_2D
-  AudioPlace: Play_Beep3_2D
-  Primary Hand: Main
-  EquipmentCategories: ""
-  RequiredStrength: 0.0
-  RequiredDexterity: 0.0
-  RequiredIntelligence: 0.0
-  RequiredFocus: 0.0
-  ScalingStrength: 0.0
-  ScalingDexterity: 0.0
-  ScalingIntelligence: 0.0
-  ScalingFocus: 0.0
-  Resistances: ""
-  Weaknesses: ""
-  StatBonuses: ""
-  StatMultipliers: ""
-  EquipmentCategoryMultiplier: ""
-  AttackGameEventID: WeaponHit1
-  PhysicalArmorSetScaleFactor: null
-  ElementalArmorSetScaleFactor: null
-  ArmorRatingScaleFactor: null
-  WeightOverride: null
-  BlockStaminaDamage: 0.0
-  BlockStability: 100.0
-  DeflectionRating: 0.0
-  BLAStandard: ""
-  BLASiege: null
-  BLAStrike: null
-  BLASlash: null
-  BLAThrust: null
-  BLAArcane: null
-  BLAFire: null
-  BLAIce: null
-  BLANature: null
-  BLALightning: null
-  BLACorruption: null
-  ABAPoison: null
-  ABADisease: null
-  ABABleed: null
-  ABAFrostbite: null
-  ABACurse: null
-  RangedAttackProfile: ""
-  AttachedSpellData: ""
-  Appearance: ""
-  FemaleAppearance: ""
-  CanBlockRanged: null
-  RangedBlockHealthDamageScaling: null
-  RangedBlockStaminaDamageScaling: null
-  ManaCostId: ""
-  WeaponEffectId: ""
-  BaseAccuracy: 89.0
-  SoundTableID: ""
-  IsShieldCompatible: null
-  HideMainWeaponMeshWhileSheathed: null
-- WeaponID: Instrument_Drum_T0
-  BaseWeaponID: ""
-  DEV Prio: 1.0
-  PrimaryUse: Tool
-  IconPath: LoggingAxe
-  MaxStackSize: 1.0
-  EquipType: Drum
-  DamageStatMultiplier: ""
-  WeaponMasteryCategoryId: ""
-  TierNumber: 0.0
-  BaseDamage: 5.0
-  CritChance: 0.03
-  CritDamageMultiplier: 1.3
-  BaseStaggerDamage: 0.0
-  CritStaggerDamageMultiplier: 1.5
-  ReticleName: melee
-  ReticleTargetName: meleeHaveTarget
-  ReticleRayCastDistance: 3.0
-  AmmoType: ""
-  MaxLoadedAmmo: null
-  AutoReloadAmmoSeconds: null
-  AmmoMesh: ""
-  MannequinTag: 1H_Melee,Instrument,InstrumentSnare
-  OffHandMannequinTag: ""
-  MeshOverride: Objects/Instruments/Percussion/FieldDrumA/jav_inst_fielddruma_t0.cgf
-  SkinOverride1: ""
-  MaterialOverride1: Objects/Instruments/Percussion/FieldDrumA/jav_inst_FieldDrumA_mat.mtl
   SkinOverride2: ""
   MaterialOverride2: ""
   SkinOverride3: ""
@@ -20568,7 +20859,7 @@
   PrimaryUse: Combat Melee
   IconPath: LoggingAxe
   MaxStackSize: 1.0
-  EquipType: AlwaysUnsheathed_RHand
+  EquipType: RSword_LeftHolster
   DamageStatMultiplier: OneHandAxeDamage
   WeaponMasteryCategoryId: ""
   TierNumber: 0.0
@@ -20646,7 +20937,7 @@
   ABABleed: null
   ABAFrostbite: null
   ABACurse: null
-  RangedAttackProfile: Hatchet
+  RangedAttackProfile: AI_Yonas
   AttachedSpellData: ""
   Appearance: ""
   FemaleAppearance: ""
@@ -20683,7 +20974,7 @@
   AmmoMesh: ""
   MannequinTag: 2H_Melee,Axe,Tool
   OffHandMannequinTag: ""
-  MeshOverride: "Objects\\Weapons\\Melee\\Axes\\2h\\GreatAxeA\\wep_axe2h_greataxea_t5.cdf"
+  MeshOverride: objects/weapons/melee/axes/2h/greataxeguardian/wep_axe2h_greataxeguardian_corrupted.cdf
   SkinOverride1: ""
   MaterialOverride1: ""
   SkinOverride2: ""
@@ -20743,7 +21034,7 @@
   ABABleed: 0.6
   ABAFrostbite: 0.6
   ABACurse: 0.6
-  RangedAttackProfile: ""
+  RangedAttackProfile: AI_Yonas
   AttachedSpellData: ""
   Appearance: ""
   FemaleAppearance: ""
@@ -21556,7 +21847,7 @@
   AmmoMesh: ""
   MannequinTag: 1H_Caster,Staff
   OffHandMannequinTag: ""
-  MeshOverride: objects/weapons/supernatural/pearl/pearl.cgf
+  MeshOverride: ""
   SkinOverride1: ""
   MaterialOverride1: ""
   SkinOverride2: ""
@@ -26306,7 +26597,7 @@
   AmmoType: Thrown
   MaxLoadedAmmo: null
   AutoReloadAmmoSeconds: null
-  AmmoMesh: objects/weapons/melee/spears/2h/spearAncientJavelineer/wep_me1h_spearAncientJavelineer.cdf
+  AmmoMesh: ""
   MannequinTag: 1H_Melee,Spear
   OffHandMannequinTag: ""
   MeshOverride: objects/weapons/melee/spears/2h/spearAncientJavelineer/wep_me1h_spearAncientJavelineer_lookbase.cdf
@@ -26407,6 +26698,200 @@
   MannequinTag: Shield
   OffHandMannequinTag: Shield_OH
   MeshOverride: "Objects/Weapons/Shields/B_Kite\\KiteA\\wep_shld_kitea_t3.cdf"
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: ""
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: 1H_Club_Attack1
+  TooltipAlternateAttackData: 1H_Club_Attack2
+  AnimDbPath: Animations/Mannequin/ADB/npc_ancientguardian_weaponattach.adb
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: null
+  MaxGatherEFF: null
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.0
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: WeaponHit1
+  PhysicalArmorSetScaleFactor: null
+  ElementalArmorSetScaleFactor: null
+  ArmorRatingScaleFactor: null
+  WeightOverride: null
+  BlockStaminaDamage: 100.0
+  BlockStability: 25.0
+  DeflectionRating: 2.0
+  BLAStandard: "1"
+  BLASiege: 1.0
+  BLAStrike: 1.0
+  BLASlash: 1.0
+  BLAThrust: 1.0
+  BLAArcane: 1.0
+  BLAFire: 1.0
+  BLAIce: 1.0
+  BLANature: 1.0
+  BLALightning: 1.0
+  BLACorruption: 1.0
+  ABAPoison: null
+  ABADisease: null
+  ABABleed: null
+  ABAFrostbite: null
+  ABACurse: null
+  RangedAttackProfile: ""
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: true
+  RangedBlockHealthDamageScaling: null
+  RangedBlockStaminaDamageScaling: null
+  ManaCostId: ""
+  WeaponEffectId: ""
+  BaseAccuracy: 89.0
+  SoundTableID: ""
+  IsShieldCompatible: null
+  HideMainWeaponMeshWhileSheathed: null
+- WeaponID: AnubianGuardian_Weapon_1H_Spear
+  BaseWeaponID: ""
+  DEV Prio: 1.0
+  PrimaryUse: Combat Melee
+  IconPath: LoggingAxe
+  MaxStackSize: 1.0
+  EquipType: AlwaysUnsheathed_RHand
+  DamageStatMultiplier: OneHandSwordDamage
+  WeaponMasteryCategoryId: ""
+  TierNumber: 0.0
+  BaseDamage: 1150.0
+  CritChance: 0.03
+  CritDamageMultiplier: 1.3
+  BaseStaggerDamage: 33.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: melee
+  ReticleTargetName: meleeHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: Thrown
+  MaxLoadedAmmo: null
+  AutoReloadAmmoSeconds: null
+  AmmoMesh: ""
+  MannequinTag: 1H_Melee,Spear
+  OffHandMannequinTag: ""
+  MeshOverride: objects/weapons/melee/spears/2h/speara/jav_wep_mel2h_speara_t3.cdf
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: ""
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: 1H_Club_Attack1
+  TooltipAlternateAttackData: 1H_Club_Attack2
+  AnimDbPath: Animations/Mannequin/ADB/npc_ancientguardian_weaponattach.adb
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: null
+  MaxGatherEFF: null
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.0
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: WeaponHit1
+  PhysicalArmorSetScaleFactor: null
+  ElementalArmorSetScaleFactor: null
+  ArmorRatingScaleFactor: null
+  WeightOverride: null
+  BlockStaminaDamage: 100.0
+  BlockStability: 0.0
+  DeflectionRating: 1.0
+  BLAStandard: ""
+  BLASiege: null
+  BLAStrike: null
+  BLASlash: null
+  BLAThrust: null
+  BLAArcane: null
+  BLAFire: null
+  BLAIce: null
+  BLANature: null
+  BLALightning: null
+  BLACorruption: null
+  ABAPoison: null
+  ABADisease: null
+  ABABleed: null
+  ABAFrostbite: null
+  ABACurse: null
+  RangedAttackProfile: AI_Spear
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: null
+  RangedBlockHealthDamageScaling: null
+  RangedBlockStaminaDamageScaling: null
+  ManaCostId: ""
+  WeaponEffectId: Spear
+  BaseAccuracy: 89.0
+  SoundTableID: ""
+  IsShieldCompatible: null
+  HideMainWeaponMeshWhileSheathed: null
+- WeaponID: AnubianGuardian_Shield
+  BaseWeaponID: ""
+  DEV Prio: 1.0
+  PrimaryUse: Combat Melee
+  IconPath: LoggingAxe
+  MaxStackSize: 1.0
+  EquipType: AlwaysUnsheathed_RHand
+  DamageStatMultiplier: ""
+  WeaponMasteryCategoryId: ""
+  TierNumber: 0.0
+  BaseDamage: 140.0
+  CritChance: 0.03
+  CritDamageMultiplier: 1.3
+  BaseStaggerDamage: 200.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: melee
+  ReticleTargetName: meleeHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: ""
+  MaxLoadedAmmo: null
+  AutoReloadAmmoSeconds: null
+  AmmoMesh: ""
+  MannequinTag: Shield
+  OffHandMannequinTag: Shield_OH
+  MeshOverride: objects/weapons/shields/kiteshieldwar/wep_mel_shld_1h_kiteshieldwar.cdf
   SkinOverride1: ""
   MaterialOverride1: ""
   SkinOverride2: ""
@@ -35500,6 +35985,297 @@
   SoundTableID: ""
   IsShieldCompatible: null
   HideMainWeaponMeshWhileSheathed: null
+- WeaponID: Hercyne_Boar_Weapon
+  BaseWeaponID: ""
+  DEV Prio: 1.0
+  PrimaryUse: Combat Melee
+  IconPath: placeholder
+  MaxStackSize: 1.0
+  EquipType: AlwaysUnsheathed_RHand
+  DamageStatMultiplier: ""
+  WeaponMasteryCategoryId: ""
+  TierNumber: 0.0
+  BaseDamage: 2189.0
+  CritChance: 0.03
+  CritDamageMultiplier: 1.3
+  BaseStaggerDamage: 100.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: melee
+  ReticleTargetName: meleeHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: Thrown
+  MaxLoadedAmmo: null
+  AutoReloadAmmoSeconds: null
+  AmmoMesh: "Objects\\VFX\\Mesh\\Generic\\sphere_collision.cgf"
+  MannequinTag: Unarmed
+  OffHandMannequinTag: ""
+  MeshOverride: ""
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: ""
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: ""
+  TooltipAlternateAttackData: ""
+  AnimDbPath: ""
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: null
+  MaxGatherEFF: null
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.0
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: WeaponHit1
+  PhysicalArmorSetScaleFactor: null
+  ElementalArmorSetScaleFactor: null
+  ArmorRatingScaleFactor: null
+  WeightOverride: null
+  BlockStaminaDamage: 100.0
+  BlockStability: 35.0
+  DeflectionRating: 2.0
+  BLAStandard: ""
+  BLASiege: null
+  BLAStrike: null
+  BLASlash: null
+  BLAThrust: null
+  BLAArcane: null
+  BLAFire: null
+  BLAIce: null
+  BLANature: null
+  BLALightning: null
+  BLACorruption: null
+  ABAPoison: null
+  ABADisease: null
+  ABABleed: null
+  ABAFrostbite: null
+  ABACurse: null
+  RangedAttackProfile: AI_Hercyne
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: null
+  RangedBlockHealthDamageScaling: null
+  RangedBlockStaminaDamageScaling: null
+  ManaCostId: ""
+  WeaponEffectId: ""
+  BaseAccuracy: 89.0
+  SoundTableID: ""
+  IsShieldCompatible: null
+  HideMainWeaponMeshWhileSheathed: null
+- WeaponID: Hercyne_Corvid_Weapon
+  BaseWeaponID: ""
+  DEV Prio: 1.0
+  PrimaryUse: Combat Melee
+  IconPath: placeholder
+  MaxStackSize: 1.0
+  EquipType: AlwaysUnsheathed_RHand
+  DamageStatMultiplier: ""
+  WeaponMasteryCategoryId: ""
+  TierNumber: 0.0
+  BaseDamage: 2189.0
+  CritChance: 0.03
+  CritDamageMultiplier: 1.3
+  BaseStaggerDamage: 100.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: melee
+  ReticleTargetName: meleeHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: Thrown
+  MaxLoadedAmmo: null
+  AutoReloadAmmoSeconds: null
+  AmmoMesh: "Objects\\VFX\\Mesh\\Generic\\sphere_collision.cgf"
+  MannequinTag: Unarmed
+  OffHandMannequinTag: ""
+  MeshOverride: ""
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: ""
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: ""
+  TooltipAlternateAttackData: ""
+  AnimDbPath: ""
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: null
+  MaxGatherEFF: null
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.0
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: WeaponHit1
+  PhysicalArmorSetScaleFactor: null
+  ElementalArmorSetScaleFactor: null
+  ArmorRatingScaleFactor: null
+  WeightOverride: null
+  BlockStaminaDamage: 100.0
+  BlockStability: 35.0
+  DeflectionRating: 2.0
+  BLAStandard: ""
+  BLASiege: null
+  BLAStrike: null
+  BLASlash: null
+  BLAThrust: null
+  BLAArcane: null
+  BLAFire: null
+  BLAIce: null
+  BLANature: null
+  BLALightning: null
+  BLACorruption: null
+  ABAPoison: null
+  ABADisease: null
+  ABABleed: null
+  ABAFrostbite: null
+  ABACurse: null
+  RangedAttackProfile: AI_Hercyne
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: null
+  RangedBlockHealthDamageScaling: null
+  RangedBlockStaminaDamageScaling: null
+  ManaCostId: ""
+  WeaponEffectId: ""
+  BaseAccuracy: 89.0
+  SoundTableID: ""
+  IsShieldCompatible: null
+  HideMainWeaponMeshWhileSheathed: null
+- WeaponID: Hercyne_Reindeer_Weapon
+  BaseWeaponID: ""
+  DEV Prio: 1.0
+  PrimaryUse: Combat Melee
+  IconPath: placeholder
+  MaxStackSize: 1.0
+  EquipType: AlwaysUnsheathed_RHand
+  DamageStatMultiplier: ""
+  WeaponMasteryCategoryId: ""
+  TierNumber: 0.0
+  BaseDamage: 2189.0
+  CritChance: 0.03
+  CritDamageMultiplier: 1.3
+  BaseStaggerDamage: 100.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: melee
+  ReticleTargetName: meleeHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: Thrown
+  MaxLoadedAmmo: null
+  AutoReloadAmmoSeconds: null
+  AmmoMesh: "Objects\\VFX\\Mesh\\Generic\\sphere_collision.cgf"
+  MannequinTag: Unarmed
+  OffHandMannequinTag: ""
+  MeshOverride: ""
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: ""
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: ""
+  TooltipAlternateAttackData: ""
+  AnimDbPath: ""
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: null
+  MaxGatherEFF: null
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.0
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: WeaponHit1
+  PhysicalArmorSetScaleFactor: null
+  ElementalArmorSetScaleFactor: null
+  ArmorRatingScaleFactor: null
+  WeightOverride: null
+  BlockStaminaDamage: 100.0
+  BlockStability: 35.0
+  DeflectionRating: 2.0
+  BLAStandard: ""
+  BLASiege: null
+  BLAStrike: null
+  BLASlash: null
+  BLAThrust: null
+  BLAArcane: null
+  BLAFire: null
+  BLAIce: null
+  BLANature: null
+  BLALightning: null
+  BLACorruption: null
+  ABAPoison: null
+  ABADisease: null
+  ABABleed: null
+  ABAFrostbite: null
+  ABACurse: null
+  RangedAttackProfile: AI_Hercyne
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: null
+  RangedBlockHealthDamageScaling: null
+  RangedBlockStaminaDamageScaling: null
+  ManaCostId: ""
+  WeaponEffectId: ""
+  BaseAccuracy: 89.0
+  SoundTableID: ""
+  IsShieldCompatible: null
+  HideMainWeaponMeshWhileSheathed: null
 - WeaponID: DryadSiren_Spear
   BaseWeaponID: ""
   DEV Prio: 1.0
@@ -38798,6 +39574,103 @@
   SoundTableID: ""
   IsShieldCompatible: null
   HideMainWeaponMeshWhileSheathed: null
+- WeaponID: Rat_HercyneRat_Weapon
+  BaseWeaponID: ""
+  DEV Prio: 1.0
+  PrimaryUse: Combat Melee
+  IconPath: placeholder
+  MaxStackSize: 1.0
+  EquipType: EquippableMouth
+  DamageStatMultiplier: ""
+  WeaponMasteryCategoryId: ""
+  TierNumber: 0.0
+  BaseDamage: 1500.0
+  CritChance: 0.03
+  CritDamageMultiplier: 1.3
+  BaseStaggerDamage: 75.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: melee
+  ReticleTargetName: meleeHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: ""
+  MaxLoadedAmmo: null
+  AutoReloadAmmoSeconds: null
+  AmmoMesh: ""
+  MannequinTag: Unarmed
+  OffHandMannequinTag: ""
+  MeshOverride: ""
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: ""
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: ""
+  TooltipAlternateAttackData: ""
+  AnimDbPath: ""
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: null
+  MaxGatherEFF: null
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.0
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: WeaponHit1
+  PhysicalArmorSetScaleFactor: null
+  ElementalArmorSetScaleFactor: null
+  ArmorRatingScaleFactor: null
+  WeightOverride: null
+  BlockStaminaDamage: 100.0
+  BlockStability: 35.0
+  DeflectionRating: 1.0
+  BLAStandard: ""
+  BLASiege: null
+  BLAStrike: null
+  BLASlash: null
+  BLAThrust: null
+  BLAArcane: null
+  BLAFire: null
+  BLAIce: null
+  BLANature: null
+  BLALightning: null
+  BLACorruption: null
+  ABAPoison: null
+  ABADisease: null
+  ABABleed: null
+  ABAFrostbite: null
+  ABACurse: null
+  RangedAttackProfile: ""
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: null
+  RangedBlockHealthDamageScaling: null
+  RangedBlockStaminaDamageScaling: null
+  ManaCostId: ""
+  WeaponEffectId: ""
+  BaseAccuracy: 89.0
+  SoundTableID: ""
+  IsShieldCompatible: null
+  HideMainWeaponMeshWhileSheathed: null
 - WeaponID: Ranger_Sword
   BaseWeaponID: ""
   DEV Prio: 1.0
@@ -39113,7 +39986,7 @@
   AmmoMesh: ""
   MannequinTag: 1H_Caster
   OffHandMannequinTag: ""
-  MeshOverride: objects/weapons/supernatural/pearl/pearl.cgf
+  MeshOverride: ""
   SkinOverride1: ""
   MaterialOverride1: ""
   SkinOverride2: ""
@@ -40447,6 +41320,879 @@
   SoundTableID: ""
   IsShieldCompatible: null
   HideMainWeaponMeshWhileSheathed: null
+- WeaponID: Mammoth
+  BaseWeaponID: ""
+  DEV Prio: 1.0
+  PrimaryUse: Combat Melee
+  IconPath: placeholder
+  MaxStackSize: 1.0
+  EquipType: EquippableMouth
+  DamageStatMultiplier: ""
+  WeaponMasteryCategoryId: ""
+  TierNumber: 0.0
+  BaseDamage: 1750.0
+  CritChance: 0.03
+  CritDamageMultiplier: 1.3
+  BaseStaggerDamage: 100.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: melee
+  ReticleTargetName: meleeHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: ""
+  MaxLoadedAmmo: null
+  AutoReloadAmmoSeconds: null
+  AmmoMesh: ""
+  MannequinTag: Unarmed
+  OffHandMannequinTag: ""
+  MeshOverride: ""
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: ""
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: ""
+  TooltipAlternateAttackData: ""
+  AnimDbPath: ""
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: null
+  MaxGatherEFF: null
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.0
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: WeaponHit1
+  PhysicalArmorSetScaleFactor: null
+  ElementalArmorSetScaleFactor: null
+  ArmorRatingScaleFactor: null
+  WeightOverride: null
+  BlockStaminaDamage: 100.0
+  BlockStability: 35.0
+  DeflectionRating: 2.0
+  BLAStandard: ""
+  BLASiege: null
+  BLAStrike: null
+  BLASlash: null
+  BLAThrust: null
+  BLAArcane: null
+  BLAFire: null
+  BLAIce: null
+  BLANature: null
+  BLALightning: null
+  BLACorruption: null
+  ABAPoison: null
+  ABADisease: null
+  ABABleed: null
+  ABAFrostbite: null
+  ABACurse: null
+  RangedAttackProfile: AI_Mammoth
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: null
+  RangedBlockHealthDamageScaling: null
+  RangedBlockStaminaDamageScaling: null
+  ManaCostId: ""
+  WeaponEffectId: ""
+  BaseAccuracy: 89.0
+  SoundTableID: ""
+  IsShieldCompatible: null
+  HideMainWeaponMeshWhileSheathed: null
+- WeaponID: Gorilla
+  BaseWeaponID: ""
+  DEV Prio: 1.0
+  PrimaryUse: Combat Melee
+  IconPath: placeholder
+  MaxStackSize: 1.0
+  EquipType: Brute
+  DamageStatMultiplier: ""
+  WeaponMasteryCategoryId: ""
+  TierNumber: 0.0
+  BaseDamage: 2189.0
+  CritChance: 0.03
+  CritDamageMultiplier: 1.3
+  BaseStaggerDamage: 100.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: melee
+  ReticleTargetName: meleeHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: ""
+  MaxLoadedAmmo: null
+  AutoReloadAmmoSeconds: null
+  AmmoMesh: ""
+  MannequinTag: Unarmed
+  OffHandMannequinTag: ""
+  MeshOverride: ""
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: ""
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: ""
+  TooltipAlternateAttackData: ""
+  AnimDbPath: ""
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: null
+  MaxGatherEFF: null
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.0
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: WeaponHit1
+  PhysicalArmorSetScaleFactor: null
+  ElementalArmorSetScaleFactor: null
+  ArmorRatingScaleFactor: null
+  WeightOverride: null
+  BlockStaminaDamage: 100.0
+  BlockStability: 35.0
+  DeflectionRating: 2.0
+  BLAStandard: ""
+  BLASiege: null
+  BLAStrike: null
+  BLASlash: null
+  BLAThrust: null
+  BLAArcane: null
+  BLAFire: null
+  BLAIce: null
+  BLANature: null
+  BLALightning: null
+  BLACorruption: null
+  ABAPoison: null
+  ABADisease: null
+  ABABleed: null
+  ABAFrostbite: null
+  ABACurse: null
+  RangedAttackProfile: AI_Gorilla
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: null
+  RangedBlockHealthDamageScaling: null
+  RangedBlockStaminaDamageScaling: null
+  ManaCostId: ""
+  WeaponEffectId: ""
+  BaseAccuracy: 89.0
+  SoundTableID: ""
+  IsShieldCompatible: null
+  HideMainWeaponMeshWhileSheathed: null
+- WeaponID: MegaFlora_RazorLotus_Weapon
+  BaseWeaponID: ""
+  DEV Prio: 1.0
+  PrimaryUse: Combat Melee
+  IconPath: placeholder
+  MaxStackSize: 1.0
+  EquipType: EquippableMouth
+  DamageStatMultiplier: OneHandSwordDamage
+  WeaponMasteryCategoryId: ""
+  TierNumber: 0.0
+  BaseDamage: 125.0
+  CritChance: 0.03
+  CritDamageMultiplier: 1.3
+  BaseStaggerDamage: 100.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: melee
+  ReticleTargetName: meleeHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: ""
+  MaxLoadedAmmo: null
+  AutoReloadAmmoSeconds: null
+  AmmoMesh: ""
+  MannequinTag: Unarmed
+  OffHandMannequinTag: ""
+  MeshOverride: ""
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: FXattach_A
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: ""
+  TooltipAlternateAttackData: ""
+  AnimDbPath: Animations/Mannequin/ADB/PlayerMaleAnims_1H_MeleeAttach.adb
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: null
+  MaxGatherEFF: null
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.0
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: WeaponHit1
+  PhysicalArmorSetScaleFactor: null
+  ElementalArmorSetScaleFactor: null
+  ArmorRatingScaleFactor: null
+  WeightOverride: null
+  BlockStaminaDamage: 100.0
+  BlockStability: 35.0
+  DeflectionRating: 0.0
+  BLAStandard: ""
+  BLASiege: null
+  BLAStrike: null
+  BLASlash: null
+  BLAThrust: null
+  BLAArcane: null
+  BLAFire: null
+  BLAIce: null
+  BLANature: null
+  BLALightning: null
+  BLACorruption: null
+  ABAPoison: null
+  ABADisease: null
+  ABABleed: null
+  ABAFrostbite: null
+  ABACurse: null
+  RangedAttackProfile: AI_MegaFlora_RazorLotus
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: null
+  RangedBlockHealthDamageScaling: null
+  RangedBlockStaminaDamageScaling: null
+  ManaCostId: ""
+  WeaponEffectId: ""
+  BaseAccuracy: 89.0
+  SoundTableID: ""
+  IsShieldCompatible: null
+  HideMainWeaponMeshWhileSheathed: null
+- WeaponID: FirstLight_Adiana_bow
+  BaseWeaponID: ""
+  DEV Prio: 3.0
+  PrimaryUse: Combat Ranged
+  IconPath: LoggingAxe
+  MaxStackSize: 1.0
+  EquipType: AlwaysUnsheathed_LHand
+  DamageStatMultiplier: BowDamage
+  WeaponMasteryCategoryId: ""
+  TierNumber: 0.0
+  BaseDamage: 1167.0
+  CritChance: 0.03
+  CritDamageMultiplier: 1.3
+  BaseStaggerDamage: 100.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: bow
+  ReticleTargetName: bowHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: Arrow
+  MaxLoadedAmmo: null
+  AutoReloadAmmoSeconds: null
+  AmmoMesh: "objects\\weapons\\ranged\\projectiles\\arrowa\\jav_wep_gear_arrowa.cgf"
+  MannequinTag: Bow
+  OffHandMannequinTag: ""
+  MeshOverride: "Objects\\Weapons\\Ranged\\Bows\\2h\\bowAdiana\\wep_ran_bow_2h_bowAdiana.cdf"
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: bow_root_jnt
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: BowAttack1
+  TooltipAlternateAttackData: BowAttack2
+  AnimDbPath: animations/Mannequin/ADB/npc_adiana_weaponanims.adb
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: null
+  MaxGatherEFF: null
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.0
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: WeaponHit3
+  PhysicalArmorSetScaleFactor: null
+  ElementalArmorSetScaleFactor: null
+  ArmorRatingScaleFactor: null
+  WeightOverride: null
+  BlockStaminaDamage: 100.0
+  BlockStability: 25.0
+  DeflectionRating: 0.0
+  BLAStandard: ""
+  BLASiege: null
+  BLAStrike: null
+  BLASlash: null
+  BLAThrust: null
+  BLAArcane: null
+  BLAFire: null
+  BLAIce: null
+  BLANature: null
+  BLALightning: null
+  BLACorruption: null
+  ABAPoison: null
+  ABADisease: null
+  ABABleed: null
+  ABAFrostbite: null
+  ABACurse: null
+  RangedAttackProfile: AI_Bow
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: null
+  RangedBlockHealthDamageScaling: null
+  RangedBlockStaminaDamageScaling: null
+  ManaCostId: ""
+  WeaponEffectId: ""
+  BaseAccuracy: 89.0
+  SoundTableID: ""
+  IsShieldCompatible: null
+  HideMainWeaponMeshWhileSheathed: null
+- WeaponID: CorruptedLeviathan_Claws
+  BaseWeaponID: ""
+  DEV Prio: 1.0
+  PrimaryUse: Combat Ranged
+  IconPath: placeholder
+  MaxStackSize: 1.0
+  EquipType: EquippableMouth
+  DamageStatMultiplier: ""
+  WeaponMasteryCategoryId: ""
+  TierNumber: 0.0
+  BaseDamage: 344.0
+  CritChance: 0.03
+  CritDamageMultiplier: 1.3
+  BaseStaggerDamage: 100.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: melee
+  ReticleTargetName: pistolHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: Shot
+  MaxLoadedAmmo: null
+  AutoReloadAmmoSeconds: null
+  AmmoMesh: ""
+  MannequinTag: Unarmed
+  OffHandMannequinTag: ""
+  MeshOverride: ""
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: ""
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: ""
+  TooltipAlternateAttackData: ""
+  AnimDbPath: Animations/Mannequin/ADB/NPC_CorruptedLeviathan_weapon_anims.adb
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: null
+  MaxGatherEFF: null
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.0
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: WeaponHit1
+  PhysicalArmorSetScaleFactor: null
+  ElementalArmorSetScaleFactor: null
+  ArmorRatingScaleFactor: null
+  WeightOverride: null
+  BlockStaminaDamage: 100.0
+  BlockStability: 35.0
+  DeflectionRating: 0.0
+  BLAStandard: ""
+  BLASiege: null
+  BLAStrike: null
+  BLASlash: null
+  BLAThrust: null
+  BLAArcane: null
+  BLAFire: null
+  BLAIce: null
+  BLANature: null
+  BLALightning: null
+  BLACorruption: null
+  ABAPoison: null
+  ABADisease: null
+  ABABleed: null
+  ABAFrostbite: null
+  ABACurse: null
+  RangedAttackProfile: AI_CorruptedLeviathan
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: null
+  RangedBlockHealthDamageScaling: null
+  RangedBlockStaminaDamageScaling: null
+  ManaCostId: ""
+  WeaponEffectId: ""
+  BaseAccuracy: 89.0
+  SoundTableID: ""
+  IsShieldCompatible: null
+  HideMainWeaponMeshWhileSheathed: null
+- WeaponID: Elk_Motherwell_Weapon
+  BaseWeaponID: ""
+  DEV Prio: 1.0
+  PrimaryUse: Combat Melee
+  IconPath: placeholder
+  MaxStackSize: 1.0
+  EquipType: EquippableMouth
+  DamageStatMultiplier: ""
+  WeaponMasteryCategoryId: ""
+  TierNumber: 0.0
+  BaseDamage: 1000.0
+  CritChance: 0.03
+  CritDamageMultiplier: 1.3
+  BaseStaggerDamage: 100.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: melee
+  ReticleTargetName: meleeHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: ""
+  MaxLoadedAmmo: null
+  AutoReloadAmmoSeconds: null
+  AmmoMesh: ""
+  MannequinTag: Unarmed
+  OffHandMannequinTag: ""
+  MeshOverride: ""
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: ""
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: ""
+  TooltipAlternateAttackData: ""
+  AnimDbPath: ""
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: null
+  MaxGatherEFF: null
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.0
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: WeaponHit1
+  PhysicalArmorSetScaleFactor: null
+  ElementalArmorSetScaleFactor: null
+  ArmorRatingScaleFactor: null
+  WeightOverride: null
+  BlockStaminaDamage: 100.0
+  BlockStability: 35.0
+  DeflectionRating: 1.0
+  BLAStandard: ""
+  BLASiege: null
+  BLAStrike: null
+  BLASlash: null
+  BLAThrust: null
+  BLAArcane: null
+  BLAFire: null
+  BLAIce: null
+  BLANature: null
+  BLALightning: null
+  BLACorruption: null
+  ABAPoison: null
+  ABADisease: null
+  ABABleed: null
+  ABAFrostbite: null
+  ABACurse: null
+  RangedAttackProfile: ""
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: null
+  RangedBlockHealthDamageScaling: null
+  RangedBlockStaminaDamageScaling: null
+  ManaCostId: ""
+  WeaponEffectId: ""
+  BaseAccuracy: 89.0
+  SoundTableID: ""
+  IsShieldCompatible: null
+  HideMainWeaponMeshWhileSheathed: null
+- WeaponID: CorruptedLeviathan_Tendril_Weapon
+  BaseWeaponID: ""
+  DEV Prio: 1.0
+  PrimaryUse: Combat Melee
+  IconPath: placeholder
+  MaxStackSize: 1.0
+  EquipType: Tendril
+  DamageStatMultiplier: OneHandSwordDamage
+  WeaponMasteryCategoryId: ""
+  TierNumber: 0.0
+  BaseDamage: 125.0
+  CritChance: 0.03
+  CritDamageMultiplier: 1.3
+  BaseStaggerDamage: 100.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: melee
+  ReticleTargetName: meleeHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: ""
+  MaxLoadedAmmo: null
+  AutoReloadAmmoSeconds: null
+  AmmoMesh: ""
+  MannequinTag: ""
+  OffHandMannequinTag: ""
+  MeshOverride: ""
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: ""
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: ""
+  TooltipAlternateAttackData: ""
+  AnimDbPath: Animations/Mannequin/ADB/PlayerMaleAnims_1H_MeleeAttach.adb
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: null
+  MaxGatherEFF: null
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.0
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: WeaponHit1
+  PhysicalArmorSetScaleFactor: null
+  ElementalArmorSetScaleFactor: null
+  ArmorRatingScaleFactor: null
+  WeightOverride: null
+  BlockStaminaDamage: 100.0
+  BlockStability: 35.0
+  DeflectionRating: 0.0
+  BLAStandard: ""
+  BLASiege: null
+  BLAStrike: null
+  BLASlash: null
+  BLAThrust: null
+  BLAArcane: null
+  BLAFire: null
+  BLAIce: null
+  BLANature: null
+  BLALightning: null
+  BLACorruption: null
+  ABAPoison: null
+  ABADisease: null
+  ABABleed: null
+  ABAFrostbite: null
+  ABACurse: null
+  RangedAttackProfile: AI_CorruptedLeviathan
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: null
+  RangedBlockHealthDamageScaling: null
+  RangedBlockStaminaDamageScaling: null
+  ManaCostId: ""
+  WeaponEffectId: ""
+  BaseAccuracy: 89.0
+  SoundTableID: ""
+  IsShieldCompatible: null
+  HideMainWeaponMeshWhileSheathed: null
+- WeaponID: Overgrown_Beetle_Claws
+  BaseWeaponID: ""
+  DEV Prio: 1.0
+  PrimaryUse: Combat Melee
+  IconPath: placeholder
+  MaxStackSize: 1.0
+  EquipType: EquippableMouth
+  DamageStatMultiplier: ""
+  WeaponMasteryCategoryId: ""
+  TierNumber: 0.0
+  BaseDamage: 1142.0
+  CritChance: 0.03
+  CritDamageMultiplier: 1.3
+  BaseStaggerDamage: 100.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: melee
+  ReticleTargetName: meleeHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: ""
+  MaxLoadedAmmo: null
+  AutoReloadAmmoSeconds: null
+  AmmoMesh: ""
+  MannequinTag: Unarmed
+  OffHandMannequinTag: ""
+  MeshOverride: ""
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: ""
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: ""
+  TooltipAlternateAttackData: ""
+  AnimDbPath: ""
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: null
+  MaxGatherEFF: null
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.0
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: WeaponHit1
+  PhysicalArmorSetScaleFactor: null
+  ElementalArmorSetScaleFactor: null
+  ArmorRatingScaleFactor: null
+  WeightOverride: null
+  BlockStaminaDamage: 100.0
+  BlockStability: 35.0
+  DeflectionRating: 1.0
+  BLAStandard: ""
+  BLASiege: null
+  BLAStrike: null
+  BLASlash: null
+  BLAThrust: null
+  BLAArcane: null
+  BLAFire: null
+  BLAIce: null
+  BLANature: null
+  BLALightning: null
+  BLACorruption: null
+  ABAPoison: null
+  ABADisease: null
+  ABABleed: null
+  ABAFrostbite: null
+  ABACurse: null
+  RangedAttackProfile: ""
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: null
+  RangedBlockHealthDamageScaling: null
+  RangedBlockStaminaDamageScaling: null
+  ManaCostId: ""
+  WeaponEffectId: ""
+  BaseAccuracy: 89.0
+  SoundTableID: ""
+  IsShieldCompatible: null
+  HideMainWeaponMeshWhileSheathed: null
+- WeaponID: Medusa_Claws
+  BaseWeaponID: ""
+  DEV Prio: 1.0
+  PrimaryUse: Combat Melee
+  IconPath: LoggingAxe
+  MaxStackSize: 1.0
+  EquipType: AlwaysUnsheathed_RHand
+  DamageStatMultiplier: OneHandSwordDamage
+  WeaponMasteryCategoryId: ""
+  TierNumber: 0.0
+  BaseDamage: 100.0
+  CritChance: 0.03
+  CritDamageMultiplier: 1.3
+  BaseStaggerDamage: 25.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: melee
+  ReticleTargetName: meleeHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: Thrown
+  MaxLoadedAmmo: null
+  AutoReloadAmmoSeconds: null
+  AmmoMesh: ""
+  MannequinTag: Unarmed
+  OffHandMannequinTag: ""
+  MeshOverride: ""
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: ""
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: 1H_Club_Attack1
+  TooltipAlternateAttackData: 1H_Club_Attack2
+  AnimDbPath: Animations/Mannequin/ADB/npc_naga_weapon_anims.adb
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: null
+  MaxGatherEFF: null
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.0
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: WeaponHit1
+  PhysicalArmorSetScaleFactor: null
+  ElementalArmorSetScaleFactor: null
+  ArmorRatingScaleFactor: null
+  WeightOverride: null
+  BlockStaminaDamage: 100.0
+  BlockStability: 15.0
+  DeflectionRating: 2.0
+  BLAStandard: ""
+  BLASiege: null
+  BLAStrike: null
+  BLASlash: null
+  BLAThrust: null
+  BLAArcane: null
+  BLAFire: null
+  BLAIce: null
+  BLANature: null
+  BLALightning: null
+  BLACorruption: null
+  ABAPoison: null
+  ABADisease: null
+  ABABleed: null
+  ABAFrostbite: null
+  ABACurse: null
+  RangedAttackProfile: AI_Ranged_AOE
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: null
+  RangedBlockHealthDamageScaling: null
+  RangedBlockStaminaDamageScaling: null
+  ManaCostId: ""
+  WeaponEffectId: ""
+  BaseAccuracy: 89.0
+  SoundTableID: ""
+  IsShieldCompatible: null
+  HideMainWeaponMeshWhileSheathed: null
 - WeaponID: FTUE Items
   BaseWeaponID: ""
   DEV Prio: null
@@ -40541,7 +42287,7 @@
   ManaCostId: ""
   WeaponEffectId: ""
   BaseAccuracy: null
-  SoundTableID: ""
+  SoundTableID: 1H_Sword
   IsShieldCompatible: null
   HideMainWeaponMeshWhileSheathed: null
 - WeaponID: 1hSwordT2_FTUE
@@ -40638,7 +42384,7 @@
   ManaCostId: SpecialAttack
   WeaponEffectId: Sword
   BaseAccuracy: 89.0
-  SoundTableID: 1H_Sword
+  SoundTableID: 1H_ShieldA_wood
   IsShieldCompatible: null
   HideMainWeaponMeshWhileSheathed: null
 - WeaponID: 1hShieldAT2_FTUE
@@ -40735,7 +42481,7 @@
   ManaCostId: SpecialAttack
   WeaponEffectId: Shield
   BaseAccuracy: 89.0
-  SoundTableID: 1H_ShieldA_wood
+  SoundTableID: ""
   IsShieldCompatible: null
   HideMainWeaponMeshWhileSheathed: null
 - WeaponID: Withered_Swarmancer_Staff
@@ -41899,7 +43645,7 @@
   ManaCostId: SpecialAttack
   WeaponEffectId: FireStaff
   BaseAccuracy: 90.0
-  SoundTableID: Staff_Fire
+  SoundTableID: 1H_Sword
   IsShieldCompatible: null
   HideMainWeaponMeshWhileSheathed: null
 - WeaponID: Skin_Longsword
@@ -42093,7 +43839,7 @@
   ManaCostId: SpecialAttack
   WeaponEffectId: Rapier
   BaseAccuracy: 89.0
-  SoundTableID: 1H_Sword
+  SoundTableID: 1H_Axe
   IsShieldCompatible: null
   HideMainWeaponMeshWhileSheathed: null
 - WeaponID: Skin_Hatchet
@@ -42190,7 +43936,7 @@
   ManaCostId: SpecialAttack
   WeaponEffectId: Hatchet
   BaseAccuracy: 90.0
-  SoundTableID: 1H_Axe
+  SoundTableID: 2H_WarHammer
   IsShieldCompatible: null
   HideMainWeaponMeshWhileSheathed: null
 - WeaponID: Skin_WarHammer
@@ -42287,7 +44033,7 @@
   ManaCostId: SpecialAttack
   WeaponEffectId: Warhammer
   BaseAccuracy: 89.0
-  SoundTableID: 2H_WarHammer
+  SoundTableID: 2H_GreatAxe
   IsShieldCompatible: null
   HideMainWeaponMeshWhileSheathed: null
 - WeaponID: Skin_GreatAxe
@@ -42384,7 +44130,7 @@
   ManaCostId: SpecialAttack
   WeaponEffectId: GreatAxe
   BaseAccuracy: 89.0
-  SoundTableID: 2H_GreatAxe
+  SoundTableID: 2H_Spear
   IsShieldCompatible: null
   HideMainWeaponMeshWhileSheathed: null
 - WeaponID: Skin_Spear
@@ -42481,7 +44227,7 @@
   ManaCostId: SpecialAttack
   WeaponEffectId: Spear
   BaseAccuracy: 100.0
-  SoundTableID: 2H_Spear
+  SoundTableID: 2H_Bow
   IsShieldCompatible: null
   HideMainWeaponMeshWhileSheathed: null
 - WeaponID: Skin_Bow
@@ -42578,7 +44324,7 @@
   ManaCostId: ""
   WeaponEffectId: Bow
   BaseAccuracy: 89.0
-  SoundTableID: 2H_Bow
+  SoundTableID: 2H_Rifle
   IsShieldCompatible: null
   HideMainWeaponMeshWhileSheathed: null
 - WeaponID: Skin_Musket
@@ -42675,7 +44421,7 @@
   ManaCostId: ""
   WeaponEffectId: Musket
   BaseAccuracy: 90.0
-  SoundTableID: 2H_Rifle
+  SoundTableID: Gauntlet_Ice
   IsShieldCompatible: null
   HideMainWeaponMeshWhileSheathed: null
 - WeaponID: Skin_IceGauntlet
@@ -42772,7 +44518,7 @@
   ManaCostId: ""
   WeaponEffectId: IceGauntlet
   BaseAccuracy: 90.0
-  SoundTableID: Gauntlet_Ice
+  SoundTableID: Gauntlet_Void
   IsShieldCompatible: null
   HideMainWeaponMeshWhileSheathed: null
 - WeaponID: Skin_VoidGauntlet
@@ -42869,7 +44615,7 @@
   ManaCostId: ""
   WeaponEffectId: VoidGauntlet
   BaseAccuracy: 100.0
-  SoundTableID: Gauntlet_Void
+  SoundTableID: Staff_Life
   IsShieldCompatible: null
   HideMainWeaponMeshWhileSheathed: null
 - WeaponID: Skin_LifeStaff
@@ -42966,7 +44712,7 @@
   ManaCostId: SpecialAttack
   WeaponEffectId: LifeStaff
   BaseAccuracy: 90.0
-  SoundTableID: Staff_Life
+  SoundTableID: 1H_ShieldA_metal
   IsShieldCompatible: null
   HideMainWeaponMeshWhileSheathed: null
 - WeaponID: Skin_Shield
@@ -43063,7 +44809,7 @@
   ManaCostId: SpecialAttack
   WeaponEffectId: Shield
   BaseAccuracy: 89.0
-  SoundTableID: 1H_ShieldA_metal
+  SoundTableID: ""
   IsShieldCompatible: null
   HideMainWeaponMeshWhileSheathed: null
 - WeaponID: Skin_SkinningKnife
@@ -43645,7 +45391,7 @@
   ManaCostId: ""
   WeaponEffectId: AzothStaff
   BaseAccuracy: 89.0
-  SoundTableID: ""
+  SoundTableID: 2H_Blunderbuss
   IsShieldCompatible: null
   HideMainWeaponMeshWhileSheathed: null
 - WeaponID: Skin_Blunderbuss
@@ -43742,7 +45488,7 @@
   ManaCostId: ""
   WeaponEffectId: Blunderbuss
   BaseAccuracy: 90.0
-  SoundTableID: 2H_Blunderbuss
+  SoundTableID: 2H_Greatsword
   IsShieldCompatible: null
   HideMainWeaponMeshWhileSheathed: null
 - WeaponID: Skin_GreatSword
@@ -43839,6 +45585,103 @@
   ManaCostId: SpecialAttack
   WeaponEffectId: GreatSword
   BaseAccuracy: 89.0
-  SoundTableID: 2H_Greatsword
+  SoundTableID: ""
   IsShieldCompatible: null
+  HideMainWeaponMeshWhileSheathed: null
+- WeaponID: Skin_Flail
+  BaseWeaponID: ""
+  DEV Prio: 3.0
+  PrimaryUse: Combat Melee
+  IconPath: weapon_ironrapier
+  MaxStackSize: 1.0
+  EquipType: RSword_LeftHolster
+  DamageStatMultiplier: OneHandSwordDamage
+  WeaponMasteryCategoryId: FlailAbilityTable
+  TierNumber: 2.0
+  BaseDamage: 58.0
+  CritChance: 0.06
+  CritDamageMultiplier: 1.2
+  BaseStaggerDamage: 36.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: melee
+  ReticleTargetName: spearHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: ""
+  MaxLoadedAmmo: null
+  AutoReloadAmmoSeconds: null
+  AmmoMesh: ""
+  MannequinTag: 1H_Melee,Flail
+  OffHandMannequinTag: Melee_OH
+  MeshOverride: objects/weapons/Melee/Flails/1h/flailAncestral/wep_mel_flail_1h_flailAncestral.cdf
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: ""
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: 1H_Flail_LightAttack1
+  TooltipAlternateAttackData: 1H_Flail_HeavyAttackChain_1
+  AnimDbPath: Animations/Mannequin/ADB/PlayerMaleAnims_1H_MeleeAttach.adb
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: null
+  MaxGatherEFF: null
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.0
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: WeaponHit5
+  PhysicalArmorSetScaleFactor: null
+  ElementalArmorSetScaleFactor: null
+  ArmorRatingScaleFactor: null
+  WeightOverride: 30.0
+  BlockStaminaDamage: 40.0
+  BlockStability: 22.0
+  DeflectionRating: 1.0
+  BLAStandard: "1"
+  BLASiege: 1.0
+  BLAStrike: 1.0
+  BLASlash: 1.0
+  BLAThrust: 1.0
+  BLAArcane: 1.0
+  BLAFire: 1.0
+  BLAIce: 1.0
+  BLANature: 1.0
+  BLALightning: 1.0
+  BLACorruption: 1.0
+  ABAPoison: 0.4
+  ABADisease: 0.4
+  ABABleed: 0.4
+  ABAFrostbite: 0.4
+  ABACurse: 0.4
+  RangedAttackProfile: ""
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: true
+  RangedBlockHealthDamageScaling: 0.5
+  RangedBlockStaminaDamageScaling: 0.5
+  ManaCostId: SpecialAttack
+  WeaponEffectId: Flail
+  BaseAccuracy: 89.0
+  SoundTableID: 1H_Flail
+  IsShieldCompatible: true
   HideMainWeaponMeshWhileSheathed: null

@@ -16,7 +16,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\npc_01_reeseww_walkaway_left.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_01_ReeseWW_A"
@@ -36,6 +36,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 2.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 2.0
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 01_ReeseMB_01
   NPCId: 01_ReeseMB_01
   Name: "@01_Reese"
@@ -54,7 +56,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\npc_01_reeseww_walkaway_left.timeline"
   AE.0_RequiredAchievementConditional: SwapActive_01_ReeseMB_A
@@ -74,6 +76,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 0.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 0.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 01_ReeseMB_02
   NPCId: 01_ReeseMB_02
   Name: "@01_Reese"
@@ -92,7 +96,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_01_ReeseMB_B"
@@ -112,6 +116,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 0.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 0.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 01_ReeseMB_02a
   NPCId: 01_ReeseMB_02
   Name: "@01_Reese"
@@ -130,7 +136,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\npc_01_reesemb_02_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_01_ReeseMB_B_Walkaway"
@@ -150,6 +156,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 0.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 0.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 01_ReeseMB_03
   NPCId: 01_ReeseMB_03
   Name: "@01_Reese"
@@ -168,7 +176,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\npc_01_reesemb_03_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_01_ReeseMB_C"
@@ -188,6 +196,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 01_GraceMB_01
   NPCId: 01_GraceMB_01
   Name: "@01_Grace"
@@ -206,7 +216,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\npc_01_gracemb_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_01_GraceMB_A"
@@ -226,6 +236,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 0.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 0.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 01_GraceMB_02
   NPCId: 01_GraceMB_02
   Name: "@01_Grace"
@@ -244,7 +256,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\npc_01_gracemb_02_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_01_GraceMB_B"
@@ -264,6 +276,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 01_GraceMB_03
   NPCId: 01_GraceMB_03
   Name: "@01_Grace"
@@ -282,7 +296,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\npc_01_graceww_03_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_01_GraceMB_C"
@@ -302,6 +316,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 01_ReeseWW_01
   NPCId: 01_ReeseWW_01
   Name: "@01_Reese"
@@ -320,7 +336,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\npc_01_reeseww_walkaway.timeline"
   AE.0_RequiredAchievementConditional: SwapActive_01_ReeseWW_A
@@ -340,6 +356,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 0.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 0.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 01_ReeseWW_02
   NPCId: 01_ReeseWW_02
   Name: "@01_Reese"
@@ -358,7 +376,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_01_ReeseWW_B"
@@ -378,6 +396,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 0.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 0.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 01_ReeseWW_02a
   NPCId: 01_ReeseWW_02
   Name: "@01_Reese"
@@ -396,7 +416,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\npc_02_reeseww_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_01_ReeseWW_B_Walkaway"
@@ -416,6 +436,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 0.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 0.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 01_ReeseWW_03
   NPCId: 01_ReeseWW_03
   Name: "@01_Reese"
@@ -434,7 +456,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\npc_03_reeseww_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_01_ReeseWW_C"
@@ -454,6 +476,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 01_GraceWW_01
   NPCId: 01_GraceWW_01
   Name: "@01_Grace"
@@ -472,7 +496,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\npc_01_graceww_01_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_01_GraceWW_A"
@@ -492,6 +516,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 0.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 0.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 01_GraceWW_02
   NPCId: 01_GraceWW_02
   Name: "@01_Grace"
@@ -510,7 +536,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\npc_01_gracemb_02_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_01_GraceWW_B"
@@ -530,6 +556,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 01_GraceWW_03
   NPCId: 01_GraceWW_03
   Name: "@01_Grace"
@@ -548,7 +576,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\npc_01_graceww_03_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_01_GraceWW_C"
@@ -568,6 +596,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 0425_herbalistWW
   NPCId: 0425_HerbalistWW
   Name: "@0425_Herbalist"
@@ -586,7 +616,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\npc_01_howe_mb_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_0425_HerbalistPath_ww"
@@ -606,6 +636,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 0425_herbalistMB
   NPCId: 0425_HerbalistMB
   Name: "@0425_Herbalist"
@@ -624,7 +656,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\npc_01_howe_mb_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_0425_HerbalistPath_mb"
@@ -644,6 +676,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 01_GraceWW_00
   NPCId: 01_GraceWW_00
   Name: "@01_Grace"
@@ -662,7 +696,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\npc_01_graceww_00_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_01_GraceWW_00"
@@ -682,6 +716,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 0.0
   AE.5_EventDelayDuration: 0.5
   AE.6_EventDelayDuration: 0.6
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 01_GraceMB_00
   NPCId: 01_GraceMB_00
   Name: "@01_Grace"
@@ -700,7 +736,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\npc_01_gracemb_00_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_01_GraceMB_00"
@@ -720,6 +756,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 0.0
   AE.5_EventDelayDuration: 0.5
   AE.6_EventDelayDuration: 0.6
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 06_LijsbetDeVries_01
   NPCId: 06_LijsbetDeVries01
   Name: "@06_LijsbetDeVries"
@@ -738,7 +776,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\unique_down_stairs_walkaway.timeline"
   AE.0_RequiredAchievementConditional: SwapActive_06_LijsbetDeVries_A
@@ -758,6 +796,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 06_MichaelLewis_01
   NPCId: 06_MichaelLewis01
   Name: "@06_MichaelLewis"
@@ -776,7 +816,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
   AE.0_RequiredAchievementConditional: SwapActive_06_MichaelLewis_A
@@ -796,6 +836,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 06_NessaHarrower_01
   NPCId: 06_NessaHarrower01
   Name: "@06_NessaHarrower"
@@ -814,7 +856,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
   AE.0_RequiredAchievementConditional: SwapActive_06_Nessa_A
@@ -834,6 +876,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 06_GraceWW_04
   NPCId: 06_GraceWW_04
   Name: "@01_Grace"
@@ -852,7 +896,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_170_right_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_06_GraceWW_D"
@@ -872,6 +916,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 06_NessaHarrower_05
   NPCId: 06_NessaHarrower05
   Name: "@06_NessaHarrower"
@@ -890,7 +936,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_170_left_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_06_Nessa_E"
@@ -910,6 +956,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 1625_Ghazi_p3
   NPCId: 1625_Ghazi_p3
   Name: "@1625_Ghazi"
@@ -928,7 +976,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_1625_Ghazi_p3_On"
@@ -948,6 +996,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 1624_Imhotep_v1p2
   NPCId: 1624_Imhotep_v1p2
   Name: "@1624_Imhotep"
@@ -966,7 +1016,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\curve_90_right_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_1624_Imhotep_v1p2_On"
@@ -986,6 +1036,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 0.5
   AE.5_EventDelayDuration: 2.8
   AE.6_EventDelayDuration: 3.2
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 1624_Imhotep_v1p4
   NPCId: 1624_Imhotep_v1p4
   Name: "@1624_Imhotep"
@@ -1004,7 +1056,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Timelines\\EmptyTimeline.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_1624_Imhotep_v1p4_On"
@@ -1024,6 +1076,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 0.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 0.0
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 1624_Imhotep_v2p1
   NPCId: 1624_Imhotep_v2p1
   Name: "@1624_Imhotep"
@@ -1042,7 +1096,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Timelines\\EmptyTimeline.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_1624_Imhotep_v2p1_On"
@@ -1062,6 +1116,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 0.5
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 0.5
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 1624_Imhotep_v4p2
   NPCId: 1624_Imhotep_v4p2
   Name: "@1624_Imhotep"
@@ -1080,7 +1136,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\curve_left_130_stairs_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_1624_Imhotep_v4p2_On"
@@ -1100,6 +1156,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 0.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 0.0
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 1624_Imhotep_v4p4_A
   NPCId: 1624_Imhotep_v4p4
   Name: "@1624_Imhotep"
@@ -1118,7 +1176,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_55_left_nt_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_1624_Imhotep_v4p4_A_On"
@@ -1138,6 +1196,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 0.5
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 0.5
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 1664_Aban
   NPCId: 1664_Aban
   Name: "@1664_Aban"
@@ -1156,7 +1216,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\onback_idle_death_vfx.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_1664_Aban_On"
@@ -1176,6 +1236,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 06_YelenaPajitnova_02
   NPCId: 06_YelenaPajitnova02
   Name: "@06_YelenaPajitnova"
@@ -1194,7 +1256,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
   AE.0_RequiredAchievementConditional: 06A_P_03 || !SwapActive_06_YelenaPajitnova_B
@@ -1214,6 +1276,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.0
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 06_RoyaHakimi_02
   NPCId: 06_RoyaHakimi02
   Name: "@06_RoyaHakimi"
@@ -1232,7 +1296,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
   AE.0_RequiredAchievementConditional: 06A_IR_02 || !SwapActive_06_Roya_B
@@ -1252,6 +1316,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.0
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 06_MargotEmerson_01
   NPCId: 06_MargotEmerson01
   Name: "@06_MargotEmerson"
@@ -1270,7 +1336,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
   AE.0_RequiredAchievementConditional: 06A_Z_02
@@ -1290,6 +1356,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 0.0
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 06_GideonStormsbane_01
   NPCId: 06_GideonStormsbane01
   Name: "@06_GideonStormsbane"
@@ -1308,7 +1376,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\unique_jump_railing_walkaway.timeline"
   AE.0_RequiredAchievementConditional: SwapActive_06_Gideon_A
@@ -1328,6 +1396,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 0.0
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 9501_Grace_s01_02
   NPCId: 9501_Grace_s01_02
   Name: "@9501_Grace"
@@ -1346,7 +1416,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_55_left_nt_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_95_Grace_s01_02"
@@ -1366,6 +1436,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 9501_Grace_s01_03a
   NPCId: 9501_Grace_s01_03a
   Name: "@9501_Grace"
@@ -1384,7 +1456,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\95_s01_03_unique_grace_walk_into_tavern_nt.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_95_Grace_s01_03a"
@@ -1404,6 +1476,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 9501_Grace_s01_04
   NPCId: 9501_Grace_s01_04
   Name: "@9501_Grace"
@@ -1422,7 +1496,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Timelines\\EmptyTimeline.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_95_Grace_s01_04"
@@ -1442,6 +1516,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 9506_Granny_s01_02
   NPCId: 9506_Granny_s01_02
   Name: "@9506_Granny"
@@ -1460,7 +1536,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\curve_90_right_walkaway_nt.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_95_Granny_s01_02"
@@ -1480,6 +1556,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 0249a_Aethelwynn_1
   NPCId: 0249a_Aethelwynn_1
   Name: "@0249a_Aethelwynn"
@@ -1498,7 +1576,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
   AE.0_RequiredAchievementConditional: SwapActive_02A_Aethelwynn_1
@@ -1518,6 +1596,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 0249a_Aethelwynn_2
   NPCId: 0249a_Aethelwynn_2
   Name: "@0249a_Aethelwynn"
@@ -1536,7 +1616,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_02A_Aethelwynn_2"
@@ -1556,6 +1636,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 0249a_Aethelwynn_2a
   NPCId: 0249a_Aethelwynn_2a
   Name: "@0249a_Aethelwynn"
@@ -1574,7 +1656,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_02A_Aethelwynn_3"
@@ -1594,6 +1676,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 0249a_Aethelwynn_3
   NPCId: 0249a_Aethelwynn_3
   Name: "@0249a_Aethelwynn"
@@ -1612,7 +1696,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!(SwapActive_02A_Aethelwynn_4 && !02A_SQ_03)"
@@ -1632,6 +1716,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 0249a_Aethelwynn_5
   NPCId: 0249a_Aethelwynn_5
   Name: "@0249a_Aethelwynn"
@@ -1650,7 +1736,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_02A_Aethelwynn_5"
@@ -1670,6 +1756,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 99A_Yonas_02
   NPCId: 99A_Yonas_02
   Name: "@99A_Yonas"
@@ -1688,7 +1776,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\curve_90_left_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!(!99_MSQ_34 && (((99_MSQ_20 || 99_MSQ_21) && (SwapActive_99A_Yonas_02 || SwapActive_AlazarYonas_OnOff)) || ((99_MSQ_20 || 99_MSQ_21 || 99_MSQ_21_B || 99_MSQ_22) && !SwapActive_99A_Yonas_02 && !SwapActive_99B_Yonas_p1_On && !SwapActive_99B_Yonas_p2_On && !99B_MSQ_01)))"
@@ -1708,6 +1796,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 99B_Yonas_p1
   NPCId: 99B_Yonas_p1
   Name: "@99B_Yonas"
@@ -1726,7 +1816,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\curve_90_left_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_99B_Yonas_p1_On"
@@ -1746,6 +1836,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 99B_Yonas_p2
   NPCId: 99B_Yonas_p2
   Name: "@99B_Yonas"
@@ -1764,7 +1856,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\curve_90_left_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_99B_Yonas_p2_On"
@@ -1784,6 +1876,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 99B_Yonas_p4
   NPCId: 99B_Yonas_p4
   Name: "@99B_Yonas"
@@ -1802,7 +1896,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_99B_Yonas_p4_On"
@@ -1822,6 +1916,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 99B_Yonas_p5
   NPCId: 99B_Yonas_p5
   Name: "@99B_Yonas"
@@ -1840,7 +1936,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_99B_Yonas_p5_On"
@@ -1860,6 +1956,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 99B_Galahad_p1
   NPCId: 99B_Galahad_p1
   Name: "@99B_Galahad"
@@ -1878,7 +1976,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_99B_Galahad_p1_On"
@@ -1898,6 +1996,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 99B_Galahad_p3
   NPCId: 99B_Galahad_p3
   Name: "@99B_Galahad"
@@ -1916,7 +2016,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\curve_90_left_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_99B_Galahad_p3_On"
@@ -1936,6 +2036,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 99B_Galahad_p4
   NPCId: 99B_Galahad_p4
   Name: "@99B_Galahad"
@@ -1954,7 +2056,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_55_right_nt_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_99B_Galahad_p4_On"
@@ -1974,6 +2076,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 99B_Galahad_p5
   NPCId: 99B_Galahad_p5
   Name: "@99B_Galahad"
@@ -1992,7 +2096,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\curve_90_right_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_99B_Galahad_p5_On"
@@ -2012,6 +2116,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 99B_Galahad_p6
   NPCId: 99B_Galahad_p6
   Name: "@99B_Galahad"
@@ -2030,7 +2136,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_99B_Galahad_p6_On"
@@ -2050,6 +2156,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 99B_Galahad_p7
   NPCId: 99B_Galahad_p7
   Name: "@99B_Galahad"
@@ -2068,7 +2176,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_nt_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_99B_Galahad_p7_On"
@@ -2088,6 +2196,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 99B_Sun_p1
   NPCId: 99B_Sun_p1
   Name: "@99B_Sun"
@@ -2106,7 +2216,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
   AE.0_RequiredAchievementConditional: SwapActive_99B_Sun_p1_Off
@@ -2126,6 +2236,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 99B_Sun_p2
   NPCId: 99B_Sun_p2
   Name: "@99B_Sun"
@@ -2144,7 +2256,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_99B_Sun_p2_On"
@@ -2164,6 +2276,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 99C_Galahad_D
   NPCId: 99C_Galahad_D
   Name: "@99C_Galahad"
@@ -2182,7 +2296,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway_nt.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_99C_Galahad_D"
@@ -2202,6 +2316,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 99C_Morgaine_A
   NPCId: 99C_Morgaine_A
   Name: "@99C_Morgaine"
@@ -2220,7 +2336,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\curve_90_right_walkaway.timeline"
   AE.0_RequiredAchievementConditional: SwapActive_99C_Morgaine_A
@@ -2240,6 +2356,2688 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Hargest_WC
+  NPCId: 09a_Hargest_WC
+  Name: "@09a_Hargest"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09a_hargest.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09a_hargest.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_stand_convo_headnod_greet_bye.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\unarmed_idle_fidget_waiting.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_stand_talking_02_ambient.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: SwapActive_09A_Hargest_WC_Off
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: "!SwapActive_09A_Hargest_WC_Off"
+  SwapAchievementId: "!SwapActive_09A_Hargest_WC_Off"
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Morgaine_EG
+  NPCId: 09a_Morgaine_EG
+  Name: "@09a_Morgaine"
+  CharacterDefinition: "Objects\\Characters\\npc\\natural\\morgaine\\Morgaine.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\natural\\morgaine\\Morgaine.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Druidess_ambient_bye.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Druidess_ambient_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Druidess_ambient_idle.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Druidess_ambient_talk.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_nt_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!Expansion_2023_Unlock || SwapActive_09A_Morgaine_EG_Off"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: Expansion_2023_Unlock && !SwapActive_09A_Morgaine_EG_Off
+  SwapAchievementId: Expansion_2023_Unlock && !SwapActive_09A_Morgaine_EG_Off
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Morgaine_SM
+  NPCId: 09a_Morgaine_SM
+  Name: "@09a_Morgaine"
+  CharacterDefinition: "Objects\\Characters\\npc\\natural\\morgaine\\Morgaine.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\natural\\morgaine\\Morgaine.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Druidess_ambient_bye.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Druidess_ambient_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Druidess_ambient_idle.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Druidess_ambient_talk.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!Expansion_2023_Unlock || SwapActive_09A_Morgaine_SM_Off"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: Expansion_2023_Unlock && !SwapActive_09A_Morgaine_SM_Off
+  SwapAchievementId: Expansion_2023_Unlock && !SwapActive_09A_Morgaine_SM_Off
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Morgaine_RW
+  NPCId: 09a_Morgaine_RW
+  Name: "@09a_Morgaine"
+  CharacterDefinition: "Objects\\Characters\\npc\\natural\\morgaine\\Morgaine.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\natural\\morgaine\\Morgaine.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Druidess_ambient_bye.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Druidess_ambient_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Druidess_ambient_idle.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Druidess_ambient_talk.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_nt_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!Expansion_2023_Unlock || SwapActive_09A_Morgaine_RW_Off"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: Expansion_2023_Unlock && !SwapActive_09A_Morgaine_RW_Off
+  SwapAchievementId: Expansion_2023_Unlock && !SwapActive_09A_Morgaine_RW_Off
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Morgaine_EP
+  NPCId: 09a_Morgaine_EP
+  Name: "@09a_Morgaine"
+  CharacterDefinition: "Objects\\Characters\\npc\\natural\\morgaine\\Morgaine.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\natural\\morgaine\\Morgaine.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Druidess_ambient_bye.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Druidess_ambient_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Druidess_ambient_idle.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Druidess_ambient_talk.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_nt_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_09A_Morgaine_EP_On"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_09A_Morgaine_EP_On
+  SwapAchievementId: SwapActive_09A_Morgaine_EP_On
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Vachon
+  NPCId: 09a_Vachon
+  Name: "@09a_Vachon"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09a_vachon.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09a_vachon.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\settle_ranger_outro_01.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\settle_ranger_intro_01.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\settle_ranger_ambient_01.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\settle_ranger_interact_01.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!09A_M1 || SwapActive_09A_Vachon_WC_On"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: 09A_M1 && !SwapActive_09A_Vachon_WC_On
+  SwapAchievementId: 09A_M1 && !SwapActive_09A_Vachon_WC_On
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Marwa
+  NPCId: 09a_Marwa
+  Name: "@09a_Marwa"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09a_shaheen.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09a_shaheen.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_nt_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!09A_M7 || (09A_S10 && 09A_M15)"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: 09A_M7 && (!09A_S10 || !09A_M15)
+  SwapAchievementId: 09A_M7 && (!09A_S10 || !09A_M15)
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09A_Taurus_HG
+  NPCId: 09a_Taurus_HG
+  Name: "@09A_Taurus"
+  CharacterDefinition: "Objects\\Characters\\npc\\supernatural\\Minotaur\\Minotaur.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\supernatural\\Minotaur\\Minotaur.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Minotaur_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Minotaur_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Minotaur_PlayIdleLoop.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Minotaur_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: 1.25
+  MarkerOffset_Z: 1.25
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_09a_Taurus_HG_On"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_09a_Taurus_HG_On
+  SwapAchievementId: SwapActive_09a_Taurus_HG_On
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Hargest_NE_A
+  NPCId: 09a_Hargest_NE_A
+  Name: "@09a_Hargest"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09a_hargest.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09a_hargest.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_Tibbs_Idle.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_09A_Hargest_NE_A_On"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Libs\\Timeline\\Npc\\Walkaways\\09A_M3_Hargest_NE_A_WalkIn.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_09A_Hargest_NE_A_On
+  SwapAchievementId: SwapActive_09A_Hargest_NE_A_On
+  AE.10_RequiredAchievementConditional: 3.0
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 8.0
+  AE.6_EventDelayDuration: 8.5
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Hargest_End
+  NPCId: 09a_Hargest_End
+  Name: "@09a_Hargest"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09a_hargest.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09a_hargest.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_Tibbs_Idle.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: 09A_M15 || !SwapActive_09A_Hargest_End_On
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: "!09A_M15 && SwapActive_09A_Hargest_End_On"
+  SwapAchievementId: "!09A_M15 && SwapActive_09A_Hargest_End_On"
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Trahern_RR
+  NPCId: 09a_Trahern_RR
+  Name: "@09a_Trahern"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09a_trahern.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09a_trahern.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_convo_lookaround.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_09A_Trahern_RR_On"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\WorldEvent\\FirstLight\\09A_M5_Trahern_RR_WalkIn.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_09A_Trahern_RR_On
+  SwapAchievementId: SwapActive_09A_Trahern_RR_On
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 3.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 3.0
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 11.2
+  AE.6_EventDelayDuration: 11.7
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Trahern_Tav
+  NPCId: 09a_Trahern_Tav
+  Name: "@09a_Trahern"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09a_trahern.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09a_trahern.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_convo_lookaround.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_nt_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_09A_Trahern_Tav_On"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Libs\\Timeline\\Npc\\Walkaways\\09A_M5_Trahern_Tav_WalkIn.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_09A_Trahern_Tav_On
+  SwapAchievementId: SwapActive_09A_Trahern_Tav_On
+  AE.10_RequiredAchievementConditional: 3.0
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 12.0
+  AE.6_EventDelayDuration: 12.5
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Trahern_End
+  NPCId: 09a_Trahern_End
+  Name: "@09a_Trahern"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09a_trahern.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09a_trahern.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_convo_lookaround.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: 09A_M15 || !SwapActive_09A_Trahern_End_On
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: "!09A_M15 && SwapActive_09A_Trahern_End_On"
+  SwapAchievementId: "!09A_M15 && SwapActive_09A_Trahern_End_On"
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Oakes_FOR
+  NPCId: 09a_Oakes_FOR
+  Name: "@09a_Oakes"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09a_oakes_noprop.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09a_oakes_noprop.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_exit_01.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_intro_01.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\09A_M2_Oakes_FOR_PlayIdleLoop.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_interact_01.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\09A_M2_Oakes_FOR_Walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_09A_Oakes_FOR_On"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 14.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 15.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_09A_Oakes_FOR_On
+  SwapAchievementId: SwapActive_09A_Oakes_FOR_On
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Yoon_B
+  NPCId: 09a_Yoon_B
+  Name: "@09a_Yoon"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09a_lee.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09a_lee.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_ambient.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_stand_listening_01_ambient.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\09A_M2_Yoon_FOR_Walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_09A_Yoon_B_On"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 14.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 15.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_09A_Yoon_B_On
+  SwapAchievementId: SwapActive_09A_Yoon_B_On
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Riches
+  NPCId: 09a_Riches
+  Name: "@09a_Riches"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09A_AlbertRiches.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09A_AlbertRiches.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\unarmed_idle_fidget_waiting.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\unique_09A_m4_Riches_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_09A_Riches_On"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_09A_Riches_On
+  SwapAchievementId: SwapActive_09A_Riches_On
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Riches_M5
+  NPCId: 09a_Riches_M5
+  Name: "@09a_Riches"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09A_AlbertRiches.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09A_AlbertRiches.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\unarmed_idle_fidget_waiting.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_09A_Riches_M5_On"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_09A_Riches_M5_On
+  SwapAchievementId: SwapActive_09A_Riches_M5_On
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Riches_End
+  NPCId: 09a_Riches_End
+  Name: "@09a_Riches"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09A_AlbertRiches.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09A_AlbertRiches.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_Tibbs_Idle.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: 09A_M15 || !SwapActive_09A_Riches_End_On
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: "!09A_M15 && SwapActive_09A_Riches_End_On"
+  SwapAchievementId: "!09A_M15 && SwapActive_09A_Riches_End_On"
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Taurus_End
+  NPCId: 09a_Taurus_End
+  Name: "@09a_Taurus"
+  CharacterDefinition: "Objects\\Characters\\npc\\supernatural\\Minotaur\\Minotaur.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\supernatural\\Minotaur\\Minotaur.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Minotaur_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Minotaur_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Minotaur_PlayIdleLoop.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Minotaur_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: 1.25
+  MarkerOffset_Z: 1.25
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: 09A_M15 || !SwapActive_09A_Taurus_End_On
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: "!09A_M15 && SwapActive_09A_Taurus_End_On"
+  SwapAchievementId: "!09A_M15 && SwapActive_09A_Taurus_End_On"
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Kim
+  NPCId: 09a_Kim
+  Name: "@09a_Kim"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09A_Kim.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09A_Kim.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Sit\\unarmed_sit_onground_to_standing_greet_bye.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Sit\\unarmed_sit_onground_ambient.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_nt_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_09A_Kim_M6_On"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_09A_Kim_M6_On
+  SwapAchievementId: SwapActive_09A_Kim_M6_On
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Kim_SC
+  NPCId: 09a_Kim_SC
+  Name: "@09a_Kim"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09A_Kim.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09A_Kim.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_Tibbs_Idle.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_09a_Kim_SC_On"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_09a_Kim_SC_On
+  SwapAchievementId: SwapActive_09a_Kim_SC_On
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Kim_End
+  NPCId: 09a_Kim_End
+  Name: "@09a_Kim"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09A_Kim.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09A_Kim.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_Tibbs_Idle.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: 09A_M15 || !SwapActive_09A_Kim_End_On
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: "!09A_M15 && SwapActive_09A_Kim_End_On"
+  SwapAchievementId: "!09A_M15 && SwapActive_09A_Kim_End_On"
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_James
+  NPCId: 09a_James
+  Name: "@09A_James"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09A_JamesOxen.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09A_JamesOxen.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: 09A_S5 || !SwapActive_09A_James_S5_On
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: "!09A_S5 && SwapActive_09A_James_S5_On"
+  SwapAchievementId: "!09A_S5 && SwapActive_09A_James_S5_On"
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Engineer
+  NPCId: 09a_Engineer
+  Name: "@09a_Engineer"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09a_engineer.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09a_engineer.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_Engineer_Hammer_Build_Crouch_Idle.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!09A_M14 || SwapActive_09A_S17_Cannon_Built"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: 09A_M14 && !SwapActive_09A_S17_Cannon_Built
+  SwapAchievementId: 09A_M14 && !SwapActive_09A_S17_Cannon_Built
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Johannes
+  NPCId: 09a_Johannes
+  Name: "@09a_Johannes"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09a_JohannesMetzger.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09a_JohannesMetzger.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\unarmed_pondering_start_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\unarmed_pondering_ambient.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_09A_Johannes_On"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_09A_Johannes_On
+  SwapAchievementId: SwapActive_09A_Johannes_On
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Johannes_S16
+  NPCId: 09a_Johannes
+  Name: "@09a_Johannes"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09a_JohannesMetzger.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09a_JohannesMetzger.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_Tibbs_Idle.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_09A_Johannes_S16_On"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_09A_Johannes_S16_On
+  SwapAchievementId: SwapActive_09A_Johannes_S16_On
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_KievanWalkaway
+  NPCId: 09a_Kievan
+  Name: "@09a_Kievan"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09A_Kievan.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09A_Kievan.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\unarmed_pondering_start_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\unarmed_pondering_ambient.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\unique_09A_Kievan_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: 09A_S9 && 09A_M15
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: "!09A_S9 && !09A_M15"
+  SwapAchievementId: "!09A_S9 && !09A_M15"
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_FionnWalkaway
+  NPCId: 09a_Fionn
+  Name: "@09a_Fionn"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09A_Fionn.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09A_Fionn.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_Tibbs_Idle.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: 09A_S6_ME_TurnOn
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_09A_Fionn_M6_On
+  SwapAchievementId: SwapActive_09A_Fionn_M6_On
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: null
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Josephine_Rescue
+  NPCId: 09a_Josephine_Rescue
+  Name: "@09a_Josephine"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09A_Josephine.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09A_Josephine.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\captured_to_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\captured_kneeling_idle.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway_nt.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_09A_M6_Rescue_A"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_09A_M6_Rescue_A
+  SwapAchievementId: SwapActive_09A_M6_Rescue_A
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Vachon_Rescue
+  NPCId: 09a_Vachon_Rescue
+  Name: "@09a_Vachon"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09a_vachon.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09a_vachon.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\captured_to_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\captured_kneeling_idle.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway_nt.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_09A_M6_Rescue_B"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_09A_M6_Rescue_B
+  SwapAchievementId: SwapActive_09A_M6_Rescue_B
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 09a_Zayden_Rescue
+  NPCId: 09a_Zayden_Rescue
+  Name: "@09a_Sick_DruidC"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09a_sick_druid3.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09a_sick_druid3.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\captured_to_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\captured_kneeling_idle.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_stand_convo_disappointed_ambient.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_nt_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_09A_M6_Rescue_C"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_09A_M6_Rescue_C
+  SwapAchievementId: SwapActive_09A_M6_Rescue_C
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99D_Galahad_A
+  NPCId: 99D_Galahad_A
+  Name: "@99D_Galahad"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\Galahad.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\Galahad.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_exit_01.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_intro_01.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_ambient_01.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_interact_01.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway_nt.timeline"
+  AE.0_RequiredAchievementConditional: "!(!SwapActive_MSQ_Galahad_GC_A&&(99C_MSQ_11||(99_MSQ_35&&!99_MSQ_57)))"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: "!SwapActive_MSQ_Galahad_GC_A&&(99C_MSQ_11||(99_MSQ_35&&!99_MSQ_57))"
+  SwapAchievementId: "!SwapActive_MSQ_Galahad_GC_A&&(99C_MSQ_11||(99_MSQ_35&&!99_MSQ_57))"
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99D_Galahad_B
+  NPCId: 99D_Galahad_B
+  Name: "@99D_Galahad"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\Galahad.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\Galahad.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_exit_01.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_intro_01.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_ambient_01.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\unarmed_pondering_ambient.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway_nt.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Galahad_GC_B"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\WorldEvent\\FirstLight\\09A_M5_Trahern_RR_WalkIn.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Galahad_GC_B
+  SwapAchievementId: SwapActive_MSQ_Galahad_GC_B
+  AE.10_RequiredAchievementConditional: 3.0
+  AE.3_EventDelayDuration: 0.5
+  AE.10_EventDelayDuration: 0.55
+  AE.4_EventDelayDuration: 0.55
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 1.55
+  AE.6_EventDelayDuration: 1.55
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99D_Yash_A
+  NPCId: 99D_Yash_A
+  Name: "@99D_Yash"
+  CharacterDefinition: "Objects\\Characters\\npc\\natural\\Yash\\Yash.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\natural\\Yash\\Yash.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\captured_to_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\captured_kneeling_idle.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\unarmed_idle_fidget_lookaround.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway_nt.timeline"
+  AE.0_RequiredAchievementConditional: SwapActive_MSQ_Yash_GC_A
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: "!SwapActive_MSQ_Yash_GC_A"
+  SwapAchievementId: "!SwapActive_MSQ_Yash_GC_A"
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99D_JuditheOwens_A
+  NPCId: 99D_JuditheOwens_A
+  Name: "@99D_JuditheOwens"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\0315_watcher.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\0315_watcher.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\captured_to_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\captured_kneeling_idle.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway_nt.timeline"
+  AE.0_RequiredAchievementConditional: SwapActive_MSQ_SoulWardenA_A
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: "!SwapActive_MSQ_SoulWardenA_A"
+  SwapAchievementId: "!SwapActive_MSQ_SoulWardenA_A"
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99D_PedroCarrillo_A
+  NPCId: 99D_PedroCarrillo_A
+  Name: "@99D_PedroCarrillo"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\03_pedro.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\03_pedro.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\captured_to_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\captured_kneeling_idle.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_stand_convo_disappointed_ambient.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_nt_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: SwapActive_MSQ_SoulWardenB_A
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: "!SwapActive_MSQ_SoulWardenB_A"
+  SwapAchievementId: "!SwapActive_MSQ_SoulWardenB_A"
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99D_OfusaMatsui_B
+  NPCId: 99D_OfusaMatsui_B
+  Name: "@99D_OfusaMatsui"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\03_ofusa.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\03_ofusa.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\unarmed_idle_fidget_lookaround.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_nt_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_SoulWardenC_B"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_SoulWardenC_B
+  SwapAchievementId: SwapActive_MSQ_SoulWardenC_B
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99D_JacquetDavy_B
+  NPCId: 99D_JacquetDavy_B
+  Name: "@99D_JacquetDavy"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\03_jacquet.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\03_jacquet.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\unarmed_panicking_ambient.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_stand_convo_disagreeing_ambient.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_SoulWardenD_B"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_SoulWardenD_B
+  SwapAchievementId: SwapActive_MSQ_SoulWardenD_B
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99D_Yonas_B
+  NPCId: 99D_Yonas_B
+  Name: "@99D_Yonas"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\npc_9902_msq_yonas.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\npc_9902_msq_yonas.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\unarmed_pondering_ambient.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Yonas_GC_B"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Yonas_GC_B
+  SwapAchievementId: SwapActive_MSQ_Yonas_GC_B
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99D_Yash_D
+  NPCId: 99D_Yash_D
+  Name: "@99D_Yash"
+  CharacterDefinition: "Objects\\Characters\\npc\\natural\\Yash\\Yash.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\natural\\Yash\\Yash.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\settle_commander_exit_01.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\settle_commander_intro_01.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\settle_commander_ambient_subdued.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\settle_commander_interact_01.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\teleport_away_standing_to_kneeling_vfx.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Yash_GC_D"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Yash_GC_D
+  SwapAchievementId: SwapActive_MSQ_Yash_GC_D
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99D_Yonas_E
+  NPCId: 99D_Yonas_E
+  Name: "@99D_Yonas"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\npc_9902_msq_yonas.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\npc_9902_msq_yonas.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\unarmed_pondering_ambient.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Yonas_GC_E"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 5.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 6.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Yonas_GC_E
+  SwapAchievementId: SwapActive_MSQ_Yonas_GC_E
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99D_JuditheOwens_D
+  NPCId: 99D_JuditheOwens_D
+  Name: "@99D_JuditheOwens"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\0315_watcher.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\0315_watcher.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\settle_warden_exit_01.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\settle_warden_intro_01.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\settle_warden_ambient_01.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\settle_warden_interact_01.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_SoulWardenA_D"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.01
+  AE.9_EventDelayDuration: 0.06
+  AE.1_EventDelayDuration: 7.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 8.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_SoulWardenA_D
+  SwapAchievementId: SwapActive_MSQ_SoulWardenA_D
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99D_OfusaMatsui_C
+  NPCId: 99D_OfusaMatsui_C
+  Name: "@99D_OfusaMatsui"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\03_ofusa.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\03_ofusa.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\unarmed_idle_fidget_waiting.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_SoulWardenC_C"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.02
+  AE.9_EventDelayDuration: 0.07
+  AE.1_EventDelayDuration: 7.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 8.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_SoulWardenC_C
+  SwapAchievementId: SwapActive_MSQ_SoulWardenC_C
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99D_Yash_E
+  NPCId: 99D_Yash_E
+  Name: "@99D_Yash"
+  CharacterDefinition: "Objects\\Characters\\npc\\natural\\Yash\\Yash.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\natural\\Yash\\Yash.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\settle_commander_exit_01.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\settle_commander_intro_01.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\settle_commander_ambient_subdued.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\settle_commander_interact_01.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Yash_GC_E"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 5.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 6.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Yash_GC_E
+  SwapAchievementId: SwapActive_MSQ_Yash_GC_E
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99D_Yonas_F
+  NPCId: 99D_Yonas_F
+  Name: "@99D_Yonas"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\npc_9902_msq_yonas.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\npc_9902_msq_yonas.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\unarmed_pondering_ambient.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Yonas_GC_F"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 7.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 8.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Yonas_GC_F
+  SwapAchievementId: SwapActive_MSQ_Yonas_GC_F
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99D_Yash_F
+  NPCId: 99D_Yash_F
+  Name: "@99D_Yash"
+  CharacterDefinition: "Objects\\Characters\\npc\\natural\\Yash\\Yash.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\natural\\Yash\\Yash.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\settle_commander_exit_01.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\settle_commander_intro_01.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\settle_commander_ambient_subdued.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\settle_commander_interact_01.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Yash_GC_F"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 7.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 8.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Yash_GC_F
+  SwapAchievementId: SwapActive_MSQ_Yash_GC_F
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99D_Yonas_G
+  NPCId: 99D_Yonas_G
+  Name: "@99D_Yonas"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\npc_9902_msq_yonas.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\npc_9902_msq_yonas.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\unarmed_pondering_ambient.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Yonas_GC_G"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 5.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 6.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Yonas_GC_G
+  SwapAchievementId: SwapActive_MSQ_Yonas_GC_G
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99E_Sun_p1
+  NPCId: 99E_Sun_p1
+  Name: "@99E_Sun"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\0210_barkeep.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\0210_barkeep.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Sun_EG_p1"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Sun_EG_p1
+  SwapAchievementId: SwapActive_MSQ_Sun_EG_p1
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99E_Sun_p2
+  NPCId: 99E_Sun_p2
+  Name: "@99E_Sun"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\0210_barkeep.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\0210_barkeep.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Sun_EG_p2"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 7.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 8.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Sun_EG_p2
+  SwapAchievementId: SwapActive_MSQ_Sun_EG_p2
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99E_Sun_p5
+  NPCId: 99E_Sun_p5
+  Name: "@99E_Sun"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\0210_barkeep.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\0210_barkeep.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway_nt.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Sun_EG_p5"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Libs\\Timeline\\Npc\\simple_generic_walkin_nt.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Sun_EG_p5
+  SwapAchievementId: SwapActive_MSQ_Sun_EG_p5
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99E_Sun_p11
+  NPCId: 99E_Sun_p11
+  Name: "@99E_Sun"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\0210_barkeep.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\0210_barkeep.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Sun_EG_p11"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Sun_EG_p11
+  SwapAchievementId: SwapActive_MSQ_Sun_EG_p11
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99E_Sun_p12
+  NPCId: 99E_Sun_p12
+  Name: "@99E_Sun"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\0210_barkeep.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\0210_barkeep.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Sun_EG_p12"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Sun_EG_p12
+  SwapAchievementId: SwapActive_MSQ_Sun_EG_p12
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99E_Sun_p13
+  NPCId: 99E_Sun_p13
+  Name: "@99E_Sun"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\0210_barkeep.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\0210_barkeep.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\99e_sun_blightambush_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Sun_EG_p13"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 20.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 21.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Sun_EG_p13
+  SwapAchievementId: SwapActive_MSQ_Sun_EG_p13
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99E_Sun_p14
+  NPCId: 99E_Sun_p14
+  Name: "@99E_Sun"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\0210_barkeep.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\0210_barkeep.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Sun_EG_p14"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Sun_EG_p14
+  SwapAchievementId: SwapActive_MSQ_Sun_EG_p14
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99E_Sun_p15
+  NPCId: 99E_Sun_p15
+  Name: "@99E_Sun"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\0210_barkeep.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\0210_barkeep.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\unique_99e_sun_downstairs_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Sun_EG_p15"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Sun_EG_p15
+  SwapAchievementId: SwapActive_MSQ_Sun_EG_p15
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99E_Sun_p16
+  NPCId: 99E_Sun_p16
+  Name: "@99E_Sun"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\0210_barkeep.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\0210_barkeep.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Sun_EG_p16"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Sun_EG_p16
+  SwapAchievementId: SwapActive_MSQ_Sun_EG_p16
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99E_Morgaine_p1
+  NPCId: 99E_Morgaine_p1
+  Name: "@99E_Morgaine"
+  CharacterDefinition: "Objects\\Characters\\npc\\natural\\morgaine\\Morgaine.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\natural\\morgaine\\Morgaine.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_ambient.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Morgaine_EG_p1"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Morgaine_EG_p1
+  SwapAchievementId: SwapActive_MSQ_Morgaine_EG_p1
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99E_Morgaine_p2v1
+  NPCId: 99E_Morgaine_p2v1
+  Name: "@99E_Morgaine"
+  CharacterDefinition: "Objects\\Characters\\npc\\natural\\morgaine\\Morgaine.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\natural\\morgaine\\Morgaine.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_ambient.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Morgaine_EG_p2v1"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Morgaine_EG_p2v1
+  SwapAchievementId: SwapActive_MSQ_Morgaine_EG_p2v1
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99E_Morgaine_p4
+  NPCId: 99E_Morgaine_p4
+  Name: "@99E_Morgaine"
+  CharacterDefinition: "Objects\\Characters\\npc\\natural\\morgaine\\Morgaine.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\natural\\morgaine\\Morgaine.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_ambient.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\curve_90_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Morgaine_EG_p4"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Morgaine_EG_p4
+  SwapAchievementId: SwapActive_MSQ_Morgaine_EG_p4
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99E_Morgaine_p6
+  NPCId: 99E_Morgaine_p6
+  Name: "@99E_Morgaine"
+  CharacterDefinition: "Objects\\Characters\\npc\\natural\\morgaine\\Morgaine.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\natural\\morgaine\\Morgaine.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_ambient.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\curve_90_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Morgaine_EG_p6"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Morgaine_EG_p6
+  SwapAchievementId: SwapActive_MSQ_Morgaine_EG_p6
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99E_Morgaine_p9a
+  NPCId: 99E_Morgaine_p9a
+  Name: "@99E_Morgaine"
+  CharacterDefinition: "Objects\\Characters\\npc\\natural\\morgaine\\Morgaine.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\natural\\morgaine\\Morgaine.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_ambient.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\curve_90_left_walkaway_nt.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Morgaine_EG_p9a"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 1.0
+  AE.9_EventDelayDuration: 1.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Morgaine_EG_p9a
+  SwapAchievementId: SwapActive_MSQ_Morgaine_EG_p9a
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99E_Morgaine_p11
+  NPCId: 99E_Morgaine_p11
+  Name: "@99E_Morgaine"
+  CharacterDefinition: "Objects\\Characters\\npc\\natural\\morgaine\\Morgaine.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\natural\\morgaine\\Morgaine.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_ambient.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\curve_90_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Morgaine_EG_p11"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Morgaine_EG_p11
+  SwapAchievementId: SwapActive_MSQ_Morgaine_EG_p11
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99E_Galahad_p3a
+  NPCId: 99E_Galahad_p3a
+  Name: "@99E_Galahad"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\Galahad.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\Galahad.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_exit_01.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_intro_01.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_ambient_01.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_interact_01.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway_nt.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Galahad_EG_p3a"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Galahad_EG_p3a
+  SwapAchievementId: SwapActive_MSQ_Galahad_EG_p3a
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99E_Galahad_p4a
+  NPCId: 99E_Galahad_p4a
+  Name: "@99E_Galahad"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\Galahad.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\Galahad.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_exit_01.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_intro_01.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_ambient_01.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_interact_01.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\unique_99E_Galahad_portal_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Galahad_EG_p4a"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 5.0
+  AE.1_OE.0_OpacityTransitionDuration: 0.5
+  AE.2_EventDelayDuration: 5.5
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Galahad_EG_p4a
+  SwapAchievementId: SwapActive_MSQ_Galahad_EG_p4a
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99E_Adiana
+  NPCId: 99E_Adiana
+  Name: "@99E_Adiana"
+  CharacterDefinition: "Objects\\Characters\\npc\\natural\\adiana\\adiana.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\natural\\adiana\\adiana.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\unique_99e_adiana_disappear_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Adiana_EG_p1"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 0.2
+  AE.2_EventDelayDuration: 4.2
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Adiana_EG_p1
+  SwapAchievementId: SwapActive_MSQ_Adiana_EG_p1
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99E_Yash_p1
+  NPCId: 99E_Yash_p1
+  Name: "@99E_Yash"
+  CharacterDefinition: "Objects\\Characters\\npc\\natural\\Yash\\Yash.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\natural\\Yash\\Yash.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\settle_commander_exit_01.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\settle_commander_intro_01.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\settle_commander_ambient_subdued.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\settle_commander_interact_01.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway_nt.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Yash_EG_p1"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Yash_EG_p1
+  SwapAchievementId: SwapActive_MSQ_Yash_EG_p1
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99E_Myrddin
+  NPCId: 99E_Myrddin
+  Name: "@99E_Myrddin"
+  CharacterDefinition: "Objects\\Characters\\npc\\natural\\Myrddin\\Myrddin.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\natural\\Myrddin\\Myrddin_mesh.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\unique_99E_Myrddin_portal_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Myrddin_EG_p1"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 5.5
+  AE.1_OE.0_OpacityTransitionDuration: 0.5
+  AE.2_EventDelayDuration: 6.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Myrddin_EG_p1
+  SwapAchievementId: SwapActive_MSQ_Myrddin_EG_p1
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 95A_Malek_s02_01
   NPCId: 95A_Malek_s02_01
   Name: "@95A_Malek"
@@ -2258,7 +5056,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway_nt.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_Season2_Malek_1"
@@ -2278,6 +5076,8 @@
   AE.4_OE.0_OpacityTransitionDuration: 1.0
   AE.5_EventDelayDuration: 0.0
   AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
 - VariantID: 95A_Sharif_s02_01a
   NPCId: 95A_Sharif_s02_01a
   Name: "@95A_Sharif"
@@ -2296,7 +5096,7 @@
   AttachmentRotationY: ""
   AttachmentRotationZ: ""
   InteractOverride_X: ""
-  InteractOverride_Y: ""
+  InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\curve_90_right_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_Season2_Sharif_1a"
@@ -2316,3 +5116,565 @@
   AE.4_OE.0_OpacityTransitionDuration: 0.1
   AE.5_EventDelayDuration: 4.5
   AE.6_EventDelayDuration: 4.5
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 9401_FirstHorse
+  NPCId: 9401_FirstHorse
+  Name: "@9401_FirstHorse"
+  CharacterDefinition: "Objects\\Characters\\npc\\Natural\\Horse\\Horse.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Natural\\Horse\\Horse.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_Horse_Intro_Outro.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_Horse_Intro_Outro.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_Horse_Idle.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_Horse_Interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\horse_turn_25_left_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!9401_HorseWalkAway"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: 9401_HorseWalkAway
+  SwapAchievementId: 9401_HorseWalkAway
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: MNT_Horse
+  InteractOverride_Z: null
+- VariantID: 9403_FirstWolf1
+  NPCId: 9403_FirstWolf1
+  Name: "@9403_FirstWolf"
+  CharacterDefinition: "Objects\\Characters\\npc\\Natural\\predator\\wolf\\timberwolf.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Natural\\predator\\wolf\\timberwolf.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_Wolf_Lays_Intro_Outro.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_Wolf_Lays_Intro_Outro.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_Wolf_Lays_Loop.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_Wolf_Lays_Loop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\wolf_stalk_forward.timeline"
+  AE.0_RequiredAchievementConditional: "!9403_Wolf1WalkAway"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 1.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: 9403_Wolf1WalkAway
+  SwapAchievementId: 9403_Wolf1WalkAway
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 9403_FirstWolf2
+  NPCId: 9403_FirstWolf2
+  Name: "@9403_FirstWolf"
+  CharacterDefinition: "Objects\\Characters\\npc\\Natural\\predator\\wolf\\barghestwolf.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Natural\\predator\\wolf\\barghestwolf.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_Wolf_Lays_Intro_Outro.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_Wolf_Lays_Intro_Outro.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_Wolf_Lays_Loop.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_Wolf_Lays_Loop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\wolf_stalk_forward.timeline"
+  AE.0_RequiredAchievementConditional: "!9403_Wolf2WalkAway"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 1.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: 9403_Wolf2WalkAway
+  SwapAchievementId: 9403_Wolf2WalkAway
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 9403_FirstWolf3
+  NPCId: 9403_FirstWolf3
+  Name: "@9403_FirstWolf"
+  CharacterDefinition: "Objects\\Characters\\npc\\Natural\\predator\\wolf\\timberwolf.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Natural\\predator\\wolf\\timberwolf.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_Wolf_Lays_Intro_Outro.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_Wolf_Lays_Intro_Outro.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_Wolf_Lays_Loop.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_Wolf_Lays_Loop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\wolf_stalk_forward.timeline"
+  AE.0_RequiredAchievementConditional: "!9403_Wolf3WalkAway"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 1.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: 9403_Wolf3WalkAway
+  SwapAchievementId: 9403_Wolf3WalkAway
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 9405_FirstLion
+  NPCId: 9405_FirstLion
+  Name: "@9405_FirstLion"
+  CharacterDefinition: "Objects\\Characters\\npc\\Natural\\primallion\\primallion.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Natural\\primallion\\primallion.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_Lion_Lays_Intro_Outro.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_Lion_Lays_Intro_Outro.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_Lion_Lays_Loop.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_Lion_Lays_Loop_Interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\lion_walkaway_forward.timeline"
+  AE.0_RequiredAchievementConditional: "!9405_LionWalkAway"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 2.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: 9405_LionWalkAway
+  SwapAchievementId: 9405_LionWalkAway
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 0332_Furrier00
+  NPCId: 0332_Furrier00
+  Name: "@0332_Furrier"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\0332_furrier.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\0332_furrier.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_exit_01.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_intro_01.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_ambient_01.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_interact_01.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: 03_Quest_23
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 5.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 6.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: "!03_Quest_23"
+  SwapAchievementId: "!03_Quest_23"
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 0332_Furrier01
+  NPCId: 0332_Furrier01
+  Name: "@0332_Furrier"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\0332_furrier.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\0332_furrier.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_exit_01.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_intro_01.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_ambient_01.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_interact_01.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: ""
+  AE.0_RequiredAchievementConditional: "!03_Quest_23"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 0.0
+  AE.1_OE.0_OpacityTransitionDuration: 0.0
+  AE.2_EventDelayDuration: 0.0
+  WalkInTimeline: "Libs\\Timeline\\Npc\\npc_01_graceww_00_walkin.timeline"
+  AE.3_RequiredAchievementConditional: 03_Quest_23
+  SwapAchievementId: 03_Quest_23
+  AE.10_RequiredAchievementConditional: 3.0
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.55
+  AE.4_OE.0_OpacityTransitionDuration: 0.0
+  AE.5_EventDelayDuration: 0.5
+  AE.6_EventDelayDuration: 0.6
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 0209_Adjudicator_01
+  NPCId: 0209_Adjudicator_01
+  Name: "@0209_Adjudicator"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\0209_adjudicator.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\0209_adjudicator.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\skye_standhurt_bye.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\skye_standhurt_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\skye_standhurt_idle.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\skye_standhurt_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_RooseCaptiveNPC_On"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_RooseCaptiveNPC_On
+  SwapAchievementId: SwapActive_RooseCaptiveNPC_On
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 3.0
+  AE.10_EventDelayDuration: 3.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 14_Abiathar
+  NPCId: 14_Abiathar
+  Name: "@14_Abiathar"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\14_Abiathar.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\14_Abiathar.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_ambient.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: 14_Quest_41
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: "!14_Quest_41"
+  SwapAchievementId: "!14_Quest_41"
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 3.0
+  AE.10_EventDelayDuration: 3.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 14_Nerezza
+  NPCId: 14_Nerezza
+  Name: "@14_Nerezza"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\14_Nerezza.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\14_Nerezza.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_ambient.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: 14_Quest_42
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: "!14_Quest_42"
+  SwapAchievementId: "!14_Quest_42"
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 3.0
+  AE.10_EventDelayDuration: 3.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 14_Aife
+  NPCId: 14_Aife
+  Name: "@14_Aife"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\14_Aife.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\14_Aife.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_ambient.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: 14_Quest_43
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: "!14_Quest_43"
+  SwapAchievementId: "!14_Quest_43"
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 3.0
+  AE.10_EventDelayDuration: 3.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 03_Hotspur_A
+  NPCId: 03_Hotspur_A
+  Name: "@03_Hotspur"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\03_Hotspur.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\03_Hotspur.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_ambient.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: 03_SQ_04_Swap
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: "!03_SQ_04_Swap"
+  SwapAchievementId: "!03_SQ_04_Swap"
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 3.0
+  AE.10_EventDelayDuration: 3.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 03_Hotspur_B
+  NPCId: 03_Hotspur_B
+  Name: "@03_Hotspur"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\03_Hotspur.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\03_Hotspur.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_ambient.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_55_left_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!03_SQ_05_Swap"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: 03_SQ_05_Swap
+  SwapAchievementId: 03_SQ_05_Swap
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 3.0
+  AE.10_EventDelayDuration: 3.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 03_Hotspur_C
+  NPCId: 03_Hotspur_C
+  Name: "@03_Hotspur"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\03_Hotspur.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\03_Hotspur.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\skye_standhurt_bye.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\skye_standhurt_greet.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\skye_standhurt_idle.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\skye_standhurt_interact.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: 03_SQ_06_Swap && 03_SQ_02
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 3.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 4.0
+  WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
+  AE.3_RequiredAchievementConditional: 03_SQ_06_Swap && !03_SQ_02
+  SwapAchievementId: 03_SQ_06_Swap && !03_SQ_02
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 3.0
+  AE.10_EventDelayDuration: 3.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null

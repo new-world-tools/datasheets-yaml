@@ -2356,7 +2356,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@95_s01_03_CROW_BestOfAeternum_PostFlyer3"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 13152.529297 6996.893066 154.096024
+  OverrideLocation: 13144.825195 6990.785156 154.517853
   IsHidden: null
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: ""
@@ -18473,8 +18473,74 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: ""
-  SubTask1: 95_s01_X1_01_EnterExpeditionStory
+  SubTask1: 95_s01_X1_01_EnterExpedition_partial
   SubTask2: 95_s01_X1_02_KillFlameBoss
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 95_s01_X1_01_EnterExpedition_partial
+  Type: PartialTaskContainer
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  UseGlobalStorage: ""
+  EnforceLocationRequirement: ""
+  TerritoryID: ""
+  POITag: dungeon_forge_40351
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: 95_s01_X1_01_EnterExpeditionStory
+  SubTask2: 95_s01_X1_01_EnterExpeditionStory_PinTask
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
@@ -18530,6 +18596,72 @@
   IsHidden: null
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 95_s01_X1_01_EnterExpeditionStory_PinTask
+  Type: TaskGameEvent
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: null
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  UseGlobalStorage: ""
+  EnforceLocationRequirement: ""
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: neverbetrue
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: 9301.746094 8005.308594 423.192596
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: "1"
   DiegeticPinZOverride: null
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -18671,9 +18803,75 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: ""
-  SubTask1: 95_s01_X2_01_EnterExpeditionRepeat
+  SubTask1: 95_s01_X2_01_EnterExpeditionRepeat_partial
   SubTask2: 95_s01_X2_02_01_GatherGemsRepeat
   SubTask3: 95_s01_X2_02_02_KillFlameBoss
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 95_s01_X2_01_EnterExpeditionRepeat_partial
+  Type: PartialTaskContainer
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  UseGlobalStorage: ""
+  EnforceLocationRequirement: ""
+  TerritoryID: ""
+  POITag: dungeon_forge_40351
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: 95_s01_X2_01_EnterExpeditionRepeat
+  SubTask2: 95_s01_X1_01_EnterExpeditionRepeat_PinTask
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
 - TaskID: 95_s01_X2_01_EnterExpeditionRepeat
@@ -18728,6 +18926,72 @@
   IsHidden: null
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 95_s01_X1_01_EnterExpeditionRepeat_PinTask
+  Type: TaskGameEvent
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: null
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  UseGlobalStorage: ""
+  EnforceLocationRequirement: ""
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: neverbetrue
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: 9301.671875 8005.419922 423.192596
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: "1"
   DiegeticPinZOverride: null
   SS_VariantName: ""
   SS_StatePreset: ""

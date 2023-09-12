@@ -11,7 +11,7 @@
   EffectOnlyOnDamage: null
   DeflectDamageID: Deflect_Default
   CanCrit: false
-  DmgCoef: 0.7
+  DmgCoef: 0.2
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
   PowerLevel: 0.0
@@ -21,11 +21,11 @@
   BlockHitStun: 25.0
   CritHitStun: 30.0
   ImpactDistanceX: 0.0
-  ImpactDistanceY: 1.75
+  ImpactDistanceY: 0.75
   ImpactDistanceZ: 0.0
   ImpactDecayRate: 0.8
   CritImpactDistanceX: 0.0
-  CritImpactDistanceY: 1.75
+  CritImpactDistanceY: 0.75
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   BlockImpactDistanceX: 0.0
@@ -271,7 +271,7 @@
   AttackType: Magic
   DamageType: Fire
   Affixes: ""
-  StatusEffect: AI_Anubian_Burn_9
+  StatusEffect: ""
   EffectOnlyOnDamage: true
   DeflectDamageID: Deflect_Default
   CanCrit: false

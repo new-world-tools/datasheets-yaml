@@ -2,10 +2,6 @@
   ImagePath: Icons/Crafting/icon_crafting_category_weaponsAndArmors
   DisplayText: "@CategoryData_WeaponsAmmo"
   Description: ""
-- CategoryID: ArtisanCrafting
-  ImagePath: Icons/Items/Drawing/placeholder
-  DisplayText: "@ArtisanCrafting_GroupName"
-  Description: "@ArtisanCrafting_GroupDesc"
 - CategoryID: Apparel
   ImagePath: Icons/Crafting/icon_crafting_category_apparel
   DisplayText: "@CategoryData_Apparel"
@@ -37,6 +33,46 @@
 - CategoryID: ScarabRangedWeapons
   ImagePath: Icons/Items/Drawing/placeholder
   DisplayText: "@ScarabRangedWeapons_GroupName"
+  Description: ""
+- CategoryID: PrismaticMeleeWeapons
+  ImagePath: Icons/Items/Drawing/placeholder
+  DisplayText: "@PrismaticMeleeWeapons_GroupName"
+  Description: ""
+- CategoryID: PrismaticRangedWeapons
+  ImagePath: Icons/Items/Drawing/placeholder
+  DisplayText: "@PrismaticRangedWeapons_GroupName"
+  Description: ""
+- CategoryID: PrismaticStaffFire
+  ImagePath: Icons/Items/Drawing/placeholder
+  DisplayText: "@PrismaticStaffFire_GroupName"
+  Description: ""
+- CategoryID: PrismaticStaffLife
+  ImagePath: Icons/Items/Drawing/placeholder
+  DisplayText: "@PrismaticStaffLife_GroupName"
+  Description: ""
+- CategoryID: PrismaticGauntletIce
+  ImagePath: Icons/Items/Drawing/placeholder
+  DisplayText: "@PrismaticGauntletIce_GroupName"
+  Description: ""
+- CategoryID: PrismaticGauntletVoid
+  ImagePath: Icons/Items/Drawing/placeholder
+  DisplayText: "@PrismaticGauntletVoid_GroupName"
+  Description: ""
+- CategoryID: PrismaticFlail
+  ImagePath: Icons/Items/Drawing/placeholder
+  DisplayText: "@PrismaticFlail_GroupName"
+  Description: ""
+- CategoryID: PrismaticArmorPlate
+  ImagePath: Icons/Items/Drawing/placeholder
+  DisplayText: "@PrismaticArmorPlate_GroupName"
+  Description: ""
+- CategoryID: PrismaticArmorFur
+  ImagePath: Icons/Items/Drawing/placeholder
+  DisplayText: "@PrismaticArmorFur_GroupName"
+  Description: ""
+- CategoryID: PrismaticArmorCloth
+  ImagePath: Icons/Items/Drawing/placeholder
+  DisplayText: "@PrismaticArmorCloth_GroupName"
   Description: ""
 - CategoryID: Ingredient
   ImagePath: Icons/Items/Drawing/placeholder
@@ -934,6 +970,38 @@
   ImagePath: ""
   DisplayText: "@GatherableResearch"
   Description: ""
+- CategoryID: MatrixComponent
+  ImagePath: ""
+  DisplayText: "@MatrixComponent_GroupName"
+  Description: ""
+- CategoryID: Matrix
+  ImagePath: ""
+  DisplayText: "@Matrix_GroupName"
+  Description: ""
+- CategoryID: ArtifactCrafting
+  ImagePath: ""
+  DisplayText: "@ArtifactCrafting_GroupName"
+  Description: ""
+- CategoryID: Artifacts
+  ImagePath: ""
+  DisplayText: "@Artifacts_GroupName"
+  Description: ""
+- CategoryID: NamedCrafting
+  ImagePath: ""
+  DisplayText: "@NamedCrafting_GroupName"
+  Description: ""
+- CategoryID: Named
+  ImagePath: ""
+  DisplayText: "@Named_GroupName"
+  Description: ""
+- CategoryID: AzothInductor
+  ImagePath: ""
+  DisplayText: "@AzothInductor_GroupName"
+  Description: ""
+- CategoryID: ArtisanCrafting
+  ImagePath: ""
+  DisplayText: "@ArtisanCrafting_GroupName"
+  Description: "@ArtisanCrafting_GroupDesc"
 - CategoryID: Scarab
   ImagePath: ""
   DisplayText: "@Scarab_GroupName"
@@ -1154,6 +1222,10 @@
   ImagePath: Icons/Items/Drawing/StaffFire
   DisplayText: "@ScarabStaffFire_GroupName"
   Description: "@ScarabStaffFire_GroupName"
+- CategoryID: ScarabFlail
+  ImagePath: Icons/Items/Drawing/StaffFire
+  DisplayText: "@ScarabFlail_GroupName"
+  Description: "@ScarabFlail_GroupName"
 - CategoryID: WeaponCoatings
   ImagePath: ""
   DisplayText: "@CategoryData_WeaponCoatings"
@@ -2634,6 +2706,14 @@
   ImagePath: Icons/Items/Drawing/ingot
   DisplayText: "@MetalT51_GroupName"
   Description: ""
+- CategoryID: MetalT52
+  ImagePath: Icons/Items/Drawing/ingot
+  DisplayText: "@MetalT52_GroupName"
+  Description: ""
+- CategoryID: MetalT53
+  ImagePath: Icons/Items/Drawing/ingot
+  DisplayText: "@MetalT53_GroupName"
+  Description: ""
 - CategoryID: TimberT2
   ImagePath: Icons/Items/Drawing/timber
   DisplayText: "@TimberT2_GroupName"
@@ -2654,6 +2734,14 @@
   ImagePath: Icons/Items/Drawing/timber
   DisplayText: "@TimberT51_GroupName"
   Description: ""
+- CategoryID: TimberT52
+  ImagePath: Icons/Items/Drawing/timber
+  DisplayText: "@TimberT52_GroupName"
+  Description: ""
+- CategoryID: TimberT53
+  ImagePath: Icons/Items/Drawing/timber
+  DisplayText: "@TimberT53_GroupName"
+  Description: ""
 - CategoryID: LeatherT2
   ImagePath: Icons/Items/Drawing/leather
   DisplayText: "@LeatherT2_GroupName"
@@ -2673,6 +2761,14 @@
 - CategoryID: LeatherT51
   ImagePath: Icons/Items/Drawing/leather
   DisplayText: "@LeatherT51_GroupName"
+  Description: ""
+- CategoryID: LeatherT52
+  ImagePath: Icons/Items/Drawing/leather
+  DisplayText: "@LeatherT52_GroupName"
+  Description: ""
+- CategoryID: LeatherT53
+  ImagePath: Icons/Items/Drawing/leather
+  DisplayText: "@LeatherT53_GroupName"
   Description: ""
 - CategoryID: HideT5
   ImagePath: Icons/Items/Drawing/leather
@@ -2709,6 +2805,14 @@
 - CategoryID: ClothT51
   ImagePath: Icons/Items/Drawing/cloth
   DisplayText: "@ClothT51_GroupName"
+  Description: ""
+- CategoryID: ClothT52
+  ImagePath: Icons/Items/Drawing/cloth
+  DisplayText: "@ClothT52_GroupName"
+  Description: ""
+- CategoryID: ClothT53
+  ImagePath: Icons/Items/Drawing/cloth
+  DisplayText: "@ClothT53_GroupName"
   Description: ""
 - CategoryID: Gemstone
   ImagePath: Icons/Crafting/icon_crafting_category_resources
@@ -3402,9 +3506,21 @@
   ImagePath: ""
   DisplayText: "@DungeonReps11_GroupName"
   Description: ""
+- CategoryID: DungeonReps12
+  ImagePath: ""
+  DisplayText: "@DungeonReps12_GroupName"
+  Description: ""
 - CategoryID: DungeonNamedReplicas
   ImagePath: ""
   DisplayText: "@DungeonNamedReplicas_GroupName"
+  Description: ""
+- CategoryID: DungeonNamedReplicas_FLXpac
+  ImagePath: ""
+  DisplayText: "@DungeonNamedReplicas_FLXpac_GroupName"
+  Description: ""
+- CategoryID: UniqueMutatorReps
+  ImagePath: ""
+  DisplayText: "@UniqueMutatorReps_GroupName"
   Description: ""
 - CategoryID: UniqueDungeonReps1
   ImagePath: ""
@@ -3449,6 +3565,14 @@
 - CategoryID: UniqueDungeonReps11
   ImagePath: ""
   DisplayText: "@UniqueDungeonReps11_GroupName"
+  Description: ""
+- CategoryID: UniqueDungeonReps12
+  ImagePath: ""
+  DisplayText: "@UniqueDungeonReps12_GroupName"
+  Description: ""
+- CategoryID: FLXPac_MateriaConverts
+  ImagePath: ""
+  DisplayText: "@FLXPac_MateriaConverts_GroupName"
   Description: ""
 - CategoryID: PVPReplicas
   ImagePath: ""
@@ -4002,6 +4126,10 @@
   ImagePath: ""
   DisplayText: "@Greatsword_GroupName"
   Description: ""
+- CategoryID: Flail
+  ImagePath: ""
+  DisplayText: "@Flail_GroupName"
+  Description: ""
 - CategoryID: TrialCrafting
   ImagePath: ""
   DisplayText: "@TrialCrafting_GroupName"
@@ -4017,4 +4145,36 @@
 - CategoryID: UniqueEliteTrialReplicas1
   ImagePath: ""
   DisplayText: "@UniqueEliteTrialReplicas1_GroupName"
+  Description: ""
+- CategoryID: SOTS
+  ImagePath: ""
+  DisplayText: "@SOTS_GroupName"
+  Description: ""
+- CategoryID: Spores
+  ImagePath: ""
+  DisplayText: "@Spores_GroupName"
+  Description: ""
+- CategoryID: GatherSpores
+  ImagePath: ""
+  DisplayText: "@GatherSpores_GroupName"
+  Description: ""
+- CategoryID: LootSpores
+  ImagePath: ""
+  DisplayText: "@LootSpores_GroupName"
+  Description: ""
+- CategoryID: WardSpores
+  ImagePath: ""
+  DisplayText: "@WardSpores_GroupName"
+  Description: ""
+- CategoryID: BaneSpores
+  ImagePath: ""
+  DisplayText: "@BaneSpores_GroupName"
+  Description: ""
+- CategoryID: DimensionalArtifacts
+  ImagePath: ""
+  DisplayText: "@DimensionalArtifacts_GroupName"
+  Description: ""
+- CategoryID: DimensionalTether
+  ImagePath: ""
+  DisplayText: "@DimensionalTether_GroupName"
   Description: ""

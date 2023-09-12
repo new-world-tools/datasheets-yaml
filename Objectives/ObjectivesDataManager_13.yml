@@ -1,34 +1,34 @@
-- ObjectiveID: 1305_1315_SingedBranches_Quest
-  Type: EpicEquipment
+- ObjectiveID: 13_Summer_01_Welcome
+  Type: Event
   Difficulty: ""
-  DifficultyLevel: null
+  DifficultyLevel: 20.0
   MaxInfluenceLevel: ""
   FlagPvp: null
   CanBeShared: null
   CanFastTravel: null
-  Task: 1305_1315_SingedBranches_Quest_container
-  NpcDestinationId: ""
+  Task: 13_Summer_01_Welcome_container
+  NpcDestinationId: 1338_MasterOfCeremonies
   ExclusiveTerritory: null
-  AchievementId: WeaponQuest_FalmeasWrath_01
+  AchievementId: 13_Summer_01_2023
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: null
-  SuccessGameEventId: 1305_1315_SingedBranches_Quest_Success
+  SuccessGameEventId: 13_Summer_01_Welcome_success
   FailureGameEventId: ""
   ProgressionReward: ""
   ExperienceReward: ""
   ObjectiveReward: ""
-  ItemRewardName: ""
-  ItemRewardQty: null
+  ItemRewardName: 13_Summer_01_QuestReward
+  ItemRewardQty: 1.0
   Repeatable: null
-  CanBeAbandoned: false
-  Title: "@1305_1315_SingedBranches_Quest_objective_title"
-  Description: "@1305_1315_SingedBranches_Quest_description"
-  PlayerPrompt: ""
-  ObjectiveProposalResponse: ""
-  InProgressResponse: ""
-  DestinationCompletionAvailablePrompt: ""
-  DestinationCompletionAvailableResponse: ""
+  CanBeAbandoned: true
+  Title: "@13_Summer_01_Welcome_objective_title"
+  Description: "@13_Summer_01_Welcome_description"
+  PlayerPrompt: "@13_Summer_01_Welcome_prompt"
+  ObjectiveProposalResponse: "@13_Summer_01_Welcome_proposal"
+  InProgressResponse: "@13_Summer_01_Welcome_incomplete"
+  DestinationCompletionAvailablePrompt: "@complete_available_prompt_DEFAULT"
+  DestinationCompletionAvailableResponse: "@13_Summer_01_Welcome_complete"
   ObjectiveCompletionResponse: ""
   ObjectiveAcceptanceResponse: ""
   HideIncompleteTurninMarker: ""
@@ -38,37 +38,38 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
-- ObjectiveID: 1305_1315_WyrdwoodAshes_Quest
-  Type: EpicEquipment
+  ScheduleId: EventSummer
+- ObjectiveID: 13_Summer_02_Maudlinbugs
+  Type: Event
   Difficulty: ""
-  DifficultyLevel: null
+  DifficultyLevel: 20.0
   MaxInfluenceLevel: ""
   FlagPvp: null
   CanBeShared: null
   CanFastTravel: null
-  Task: 1305_1315_WyrdwoodAshes_Quest_container
-  NpcDestinationId: ""
+  Task: 13_Summer_02_Maudlinbugs_container
+  NpcDestinationId: 1338_MasterOfCeremonies
   ExclusiveTerritory: null
-  AchievementId: WeaponQuest_FalmeasWrath_02
-  RequiredAchievementId: ""
+  AchievementId: 13_Summer_02_2023
+  RequiredAchievementId: 13_Summer_01_2023
   RequiredFaction: ""
   RequiredLevel: null
-  SuccessGameEventId: 1305_1315_WyrdwoodAshes_Quest_Success
+  SuccessGameEventId: 13_Summer_02_Maudlinbugs_success
   FailureGameEventId: ""
   ProgressionReward: ""
   ExperienceReward: ""
   ObjectiveReward: ""
-  ItemRewardName: ""
-  ItemRewardQty: null
+  ItemRewardName: 13_Summer_02_QuestReward
+  ItemRewardQty: 1.0
   Repeatable: null
-  CanBeAbandoned: false
-  Title: "@1305_1315_WyrdwoodAshes_Quest_objective_title"
-  Description: "@1305_1315_WyrdwoodAshes_Quest_description"
-  PlayerPrompt: ""
-  ObjectiveProposalResponse: ""
-  InProgressResponse: ""
-  DestinationCompletionAvailablePrompt: ""
-  DestinationCompletionAvailableResponse: ""
+  CanBeAbandoned: true
+  Title: "@13_Summer_02_Maudlinbugs_objective_title"
+  Description: "@13_Summer_02_Maudlinbugs_description"
+  PlayerPrompt: "@13_Summer_02_Maudlinbugs_prompt"
+  ObjectiveProposalResponse: "@13_Summer_02_Maudlinbugs_proposal"
+  InProgressResponse: "@13_Summer_02_Maudlinbugs_incomplete"
+  DestinationCompletionAvailablePrompt: "@complete_available_prompt_DEFAULT"
+  DestinationCompletionAvailableResponse: "@13_Summer_02_Maudlinbugs_complete"
   ObjectiveCompletionResponse: ""
   ObjectiveAcceptanceResponse: ""
   HideIncompleteTurninMarker: ""
@@ -78,37 +79,38 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
-- ObjectiveID: 1305_1315_UnhallowedWater_Quest
-  Type: EpicEquipment
+  ScheduleId: EventSummer
+- ObjectiveID: 13_Summer_03_CatchSturgeon
+  Type: Event
   Difficulty: ""
-  DifficultyLevel: null
+  DifficultyLevel: 20.0
   MaxInfluenceLevel: ""
   FlagPvp: null
   CanBeShared: null
   CanFastTravel: null
-  Task: 1305_1315_UnhallowedWater_Quest_container
-  NpcDestinationId: ""
+  Task: 13_Summer_03_CatchSturgeon_container
+  NpcDestinationId: 1338_MasterOfCeremonies
   ExclusiveTerritory: null
-  AchievementId: WeaponQuest_FalmeasWrath_03
-  RequiredAchievementId: ""
+  AchievementId: 13_Summer_03_2023
+  RequiredAchievementId: 13_Summer_02_2023
   RequiredFaction: ""
   RequiredLevel: null
-  SuccessGameEventId: 1305_1315_UnhallowedWater_Quest_Success
+  SuccessGameEventId: 13_Summer_03_CatchSturgeon_success
   FailureGameEventId: ""
   ProgressionReward: ""
   ExperienceReward: ""
   ObjectiveReward: ""
-  ItemRewardName: ""
-  ItemRewardQty: null
+  ItemRewardName: 13_Summer_03_QuestReward
+  ItemRewardQty: 1.0
   Repeatable: null
   CanBeAbandoned: false
-  Title: "@1305_1315_UnhallowedWater_Quest_objective_title"
-  Description: "@1305_1315_UnhallowedWater_Quest_description"
-  PlayerPrompt: ""
-  ObjectiveProposalResponse: ""
-  InProgressResponse: ""
-  DestinationCompletionAvailablePrompt: ""
-  DestinationCompletionAvailableResponse: ""
+  Title: "@13_Summer_03_CatchSturgeon_objective_title"
+  Description: "@13_Summer_03_CatchSturgeon_description"
+  PlayerPrompt: "@13_Summer_03_CatchSturgeon_prompt"
+  ObjectiveProposalResponse: "@13_Summer_03_CatchSturgeon_proposal"
+  InProgressResponse: "@13_Summer_03_CatchSturgeon_incomplete"
+  DestinationCompletionAvailablePrompt: "@complete_available_prompt_DEFAULT"
+  DestinationCompletionAvailableResponse: "@13_Summer_03_CatchSturgeon_complete"
   ObjectiveCompletionResponse: ""
   ObjectiveAcceptanceResponse: ""
   HideIncompleteTurninMarker: ""
@@ -118,37 +120,38 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
-- ObjectiveID: 1305_1315_HeartofAllFlame_Quest
-  Type: EpicEquipment
+  ScheduleId: EventSummer
+- ObjectiveID: 13_Summer_04_Carpenter
+  Type: Event
   Difficulty: ""
-  DifficultyLevel: null
+  DifficultyLevel: 20.0
   MaxInfluenceLevel: ""
   FlagPvp: null
   CanBeShared: null
   CanFastTravel: null
-  Task: 1305_1315_HeartofAllFlame_Quest_container
-  NpcDestinationId: ""
+  Task: 13_Summer_04_Carpenter_container
+  NpcDestinationId: 1338_MasterOfCeremonies
   ExclusiveTerritory: null
-  AchievementId: WeaponQuest_FalmeasWrath_04
-  RequiredAchievementId: ""
+  AchievementId: 13_Summer_04_2023
+  RequiredAchievementId: 13_Summer_03_2023
   RequiredFaction: ""
   RequiredLevel: null
-  SuccessGameEventId: 1305_1315_HeartofAllFlame_Quest_Success
+  SuccessGameEventId: 13_Summer_04_Carpenter_success
   FailureGameEventId: ""
   ProgressionReward: ""
   ExperienceReward: ""
   ObjectiveReward: ""
-  ItemRewardName: ""
-  ItemRewardQty: null
+  ItemRewardName: 13_Summer_04_QuestReward
+  ItemRewardQty: 1.0
   Repeatable: null
-  CanBeAbandoned: false
-  Title: "@1305_1315_HeartofAllFlame_Quest_objective_title"
-  Description: "@1305_1315_HeartofAllFlame_Quest_description"
-  PlayerPrompt: ""
-  ObjectiveProposalResponse: ""
-  InProgressResponse: ""
-  DestinationCompletionAvailablePrompt: ""
-  DestinationCompletionAvailableResponse: ""
+  CanBeAbandoned: true
+  Title: "@13_Summer_04_Carpenter_objective_title"
+  Description: "@13_Summer_04_Carpenter_description"
+  PlayerPrompt: "@13_Summer_04_Carpenter_prompt"
+  ObjectiveProposalResponse: "@13_Summer_04_Carpenter_proposal"
+  InProgressResponse: "@13_Summer_04_Carpenter_incomplete"
+  DestinationCompletionAvailablePrompt: "@complete_available_prompt_DEFAULT"
+  DestinationCompletionAvailableResponse: "@13_Summer_04_Carpenter_complete"
   ObjectiveCompletionResponse: ""
   ObjectiveAcceptanceResponse: ""
   HideIncompleteTurninMarker: ""
@@ -158,6 +161,212 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: EventSummer
+- ObjectiveID: 13_Summer_05_Florist
+  Type: Event
+  Difficulty: ""
+  DifficultyLevel: 20.0
+  MaxInfluenceLevel: ""
+  FlagPvp: null
+  CanBeShared: null
+  CanFastTravel: null
+  Task: 13_Summer_05_Florist_container
+  NpcDestinationId: 1338_MasterOfCeremonies
+  ExclusiveTerritory: null
+  AchievementId: 13_Summer_05_2023
+  RequiredAchievementId: 13_Summer_04_2023
+  RequiredFaction: ""
+  RequiredLevel: null
+  SuccessGameEventId: 13_Summer_05_Florist_success
+  FailureGameEventId: ""
+  ProgressionReward: ""
+  ExperienceReward: ""
+  ObjectiveReward: ""
+  ItemRewardName: 13_Summer_05_QuestReward
+  ItemRewardQty: 1.0
+  Repeatable: null
+  CanBeAbandoned: true
+  Title: "@13_Summer_05_Florist_objective_title"
+  Description: "@13_Summer_05_Florist_description"
+  PlayerPrompt: "@13_Summer_05_Florist_prompt"
+  ObjectiveProposalResponse: "@13_Summer_05_Florist_proposal"
+  InProgressResponse: "@13_Summer_05_Florist_incomplete"
+  DestinationCompletionAvailablePrompt: "@complete_available_prompt_DEFAULT"
+  DestinationCompletionAvailableResponse: "@13_Summer_05_Florist_complete"
+  ObjectiveCompletionResponse: ""
+  ObjectiveAcceptanceResponse: ""
+  HideIncompleteTurninMarker: ""
+  ORMReleaseEventTags: ""
+  ORMReleaseActiveOverride: ""
+  SkipReqAchievmentWhenInvalid: ""
+  EntitlementId: ""
+  QuestArcTag: ""
+  HideAvailableMapIcon : ""
+  ScheduleId: EventSummer
+- ObjectiveID: 13_Summer_06_Beekeep
+  Type: Event
+  Difficulty: ""
+  DifficultyLevel: 20.0
+  MaxInfluenceLevel: ""
+  FlagPvp: null
+  CanBeShared: null
+  CanFastTravel: null
+  Task: 13_Summer_06_Beekeep_container
+  NpcDestinationId: 1338_MasterOfCeremonies
+  ExclusiveTerritory: null
+  AchievementId: 13_Summer_06_2023
+  RequiredAchievementId: 13_Summer_05_2023
+  RequiredFaction: ""
+  RequiredLevel: null
+  SuccessGameEventId: 13_Summer_06_Beekeep_success
+  FailureGameEventId: ""
+  ProgressionReward: ""
+  ExperienceReward: ""
+  ObjectiveReward: ""
+  ItemRewardName: 13_Summer_06_QuestReward
+  ItemRewardQty: 1.0
+  Repeatable: null
+  CanBeAbandoned: true
+  Title: "@13_Summer_06_Beekeep_objective_title"
+  Description: "@13_Summer_06_Beekeep_description"
+  PlayerPrompt: "@13_Summer_06_Beekeep_prompt"
+  ObjectiveProposalResponse: "@13_Summer_06_Beekeep_proposal"
+  InProgressResponse: "@13_Summer_06_Beekeep_incomplete"
+  DestinationCompletionAvailablePrompt: "@complete_available_prompt_DEFAULT"
+  DestinationCompletionAvailableResponse: "@13_Summer_06_Beekeep_complete"
+  ObjectiveCompletionResponse: ""
+  ObjectiveAcceptanceResponse: ""
+  HideIncompleteTurninMarker: ""
+  ORMReleaseEventTags: ""
+  ORMReleaseActiveOverride: ""
+  SkipReqAchievmentWhenInvalid: ""
+  EntitlementId: ""
+  QuestArcTag: ""
+  HideAvailableMapIcon : ""
+  ScheduleId: EventSummer
+- ObjectiveID: 13_Summer_07_Baker
+  Type: Event
+  Difficulty: ""
+  DifficultyLevel: 20.0
+  MaxInfluenceLevel: ""
+  FlagPvp: null
+  CanBeShared: null
+  CanFastTravel: null
+  Task: 13_Summer_07_Baker_container
+  NpcDestinationId: 1338_MasterOfCeremonies
+  ExclusiveTerritory: null
+  AchievementId: 13_Summer_07_2023
+  RequiredAchievementId: 13_Summer_06_2023
+  RequiredFaction: ""
+  RequiredLevel: null
+  SuccessGameEventId: 13_Summer_07_Baker_success
+  FailureGameEventId: ""
+  ProgressionReward: ""
+  ExperienceReward: ""
+  ObjectiveReward: ""
+  ItemRewardName: 13_Summer_07_QuestReward
+  ItemRewardQty: 1.0
+  Repeatable: null
+  CanBeAbandoned: true
+  Title: "@13_Summer_07_Baker_objective_title"
+  Description: "@13_Summer_07_Baker_description"
+  PlayerPrompt: "@13_Summer_07_Baker_prompt"
+  ObjectiveProposalResponse: "@13_Summer_07_Baker_proposal"
+  InProgressResponse: "@13_Summer_07_Baker_incomplete"
+  DestinationCompletionAvailablePrompt: "@complete_available_prompt_DEFAULT"
+  DestinationCompletionAvailableResponse: "@13_Summer_07_Baker_complete"
+  ObjectiveCompletionResponse: ""
+  ObjectiveAcceptanceResponse: ""
+  HideIncompleteTurninMarker: ""
+  ORMReleaseEventTags: ""
+  ORMReleaseActiveOverride: ""
+  SkipReqAchievmentWhenInvalid: ""
+  EntitlementId: ""
+  QuestArcTag: ""
+  HideAvailableMapIcon : ""
+  ScheduleId: EventSummer
+- ObjectiveID: 13_Summer_08_Poet
+  Type: Event
+  Difficulty: ""
+  DifficultyLevel: 20.0
+  MaxInfluenceLevel: ""
+  FlagPvp: null
+  CanBeShared: null
+  CanFastTravel: null
+  Task: 13_Summer_08_Poet_container
+  NpcDestinationId: 1338_MasterOfCeremonies
+  ExclusiveTerritory: null
+  AchievementId: 13_Summer_08_2023
+  RequiredAchievementId: 13_Summer_07_2023
+  RequiredFaction: ""
+  RequiredLevel: null
+  SuccessGameEventId: 13_Summer_08_Poet_success
+  FailureGameEventId: ""
+  ProgressionReward: ""
+  ExperienceReward: ""
+  ObjectiveReward: ""
+  ItemRewardName: 13_Summer_08_QuestReward
+  ItemRewardQty: 1.0
+  Repeatable: null
+  CanBeAbandoned: true
+  Title: "@13_Summer_08_Poet_objective_title"
+  Description: "@13_Summer_08_Poet_description"
+  PlayerPrompt: "@13_Summer_08_Poet_prompt"
+  ObjectiveProposalResponse: "@13_Summer_08_Poet_proposal"
+  InProgressResponse: "@13_Summer_08_Poet_incomplete"
+  DestinationCompletionAvailablePrompt: "@complete_available_prompt_DEFAULT"
+  DestinationCompletionAvailableResponse: "@13_Summer_08_Poet_complete"
+  ObjectiveCompletionResponse: ""
+  ObjectiveAcceptanceResponse: ""
+  HideIncompleteTurninMarker: ""
+  ORMReleaseEventTags: ""
+  ORMReleaseActiveOverride: ""
+  SkipReqAchievmentWhenInvalid: ""
+  EntitlementId: ""
+  QuestArcTag: ""
+  HideAvailableMapIcon : ""
+  ScheduleId: EventSummer
+- ObjectiveID: 13_Summer_09_PlayWithBand
+  Type: Event
+  Difficulty: ""
+  DifficultyLevel: 20.0
+  MaxInfluenceLevel: ""
+  FlagPvp: null
+  CanBeShared: null
+  CanFastTravel: null
+  Task: 13_Summer_09_PlayWithBand_container
+  NpcDestinationId: 1338_MasterOfCeremonies
+  ExclusiveTerritory: null
+  AchievementId: 13_Summer_09_2023
+  RequiredAchievementId: 13_Summer_08_2023
+  RequiredFaction: ""
+  RequiredLevel: null
+  SuccessGameEventId: 13_Summer_09_PlayWithBand_success
+  FailureGameEventId: ""
+  ProgressionReward: ""
+  ExperienceReward: ""
+  ObjectiveReward: ""
+  ItemRewardName: 13_Summer_09_QuestReward
+  ItemRewardQty: 1.0
+  Repeatable: null
+  CanBeAbandoned: true
+  Title: "@13_Summer_09_PlayWithBand_objective_title"
+  Description: "@13_Summer_09_PlayWithBand_description"
+  PlayerPrompt: "@13_Summer_09_PlayWithBand_prompt"
+  ObjectiveProposalResponse: "@13_Summer_09_PlayWithBand_proposal"
+  InProgressResponse: "@13_Summer_09_PlayWithBand_incomplete"
+  DestinationCompletionAvailablePrompt: "@complete_available_prompt_DEFAULT"
+  DestinationCompletionAvailableResponse: "@13_Summer_09_PlayWithBand_complete"
+  ObjectiveCompletionResponse: ""
+  ObjectiveAcceptanceResponse: ""
+  HideIncompleteTurninMarker: ""
+  ORMReleaseEventTags: ""
+  ORMReleaseActiveOverride: ""
+  SkipReqAchievmentWhenInvalid: ""
+  EntitlementId: ""
+  QuestArcTag: ""
+  HideAvailableMapIcon : ""
+  ScheduleId: EventSummer
 - ObjectiveID: FM_1301_objective
   Type: Mission
   Difficulty: ""
@@ -198,6 +407,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_1302_objective
   Type: Mission
   Difficulty: ""
@@ -238,6 +448,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_1303_objective
   Type: Mission
   Difficulty: ""
@@ -278,6 +489,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_1304_objective
   Type: Mission
   Difficulty: ""
@@ -318,6 +530,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_1305_objective
   Type: Mission
   Difficulty: ""
@@ -358,6 +571,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_1306_objective
   Type: Mission
   Difficulty: ""
@@ -398,6 +612,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_1307_objective
   Type: Mission
   Difficulty: ""
@@ -438,6 +653,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_1308_objective
   Type: Mission
   Difficulty: ""
@@ -478,6 +694,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_1309_objective
   Type: Mission
   Difficulty: ""
@@ -518,6 +735,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_1310_objective
   Type: Mission
   Difficulty: ""
@@ -558,6 +776,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_1301_objective
   Type: Mission
   Difficulty: ""
@@ -598,6 +817,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_1302_objective
   Type: Mission
   Difficulty: ""
@@ -638,6 +858,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_1303_objective
   Type: Mission
   Difficulty: ""
@@ -678,6 +899,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_1304_objective
   Type: Mission
   Difficulty: ""
@@ -718,6 +940,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_1305_objective
   Type: Mission
   Difficulty: ""
@@ -758,6 +981,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_1306_objective
   Type: Mission
   Difficulty: ""
@@ -798,6 +1022,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_1307_objective
   Type: Mission
   Difficulty: ""
@@ -838,6 +1063,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_1308_objective
   Type: Mission
   Difficulty: ""
@@ -878,6 +1104,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_1309_objective
   Type: Mission
   Difficulty: ""
@@ -918,6 +1145,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_1310_objective
   Type: Mission
   Difficulty: ""
@@ -958,6 +1186,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_1301_objective
   Type: Mission
   Difficulty: ""
@@ -998,6 +1227,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_1302_objective
   Type: Mission
   Difficulty: ""
@@ -1038,6 +1268,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_1303_objective
   Type: Mission
   Difficulty: ""
@@ -1078,6 +1309,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_1304_objective
   Type: Mission
   Difficulty: ""
@@ -1118,6 +1350,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_1305_objective
   Type: Mission
   Difficulty: ""
@@ -1158,6 +1391,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_1306_objective
   Type: Mission
   Difficulty: ""
@@ -1198,6 +1432,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_1307_objective
   Type: Mission
   Difficulty: ""
@@ -1238,6 +1473,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_1308_objective
   Type: Mission
   Difficulty: ""
@@ -1278,6 +1514,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_1309_objective
   Type: Mission
   Difficulty: ""
@@ -1318,6 +1555,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_1310_objective
   Type: Mission
   Difficulty: ""
@@ -1358,6 +1596,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_1361_objective
   Type: Mission
   Difficulty: ""
@@ -1398,6 +1637,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_1362_objective
   Type: Mission
   Difficulty: ""
@@ -1438,6 +1678,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_1363_objective
   Type: Mission
   Difficulty: ""
@@ -1478,6 +1719,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_1364_objective
   Type: Mission
   Difficulty: ""
@@ -1518,6 +1760,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_1365_objective
   Type: Mission
   Difficulty: ""
@@ -1558,6 +1801,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_1366_objective
   Type: Mission
   Difficulty: ""
@@ -1598,6 +1842,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_1367_objective
   Type: Mission
   Difficulty: ""
@@ -1638,6 +1883,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_1368_objective
   Type: Mission
   Difficulty: ""
@@ -1678,6 +1924,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_1369_objective
   Type: Mission
   Difficulty: ""
@@ -1718,6 +1965,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_1370_objective
   Type: Mission
   Difficulty: ""
@@ -1758,6 +2006,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_1361_objective
   Type: Mission
   Difficulty: ""
@@ -1798,6 +2047,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_1362_objective
   Type: Mission
   Difficulty: ""
@@ -1838,6 +2088,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_1363_objective
   Type: Mission
   Difficulty: ""
@@ -1878,6 +2129,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_1364_objective
   Type: Mission
   Difficulty: ""
@@ -1918,6 +2170,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_1365_objective
   Type: Mission
   Difficulty: ""
@@ -1958,6 +2211,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_1366_objective
   Type: Mission
   Difficulty: ""
@@ -1998,6 +2252,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_1367_objective
   Type: Mission
   Difficulty: ""
@@ -2038,6 +2293,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_1368_objective
   Type: Mission
   Difficulty: ""
@@ -2078,6 +2334,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_1369_objective
   Type: Mission
   Difficulty: ""
@@ -2118,6 +2375,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_1370_objective
   Type: Mission
   Difficulty: ""
@@ -2158,6 +2416,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_1361_objective
   Type: Mission
   Difficulty: ""
@@ -2198,6 +2457,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_1362_objective
   Type: Mission
   Difficulty: ""
@@ -2238,6 +2498,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_1363_objective
   Type: Mission
   Difficulty: ""
@@ -2278,6 +2539,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_1364_objective
   Type: Mission
   Difficulty: ""
@@ -2318,6 +2580,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_1365_objective
   Type: Mission
   Difficulty: ""
@@ -2358,6 +2621,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_1366_objective
   Type: Mission
   Difficulty: ""
@@ -2398,6 +2662,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_1367_objective
   Type: Mission
   Difficulty: ""
@@ -2438,6 +2703,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_1368_objective
   Type: Mission
   Difficulty: ""
@@ -2478,6 +2744,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_1369_objective
   Type: Mission
   Difficulty: ""
@@ -2518,6 +2785,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_1370_objective
   Type: Mission
   Difficulty: ""
@@ -2558,6 +2826,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_13_PVP_SpySpot_Marauder_objective
   Type: Mission
   Difficulty: ""
@@ -2598,6 +2867,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_13_PVP_PoachSpot_Marauder_objective
   Type: Mission
   Difficulty: ""
@@ -2638,6 +2908,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_13_PVP_ControlSpot_Marauder_objective
   Type: Mission
   Difficulty: ""
@@ -2678,6 +2949,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_13_PVP_SpySpot_Syndicate_objective
   Type: Mission
   Difficulty: ""
@@ -2718,6 +2990,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_13_PVP_PoachSpot_Syndicate_objective
   Type: Mission
   Difficulty: ""
@@ -2758,6 +3031,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_13_PVP_ControlSpot_Syndicate_objective
   Type: Mission
   Difficulty: ""
@@ -2798,6 +3072,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_13_PVP_SpySpot_Covenant_objective
   Type: Mission
   Difficulty: ""
@@ -2838,6 +3113,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_13_PVP_PoachSpot_Covenant_objective
   Type: Mission
   Difficulty: ""
@@ -2878,6 +3154,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_13_PVP_ControlSpot_Covenant_objective
   Type: Mission
   Difficulty: ""
@@ -2918,6 +3195,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_13_H_01_objective
   Type: Mission
   Difficulty: ""
@@ -2958,6 +3236,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_13_H_02_objective
   Type: Mission
   Difficulty: ""
@@ -2998,6 +3277,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_13_H_03_objective
   Type: Mission
   Difficulty: ""
@@ -3038,3 +3318,4 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""

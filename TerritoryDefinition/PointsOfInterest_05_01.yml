@@ -588,7 +588,7 @@
   DefaultAchievement: null
   OutpostId: ""
   Debug: ""
-  LootTags: EternalPool,AngryEarth
+  LootTags: EternalPool,AngryEarth,EPOI
   DiscoveredAchievement: AE_Elite_50119_discovered
   ChartedAchievement: AE_Elite_50119_charted
   POITag: AE_Elite_50119,elite
@@ -940,7 +940,7 @@
   DefaultAchievement: null
   OutpostId: ""
   Debug: ""
-  LootTags: ReekElitePOI,SirenCity,Lost
+  LootTags: ReekElitePOI,SirenCity,Lost,EPOI
   DiscoveredAchievement: Lost_Elite_City_50130_discovered
   ChartedAchievement: Lost_Elite_City_50130_charted
   POITag: Lost_Elite_City_50130,elite
@@ -972,7 +972,7 @@
   DefaultAchievement: null
   OutpostId: ""
   Debug: ""
-  LootTags: ReekElitePOI,SirenFort,Lost
+  LootTags: ReekElitePOI,SirenFort,Lost,EPOI
   DiscoveredAchievement: Lost_Elite_Fort_50131_discovered
   ChartedAchievement: Lost_Elite_Fort_50131_charted
   POITag: Lost_Elite_Fort_50131,elite
@@ -1717,6 +1717,102 @@
   AudioBank: ""
   CanPlaceCamp: false
   DevName: ""
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: ""
+  TooltipBackground: ""
+  GameMode: ""
+  GroupSize: null
+  IsCollapsible: true
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 50156.0
+  NameLocalizationKey: "@Reekwater_Tower_01"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: ""
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: Reekwater_Tower_01_50156_charted
+  POITag: Reekwater_Tower_01
+  AudioGroup: POI_State
+  AudioState: factionarea
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Reekwater_Tower_01
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: ""
+  TooltipBackground: ""
+  GameMode: ""
+  GroupSize: null
+  IsCollapsible: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 50157.0
+  NameLocalizationKey: "@Reekwater_Tower_02"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: ""
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: Reekwater_Tower_02_50157_charted
+  POITag: Reekwater_Tower_02
+  AudioGroup: POI_State
+  AudioState: factionarea
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Reekwater_Tower_02
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: ""
+  TooltipBackground: ""
+  GameMode: ""
+  GroupSize: null
+  IsCollapsible: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 50158.0
+  NameLocalizationKey: "@Reekwater_Tower_03"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: ""
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: Reekwater_Tower_03_50158_charted
+  POITag: Reekwater_Tower_03
+  AudioGroup: POI_State
+  AudioState: factionarea
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Reekwater_Tower_03
   VitalsCategory: ""
   LevelRange: ""
   Containers: ""

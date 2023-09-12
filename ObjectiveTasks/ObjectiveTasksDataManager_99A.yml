@@ -11834,10 +11834,10 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   SubTask1: 99A_MSQ_11_01_GoToPOI_ShatteredObelisk
-  SubTask2: 99A_MSQ_11_01_CraftTheStaff
-  SubTask3: 99A_MSQ_11_02_TriggerWhisper06
-  SubTask4: ""
-  SubTask5: ""
+  SubTask2: 99A_MSQ_11_01_UnlockInteractAchievement
+  SubTask3: 99A_MSQ_11_01_CraftTheStaff
+  SubTask4: 99A_MSQ_11_02_TriggerWhisper06
+  SubTask5: 99A_MSQ_11_01_LockInteractAchievement
 - TaskID: 99A_MSQ_11_01_GoToPOI_ShatteredObelisk
   Type: TaskGoToPOITag
   FailOnCondition: ""
@@ -11887,6 +11887,70 @@
   TargetDescriptionTaskId: ""
   OverrideLocation: 9286.990234 3874.296387 111.165092
   IsHidden: ""
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99A_MSQ_11_01_UnlockInteractAchievement
+  Type: TaskUnlockAchievement
+  FailOnCondition: ""
+  StayActive: ""
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: 99_MSQ_0021_ForgeStaffVisible
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: ""
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: ""
   DiegeticPinZOverride: ""
@@ -12495,6 +12559,70 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: ""
   AwardOnlyOnce: "1"
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: ""
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99A_MSQ_11_01_LockInteractAchievement
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: ""
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: 99_MSQ_0021_ForgeStaffVisible
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
   ShouldCheckPoints: ""
   GuranteedDropAttempts: null
   TargetThreshold: ""
@@ -15866,10 +15994,10 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   SubTask1: 99A_MSQ_14b_02_03a_CraftHeartgem
-  SubTask2: 99A_MSQ_14b_02_03b_RemoveYetiItem
-  SubTask3: 99A_MSQ_14b_02_03c_RemoveBridgeItem
-  SubTask4: 99A_MSQ_14b_02_03c_RemoveShatteredItem
-  SubTask5: 99A_MSQ_14b_02_03d_GiveHeartgem_Hidden
+  SubTask2: 99A_MSQ_14b_02_03b_removeContainer
+  SubTask3: 99A_MSQ_14b_02_03d_GiveHeartgem_Hidden
+  SubTask4: ""
+  SubTask5: ""
 - TaskID: 99A_MSQ_14b_02_03a_CraftHeartgem
   Type: TaskGameEvent
   FailOnCondition: ""
@@ -15934,13 +16062,13 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99A_MSQ_14b_02_03b_RemoveYetiItem
-  Type: TaskRemoveItem
+- TaskID: 99A_MSQ_14b_02_03b_removeContainer
+  Type: PartialTaskContainer
   FailOnCondition: ""
   StayActive: ""
   RequiredLevel: ""
-  TargetQty: 1.0
-  ItemName: 99A_MSQ_14b_YetiCaveItem
+  TargetQty: null
+  ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: ""
@@ -15993,9 +16121,9 @@
   CommunityGoalTag: ""
   HideChildren: ""
   TriggerAnalyticsEvent: ""
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
+  SubTask1: 99A_MSQ_14b_02_03c_RemoveBridgeItem
+  SubTask2: 99A_MSQ_14b_02_03c_RemoveYetiItem
+  SubTask3: 99A_MSQ_14b_02_03c_RemoveShatteredItem
   SubTask4: ""
   SubTask5: ""
 - TaskID: 99A_MSQ_14b_02_03c_RemoveBridgeItem
@@ -16062,12 +16190,76 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
+- TaskID: 99A_MSQ_14b_02_03c_RemoveYetiItem
+  Type: TaskRemoveItem
+  FailOnCondition: ""
+  StayActive: ""
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: 99A_MSQ_14b_YetiCaveItem
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: ""
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
 - TaskID: 99A_MSQ_14b_02_03c_RemoveShatteredItem
   Type: TaskRemoveItem
   FailOnCondition: ""
   StayActive: ""
   RequiredLevel: ""
-  TargetQty: 20.0
+  TargetQty: 30.0
   ItemName: 99A_MSQ_14b_ShatteredObeliskItem
   ItemDropVC: ""
   ItemDropProbability: null

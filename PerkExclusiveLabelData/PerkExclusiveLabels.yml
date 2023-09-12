@@ -1,7 +1,7 @@
-- ExclusiveLabelID: Attribute
-  Weight: 100.0
+- ExclusiveLabelID: All
+  Weight: 1.0
   ItemClassOverrides: ""
-- ExclusiveLabelID: EmptyGem
+- ExclusiveLabelID: Attribute
   Weight: 100.0
   ItemClassOverrides: ""
 - ExclusiveLabelID: Strength
@@ -18,6 +18,9 @@
   ItemClassOverrides: ""
 - ExclusiveLabelID: Constitution
   Weight: 0.0
+  ItemClassOverrides: ""
+- ExclusiveLabelID: EmptyGem
+  Weight: 100.0
   ItemClassOverrides: ""
 - ExclusiveLabelID: Lightning
   Weight: 1.0
@@ -151,6 +154,9 @@
 - ExclusiveLabelID: GreatSword
   Weight: 1.0
   ItemClassOverrides: ""
+- ExclusiveLabelID: Flail
+  Weight: 1.0
+  ItemClassOverrides: ""
 - ExclusiveLabelID: CDR
   Weight: 100.0
   ItemClassOverrides: ""
@@ -197,7 +203,7 @@
   Weight: 100.0
   ItemClassOverrides: ""
 - ExclusiveLabelID: Health
-  Weight: 200.0
+  Weight: 100.0
   ItemClassOverrides: ""
 - ExclusiveLabelID: Proc
   Weight: 100.0
@@ -225,7 +231,7 @@
   ItemClassOverrides: ""
 - ExclusiveLabelID: Threat
   Weight: 20.0
-  ItemClassOverrides: ""
+  ItemClassOverrides: Lifestaff:-20
 - ExclusiveLabelID: Consume
   Weight: 100.0
   ItemClassOverrides: ""
@@ -300,4 +306,13 @@
   ItemClassOverrides: ""
 - ExclusiveLabelID: 5thPerk
   Weight: 500.0
+  ItemClassOverrides: ""
+- ExclusiveLabelID: OnHeart
+  Weight: 100.0
+  ItemClassOverrides: ""
+- ExclusiveLabelID: Physical
+  Weight: 100.0
+  ItemClassOverrides: ""
+- ExclusiveLabelID: Proc2
+  Weight: 100.0
   ItemClassOverrides: ""

@@ -9,7 +9,7 @@
   AmmoType: Shot
   DamageModifier: 1.0
   StaggerDamageModifier: 1.0
-  AmmoPrefabPath: Items/Weapons/basic_shot
+  AmmoPrefabPath: Items/Weapons/basic_musket_shot
   AmmoWhizByTrigger: Play_Bullet_WizzBys
   MeshOverride: ""
 - AmmoID: ArrowT1
@@ -72,28 +72,28 @@
   AmmoType: Shot
   DamageModifier: 1.05
   StaggerDamageModifier: 1.05
-  AmmoPrefabPath: Items/Weapons/basic_shot
+  AmmoPrefabPath: Items/Weapons/basic_musket_shot
   AmmoWhizByTrigger: Play_Bullet_WizzBys
   MeshOverride: ""
 - AmmoID: ShotT3
   AmmoType: Shot
   DamageModifier: 1.1
   StaggerDamageModifier: 1.1
-  AmmoPrefabPath: Items/Weapons/basic_shot
+  AmmoPrefabPath: Items/Weapons/basic_musket_shot
   AmmoWhizByTrigger: Play_Bullet_WizzBys
   MeshOverride: ""
 - AmmoID: ShotT4
   AmmoType: Shot
   DamageModifier: 1.15
   StaggerDamageModifier: 1.15
-  AmmoPrefabPath: Items/Weapons/basic_shot
+  AmmoPrefabPath: Items/Weapons/basic_musket_shot
   AmmoWhizByTrigger: Play_Bullet_WizzBys
   MeshOverride: ""
 - AmmoID: ShotT5
   AmmoType: Shot
   DamageModifier: 1.2
   StaggerDamageModifier: 1.2
-  AmmoPrefabPath: Items/Weapons/basic_shot
+  AmmoPrefabPath: Items/Weapons/basic_musket_shot
   AmmoWhizByTrigger: Play_Bullet_WizzBys
   MeshOverride: ""
 - AmmoID: Spell_Ball
@@ -499,7 +499,7 @@
   AmmoType: Shot
   DamageModifier: 1.2
   StaggerDamageModifier: 1.2
-  AmmoPrefabPath: Items/Weapons/basic_shot
+  AmmoPrefabPath: Items/Weapons/basic_musket_shot
   AmmoWhizByTrigger: Play_Bullet_WizzBys
   MeshOverride: ""
 - AmmoID: TriggerEvent_Falling_Rubble_v2_Projectile_Basic
@@ -592,4 +592,32 @@
   StaggerDamageModifier: 1.0
   AmmoPrefabPath: Characters/SpellSlices/Naga_Fire/FireNaga_FlameVent_Projectile
   AmmoWhizByTrigger: Play_Arrow_WhizzBys
+  MeshOverride: ""
+- AmmoID: AI_Adiana_Sprout_Projectile
+  AmmoType: Shot
+  DamageModifier: 1.0
+  StaggerDamageModifier: 1.0
+  AmmoPrefabPath: Items/Weapons/MegaFlora_RazorLotus_PetalProjectile
+  AmmoWhizByTrigger: Play_Arrow_WhizzBys
+  MeshOverride: ""
+- AmmoID: AI_Yonas_Magic_Projectile
+  AmmoType: Arrow
+  DamageModifier: 1.0
+  StaggerDamageModifier: 1.0
+  AmmoPrefabPath: Characters/SpellSlices/AI_Yonas_Magic_Proj
+  AmmoWhizByTrigger: Play_Arrow_WhizzBys
+  MeshOverride: ""
+- AmmoID: AI_Adiana_Arrow
+  AmmoType: Arrow
+  DamageModifier: 1.0
+  StaggerDamageModifier: 1.0
+  AmmoPrefabPath: Items/Weapons/ai_adiana_arrow
+  AmmoWhizByTrigger: Play_Arrow_WhizzBys
+  MeshOverride: ""
+- AmmoID: Gimmick_99D_MSQ_FireCannon_Ammo
+  AmmoType: Siege
+  DamageModifier: 1.0
+  StaggerDamageModifier: 1.0
+  AmmoPrefabPath: WorldEvents/MSQ2_GreatCleave/Gimmick_99D_MSQ_FireCannon_Ammo
+  AmmoWhizByTrigger: Play_Bullet_WizzBys
   MeshOverride: ""

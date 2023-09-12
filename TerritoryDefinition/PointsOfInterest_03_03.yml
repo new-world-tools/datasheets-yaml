@@ -4,7 +4,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/ancient_buttress_elite.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/ancient_buttress.png
   CompassIcon: ""
   DiscoveryRadius: 375.0
   IsDiscoverable: true
@@ -15,7 +15,7 @@
   LootTags: MangledHeightsWest,Corrupted
   DiscoveredAchievement: beastencounter_30301_discovered
   ChartedAchievement: beastencounter_30301_charted
-  POITag: beastencounter,elite
+  POITag: beastencounter
   AudioGroup: POI_State
   AudioState: beastencounter
   AudioBank: ""
@@ -27,7 +27,8 @@
   TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\POI\\mapTooltip_Elite_BalebaneMaw.png"
   GameMode: ""
   GroupSize: 3.0
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30302.0
@@ -59,7 +60,8 @@
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_outpostRush_iceBoss.png
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30303.0
@@ -91,7 +93,8 @@
   TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\POI\\brimstone_sands\\mapTooltip_brimstone_POI_acropolis.png"
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30304.0
@@ -123,7 +126,8 @@
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/POI/brimstone_sands/mapTooltip_brimstone_POI_dunephantom.png
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30305.0
@@ -140,7 +144,7 @@
   DefaultAchievement: null
   OutpostId: ""
   Debug: ""
-  LootTags: ScorpionNest,AngryEarth
+  LootTags: ScorpionNest,AngryEarth,EPOI
   DiscoveredAchievement: scorpionnest_30305_discovered
   ChartedAchievement: scorpionnest_30305_charted
   POITag: scorpionnest_30305,elite
@@ -155,7 +159,8 @@
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/POI/mapTooltip_Elite_BedsOfTaBitjet.png
   GameMode: ""
   GroupSize: 3.0
-  RecommendedLevel: 63.0
+  IsCollapsible: null
+  RecommendedLevel: "63"
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30306.0
@@ -187,7 +192,8 @@
   TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\POI\\brimstone_sands\\mapTooltip_brimstone_POI_crassus.png"
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30307.0
@@ -219,7 +225,8 @@
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/POI/brimstone_sands/mapTooltip_brimstone_POI_dunephantom.png
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30308.0
@@ -251,7 +258,8 @@
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/POI/brimstone_sands/mapTooltip_brimstone_POI_dunephantom.png
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30309.0
@@ -283,7 +291,8 @@
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/POI/brimstone_sands/mapTooltip_brimstone_POI_dunephantom.png
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30310.0
@@ -315,7 +324,8 @@
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/POI/brimstone_sands/mapTooltip_brimstone_POI_dunephantom.png
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30311.0
@@ -347,7 +357,8 @@
   TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\POI\\brimstone_sands\\mapTooltip_brimstone_POI_desert_generic.png"
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30312.0
@@ -379,39 +390,8 @@
   TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_fortress13.png"
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
-  UnchartedIcon: ""
-  EventId: ""
-- TerritoryID: 30313.0
-  NameLocalizationKey: "@ui_poi_factionarea_30313"
-  BaseStructureLimit: ""
-  MaxStructureLimit: ""
-  TerritoryScore: ""
-  IsPOI: true
-  MapIcon: ""
-  CompassIcon: ""
-  DiscoveryRadius: 60.0
-  IsDiscoverable: false
-  IsChartable: true
-  DefaultAchievement: null
-  OutpostId: ""
-  Debug: ""
-  LootTags: ""
-  DiscoveredAchievement: ""
-  ChartedAchievement: factionarea_30313_charted
-  POITag: poi_30313_factionarea
-  AudioGroup: POI_State
-  AudioState: factionarea
-  AudioBank: ""
-  CanPlaceCamp: true
-  DevName: Faction Area
-  VitalsCategory: ""
-  LevelRange: ""
-  Containers: null
-  TooltipBackground: ""
-  GameMode: ""
-  GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30314.0
@@ -443,7 +423,8 @@
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_spiritshrine.png
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
   EventId: ""
 - TerritoryID: 30315.0
@@ -475,7 +456,8 @@
   TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\POI\\brimstone_sands\\mapTooltip_brimstone_POI_desert_generic.png"
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30316.0
@@ -507,7 +489,8 @@
   TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\POI\\brimstone_sands\\mapTooltip_brimstone_POI_desert_generic_b.png"
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30317.0
@@ -539,7 +522,8 @@
   TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\POI\\brimstone_sands\\mapTooltip_brimstone_POI_desert_generic_b.png"
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30318.0
@@ -571,7 +555,8 @@
   TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_poi_shipwreck.png"
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30319.0
@@ -603,7 +588,8 @@
   TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\POI\\mapTooltip_poi_cat_den.png"
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30320.0
@@ -635,7 +621,8 @@
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/POI/brimstone_sands/mapTooltip_brimstone_POI_scorpion_a.png
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30321.0
@@ -667,7 +654,8 @@
   TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\POI\\brimstone_sands\\mapTooltip_brimstone_POI_desert_generic.png"
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30322.0
@@ -699,7 +687,8 @@
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/POI/brimstone_sands/mapTooltip_spiritshrine_desert.png
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
   EventId: ""
 - TerritoryID: 30323.0
@@ -731,7 +720,8 @@
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_fish_2.png
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30324.0
@@ -763,7 +753,8 @@
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/POI/brimstone_sands/mapTooltip_brimstone_POI_lighthouse.png
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30325.0
@@ -795,7 +786,8 @@
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/POI/brimstone_sands/mapTooltip_brimstone_POI_phantomtree.png
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/azure_tree.png
   EventId: ""
 - TerritoryID: 30326.0
@@ -827,7 +819,8 @@
   TooltipBackground: ""
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: true
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30327.0
@@ -859,7 +852,8 @@
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/POI/brimstone_sands/mapTooltip_brimstone_POI_dunephantom.png
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30328.0
@@ -891,7 +885,8 @@
   TooltipBackground: ""
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30329.0
@@ -923,7 +918,8 @@
   TooltipBackground: ""
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30330.0
@@ -955,7 +951,8 @@
   TooltipBackground: ""
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30331.0
@@ -987,7 +984,8 @@
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/POI/brimstone_sands/mapTooltip_spiritshrine_desert.png
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
   EventId: ""
 - TerritoryID: 30332.0
@@ -1019,7 +1017,8 @@
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/POI/brimstone_sands/mapTooltip_spiritshrine_desert.png
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
   EventId: ""
 - TerritoryID: 30333.0
@@ -1051,7 +1050,8 @@
   TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\POI\\brimstone_sands\\mapTooltip_brimstone_POI_desert_generic.png"
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30334.0
@@ -1083,7 +1083,8 @@
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_silvercrows.png
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: 0.0
+  IsCollapsible: null
+  RecommendedLevel: "0"
   UnchartedIcon: ""
   EventId: CrowsNest
 - TerritoryID: 30335.0
@@ -1115,7 +1116,8 @@
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/POI/mapTooltip_elite_attaluslanding.png
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30336.0
@@ -1127,7 +1129,7 @@
   MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\cave_elite.png"
   CompassIcon: ""
   DiscoveryRadius: 60.0
-  IsDiscoverable: false
+  IsDiscoverable: true
   IsChartable: true
   DefaultAchievement: null
   OutpostId: ""
@@ -1147,7 +1149,8 @@
   TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_TrialSeason02Q12.dds"
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
   EventId: ""
 - TerritoryID: 30337.0
@@ -1158,8 +1161,8 @@
   IsPOI: true
   MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\Malek_Camp.png"
   CompassIcon: ""
-  DiscoveryRadius: 60.0
-  IsDiscoverable: false
+  DiscoveryRadius: 150.0
+  IsDiscoverable: true
   IsChartable: true
   DefaultAchievement: null
   OutpostId: ""
@@ -1179,7 +1182,41 @@
   TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\POI\\brimstone_sands\\mapTooltip_brimstone_POI_desert_ruins.png"
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 30338.0
+  NameLocalizationKey: "@ui_poi_spiritshrine_30338"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine_bg.dds
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\spirit_shrine_charted.dds"
+  DiscoveryRadius: 150.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: spiritshrine_30338_charted
+  POITag: spiritshrine_30338,fasttravel
+  AudioGroup: POI_State
+  AudioState: spiritshrine_30338
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Spirit Shrine
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_spiritshrine.png
+  GameMode: ""
+  GroupSize: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
   EventId: ""
 - TerritoryID: 30339.0
@@ -1191,7 +1228,7 @@
   MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\arena_flamekeeper.png"
   CompassIcon: ""
   DiscoveryRadius: 60.0
-  IsDiscoverable: false
+  IsDiscoverable: true
   IsChartable: true
   DefaultAchievement: null
   OutpostId: ""
@@ -1211,7 +1248,8 @@
   TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\POI\\brimstone_sands\\mapTooltip_brimstone_POI_desert_ruins.png"
   GameMode: TrialSeason01
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30340.0
@@ -1243,6 +1281,106 @@
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/POI/brimstone_sands/mapTooltip_spiritshrine_desert.png
   GameMode: ""
   GroupSize: null
-  RecommendedLevel: null
+  IsCollapsible: null
+  RecommendedLevel: ""
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
+  EventId: ""
+- TerritoryID: 30341.0
+  NameLocalizationKey: "@Brimstone_Sands_Tower_01"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: ""
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: Brimstone_Sands_Tower_01_30341_charted
+  POITag: Brimstone_Sands_Tower_01
+  AudioGroup: POI_State
+  AudioState: factionarea
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Brimstone_Sands_Tower_01
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: ""
+  GameMode: ""
+  GroupSize: null
+  IsCollapsible: null
+  RecommendedLevel: ""
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 30342.0
+  NameLocalizationKey: "@Brimstone_Sands_Tower_02"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: ""
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: Brimstone_Sands_Tower_02_30342_charted
+  POITag: Brimstone_Sands_Tower_02
+  AudioGroup: POI_State
+  AudioState: factionarea
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Brimstone_Sands_Tower_02
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: ""
+  GameMode: ""
+  GroupSize: null
+  IsCollapsible: null
+  RecommendedLevel: ""
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 30343.0
+  NameLocalizationKey: "@Brimstone_Sands_Tower_03"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: ""
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: Brimstone_Sands_Tower_03_30343_charted
+  POITag: Brimstone_Sands_Tower_03
+  AudioGroup: POI_State
+  AudioState: factionarea
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Brimstone_Sands_Tower_03
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: ""
+  GameMode: ""
+  GroupSize: null
+  IsCollapsible: null
+  RecommendedLevel: ""
+  UnchartedIcon: ""
   EventId: ""

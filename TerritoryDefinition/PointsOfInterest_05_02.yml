@@ -1182,6 +1182,38 @@
   UnchartedIcon: ""
   IsCollapsible: null
   EventId: ""
+- TerritoryID: 50252.0
+  NameLocalizationKey: "@ui_poi_summervillage_50252"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/event_summervillage.png
+  CompassIcon: ""
+  DiscoveryRadius: 150.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: 2.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: ""
+  POITag: summervillage_50252
+  AudioGroup: POI_State
+  AudioState: village_summer
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Summer Village
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: LyShineUI/Images/map/tooltipimages/mapTooltip_Summer_npc.png
+  GameMode: ""
+  GroupSize: ""
+  UnchartedIcon: ""
+  IsCollapsible: true
+  EventId: SummerMedley
 - TerritoryID: 50253.0
   NameLocalizationKey: "@ui_poi_spiritshrine_02_50253"
   BaseStructureLimit: ""
@@ -1278,6 +1310,102 @@
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
   IsCollapsible: null
   EventId: ""
+- TerritoryID: 50259.0
+  NameLocalizationKey: "@Weavers_Fen_Tower_01"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: ""
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: Weavers_Fen_Tower_01_50259_charted
+  POITag: Weavers_Fen_Tower_01
+  AudioGroup: POI_State
+  AudioState: factionarea
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Weavers_Fen_Tower_01
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: ""
+  GameMode: ""
+  GroupSize: ""
+  UnchartedIcon: ""
+  IsCollapsible: null
+  EventId: ""
+- TerritoryID: 50260.0
+  NameLocalizationKey: "@Weavers_Fen_Tower_02"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: ""
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: Weavers_Fen_Tower_02_50260_charted
+  POITag: Weavers_Fen_Tower_02
+  AudioGroup: POI_State
+  AudioState: factionarea
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Weavers_Fen_Tower_02
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: ""
+  GameMode: ""
+  GroupSize: ""
+  UnchartedIcon: ""
+  IsCollapsible: null
+  EventId: ""
+- TerritoryID: 50261.0
+  NameLocalizationKey: "@Weavers_Fen_Tower_03"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: ""
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: Weavers_Fen_Tower_03_50261_charted
+  POITag: Weavers_Fen_Tower_03
+  AudioGroup: POI_State
+  AudioState: factionarea
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Weavers_Fen_Tower_03
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: ""
+  GameMode: ""
+  GroupSize: ""
+  UnchartedIcon: ""
+  IsCollapsible: null
+  EventId: ""
 - TerritoryID: 50257.0
   NameLocalizationKey: "@WeaversFen_Settlement_01"
   BaseStructureLimit: ""
@@ -1308,37 +1436,5 @@
   GameMode: ""
   GroupSize: ""
   UnchartedIcon: ""
-  IsCollapsible: null
-  EventId: ""
-- TerritoryID: 50258.0
-  NameLocalizationKey: "@ui_poi_spiritshrine_05_50258"
-  BaseStructureLimit: ""
-  MaxStructureLimit: ""
-  TerritoryScore: ""
-  IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine_bg.dds
-  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\spirit_shrine_charted.dds"
-  DiscoveryRadius: 150.0
-  IsDiscoverable: false
-  IsChartable: true
-  DefaultAchievement: 1.0
-  OutpostId: ""
-  Debug: ""
-  LootTags: ""
-  DiscoveredAchievement: ""
-  ChartedAchievement: spiritshrine_05_50258_charted
-  POITag: spiritshrine_05_50258,fasttravel
-  AudioGroup: POI_State
-  AudioState: watchtower
-  AudioBank: ""
-  CanPlaceCamp: false
-  DevName: Spirit Shrine
-  VitalsCategory: ""
-  LevelRange: ""
-  Containers: null
-  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_spiritshrine.png
-  GameMode: ""
-  GroupSize: ""
-  UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
-  IsCollapsible: null
+  IsCollapsible: true
   EventId: ""

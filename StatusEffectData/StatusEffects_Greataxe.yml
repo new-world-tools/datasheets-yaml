@@ -156,6 +156,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -201,6 +202,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: null
   AFAPoison: ""
   AFADisease: ""
@@ -397,6 +399,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -442,6 +445,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: null
   AFAPoison: ""
   AFADisease: ""
@@ -638,6 +642,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -683,6 +688,7 @@
   DMGNature: 0.03
   DMGLightning: 0.03
   DMGCorruption: 0.03
+  DMGAcid: 0.03
   DMGVitalsCategory: 0.03
   AFAPoison: ""
   AFADisease: ""
@@ -879,6 +885,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -924,6 +931,7 @@
   DMGNature: 0.15
   DMGLightning: 0.15
   DMGCorruption: 0.15
+  DMGAcid: 0.15
   DMGVitalsCategory: null
   AFAPoison: ""
   AFADisease: ""
@@ -1120,6 +1128,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -1165,6 +1174,7 @@
   DMGNature: 0.05
   DMGLightning: 0.05
   DMGCorruption: 0.05
+  DMGAcid: 0.05
   DMGVitalsCategory: 0.05
   AFAPoison: ""
   AFADisease: ""
@@ -1174,9 +1184,9 @@
   AFABlight: ""
   StackDuration: 0.0
   DurationMax: 10.0
-  InheritDuration: "1"
-  InheritTotalDuration: null
-  RefreshDuration: "TRUE"
+  InheritDuration: "0"
+  InheritTotalDuration: false
+  RefreshDuration: "0"
   StackMax: 3.0
   InitialStackSize: ""
   RemoveUnappliedStacks: true
@@ -1361,6 +1371,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -1406,6 +1417,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: null
   AFAPoison: ""
   AFADisease: ""
@@ -1602,6 +1614,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -1647,6 +1660,7 @@
   DMGNature: 0.15
   DMGLightning: 0.15
   DMGCorruption: 0.15
+  DMGAcid: 0.15
   DMGVitalsCategory: 0.15
   AFAPoison: ""
   AFADisease: ""
@@ -1843,6 +1857,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -1888,6 +1903,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: null
   AFAPoison: ""
   AFADisease: ""
@@ -2084,6 +2100,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -2129,6 +2146,7 @@
   DMGNature: 0.05
   DMGLightning: 0.05
   DMGCorruption: 0.05
+  DMGAcid: 0.05
   DMGVitalsCategory: 0.05
   AFAPoison: ""
   AFADisease: ""
@@ -2325,6 +2343,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -2370,6 +2389,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: null
   AFAPoison: ""
   AFADisease: ""
@@ -2566,6 +2586,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -2611,6 +2632,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: null
   AFAPoison: ""
   AFADisease: ""
@@ -2807,6 +2829,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -2852,6 +2875,7 @@
   DMGNature: 0.3
   DMGLightning: 0.3
   DMGCorruption: 0.3
+  DMGAcid: 0.3
   DMGVitalsCategory: 0.3
   AFAPoison: ""
   AFADisease: ""
@@ -3048,6 +3072,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -3093,6 +3118,7 @@
   DMGNature: 0.1
   DMGLightning: 0.1
   DMGCorruption: 0.1
+  DMGAcid: 0.1
   DMGVitalsCategory: 0.1
   AFAPoison: ""
   AFADisease: ""
@@ -3289,6 +3315,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -3334,6 +3361,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: null
   AFAPoison: ""
   AFADisease: ""
@@ -3530,6 +3558,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -3575,6 +3604,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: null
   AFAPoison: ""
   AFADisease: ""
@@ -3771,6 +3801,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -3816,6 +3847,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: null
   AFAPoison: ""
   AFADisease: ""
@@ -4012,6 +4044,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -4057,6 +4090,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: null
   AFAPoison: ""
   AFADisease: ""
@@ -4253,6 +4287,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -4298,6 +4333,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: null
   AFAPoison: ""
   AFADisease: ""

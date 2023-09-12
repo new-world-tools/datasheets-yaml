@@ -728,7 +728,7 @@
   VitalsCategory: Corrupted
   LevelRange: 3-5
   Containers: 3.0
-  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_territory9.png
+  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_poi_shipwreck.png"
   GameMode: ""
   GroupSize: ""
   IsCollapsible: null
@@ -792,7 +792,7 @@
   VitalsCategory: Corrupted
   LevelRange: 3-5
   Containers: 3.0
-  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_territory9.png
+  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_poi_shipwreck.png"
   GameMode: ""
   GroupSize: ""
   IsCollapsible: null
@@ -920,7 +920,7 @@
   VitalsCategory: ""
   LevelRange: 3-7
   Containers: 3.0
-  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_territory9.png
+  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_poi_shipwreck.png"
   GameMode: ""
   GroupSize: ""
   IsCollapsible: null
@@ -952,7 +952,7 @@
   VitalsCategory: Corrupted
   LevelRange: 3-7
   Containers: 3.0
-  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_territory9.png
+  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_poi_shipwreck.png"
   GameMode: ""
   GroupSize: ""
   IsCollapsible: null
@@ -1502,6 +1502,38 @@
   IsCollapsible: null
   UnchartedIcon: ""
   EventId: ""
+- TerritoryID: 30149.0
+  NameLocalizationKey: "@ui_poi_summervillage_30149"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/event_summervillage.png
+  CompassIcon: ""
+  DiscoveryRadius: 150.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: 2.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: ""
+  POITag: summervillage_30149
+  AudioGroup: POI_State
+  AudioState: village_summer
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: ""
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: LyShineUI/Images/map/tooltipimages/mapTooltip_Summer_npc.png
+  GameMode: ""
+  GroupSize: ""
+  IsCollapsible: true
+  UnchartedIcon: ""
+  EventId: SummerMedley
 - TerritoryID: 30150.0
   NameLocalizationKey: "@ui_poi_lost_ruins_30150"
   BaseStructureLimit: ""
@@ -1691,6 +1723,134 @@
   TooltipBackground: ""
   GameMode: ""
   GroupSize: ""
+  IsCollapsible: true
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 30157.0
+  NameLocalizationKey: "@Monarchs_Bluff_Tower_01"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: ""
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: Monarchs_Bluff_Tower_01_30157_charted
+  POITag: Monarchs_Bluff_Influence_Tower_01
+  AudioGroup: POI_State
+  AudioState: factionarea
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Monarchs_Bluff_Influence_Tower_01
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: ""
+  GameMode: ""
+  GroupSize: ""
   IsCollapsible: null
   UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 30158.0
+  NameLocalizationKey: "@Monarchs_Bluff_Tower_02"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: ""
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: Monarchs_Bluff_Tower_02_30158_charted
+  POITag: Monarchs_Bluff_Influence_Tower_02
+  AudioGroup: POI_State
+  AudioState: factionarea
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Monarchs_Bluff_Influence_Tower_02
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: ""
+  GameMode: ""
+  GroupSize: ""
+  IsCollapsible: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 30159.0
+  NameLocalizationKey: "@Monarchs_Bluff_Tower_03"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: ""
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: Monarchs_Bluff_Tower_03_30159_charted
+  POITag: Monarchs_Bluff_Influence_Tower_03
+  AudioGroup: POI_State
+  AudioState: factionarea
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Monarchs_Bluff_Influence_Tower_03
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: ""
+  GameMode: ""
+  GroupSize: ""
+  IsCollapsible: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 30160.0
+  NameLocalizationKey: "@ui_poi_spiritshrine_02_30160"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine_bg.dds
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\spirit_shrine_charted.dds"
+  DiscoveryRadius: 150.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: spiritshrine_02_30160_charted
+  POITag: spiritshrine_02_30160,fasttravel
+  AudioGroup: POI_State
+  AudioState: watchtower
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Werna Isle Shrine
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_spiritshrine.png
+  GameMode: ""
+  GroupSize: ""
+  IsCollapsible: null
+  UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
   EventId: ""

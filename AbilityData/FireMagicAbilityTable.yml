@@ -2962,10 +2962,10 @@
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
   ResetConsecutiveOnSuccess: ""
-  TrackHitCount: false
+  TrackHitCount: true
   MaxTrackedHitCounts: 0.0
-  NumberOfTrackedHits: null
-  NumberOfHitsComparisonType: ""
+  NumberOfTrackedHits: 3.0
+  NumberOfHitsComparisonType: LessThanOrEqual
   DamageIsRanged: null
   DamageIsMelee: null
   ForceShowNameTag: ""

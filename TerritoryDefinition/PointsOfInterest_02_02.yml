@@ -12,7 +12,7 @@
   DefaultAchievement: null
   OutpostId: ""
   Debug: ""
-  LootTags: DynastyPalace,Corrupted
+  LootTags: DynastyPalace,Corrupted,EPOI
   DiscoveredAchievement: empressfortress_20201_discovered
   ChartedAchievement: empressfortress_20201_charted
   POITag: empressfortress_20201,elite
@@ -74,7 +74,7 @@
   DefaultAchievement: null
   OutpostId: ""
   Debug: ""
-  LootTags: DynastyShrine,Corrupted
+  LootTags: DynastyShrine,Corrupted,EPOI
   DiscoveredAchievement: dynasty_shrine_20203_discovered
   ChartedAchievement: dynasty_shrine_20203_charted
   POITag: dynasty_shrine_20203,elite
@@ -273,6 +273,37 @@
   LevelRange: ""
   Containers: ""
   TooltipBackground: LyShineui/images/map/tooltipimages/mapTooltip_DungeonEbonscale00.png
+  GameMode: ""
+  GroupSize: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 20221.0
+  NameLocalizationKey: "@ui_poi_factionarea_20221"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: ""
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: factionarea_20221_charted
+  POITag: poi_20221_factionarea
+  AudioGroup: POI_State
+  AudioState: factionarea
+  AudioBank: ""
+  CanPlaceCamp: true
+  DevName: Faction Area
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: ""
+  TooltipBackground: ""
   GameMode: ""
   GroupSize: null
   UnchartedIcon: ""

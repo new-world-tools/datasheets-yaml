@@ -40,7 +40,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -119,6 +119,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: Engaged
   CDRImmediatelyOptions: ""
@@ -170,7 +171,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -249,6 +250,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -300,7 +302,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -379,6 +381,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -430,7 +433,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -509,6 +512,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: JudgementsReach
   CDRImmediatelyOptions: ""
@@ -560,7 +564,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -639,6 +643,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -687,11 +692,11 @@
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
-  TrackHitCount: false
+  TrackHitCount: true
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
-  NumberOfHitsComparisonType: ""
+  NumberOfTrackedHits: 3.0
+  NumberOfHitsComparisonType: LessThanOrEqual
   DamageIsRanged: ""
   DamageIsMelee: ""
   ForceShowNameTag: ""
@@ -769,6 +774,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -820,7 +826,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -899,6 +905,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -950,7 +957,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -1029,6 +1036,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: Executioner
   CDRImmediatelyOptions: ""
@@ -1080,7 +1088,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -1159,6 +1167,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1210,7 +1219,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -1289,6 +1298,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1340,7 +1350,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -1419,6 +1429,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1470,7 +1481,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -1549,6 +1560,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1600,7 +1612,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -1679,6 +1691,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: 0.1
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1730,7 +1743,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -1809,6 +1822,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1860,7 +1874,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -1939,6 +1953,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1990,7 +2005,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -2069,6 +2084,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -2120,7 +2136,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -2199,6 +2215,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -2250,7 +2267,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -2329,6 +2346,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: 0.1
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -2380,7 +2398,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -2459,6 +2477,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -2510,7 +2529,7 @@
   TrackHitCount: true
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -2589,6 +2608,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: Whirlwind
   CDRImmediatelyOptions: ""
@@ -2640,7 +2660,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -2719,6 +2739,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -2770,7 +2791,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -2849,6 +2870,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -2900,7 +2922,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -2979,6 +3001,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -3030,7 +3053,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -3109,6 +3132,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: Maelstrom
   CDRImmediatelyOptions: ""
@@ -3160,7 +3184,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -3239,6 +3263,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -3290,7 +3315,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -3369,6 +3394,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -3420,7 +3446,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -3499,6 +3525,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -3550,7 +3577,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -3629,6 +3656,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: GravityWell
   CDRImmediatelyOptions: ""
@@ -3680,7 +3708,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -3759,6 +3787,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -3810,7 +3839,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -3889,6 +3918,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -3940,7 +3970,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -4019,6 +4049,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4070,7 +4101,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -4149,6 +4180,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4200,7 +4232,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -4279,6 +4311,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4330,7 +4363,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -4409,6 +4442,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4460,7 +4494,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -4539,6 +4573,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4590,7 +4625,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -4669,6 +4704,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4720,7 +4756,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -4799,6 +4835,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4850,7 +4887,7 @@
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: ""
+  NumberOfTrackedHits: null
   NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: ""
@@ -4929,6 +4966,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""

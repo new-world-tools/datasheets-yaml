@@ -5,6 +5,7 @@
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_head_slot"
   Description: "@ClothingHead_HorticulturistT3_Description"
+  HeartgemRuneTooltipTitle: ""
   ItemClass: EquippableHead+Armor+Medium+Named
   TradingCategory: Apparel
   TradingFamily: ArmorLight
@@ -22,6 +23,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorScholar
+  PerkSlot2: ""
+  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot4: ""
+  PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
   Perk2: ""
   Perk3: PerkID_Armor_HarvestingLuck
@@ -49,11 +55,13 @@
   HousingTags: ""
   IconPath: ""
   HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 1.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: null
   ContainerGS: null
   ExceedMinIndex: ""
@@ -66,7 +74,9 @@
   CraftingRecipe: SalvageSmall_LeatherT3
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT3
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -91,6 +101,11 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: ClothingHead_HorticulturistT4_MakeGood
   ParentItemId_DVT: ClothingHead_HorticulturistT4
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -98,6 +113,7 @@
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_head_slot"
   Description: "@ClothingHead_HorticulturistT4_Description"
+  HeartgemRuneTooltipTitle: ""
   ItemClass: EquippableHead+Armor+Medium+Named
   TradingCategory: Apparel
   TradingFamily: ArmorLight
@@ -115,6 +131,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorScholar
+  PerkSlot2: ""
+  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot4: ""
+  PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
   Perk2: ""
   Perk3: PerkID_Armor_HarvestingLuck
@@ -142,11 +163,13 @@
   HousingTags: ""
   IconPath: ""
   HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 1.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: null
   ContainerGS: null
   ExceedMinIndex: ""
@@ -159,7 +182,9 @@
   CraftingRecipe: SalvageSmall_LeatherT4
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT4
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -184,6 +209,11 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: ClothingHead_HorticulturistT5_MakeGood
   ParentItemId_DVT: ClothingHead_HorticulturistT5
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -191,6 +221,7 @@
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_head_slot"
   Description: "@ClothingHead_HorticulturistT5_Description"
+  HeartgemRuneTooltipTitle: ""
   ItemClass: EquippableHead+Armor+Medium+Named
   TradingCategory: Apparel
   TradingFamily: ArmorLight
@@ -208,6 +239,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorScholar
+  PerkSlot2: ""
+  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot4: ""
+  PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
   Perk2: ""
   Perk3: PerkID_Armor_HarvestingLuck
@@ -235,11 +271,13 @@
   HousingTags: ""
   IconPath: ""
   HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 1.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: null
   ContainerGS: null
   ExceedMinIndex: ""
@@ -252,7 +290,9 @@
   CraftingRecipe: SalvageSmall_LeatherT5
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT5
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -277,6 +317,11 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: ClothingChest_HorticulturistT3_MakeGood
   ParentItemId_DVT: ClothingChest_HorticulturistT3
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -284,6 +329,7 @@
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_chest_slot"
   Description: "@ClothingChest_HorticulturistT3_Description"
+  HeartgemRuneTooltipTitle: ""
   ItemClass: EquippableChest+Armor+Medium+Named
   TradingCategory: Apparel
   TradingFamily: ArmorLight
@@ -301,6 +347,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorScholar
+  PerkSlot2: ""
+  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot4: ""
+  PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
   Perk2: ""
   Perk3: PerkID_Armor_HarvestingLuck
@@ -328,11 +379,13 @@
   HousingTags: ""
   IconPath: ""
   HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 1.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: null
   ContainerGS: null
   ExceedMinIndex: ""
@@ -345,7 +398,9 @@
   CraftingRecipe: SalvageLarge_LeatherT3
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT3
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -370,6 +425,11 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: ClothingChest_HorticulturistT4_MakeGood
   ParentItemId_DVT: ClothingChest_HorticulturistT4
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -377,6 +437,7 @@
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_chest_slot"
   Description: "@ClothingChest_HorticulturistT4_Description"
+  HeartgemRuneTooltipTitle: ""
   ItemClass: EquippableChest+Armor+Medium+Named
   TradingCategory: Apparel
   TradingFamily: ArmorLight
@@ -394,6 +455,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorScholar
+  PerkSlot2: ""
+  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot4: ""
+  PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
   Perk2: ""
   Perk3: PerkID_Armor_HarvestingLuck
@@ -421,11 +487,13 @@
   HousingTags: ""
   IconPath: ""
   HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 1.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: null
   ContainerGS: null
   ExceedMinIndex: ""
@@ -438,7 +506,9 @@
   CraftingRecipe: SalvageLarge_LeatherT4
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT4
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -463,6 +533,11 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: ClothingChest_HorticulturistT5_MakeGood
   ParentItemId_DVT: ClothingChest_HorticulturistT5
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -470,6 +545,7 @@
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_chest_slot"
   Description: "@ClothingChest_HorticulturistT5_Description"
+  HeartgemRuneTooltipTitle: ""
   ItemClass: EquippableChest+Armor+Medium+Named
   TradingCategory: Apparel
   TradingFamily: ArmorLight
@@ -487,6 +563,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorScholar
+  PerkSlot2: ""
+  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot4: ""
+  PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
   Perk2: ""
   Perk3: PerkID_Armor_HarvestingLuck
@@ -514,11 +595,13 @@
   HousingTags: ""
   IconPath: ""
   HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 1.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: null
   ContainerGS: null
   ExceedMinIndex: ""
@@ -531,7 +614,9 @@
   CraftingRecipe: SalvageLarge_LeatherT5
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT5
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -556,6 +641,11 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: ClothingHands_HorticulturistT3_MakeGood
   ParentItemId_DVT: ClothingHands_HorticulturistT3
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -563,6 +653,7 @@
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_glove_slot"
   Description: "@ClothingHands_HorticulturistT3_Description"
+  HeartgemRuneTooltipTitle: ""
   ItemClass: EquippableHands+Armor+Medium+Named
   TradingCategory: Apparel
   TradingFamily: ArmorLight
@@ -580,6 +671,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorScholar
+  PerkSlot2: ""
+  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot4: ""
+  PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
   Perk2: ""
   Perk3: PerkID_Armor_HarvestingLuck
@@ -607,11 +703,13 @@
   HousingTags: ""
   IconPath: ""
   HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 1.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: null
   ContainerGS: null
   ExceedMinIndex: ""
@@ -624,7 +722,9 @@
   CraftingRecipe: SalvageSmall_LeatherT3
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT3
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -649,6 +749,11 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: ClothingHands_HorticulturistT4_MakeGood
   ParentItemId_DVT: ClothingHands_HorticulturistT4
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -656,6 +761,7 @@
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_glove_slot"
   Description: "@ClothingHands_HorticulturistT4_Description"
+  HeartgemRuneTooltipTitle: ""
   ItemClass: EquippableHands+Armor+Medium+Named
   TradingCategory: Apparel
   TradingFamily: ArmorLight
@@ -673,6 +779,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorScholar
+  PerkSlot2: ""
+  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot4: ""
+  PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
   Perk2: ""
   Perk3: PerkID_Armor_HarvestingLuck
@@ -700,11 +811,13 @@
   HousingTags: ""
   IconPath: ""
   HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 1.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: null
   ContainerGS: null
   ExceedMinIndex: ""
@@ -717,7 +830,9 @@
   CraftingRecipe: SalvageSmall_LeatherT4
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT4
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -742,6 +857,11 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: ClothingHands_HorticulturistT5_MakeGood
   ParentItemId_DVT: ClothingHands_HorticulturistT5
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -749,6 +869,7 @@
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_glove_slot"
   Description: "@ClothingHands_HorticulturistT5_Description"
+  HeartgemRuneTooltipTitle: ""
   ItemClass: EquippableHands+Armor+Medium+Named
   TradingCategory: Apparel
   TradingFamily: ArmorLight
@@ -766,6 +887,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorScholar
+  PerkSlot2: ""
+  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot4: ""
+  PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
   Perk2: ""
   Perk3: PerkID_Armor_HarvestingLuck
@@ -793,11 +919,13 @@
   HousingTags: ""
   IconPath: ""
   HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 1.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: null
   ContainerGS: null
   ExceedMinIndex: ""
@@ -810,7 +938,9 @@
   CraftingRecipe: SalvageSmall_LeatherT5
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT5
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -835,6 +965,11 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: ClothingLegs_HorticulturistT3_MakeGood
   ParentItemId_DVT: ClothingLegs_HorticulturistT3
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -842,6 +977,7 @@
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_legs_slot"
   Description: "@ClothingLegs_HorticulturistT3_Description"
+  HeartgemRuneTooltipTitle: ""
   ItemClass: EquippableLegs+Armor+Medium+Named
   TradingCategory: Apparel
   TradingFamily: ArmorLight
@@ -859,6 +995,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorScholar
+  PerkSlot2: ""
+  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot4: ""
+  PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
   Perk2: ""
   Perk3: PerkID_Armor_HarvestingLuck
@@ -886,11 +1027,13 @@
   HousingTags: ""
   IconPath: ""
   HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 1.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: null
   ContainerGS: null
   ExceedMinIndex: ""
@@ -903,7 +1046,9 @@
   CraftingRecipe: SalvageLarge_LeatherT3
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT3
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -928,6 +1073,11 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: ClothingLegs_HorticulturistT4_MakeGood
   ParentItemId_DVT: ClothingLegs_HorticulturistT4
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -935,6 +1085,7 @@
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_legs_slot"
   Description: "@ClothingLegs_HorticulturistT4_Description"
+  HeartgemRuneTooltipTitle: ""
   ItemClass: EquippableLegs+Armor+Medium+Named
   TradingCategory: Apparel
   TradingFamily: ArmorLight
@@ -952,6 +1103,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorScholar
+  PerkSlot2: ""
+  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot4: ""
+  PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
   Perk2: ""
   Perk3: PerkID_Armor_HarvestingLuck
@@ -979,11 +1135,13 @@
   HousingTags: ""
   IconPath: ""
   HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 1.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: null
   ContainerGS: null
   ExceedMinIndex: ""
@@ -996,7 +1154,9 @@
   CraftingRecipe: SalvageLarge_LeatherT4
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT4
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -1021,6 +1181,11 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: ClothingLegs_HorticulturistT5_MakeGood
   ParentItemId_DVT: ClothingLegs_HorticulturistT5
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -1028,6 +1193,7 @@
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_legs_slot"
   Description: "@ClothingLegs_HorticulturistT5_Description"
+  HeartgemRuneTooltipTitle: ""
   ItemClass: EquippableLegs+Armor+Medium+Named
   TradingCategory: Apparel
   TradingFamily: ArmorLight
@@ -1045,6 +1211,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorScholar
+  PerkSlot2: ""
+  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot4: ""
+  PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
   Perk2: ""
   Perk3: PerkID_Armor_HarvestingLuck
@@ -1072,11 +1243,13 @@
   HousingTags: ""
   IconPath: ""
   HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 1.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: null
   ContainerGS: null
   ExceedMinIndex: ""
@@ -1089,7 +1262,9 @@
   CraftingRecipe: SalvageLarge_LeatherT5
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT5
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -1114,6 +1289,11 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: ClothingFeet_HorticulturistT3_MakeGood
   ParentItemId_DVT: ClothingFeet_HorticulturistT3
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -1121,6 +1301,7 @@
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_feet_slot"
   Description: "@ClothingFeet_HorticulturistT3_Description"
+  HeartgemRuneTooltipTitle: ""
   ItemClass: EquippableFeet+Armor+Medium+Named
   TradingCategory: Apparel
   TradingFamily: ArmorLight
@@ -1138,6 +1319,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorScholar
+  PerkSlot2: ""
+  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot4: ""
+  PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
   Perk2: ""
   Perk3: PerkID_Armor_HarvestingLuck
@@ -1165,11 +1351,13 @@
   HousingTags: ""
   IconPath: ""
   HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 1.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: null
   ContainerGS: null
   ExceedMinIndex: ""
@@ -1182,7 +1370,9 @@
   CraftingRecipe: SalvageSmall_LeatherT3
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT3
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -1207,6 +1397,11 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: ClothingFeet_HorticulturistT4_MakeGood
   ParentItemId_DVT: ClothingFeet_HorticulturistT4
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -1214,6 +1409,7 @@
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_feet_slot"
   Description: "@ClothingFeet_HorticulturistT4_Description"
+  HeartgemRuneTooltipTitle: ""
   ItemClass: EquippableFeet+Armor+Medium+Named
   TradingCategory: Apparel
   TradingFamily: ArmorLight
@@ -1231,6 +1427,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorScholar
+  PerkSlot2: ""
+  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot4: ""
+  PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
   Perk2: ""
   Perk3: PerkID_Armor_HarvestingLuck
@@ -1258,11 +1459,13 @@
   HousingTags: ""
   IconPath: ""
   HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 1.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: null
   ContainerGS: null
   ExceedMinIndex: ""
@@ -1275,7 +1478,9 @@
   CraftingRecipe: SalvageSmall_LeatherT4
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT4
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -1300,6 +1505,11 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: ClothingFeet_HorticulturistT5_MakeGood
   ParentItemId_DVT: ClothingFeet_HorticulturistT5
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -1307,6 +1517,7 @@
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_feet_slot"
   Description: "@ClothingFeet_HorticulturistT5_Description"
+  HeartgemRuneTooltipTitle: ""
   ItemClass: EquippableFeet+Armor+Medium+Named
   TradingCategory: Apparel
   TradingFamily: ArmorLight
@@ -1324,6 +1535,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorScholar
+  PerkSlot2: ""
+  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot4: ""
+  PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
   Perk2: ""
   Perk3: PerkID_Armor_HarvestingLuck
@@ -1351,11 +1567,13 @@
   HousingTags: ""
   IconPath: ""
   HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 1.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: null
   ContainerGS: null
   ExceedMinIndex: ""
@@ -1368,7 +1586,9 @@
   CraftingRecipe: SalvageSmall_LeatherT5
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT5
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -1393,6 +1613,11 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: RingT5_TheRingoftheForgersSignet_Orange
   ParentItemId_DVT: RingT5_TheRingoftheForgersSignet
   IgnoreParentColumns_DVT: ForceRarity,GearScoreOverride,CanRollPerkOnUpgrade
@@ -1400,6 +1625,7 @@
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_ringjewelry"
   Description: ""
+  HeartgemRuneTooltipTitle: ""
   ItemClass: EquippableRing+Jewelry
   TradingCategory: ""
   TradingFamily: ""
@@ -1417,6 +1643,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: 1.0
   CanReplaceGem: 0.0
+  PerkSlot1: PerkID_Stat_ArmorScholar
+  PerkSlot2: PerkID_Gem_ThrustWard4
+  PerkSlot3: PerkID_Ring_Crit
+  PerkSlot4: PerkID_Common_CDR
+  PerkSlot5: PerkID_Ring_DurSlow
   Perk1: PerkID_Stat_ArmorScholar
   Perk2: PerkID_Gem_ThrustWard4
   Perk3: PerkID_Ring_Crit
@@ -1444,11 +1675,13 @@
   HousingTags: ""
   IconPath: lyshineui/images/icons/items/Armor/LostRing05.png
   HiResIconPath: lyshineui/images/icons/items_hires/LostRing05.png
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 1.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: null
   ContainerGS: null
   ExceedMinIndex: ""
@@ -1461,7 +1694,9 @@
   CraftingRecipe: SalvageSmall_MetalT5
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT5
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -1486,13 +1721,19 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: RingT5_TheRingoftheForgersSignet_Purple
   ParentItemId_DVT: RingT5_TheRingoftheForgersSignet
-  IgnoreParentColumns_DVT: Perk5,ForceRarity,GearScoreOverride,CanRollPerkOnUpgrade
+  IgnoreParentColumns_DVT: PerkSlot5,Perk5,ForceRarity,GearScoreOverride,CanRollPerkOnUpgrade
   Name: "@RingT5_TheRingoftheForgersSignet_MasterName"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_ringjewelry"
   Description: ""
+  HeartgemRuneTooltipTitle: ""
   ItemClass: EquippableRing+Jewelry
   TradingCategory: ""
   TradingFamily: ""
@@ -1510,6 +1751,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: 1.0
   CanReplaceGem: 0.0
+  PerkSlot1: PerkID_Stat_ArmorScholar
+  PerkSlot2: PerkID_Gem_ThrustWard4
+  PerkSlot3: PerkID_Ring_Crit
+  PerkSlot4: PerkID_Common_CDR
+  PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
   Perk2: PerkID_Gem_ThrustWard4
   Perk3: PerkID_Ring_Crit
@@ -1537,11 +1783,13 @@
   HousingTags: ""
   IconPath: lyshineui/images/icons/items/Armor/LostRing05.png
   HiResIconPath: lyshineui/images/icons/items_hires/LostRing05.png
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 1.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: null
   ContainerGS: null
   ExceedMinIndex: ""
@@ -1554,7 +1802,9 @@
   CraftingRecipe: SalvageSmall_MetalT5
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT5
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -1579,6 +1829,11 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: 1hSickleT5_MakeGood
   ParentItemId_DVT: ""
   IgnoreParentColumns_DVT: ""
@@ -1586,6 +1841,7 @@
   ItemType: Resource
   ItemTypeDisplayName: "@ui_itemtypedescription_resource"
   Description: "@GS600Sickle_MakeGood_Description"
+  HeartgemRuneTooltipTitle: ""
   ItemClass: Resource+LootContainer
   TradingCategory: ""
   TradingFamily: ""
@@ -1603,6 +1859,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: null
   CanReplaceGem: null
+  PerkSlot1: ""
+  PerkSlot2: ""
+  PerkSlot3: ""
+  PerkSlot4: ""
+  PerkSlot5: ""
   Perk1: ""
   Perk2: ""
   Perk3: ""
@@ -1630,11 +1891,13 @@
   HousingTags: ""
   IconPath: lyshineui/images/icons/items/Resource/LockboxT1.png
   HiResIconPath: lyshineui/images/icons/items_hires/LockboxT1.png
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 10000.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: 60.0
   ContainerGS: 600.0
   ExceedMinIndex: ""
@@ -1647,7 +1910,9 @@
   CraftingRecipe: ""
   RepairGameEventID: ""
   SalvageGameEventID: ""
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -1672,6 +1937,11 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: 1hSkinningKnifeT5_MakeGood
   ParentItemId_DVT: ""
   IgnoreParentColumns_DVT: ""
@@ -1679,6 +1949,7 @@
   ItemType: Resource
   ItemTypeDisplayName: "@ui_itemtypedescription_resource"
   Description: "@GS600SkinningKnife_MakeGood_Description"
+  HeartgemRuneTooltipTitle: ""
   ItemClass: Resource+LootContainer
   TradingCategory: ""
   TradingFamily: ""
@@ -1696,6 +1967,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: null
   CanReplaceGem: null
+  PerkSlot1: ""
+  PerkSlot2: ""
+  PerkSlot3: ""
+  PerkSlot4: ""
+  PerkSlot5: ""
   Perk1: ""
   Perk2: ""
   Perk3: ""
@@ -1723,11 +1999,13 @@
   HousingTags: ""
   IconPath: lyshineui/images/icons/items/Resource/LockboxT1.png
   HiResIconPath: lyshineui/images/icons/items_hires/LockboxT1.png
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 10000.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: 60.0
   ContainerGS: 600.0
   ExceedMinIndex: ""
@@ -1740,7 +2018,9 @@
   CraftingRecipe: ""
   RepairGameEventID: ""
   SalvageGameEventID: ""
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -1765,6 +2045,11 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: 2hPickT5_MakeGood
   ParentItemId_DVT: ""
   IgnoreParentColumns_DVT: ""
@@ -1772,6 +2057,7 @@
   ItemType: Resource
   ItemTypeDisplayName: "@ui_itemtypedescription_resource"
   Description: "@GS600Pick_MakeGood_Description"
+  HeartgemRuneTooltipTitle: ""
   ItemClass: Resource+LootContainer
   TradingCategory: ""
   TradingFamily: ""
@@ -1789,6 +2075,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: null
   CanReplaceGem: null
+  PerkSlot1: ""
+  PerkSlot2: ""
+  PerkSlot3: ""
+  PerkSlot4: ""
+  PerkSlot5: ""
   Perk1: ""
   Perk2: ""
   Perk3: ""
@@ -1816,11 +2107,13 @@
   HousingTags: ""
   IconPath: lyshineui/images/icons/items/Resource/LockboxT1.png
   HiResIconPath: lyshineui/images/icons/items_hires/LockboxT1.png
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 10000.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: 60.0
   ContainerGS: 600.0
   ExceedMinIndex: ""
@@ -1833,7 +2126,9 @@
   CraftingRecipe: ""
   RepairGameEventID: ""
   SalvageGameEventID: ""
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -1858,6 +2153,11 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: 2hAxeT5_MakeGood
   ParentItemId_DVT: ""
   IgnoreParentColumns_DVT: ""
@@ -1865,6 +2165,7 @@
   ItemType: Resource
   ItemTypeDisplayName: "@ui_itemtypedescription_resource"
   Description: "@GS600Axe_MakeGood_Description"
+  HeartgemRuneTooltipTitle: ""
   ItemClass: Resource+LootContainer
   TradingCategory: ""
   TradingFamily: ""
@@ -1882,6 +2183,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: null
   CanReplaceGem: null
+  PerkSlot1: ""
+  PerkSlot2: ""
+  PerkSlot3: ""
+  PerkSlot4: ""
+  PerkSlot5: ""
   Perk1: ""
   Perk2: ""
   Perk3: ""
@@ -1909,11 +2215,13 @@
   HousingTags: ""
   IconPath: lyshineui/images/icons/items/Resource/LockboxT1.png
   HiResIconPath: lyshineui/images/icons/items_hires/LockboxT1.png
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 10000.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: 60.0
   ContainerGS: 600.0
   ExceedMinIndex: ""
@@ -1926,7 +2234,9 @@
   CraftingRecipe: ""
   RepairGameEventID: ""
   SalvageGameEventID: ""
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -1951,6 +2261,11 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: BagAT5_MakeGood
   ParentItemId_DVT: ""
   IgnoreParentColumns_DVT: ""
@@ -1958,6 +2273,7 @@
   ItemType: Resource
   ItemTypeDisplayName: "@ui_itemtypedescription_resource"
   Description: "@GS600Bag_MakeGood_Description"
+  HeartgemRuneTooltipTitle: ""
   ItemClass: Resource+LootContainer
   TradingCategory: ""
   TradingFamily: ""
@@ -1975,6 +2291,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: null
   CanReplaceGem: null
+  PerkSlot1: ""
+  PerkSlot2: ""
+  PerkSlot3: ""
+  PerkSlot4: ""
+  PerkSlot5: ""
   Perk1: ""
   Perk2: ""
   Perk3: ""
@@ -2002,11 +2323,13 @@
   HousingTags: ""
   IconPath: lyshineui/images/icons/items/Resource/LockboxT1.png
   HiResIconPath: lyshineui/images/icons/items_hires/LockboxT1.png
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 10000.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: 60.0
   ContainerGS: 600.0
   ExceedMinIndex: ""
@@ -2019,7 +2342,9 @@
   CraftingRecipe: ""
   RepairGameEventID: ""
   SalvageGameEventID: ""
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -2044,6 +2369,11 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
 - ItemID: BagGypsum10_MakeGood
   ParentItemId_DVT: ""
   IgnoreParentColumns_DVT: ""
@@ -2051,6 +2381,7 @@
   ItemType: Resource
   ItemTypeDisplayName: "@ui_itemtypedescription_resource"
   Description: "@BagGypsum10_MakeGood_Description"
+  HeartgemRuneTooltipTitle: ""
   ItemClass: Resource+LootContainer
   TradingCategory: ""
   TradingFamily: ""
@@ -2068,6 +2399,11 @@
   CanRollPerkOnUpgrade: ""
   CanHavePerks: null
   CanReplaceGem: null
+  PerkSlot1: ""
+  PerkSlot2: ""
+  PerkSlot3: ""
+  PerkSlot4: ""
+  PerkSlot5: ""
   Perk1: ""
   Perk2: ""
   Perk3: ""
@@ -2095,11 +2431,13 @@
   HousingTags: ""
   IconPath: lyshineui/images/icons/items/Resource/LockboxT1.png
   HiResIconPath: lyshineui/images/icons/items_hires/LockboxT1.png
+  HeartgemTooltipBackgroundImage: ""
   MaxStackSize: 10000.0
   DeathDropPercentage: 0.0
   Nonremovable: ""
   IsMissionItem: ""
   IsUniqueItem: ""
+  IsRequiredItem: ""
   ContainerLevel: 60.0
   ContainerGS: 600.0
   ExceedMinIndex: ""
@@ -2112,7 +2450,9 @@
   CraftingRecipe: ""
   RepairGameEventID: ""
   SalvageGameEventID: ""
+  SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
+  SalvageEntitlementId: ""
   RepairTypes: ""
   IngredientCategories: ""
   IngredientBonusPrimary: ""
@@ -2137,3 +2477,8 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""

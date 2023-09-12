@@ -72,6 +72,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -178,7 +181,7 @@
   DamageIsMelee: ""
   ForceShowNameTag: ""
   TargetHasGritActive: null
-  DamageTableRow: 2H_Spear_Javelin
+  DamageTableRow: 2H_Spear_Javelin,2H_Spear_Javelin_ArtifactSet1
   RemoteDamageTableRow: ""
   RangedAttackName: ""
   AttackType: ""
@@ -205,6 +208,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -338,6 +344,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -471,6 +480,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -604,6 +616,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -737,6 +752,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -870,6 +888,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1003,6 +1024,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1100,10 +1124,10 @@
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
-  TrackHitCount: false
+  TrackHitCount: true
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: 4.0
+  NumberOfTrackedHits: 2.0
   NumberOfHitsComparisonType: LessThanOrEqual
   DamageIsRanged: null
   DamageIsMelee: ""
@@ -1136,6 +1160,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1269,6 +1296,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1402,6 +1432,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1535,6 +1568,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1668,6 +1704,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1801,6 +1840,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1934,6 +1976,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1983,7 +2028,7 @@
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
   TargetStatusEffectDurationMult: null
-  ActivationCooldown: null
+  ActivationCooldown: 0.1
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -2067,6 +2112,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 0.25
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2200,6 +2248,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2333,6 +2384,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2466,6 +2520,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 0.25
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2599,6 +2656,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2732,6 +2792,9 @@
   InAction: Spear_Skewer
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_Spear_Skewer
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: 0.2
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2865,6 +2928,9 @@
   InAction: Spear_Skewer
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_Spear_Skewer
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2998,6 +3064,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3131,6 +3200,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3264,6 +3336,9 @@
   InAction: Spear_Perforate
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_Spear_Perforate
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3397,6 +3472,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3530,6 +3608,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3663,6 +3744,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3796,6 +3880,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3929,6 +4016,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4062,6 +4152,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4195,6 +4288,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4328,6 +4424,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 0.15
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4461,6 +4560,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 0.2
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4594,6 +4696,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4727,6 +4832,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4860,6 +4968,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4993,6 +5104,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: ""
