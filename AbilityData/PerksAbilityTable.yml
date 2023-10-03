@@ -28289,7 +28289,7 @@
   CooldownId: ""
   CDRImmediatelyOptions: ActiveWeapon
   ResetCooldownTimers: ""
-  CooldownTimer: -0.03
+  CooldownTimer: -0.024
   NumFreeCooldownsPerUse: ""
   TargetCooldownExtensionModifier: ""
   TargetCooldownsExtensionMultiplier: null
@@ -30274,7 +30274,7 @@
   IsActiveAbility: false
   IsGlobalAbility: false
   IsStackableAbility: true
-  IsStackableMax: null
+  IsStackableMax: 4.0
   ScalingStrength: ""
   ScalingDexterity: ""
   ScalingIntelligence: ""
@@ -30518,7 +30518,7 @@
   IsActiveAbility: false
   IsGlobalAbility: false
   IsStackableAbility: true
-  IsStackableMax: null
+  IsStackableMax: 4.0
   ScalingStrength: ""
   ScalingDexterity: ""
   ScalingIntelligence: ""
@@ -30762,7 +30762,7 @@
   IsActiveAbility: false
   IsGlobalAbility: false
   IsStackableAbility: true
-  IsStackableMax: null
+  IsStackableMax: 4.0
   ScalingStrength: ""
   ScalingDexterity: ""
   ScalingIntelligence: ""
@@ -53665,7 +53665,7 @@
   CooldownId: Ability_Hatchet_SocialDistancing
   CDRImmediatelyOptions: AbilitySpecific
   ResetCooldownTimers: ""
-  CooldownTimer: -0.1
+  CooldownTimer: -0.075
   NumFreeCooldownsPerUse: ""
   TargetCooldownExtensionModifier: ""
   TargetCooldownsExtensionMultiplier: null
@@ -56349,7 +56349,7 @@
   CooldownId: Ability_Musket_StickyBomb
   CDRImmediatelyOptions: AbilitySpecific
   ResetCooldownTimers: ""
-  CooldownTimer: -0.1
+  CooldownTimer: -0.05
   NumFreeCooldownsPerUse: ""
   TargetCooldownExtensionModifier: ""
   TargetCooldownsExtensionMultiplier: null
@@ -56593,7 +56593,7 @@
   CooldownId: Ability_Musket_Traps
   CDRImmediatelyOptions: AbilitySpecific
   ResetCooldownTimers: ""
-  CooldownTimer: -0.1
+  CooldownTimer: -0.05
   NumFreeCooldownsPerUse: ""
   TargetCooldownExtensionModifier: ""
   TargetCooldownsExtensionMultiplier: null
@@ -57662,7 +57662,7 @@
   ForceShowNameTag: ""
   HasGritActive: null
   TargetHasGritActive: null
-  DamageTableRow: 2H_Spear_Javelin,2H_Spear_Javelin_Knockback,2H_Spear_Javelin_ArtifactSet1
+  DamageTableRow: 2H_Spear_Javelin,2H_Spear_Javelin_Knockback,2H_Spear_Javelin_ArtifactSet1Close
   RemoteDamageTableRow: ""
   RangedAttackName: ""
   AttackType: ""
@@ -67573,7 +67573,7 @@
   CooldownId: Ability_Greataxe_Charge
   CDRImmediatelyOptions: AbilitySpecific
   ResetCooldownTimers: ""
-  CooldownTimer: -0.05
+  CooldownTimer: -0.03
   NumFreeCooldownsPerUse: ""
   TargetCooldownExtensionModifier: ""
   TargetCooldownsExtensionMultiplier: null
@@ -72697,7 +72697,7 @@
   CooldownId: Ability_VoidGauntlet_EssenceRupture
   CDRImmediatelyOptions: AbilitySpecific
   ResetCooldownTimers: ""
-  CooldownTimer: -0.1
+  CooldownTimer: -0.07
   NumFreeCooldownsPerUse: ""
   TargetCooldownExtensionModifier: ""
   TargetCooldownsExtensionMultiplier: null
@@ -104553,7 +104553,7 @@
   AttachedTargetSpellIds: ""
   AbilityList: ""
   AbilityTrigger: ""
-  IsConsumableIds: ""
+  IsConsumableIds: PotionHealthT1,PotionHealthBT1,PotionHealthT2,PotionHealthT3,PotionHealthT4,PotionHealthT5,PotionManaT1,PotionManaT2,PotionManaT3,PotionManaT4,PotionManaT5,PotionRegenT1,PotionRegenT2,PotionRegenT3,PotionRegenT4,PotionFocusT1,PotionFocusT2,PotionFocusT3,PotionFocusT4,PotionEncumbranceT1,PotionEncumbranceT2,PotionEncumbranceT3,PotionHasteFTW,PotionHealthFTW,PotionManaFTW,FactionPotionHealthT2,FactionPotionHealthT3,FactionPotionHealthT4,FactionPotionManaT2,FactionPotionManaT3,FactionPotionManaT4,OR_PotionHealth,OR_PotionMana,OR_PotionStamina
   IsNotConsumableIds: ""
   InAction: ""
   InActionTime: null
@@ -104656,7 +104656,7 @@
   TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: ""
   TargetStatusEffectDurationMult: null
-  ActivationCooldown: null
+  ActivationCooldown: 5.0
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -104797,7 +104797,7 @@
   AttachedTargetSpellIds: ""
   AbilityList: ""
   AbilityTrigger: ""
-  IsConsumableIds: ""
+  IsConsumableIds: PotionHealthT1,PotionHealthBT1,PotionHealthT2,PotionHealthT3,PotionHealthT4,PotionHealthT5,PotionManaT1,PotionManaT2,PotionManaT3,PotionManaT4,PotionManaT5,PotionRegenT1,PotionRegenT2,PotionRegenT3,PotionRegenT4,PotionFocusT1,PotionFocusT2,PotionFocusT3,PotionFocusT4,PotionEncumbranceT1,PotionEncumbranceT2,PotionEncumbranceT3,PotionHasteFTW,PotionHealthFTW,PotionManaFTW,FactionPotionHealthT2,FactionPotionHealthT3,FactionPotionHealthT4,FactionPotionManaT2,FactionPotionManaT3,FactionPotionManaT4,OR_PotionHealth,OR_PotionMana,OR_PotionStamina
   IsNotConsumableIds: ""
   InAction: ""
   InActionTime: null
@@ -104900,7 +104900,7 @@
   TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: ""
   TargetStatusEffectDurationMult: null
-  ActivationCooldown: null
+  ActivationCooldown: 5.0
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -105341,7 +105341,7 @@
   ManaCostMult: ""
   Stamina: null
   DamageTableRowOverride: ""
-  StatusEffectDamageTableRowOverride: ""
+  StatusEffectDamageTableRowOverride: Common_HealOverTime_Override
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -106276,7 +106276,7 @@
   DismountReasons: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
-  BaseDamageReduction: 0.02
+  BaseDamageReduction: 0.01
   CritDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
@@ -107340,7 +107340,7 @@
   TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: ""
   TargetStatusEffectDurationMult: null
-  ActivationCooldown: null
+  ActivationCooldown: 3.0
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""

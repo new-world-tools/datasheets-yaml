@@ -2975,7 +2975,7 @@
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredLevel: null
-  RequiredAchievement: 09A_FionnMet
+  RequiredAchievement: 09A_FionnMet && !09A_S6
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
   LinearObjectiveId1: 09A_S6_TrackBeasts
@@ -3003,12 +3003,12 @@
   ConversationService3: ""
 - ConversationStateId: 09a_Fionn_02
   ConversationType: Linear_Objective
-  IsInitialState: false
+  IsInitialState: true
   DefaultDialogue: "@09a_Fionn_02"
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredLevel: null
-  RequiredAchievement: 09A_S6
+  RequiredAchievement: ""
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
   LinearObjectiveId1: ""

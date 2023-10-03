@@ -24034,7 +24034,7 @@
   interactionMarker_Offset_Z: null
   InteractionEvent: ""
   InteractTag: IO_98_Syndicate_01_WolfLure
-  InteractOnlyOnQuest: true
+  InteractOnlyOnQuest: false
   AchievementID: ""
   AchievementServerState: ""
   IsStateControlledBySlayerScript: null
@@ -31537,7 +31537,7 @@
 - VariantID: 09A_M1_Sick_DruidA
   Visual_Healthy: "slices\\WorldEvents\\FirstLight\\Interact\\SickDruids\\Object_09A_M1_SickDruid_A_Healthy.dynamicslice"
   Visual_Depleted: "slices\\WorldEvents\\FirstLight\\Interact\\SickDruids\\Object_09A_M1_SickDruid_A_Depleted.dynamicslice"
-  Visual_NotOnRequiredQuest: "slices\\WorldEvents\\FirstLight\\Interact\\SickDruids\\Object_09A_M1_SickDruid_A_Healthy.dynamicslice"
+  Visual_NotOnRequiredQuest: ""
   Visual_Basemesh: ""
   GatherableEntryID: 09A_M1_Sick_DruidA
   GatheringRadius: 1.0
@@ -31573,7 +31573,7 @@
 - VariantID: 09A_M1_Sick_DruidB
   Visual_Healthy: "slices\\WorldEvents\\FirstLight\\Interact\\SickDruids\\Object_09A_M1_SickDruid_B_Healthy.dynamicslice"
   Visual_Depleted: "slices\\WorldEvents\\FirstLight\\Interact\\SickDruids\\Object_09A_M1_SickDruid_B_Depleted.dynamicslice"
-  Visual_NotOnRequiredQuest: "slices\\WorldEvents\\FirstLight\\Interact\\SickDruids\\Object_09A_M1_SickDruid_B_Healthy.dynamicslice"
+  Visual_NotOnRequiredQuest: ""
   Visual_Basemesh: ""
   GatherableEntryID: 09A_M1_Sick_DruidB
   GatheringRadius: 1.0
@@ -31609,7 +31609,7 @@
 - VariantID: 09A_M1_Sick_DruidC
   Visual_Healthy: "slices\\WorldEvents\\FirstLight\\Interact\\SickDruids\\Object_09A_M1_SickDruid_C_Healthy.dynamicslice"
   Visual_Depleted: "slices\\WorldEvents\\FirstLight\\Interact\\SickDruids\\Object_09A_M1_SickDruid_C_Depleted.dynamicslice"
-  Visual_NotOnRequiredQuest: "slices\\WorldEvents\\FirstLight\\Interact\\SickDruids\\Object_09A_M1_SickDruid_C_Healthy.dynamicslice"
+  Visual_NotOnRequiredQuest: ""
   Visual_Basemesh: ""
   GatherableEntryID: 09A_M1_Sick_DruidC
   GatheringRadius: 1.0
@@ -35530,6 +35530,114 @@
   SFX_depleted_idle_stop: Stop_Missions_WhisperPlant_Idle
   AudioPreload_Depleted_idle: ""
   AudioPreload_idle: Missions_WhisperPlant
+- VariantID: SliceSwap_09A_M1_SickDruidA
+  Visual_Healthy: ""
+  Visual_Depleted: "slices\\WorldEvents\\FirstLight\\Interact\\SickDruids\\Object_09A_M1_SickDruid_A_Healthy.dynamicslice"
+  Visual_NotOnRequiredQuest: ""
+  Visual_Basemesh: ""
+  GatherableEntryID: SliceSwap_Instanced
+  GatheringRadius: 1.0
+  InteractionRadius: 3.25
+  DetectableRadius: 2.5
+  MarkerRadius: 5.0
+  AudioPreload_depleted: ""
+  SFX_depleted: ""
+  SFX_Idle: ""
+  VFX_Idle: ""
+  IdleVFX_Offset_Z: null
+  DepletedVFX: ""
+  depletedVFX_Offset_Z: null
+  DepletedVFX_Quest: ""
+  DepletedVFX_Quest_Offset_Z: null
+  GatheringFX: ""
+  gatheringVFX_Offzet_Z: null
+  interactionMarker_Offset_Z: null
+  InteractionEvent: ""
+  InteractTag: ""
+  InteractOnlyOnQuest: false
+  AchievementID: SwapActive_09A_M1_SickDruids
+  AchievementServerState: ""
+  IsStateControlledBySlayerScript: null
+  RequireLoS: null
+  RequiredAchievement: ""
+  AudioPreload_gathering: ""
+  SFX_gathering: ""
+  SFX_depleted_idle_play: ""
+  SFX_depleted_idle_stop: ""
+  AudioPreload_Depleted_idle: ""
+  AudioPreload_idle: ""
+- VariantID: SliceSwap_09A_M1_SickDruidB
+  Visual_Healthy: ""
+  Visual_Depleted: "slices\\WorldEvents\\FirstLight\\Interact\\SickDruids\\Object_09A_M1_SickDruid_B_Healthy.dynamicslice"
+  Visual_NotOnRequiredQuest: ""
+  Visual_Basemesh: ""
+  GatherableEntryID: SliceSwap_Instanced
+  GatheringRadius: 1.0
+  InteractionRadius: 3.25
+  DetectableRadius: 2.5
+  MarkerRadius: 5.0
+  AudioPreload_depleted: ""
+  SFX_depleted: ""
+  SFX_Idle: ""
+  VFX_Idle: ""
+  IdleVFX_Offset_Z: null
+  DepletedVFX: ""
+  depletedVFX_Offset_Z: null
+  DepletedVFX_Quest: ""
+  DepletedVFX_Quest_Offset_Z: null
+  GatheringFX: ""
+  gatheringVFX_Offzet_Z: null
+  interactionMarker_Offset_Z: null
+  InteractionEvent: ""
+  InteractTag: ""
+  InteractOnlyOnQuest: false
+  AchievementID: SwapActive_09A_M1_SickDruids
+  AchievementServerState: ""
+  IsStateControlledBySlayerScript: null
+  RequireLoS: null
+  RequiredAchievement: ""
+  AudioPreload_gathering: ""
+  SFX_gathering: ""
+  SFX_depleted_idle_play: ""
+  SFX_depleted_idle_stop: ""
+  AudioPreload_Depleted_idle: ""
+  AudioPreload_idle: ""
+- VariantID: SliceSwap_09A_M1_SickDruidC
+  Visual_Healthy: ""
+  Visual_Depleted: "slices\\WorldEvents\\FirstLight\\Interact\\SickDruids\\Object_09A_M1_SickDruid_C_Healthy.dynamicslice"
+  Visual_NotOnRequiredQuest: ""
+  Visual_Basemesh: ""
+  GatherableEntryID: SliceSwap_Instanced
+  GatheringRadius: 1.0
+  InteractionRadius: 3.25
+  DetectableRadius: 2.5
+  MarkerRadius: 5.0
+  AudioPreload_depleted: ""
+  SFX_depleted: ""
+  SFX_Idle: ""
+  VFX_Idle: ""
+  IdleVFX_Offset_Z: null
+  DepletedVFX: ""
+  depletedVFX_Offset_Z: null
+  DepletedVFX_Quest: ""
+  DepletedVFX_Quest_Offset_Z: null
+  GatheringFX: ""
+  gatheringVFX_Offzet_Z: null
+  interactionMarker_Offset_Z: null
+  InteractionEvent: ""
+  InteractTag: ""
+  InteractOnlyOnQuest: false
+  AchievementID: SwapActive_09A_M1_SickDruids
+  AchievementServerState: ""
+  IsStateControlledBySlayerScript: null
+  RequireLoS: null
+  RequiredAchievement: ""
+  AudioPreload_gathering: ""
+  SFX_gathering: ""
+  SFX_depleted_idle_play: ""
+  SFX_depleted_idle_stop: ""
+  AudioPreload_Depleted_idle: ""
+  AudioPreload_idle: ""
 - VariantID: SliceSwap_09A_M2_MissingPage1
   Visual_Healthy: ""
   Visual_Depleted: ""

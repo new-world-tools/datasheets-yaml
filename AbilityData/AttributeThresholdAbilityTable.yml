@@ -2033,7 +2033,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
-  BaseDamage: 0.1
+  BaseDamage: 0.07
   BaseDamageReduction: null
   CritDamageReduction: null
   BlockDamage: ""
@@ -2357,7 +2357,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
-  BaseDamage: 0.15
+  BaseDamage: 0.1
   BaseDamageReduction: null
   CritDamageReduction: null
   BlockDamage: ""
@@ -4950,7 +4950,7 @@
   InActionTime: ""
   AfterAction: ""
   BaseDamage: null
-  BaseDamageReduction: 0.15
+  BaseDamageReduction: 0.1
   CritDamageReduction: null
   BlockDamage: ""
   BlockDamageReduction: ""
@@ -7192,7 +7192,7 @@
   DamageCategory: ""
   StatusEffectBeingApplied: ""
   StatusEffect: ""
-  StatusEffectCategories: ""
+  StatusEffectCategories: Root,Stun
   DontHaveStatusEffect: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
@@ -7263,7 +7263,7 @@
   OnlyChangeOwnedStatusEffects: ""
   RemoveStatusEffects: AbilitySpecific
   StatusEffectsList: ""
-  StatusEffectCategoriesList: CC
+  StatusEffectCategoriesList: Root,Stun
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
@@ -7287,7 +7287,7 @@
   GiveAzothPercentChance: null
   Azoth: null
   RefundAmmoPercentChance: null
-  ActivationCooldown: 15.0
+  ActivationCooldown: 30.0
 - AbilityID: Dex_Bonus_300_2
   DisplayName: Dex_Bonus_300_2
   Description: ""
@@ -10191,7 +10191,7 @@
   CooldownId: ""
   CDRImmediatelyOptions: All
   ResetCooldownTimers: ""
-  CooldownTimer: -0.3
+  CooldownTimer: -0.2
   NumFreeCooldownsPerUse: ""
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
@@ -12384,7 +12384,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
-  MyHealthPercent: 50.0
+  MyHealthPercent: 90.0
   MyComparisonType: LessThan
   MyStaminaPercent: null
   MyStaminaComparisonType: ""
@@ -12401,7 +12401,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
-  BaseDamage: 0.1
+  BaseDamage: 0.07
   BaseDamageReduction: null
   CritDamageReduction: null
   BlockDamage: ""
@@ -12725,7 +12725,169 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
-  BaseDamage: 0.3
+  BaseDamage: 0.1
+  BaseDamageReduction: null
+  CritDamageReduction: null
+  BlockDamage: ""
+  BlockDamageReduction: ""
+  CritDamage: null
+  CritChance: null
+  HeadshotDamage: null
+  HitFromBehindDamage: null
+  StaggerDamage: ""
+  StaggerDamageReduction: ""
+  HitRateDmg: ""
+  HitRateDmgReduction: ""
+  HealthDamageMitigation: ""
+  ThreatDamage: ""
+  ArmorPenetration: ""
+  PhysicalArmor: null
+  PhysicalArmorMaxHealthMod: ""
+  ElementalArmor: null
+  Knockback: ""
+  WeaponAccuracy: ""
+  Health: ""
+  DmgPctToHealth: ""
+  HealScalingValueMultiplier: null
+  MaxHealth: null
+  ConsumableHealMod: null
+  Mana: null
+  ManaRate: null
+  MaxMana: null
+  DamageTableRowOverride: ""
+  RangedAttackNameOverride: ""
+  EnableCrit: ""
+  PerStatusEffectOnTarget: ""
+  ForceTakeStaminaDamage: ""
+  StaminaCostList: ""
+  StaminaCostFlatMod: ""
+  CastSpell: ""
+  SelfApplyStatusEffect: ""
+  OtherApplyStatusEffect: ""
+  DoNotUnequipSelfAppliedSE: null
+  ModifySelfApplyStatusEffectDuration: ""
+  SetPotencyAsCount: ""
+  MultiplyRemovedByPotency: ""
+  OnlyChangeOwnedStatusEffects: ""
+  RemoveStatusEffects: ""
+  StatusEffectsList: ""
+  StatusEffectCategoriesList: ""
+  RemoveTargetStatusEffectsList: ""
+  ConsumeTargetStatusEffectMult: ""
+  StatusEffectDurationReduction: ""
+  TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
+  TargetStatusEffectDurationMod: ""
+  TargetStatusEffectDurationMult: null
+  Duration: ""
+  CooldownId: ""
+  CDRImmediatelyOptions: ""
+  ResetCooldownTimers: ""
+  CooldownTimer: null
+  NumFreeCooldownsPerUse: ""
+  MaxHitCountMultiplier: ""
+  SetMannequinTag: ""
+  SetMannequinTagStatus: ""
+  RepairDustYieldMod: ""
+  ToolDurabilityLossMod: null
+  FastTravelInnCooldownMod: null
+  FastTravelAzothCostMod: null
+  GiveAzothPercentChance: null
+  Azoth: null
+  RefundAmmoPercentChance: null
+  ActivationCooldown: null
+- AbilityID: Str_Bonus_350_1_2
+  DisplayName: ""
+  Description: ""
+  UICategory: ""
+  Icon: ""
+  StatusEffectIcon: ""
+  Sound: ""
+  TelegraphStatusEffect: ""
+  TelegraphCountOffset: ""
+  OnEquipStatusEffect: ""
+  WeaponTag: ""
+  RequiredAbilityId: ""
+  TreeId: ""
+  TreeRowPosition: ""
+  TreeColumnPosition: ""
+  IsActiveAbility: ""
+  IsGlobalAbility: ""
+  IsStackableAbility: ""
+  IsNonCombatAbility: false
+  ScalingStrength: ""
+  ScalingDexterity: ""
+  ScalingIntelligence: ""
+  ScalingSpirit: ""
+  ScalingConstitution: ""
+  OnKill: false
+  OnExecuted: false
+  OnHit: true
+  OnHitBehind: false
+  OnBlockedHit: false
+  OnCrit: false
+  OnCritTaken: false
+  OnHeadShot: false
+  OnLegShot: false
+  OnHitTaken: false
+  OnDeath: false
+  OnDeathsDoor: false
+  OnBlockBreak: false
+  OnTargetBlockBreak: false
+  OnTargetSet: false
+  OnContributedKill: false
+  OnHealed: false
+  OnSelfDamage: false
+  OnGatheringComplete: false
+  GatheringTradeskill: ""
+  OnStatusEffectApplied: ""
+  OnHitTakenWhileInvulnerable: null
+  OnWeaponSwap: null
+  RequireReaction: null
+  NumConsecutiveHits: ""
+  MaxConsecutiveHits: ""
+  TrackHitCount: ""
+  ResetConsecutiveOnSuccess: ""
+  DamageIsRanged: ""
+  DamageIsMelee: true
+  ForceShowNameTag: ""
+  HasGritActive: null
+  TargetHasGritActive: ""
+  DamageTableRow: ""
+  RemoteDamageTableRow: ""
+  RangedAttackName: ""
+  AttackType: Ability
+  IgnoreDisabledAttackTypes: Heartgem
+  DamageTypes: ""
+  DamageCategory: ""
+  StatusEffectBeingApplied: ""
+  StatusEffect: ""
+  StatusEffectCategories: ""
+  DontHaveStatusEffect: ""
+  TargetStatusEffect: ""
+  TargetStatusEffectCategory: ""
+  TargetStatusEffectStackSize: ""
+  TargetStatusEffectComparison: ""
+  TargetCollisionFilters: ""
+  TargetMarker: ""
+  MyHealthPercent: null
+  MyComparisonType: ""
+  MyStaminaPercent: null
+  MyStaminaComparisonType: ""
+  MyManaPercent: null
+  MyManaComparisonType: ""
+  TargetHealthPercent: null
+  TargetComparisonType: ""
+  DistFromDefender: ""
+  DistComparisonType: ""
+  NumAroundMe: ""
+  NumAroundComparisonType: ""
+  AbilityList: ""
+  AbilityTrigger: ""
+  InAction: ""
+  InActionTime: ""
+  AfterAction: ""
+  BaseDamage: 0.1
   BaseDamageReduction: null
   CritDamageReduction: null
   BlockDamage: ""

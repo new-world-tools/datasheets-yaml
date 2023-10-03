@@ -3018,7 +3018,7 @@
   InteractOverride_X: ""
   InteractOverride_Y: null
   MarkerOffset_Z: null
-  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_nt_walkaway.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_09A_Riches_M5_On"
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
@@ -3427,8 +3427,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 5.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: "!09A_S9 && !09A_M15"
-  SwapAchievementId: "!09A_S9 && !09A_M15"
+  AE.3_RequiredAchievementConditional: "!09A_S9"
+  SwapAchievementId: "!09A_S9"
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.0
@@ -3459,7 +3459,7 @@
   InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
-  AE.0_RequiredAchievementConditional: 09A_S6_ME_TurnOn
+  AE.0_RequiredAchievementConditional: "!SwapActive_09A_Fionn_M6_On || (09A_S6 && 09A_M6)"
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
   AE.9_EventDelayDuration: 0.05
@@ -3467,8 +3467,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 5.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: SwapActive_09A_Fionn_M6_On
-  SwapAchievementId: SwapActive_09A_Fionn_M6_On
+  AE.3_RequiredAchievementConditional: SwapActive_09A_Fionn_M6_On && (!09A_S6 || !09A_M6)
+  SwapAchievementId: SwapActive_09A_Fionn_M6_On && (!09A_S6 || !09A_M6)
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.0
@@ -4349,6 +4349,46 @@
   WalkInTimeline: "Libs\\Timeline\\Npc\\simple_generic_walkin_nt.timeline"
   AE.3_RequiredAchievementConditional: SwapActive_MSQ_Sun_EG_p5
   SwapAchievementId: SwapActive_MSQ_Sun_EG_p5
+  AE.10_RequiredAchievementConditional: null
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.05
+  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.5_EventDelayDuration: 0.0
+  AE.6_EventDelayDuration: 1.1
+  AudioPreload_SFX_Idle: ""
+  InteractOverride_Z: null
+- VariantID: 99E_Sun_p10
+  NPCId: 99E_Sun_p10
+  Name: "@99E_Sun"
+  CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\0210_barkeep.cdf"
+  CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\0210_barkeep.cdf"
+  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
+  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  PlaceholderMesh: ""
+  AttachedMesh: ""
+  AttachmentPositionX: ""
+  AttachmentPositionY: ""
+  AttachmentPositionZ: ""
+  AttachmentRotationX: ""
+  AttachmentRotationY: ""
+  AttachmentRotationZ: ""
+  InteractOverride_X: ""
+  InteractOverride_Y: null
+  MarkerOffset_Z: null
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
+  AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Sun_EG_p10"
+  AE.9_RequiredAchievementConditional: 0.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 4.0
+  AE.1_OE.0_OpacityTransitionDuration: 1.0
+  AE.2_EventDelayDuration: 5.0
+  WalkInTimeline: "Libs\\Timeline\\Npc\\simple_generic_walkin.timeline"
+  AE.3_RequiredAchievementConditional: SwapActive_MSQ_Sun_EG_p10
+  SwapAchievementId: SwapActive_MSQ_Sun_EG_p10
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.05

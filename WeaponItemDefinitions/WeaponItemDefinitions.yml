@@ -717,9 +717,9 @@
   AnimDbPath: Animations/Mannequin/ADB/PlayerMaleAnims_1H_MeleeAttach.adb
   GatheringTypes: Dressing
   GatheringMultiplier: 1.0
-  GatheringEfficiency: 8.0
-  MinGatherEFF: 8.0
-  MaxGatherEFF: 8.5
+  GatheringEfficiency: 9.0
+  MinGatherEFF: 9.0
+  MaxGatherEFF: 11.0
   AudioPickup: Play_Beep1_2D
   AudioPlace: Play_Beep3_2D
   Primary Hand: Main
@@ -1299,9 +1299,9 @@
   AnimDbPath: Animations/Mannequin/ADB/PlayerMaleAnims_1H_MeleeAttach.adb
   GatheringTypes: Cutting
   GatheringMultiplier: 1.0
-  GatheringEfficiency: 8.0
-  MinGatherEFF: 8.0
-  MaxGatherEFF: 8.5
+  GatheringEfficiency: 9.0
+  MinGatherEFF: 9.0
+  MaxGatherEFF: 11.0
   AudioPickup: Play_Beep1_2D
   AudioPlace: Play_Beep3_2D
   Primary Hand: Main
@@ -1881,9 +1881,9 @@
   AnimDbPath: Animations/Mannequin/ADB/PlayerMaleAnims_2H_MeleeAttach.adb
   GatheringTypes: Chopping
   GatheringMultiplier: 1.0
-  GatheringEfficiency: 8.0
-  MinGatherEFF: 8.0
-  MaxGatherEFF: 8.5
+  GatheringEfficiency: 9.0
+  MinGatherEFF: 9.0
+  MaxGatherEFF: 11.0
   AudioPickup: Play_Beep1_2D
   AudioPlace: Play_Beep3_2D
   Primary Hand: Main
@@ -2560,9 +2560,9 @@
   AnimDbPath: Animations/Mannequin/ADB/PlayerMaleAnims_2H_MeleeAttach.adb
   GatheringTypes: Mining
   GatheringMultiplier: 1.0
-  GatheringEfficiency: 8.0
-  MinGatherEFF: 8.0
-  MaxGatherEFF: 8.5
+  GatheringEfficiency: 9.0
+  MinGatherEFF: 9.0
+  MaxGatherEFF: 11.0
   AudioPickup: Play_Beep1_2D
   AudioPlace: Play_Beep3_2D
   Primary Hand: Main
@@ -5634,7 +5634,7 @@
   DamageStatMultiplier: OneHandSwordDamage
   WeaponMasteryCategoryId: FlailAbilityTable
   TierNumber: 1.0
-  BaseDamage: 58.0
+  BaseDamage: 56.0
   CritChance: 0.06
   CritDamageMultiplier: 1.2
   BaseStaggerDamage: 30.0
@@ -5731,7 +5731,7 @@
   DamageStatMultiplier: OneHandSwordDamage
   WeaponMasteryCategoryId: FlailAbilityTable
   TierNumber: 2.0
-  BaseDamage: 58.0
+  BaseDamage: 56.0
   CritChance: 0.06
   CritDamageMultiplier: 1.2
   BaseStaggerDamage: 32.0
@@ -5828,7 +5828,7 @@
   DamageStatMultiplier: OneHandSwordDamage
   WeaponMasteryCategoryId: FlailAbilityTable
   TierNumber: 2.0
-  BaseDamage: 58.0
+  BaseDamage: 56.0
   CritChance: 0.06
   CritDamageMultiplier: 1.2
   BaseStaggerDamage: 34.0
@@ -5925,7 +5925,7 @@
   DamageStatMultiplier: OneHandSwordDamage
   WeaponMasteryCategoryId: FlailAbilityTable
   TierNumber: 2.0
-  BaseDamage: 58.0
+  BaseDamage: 56.0
   CritChance: 0.06
   CritDamageMultiplier: 1.2
   BaseStaggerDamage: 36.0
@@ -26788,7 +26788,7 @@
   ReticleName: melee
   ReticleTargetName: meleeHaveTarget
   ReticleRayCastDistance: 3.0
-  AmmoType: Thrown
+  AmmoType: ""
   MaxLoadedAmmo: null
   AutoReloadAmmoSeconds: null
   AmmoMesh: ""
@@ -36197,7 +36197,7 @@
   ReticleName: melee
   ReticleTargetName: meleeHaveTarget
   ReticleRayCastDistance: 3.0
-  AmmoType: Thrown
+  AmmoType: ""
   MaxLoadedAmmo: null
   AutoReloadAmmoSeconds: null
   AmmoMesh: "Objects\\VFX\\Mesh\\Generic\\sphere_collision.cgf"
@@ -41695,7 +41695,7 @@
   ABABleed: null
   ABAFrostbite: null
   ABACurse: null
-  RangedAttackProfile: AI_Bow
+  RangedAttackProfile: AI_Adiana
   AttachedSpellData: ""
   Appearance: ""
   FemaleAppearance: ""

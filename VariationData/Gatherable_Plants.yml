@@ -3586,3 +3586,26 @@
   TradeskillIconUnlockType: harvestingplantT4
   MarkerRadius: 3.25
   AllowGatheringInGameModes: ""
+- VariantID: FL_Beasts_Elite_Dungeon
+  StartMesh: "Objects\\nature\\Veg_Trees\\Trees_Super\\secretspore\\sup_inv_secretspore_bulb_a.cgf"
+  StartMat: objects/nature/veg_trees/trees_super/secretspore/sup_inv_secretsporebulb_a_mat.mtl
+  GatherableEntryID: FL_SporePod_Beasts_Elite_Dungeon
+  GatheringRadius: 0.5
+  InteractionRadius: 1.75
+  DetectableRadius: 2.5
+  AudioPreload_Depletion: ""
+  DepletedSFX: ""
+  Collision_Play_SFX: ""
+  Collision_Stop_SFX: ""
+  CollisionFX: ""
+  DepletedVFX: ""
+  DepletedMesh: "Objects\\nature\\Veg_Trees\\Trees_Super\\secretspore\\sup_inv_secretspore_bulb_pick_a.cgf"
+  DepletedMat: objects/nature/veg_trees/trees_super/secretspore/sup_inv_secretsporebulbs_pick_mat.mtl
+  StartMeshLOD: 100.0
+  EndMeshLOD: 100.0
+  AmbientType: ""
+  ShowOnCompass: 1.0
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Sporeplant_Compass.png"
+  TradeskillIconUnlockType: harvestingplantT4
+  MarkerRadius: 3.25
+  AllowGatheringInGameModes: ""

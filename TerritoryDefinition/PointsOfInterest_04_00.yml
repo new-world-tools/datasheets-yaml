@@ -1824,22 +1824,22 @@
   DiscoveryRadius: 150.0
   IsDiscoverable: true
   IsChartable: true
-  DefaultAchievement: null
+  DefaultAchievement: 1.0
   OutpostId: ""
   Debug: ""
   LootTags: ""
-  DiscoveredAchievement: wolf_den_40056_discovered
+  DiscoveredAchievement: ""
   ChartedAchievement: wolf_den_40056_charted
   POITag: wolf_den_40056,fasttravel
   AudioGroup: POI_State
-  AudioState: spiritshrine
+  AudioState: cave
   AudioBank: ""
   CanPlaceCamp: false
   DevName: Fullmoon Den
   VitalsCategory: ""
   LevelRange: null
   Containers: null
-  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\POI\\09FL\\mapTooltip_spiritshrine_jungle.png"
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_outpostRush_wolfDen.png
   GameMode: ""
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
   EventId: ""
@@ -2220,7 +2220,7 @@
   DiscoveryRadius: 150.0
   IsDiscoverable: true
   IsChartable: true
-  DefaultAchievement: null
+  DefaultAchievement: 1.0
   OutpostId: ""
   Debug: ""
   LootTags: ""
@@ -2449,7 +2449,7 @@
   MapIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine_bg.dds
   CompassIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\spirit_shrine_charted.dds"
   DiscoveryRadius: 150.0
-  IsDiscoverable: true
+  IsDiscoverable: false
   IsChartable: true
   DefaultAchievement: 1.0
   OutpostId: ""
@@ -2482,7 +2482,7 @@
   MapIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine_bg.dds
   CompassIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\spirit_shrine_charted.dds"
   DiscoveryRadius: 150.0
-  IsDiscoverable: true
+  IsDiscoverable: false
   IsChartable: true
   DefaultAchievement: 1.0
   OutpostId: ""

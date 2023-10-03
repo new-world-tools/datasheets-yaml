@@ -11258,9 +11258,9 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   SubTask1: 99E_MSQ_04_d_04_01_Enc_poolAmbush_On
-  SubTask2: 99E_MSQ_04_d_04_02_TriggerArea_PoolAmbush
-  SubTask3: 99E_MSQ_04_d_04_03_container_compassPoolC
-  SubTask4: 99E_MSQ_04_d_04_04_container_poolAmbush_complete
+  SubTask2: 99E_MSQ_04_d_04_02_container_compassPoolC
+  SubTask3: 99E_MSQ_04_d_04_04_container_poolAmbush_complete
+  SubTask4: ""
   SubTask5: ""
 - TaskID: 99E_MSQ_04_d_04_01_Enc_poolAmbush_On
   Type: TaskUnlockAchievement
@@ -11326,7 +11326,135 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99E_MSQ_04_d_04_02_TriggerArea_PoolAmbush
+- TaskID: 99E_MSQ_04_d_04_02_container_compassPoolC
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: 99E_MSQ_04_d_04_02_01_container_compassPoolC_fallthru
+  SubTask2: 99E_MSQ_04_d_04_02_02_SwapActive_99E_Sun_p13_Off
+  SubTask3: 99E_MSQ_04_d_04_02_03_GameEvent_DefendComplete
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99E_MSQ_04_d_04_02_01_container_compassPoolC_fallthru
+  Type: PartialTaskContainer
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: IO_99E_MSQ_04_Prox_BlightEnc
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: 99E_MSQ_04_d_04_02_01_00_TriggerArea_PoolAmbush
+  SubTask2: 99E_MSQ_04_d_04_02_01_01_GameEvent_DefendStart
+  SubTask3: 99E_MSQ_04_d_04_02_01_02_GameEvent_DefendAdded
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99E_MSQ_04_d_04_02_01_00_TriggerArea_PoolAmbush
   Type: TaskTriggerArea
   FailOnCondition: ""
   StayActive: null
@@ -11390,199 +11518,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99E_MSQ_04_d_04_03_container_compassPoolC
-  Type: ConsecutiveTaskContainer
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: ""
-  TargetQty: null
-  ItemName: ""
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: ""
-  EnforceLocationRequirement: null
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: ""
-  ShouldCheckPoints: ""
-  GuranteedDropAttempts: ""
-  TargetThreshold: ""
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: null
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: ""
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: 1.0
-  HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
-  DiegeticPinZOverride: ""
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  SubTask1: 99E_MSQ_04_d_04_03_00_SwapActive_99E_Sun_p13_Off
-  SubTask2: 99E_MSQ_04_d_04_03_01_container_compassPoolC_fallthru
-  SubTask3: 99E_MSQ_04_d_04_03_02_GameEvent_DefendComplete
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 99E_MSQ_04_d_04_03_00_SwapActive_99E_Sun_p13_Off
-  Type: TaskLockAchievement
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: ""
-  TargetQty: 1.0
-  ItemName: SwapActive_MSQ_Sun_EG_p13
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: ""
-  EnforceLocationRequirement: null
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: ""
-  ShouldCheckPoints: ""
-  GuranteedDropAttempts: ""
-  TargetThreshold: ""
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: null
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: ""
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: 1.0
-  HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
-  DiegeticPinZOverride: ""
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 99E_MSQ_04_d_04_03_01_container_compassPoolC_fallthru
-  Type: PartialTaskContainer
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: ""
-  TargetQty: null
-  ItemName: ""
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: ""
-  EnforceLocationRequirement: null
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: ""
-  ShouldCheckPoints: ""
-  GuranteedDropAttempts: ""
-  TargetThreshold: ""
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: IO_99E_MSQ_04_Prox_BlightEnc
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: null
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: ""
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: 1.0
-  HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
-  DiegeticPinZOverride: ""
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  SubTask1: 99E_MSQ_04_d_04_03_01_01_GameEvent_DefendStart
-  SubTask2: 99E_MSQ_04_d_04_03_01_02_GameEvent_DefendAdded
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 99E_MSQ_04_d_04_03_01_01_GameEvent_DefendStart
+- TaskID: 99E_MSQ_04_d_04_02_01_01_GameEvent_DefendStart
   Type: TaskGameEvent
   FailOnCondition: ""
   StayActive: null
@@ -11627,10 +11563,10 @@
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: ""
   TP_TargetTag: ""
-  TP_DescriptionTag: "@99E_MSQ_04_MotherwellClues_poolAmbush"
+  TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
   OverrideLocation: 11450 7495 144.3459
-  IsHidden: null
+  IsHidden: 1.0
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: true
   DiegeticPinZOverride: ""
@@ -11646,7 +11582,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99E_MSQ_04_d_04_03_01_02_GameEvent_DefendAdded
+- TaskID: 99E_MSQ_04_d_04_02_01_02_GameEvent_DefendAdded
   Type: TaskGameEvent
   FailOnCondition: ""
   StayActive: null
@@ -11710,7 +11646,71 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99E_MSQ_04_d_04_03_02_GameEvent_DefendComplete
+- TaskID: 99E_MSQ_04_d_04_02_02_SwapActive_99E_Sun_p13_Off
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: SwapActive_MSQ_Sun_EG_p13
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99E_MSQ_04_d_04_02_03_GameEvent_DefendComplete
   Type: TaskGameEvent
   FailOnCondition: ""
   StayActive: null
@@ -21242,10 +21242,10 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   SubTask1: 99E_MSQ_07_d_03_01_GoToPOI_7c
-  SubTask2: 99E_MSQ_07_d_03_02_TriggerArea_StaffCaveEnter
-  SubTask3: 99E_MSQ_07_d_03_03_container_staffCave
-  SubTask4: 99E_MSQ_07_d_03_04_Enc_StaffCave_Off
-  SubTask5: 99E_MSQ_07_d_03_05_Gather_Headpiece
+  SubTask2: 99E_MSQ_07_d_03_02_container_staffCave
+  SubTask3: 99E_MSQ_07_d_03_03_Enc_StaffCave_Off
+  SubTask4: 99E_MSQ_07_d_03_04_Gather_Headpiece
+  SubTask5: ""
 - TaskID: 99E_MSQ_07_d_03_01_GoToPOI_7c
   Type: TaskGoToPOITag
   FailOnCondition: ""
@@ -21310,71 +21310,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99E_MSQ_07_d_03_02_TriggerArea_StaffCaveEnter
-  Type: TaskTriggerArea
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: ""
-  TargetQty: 1.0
-  ItemName: ""
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: ""
-  EnforceLocationRequirement: null
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: ""
-  ShouldCheckPoints: ""
-  GuranteedDropAttempts: ""
-  TargetThreshold: ""
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: Enter
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: null
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: ""
-  UseLargeItemDisplay: ""
-  TP_TargetTag: TriggerVol_99E_StaffCaveEnter
-  TP_DescriptionTag: "@99E_MSQ_07_RetrieveHeadpiece_trigVol_StaffCave"
-  TargetDescriptionTaskId: ""
-  OverrideLocation: 11315.0615 6652.1982 305.239
-  IsHidden: null
-  HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
-  DiegeticPinZOverride: ""
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 99E_MSQ_07_d_03_03_container_staffCave
+- TaskID: 99E_MSQ_07_d_03_02_container_staffCave
   Type: ConsecutiveTaskContainer
   FailOnCondition: ""
   StayActive: null
@@ -21433,12 +21369,12 @@
   CommunityGoalTag: ""
   HideChildren: ""
   TriggerAnalyticsEvent: ""
-  SubTask1: 99E_MSQ_07_d_03_03_01_Enc_StaffCave_On
-  SubTask2: 99E_MSQ_07_d_03_03_02_container_StaffCaveEnc
+  SubTask1: 99E_MSQ_07_d_03_02_01_Enc_StaffCave_On
+  SubTask2: 99E_MSQ_07_d_03_02_02_container_StaffCaveEnc
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99E_MSQ_07_d_03_03_01_Enc_StaffCave_On
+- TaskID: 99E_MSQ_07_d_03_02_01_Enc_StaffCave_On
   Type: TaskUnlockAchievement
   FailOnCondition: ""
   StayActive: null
@@ -21502,7 +21438,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99E_MSQ_07_d_03_03_02_container_StaffCaveEnc
+- TaskID: 99E_MSQ_07_d_03_02_02_container_StaffCaveEnc
   Type: ConsecutiveTaskContainer
   FailOnCondition: ""
   StayActive: null
@@ -21561,12 +21497,12 @@
   CommunityGoalTag: ""
   HideChildren: ""
   TriggerAnalyticsEvent: ""
-  SubTask1: 99E_MSQ_07_d_03_03_02_01_container_StaffCave_fallthru
-  SubTask2: 99E_MSQ_07_d_03_03_02_02_GameEvent_StaffCaveComplete
+  SubTask1: 99E_MSQ_07_d_03_02_02_01_container_StaffCave_fallthru
+  SubTask2: 99E_MSQ_07_d_03_02_02_02_GameEvent_StaffCaveComplete
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99E_MSQ_07_d_03_03_02_01_container_StaffCave_fallthru
+- TaskID: 99E_MSQ_07_d_03_02_02_01_container_StaffCave_fallthru
   Type: PartialTaskContainer
   FailOnCondition: ""
   StayActive: null
@@ -21625,12 +21561,76 @@
   CommunityGoalTag: ""
   HideChildren: ""
   TriggerAnalyticsEvent: ""
-  SubTask1: 99E_MSQ_07_d_03_03_02_01_01_GameEvent_StaffCaveStart
-  SubTask2: 99E_MSQ_07_d_03_03_02_01_02_GameEvent_StaffCaveAdded
+  SubTask1: 99E_MSQ_07_d_03_02_02_01_00_TriggerArea_StaffCaveEnter
+  SubTask2: 99E_MSQ_07_d_03_02_02_01_01_GameEvent_StaffCaveStart
+  SubTask3: 99E_MSQ_07_d_03_02_02_01_02_GameEvent_StaffCaveAdded
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99E_MSQ_07_d_03_02_02_01_00_TriggerArea_StaffCaveEnter
+  Type: TaskTriggerArea
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: Enter
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: TriggerVol_99E_StaffCaveEnter
+  TP_DescriptionTag: "@99E_MSQ_07_RetrieveHeadpiece_trigVol_StaffCave"
+  TargetDescriptionTaskId: ""
+  OverrideLocation: 11315.0615 6652.1982 305.239
+  IsHidden: null
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99E_MSQ_07_d_03_03_02_01_01_GameEvent_StaffCaveStart
+- TaskID: 99E_MSQ_07_d_03_02_02_01_01_GameEvent_StaffCaveStart
   Type: TaskGameEvent
   FailOnCondition: ""
   StayActive: null
@@ -21675,10 +21675,10 @@
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: ""
   TP_TargetTag: ""
-  TP_DescriptionTag: "@99E_MSQ_07_RetrieveHeadpiece_staffCave_enc"
+  TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
   OverrideLocation: 11338.6396 6663.5596 306.0746
-  IsHidden: null
+  IsHidden: 1.0
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: true
   DiegeticPinZOverride: ""
@@ -21694,7 +21694,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99E_MSQ_07_d_03_03_02_01_02_GameEvent_StaffCaveAdded
+- TaskID: 99E_MSQ_07_d_03_02_02_01_02_GameEvent_StaffCaveAdded
   Type: TaskGameEvent
   FailOnCondition: ""
   StayActive: null
@@ -21758,7 +21758,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99E_MSQ_07_d_03_03_02_02_GameEvent_StaffCaveComplete
+- TaskID: 99E_MSQ_07_d_03_02_02_02_GameEvent_StaffCaveComplete
   Type: TaskGameEvent
   FailOnCondition: ""
   StayActive: null
@@ -21822,7 +21822,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99E_MSQ_07_d_03_04_Enc_StaffCave_Off
+- TaskID: 99E_MSQ_07_d_03_03_Enc_StaffCave_Off
   Type: TaskLockAchievement
   FailOnCondition: ""
   StayActive: null
@@ -21886,7 +21886,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99E_MSQ_07_d_03_05_Gather_Headpiece
+- TaskID: 99E_MSQ_07_d_03_04_Gather_Headpiece
   Type: TaskGatherAndReturnItems
   FailOnCondition: ""
   StayActive: null
@@ -27770,7 +27770,7 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   SubTask1: 99E_MSQ_10_d_04_04_01_01_GameMode_QuestYonasCave
-  SubTask2: 99E_MSQ_10_d_04_04_01_02_TriggerArea_YonasCaveEnter
+  SubTask2: 99E_MSQ_10_d_04_04_01_02_Dummy_PinStep
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
@@ -27821,7 +27821,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@99E_MSQ_10_ToCaerDun_enterCave"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 8784 6610 314
+  OverrideLocation: 8773.330 6580.665 313.175
   IsHidden: null
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: true
@@ -27838,8 +27838,8 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99E_MSQ_10_d_04_04_01_02_TriggerArea_YonasCaveEnter
-  Type: TaskTriggerArea
+- TaskID: 99E_MSQ_10_d_04_04_01_02_Dummy_PinStep
+  Type: TaskGameEvent
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: ""
@@ -27862,8 +27862,8 @@
   CraftAnyRecipe: ""
   InteractTag: ""
   UIScreenTag: ""
-  TriggerAreaType: Enter
-  KillEnemyType: ""
+  TriggerAreaType: ""
+  KillEnemyType: 99E_YonasCave_HallwayEnc_Complete
   KillEnemyWeaponID: ""
   Duration: null
   TaskBuySellType: ""
@@ -27882,13 +27882,13 @@
   MapMarkerWorldPositionY: ""
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: ""
-  TP_TargetTag: TriggerVol_MSQ_Yonas
+  TP_TargetTag: ""
   TP_DescriptionTag: "@99E_MSQ_10_ToCaerDun_enterCave"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 8784 6610 314
+  OverrideLocation: 8773.330 6580.665 313.175
   IsHidden: 1.0
   HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
+  ShowDiegeticTaskPin: true
   DiegeticPinZOverride: ""
   SS_VariantName: ""
   SS_StatePreset: ""

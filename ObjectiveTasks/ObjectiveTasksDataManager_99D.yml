@@ -7802,7 +7802,7 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   SubTask1: 99D_MSQ_05_CrossBridge_barricade_container
-  SubTask2: 99D_MSQ_05_CrossBridge_rotateBallista_container
+  SubTask2: 99D_MSQ_05_CrossBridge_consecutiveCannon_container
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
@@ -7869,7 +7869,7 @@
   SubTask2: 99D_MSQ_05_CrossBridge_chopBarricade1
   SubTask3: 99D_MSQ_05_CrossBridge_chopBarricade2
   SubTask4: 99D_MSQ_05_CrossBridge_chopBarricade3
-  SubTask5: 99D_MSQ_05_CrossBridge_interact_ballista
+  SubTask5: ""
 - TaskID: 99D_MSQ_05_CrossBridge_ballistaExplode
   Type: TaskGameEvent
   FailOnCondition: ""
@@ -8123,6 +8123,70 @@
   TriggerAnalyticsEvent: ""
   SubTask1: ""
   SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99D_MSQ_05_CrossBridge_consecutiveCannon_container
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: ""
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: 99D_MSQ_05_CrossBridge_interact_ballista
+  SubTask2: 99D_MSQ_05_CrossBridge_rotateBallista_container
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""

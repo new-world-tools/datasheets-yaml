@@ -669,7 +669,7 @@
   MutLootTagsOverride: ""
   ContainerLevel: 60.0
   LootGSRangeOverride: 600-700
-  MutLootGSRangeOverride: 640-700
+  MutLootGSRangeOverride: 650-700
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -792,7 +792,7 @@
   MutLootTagsOverride: ShatteredObelisk_Mut,Ancient,GypsumBlue
   ContainerLevel: 35.0
   LootGSRangeOverride: 400-450
-  MutLootGSRangeOverride: 640-700
+  MutLootGSRangeOverride: 650-700
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -915,7 +915,7 @@
   MutLootTagsOverride: Restless01_Mut,Corrupted,GypsumBlue
   ContainerLevel: 45.0
   LootGSRangeOverride: 475-525
-  MutLootGSRangeOverride: 640-700
+  MutLootGSRangeOverride: 650-700
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -1038,7 +1038,7 @@
   MutLootTagsOverride: ""
   ContainerLevel: 60.0
   LootGSRangeOverride: 600-700
-  MutLootGSRangeOverride: 640-700
+  MutLootGSRangeOverride: 650-700
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -1161,7 +1161,7 @@
   MutLootTagsOverride: Ebonscale00_Mut,Corrupted,GypsumBlue
   ContainerLevel: 55.0
   LootGSRangeOverride: 525-700
-  MutLootGSRangeOverride: 640-700
+  MutLootGSRangeOverride: 650-700
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -1407,7 +1407,7 @@
   MutLootTagsOverride: ""
   ContainerLevel: 65.0
   LootGSRangeOverride: 625-700
-  MutLootGSRangeOverride: 640-700
+  MutLootGSRangeOverride: 650-700
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -1530,7 +1530,7 @@
   MutLootTagsOverride: ""
   ContainerLevel: 65.0
   LootGSRangeOverride: 625-700
-  MutLootGSRangeOverride: 640-700
+  MutLootGSRangeOverride: 650-700
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -2184,7 +2184,7 @@
   GrantConsumables: ""
   OverrideDungeonTimeout: 10800.0
   SpecialQueueGroupSizes: null
-  ResetChargeOnEnter: null
+  ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
   ScreenHeaderTextId: ""
   JoinButtonTextId: ""
@@ -2594,7 +2594,7 @@
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
   BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestMedusa.png"
   CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
-  WorldBounds: 8569.423,1232.320,256,256.0
+  WorldBounds: 8601.0,1193.0,64.0,256.0
   TeamTeleportData: 8654.499023,1399.289917,203.916153,51.72
   FeatureFlag: quest-medusa
   PurchasableItemClasses: ""
@@ -2633,16 +2633,16 @@
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: ""
-  LootTags: ""
+  LootTags: FirstLight
   MutLootTagsOverride: ""
-  ContainerLevel: null
+  ContainerLevel: 60.0
   LootGSRangeOverride: ""
   MutLootGSRangeOverride: ""
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.375
+  ProjectedCpuUsePercent: 0.563
   ProjectedMemoryUseMb: 256.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
@@ -2956,7 +2956,7 @@
   RequiresTeamRaids: "FALSE"
   AdvanceThroughStatesOnUpdate: "TRUE"
   DisplayName: "@Quest_Mammoth_title"
-  Description: "@Quest_Mammoth_description"
+  Description: "@trial_mammoth_description"
   UiInteractOption: EnterQuestMammoth
   RequirementText: "@Quest_Mammoth_required_equipment"
   IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.png
@@ -2987,7 +2987,7 @@
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
-  PossibleItemDropIds: 09A_M11_CraftingMatsBox
+  PossibleItemDropIds: GypsumOrb,09A_M13_ChestT5
   ItemDropLevelThreshold01: ""
   PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 0.0
@@ -3002,9 +3002,9 @@
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: ""
-  LootTags: ""
+  LootTags: FirstLight
   MutLootTagsOverride: ""
-  ContainerLevel: null
+  ContainerLevel: 60.0
   LootGSRangeOverride: ""
   MutLootGSRangeOverride: ""
   VictoryDelaySec: 4.0
@@ -3086,7 +3086,7 @@
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
   BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestAdiana.png"
   CoatlicueName: "coatlicue\\NW_ORI_FL_QuestAdiana"
-  WorldBounds: 0.0,0.0,2048.0,2048.0
+  WorldBounds: 600.0,700.0,256.0,256.0
   TeamTeleportData: 730.0,788,417.0,0
   FeatureFlag: quest-adiana
   PurchasableItemClasses: ""
@@ -3125,17 +3125,17 @@
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_ORI_FL_QuestAdiana
-  LootTags: ""
+  LootTags: FirstLight
   MutLootTagsOverride: ""
-  ContainerLevel: null
+  ContainerLevel: 60.0
   LootGSRangeOverride: ""
   MutLootGSRangeOverride: ""
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.375
-  ProjectedMemoryUseMb: 256.0
+  ProjectedCpuUsePercent: 0.75
+  ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false

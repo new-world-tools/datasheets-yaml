@@ -588,6 +588,16 @@
   TaskMaxValue: 3.0
   Name: "@ui_seasons_task_placeholder_name"
   Description: "@ui_seasons_task_placeholder_desc"
+- SeasonsTaskID: Craft5T5Weapon
+  SeasonsTrackedStatID: CraftT5Weapon
+  TaskMaxValue: 3.0
+  Name: "@ui_seasons_task_placeholder_name"
+  Description: "@ui_seasons_task_placeholder_desc"
+- SeasonsTaskID: Craft5T5Apparel
+  SeasonsTrackedStatID: CraftT5Apparel
+  TaskMaxValue: 3.0
+  Name: "@ui_seasons_task_placeholder_name"
+  Description: "@ui_seasons_task_placeholder_desc"
 - SeasonsTaskID: DealOrHeal50000InArena3v3
   SeasonsTrackedStatID: DamageOrHealInArena3v3
   TaskMaxValue: 50000.0
@@ -1237,7 +1247,7 @@
   SeasonsTrackedStatID: ObtainLevel65
   TaskMaxValue: 1.0
   Name: "@ui_seasons_task_name_ReachLevel65"
-  Description: "@ui_seasons_task_description_ReachLevel"
+  Description: "@ui_seasons_task_description_ReachLevel65"
 - SeasonsTaskID: S3_AcquireFlail
   SeasonsTrackedStatID: CategoricalProgressionFlail
   TaskMaxValue: 5.0
@@ -1446,7 +1456,7 @@
 - SeasonsTaskID: S3_FlailMastery
   SeasonsTrackedStatID: CategoricalProgressionFlail
   TaskMaxValue: 19.0
-  Name: "@ui_seasons_task_name_FlailMastery_2"
+  Name: "@ui_seasons_task_name_FlailMastery_3"
   Description: "@ui_seasons_task_description_FlailMastery"
 - SeasonsTaskID: S3_CompleteActivityCards_3
   SeasonsTrackedStatID: CompleteActivityCard
@@ -1560,7 +1570,7 @@
   Description: "@ui_seasons_task_description_Challenge_CrystalclawFlawless"
 - SeasonsTaskID: S3_Challenge_DiscoverAllFirstLightPOI
   SeasonsTrackedStatID: DiscoverAllPOIFirstLight
-  TaskMaxValue: 27.0
+  TaskMaxValue: 24.0
   Name: "@ui_seasons_task_name_Challenge_FirstLightPOI"
   Description: "@ui_seasons_task_description_Challenge_FirstLightPOI"
 - SeasonsTaskID: S3_Challenge_WinInflunceRace
@@ -1583,6 +1593,11 @@
   TaskMaxValue: 3.0
   Name: "@ui_seasons_task_name_Challenge_EquipArtifacts"
   Description: "@ui_seasons_task_description_Challenge_EquipArtifacts"
+- SeasonsTaskID: S3_Challenge_LootBeastChest
+  SeasonsTrackedStatID: LootBeastChest
+  TaskMaxValue: 100.0
+  Name: "@ui_seasons_task_name_Challenge_LootBeastChest"
+  Description: "@ui_seasons_task_description_Challenge_LootBeastChest"
 - SeasonsTaskID: CompleteSavageDivide
   SeasonsTrackedStatID: CompleteExpedition_FirstLight
   TaskMaxValue: 1.0

@@ -85,7 +85,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -219,7 +219,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -353,7 +353,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -487,7 +487,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -621,7 +621,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -755,7 +755,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -889,7 +889,7 @@
   BlockDamage: 0.25
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -1023,7 +1023,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -1094,7 +1094,7 @@
   ScalingConstitution: ""
   OnKill: false
   OnExecuted: false
-  OnHit: false
+  OnHit: true
   OnBlockedHit: false
   OnCrit: false
   OnHeadShot: false
@@ -1105,7 +1105,7 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
-  RequireReaction: null
+  RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
@@ -1119,7 +1119,7 @@
   ForceShowNameTag: ""
   HasGritActive: null
   TargetHasGritActive: ""
-  DamageTableRow: ""
+  DamageTableRow: Warhammer_Damage_MightyGavel
   RemoteDamageTableRow: ""
   RangedAttackName: ""
   AttackType: ""
@@ -1157,7 +1157,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: 0.2
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -1194,12 +1194,12 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
-  ActivationCooldown: 2.0
+  ActivationCooldown: 1.0
   Duration: ""
   CooldownId: Ability_WarHammer_MightyGavel
-  CDRImmediatelyOptions: ""
+  CDRImmediatelyOptions: AllExcept
   ResetCooldownTimers: ""
-  CooldownTimer: -0.5
+  CooldownTimer: -0.1
   NumFreeCooldownsPerUse: ""
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
@@ -1291,7 +1291,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -1425,7 +1425,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -1559,7 +1559,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -1693,7 +1693,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -1827,7 +1827,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -1961,7 +1961,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -2095,7 +2095,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -2229,7 +2229,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -2363,7 +2363,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -2497,7 +2497,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -2631,7 +2631,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -2765,7 +2765,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -2899,7 +2899,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -3033,7 +3033,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -3167,7 +3167,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -3301,7 +3301,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -3435,7 +3435,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -3569,7 +3569,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -3703,7 +3703,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -3837,7 +3837,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -3971,7 +3971,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -4105,7 +4105,7 @@
   BlockDamage: null
   BlockDamageReduction: 0.3
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -4239,7 +4239,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -4373,7 +4373,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -4507,7 +4507,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -4641,7 +4641,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -4775,7 +4775,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -4909,7 +4909,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -5043,7 +5043,7 @@
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""

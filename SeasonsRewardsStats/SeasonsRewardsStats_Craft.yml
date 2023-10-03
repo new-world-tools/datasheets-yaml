@@ -185,6 +185,40 @@
   Tradeskills: ""
   CraftingCategories: ""
   CraftingGroups: ""
+- TrackedStatID: CraftT5Weapon
+  StatType: Craft
+  IngredientItemID: ""
+  ResultItemID: ""
+  ItemTier: 5.0
+  ItemGS: null
+  ItemRarity: null
+  ItemClass: Weapon
+  ExcludeItemClass: ""
+  TradingCategories: ""
+  TradingFamilies: ""
+  TradingGroups: ""
+  CraftingType: ""
+  PerUse: ""
+  Tradeskills: ""
+  CraftingCategories: ""
+  CraftingGroups: ""
+- TrackedStatID: CraftT5Apparel
+  StatType: Craft
+  IngredientItemID: ""
+  ResultItemID: ""
+  ItemTier: 5.0
+  ItemGS: null
+  ItemRarity: null
+  ItemClass: Armor
+  ExcludeItemClass: ""
+  TradingCategories: ""
+  TradingFamilies: ""
+  TradingGroups: ""
+  CraftingType: ""
+  PerUse: ""
+  Tradeskills: ""
+  CraftingCategories: ""
+  CraftingGroups: ""
 - TrackedStatID: RefineT5Resource
   StatType: Craft
   IngredientItemID: ""
@@ -476,7 +510,7 @@
   CraftingGroups: ""
 - TrackedStatID: CraftMushroomFlaskPotion
   StatType: Craft
-  IngredientItemID: MushroomFlaskT1,MushroomFlaskT2,MushroomFlaskT3,MushroomFlaskT4,MushroomFlaskT5
+  IngredientItemID: ""
   ResultItemID: ""
   ItemTier: null
   ItemGS: null
@@ -489,7 +523,7 @@
   CraftingType: ""
   PerUse: ""
   Tradeskills: ""
-  CraftingCategories: ""
+  CraftingCategories: SOTS
   CraftingGroups: Potion
 - TrackedStatID: CraftBeastModeT2
   StatType: Craft
@@ -511,7 +545,7 @@
 - TrackedStatID: CraftBeastModeT3
   StatType: Craft
   IngredientItemID: ""
-  ResultItemID: RuneBeastModeT3
+  ResultItemID: RuneBeastModeT3A,RuneBeastModeT3B,RuneBeastModeT3C
   ItemTier: null
   ItemGS: null
   ItemRarity: null

@@ -216,7 +216,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 12.0
   InheritDuration: false
   InheritTotalDuration: false
@@ -249,7 +249,7 @@
   NotCombatAction: ""
   ApplicationCooldown: null
   SourceRuneChargeOnApply: null
-  SourceRuneChargeOnTick: 0.26
+  SourceRuneChargeOnTick: 0.1
   SourceRuneChargeOnHealthChangeOnly: true
   DamageSplitTaken: null
   DamageSplitTakenBySource: null
@@ -478,7 +478,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 20.0
   InheritDuration: false
   InheritTotalDuration: false
@@ -515,7 +515,7 @@
   SourceRuneChargeOnHealthChangeOnly: null
   DamageSplitTaken: null
   DamageSplitTakenBySource: null
-  SourceAttributeBasedDurationScalings: Focus:5,300,0.0,3.0
+  SourceAttributeBasedDurationScalings: Focus:5,500,0.0,3.0
   DurationAttbScalingMaxValue: 12.0
   SourceAttributeBasedPotencyScalings: ""
   PotencyAttbScalingMaxValue: null
@@ -740,7 +740,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 20.0
   InheritDuration: false
   InheritTotalDuration: false
@@ -1002,7 +1002,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 3.0
   InheritDuration: null
   InheritTotalDuration: null
@@ -1034,7 +1034,7 @@
   IgnoreInvulnerable: false
   NotCombatAction: ""
   ApplicationCooldown: 1.0
-  SourceRuneChargeOnApply: 0.14
+  SourceRuneChargeOnApply: 0.1
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: true
   DamageSplitTaken: null
@@ -1264,7 +1264,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 15.0
   InheritDuration: null
   InheritTotalDuration: null
@@ -1526,7 +1526,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 10.0
   InheritDuration: null
   InheritTotalDuration: true
@@ -1788,7 +1788,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 10.0
   InheritDuration: null
   InheritTotalDuration: null
@@ -2050,7 +2050,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 15.0
   InheritDuration: null
   InheritTotalDuration: null
@@ -2312,7 +2312,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 0.5
   InheritDuration: null
   InheritTotalDuration: null
@@ -2374,7 +2374,7 @@
   UseLightweightReplication: null
   PotencyPerLevel: ""
   HideHudDurationNumbers: null
-  BaseDuration: 2.0
+  BaseDuration: 1.0
   TickRate: 1.0
   DelayInitialTick: null
   TickCondition: ""
@@ -2574,8 +2574,8 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
-  DurationMax: 6.0
+  StackDuration: "0"
+  DurationMax: 5.0
   InheritDuration: false
   InheritTotalDuration: false
   RefreshDuration: false
@@ -2611,8 +2611,8 @@
   SourceRuneChargeOnHealthChangeOnly: null
   DamageSplitTaken: null
   DamageSplitTakenBySource: null
-  SourceAttributeBasedDurationScalings: Focus:5,300,0.0,2.0
-  DurationAttbScalingMaxValue: 6.0
+  SourceAttributeBasedDurationScalings: Focus:5,500,0.0,4.0
+  DurationAttbScalingMaxValue: 5.0
   SourceAttributeBasedPotencyScalings: ""
   PotencyAttbScalingMaxValue: null
   PreventMirrorBeams: null
@@ -2836,7 +2836,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 4.0
   InheritDuration: null
   InheritTotalDuration: null
@@ -3098,8 +3098,8 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
-  DurationMax: 3.0
+  StackDuration: ""
+  DurationMax: 2.0
   InheritDuration: null
   InheritTotalDuration: null
   RefreshDuration: null
@@ -3360,7 +3360,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: null
   InheritDuration: null
   InheritTotalDuration: null
@@ -3622,7 +3622,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: null
   InheritDuration: null
   InheritTotalDuration: null
@@ -3654,7 +3654,7 @@
   IgnoreInvulnerable: false
   NotCombatAction: ""
   ApplicationCooldown: null
-  SourceRuneChargeOnApply: 0.14
+  SourceRuneChargeOnApply: 0.1
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: true
   DamageSplitTaken: null
@@ -3705,8 +3705,8 @@
   HealthMin: ""
   HealthModifierPercent: ""
   HealthModifierBasePercent: ""
-  HealthModifierDamageBased: 0.48
-  ModDmgBasedMultValue_ForTooltip: 0.8
+  HealthModifierDamageBased: 0.3
+  ModDmgBasedMultValue_ForTooltip: 0.5
   UseHealScalingValue: true
   HealScalingValueMultiplier: ""
   ShowUiDamageNumbersOnHeal: null
@@ -3884,7 +3884,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: null
   InheritDuration: null
   InheritTotalDuration: null
@@ -3916,7 +3916,7 @@
   IgnoreInvulnerable: false
   NotCombatAction: ""
   ApplicationCooldown: null
-  SourceRuneChargeOnApply: 0.14
+  SourceRuneChargeOnApply: 0.1
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: true
   DamageSplitTaken: null
@@ -4146,7 +4146,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 10.0
   InheritDuration: null
   InheritTotalDuration: null
@@ -4408,7 +4408,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: 1.0
+  StackDuration: "1"
   DurationMax: 8.0
   InheritDuration: null
   InheritTotalDuration: null
@@ -4670,7 +4670,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 1.0
   InheritDuration: null
   InheritTotalDuration: null
@@ -4932,7 +4932,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 20.0
   InheritDuration: null
   InheritTotalDuration: null
@@ -5194,7 +5194,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 12.0
   InheritDuration: null
   InheritTotalDuration: null
@@ -5456,7 +5456,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 5.0
   InheritDuration: false
   InheritTotalDuration: false
@@ -5718,7 +5718,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 1.0
   InheritDuration: false
   InheritTotalDuration: false
@@ -5980,7 +5980,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 15.0
   InheritDuration: false
   InheritTotalDuration: false
@@ -6242,7 +6242,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 15.0
   InheritDuration: null
   InheritTotalDuration: null
@@ -6504,7 +6504,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: 0.0
+  StackDuration: "0"
   DurationMax: 8.0
   InheritDuration: false
   InheritTotalDuration: null
@@ -6766,7 +6766,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 1.0
   InheritDuration: null
   InheritTotalDuration: null
@@ -7028,7 +7028,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 8.0
   InheritDuration: false
   InheritTotalDuration: false
@@ -7290,7 +7290,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 8.0
   InheritDuration: false
   InheritTotalDuration: false
@@ -7552,7 +7552,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 20.0
   InheritDuration: null
   InheritTotalDuration: null
@@ -7591,7 +7591,7 @@
   DamageSplitTakenBySource: null
   SourceAttributeBasedDurationScalings: ""
   DurationAttbScalingMaxValue: null
-  SourceAttributeBasedPotencyScalings: Focus:5,300,0.0,3.0
+  SourceAttributeBasedPotencyScalings: Focus:5,500,0.0,3.0
   PotencyAttbScalingMaxValue: 0.2
   PreventMirrorBeams: null
   LinkedBeamStackThreshold: null
@@ -7814,7 +7814,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 8.0
   InheritDuration: null
   InheritTotalDuration: null
@@ -8076,7 +8076,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 3.0
   InheritDuration: null
   InheritTotalDuration: null
@@ -8338,7 +8338,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 15.0
   InheritDuration: null
   InheritTotalDuration: null
@@ -8600,7 +8600,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: 1.0
+  StackDuration: "1"
   DurationMax: 9.0
   InheritDuration: null
   InheritTotalDuration: null
@@ -8862,7 +8862,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 15.0
   InheritDuration: null
   InheritTotalDuration: null
@@ -9124,7 +9124,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 1.0
   InheritDuration: null
   InheritTotalDuration: null
@@ -9386,7 +9386,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 1.0
   InheritDuration: null
   InheritTotalDuration: null
@@ -9418,7 +9418,7 @@
   IgnoreInvulnerable: false
   NotCombatAction: ""
   ApplicationCooldown: null
-  SourceRuneChargeOnApply: 0.14
+  SourceRuneChargeOnApply: 0.1
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: true
   DamageSplitTaken: null
@@ -9449,7 +9449,7 @@
   PotencyPerLevel: ""
   HideHudDurationNumbers: true
   BaseDuration: -1.0
-  TickRate: 2.0
+  TickRate: 3.0
   DelayInitialTick: true
   TickCondition: ""
   OnTickStatusEffect: ""
@@ -9648,7 +9648,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: -1.0
   InheritDuration: null
   InheritTotalDuration: null
@@ -9910,7 +9910,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 5.0
   InheritDuration: false
   InheritTotalDuration: false
@@ -10172,7 +10172,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 5.0
   InheritDuration: false
   InheritTotalDuration: false
@@ -10434,7 +10434,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 5.0
   InheritDuration: false
   InheritTotalDuration: false
@@ -10696,7 +10696,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: 5.0
   InheritDuration: false
   InheritTotalDuration: false
@@ -10958,7 +10958,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: null
+  StackDuration: ""
   DurationMax: null
   InheritDuration: null
   InheritTotalDuration: null

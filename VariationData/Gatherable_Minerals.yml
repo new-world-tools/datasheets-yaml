@@ -1666,7 +1666,7 @@
   StartMeshLOD: 100.0
   EndMeshLOD: 100.0
   ShowOnCompass: 1.0
-  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Orichalcum_Compass.png"
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Mythril_Compass.png"
   TradeskillIconUnlockType: Orichalcum
   AcceptSnow: false
   MarkerRadius: 8.0
@@ -1691,7 +1691,7 @@
   StartMeshLOD: 100.0
   EndMeshLOD: 100.0
   ShowOnCompass: 1.0
-  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Orichalcum_Compass.png"
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Mythril_Compass.png"
   TradeskillIconUnlockType: Orichalcum
   AcceptSnow: false
   MarkerRadius: 7.0
@@ -1716,7 +1716,7 @@
   StartMeshLOD: 100.0
   EndMeshLOD: 100.0
   ShowOnCompass: 1.0
-  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Orichalcum_Compass.png"
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Mythril_Compass.png"
   TradeskillIconUnlockType: Orichalcum
   AcceptSnow: false
   MarkerRadius: 6.0
@@ -2570,6 +2570,231 @@
   TradeskillIconUnlockType: Platinum
   AcceptSnow: false
   MarkerRadius: 6.0
+  AllowGatheringInGameModes: ""
+  AddonMesh: ""
+  AddonMaterial: ""
+- VariantID: GypsumOre_a_dungeon
+  StartMesh: "Objects\\Nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sandstone_a.cgf"
+  StartMat: "Objects\\nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sand_opal_matgroup.mtl"
+  GatherableEntryID: GypsumOreLarge_dungeon
+  GatheringRadius: 0.85
+  InteractionRadius: 2.0
+  DetectableRadius: 1.0
+  DepletedSFX: Play_Gather_Boulder_Lrg
+  IdleSFX: ""
+  AudioPreloadName: ""
+  IdleVFX: ""
+  DepletedVFX: Gatherable_Mineral.Demolish.Boulder_sm_C
+  DepletedMesh: "Objects\\Nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sandstone_pick_a.cgf"
+  DepletedMaterial: "Objects\\nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sand_opal_matgroup.mtl"
+  VegAreaClearRadius: 0.9
+  StartMeshLOD: 100.0
+  EndMeshLOD: 100.0
+  ShowOnCompass: 1.0
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Silver_Compass.png"
+  TradeskillIconUnlockType: ""
+  AcceptSnow: false
+  MarkerRadius: 5.0
+  AllowGatheringInGameModes: ""
+  AddonMesh: ""
+  AddonMaterial: ""
+- VariantID: GypsumOre_b_dungeon
+  StartMesh: "Objects\\Nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sandstone_b.cgf"
+  StartMat: "Objects\\nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sand_opal_matgroup.mtl"
+  GatherableEntryID: GypsumOreMedium_dungeon
+  GatheringRadius: 0.65
+  InteractionRadius: 1.8
+  DetectableRadius: 1.0
+  DepletedSFX: Play_Gather_Boulder_Med
+  IdleSFX: ""
+  AudioPreloadName: ""
+  IdleVFX: ""
+  DepletedVFX: Gatherable_Mineral.Demolish.Boulder_sm_C
+  DepletedMesh: "Objects\\Nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sandstone_pick_b.cgf"
+  DepletedMaterial: "Objects\\nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sand_opal_matgroup.mtl"
+  VegAreaClearRadius: 0.8
+  StartMeshLOD: 100.0
+  EndMeshLOD: 100.0
+  ShowOnCompass: 1.0
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Silver_Compass.png"
+  TradeskillIconUnlockType: ""
+  AcceptSnow: false
+  MarkerRadius: 4.8
+  AllowGatheringInGameModes: ""
+  AddonMesh: ""
+  AddonMaterial: ""
+- VariantID: GypsumOre_c_dungeon
+  StartMesh: "Objects\\Nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sandstone_c.cgf"
+  StartMat: "Objects\\nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sand_opal_matgroup.mtl"
+  GatherableEntryID: GypsumOreSmall_dungeon
+  GatheringRadius: 0.45
+  InteractionRadius: 1.6
+  DetectableRadius: 1.0
+  DepletedSFX: Play_Gather_Boulder_Sml
+  IdleSFX: ""
+  AudioPreloadName: ""
+  IdleVFX: ""
+  DepletedVFX: Gatherable_Mineral.Demolish.Boulder_sm_C
+  DepletedMesh: "Objects\\Nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sandstone_pick_c.cgf"
+  DepletedMaterial: "Objects\\nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sand_opal_matgroup.mtl"
+  VegAreaClearRadius: 0.6
+  StartMeshLOD: 100.0
+  EndMeshLOD: 100.0
+  ShowOnCompass: 1.0
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Silver_Compass.png"
+  TradeskillIconUnlockType: ""
+  AcceptSnow: false
+  MarkerRadius: 4.6
+  AllowGatheringInGameModes: ""
+  AddonMesh: ""
+  AddonMaterial: ""
+- VariantID: Sandstone_a_dungeon
+  StartMesh: "Objects\\Nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sandstone_a.cgf"
+  StartMat: "Objects\\Nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sand_a_matGroup.mtl"
+  GatherableEntryID: SandstoneLarge_dungeon
+  GatheringRadius: 0.85
+  InteractionRadius: 2.0
+  DetectableRadius: 1.0
+  DepletedSFX: Play_Gather_Boulder_Lrg
+  IdleSFX: ""
+  AudioPreloadName: ""
+  IdleVFX: ""
+  DepletedVFX: Gatherable_Mineral.Demolish.SandStone_A
+  DepletedMesh: "Objects\\Nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sandstone_pick_a.cgf"
+  DepletedMaterial: "Objects\\Nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sand_a_matGroup.mtl"
+  VegAreaClearRadius: 0.9
+  StartMeshLOD: 100.0
+  EndMeshLOD: 100.0
+  ShowOnCompass: 1.0
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Sandstone_Compass.png"
+  TradeskillIconUnlockType: ""
+  AcceptSnow: false
+  MarkerRadius: 5.0
+  AllowGatheringInGameModes: ""
+  AddonMesh: ""
+  AddonMaterial: ""
+- VariantID: Sandstone_b_dungeon
+  StartMesh: "Objects\\Nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sandstone_b.cgf"
+  StartMat: "Objects\\Nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sand_a_matGroup.mtl"
+  GatherableEntryID: SandstoneMedium_dungeon
+  GatheringRadius: 0.65
+  InteractionRadius: 1.8
+  DetectableRadius: 1.0
+  DepletedSFX: Play_Gather_Boulder_Med
+  IdleSFX: ""
+  AudioPreloadName: ""
+  IdleVFX: ""
+  DepletedVFX: Gatherable_Mineral.Demolish.SandStone_B
+  DepletedMesh: "Objects\\Nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sandstone_pick_b.cgf"
+  DepletedMaterial: "Objects\\Nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sand_a_matGroup.mtl"
+  VegAreaClearRadius: 0.8
+  StartMeshLOD: 100.0
+  EndMeshLOD: 100.0
+  ShowOnCompass: 1.0
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Sandstone_Compass.png"
+  TradeskillIconUnlockType: ""
+  AcceptSnow: false
+  MarkerRadius: 4.8
+  AllowGatheringInGameModes: ""
+  AddonMesh: ""
+  AddonMaterial: ""
+- VariantID: Sandstone_c_dungeon
+  StartMesh: "Objects\\Nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sandstone_c.cgf"
+  StartMat: "Objects\\Nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sand_a_matGroup.mtl"
+  GatherableEntryID: SandstoneSmall_dungeon
+  GatheringRadius: 0.45
+  InteractionRadius: 1.6
+  DetectableRadius: 1.0
+  DepletedSFX: Play_Gather_Boulder_Sml
+  IdleSFX: ""
+  AudioPreloadName: ""
+  IdleVFX: ""
+  DepletedVFX: Gatherable_Mineral.Demolish.SandStone_C
+  DepletedMesh: "Objects\\Nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sandstone_pick_c.cgf"
+  DepletedMaterial: "Objects\\Nature\\Rock_Boulders\\Boulders_Desert\\jav_boulder_sand_a_matGroup.mtl"
+  VegAreaClearRadius: 0.6
+  StartMeshLOD: 100.0
+  EndMeshLOD: 100.0
+  ShowOnCompass: 1.0
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Sandstone_Compass.png"
+  TradeskillIconUnlockType: ""
+  AcceptSnow: false
+  MarkerRadius: 4.6
+  AllowGatheringInGameModes: ""
+  AddonMesh: ""
+  AddonMaterial: ""
+- VariantID: Brimstone_a_dungeon
+  StartMesh: "Objects\\Alchemy\\Stone\\JAV_PRP_Brimstone_A.cgf"
+  StartMat: ""
+  GatherableEntryID: BrimstoneLarge_dungeon
+  GatheringRadius: 1.0
+  InteractionRadius: 3.0
+  DetectableRadius: 1.0
+  DepletedSFX: Play_Gather_Boulder_Lrg
+  IdleSFX: ""
+  AudioPreloadName: ""
+  IdleVFX: ""
+  DepletedVFX: Gatherable_Mineral.Demolish.Brimstone_A
+  DepletedMesh: "Objects\\Alchemy\\Stone\\JAV_PRP_Brimstone_Pedestal_A.cgf"
+  DepletedMaterial: ""
+  VegAreaClearRadius: 4.5
+  StartMeshLOD: 100.0
+  EndMeshLOD: 100.0
+  ShowOnCompass: 1.0
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Brimstone_Compass.png"
+  TradeskillIconUnlockType: ""
+  AcceptSnow: false
+  MarkerRadius: 6.0
+  AllowGatheringInGameModes: ""
+  AddonMesh: ""
+  AddonMaterial: ""
+- VariantID: Brimstone_b_dungeon
+  StartMesh: "Objects\\Alchemy\\Stone\\JAV_PRP_Brimstone_B.cgf"
+  StartMat: ""
+  GatherableEntryID: BrimstoneMedium_dungeon
+  GatheringRadius: 0.8
+  InteractionRadius: 2.8
+  DetectableRadius: 1.0
+  DepletedSFX: Play_Gather_Boulder_Med
+  IdleSFX: ""
+  AudioPreloadName: ""
+  IdleVFX: ""
+  DepletedVFX: Gatherable_Mineral.Demolish.Brimstone_B
+  DepletedMesh: "Objects\\Alchemy\\Stone\\JAV_PRP_Brimstone_Pedestal_B.cgf"
+  DepletedMaterial: ""
+  VegAreaClearRadius: 3.6
+  StartMeshLOD: 100.0
+  EndMeshLOD: 100.0
+  ShowOnCompass: 1.0
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Brimstone_Compass.png"
+  TradeskillIconUnlockType: ""
+  AcceptSnow: false
+  MarkerRadius: 5.8
+  AllowGatheringInGameModes: ""
+  AddonMesh: ""
+  AddonMaterial: ""
+- VariantID: Brimstone_c_dungeon
+  StartMesh: "Objects\\Alchemy\\Stone\\JAV_PRP_Brimstone_C.cgf"
+  StartMat: ""
+  GatherableEntryID: BrimstoneSmall_dungeon
+  GatheringRadius: 0.7
+  InteractionRadius: 2.6
+  DetectableRadius: 1.0
+  DepletedSFX: Play_Gather_Boulder_Sml
+  IdleSFX: ""
+  AudioPreloadName: ""
+  IdleVFX: ""
+  DepletedVFX: Gatherable_Mineral.Demolish.Brimstone_C
+  DepletedMesh: "Objects\\Alchemy\\Stone\\JAV_PRP_Brimstone_Pedestal_C.cgf"
+  DepletedMaterial: ""
+  VegAreaClearRadius: 3.2
+  StartMeshLOD: 100.0
+  EndMeshLOD: 100.0
+  ShowOnCompass: 1.0
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Brimstone_Compass.png"
+  TradeskillIconUnlockType: ""
+  AcceptSnow: false
+  MarkerRadius: 5.6
   AllowGatheringInGameModes: ""
   AddonMesh: ""
   AddonMaterial: ""

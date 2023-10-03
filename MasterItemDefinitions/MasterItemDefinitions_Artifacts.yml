@@ -1277,7 +1277,7 @@
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_warhammer"
   Description: "@Artifact_Set1_2hWarhammer_Desc"
-  ItemClass: Artifact+Weapon+EquippableTwoHand+2HHammer+Melee
+  ItemClass: Artifact+Weapon+EquippableTwoHand+2HHammer+Melee+NoGem
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -1375,7 +1375,7 @@
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_axe"
   Description: "@Artifact_Set1_2hGreatAxe_Desc"
-  ItemClass: Artifact+Weapon+EquippableTwoHand+2HAxe+Melee
+  ItemClass: Artifact+Weapon+EquippableTwoHand+2HAxe+Melee+NoGem
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -1571,7 +1571,7 @@
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_kiteshield"
   Description: "@Artifact_Set1_1hKiteShield_Desc"
-  ItemClass: Artifact+Weapon+EquippableOffHand+Shield+KiteShield
+  ItemClass: Artifact+Weapon+EquippableOffHand+Shield+KiteShield+NoGem
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -1669,7 +1669,7 @@
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_towershield"
   Description: "@Artifact_Set1_1hTowerShield_Desc"
-  ItemClass: Artifact+Weapon+EquippableOffHand+Shield+TowerShield
+  ItemClass: Artifact+Weapon+EquippableOffHand+Shield+TowerShield+NoGem
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -1767,7 +1767,7 @@
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_firestaff"
   Description: "@Artifact_Set1_2hStaffFire_Desc"
-  ItemClass: Artifact+Weapon+EquippableMainHand+FireStaff+Magic
+  ItemClass: Artifact+Weapon+EquippableMainHand+FireStaff+Magic+NoGem
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -2061,7 +2061,7 @@
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_voidgauntlet"
   Description: "@Artifact_Set1_1hGauntletVoid_Desc"
-  ItemClass: Artifact+Weapon+EquippableMainHand+VoidGauntlet+Magic
+  ItemClass: Artifact+Weapon+EquippableMainHand+VoidGauntlet+Magic+NoGem
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -2103,7 +2103,7 @@
   ArmorAppearanceM: ""
   ArmorAppearanceF: ""
   WeaponAppearanceOverride: 2hVoidGauntletS3Artifacts
-  WeaponAccessory: 2hVoidGauntletCrystallinePVPPT5
+  WeaponAccessory: 2hVoidGauntletS3Artifacts
   ConfirmDestroy: ""
   ConfirmBeforeUse: 0.0
   ConsumeOnUse: 0.0
