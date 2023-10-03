@@ -22,6 +22,7 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "False"
   RequiresGameModeGDEException: "True"
+  RecommendedLevel: null
   RequiredLevel: null
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
@@ -35,6 +36,8 @@
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: null
   PreserveOldGroup: null
   IsDungeon: null
@@ -50,8 +53,8 @@
   LootTags: TestMode1
   MutLootTagsOverride: ""
   ContainerLevel: null
-  ContainerGS: null
-  MutContainerGSOverride: null
+  LootGSRangeOverride: ""
+  MutLootGSRangeOverride: ""
   VictoryDelaySec: null
   MaxAI: ""
   AISpawnRadius: ""
@@ -142,6 +145,7 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "False"
   RequiresGameModeGDEException: "True"
+  RecommendedLevel: null
   RequiredLevel: null
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
@@ -155,6 +159,8 @@
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: null
   PreserveOldGroup: null
   IsDungeon: null
@@ -170,8 +176,8 @@
   LootTags: TestMode2
   MutLootTagsOverride: ""
   ContainerLevel: null
-  ContainerGS: null
-  MutContainerGSOverride: null
+  LootGSRangeOverride: ""
+  MutLootGSRangeOverride: ""
   VictoryDelaySec: null
   MaxAI: ""
   AISpawnRadius: ""
@@ -262,6 +268,7 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "False"
   RequiresGameModeGDEException: "True"
+  RecommendedLevel: null
   RequiredLevel: null
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
@@ -275,6 +282,8 @@
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: null
   PreserveOldGroup: null
   IsDungeon: null
@@ -290,8 +299,8 @@
   LootTags: Duel
   MutLootTagsOverride: ""
   ContainerLevel: null
-  ContainerGS: null
-  MutContainerGSOverride: null
+  LootGSRangeOverride: ""
+  MutLootGSRangeOverride: ""
   VictoryDelaySec: null
   MaxAI: ""
   AISpawnRadius: ""
@@ -367,7 +376,7 @@
   Description: ""
   UiInteractOption: ""
   RequirementText: ""
-  IconPath: LyShineUI/Images/Icons/OutpostRush/icon_outpostRush.dds
+  IconPath: LyShineUI/Images/Icons/OutpostRush/icon_outpostRush.png
   SimpleImagePath: ""
   BackgroundImagePath: ""
   CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
@@ -382,6 +391,7 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "True"
   RequiresGameModeGDEException: "True"
+  RecommendedLevel: 60.0
   RequiredLevel: 60.0
   QueueLevelBuckets: ""
   QueueReadyThreshold: 32.0
@@ -390,11 +400,13 @@
   TeamCapacity: 20.0
   CombineTeamGroups: null
   ModeNameLocStringId: "@ui_outpost_rush_title"
-  GearScoreOverrideValueMin: 600.0
-  GearScoreOverrideValueMax: 625.0
+  GearScoreOverrideValueMin: 675.0
+  GearScoreOverrideValueMax: 700.0
   MinPlayerLevelToUseGearScoreOverride: 60.0
-  MaxPlayerLevelToUseGearScoreOverride: 60.0
+  MaxPlayerLevelToUseGearScoreOverride: 65.0
   PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: null
   PreserveOldGroup: true
   IsDungeon: null
@@ -410,8 +422,8 @@
   LootTags: OutpostRush
   MutLootTagsOverride: ""
   ContainerLevel: null
-  ContainerGS: null
-  MutContainerGSOverride: null
+  LootGSRangeOverride: ""
+  MutLootGSRangeOverride: ""
   VictoryDelaySec: null
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -430,11 +442,11 @@
   AIPreventEnemyTraining: false
   UseTeamNamePlate: true
   ItemDropQuantityOnDeathModifier: 0.5
-  QuitButtonTextId: "\"@ui_outpost_rush_leave\""
-  CannotFastTravelTextId: "\"@ui_cannot_travel_outpost_rush\""
-  LeaveDescTextId: "\"@ui_outpost_rush_leave_desc\""
-  LeaveTimeDescTextId: "\"@ui_outpost_rush_leave_desc_time\""
-  LeaveTitleTextId: "\"@ui_outpost_rush_leave_title\""
+  QuitButtonTextId: "@ui_outpost_rush_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_outpost_rush"
+  LeaveDescTextId: "@ui_outpost_rush_leave_desc"
+  LeaveTimeDescTextId: "@ui_outpost_rush_leave_desc_time"
+  LeaveTitleTextId: "@ui_outpost_rush_leave_title"
   WarBoardStatDefinitions: ORWarboardStatDefinitions
   WarBoardAttackerTeamIdx: 0.0
   WarBoardDefenderTeamIdx: 1.0
@@ -487,9 +499,9 @@
   Description: "@dungeon_amrine_description"
   UiInteractOption: EnterDungeonAmrine
   RequirementText: "@dungeon_amrine_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.dds
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.dds
-  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonAmrine.dds
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
+  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonAmrine.png
   CoatlicueName: "coatlicue\\NW_Dungeon_Windsward_00"
   WorldBounds: 610.0,560.0,352.0,512.0
   TeamTeleportData: 645.0,663.0,153.0,0
@@ -502,7 +514,8 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "False"
   RequiresGameModeGDEException: "True"
-  RequiredLevel: 25.0
+  RecommendedLevel: 25.0
+  RequiredLevel: null
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -515,6 +528,8 @@
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: 1hRapier_SimonGreysToothpickT3_V2,2hStaffFire_FlareSparkT3_V2,2hGreataxe_DarknessDefinedT3_V2,Ring_SimonsHacksilverRingT3_V2,Amulet_NakashimasKeepsakeT3_V2
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 3.0
   PreserveOldGroup: null
   IsDungeon: true
@@ -530,8 +545,8 @@
   LootTags: Amrine,Lost
   MutLootTagsOverride: ""
   ContainerLevel: 25.0
-  ContainerGS: null
-  MutContainerGSOverride: null
+  LootGSRangeOverride: 300-375
+  MutLootGSRangeOverride: ""
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -570,7 +585,7 @@
   GrantConsumables: ""
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
-  ResetChargeOnEnter: null
+  ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
   ScreenHeaderTextId: ""
   JoinButtonTextId: ""
@@ -607,9 +622,9 @@
   Description: "@dungeon_edengrove00_description"
   UiInteractOption: EnterDungeonGenesis
   RequirementText: "@dungeon_edengrove00_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_genesis.dds
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonEdengrove00_simple.dds
-  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonEdengrove00.dds
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_genesis.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonEdengrove00_simple.png
+  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonEdengrove00.png
   CoatlicueName: "coatlicue\\NW_Dungeon_Edengrove_00"
   WorldBounds: 384.0,1024.0,640.0,800.0
   TeamTeleportData: 675.0,1166.0,186.0,0
@@ -622,7 +637,8 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
-  RequiredLevel: 60.0
+  RecommendedLevel: 60.0
+  RequiredLevel: null
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -635,6 +651,8 @@
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: 2hSpear_AngryEarthExterminatorT5_V2,EarringT5_MistyKismetCharm_V2,2hBow_CreepingRecurveT5_V2,EarringT5_DoomsChanceEarring_V2,1hLongsword_PrimordialEdgeT5_V2,2hStaffFire_FirebinderT5_V2
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 3.0
   PreserveOldGroup: null
   IsDungeon: true
@@ -643,15 +661,15 @@
   IsSoloTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
-  DifficultyProgressionId: DungeonEdengrove00Difficulty
+  DifficultyProgressionId: DungeonEdengrove00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_Dungeon_Edengrove_00
   LootTags: Edengrove00,AngryEarth,GypsumBlue
   MutLootTagsOverride: ""
-  ContainerLevel: 67.0
-  ContainerGS: 600.0
-  MutContainerGSOverride: 600.0
+  ContainerLevel: 60.0
+  LootGSRangeOverride: 600-700
+  MutLootGSRangeOverride: 650-700
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -690,7 +708,7 @@
   GrantConsumables: ""
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
-  ResetChargeOnEnter: null
+  ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
   ScreenHeaderTextId: ""
   JoinButtonTextId: ""
@@ -727,9 +745,9 @@
   Description: "@dungeon_everfall_description"
   UiInteractOption: EnterDungeonShatteredObelisk
   RequirementText: "@dungeon_everfall_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_obelisk.dds
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonShatteredObelisk_simple.dds
-  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonShatteredObelisk.dds
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_obelisk.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonShatteredObelisk_simple.png
+  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonShatteredObelisk.png
   CoatlicueName: "coatlicue\\NW_Dungeon_Everfall_00"
   WorldBounds: 0.0,0.0,1056.0,864.0
   TeamTeleportData: 965.0,576.0,317.0,90
@@ -742,7 +760,8 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
-  RequiredLevel: 35.0
+  RecommendedLevel: 35.0
+  RequiredLevel: null
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -755,6 +774,8 @@
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: Amulet_GraveguardsSealT3_V2,2hStaffFire_StaffoftheImmolatedVeilT3_V2,1hRapier_ObsidianRapierT3_V2,1hGauntletIce_CreepingColdT3_V2,1hThrowingAxe_FleetingRealityT3_V2
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 3.0
   PreserveOldGroup: null
   IsDungeon: true
@@ -763,15 +784,15 @@
   IsSoloTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
-  DifficultyProgressionId: DungeonEverfall00Difficulty
+  DifficultyProgressionId: DungeonEverfall00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_Dungeon_Everfall_00
   LootTags: ShatteredObelisk,Ancient
   MutLootTagsOverride: ShatteredObelisk_Mut,Ancient,GypsumBlue
   ContainerLevel: 35.0
-  ContainerGS: null
-  MutContainerGSOverride: 600.0
+  LootGSRangeOverride: 400-450
+  MutLootGSRangeOverride: 650-700
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -810,7 +831,7 @@
   GrantConsumables: ""
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
-  ResetChargeOnEnter: null
+  ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
   ScreenHeaderTextId: ""
   JoinButtonTextId: ""
@@ -847,9 +868,9 @@
   Description: "@dungeon_restlessshores01_description"
   UiInteractOption: EnterDungeonDepths
   RequirementText: "@dungeon_restlessshores01_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_depths.dds
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonRestlessShores01_simple.dds
-  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonRestlessShores01.dds
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_depths.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonRestlessShores01_simple.png
+  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonRestlessShores01.png
   CoatlicueName: "coatlicue\\NW_Dungeon_RestlessShores_01"
   WorldBounds: 500.0,780.0,1152.0,1440.0
   TeamTeleportData: 992.0,1007.0,149.0,180
@@ -862,7 +883,8 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
-  RequiredLevel: 45.0
+  RecommendedLevel: 45.0
+  RequiredLevel: null
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -875,6 +897,8 @@
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: 2hMusket_TundraWardensRifleT4_V2,2hStaffLife_StaffofDuplicitiousIntentT4_V2,1hLongsword_WillingSacrificeT4_V2,RingT4_HolyPledgersBand_V2,2hBow_CorruptionInfusedLongbowT4_V2
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 3.0
   PreserveOldGroup: null
   IsDungeon: true
@@ -883,15 +907,15 @@
   IsSoloTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
-  DifficultyProgressionId: DungeonRestlessShores01Difficulty
+  DifficultyProgressionId: DungeonRestlessShores01DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_Dungeon_RestlessShores_01
   LootTags: RestlessShores01,Corrupted
   MutLootTagsOverride: Restless01_Mut,Corrupted,GypsumBlue
   ContainerLevel: 45.0
-  ContainerGS: null
-  MutContainerGSOverride: 600.0
+  LootGSRangeOverride: 475-525
+  MutLootGSRangeOverride: 650-700
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -930,7 +954,7 @@
   GrantConsumables: ""
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
-  ResetChargeOnEnter: null
+  ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
   ScreenHeaderTextId: ""
   JoinButtonTextId: ""
@@ -967,9 +991,9 @@
   Description: "@dungeon_reekwater_description"
   UiInteractOption: EnterDungeonLazarus
   RequirementText: "@dungeon_reekwater_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_lazarus.dds
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonReekwater00_simple.dds
-  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonReekwater00.dds
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_lazarus.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonReekwater00_simple.png
+  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonReekwater00.png
   CoatlicueName: "coatlicue\\NW_Dungeon_Reekwater_00"
   WorldBounds: 610.0,560.0,512.0,512.0
   TeamTeleportData: 801.0,569.0,205.0,0
@@ -982,7 +1006,8 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "FALSE"
   RequiresGameModeGDEException: "TRUE"
-  RequiredLevel: 60.0
+  RecommendedLevel: 60.0
+  RequiredLevel: null
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -995,6 +1020,8 @@
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: 1hThrowingAxe_SolT5_V2,2hStaffLife_WilloftheAncientsT5_V2,Ring_FeatherweightRingT5_V2,2hBow_LazarusBowT5_V2,1hGauntletIce_FrostgraspT5_V2
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 3.0
   PreserveOldGroup: null
   IsDungeon: true
@@ -1003,15 +1030,15 @@
   IsSoloTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
-  DifficultyProgressionId: DungeonReekwater00Difficulty
+  DifficultyProgressionId: DungeonReekwater00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_Dungeon_Reekwater_00
   LootTags: Reekwater00,Ancient,GypsumBlue
   MutLootTagsOverride: ""
-  ContainerLevel: 67.0
-  ContainerGS: 600.0
-  MutContainerGSOverride: 600.0
+  ContainerLevel: 60.0
+  LootGSRangeOverride: 600-700
+  MutLootGSRangeOverride: 650-700
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -1050,7 +1077,7 @@
   GrantConsumables: ""
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
-  ResetChargeOnEnter: null
+  ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
   ScreenHeaderTextId: ""
   JoinButtonTextId: ""
@@ -1087,9 +1114,9 @@
   Description: "@dungeon_ebonscale00_description"
   UiInteractOption: EnterDungeonShipyard
   RequirementText: "@dungeon_ebonscale_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_shipyard.dds
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonEbonscale00_simple.dds
-  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonEbonscale00.dds
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_shipyard.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonEbonscale00_simple.png
+  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonEbonscale00.png
   CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
   WorldBounds: 4480.0,4096.0,608.0,544.0
   TeamTeleportData: 5039.0,4321.0,41,0
@@ -1102,7 +1129,8 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
-  RequiredLevel: 55.0
+  RecommendedLevel: 55.0
+  RequiredLevel: null
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -1115,6 +1143,8 @@
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: 2hBow_TempestsCallT4_V2,2hStaffFire_FlamewakeT4_V2,RingT4_BandofOceansOath_V2,1hRapier_RapierofForgottenQueensT4_V2,2hGreataxe_InnerPeaceT4_V2
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 3.0
   PreserveOldGroup: null
   IsDungeon: true
@@ -1123,15 +1153,15 @@
   IsSoloTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
-  DifficultyProgressionId: DungeonEbonscale00Difficulty
+  DifficultyProgressionId: DungeonEbonscale00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NewWorld_VitaeEterna
   LootTags: Ebonscale00,Corrupted
   MutLootTagsOverride: Ebonscale00_Mut,Corrupted,GypsumBlue
   ContainerLevel: 55.0
-  ContainerGS: null
-  MutContainerGSOverride: 600.0
+  LootGSRangeOverride: 525-700
+  MutLootGSRangeOverride: 650-700
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -1170,7 +1200,7 @@
   GrantConsumables: ""
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
-  ResetChargeOnEnter: null
+  ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
   ScreenHeaderTextId: ""
   JoinButtonTextId: ""
@@ -1207,9 +1237,9 @@
   Description: "@dungeon_cutlasskeys00_description"
   UiInteractOption: EnterDungeonCutlassKeys
   RequirementText: "@dungeon_cutlasskeys00_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonCutlassKeys00.dds
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonCutlassKeys00_simple.dds
-  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonCutlassKeys00.dds
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonCutlassKeys00.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonCutlassKeys00_simple.png
+  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonCutlassKeys00.png
   CoatlicueName: "coatlicue\\NW_Dungeon_CutlassKeys_00"
   WorldBounds: 198.0,640.0,800.0,800.0
   TeamTeleportData: 407,922,175.0,270
@@ -1222,7 +1252,8 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
-  RequiredLevel: 60.0
+  RecommendedLevel: 60.0
+  RequiredLevel: null
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -1235,6 +1266,8 @@
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: 1hKshield_PriscillasShieldT5_V2,2hStaffFire_ExpanseT5_V2,AmuletT5_Droplet_V2,1hThrowingAxe_DriftwoodT5_V2,2hSpear_MeltingPointT5_V2
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 3.0
   PreserveOldGroup: null
   IsDungeon: true
@@ -1243,15 +1276,15 @@
   IsSoloTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
-  DifficultyProgressionId: DungeonCutlass00Difficulty
+  DifficultyProgressionId: DungeonCutlass00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_Dungeon_CutlassKeys_00
   LootTags: CutlassKeys00,Lost,GypsumBlue
   MutLootTagsOverride: ""
-  ContainerLevel: 67.0
-  ContainerGS: 600.0
-  MutContainerGSOverride: null
+  ContainerLevel: 64.0
+  LootGSRangeOverride: 625-700
+  MutLootGSRangeOverride: ""
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -1290,7 +1323,7 @@
   GrantConsumables: ""
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
-  ResetChargeOnEnter: null
+  ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
   ScreenHeaderTextId: ""
   JoinButtonTextId: ""
@@ -1327,9 +1360,9 @@
   Description: "@dungeon_brimstonesands00_description"
   UiInteractOption: ""
   RequirementText: "@dungeon_brimstonesands00_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/scarab_elite.dds
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonBrimstoneSands00_simple.dds
-  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonBrimstoneSands00.dds
+  IconPath: LyShineUI/Images/Map/Icon/POIs/scarab_elite.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonBrimstoneSands00_simple.png
+  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonBrimstoneSands00.png
   CoatlicueName: "coatlicue\\NW_Dungeon_BrimstoneSands_00"
   WorldBounds: 544.0,576.0,960.0,960.0
   TeamTeleportData: 898.0,1085.0,863.0,90
@@ -1342,7 +1375,8 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
-  RequiredLevel: 60.0
+  RecommendedLevel: 60.0
+  RequiredLevel: null
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -1355,6 +1389,8 @@
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: 2hSpear_DjaOfBesT5_V2,2hBlunderbuss_BuchisRageT5_V2,1hGauntletIce_HandOfJupiterT5_V2,EarringT5_PriestessCharm_V2,2hBow_CharioteersBowT5_V2
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 3.0
   PreserveOldGroup: null
   IsDungeon: true
@@ -1363,15 +1399,15 @@
   IsSoloTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
-  DifficultyProgressionId: DungeonBrimstoneSands00Difficulty
+  DifficultyProgressionId: DungeonBrimstoneSands00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_Dungeon_BrimstoneSands_00
   LootTags: BrimstoneSands00,Ancient,GypsumBlue
   MutLootTagsOverride: ""
-  ContainerLevel: 67.0
-  ContainerGS: 600.0
-  MutContainerGSOverride: 600.0
+  ContainerLevel: 65.0
+  LootGSRangeOverride: 625-700
+  MutLootGSRangeOverride: 650-700
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -1410,7 +1446,7 @@
   GrantConsumables: ""
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
-  ResetChargeOnEnter: null
+  ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
   ScreenHeaderTextId: ""
   JoinButtonTextId: ""
@@ -1462,7 +1498,8 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
-  RequiredLevel: 60.0
+  RecommendedLevel: 60.0
+  RequiredLevel: null
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -1475,6 +1512,8 @@
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: 2hMusket_BrashOpenerT5,2hGreatSword_HuntingBladeT5,RingT5_EmbersOfChange,1hGauntletVoid_DaemongraspT5,1hLongsword_Firelash
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 3.0
   PreserveOldGroup: null
   IsDungeon: true
@@ -1483,15 +1522,15 @@
   IsSoloTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
-  DifficultyProgressionId: DungeonGreatCleave01Difficulty
+  DifficultyProgressionId: DungeonGreatCleave01DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_Dungeon_GreatCleave_01
   LootTags: GreatCleave01,Knight,GypsumBlue
   MutLootTagsOverride: ""
-  ContainerLevel: 67.0
-  ContainerGS: 600.0
-  MutContainerGSOverride: 600.0
+  ContainerLevel: 65.0
+  LootGSRangeOverride: 625-700
+  MutLootGSRangeOverride: 650-700
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -1530,7 +1569,7 @@
   GrantConsumables: ""
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
-  ResetChargeOnEnter: null
+  ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
   ScreenHeaderTextId: ""
   JoinButtonTextId: ""
@@ -1567,9 +1606,9 @@
   Description: "@dungeon_shattermtn00_description"
   UiInteractOption: EnterDungeonIsabella
   RequirementText: "@dungeon_shattermtn00_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_isabella.dds
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonShatterMtn00_simple.dds
-  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonIsabella.dds
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_isabella.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonShatterMtn00_simple.png
+  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonIsabella.png
   CoatlicueName: "coatlicue\\NW_Dungeon_ShatterMtn_00"
   WorldBounds: 242.0,368.0,1760.0,1760.0
   TeamTeleportData: 1566.0,819.0,190.0,55
@@ -1582,7 +1621,8 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
-  RequiredLevel: 60.0
+  RecommendedLevel: 60.0
+  RequiredLevel: null
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -1595,6 +1635,8 @@
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: 2hSpear_SunriseKissT5_V2,1hTshield_PortentT5_V2,1hLongsword_BlackguardsLongswordT5_V2,2hBow_BlackguardsBowT5_V2,1hGauntletVoid_BlackguardsVoidGauntletT5_V2
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 3.0
   PreserveOldGroup: null
   IsDungeon: true
@@ -1603,15 +1645,15 @@
   IsSoloTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
-  DifficultyProgressionId: DungeonShatterMtn00Difficulty
+  DifficultyProgressionId: DungeonShatterMtn00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_Dungeon_ShatterMtn_00
   LootTags: ShatterMtn00,Corrupted,GypsumBlue
   MutLootTagsOverride: ""
-  ContainerLevel: 67.0
-  ContainerGS: 600.0
-  MutContainerGSOverride: null
+  ContainerLevel: 62.0
+  LootGSRangeOverride: 625-700
+  MutLootGSRangeOverride: ""
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -1650,7 +1692,130 @@
   GrantConsumables: ""
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
-  ResetChargeOnEnter: null
+  ResetChargeOnEnter: true
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+- GameModeId: DungeonFirstLight01
+  ScriptName: DungeonFirstLight01
+  SlicePath: Dungeon/LevelScripts/FirstLight01Dungeon
+  RequiresTeamRaids: "0"
+  AdvanceThroughStatesOnUpdate: "1"
+  DisplayName: "@dungeon_firstlight01_title"
+  Description: "@dungeon_firstlight01_description"
+  UiInteractOption: EnterDungeonFirstLight
+  RequirementText: "@dungeon_firstlight01_required_equipment"
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_crystalclaw.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonCrystalclawCavern_simple.png
+  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonFirstLight00.png
+  CoatlicueName: "coatlicue\\NW_Dungeon_FirstLight_01"
+  WorldBounds: 242.0,368.0,1760.0,1760.0
+  TeamTeleportData: 651.0,1181.4,279.0,240
+  FeatureFlag: firstLight01-dungeon
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: DungeonItem
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 65.0
+  RequiredLevel: 62.0
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  NumTeams: null
+  TeamCapacity: null
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: 2hWarhammer_FistOfKurokT5_V2,2hGreatsword_FootfallT5_V2,2hStaffFire_MadhouseT5_V2,1hRapier_RazorsLeafT5_V2,1hGauntletIce_IcicleT5_V2
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 3.0
+  PreserveOldGroup: null
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: null
+  IsMutable: true
+  IsRemoteEntryAllowed: true
+  DifficultyProgressionId: DungeonFirstLight01DifficultyExp23
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  MapId: NW_Dungeon_FirstLight_01
+  LootTags: EXPFirstLight01,GypsumBlue
+  MutLootTagsOverride: ""
+  ContainerLevel: 70.0
+  LootGSRangeOverride: 650-700
+  MutLootGSRangeOverride: ""
+  VictoryDelaySec: 4.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedCpuUsePercent: 1.0
+  ProjectedMemoryUseMb: 768.0
+  ProjectedDurationMinutes: 30.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  PauseTimeOfDay: true
+  FreezeTime: 17.2
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: ""
+  CannotFastTravelTextId: ""
+  LeaveDescTextId: ""
+  LeaveTimeDescTextId: ""
+  LeaveTitleTextId: ""
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  OverrideDungeonTimeout: null
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
   ScreenHeaderTextId: ""
   JoinButtonTextId: ""
@@ -1687,9 +1852,9 @@
   Description: ""
   UiInteractOption: ""
   RequirementText: ""
-  IconPath: LyShineUI/Images/Icons/PvpArena/icon_pvpArena.dds
+  IconPath: LyShineUI/Images/Icons/PvpArena/icon_pvpArena.png
   SimpleImagePath: ""
-  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonBrimstoneSands00.dds
+  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonBrimstoneSands00.png
   CoatlicueName: "coatlicue\\NW_Arena01"
   WorldBounds: 864.0,832.0,992.0,960.0
   TeamTeleportData: 939,935,227,180+939,873,227,0
@@ -1702,19 +1867,22 @@
   DisabledItemClasses: NoPvPArenas
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
+  RecommendedLevel: 20.0
   RequiredLevel: 20.0
-  QueueLevelBuckets: 20,30,40,50,60
+  QueueLevelBuckets: 20,30,40,50,60,66
   QueueReadyThreshold: 6.0
   BackfillReadyThreshold: 5.0
   NumTeams: 2.0
   TeamCapacity: 3.0
   CombineTeamGroups: true
   ModeNameLocStringId: "@ui_pvp_3v3_arena_signup_title"
-  GearScoreOverrideValueMin: 600.0
-  GearScoreOverrideValueMax: 625.0
+  GearScoreOverrideValueMin: 675.0
+  GearScoreOverrideValueMax: 700.0
   MinPlayerLevelToUseGearScoreOverride: 60.0
-  MaxPlayerLevelToUseGearScoreOverride: 60.0
+  MaxPlayerLevelToUseGearScoreOverride: 65.0
   PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: null
   PreserveOldGroup: true
   IsDungeon: null
@@ -1730,8 +1898,8 @@
   LootTags: CasualArenas
   MutLootTagsOverride: ""
   ContainerLevel: null
-  ContainerGS: null
-  MutContainerGSOverride: null
+  LootGSRangeOverride: ""
+  MutLootGSRangeOverride: ""
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -1750,11 +1918,11 @@
   AIPreventEnemyTraining: false
   UseTeamNamePlate: true
   ItemDropQuantityOnDeathModifier: 1.0
-  QuitButtonTextId: "\"@ui_pvp_arena_leave\""
-  CannotFastTravelTextId: "\"@ui_cannot_travel_pvp_arena\""
-  LeaveDescTextId: "\"@ui_pvp_arena_leave_desc\""
-  LeaveTimeDescTextId: "\"@ui_pvp_arena_leave_desc_time\""
-  LeaveTitleTextId: "\"@ui_pvp_arena_leave_title\""
+  QuitButtonTextId: "@ui_pvp_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_pvp_arena"
+  LeaveDescTextId: "@ui_pvp_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_pvp_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_pvp_arena_leave_title"
   WarBoardStatDefinitions: PvPArenaWarboardStatDefinitions
   WarBoardAttackerTeamIdx: 0.0
   WarBoardDefenderTeamIdx: 1.0
@@ -1791,7 +1959,7 @@
   Tip03IconPath: ""
   Tip03Text: ""
   HidePoiName: true
-  HideCompass: null
+  HideCompass: true
   ExclusiveRewardIds: ""
   UniqueRewardIds: ""
   BasicRewardIds: ""
@@ -1807,9 +1975,9 @@
   Description: ""
   UiInteractOption: ""
   RequirementText: ""
-  IconPath: LyShineUI/Images/Icons/PvpArena/icon_pvpArena.dds
+  IconPath: LyShineUI/Images/Icons/PvpArena/icon_pvpArena.png
   SimpleImagePath: ""
-  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonBrimstoneSands00.dds
+  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonBrimstoneSands00.png
   CoatlicueName: "coatlicue\\NW_Arena02"
   WorldBounds: 1064.0,1189.0,256.0,256.0
   TeamTeleportData: 1206,1300,52,180+1206,1226,52,0
@@ -1822,19 +1990,22 @@
   DisabledItemClasses: NoPvPArenas
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
+  RecommendedLevel: 20.0
   RequiredLevel: 20.0
-  QueueLevelBuckets: 20,30,40,50,60
+  QueueLevelBuckets: 20,30,40,50,60,66
   QueueReadyThreshold: 6.0
   BackfillReadyThreshold: 5.0
   NumTeams: 2.0
   TeamCapacity: 3.0
   CombineTeamGroups: true
   ModeNameLocStringId: "@ui_pvp_3v3_arena_signup_title"
-  GearScoreOverrideValueMin: 600.0
-  GearScoreOverrideValueMax: 625.0
+  GearScoreOverrideValueMin: 675.0
+  GearScoreOverrideValueMax: 700.0
   MinPlayerLevelToUseGearScoreOverride: 60.0
-  MaxPlayerLevelToUseGearScoreOverride: 60.0
+  MaxPlayerLevelToUseGearScoreOverride: 65.0
   PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: null
   PreserveOldGroup: true
   IsDungeon: null
@@ -1850,8 +2021,8 @@
   LootTags: CasualArenas
   MutLootTagsOverride: ""
   ContainerLevel: null
-  ContainerGS: null
-  MutContainerGSOverride: null
+  LootGSRangeOverride: ""
+  MutLootGSRangeOverride: ""
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -1870,11 +2041,11 @@
   AIPreventEnemyTraining: false
   UseTeamNamePlate: true
   ItemDropQuantityOnDeathModifier: 1.0
-  QuitButtonTextId: "\"@ui_pvp_arena_leave\""
-  CannotFastTravelTextId: "\"@ui_cannot_travel_pvp_arena\""
-  LeaveDescTextId: "\"@ui_pvp_arena_leave_desc\""
-  LeaveTimeDescTextId: "\"@ui_pvp_arena_leave_desc_time\""
-  LeaveTitleTextId: "\"@ui_pvp_arena_leave_title\""
+  QuitButtonTextId: "@ui_pvp_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_pvp_arena"
+  LeaveDescTextId: "@ui_pvp_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_pvp_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_pvp_arena_leave_title"
   WarBoardStatDefinitions: PvPArenaWarboardStatDefinitions
   WarBoardAttackerTeamIdx: 0.0
   WarBoardDefenderTeamIdx: 1.0
@@ -1911,7 +2082,7 @@
   Tip03IconPath: ""
   Tip03Text: ""
   HidePoiName: null
-  HideCompass: null
+  HideCompass: true
   ExclusiveRewardIds: ""
   UniqueRewardIds: ""
   BasicRewardIds: ""
@@ -1927,9 +2098,9 @@
   Description: "@trial_brimstone_sandworm_description"
   UiInteractOption: EnterDungeon_RaidTrial
   RequirementText: ""
-  IconPath: LyShineUI/Images/Map/Icon/POIs/arena_sandworm_elite.dds
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.dds
-  BackgroundImagePath: LyShineUI/Images/EntranceScreen/Sandworm/EntranceScreenBG_Sandworm.dds
+  IconPath: LyShineUI/Images/Map/Icon/POIs/arena_sandworm_elite.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
+  BackgroundImagePath: LyShineUI/Images/EntranceScreen/Sandworm/EntranceScreenBG_Sandworm.png
   CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
   WorldBounds: 4902.0,7698.0,128.0,128.0
   TeamTeleportData: 4935.0,7788.0,224.0,235
@@ -1942,19 +2113,22 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
-  RequiredLevel: 60.0
+  RecommendedLevel: 60.0
+  RequiredLevel: null
   QueueLevelBuckets: ""
   QueueReadyThreshold: 18.0
   BackfillReadyThreshold: 19.0
   NumTeams: 1.0
   TeamCapacity: 20.0
   CombineTeamGroups: null
-  ModeNameLocStringId: "@ui_trial_sandworm_title"
+  ModeNameLocStringId: "@trial_brimstone_sandworm_title"
   GearScoreOverrideValueMin: null
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 12.0
   PreserveOldGroup: null
   IsDungeon: true
@@ -1962,7 +2136,7 @@
   IsSeasonTrial: null
   IsSoloTrial: null
   IsMutable: null
-  IsRemoteEntryAllowed: null
+  IsRemoteEntryAllowed: true
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -1970,13 +2144,13 @@
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: null
-  ContainerGS: null
-  MutContainerGSOverride: null
+  LootGSRangeOverride: ""
+  MutLootGSRangeOverride: ""
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.375
+  ProjectedCpuUsePercent: 3.2
   ProjectedMemoryUseMb: 256.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
@@ -2010,7 +2184,7 @@
   GrantConsumables: ""
   OverrideDungeonTimeout: 10800.0
   SpecialQueueGroupSizes: null
-  ResetChargeOnEnter: null
+  ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
   ScreenHeaderTextId: ""
   JoinButtonTextId: ""
@@ -2023,18 +2197,18 @@
   DailyLootLimitId: Trial_Sandworm_DailyBox
   WeeklyLootLimitId: Trial_Sandworm_WeeklyBox
   PossibleJourneyIds: ""
-  TrialIconPath: lyshineui/images/entrancescreen/sandworm/entrancescreenicon_sandworm.dds
-  Tip01IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective1.dds
+  TrialIconPath: lyshineui/images/entrancescreen/sandworm/entrancescreenicon_sandworm.png
+  Tip01IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective1.png
   Tip01Text: "@Trial_Season_02_Objective_1"
-  Tip02IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective2.dds
+  Tip02IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective2.png
   Tip02Text: "@Trial_Season_02_Objective_2"
-  Tip03IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective3.dds
+  Tip03IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective3.png
   Tip03Text: "@Trial_Season_02_Objective_3"
   HidePoiName: null
   HideCompass: true
-  ExclusiveRewardIds: UmbralShardT1,GypsumOrb,Sandworm_Trial_Materia,Shard_Heavy_Chest,MediumHead_Sandworm_Trial_T5,MediumChest_Sandworm_Trial_T5,MediumHands_Sandworm_Trial_T5,MediumLegs_Sandworm_Trial_T5,MediumFeet_Sandworm_Trial_T5,HeavyHead_Sandworm_Trial_T5,HeavyChest_Sandworm_Trial_T5,HeavyHands_Sandworm_Trial_T5,HeavyLegs_Sandworm_Trial_T5,HeavyFeet_Sandworm_Trial_T5,LightHead_Sandworm_Trial_T5,LightChest_Sandworm_Trial_T5,LightHands_Sandworm_Trial_T5,LightLegs_Sandworm_Trial_T5,LightFeet_Sandworm_Trial_T5,MediumHead_Sandworm_Trial_Named_T5,MediumChest_Sandworm_Trial_Named_T5,MediumHands_Sandworm_Trial_Named_T5,MediumLegs_Sandworm_Trial_Named_T5,MediumFeet_Sandworm_Trial_Named_T5,HeavyHead_Sandworm_Trial_Named_T5,HeavyChest_Sandworm_Trial_Named_T5,HeavyHands_Sandworm_Trial_Named_T5,HeavyLegs_Sandworm_Trial_Named_T5,HeavyFeet_Sandworm_Trial_Named_T5,LightHead_Sandworm_Trial_Named_T5,LightChest_Sandworm_Trial_Named_T5,LightHands_Sandworm_Trial_Named_T5,LightLegs_Sandworm_Trial_Named_T5,LightFeet_Sandworm_Trial_Named_T5,Sandworm_Trial_WeaponLongsword_T5,Sandworm_Trial_WeaponGreatAxe_T5,Sandworm_Trial_WeaponMusket_T5,Sandworm_Trial_WeaponBlunderbuss_T5,Sandworm_Trial_WeaponBow_T5,Sandworm_Trial_WeaponThrowingAxe_T5,Sandworm_Trial_WeaponFireStaff_T5,Sandworm_Trial_WeaponLifeStaff_T5,Sandworm_Trial_WeaponWarhammer_T5,Sandworm_Trial_WeaponGreatsword_T5,Sandworm_Trial_WeaponRapier_T5,Sandworm_Trial_WeaponSpear_T5,Sandworm_Trial_WeaponIceGauntlet_T5,Sandworm_Trial_WeaponVoidGauntlet_T5,Sandworm_Trial_WeaponKiteShield_T5,Sandworm_Trial_WeaponRoundShieldT5,Sandworm_Trial_WeaponTowerShield_T5,Sandworm_Trial_AmuletT5,Sandworm_Trial_RingT5,Sandworm_Trial_EarringT5
-  UniqueRewardIds: UmbralShardT1,GypsumOrb,Sandworm_Trial_Materia,RuneSandwormT1,MediumHead_Sandworm_Trial_T5,MediumChest_Sandworm_Trial_T5,MediumHands_Sandworm_Trial_T5,MediumLegs_Sandworm_Trial_T5,MediumFeet_Sandworm_Trial_T5,HeavyHead_Sandworm_Trial_T5,HeavyChest_Sandworm_Trial_T5,HeavyHands_Sandworm_Trial_T5,HeavyLegs_Sandworm_Trial_T5,HeavyFeet_Sandworm_Trial_T5,LightHead_Sandworm_Trial_T5,LightChest_Sandworm_Trial_T5,LightHands_Sandworm_Trial_T5,LightLegs_Sandworm_Trial_T5,LightFeet_Sandworm_Trial_T5,MediumHead_Sandworm_Trial_Named_T5,MediumChest_Sandworm_Trial_Named_T5,MediumHands_Sandworm_Trial_Named_T5,MediumLegs_Sandworm_Trial_Named_T5,MediumFeet_Sandworm_Trial_Named_T5,HeavyHead_Sandworm_Trial_Named_T5,HeavyChest_Sandworm_Trial_Named_T5,HeavyHands_Sandworm_Trial_Named_T5,HeavyLegs_Sandworm_Trial_Named_T5,HeavyFeet_Sandworm_Trial_Named_T5,LightHead_Sandworm_Trial_Named_T5,LightChest_Sandworm_Trial_Named_T5,LightHands_Sandworm_Trial_Named_T5,LightLegs_Sandworm_Trial_Named_T5,LightFeet_Sandworm_Trial_Named_T5,Sandworm_Trial_WeaponLongsword_T5,Sandworm_Trial_WeaponGreatAxe_T5,Sandworm_Trial_WeaponMusket_T5,Sandworm_Trial_WeaponBlunderbuss_T5,Sandworm_Trial_WeaponBow_T5,Sandworm_Trial_WeaponThrowingAxe_T5,Sandworm_Trial_WeaponFireStaff_T5,Sandworm_Trial_WeaponLifeStaff_T5,Sandworm_Trial_WeaponWarhammer_T5,Sandworm_Trial_WeaponGreatsword_T5,Sandworm_Trial_WeaponRapier_T5,Sandworm_Trial_WeaponSpear_T5,Sandworm_Trial_WeaponIceGauntlet_T5,Sandworm_Trial_WeaponVoidGauntlet_T5,Sandworm_Trial_WeaponKiteShield_T5,Sandworm_Trial_WeaponRoundShieldT5,Sandworm_Trial_WeaponTowerShield_T5,Sandworm_Trial_AmuletT5,Sandworm_Trial_RingT5,Sandworm_Trial_EarringT5
-  BasicRewardIds: UmbralShardT1,MediumHead_Sandworm_Trial_T5,MediumChest_Sandworm_Trial_T5,MediumHands_Sandworm_Trial_T5,MediumLegs_Sandworm_Trial_T5,MediumFeet_Sandworm_Trial_T5,HeavyHead_Sandworm_Trial_T5,HeavyChest_Sandworm_Trial_T5,HeavyHands_Sandworm_Trial_T5,HeavyLegs_Sandworm_Trial_T5,HeavyFeet_Sandworm_Trial_T5,LightHead_Sandworm_Trial_T5,LightChest_Sandworm_Trial_T5,LightHands_Sandworm_Trial_T5,LightLegs_Sandworm_Trial_T5,LightFeet_Sandworm_Trial_T5
+  ExclusiveRewardIds: DarkMatter,GypsumOrb,Sandworm_Trial_Materia,Shard_Heavy_Chest,MediumHead_Sandworm_Trial_T5,MediumChest_Sandworm_Trial_T5,MediumHands_Sandworm_Trial_T5,MediumLegs_Sandworm_Trial_T5,MediumFeet_Sandworm_Trial_T5,HeavyHead_Sandworm_Trial_T5,HeavyChest_Sandworm_Trial_T5,HeavyHands_Sandworm_Trial_T5,HeavyLegs_Sandworm_Trial_T5,HeavyFeet_Sandworm_Trial_T5,LightHead_Sandworm_Trial_T5,LightChest_Sandworm_Trial_T5,LightHands_Sandworm_Trial_T5,LightLegs_Sandworm_Trial_T5,LightFeet_Sandworm_Trial_T5,MediumHead_Sandworm_Trial_Named_T5,MediumChest_Sandworm_Trial_Named_T5,MediumHands_Sandworm_Trial_Named_T5,MediumLegs_Sandworm_Trial_Named_T5,MediumFeet_Sandworm_Trial_Named_T5,HeavyHead_Sandworm_Trial_Named_T5,HeavyChest_Sandworm_Trial_Named_T5,HeavyHands_Sandworm_Trial_Named_T5,HeavyLegs_Sandworm_Trial_Named_T5,HeavyFeet_Sandworm_Trial_Named_T5,LightHead_Sandworm_Trial_Named_T5,LightChest_Sandworm_Trial_Named_T5,LightHands_Sandworm_Trial_Named_T5,LightLegs_Sandworm_Trial_Named_T5,LightFeet_Sandworm_Trial_Named_T5,Sandworm_Trial_WeaponLongsword_T5,Sandworm_Trial_WeaponGreatAxe_T5,Sandworm_Trial_WeaponMusket_T5,Sandworm_Trial_WeaponBlunderbuss_T5,Sandworm_Trial_WeaponBow_T5,Sandworm_Trial_WeaponThrowingAxe_T5,Sandworm_Trial_WeaponFireStaff_T5,Sandworm_Trial_WeaponLifeStaff_T5,Sandworm_Trial_WeaponWarhammer_T5,Sandworm_Trial_WeaponGreatsword_T5,Sandworm_Trial_WeaponRapier_T5,Sandworm_Trial_WeaponSpear_T5,Sandworm_Trial_WeaponIceGauntlet_T5,Sandworm_Trial_WeaponVoidGauntlet_T5,Sandworm_Trial_WeaponKiteShield_T5,Sandworm_Trial_WeaponRoundShieldT5,Sandworm_Trial_WeaponTowerShield_T5,Sandworm_Trial_AmuletT5,Sandworm_Trial_RingT5,Sandworm_Trial_EarringT5
+  UniqueRewardIds: DarkMatter,GypsumOrb,Sandworm_Trial_Materia,RuneSandwormT1,MediumHead_Sandworm_Trial_Named_T5,MediumChest_Sandworm_Trial_Named_T5,MediumHands_Sandworm_Trial_Named_T5,MediumLegs_Sandworm_Trial_Named_T5,MediumFeet_Sandworm_Trial_Named_T5,HeavyHead_Sandworm_Trial_Named_T5,HeavyChest_Sandworm_Trial_Named_T5,HeavyHands_Sandworm_Trial_Named_T5,HeavyLegs_Sandworm_Trial_Named_T5,HeavyFeet_Sandworm_Trial_Named_T5,LightHead_Sandworm_Trial_Named_T5,LightChest_Sandworm_Trial_Named_T5,LightHands_Sandworm_Trial_Named_T5,LightLegs_Sandworm_Trial_Named_T5,LightFeet_Sandworm_Trial_Named_T5,Sandworm_Trial_WeaponLongsword_T5,Sandworm_Trial_WeaponGreatAxe_T5,Sandworm_Trial_WeaponMusket_T5,Sandworm_Trial_WeaponBlunderbuss_T5,Sandworm_Trial_WeaponBow_T5,Sandworm_Trial_WeaponThrowingAxe_T5,Sandworm_Trial_WeaponFireStaff_T5,Sandworm_Trial_WeaponLifeStaff_T5,Sandworm_Trial_WeaponWarhammer_T5,Sandworm_Trial_WeaponGreatsword_T5,Sandworm_Trial_WeaponRapier_T5,Sandworm_Trial_WeaponSpear_T5,Sandworm_Trial_WeaponIceGauntlet_T5,Sandworm_Trial_WeaponVoidGauntlet_T5,Sandworm_Trial_WeaponKiteShield_T5,Sandworm_Trial_WeaponRoundShieldT5,Sandworm_Trial_WeaponTowerShield_T5,Sandworm_Trial_AmuletT5,Sandworm_Trial_RingT5,Sandworm_Trial_EarringT5
+  BasicRewardIds: DarkMatter,MediumHead_Sandworm_Trial_T5,MediumChest_Sandworm_Trial_T5,MediumHands_Sandworm_Trial_T5,MediumLegs_Sandworm_Trial_T5,MediumFeet_Sandworm_Trial_T5,HeavyHead_Sandworm_Trial_T5,HeavyChest_Sandworm_Trial_T5,HeavyHands_Sandworm_Trial_T5,HeavyLegs_Sandworm_Trial_T5,HeavyFeet_Sandworm_Trial_T5,LightHead_Sandworm_Trial_T5,LightChest_Sandworm_Trial_T5,LightHands_Sandworm_Trial_T5,LightLegs_Sandworm_Trial_T5,LightFeet_Sandworm_Trial_T5
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: 600.0
   GearScoreRecommendedValueMax: 625.0
@@ -2047,9 +2221,9 @@
   Description: "@Quest_Apophis_description"
   UiInteractOption: EnterQuestApophis
   RequirementText: "@Quest_Apophis_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.dds
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.dds
-  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestApophis.dds"
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
+  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestApophis.png"
   CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
   WorldBounds: 4660.0,8992.0,128.0,128.0
   TeamTeleportData: 4710.0,9075.2,414.4,207
@@ -2062,7 +2236,8 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
-  RequiredLevel: 60.0
+  RecommendedLevel: 60.0
+  RequiredLevel: null
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -2075,6 +2250,8 @@
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: 2hWarhammer_BanisherOfChaosT5
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 0.0
   PreserveOldGroup: null
   IsDungeon: true
@@ -2090,8 +2267,8 @@
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: null
-  ContainerGS: null
-  MutContainerGSOverride: null
+  LootGSRangeOverride: ""
+  MutLootGSRangeOverride: ""
   VictoryDelaySec: 9.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -2110,11 +2287,11 @@
   AIPreventEnemyTraining: false
   UseTeamNamePlate: false
   ItemDropQuantityOnDeathModifier: 1.0
-  QuitButtonTextId: "\"@ui_solo_arena_leave\""
-  CannotFastTravelTextId: "\"@ui_cannot_travel_solo_arena\""
-  LeaveDescTextId: "\"@ui_solo_arena_leave_desc\""
-  LeaveTimeDescTextId: "\"@ui_solo_arena_leave_desc_time\""
-  LeaveTitleTextId: "\"@ui_solo_arena_leave_title\""
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
   WarBoardStatDefinitions: ""
   WarBoardAttackerTeamIdx: null
   WarBoardDefenderTeamIdx: null
@@ -2167,9 +2344,9 @@
   Description: "@Trial_Season_01_description"
   UiInteractOption: EnterTrialSeason01
   RequirementText: "@Trial_Season_01_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/arena_flamekeeper.dds
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.dds
-  BackgroundImagePath: LyShineUI/Images/EntranceScreen/Hatchery/EntranceScreenBG_Hatchery.dds
+  IconPath: LyShineUI/Images/Map/Icon/POIs/arena_flamekeeper.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
+  BackgroundImagePath: LyShineUI/Images/EntranceScreen/Hatchery/EntranceScreenBG_Hatchery.png
   CoatlicueName: "coatlicue\\NW_Trial_Season_02"
   WorldBounds: 921.0,916.0,256.0,256.0
   TeamTeleportData: 1056.0,959.0,105.5,0
@@ -2182,7 +2359,8 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
-  RequiredLevel: 60.0
+  RecommendedLevel: 60.0
+  RequiredLevel: null
   QueueLevelBuckets: ""
   QueueReadyThreshold: 8.0
   BackfillReadyThreshold: 9.0
@@ -2195,6 +2373,8 @@
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 6.0
   PreserveOldGroup: null
   IsDungeon: true
@@ -2210,8 +2390,8 @@
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: null
-  ContainerGS: null
-  MutContainerGSOverride: null
+  LootGSRangeOverride: ""
+  MutLootGSRangeOverride: ""
   VictoryDelaySec: 9.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -2230,11 +2410,134 @@
   AIPreventEnemyTraining: false
   UseTeamNamePlate: false
   ItemDropQuantityOnDeathModifier: 1.0
-  QuitButtonTextId: "\"@ui_solo_arena_leave\""
-  CannotFastTravelTextId: "\"@ui_cannot_travel_solo_arena\""
-  LeaveDescTextId: "\"@ui_solo_arena_leave_desc\""
-  LeaveTimeDescTextId: "\"@ui_solo_arena_leave_desc_time\""
-  LeaveTitleTextId: "\"@ui_solo_arena_leave_title\""
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  OverrideDungeonTimeout: null
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: true
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: Trial_S2_BonusBox
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: JourneyS2C3T6,JourneyS2C4T2,JourneyS2ChallengeT2
+  TrialIconPath: LyShineUI/Images/EntranceScreen/Hatchery/EntranceScreenIcon_Hatchery.png
+  Tip01IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective1.png
+  Tip01Text: "@Trial_Season_01_Objective_1"
+  Tip02IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective2.png
+  Tip02Text: "@Trial_Season_01_Objective_2"
+  Tip03IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective3.png
+  Tip03Text: "@Trial_Season_01_Objective_3"
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: DarkMatter,HeavyChest_Trial_S2_NamedT5,HeavyHead_Trial_S2_NamedT5,HeavyLegs_Trial_S2_NamedT5,HeavyFeet_Trial_S2_NamedT5,HeavyHands_Trial_S2_NamedT5,MediumChest_Trial_S2_RimaT5,MediumHead_Trial_S2_RimaT5,MediumLegs_Trial_S2_RimaT5,MediumFeet_Trial_S2_RimaT5,MediumHands_Trial_S2_RimaT5,LightChest_Trial_S2_SharifT5,LightHead_Trial_S2_SharifT5,LightLegs_Trial_S2_SharifT5,LightFeet_Trial_S2_SharifT5,LightHands_Trial_S2_SharifT5,House_HousingItem_Season2_SandwormEgg_Variant5,GoldenScarab,WritofAdventure,GlyphStone_Night,GlyphStone_Water,GlyphStone_Gift,GlyphStone_Mountain,GlyphStone_River,GlyphStone_Shadow,GlyphStone_Chaos,GlyphStone_Sun,GlyphStone_Sealed,GlyphStone_Destruction,GlyphStone_Strength,GlyphStone_Food,GlyphStone_Above
+  UniqueRewardIds: ItemDisplay_2hBow_Trial_S2_T5,ItemDisplay_2hGreatAxe_Trial_S2_T5,ItemDisplay_1hSword_Trial_S2_T5,ItemDisplay_2hMusket_Trial_S2_T5,ItemDisplay_1hRapier_Trial_S2_T5,ItemDisplay_2hSpear_Trial_S2_T5,ItemDisplay_1hHatchet_Trial_S2_T5,ItemDisplay_2hWarhammer_Trial_S2_T5,ItemDisplay_2hFireStaff_Trial_S2_T5,ItemDisplay_2hLifeStaff_Trial_S2_T5,ItemDisplay_1hGauntletIce_Trial_S2_T5,ItemDisplay_1hGauntletVoid_Trial_S2_T5,ItemDisplay_2hBlunderbuss_Trial_S2_T5,ItemDisplay_2hGreatsword_Trial_S2_T5,ItemDisplay_1hRoundShield_Trial_S2_T5,ItemDisplay_1hKiteShield_Trial_S2_T5,ItemDisplay_1hTowerShield_Trial_S2_T5,ItemDisplay_LightChest_Trial_S2_T5,ItemDisplay_LightHead_Trial_S2_T5,ItemDisplay_LightLegs_Trial_S2_T5,ItemDisplay_LightFeet_Trial_S2_T5,ItemDisplay_LightHands_Trial_S2_T5,ItemDisplay_MediumChest_Trial_S2_T5,ItemDisplay_MediumHead_Trial_S2_T5,ItemDisplay_MediumLegs_Trial_S2_T5,ItemDisplay_MediumFeet_Trial_S2_T5,ItemDisplay_MediumHands_Trial_S2_T5,ItemDisplay_HeavyChest_Trial_S2_T5,ItemDisplay_HeavyHead_Trial_S2_T5,ItemDisplay_HeavyLegs_Trial_S2_T5,ItemDisplay_HeavyFeet_Trial_S2_T5,ItemDisplay_HeavyHands_Trial_S2_T5
+  BasicRewardIds: SmolderingSandT1,PotionHealthT5,PotionManaT5,PotionRegenT4
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: 600.0
+  GearScoreRecommendedValueMax: 625.0
+- GameModeId: QuestCaerDun
+  ScriptName: QuestCaerDun
+  SlicePath: Dungeon/CaerDunBrightwood/CaerDunScript
+  RequiresTeamRaids: "0"
+  AdvanceThroughStatesOnUpdate: "1"
+  DisplayName: "@Quest_CaerDun_title"
+  Description: "@Quest_CaerDun_description"
+  UiInteractOption: EnterQuestCaerDun
+  RequirementText: "@Quest_CaerDun_required_equipment"
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
+  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestCaerDun.png"
+  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
+  WorldBounds: 9074.68,6534.42,64.0,64.0
+  TeamTeleportData: 9109,6554,316,90
+  FeatureFlag: quest-caerdun
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 35.0
+  RequiredLevel: null
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  NumTeams: null
+  TeamCapacity: null
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: Darkness_AzothStaff_T2,QuestReward_MSQ2_2hFishingPole_Yonas
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 0.0
+  PreserveOldGroup: null
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: true
+  IsMutable: null
+  IsRemoteEntryAllowed: null
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  MapId: ""
+  LootTags: ""
+  MutLootTagsOverride: ""
+  ContainerLevel: null
+  LootGSRangeOverride: ""
+  MutLootGSRangeOverride: ""
+  VictoryDelaySec: 4.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedCpuUsePercent: 0.375
+  ProjectedMemoryUseMb: 256.0
+  ProjectedDurationMinutes: 10.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
   WarBoardStatDefinitions: ""
   WarBoardAttackerTeamIdx: null
   WarBoardDefenderTeamIdx: null
@@ -2259,41 +2562,41 @@
   LeaveQueueDescriptionTextId: ""
   FailGroupPenaltyTextId: ""
   RespawnTypeToUseForUnstuck: ""
-  LootLimitId: Trial_S2_BonusBox
+  LootLimitId: ""
   DailyLootLimitId: ""
   WeeklyLootLimitId: ""
-  PossibleJourneyIds: JourneyS2C3T6,JourneyS2C4T2,JourneyS2ChallengeT2
-  TrialIconPath: LyShineUI/Images/EntranceScreen/Hatchery/EntranceScreenIcon_Hatchery.dds
-  Tip01IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective1.dds
-  Tip01Text: "@Trial_Season_01_Objective_1"
-  Tip02IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective2.dds
-  Tip02Text: "@Trial_Season_01_Objective_2"
-  Tip03IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective3.dds
-  Tip03Text: "@Trial_Season_01_Objective_3"
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
   HidePoiName: null
   HideCompass: null
-  ExclusiveRewardIds: UmbralShardT1,HeavyChest_Trial_S2_NamedT5,HeavyHead_Trial_S2_NamedT5,HeavyLegs_Trial_S2_NamedT5,HeavyFeet_Trial_S2_NamedT5,HeavyHands_Trial_S2_NamedT5,MediumChest_Trial_S2_RimaT5,MediumHead_Trial_S2_RimaT5,MediumLegs_Trial_S2_RimaT5,MediumFeet_Trial_S2_RimaT5,MediumHands_Trial_S2_RimaT5,LightChest_Trial_S2_SharifT5,LightHead_Trial_S2_SharifT5,LightLegs_Trial_S2_SharifT5,LightFeet_Trial_S2_SharifT5,LightHands_Trial_S2_SharifT5,House_HousingItem_Season2_SandwormEgg_Variant5,WritofAdventure,GlyphStone_Night,GlyphStone_Water,GlyphStone_Gift,GlyphStone_Mountain,GlyphStone_River,GlyphStone_Shadow,GlyphStone_Chaos,GlyphStone_Sun,GlyphStone_Sealed,GlyphStone_Destruction,GlyphStone_Strength,GlyphStone_Food,GlyphStone_Above
-  UniqueRewardIds: GlassTalismanT1,LightChest_Trial_S2_T5,LightHead_Trial_S2_T5,LightLegs_Trial_S2_T5,LightFeet_Trial_S2_T5,LightHands_Trial_S2_T5,MediumChest_Trial_S2_T5,MediumHead_Trial_S2_T5,MediumLegs_Trial_S2_T5,MediumFeet_Trial_S2_T5,MediumHands_Trial_S2_T5,HeavyChest_Trial_S2_T5,HeavyHead_Trial_S2_T5,HeavyLegs_Trial_S2_T5,HeavyFeet_Trial_S2_T5,HeavyHands_Trial_S2_T5,2hBow_Trial_S2_T5,2hGreatAxe_Trial_S2_T5,1hSword_Trial_S2_T5,2hMusket_Trial_S2_T5,1hRapier_Trial_S2_T5,2hSpear_Trial_S2_T5,1hHatchet_Trial_S2_T5,2hWarhammer_Trial_S2_T5,2hFireStaff_Trial_S2_T5,2hLifeStaff_Trial_S2_T5,1hGauntletIce_Trial_S2_T5,1hGauntletVoid_Trial_S2_T5,2hBlunderbuss_Trial_S2_T5,2hGreatsword_Trial_S2_T5,1hRoundShield_Trial_S2_T5,1hKiteShield_Trial_S2_T5,1hTowerShield_Trial_S2_T5
-  BasicRewardIds: SmolderingSandT1,PotionHealthT5,PotionManaT5,PotionRegenT4
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
   ReplicateParticipantCharacterIds: true
-  GearScoreRecommendedValueMin: 600.0
-  GearScoreRecommendedValueMax: 625.0
-- GameModeId: QuestCaerDun
-  ScriptName: QuestCaerDun
-  SlicePath: Dungeon/CaerDunBrightwood/CaerDunScript
-  RequiresTeamRaids: "0"
-  AdvanceThroughStatesOnUpdate: "1"
-  DisplayName: "@Quest_CaerDun_title"
-  Description: "@Quest_CaerDun_description"
-  UiInteractOption: EnterQuestCaerDun
-  RequirementText: "@Quest_CaerDun_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.dds
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.dds
-  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestCaerDun.dds"
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+- GameModeId: QuestMedusa
+  ScriptName: QuestMedusa
+  SlicePath: Dungeon/MedusaFirstLight/MedusaScript
+  RequiresTeamRaids: "FALSE"
+  AdvanceThroughStatesOnUpdate: "TRUE"
+  DisplayName: "@Quest_Medusa_title"
+  Description: "@Quest_Medusa_description"
+  UiInteractOption: EnterQuestMedusa
+  RequirementText: "@Quest_Medusa_required_equipment"
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
+  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestMedusa.png"
   CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
-  WorldBounds: 9074.68,6534.42,64.0,64.0
-  TeamTeleportData: 9109,6554,316,90
-  FeatureFlag: quest-caerdun
+  WorldBounds: 8601.0,1193.0,64.0,256.0
+  TeamTeleportData: 8654.499023,1399.289917,203.916153,51.72
+  FeatureFlag: quest-medusa
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
@@ -2302,7 +2605,8 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
-  RequiredLevel: 35.0
+  RecommendedLevel: 62.0
+  RequiredLevel: null
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -2314,7 +2618,9 @@
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
-  PossibleItemDropIds: Darkness_AzothStaff_T2,QuestReward_MSQ2_2hFishingPole_Yonas
+  PossibleItemDropIds: 09A_M12_2hStaffFire_T5
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 0.0
   PreserveOldGroup: null
   IsDungeon: true
@@ -2327,16 +2633,16 @@
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: ""
-  LootTags: ""
+  LootTags: FirstLight
   MutLootTagsOverride: ""
-  ContainerLevel: null
-  ContainerGS: null
-  MutContainerGSOverride: null
+  ContainerLevel: 60.0
+  LootGSRangeOverride: ""
+  MutLootGSRangeOverride: ""
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.375
+  ProjectedCpuUsePercent: 0.563
   ProjectedMemoryUseMb: 256.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
@@ -2350,11 +2656,11 @@
   AIPreventEnemyTraining: false
   UseTeamNamePlate: false
   ItemDropQuantityOnDeathModifier: 1.0
-  QuitButtonTextId: "\"@ui_solo_arena_leave\""
-  CannotFastTravelTextId: "\"@ui_cannot_travel_solo_arena\""
-  LeaveDescTextId: "\"@ui_solo_arena_leave_desc\""
-  LeaveTimeDescTextId: "\"@ui_solo_arena_leave_desc_time\""
-  LeaveTitleTextId: "\"@ui_solo_arena_leave_title\""
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
   WarBoardStatDefinitions: ""
   WarBoardAttackerTeamIdx: null
   WarBoardDefenderTeamIdx: null
@@ -2407,9 +2713,9 @@
   Description: "@trial_season_02_q13_description"
   UiInteractOption: EnterTrialSeason02Q13
   RequirementText: ""
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.dds
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.dds
-  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_TrialSeason02Q13.dds"
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
+  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_TrialSeason02Q13.png"
   CoatlicueName: "coatlicue\\NW_Trial_Season_02_Q13"
   WorldBounds: 877.0,935.0,256.0,256.0
   TeamTeleportData: 973.0,1085.0,142.0,180
@@ -2422,7 +2728,8 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
-  RequiredLevel: 60.0
+  RecommendedLevel: 60.0
+  RequiredLevel: null
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -2435,6 +2742,8 @@
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: s02_Quest_2hGreatsword
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 0.0
   PreserveOldGroup: null
   IsDungeon: true
@@ -2450,8 +2759,8 @@
   LootTags: Corrupted
   MutLootTagsOverride: ""
   ContainerLevel: 67.0
-  ContainerGS: 600.0
-  MutContainerGSOverride: null
+  LootGSRangeOverride: "600"
+  MutLootGSRangeOverride: ""
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -2470,11 +2779,11 @@
   AIPreventEnemyTraining: false
   UseTeamNamePlate: false
   ItemDropQuantityOnDeathModifier: 1.0
-  QuitButtonTextId: "\"@ui_solo_arena_leave\""
-  CannotFastTravelTextId: "\"@ui_cannot_travel_solo_arena\""
-  LeaveDescTextId: "\"@ui_solo_arena_leave_desc\""
-  LeaveTimeDescTextId: "\"@ui_solo_arena_leave_desc_time\""
-  LeaveTitleTextId: "\"@ui_solo_arena_leave_title\""
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
   WarBoardStatDefinitions: ""
   WarBoardAttackerTeamIdx: null
   WarBoardDefenderTeamIdx: null
@@ -2490,7 +2799,7 @@
   GrantConsumables: ""
   OverrideDungeonTimeout: 2700.0
   SpecialQueueGroupSizes: null
-  ResetChargeOnEnter: null
+  ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
   ScreenHeaderTextId: ""
   JoinButtonTextId: ""
@@ -2527,9 +2836,9 @@
   Description: "@trial_season_02_q12_description"
   UiInteractOption: EnterTrialSeason02Q12
   RequirementText: ""
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.dds
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.dds
-  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_TrialSeason02Q12.dds"
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
+  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_TrialSeason02Q12.png"
   CoatlicueName: "coatlicue\\NW_Trial_Season_02"
   WorldBounds: 921.0,916.0,256.0,256.0
   TeamTeleportData: 1056.269,987.204,98.031,0
@@ -2542,7 +2851,8 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
-  RequiredLevel: 60.0
+  RecommendedLevel: 60.0
+  RequiredLevel: null
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -2555,6 +2865,8 @@
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: s02_Quest_MediumChest
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 0.0
   PreserveOldGroup: null
   IsDungeon: true
@@ -2570,8 +2882,8 @@
   LootTags: Corrupted
   MutLootTagsOverride: ""
   ContainerLevel: 67.0
-  ContainerGS: 600.0
-  MutContainerGSOverride: null
+  LootGSRangeOverride: "600"
+  MutLootGSRangeOverride: ""
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
@@ -2590,11 +2902,11 @@
   AIPreventEnemyTraining: false
   UseTeamNamePlate: false
   ItemDropQuantityOnDeathModifier: 1.0
-  QuitButtonTextId: "\"@ui_solo_arena_leave\""
-  CannotFastTravelTextId: "\"@ui_cannot_travel_solo_arena\""
-  LeaveDescTextId: "\"@ui_solo_arena_leave_desc\""
-  LeaveTimeDescTextId: "\"@ui_solo_arena_leave_desc_time\""
-  LeaveTitleTextId: "\"@ui_solo_arena_leave_title\""
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
   WarBoardStatDefinitions: ""
   WarBoardAttackerTeamIdx: null
   WarBoardDefenderTeamIdx: null
@@ -2609,6 +2921,621 @@
   AutoEquipQuickslot: null
   GrantConsumables: ""
   OverrideDungeonTimeout: 2700.0
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: true
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+- GameModeId: QuestMammoth
+  ScriptName: QuestMammoth
+  SlicePath: Dungeon/MammothFirstLight/MammothScript
+  RequiresTeamRaids: "FALSE"
+  AdvanceThroughStatesOnUpdate: "TRUE"
+  DisplayName: "@Quest_Mammoth_title"
+  Description: "@trial_mammoth_description"
+  UiInteractOption: EnterQuestMammoth
+  RequirementText: "@Quest_Mammoth_required_equipment"
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
+  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestMammoth.png"
+  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
+  WorldBounds: 9461.7,1919.0,128.0,128.0
+  TeamTeleportData: 9471.6,1960.6,65.4,301.4
+  FeatureFlag: quest-mammoth
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 60.0
+  RequiredLevel: null
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  NumTeams: null
+  TeamCapacity: null
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: GypsumOrb,09A_M13_ChestT5
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 0.0
+  PreserveOldGroup: null
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: true
+  IsMutable: null
+  IsRemoteEntryAllowed: null
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  MapId: ""
+  LootTags: FirstLight
+  MutLootTagsOverride: ""
+  ContainerLevel: 60.0
+  LootGSRangeOverride: ""
+  MutLootGSRangeOverride: ""
+  VictoryDelaySec: 4.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedCpuUsePercent: 0.375
+  ProjectedMemoryUseMb: 256.0
+  ProjectedDurationMinutes: 10.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  OverrideDungeonTimeout: null
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+- GameModeId: QuestAdiana
+  ScriptName: QuestAdiana
+  SlicePath: Dungeon/AdianaFirstLight/AdianaScript
+  RequiresTeamRaids: "FALSE"
+  AdvanceThroughStatesOnUpdate: "TRUE"
+  DisplayName: "@Quest_Adiana_title"
+  Description: "@Quest_Adiana_description"
+  UiInteractOption: EnterQuestAdiana
+  RequirementText: "@Quest_Adiana_required_equipment"
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
+  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestAdiana.png"
+  CoatlicueName: "coatlicue\\NW_ORI_FL_QuestAdiana"
+  WorldBounds: 600.0,700.0,256.0,256.0
+  TeamTeleportData: 730.0,788,417.0,0
+  FeatureFlag: quest-adiana
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 65.0
+  RequiredLevel: null
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  NumTeams: null
+  TeamCapacity: null
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: Artifact_Set1_MediumLegs,09A_M15_2hBow_T5
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 0.0
+  PreserveOldGroup: null
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: true
+  IsMutable: null
+  IsRemoteEntryAllowed: null
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  MapId: NW_ORI_FL_QuestAdiana
+  LootTags: FirstLight
+  MutLootTagsOverride: ""
+  ContainerLevel: 60.0
+  LootGSRangeOverride: ""
+  MutLootGSRangeOverride: ""
+  VictoryDelaySec: 4.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedCpuUsePercent: 0.75
+  ProjectedMemoryUseMb: 512.0
+  ProjectedDurationMinutes: 10.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  OverrideDungeonTimeout: null
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+- GameModeId: QuestMotherwell
+  ScriptName: QuestMotherwell
+  SlicePath: Dungeon/MotherwellEdengrove/MotherwellScript
+  RequiresTeamRaids: "FALSE"
+  AdvanceThroughStatesOnUpdate: "TRUE"
+  DisplayName: "@Quest_Motherwell_title"
+  Description: "@Quest_Motherwell_description"
+  UiInteractOption: EnterQuestMotherwell
+  RequirementText: "@Quest_Motherwell_required_equipment"
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
+  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestMotherwell.png"
+  CoatlicueName: "coatlicue\\NW_ORI_EG_QuestMotherwell"
+  WorldBounds: 928.0,672.0,320.0,320.0
+  TeamTeleportData: 1149.9,925.3,114.1,122.7
+  FeatureFlag: quest-motherwell
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 57.0
+  RequiredLevel: null
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  NumTeams: null
+  TeamCapacity: null
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: Darkness_AzothStaff_T4
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 0.0
+  PreserveOldGroup: null
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: true
+  IsMutable: null
+  IsRemoteEntryAllowed: null
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  MapId: NW_ORI_EG_QuestMotherwell
+  LootTags: ""
+  MutLootTagsOverride: ""
+  ContainerLevel: null
+  LootGSRangeOverride: ""
+  MutLootGSRangeOverride: ""
+  VictoryDelaySec: null
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedCpuUsePercent: 0.375
+  ProjectedMemoryUseMb: 256.0
+  ProjectedDurationMinutes: 10.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  OverrideDungeonTimeout: null
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+- GameModeId: QuestYonas
+  ScriptName: QuestYonas
+  SlicePath: Dungeon/YonasCave/YonasScript
+  RequiresTeamRaids: "FALSE"
+  AdvanceThroughStatesOnUpdate: "TRUE"
+  DisplayName: "@Quest_Yonas_title"
+  Description: "@Quest_Yonas_description"
+  UiInteractOption: EnterQuestYonas
+  RequirementText: "@Quest_Yonas_required_equipment"
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
+  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestYonas.png"
+  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
+  WorldBounds: 8766.0,6596.0,96.0,96.0
+  TeamTeleportData: 8784.0,6608.0,314.1,0.0
+  FeatureFlag: quest-yonas
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 57.0
+  RequiredLevel: null
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  NumTeams: null
+  TeamCapacity: null
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: QuestReward_MSQ2EG_LegendsHatchet
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 0.0
+  PreserveOldGroup: null
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: true
+  IsMutable: null
+  IsRemoteEntryAllowed: null
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  MapId: ""
+  LootTags: ""
+  MutLootTagsOverride: ""
+  ContainerLevel: null
+  LootGSRangeOverride: ""
+  MutLootGSRangeOverride: ""
+  VictoryDelaySec: 4.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedCpuUsePercent: 0.375
+  ProjectedMemoryUseMb: 256.0
+  ProjectedDurationMinutes: 10.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  OverrideDungeonTimeout: null
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+- GameModeId: QuestNihilo
+  ScriptName: QuestNihilo
+  SlicePath: Dungeon/NihiloGreatCleave/LeviathanScript
+  RequiresTeamRaids: "FALSE"
+  AdvanceThroughStatesOnUpdate: "TRUE"
+  DisplayName: "@Quest_Nihilo_title"
+  Description: "@Quest_Nihilo_description"
+  UiInteractOption: EnterQuestNihilo
+  RequirementText: "@Quest_Nihilo_required_equipment"
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
+  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestNihilo.png"
+  CoatlicueName: "coatlicue\\NW_ORI_GC_QuestNihilo"
+  WorldBounds: 777.0,534.0,640.0,640.0
+  TeamTeleportData: 1033.0,707.0,169.5,90.0
+  FeatureFlag: quest-nihilo
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 50.0
+  RequiredLevel: null
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  NumTeams: null
+  TeamCapacity: null
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: QuestReward_MSQ2GC_MediumChest_SecretFire
+  ItemDropLevelThreshold01: ""
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 0.0
+  PreserveOldGroup: null
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: true
+  IsMutable: null
+  IsRemoteEntryAllowed: null
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  MapId: NW_ORI_GC_QuestNihilo
+  LootTags: ""
+  MutLootTagsOverride: ""
+  ContainerLevel: null
+  LootGSRangeOverride: ""
+  MutLootGSRangeOverride: ""
+  VictoryDelaySec: 4.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedCpuUsePercent: 0.375
+  ProjectedMemoryUseMb: 256.0
+  ProjectedDurationMinutes: 10.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null

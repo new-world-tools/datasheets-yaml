@@ -4,6 +4,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Standard
   Affliction: ""
@@ -76,6 +77,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Standard
   Affliction: ""
@@ -148,6 +150,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Standard
   Affliction: ""
@@ -220,6 +223,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Standard
   Affliction: ""
@@ -292,6 +296,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: ""
   DamageType: Standard
   Affliction: ""
@@ -364,6 +369,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Thrust
   Affliction: ""
@@ -436,6 +442,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Thrust
   Affliction: ""
@@ -508,6 +515,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Strike
   Affliction: ""
@@ -580,6 +588,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Strike
   Affliction: ""
@@ -652,6 +661,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Strike
   Affliction: ""
@@ -724,6 +734,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Strike
   Affliction: ""
@@ -796,6 +807,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Thrust
   Affliction: ""
@@ -868,6 +880,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Thrust
   Affliction: ""
@@ -940,6 +953,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Thrust
   Affliction: ""
@@ -1012,6 +1026,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Thrust
   Affliction: ""
@@ -1084,6 +1099,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -1156,6 +1172,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -1222,12 +1239,86 @@
   AttackBlockedRuneCharge: 0.889
   HitRuneCharge: 0.4445
   HitBlockedRuneCharge: 0.889
+- DamageID: 2H_Spear_Javelin_ArtifactSet1Close
+  WeaponCategory: Spear_Throw
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: true
+  IsAbility: true
+  IsEmote: null
+  AttackType: Ability
+  DamageType: Thrust
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 1.0
+  DmgCoefHead: 1.3
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 4.0
+  BlockPowerLevel: 3.0
+  CritPowerLevel: 4.0
+  HitStun: 45.0
+  BlockHitStun: 35.0
+  CritHitStun: 45.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: -5.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: -5.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 1.25
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Small
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritCameraShakeID: Large_short
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 3.0
+  BlockStaminaDmgMod: 1.25
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 1.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 1.778
+  AttackBlockedRuneCharge: 0.889
+  HitRuneCharge: 0.4445
+  HitBlockedRuneCharge: 0.889
 - DamageID: 2H_Spear_Skewer_Stab
   WeaponCategory: Spear
   IgnoreInvulnerable: 0.0
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -1300,6 +1391,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -1372,6 +1464,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -1444,6 +1537,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -1516,6 +1610,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Heavy
   DamageType: Thrust
   Affliction: ""
@@ -1588,6 +1683,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -1660,6 +1756,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -1732,6 +1829,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -1804,6 +1902,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Thrust
   Affliction: ""
@@ -1876,6 +1975,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Thrust
   Affliction: ""
@@ -1948,6 +2048,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Thrust
   Affliction: ""
@@ -2020,6 +2121,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Strike
   Affliction: ""
@@ -2092,6 +2194,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -2164,6 +2267,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -2236,6 +2340,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -2252,7 +2357,7 @@
   NoBackstab: null
   NoLegShots: null
   CancelTargetHoming: null
-  DmgCoef: 1.5
+  DmgCoef: 1.6
   DmgCoefHead: 1.3
   DmgCoefCrit: null
   DurabilityCostOverride: null
@@ -2308,6 +2413,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -2380,6 +2486,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -2452,6 +2559,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Strike
   Affliction: ""
@@ -2524,6 +2632,7 @@
   NoReaction: 1.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -2596,6 +2705,7 @@
   NoReaction: 1.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -2605,14 +2715,14 @@
   EffectOnlyOnDamage: ""
   SurfaceImpactEffect: Bullet
   DeflectDamageID: ""
-  CanCrit: null
+  CanCrit: false
   Unblockable: null
   AttackDealsNoDurability: null
   NoHeadshot: true
   NoBackstab: null
   NoLegShots: null
   CancelTargetHoming: null
-  DmgCoef: 0.0
+  DmgCoef: 0.25
   DmgCoefHead: 1.3
   DmgCoefCrit: null
   DurabilityCostOverride: null
@@ -2665,9 +2775,10 @@
 - DamageID: Musket_Trap_DMG
   WeaponCategory: Musket
   IgnoreInvulnerable: 0.0
-  NoReaction: 1.0
+  NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -2677,14 +2788,14 @@
   EffectOnlyOnDamage: ""
   SurfaceImpactEffect: Bullet
   DeflectDamageID: ""
-  CanCrit: null
+  CanCrit: false
   Unblockable: null
   AttackDealsNoDurability: null
   NoHeadshot: true
   NoBackstab: null
   NoLegShots: true
   CancelTargetHoming: null
-  DmgCoef: 0.0
+  DmgCoef: 0.25
   DmgCoefHead: 1.3
   DmgCoefCrit: null
   DurabilityCostOverride: null
@@ -2740,6 +2851,7 @@
   NoReaction: 1.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -2812,6 +2924,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -2884,6 +2997,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -2956,6 +3070,7 @@
   NoReaction: 1.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -3028,6 +3143,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Strike
   Affliction: ""
@@ -3100,6 +3216,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Thrust
   Affliction: ""
@@ -3172,6 +3289,7 @@
   NoReaction: null
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Thrust
   Affliction: ""
@@ -3244,6 +3362,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -3316,6 +3435,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -3388,6 +3508,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -3460,6 +3581,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -3532,6 +3654,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -3604,6 +3727,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -3676,6 +3800,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -3748,6 +3873,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -3820,6 +3946,7 @@
   NoReaction: 1.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -3892,6 +4019,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -3964,6 +4092,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -4036,6 +4165,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -4108,6 +4238,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -4180,6 +4311,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Slash
   Affliction: ""
@@ -4252,6 +4384,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Slash
   Affliction: ""
@@ -4324,6 +4457,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Thrust
   Affliction: ""
@@ -4396,6 +4530,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Thrust
   Affliction: ""
@@ -4468,6 +4603,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -4540,6 +4676,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -4612,6 +4749,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -4684,6 +4822,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Slash
   Affliction: ""
@@ -4756,6 +4895,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -4828,6 +4968,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -4900,6 +5041,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -4972,6 +5114,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -5044,6 +5187,7 @@
   NoReaction: 1.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -5116,6 +5260,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -5188,6 +5333,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -5260,6 +5406,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -5332,6 +5479,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -5404,6 +5552,7 @@
   NoReaction: 1.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -5470,12 +5619,1619 @@
   AttackBlockedRuneCharge: null
   HitRuneCharge: null
   HitBlockedRuneCharge: null
+- DamageID: 1H_Flail_LightAttack1
+  WeaponCategory: Flail
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: Light
+  DamageType: Strike
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 1.0
+  DmgCoefHead: 1.2
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 15.0
+  BlockHitStun: 10.0
+  CritHitStun: 20.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.5
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.0
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.5
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.4
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Small
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritCameraShakeID: Large_short
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 1.0
+  BlockStaminaDmgMod: 0.4
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 0.808
+  AttackBlockedRuneCharge: 0.404
+  HitRuneCharge: 0.202
+  HitBlockedRuneCharge: 0.404
+- DamageID: 1H_Flail_LightAttack2
+  WeaponCategory: Flail
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: Light
+  DamageType: Strike
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 1.0
+  DmgCoefHead: 1.2
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 15.0
+  BlockHitStun: 10.0
+  CritHitStun: 20.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.5
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.0
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.5
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.4
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Small
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritCameraShakeID: Large_short
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 1.0
+  BlockStaminaDmgMod: 0.4
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 0.808
+  AttackBlockedRuneCharge: 0.404
+  HitRuneCharge: 0.202
+  HitBlockedRuneCharge: 0.404
+- DamageID: 1H_Flail_HeavyAttackChain_1
+  WeaponCategory: Flail
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: Heavy
+  DamageType: Strike
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 1.5
+  DmgCoefHead: 1.2
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 25.0
+  BlockHitStun: 20.0
+  CritHitStun: 30.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 1.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 1.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 2.0
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Small
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritCameraShakeID: Large_short
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 3.0
+  BlockStaminaDmgMod: 2.0
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 1.344
+  AttackBlockedRuneCharge: 0.672
+  HitRuneCharge: 0.336
+  HitBlockedRuneCharge: 0.672
+- DamageID: 1H_Flail_HeavyAttackChain_2
+  WeaponCategory: Flail
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: Heavy
+  DamageType: Strike
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 1.5
+  DmgCoefHead: 1.2
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 25.0
+  BlockHitStun: 20.0
+  CritHitStun: 30.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 1.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 1.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 2.0
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Small
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritCameraShakeID: Large_short
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 3.0
+  BlockStaminaDmgMod: 2.0
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 1.344
+  AttackBlockedRuneCharge: 0.672
+  HitRuneCharge: 0.336
+  HitBlockedRuneCharge: 0.672
+- DamageID: 1H_Flail_Ultimate_AllyNearbyCheck
+  WeaponCategory: None
+  IgnoreInvulnerable: 1.0
+  NoReaction: 1.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: ""
+  DamageType: ""
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: ""
+  DeflectDamageID: ""
+  CanCrit: false
+  Unblockable: true
+  AttackDealsNoDurability: true
+  NoHeadshot: true
+  NoBackstab: true
+  NoLegShots: true
+  CancelTargetHoming: null
+  DmgCoef: 0.0
+  DmgCoefHead: 0.0
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 15.0
+  BlockHitStun: 10.0
+  CritHitStun: 20.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.0
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.0
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.0
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.0
+  StaggerResistModifier: 0.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: ""
+  TargetCameraShakeID: ""
+  BlockCameraShakeID: ""
+  BlockTargetCameraShakeID: ""
+  CritCameraShakeID: ""
+  CritTargetCameraShakeID: ""
+  ImpactRating: 0.0
+  BlockStaminaDmgMod: 0.0
+  BlockAbsorptionModifier: 0.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 0.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: null
+  AttackBlockedRuneCharge: null
+  HitRuneCharge: null
+  HitBlockedRuneCharge: null
+- DamageID: 1H_Flail_Ability_Slam
+  WeaponCategory: Flail_No_Environment
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: Ability
+  DamageType: Arcane
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 1.3
+  DmgCoefHead: 1.2
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 25.0
+  BlockHitStun: 20.0
+  CritHitStun: 30.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 1.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.5
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 1.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 1.0
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Small
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritCameraShakeID: Large_short
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 3.0
+  BlockStaminaDmgMod: 1.0
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: true
+  AttackRuneCharge: 0.563
+  AttackBlockedRuneCharge: 0.2815
+  HitRuneCharge: 0.14075
+  HitBlockedRuneCharge: 0.2815
+- DamageID: 1H_Flail_Ability_Slam_Stagger
+  WeaponCategory: Flail_No_Environment
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: Ability
+  DamageType: Arcane
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 0.9
+  DmgCoefHead: 1.2
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 3.0
+  BlockPowerLevel: 2.0
+  CritPowerLevel: 3.0
+  HitStun: 30.0
+  BlockHitStun: 25.0
+  CritHitStun: 30.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 1.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.85
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.5
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.9
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 1.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.0
+  AddDmg: 0.0
+  StaggerDmgModifier: 1.0
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Small
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritCameraShakeID: Large_short
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 3.0
+  BlockStaminaDmgMod: 0.8
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: true
+  AttackRuneCharge: 0.563
+  AttackBlockedRuneCharge: 0.2815
+  HitRuneCharge: 0.14075
+  HitBlockedRuneCharge: 0.2815
+- DamageID: 1H_Flail_Ability_Slam_DoT
+  WeaponCategory: Flail_No_Environment
+  IgnoreInvulnerable: 0.0
+  NoReaction: 1.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: Ability
+  DamageType: Arcane
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: false
+  Unblockable: true
+  AttackDealsNoDurability: true
+  NoHeadshot: true
+  NoBackstab: true
+  NoLegShots: true
+  CancelTargetHoming: null
+  DmgCoef: 0.0
+  DmgCoefHead: 1.2
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 25.0
+  BlockHitStun: 20.0
+  CritHitStun: 30.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.0
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.0
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.0
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.0
+  StaggerResistModifier: 0.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: ""
+  TargetCameraShakeID: ""
+  BlockCameraShakeID: ""
+  BlockTargetCameraShakeID: ""
+  CritCameraShakeID: ""
+  CritTargetCameraShakeID: ""
+  ImpactRating: 3.0
+  BlockStaminaDmgMod: 0.0
+  BlockAbsorptionModifier: 0.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 0.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 1.344
+  AttackBlockedRuneCharge: 0.672
+  HitRuneCharge: 0.336
+  HitBlockedRuneCharge: 0.672
+- DamageID: 1H_Flail_Ability_Blast
+  WeaponCategory: Flail
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: Ability
+  DamageType: Arcane
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 0.75
+  DmgCoefHead: 1.2
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 25.0
+  BlockHitStun: 20.0
+  CritHitStun: 30.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.5
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Small
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritCameraShakeID: Large_short
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 2.0
+  BlockStaminaDmgMod: 0.5
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 0.312
+  AttackBlockedRuneCharge: 0.156
+  HitRuneCharge: 0.078
+  HitBlockedRuneCharge: 0.156
+- DamageID: 1H_Flail_Ability_Blast_Ally
+  WeaponCategory: None
+  IgnoreInvulnerable: 1.0
+  NoReaction: 1.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: ""
+  DamageType: ""
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: ""
+  DeflectDamageID: ""
+  CanCrit: false
+  Unblockable: true
+  AttackDealsNoDurability: true
+  NoHeadshot: true
+  NoBackstab: true
+  NoLegShots: true
+  CancelTargetHoming: null
+  DmgCoef: 0.0
+  DmgCoefHead: 0.0
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 15.0
+  BlockHitStun: 10.0
+  CritHitStun: 20.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.0
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.0
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.0
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.0
+  StaggerResistModifier: 0.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: ""
+  TargetCameraShakeID: ""
+  BlockCameraShakeID: ""
+  BlockTargetCameraShakeID: ""
+  CritCameraShakeID: ""
+  CritTargetCameraShakeID: ""
+  ImpactRating: 0.0
+  BlockStaminaDmgMod: 0.0
+  BlockAbsorptionModifier: 0.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 0.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: null
+  AttackBlockedRuneCharge: null
+  HitRuneCharge: null
+  HitBlockedRuneCharge: null
+- DamageID: 1H_Flail_Ability_Burst
+  WeaponCategory: Flail_No_Environment
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: Ability
+  DamageType: Arcane
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: Status_Flail_HexDoT,Status_Flail_HexDoT
+  EffectOnlyOnDamage: "TRUE"
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 1.2
+  DmgCoefHead: 1.2
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 25.0
+  BlockHitStun: 20.0
+  CritHitStun: 30.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.1
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.1
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.1
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.5
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: ""
+  TargetCameraShakeID: ""
+  BlockCameraShakeID: ""
+  BlockTargetCameraShakeID: ""
+  CritCameraShakeID: ""
+  CritTargetCameraShakeID: ""
+  ImpactRating: 2.0
+  BlockStaminaDmgMod: 1.25
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 0.866
+  AttackBlockedRuneCharge: 0.433
+  HitRuneCharge: 0.2165
+  HitBlockedRuneCharge: 0.433
+- DamageID: 1H_Flail_Ability_Burst_FollowUp
+  WeaponCategory: Flail
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: Ability
+  DamageType: Strike
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 1.5
+  DmgCoefHead: 1.2
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 25.0
+  BlockHitStun: 20.0
+  CritHitStun: 30.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.5
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.5
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.5
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 1.0
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Small
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritCameraShakeID: Large_short
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 2.0
+  BlockStaminaDmgMod: 0.5
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 0.996
+  AttackBlockedRuneCharge: 0.498
+  HitRuneCharge: 0.249
+  HitBlockedRuneCharge: 0.498
+- DamageID: 1H_Flail_Ability_Charge
+  WeaponCategory: Flail
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: Ability
+  DamageType: Strike
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 0.8
+  DmgCoefHead: 1.2
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 3.0
+  BlockPowerLevel: 3.0
+  CritPowerLevel: 3.0
+  HitStun: 30.0
+  BlockHitStun: 25.0
+  CritHitStun: 30.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 1.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 1.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 1.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 1.25
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Small
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritCameraShakeID: Large_short
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 3.0
+  BlockStaminaDmgMod: 0.8
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: true
+  TauntDuration: 6.0
+  TauntThreatBoostPercentage: 0.15
+  TauntMinimumThreatValue: 1500.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 0.866
+  AttackBlockedRuneCharge: 0.433
+  HitRuneCharge: 0.2165
+  HitBlockedRuneCharge: 0.433
+- DamageID: 1H_Flail_Ability_Charge_AOE
+  WeaponCategory: Flail
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: Ability
+  DamageType: Arcane
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 0.35
+  DmgCoefHead: 1.2
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 30.0
+  BlockHitStun: 25.0
+  CritHitStun: 30.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.5
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Small
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritCameraShakeID: Large_short
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 1.0
+  BlockStaminaDmgMod: 0.5
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: true
+  TauntDuration: 6.0
+  TauntThreatBoostPercentage: 0.15
+  TauntMinimumThreatValue: 1500.0
+  UseAttackerPosForReaction: true
+  AttackRuneCharge: 0.563
+  AttackBlockedRuneCharge: 0.2815
+  HitRuneCharge: 0.14075
+  HitBlockedRuneCharge: 0.2815
+- DamageID: 1H_Flail_Ability_Charge_PushNoDmg_Right
+  WeaponCategory: Flail
+  IgnoreInvulnerable: 0.0
+  NoReaction: 1.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: ""
+  DamageType: ""
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: false
+  Unblockable: true
+  AttackDealsNoDurability: true
+  NoHeadshot: true
+  NoBackstab: true
+  NoLegShots: true
+  CancelTargetHoming: null
+  DmgCoef: 0.0
+  DmgCoefHead: 1.2
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 10.0
+  BlockHitStun: 10.0
+  CritHitStun: 10.0
+  ImpactDistanceX: 2.0
+  ImpactDistanceY: 2.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.4
+  BlockImpactDistanceX: 2.0
+  BlockImpactDistanceY: 2.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.4
+  CritImpactDistanceX: 2.0
+  CritImpactDistanceY: 2.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.4
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.1
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Small
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritCameraShakeID: Small
+  CritTargetCameraShakeID: Small
+  ImpactRating: 1.0
+  BlockStaminaDmgMod: 0.1
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: true
+  TauntDuration: 6.0
+  TauntThreatBoostPercentage: 0.15
+  TauntMinimumThreatValue: 1500.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 0.312
+  AttackBlockedRuneCharge: 0.156
+  HitRuneCharge: 0.078
+  HitBlockedRuneCharge: 0.156
+- DamageID: 1H_Flail_Ability_Charge_PushNoDmg_Left
+  WeaponCategory: Flail
+  IgnoreInvulnerable: 0.0
+  NoReaction: 1.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: ""
+  DamageType: ""
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: false
+  Unblockable: true
+  AttackDealsNoDurability: true
+  NoHeadshot: true
+  NoBackstab: true
+  NoLegShots: true
+  CancelTargetHoming: null
+  DmgCoef: 0.0
+  DmgCoefHead: 1.2
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 10.0
+  BlockHitStun: 10.0
+  CritHitStun: 10.0
+  ImpactDistanceX: -2.0
+  ImpactDistanceY: 2.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.4
+  BlockImpactDistanceX: -2.0
+  BlockImpactDistanceY: 2.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.4
+  CritImpactDistanceX: -2.0
+  CritImpactDistanceY: 2.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.4
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.1
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Small
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritCameraShakeID: Small
+  CritTargetCameraShakeID: Small
+  ImpactRating: 1.0
+  BlockStaminaDmgMod: 0.1
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: true
+  TauntDuration: 6.0
+  TauntThreatBoostPercentage: 0.15
+  TauntMinimumThreatValue: 1500.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 0.312
+  AttackBlockedRuneCharge: 0.156
+  HitRuneCharge: 0.078
+  HitBlockedRuneCharge: 0.156
+- DamageID: 1H_Flail_Ability_Charge_FlippingAttack
+  WeaponCategory: Flail_No_Environment
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: Ability
+  DamageType: Strike
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 0.3
+  DmgCoefHead: 1.2
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 30.0
+  BlockHitStun: 25.0
+  CritHitStun: 30.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.5
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Small
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritCameraShakeID: Large_short
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 1.0
+  BlockStaminaDmgMod: 0.1
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: true
+  TauntDuration: 6.0
+  TauntThreatBoostPercentage: 0.15
+  TauntMinimumThreatValue: 1500.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 0.312
+  AttackBlockedRuneCharge: 0.156
+  HitRuneCharge: 0.078
+  HitBlockedRuneCharge: 0.156
+- DamageID: 1H_Flail_Ability_Trip
+  WeaponCategory: Flail
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: Ability
+  DamageType: Strike
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 0.5
+  DmgCoefHead: 1.2
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 4.0
+  BlockPowerLevel: 4.0
+  CritPowerLevel: 4.0
+  HitStun: 40.0
+  BlockHitStun: 30.0
+  CritHitStun: 40.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: -0.25
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: -0.25
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: -0.25
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.75
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Small
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritCameraShakeID: Large_short
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 2.0
+  BlockStaminaDmgMod: 0.5
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 0.866
+  AttackBlockedRuneCharge: 0.433
+  HitRuneCharge: 0.2165
+  HitBlockedRuneCharge: 0.433
+- DamageID: 1H_Flail_Ability_Trip_FollowUp
+  WeaponCategory: Flail
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: Heavy
+  DamageType: Strike
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 1.45
+  DmgCoefHead: 1.2
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 30.0
+  BlockHitStun: 30.0
+  CritHitStun: 30.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.75
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Small
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritCameraShakeID: Large_short
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 2.0
+  BlockStaminaDmgMod: 0.75
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 0.996
+  AttackBlockedRuneCharge: 0.498
+  HitRuneCharge: 0.249
+  HitBlockedRuneCharge: 0.498
+- DamageID: 1H_Flail_Ability_DefensiveStrike
+  WeaponCategory: Flail
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: Ability
+  DamageType: Strike
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 1.0
+  DmgCoefHead: 1.2
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 25.0
+  BlockHitStun: 20.0
+  CritHitStun: 30.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.5
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.5
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 1.0
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Small
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritCameraShakeID: Large_short
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 3.0
+  BlockStaminaDmgMod: 1.25
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 0.996
+  AttackBlockedRuneCharge: 0.498
+  HitRuneCharge: 0.249
+  HitBlockedRuneCharge: 0.498
+- DamageID: 1H_Flail_Ability_DefensiveStrike_Ally
+  WeaponCategory: None
+  IgnoreInvulnerable: 1.0
+  NoReaction: 1.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: ""
+  DamageType: ""
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: ""
+  DeflectDamageID: ""
+  CanCrit: false
+  Unblockable: true
+  AttackDealsNoDurability: true
+  NoHeadshot: true
+  NoBackstab: true
+  NoLegShots: true
+  CancelTargetHoming: null
+  DmgCoef: 0.0
+  DmgCoefHead: 0.0
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 15.0
+  BlockHitStun: 10.0
+  CritHitStun: 20.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.0
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.0
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.0
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.0
+  StaggerResistModifier: 0.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: ""
+  TargetCameraShakeID: ""
+  BlockCameraShakeID: ""
+  BlockTargetCameraShakeID: ""
+  CritCameraShakeID: ""
+  CritTargetCameraShakeID: ""
+  ImpactRating: 0.0
+  BlockStaminaDmgMod: 0.0
+  BlockAbsorptionModifier: 0.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 0.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: null
+  AttackBlockedRuneCharge: null
+  HitRuneCharge: null
+  HitBlockedRuneCharge: null
+- DamageID: 1H_Flail_Ability_DefensiveStrike_TAUNT
+  WeaponCategory: None
+  IgnoreInvulnerable: 1.0
+  NoReaction: 1.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: Ability
+  DamageType: Strike
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: ""
+  DeflectDamageID: ""
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: true
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 0.0
+  DmgCoefHead: 0.0
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 0.0
+  BlockHitStun: 0.0
+  CritHitStun: 0.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.0
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.0
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.0
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.0
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: ""
+  TargetCameraShakeID: ""
+  BlockCameraShakeID: ""
+  BlockTargetCameraShakeID: ""
+  CritCameraShakeID: ""
+  CritTargetCameraShakeID: ""
+  ImpactRating: 0.0
+  BlockStaminaDmgMod: 0.0
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: true
+  TauntDuration: 8.0
+  TauntThreatBoostPercentage: 0.15
+  TauntMinimumThreatValue: 1500.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: null
+  AttackBlockedRuneCharge: null
+  HitRuneCharge: null
+  HitBlockedRuneCharge: null
 - DamageID: 1H_Rapier_PrimaryAttack
   WeaponCategory: Sword
   IgnoreInvulnerable: 0.0
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Thrust
   Affliction: ""
@@ -5548,6 +7304,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Thrust
   Affliction: ""
@@ -5614,12 +7371,86 @@
   AttackBlockedRuneCharge: 0.3465
   HitRuneCharge: 0.17325
   HitBlockedRuneCharge: 0.3465
+- DamageID: 1H_Rapier_PrimaryAttack_Ender
+  WeaponCategory: Sword
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: Light
+  DamageType: Thrust
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: true
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 1.0
+  DmgCoefHead: 1.2
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 20.0
+  BlockHitStun: 15.0
+  CritHitStun: 20.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.6
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.0
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.6
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.4
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Small
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritCameraShakeID: Large_short
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 2.0
+  BlockStaminaDmgMod: 0.4
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 0.693
+  AttackBlockedRuneCharge: 0.3465
+  HitRuneCharge: 0.17325
+  HitBlockedRuneCharge: 0.3465
 - DamageID: 1H_Rapier_HeavyAttack
   WeaponCategory: Sword
   IgnoreInvulnerable: 0.0
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Thrust
   Affliction: ""
@@ -5692,6 +7523,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Thrust
   Affliction: ""
@@ -5764,6 +7596,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -5836,6 +7669,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -5908,6 +7742,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -5980,6 +7815,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -6052,6 +7888,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: AfflictionBleed
@@ -6124,6 +7961,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -6196,6 +8034,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -6268,6 +8107,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -6340,6 +8180,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -6412,6 +8253,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -6484,6 +8326,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -6556,6 +8399,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -6628,6 +8472,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -6700,6 +8545,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -6772,6 +8618,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -6844,6 +8691,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -6916,6 +8764,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -6988,6 +8837,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -7060,6 +8910,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -7132,6 +8983,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -7204,6 +9056,7 @@
   NoReaction: 1.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -7276,6 +9129,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -7348,6 +9202,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -7420,6 +9275,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -7492,6 +9348,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -7564,6 +9421,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Thrust
   Affliction: ""
@@ -7636,6 +9494,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Thrust
   Affliction: ""
@@ -7708,6 +9567,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Thrust
   Affliction: ""
@@ -7780,6 +9640,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Slash
   Affliction: ""
@@ -7852,6 +9713,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Slash
   Affliction: ""
@@ -7924,6 +9786,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -7996,6 +9859,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -8068,6 +9932,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Slash
   Affliction: ""
@@ -8140,6 +10005,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Slash
   Affliction: ""
@@ -8212,6 +10078,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -8284,6 +10151,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -8356,6 +10224,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Light
   DamageType: Slash
   Affliction: ""
@@ -8428,6 +10297,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -8500,6 +10370,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -8572,6 +10443,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -8644,6 +10516,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -8716,6 +10589,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -8788,6 +10662,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -8860,6 +10735,7 @@
   NoReaction: 1.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -8932,6 +10808,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Strike
   Affliction: ""
@@ -9004,6 +10881,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Strike
   Affliction: ""
@@ -9076,6 +10954,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Strike
   Affliction: ""
@@ -9148,6 +11027,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Thrust
   Affliction: ""
@@ -9220,6 +11100,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Strike
   Affliction: ""
@@ -9292,6 +11173,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -9364,6 +11246,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Strike
   Affliction: ""
@@ -9436,6 +11319,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: AfflictionFrostbite
@@ -9508,6 +11392,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Thrust
   Affliction: ""
@@ -9580,6 +11465,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Thrust
   Affliction: ""
@@ -9652,6 +11538,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Thrust
   Affliction: ""
@@ -9724,6 +11611,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Thrust
   Affliction: ""
@@ -9796,6 +11684,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Slash
   Affliction: ""
@@ -9868,6 +11757,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Slash
   Affliction: ""
@@ -9940,6 +11830,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Thrust
   Affliction: ""
@@ -10012,6 +11903,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Thrust
   Affliction: ""
@@ -10084,6 +11976,80 @@
   NoReaction: 1.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
+  AttackType: Light
+  DamageType: Strike
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 1.0
+  DmgCoefHead: 1.3
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 15.0
+  BlockHitStun: 10.0
+  CritHitStun: 15.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.0
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 10.0
+  StaggerDmgModifier: 0.0
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: ""
+  TargetCameraShakeID: ""
+  BlockCameraShakeID: ""
+  BlockTargetCameraShakeID: ""
+  CritCameraShakeID: ""
+  CritTargetCameraShakeID: ""
+  ImpactRating: 0.0
+  BlockStaminaDmgMod: 0.0
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: null
+  AttackBlockedRuneCharge: null
+  HitRuneCharge: null
+  HitBlockedRuneCharge: null
+- DamageID: Unarmed_Punch_Attack1_Emote
+  WeaponCategory: Unarmed
+  IgnoreInvulnerable: 0.0
+  NoReaction: 1.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: true
   AttackType: Light
   DamageType: Strike
   Affliction: ""
@@ -10156,6 +12122,7 @@
   NoReaction: 1.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Strike
   Affliction: ""
@@ -10228,6 +12195,7 @@
   NoReaction: 1.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Strike
   Affliction: ""
@@ -10300,6 +12268,7 @@
   NoReaction: 1.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Strike
   Affliction: ""
@@ -10372,6 +12341,7 @@
   NoReaction: 1.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Strike
   Affliction: ""
@@ -10444,6 +12414,7 @@
   NoReaction: 1.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Strike
   Affliction: ""
@@ -10516,6 +12487,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Thrust
   Affliction: ""
@@ -10588,6 +12560,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Thrust
   Affliction: ""
@@ -10660,6 +12633,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -10732,6 +12706,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -10804,6 +12779,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -10876,6 +12852,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -10948,6 +12925,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Thrust
   Affliction: ""
@@ -11020,6 +12998,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Strike
   Affliction: ""
@@ -11092,6 +13071,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -11164,6 +13144,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -11236,6 +13217,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Nature
   Affliction: ""
@@ -11308,6 +13290,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Strike
   Affliction: ""
@@ -11380,6 +13363,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -11452,6 +13436,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -11524,6 +13509,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -11596,6 +13582,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -11668,6 +13655,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -11740,6 +13728,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -11812,6 +13801,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -11884,6 +13874,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -11956,6 +13947,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -12028,6 +14020,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Standard
   Affliction: ""
@@ -12100,6 +14093,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Slash
   Affliction: ""
@@ -12172,6 +14166,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Slash
   Affliction: ""
@@ -12244,6 +14239,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Slash
   Affliction: ""
@@ -12316,6 +14312,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Slash
   Affliction: ""
@@ -12388,6 +14385,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Slash
   Affliction: ""
@@ -12460,6 +14458,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Slash
   Affliction: ""
@@ -12532,6 +14531,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -12604,6 +14604,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -12676,6 +14677,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -12748,6 +14750,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -12820,6 +14823,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -12892,6 +14896,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -12964,6 +14969,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -13036,6 +15042,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -13108,6 +15115,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -13180,6 +15188,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -13252,6 +15261,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -13324,6 +15334,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -13396,6 +15407,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -13468,6 +15480,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Thrust
   Affliction: ""
@@ -13540,6 +15553,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -13612,6 +15626,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -13684,6 +15699,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -13756,6 +15772,80 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
+  AttackType: Light
+  DamageType: Slash
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 1.0
+  DmgCoefHead: 1.3
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 15.0
+  BlockHitStun: 15.0
+  CritHitStun: 15.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.5
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.85
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.85
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.5
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.4
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: 10.0
+  CameraShakeID: ""
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: ""
+  BlockTargetCameraShakeID: Small
+  CritCameraShakeID: ""
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 3.0
+  BlockStaminaDmgMod: 0.4
+  BlockAbsorptionModifier: 1.2
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 1.105
+  AttackBlockedRuneCharge: 0.5525
+  HitRuneCharge: 0.27625
+  HitBlockedRuneCharge: 0.5525
+- DamageID: GreatAxe_PrimaryAttack_Ender
+  WeaponCategory: GreatAxe
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Slash
   Affliction: ""
@@ -13828,6 +15918,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Slash
   Affliction: ""
@@ -13900,6 +15991,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Slash
   Affliction: ""
@@ -13972,6 +16064,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Slash
   Affliction: ""
@@ -14044,6 +16137,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Slash
   Affliction: ""
@@ -14116,6 +16210,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Slash
   Affliction: ""
@@ -14188,6 +16283,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Slash
   Affliction: ""
@@ -14260,6 +16356,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Slash
   Affliction: ""
@@ -14332,6 +16429,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Slash
   Affliction: ""
@@ -14404,6 +16502,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -14476,6 +16575,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -14548,6 +16648,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -14620,6 +16721,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -14692,6 +16794,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -14764,6 +16867,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -14836,6 +16940,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -14908,6 +17013,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -14980,6 +17086,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -15052,6 +17159,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -15124,6 +17232,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -15196,6 +17305,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -15268,6 +17378,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -15340,6 +17451,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -15412,6 +17524,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -15484,6 +17597,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -15556,6 +17670,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -15628,6 +17743,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -15700,6 +17816,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -15772,6 +17889,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -15844,6 +17962,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -15916,6 +18035,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -15988,6 +18108,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -16060,6 +18181,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -16132,6 +18254,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -16204,6 +18327,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -16276,6 +18400,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -16348,6 +18473,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -16420,6 +18546,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -16492,6 +18619,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -16564,6 +18692,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -16636,6 +18765,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -16708,6 +18838,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -16780,6 +18911,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Slash
   Affliction: ""
@@ -16852,6 +18984,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Corruption
   Affliction: ""
@@ -16924,6 +19057,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Corruption
   Affliction: ""
@@ -16996,6 +19130,7 @@
   NoReaction: 1.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Corruption
   Affliction: ""
@@ -17068,6 +19203,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Corruption
   Affliction: ""
@@ -17140,6 +19276,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Corruption
   Affliction: ""
@@ -17212,6 +19349,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Slash
   Affliction: ""
@@ -17284,6 +19422,80 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
+  AttackType: Light
+  DamageType: Strike
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 1.0
+  DmgCoefHead: 1.3
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 15.0
+  BlockHitStun: 10.0
+  CritHitStun: 20.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.3
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.6
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.3
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.0
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.3
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.6
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.4
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Large_short
+  TargetCameraShakeID: Large_short
+  BlockCameraShakeID: Large_short
+  BlockTargetCameraShakeID: Large_short
+  CritCameraShakeID: Large_short
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 3.0
+  BlockStaminaDmgMod: 0.4
+  BlockAbsorptionModifier: 1.2
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 1.105
+  AttackBlockedRuneCharge: 0.5525
+  HitRuneCharge: 0.27625
+  HitBlockedRuneCharge: 0.5525
+- DamageID: Warhammer_PrimaryAttack_Ender
+  WeaponCategory: Warhammer
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Strike
   Affliction: ""
@@ -17356,6 +19568,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Strike
   Affliction: ""
@@ -17428,6 +19641,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Strike
   Affliction: ""
@@ -17500,6 +19714,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -17572,6 +19787,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -17644,6 +19860,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -17716,6 +19933,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Strike
   Affliction: ""
@@ -17788,6 +20006,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -17860,6 +20079,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -17932,6 +20152,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -18004,6 +20225,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -18076,6 +20298,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -18148,6 +20371,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -18220,6 +20444,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -18292,6 +20517,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -18364,6 +20590,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -18436,6 +20663,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -18508,6 +20736,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Strike
   Affliction: ""
@@ -18580,6 +20809,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -18652,6 +20882,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -18724,6 +20955,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -18796,6 +21028,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Strike
   Affliction: ""
@@ -18868,6 +21101,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Siege
   Affliction: ""
@@ -18940,6 +21174,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Siege
   Affliction: ""
@@ -19012,6 +21247,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Standard
   Affliction: ""
@@ -19084,6 +21320,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Standard
   Affliction: ""
@@ -19156,6 +21393,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Standard
   Affliction: ""
@@ -19228,6 +21466,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Standard
   Affliction: ""
@@ -19300,6 +21539,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Strike
   Affliction: ""
@@ -19372,6 +21612,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Fire
   Affliction: ""
@@ -19444,6 +21685,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Magic
   DamageType: Fire
   Affliction: ""
@@ -19516,6 +21758,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Magic
   DamageType: Fire
   Affliction: ""
@@ -19588,6 +21831,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Magic
   DamageType: Fire
   Affliction: ""
@@ -19660,6 +21904,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Magic
   DamageType: Fire
   Affliction: ""
@@ -19732,6 +21977,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Magic
   DamageType: Fire
   Affliction: ""
@@ -19804,6 +22050,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Magic
   DamageType: Fire
   Affliction: ""
@@ -19876,6 +22123,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Fire
   Affliction: ""
@@ -19948,6 +22196,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Fire
   Affliction: ""
@@ -20020,6 +22269,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Fire
   Affliction: ""
@@ -20092,6 +22342,7 @@
   NoReaction: 1.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Fire
   Affliction: ""
@@ -20164,6 +22415,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Magic
   DamageType: Fire
   Affliction: ""
@@ -20236,6 +22488,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Fire
   Affliction: ""
@@ -20308,6 +22561,7 @@
   NoReaction: 1.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -20380,6 +22634,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -20452,6 +22707,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -20524,6 +22780,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -20596,6 +22853,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -20668,6 +22926,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -20740,6 +22999,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -20812,6 +23072,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -20884,6 +23145,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -20956,6 +23218,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -21028,6 +23291,7 @@
   NoReaction: 1.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: MagicSpell
   DamageType: Fire
   Affliction: ""
@@ -21100,6 +23364,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Fire
   Affliction: ""
@@ -21172,6 +23437,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Fire
   Affliction: ""
@@ -21244,6 +23510,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Fire
   Affliction: ""
@@ -21316,6 +23583,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -21388,6 +23656,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -21460,6 +23729,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -21532,6 +23802,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -21548,7 +23819,7 @@
   NoBackstab: true
   NoLegShots: null
   CancelTargetHoming: null
-  DmgCoef: 1.0
+  DmgCoef: 0.5
   DmgCoefHead: 1.3
   DmgCoefCrit: null
   DurabilityCostOverride: null
@@ -21604,6 +23875,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -21676,6 +23948,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -21748,6 +24021,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -21820,6 +24094,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Nature
   Affliction: ""
@@ -21892,6 +24167,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Nature
   Affliction: ""
@@ -21964,6 +24240,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Nature
   Affliction: ""
@@ -22036,6 +24313,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Nature
   Affliction: ""
@@ -22108,6 +24386,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Nature
   Affliction: ""
@@ -22180,6 +24459,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Nature
   Affliction: ""
@@ -22252,6 +24532,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Nature
   Affliction: ""
@@ -22324,6 +24605,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Nature
   Affliction: ""
@@ -22396,6 +24678,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Nature
   Affliction: ""
@@ -22468,6 +24751,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Nature
   Affliction: ""
@@ -22540,6 +24824,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Nature
   Affliction: ""
@@ -22612,6 +24897,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Nature
   Affliction: ""
@@ -22684,6 +24970,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Nature
   Affliction: ""
@@ -22756,6 +25043,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Ice
   Affliction: ""
@@ -22828,6 +25116,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Ice
   Affliction: ""
@@ -22898,8 +25187,9 @@
   WeaponCategory: IceGauntlet_Null
   IgnoreInvulnerable: 0.0
   NoReaction: 1.0
-  IsRanged: null
+  IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Ice
   Affliction: ""
@@ -22970,8 +25260,9 @@
   WeaponCategory: IceGauntlet_Null
   IgnoreInvulnerable: 0.0
   NoReaction: 1.0
-  IsRanged: null
+  IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Ice
   Affliction: ""
@@ -23042,8 +25333,9 @@
   WeaponCategory: IceGauntlet_Null
   IgnoreInvulnerable: 0.0
   NoReaction: 1.0
-  IsRanged: null
+  IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Ice
   Affliction: ""
@@ -23114,8 +25406,9 @@
   WeaponCategory: IceGauntlet_Null
   IgnoreInvulnerable: 0.0
   NoReaction: 1.0
-  IsRanged: null
+  IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Ice
   Affliction: ""
@@ -23186,8 +25479,9 @@
   WeaponCategory: IceGauntlet_Null
   IgnoreInvulnerable: 0.0
   NoReaction: 1.0
-  IsRanged: null
+  IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Ice
   Affliction: ""
@@ -23260,6 +25554,7 @@
   NoReaction: 1.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Ice
   Affliction: ""
@@ -23332,6 +25627,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Ice
   Affliction: ""
@@ -23402,8 +25698,9 @@
   WeaponCategory: IceGauntlet_Proj
   IgnoreInvulnerable: 0.0
   NoReaction: 0.0
-  IsRanged: null
+  IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Ice
   Affliction: ""
@@ -23474,8 +25771,9 @@
   WeaponCategory: IceGauntlet_Proj
   IgnoreInvulnerable: 0.0
   NoReaction: 0.0
-  IsRanged: null
+  IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Ice
   Affliction: ""
@@ -23546,8 +25844,9 @@
   WeaponCategory: IceGauntlet_Proj
   IgnoreInvulnerable: 0.0
   NoReaction: 0.0
-  IsRanged: null
+  IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Ice
   Affliction: ""
@@ -23620,6 +25919,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Ice
   Affliction: ""
@@ -23692,6 +25992,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: MagicSpell
   DamageType: Ice
   Affliction: ""
@@ -23764,6 +26065,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: MagicSpell
   DamageType: Ice
   Affliction: ""
@@ -23836,6 +26138,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Corruption
   Affliction: ""
@@ -23908,6 +26211,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: null
+  IsEmote: null
   AttackType: Heavy
   DamageType: Corruption
   Affliction: ""
@@ -23980,6 +26284,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Light
   DamageType: Corruption
   Affliction: ""
@@ -24052,6 +26357,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: true
+  IsEmote: null
   AttackType: Heavy
   DamageType: Corruption
   Affliction: ""
@@ -24118,12 +26424,86 @@
   AttackBlockedRuneCharge: 0.401
   HitRuneCharge: 0.2005
   HitBlockedRuneCharge: 0.401
+- DamageID: VoidGauntlet_Oblivion
+  WeaponCategory: VoidGauntlet_Special
+  IgnoreInvulnerable: 0.0
+  NoReaction: 1.0
+  IsRanged: false
+  IsAbility: true
+  IsEmote: null
+  AttackType: Ability
+  DamageType: Corruption
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: false
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: true
+  NoBackstab: true
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 0.0
+  DmgCoefHead: 1.3
+  DmgCoefCrit: null
+  DurabilityCostOverride: 0.0
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 15.0
+  BlockHitStun: 12.0
+  CritHitStun: 15.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.0
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.0
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.0
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.1
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: ""
+  TargetCameraShakeID: ""
+  BlockCameraShakeID: ""
+  BlockTargetCameraShakeID: ""
+  CritCameraShakeID: ""
+  CritTargetCameraShakeID: ""
+  ImpactRating: 2.0
+  BlockStaminaDmgMod: 0.1
+  BlockAbsorptionModifier: 1.2
+  LOSCheckVerticalAngleOffset: 10.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: null
+  AttackBlockedRuneCharge: null
+  HitRuneCharge: null
+  HitBlockedRuneCharge: null
 - DamageID: VoidGauntlet_Scream
   WeaponCategory: VoidGauntlet_Special
   IgnoreInvulnerable: 0.0
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Corruption
   Affliction: ""
@@ -24196,6 +26576,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Corruption
   Affliction: ""
@@ -24268,6 +26649,7 @@
   NoReaction: 1.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Corruption
   Affliction: ""
@@ -24340,6 +26722,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Corruption
   Affliction: ""
@@ -24412,6 +26795,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Corruption
   Affliction: ""
@@ -24484,6 +26868,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Corruption
   Affliction: ""
@@ -24556,6 +26941,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Corruption
   Affliction: ""
@@ -24628,6 +27014,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Corruption
   Affliction: ""
@@ -24700,8 +27087,82 @@
   NoReaction: 1.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Light
   DamageType: Standard
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 1.0
+  DmgCoefHead: 1.3
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 15.0
+  BlockHitStun: 10.0
+  CritHitStun: 20.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.0
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.0
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.2
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: ""
+  TargetCameraShakeID: ""
+  BlockCameraShakeID: ""
+  BlockTargetCameraShakeID: ""
+  CritCameraShakeID: ""
+  CritTargetCameraShakeID: ""
+  ImpactRating: 2.0
+  BlockStaminaDmgMod: 0.2
+  BlockAbsorptionModifier: 1.2
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: null
+  AttackBlockedRuneCharge: null
+  HitRuneCharge: null
+  HitBlockedRuneCharge: null
+- DamageID: Common_DamageOverTime_Override_VoidGauntlet
+  WeaponCategory: VoidGauntlet_Special
+  IgnoreInvulnerable: 0.0
+  NoReaction: 1.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: Light
+  DamageType: Void
   Affliction: ""
   AddAffliction: null
   AfflictionPercent: ""
@@ -24772,6 +27233,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Magic
   DamageType: Nature
   Affliction: ""
@@ -24844,6 +27306,7 @@
   NoReaction: 1.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Standard
   Affliction: ""
@@ -24916,6 +27379,7 @@
   NoReaction: 1.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: ""
   DamageType: Falling
   Affliction: ""
@@ -24988,6 +27452,7 @@
   NoReaction: 1.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: ""
   DamageType: Falling
   Affliction: ""
@@ -25060,6 +27525,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: ""
   DamageType: Deflect
   Affliction: ""
@@ -25132,6 +27598,7 @@
   NoReaction: 0.0
   IsRanged: null
   IsAbility: null
+  IsEmote: null
   AttackType: Ability
   DamageType: Strike
   Affliction: ""
@@ -25204,6 +27671,7 @@
   NoReaction: 1.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -25276,6 +27744,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Ability
   DamageType: Fire
   Affliction: ""
@@ -25342,12 +27811,86 @@
   AttackBlockedRuneCharge: null
   HitRuneCharge: null
   HitBlockedRuneCharge: null
+- DamageID: Emote_Snowball
+  WeaponCategory: None
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: true
+  IsAbility: null
+  IsEmote: null
+  AttackType: ""
+  DamageType: Ice
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: false
+  Unblockable: null
+  AttackDealsNoDurability: true
+  NoHeadshot: null
+  NoBackstab: true
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 0.0
+  DmgCoefHead: 0.0
+  DmgCoefCrit: 0.0
+  DurabilityCostOverride: 0.0
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 0.0
+  BlockHitStun: 0.0
+  CritHitStun: 0.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.0
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 10.0
+  StaggerDmgModifier: 0.0
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: ""
+  TargetCameraShakeID: ""
+  BlockCameraShakeID: ""
+  BlockTargetCameraShakeID: ""
+  CritCameraShakeID: ""
+  CritTargetCameraShakeID: ""
+  ImpactRating: 0.0
+  BlockStaminaDmgMod: 0.0
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: null
+  AttackBlockedRuneCharge: null
+  HitRuneCharge: null
+  HitBlockedRuneCharge: null
 - DamageID: Rune_CannonBlast_Projectile
   WeaponCategory: CannonBall
   IgnoreInvulnerable: 0.0
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Heartgem
   DamageType: Strike
   Affliction: ""
@@ -25420,6 +27963,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Heartgem
   DamageType: Strike
   Affliction: ""
@@ -25492,6 +28036,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Heartgem
   DamageType: Strike
   Affliction: ""
@@ -25564,6 +28109,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Heartgem
   DamageType: Strike
   Affliction: ""
@@ -25636,6 +28182,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Heartgem
   DamageType: Arcane
   Affliction: ""
@@ -25708,6 +28255,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Heartgem
   DamageType: Nature
   Affliction: ""
@@ -25780,6 +28328,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Heartgem
   DamageType: Corruption
   Affliction: ""
@@ -25852,6 +28401,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Heartgem
   DamageType: Corruption
   Affliction: ""
@@ -25924,6 +28474,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Heartgem
   DamageType: Thrust
   Affliction: ""
@@ -25996,6 +28547,7 @@
   NoReaction: 1.0
   IsRanged: true
   IsAbility: true
+  IsEmote: null
   AttackType: Heartgem
   DamageType: Nature
   Affliction: ""
@@ -26068,6 +28620,7 @@
   NoReaction: 0.0
   IsRanged: false
   IsAbility: true
+  IsEmote: null
   AttackType: Heartgem
   DamageType: Fire
   Affliction: ""
@@ -26140,6 +28693,7 @@
   NoReaction: 0.0
   IsRanged: false
   IsAbility: true
+  IsEmote: null
   AttackType: Heartgem
   DamageType: Fire
   Affliction: ""
@@ -26212,6 +28766,7 @@
   NoReaction: 0.0
   IsRanged: false
   IsAbility: true
+  IsEmote: null
   AttackType: Heartgem
   DamageType: Nature
   Affliction: ""
@@ -26284,6 +28839,7 @@
   NoReaction: 0.0
   IsRanged: false
   IsAbility: true
+  IsEmote: null
   AttackType: Heartgem
   DamageType: Nature
   Affliction: ""
@@ -26356,6 +28912,7 @@
   NoReaction: 0.0
   IsRanged: false
   IsAbility: true
+  IsEmote: null
   AttackType: Heartgem
   DamageType: Nature
   Affliction: ""
@@ -26407,6 +28964,298 @@
   CritCameraShakeID: ""
   CritTargetCameraShakeID: ""
   ImpactRating: 0.0
+  BlockStaminaDmgMod: 1.0
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: null
+  AttackBlockedRuneCharge: null
+  HitRuneCharge: 0.10825
+  HitBlockedRuneCharge: 0.2165
+- DamageID: Rune_BeastMode_Activate
+  WeaponCategory: None
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: false
+  IsAbility: true
+  IsEmote: null
+  AttackType: Heartgem
+  DamageType: Standard
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: ""
+  CanCrit: true
+  Unblockable: null
+  AttackDealsNoDurability: true
+  NoHeadshot: true
+  NoBackstab: true
+  NoLegShots: true
+  CancelTargetHoming: null
+  DmgCoef: 1.5
+  DmgCoefHead: 1.5
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 3.0
+  BlockPowerLevel: 3.0
+  CritPowerLevel: 3.0
+  HitStun: 30.0
+  BlockHitStun: 25.0
+  CritHitStun: 30.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.9
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.85
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.9
+  AddDmg: 0.0
+  StaggerDmgModifier: 1.0
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Large_short
+  TargetCameraShakeID: Large_short
+  BlockCameraShakeID: Large_short
+  BlockTargetCameraShakeID: Large_short
+  CritCameraShakeID: Large_short
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 2.0
+  BlockStaminaDmgMod: 1.0
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: null
+  AttackBlockedRuneCharge: null
+  HitRuneCharge: 0.10825
+  HitBlockedRuneCharge: 0.2165
+- DamageID: Rune_BeastMode_LightAttack
+  WeaponCategory: Unarmed
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: false
+  IsAbility: true
+  IsEmote: null
+  AttackType: Heartgem
+  DamageType: Standard
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: ""
+  CanCrit: true
+  Unblockable: null
+  AttackDealsNoDurability: true
+  NoHeadshot: true
+  NoBackstab: true
+  NoLegShots: true
+  CancelTargetHoming: null
+  DmgCoef: 1.0
+  DmgCoefHead: 1.0
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 0.0
+  BlockHitStun: 0.0
+  CritHitStun: 0.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.5
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.9
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.5
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.85
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.5
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.9
+  AddDmg: 0.0
+  StaggerDmgModifier: 1.0
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Small
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritCameraShakeID: Small
+  CritTargetCameraShakeID: Small
+  ImpactRating: 1.0
+  BlockStaminaDmgMod: 1.0
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: null
+  AttackBlockedRuneCharge: null
+  HitRuneCharge: 0.10825
+  HitBlockedRuneCharge: 0.2165
+- DamageID: Rune_BeastMode_RushAttack
+  WeaponCategory: Unarmed
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: false
+  IsAbility: true
+  IsEmote: null
+  AttackType: Heartgem
+  DamageType: Standard
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: ""
+  CanCrit: true
+  Unblockable: null
+  AttackDealsNoDurability: true
+  NoHeadshot: true
+  NoBackstab: true
+  NoLegShots: true
+  CancelTargetHoming: null
+  DmgCoef: 1.2
+  DmgCoefHead: 1.2
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 5.0
+  BlockPowerLevel: 5.0
+  CritPowerLevel: 5.0
+  HitStun: 30.0
+  BlockHitStun: 30.0
+  CritHitStun: 30.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.5
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.9
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.5
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.85
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.5
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.9
+  AddDmg: 0.0
+  StaggerDmgModifier: 1.5
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Large_short
+  TargetCameraShakeID: Large_short
+  BlockCameraShakeID: Large_short
+  BlockTargetCameraShakeID: Large_short
+  CritCameraShakeID: Large_short
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 4.0
+  BlockStaminaDmgMod: 1.5
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: null
+  AttackBlockedRuneCharge: null
+  HitRuneCharge: 0.10825
+  HitBlockedRuneCharge: 0.2165
+- DamageID: Rune_BeastMode_Deactivate
+  WeaponCategory: None
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: false
+  IsAbility: true
+  IsEmote: null
+  AttackType: Heartgem
+  DamageType: Standard
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: ""
+  CanCrit: true
+  Unblockable: null
+  AttackDealsNoDurability: true
+  NoHeadshot: true
+  NoBackstab: true
+  NoLegShots: true
+  CancelTargetHoming: null
+  DmgCoef: 1.5
+  DmgCoefHead: 1.5
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 3.0
+  BlockPowerLevel: 3.0
+  CritPowerLevel: 3.0
+  HitStun: 30.0
+  BlockHitStun: 25.0
+  CritHitStun: 30.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.9
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.85
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.9
+  AddDmg: 0.0
+  StaggerDmgModifier: 1.0
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: Large_short
+  TargetCameraShakeID: Large_short
+  BlockCameraShakeID: Large_short
+  BlockTargetCameraShakeID: Large_short
+  CritCameraShakeID: Large_short
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 3.0
   BlockStaminaDmgMod: 1.0
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0

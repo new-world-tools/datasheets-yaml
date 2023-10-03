@@ -194,6 +194,34 @@
   SeasonsXpModifier: 0.0
   Notes: Sliver
   Found in: Flags on vitals
+- Modifiers: SoloBoss
+  Experience: 2.0
+  Currency: 1.15
+  CurrencyRewardChance: null
+  TerritoryStanding: 15.0
+  Azoth: 1.0
+  LootDropModifier: 1.0
+  FactionReputationModifier: null
+  FactionTokenModifier: null
+  AzothSaltModifier: null
+  PvpXpModifier: null
+  SeasonsXpModifier: 0.0
+  Notes: Gold with hash marks
+  Found in: Flags on vitals
+- Modifiers: Solo_Quest
+  Experience: 0.0
+  Currency: 0.0
+  CurrencyRewardChance: null
+  TerritoryStanding: 0.0
+  Azoth: 0.0
+  LootDropModifier: 1.0
+  FactionReputationModifier: null
+  FactionTokenModifier: null
+  AzothSaltModifier: null
+  PvpXpModifier: null
+  SeasonsXpModifier: 0.0
+  Notes: Special Quest creatures
+  Found in: Flags on vitals
 - Modifiers: Arena
   Experience: 5.0
   Currency: 7.0
@@ -629,17 +657,17 @@
   Notes: Pending approval
   Found in: New POI repeatable objectives
 - Modifiers: PvpKill_Low
-  Experience: 4.0
-  Currency: 20.0
+  Experience: 0.0
+  Currency: 0.0
   CurrencyRewardChance: null
   TerritoryStanding: 0.0
   Azoth: 0.0
-  LootDropModifier: 0.75
-  FactionReputationModifier: 200.0
-  FactionTokenModifier: 200.0
-  AzothSaltModifier: 8.0
-  PvpXpModifier: 8.0
-  SeasonsXpModifier: 1.0
+  LootDropModifier: 0.0
+  FactionReputationModifier: 0.0
+  FactionTokenModifier: 0.0
+  AzothSaltModifier: 0.25
+  PvpXpModifier: 0.25
+  SeasonsXpModifier: 10.0
   Notes: PvP
   Found in: Flags on Player Kills in PvP
 - Modifiers: PvpKill_High
@@ -648,12 +676,12 @@
   CurrencyRewardChance: null
   TerritoryStanding: 0.0
   Azoth: 0.0
-  LootDropModifier: 1.0
-  FactionReputationModifier: 200.0
-  FactionTokenModifier: 200.0
-  AzothSaltModifier: 8.0
-  PvpXpModifier: 8.0
-  SeasonsXpModifier: 5.0
+  LootDropModifier: 0.5
+  FactionReputationModifier: 300.0
+  FactionTokenModifier: 350.0
+  AzothSaltModifier: 4.0
+  PvpXpModifier: 4.0
+  SeasonsXpModifier: 50.0
   Notes: PvP
   Found in: Flags on Player Kills in PvP
 - Modifiers: PvpKill_ExtraHigh
@@ -662,15 +690,29 @@
   CurrencyRewardChance: null
   TerritoryStanding: 0.0
   Azoth: 0.0
-  LootDropModifier: 1.0
-  FactionReputationModifier: 200.0
-  FactionTokenModifier: 200.0
+  LootDropModifier: 0.75
+  FactionReputationModifier: 400.0
+  FactionTokenModifier: 450.0
   AzothSaltModifier: 8.0
   PvpXpModifier: 8.0
-  SeasonsXpModifier: 10.0
+  SeasonsXpModifier: 100.0
   Notes: PvP
   Found in: Flags on Player Kills in PvP
 - Modifiers: Player
+  Experience: 5.0
+  Currency: 1.0
+  CurrencyRewardChance: null
+  TerritoryStanding: 0.0
+  Azoth: 0.0
+  LootDropModifier: 1.0
+  FactionReputationModifier: null
+  FactionTokenModifier: null
+  AzothSaltModifier: null
+  PvpXpModifier: null
+  SeasonsXpModifier: 1.0
+  Notes: Player Kill
+  Found in: Vitals Gameevent Override
+- Modifiers: Ally
   Experience: 5.0
   Currency: 1.0
   CurrencyRewardChance: null

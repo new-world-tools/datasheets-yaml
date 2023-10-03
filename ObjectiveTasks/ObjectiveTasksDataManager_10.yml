@@ -11204,12 +11204,12 @@
   StayActive: null
   TargetQty: 1.0
   ItemName: FM_PVP_Marauders_item_1
-  ItemDropVC: PVP_0002_DeadDropGiveItem
+  ItemDropVC: PVP_0001_DeadDropGiveItem
   ItemDropProbability: 100.0
   ChestDropProbability: null
   EnforceLocationRequirement: true
   TerritoryID: ""
-  POITag: poi_30036_factionarea
+  POITag: poi_30035_factionarea
   GameModeID: ""
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
@@ -11219,7 +11219,7 @@
   TargetThreshold: ""
   CraftingRecipeId: ""
   CraftAnyRecipe: ""
-  InteractTag: IO_PVP_0002_DeadDropGiveItem
+  InteractTag: IO_PVP_0001_DeadDropGiveItem
   UIScreenTag: ""
   TriggerAreaType: ""
   KillEnemyType: ""
@@ -11244,7 +11244,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@objective_mission_espionage_step_1_at_POI"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 7653.2 1275.7 75.1
+  OverrideLocation: 6720.8 445.8 49.5
   IsHidden: null
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: null
@@ -11396,7 +11396,7 @@
   StayActive: 1.0
   TargetQty: 1.0
   ItemName: FM_PVP_Marauders_item_2
-  ItemDropVC: PVP_0001_DeadDropGiveItem
+  ItemDropVC: PVP_0002_DeadDropGiveItem
   ItemDropProbability: 100.0
   ChestDropProbability: null
   EnforceLocationRequirement: true
@@ -11411,7 +11411,7 @@
   TargetThreshold: ""
   CraftingRecipeId: ""
   CraftAnyRecipe: ""
-  InteractTag: IO_PVP_0001_DeadDropGiveItem
+  InteractTag: IO_PVP_0002_DeadDropGiveItem
   UIScreenTag: ""
   TriggerAreaType: ""
   KillEnemyType: ""
@@ -11436,7 +11436,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@objective_mission_espionage_step_2_at_POI"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 7613.3 1531.7 72.9
+  OverrideLocation: 6870.1 1052.1 65.9
   IsHidden: null
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: null
@@ -11502,6 +11502,70 @@
   TargetDescriptionTaskId: ""
   OverrideLocation: ""
   IsHidden: 1.0
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: FM_10_PVP_Spy_Marauder_DummyEvent
+  Type: TaskGameEvent
+  FailOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: null
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: null
   DiegeticPinZOverride: ""
@@ -11710,6 +11774,70 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
+- TaskID: FM_10_PVP_Poach_Marauder_DummyEvent
+  Type: TaskGameEvent
+  FailOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: null
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
 - TaskID: FM_10_PVP_Control_Marauder_container
   Type: ConsecutiveTaskContainer
   FailOnCondition: null
@@ -11884,7 +12012,71 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@objective_mission_task_patrol_timer"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 7343 1406.4 41.4
+  OverrideLocation: ""
+  IsHidden: null
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: FM_10_PVP_Control_Marauder_DummyEvent
+  Type: TaskGameEvent
+  FailOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
   IsHidden: null
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: null
@@ -12100,12 +12292,12 @@
   StayActive: null
   TargetQty: 1.0
   ItemName: FM_PVP_Syndicate_item_1
-  ItemDropVC: PVP_0003_DeadDropGiveItem
+  ItemDropVC: PVP_0002_DeadDropGiveItem
   ItemDropProbability: 100.0
   ChestDropProbability: null
   EnforceLocationRequirement: null
   TerritoryID: ""
-  POITag: poi_30035_factionarea
+  POITag: poi_30036_factionarea
   GameModeID: ""
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
@@ -12115,7 +12307,7 @@
   TargetThreshold: ""
   CraftingRecipeId: ""
   CraftAnyRecipe: ""
-  InteractTag: IO_PVP_0003_DeadDropGiveItem
+  InteractTag: IO_PVP_0002_DeadDropGiveItem
   UIScreenTag: ""
   TriggerAreaType: ""
   KillEnemyType: ""
@@ -12140,7 +12332,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@objective_mission_espionage_step_1_at_POI"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 7297.3 1387.3 40.3
+  OverrideLocation: 6870.1 1052.1 65.9
   IsHidden: null
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: null
@@ -12292,12 +12484,12 @@
   StayActive: 1.0
   TargetQty: 1.0
   ItemName: FM_PVP_Syndicate_item_2
-  ItemDropVC: PVP_0001_DeadDropGiveItem
+  ItemDropVC: PVP_0003_DeadDropGiveItem
   ItemDropProbability: 100.0
   ChestDropProbability: null
   EnforceLocationRequirement: true
   TerritoryID: ""
-  POITag: poi_30036_factionarea
+  POITag: poi_30037_factionarea
   GameModeID: ""
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
@@ -12307,7 +12499,7 @@
   TargetThreshold: ""
   CraftingRecipeId: ""
   CraftAnyRecipe: ""
-  InteractTag: IO_PVP_0001_DeadDropGiveItem
+  InteractTag: IO_PVP_0003_DeadDropGiveItem
   UIScreenTag: ""
   TriggerAreaType: ""
   KillEnemyType: ""
@@ -12332,7 +12524,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@objective_mission_espionage_step_2_at_POI"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 7613.3 1531.7 72.9
+  OverrideLocation: 7221.1 581.1 41.8
   IsHidden: null
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: null
@@ -12398,6 +12590,70 @@
   TargetDescriptionTaskId: ""
   OverrideLocation: ""
   IsHidden: 1.0
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: FM_10_PVP_Spy_Syndicate_DummyEvent
+  Type: TaskGameEvent
+  FailOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: null
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: null
   DiegeticPinZOverride: ""
@@ -12606,6 +12862,70 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
+- TaskID: FM_10_PVP_Poach_Syndicate_DummyEvent
+  Type: TaskGameEvent
+  FailOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: null
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
 - TaskID: FM_10_PVP_Control_Syndicate_container
   Type: ConsecutiveTaskContainer
   FailOnCondition: null
@@ -12780,7 +13100,71 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@objective_mission_task_patrol_timer"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 7595.4 1480 67.3
+  OverrideLocation: ""
+  IsHidden: null
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: FM_10_PVP_Control_Syndicate_DummyEvent
+  Type: TaskGameEvent
+  FailOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
   IsHidden: null
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: null
@@ -13001,7 +13385,7 @@
   ChestDropProbability: null
   EnforceLocationRequirement: true
   TerritoryID: ""
-  POITag: poi_30035_factionarea
+  POITag: poi_30037_factionarea
   GameModeID: ""
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
@@ -13036,7 +13420,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@objective_mission_espionage_step_1_at_POI"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 7297.3 1387.3 40.3
+  OverrideLocation: 7221.1 581.1 41.8
   IsHidden: null
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: null
@@ -13188,12 +13572,12 @@
   StayActive: 1.0
   TargetQty: 1.0
   ItemName: FM_PVP_Covenant_item_2
-  ItemDropVC: PVP_0002_DeadDropGiveItem
+  ItemDropVC: PVP_0001_DeadDropGiveItem
   ItemDropProbability: 100.0
   ChestDropProbability: null
   EnforceLocationRequirement: null
   TerritoryID: ""
-  POITag: poi_30036_factionarea
+  POITag: poi_30035_factionarea
   GameModeID: ""
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
@@ -13203,7 +13587,7 @@
   TargetThreshold: ""
   CraftingRecipeId: ""
   CraftAnyRecipe: ""
-  InteractTag: IO_PVP_0002_DeadDropGiveItem
+  InteractTag: IO_PVP_0001_DeadDropGiveItem
   UIScreenTag: ""
   TriggerAreaType: ""
   KillEnemyType: ""
@@ -13228,7 +13612,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@objective_mission_espionage_step_2_at_POI"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 7653.2 1275.7 75.1
+  OverrideLocation: 6720.8 445.8 49.5
   IsHidden: null
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: null
@@ -13294,6 +13678,70 @@
   TargetDescriptionTaskId: ""
   OverrideLocation: ""
   IsHidden: 1.0
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: FM_10_PVP_Spy_Covenant_DummyEvent
+  Type: TaskGameEvent
+  FailOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: null
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: null
   DiegeticPinZOverride: ""
@@ -13502,6 +13950,70 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
+- TaskID: FM_10_PVP_Poach_Covenant_DummyEvent
+  Type: TaskGameEvent
+  FailOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: null
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
 - TaskID: FM_10_PVP_Control_Covenant_container
   Type: ConsecutiveTaskContainer
   FailOnCondition: null
@@ -13641,7 +14153,7 @@
   ChestDropProbability: null
   EnforceLocationRequirement: true
   TerritoryID: ""
-  POITag: poi_30036_factionarea
+  POITag: poi_30037_factionarea
   GameModeID: ""
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
@@ -13676,7 +14188,71 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@objective_mission_task_patrol_timer"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 7595.4 1480 67.3
+  OverrideLocation: ""
+  IsHidden: null
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: FM_10_PVP_Control_Covenant_DummyEvent
+  Type: TaskGameEvent
+  FailOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
   IsHidden: null
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: null

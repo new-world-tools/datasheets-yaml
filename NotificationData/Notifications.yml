@@ -518,9 +518,9 @@
   Keybind: ""
   KeybindActionmap: ""
   NumberFields: ""
-- NotificationId: Red_Button_Salvaging_Disabled
+- NotificationId: Red_Button_All_Salvaging_Disabled
   DisplayTitle: "@ui_feature_disabled"
-  DisplayText: "@ui_red_button_salvaging_disabled"
+  DisplayText: "@ui_red_button_all_salvaging_disabled"
   SecondaryText: ""
   IconPath: ""
   MaxDisplayCount: null
@@ -547,6 +547,32 @@
 - NotificationId: New_Items_Dropped
   DisplayTitle: "@ui_notification_new_items_dropped"
   DisplayText: "@ui_notification_new_items_dropped"
+  SecondaryText: ""
+  IconPath: ""
+  MaxDisplayCount: null
+  NotificationType: Minor
+  TrackDisplayCount: null
+  DurationOverride: null
+  CooldownSeconds: null
+  Keybind: ""
+  KeybindActionmap: ""
+  NumberFields: ""
+- NotificationId: Red_Button_Recipe_Salvaging_Disabled
+  DisplayTitle: "@ui_feature_disabled"
+  DisplayText: "@ui_red_button_recipe_salvaging_disabled"
+  SecondaryText: ""
+  IconPath: ""
+  MaxDisplayCount: null
+  NotificationType: Minor
+  TrackDisplayCount: null
+  DurationOverride: null
+  CooldownSeconds: null
+  Keybind: ""
+  KeybindActionmap: ""
+  NumberFields: ""
+- NotificationId: Red_Button_Item_Salvaging_Disabled
+  DisplayTitle: "@ui_feature_disabled"
+  DisplayText: "@ui_red_button_item_salvaging_disabled"
   SecondaryText: ""
   IconPath: ""
   MaxDisplayCount: null

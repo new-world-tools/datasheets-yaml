@@ -7,6 +7,7 @@
   Dungeon: Mutation_Hellfire_Dungeon_Tier1
   Dungeon+: Mutation_Hellfire_DungeonPlus_Tier1
   DungeonMiniBoss: Mutation_Hellfire_DungeonPlus_Tier1
+  DungeonBoss: ""
   IconPath: LyShineUI/Images/Icons/Dungeons/mutator/icon_hellfire.dds
   TextColor: 198,67,67
   BackgroundColor: 92,26,26
@@ -19,6 +20,7 @@
   Dungeon: Mutation_Hellfire_Dungeon_Tier2
   Dungeon+: Mutation_Hellfire_DungeonPlus_Tier2
   DungeonMiniBoss: Mutation_Hellfire_DungeonPlus_Tier2
+  DungeonBoss: DebuffResilience_50_Buff
   IconPath: LyShineUI/Images/Icons/Dungeons/mutator/icon_hellfire.dds
   TextColor: 198,67,67
   BackgroundColor: 92,26,26
@@ -31,18 +33,7 @@
   Dungeon: Mutation_Hellfire_Dungeon_Tier3
   Dungeon+: Mutation_Hellfire_DungeonPlus_Tier3
   DungeonMiniBoss: Mutation_Hellfire_DungeonPlus_Tier3
-  IconPath: LyShineUI/Images/Icons/Dungeons/mutator/icon_hellfire.dds
-  TextColor: 198,67,67
-  BackgroundColor: 92,26,26
-- ElementalMutationId: Hellfire_4
-  Name: "@FirTitle"
-  Description: Fire element mutator category
-  CategoryWildcard: Fir
-  ElementalDifficultyTier: 4.0
-  Dungeon-: Mutation_Hellfire_DungeonMinus_Tier4
-  Dungeon: Mutation_Hellfire_Dungeon_Tier4
-  Dungeon+: Mutation_Hellfire_DungeonPlus_Tier4
-  DungeonMiniBoss: Mutation_Hellfire_DungeonPlus_Tier4
+  DungeonBoss: DebuffResilience_75_Buff
   IconPath: LyShineUI/Images/Icons/Dungeons/mutator/icon_hellfire.dds
   TextColor: 198,67,67
   BackgroundColor: 92,26,26
@@ -55,6 +46,7 @@
   Dungeon: Mutation_Eternal_Dungeon_Tier1
   Dungeon+: Mutation_Eternal_DungeonPlus_Tier1
   DungeonMiniBoss: Mutation_Eternal_DungeonPlus_Tier1
+  DungeonBoss: ""
   IconPath: LyShineUI/Images/Icons/Dungeons/mutator/icon_eternal.dds
   TextColor: 120,125,185
   BackgroundColor: 30,38,67
@@ -67,6 +59,7 @@
   Dungeon: Mutation_Eternal_Dungeon_Tier2
   Dungeon+: Mutation_Eternal_DungeonPlus_Tier2
   DungeonMiniBoss: Mutation_Eternal_DungeonPlus_Tier2
+  DungeonBoss: DebuffResilience_50_Buff
   IconPath: LyShineUI/Images/Icons/Dungeons/mutator/icon_eternal.dds
   TextColor: 120,125,185
   BackgroundColor: 30,38,67
@@ -79,18 +72,7 @@
   Dungeon: Mutation_Eternal_Dungeon_Tier3
   Dungeon+: Mutation_Eternal_DungeonPlus_Tier3
   DungeonMiniBoss: Mutation_Eternal_DungeonPlus_Tier3
-  IconPath: LyShineUI/Images/Icons/Dungeons/mutator/icon_eternal.dds
-  TextColor: 120,125,185
-  BackgroundColor: 30,38,67
-- ElementalMutationId: Eternal_4
-  Name: "@VoiTitle"
-  Description: Void element mutator category
-  CategoryWildcard: Voi
-  ElementalDifficultyTier: 4.0
-  Dungeon-: Mutation_Eternal_DungeonMinus_Tier4
-  Dungeon: Mutation_Eternal_Dungeon_Tier4
-  Dungeon+: Mutation_Eternal_DungeonPlus_Tier4
-  DungeonMiniBoss: Mutation_Eternal_DungeonPlus_Tier4
+  DungeonBoss: DebuffResilience_75_Buff
   IconPath: LyShineUI/Images/Icons/Dungeons/mutator/icon_eternal.dds
   TextColor: 120,125,185
   BackgroundColor: 30,38,67
@@ -103,6 +85,7 @@
   Dungeon: Mutation_Overgrown_Dungeon_Tier1
   Dungeon+: Mutation_Overgrown_DungeonPlus_Tier1
   DungeonMiniBoss: Mutation_Overgrown_DungeonPlus_Tier1
+  DungeonBoss: ""
   IconPath: LyShineUI/Images/Icons/Dungeons/mutator/icon_overgrown.dds
   TextColor: 115,129,39
   BackgroundColor: 48,63,34
@@ -115,6 +98,7 @@
   Dungeon: Mutation_Overgrown_Dungeon_Tier2
   Dungeon+: Mutation_Overgrown_DungeonPlus_Tier2
   DungeonMiniBoss: Mutation_Overgrown_DungeonPlus_Tier2
+  DungeonBoss: DebuffResilience_50_Buff
   IconPath: LyShineUI/Images/Icons/Dungeons/mutator/icon_overgrown.dds
   TextColor: 115,129,39
   BackgroundColor: 48,63,34
@@ -127,18 +111,7 @@
   Dungeon: Mutation_Overgrown_Dungeon_Tier3
   Dungeon+: Mutation_Overgrown_DungeonPlus_Tier3
   DungeonMiniBoss: Mutation_Overgrown_DungeonPlus_Tier3
-  IconPath: LyShineUI/Images/Icons/Dungeons/mutator/icon_overgrown.dds
-  TextColor: 115,129,39
-  BackgroundColor: 48,63,34
-- ElementalMutationId: Overgrown_4
-  Name: "@NatTitle"
-  Description: Nature element mutator category
-  CategoryWildcard: Nat
-  ElementalDifficultyTier: 4.0
-  Dungeon-: Mutation_Overgrown_DungeonMinus_Tier4
-  Dungeon: Mutation_Overgrown_Dungeon_Tier4
-  Dungeon+: Mutation_Overgrown_DungeonPlus_Tier4
-  DungeonMiniBoss: Mutation_Overgrown_DungeonPlus_Tier4
+  DungeonBoss: DebuffResilience_75_Buff
   IconPath: LyShineUI/Images/Icons/Dungeons/mutator/icon_overgrown.dds
   TextColor: 115,129,39
   BackgroundColor: 48,63,34
@@ -151,6 +124,7 @@
   Dungeon: Mutation_Icebound_Dungeon_Tier1
   Dungeon+: Mutation_Icebound_DungeonPlus_Tier1
   DungeonMiniBoss: Mutation_Icebound_DungeonPlus_Tier1
+  DungeonBoss: ""
   IconPath: LyShineUI/Images/Icons/Dungeons/mutator/icon_icebound.dds
   TextColor: 113,174,194
   BackgroundColor: 32,68,81
@@ -163,6 +137,7 @@
   Dungeon: Mutation_Icebound_Dungeon_Tier2
   Dungeon+: Mutation_Icebound_DungeonPlus_Tier2
   DungeonMiniBoss: Mutation_Icebound_DungeonPlus_Tier2
+  DungeonBoss: DebuffResilience_50_Buff
   IconPath: LyShineUI/Images/Icons/Dungeons/mutator/icon_icebound.dds
   TextColor: 113,174,194
   BackgroundColor: 32,68,81
@@ -175,18 +150,7 @@
   Dungeon: Mutation_Icebound_Dungeon_Tier3
   Dungeon+: Mutation_Icebound_DungeonPlus_Tier3
   DungeonMiniBoss: Mutation_Icebound_DungeonPlus_Tier3
-  IconPath: LyShineUI/Images/Icons/Dungeons/mutator/icon_icebound.dds
-  TextColor: 113,174,194
-  BackgroundColor: 32,68,81
-- ElementalMutationId: Icebound_4
-  Name: "@IceTitle"
-  Description: Ice element mutator category
-  CategoryWildcard: Ice
-  ElementalDifficultyTier: 4.0
-  Dungeon-: Mutation_Icebound_DungeonMinus_Tier4
-  Dungeon: Mutation_Icebound_Dungeon_Tier4
-  Dungeon+: Mutation_Icebound_DungeonPlus_Tier4
-  DungeonMiniBoss: Mutation_Icebound_DungeonPlus_Tier4
+  DungeonBoss: DebuffResilience_75_Buff
   IconPath: LyShineUI/Images/Icons/Dungeons/mutator/icon_icebound.dds
   TextColor: 113,174,194
   BackgroundColor: 32,68,81

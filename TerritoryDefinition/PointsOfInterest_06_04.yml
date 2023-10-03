@@ -26,6 +26,7 @@
   Containers: ""
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_outpostRush_mine.png
   GameMode: ""
+  IsCollapsible: null
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 60402.0
@@ -56,6 +57,7 @@
   Containers: ""
   TooltipBackground: ""
   GameMode: ""
+  IsCollapsible: null
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 60403.0
@@ -86,6 +88,7 @@
   Containers: ""
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_outpostRush_grove.png
   GameMode: ""
+  IsCollapsible: null
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 60404.0
@@ -116,6 +119,7 @@
   Containers: ""
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_bearden.png
   GameMode: ""
+  IsCollapsible: null
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 60405.0
@@ -146,6 +150,7 @@
   Containers: ""
   TooltipBackground: ""
   GameMode: ""
+  IsCollapsible: null
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 60406.0
@@ -176,6 +181,7 @@
   Containers: ""
   TooltipBackground: ""
   GameMode: ""
+  IsCollapsible: null
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 60407.0
@@ -206,6 +212,7 @@
   Containers: ""
   TooltipBackground: ""
   GameMode: ""
+  IsCollapsible: null
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 60408.0
@@ -236,6 +243,7 @@
   Containers: ""
   TooltipBackground: ""
   GameMode: ""
+  IsCollapsible: true
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 60409.0
@@ -266,6 +274,7 @@
   Containers: ""
   TooltipBackground: ""
   GameMode: ""
+  IsCollapsible: null
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 60410.0
@@ -296,96 +305,7 @@
   Containers: ""
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_fish_3.png
   GameMode: ""
-  UnchartedIcon: ""
-  EventId: ""
-- TerritoryID: 60411.0
-  NameLocalizationKey: "@ui_poi_factionarea_60411"
-  BaseStructureLimit: ""
-  MaxStructureLimit: ""
-  TerritoryScore: ""
-  IsPOI: true
-  MapIcon: ""
-  CompassIcon: ""
-  DiscoveryRadius: 60.0
-  IsDiscoverable: false
-  IsChartable: true
-  DefaultAchievement: null
-  OutpostId: ""
-  Debug: ""
-  LootTags: ""
-  DiscoveredAchievement: ""
-  ChartedAchievement: factionarea_60411_charted
-  POITag: factionarea_60411
-  AudioGroup: POI_State
-  AudioState: factionarea
-  AudioBank: ""
-  CanPlaceCamp: true
-  DevName: Faction Area
-  VitalsCategory: ""
-  LevelRange: ""
-  Containers: ""
-  TooltipBackground: ""
-  GameMode: ""
-  UnchartedIcon: ""
-  EventId: ""
-- TerritoryID: 60412.0
-  NameLocalizationKey: "@ui_poi_factionarea_60412"
-  BaseStructureLimit: ""
-  MaxStructureLimit: ""
-  TerritoryScore: ""
-  IsPOI: true
-  MapIcon: ""
-  CompassIcon: ""
-  DiscoveryRadius: 60.0
-  IsDiscoverable: false
-  IsChartable: true
-  DefaultAchievement: null
-  OutpostId: ""
-  Debug: ""
-  LootTags: ""
-  DiscoveredAchievement: ""
-  ChartedAchievement: factionarea_60412_charted
-  POITag: factionarea_60412
-  AudioGroup: POI_State
-  AudioState: factionarea
-  AudioBank: ""
-  CanPlaceCamp: true
-  DevName: Faction Area
-  VitalsCategory: ""
-  LevelRange: ""
-  Containers: ""
-  TooltipBackground: ""
-  GameMode: ""
-  UnchartedIcon: ""
-  EventId: ""
-- TerritoryID: 60413.0
-  NameLocalizationKey: "@ui_poi_factionarea_60413"
-  BaseStructureLimit: ""
-  MaxStructureLimit: ""
-  TerritoryScore: ""
-  IsPOI: true
-  MapIcon: ""
-  CompassIcon: ""
-  DiscoveryRadius: 60.0
-  IsDiscoverable: false
-  IsChartable: true
-  DefaultAchievement: null
-  OutpostId: ""
-  Debug: ""
-  LootTags: ""
-  DiscoveredAchievement: ""
-  ChartedAchievement: factionarea_60413_charted
-  POITag: factionarea_60413
-  AudioGroup: POI_State
-  AudioState: factionarea
-  AudioBank: ""
-  CanPlaceCamp: true
-  DevName: Faction Area
-  VitalsCategory: ""
-  LevelRange: ""
-  Containers: ""
-  TooltipBackground: ""
-  GameMode: ""
+  IsCollapsible: null
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 60414.0
@@ -416,5 +336,6 @@
   Containers: ""
   TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_spiritshrine.png
   GameMode: ""
+  IsCollapsible: null
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
   EventId: ""

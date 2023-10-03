@@ -102,9 +102,9 @@
   DamageStatMultiplier: ""
   WeaponMasteryCategoryId: ""
   TierNumber: 0.0
-  BaseDamage: 600.0
-  CritChance: 0.1
-  CritDamageMultiplier: 1.2
+  BaseDamage: 480.0
+  CritChance: 0.0
+  CritDamageMultiplier: 0.0
   BaseStaggerDamage: 5.0
   CritStaggerDamageMultiplier: 1.5
   ReticleName: melee
@@ -749,4 +749,98 @@
   WeaponEffectId: ""
   BaseAccuracy: 100.0
   EquipAbility: Ability_Rune_Sandworm
+  SoundTableID: ""
+- WeaponID: RuneBeastModeT1
+  BaseWeaponID: ""
+  DEV Prio: 1.0
+  PrimaryUse: Combat Melee
+  IconPath: ""
+  MaxStackSize: 1.0
+  EquipType: RSword_LeftHolster
+  DamageStatMultiplier: ""
+  WeaponMasteryCategoryId: ""
+  TierNumber: 0.0
+  BaseDamage: 300.0
+  CritChance: 0.1
+  CritDamageMultiplier: 1.3
+  BaseStaggerDamage: 5.0
+  CritStaggerDamageMultiplier: 1.5
+  ReticleName: melee
+  ReticleTargetName: meleeHaveTarget
+  ReticleRayCastDistance: 3.0
+  AmmoType: ""
+  MaxLoadedAmmo: ""
+  AutoReloadAmmoSeconds: ""
+  AmmoMesh: ""
+  MannequinTag: ""
+  OffHandMannequinTag: ""
+  MeshOverride: ""
+  SkinOverride1: ""
+  MaterialOverride1: ""
+  SkinOverride2: ""
+  MaterialOverride2: ""
+  SkinOverride3: ""
+  MaterialOverride3: ""
+  SkinOverride4: ""
+  MaterialOverride4: ""
+  FireJoint: ""
+  DamageTableRow: ""
+  TooltipPrimaryAttackData: ""
+  TooltipAlternateAttackData: ""
+  AnimDbPath: Animations/Mannequin/ADB/PlayerMaleAnims_2H_MeleeAttach.adb
+  GatheringTypes: None
+  GatheringMultiplier: 1.0
+  GatheringEfficiency: 0.0
+  MinGatherEFF: ""
+  MaxGatherEFF: ""
+  AudioPickup: Play_Beep1_2D
+  AudioPlace: Play_Beep3_2D
+  Primary Hand: Main
+  EquipmentCategories: ""
+  RequiredStrength: 0.0
+  RequiredDexterity: 0.0
+  RequiredIntelligence: 0.0
+  RequiredFocus: 0.0
+  ScalingStrength: 0.0
+  ScalingDexterity: 0.0
+  ScalingIntelligence: 0.0
+  ScalingFocus: 0.0
+  Resistances: ""
+  Weaknesses: ""
+  StatBonuses: ""
+  StatMultipliers: ""
+  EquipmentCategoryMultiplier: ""
+  AttackGameEventID: DamageEnemyUnarmed
+  PhysicalArmorSetScaleFactor: ""
+  ElementalArmorSetScaleFactor: ""
+  ArmorRatingScaleFactor: ""
+  WeightOverride: ""
+  BlockStaminaDamage: 30.0
+  BlockStability: 0.0
+  DeflectionRating: 0.0
+  BLAStandard: 1.0
+  BLASiege: 1.0
+  BLAStrike: 1.0
+  BLASlash: 1.0
+  BLAThrust: 1.0
+  BLAArcane: 1.0
+  BLAFire: 1.0
+  BLAIce: 1.0
+  BLANature: 1.0
+  BLALightning: 1.0
+  BLACorruption: 1.0
+  ABAPoison: 0.4
+  ABADisease: 0.4
+  ABABleed: 0.4
+  ABAFrostbite: 0.4
+  ABACurse: 0.4
+  RangedAttackProfile: ""
+  AttachedSpellData: ""
+  Appearance: ""
+  FemaleAppearance: ""
+  CanBlockRanged: ""
+  ManaCostId: ""
+  WeaponEffectId: ""
+  BaseAccuracy: 100.0
+  EquipAbility: Ability_Rune_BeastMode
   SoundTableID: ""

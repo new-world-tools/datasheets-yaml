@@ -8,8 +8,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 0.0
   TreeColumnPosition: 2.0
@@ -22,7 +24,7 @@
   ScalingConstitution: ""
   OnKill: false
   OnExecuted: false
-  OnHit: false
+  OnHit: true
   OnBlockedHit: false
   OnCrit: false
   OnHeadShot: false
@@ -32,7 +34,7 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
-  RequireReaction: null
+  RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
@@ -43,7 +45,7 @@
   DamageIsMelee: ""
   ForceShowNameTag: ""
   TargetHasGritActive: ""
-  DamageTableRow: ""
+  DamageTableRow: MusketAttack_ChargedShot
   RemoteDamageTableRow: ""
   RangedAttackName: ""
   AttackType: ""
@@ -64,7 +66,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -73,7 +75,11 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
-  BaseDamage: null
+  TargetVitalsCategory: Hostile
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
+  BaseDamage: 0.3
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
@@ -89,7 +95,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -102,6 +108,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -118,6 +126,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Musket_PowerShot
   CDRImmediatelyOptions: ""
@@ -137,8 +146,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: Ability_Musket_PowerShot
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 1.0
   TreeColumnPosition: 2.0
@@ -193,7 +204,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -202,6 +213,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -218,7 +233,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -231,6 +246,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -247,6 +264,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Musket_PowerShot
   CDRImmediatelyOptions: ""
@@ -266,8 +284,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: Upgrade_Musket_Power_Empower
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 2.0
   TreeColumnPosition: 2.0
@@ -322,7 +342,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: 99.0
   TargetComparisonType: GreaterThan
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -331,6 +351,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: null
@@ -347,7 +371,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -360,6 +384,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -376,6 +402,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Musket_PowerShot
   CDRImmediatelyOptions: ""
@@ -395,8 +422,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: Upgrade_Musket_Power_DmgAtFullHealth
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 3.0
   TreeColumnPosition: 2.0
@@ -451,7 +480,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -460,6 +489,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -476,7 +509,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -489,6 +522,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -505,6 +540,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Musket_PowerShot
   CDRImmediatelyOptions: AbilitySpecific
@@ -524,8 +560,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 1.0
   TreeColumnPosition: 0.0
@@ -580,7 +618,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -589,6 +627,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -605,7 +647,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -618,6 +660,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -634,6 +678,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -653,8 +698,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: Ability_Musket_PowderBurn
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 2.0
   TreeColumnPosition: 0.0
@@ -709,7 +756,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -718,6 +765,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 0.12
   BaseDamageReduction: ""
   BlockDamage: null
@@ -734,7 +785,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -747,6 +798,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -763,6 +816,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -782,8 +836,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: Upgrade_Musket_Burn_DmgWhileOnFire
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 3.0
   TreeColumnPosition: 0.0
@@ -838,7 +894,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -847,6 +903,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -863,7 +923,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -876,6 +936,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -892,6 +954,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: Musket_PowderBurn_Burn
   TargetStatusEffectDurationMod: 4.0
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -911,8 +974,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 2.0
   TreeColumnPosition: 4.0
@@ -967,7 +1032,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -976,6 +1041,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -992,7 +1061,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -1005,6 +1074,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -1021,6 +1092,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Musket_ShootersStance
   CDRImmediatelyOptions: ""
@@ -1040,8 +1112,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: Ability_Musket_ShootersStance
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 3.0
   TreeColumnPosition: 4.0
@@ -1096,7 +1170,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -1105,6 +1179,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -1121,7 +1199,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -1134,6 +1212,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -1150,6 +1230,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Musket_ShootersStance
   CDRImmediatelyOptions: ""
@@ -1169,8 +1250,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: Upgrade_Musket_Shooters_ShootMore
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 4.0
   TreeColumnPosition: 4.0
@@ -1225,7 +1308,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -1234,6 +1317,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -1250,7 +1337,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -1263,6 +1350,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -1279,6 +1368,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ActiveWeapon
@@ -1298,8 +1388,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 0.0
   TreeColumnPosition: 1.0
@@ -1354,7 +1446,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -1363,6 +1455,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -1379,7 +1475,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -1392,6 +1488,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -1408,6 +1506,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1427,8 +1526,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 0.0
   TreeColumnPosition: 3.0
@@ -1483,16 +1584,20 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
   AbilityList: ""
   AbilityTrigger: ""
   InAction: Firearm_AimShoot_SubState
-  InActionTime: 3.0
+  InActionTime: 2.0
   AfterAction: ""
-  BaseDamage: 0.05
+  TargetVitalsCategory: ""
+  InSequence: Firearm_ReadyWeapon_UpperBody,Firearm_Aim_UpperBody,Firearm_Shoot_Primary_UpperBody
+  InSequenceTime: 2.0
+  AfterSequence: ""
+  BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
@@ -1508,7 +1613,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -1521,6 +1626,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -1537,6 +1644,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1550,14 +1658,16 @@
   DisplayName: "@SharpshooterTree0Passive3"
   Description: "@SharpshooterTree0Passive3_description"
   UICategory: Passive
-  Icon: lyshineui/images/icons/abilities/musket_Passive03.png
+  Icon: lyshineui/images/icons/abilities/musket_Passive19.png
   StatusEffectIcon: ""
   Sound: ""
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 1.0
   TreeColumnPosition: 1.0
@@ -1570,7 +1680,7 @@
   ScalingConstitution: ""
   OnKill: false
   OnExecuted: false
-  OnHit: false
+  OnHit: true
   OnBlockedHit: false
   OnCrit: false
   OnHeadShot: false
@@ -1580,7 +1690,7 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
-  RequireReaction: null
+  RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
@@ -1591,14 +1701,14 @@
   DamageIsMelee: ""
   ForceShowNameTag: ""
   TargetHasGritActive: ""
-  DamageTableRow: ""
+  DamageTableRow: MusketAttack1,MusketAttack_Hipfire,MusketAttack_ShootersStance,Musket_Damage_PowderBurn,MusketAttack_ChargedShot,Musket_Damage_StoppingPower
   RemoteDamageTableRow: ""
   RangedAttackName: ""
   AttackType: ""
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
-  DontHaveStatusEffect: ""
+  DontHaveStatusEffect: Musket_Pass_TwoHitStack_Trigger_Cooldown
   CheckStatusEffectsOnTargetOwned: null
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
@@ -1612,7 +1722,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -1621,6 +1731,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -1637,7 +1751,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -1650,10 +1764,12 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
-  SelfApplyStatusEffect: ""
+  SelfApplyStatusEffect: Musket_Pass_TwoHitStack_Trigger
   OtherApplyStatusEffect: ""
   ModifySelfApplyStatusEffectDuration: null
   SetPotencyAsCount: ""
@@ -1666,6 +1782,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1685,8 +1802,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 1.0
   TreeColumnPosition: 4.0
@@ -1741,7 +1860,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -1750,6 +1869,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -1766,7 +1889,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -1779,6 +1902,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -1795,6 +1920,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1808,14 +1934,16 @@
   DisplayName: "@SharpshooterTree0Passive5"
   Description: "@SharpshooterTree0Passive5_description"
   UICategory: Passive
-  Icon: lyshineui/images/icons/abilities/musket_Passive05.png
+  Icon: lyshineui/images/icons/abilities/musket_Passive18.png
   StatusEffectIcon: ""
   Sound: ""
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 2.0
   TreeColumnPosition: 1.0
@@ -1831,14 +1959,14 @@
   OnHit: false
   OnBlockedHit: false
   OnCrit: false
-  OnHeadShot: false
+  OnHeadShot: true
   OnLegShot: false
   OnHitTaken: false
   OnBlockBreak: false
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
-  RequireReaction: null
+  RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
@@ -1870,7 +1998,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -1879,6 +2007,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -1895,7 +2027,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -1908,11 +2040,13 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
-  OtherApplyStatusEffect: ""
+  OtherApplyStatusEffect: Musket_Pass_Weaken
   ModifySelfApplyStatusEffectDuration: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
@@ -1924,6 +2058,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: 8.0
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1943,8 +2078,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 3.0
   TreeColumnPosition: 3.0
@@ -1999,7 +2136,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -2008,6 +2145,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -2024,7 +2165,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -2037,6 +2178,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -2053,6 +2196,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ActiveWeapon
@@ -2072,8 +2216,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 4.0
   TreeColumnPosition: 1.0
@@ -2110,7 +2256,7 @@
   DamageTableRow: ""
   RemoteDamageTableRow: ""
   RangedAttackName: ""
-  AttackType: Light
+  AttackType: ""
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
@@ -2128,8 +2274,8 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
-  DistComparisonType: ""
+  DistFromDefender: 20.0
+  DistComparisonType: GreaterThan
   NumAroundMe: null
   NumAroundComparisonType: ""
   AbilityList: ""
@@ -2137,7 +2283,11 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
-  BaseDamage: 0.15
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
+  BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
@@ -2153,7 +2303,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: 100.0
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -2166,6 +2316,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -2182,6 +2334,145 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
+  Duration: null
+  CooldownId: ""
+  CDRImmediatelyOptions: ""
+  ResetCooldownTimers: ""
+  CooldownTimer: null
+  NumFreeCooldownsPerUse: null
+  MaxHitCountMultiplier: ""
+  SetMannequinTag: ""
+  SetMannequinTagStatus: ""
+- AbilityID: Passive_Musket_Sharpshooter_CritChanceDistance_Helper
+  DisplayName: ""
+  Description: ""
+  UICategory: ""
+  Icon: ""
+  StatusEffectIcon: ""
+  Sound: ""
+  TelegraphStatusEffect: ""
+  TelegraphCountOffset: ""
+  OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: true
+  WeaponTag: Rifle
+  RequiredAbilityId: ""
+  RequiredEquippedAbilityId: Passive_Musket_Sharpshooter_CritChanceDistance
+  TreeId: 0.0
+  TreeRowPosition: 4.0
+  TreeColumnPosition: 1.0
+  IsActiveAbility: false
+  IsGlobalAbility: false
+  ScalingStrength: ""
+  ScalingDexterity: ""
+  ScalingIntelligence: ""
+  ScalingSpirit: ""
+  ScalingConstitution: ""
+  OnKill: false
+  OnExecuted: false
+  OnHit: true
+  OnBlockedHit: false
+  OnCrit: false
+  OnHeadShot: false
+  OnLegShot: false
+  OnHitTaken: false
+  OnBlockBreak: false
+  OnTargetBlockBreak: false
+  OnDeath: false
+  OnDeathsDoor: false
+  RequireReaction: true
+  NumSuccessfulHits: 0.0
+  NumConsecutiveHits: 0.0
+  MaxConsecutiveHits: 0.0
+  TrackHitCount: false
+  MaxTrackedHitCounts: 0.0
+  ResetConsecutiveOnSuccess: null
+  DamageIsRanged: null
+  DamageIsMelee: ""
+  ForceShowNameTag: ""
+  TargetHasGritActive: ""
+  DamageTableRow: ""
+  RemoteDamageTableRow: ""
+  RangedAttackName: ""
+  AttackType: ""
+  DamageTypes: ""
+  StatusEffect: ""
+  StatusEffectCategories: ""
+  DontHaveStatusEffect: ""
+  CheckStatusEffectsOnTargetOwned: null
+  TargetStatusEffect: ""
+  TargetStatusEffectCategory: ""
+  TargetStatusEffectStackSize: ""
+  TargetStatusEffectComparison: ""
+  TargetCollisionFilters: ""
+  TargetMarker: ""
+  MyHealthPercent: ""
+  MyComparisonType: ""
+  MyStaminaPercent: ""
+  MyStaminaComparisonType: ""
+  TargetHealthPercent: null
+  TargetComparisonType: ""
+  DistFromDefender: 50.0
+  DistComparisonType: LessThanOrEqual
+  NumAroundMe: null
+  NumAroundComparisonType: ""
+  AbilityList: ""
+  AbilityTrigger: ""
+  InAction: ""
+  InActionTime: null
+  AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
+  BaseDamage: 0.05
+  BaseDamageReduction: ""
+  BlockDamage: null
+  BlockDamageReduction: ""
+  CritDamage: ""
+  CritChance: ""
+  HeadshotDamage: null
+  StaggerDamage: ""
+  StaggerDamageReduction: ""
+  HitRateDmg: ""
+  HitRateDmgReduction: ""
+  HealthDamageMitigation: ""
+  ThreatDamage: ""
+  ArmorPenetration: null
+  PhysicalArmor: ""
+  ElementalArmor: ""
+  LinearlyScaleToDistance: ""
+  Knockback: ""
+  WeaponAccuracy: ""
+  Health: ""
+  DmgPctToHealth: null
+  MaxHealth: ""
+  Mana: ""
+  MaxMana: ""
+  DamageTableRowOverride: ""
+  StatusEffectDamageTableRowOverride: ""
+  ForceStatusEffectDamageTableRow: ""
+  RangedAttackNameOverride: ""
+  EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
+  PerStatusEffectOnTarget: ""
+  ForceTakeStaminaDamage: ""
+  CastSpell: ""
+  SelfApplyStatusEffect: ""
+  OtherApplyStatusEffect: ""
+  ModifySelfApplyStatusEffectDuration: null
+  SetPotencyAsCount: ""
+  MultiplyRemovedByPotency: ""
+  RemoveStatusEffects: ""
+  StatusEffectsList: ""
+  StatusEffectCategoriesList: ""
+  RemoveTargetStatusEffectsList: ""
+  ConsumeTargetStatusEffectMult: ""
+  StatusEffectDurationReduction: ""
+  TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -2201,8 +2492,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 4.0
   TreeColumnPosition: 3.0
@@ -2236,7 +2529,7 @@
   DamageIsMelee: ""
   ForceShowNameTag: ""
   TargetHasGritActive: ""
-  DamageTableRow: MusketAttack1,MusketAttack_ShootersStance,Musket_Damage_PowderBurn,Musket_Damage_PowderBurn_Upg,MusketAttack_ChargedShot,Musket_Damage_StoppingPower
+  DamageTableRow: MusketAttack1,MusketAttack_Hipfire,MusketAttack_ShootersStance,Musket_Damage_PowderBurn,MusketAttack_ChargedShot,Musket_Damage_StoppingPower
   RemoteDamageTableRow: ""
   RangedAttackName: ""
   AttackType: ""
@@ -2257,7 +2550,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -2266,6 +2559,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -2282,7 +2579,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -2295,6 +2592,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -2311,6 +2610,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -2330,8 +2630,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 5.0
   TreeColumnPosition: 2.0
@@ -2347,14 +2649,14 @@
   OnHit: false
   OnBlockedHit: false
   OnCrit: false
-  OnHeadShot: false
+  OnHeadShot: true
   OnLegShot: false
   OnHitTaken: false
   OnBlockBreak: false
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
-  RequireReaction: null
+  RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
@@ -2386,7 +2688,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -2395,6 +2697,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -2411,7 +2717,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -2424,10 +2730,12 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
-  SelfApplyStatusEffect: ""
+  SelfApplyStatusEffect: Musket_Ultimate_HeadshotTracker
   OtherApplyStatusEffect: ""
   ModifySelfApplyStatusEffectDuration: null
   SetPotencyAsCount: ""
@@ -2440,6 +2748,145 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
+  Duration: null
+  CooldownId: ""
+  CDRImmediatelyOptions: ""
+  ResetCooldownTimers: ""
+  CooldownTimer: null
+  NumFreeCooldownsPerUse: null
+  MaxHitCountMultiplier: ""
+  SetMannequinTag: ""
+  SetMannequinTagStatus: ""
+- AbilityID: Ult_Passive_Musket_ZoomHeadshot_Helper
+  DisplayName: ""
+  Description: ""
+  UICategory: ""
+  Icon: ""
+  StatusEffectIcon: ""
+  Sound: ""
+  TelegraphStatusEffect: ""
+  TelegraphCountOffset: ""
+  OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: true
+  WeaponTag: Rifle
+  RequiredAbilityId: ""
+  RequiredEquippedAbilityId: Ult_Passive_Musket_ZoomHeadshot
+  TreeId: null
+  TreeRowPosition: null
+  TreeColumnPosition: null
+  IsActiveAbility: false
+  IsGlobalAbility: false
+  ScalingStrength: ""
+  ScalingDexterity: ""
+  ScalingIntelligence: ""
+  ScalingSpirit: ""
+  ScalingConstitution: ""
+  OnKill: false
+  OnExecuted: false
+  OnHit: true
+  OnBlockedHit: false
+  OnCrit: false
+  OnHeadShot: false
+  OnLegShot: false
+  OnHitTaken: false
+  OnBlockBreak: false
+  OnTargetBlockBreak: false
+  OnDeath: false
+  OnDeathsDoor: false
+  RequireReaction: true
+  NumSuccessfulHits: 0.0
+  NumConsecutiveHits: 0.0
+  MaxConsecutiveHits: 0.0
+  TrackHitCount: false
+  MaxTrackedHitCounts: 0.0
+  ResetConsecutiveOnSuccess: null
+  DamageIsRanged: null
+  DamageIsMelee: ""
+  ForceShowNameTag: ""
+  TargetHasGritActive: ""
+  DamageTableRow: MusketAttack1,MusketAttack_Hipfire,MusketAttack_ShootersStance,Musket_Damage_PowderBurn,MusketAttack_ChargedShot,Musket_Damage_StoppingPower
+  RemoteDamageTableRow: ""
+  RangedAttackName: ""
+  AttackType: ""
+  DamageTypes: ""
+  StatusEffect: Musket_Ultimate_HeadshotTracker_Duration
+  StatusEffectCategories: ""
+  DontHaveStatusEffect: ""
+  CheckStatusEffectsOnTargetOwned: null
+  TargetStatusEffect: ""
+  TargetStatusEffectCategory: ""
+  TargetStatusEffectStackSize: ""
+  TargetStatusEffectComparison: ""
+  TargetCollisionFilters: ""
+  TargetMarker: ""
+  MyHealthPercent: ""
+  MyComparisonType: ""
+  MyStaminaPercent: ""
+  MyStaminaComparisonType: ""
+  TargetHealthPercent: null
+  TargetComparisonType: ""
+  DistFromDefender: null
+  DistComparisonType: ""
+  NumAroundMe: null
+  NumAroundComparisonType: ""
+  AbilityList: ""
+  AbilityTrigger: ""
+  InAction: ""
+  InActionTime: null
+  AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
+  BaseDamage: null
+  BaseDamageReduction: ""
+  BlockDamage: null
+  BlockDamageReduction: ""
+  CritDamage: ""
+  CritChance: ""
+  HeadshotDamage: null
+  StaggerDamage: ""
+  StaggerDamageReduction: ""
+  HitRateDmg: ""
+  HitRateDmgReduction: ""
+  HealthDamageMitigation: ""
+  ThreatDamage: ""
+  ArmorPenetration: null
+  PhysicalArmor: ""
+  ElementalArmor: ""
+  LinearlyScaleToDistance: ""
+  Knockback: ""
+  WeaponAccuracy: ""
+  Health: ""
+  DmgPctToHealth: null
+  MaxHealth: ""
+  Mana: ""
+  MaxMana: ""
+  DamageTableRowOverride: ""
+  StatusEffectDamageTableRowOverride: ""
+  ForceStatusEffectDamageTableRow: ""
+  RangedAttackNameOverride: ""
+  EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
+  PerStatusEffectOnTarget: ""
+  ForceTakeStaminaDamage: ""
+  CastSpell: ""
+  SelfApplyStatusEffect: ""
+  OtherApplyStatusEffect: Musket_Ultimate_Headshot_Bleed
+  ModifySelfApplyStatusEffectDuration: null
+  SetPotencyAsCount: ""
+  MultiplyRemovedByPotency: ""
+  RemoveStatusEffects: ""
+  StatusEffectsList: ""
+  StatusEffectCategoriesList: ""
+  RemoveTargetStatusEffectsList: ""
+  ConsumeTargetStatusEffectMult: ""
+  StatusEffectDurationReduction: ""
+  TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -2459,8 +2906,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 0.0
   TreeColumnPosition: 2.0
@@ -2515,7 +2964,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -2524,6 +2973,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -2540,7 +2993,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -2553,6 +3006,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -2569,6 +3024,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Musket_Traps
   CDRImmediatelyOptions: ""
@@ -2588,8 +3044,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: Ability_Musket_Traps
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 1.0
   TreeColumnPosition: 2.0
@@ -2644,7 +3102,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -2653,6 +3111,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -2669,7 +3131,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -2682,6 +3144,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -2698,6 +3162,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Musket_Traps
   CDRImmediatelyOptions: ""
@@ -2717,8 +3182,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: Upgrade_Musket_TrapRend
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 3.0
   TreeColumnPosition: 2.0
@@ -2773,7 +3240,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -2782,6 +3249,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -2798,7 +3269,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -2811,6 +3282,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -2827,6 +3300,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: 1.0
   Duration: null
   CooldownId: Ability_Musket_Traps
   CDRImmediatelyOptions: ""
@@ -2846,8 +3320,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: Upgrade_Musket_TrapWeakenAOE
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 4.0
   TreeColumnPosition: 2.0
@@ -2902,7 +3378,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -2911,6 +3387,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -2927,7 +3407,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -2940,6 +3420,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -2956,6 +3438,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Musket_Traps
   CDRImmediatelyOptions: ""
@@ -2975,8 +3458,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 2.0
   TreeColumnPosition: 4.0
@@ -3031,7 +3516,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -3040,6 +3525,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -3056,7 +3545,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -3069,6 +3558,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -3085,6 +3576,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -3104,8 +3596,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: Ability_Musket_StickyBomb
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 3.0
   TreeColumnPosition: 4.0
@@ -3160,7 +3654,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -3169,6 +3663,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -3185,7 +3683,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -3198,6 +3696,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -3214,6 +3714,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Musket_StickyBomb
   CDRImmediatelyOptions: ""
@@ -3233,8 +3734,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: Passive_Musket_StickyStamina
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 4.0
   TreeColumnPosition: 4.0
@@ -3289,7 +3792,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -3298,6 +3801,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -3314,7 +3821,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -3327,6 +3834,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -3343,6 +3852,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Musket_StickyBomb
   CDRImmediatelyOptions: ""
@@ -3362,8 +3872,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 1.0
   TreeColumnPosition: 0.0
@@ -3418,7 +3930,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -3427,6 +3939,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -3443,7 +3959,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -3456,6 +3972,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -3472,6 +3990,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Musket_StoppingPower
   CDRImmediatelyOptions: ""
@@ -3491,8 +4010,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: Ability_Musket_StoppingPower
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 2.0
   TreeColumnPosition: 0.0
@@ -3547,7 +4068,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -3556,6 +4077,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -3572,7 +4097,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -3585,6 +4110,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -3601,6 +4128,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Musket_StoppingPower
   CDRImmediatelyOptions: ""
@@ -3620,8 +4148,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: Upgrade_Musket_StoppingExhaust
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 4.0
   TreeColumnPosition: 0.0
@@ -3676,7 +4206,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -3685,6 +4215,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -3701,7 +4235,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -3714,6 +4248,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -3730,6 +4266,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Musket_StoppingPower
   CDRImmediatelyOptions: ""
@@ -3749,8 +4286,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 0.0
   TreeColumnPosition: 0.0
@@ -3805,7 +4344,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: 30.0
   TargetComparisonType: LessThan
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -3814,6 +4353,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: null
@@ -3830,7 +4373,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -3843,6 +4386,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -3859,6 +4404,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -3878,8 +4424,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 0.0
   TreeColumnPosition: 4.0
@@ -3934,7 +4482,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: 1.0
   NumAroundComparisonType: GreaterThanOrEqual
@@ -3943,6 +4491,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -3959,7 +4511,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -3972,6 +4524,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -3988,6 +4542,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4007,8 +4562,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 1.0
   TreeColumnPosition: 1.0
@@ -4063,7 +4620,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -4072,6 +4629,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: 0.5
@@ -4088,7 +4649,7 @@
   ArmorPenetration: 0.1
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -4101,6 +4662,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -4117,6 +4680,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4136,8 +4700,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 1.0
   TreeColumnPosition: 3.0
@@ -4192,7 +4758,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -4201,6 +4767,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -4217,7 +4787,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -4230,6 +4800,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -4246,6 +4818,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4265,8 +4838,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 2.0
   TreeColumnPosition: 1.0
@@ -4321,7 +4896,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -4330,6 +4905,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: Dodge
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: Dodge_Roll,Dodge_Roll_Fast,Dodge_Roll_Slow
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -4346,7 +4925,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -4359,6 +4938,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -4375,6 +4956,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: 2.0
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4394,8 +4976,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 3.0
   TreeColumnPosition: 3.0
@@ -4450,7 +5034,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -4459,6 +5043,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: Dodge
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: Dodge_Roll,Dodge_Roll_Fast,Dodge_Roll_Slow
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -4475,7 +5063,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -4488,6 +5076,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -4504,6 +5094,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: 2.0
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4523,8 +5114,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 3.0
   TreeColumnPosition: 1.0
@@ -4579,7 +5172,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -4588,6 +5181,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -4604,7 +5201,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -4617,6 +5214,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -4633,6 +5232,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4652,8 +5252,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 4.0
   TreeColumnPosition: 3.0
@@ -4708,7 +5310,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -4717,6 +5319,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: null
@@ -4733,7 +5339,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -4746,6 +5352,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -4762,6 +5370,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4781,8 +5390,10 @@
   TelegraphStatusEffect: ""
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: null
   WeaponTag: Rifle
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 5.0
   TreeColumnPosition: 2.0
@@ -4837,7 +5448,7 @@
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
   TargetComparisonType: ""
-  DistFromDefender: ""
+  DistFromDefender: null
   DistComparisonType: ""
   NumAroundMe: null
   NumAroundComparisonType: ""
@@ -4846,6 +5457,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  TargetVitalsCategory: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 0.2
   BaseDamageReduction: ""
   BlockDamage: null
@@ -4862,7 +5477,7 @@
   ArmorPenetration: null
   PhysicalArmor: ""
   ElementalArmor: ""
-  LinearlyScaleToDistance: null
+  LinearlyScaleToDistance: ""
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
@@ -4875,6 +5490,8 @@
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
@@ -4891,6 +5508,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""

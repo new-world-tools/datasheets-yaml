@@ -77,12 +77,15 @@
   InAction: Ability_WarHammer_ArmorBreaker
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_WarHammer_BlockBreaker
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -208,12 +211,15 @@
   InAction: Ability_WarHammer_ArmorBreaker
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_WarHammer_BlockBreaker
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -339,12 +345,15 @@
   InAction: Ability_WarHammer_ArmorBreaker
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_WarHammer_BlockBreaker
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -470,12 +479,15 @@
   InAction: Ability_WarHammer_ArmorBreaker
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_WarHammer_BlockBreaker
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: 0.25
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -601,12 +613,15 @@
   InAction: Ability_WarHammer_MightyGavel
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_WarHammer_MightyGavel
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -732,12 +747,15 @@
   InAction: Ability_WarHammer_MightyGavel
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_WarHammer_MightyGavel
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: 0.2
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -863,12 +881,15 @@
   InAction: Ability_WarHammer_MightyGavel
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_WarHammer_MightyGavel
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: 0.25
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -994,12 +1015,15 @@
   InAction: Ability_WarHammer_MightyGavel
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_WarHammer_MightyGavel
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -1070,7 +1094,7 @@
   ScalingConstitution: ""
   OnKill: false
   OnExecuted: false
-  OnHit: false
+  OnHit: true
   OnBlockedHit: false
   OnCrit: false
   OnHeadShot: false
@@ -1081,7 +1105,7 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
-  RequireReaction: null
+  RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
@@ -1095,7 +1119,7 @@
   ForceShowNameTag: ""
   HasGritActive: null
   TargetHasGritActive: ""
-  DamageTableRow: ""
+  DamageTableRow: Warhammer_Damage_MightyGavel
   RemoteDamageTableRow: ""
   RangedAttackName: ""
   AttackType: ""
@@ -1125,12 +1149,15 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: 0.2
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -1167,12 +1194,12 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
-  ActivationCooldown: 2.0
+  ActivationCooldown: 1.0
   Duration: ""
   CooldownId: Ability_WarHammer_MightyGavel
-  CDRImmediatelyOptions: ""
+  CDRImmediatelyOptions: AllExcept
   ResetCooldownTimers: ""
-  CooldownTimer: -0.5
+  CooldownTimer: -0.1
   NumFreeCooldownsPerUse: ""
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
@@ -1256,12 +1283,15 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: Ability_WarHammer_WreckingBall
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -1387,12 +1417,15 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: Ability_WarHammer_WreckingBall
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -1518,12 +1551,15 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: Ability_WarHammer_WreckingBall
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -1649,12 +1685,15 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -1780,12 +1819,15 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -1911,12 +1953,15 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -2042,12 +2087,15 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: 0.12
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -2173,12 +2221,15 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 0.15
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -2304,12 +2355,15 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -2435,12 +2489,15 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -2566,12 +2623,15 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: Ability_WarHammer_ClearOut
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -2667,7 +2727,7 @@
   ForceShowNameTag: ""
   HasGritActive: null
   TargetHasGritActive: ""
-  DamageTableRow: Warhammer_Damage_ClearOut
+  DamageTableRow: Warhammer_Damage_ClearOut,Warhammer_Damage_ClearOut_Perk
   RemoteDamageTableRow: ""
   RangedAttackName: ""
   AttackType: ""
@@ -2697,12 +2757,15 @@
   InAction: Ability_WarHammer_ClearOut
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_WarHammer_ClearOut
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -2798,7 +2861,7 @@
   ForceShowNameTag: ""
   HasGritActive: null
   TargetHasGritActive: ""
-  DamageTableRow: Warhammer_Damage_ClearOut
+  DamageTableRow: Warhammer_Damage_ClearOut,Warhammer_Damage_ClearOut_Perk
   RemoteDamageTableRow: ""
   RangedAttackName: ""
   AttackType: ""
@@ -2828,12 +2891,15 @@
   InAction: Ability_WarHammer_ClearOut
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_WarHammer_ClearOut
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -2929,7 +2995,7 @@
   ForceShowNameTag: ""
   HasGritActive: null
   TargetHasGritActive: ""
-  DamageTableRow: Warhammer_Damage_ClearOut
+  DamageTableRow: Warhammer_Damage_ClearOut,Warhammer_Damage_ClearOut_Perk
   RemoteDamageTableRow: ""
   RangedAttackName: ""
   AttackType: ""
@@ -2959,12 +3025,15 @@
   InAction: Ability_WarHammer_ClearOut
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_WarHammer_ClearOut
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -3090,12 +3159,15 @@
   InAction: Ability_WarHammer_Shockwave
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_WarHammer_Shockwave
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -3221,12 +3293,15 @@
   InAction: Ability_WarHammer_Shockwave
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_WarHammer_Shockwave
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -3352,12 +3427,15 @@
   InAction: Ability_WarHammer_Shockwave
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_WarHammer_Shockwave
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -3483,12 +3561,15 @@
   InAction: Ability_WarHammer_PathOfDestiny
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_WarHammer_PathOfDestiny
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -3614,12 +3695,15 @@
   InAction: Ability_WarHammer_PathOfDestiny
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_WarHammer_PathOfDestiny
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -3745,12 +3829,15 @@
   InAction: Ability_WarHammer_PathOfDestiny
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_WarHammer_PathOfDestiny
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -3876,12 +3963,15 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -4007,12 +4097,15 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: 0.3
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -4138,12 +4231,15 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -4269,12 +4365,15 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -4400,12 +4499,15 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -4531,12 +4633,15 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 0.15
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -4622,11 +4727,11 @@
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
-  TrackHitCount: false
+  TrackHitCount: true
   MaxTrackedHitCounts: 0.0
   ResetConsecutiveOnSuccess: null
-  NumberOfTrackedHits: null
-  NumberOfHitsComparisonType: ""
+  NumberOfTrackedHits: 3.0
+  NumberOfHitsComparisonType: LessThanOrEqual
   DamageIsRanged: null
   DamageIsMelee: null
   ForceShowNameTag: ""
@@ -4662,12 +4767,15 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -4793,12 +4901,15 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""
@@ -4924,12 +5035,15 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: null
   BlockDamageReduction: null
   CritDamage: ""
-  CritChance: ""
+  CritChance: null
   HeadshotDamage: ""
   StaggerDamage: ""
   StaggerDamageReduction: ""

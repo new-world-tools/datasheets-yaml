@@ -32,6 +32,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 2.0
   NameLocalizationKey: "@Brightwood"
   BaseStructureLimit: 300.0
@@ -61,11 +63,13 @@
   FactionControlBuff: Free_Camping
   FactionControlTerritoryBuffs: InfluencePoints_Modifier,ExperiencePoints_Modifier
   PermanentOwnershipAchievementId: TerritoryPermanentOwner02
-  UpkeepModifier: 0.2
+  UpkeepModifier: 0.1
   TerritoryStandingXpModifier: 1.25
   PoiDiscoveryXpModifier: 150.0
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 3.0
   NameLocalizationKey: "@GreatCleave"
   BaseStructureLimit: 300.0
@@ -100,6 +104,8 @@
   PoiDiscoveryXpModifier: 200.0
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 4.0
   NameLocalizationKey: "@Everfall"
   BaseStructureLimit: 300.0
@@ -129,11 +135,13 @@
   FactionControlBuff: Azoth_Salt_Yield_Modifier
   FactionControlTerritoryBuffs: InfluencePoints_Modifier,ExperiencePoints_Modifier
   PermanentOwnershipAchievementId: TerritoryPermanentOwner04
-  UpkeepModifier: 0.25
+  UpkeepModifier: 0.1
   TerritoryStandingXpModifier: 1.25
   PoiDiscoveryXpModifier: 75.0
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 5.0
   NameLocalizationKey: "@Reekwater"
   BaseStructureLimit: 300.0
@@ -163,11 +171,13 @@
   FactionControlBuff: Pvp_Track_Exp_Modifier
   FactionControlTerritoryBuffs: InfluencePoints_Modifier,ExperiencePoints_Modifier
   PermanentOwnershipAchievementId: TerritoryPermanentOwner05
-  UpkeepModifier: 0.15
+  UpkeepModifier: 0.1
   TerritoryStandingXpModifier: 1.25
   PoiDiscoveryXpModifier: 400.0
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 6.0
   NameLocalizationKey: "@Windsward"
   BaseStructureLimit: 300.0
@@ -197,11 +207,13 @@
   FactionControlBuff: Chance_Consumable_Not_Used
   FactionControlTerritoryBuffs: InfluencePoints_Modifier,ExperiencePoints_Modifier
   PermanentOwnershipAchievementId: TerritoryPermanentOwner06
-  UpkeepModifier: 0.25
+  UpkeepModifier: 0.1
   TerritoryStandingXpModifier: 1.25
   PoiDiscoveryXpModifier: 75.0
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 7.0
   NameLocalizationKey: "@ShatteredMountain"
   BaseStructureLimit: 300.0
@@ -236,6 +248,8 @@
   PoiDiscoveryXpModifier: 400.0
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 8.0
   NameLocalizationKey: "@Queensport"
   BaseStructureLimit: 300.0
@@ -265,11 +279,13 @@
   FactionControlBuff: Faction_Store_Discount_Modifier
   FactionControlTerritoryBuffs: InfluencePoints_Modifier,ExperiencePoints_Modifier
   PermanentOwnershipAchievementId: TerritoryPermanentOwner08
-  UpkeepModifier: 0.2
+  UpkeepModifier: 0.1
   TerritoryStandingXpModifier: 1.25
   PoiDiscoveryXpModifier: 400.0
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 9.0
   NameLocalizationKey: "@FirstLight"
   BaseStructureLimit: 300.0
@@ -289,21 +305,23 @@
   AudioGroup: MX_Territory
   AudioState: First_Light
   AudioBank: ""
-  RecommendedLevel: 1.0
-  MaximumLevel: 25.0
+  RecommendedLevel: 60.0
+  MaximumLevel: 70.0
   MinCompanyDefenders: 40.0
   MinCompanyAttackers: 25.0
   CanPlaceCamp: true
-  ObjectiveID: 06_getoffbeach
+  ObjectiveID: ""
   IsTerritory: true
-  FactionControlBuff: ""
-  FactionControlTerritoryBuffs: InfluencePoints_Modifier,ExperiencePoints_Modifier
-  PermanentOwnershipAchievementId: TerritoryPermanentOwner09
-  UpkeepModifier: 0.1
+  FactionControlBuff: None
+  FactionControlTerritoryBuffs: None
+  PermanentOwnershipAchievementId: ""
+  UpkeepModifier: null
   TerritoryStandingXpModifier: 1.25
-  PoiDiscoveryXpModifier: 75.0
-  EntryAchievementId: 09_FirstLightUnlock
+  PoiDiscoveryXpModifier: 400.0
+  EntryAchievementId: Expansion_2023_Unlock && 09_FirstLightUnlock
   EntryStatusEffectId: Env_FirstLightLock_DoT
+  EntryEntitlement: Ent_Xpack_RiseOfTheAngryEarth_Owner
+  EntryObjective: 09A_M1_EnterZone_EG
 - TerritoryID: 10.0
   NameLocalizationKey: "@CutlassKeys"
   BaseStructureLimit: 300.0
@@ -338,6 +356,8 @@
   PoiDiscoveryXpModifier: 150.0
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 11.0
   NameLocalizationKey: "@Mourningdale"
   BaseStructureLimit: 300.0
@@ -372,6 +392,8 @@
   PoiDiscoveryXpModifier: 200.0
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 12.0
   NameLocalizationKey: "@MonarchsBluffs"
   BaseStructureLimit: 300.0
@@ -401,11 +423,13 @@
   FactionControlBuff: Progression_Global_Modifier
   FactionControlTerritoryBuffs: InfluencePoints_Modifier,ExperiencePoints_Modifier
   PermanentOwnershipAchievementId: TerritoryPermanentOwner12
-  UpkeepModifier: 0.2
+  UpkeepModifier: 0.1
   TerritoryStandingXpModifier: 1.25
   PoiDiscoveryXpModifier: 75.0
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 13.0
   NameLocalizationKey: "@WeaversFen"
   BaseStructureLimit: 300.0
@@ -440,6 +464,8 @@
   PoiDiscoveryXpModifier: 150.0
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 14.0
   NameLocalizationKey: "@Edengrove"
   BaseStructureLimit: 300.0
@@ -466,14 +492,16 @@
   CanPlaceCamp: true
   ObjectiveID: ""
   IsTerritory: true
-  FactionControlBuff: None
-  FactionControlTerritoryBuffs: None
-  PermanentOwnershipAchievementId: ""
-  UpkeepModifier: null
+  FactionControlBuff: Taxes_Global_Modifier
+  FactionControlTerritoryBuffs: InfluencePoints_Modifier,ExperiencePoints_Modifier
+  PermanentOwnershipAchievementId: TerritoryPermanentOwner14
+  UpkeepModifier: 0.1
   TerritoryStandingXpModifier: 1.25
   PoiDiscoveryXpModifier: 400.0
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 15.0
   NameLocalizationKey: "@RestlessShore"
   BaseStructureLimit: 300.0
@@ -508,6 +536,8 @@
   PoiDiscoveryXpModifier: 200.0
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 16.0
   NameLocalizationKey: "@BrimstoneSands"
   BaseStructureLimit: 300.0
@@ -537,11 +567,13 @@
   FactionControlBuff: Gathering_Volume_Modifier
   FactionControlTerritoryBuffs: InfluencePoints_Modifier,ExperiencePoints_Modifier
   PermanentOwnershipAchievementId: TerritoryPermanentOwner16
-  UpkeepModifier: 0.25
+  UpkeepModifier: 0.1
   TerritoryStandingXpModifier: 1.25
   PoiDiscoveryXpModifier: 400.0
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 18.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -576,6 +608,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 19.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -610,6 +644,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 20.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -644,6 +680,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 21.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -678,6 +716,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 22.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -712,6 +752,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 23.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -746,6 +788,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 24.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -780,6 +824,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 25.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -814,6 +860,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 26.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -848,6 +896,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 27.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -882,6 +932,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 28.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -916,6 +968,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 29.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -950,6 +1004,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 30.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -984,6 +1040,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 31.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1018,6 +1076,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 32.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1052,6 +1112,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 33.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1086,6 +1148,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 34.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1120,6 +1184,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 35.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1154,6 +1220,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 36.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1188,6 +1256,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 37.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1222,6 +1292,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 38.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1256,6 +1328,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 39.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1290,6 +1364,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 40.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1324,6 +1400,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 41.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1358,6 +1436,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 42.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1392,6 +1472,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 43.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1426,6 +1508,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 44.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1460,6 +1544,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 45.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1494,6 +1580,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 46.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1528,6 +1616,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 47.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1562,6 +1652,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 48.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1596,6 +1688,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 49.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1630,6 +1724,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 50.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1664,6 +1760,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 51.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1698,6 +1796,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 52.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1732,6 +1832,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 53.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1766,6 +1868,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 54.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1800,6 +1904,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 55.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1834,6 +1940,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 56.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1868,6 +1976,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 57.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1902,6 +2012,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 58.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1936,6 +2048,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 59.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -1970,6 +2084,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 60.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2004,6 +2120,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 61.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2038,6 +2156,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 62.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2072,6 +2192,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 63.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2106,6 +2228,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 64.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2140,6 +2264,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 65.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2174,6 +2300,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 66.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2208,6 +2336,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 67.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2242,6 +2372,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 68.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2276,6 +2408,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 69.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2310,6 +2444,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 70.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2344,6 +2480,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 71.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2378,6 +2516,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 72.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2412,6 +2552,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 73.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2446,6 +2588,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 74.0
   NameLocalizationKey: "@DevWorld_Red"
   BaseStructureLimit: 300.0
@@ -2480,6 +2624,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 75.0
   NameLocalizationKey: "@DevWorld_Blue"
   BaseStructureLimit: 300.0
@@ -2514,6 +2660,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 76.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2548,6 +2696,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 77.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2582,6 +2732,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 78.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2616,6 +2768,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 79.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2650,6 +2804,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 80.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2684,6 +2840,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 81.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2718,6 +2876,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 82.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2752,6 +2912,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 83.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2786,6 +2948,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 84.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2820,6 +2984,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 85.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2854,6 +3020,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 86.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2888,6 +3056,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 87.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2922,6 +3092,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 88.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2956,6 +3128,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 89.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -2990,6 +3164,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 90.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3024,6 +3200,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 91.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3058,6 +3236,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 92.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3092,6 +3272,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 93.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3126,6 +3308,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 94.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3160,6 +3344,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 95.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3194,6 +3380,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 96.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3228,6 +3416,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 97.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3262,6 +3452,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 98.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3296,6 +3488,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 99.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3330,6 +3524,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 100.0
   NameLocalizationKey: "@Campground"
   BaseStructureLimit: 300.0
@@ -3364,6 +3560,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 101.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3398,6 +3596,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 102.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3432,6 +3632,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 103.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3466,6 +3668,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 104.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3500,6 +3704,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 105.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3534,6 +3740,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 106.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3568,6 +3776,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 107.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3602,6 +3812,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 108.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3636,6 +3848,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 109.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3670,6 +3884,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 110.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3704,6 +3920,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 111.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3738,6 +3956,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 112.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3772,6 +3992,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 113.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3806,6 +4028,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 114.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3840,6 +4064,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 115.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3874,6 +4100,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 116.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3908,6 +4136,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 117.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3942,6 +4172,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 118.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -3976,6 +4208,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 119.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4010,6 +4244,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 120.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4044,6 +4280,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 121.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4078,6 +4316,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 122.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4112,6 +4352,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 123.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4146,6 +4388,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 124.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4180,6 +4424,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 125.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4214,6 +4460,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 126.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4248,6 +4496,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 127.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4282,6 +4532,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 128.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4316,6 +4568,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 129.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4350,6 +4604,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 130.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4384,6 +4640,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 131.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4418,6 +4676,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 132.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4452,6 +4712,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 133.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4486,6 +4748,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 134.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4520,6 +4784,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 135.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4554,6 +4820,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 136.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4588,6 +4856,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 137.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4622,6 +4892,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 138.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4656,6 +4928,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 139.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4690,6 +4964,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 140.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4724,6 +5000,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 141.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4758,6 +5036,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 142.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4792,6 +5072,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 143.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4826,6 +5108,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 144.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4860,6 +5144,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 145.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4894,6 +5180,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 146.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4928,6 +5216,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 147.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4962,6 +5252,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 148.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -4996,6 +5288,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 149.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -5030,6 +5324,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 150.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -5064,6 +5360,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 151.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -5098,6 +5396,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 152.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -5132,6 +5432,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 153.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -5166,6 +5468,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 154.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -5200,6 +5504,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 155.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -5234,6 +5540,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 156.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -5268,6 +5576,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 157.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -5302,6 +5612,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 158.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -5336,6 +5648,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 159.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -5370,6 +5684,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 160.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -5404,6 +5720,8 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""
 - TerritoryID: 900.0
   NameLocalizationKey: ""
   BaseStructureLimit: 300.0
@@ -5438,3 +5756,5 @@
   PoiDiscoveryXpModifier: null
   EntryAchievementId: ""
   EntryStatusEffectId: ""
+  EntryEntitlement: ""
+  EntryObjective: ""

@@ -3,19 +3,19 @@
   CameraStateOrigin: 1 0 2
   CameraStateLookAt: 1 0 0
   EnterBlendTime: 2.0
-  ExitBlendTime: ""
+  ExitBlendTime: null
   HideUIOnTrigger: "true"
-  OriginEnterBlendTime: ""
-  OriginExitBlendTime: ""
+  OriginEnterBlendTime: null
+  OriginExitBlendTime: null
   UseAbsolutePos: ""
-  HidePlayerAvatar: ""
-  HideNearbyPlayerAvatars: ""
+  HidePlayerAvatar: null
+  HideNearbyPlayerAvatars: null
   BlockPlayerInput: ""
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
   CanSkip: ""
-  PlayFadeEffect: ""
+  PlayFadeEffect: null
   BannerTitleLabelText: ""
   BannerTitleText: ""
   BannerDescriptionText: ""
@@ -24,19 +24,61 @@
   CameraStateOrigin: 3 0 2
   CameraStateLookAt: 0 0 0
   EnterBlendTime: 3.0
-  ExitBlendTime: ""
+  ExitBlendTime: null
   HideUIOnTrigger: "false"
-  OriginEnterBlendTime: ""
-  OriginExitBlendTime: ""
+  OriginEnterBlendTime: null
+  OriginExitBlendTime: null
   UseAbsolutePos: ""
-  HidePlayerAvatar: ""
-  HideNearbyPlayerAvatars: ""
+  HidePlayerAvatar: null
+  HideNearbyPlayerAvatars: null
   BlockPlayerInput: ""
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
   CanSkip: ""
-  PlayFadeEffect: ""
+  PlayFadeEffect: null
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: CU
+  CameraState: NPC_CU_CamState
+  CameraStateOrigin: -.15 .2 1.65
+  CameraStateLookAt: -.22 0 1.65
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  HideUIOnTrigger: "FALSE"
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  UseAbsolutePos: ""
+  HidePlayerAvatar: true
+  HideNearbyPlayerAvatars: true
+  BlockPlayerInput: ""
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: true
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: MCU
+  CameraState: NPC_MCU_CamState
+  CameraStateOrigin: -.05 .5 1.5
+  CameraStateLookAt: -.8 .1 1.5
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  HideUIOnTrigger: "FALSE"
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  UseAbsolutePos: ""
+  HidePlayerAvatar: true
+  HideNearbyPlayerAvatars: true
+  BlockPlayerInput: ""
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: true
   BannerTitleLabelText: ""
   BannerTitleText: ""
   BannerDescriptionText: ""

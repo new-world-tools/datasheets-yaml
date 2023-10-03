@@ -3778,6 +3778,42 @@
   AttributeType: ""
   AchievementsID: ""
   AchievementCategory: ""
+- MetaAchievementId: PvE_Dungeon_BossTakedown_CrystalClaw
+  ReadyForSteam: false
+  SteamApiName: META_PVE_DUNGEON_CRYSTALCLAW
+  Type: CategoryKills
+  Predecessor MetaAchievementIds: ""
+  ProgressId: Dungeon_BossTakedown_CrystalClaw
+  ProgressIdParent: ""
+  UIDisplayCategory: Dungeon_Bosses
+  HideFromUI: null
+  Title: "@ui_metachievement_pve_bossKill_dungeon_crystalclaw_title"
+  Description: "@ui_metachievement_pve_bossKill_dungeon_crystalclaw_desc"
+  Hidden Text: "@ui_metachievement_hidden_instance_dungeonboss"
+  Notification Verbosity: OneHundred
+  Tier: ""
+  Icon: "LyShineUI\\Images\\Icons\\Achievements\\PvE_Dungeon_BossTakedown1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 1.0
+  VitalsCategories: FL_Mammoth_Boss_DG_FirstLight_01
+  Categorical Progression: ""
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: "NO"
+  InGroup: ANY
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
 - MetaAchievementId: QuestArc_FishTraining
   ReadyForSteam: true
   SteamApiName: META_QUEST_FISHINGCOUNT
@@ -11015,8 +11051,8 @@
   AchievementsID: ""
   AchievementCategory: ""
 - MetaAchievementId: CharacterProgression6
-  ReadyForSteam: true
-  SteamApiName: META_CHAR_PROGRESS6
+  ReadyForSteam: null
+  SteamApiName: ""
   Type: CharacterLevel
   Predecessor MetaAchievementIds: CharacterProgression1
   ProgressId: ""
@@ -11031,7 +11067,7 @@
   Icon: "lyshineui\\images\\Icons\\Achievements\\CharacterProgression1.png"
   Entitlement Id: ""
   AchievePoints: 0.0
-  Total: 59.0
+  Total: 64.0
   VitalsCategories: ""
   Categorical Progression: ""
   LorePagesTopicIds: ""
@@ -11410,6 +11446,42 @@
   AttributeType: ""
   AchievementsID: ""
   AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Arcana6
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevelarcana_title6"
+  Description: "@ui_metachievement_skilllevelarcana_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_vi"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_Arcana1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 250.0
+  VitalsCategories: ""
+  Categorical Progression: Arcana
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
 - MetaAchievementId: SkillLevel_Armoring1
   ReadyForSteam: null
   SteamApiName: ""
@@ -11572,6 +11644,42 @@
   Entitlement Id: ""
   AchievePoints: 0.0
   Total: 200.0
+  VitalsCategories: ""
+  Categorical Progression: Armoring
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Armoring6
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevelarmoring_title6"
+  Description: "@ui_metachievement_skilllevelarmoring_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_vi"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_Armoring1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 250.0
   VitalsCategories: ""
   Categorical Progression: Armoring
   LorePagesTopicIds: ""
@@ -11770,6 +11878,42 @@
   AttributeType: ""
   AchievementsID: ""
   AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Cooking6
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevelcooking_title6"
+  Description: "@ui_metachievement_skilllevelcooking_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_vi"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_Cooking1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 250.0
+  VitalsCategories: ""
+  Categorical Progression: Cooking
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
 - MetaAchievementId: SkillLevel_Engineering1
   ReadyForSteam: null
   SteamApiName: ""
@@ -11932,6 +12076,42 @@
   Entitlement Id: ""
   AchievePoints: 0.0
   Total: 200.0
+  VitalsCategories: ""
+  Categorical Progression: Engineering
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Engineering6
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevelengineering_title6"
+  Description: "@ui_metachievement_skilllevelengineering_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_vi"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_Engineering1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 250.0
   VitalsCategories: ""
   Categorical Progression: Engineering
   LorePagesTopicIds: ""
@@ -12130,6 +12310,42 @@
   AttributeType: ""
   AchievementsID: ""
   AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Furnishing6
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevelfurnishing_title6"
+  Description: "@ui_metachievement_skilllevelfurnishing_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_vi"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_Furnishing1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 250.0
+  VitalsCategories: ""
+  Categorical Progression: Furnishing
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
 - MetaAchievementId: SkillLevel_Jewelcrafting1
   ReadyForSteam: null
   SteamApiName: ""
@@ -12292,6 +12508,42 @@
   Entitlement Id: ""
   AchievePoints: 0.0
   Total: 200.0
+  VitalsCategories: ""
+  Categorical Progression: Jewelcrafting
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Jewelcrafting6
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skillleveljewelcraft_title6"
+  Description: "@ui_metachievement_skillleveljewelcraft_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_vi"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_Jewelcrafting1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 250.0
   VitalsCategories: ""
   Categorical Progression: Jewelcrafting
   LorePagesTopicIds: ""
@@ -12490,6 +12742,42 @@
   AttributeType: ""
   AchievementsID: ""
   AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Weaponsmithing6
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevelweaponsmith_title6"
+  Description: "@ui_metachievement_skilllevelweaponsmith_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_vi"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_Weaponsmithing1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 250.0
+  VitalsCategories: ""
+  Categorical Progression: Weaponsmithing
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
 - MetaAchievementId: SkillLevel_Leatherworking1
   ReadyForSteam: null
   SteamApiName: ""
@@ -12652,6 +12940,42 @@
   Entitlement Id: ""
   AchievePoints: 0.0
   Total: 200.0
+  VitalsCategories: ""
+  Categorical Progression: Leatherworking
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Leatherworking6
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevelleatherwork_title6"
+  Description: "@ui_metachievement_skilllevelleatherwork_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_vi"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_Leatherworking1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 250.0
   VitalsCategories: ""
   Categorical Progression: Leatherworking
   LorePagesTopicIds: ""
@@ -12850,6 +13174,42 @@
   AttributeType: ""
   AchievementsID: ""
   AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Smelter6
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevelsmelt_title6"
+  Description: "@ui_metachievement_skilllevelsmelt_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_vi"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_Smelter1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 250.0
+  VitalsCategories: ""
+  Categorical Progression: Smelting
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
 - MetaAchievementId: SkillLevel_Stonecutting1
   ReadyForSteam: null
   SteamApiName: ""
@@ -13012,6 +13372,42 @@
   Entitlement Id: ""
   AchievePoints: 0.0
   Total: 200.0
+  VitalsCategories: ""
+  Categorical Progression: Stonecutting
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Stonecutting6
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevelstonecutting_title6"
+  Description: "@ui_metachievement_skilllevelstonecutting_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_vi"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_Stonecutting1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 250.0
   VitalsCategories: ""
   Categorical Progression: Stonecutting
   LorePagesTopicIds: ""
@@ -13210,6 +13606,42 @@
   AttributeType: ""
   AchievementsID: ""
   AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Weaving6
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevelweaving_title6"
+  Description: "@ui_metachievement_skilllevelweaving_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_v"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_Weaving1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 250.0
+  VitalsCategories: ""
+  Categorical Progression: Weaving
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
 - MetaAchievementId: SkillLevel_Woodworking1
   ReadyForSteam: null
   SteamApiName: ""
@@ -13372,6 +13804,42 @@
   Entitlement Id: ""
   AchievePoints: 0.0
   Total: 200.0
+  VitalsCategories: ""
+  Categorical Progression: Woodworking
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Woodworking6
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevelwoodwork_title6"
+  Description: "@ui_metachievement_skilllevelwoodwork_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_vi"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_Woodworking1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 250.0
   VitalsCategories: ""
   Categorical Progression: Woodworking
   LorePagesTopicIds: ""
@@ -13570,6 +14038,42 @@
   AttributeType: ""
   AchievementsID: ""
   AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Harvesting6
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevelharvest_title6"
+  Description: "@ui_metachievement_skilllevelharvest_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_vi"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_Harvesting1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 250.0
+  VitalsCategories: ""
+  Categorical Progression: Harvesting
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
 - MetaAchievementId: SkillLevel_Logging1
   ReadyForSteam: null
   SteamApiName: ""
@@ -13732,6 +14236,42 @@
   Entitlement Id: ""
   AchievePoints: 0.0
   Total: 200.0
+  VitalsCategories: ""
+  Categorical Progression: Logging
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Logging6
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevellogging_title6"
+  Description: "@ui_metachievement_skilllevellogging_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_vi"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_Logging1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 250.0
   VitalsCategories: ""
   Categorical Progression: Logging
   LorePagesTopicIds: ""
@@ -13930,6 +14470,42 @@
   AttributeType: ""
   AchievementsID: ""
   AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Mining6
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevelmining_title6"
+  Description: "@ui_metachievement_skilllevelmining_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_vi"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_Mining1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 250.0
+  VitalsCategories: ""
+  Categorical Progression: Mining
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
 - MetaAchievementId: SkillLevel_TrackAndSkin1
   ReadyForSteam: null
   SteamApiName: ""
@@ -14092,6 +14668,42 @@
   Entitlement Id: ""
   AchievePoints: 0.0
   Total: 200.0
+  VitalsCategories: ""
+  Categorical Progression: Skinning
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: SkillLevel_TrackAndSkin6
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skillleveltracknskin_title6"
+  Description: "@ui_metachievement_skillleveltracknskin_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_vi"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_TrackAndSkin1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 250.0
   VitalsCategories: ""
   Categorical Progression: Skinning
   LorePagesTopicIds: ""
@@ -14290,6 +14902,42 @@
   AttributeType: ""
   AchievementsID: ""
   AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Fishing6
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevelfishing_title6"
+  Description: "@ui_metachievement_skilllevelfishing_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_vi"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_Fishing1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 250.0
+  VitalsCategories: ""
+  Categorical Progression: Fishing
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
 - MetaAchievementId: SkillLevel_Music1
   ReadyForSteam: null
   SteamApiName: ""
@@ -14452,6 +15100,42 @@
   Entitlement Id: ""
   AchievePoints: 0.0
   Total: 200.0
+  VitalsCategories: ""
+  Categorical Progression: Musician
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Music7
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevelmusic_title5"
+  Description: "@ui_metachievement_skilllevelmusic_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_vi"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\Achievement_MusicEasy.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 250.0
   VitalsCategories: ""
   Categorical Progression: Musician
   LorePagesTopicIds: ""
@@ -14650,6 +15334,42 @@
   AttributeType: ""
   AchievementsID: ""
   AchievementCategory: ""
+- MetaAchievementId: TradeSkillExpert6
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: TradeskillsAll
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevelexpert_title6"
+  Description: "@ui_metachievement_skilllevelexpert_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_vi"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\TradeSkillExpert1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 250.0
+  VitalsCategories: ""
+  Categorical Progression: ""
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
 - MetaAchievementId: GearScoreProgression1
   ReadyForSteam: null
   SteamApiName: ""
@@ -14776,6 +15496,78 @@
   Entitlement Id: ""
   AchievePoints: 0.0
   Total: 600.0
+  VitalsCategories: ""
+  Categorical Progression: ""
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: GearScoreProgression5
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: GearScoreProgression
+  Predecessor MetaAchievementIds: GearScoreProgression3
+  ProgressId: ""
+  ProgressIdParent: GearScoreProgression
+  UIDisplayCategory: Gear_Bonuses
+  HideFromUI: null
+  Title: "@ui_metachievement_gearscoreprogression_title4"
+  Description: "@ui_metachievement_gearscoreprogression_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_iv"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\GearScoreProgression1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 600.0
+  VitalsCategories: ""
+  Categorical Progression: ""
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: GearScoreProgression6
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: GearScoreProgression
+  Predecessor MetaAchievementIds: GearScoreProgression3
+  ProgressId: ""
+  ProgressIdParent: GearScoreProgression
+  UIDisplayCategory: Gear_Bonuses
+  HideFromUI: null
+  Title: "@ui_metachievement_gearscoreprogression_title5"
+  Description: "@ui_metachievement_gearscoreprogression_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_v"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\GearScoreProgression1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 700.0
   VitalsCategories: ""
   Categorical Progression: ""
   LorePagesTopicIds: ""
@@ -16002,6 +16794,150 @@
   Total: 300.0
   VitalsCategories: ""
   Categorical Progression: "8"
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: TerritoryStanding_Edengrove1
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Territory_Standing
+  HideFromUI: null
+  Title: "@ui_metachievement_territorystanding_edengrove_title1"
+  Description: "@ui_metachievement_territorystanding_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_i"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\TerritoryStanding_EbonscaleReach1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 5.0
+  VitalsCategories: ""
+  Categorical Progression: "14"
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: TerritoryStanding_Edengrove2
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Territory_Standing
+  HideFromUI: null
+  Title: "@ui_metachievement_territorystanding_edengrove_title2"
+  Description: "@ui_metachievement_territorystanding_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_ii"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\TerritoryStanding_EbonscaleReach1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 20.0
+  VitalsCategories: ""
+  Categorical Progression: "14"
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: TerritoryStanding_Edengrove3
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Territory_Standing
+  HideFromUI: null
+  Title: "@ui_metachievement_territorystanding_edengrove_title3"
+  Description: "@ui_metachievement_territorystanding_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_iii"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\TerritoryStanding_EbonscaleReach1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 150.0
+  VitalsCategories: ""
+  Categorical Progression: "14"
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: TerritoryStanding_Edengrove4
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Territory_Standing
+  HideFromUI: null
+  Title: "@ui_metachievement_territorystanding_edengrove_title4"
+  Description: "@ui_metachievement_territorystanding_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_iv"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\TerritoryStanding_EbonscaleReach1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 300.0
+  VitalsCategories: ""
+  Categorical Progression: "14"
   LorePagesTopicIds: ""
   TradeskillType: ""
   ItemClass: ""
@@ -19242,6 +20178,114 @@
   Total: 19.0
   VitalsCategories: ""
   Categorical Progression: GreatSwordAbilityTable
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: WeaponMastery_Flail1
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Weapon_Mastery
+  HideFromUI: null
+  Title: "@ui_metachievement_weaponmastery_Flail_title1"
+  Description: "@ui_metachievement_weaponmastery_Flail_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_i"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\WeaponMastery_Flail1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 4.0
+  VitalsCategories: ""
+  Categorical Progression: FlailAbilityTable
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: WeaponMastery_Flail2
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Weapon_Mastery
+  HideFromUI: null
+  Title: "@ui_metachievement_weaponmastery_Flail_title2"
+  Description: "@ui_metachievement_weaponmastery_Flail_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_ii"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\WeaponMastery_Flail1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 9.0
+  VitalsCategories: ""
+  Categorical Progression: FlailAbilityTable
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: WeaponMastery_Flail3
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Weapon_Mastery
+  HideFromUI: null
+  Title: "@ui_metachievement_weaponmastery_Flail_title3"
+  Description: "@ui_metachievement_weaponmastery_Flail_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_iii"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\WeaponMastery_Flail1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 19.0
+  VitalsCategories: ""
+  Categorical Progression: FlailAbilityTable
   LorePagesTopicIds: ""
   TradeskillType: ""
   ItemClass: ""
@@ -26170,6 +27214,42 @@
   AttributeType: ""
   AchievementsID: ""
   AchievementCategory: ""
+- MetaAchievementId: FirstCraft_NamedWeapon_FlailClass
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: FirstNamedWeapon
+  Predecessor MetaAchievementIds: ""
+  ProgressId: FirstCraft_NamedWeapon_FlailClass
+  ProgressIdParent: ""
+  UIDisplayCategory: Named_Item_Crafting
+  HideFromUI: null
+  Title: "@ui_metachievement_firstnamedcraft_Flail_title"
+  Description: "@ui_metachievement_firstnamedcraft_generic_desc"
+  Hidden Text: "@ui_metachievement_hidden_generic"
+  Notification Verbosity: OneHundred
+  Tier: ""
+  Icon: "lyshineui\\images\\Icons\\Achievements\\FirstCraft_NamedWeapon_FlailClass.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 1.0
+  VitalsCategories: ""
+  Categorical Progression: ""
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: Flail
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
 - MetaAchievementId: Craft_NamedWeaponCount1
   ReadyForSteam: null
   SteamApiName: ""
@@ -29770,7 +30850,7 @@
   AttributeType: ""
   AchievementsID: ""
   AchievementCategory: ""
-- MetaAchievementId: QuestArc_Edengrove1
+- MetaAchievementId: QuestArc_v2_Edengrove1
   ReadyForSteam: null
   SteamApiName: ""
   Type: QuestArc
@@ -29779,8 +30859,8 @@
   ProgressIdParent: ""
   UIDisplayCategory: Territory_Stories
   HideFromUI: null
-  Title: "@ui_metachievement_questarc_edengrove_title1"
-  Description: "@ui_metachievement_questarc_edengrove_desc1"
+  Title: "@ui_metachievement_questarc_v2_edengrove_title1"
+  Description: "@ui_metachievement_questarc_v2_edengrove_desc1"
   Hidden Text: ""
   Notification Verbosity: OneHundred
   Tier: "@ui_meta_achievements_roman_numeral_i"
@@ -29794,7 +30874,7 @@
   TradeskillType: ""
   ItemClass: ""
   TrueFalse: null
-  QuestGroupTag: EdengroveArc1
+  QuestGroupTag: EdengroveV2Arc1
   GameEventType: ""
   TerritoryId: null
   IsPvp: ""
@@ -29804,9 +30884,9 @@
   GameModeId: ""
   GameModeResult: ""
   AttributeType: ""
-  AchievementsID: ""
+  AchievementsID: 99E_MSQ_01,99E_MSQ_03,99E_MSQ_04,99E_MSQ_08
   AchievementCategory: ""
-- MetaAchievementId: QuestArc_Edengrove2
+- MetaAchievementId: QuestArc_v2_Edengrove2
   ReadyForSteam: null
   SteamApiName: ""
   Type: QuestArc
@@ -29815,8 +30895,8 @@
   ProgressIdParent: ""
   UIDisplayCategory: Territory_Stories
   HideFromUI: null
-  Title: "@ui_metachievement_questarc_edengrove_title2"
-  Description: "@ui_metachievement_questarc_edengrove_desc2"
+  Title: "@ui_metachievement_questarc_v2_edengrove_title2"
+  Description: "@ui_metachievement_questarc_v2_edengrove_desc2"
   Hidden Text: ""
   Notification Verbosity: OneHundred
   Tier: "@ui_meta_achievements_roman_numeral_ii"
@@ -29830,7 +30910,7 @@
   TradeskillType: ""
   ItemClass: ""
   TrueFalse: null
-  QuestGroupTag: EdengroveArc2
+  QuestGroupTag: EdengroveV2Arc2
   GameEventType: ""
   TerritoryId: null
   IsPvp: ""
@@ -29840,9 +30920,9 @@
   GameModeId: ""
   GameModeResult: ""
   AttributeType: ""
-  AchievementsID: ""
+  AchievementsID: 99E_MSQ_02,99E_MSQ_05,99E_MSQ_06,99E_MSQ_07
   AchievementCategory: ""
-- MetaAchievementId: QuestArc_Edengrove3
+- MetaAchievementId: QuestArc_v2_Edengrove3
   ReadyForSteam: null
   SteamApiName: ""
   Type: QuestArc
@@ -29851,8 +30931,8 @@
   ProgressIdParent: ""
   UIDisplayCategory: Territory_Stories
   HideFromUI: null
-  Title: "@ui_metachievement_questarc_edengrove_title3"
-  Description: "@ui_metachievement_questarc_edengrove_desc3"
+  Title: "@ui_metachievement_questarc_v2_edengrove_title3"
+  Description: "@ui_metachievement_questarc_v2_edengrove_desc3"
   Hidden Text: ""
   Notification Verbosity: OneHundred
   Tier: "@ui_meta_achievements_roman_numeral_iii"
@@ -29866,7 +30946,7 @@
   TradeskillType: ""
   ItemClass: ""
   TrueFalse: null
-  QuestGroupTag: EdengroveArc3
+  QuestGroupTag: EdengroveV2Arc3
   GameEventType: ""
   TerritoryId: null
   IsPvp: ""
@@ -29876,7 +30956,7 @@
   GameModeId: ""
   GameModeResult: ""
   AttributeType: ""
-  AchievementsID: ""
+  AchievementsID: 99E_MSQ_09,99E_MSQ_10
   AchievementCategory: ""
 - MetaAchievementId: Quest_Everfall_Reborn
   ReadyForSteam: null
@@ -29950,20 +31030,20 @@
   AttributeType: ""
   AchievementsID: 04A_Side01_01,04A_Side01_02,04A_Side02_01,04A_Side02_02,04A_Side02_03,04A_Side02_04,04A_Side02_05,04A_Side03_01,04A_Side03_02,04A_Side03_03,04A_Side04_01,04A_Side04_02,04A_Side04_03,04A_Side04_04,04A_Side04_05,04A_Side04_06,04A_Side04_07,04A_Side05_01,04A_Side05_02,04A_Side05_03,04A_Side05_04,04A_Side06_01,04A_Side06_02,04A_Side07_01,04A_Side07_02,04A_Side07_03,04A_Side07_04,04A_Side08_01,04A_Side08_02,04A_Side08_03,04A_Side09_01,04A_Side10_01
   AchievementCategory: ""
-- MetaAchievementId: QuestArc_GreatCleave1
+- MetaAchievementId: Quest_GreatCleave_Thorpe
   ReadyForSteam: null
   SteamApiName: ""
-  Type: QuestArc
+  Type: BinaryAchievement
   Predecessor MetaAchievementIds: ""
   ProgressId: ""
   ProgressIdParent: ""
   UIDisplayCategory: Territory_Stories
   HideFromUI: null
-  Title: "@ui_metachievement_questarc_greatcleave_title1"
-  Description: "@ui_metachievement_questarc_greatcleave_desc1"
-  Hidden Text: ""
+  Title: "@ui_metachievement_quest_greatcleave_thorpe"
+  Description: "@ui_metachievement_quest_greatcleave_thorpe_desc"
+  Hidden Text: "@ui_metachievement_hidden_greatcleave"
   Notification Verbosity: OneHundred
-  Tier: "@ui_meta_achievements_roman_numeral_i"
+  Tier: ""
   Icon: "lyshineui\\images\\Icons\\Achievements\\QuestArc_GreatCleave1.png"
   Entitlement Id: ""
   AchievePoints: 0.0
@@ -29974,7 +31054,7 @@
   TradeskillType: ""
   ItemClass: ""
   TrueFalse: null
-  QuestGroupTag: GreatCleaveArc1
+  QuestGroupTag: ""
   GameEventType: ""
   TerritoryId: null
   IsPvp: ""
@@ -29984,22 +31064,22 @@
   GameModeId: ""
   GameModeResult: ""
   AttributeType: ""
-  AchievementsID: ""
+  AchievementsID: 99D_MSQ_08
   AchievementCategory: ""
-- MetaAchievementId: QuestArc_GreatCleave2
+- MetaAchievementId: Quest_GreatCleave_GateBreaker
   ReadyForSteam: null
   SteamApiName: ""
-  Type: QuestArc
+  Type: BinaryAchievement
   Predecessor MetaAchievementIds: ""
   ProgressId: ""
   ProgressIdParent: ""
   UIDisplayCategory: Territory_Stories
   HideFromUI: null
-  Title: "@ui_metachievement_questarc_greatcleave_title2"
-  Description: "@ui_metachievement_questarc_greatcleave_desc2"
-  Hidden Text: ""
+  Title: "@ui_metachievement_quest_greatcleave_gatebreaker"
+  Description: "@ui_metachievement_quest_greatcleave_gatebreaker_desc"
+  Hidden Text: "@ui_metachievement_hidden_greatcleave"
   Notification Verbosity: OneHundred
-  Tier: "@ui_meta_achievements_roman_numeral_ii"
+  Tier: ""
   Icon: "lyshineui\\images\\Icons\\Achievements\\QuestArc_GreatCleave1.png"
   Entitlement Id: ""
   AchievePoints: 0.0
@@ -30010,7 +31090,7 @@
   TradeskillType: ""
   ItemClass: ""
   TrueFalse: null
-  QuestGroupTag: GreatCleaveArc2
+  QuestGroupTag: ""
   GameEventType: ""
   TerritoryId: null
   IsPvp: ""
@@ -30020,22 +31100,22 @@
   GameModeId: ""
   GameModeResult: ""
   AttributeType: ""
-  AchievementsID: ""
+  AchievementsID: 99D_MSQ_07
   AchievementCategory: ""
-- MetaAchievementId: QuestArc_GreatCleave3
+- MetaAchievementId: Quest_GreatCleave_Rescue
   ReadyForSteam: null
   SteamApiName: ""
-  Type: QuestArc
+  Type: BinaryAchievement
   Predecessor MetaAchievementIds: ""
   ProgressId: ""
   ProgressIdParent: ""
   UIDisplayCategory: Territory_Stories
   HideFromUI: null
-  Title: "@ui_metachievement_questarc_greatcleave_title3"
-  Description: "@ui_metachievement_questarc_greatcleave_desc3"
-  Hidden Text: ""
+  Title: "@ui_metachievement_quest_greatcleave_rescue"
+  Description: "@ui_metachievement_quest_greatcleave_rescue_desc"
+  Hidden Text: "@ui_metachievement_hidden_greatcleave"
   Notification Verbosity: OneHundred
-  Tier: "@ui_meta_achievements_roman_numeral_iii"
+  Tier: ""
   Icon: "lyshineui\\images\\Icons\\Achievements\\QuestArc_GreatCleave1.png"
   Entitlement Id: ""
   AchievePoints: 0.0
@@ -30046,7 +31126,7 @@
   TradeskillType: ""
   ItemClass: ""
   TrueFalse: null
-  QuestGroupTag: GreatCleaveArc3
+  QuestGroupTag: ""
   GameEventType: ""
   TerritoryId: null
   IsPvp: ""
@@ -30056,7 +31136,7 @@
   GameModeId: ""
   GameModeResult: ""
   AttributeType: ""
-  AchievementsID: ""
+  AchievementsID: 99D_MSQ_01,99D_MSQ_07,99D_MSQ_09,03_Quest_16,03_Quest_17,03_Quest_18,03_Quest_20,03_Quest_21,03_Quest_22,03_Quest_30,03_Quest_31,03_SQ_04,03_SQ_05,03_SQ_03
   AchievementCategory: ""
 - MetaAchievementId: Quest_MonarchsBluffsMSQ
   ReadyForSteam: null
@@ -31498,6 +32578,78 @@
   AttributeType: ""
   AchievementsID: ""
   AchievementCategory: ""
+- MetaAchievementId: Leaderboard_DivideScoreTop5
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: Leaderboard
+  Predecessor MetaAchievementIds: ""
+  ProgressId: Leaderboard_DivideScore5
+  ProgressIdParent: ""
+  UIDisplayCategory: Mutated_Expeditions
+  HideFromUI: true
+  Title: "@ui_metaachievement_leaderboard_divide_top5_score_title"
+  Description: "@ui_metaachievement_leaderboard_divide_top5_score_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_ii"
+  Icon: "LyShineUI\\Images\\Entitlements\\NewTitleIcon.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 1.0
+  VitalsCategories: ""
+  Categorical Progression: ""
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: Leaderboard_DivideScoreTop25
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: Leaderboard
+  Predecessor MetaAchievementIds: ""
+  ProgressId: Leaderboard_DivideScore25
+  ProgressIdParent: ""
+  UIDisplayCategory: Mutated_Expeditions
+  HideFromUI: true
+  Title: "@ui_metaachievement_leaderboard_divide_top25_score_title"
+  Description: "@ui_metaachievement_leaderboard_divide_top25_score_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_i"
+  Icon: "LyShineUI\\Images\\Entitlements\\NewTitleIcon.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 1.0
+  VitalsCategories: ""
+  Categorical Progression: ""
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
 - MetaAchievementId: Leaderboard_DynastyShipyardTimeTop1
   ReadyForSteam: null
   SteamApiName: ""
@@ -32121,6 +33273,78 @@
   HideFromUI: true
   Title: "@ui_metaachievement_leaderboard_forge_top25_time_title"
   Description: "@ui_metaachievement_leaderboard_forge_top25_score_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_i"
+  Icon: "LyShineUI\\Images\\Entitlements\\NewTitleIcon.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 1.0
+  VitalsCategories: ""
+  Categorical Progression: ""
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: Leaderboard_DivideTimeTop5
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: Leaderboard
+  Predecessor MetaAchievementIds: ""
+  ProgressId: Leaderboard_DivideTime5
+  ProgressIdParent: ""
+  UIDisplayCategory: Mutated_Expeditions
+  HideFromUI: true
+  Title: "@ui_metaachievement_leaderboard_divide_top5_time_title"
+  Description: "@ui_metaachievement_leaderboard_divide_top5_time_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_ii"
+  Icon: "LyShineUI\\Images\\Entitlements\\NewTitleIcon.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 1.0
+  VitalsCategories: ""
+  Categorical Progression: ""
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: Leaderboard_DivideTimeTop25
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: Leaderboard
+  Predecessor MetaAchievementIds: ""
+  ProgressId: Leaderboard_DivideTime25
+  ProgressIdParent: ""
+  UIDisplayCategory: Mutated_Expeditions
+  HideFromUI: true
+  Title: "@ui_metaachievement_leaderboard_divide_top25_time_title"
+  Description: "@ui_metaachievement_leaderboard_divide_top25_time_desc"
   Hidden Text: ""
   Notification Verbosity: OneHundred
   Tier: "@ui_meta_achievements_roman_numeral_i"
@@ -34119,6 +35343,258 @@
   TerritoryId: null
   IsPvp: "NO"
   InGroup: ANY
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: Leaderboard_EdengroveCompanyScoreTopTier
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: Leaderboard
+  Predecessor MetaAchievementIds: ""
+  ProgressId: Leaderboard_EdengroveScore
+  ProgressIdParent: ""
+  UIDisplayCategory: Territory_Control
+  HideFromUI: true
+  Title: "@ui_metaachievement_edengrove_leaderboard_top1_company_score_title"
+  Description: "@ui_metaachievement_edengrove_leaderboard_top1_company_score_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: ""
+  Icon: "LyShineUI\\Images\\Entitlements\\NewTitleIcon.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 1.0
+  VitalsCategories: ""
+  Categorical Progression: ""
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: Leaderboard_EdengroveCompanyScoreSecondTier
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: Leaderboard
+  Predecessor MetaAchievementIds: ""
+  ProgressId: Leaderboard_EdengroveScore2
+  ProgressIdParent: ""
+  UIDisplayCategory: Territory_Control
+  HideFromUI: true
+  Title: "@ui_metaachievement_edengrove_leaderboard_top10_company_score_title"
+  Description: "@ui_metaachievement_edengrove_leaderboard_top10_company_score_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: ""
+  Icon: "LyShineUI\\Images\\Entitlements\\NewTitleIcon.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 1.0
+  VitalsCategories: ""
+  Categorical Progression: ""
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Riding1
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevelRiding_title1"
+  Description: "@ui_metachievement_skilllevelRiding_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_i"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_Riding1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 20.0
+  VitalsCategories: ""
+  Categorical Progression: Riding
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Riding2
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevelRiding_title2"
+  Description: "@ui_metachievement_skilllevelRiding_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_ii"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_Riding1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 40.0
+  VitalsCategories: ""
+  Categorical Progression: Riding
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Riding3
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevelRiding_title3"
+  Description: "@ui_metachievement_skilllevelRiding_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_iii"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_Riding1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 80.0
+  VitalsCategories: ""
+  Categorical Progression: Riding
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Riding4
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevelRiding_title4"
+  Description: "@ui_metachievement_skilllevelRiding_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_iv"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_Riding1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 140.0
+  VitalsCategories: ""
+  Categorical Progression: Riding
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: SkillLevel_Riding5
+  ReadyForSteam: false
+  SteamApiName: ""
+  Type: CategoricalProgression
+  Predecessor MetaAchievementIds: ""
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Skill_Levels
+  HideFromUI: null
+  Title: "@ui_metachievement_skilllevelRiding_title5"
+  Description: "@ui_metachievement_skilllevelRiding_generic_desc"
+  Hidden Text: ""
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_v"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\SkillLevel_Riding1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
+  Total: 200.0
+  VitalsCategories: ""
+  Categorical Progression: Riding
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
   FactionType: ""
   MissionGoalType: ""
   GameModeId: ""

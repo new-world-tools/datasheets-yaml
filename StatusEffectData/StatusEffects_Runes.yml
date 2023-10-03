@@ -17,7 +17,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 8.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -160,6 +160,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -205,6 +206,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -212,6 +214,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 16.0
   InheritDuration: null
@@ -243,6 +246,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_BileBomb_Major
   DisplayName: "@Status_Slow"
   Description: "@Status_Rune_BileBomb_Major_Desc"
@@ -262,7 +269,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 3.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -405,6 +412,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -450,6 +458,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -457,6 +466,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 6.0
   InheritDuration: null
@@ -488,6 +498,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_BileBomb_Greater
   DisplayName: "@Status_Disease"
   Description: "@Status_Rune_BileBomb_Greater_Desc"
@@ -507,7 +521,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 8.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -650,6 +664,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -695,6 +710,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -702,6 +718,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 16.0
   InheritDuration: null
@@ -733,6 +750,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_BileBomb_Survivor
   DisplayName: "@Status_Disease"
   Description: "@Status_Rune_BileBomb_Survivor_Desc"
@@ -752,7 +773,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 8.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -895,6 +916,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -940,6 +962,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -947,6 +970,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 16.0
   InheritDuration: null
@@ -978,6 +1002,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_BileBomb_Survivor_Heal
   DisplayName: ""
   Description: ""
@@ -997,7 +1025,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 0.1
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -1140,6 +1168,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -1185,6 +1214,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -1192,6 +1222,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 0.1
   InheritDuration: null
@@ -1223,6 +1254,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_BileBomb_Dominator
   DisplayName: "@Status_Disease"
   Description: "@Status_Rune_BileBomb_Dominator_Desc"
@@ -1242,7 +1277,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 8.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -1385,6 +1420,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -1430,6 +1466,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -1437,6 +1474,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 16.0
   InheritDuration: null
@@ -1468,6 +1506,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_CannonBlast_Burn
   DisplayName: "@Status_Burn"
   Description: "@Status_Rune_CannonBlast_Major_Desc"
@@ -1487,7 +1529,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 5.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -1630,6 +1672,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -1675,6 +1718,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -1682,6 +1726,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
@@ -1713,6 +1758,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_Detonate
   DisplayName: "@Status_Rune_Detonate"
   Description: "@Status_Rune_Detonate_Desc"
@@ -1732,7 +1781,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 3.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -1875,6 +1924,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -1920,6 +1970,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -1927,6 +1978,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 3.0
   InheritDuration: null
@@ -1958,6 +2010,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_Detonate_CastAoE
   DisplayName: ""
   Description: ""
@@ -1977,7 +2033,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 1.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -2120,6 +2176,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -2165,6 +2222,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -2172,6 +2230,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 3.0
   InheritDuration: null
@@ -2203,6 +2262,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_Detonate_Major
   DisplayName: "@Status_Rune_Detonate"
   Description: "@Status_Rune_Detonate_Major_Desc"
@@ -2222,7 +2285,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 3.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -2365,6 +2428,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -2410,6 +2474,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -2417,6 +2482,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 3.0
   InheritDuration: null
@@ -2448,6 +2514,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_Detonate_Greater
   DisplayName: "@Status_Rune_Detonate"
   Description: "@Status_Rune_Detonate_Greater_Desc"
@@ -2467,7 +2537,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 3.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -2610,6 +2680,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -2655,6 +2726,7 @@
   DMGNature: 0.15
   DMGLightning: 0.15
   DMGCorruption: 0.15
+  DMGAcid: 0.15
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -2662,6 +2734,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 3.0
   InheritDuration: null
@@ -2693,6 +2766,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_Detonate_Dominator
   DisplayName: "@Status_Rune_Detonate"
   Description: "@Status_Rune_Detonate_Dominator_Desc"
@@ -2712,7 +2789,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 3.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -2842,8 +2919,8 @@
   INSMining: ""
   INSSkinning: ""
   INSHarvesting: ""
-  PhysicalArmor: -0.3
-  ElementalArmor: -0.3
+  PhysicalArmor: -0.5
+  ElementalArmor: -0.5
   ABSStandard: ""
   ABSSiege: ""
   ABSStrike: ""
@@ -2855,6 +2932,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -2900,6 +2978,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -2907,6 +2986,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 3.0
   InheritDuration: null
@@ -2938,6 +3018,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_StoneForm
   DisplayName: "@Status_Rune_StoneForm"
   Description: "@Status_Rune_StoneForm_Desc"
@@ -2957,7 +3041,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 5.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -3100,6 +3184,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -3145,6 +3230,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -3152,6 +3238,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: 100.0
   StackDuration: null
   DurationMax: 5.0
   InheritDuration: null
@@ -3183,6 +3270,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_StoneForm_Major
   DisplayName: "@Status_Fortify"
   Description: "@Status_Rune_StoneForm_Major_Desc"
@@ -3202,7 +3293,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 5.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -3345,6 +3436,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -3390,6 +3482,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -3397,6 +3490,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
@@ -3428,6 +3522,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_StoneForm_Greater
   DisplayName: "@Status_Fortify"
   Description: "@Status_Rune_StoneForm_Greater_Desc"
@@ -3447,7 +3545,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 5.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -3590,6 +3688,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -3635,6 +3734,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -3642,6 +3742,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 5.0
   InheritDuration: null
@@ -3673,6 +3774,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_StoneForm_Survivor
   DisplayName: "@Status_Heal"
   Description: "@Status_Rune_StoneForm_Survivor_Desc"
@@ -3692,7 +3797,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 5.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -3835,6 +3940,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -3880,6 +3986,7 @@
   DMGNature: -0.2
   DMGLightning: -0.2
   DMGCorruption: -0.2
+  DMGAcid: -0.2
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -3887,6 +3994,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 5.0
   InheritDuration: null
@@ -3918,6 +4026,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_StoneForm_Dominator
   DisplayName: "@Status_Rune_StoneForm"
   Description: "@Status_Rune_StoneForm_Major_Desc"
@@ -3937,7 +4049,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 5.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -4080,6 +4192,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -4125,6 +4238,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -4132,6 +4246,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: 100.0
   StackDuration: null
   DurationMax: 8.0
   InheritDuration: null
@@ -4163,6 +4278,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_StoneForm_Dominator_CastAoE
   DisplayName: ""
   Description: ""
@@ -4182,7 +4301,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 1.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -4325,6 +4444,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -4370,6 +4490,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -4377,6 +4498,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 3.0
   InheritDuration: null
@@ -4408,6 +4530,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_GraspingVines
   DisplayName: "@Status_Root"
   Description: "@Status_Root_Description"
@@ -4427,7 +4553,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 3.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -4570,6 +4696,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -4615,6 +4742,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -4622,6 +4750,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 3.0
   InheritDuration: null
@@ -4653,6 +4782,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_GraspingVines_Major
   DisplayName: "@Status_Weaken"
   Description: "@Status_Rune_GraspingVines_Major_Desc"
@@ -4672,7 +4805,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 8.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -4815,6 +4948,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -4860,6 +4994,7 @@
   DMGNature: -0.2
   DMGLightning: -0.2
   DMGCorruption: -0.2
+  DMGAcid: -0.2
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -4867,6 +5002,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 16.0
   InheritDuration: null
@@ -4898,6 +5034,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_GraspingVines_Survivor
   DisplayName: "@Status_Fortify"
   Description: "@Status_Rune_GraspingVines_Survivor_Desc"
@@ -4917,7 +5057,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 5.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -5060,6 +5200,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -5105,6 +5246,7 @@
   DMGNature: -0.2
   DMGLightning: -0.2
   DMGCorruption: -0.2
+  DMGAcid: -0.2
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -5112,6 +5254,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
@@ -5143,6 +5286,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_GraspingVines_Dominator_Rend
   DisplayName: "@Status_Rend"
   Description: "@Status_Rune_GraspingVines_Dominator_Rend_Desc"
@@ -5162,7 +5309,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 5.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -5305,6 +5452,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -5350,6 +5498,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -5357,6 +5506,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
@@ -5388,6 +5538,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_GraspingVines_Dominator_ReduceStamRegen
   DisplayName: "@Status_Exhaust"
   Description: "@Status_Rune_GraspingVines_Dominator_ReducedStamRegen_Desc"
@@ -5407,7 +5561,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 5.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -5550,6 +5704,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -5595,6 +5750,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -5602,6 +5758,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
@@ -5633,6 +5790,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_HereticsFall_Greater
   DisplayName: "@Status_Slow"
   Description: "@Status_Rune_HereticsFall_Greater_Desc"
@@ -5652,7 +5813,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 4.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -5795,6 +5956,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -5840,6 +6002,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -5847,6 +6010,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 8.0
   InheritDuration: null
@@ -5878,6 +6042,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_HereticsFall_Survivor
   DisplayName: "@Status_Fortify"
   Description: "@Status_Rune_HereticsFall_Survivor_Desc"
@@ -5897,7 +6065,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 5.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -6040,6 +6208,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -6085,6 +6254,7 @@
   DMGNature: -0.1
   DMGLightning: -0.1
   DMGCorruption: -0.1
+  DMGAcid: -0.1
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -6092,6 +6262,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
@@ -6123,6 +6294,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_FireStorm_DoT Application
   DisplayName: ""
   Description: ""
@@ -6142,7 +6317,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 1.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: Rune_FireStorm_DoT
   KeepOnTickEffectOnEnd: true
@@ -6285,6 +6460,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -6330,6 +6506,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -6337,6 +6514,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 2.0
   InheritDuration: null
@@ -6368,6 +6546,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_FireStorm_DoT
   DisplayName: "@Status_FireStorm_DoT_Name"
   Description: "@Status_Rune_FireStorm_DoT_Desc"
@@ -6387,7 +6569,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 6.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -6530,6 +6712,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -6575,6 +6758,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -6582,6 +6766,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
@@ -6613,6 +6798,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_FireStorm_Empower
   DisplayName: "@Status_Empower"
   Description: "@Status_Rune_FireStorm_Empower_Desc"
@@ -6632,7 +6821,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 6.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -6775,6 +6964,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -6820,6 +7010,7 @@
   DMGNature: 0.1
   DMGLightning: 0.1
   DMGCorruption: 0.1
+  DMGAcid: 0.1
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -6827,6 +7018,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
@@ -6858,6 +7050,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Status_Rune_FireStorm_Major
   DisplayName: "@Status_Weaken"
   Description: "@Status_FireStorm_Major_Desc"
@@ -6877,7 +7073,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 8.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -7020,6 +7216,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -7065,6 +7262,7 @@
   DMGNature: -0.15
   DMGLightning: -0.15
   DMGCorruption: -0.15
+  DMGAcid: -0.15
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -7072,6 +7270,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 15.0
   InheritDuration: null
@@ -7103,6 +7302,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Status_Rune_FireStorm_Greater
   DisplayName: "@Status_Haste"
   Description: "@Status_FireStorm_Greater_Desc"
@@ -7122,7 +7325,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 8.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -7265,6 +7468,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -7310,6 +7514,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -7317,6 +7522,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 15.0
   InheritDuration: true
@@ -7348,6 +7554,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Rune_FireStorm_DoT _Survivor_Application
   DisplayName: ""
   Description: ""
@@ -7367,7 +7577,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 1.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: Status_Rune_FireStorm_Survivor_DoT
   KeepOnTickEffectOnEnd: true
@@ -7510,6 +7720,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -7555,6 +7766,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -7562,6 +7774,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 2.0
   InheritDuration: null
@@ -7593,6 +7806,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Status_Rune_FireStorm_Survivor_DoT
   DisplayName: "@Status_FireStorm_DoT_Name"
   Description: "@Status_FireStorm_Survivor__DoT_Desc"
@@ -7612,7 +7829,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 6.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -7755,6 +7972,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -7800,6 +8018,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -7807,6 +8026,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
@@ -7838,6 +8058,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Status_Rune_FireStorm_Survivor_Cleanse
   DisplayName: ""
   Description: ""
@@ -7857,7 +8081,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 0.1
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -8000,6 +8224,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -8045,6 +8270,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -8052,6 +8278,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 1.0
   InheritDuration: null
@@ -8083,6 +8310,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Status_Rune_Sandworm_Slow
   DisplayName: "@Status_Slow"
   Description: "@Status_Rune_Sandworm_Major_Desc"
@@ -8102,7 +8333,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 5.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -8245,6 +8476,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -8290,6 +8522,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -8297,6 +8530,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
@@ -8328,6 +8562,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Status_Rune_Sandworm_Poison
   DisplayName: "@Status_Sandworm_DoT_Name"
   Description: "@Status_Rune_Sandworm_DoT_Desc"
@@ -8347,7 +8585,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 7.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -8490,6 +8728,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -8535,6 +8774,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -8542,6 +8782,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
@@ -8573,6 +8814,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Status_Rune_Sandworm_SelfWeaken
   DisplayName: "@Status_Sandworm_SelfWeaken_Name"
   Description: "@Status_Sandworm_SelfWeaken_Desc"
@@ -8592,7 +8837,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 5.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -8735,6 +8980,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -8780,6 +9026,7 @@
   DMGNature: -0.2
   DMGLightning: -0.2
   DMGCorruption: -0.2
+  DMGAcid: -0.2
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -8787,6 +9034,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: 0.0
   DurationMax: 5.0
   InheritDuration: null
@@ -8818,6 +9066,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
 - StatusID: Status_Rune_Sandworm_Uninterruptible
   DisplayName: "@Status_Sandworm_Uninterruptible_Name"
   Description: "@Status_Sandworm_Uninterruptible_Desc"
@@ -8837,7 +9089,7 @@
   DurationScalingPerGearScore: ""
   BaseDuration: 5.0
   TickRate: 1.0
-  DelayInitialTick: null
+  DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -8980,6 +9232,7 @@
   ABSNature: ""
   ABSLightning: ""
   ABSCorruption: ""
+  ABSAcid: ""
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -9025,6 +9278,7 @@
   DMGNature: null
   DMGLightning: null
   DMGCorruption: null
+  DMGAcid: null
   DMGVitalsCategory: ""
   AFAPoison: ""
   AFADisease: ""
@@ -9032,6 +9286,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFAStunned: null
   StackDuration: 0.0
   DurationMax: 5.0
   InheritDuration: null
@@ -9063,3 +9318,1771 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
+- StatusID: Status_Rune_BeastMode
+  DisplayName: ""
+  Description: ""
+  EffectCategories: NonDispellableSlow
+  PlaceholderIcon: ""
+  ShowInUITray: false
+  ShowTextInDamageNumbers: false
+  FxScriptOn: Rune_BeastMode_On
+  FxScriptOff: ""
+  ShouldRefreshFxScript: ""
+  WeaponEffectType: ""
+  Notification: ""
+  DisableTelemetry: ""
+  IsClientPredicted: ""
+  PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  BaseDuration: 30.0
+  TickRate: 0.0
+  DelayInitialTick: ""
+  TickCondition: ""
+  OnTickStatusEffect: ""
+  KeepOnTickEffectOnEnd: null
+  StopOnHitCount: ""
+  HitCondition: ""
+  RequireReaction: ""
+  OnStackStatusEffect: ""
+  AddOnStackSize: ""
+  AddOnStackSizeComparison: ""
+  HealThreatMultiplier: ""
+  ScaleAmountOverTime: ""
+  ScaleAmountOverTimeMin: ""
+  ScaleAmountOverTimeMax: ""
+  DamageSkipsDeathsDoor: ""
+  Health: ""
+  HealthMin: ""
+  HealthModifierPercent: ""
+  HealthModifierDamageBased: null
+  UseHealScalingValue: ""
+  HealScalingValueMultiplier: ""
+  StaminaDamageModifier: ""
+  ManaModifierDamageBased: ""
+  DamageType: ""
+  CritChanceModifier: ""
+  CritDamageModifier: ""
+  OnEndStatusEffect: Status_Rune_BeastMode_RemoveAll
+  DontApplyOnEndEffectOnRemove: null
+  CastSpell: ""
+  DisableCastSpellDurability: null
+  TargetOwnsSpell: ""
+  UseSourceWeaponForSpell: ""
+  FromAlchemy: ""
+  FromSpell: ""
+  NoHealthRegen: ""
+  HealMod: null
+  MaxHealthMod: ""
+  HealthRate: ""
+  CoreTempMod: ""
+  TempMod: ""
+  Stamina: ""
+  StaminaRate: null
+  Mana: ""
+  ManaRate: ""
+  Food: ""
+  FoodBurn: ""
+  Drink: ""
+  DrinkBurn: ""
+  Encumbrance: ""
+  ItemClassWeightMods: ""
+  XPIncreases: ""
+  AzothMod: ""
+  FactionReputationMod: ""
+  FactionTokensMod: ""
+  EXPLogging: ""
+  EXPMining: ""
+  EXPHarvesting: ""
+  EXPSkinning: ""
+  EXPSmelting: ""
+  EXPWoodworking: ""
+  EXPLeatherworking: ""
+  EXPWeaving: ""
+  EXPStonecutting: ""
+  GrantSanctuary: ""
+  NoSprint: null
+  NoRun: null
+  NoDodge: null
+  NoNav: null
+  Silenced: null
+  Stunned: null
+  RemoveOnDeath: 1.0
+  RemoveOnDeathsDoor: 1.0
+  RemoveOnRespawn: 1.0
+  RemoveOnGameModeExit: ""
+  IgnoreDiminishingReturns: ""
+  OnlyChangeOwnedStatusEffects: ""
+  Afflictions: ""
+  OnHitAffixes: ""
+  EquipAbility: ""
+  UseSourceWeaponForAbilityEffect: null
+  SlotToFillWeaponDamageInfo: HEART_GEM_SLOT
+  IsNegative: null
+  RespecTradeskills: ""
+  RespecAttributes: ""
+  EffectDurationMods: ""
+  EffectPotencyMods: ""
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: ""
+  GlobalRollMod: ""
+  FishingLineStrength: ""
+  FishSizeRollModifier: ""
+  MODConstitution: ""
+  MODFocus: ""
+  MODStrength: ""
+  MODDexterity: ""
+  MODIntelligence: ""
+  MGSArcana: ""
+  MGSWeaponsmithing: ""
+  MGSJewelcrafting: ""
+  MGSEngineering: ""
+  MGSArmoring: ""
+  MaxGSArcana: ""
+  MaxGSWeaponsmithing: ""
+  MaxGSJewelcrafting: ""
+  MaxGSEngineering: ""
+  MaxGSArmoring: ""
+  ROLCooking: ""
+  ROLWeaving: ""
+  ROLStonecutting: ""
+  ROLSmelting: ""
+  ROLLeatherworking: ""
+  ROLWoodworking: ""
+  ROLLogging: ""
+  ROLMining: ""
+  ROLSkinning: ""
+  ROLHarvesting: ""
+  ROLFishing: ""
+  MULTLogging: ""
+  MULTMining: ""
+  MULTSkinning: ""
+  MULTHarvesting: ""
+  MULTFishing: ""
+  EFFLogging: ""
+  EFFMining: ""
+  EFFSkinning: ""
+  EFFHarvesting: ""
+  INSLogging: ""
+  INSMining: ""
+  INSSkinning: ""
+  INSHarvesting: ""
+  PhysicalArmor: null
+  ElementalArmor: null
+  ABSStandard: ""
+  ABSSiege: ""
+  ABSStrike: ""
+  ABSSlash: ""
+  ABSThrust: ""
+  ABSArcane: ""
+  ABSFire: ""
+  ABSIce: ""
+  ABSNature: ""
+  ABSLightning: ""
+  ABSCorruption: ""
+  ABSAcid: ""
+  ABSVitalsCategory: ""
+  RESPoison: ""
+  RESDisease: ""
+  RESBleed: ""
+  RESFrostbite: ""
+  RESCurse: ""
+  RESBlight: ""
+  BLAStandard: ""
+  BLASiege: ""
+  BLAStrike: ""
+  BLASlash: ""
+  BLAThrust: ""
+  BLAArcane: ""
+  BLAFire: ""
+  BLAIce: ""
+  BLALightning: ""
+  BLACorruption: ""
+  ABAPoison: ""
+  ABADisease: ""
+  ABABleed: ""
+  ABAFrostbite: ""
+  ABACurse: ""
+  ABABlight: ""
+  WKNStandard: ""
+  WKNSiege: ""
+  WKNStrike: ""
+  WKNSlash: ""
+  WKNThrust: ""
+  WKNArcane: ""
+  WKNFire: ""
+  WKNIce: ""
+  WKNNature: ""
+  WKNLightning: ""
+  WKNCorruption: ""
+  DMGStandard: null
+  DMGSiege: 0.5
+  DMGStrike: null
+  DMGSlash: null
+  DMGThrust: null
+  DMGArcane: null
+  DMGFire: null
+  DMGIce: null
+  DMGNature: null
+  DMGLightning: null
+  DMGCorruption: null
+  DMGAcid: null
+  DMGVitalsCategory: ""
+  AFAPoison: ""
+  AFADisease: ""
+  AFABleed: ""
+  AFAFrostbite: ""
+  AFACurse: ""
+  AFABlight: ""
+  AFAStunned: null
+  StackDuration: null
+  DurationMax: null
+  InheritDuration: null
+  InheritTotalDuration: ""
+  RefreshDuration: null
+  StackMax: 1.0
+  InitialStackSize: ""
+  RemoveUnappliedStacks: null
+  PotencyMax: null
+  DontReplaceStack: ""
+  MoveSpeedMod: -0.266666
+  SprintSpeedMod: -0.266666
+  FastTravelEncumbranceMod: ""
+  GameEventId: ""
+  HealRewardGameEventId: ""
+  HealRewardThreshold: ""
+  WeaponMasteryCategoryId: ""
+  UIPriority: null
+  UiNameplatePriority: null
+  ShowInNameplates: null
+  ShowTextInNameplates: ""
+  OverrideOtherNameplateText: ""
+  HidesOtherStatusEffectIcons: ""
+  DynamicModelScaleFactor: 0.5
+  DynamicModelScaleRampTimeSecs: 1.0
+  SpawnSlice: ""
+  DisableSupportContributionRewards: ""
+  BlockMultipleEffectsFromSameSource: ""
+  AllowSelfOnlyAsSourceForAbilities: ""
+  IgnoreInvulnerable: ""
+  NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: "TRUE"
+- StatusID: Status_Rune_BeastMode_Greater_Buff
+  DisplayName: "@Status_Unstoppable"
+  Description: "@Status_Rune_BeastMode_Greater_Buff_Desc"
+  EffectCategories: Buff+Uninterruptible
+  PlaceholderIcon: lyshineui/images/status/SE_Berserk.png
+  ShowInUITray: true
+  ShowTextInDamageNumbers: false
+  FxScriptOn: Rune_BeastMode_On
+  FxScriptOff: Rune_StoneForm_Off
+  ShouldRefreshFxScript: ""
+  WeaponEffectType: ""
+  Notification: ""
+  DisableTelemetry: ""
+  IsClientPredicted: ""
+  PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  BaseDuration: -1.0
+  TickRate: 0.0
+  DelayInitialTick: ""
+  TickCondition: ""
+  OnTickStatusEffect: ""
+  KeepOnTickEffectOnEnd: null
+  StopOnHitCount: ""
+  HitCondition: ""
+  RequireReaction: ""
+  OnStackStatusEffect: ""
+  AddOnStackSize: ""
+  AddOnStackSizeComparison: ""
+  HealThreatMultiplier: ""
+  ScaleAmountOverTime: ""
+  ScaleAmountOverTimeMin: ""
+  ScaleAmountOverTimeMax: ""
+  DamageSkipsDeathsDoor: ""
+  Health: ""
+  HealthMin: ""
+  HealthModifierPercent: ""
+  HealthModifierDamageBased: null
+  UseHealScalingValue: ""
+  HealScalingValueMultiplier: ""
+  StaminaDamageModifier: ""
+  ManaModifierDamageBased: ""
+  DamageType: ""
+  CritChanceModifier: ""
+  CritDamageModifier: ""
+  OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: null
+  CastSpell: ""
+  DisableCastSpellDurability: null
+  TargetOwnsSpell: ""
+  UseSourceWeaponForSpell: ""
+  FromAlchemy: ""
+  FromSpell: ""
+  NoHealthRegen: ""
+  HealMod: null
+  MaxHealthMod: ""
+  HealthRate: ""
+  CoreTempMod: ""
+  TempMod: ""
+  Stamina: ""
+  StaminaRate: null
+  Mana: ""
+  ManaRate: ""
+  Food: ""
+  FoodBurn: ""
+  Drink: ""
+  DrinkBurn: ""
+  Encumbrance: ""
+  ItemClassWeightMods: ""
+  XPIncreases: ""
+  AzothMod: ""
+  FactionReputationMod: ""
+  FactionTokensMod: ""
+  EXPLogging: ""
+  EXPMining: ""
+  EXPHarvesting: ""
+  EXPSkinning: ""
+  EXPSmelting: ""
+  EXPWoodworking: ""
+  EXPLeatherworking: ""
+  EXPWeaving: ""
+  EXPStonecutting: ""
+  GrantSanctuary: ""
+  NoSprint: null
+  NoRun: null
+  NoDodge: null
+  NoNav: null
+  Silenced: null
+  Stunned: null
+  RemoveOnDeath: 1.0
+  RemoveOnDeathsDoor: 1.0
+  RemoveOnRespawn: 1.0
+  RemoveOnGameModeExit: ""
+  IgnoreDiminishingReturns: ""
+  OnlyChangeOwnedStatusEffects: ""
+  Afflictions: ""
+  OnHitAffixes: ""
+  EquipAbility: ""
+  UseSourceWeaponForAbilityEffect: null
+  SlotToFillWeaponDamageInfo: HEART_GEM_SLOT
+  IsNegative: null
+  RespecTradeskills: ""
+  RespecAttributes: ""
+  EffectDurationMods: ""
+  EffectPotencyMods: ""
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: ""
+  GlobalRollMod: ""
+  FishingLineStrength: ""
+  FishSizeRollModifier: ""
+  MODConstitution: ""
+  MODFocus: ""
+  MODStrength: ""
+  MODDexterity: ""
+  MODIntelligence: ""
+  MGSArcana: ""
+  MGSWeaponsmithing: ""
+  MGSJewelcrafting: ""
+  MGSEngineering: ""
+  MGSArmoring: ""
+  MaxGSArcana: ""
+  MaxGSWeaponsmithing: ""
+  MaxGSJewelcrafting: ""
+  MaxGSEngineering: ""
+  MaxGSArmoring: ""
+  ROLCooking: ""
+  ROLWeaving: ""
+  ROLStonecutting: ""
+  ROLSmelting: ""
+  ROLLeatherworking: ""
+  ROLWoodworking: ""
+  ROLLogging: ""
+  ROLMining: ""
+  ROLSkinning: ""
+  ROLHarvesting: ""
+  ROLFishing: ""
+  MULTLogging: ""
+  MULTMining: ""
+  MULTSkinning: ""
+  MULTHarvesting: ""
+  MULTFishing: ""
+  EFFLogging: ""
+  EFFMining: ""
+  EFFSkinning: ""
+  EFFHarvesting: ""
+  INSLogging: ""
+  INSMining: ""
+  INSSkinning: ""
+  INSHarvesting: ""
+  PhysicalArmor: null
+  ElementalArmor: null
+  ABSStandard: ""
+  ABSSiege: ""
+  ABSStrike: ""
+  ABSSlash: ""
+  ABSThrust: ""
+  ABSArcane: ""
+  ABSFire: ""
+  ABSIce: ""
+  ABSNature: ""
+  ABSLightning: ""
+  ABSCorruption: ""
+  ABSAcid: ""
+  ABSVitalsCategory: ""
+  RESPoison: ""
+  RESDisease: ""
+  RESBleed: ""
+  RESFrostbite: ""
+  RESCurse: ""
+  RESBlight: ""
+  BLAStandard: ""
+  BLASiege: ""
+  BLAStrike: ""
+  BLASlash: ""
+  BLAThrust: ""
+  BLAArcane: ""
+  BLAFire: ""
+  BLAIce: ""
+  BLALightning: ""
+  BLACorruption: ""
+  ABAPoison: ""
+  ABADisease: ""
+  ABABleed: ""
+  ABAFrostbite: ""
+  ABACurse: ""
+  ABABlight: ""
+  WKNStandard: ""
+  WKNSiege: ""
+  WKNStrike: ""
+  WKNSlash: ""
+  WKNThrust: ""
+  WKNArcane: ""
+  WKNFire: ""
+  WKNIce: ""
+  WKNNature: ""
+  WKNLightning: ""
+  WKNCorruption: ""
+  DMGStandard: null
+  DMGSiege: null
+  DMGStrike: null
+  DMGSlash: null
+  DMGThrust: null
+  DMGArcane: null
+  DMGFire: null
+  DMGIce: null
+  DMGNature: null
+  DMGLightning: null
+  DMGCorruption: null
+  DMGAcid: null
+  DMGVitalsCategory: ""
+  AFAPoison: ""
+  AFADisease: ""
+  AFABleed: ""
+  AFAFrostbite: ""
+  AFACurse: ""
+  AFABlight: ""
+  AFAStunned: null
+  StackDuration: null
+  DurationMax: null
+  InheritDuration: null
+  InheritTotalDuration: ""
+  RefreshDuration: null
+  StackMax: 1.0
+  InitialStackSize: ""
+  RemoveUnappliedStacks: null
+  PotencyMax: null
+  DontReplaceStack: ""
+  MoveSpeedMod: null
+  SprintSpeedMod: null
+  FastTravelEncumbranceMod: ""
+  GameEventId: ""
+  HealRewardGameEventId: ""
+  HealRewardThreshold: ""
+  WeaponMasteryCategoryId: ""
+  UIPriority: null
+  UiNameplatePriority: null
+  ShowInNameplates: null
+  ShowTextInNameplates: ""
+  OverrideOtherNameplateText: ""
+  HidesOtherStatusEffectIcons: ""
+  DynamicModelScaleFactor: null
+  DynamicModelScaleRampTimeSecs: null
+  SpawnSlice: ""
+  DisableSupportContributionRewards: ""
+  BlockMultipleEffectsFromSameSource: ""
+  AllowSelfOnlyAsSourceForAbilities: ""
+  IgnoreInvulnerable: ""
+  NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: "TRUE"
+- StatusID: Status_Rune_BeastMode_Survivor_Buff
+  DisplayName: "@Status_Fortify"
+  Description: "@Status_Rune_BeastMode_Survivor_Buff_Desc"
+  EffectCategories: Buff+ArmorFortify
+  PlaceholderIcon: lyshineui/images/status/SE_FortifyT3.png
+  ShowInUITray: true
+  ShowTextInDamageNumbers: false
+  FxScriptOn: Rune_BeastMode_On
+  FxScriptOff: Rune_StoneForm_Off
+  ShouldRefreshFxScript: ""
+  WeaponEffectType: ""
+  Notification: ""
+  DisableTelemetry: ""
+  IsClientPredicted: ""
+  PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  BaseDuration: -1.0
+  TickRate: 0.0
+  DelayInitialTick: ""
+  TickCondition: ""
+  OnTickStatusEffect: ""
+  KeepOnTickEffectOnEnd: null
+  StopOnHitCount: ""
+  HitCondition: ""
+  RequireReaction: ""
+  OnStackStatusEffect: ""
+  AddOnStackSize: ""
+  AddOnStackSizeComparison: ""
+  HealThreatMultiplier: ""
+  ScaleAmountOverTime: ""
+  ScaleAmountOverTimeMin: ""
+  ScaleAmountOverTimeMax: ""
+  DamageSkipsDeathsDoor: ""
+  Health: ""
+  HealthMin: ""
+  HealthModifierPercent: ""
+  HealthModifierDamageBased: null
+  UseHealScalingValue: ""
+  HealScalingValueMultiplier: ""
+  StaminaDamageModifier: ""
+  ManaModifierDamageBased: ""
+  DamageType: ""
+  CritChanceModifier: ""
+  CritDamageModifier: ""
+  OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: null
+  CastSpell: ""
+  DisableCastSpellDurability: null
+  TargetOwnsSpell: ""
+  UseSourceWeaponForSpell: ""
+  FromAlchemy: ""
+  FromSpell: ""
+  NoHealthRegen: ""
+  HealMod: null
+  MaxHealthMod: ""
+  HealthRate: ""
+  CoreTempMod: ""
+  TempMod: ""
+  Stamina: ""
+  StaminaRate: null
+  Mana: ""
+  ManaRate: ""
+  Food: ""
+  FoodBurn: ""
+  Drink: ""
+  DrinkBurn: ""
+  Encumbrance: ""
+  ItemClassWeightMods: ""
+  XPIncreases: ""
+  AzothMod: ""
+  FactionReputationMod: ""
+  FactionTokensMod: ""
+  EXPLogging: ""
+  EXPMining: ""
+  EXPHarvesting: ""
+  EXPSkinning: ""
+  EXPSmelting: ""
+  EXPWoodworking: ""
+  EXPLeatherworking: ""
+  EXPWeaving: ""
+  EXPStonecutting: ""
+  GrantSanctuary: ""
+  NoSprint: null
+  NoRun: null
+  NoDodge: null
+  NoNav: null
+  Silenced: null
+  Stunned: null
+  RemoveOnDeath: 1.0
+  RemoveOnDeathsDoor: 1.0
+  RemoveOnRespawn: 1.0
+  RemoveOnGameModeExit: ""
+  IgnoreDiminishingReturns: ""
+  OnlyChangeOwnedStatusEffects: ""
+  Afflictions: ""
+  OnHitAffixes: ""
+  EquipAbility: ""
+  UseSourceWeaponForAbilityEffect: null
+  SlotToFillWeaponDamageInfo: HEART_GEM_SLOT
+  IsNegative: null
+  RespecTradeskills: ""
+  RespecAttributes: ""
+  EffectDurationMods: ""
+  EffectPotencyMods: ""
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: ""
+  GlobalRollMod: ""
+  FishingLineStrength: ""
+  FishSizeRollModifier: ""
+  MODConstitution: ""
+  MODFocus: ""
+  MODStrength: ""
+  MODDexterity: ""
+  MODIntelligence: ""
+  MGSArcana: ""
+  MGSWeaponsmithing: ""
+  MGSJewelcrafting: ""
+  MGSEngineering: ""
+  MGSArmoring: ""
+  MaxGSArcana: ""
+  MaxGSWeaponsmithing: ""
+  MaxGSJewelcrafting: ""
+  MaxGSEngineering: ""
+  MaxGSArmoring: ""
+  ROLCooking: ""
+  ROLWeaving: ""
+  ROLStonecutting: ""
+  ROLSmelting: ""
+  ROLLeatherworking: ""
+  ROLWoodworking: ""
+  ROLLogging: ""
+  ROLMining: ""
+  ROLSkinning: ""
+  ROLHarvesting: ""
+  ROLFishing: ""
+  MULTLogging: ""
+  MULTMining: ""
+  MULTSkinning: ""
+  MULTHarvesting: ""
+  MULTFishing: ""
+  EFFLogging: ""
+  EFFMining: ""
+  EFFSkinning: ""
+  EFFHarvesting: ""
+  INSLogging: ""
+  INSMining: ""
+  INSSkinning: ""
+  INSHarvesting: ""
+  PhysicalArmor: 0.2
+  ElementalArmor: 0.2
+  ABSStandard: ""
+  ABSSiege: ""
+  ABSStrike: ""
+  ABSSlash: ""
+  ABSThrust: ""
+  ABSArcane: ""
+  ABSFire: ""
+  ABSIce: ""
+  ABSNature: ""
+  ABSLightning: ""
+  ABSCorruption: ""
+  ABSAcid: ""
+  ABSVitalsCategory: ""
+  RESPoison: ""
+  RESDisease: ""
+  RESBleed: ""
+  RESFrostbite: ""
+  RESCurse: ""
+  RESBlight: ""
+  BLAStandard: ""
+  BLASiege: ""
+  BLAStrike: ""
+  BLASlash: ""
+  BLAThrust: ""
+  BLAArcane: ""
+  BLAFire: ""
+  BLAIce: ""
+  BLALightning: ""
+  BLACorruption: ""
+  ABAPoison: ""
+  ABADisease: ""
+  ABABleed: ""
+  ABAFrostbite: ""
+  ABACurse: ""
+  ABABlight: ""
+  WKNStandard: ""
+  WKNSiege: ""
+  WKNStrike: ""
+  WKNSlash: ""
+  WKNThrust: ""
+  WKNArcane: ""
+  WKNFire: ""
+  WKNIce: ""
+  WKNNature: ""
+  WKNLightning: ""
+  WKNCorruption: ""
+  DMGStandard: null
+  DMGSiege: null
+  DMGStrike: null
+  DMGSlash: null
+  DMGThrust: null
+  DMGArcane: null
+  DMGFire: null
+  DMGIce: null
+  DMGNature: null
+  DMGLightning: null
+  DMGCorruption: null
+  DMGAcid: null
+  DMGVitalsCategory: ""
+  AFAPoison: ""
+  AFADisease: ""
+  AFABleed: ""
+  AFAFrostbite: ""
+  AFACurse: ""
+  AFABlight: ""
+  AFAStunned: null
+  StackDuration: null
+  DurationMax: null
+  InheritDuration: null
+  InheritTotalDuration: ""
+  RefreshDuration: null
+  StackMax: 1.0
+  InitialStackSize: ""
+  RemoveUnappliedStacks: null
+  PotencyMax: null
+  DontReplaceStack: ""
+  MoveSpeedMod: null
+  SprintSpeedMod: null
+  FastTravelEncumbranceMod: ""
+  GameEventId: ""
+  HealRewardGameEventId: ""
+  HealRewardThreshold: ""
+  WeaponMasteryCategoryId: ""
+  UIPriority: null
+  UiNameplatePriority: null
+  ShowInNameplates: null
+  ShowTextInNameplates: ""
+  OverrideOtherNameplateText: ""
+  HidesOtherStatusEffectIcons: ""
+  DynamicModelScaleFactor: null
+  DynamicModelScaleRampTimeSecs: null
+  SpawnSlice: ""
+  DisableSupportContributionRewards: ""
+  BlockMultipleEffectsFromSameSource: ""
+  AllowSelfOnlyAsSourceForAbilities: ""
+  IgnoreInvulnerable: ""
+  NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: "TRUE"
+- StatusID: Status_Rune_BeastMode_Survivor_Debuff
+  DisplayName: "@Status_Weaken"
+  Description: "@Status_Rune_BeastMode_Survivor_Debuff_Desc"
+  EffectCategories: Debuff+Weaken
+  PlaceholderIcon: lyshineui/images/status/SE_WeakenT3.png
+  ShowInUITray: true
+  ShowTextInDamageNumbers: false
+  FxScriptOn: Rune_BeastMode_On
+  FxScriptOff: Rune_StoneForm_Off
+  ShouldRefreshFxScript: ""
+  WeaponEffectType: ""
+  Notification: ""
+  DisableTelemetry: ""
+  IsClientPredicted: ""
+  PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  BaseDuration: -1.0
+  TickRate: 0.0
+  DelayInitialTick: ""
+  TickCondition: ""
+  OnTickStatusEffect: ""
+  KeepOnTickEffectOnEnd: null
+  StopOnHitCount: ""
+  HitCondition: ""
+  RequireReaction: ""
+  OnStackStatusEffect: ""
+  AddOnStackSize: ""
+  AddOnStackSizeComparison: ""
+  HealThreatMultiplier: ""
+  ScaleAmountOverTime: ""
+  ScaleAmountOverTimeMin: ""
+  ScaleAmountOverTimeMax: ""
+  DamageSkipsDeathsDoor: ""
+  Health: ""
+  HealthMin: ""
+  HealthModifierPercent: ""
+  HealthModifierDamageBased: null
+  UseHealScalingValue: ""
+  HealScalingValueMultiplier: ""
+  StaminaDamageModifier: ""
+  ManaModifierDamageBased: ""
+  DamageType: ""
+  CritChanceModifier: ""
+  CritDamageModifier: ""
+  OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: null
+  CastSpell: ""
+  DisableCastSpellDurability: null
+  TargetOwnsSpell: ""
+  UseSourceWeaponForSpell: ""
+  FromAlchemy: ""
+  FromSpell: ""
+  NoHealthRegen: ""
+  HealMod: null
+  MaxHealthMod: ""
+  HealthRate: ""
+  CoreTempMod: ""
+  TempMod: ""
+  Stamina: ""
+  StaminaRate: null
+  Mana: ""
+  ManaRate: ""
+  Food: ""
+  FoodBurn: ""
+  Drink: ""
+  DrinkBurn: ""
+  Encumbrance: ""
+  ItemClassWeightMods: ""
+  XPIncreases: ""
+  AzothMod: ""
+  FactionReputationMod: ""
+  FactionTokensMod: ""
+  EXPLogging: ""
+  EXPMining: ""
+  EXPHarvesting: ""
+  EXPSkinning: ""
+  EXPSmelting: ""
+  EXPWoodworking: ""
+  EXPLeatherworking: ""
+  EXPWeaving: ""
+  EXPStonecutting: ""
+  GrantSanctuary: ""
+  NoSprint: null
+  NoRun: null
+  NoDodge: null
+  NoNav: null
+  Silenced: null
+  Stunned: null
+  RemoveOnDeath: 1.0
+  RemoveOnDeathsDoor: 1.0
+  RemoveOnRespawn: 1.0
+  RemoveOnGameModeExit: ""
+  IgnoreDiminishingReturns: ""
+  OnlyChangeOwnedStatusEffects: ""
+  Afflictions: ""
+  OnHitAffixes: ""
+  EquipAbility: ""
+  UseSourceWeaponForAbilityEffect: null
+  SlotToFillWeaponDamageInfo: HEART_GEM_SLOT
+  IsNegative: true
+  RespecTradeskills: ""
+  RespecAttributes: ""
+  EffectDurationMods: ""
+  EffectPotencyMods: ""
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: ""
+  GlobalRollMod: ""
+  FishingLineStrength: ""
+  FishSizeRollModifier: ""
+  MODConstitution: ""
+  MODFocus: ""
+  MODStrength: ""
+  MODDexterity: ""
+  MODIntelligence: ""
+  MGSArcana: ""
+  MGSWeaponsmithing: ""
+  MGSJewelcrafting: ""
+  MGSEngineering: ""
+  MGSArmoring: ""
+  MaxGSArcana: ""
+  MaxGSWeaponsmithing: ""
+  MaxGSJewelcrafting: ""
+  MaxGSEngineering: ""
+  MaxGSArmoring: ""
+  ROLCooking: ""
+  ROLWeaving: ""
+  ROLStonecutting: ""
+  ROLSmelting: ""
+  ROLLeatherworking: ""
+  ROLWoodworking: ""
+  ROLLogging: ""
+  ROLMining: ""
+  ROLSkinning: ""
+  ROLHarvesting: ""
+  ROLFishing: ""
+  MULTLogging: ""
+  MULTMining: ""
+  MULTSkinning: ""
+  MULTHarvesting: ""
+  MULTFishing: ""
+  EFFLogging: ""
+  EFFMining: ""
+  EFFSkinning: ""
+  EFFHarvesting: ""
+  INSLogging: ""
+  INSMining: ""
+  INSSkinning: ""
+  INSHarvesting: ""
+  PhysicalArmor: null
+  ElementalArmor: null
+  ABSStandard: ""
+  ABSSiege: ""
+  ABSStrike: ""
+  ABSSlash: ""
+  ABSThrust: ""
+  ABSArcane: ""
+  ABSFire: ""
+  ABSIce: ""
+  ABSNature: ""
+  ABSLightning: ""
+  ABSCorruption: ""
+  ABSAcid: ""
+  ABSVitalsCategory: ""
+  RESPoison: ""
+  RESDisease: ""
+  RESBleed: ""
+  RESFrostbite: ""
+  RESCurse: ""
+  RESBlight: ""
+  BLAStandard: ""
+  BLASiege: ""
+  BLAStrike: ""
+  BLASlash: ""
+  BLAThrust: ""
+  BLAArcane: ""
+  BLAFire: ""
+  BLAIce: ""
+  BLALightning: ""
+  BLACorruption: ""
+  ABAPoison: ""
+  ABADisease: ""
+  ABABleed: ""
+  ABAFrostbite: ""
+  ABACurse: ""
+  ABABlight: ""
+  WKNStandard: ""
+  WKNSiege: ""
+  WKNStrike: ""
+  WKNSlash: ""
+  WKNThrust: ""
+  WKNArcane: ""
+  WKNFire: ""
+  WKNIce: ""
+  WKNNature: ""
+  WKNLightning: ""
+  WKNCorruption: ""
+  DMGStandard: -0.2
+  DMGSiege: -0.2
+  DMGStrike: -0.2
+  DMGSlash: -0.2
+  DMGThrust: -0.2
+  DMGArcane: -0.2
+  DMGFire: -0.2
+  DMGIce: -0.2
+  DMGNature: -0.2
+  DMGLightning: -0.2
+  DMGCorruption: -0.2
+  DMGAcid: -0.2
+  DMGVitalsCategory: ""
+  AFAPoison: ""
+  AFADisease: ""
+  AFABleed: ""
+  AFAFrostbite: ""
+  AFACurse: ""
+  AFABlight: ""
+  AFAStunned: null
+  StackDuration: null
+  DurationMax: null
+  InheritDuration: null
+  InheritTotalDuration: ""
+  RefreshDuration: null
+  StackMax: 1.0
+  InitialStackSize: ""
+  RemoveUnappliedStacks: null
+  PotencyMax: null
+  DontReplaceStack: ""
+  MoveSpeedMod: null
+  SprintSpeedMod: null
+  FastTravelEncumbranceMod: ""
+  GameEventId: ""
+  HealRewardGameEventId: ""
+  HealRewardThreshold: ""
+  WeaponMasteryCategoryId: ""
+  UIPriority: null
+  UiNameplatePriority: null
+  ShowInNameplates: null
+  ShowTextInNameplates: ""
+  OverrideOtherNameplateText: ""
+  HidesOtherStatusEffectIcons: ""
+  DynamicModelScaleFactor: null
+  DynamicModelScaleRampTimeSecs: null
+  SpawnSlice: ""
+  DisableSupportContributionRewards: ""
+  BlockMultipleEffectsFromSameSource: ""
+  AllowSelfOnlyAsSourceForAbilities: ""
+  IgnoreInvulnerable: ""
+  NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: "TRUE"
+- StatusID: Status_Rune_BeastMode_Dominator_Buff
+  DisplayName: "@Status_Empower"
+  Description: "@Status_Rune_BeastMode_Dominator_Buff_Desc"
+  EffectCategories: Buff+Empower
+  PlaceholderIcon: lyshineui/images/status/SE_EmpowerT3.png
+  ShowInUITray: true
+  ShowTextInDamageNumbers: false
+  FxScriptOn: Rune_BeastMode_On
+  FxScriptOff: Rune_StoneForm_Off
+  ShouldRefreshFxScript: ""
+  WeaponEffectType: ""
+  Notification: ""
+  DisableTelemetry: ""
+  IsClientPredicted: ""
+  PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  BaseDuration: -1.0
+  TickRate: 0.0
+  DelayInitialTick: ""
+  TickCondition: ""
+  OnTickStatusEffect: ""
+  KeepOnTickEffectOnEnd: null
+  StopOnHitCount: ""
+  HitCondition: ""
+  RequireReaction: ""
+  OnStackStatusEffect: ""
+  AddOnStackSize: ""
+  AddOnStackSizeComparison: ""
+  HealThreatMultiplier: ""
+  ScaleAmountOverTime: ""
+  ScaleAmountOverTimeMin: ""
+  ScaleAmountOverTimeMax: ""
+  DamageSkipsDeathsDoor: ""
+  Health: ""
+  HealthMin: ""
+  HealthModifierPercent: ""
+  HealthModifierDamageBased: null
+  UseHealScalingValue: ""
+  HealScalingValueMultiplier: ""
+  StaminaDamageModifier: ""
+  ManaModifierDamageBased: ""
+  DamageType: ""
+  CritChanceModifier: ""
+  CritDamageModifier: ""
+  OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: null
+  CastSpell: ""
+  DisableCastSpellDurability: null
+  TargetOwnsSpell: ""
+  UseSourceWeaponForSpell: ""
+  FromAlchemy: ""
+  FromSpell: ""
+  NoHealthRegen: ""
+  HealMod: null
+  MaxHealthMod: ""
+  HealthRate: ""
+  CoreTempMod: ""
+  TempMod: ""
+  Stamina: ""
+  StaminaRate: null
+  Mana: ""
+  ManaRate: ""
+  Food: ""
+  FoodBurn: ""
+  Drink: ""
+  DrinkBurn: ""
+  Encumbrance: ""
+  ItemClassWeightMods: ""
+  XPIncreases: ""
+  AzothMod: ""
+  FactionReputationMod: ""
+  FactionTokensMod: ""
+  EXPLogging: ""
+  EXPMining: ""
+  EXPHarvesting: ""
+  EXPSkinning: ""
+  EXPSmelting: ""
+  EXPWoodworking: ""
+  EXPLeatherworking: ""
+  EXPWeaving: ""
+  EXPStonecutting: ""
+  GrantSanctuary: ""
+  NoSprint: null
+  NoRun: null
+  NoDodge: null
+  NoNav: null
+  Silenced: null
+  Stunned: null
+  RemoveOnDeath: 1.0
+  RemoveOnDeathsDoor: 1.0
+  RemoveOnRespawn: 1.0
+  RemoveOnGameModeExit: ""
+  IgnoreDiminishingReturns: ""
+  OnlyChangeOwnedStatusEffects: ""
+  Afflictions: ""
+  OnHitAffixes: ""
+  EquipAbility: ""
+  UseSourceWeaponForAbilityEffect: null
+  SlotToFillWeaponDamageInfo: HEART_GEM_SLOT
+  IsNegative: null
+  RespecTradeskills: ""
+  RespecAttributes: ""
+  EffectDurationMods: ""
+  EffectPotencyMods: ""
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: ""
+  GlobalRollMod: ""
+  FishingLineStrength: ""
+  FishSizeRollModifier: ""
+  MODConstitution: ""
+  MODFocus: ""
+  MODStrength: ""
+  MODDexterity: ""
+  MODIntelligence: ""
+  MGSArcana: ""
+  MGSWeaponsmithing: ""
+  MGSJewelcrafting: ""
+  MGSEngineering: ""
+  MGSArmoring: ""
+  MaxGSArcana: ""
+  MaxGSWeaponsmithing: ""
+  MaxGSJewelcrafting: ""
+  MaxGSEngineering: ""
+  MaxGSArmoring: ""
+  ROLCooking: ""
+  ROLWeaving: ""
+  ROLStonecutting: ""
+  ROLSmelting: ""
+  ROLLeatherworking: ""
+  ROLWoodworking: ""
+  ROLLogging: ""
+  ROLMining: ""
+  ROLSkinning: ""
+  ROLHarvesting: ""
+  ROLFishing: ""
+  MULTLogging: ""
+  MULTMining: ""
+  MULTSkinning: ""
+  MULTHarvesting: ""
+  MULTFishing: ""
+  EFFLogging: ""
+  EFFMining: ""
+  EFFSkinning: ""
+  EFFHarvesting: ""
+  INSLogging: ""
+  INSMining: ""
+  INSSkinning: ""
+  INSHarvesting: ""
+  PhysicalArmor: null
+  ElementalArmor: null
+  ABSStandard: ""
+  ABSSiege: ""
+  ABSStrike: ""
+  ABSSlash: ""
+  ABSThrust: ""
+  ABSArcane: ""
+  ABSFire: ""
+  ABSIce: ""
+  ABSNature: ""
+  ABSLightning: ""
+  ABSCorruption: ""
+  ABSAcid: ""
+  ABSVitalsCategory: ""
+  RESPoison: ""
+  RESDisease: ""
+  RESBleed: ""
+  RESFrostbite: ""
+  RESCurse: ""
+  RESBlight: ""
+  BLAStandard: ""
+  BLASiege: ""
+  BLAStrike: ""
+  BLASlash: ""
+  BLAThrust: ""
+  BLAArcane: ""
+  BLAFire: ""
+  BLAIce: ""
+  BLALightning: ""
+  BLACorruption: ""
+  ABAPoison: ""
+  ABADisease: ""
+  ABABleed: ""
+  ABAFrostbite: ""
+  ABACurse: ""
+  ABABlight: ""
+  WKNStandard: ""
+  WKNSiege: ""
+  WKNStrike: ""
+  WKNSlash: ""
+  WKNThrust: ""
+  WKNArcane: ""
+  WKNFire: ""
+  WKNIce: ""
+  WKNNature: ""
+  WKNLightning: ""
+  WKNCorruption: ""
+  DMGStandard: 0.2
+  DMGSiege: 0.2
+  DMGStrike: 0.2
+  DMGSlash: 0.2
+  DMGThrust: 0.2
+  DMGArcane: 0.2
+  DMGFire: 0.2
+  DMGIce: 0.2
+  DMGNature: 0.2
+  DMGLightning: 0.2
+  DMGCorruption: 0.2
+  DMGAcid: 0.2
+  DMGVitalsCategory: ""
+  AFAPoison: ""
+  AFADisease: ""
+  AFABleed: ""
+  AFAFrostbite: ""
+  AFACurse: ""
+  AFABlight: ""
+  AFAStunned: null
+  StackDuration: null
+  DurationMax: null
+  InheritDuration: null
+  InheritTotalDuration: ""
+  RefreshDuration: null
+  StackMax: 1.0
+  InitialStackSize: ""
+  RemoveUnappliedStacks: null
+  PotencyMax: null
+  DontReplaceStack: ""
+  MoveSpeedMod: null
+  SprintSpeedMod: null
+  FastTravelEncumbranceMod: ""
+  GameEventId: ""
+  HealRewardGameEventId: ""
+  HealRewardThreshold: ""
+  WeaponMasteryCategoryId: ""
+  UIPriority: null
+  UiNameplatePriority: null
+  ShowInNameplates: null
+  ShowTextInNameplates: ""
+  OverrideOtherNameplateText: ""
+  HidesOtherStatusEffectIcons: ""
+  DynamicModelScaleFactor: null
+  DynamicModelScaleRampTimeSecs: null
+  SpawnSlice: ""
+  DisableSupportContributionRewards: ""
+  BlockMultipleEffectsFromSameSource: ""
+  AllowSelfOnlyAsSourceForAbilities: ""
+  IgnoreInvulnerable: ""
+  NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: "TRUE"
+- StatusID: Status_Rune_BeastMode_Dominator_Debuff
+  DisplayName: "@Status_Rend"
+  Description: "@Status_Rune_BeastMode_Dominator_Debuff_Desc"
+  EffectCategories: Debuff+ArmorRend
+  PlaceholderIcon: lyshineui/images/status/SE_RendT3.png
+  ShowInUITray: true
+  ShowTextInDamageNumbers: false
+  FxScriptOn: Rune_BeastMode_On
+  FxScriptOff: Rune_StoneForm_Off
+  ShouldRefreshFxScript: ""
+  WeaponEffectType: ""
+  Notification: ""
+  DisableTelemetry: ""
+  IsClientPredicted: ""
+  PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  BaseDuration: -1.0
+  TickRate: 0.0
+  DelayInitialTick: ""
+  TickCondition: ""
+  OnTickStatusEffect: ""
+  KeepOnTickEffectOnEnd: null
+  StopOnHitCount: ""
+  HitCondition: ""
+  RequireReaction: ""
+  OnStackStatusEffect: ""
+  AddOnStackSize: ""
+  AddOnStackSizeComparison: ""
+  HealThreatMultiplier: ""
+  ScaleAmountOverTime: ""
+  ScaleAmountOverTimeMin: ""
+  ScaleAmountOverTimeMax: ""
+  DamageSkipsDeathsDoor: ""
+  Health: ""
+  HealthMin: ""
+  HealthModifierPercent: ""
+  HealthModifierDamageBased: null
+  UseHealScalingValue: ""
+  HealScalingValueMultiplier: ""
+  StaminaDamageModifier: ""
+  ManaModifierDamageBased: ""
+  DamageType: ""
+  CritChanceModifier: ""
+  CritDamageModifier: ""
+  OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: null
+  CastSpell: ""
+  DisableCastSpellDurability: null
+  TargetOwnsSpell: ""
+  UseSourceWeaponForSpell: ""
+  FromAlchemy: ""
+  FromSpell: ""
+  NoHealthRegen: ""
+  HealMod: null
+  MaxHealthMod: ""
+  HealthRate: ""
+  CoreTempMod: ""
+  TempMod: ""
+  Stamina: ""
+  StaminaRate: null
+  Mana: ""
+  ManaRate: ""
+  Food: ""
+  FoodBurn: ""
+  Drink: ""
+  DrinkBurn: ""
+  Encumbrance: ""
+  ItemClassWeightMods: ""
+  XPIncreases: ""
+  AzothMod: ""
+  FactionReputationMod: ""
+  FactionTokensMod: ""
+  EXPLogging: ""
+  EXPMining: ""
+  EXPHarvesting: ""
+  EXPSkinning: ""
+  EXPSmelting: ""
+  EXPWoodworking: ""
+  EXPLeatherworking: ""
+  EXPWeaving: ""
+  EXPStonecutting: ""
+  GrantSanctuary: ""
+  NoSprint: null
+  NoRun: null
+  NoDodge: null
+  NoNav: null
+  Silenced: null
+  Stunned: null
+  RemoveOnDeath: 1.0
+  RemoveOnDeathsDoor: 1.0
+  RemoveOnRespawn: 1.0
+  RemoveOnGameModeExit: ""
+  IgnoreDiminishingReturns: ""
+  OnlyChangeOwnedStatusEffects: ""
+  Afflictions: ""
+  OnHitAffixes: ""
+  EquipAbility: ""
+  UseSourceWeaponForAbilityEffect: null
+  SlotToFillWeaponDamageInfo: HEART_GEM_SLOT
+  IsNegative: true
+  RespecTradeskills: ""
+  RespecAttributes: ""
+  EffectDurationMods: ""
+  EffectPotencyMods: ""
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: ""
+  GlobalRollMod: ""
+  FishingLineStrength: ""
+  FishSizeRollModifier: ""
+  MODConstitution: ""
+  MODFocus: ""
+  MODStrength: ""
+  MODDexterity: ""
+  MODIntelligence: ""
+  MGSArcana: ""
+  MGSWeaponsmithing: ""
+  MGSJewelcrafting: ""
+  MGSEngineering: ""
+  MGSArmoring: ""
+  MaxGSArcana: ""
+  MaxGSWeaponsmithing: ""
+  MaxGSJewelcrafting: ""
+  MaxGSEngineering: ""
+  MaxGSArmoring: ""
+  ROLCooking: ""
+  ROLWeaving: ""
+  ROLStonecutting: ""
+  ROLSmelting: ""
+  ROLLeatherworking: ""
+  ROLWoodworking: ""
+  ROLLogging: ""
+  ROLMining: ""
+  ROLSkinning: ""
+  ROLHarvesting: ""
+  ROLFishing: ""
+  MULTLogging: ""
+  MULTMining: ""
+  MULTSkinning: ""
+  MULTHarvesting: ""
+  MULTFishing: ""
+  EFFLogging: ""
+  EFFMining: ""
+  EFFSkinning: ""
+  EFFHarvesting: ""
+  INSLogging: ""
+  INSMining: ""
+  INSSkinning: ""
+  INSHarvesting: ""
+  PhysicalArmor: -0.2
+  ElementalArmor: -0.2
+  ABSStandard: ""
+  ABSSiege: ""
+  ABSStrike: ""
+  ABSSlash: ""
+  ABSThrust: ""
+  ABSArcane: ""
+  ABSFire: ""
+  ABSIce: ""
+  ABSNature: ""
+  ABSLightning: ""
+  ABSCorruption: ""
+  ABSAcid: ""
+  ABSVitalsCategory: ""
+  RESPoison: ""
+  RESDisease: ""
+  RESBleed: ""
+  RESFrostbite: ""
+  RESCurse: ""
+  RESBlight: ""
+  BLAStandard: ""
+  BLASiege: ""
+  BLAStrike: ""
+  BLASlash: ""
+  BLAThrust: ""
+  BLAArcane: ""
+  BLAFire: ""
+  BLAIce: ""
+  BLALightning: ""
+  BLACorruption: ""
+  ABAPoison: ""
+  ABADisease: ""
+  ABABleed: ""
+  ABAFrostbite: ""
+  ABACurse: ""
+  ABABlight: ""
+  WKNStandard: ""
+  WKNSiege: ""
+  WKNStrike: ""
+  WKNSlash: ""
+  WKNThrust: ""
+  WKNArcane: ""
+  WKNFire: ""
+  WKNIce: ""
+  WKNNature: ""
+  WKNLightning: ""
+  WKNCorruption: ""
+  DMGStandard: null
+  DMGSiege: null
+  DMGStrike: null
+  DMGSlash: null
+  DMGThrust: null
+  DMGArcane: null
+  DMGFire: null
+  DMGIce: null
+  DMGNature: null
+  DMGLightning: null
+  DMGCorruption: null
+  DMGAcid: null
+  DMGVitalsCategory: ""
+  AFAPoison: ""
+  AFADisease: ""
+  AFABleed: ""
+  AFAFrostbite: ""
+  AFACurse: ""
+  AFABlight: ""
+  AFAStunned: null
+  StackDuration: null
+  DurationMax: null
+  InheritDuration: null
+  InheritTotalDuration: ""
+  RefreshDuration: null
+  StackMax: 1.0
+  InitialStackSize: ""
+  RemoveUnappliedStacks: null
+  PotencyMax: null
+  DontReplaceStack: ""
+  MoveSpeedMod: null
+  SprintSpeedMod: null
+  FastTravelEncumbranceMod: ""
+  GameEventId: ""
+  HealRewardGameEventId: ""
+  HealRewardThreshold: ""
+  WeaponMasteryCategoryId: ""
+  UIPriority: null
+  UiNameplatePriority: null
+  ShowInNameplates: null
+  ShowTextInNameplates: ""
+  OverrideOtherNameplateText: ""
+  HidesOtherStatusEffectIcons: ""
+  DynamicModelScaleFactor: null
+  DynamicModelScaleRampTimeSecs: null
+  SpawnSlice: ""
+  DisableSupportContributionRewards: ""
+  BlockMultipleEffectsFromSameSource: ""
+  AllowSelfOnlyAsSourceForAbilities: ""
+  IgnoreInvulnerable: ""
+  NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: "TRUE"
+- StatusID: Status_Rune_BeastMode_RemoveAll
+  DisplayName: ""
+  Description: ""
+  EffectCategories: ""
+  PlaceholderIcon: ""
+  ShowInUITray: false
+  ShowTextInDamageNumbers: false
+  FxScriptOn: ""
+  FxScriptOff: ""
+  ShouldRefreshFxScript: ""
+  WeaponEffectType: ""
+  Notification: ""
+  DisableTelemetry: ""
+  IsClientPredicted: ""
+  PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  BaseDuration: 0.1
+  TickRate: 0.0
+  DelayInitialTick: ""
+  TickCondition: ""
+  OnTickStatusEffect: ""
+  KeepOnTickEffectOnEnd: null
+  StopOnHitCount: ""
+  HitCondition: ""
+  RequireReaction: ""
+  OnStackStatusEffect: ""
+  AddOnStackSize: ""
+  AddOnStackSizeComparison: ""
+  HealThreatMultiplier: ""
+  ScaleAmountOverTime: ""
+  ScaleAmountOverTimeMin: ""
+  ScaleAmountOverTimeMax: ""
+  DamageSkipsDeathsDoor: ""
+  Health: ""
+  HealthMin: ""
+  HealthModifierPercent: ""
+  HealthModifierDamageBased: null
+  UseHealScalingValue: ""
+  HealScalingValueMultiplier: ""
+  StaminaDamageModifier: ""
+  ManaModifierDamageBased: ""
+  DamageType: ""
+  CritChanceModifier: ""
+  CritDamageModifier: ""
+  OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: null
+  CastSpell: ""
+  DisableCastSpellDurability: null
+  TargetOwnsSpell: ""
+  UseSourceWeaponForSpell: ""
+  FromAlchemy: ""
+  FromSpell: ""
+  NoHealthRegen: ""
+  HealMod: null
+  MaxHealthMod: ""
+  HealthRate: ""
+  CoreTempMod: ""
+  TempMod: ""
+  Stamina: ""
+  StaminaRate: null
+  Mana: ""
+  ManaRate: ""
+  Food: ""
+  FoodBurn: ""
+  Drink: ""
+  DrinkBurn: ""
+  Encumbrance: ""
+  ItemClassWeightMods: ""
+  XPIncreases: ""
+  AzothMod: ""
+  FactionReputationMod: ""
+  FactionTokensMod: ""
+  EXPLogging: ""
+  EXPMining: ""
+  EXPHarvesting: ""
+  EXPSkinning: ""
+  EXPSmelting: ""
+  EXPWoodworking: ""
+  EXPLeatherworking: ""
+  EXPWeaving: ""
+  EXPStonecutting: ""
+  GrantSanctuary: ""
+  NoSprint: null
+  NoRun: null
+  NoDodge: null
+  NoNav: null
+  Silenced: null
+  Stunned: null
+  RemoveOnDeath: null
+  RemoveOnDeathsDoor: null
+  RemoveOnRespawn: null
+  RemoveOnGameModeExit: ""
+  IgnoreDiminishingReturns: ""
+  OnlyChangeOwnedStatusEffects: ""
+  Afflictions: ""
+  OnHitAffixes: ""
+  EquipAbility: ""
+  UseSourceWeaponForAbilityEffect: null
+  SlotToFillWeaponDamageInfo: HEART_GEM_SLOT
+  IsNegative: null
+  RespecTradeskills: ""
+  RespecAttributes: ""
+  EffectDurationMods: ""
+  EffectPotencyMods: ""
+  RemoveStatusEffects: Status_Rune_BeastMode_Greater_Buff,Status_Rune_BeastMode_Survivor_Buff,Status_Rune_BeastMode_Survivor_Debuff,Status_Rune_BeastMode_Dominator_Buff,Status_Rune_BeastMode_Dominator_Debuff
+  RemoveStatusEffectCategories: ""
+  GlobalRollMod: ""
+  FishingLineStrength: ""
+  FishSizeRollModifier: ""
+  MODConstitution: ""
+  MODFocus: ""
+  MODStrength: ""
+  MODDexterity: ""
+  MODIntelligence: ""
+  MGSArcana: ""
+  MGSWeaponsmithing: ""
+  MGSJewelcrafting: ""
+  MGSEngineering: ""
+  MGSArmoring: ""
+  MaxGSArcana: ""
+  MaxGSWeaponsmithing: ""
+  MaxGSJewelcrafting: ""
+  MaxGSEngineering: ""
+  MaxGSArmoring: ""
+  ROLCooking: ""
+  ROLWeaving: ""
+  ROLStonecutting: ""
+  ROLSmelting: ""
+  ROLLeatherworking: ""
+  ROLWoodworking: ""
+  ROLLogging: ""
+  ROLMining: ""
+  ROLSkinning: ""
+  ROLHarvesting: ""
+  ROLFishing: ""
+  MULTLogging: ""
+  MULTMining: ""
+  MULTSkinning: ""
+  MULTHarvesting: ""
+  MULTFishing: ""
+  EFFLogging: ""
+  EFFMining: ""
+  EFFSkinning: ""
+  EFFHarvesting: ""
+  INSLogging: ""
+  INSMining: ""
+  INSSkinning: ""
+  INSHarvesting: ""
+  PhysicalArmor: null
+  ElementalArmor: null
+  ABSStandard: ""
+  ABSSiege: ""
+  ABSStrike: ""
+  ABSSlash: ""
+  ABSThrust: ""
+  ABSArcane: ""
+  ABSFire: ""
+  ABSIce: ""
+  ABSNature: ""
+  ABSLightning: ""
+  ABSCorruption: ""
+  ABSAcid: ""
+  ABSVitalsCategory: ""
+  RESPoison: ""
+  RESDisease: ""
+  RESBleed: ""
+  RESFrostbite: ""
+  RESCurse: ""
+  RESBlight: ""
+  BLAStandard: ""
+  BLASiege: ""
+  BLAStrike: ""
+  BLASlash: ""
+  BLAThrust: ""
+  BLAArcane: ""
+  BLAFire: ""
+  BLAIce: ""
+  BLALightning: ""
+  BLACorruption: ""
+  ABAPoison: ""
+  ABADisease: ""
+  ABABleed: ""
+  ABAFrostbite: ""
+  ABACurse: ""
+  ABABlight: ""
+  WKNStandard: ""
+  WKNSiege: ""
+  WKNStrike: ""
+  WKNSlash: ""
+  WKNThrust: ""
+  WKNArcane: ""
+  WKNFire: ""
+  WKNIce: ""
+  WKNNature: ""
+  WKNLightning: ""
+  WKNCorruption: ""
+  DMGStandard: null
+  DMGSiege: null
+  DMGStrike: null
+  DMGSlash: null
+  DMGThrust: null
+  DMGArcane: null
+  DMGFire: null
+  DMGIce: null
+  DMGNature: null
+  DMGLightning: null
+  DMGCorruption: null
+  DMGAcid: null
+  DMGVitalsCategory: ""
+  AFAPoison: ""
+  AFADisease: ""
+  AFABleed: ""
+  AFAFrostbite: ""
+  AFACurse: ""
+  AFABlight: ""
+  AFAStunned: null
+  StackDuration: null
+  DurationMax: null
+  InheritDuration: null
+  InheritTotalDuration: ""
+  RefreshDuration: null
+  StackMax: 1.0
+  InitialStackSize: ""
+  RemoveUnappliedStacks: null
+  PotencyMax: null
+  DontReplaceStack: ""
+  MoveSpeedMod: null
+  SprintSpeedMod: null
+  FastTravelEncumbranceMod: ""
+  GameEventId: ""
+  HealRewardGameEventId: ""
+  HealRewardThreshold: ""
+  WeaponMasteryCategoryId: ""
+  UIPriority: null
+  UiNameplatePriority: null
+  ShowInNameplates: null
+  ShowTextInNameplates: ""
+  OverrideOtherNameplateText: ""
+  HidesOtherStatusEffectIcons: ""
+  DynamicModelScaleFactor: null
+  DynamicModelScaleRampTimeSecs: null
+  SpawnSlice: ""
+  DisableSupportContributionRewards: ""
+  BlockMultipleEffectsFromSameSource: ""
+  AllowSelfOnlyAsSourceForAbilities: ""
+  IgnoreInvulnerable: ""
+  NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""

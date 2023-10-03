@@ -1,20 +1,20 @@
-- DamageID: Attack_Barb_Strike
+- DamageID: Attack_IchorSplash
   WeaponCategory: Blunt_AI
   IgnoreInvulnerable: 0.0
   NoReaction: 0.0
-  IsRanged: null
+  IsRanged: true
   SurfaceImpactEffect: Bullet
   DeflectDamageID: Unarmed
-  AttackType: Light
-  DamageType: Thrust
+  AttackType: Magic
+  DamageType: Corruption
   Affliction: ""
   AddAffliction: ""
   AfflictionPercent: ""
   Affixes: ""
-  StatusEffect: ""
-  EffectOnlyOnDamage: ""
+  StatusEffect: AI_CorruptedLeviathan_IchorCoating
+  EffectOnlyOnDamage: false
   CanCrit: false
-  DmgCoef: 0.3
+  DmgCoef: 0.6
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
   PowerLevel: 0.0
@@ -63,11 +63,11 @@
   Affliction: ""
   AddAffliction: ""
   AfflictionPercent: ""
-  Affixes: ""
+  Affixes: AI_CorruptionDMG_25
   StatusEffect: ""
-  EffectOnlyOnDamage: ""
+  EffectOnlyOnDamage: null
   CanCrit: false
-  DmgCoef: 0.8
+  DmgCoef: 1.0
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
   PowerLevel: 5.0
@@ -118,9 +118,9 @@
   AfflictionPercent: ""
   Affixes: ""
   StatusEffect: ""
-  EffectOnlyOnDamage: ""
+  EffectOnlyOnDamage: null
   CanCrit: false
-  DmgCoef: 0.7
+  DmgCoef: 0.6
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
   PowerLevel: 2.0
@@ -171,9 +171,9 @@
   AfflictionPercent: ""
   Affixes: ""
   StatusEffect: ""
-  EffectOnlyOnDamage: ""
+  EffectOnlyOnDamage: null
   CanCrit: false
-  DmgCoef: 0.5
+  DmgCoef: 0.6
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
   PowerLevel: 3.0
@@ -223,10 +223,10 @@
   AddAffliction: ""
   AfflictionPercent: ""
   Affixes: ""
-  StatusEffect: ""
-  EffectOnlyOnDamage: ""
+  StatusEffect: AI_CorruptedLeviathan_IchorBurn
+  EffectOnlyOnDamage: false
   CanCrit: false
-  DmgCoef: 0.4
+  DmgCoef: 0.6
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
   PowerLevel: 0.0
@@ -277,7 +277,7 @@
   AfflictionPercent: ""
   Affixes: ""
   StatusEffect: ""
-  EffectOnlyOnDamage: ""
+  EffectOnlyOnDamage: null
   CanCrit: false
   DmgCoef: 0.6
   DmgCoefHead: 1.0

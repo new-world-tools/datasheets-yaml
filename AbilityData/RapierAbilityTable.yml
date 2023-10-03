@@ -74,6 +74,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: Ability_Rapier_Slash
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -119,7 +122,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Rapier_Slash
   CDRImmediatelyOptions: ""
@@ -205,6 +208,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -250,7 +256,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Rapier_Slash
   CDRImmediatelyOptions: AbilitySpecific
@@ -336,6 +342,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: Ability_Rapier_Slash
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: Ability_Rapier_Slash
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -381,7 +390,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: 2.0
   CooldownId: Ability_Rapier_Slash
   CDRImmediatelyOptions: AbilitySpecific
@@ -467,6 +476,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 1.0
   BaseDamageReduction: ""
   BlockDamage: null
@@ -512,7 +524,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -598,6 +610,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: Ability_Rapier_Flurry
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -643,7 +658,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Rapier_Flurry
   CDRImmediatelyOptions: ""
@@ -729,6 +744,9 @@
   InAction: Ability_Rapier_Flurry
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_Rapier_Flurry
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: 0.25
@@ -774,7 +792,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -860,6 +878,9 @@
   InAction: Ability_Rapier_Flurry
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_Rapier_Flurry
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -905,7 +926,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: Rapier_Bleed_DOT
   TargetStatusEffectDurationMod: 1.0
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -991,6 +1012,9 @@
   InAction: Ability_Rapier_Flurry
   InActionTime: 0.1
   AfterAction: ""
+  InSequence: Ability_Rapier_Flurry
+  InSequenceTime: 0.1
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -1036,12 +1060,12 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: 0.005
   Duration: null
   CooldownId: Ability_Rapier_Flurry
   CDRImmediatelyOptions: AbilitySpecific
   ResetCooldownTimers: ""
-  CooldownTimer: -0.07
+  CooldownTimer: -0.05
   NumFreeCooldownsPerUse: ""
   MaxHitCountMultiplier: null
   SetMannequinTag: ""
@@ -1122,6 +1146,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -1167,7 +1194,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1253,6 +1280,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: Ability_Rapier_Flourish
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -1298,7 +1328,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Rapier_Flourish
   CDRImmediatelyOptions: ""
@@ -1384,6 +1414,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -1429,7 +1462,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1515,6 +1548,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -1560,7 +1596,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1646,6 +1682,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -1691,7 +1730,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Rapier_Flourish
   CDRImmediatelyOptions: AbilitySpecific
@@ -1777,6 +1816,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -1822,7 +1864,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1908,6 +1950,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 0.08
   BaseDamageReduction: ""
   BlockDamage: null
@@ -1953,7 +1998,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -2039,6 +2084,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -2084,7 +2132,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ActiveWeapon
@@ -2170,6 +2218,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -2215,7 +2266,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: Rapier_Bleed_DOT
   TargetStatusEffectDurationMod: 2.0
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -2301,6 +2352,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 0.05
   BaseDamageReduction: ""
   BlockDamage: null
@@ -2346,7 +2400,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -2432,6 +2486,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: null
@@ -2477,7 +2534,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -2563,6 +2620,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -2608,7 +2668,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Rapier_Riposte
   CDRImmediatelyOptions: ""
@@ -2694,6 +2754,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -2739,7 +2802,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -2825,6 +2888,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -2870,7 +2936,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Rapier_Riposte
   CDRImmediatelyOptions: AllExcept
@@ -2956,6 +3022,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -3001,7 +3070,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -3087,6 +3156,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -3132,7 +3204,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Rapier_Aerial_Lunge_Intro
   CDRImmediatelyOptions: ""
@@ -3218,6 +3290,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -3263,7 +3338,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Rapier_Aerial_Lunge_Intro
   CDRImmediatelyOptions: AbilitySpecific
@@ -3349,6 +3424,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 0.15
   BaseDamageReduction: ""
   BlockDamage: null
@@ -3394,7 +3472,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -3480,6 +3558,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -3525,7 +3606,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Rapier_Aerial_Lunge_Intro
   CDRImmediatelyOptions: AbilitySpecific
@@ -3611,6 +3692,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -3656,7 +3740,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Rapier_Evasion
   CDRImmediatelyOptions: ""
@@ -3742,6 +3826,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -3787,7 +3874,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: Ability_Rapier_Evasion
   CDRImmediatelyOptions: AbilitySpecific
@@ -3873,6 +3960,9 @@
   InAction: Ability_Rapier_Evasion
   InActionTime: 0.01
   AfterAction: ""
+  InSequence: Ability_Rapier_Evasion
+  InSequenceTime: 0.01
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -3918,7 +4008,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4004,6 +4094,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 0.15
   BaseDamageReduction: ""
   BlockDamage: null
@@ -4049,7 +4142,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4135,6 +4228,9 @@
   InAction: Ability_Rapier_Evasion
   InActionTime: 0.01
   AfterAction: ""
+  InSequence: Ability_Rapier_Evasion
+  InSequenceTime: 0.01
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -4180,7 +4276,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4266,6 +4362,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: null
@@ -4311,7 +4410,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4356,7 +4455,7 @@
   OnDeath: false
   OnDeathsDoor: false
   OnHitTakenWhileInvulnerable: false
-  RequireReaction: null
+  RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
@@ -4397,6 +4496,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -4442,7 +4544,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4528,6 +4630,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -4573,7 +4678,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4659,6 +4764,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: null
@@ -4704,7 +4812,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4790,6 +4898,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: 0.3
   BaseDamageReduction: ""
   BlockDamage: null
@@ -4835,7 +4946,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4921,6 +5032,9 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
+  InSequence: ""
+  InSequenceTime: null
+  AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
@@ -4966,7 +5080,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: ""
+  ActivationCooldown: null
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ActiveWeapon

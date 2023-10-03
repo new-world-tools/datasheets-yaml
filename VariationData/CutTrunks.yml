@@ -2838,7 +2838,7 @@
   CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Coast\\LaurelFig\\JAV_Cst_LaurelFig_A_mat_Cut.mtl"
 - VariantID: BaldCypressTree_a_cuttrunk
   StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Swamp\\BaldCypress\\jav_smp_baldcypresstree_cuttrunk_a.cgf"
-  Mass: 50000.0
+  Mass: 10000.0
   StartMeshLOD: 175.0
   Play_Falling_SFX: Play_Gather_TreeFall_Big
   Stop_Falling_SFX: Stop_Gather_TreeFall_Big
@@ -2849,7 +2849,7 @@
   CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Swamp\\BaldCypress\\JAV_Smp_BaldCypress_A_mat_Cut.mtl"
 - VariantID: BaldCypressTree_b_cuttrunk
   StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Swamp\\BaldCypress\\jav_smp_baldcypresstree_cuttrunk_b.cgf"
-  Mass: 50000.0
+  Mass: 9000.0
   StartMeshLOD: 150.0
   Play_Falling_SFX: Play_Gather_TreeFall_Big
   Stop_Falling_SFX: Stop_Gather_TreeFall_Big
@@ -3180,7 +3180,7 @@
 - VariantID: KapokTree_a_cuttrunk
   StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Kapok\\jav_jgl_kapoktree_cuttrunk_a.cgf"
   Mass: 50000.0
-  StartMeshLOD: 100.0
+  StartMeshLOD: 95.0
   Play_Falling_SFX: Play_Gather_TreeFall_Big
   Stop_Falling_SFX: Stop_Gather_TreeFall_Big
   Play_Sliding_SFX: Play_Slide_Tree_Hvy
@@ -3191,7 +3191,7 @@
 - VariantID: KapokTree_b_cuttrunk
   StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Kapok\\jav_jgl_kapoktree_cuttrunk_b.cgf"
   Mass: 50000.0
-  StartMeshLOD: 100.0
+  StartMeshLOD: 90.0
   Play_Falling_SFX: Play_Gather_TreeFall_Big
   Stop_Falling_SFX: Stop_Gather_TreeFall_Big
   Play_Sliding_SFX: Play_Slide_Tree_Hvy
@@ -3202,7 +3202,7 @@
 - VariantID: KapokTree_c_cuttrunk
   StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Kapok\\jav_jgl_kapoktree_cuttrunk_c.cgf"
   Mass: 8000.0
-  StartMeshLOD: 100.0
+  StartMeshLOD: 90.0
   Play_Falling_SFX: Play_Gather_TreeFall_Big
   Stop_Falling_SFX: Stop_Gather_TreeFall_Big
   Play_Sliding_SFX: Play_Slide_Tree_Hvy
@@ -3650,10 +3650,10 @@
   Y_Sliding_SFX: 0.0
   Z_Sliding_SFX: 10.0
   CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Desert\\TriangleCactus\\jav_dst_trianglecactus_a_mat.mtl"
-- VariantID: FlutedThuja_a_cuttrunk
-  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_fluted_thuja_cuttrunk_b.cgf"
-  Mass: 15000.0
-  StartMeshLOD: 175.0
+- VariantID: Fluted_Thuja_a_cuttrunk
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_fluted_thuja_cuttrunk_a.cgf"
+  Mass: 8000.0
+  StartMeshLOD: 200.0
   Play_Falling_SFX: Play_Gather_TreeFall_Big
   Stop_Falling_SFX: Stop_Gather_TreeFall_Big
   Play_Sliding_SFX: Play_Slide_Tree_Hvy
@@ -3661,10 +3661,10 @@
   Y_Sliding_SFX: 0.0
   Z_Sliding_SFX: 7.0
   CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_flutedthuja_mat_cut.mtl"
-- VariantID: FlutedThuja_b_cuttrunk
+- VariantID: Fluted_Thuja_b_cuttrunk
   StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_fluted_thuja_cuttrunk_b.cgf"
-  Mass: 12000.0
-  StartMeshLOD: 150.0
+  Mass: 7000.0
+  StartMeshLOD: 140.0
   Play_Falling_SFX: Play_Gather_TreeFall_Big
   Stop_Falling_SFX: Stop_Gather_TreeFall_Big
   Play_Sliding_SFX: Play_Slide_Tree_Hvy
@@ -3672,10 +3672,10 @@
   Y_Sliding_SFX: 0.0
   Z_Sliding_SFX: 6.0
   CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_flutedthuja_mat_cut.mtl"
-- VariantID: FlutedThuja_c_cuttrunk
+- VariantID: Fluted_Thuja_c_cuttrunk
   StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_fluted_thuja_cuttrunk_c.cgf"
-  Mass: 8000.0
-  StartMeshLOD: 145.0
+  Mass: 5000.0
+  StartMeshLOD: 136.0
   Play_Falling_SFX: Play_Gather_TreeFall_Med
   Stop_Falling_SFX: Stop_Gather_TreeFall_Med
   Play_Sliding_SFX: Play_Slide_Tree_Med
@@ -3683,30 +3683,8 @@
   Y_Sliding_SFX: 0.0
   Z_Sliding_SFX: 4.0
   CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_flutedthuja_mat_cut.mtl"
-- VariantID: FlutedThuja_cb_cuttrunk
+- VariantID: Fluted_Thuja_cb_cuttrunk
   StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_fluted_thuja_cuttrunk_cb.cgf"
-  Mass: 8000.0
-  StartMeshLOD: 145.0
-  Play_Falling_SFX: Play_Gather_TreeFall_Med
-  Stop_Falling_SFX: Stop_Gather_TreeFall_Med
-  Play_Sliding_SFX: Play_Slide_Tree_Med
-  X_Sliding_SFX: 0.0
-  Y_Sliding_SFX: 0.0
-  Z_Sliding_SFX: 4.0
-  CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_flutedthuja_mat_cut.mtl"
-- VariantID: FlutedThuja_d_cuttrunk
-  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_fluted_thuja_cuttrunk_d.cgf"
-  Mass: 6000.0
-  StartMeshLOD: 130.0
-  Play_Falling_SFX: Play_Gather_TreeFall_Med
-  Stop_Falling_SFX: Stop_Gather_TreeFall_Med
-  Play_Sliding_SFX: Play_Slide_Tree_Med
-  X_Sliding_SFX: 0.0
-  Y_Sliding_SFX: 0.0
-  Z_Sliding_SFX: 4.0
-  CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_flutedthuja_mat_cut.mtl"
-- VariantID: FlutedThuja_e_cuttrunk
-  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_fluted_thuja_cuttrunk_e.cgf"
   Mass: 4000.0
   StartMeshLOD: 145.0
   Play_Falling_SFX: Play_Gather_TreeFall_Med
@@ -3716,10 +3694,32 @@
   Y_Sliding_SFX: 0.0
   Z_Sliding_SFX: 4.0
   CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_flutedthuja_mat_cut.mtl"
-- VariantID: FlutedThuja_f_cuttrunk
+- VariantID: Fluted_Thuja_d_cuttrunk
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_fluted_thuja_cuttrunk_d.cgf"
+  Mass: 4000.0
+  StartMeshLOD: 136.0
+  Play_Falling_SFX: Play_Gather_TreeFall_Med
+  Stop_Falling_SFX: Stop_Gather_TreeFall_Med
+  Play_Sliding_SFX: Play_Slide_Tree_Med
+  X_Sliding_SFX: 0.0
+  Y_Sliding_SFX: 0.0
+  Z_Sliding_SFX: 4.0
+  CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_flutedthuja_mat_cut.mtl"
+- VariantID: Fluted_Thuja_e_cuttrunk
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_fluted_thuja_cuttrunk_e.cgf"
+  Mass: 3000.0
+  StartMeshLOD: 127.0
+  Play_Falling_SFX: Play_Gather_TreeFall_Med
+  Stop_Falling_SFX: Stop_Gather_TreeFall_Med
+  Play_Sliding_SFX: Play_Slide_Tree_Med
+  X_Sliding_SFX: 0.0
+  Y_Sliding_SFX: 0.0
+  Z_Sliding_SFX: 4.0
+  CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_flutedthuja_mat_cut.mtl"
+- VariantID: Fluted_Thuja_f_cuttrunk
   StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_fluted_thuja_cuttrunk_f.cgf"
   Mass: 2000.0
-  StartMeshLOD: 100.0
+  StartMeshLOD: 110.0
   Play_Falling_SFX: Play_Gather_TreeFall_Small
   Stop_Falling_SFX: Stop_Gather_TreeFall_Small
   Play_Sliding_SFX: Play_Slide_Tree_Small
@@ -3729,8 +3729,8 @@
   CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_flutedthuja_mat_cut.mtl"
 - VariantID: Cordata_Shade_a_cuttrunk
   StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\cordatashade\\sup_inv_cordata_shade_cuttrunk_a.cgf"
-  Mass: 12000.0
-  StartMeshLOD: 175.0
+  Mass: 7000.0
+  StartMeshLOD: 170.0
   Play_Falling_SFX: Play_Gather_TreeFall_Big
   Stop_Falling_SFX: Stop_Gather_TreeFall_Big
   Play_Sliding_SFX: Play_Slide_Tree_Hvy
@@ -3740,8 +3740,8 @@
   CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Super\\cordatashade\\sup_inv_cordatashadetree_mat_cut.mtl"
 - VariantID: Cordata_Shade_b_cuttrunk
   StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\cordatashade\\sup_inv_cordata_shade_cuttrunk_b.cgf"
-  Mass: 8000.0
-  StartMeshLOD: 150.0
+  Mass: 5000.0
+  StartMeshLOD: 140.0
   Play_Falling_SFX: Play_Gather_TreeFall_Med
   Stop_Falling_SFX: Stop_Gather_TreeFall_Med
   Play_Sliding_SFX: Play_Slide_Tree_Hvy
@@ -3751,8 +3751,8 @@
   CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Super\\cordatashade\\sup_inv_cordatashadetree_mat_cut.mtl"
 - VariantID: Cordata_Shade_c_cuttrunk
   StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\cordatashade\\sup_inv_cordata_shade_cuttrunk_c.cgf"
-  Mass: 6000.0
-  StartMeshLOD: 145.0
+  Mass: 3000.0
+  StartMeshLOD: 140.0
   Play_Falling_SFX: Play_Gather_TreeFall_Med
   Stop_Falling_SFX: Stop_Gather_TreeFall_Med
   Play_Sliding_SFX: Play_Slide_Tree_Med
@@ -3762,7 +3762,7 @@
   CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Super\\cordatashade\\sup_inv_cordatashadetree_mat_cut.mtl"
 - VariantID: Cordata_Shade_d_cuttrunk
   StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\cordatashade\\sup_inv_cordata_shade_cuttrunk_d.cgf"
-  Mass: 4000.0
+  Mass: 2000.0
   StartMeshLOD: 130.0
   Play_Falling_SFX: Play_Gather_TreeFall_Med
   Stop_Falling_SFX: Stop_Gather_TreeFall_Med
@@ -3773,8 +3773,8 @@
   CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Super\\cordatashade\\sup_inv_cordatashadetree_mat_cut.mtl"
 - VariantID: Cordata_Shade_e_cuttrunk
   StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\cordatashade\\sup_inv_cordata_shade_cuttrunk_e.cgf"
-  Mass: 2000.0
-  StartMeshLOD: 100.0
+  Mass: 1000.0
+  StartMeshLOD: 150.0
   Play_Falling_SFX: Play_Gather_TreeFall_Small
   Stop_Falling_SFX: Stop_Gather_TreeFall_Small
   Play_Sliding_SFX: Play_Slide_Tree_Small
@@ -3782,3 +3782,135 @@
   Y_Sliding_SFX: 0.0
   Z_Sliding_SFX: 4.0
   CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Super\\cordatashade\\sup_inv_cordatashadetree_mat_cut.mtl"
+- VariantID: RuneWoodTree_a_cuttrunk
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_beechtree_cuttrunk_a.cgf"
+  Mass: 2000.0
+  StartMeshLOD: 50.0
+  Play_Falling_SFX: Play_Gather_TreeFall_Big
+  Stop_Falling_SFX: Stop_Gather_TreeFall_Big
+  Play_Sliding_SFX: Play_Slide_Tree_Hvy
+  X_Sliding_SFX: 0.0
+  Y_Sliding_SFX: 0.0
+  Z_Sliding_SFX: 7.0
+  CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_wyrdwood_b_mat.mtl"
+- VariantID: RuneWoodTree_b_cuttrunk
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_beechtree_cuttrunk_b.cgf"
+  Mass: 1000.0
+  StartMeshLOD: 60.0
+  Play_Falling_SFX: Play_Gather_TreeFall_Med
+  Stop_Falling_SFX: Stop_Gather_TreeFall_Med
+  Play_Sliding_SFX: Play_Slide_Tree_Med
+  X_Sliding_SFX: 0.0
+  Y_Sliding_SFX: 0.0
+  Z_Sliding_SFX: 6.0
+  CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_wyrdwood_b_mat.mtl"
+- VariantID: RuneWoodTree_ba_cuttrunk
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_beechtree_cuttrunk_ba.cgf"
+  Mass: 1000.0
+  StartMeshLOD: 55.0
+  Play_Falling_SFX: Play_Gather_TreeFall_Med
+  Stop_Falling_SFX: Stop_Gather_TreeFall_Med
+  Play_Sliding_SFX: Play_Slide_Tree_Med
+  X_Sliding_SFX: 0.0
+  Y_Sliding_SFX: -1.0
+  Z_Sliding_SFX: 4.0
+  CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_wyrdwood_b_mat.mtl"
+- VariantID: RuneWoodTree_ca_cuttrunk
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_beechtree_cuttrunk_ca.cgf"
+  Mass: 1000.0
+  StartMeshLOD: 55.0
+  Play_Falling_SFX: Play_Gather_TreeFall_Small
+  Stop_Falling_SFX: Stop_Gather_TreeFall_Small
+  Play_Sliding_SFX: Play_Slide_Tree_Small
+  X_Sliding_SFX: 0.0
+  Y_Sliding_SFX: 1.0
+  Z_Sliding_SFX: 4.0
+  CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_wyrdwood_b_mat.mtl"
+- VariantID: RuneWoodTree_cb_cuttrunk
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_beechtree_cuttrunk_cb.cgf"
+  Mass: 1000.0
+  StartMeshLOD: 50.0
+  Play_Falling_SFX: Play_Gather_TreeFall_Small
+  Stop_Falling_SFX: Stop_Gather_TreeFall_Small
+  Play_Sliding_SFX: Play_Slide_Tree_Small
+  X_Sliding_SFX: 0.5
+  Y_Sliding_SFX: 0.0
+  Z_Sliding_SFX: 4.0
+  CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_wyrdwood_b_mat.mtl"
+- VariantID: RuneWoodTree_cc_cuttrunk
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_beechtree_cuttrunk_cc.cgf"
+  Mass: 1000.0
+  StartMeshLOD: 45.0
+  Play_Falling_SFX: Play_Gather_TreeFall_Small
+  Stop_Falling_SFX: Stop_Gather_TreeFall_Small
+  Play_Sliding_SFX: Play_Slide_Tree_Small
+  X_Sliding_SFX: 0.5
+  Y_Sliding_SFX: -1.0
+  Z_Sliding_SFX: 2.5
+  CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_wyrdwood_b_mat.mtl"
+- VariantID: RuneWoodTree_cd_cuttrunk
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_beechtree_cuttrunk_cd.cgf"
+  Mass: 1000.0
+  StartMeshLOD: 50.0
+  Play_Falling_SFX: Play_Gather_TreeFall_Small
+  Stop_Falling_SFX: Stop_Gather_TreeFall_Small
+  Play_Sliding_SFX: Play_Slide_Tree_Small
+  X_Sliding_SFX: -1.0
+  Y_Sliding_SFX: -0.5
+  Z_Sliding_SFX: 3.0
+  CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_wyrdwood_b_mat.mtl"
+- VariantID: RuneWoodTree_d_cuttrunk
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_beechtree_cuttrunk_d.cgf"
+  Mass: 500.0
+  StartMeshLOD: 50.0
+  Play_Falling_SFX: Play_Gather_TreeFall_Small
+  Stop_Falling_SFX: Stop_Gather_TreeFall_Small
+  Play_Sliding_SFX: Play_Slide_Tree_Small
+  X_Sliding_SFX: 0.0
+  Y_Sliding_SFX: 0.0
+  Z_Sliding_SFX: 3.0
+  CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_wyrdwood_b_mat.mtl"
+- VariantID: RuneWoodTree_e_cuttrunk
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_beechtree_cuttrunk_e.cgf"
+  Mass: 100.0
+  StartMeshLOD: 50.0
+  Play_Falling_SFX: Play_Gather_TreeFall_Small
+  Stop_Falling_SFX: Stop_Gather_TreeFall_Small
+  Play_Sliding_SFX: Play_Slide_Tree_Small
+  X_Sliding_SFX: 0.0
+  Y_Sliding_SFX: 0.0
+  Z_Sliding_SFX: 1.5
+  CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_wyrdwood_b_mat.mtl"
+- VariantID: ColumnCone_Fungus_a_cuttrunk
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_cuttrunk_A.cgf"
+  Mass: 2500.0
+  StartMeshLOD: 110.0
+  Play_Falling_SFX: Play_Gather_CactusFall_Med
+  Stop_Falling_SFX: Stop_Gather_CactusFall_Med
+  Play_Sliding_SFX: Play_Slide_Tree_Med
+  X_Sliding_SFX: 0.0
+  Y_Sliding_SFX: 0.0
+  Z_Sliding_SFX: 4.0
+  CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Super\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_A_mat.mtl"
+- VariantID: ColumnCone_Fungus_b_cuttrunk
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_cuttrunk_B.cgf"
+  Mass: 2000.0
+  StartMeshLOD: 100.0
+  Play_Falling_SFX: Play_Gather_CactusFall_Med
+  Stop_Falling_SFX: Stop_Gather_CactusFall_Med
+  Play_Sliding_SFX: Play_Slide_Tree_Med
+  X_Sliding_SFX: 0.0
+  Y_Sliding_SFX: 0.0
+  Z_Sliding_SFX: 4.0
+  CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Super\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_A_mat.mtl"
+- VariantID: ColumnCone_Fungus_c_cuttrunk
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_cuttrunk_C.cgf"
+  Mass: 1000.0
+  StartMeshLOD: 100.0
+  Play_Falling_SFX: Play_Gather_CactusFall_Med
+  Stop_Falling_SFX: Stop_Gather_CactusFall_Med
+  Play_Sliding_SFX: Play_Slide_Tree_Med
+  X_Sliding_SFX: 0.0
+  Y_Sliding_SFX: 0.0
+  Z_Sliding_SFX: 3.0
+  CutMaterial: "Objects\\Nature\\Veg_Trees\\Trees_Super\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_A_mat.mtl"

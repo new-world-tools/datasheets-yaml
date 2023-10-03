@@ -4420,6 +4420,138 @@
   InteractionMarker_Offset_X: null
   InteractionMarker_Offset_Y: null
   InteractionMarker_Offset_Z: null
+- VariantID: RunewoodTree_a
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_beechtree_full_a.cgf"
+  StartMat: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_wyrdwood_b_mat.mtl"
+  GatherableEntryID: TreeRunewoodHuge
+  GatheringRadius: 2.0
+  InteractionRadius: 3.5
+  DetectableRadius: 2.0
+  DepletedVFX: Gatherable_Tree.Demolish.Break_Tree_A
+  DepletedVFX_Pos: 0.7
+  DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_beechtree_stump_a.cgf"
+  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_wyrdwood_b_mat.mtl"
+  DepletedSpawnVariant: RunewoodTree_a_cuttrunk
+  StartMeshLOD: 45.0
+  AmbientType: BeechTree
+  ShowOnCompass: 1.0
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Wyrdwood_Compass.png"
+  TradeskillIconUnlockType: Wyrdwood
+  MarkerRadius: 5.0
+  AllowGatheringInGameModes: ""
+  InteractionMarker_Offset_X: null
+  InteractionMarker_Offset_Y: null
+  InteractionMarker_Offset_Z: null
+- VariantID: RunewoodTree_b
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_beechtree_full_b.cgf"
+  StartMat: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_wyrdwood_b_mat.mtl"
+  GatherableEntryID: TreeRunewoodLarge
+  GatheringRadius: 1.0
+  InteractionRadius: 2.7
+  DetectableRadius: 2.0
+  DepletedVFX: Gatherable_Tree.Demolish.Break_Tree_B
+  DepletedVFX_Pos: 0.7
+  DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_beechtree_stump_b.cgf"
+  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_wyrdwood_b_mat.mtl"
+  DepletedSpawnVariant: RunewoodTree_b_cuttrunk
+  StartMeshLOD: 30.0
+  AmbientType: BeechTree
+  ShowOnCompass: 1.0
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Wyrdwood_Compass.png"
+  TradeskillIconUnlockType: Wyrdwood
+  MarkerRadius: 4.2
+  AllowGatheringInGameModes: ""
+  InteractionMarker_Offset_X: null
+  InteractionMarker_Offset_Y: null
+  InteractionMarker_Offset_Z: null
+- VariantID: RunewoodTree_c
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_beechtree_full_ba.cgf"
+  StartMat: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_wyrdwood_b_mat.mtl"
+  GatherableEntryID: TreeRunewoodMedium
+  GatheringRadius: 0.6
+  InteractionRadius: 2.2
+  DetectableRadius: 2.0
+  DepletedVFX: Gatherable_Tree.Demolish.Break_Tree_C
+  DepletedVFX_Pos: 0.7
+  DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_beechtree_stump_ba.cgf"
+  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_wyrdwood_b_mat.mtl"
+  DepletedSpawnVariant: RunewoodTree_ba_cuttrunk
+  StartMeshLOD: 25.0
+  AmbientType: BeechTree
+  ShowOnCompass: 1.0
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Wyrdwood_Compass.png"
+  TradeskillIconUnlockType: Wyrdwood
+  MarkerRadius: 3.7
+  AllowGatheringInGameModes: ""
+  InteractionMarker_Offset_X: null
+  InteractionMarker_Offset_Y: null
+  InteractionMarker_Offset_Z: null
+- VariantID: RunewoodTree_d
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_beechtree_full_ca.cgf"
+  StartMat: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_wyrdwood_b_mat.mtl"
+  GatherableEntryID: TreeRunewoodSmall
+  GatheringRadius: 0.47
+  InteractionRadius: 1.8
+  DetectableRadius: 2.0
+  DepletedVFX: Gatherable_Tree.Demolish.Break_Tree_D
+  DepletedVFX_Pos: 0.7
+  DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_beechtree_stump_ca.cgf"
+  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_wyrdwood_b_mat.mtl"
+  DepletedSpawnVariant: RunewoodTree_ca_cuttrunk
+  StartMeshLOD: 20.0
+  AmbientType: BeechTree
+  ShowOnCompass: 1.0
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Wyrdwood_Compass.png"
+  TradeskillIconUnlockType: Wyrdwood
+  MarkerRadius: 3.3
+  AllowGatheringInGameModes: ""
+  InteractionMarker_Offset_X: null
+  InteractionMarker_Offset_Y: null
+  InteractionMarker_Offset_Z: null
+- VariantID: RunewoodTree_e
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_beechtree_full_d.cgf"
+  StartMat: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_wyrdwood_b_mat.mtl"
+  GatherableEntryID: TreeRunewoodSmall
+  GatheringRadius: 0.3
+  InteractionRadius: 1.8
+  DetectableRadius: 2.0
+  DepletedVFX: Gatherable_Tree.Demolish.Break_Tree_D
+  DepletedVFX_Pos: 0.7
+  DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_beechtree_stump_d.cgf"
+  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_wyrdwood_b_mat.mtl"
+  DepletedSpawnVariant: RunewoodTree_d_cuttrunk
+  StartMeshLOD: 17.0
+  AmbientType: BeechTree
+  ShowOnCompass: 1.0
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Wyrdwood_Compass.png"
+  TradeskillIconUnlockType: Wyrdwood
+  MarkerRadius: 3.3
+  AllowGatheringInGameModes: ""
+  InteractionMarker_Offset_X: null
+  InteractionMarker_Offset_Y: null
+  InteractionMarker_Offset_Z: null
+- VariantID: RunewoodTree_f
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_beechtree_full_e.cgf"
+  StartMat: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_wyrdwood_b_mat.mtl"
+  GatherableEntryID: TreeRunewoodTiny
+  GatheringRadius: 0.29
+  InteractionRadius: 1.8
+  DetectableRadius: 2.0
+  DepletedVFX: Gatherable_Tree.Demolish.Break_Tree_E
+  DepletedVFX_Pos: 0.7
+  DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_beechtree_stump_e.cgf"
+  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\Beech\\jav_fst_wyrdwood_b_mat.mtl"
+  DepletedSpawnVariant: RunewoodTree_e_cuttrunk
+  StartMeshLOD: 15.0
+  AmbientType: BeechTree
+  ShowOnCompass: 1.0
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Wyrdwood_Compass.png"
+  TradeskillIconUnlockType: Wyrdwood
+  MarkerRadius: 3.3
+  AllowGatheringInGameModes: ""
+  InteractionMarker_Offset_X: null
+  InteractionMarker_Offset_Y: null
+  InteractionMarker_Offset_Z: null
 - VariantID: LiveOakTree_a
   StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Coast\\LiveOak\\jav_cst_liveoak_full_a.cgf"
   StartMat: "Objects\\Nature\\Veg_Trees\\Trees_Coast\\LiveOak\\LiveOak_mat.mtl"
@@ -5303,7 +5435,7 @@
 - VariantID: BananaTree_a
   StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Coast\\BananaPlant\\jav_cst_bananaplant_a.cgf"
   StartMat: "Objects\\Nature\\Veg_Trees\\Trees_Coast\\BananaPlant\\BananaPlant_mat.mtl"
-  GatherableEntryID: TreeHardwoodMedium
+  GatherableEntryID: BananaTreeMedium
   GatheringRadius: 0.25
   InteractionRadius: 2.1
   DetectableRadius: 2.0
@@ -5325,7 +5457,7 @@
 - VariantID: BananaTree_b
   StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Coast\\BananaPlant\\jav_cst_bananaplant_b.cgf"
   StartMat: "Objects\\Nature\\Veg_Trees\\Trees_Coast\\BananaPlant\\BananaPlant_mat.mtl"
-  GatherableEntryID: TreeHardwoodSmall
+  GatherableEntryID: BananaTreeSmall
   GatheringRadius: 0.14
   InteractionRadius: 2.1
   DetectableRadius: 2.0
@@ -5347,7 +5479,7 @@
 - VariantID: BananaTree_c
   StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Coast\\BananaPlant\\jav_cst_bananaplant_c.cgf"
   StartMat: "Objects\\Nature\\Veg_Trees\\Trees_Coast\\BananaPlant\\BananaPlant_mat.mtl"
-  GatherableEntryID: TreeHardwoodTiny
+  GatherableEntryID: BananaTreeTiny
   GatheringRadius: 0.14
   InteractionRadius: 2.1
   DetectableRadius: 2.0
@@ -6544,7 +6676,7 @@
   DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Kapok\\jav_jgl_kapoktree_stump_c.cgf"
   DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Kapok\\JAV_Jgl_KapokTree_A_mat.mtl"
   DepletedSpawnVariant: KapokTree_c_cuttrunk
-  StartMeshLOD: 100.0
+  StartMeshLOD: 95.0
   AmbientType: KapokTree
   ShowOnCompass: null
   CompassIcon: ""
@@ -6566,7 +6698,7 @@
   DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Kapok\\jav_jgl_kapoktree_stump_d.cgf"
   DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Kapok\\JAV_Jgl_KapokTree_A_mat.mtl"
   DepletedSpawnVariant: KapokTree_d_cuttrunk
-  StartMeshLOD: 80.0
+  StartMeshLOD: 85.0
   AmbientType: KapokTree
   ShowOnCompass: null
   CompassIcon: ""
@@ -6632,7 +6764,7 @@
   DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\KentiaPalm\\jav_jgl_kentiapalm_stump_a.cgf"
   DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\KentiaPalm\\JAV_Jgl_KentiaPalm_A_mat.mtl"
   DepletedSpawnVariant: KentiaPalm_a_cuttrunk
-  StartMeshLOD: 50.0
+  StartMeshLOD: 70.0
   AmbientType: BananaTree
   ShowOnCompass: null
   CompassIcon: ""
@@ -6654,7 +6786,7 @@
   DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\KentiaPalm\\jav_jgl_kentiapalm_stump_b.cgf"
   DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\KentiaPalm\\JAV_Jgl_KentiaPalm_A_mat.mtl"
   DepletedSpawnVariant: KentiaPalm_b_cuttrunk
-  StartMeshLOD: 45.0
+  StartMeshLOD: 60.0
   AmbientType: BananaTree
   ShowOnCompass: null
   CompassIcon: ""
@@ -6676,7 +6808,7 @@
   DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\KentiaPalm\\jav_jgl_kentiapalm_stump_c.cgf"
   DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\KentiaPalm\\JAV_Jgl_KentiaPalm_A_mat.mtl"
   DepletedSpawnVariant: KentiaPalm_c_cuttrunk
-  StartMeshLOD: 35.0
+  StartMeshLOD: 60.0
   AmbientType: BananaTree
   ShowOnCompass: null
   CompassIcon: ""
@@ -6698,7 +6830,7 @@
   DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\KentiaPalm\\jav_jgl_kentiapalm_stump_d.cgf"
   DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\KentiaPalm\\JAV_Jgl_KentiaPalm_A_mat.mtl"
   DepletedSpawnVariant: KentiaPalm_d_cuttrunk
-  StartMeshLOD: 35.0
+  StartMeshLOD: 60.0
   AmbientType: BananaTree
   ShowOnCompass: null
   CompassIcon: ""
@@ -6718,7 +6850,7 @@
   DepletedVFX: Gatherable_Tree.Demolish.Break_Tree_A
   DepletedVFX_Pos: 0.7
   DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Bamboo\\jav_jgl_bamboo_stump_a.cgf"
-  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Bamboo\\JAV_Jgl_Bamboo_A_mat.mtl"
+  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Bamboo\\JAV_Jgl_Bamboo_A_mat_Cut.mtl"
   DepletedSpawnVariant: Bamboo_a_cuttrunk
   StartMeshLOD: 50.0
   AmbientType: Bush
@@ -6740,7 +6872,7 @@
   DepletedVFX: Gatherable_Tree.Demolish.Break_Tree_B
   DepletedVFX_Pos: 0.7
   DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Bamboo\\jav_jgl_bamboo_stump_b.cgf"
-  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Bamboo\\JAV_Jgl_Bamboo_A_mat.mtl"
+  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Bamboo\\JAV_Jgl_Bamboo_A_mat_Cut.mtl"
   DepletedSpawnVariant: Bamboo_b_cuttrunk
   StartMeshLOD: 45.0
   AmbientType: Bush
@@ -6762,7 +6894,7 @@
   DepletedVFX: Gatherable_Tree.Demolish.Break_Tree_C
   DepletedVFX_Pos: 0.7
   DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Bamboo\\jav_jgl_bamboo_stump_c.cgf"
-  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Bamboo\\JAV_Jgl_Bamboo_A_mat.mtl"
+  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Bamboo\\JAV_Jgl_Bamboo_A_mat_Cut.mtl"
   DepletedSpawnVariant: Bamboo_c_cuttrunk
   StartMeshLOD: 35.0
   AmbientType: Bush
@@ -6784,7 +6916,7 @@
   DepletedVFX: Gatherable_Tree.Demolish.Break_Tree_C
   DepletedVFX_Pos: 0.7
   DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Bamboo\\jav_jgl_bamboo_stump_d.cgf"
-  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Bamboo\\JAV_Jgl_Bamboo_A_mat.mtl"
+  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Bamboo\\JAV_Jgl_Bamboo_A_mat_Cut.mtl"
   DepletedSpawnVariant: Bamboo_d_cuttrunk
   StartMeshLOD: 35.0
   AmbientType: Bush
@@ -6806,7 +6938,7 @@
   DepletedVFX: Gatherable_Tree.Demolish.Break_Tree_C
   DepletedVFX_Pos: 0.7
   DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Bamboo\\jav_jgl_bamboo_stump_e.cgf"
-  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Bamboo\\JAV_Jgl_Bamboo_A_mat.mtl"
+  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Bamboo\\JAV_Jgl_Bamboo_A_mat_Cut.mtl"
   DepletedSpawnVariant: Bamboo_e_cuttrunk
   StartMeshLOD: 35.0
   AmbientType: Bush
@@ -6828,7 +6960,7 @@
   DepletedVFX: Gatherable_Tree.Demolish.Break_Tree_C
   DepletedVFX_Pos: 0.7
   DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Bamboo\\jav_jgl_bamboo_stump_f.cgf"
-  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Bamboo\\JAV_Jgl_Bamboo_A_mat.mtl"
+  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Jungle\\Bamboo\\JAV_Jgl_Bamboo_A_mat_Cut.mtl"
   DepletedSpawnVariant: Bamboo_f_cuttrunk
   StartMeshLOD: 35.0
   AmbientType: Bush
@@ -7593,19 +7725,19 @@
   StartMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_flutedthuja_mat.mtl"
   GatherableEntryID: TreeHardwoodHuge
   GatheringRadius: 2.5
-  InteractionRadius: 3.5
+  InteractionRadius: 4.0
   DetectableRadius: 2.0
   DepletedVFX: Gatherable_Tree.Demolish.Break_Tree_A
   DepletedVFX_Pos: 0.7
-  DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_fluted_thuja_stump_b.cgf"
+  DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_fluted_thuja_stump_a.cgf"
   DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_flutedthuja_mat.mtl"
   DepletedSpawnVariant: Fluted_Thuja_a_cuttrunk
-  StartMeshLOD: 160.0
-  AmbientType: BaldCypressTree
+  StartMeshLOD: 200.0
+  AmbientType: FlutedThujaTree
   ShowOnCompass: null
   CompassIcon: ""
   TradeskillIconUnlockType: ""
-  MarkerRadius: 5.0
+  MarkerRadius: 5.5
   AllowGatheringInGameModes: ""
   InteractionMarker_Offset_X: null
   InteractionMarker_Offset_Y: null
@@ -7623,7 +7755,7 @@
   DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_flutedthuja_mat.mtl"
   DepletedSpawnVariant: Fluted_Thuja_b_cuttrunk
   StartMeshLOD: 140.0
-  AmbientType: BaldCypressTree
+  AmbientType: FlutedThujaTree
   ShowOnCompass: null
   CompassIcon: ""
   TradeskillIconUnlockType: ""
@@ -7644,8 +7776,8 @@
   DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_fluted_thuja_stump_c.cgf"
   DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_flutedthuja_mat.mtl"
   DepletedSpawnVariant: Fluted_Thuja_c_cuttrunk
-  StartMeshLOD: 145.0
-  AmbientType: BaldCypressTree
+  StartMeshLOD: 136.0
+  AmbientType: FlutedThujaTree
   ShowOnCompass: null
   CompassIcon: ""
   TradeskillIconUnlockType: ""
@@ -7659,7 +7791,7 @@
   StartMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_flutedthuja_mat.mtl"
   GatherableEntryID: TreeHardwoodMedium
   GatheringRadius: 1.4
-  InteractionRadius: 2.5
+  InteractionRadius: 3.0
   DetectableRadius: 2.0
   DepletedVFX: Gatherable_Tree.Demolish.Break_Tree_B
   DepletedVFX_Pos: 0.7
@@ -7667,11 +7799,11 @@
   DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_flutedthuja_mat.mtl"
   DepletedSpawnVariant: Fluted_Thuja_cb_cuttrunk
   StartMeshLOD: 145.0
-  AmbientType: BaldCypressTree
+  AmbientType: FlutedThujaTree
   ShowOnCompass: null
   CompassIcon: ""
   TradeskillIconUnlockType: ""
-  MarkerRadius: 4.0
+  MarkerRadius: 4.5
   AllowGatheringInGameModes: ""
   InteractionMarker_Offset_X: null
   InteractionMarker_Offset_Y: null
@@ -7681,19 +7813,19 @@
   StartMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_flutedthuja_mat.mtl"
   GatherableEntryID: TreeHardwoodMedium
   GatheringRadius: 1.0
-  InteractionRadius: 2.0
+  InteractionRadius: 2.5
   DetectableRadius: 2.0
   DepletedVFX: Gatherable_Tree.Demolish.Break_Tree_C
   DepletedVFX_Pos: 0.7
   DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_fluted_thuja_stump_d.cgf"
   DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_flutedthuja_mat.mtl"
   DepletedSpawnVariant: Fluted_Thuja_d_cuttrunk
-  StartMeshLOD: 120.0
-  AmbientType: BaldCypressTree
+  StartMeshLOD: 136.0
+  AmbientType: FlutedThujaTree
   ShowOnCompass: null
   CompassIcon: ""
   TradeskillIconUnlockType: ""
-  MarkerRadius: 3.5
+  MarkerRadius: 4.0
   AllowGatheringInGameModes: ""
   InteractionMarker_Offset_X: null
   InteractionMarker_Offset_Y: null
@@ -7703,19 +7835,19 @@
   StartMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_flutedthuja_mat.mtl"
   GatherableEntryID: TreeHardwoodSmall
   GatheringRadius: 0.5
-  InteractionRadius: 1.5
+  InteractionRadius: 2.0
   DetectableRadius: 2.0
   DepletedVFX: Gatherable_Tree.Demolish.Break_Tree_D
   DepletedVFX_Pos: 0.7
   DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_fluted_thuja_stump_e.cgf"
   DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_flutedthuja_mat.mtl"
   DepletedSpawnVariant: Fluted_Thuja_e_cuttrunk
-  StartMeshLOD: 135.0
-  AmbientType: BaldCypressTree
+  StartMeshLOD: 127.0
+  AmbientType: FlutedThujaTree
   ShowOnCompass: null
   CompassIcon: ""
   TradeskillIconUnlockType: ""
-  MarkerRadius: 3.0
+  MarkerRadius: 3.5
   AllowGatheringInGameModes: ""
   InteractionMarker_Offset_X: null
   InteractionMarker_Offset_Y: null
@@ -7725,19 +7857,19 @@
   StartMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_flutedthuja_mat.mtl"
   GatherableEntryID: TreeHardwoodSmall
   GatheringRadius: 0.25
-  InteractionRadius: 1.5
+  InteractionRadius: 1.75
   DetectableRadius: 2.0
   DepletedVFX: Gatherable_Tree.Demolish.Break_Tree_E
   DepletedVFX_Pos: 0.7
   DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_fluted_thuja_stump_f.cgf"
   DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\FlutedThuja\\sup_inv_flutedthuja_mat.mtl"
   DepletedSpawnVariant: Fluted_Thuja_f_cuttrunk
-  StartMeshLOD: 100.0
-  AmbientType: BaldCypressTree
+  StartMeshLOD: 110.0
+  AmbientType: FlutedThujaTree
   ShowOnCompass: null
   CompassIcon: ""
   TradeskillIconUnlockType: ""
-  MarkerRadius: 3.0
+  MarkerRadius: 3.25
   AllowGatheringInGameModes: ""
   InteractionMarker_Offset_X: null
   InteractionMarker_Offset_Y: null
@@ -7754,8 +7886,8 @@
   DepletedMesh: "Objects\\nature\\Veg_Trees\\Trees_Super\\cordatashade\\sup_inv_cordata_shade_stump_a.cgf"
   DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\cordatashade\\sup_inv_cordatashadetree_mat.mtl"
   DepletedSpawnVariant: Cordata_Shade_a_cuttrunk
-  StartMeshLOD: 160.0
-  AmbientType: PoplarTree
+  StartMeshLOD: 170.0
+  AmbientType: BananaTree
   ShowOnCompass: null
   CompassIcon: ""
   TradeskillIconUnlockType: ""
@@ -7776,8 +7908,8 @@
   DepletedMesh: "Objects\\nature\\Veg_Trees\\Trees_Super\\cordatashade\\sup_inv_cordata_shade_stump_b.cgf"
   DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\cordatashade\\sup_inv_cordatashadetree_mat.mtl"
   DepletedSpawnVariant: Cordata_Shade_b_cuttrunk
-  StartMeshLOD: 145.0
-  AmbientType: PoplarTree
+  StartMeshLOD: 140.0
+  AmbientType: BananaTree
   ShowOnCompass: null
   CompassIcon: ""
   TradeskillIconUnlockType: ""
@@ -7799,7 +7931,7 @@
   DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\cordatashade\\sup_inv_cordatashadetree_mat.mtl"
   DepletedSpawnVariant: Cordata_Shade_c_cuttrunk
   StartMeshLOD: 140.0
-  AmbientType: PoplarTree
+  AmbientType: BananaTree
   ShowOnCompass: null
   CompassIcon: ""
   TradeskillIconUnlockType: ""
@@ -7820,8 +7952,8 @@
   DepletedMesh: "Objects\\nature\\Veg_Trees\\Trees_Super\\cordatashade\\sup_inv_cordata_shade_stump_d.cgf"
   DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\cordatashade\\sup_inv_cordatashadetree_mat.mtl"
   DepletedSpawnVariant: Cordata_Shade_d_cuttrunk
-  StartMeshLOD: 120.0
-  AmbientType: PoplarTree
+  StartMeshLOD: 130.0
+  AmbientType: BananaTree
   ShowOnCompass: null
   CompassIcon: ""
   TradeskillIconUnlockType: ""
@@ -7842,8 +7974,8 @@
   DepletedMesh: "Objects\\nature\\Veg_Trees\\Trees_Super\\cordatashade\\sup_inv_cordata_shade_stump_e.cgf"
   DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\cordatashade\\sup_inv_cordatashadetree_mat.mtl"
   DepletedSpawnVariant: Cordata_Shade_e_cuttrunk
-  StartMeshLOD: 120.0
-  AmbientType: PoplarTree
+  StartMeshLOD: 150.0
+  AmbientType: BananaTree
   ShowOnCompass: null
   CompassIcon: ""
   TradeskillIconUnlockType: ""
@@ -7853,18 +7985,18 @@
   InteractionMarker_Offset_Y: null
   InteractionMarker_Offset_Z: null
 - VariantID: ColumnCone_Fungus_a
-  StartMesh: "Objects\\Nature\\Veg_Fungi\\Fungi_Invasive\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_A.cgf"
-  StartMat: "Objects\\Nature\\Veg_Fungi\\Fungi_Invasive\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_A_mat.mtl"
-  GatherableEntryID: Cactus_Tree_Large
-  GatheringRadius: 0.25
-  InteractionRadius: 2.1
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_A.cgf"
+  StartMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_A_mat.mtl"
+  GatherableEntryID: Mycodendra_Tree_Huge
+  GatheringRadius: 2.0
+  InteractionRadius: 4.0
   DetectableRadius: 2.0
-  DepletedVFX: Gatherable_Bush.CactusSaguaro_B
+  DepletedVFX: Gatherable_Tree.Demolish.Break_Tree_A
   DepletedVFX_Pos: 0.7
-  DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Desert\\CactusSaguaro\\jav_dst_cactussaguaro_stump_a.cgf"
-  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Desert\\CactusSaguaro\\jav_dst_cactussaguaro_a_mat.mtl"
-  DepletedSpawnVariant: CactusSaguaro_a_cuttrunk
-  StartMeshLOD: 50.0
+  DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_cutstump_A.cgf"
+  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_A_mat.mtl"
+  DepletedSpawnVariant: ColumnCone_Fungus_a_cuttrunk
+  StartMeshLOD: 110.0
   AmbientType: BananaTree
   ShowOnCompass: null
   CompassIcon: ""
@@ -7875,18 +8007,18 @@
   InteractionMarker_Offset_Y: null
   InteractionMarker_Offset_Z: null
 - VariantID: ColumnCone_Fungus_b
-  StartMesh: "Objects\\Nature\\Veg_Fungi\\Fungi_Invasive\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_B.cgf"
-  StartMat: "Objects\\Nature\\Veg_Fungi\\Fungi_Invasive\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_A_mat.mtl"
-  GatherableEntryID: Cactus_Tree_Medium
-  GatheringRadius: 0.14
-  InteractionRadius: 2.1
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_B.cgf"
+  StartMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_A_mat.mtl"
+  GatherableEntryID: Mycodendra_Tree_Large
+  GatheringRadius: 1.8
+  InteractionRadius: 3.0
   DetectableRadius: 2.0
-  DepletedVFX: Gatherable_Bush.CactusSaguaro_B
+  DepletedVFX: Gatherable_Tree.Demolish.Break_Tree_A
   DepletedVFX_Pos: 0.7
-  DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Desert\\CactusSaguaro\\jav_dst_cactussaguaro_stump_b.cgf"
-  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Desert\\CactusSaguaro\\jav_dst_cactussaguaro_a_mat.mtl"
-  DepletedSpawnVariant: CactusSaguaro_b_cuttrunk
-  StartMeshLOD: 45.0
+  DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_cutstump_B.cgf"
+  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_A_mat.mtl"
+  DepletedSpawnVariant: ColumnCone_Fungus_b_cuttrunk
+  StartMeshLOD: 100.0
   AmbientType: BananaTree
   ShowOnCompass: null
   CompassIcon: ""
@@ -7897,18 +8029,18 @@
   InteractionMarker_Offset_Y: null
   InteractionMarker_Offset_Z: null
 - VariantID: ColumnCone_Fungus_c
-  StartMesh: "Objects\\Nature\\Veg_Fungi\\Fungi_Invasive\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_C.cgf"
-  StartMat: "Objects\\Nature\\Veg_Fungi\\Fungi_Invasive\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_A_mat.mtl"
-  GatherableEntryID: Cactus_Tree_Medium
-  GatheringRadius: 0.14
-  InteractionRadius: 2.1
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_C.cgf"
+  StartMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_A_mat.mtl"
+  GatherableEntryID: Mycodendra_Tree_Medium
+  GatheringRadius: 1.6
+  InteractionRadius: 3.0
   DetectableRadius: 2.0
-  DepletedVFX: Gatherable_Bush.CactusSaguaro_C
+  DepletedVFX: Gatherable_Tree.Demolish.Break_Tree_B
   DepletedVFX_Pos: 0.7
-  DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Desert\\CactusSaguaro\\jav_dst_cactussaguaro_stump_c.cgf"
-  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Desert\\CactusSaguaro\\jav_dst_cactussaguaro_a_mat.mtl"
-  DepletedSpawnVariant: CactusSaguaro_c_cuttrunk
-  StartMeshLOD: 35.0
+  DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Super\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_cutstump_C.cgf"
+  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Super\\ColumnCone_Fungus\\Inv_ColumnCone_Fungus_A_mat.mtl"
+  DepletedSpawnVariant: ColumnCone_Fungus_c_cuttrunk
+  StartMeshLOD: 100.0
   AmbientType: BananaTree
   ShowOnCompass: null
   CompassIcon: ""

@@ -1,6 +1,7 @@
 - CategoricalProgressionId: Syndicate
   DisplayName: "@ui_faction_name1"
   MaxLevel: 4.0
+  Expansion01MaxLevel: 5.0
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -12,7 +13,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: true
   IconPath: lyshineui/images/icons/objectives/reward_factionReputation1.dds
   UsesGlobalProgressionMod: true
@@ -22,6 +23,7 @@
 - CategoricalProgressionId: Marauder
   DisplayName: "@ui_faction_name2"
   MaxLevel: 4.0
+  Expansion01MaxLevel: 5.0
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -33,7 +35,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: true
   IconPath: lyshineui/images/icons/objectives/reward_factionReputation2.dds
   UsesGlobalProgressionMod: true
@@ -43,6 +45,7 @@
 - CategoricalProgressionId: Covenant
   DisplayName: "@ui_faction_name3"
   MaxLevel: 4.0
+  Expansion01MaxLevel: 5.0
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -54,7 +57,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: true
   IconPath: lyshineui/images/icons/objectives/reward_factionReputation3.dds
   UsesGlobalProgressionMod: true
@@ -64,6 +67,7 @@
 - CategoricalProgressionId: Repair_T1
   DisplayName: "@ui_repairparts"
   MaxLevel: 0.0
+  Expansion01MaxLevel: null
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -75,7 +79,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: lyshineui/images/icons/items/resource/repairpartst1.dds
   UsesGlobalProgressionMod: null
@@ -85,6 +89,7 @@
 - CategoricalProgressionId: "2"
   DisplayName: "@Brightwood"
   MaxLevel: 300.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -96,7 +101,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -106,6 +111,7 @@
 - CategoricalProgressionId: "4"
   DisplayName: "@Everfall"
   MaxLevel: 300.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -117,7 +123,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -127,6 +133,7 @@
 - CategoricalProgressionId: "5"
   DisplayName: "@Reekwater"
   MaxLevel: 300.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -138,7 +145,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -148,6 +155,7 @@
 - CategoricalProgressionId: "6"
   DisplayName: "@Windsward"
   MaxLevel: 300.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -159,7 +167,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -169,6 +177,7 @@
 - CategoricalProgressionId: "8"
   DisplayName: "@Queensport"
   MaxLevel: 300.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -180,7 +189,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -189,19 +198,20 @@
   EventId: ""
 - CategoricalProgressionId: "9"
   DisplayName: "@FirstLight"
-  MaxLevel: 300.0
-  AutoRankUp: true
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: Territory_Standing
-  ProgressionPointPool: TerritoryRankBonus_9
+  MaxLevel: 0.0
+  Expansion01MaxLevel: null
+  AutoRankUp: null
+  InfiniteLevels: null
+  RepeatMaxLevel: null
+  AllowOverflow: null
+  RankTableId: ""
+  ProgressionPointPool: ""
   PreSkillCapSkill: ""
   PostSkillCapSkill: ""
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -211,6 +221,7 @@
 - CategoricalProgressionId: "10"
   DisplayName: "@CutlassKeys"
   MaxLevel: 300.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -222,7 +233,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -232,6 +243,7 @@
 - CategoricalProgressionId: "11"
   DisplayName: "@Mourningdale"
   MaxLevel: 300.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -243,7 +255,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -253,6 +265,7 @@
 - CategoricalProgressionId: "12"
   DisplayName: "@MonarchsBluffs"
   MaxLevel: 300.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -264,7 +277,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -274,6 +287,7 @@
 - CategoricalProgressionId: "13"
   DisplayName: "@WeaversFen"
   MaxLevel: 300.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -285,7 +299,29 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
+  ShowAsObjectiveReward: null
+  IconPath: ""
+  UsesGlobalProgressionMod: true
+  ItemClass: ""
+  DisplayDescription: ""
+  EventId: ""
+- CategoricalProgressionId: "14"
+  DisplayName: "@Edengrove"
+  MaxLevel: 300.0
+  Expansion01MaxLevel: null
+  AutoRankUp: true
+  InfiniteLevels: false
+  RepeatMaxLevel: false
+  AllowOverflow: false
+  RankTableId: Territory_Standing
+  ProgressionPointPool: TerritoryRankBonus_14
+  PreSkillCapSkill: ""
+  PostSkillCapSkill: ""
+  EconomyTrackerType: ""
+  GameEventId: ""
+  AchievementIdOnMaxRank: ""
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -295,6 +331,7 @@
 - CategoricalProgressionId: "15"
   DisplayName: "@RestlessShore"
   MaxLevel: 300.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -306,7 +343,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -316,6 +353,7 @@
 - CategoricalProgressionId: "16"
   DisplayName: "@BrimstoneSands"
   MaxLevel: 300.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -327,7 +365,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -337,6 +375,7 @@
 - CategoricalProgressionId: Territory2_HouseBonusType0
   DisplayName: ""
   MaxLevel: 0.0
+  Expansion01MaxLevel: null
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -348,7 +387,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
@@ -358,6 +397,7 @@
 - CategoricalProgressionId: Territory4_HouseBonusType0
   DisplayName: ""
   MaxLevel: 0.0
+  Expansion01MaxLevel: null
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -369,7 +409,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
@@ -379,6 +419,7 @@
 - CategoricalProgressionId: Territory5_HouseBonusType0
   DisplayName: ""
   MaxLevel: 0.0
+  Expansion01MaxLevel: null
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -390,7 +431,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
@@ -400,6 +441,7 @@
 - CategoricalProgressionId: Territory6_HouseBonusType0
   DisplayName: ""
   MaxLevel: 0.0
+  Expansion01MaxLevel: null
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -411,7 +453,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
@@ -421,6 +463,7 @@
 - CategoricalProgressionId: Territory8_HouseBonusType0
   DisplayName: ""
   MaxLevel: 0.0
+  Expansion01MaxLevel: null
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -432,7 +475,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
@@ -442,6 +485,7 @@
 - CategoricalProgressionId: Territory9_HouseBonusType0
   DisplayName: ""
   MaxLevel: 0.0
+  Expansion01MaxLevel: null
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -453,7 +497,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
@@ -463,6 +507,7 @@
 - CategoricalProgressionId: Territory10_HouseBonusType0
   DisplayName: ""
   MaxLevel: 0.0
+  Expansion01MaxLevel: null
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -474,7 +519,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
@@ -484,6 +529,7 @@
 - CategoricalProgressionId: Territory11_HouseBonusType0
   DisplayName: ""
   MaxLevel: 0.0
+  Expansion01MaxLevel: null
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -495,7 +541,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
@@ -505,6 +551,7 @@
 - CategoricalProgressionId: Territory12_HouseBonusType0
   DisplayName: ""
   MaxLevel: 0.0
+  Expansion01MaxLevel: null
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -516,7 +563,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
@@ -526,6 +573,7 @@
 - CategoricalProgressionId: Territory13_HouseBonusType0
   DisplayName: ""
   MaxLevel: 0.0
+  Expansion01MaxLevel: null
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -537,7 +585,29 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
+  ShowAsObjectiveReward: null
+  IconPath: ""
+  UsesGlobalProgressionMod: null
+  ItemClass: ""
+  DisplayDescription: ""
+  EventId: ""
+- CategoricalProgressionId: Territory14_HouseBonusType0
+  DisplayName: ""
+  MaxLevel: 0.0
+  Expansion01MaxLevel: null
+  AutoRankUp: false
+  InfiniteLevels: false
+  RepeatMaxLevel: false
+  AllowOverflow: false
+  RankTableId: HouseBonus
+  ProgressionPointPool: ""
+  PreSkillCapSkill: ""
+  PostSkillCapSkill: ""
+  EconomyTrackerType: ""
+  GameEventId: ""
+  AchievementIdOnMaxRank: ""
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
@@ -547,6 +617,7 @@
 - CategoricalProgressionId: Territory15_HouseBonusType0
   DisplayName: ""
   MaxLevel: 0.0
+  Expansion01MaxLevel: null
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -558,7 +629,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
@@ -568,6 +639,7 @@
 - CategoricalProgressionId: Territory16_HouseBonusType0
   DisplayName: ""
   MaxLevel: 0.0
+  Expansion01MaxLevel: null
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -579,7 +651,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
@@ -589,6 +661,7 @@
 - CategoricalProgressionId: Battle_Token
   DisplayName: "@ui_siege_hud_battle_tokens"
   MaxLevel: 0.0
+  Expansion01MaxLevel: null
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -600,7 +673,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
@@ -610,6 +683,7 @@
 - CategoricalProgressionId: HatchetAbilityTable
   DisplayName: "@ui_hatchet_mastery"
   MaxLevel: 19.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -621,7 +695,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -631,6 +705,7 @@
 - CategoricalProgressionId: SwordAbilityTable
   DisplayName: "@ui_straightsword_mastery"
   MaxLevel: 19.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -642,7 +717,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -652,6 +727,7 @@
 - CategoricalProgressionId: WarHammerAbilityTable
   DisplayName: "@ui_warhammer_mastery"
   MaxLevel: 19.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -663,7 +739,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -673,6 +749,7 @@
 - CategoricalProgressionId: BowAbilityTable
   DisplayName: "@ui_bow_mastery"
   MaxLevel: 19.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -684,7 +761,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -694,6 +771,7 @@
 - CategoricalProgressionId: MusketAbilityTable
   DisplayName: "@ui_musket_mastery"
   MaxLevel: 19.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -705,7 +783,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -715,6 +793,7 @@
 - CategoricalProgressionId: BlunderbussAbilityTable
   DisplayName: "@ui_blunderbuss_mastery"
   MaxLevel: 19.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -726,7 +805,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -736,6 +815,7 @@
 - CategoricalProgressionId: LifeMagicAbilityTable
   DisplayName: "@ui_lifemagic_mastery"
   MaxLevel: 19.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -747,7 +827,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -757,6 +837,7 @@
 - CategoricalProgressionId: FireMagicAbilityTable
   DisplayName: "@ui_firemagic_mastery"
   MaxLevel: 19.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -768,7 +849,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -778,6 +859,7 @@
 - CategoricalProgressionId: GreatAxeAbilityTable
   DisplayName: "@ui_greataxe_mastery"
   MaxLevel: 19.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -789,7 +871,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -799,6 +881,7 @@
 - CategoricalProgressionId: SpearAbilityTable
   DisplayName: "@ui_spear_mastery"
   MaxLevel: 19.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -810,7 +893,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -820,6 +903,7 @@
 - CategoricalProgressionId: RapierAbilityTable
   DisplayName: "@ui_rapier_mastery"
   MaxLevel: 19.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -831,7 +915,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -841,6 +925,7 @@
 - CategoricalProgressionId: IceMagicAbilityTable
   DisplayName: "@ui_icemagic_mastery"
   MaxLevel: 19.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -852,7 +937,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -862,6 +947,7 @@
 - CategoricalProgressionId: VoidGauntletAbilityTable
   DisplayName: "@ui_voidmagic_mastery"
   MaxLevel: 19.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -873,7 +959,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -883,6 +969,7 @@
 - CategoricalProgressionId: GreatSwordAbilityTable
   DisplayName: "@ui_greatsword_mastery"
   MaxLevel: 19.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -894,7 +981,29 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
+  ShowAsObjectiveReward: null
+  IconPath: ""
+  UsesGlobalProgressionMod: true
+  ItemClass: ""
+  DisplayDescription: ""
+  EventId: ""
+- CategoricalProgressionId: FlailAbilityTable
+  DisplayName: "@ui_Flail_mastery"
+  MaxLevel: 19.0
+  Expansion01MaxLevel: null
+  AutoRankUp: true
+  InfiniteLevels: false
+  RepeatMaxLevel: false
+  AllowOverflow: false
+  RankTableId: WeaponMastery
+  ProgressionPointPool: FlailAbilityTable
+  PreSkillCapSkill: ""
+  PostSkillCapSkill: ""
+  EconomyTrackerType: ""
+  GameEventId: ""
+  AchievementIdOnMaxRank: ""
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -904,6 +1013,7 @@
 - CategoricalProgressionId: Weaponsmithing
   DisplayName: "@ui_weaponsmithing"
   MaxLevel: 200.0
+  Expansion01MaxLevel: 250.0
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -915,7 +1025,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -925,6 +1035,7 @@
 - CategoricalProgressionId: Armoring
   DisplayName: "@ui_armoring"
   MaxLevel: 200.0
+  Expansion01MaxLevel: 250.0
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -936,7 +1047,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -946,6 +1057,7 @@
 - CategoricalProgressionId: Jewelcrafting
   DisplayName: "@ui_jewelcrafting"
   MaxLevel: 200.0
+  Expansion01MaxLevel: 250.0
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -957,7 +1069,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -967,6 +1079,7 @@
 - CategoricalProgressionId: Arcana
   DisplayName: "@ui_arcana"
   MaxLevel: 200.0
+  Expansion01MaxLevel: 250.0
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -978,7 +1091,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -988,6 +1101,7 @@
 - CategoricalProgressionId: Cooking
   DisplayName: "@ui_cooking"
   MaxLevel: 200.0
+  Expansion01MaxLevel: 250.0
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -999,7 +1113,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1009,6 +1123,7 @@
 - CategoricalProgressionId: Furnishing
   DisplayName: "@ui_furnishing"
   MaxLevel: 200.0
+  Expansion01MaxLevel: 250.0
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -1020,7 +1135,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1030,6 +1145,7 @@
 - CategoricalProgressionId: Engineering
   DisplayName: "@ui_engineering"
   MaxLevel: 200.0
+  Expansion01MaxLevel: 250.0
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -1041,7 +1157,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1051,6 +1167,7 @@
 - CategoricalProgressionId: Smelting
   DisplayName: "@ui_smelting"
   MaxLevel: 200.0
+  Expansion01MaxLevel: 250.0
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -1062,7 +1179,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1072,6 +1189,7 @@
 - CategoricalProgressionId: Woodworking
   DisplayName: "@ui_woodworking"
   MaxLevel: 200.0
+  Expansion01MaxLevel: 250.0
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -1083,7 +1201,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1093,6 +1211,7 @@
 - CategoricalProgressionId: Leatherworking
   DisplayName: "@ui_leatherworking"
   MaxLevel: 200.0
+  Expansion01MaxLevel: 250.0
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -1104,7 +1223,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1114,6 +1233,7 @@
 - CategoricalProgressionId: Weaving
   DisplayName: "@ui_weaving"
   MaxLevel: 200.0
+  Expansion01MaxLevel: 250.0
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -1125,7 +1245,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1135,6 +1255,7 @@
 - CategoricalProgressionId: Stonecutting
   DisplayName: "@ui_stonecutting"
   MaxLevel: 200.0
+  Expansion01MaxLevel: 250.0
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -1146,7 +1267,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1156,6 +1277,7 @@
 - CategoricalProgressionId: Skinning
   DisplayName: "@ui_skinning"
   MaxLevel: 200.0
+  Expansion01MaxLevel: 250.0
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -1167,7 +1289,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1177,6 +1299,7 @@
 - CategoricalProgressionId: Mining
   DisplayName: "@ui_mining"
   MaxLevel: 200.0
+  Expansion01MaxLevel: 250.0
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -1188,7 +1311,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1198,6 +1321,7 @@
 - CategoricalProgressionId: Logging
   DisplayName: "@ui_logging"
   MaxLevel: 200.0
+  Expansion01MaxLevel: 250.0
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -1209,7 +1333,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1219,6 +1343,7 @@
 - CategoricalProgressionId: Harvesting
   DisplayName: "@ui_harvesting"
   MaxLevel: 200.0
+  Expansion01MaxLevel: 250.0
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -1230,7 +1355,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1240,6 +1365,7 @@
 - CategoricalProgressionId: AzothStaff
   DisplayName: "@ui_azoth_staff_tradeskill"
   MaxLevel: 5.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -1251,7 +1377,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1261,6 +1387,7 @@
 - CategoricalProgressionId: Musician
   DisplayName: "@ui_musician"
   MaxLevel: 200.0
+  Expansion01MaxLevel: 250.0
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -1272,7 +1399,29 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
+  ShowAsObjectiveReward: null
+  IconPath: ""
+  UsesGlobalProgressionMod: true
+  ItemClass: ""
+  DisplayDescription: ""
+  EventId: ""
+- CategoricalProgressionId: Riding
+  DisplayName: "@ui_riding"
+  MaxLevel: 0.0
+  Expansion01MaxLevel: 250.0
+  AutoRankUp: true
+  InfiniteLevels: false
+  RepeatMaxLevel: false
+  AllowOverflow: false
+  RankTableId: Riding
+  ProgressionPointPool: ""
+  PreSkillCapSkill: ""
+  PostSkillCapSkill: ""
+  EconomyTrackerType: ""
+  GameEventId: ""
+  AchievementIdOnMaxRank: ""
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1282,6 +1431,7 @@
 - CategoricalProgressionId: Weaponsmithing_PostCap
   DisplayName: "@ui_weaponsmithing_postcap"
   MaxLevel: 1.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: true
   RepeatMaxLevel: false
@@ -1293,7 +1443,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1303,6 +1453,7 @@
 - CategoricalProgressionId: Armoring_PostCap
   DisplayName: "@ui_armoring_postcap"
   MaxLevel: 1.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: true
   RepeatMaxLevel: false
@@ -1314,7 +1465,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1324,6 +1475,7 @@
 - CategoricalProgressionId: Jewelcrafting_PostCap
   DisplayName: "@ui_jewelcrafting_postcap"
   MaxLevel: 1.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: true
   RepeatMaxLevel: false
@@ -1335,7 +1487,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1345,6 +1497,7 @@
 - CategoricalProgressionId: Arcana_PostCap
   DisplayName: "@ui_arcana_postcap"
   MaxLevel: 1.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: true
   RepeatMaxLevel: false
@@ -1356,7 +1509,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1366,6 +1519,7 @@
 - CategoricalProgressionId: Cooking_PostCap
   DisplayName: "@ui_cooking_postcap"
   MaxLevel: 1.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: true
   RepeatMaxLevel: false
@@ -1377,7 +1531,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1387,6 +1541,7 @@
 - CategoricalProgressionId: Fishing_PostCap
   DisplayName: "@ui_Fishing_postcap"
   MaxLevel: 1.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: true
   RepeatMaxLevel: false
@@ -1398,7 +1553,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1408,6 +1563,7 @@
 - CategoricalProgressionId: Furnishing_PostCap
   DisplayName: "@ui_furnishing_postcap"
   MaxLevel: 1.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: true
   RepeatMaxLevel: false
@@ -1419,7 +1575,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1429,6 +1585,7 @@
 - CategoricalProgressionId: Engineering_PostCap
   DisplayName: "@ui_engineering_postcap"
   MaxLevel: 1.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: true
   RepeatMaxLevel: false
@@ -1440,7 +1597,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1450,6 +1607,7 @@
 - CategoricalProgressionId: Smelting_PostCap
   DisplayName: "@ui_smelting_postcap"
   MaxLevel: 1.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: true
   RepeatMaxLevel: false
@@ -1461,7 +1619,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1471,6 +1629,7 @@
 - CategoricalProgressionId: Woodworking_PostCap
   DisplayName: "@ui_woodworking_postcap"
   MaxLevel: 1.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: true
   RepeatMaxLevel: false
@@ -1482,7 +1641,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1492,6 +1651,7 @@
 - CategoricalProgressionId: Leatherworking_PostCap
   DisplayName: "@ui_leatherworking_postcap"
   MaxLevel: 1.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: true
   RepeatMaxLevel: false
@@ -1503,7 +1663,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1513,6 +1673,7 @@
 - CategoricalProgressionId: Weaving_PostCap
   DisplayName: "@ui_weaving_postcap"
   MaxLevel: 1.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: true
   RepeatMaxLevel: false
@@ -1524,7 +1685,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1534,6 +1695,7 @@
 - CategoricalProgressionId: Stonecutting_PostCap
   DisplayName: "@ui_stonecutting_postcap"
   MaxLevel: 1.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: true
   RepeatMaxLevel: false
@@ -1545,7 +1707,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1555,6 +1717,7 @@
 - CategoricalProgressionId: Skinning_PostCap
   DisplayName: "@ui_skinning_postcap"
   MaxLevel: 1.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: true
   RepeatMaxLevel: false
@@ -1566,7 +1729,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1576,6 +1739,7 @@
 - CategoricalProgressionId: Mining_PostCap
   DisplayName: "@ui_mining_postcap"
   MaxLevel: 1.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: true
   RepeatMaxLevel: false
@@ -1587,7 +1751,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1597,6 +1761,7 @@
 - CategoricalProgressionId: Logging_PostCap
   DisplayName: "@ui_logging_postcap"
   MaxLevel: 1.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: true
   RepeatMaxLevel: false
@@ -1608,7 +1773,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1618,6 +1783,7 @@
 - CategoricalProgressionId: Harvesting_PostCap
   DisplayName: "@ui_harvesting_postcap"
   MaxLevel: 1.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: true
   RepeatMaxLevel: false
@@ -1629,7 +1795,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1639,6 +1805,7 @@
 - CategoricalProgressionId: Instruments_PostCap
   DisplayName: "@ui_musician_postcap"
   MaxLevel: 1.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: true
   RepeatMaxLevel: false
@@ -1650,7 +1817,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1660,6 +1827,7 @@
 - CategoricalProgressionId: Azoth_Currency
   DisplayName: "@ui_azoth_currency"
   MaxLevel: 0.0
+  Expansion01MaxLevel: null
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -1671,7 +1839,7 @@
   EconomyTrackerType: AzothGenerated
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: lyshineui/images/icons/misc/icon_azothCurrency.dds
   UsesGlobalProgressionMod: null
@@ -1681,6 +1849,7 @@
 - CategoricalProgressionId: AzothSalt_Currency
   DisplayName: ""
   MaxLevel: 0.0
+  Expansion01MaxLevel: null
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -1692,7 +1861,7 @@
   EconomyTrackerType: AzothGenerated
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: true
   IconPath: ""
   UsesGlobalProgressionMod: null
@@ -1702,6 +1871,7 @@
 - CategoricalProgressionId: PvP_XP
   DisplayName: ""
   MaxLevel: 200.0
+  Expansion01MaxLevel: null
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: true
@@ -1713,7 +1883,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: true
   IconPath: ""
   UsesGlobalProgressionMod: null
@@ -1723,6 +1893,7 @@
 - CategoricalProgressionId: Fishing
   DisplayName: "@ui_fishing"
   MaxLevel: 200.0
+  Expansion01MaxLevel: 250.0
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -1734,7 +1905,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: true
@@ -1744,6 +1915,7 @@
 - CategoricalProgressionId: CollectibleTest
   DisplayName: ""
   MaxLevel: 5.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -1755,499 +1927,17 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: fish_hotspot_40030_charted
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
   ItemClass: ""
   DisplayDescription: ""
   EventId: ""
-- CategoricalProgressionId: HWMLootHead
-  DisplayName: "@hwm_loot_head"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: null
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: equippablehead
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMLootChest
-  DisplayName: "@hwm_loot_chest"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: equippablechest
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMLootHands
-  DisplayName: "@hwm_loot_hands"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: equippablehands
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMLootLegs
-  DisplayName: "@hwm_loot_legs"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: equippablelegs
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMLootFeet
-  DisplayName: "@hwm_loot_feet"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: equippablefeet
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMLootAmulet
-  DisplayName: "@hwm_loot_amulet"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: equippableamulet
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMLootRing
-  DisplayName: "@hwm_loot_ring"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: equippablering
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMLootToken
-  DisplayName: "@hwm_loot_token"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: equippabletoken
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMLootSword
-  DisplayName: "@hwm_loot_sword"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: sword
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMLootHatchet
-  DisplayName: "@hwm_loot_hatchet"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: hatchet
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMLoot2HHammer
-  DisplayName: "@hwm_loot_2h_hammer"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: 2hhammer
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMLoot2HAxe
-  DisplayName: "@hwm_loot_2h_axe"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: 2haxe
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMLootBow
-  DisplayName: "@hwm_loot_bow"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: bow
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMLootMusket
-  DisplayName: "@hwm_loot_musket"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: musket
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMLootShield
-  DisplayName: "@hwm_loot_shield"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: shield
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMLootFireStaff
-  DisplayName: "@hwm_loot_fire_staff"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: firestaff
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMLootLifeStaff
-  DisplayName: "@hwm_loot_life_staff"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: lifestaff
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMLootRapier
-  DisplayName: "@hwm_loot_rapier"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: rapier
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMLootSpear
-  DisplayName: "@hwm_loot_spear"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: spear
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMLootIceMagic
-  DisplayName: "@hwm_loot_ice_magic"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: icemagic
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMLootVoidGauntlet
-  DisplayName: "@hwm_loot_void_gauntlet"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: voidgauntlet
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMBlunderbuss
-  DisplayName: "@hwm_loot_blunderbuss"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: blunderbuss
-  DisplayDescription: ""
-  EventId: ""
-- CategoricalProgressionId: HWMGreatsword
-  DisplayName: "@hwm_loot_greatsword"
-  MaxLevel: 625.0
-  AutoRankUp: false
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HWMLoot
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: 500.0
-  ShowAsObjectiveReward: null
-  IconPath: ""
-  UsesGlobalProgressionMod: null
-  ItemClass: greatsword
-  DisplayDescription: ""
-  EventId: ""
 - CategoricalProgressionId: "74"
   DisplayName: "@DevWorld_Red"
   MaxLevel: 300.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -2259,7 +1949,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
@@ -2269,6 +1959,7 @@
 - CategoricalProgressionId: "75"
   DisplayName: "@DevWorld_Blue"
   MaxLevel: 300.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -2280,7 +1971,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
@@ -2290,6 +1981,7 @@
 - CategoricalProgressionId: Camping
   DisplayName: "@ui_camping"
   MaxLevel: 5.0
+  Expansion01MaxLevel: 6.0
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -2301,7 +1993,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: true
   IconPath: lyshineui/images/campingrestrictions/campingAllowed_large.dds
   UsesGlobalProgressionMod: null
@@ -2311,6 +2003,7 @@
 - CategoricalProgressionId: SyndicateTokens
   DisplayName: "@ui_faction_name1"
   MaxLevel: 4.0
+  Expansion01MaxLevel: 5.0
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -2322,7 +2015,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: true
   IconPath: lyshineui/images/icons/objectives/reward_factionReputation1_large.dds
   UsesGlobalProgressionMod: null
@@ -2332,6 +2025,7 @@
 - CategoricalProgressionId: MarauderTokens
   DisplayName: "@ui_faction_name2"
   MaxLevel: 4.0
+  Expansion01MaxLevel: 5.0
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -2343,7 +2037,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: true
   IconPath: lyshineui/images/icons/objectives/reward_factionReputation2_large.dds
   UsesGlobalProgressionMod: null
@@ -2353,6 +2047,7 @@
 - CategoricalProgressionId: CovenantTokens
   DisplayName: "@ui_faction_name3"
   MaxLevel: 4.0
+  Expansion01MaxLevel: 5.0
   AutoRankUp: false
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -2364,16 +2059,17 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: true
   IconPath: lyshineui/images/icons/objectives/reward_factionReputation3_large.dds
   UsesGlobalProgressionMod: null
   ItemClass: ""
   DisplayDescription: "@owg_faction_unlock_tooltip"
   EventId: ""
-- CategoricalProgressionId: DungeonEdengrove00Difficulty
+- CategoricalProgressionId: DungeonEdengrove00DifficultyExp23
   DisplayName: ""
-  MaxLevel: 10.0
+  MaxLevel: 3.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -2385,16 +2081,17 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
   ItemClass: ""
   DisplayDescription: ""
   EventId: ""
-- CategoricalProgressionId: DungeonReekwater00Difficulty
+- CategoricalProgressionId: DungeonReekwater00DifficultyExp23
   DisplayName: ""
-  MaxLevel: 10.0
+  MaxLevel: 3.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -2406,16 +2103,17 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
   ItemClass: ""
   DisplayDescription: ""
   EventId: ""
-- CategoricalProgressionId: DungeonEbonscale00Difficulty
+- CategoricalProgressionId: DungeonEbonscale00DifficultyExp23
   DisplayName: ""
-  MaxLevel: 10.0
+  MaxLevel: 3.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -2427,16 +2125,17 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
   ItemClass: ""
   DisplayDescription: ""
   EventId: ""
-- CategoricalProgressionId: DungeonShatterMtn00Difficulty
+- CategoricalProgressionId: DungeonShatterMtn00DifficultyExp23
   DisplayName: ""
-  MaxLevel: 10.0
+  MaxLevel: 3.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -2448,16 +2147,17 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
   ItemClass: ""
   DisplayDescription: ""
   EventId: ""
-- CategoricalProgressionId: DungeonRestlessShores01Difficulty
+- CategoricalProgressionId: DungeonRestlessShores01DifficultyExp23
   DisplayName: ""
-  MaxLevel: 10.0
+  MaxLevel: 3.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -2469,16 +2169,17 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
   ItemClass: ""
   DisplayDescription: ""
   EventId: ""
-- CategoricalProgressionId: DungeonEverfall00Difficulty
+- CategoricalProgressionId: DungeonEverfall00DifficultyExp23
   DisplayName: ""
-  MaxLevel: 10.0
+  MaxLevel: 3.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -2490,16 +2191,17 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
   ItemClass: ""
   DisplayDescription: ""
   EventId: ""
-- CategoricalProgressionId: DungeonCutlass00Difficulty
+- CategoricalProgressionId: DungeonCutlass00DifficultyExp23
   DisplayName: ""
-  MaxLevel: 10.0
+  MaxLevel: 3.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -2511,16 +2213,17 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
   ItemClass: ""
   DisplayDescription: ""
   EventId: ""
-- CategoricalProgressionId: DungeonBrimstoneSands00Difficulty
+- CategoricalProgressionId: DungeonBrimstoneSands00DifficultyExp23
   DisplayName: ""
-  MaxLevel: 10.0
+  MaxLevel: 3.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -2532,16 +2235,17 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
   ItemClass: ""
   DisplayDescription: ""
   EventId: ""
-- CategoricalProgressionId: DungeonGreatCleave01Difficulty
+- CategoricalProgressionId: DungeonGreatCleave01DifficultyExp23
   DisplayName: ""
-  MaxLevel: 10.0
+  MaxLevel: 3.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -2553,7 +2257,29 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
+  ShowAsObjectiveReward: null
+  IconPath: ""
+  UsesGlobalProgressionMod: null
+  ItemClass: ""
+  DisplayDescription: ""
+  EventId: ""
+- CategoricalProgressionId: DungeonFirstLight01DifficultyExp23
+  DisplayName: ""
+  MaxLevel: 3.0
+  Expansion01MaxLevel: null
+  AutoRankUp: true
+  InfiniteLevels: false
+  RepeatMaxLevel: false
+  AllowOverflow: false
+  RankTableId: MutatorRankData
+  ProgressionPointPool: ""
+  PreSkillCapSkill: ""
+  PostSkillCapSkill: ""
+  EconomyTrackerType: ""
+  GameEventId: ""
+  AchievementIdOnMaxRank: ""
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: null
@@ -2563,6 +2289,7 @@
 - CategoricalProgressionId: EventProgress
   DisplayName: "@ui_event_progress_name"
   MaxLevel: 4.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -2574,16 +2301,39 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: true
   IconPath: lyshineui/images/icons/objectives/reward_eventProgress_large.dds
   UsesGlobalProgressionMod: null
   ItemClass: ""
   DisplayDescription: "@ui_event_reputation_description"
   EventId: WinterConvergence
+- CategoricalProgressionId: SummerEventProgress
+  DisplayName: "@ui_event_summer_progress_name"
+  MaxLevel: 4.0
+  Expansion01MaxLevel: null
+  AutoRankUp: true
+  InfiniteLevels: false
+  RepeatMaxLevel: false
+  AllowOverflow: false
+  RankTableId: SummerEventRanks
+  ProgressionPointPool: ""
+  PreSkillCapSkill: ""
+  PostSkillCapSkill: ""
+  EconomyTrackerType: ""
+  GameEventId: ""
+  AchievementIdOnMaxRank: ""
+  MinTrackedLevel: ""
+  ShowAsObjectiveReward: true
+  IconPath: lyshineui/images/icons/objectives/reward_eventProgress_large.dds
+  UsesGlobalProgressionMod: null
+  ItemClass: ""
+  DisplayDescription: "@ui_event_reputation_description"
+  EventId: SummerMedley
 - CategoricalProgressionId: SeasonPass
   DisplayName: "@seasons_rewards_categorical_progression_id"
   MaxLevel: 100.0
+  Expansion01MaxLevel: null
   AutoRankUp: true
   InfiniteLevels: false
   RepeatMaxLevel: false
@@ -2595,7 +2345,7 @@
   EconomyTrackerType: ""
   GameEventId: ""
   AchievementIdOnMaxRank: ""
-  MinTrackedLevel: null
+  MinTrackedLevel: ""
   ShowAsObjectiveReward: null
   IconPath: ""
   UsesGlobalProgressionMod: false

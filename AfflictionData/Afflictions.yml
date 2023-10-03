@@ -196,3 +196,39 @@
   LocalizedTextAfflicted: "@ui_afflicted_mutcurse2"
   AfflictionTooltipText: "@ui_affliction_mutcurse2_tooltip"
   AfflictedTooltipText: "@ui_afflicted_mutcurse2_tooltip"
+- AfflictionID: AfflictionSpores
+  IntID: 12.0
+  StatusEffects: SporeSickness
+  DrainRate: 1.0
+  AfflictedDrainTime: 30.0
+  DrainDelay: 1.1
+  Max: 0.0
+  IgnoreWhenAfflicted: false
+  IsGlobalAffliction: null
+  IsTimerAffliction: null
+  ColorHex: 80ef651a
+  Icon: spore
+  BGImage: combustible
+  FillingColorHex: 80b0460c
+  LocalizedText: "@ui_affliction_spores"
+  LocalizedTextAfflicted: "@ui_afflicted_spores"
+  AfflictionTooltipText: "@ui_affliction_spores_tooltip"
+  AfflictedTooltipText: "@ui_afflicted_spores_tooltip"
+- AfflictionID: AfflictionStunned
+  IntID: 13.0
+  StatusEffects: Stunned_Afflict
+  DrainRate: 1.0
+  AfflictedDrainTime: 3.0
+  DrainDelay: 1.1
+  Max: 4.0
+  IgnoreWhenAfflicted: false
+  IsGlobalAffliction: null
+  IsTimerAffliction: null
+  ColorHex: 80b8b8b8
+  Icon: frostbite
+  BGImage: frostbite
+  FillingColorHex: 80f8f5f2
+  LocalizedText: "@ui_affliction_stunned"
+  LocalizedTextAfflicted: "@ui_afflicted_stunned"
+  AfflictionTooltipText: "@ui_affliction_stunned_tooltip"
+  AfflictedTooltipText: "@ui_afflicted_stunned_tooltip"

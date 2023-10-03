@@ -47,7 +47,7 @@
   StatType: GameEvent
   GameEventTypes: ""
   CreatureTypes: ""
-  GameEventIDs: Gather_SummerMedley_Maudlindust
+  GameEventIDs: Gather_SummerMedley_Maudlindust,MusicReward_Amazing_Waltz,MusicReward_Great_Waltz,MusicReward_Okay_Waltz,MusicReward_Bad_Waltz
 - TrackedStatID: LocateBrimstoneLostEasel
   StatType: GameEvent
   GameEventTypes: ""
@@ -58,8 +58,28 @@
   GameEventTypes: ""
   CreatureTypes: ""
   GameEventIDs: SandwormEliteTrial_Reward
+- TrackedStatID: TakeInfluenceTower
+  StatType: GameEvent
+  GameEventTypes: ""
+  CreatureTypes: ""
+  GameEventIDs: PvP_InfluenceTowerTakeover
+- TrackedStatID: ParticipateInfluenceRace
+  StatType: GameEvent
+  GameEventTypes: ""
+  CreatureTypes: ""
+  GameEventIDs: InfluenceRace_Lose_Reward,InfluenceRace_Attacker_Win_Reward,InfluenceRace_Defender_Win_Reward
+- TrackedStatID: WinInfluenceRace
+  StatType: GameEvent
+  GameEventTypes: ""
+  CreatureTypes: ""
+  GameEventIDs: InfluenceRace_Attacker_Win_Reward,InfluenceRace_Defender_Win_Reward
 - TrackedStatID: DefeatHatcheryTrial
   StatType: GameEvent
   GameEventTypes: ""
   CreatureTypes: ""
   GameEventIDs: Trial_S2_Success
+- TrackedStatID: ConsumeMushroomFlask
+  StatType: GameEvent
+  GameEventTypes: ""
+  CreatureTypes: ""
+  GameEventIDs: EVENT_MushroomFlaskT1_Consumed,EVENT_MushroomFlaskT2_Consumed,EVENT_MushroomFlaskT3_Consumed,EVENT_MushroomFlaskT4_Consumed,EVENT_MushroomFlaskT5_Consumed

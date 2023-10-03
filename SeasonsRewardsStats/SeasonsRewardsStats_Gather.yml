@@ -43,15 +43,6 @@
   PerUse: true
   Tradeskills: ""
   GatherableIds: LootLargeT3ElitePOI
-- TrackedStatID: Gather3AeternumSturgeon
-  StatType: Gather
-  TargetID: FishingSummerMedleySturgeonSmallT3,FishingSummerMedleySturgeonMediumT3,FishingSummerMedleySturgeonLargeT3
-  Level: null
-  ItemType: Resource
-  ItemClass: ""
-  PerUse: true
-  Tradeskills: Fishing
-  GatherableIds: ""
 - TrackedStatID: GatherPrismabloom
   StatType: Gather
   TargetID: ""
@@ -61,3 +52,21 @@
   PerUse: true
   Tradeskills: ""
   GatherableIds: DyePlantDesertRose
+- TrackedStatID: GatherSporePods
+  StatType: Gather
+  TargetID: ""
+  Level: null
+  ItemType: ""
+  ItemClass: ""
+  PerUse: true
+  Tradeskills: ""
+  GatherableIds: FL_SporePod_AngryEarth,FL_SporePod_AngryEarth_Elite,FL_SporePod_Ancients,FL_SporePod_Beasts,FL_SporePod_Beasts_Elite
+- TrackedStatID: LootBeastChest
+  StatType: Gather
+  TargetID: ""
+  Level: null
+  ItemType: ""
+  ItemClass: ""
+  PerUse: true
+  Tradeskills: ""
+  GatherableIds: LootLargeT3ElitePOI_BeastChestOnly

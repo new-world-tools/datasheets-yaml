@@ -746,7 +746,7 @@
   Faction: ""
   Rewards: 10:Leaderboard_InvasionScoreTop1,50:Leaderboard_InvasionScoreTop10
   ItemRewards: ""
-  EntitlementRewards: 10:EntitlementSkin_Chest_Rank1_LB_Invasion,50:EntitlementSkin_Chest_LB_Invasion
+  EntitlementRewards: 10:LB_Invasion_Rank1,50:LB_Invasion_Rank2
   CategoryDescription: "@ui_leaderboard_tip_invasion_score"
   CategoryAdditionalHeader: ""
   RewardType: InvasionScore
@@ -1442,7 +1442,7 @@
   Faction: ""
   Rewards: 25:Leaderboard_OutpostRushScoreTop1,100:Leaderboard_OutpostRushScoreTop10
   ItemRewards: ""
-  EntitlementRewards: 25:EntitlementSkin_Chest_Rank1_LB_OPR,100:EntitlementSkin_Chest_LB_OPR
+  EntitlementRewards: 25:LB_OPR_Regional_Rank1,100:LB_OPR_Regional_Rank2
   CategoryDescription: "@ui_leaderboard_tip_regional_only"
   CategoryAdditionalHeader: ""
   RewardType: OutpostRush
@@ -1906,7 +1906,7 @@
   Faction: ""
   Rewards: 10:Leaderboard_OutpostRushScoreTop1,50:Leaderboard_OutpostRushScoreTop10
   ItemRewards: ""
-  EntitlementRewards: 10:EntitlementSkin_Chest_Rank1_LB_OPR,50:EntitlementSkin_Chest_LB_OPR
+  EntitlementRewards: 10:LB_OPR_Rank1,50:LB_OPR_Rank2
   CategoryDescription: "@ui_leaderboard_tip_regional_only"
   CategoryAdditionalHeader: ""
   RewardType: OutpostRush
@@ -2080,7 +2080,7 @@
   Faction: ""
   Rewards: 10:Leaderboard_DarknessBreachesScoreTop1,50:Leaderboard_DarknessBreachesScoreTop10
   ItemRewards: ""
-  EntitlementRewards: 10:EntitlementSkin_Chest_Rank1_LB_Darkness,50:EntitlementSkin_Chest_LB_Darkness
+  EntitlementRewards: 10:LB_Darkness_Rank1,50:LB_Darkness_Rank2
   CategoryDescription: "@ui_leaderboard_tip_darkness_score"
   CategoryAdditionalHeader: ""
   RewardType: DarknessScore
@@ -2138,7 +2138,7 @@
   Faction: ""
   Rewards: 10:Leaderboard_OpenWorldPvpInfluenceTop1,50:Leaderboard_OpenWorldPvpInfluenceTop10
   ItemRewards: ""
-  EntitlementRewards: 10:EntitlementSkin_Chest_Rank1_LB_OpenWorld,50:EntitlementSkin_Chest_LB_OpenWorld
+  EntitlementRewards: 10:LB_OpenWorldInfluence_Rank1,50:LB_OpenWorldInfluence_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
   RewardType: OpenPvpInfluence
@@ -2339,12 +2339,12 @@
   Category: "@ui_leaderboard_category_expedition_dynasty"
   CategoryPriority: null
   Faction: ""
-  Rewards: ""
+  Rewards: 5:Leaderboard_DynastyShipyardScoreTop1,25:Leaderboard_DynastyShipyardScoreTop10
   ItemRewards: ""
-  EntitlementRewards: ""
+  EntitlementRewards: 5:LB_DynastyM3Score_Rank1,25:LB_DynastyM3Score_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
-  RewardType: ""
+  RewardType: DynastyScoreM3
   NameString: ""
   ValueString: "@ui_leaderboard_column_score"
 - LeaderboardId: WeekExpeditionMaxScoreDynastyM4
@@ -2360,13 +2360,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEbonscale00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_4"
   DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_expedition_dynasty"
-  CategoryPriority: null
+  CategoryPriority: 5.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -2389,13 +2389,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEbonscale00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_5"
   DisplayNamePriority: 6.0
   Category: "@ui_leaderboard_category_expedition_dynasty"
-  CategoryPriority: null
+  CategoryPriority: 5.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -2418,13 +2418,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEbonscale00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_6"
   DisplayNamePriority: 5.0
   Category: "@ui_leaderboard_category_expedition_dynasty"
-  CategoryPriority: null
+  CategoryPriority: 5.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -2447,13 +2447,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEbonscale00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_7"
   DisplayNamePriority: 4.0
   Category: "@ui_leaderboard_category_expedition_dynasty"
-  CategoryPriority: null
+  CategoryPriority: 5.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -2476,13 +2476,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEbonscale00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_8"
   DisplayNamePriority: 3.0
   Category: "@ui_leaderboard_category_expedition_dynasty"
-  CategoryPriority: null
+  CategoryPriority: 5.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -2505,13 +2505,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEbonscale00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_9"
   DisplayNamePriority: 2.0
   Category: "@ui_leaderboard_category_expedition_dynasty"
-  CategoryPriority: null
+  CategoryPriority: 5.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -2534,17 +2534,17 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEbonscale00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_10"
   DisplayNamePriority: 1.0
   Category: "@ui_leaderboard_category_expedition_dynasty"
-  CategoryPriority: null
+  CategoryPriority: 5.0
   Faction: ""
   Rewards: 5:Leaderboard_DynastyShipyardScoreTop1,25:Leaderboard_DynastyShipyardScoreTop10
   ItemRewards: ""
-  EntitlementRewards: 5:EntitlementSkin_Chest_Rank1_LBScore_Shipyard,25:EntitlementSkin_Chest_LBScore_Shipyard
+  EntitlementRewards: 5:LB_DynastyM10Score_Rank1,25:LB_DynastyM10Score_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
   RewardType: DynastyScore
@@ -2629,12 +2629,12 @@
   Category: "@ui_leaderboard_category_expedition_genesis"
   CategoryPriority: null
   Faction: ""
-  Rewards: ""
+  Rewards: 5:Leaderboard_GardenOfGenesisScoreTop1,25:Leaderboard_GardenOfGenesisScoreTop10
   ItemRewards: ""
-  EntitlementRewards: ""
+  EntitlementRewards: 5:LB_GenesisM3Score_Rank1,25:LB_GenesisM3Score_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
-  RewardType: ""
+  RewardType: GenesisScoreM3
   NameString: ""
   ValueString: "@ui_leaderboard_column_score"
 - LeaderboardId: WeekExpeditionMaxScoreGenesisM4
@@ -2650,13 +2650,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEdengrove00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_4"
   DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_expedition_genesis"
-  CategoryPriority: null
+  CategoryPriority: 6.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -2679,13 +2679,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEdengrove00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_5"
   DisplayNamePriority: 6.0
   Category: "@ui_leaderboard_category_expedition_genesis"
-  CategoryPriority: null
+  CategoryPriority: 6.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -2708,13 +2708,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEdengrove00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_6"
   DisplayNamePriority: 5.0
   Category: "@ui_leaderboard_category_expedition_genesis"
-  CategoryPriority: null
+  CategoryPriority: 6.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -2737,13 +2737,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEdengrove00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_7"
   DisplayNamePriority: 4.0
   Category: "@ui_leaderboard_category_expedition_genesis"
-  CategoryPriority: null
+  CategoryPriority: 6.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -2766,13 +2766,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEdengrove00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_8"
   DisplayNamePriority: 3.0
   Category: "@ui_leaderboard_category_expedition_genesis"
-  CategoryPriority: null
+  CategoryPriority: 6.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -2795,13 +2795,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEdengrove00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_9"
   DisplayNamePriority: 2.0
   Category: "@ui_leaderboard_category_expedition_genesis"
-  CategoryPriority: null
+  CategoryPriority: 6.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -2824,17 +2824,17 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEdengrove00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_10"
   DisplayNamePriority: 1.0
   Category: "@ui_leaderboard_category_expedition_genesis"
-  CategoryPriority: null
+  CategoryPriority: 6.0
   Faction: ""
   Rewards: 5:Leaderboard_GardenOfGenesisScoreTop1,25:Leaderboard_GardenOfGenesisScoreTop10
   ItemRewards: ""
-  EntitlementRewards: 5:EntitlementSkin_Chest_Rank1_LBScore_GardenGenesis,25:EntitlementSkin_Chest_LBScore_GardenGenesis
+  EntitlementRewards: 5:LB_GenesisM10Score_Rank1,25:LB_GenesisM10Score_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
   RewardType: GenesisScore
@@ -2919,12 +2919,12 @@
   Category: "@ui_leaderboard_category_expedition_lazarus"
   CategoryPriority: null
   Faction: ""
-  Rewards: ""
+  Rewards: 5:Leaderboard_LazarusInstrumentalityScoreTop1,25:Leaderboard_LazarusInstrumentalityScoreTop10
   ItemRewards: ""
-  EntitlementRewards: ""
+  EntitlementRewards: 5:LB_LazarusM3Score_Rank1,25:LB_LazarusM3Score_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
-  RewardType: ""
+  RewardType: LazarusScoreM3
   NameString: ""
   ValueString: "@ui_leaderboard_column_score"
 - LeaderboardId: WeekExpeditionMaxScoreLazarusM4
@@ -2940,13 +2940,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonReekwater00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_4"
   DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_expedition_lazarus"
-  CategoryPriority: null
+  CategoryPriority: 7.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -2969,13 +2969,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonReekwater00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_5"
   DisplayNamePriority: 6.0
   Category: "@ui_leaderboard_category_expedition_lazarus"
-  CategoryPriority: null
+  CategoryPriority: 7.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -2998,13 +2998,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonReekwater00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_6"
   DisplayNamePriority: 5.0
   Category: "@ui_leaderboard_category_expedition_lazarus"
-  CategoryPriority: null
+  CategoryPriority: 7.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3027,13 +3027,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonReekwater00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_7"
   DisplayNamePriority: 4.0
   Category: "@ui_leaderboard_category_expedition_lazarus"
-  CategoryPriority: null
+  CategoryPriority: 7.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3056,13 +3056,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonReekwater00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_8"
   DisplayNamePriority: 3.0
   Category: "@ui_leaderboard_category_expedition_lazarus"
-  CategoryPriority: null
+  CategoryPriority: 7.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3085,13 +3085,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonReekwater00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_9"
   DisplayNamePriority: 2.0
   Category: "@ui_leaderboard_category_expedition_lazarus"
-  CategoryPriority: null
+  CategoryPriority: 7.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3114,17 +3114,17 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonReekwater00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_10"
   DisplayNamePriority: 1.0
   Category: "@ui_leaderboard_category_expedition_lazarus"
-  CategoryPriority: null
+  CategoryPriority: 7.0
   Faction: ""
   Rewards: 5:Leaderboard_LazarusInstrumentalityScoreTop1,25:Leaderboard_LazarusInstrumentalityScoreTop10
   ItemRewards: ""
-  EntitlementRewards: 5:EntitlementSkin_Chest_Rank1_LBScore_LazarusInstrumentality,25:EntitlementSkin_Chest_LBScore_LazarusInstrumentality
+  EntitlementRewards: 5:LB_LazarusM10Score_Rank1,25:LB_LazarusM10Score_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
   RewardType: LazarusScore
@@ -3209,12 +3209,12 @@
   Category: "@ui_leaderboard_category_expedition_tempest"
   CategoryPriority: null
   Faction: ""
-  Rewards: ""
+  Rewards: 5:Leaderboard_TempestHeartScoreTop1,25:Leaderboard_TempestHeartScoreTop10
   ItemRewards: ""
-  EntitlementRewards: ""
+  EntitlementRewards: 5:LB_TempestM3Score_Rank1,25:LB_TempestM3Score_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
-  RewardType: ""
+  RewardType: TempestScoreM3
   NameString: ""
   ValueString: "@ui_leaderboard_column_score"
 - LeaderboardId: WeekExpeditionMaxScoreTempestM4
@@ -3230,13 +3230,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatterMtn00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_4"
   DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_expedition_tempest"
-  CategoryPriority: null
+  CategoryPriority: 9.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3259,13 +3259,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatterMtn00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_5"
   DisplayNamePriority: 6.0
   Category: "@ui_leaderboard_category_expedition_tempest"
-  CategoryPriority: null
+  CategoryPriority: 9.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3288,13 +3288,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatterMtn00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_6"
   DisplayNamePriority: 5.0
   Category: "@ui_leaderboard_category_expedition_tempest"
-  CategoryPriority: null
+  CategoryPriority: 9.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3317,13 +3317,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatterMtn00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_7"
   DisplayNamePriority: 4.0
   Category: "@ui_leaderboard_category_expedition_tempest"
-  CategoryPriority: null
+  CategoryPriority: 9.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3346,13 +3346,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatterMtn00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_8"
   DisplayNamePriority: 3.0
   Category: "@ui_leaderboard_category_expedition_tempest"
-  CategoryPriority: null
+  CategoryPriority: 9.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3375,13 +3375,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatterMtn00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_9"
   DisplayNamePriority: 2.0
   Category: "@ui_leaderboard_category_expedition_tempest"
-  CategoryPriority: null
+  CategoryPriority: 9.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3404,17 +3404,17 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatterMtn00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_10"
   DisplayNamePriority: 1.0
   Category: "@ui_leaderboard_category_expedition_tempest"
-  CategoryPriority: null
+  CategoryPriority: 9.0
   Faction: ""
   Rewards: 5:Leaderboard_TempestHeartScoreTop1,25:Leaderboard_TempestHeartScoreTop10
   ItemRewards: ""
-  EntitlementRewards: 5:EntitlementSkin_Chest_Rank1_LBScore_TempestHeart,25:EntitlementSkin_Chest_LBScore_TempestHeart
+  EntitlementRewards: 5:LB_TempestM10Score_Rank1,25:LB_TempestM10Score_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
   RewardType: TempestScore
@@ -3499,12 +3499,12 @@
   Category: "@ui_leaderboard_category_expedition_barnacles"
   CategoryPriority: null
   Faction: ""
-  Rewards: ""
+  Rewards: 5:Leaderboard_BarnaclesScoreTop1,25:Leaderboard_BarnaclesScoreTop10
   ItemRewards: ""
-  EntitlementRewards: ""
+  EntitlementRewards: 5:LB_BarnaclesM3Score_Rank1,25:LB_BarnaclesM3Score_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
-  RewardType: ""
+  RewardType: BarnaclesScoreM3
   NameString: ""
   ValueString: "@ui_leaderboard_column_score"
 - LeaderboardId: WeekExpeditionMaxScoreBarnaclesM4
@@ -3520,13 +3520,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonCutlassKeys00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_4"
   DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_expedition_barnacles"
-  CategoryPriority: null
+  CategoryPriority: 1.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3549,13 +3549,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonCutlassKeys00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_5"
   DisplayNamePriority: 6.0
   Category: "@ui_leaderboard_category_expedition_barnacles"
-  CategoryPriority: null
+  CategoryPriority: 1.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3578,13 +3578,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonCutlassKeys00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_6"
   DisplayNamePriority: 5.0
   Category: "@ui_leaderboard_category_expedition_barnacles"
-  CategoryPriority: null
+  CategoryPriority: 1.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3607,13 +3607,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonCutlassKeys00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_7"
   DisplayNamePriority: 4.0
   Category: "@ui_leaderboard_category_expedition_barnacles"
-  CategoryPriority: null
+  CategoryPriority: 1.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3636,13 +3636,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonCutlassKeys00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_8"
   DisplayNamePriority: 3.0
   Category: "@ui_leaderboard_category_expedition_barnacles"
-  CategoryPriority: null
+  CategoryPriority: 1.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3665,13 +3665,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonCutlassKeys00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_9"
   DisplayNamePriority: 2.0
   Category: "@ui_leaderboard_category_expedition_barnacles"
-  CategoryPriority: null
+  CategoryPriority: 1.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3694,17 +3694,17 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonCutlassKeys00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_10"
   DisplayNamePriority: 1.0
   Category: "@ui_leaderboard_category_expedition_barnacles"
-  CategoryPriority: null
+  CategoryPriority: 1.0
   Faction: ""
   Rewards: 5:Leaderboard_BarnaclesScoreTop1,25:Leaderboard_BarnaclesScoreTop10
   ItemRewards: ""
-  EntitlementRewards: 5:EntitlementSkin_Chest_Rank1_LBScore_Barnacles,25:EntitlementSkin_Chest_LBScore_Barnacles
+  EntitlementRewards: 5:LB_BarnaclesM10Score_Rank1,25:LB_BarnaclesM10Score_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
   RewardType: BarnaclesScore
@@ -3789,12 +3789,12 @@
   Category: "@ui_leaderboard_category_expedition_ennead"
   CategoryPriority: null
   Faction: ""
-  Rewards: ""
+  Rewards: 5:Leaderboard_BrimstoneScoreTop1,25:Leaderboard_BrimstoneScoreTop10
   ItemRewards: ""
-  EntitlementRewards: ""
+  EntitlementRewards: 5:LB_EnneadM3Score_Rank1,25:LB_EnneadM3Score_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
-  RewardType: ""
+  RewardType: BrimstoneScoreM3
   NameString: ""
   ValueString: "@ui_leaderboard_column_score"
 - LeaderboardId: WeekExpeditionMaxScoreEnneadM4
@@ -3810,13 +3810,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonBrimstoneSands00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_4"
   DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_expedition_ennead"
-  CategoryPriority: null
+  CategoryPriority: 3.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3839,13 +3839,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonBrimstoneSands00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_5"
   DisplayNamePriority: 6.0
   Category: "@ui_leaderboard_category_expedition_ennead"
-  CategoryPriority: null
+  CategoryPriority: 3.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3868,13 +3868,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonBrimstoneSands00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_6"
   DisplayNamePriority: 5.0
   Category: "@ui_leaderboard_category_expedition_ennead"
-  CategoryPriority: null
+  CategoryPriority: 3.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3897,13 +3897,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonBrimstoneSands00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_7"
   DisplayNamePriority: 4.0
   Category: "@ui_leaderboard_category_expedition_ennead"
-  CategoryPriority: null
+  CategoryPriority: 3.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3926,13 +3926,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonBrimstoneSands00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_8"
   DisplayNamePriority: 3.0
   Category: "@ui_leaderboard_category_expedition_ennead"
-  CategoryPriority: null
+  CategoryPriority: 3.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3955,13 +3955,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonBrimstoneSands00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_9"
   DisplayNamePriority: 2.0
   Category: "@ui_leaderboard_category_expedition_ennead"
-  CategoryPriority: null
+  CategoryPriority: 3.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -3984,17 +3984,17 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonBrimstoneSands00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_10"
   DisplayNamePriority: 1.0
   Category: "@ui_leaderboard_category_expedition_ennead"
-  CategoryPriority: null
+  CategoryPriority: 3.0
   Faction: ""
   Rewards: 5:Leaderboard_BrimstoneScoreTop1,25:Leaderboard_BrimstoneScoreTop10
   ItemRewards: ""
-  EntitlementRewards: 5:EntitlementSkin_Chest_Rank1_LBScore_Brimstone,25:EntitlementSkin_Chest_LBScore_Brimstone
+  EntitlementRewards: 5:LB_EnneadM10Score_Rank1,25:LB_EnneadM10Score_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
   RewardType: BrimstoneScore
@@ -4079,12 +4079,12 @@
   Category: "@ui_leaderboard_category_expedition_depths"
   CategoryPriority: null
   Faction: ""
-  Rewards: ""
+  Rewards: 5:Leaderboard_DepthsScoreTop1,25:Leaderboard_DepthsScoreTop10
   ItemRewards: ""
-  EntitlementRewards: ""
+  EntitlementRewards: 5:LB_DepthsM3Score_Rank1,25:LB_DepthsM3Score_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
-  RewardType: ""
+  RewardType: DepthsScoreM3
   NameString: ""
   ValueString: "@ui_leaderboard_column_score"
 - LeaderboardId: WeekExpeditionMaxScoreDepthsM4
@@ -4100,13 +4100,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonRestlessShores01
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_4"
   DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_expedition_depths"
-  CategoryPriority: null
+  CategoryPriority: 4.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -4129,13 +4129,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonRestlessShores01
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_5"
   DisplayNamePriority: 6.0
   Category: "@ui_leaderboard_category_expedition_depths"
-  CategoryPriority: null
+  CategoryPriority: 4.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -4158,13 +4158,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonRestlessShores01
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_6"
   DisplayNamePriority: 5.0
   Category: "@ui_leaderboard_category_expedition_depths"
-  CategoryPriority: null
+  CategoryPriority: 4.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -4187,13 +4187,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonRestlessShores01
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_7"
   DisplayNamePriority: 4.0
   Category: "@ui_leaderboard_category_expedition_depths"
-  CategoryPriority: null
+  CategoryPriority: 4.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -4216,13 +4216,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonRestlessShores01
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_8"
   DisplayNamePriority: 3.0
   Category: "@ui_leaderboard_category_expedition_depths"
-  CategoryPriority: null
+  CategoryPriority: 4.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -4245,13 +4245,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonRestlessShores01
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_9"
   DisplayNamePriority: 2.0
   Category: "@ui_leaderboard_category_expedition_depths"
-  CategoryPriority: null
+  CategoryPriority: 4.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -4274,17 +4274,17 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonRestlessShores01
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_10"
   DisplayNamePriority: 1.0
   Category: "@ui_leaderboard_category_expedition_depths"
-  CategoryPriority: null
+  CategoryPriority: 4.0
   Faction: ""
   Rewards: 5:Leaderboard_DepthsScoreTop1,25:Leaderboard_DepthsScoreTop10
   ItemRewards: ""
-  EntitlementRewards: 5:EntitlementSkin_Chest_Rank1_LBScore_Depths,25:EntitlementSkin_Chest_LBScore_Depths
+  EntitlementRewards: 5:LB_DepthsM10Score_Rank1,25:LB_DepthsM10Score_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
   RewardType: DepthsScore
@@ -4369,12 +4369,12 @@
   Category: "@ui_leaderboard_category_expedition_starstone"
   CategoryPriority: null
   Faction: ""
-  Rewards: ""
+  Rewards: 5:Leaderboard_StarstoneScoreTop1,25:Leaderboard_StarstoneScoreTop10
   ItemRewards: ""
-  EntitlementRewards: ""
+  EntitlementRewards: 5:LB_StarstoneM3Score_Rank1,25:LB_StarstoneM3Score_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
-  RewardType: ""
+  RewardType: StarstoneScoreM3
   NameString: ""
   ValueString: "@ui_leaderboard_column_score"
 - LeaderboardId: WeekExpeditionMaxScoreStarstoneM4
@@ -4390,13 +4390,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatteredObelisk
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_4"
   DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_expedition_starstone"
-  CategoryPriority: null
+  CategoryPriority: 8.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -4419,13 +4419,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatteredObelisk
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_5"
   DisplayNamePriority: 6.0
   Category: "@ui_leaderboard_category_expedition_starstone"
-  CategoryPriority: null
+  CategoryPriority: 8.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -4448,13 +4448,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatteredObelisk
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_6"
   DisplayNamePriority: 5.0
   Category: "@ui_leaderboard_category_expedition_starstone"
-  CategoryPriority: null
+  CategoryPriority: 8.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -4477,13 +4477,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatteredObelisk
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_7"
   DisplayNamePriority: 4.0
   Category: "@ui_leaderboard_category_expedition_starstone"
-  CategoryPriority: null
+  CategoryPriority: 8.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -4506,13 +4506,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatteredObelisk
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_8"
   DisplayNamePriority: 3.0
   Category: "@ui_leaderboard_category_expedition_starstone"
-  CategoryPriority: null
+  CategoryPriority: 8.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -4535,13 +4535,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatteredObelisk
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_9"
   DisplayNamePriority: 2.0
   Category: "@ui_leaderboard_category_expedition_starstone"
-  CategoryPriority: null
+  CategoryPriority: 8.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -4564,17 +4564,17 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatteredObelisk
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_10"
   DisplayNamePriority: 1.0
   Category: "@ui_leaderboard_category_expedition_starstone"
-  CategoryPriority: null
+  CategoryPriority: 8.0
   Faction: ""
   Rewards: 5:Leaderboard_StarstoneScoreTop1,25:Leaderboard_StarstoneScoreTop10
   ItemRewards: ""
-  EntitlementRewards: 5:EntitlementSkin_Chest_Rank1_LBScore_Starstone,25:EntitlementSkin_Chest_LBScore_Starstone
+  EntitlementRewards: 5:LB_StarstoneM10Score_Rank1,25:LB_StarstoneM10Score_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
   RewardType: StarstoneScore
@@ -4621,7 +4621,7 @@
   GroupLeaderboard: true
   CompanyLeaderboard: false
   FactionLeaderboard: false
-  GameMode: DungeonGreatCleave02
+  GameMode: DungeonGreatCleave01
   FirstLevelCategory: Mutated Expeditions
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
@@ -4650,7 +4650,7 @@
   GroupLeaderboard: true
   CompanyLeaderboard: false
   FactionLeaderboard: false
-  GameMode: DungeonGreatCleave03
+  GameMode: DungeonGreatCleave01
   FirstLevelCategory: Mutated Expeditions
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
@@ -4659,12 +4659,12 @@
   Category: "@ui_leaderboard_category_expedition_empyrean"
   CategoryPriority: null
   Faction: ""
-  Rewards: ""
+  Rewards: 5:Leaderboard_ForgeScoreTop5,25:Leaderboard_ForgeScoreTop25
   ItemRewards: ""
-  EntitlementRewards: ""
+  EntitlementRewards: 5:LB_ForgeM3Score_Rank1,25:LB_ForgeM3Score_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
-  RewardType: ""
+  RewardType: EmpyreanScore
   NameString: ""
   ValueString: "@ui_leaderboard_column_score"
 - LeaderboardId: WeekExpeditionMaxScoreEmpyreanM4
@@ -4679,14 +4679,14 @@
   GroupLeaderboard: true
   CompanyLeaderboard: false
   FactionLeaderboard: false
-  GameMode: DungeonGreatCleave04
-  FirstLevelCategory: Mutated Expeditions
+  GameMode: DungeonGreatCleave01
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_4"
   DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_expedition_empyrean"
-  CategoryPriority: null
+  CategoryPriority: 2.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -4708,14 +4708,14 @@
   GroupLeaderboard: true
   CompanyLeaderboard: false
   FactionLeaderboard: false
-  GameMode: DungeonGreatCleave05
-  FirstLevelCategory: Mutated Expeditions
+  GameMode: DungeonGreatCleave01
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_5"
   DisplayNamePriority: 6.0
   Category: "@ui_leaderboard_category_expedition_empyrean"
-  CategoryPriority: null
+  CategoryPriority: 2.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -4737,14 +4737,14 @@
   GroupLeaderboard: true
   CompanyLeaderboard: false
   FactionLeaderboard: false
-  GameMode: DungeonGreatCleave06
-  FirstLevelCategory: Mutated Expeditions
+  GameMode: DungeonGreatCleave01
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_6"
   DisplayNamePriority: 5.0
   Category: "@ui_leaderboard_category_expedition_empyrean"
-  CategoryPriority: null
+  CategoryPriority: 2.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -4766,14 +4766,14 @@
   GroupLeaderboard: true
   CompanyLeaderboard: false
   FactionLeaderboard: false
-  GameMode: DungeonGreatCleave07
-  FirstLevelCategory: Mutated Expeditions
+  GameMode: DungeonGreatCleave01
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_7"
   DisplayNamePriority: 4.0
   Category: "@ui_leaderboard_category_expedition_empyrean"
-  CategoryPriority: null
+  CategoryPriority: 2.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -4795,14 +4795,14 @@
   GroupLeaderboard: true
   CompanyLeaderboard: false
   FactionLeaderboard: false
-  GameMode: DungeonGreatCleave08
-  FirstLevelCategory: Mutated Expeditions
+  GameMode: DungeonGreatCleave01
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_8"
   DisplayNamePriority: 3.0
   Category: "@ui_leaderboard_category_expedition_empyrean"
-  CategoryPriority: null
+  CategoryPriority: 2.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -4824,14 +4824,14 @@
   GroupLeaderboard: true
   CompanyLeaderboard: false
   FactionLeaderboard: false
-  GameMode: DungeonGreatCleave09
-  FirstLevelCategory: Mutated Expeditions
+  GameMode: DungeonGreatCleave01
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_9"
   DisplayNamePriority: 2.0
   Category: "@ui_leaderboard_category_expedition_empyrean"
-  CategoryPriority: null
+  CategoryPriority: 2.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -4853,21 +4853,108 @@
   GroupLeaderboard: true
   CompanyLeaderboard: false
   FactionLeaderboard: false
-  GameMode: DungeonGreatCleave10
-  FirstLevelCategory: Mutated Expeditions
+  GameMode: DungeonGreatCleave01
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_10"
   DisplayNamePriority: 1.0
   Category: "@ui_leaderboard_category_expedition_empyrean"
-  CategoryPriority: null
+  CategoryPriority: 2.0
   Faction: ""
   Rewards: 5:Leaderboard_ForgeScoreTop5,25:Leaderboard_ForgeScoreTop25
   ItemRewards: ""
-  EntitlementRewards: 5:Skin_Chest_Rank1_LBScore_Forge,25:Skin_Chest_LBScore_Forge
+  EntitlementRewards: 5:LB_ForgeM10Score_Rank1,25:LB_ForgeM10Score_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
-  RewardType: EmpyreanScore
+  RewardType: EmpyreanScoreM3
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_score"
+- LeaderboardId: WeekExpeditionMaxScoreFirstLightM1
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Week
+  LeaderboardDefinitionId: top-group-expedition-score.DungeonFirstLight01.1.{world}.{week}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: Expeditions
+  DataSheetLBScope: World
+  CharacterLeaderboard: true
+  GroupLeaderboard: true
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: DungeonFirstLight01
+  FirstLevelCategory: Mutated Expeditions
+  SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
+  SecondLevelCategoryPriority: 1.0
+  DisplayName: "@ui_leaderboard_expedition_difficulty_1"
+  DisplayNamePriority: 3.0
+  Category: "@ui_leaderboard_category_expedition_divide"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: ""
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_score"
+- LeaderboardId: WeekExpeditionMaxScoreFirstLightM2
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Week
+  LeaderboardDefinitionId: top-group-expedition-score.DungeonFirstLight01.2.{world}.{week}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: Expeditions
+  DataSheetLBScope: World
+  CharacterLeaderboard: true
+  GroupLeaderboard: true
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: DungeonFirstLight01
+  FirstLevelCategory: Mutated Expeditions
+  SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
+  SecondLevelCategoryPriority: 1.0
+  DisplayName: "@ui_leaderboard_expedition_difficulty_2"
+  DisplayNamePriority: 2.0
+  Category: "@ui_leaderboard_category_expedition_divide"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: ""
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_score"
+- LeaderboardId: WeekExpeditionMaxScoreFirstLightM3
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Week
+  LeaderboardDefinitionId: top-group-expedition-score.DungeonFirstLight01.3.{world}.{week}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: Expeditions
+  DataSheetLBScope: World
+  CharacterLeaderboard: true
+  GroupLeaderboard: true
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: DungeonFirstLight01
+  FirstLevelCategory: Mutated Expeditions
+  SecondLevelCategory: "@ui_leaderboard_display_expedition_max_score"
+  SecondLevelCategoryPriority: 1.0
+  DisplayName: "@ui_leaderboard_expedition_difficulty_3"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_expedition_divide"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: 5:Leaderboard_DivideScoreTop5,25:Leaderboard_DivideScoreTop25
+  ItemRewards: ""
+  EntitlementRewards: 5:LB_DivideM3Score_Rank1,25:LB_DivideM3Score_Rank2
+  CategoryDescription: ""
+  CategoryAdditionalHeader: ""
+  RewardType: DivideScoreM3
   NameString: ""
   ValueString: "@ui_leaderboard_column_score"
 - LeaderboardId: WeekExpeditionClearTimeDynastyM1
@@ -4949,12 +5036,12 @@
   Category: "@ui_leaderboard_category_expedition_dynasty"
   CategoryPriority: null
   Faction: ""
-  Rewards: ""
+  Rewards: 5:Leaderboard_DynastyShipyardTimeTop1,25:Leaderboard_DynastyShipyardTimeTop10
   ItemRewards: ""
-  EntitlementRewards: ""
+  EntitlementRewards: 5:LB_DynastyM3Clear_Rank1,25:LB_DynastyM3Clear_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: "@ui_leaderboard_with_gold"
-  RewardType: ""
+  RewardType: DynastyTimeM3
   NameString: ""
   ValueString: "@ui_leaderboard_column_time"
 - LeaderboardId: WeekExpeditionClearTimeDynastyM4
@@ -4970,13 +5057,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEbonscale00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_4"
   DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_expedition_dynasty"
-  CategoryPriority: null
+  CategoryPriority: 5.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -4999,13 +5086,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEbonscale00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_5"
   DisplayNamePriority: 6.0
   Category: "@ui_leaderboard_category_expedition_dynasty"
-  CategoryPriority: null
+  CategoryPriority: 5.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5028,13 +5115,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEbonscale00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_6"
   DisplayNamePriority: 5.0
   Category: "@ui_leaderboard_category_expedition_dynasty"
-  CategoryPriority: null
+  CategoryPriority: 5.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5057,13 +5144,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEbonscale00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_7"
   DisplayNamePriority: 4.0
   Category: "@ui_leaderboard_category_expedition_dynasty"
-  CategoryPriority: null
+  CategoryPriority: 5.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5086,13 +5173,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEbonscale00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_8"
   DisplayNamePriority: 3.0
   Category: "@ui_leaderboard_category_expedition_dynasty"
-  CategoryPriority: null
+  CategoryPriority: 5.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5115,13 +5202,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEbonscale00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_9"
   DisplayNamePriority: 2.0
   Category: "@ui_leaderboard_category_expedition_dynasty"
-  CategoryPriority: null
+  CategoryPriority: 5.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5144,17 +5231,17 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEbonscale00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_10"
   DisplayNamePriority: 1.0
   Category: "@ui_leaderboard_category_expedition_dynasty"
-  CategoryPriority: null
+  CategoryPriority: 5.0
   Faction: ""
   Rewards: 5:Leaderboard_DynastyShipyardTimeTop1,25:Leaderboard_DynastyShipyardTimeTop10
   ItemRewards: ""
-  EntitlementRewards: 5:EntitlementSkin_Chest_Rank1_LBClear_Shipyard,25:EntitlementSkin_Chest_LBClear_Shipyard
+  EntitlementRewards: 5:LB_DynastyM10Clear_Rank1,25:LB_DynastyM10Clear_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: "@ui_leaderboard_with_gold"
   RewardType: DynastyTime
@@ -5239,12 +5326,12 @@
   Category: "@ui_leaderboard_category_expedition_genesis"
   CategoryPriority: null
   Faction: ""
-  Rewards: ""
+  Rewards: 5:Leaderboard_GardenOfGenesisTimeTop1,25:Leaderboard_GardenOfGenesisTimeTop10
   ItemRewards: ""
-  EntitlementRewards: ""
+  EntitlementRewards: 5:LB_GenesisM3Clear_Rank1,25:LB_GenesisM3Clear_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: "@ui_leaderboard_with_gold"
-  RewardType: ""
+  RewardType: GenesisTimeM3
   NameString: ""
   ValueString: "@ui_leaderboard_column_time"
 - LeaderboardId: WeekExpeditionClearTimeGenesisM4
@@ -5260,13 +5347,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEdengrove00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_4"
   DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_expedition_genesis"
-  CategoryPriority: null
+  CategoryPriority: 6.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5289,13 +5376,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEdengrove00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_5"
   DisplayNamePriority: 6.0
   Category: "@ui_leaderboard_category_expedition_genesis"
-  CategoryPriority: null
+  CategoryPriority: 6.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5318,13 +5405,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEdengrove00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_6"
   DisplayNamePriority: 5.0
   Category: "@ui_leaderboard_category_expedition_genesis"
-  CategoryPriority: null
+  CategoryPriority: 6.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5347,13 +5434,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEdengrove00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_7"
   DisplayNamePriority: 4.0
   Category: "@ui_leaderboard_category_expedition_genesis"
-  CategoryPriority: null
+  CategoryPriority: 6.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5376,13 +5463,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEdengrove00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_8"
   DisplayNamePriority: 3.0
   Category: "@ui_leaderboard_category_expedition_genesis"
-  CategoryPriority: null
+  CategoryPriority: 6.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5405,13 +5492,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEdengrove00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_9"
   DisplayNamePriority: 2.0
   Category: "@ui_leaderboard_category_expedition_genesis"
-  CategoryPriority: null
+  CategoryPriority: 6.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5434,17 +5521,17 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonEdengrove00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_10"
   DisplayNamePriority: 1.0
   Category: "@ui_leaderboard_category_expedition_genesis"
-  CategoryPriority: null
+  CategoryPriority: 6.0
   Faction: ""
   Rewards: 5:Leaderboard_GardenOfGenesisTimeTop1,25:Leaderboard_GardenOfGenesisTimeTop10
   ItemRewards: ""
-  EntitlementRewards: 5:EntitlementSkin_Chest_Rank1_LBClear_GardenGenesis,25:EntitlementSkin_Chest_LBClear_GardenGenesis
+  EntitlementRewards: 5:LB_GenesisM10Clear_Rank1,25:LB_GenesisM10Clear_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: "@ui_leaderboard_with_gold"
   RewardType: GenesisTime
@@ -5529,12 +5616,12 @@
   Category: "@ui_leaderboard_category_expedition_lazarus"
   CategoryPriority: null
   Faction: ""
-  Rewards: ""
+  Rewards: 5:Leaderboard_LazarusInstrumentalityTimeTop1,25:Leaderboard_LazarusInstrumentalityTimeTop10
   ItemRewards: ""
-  EntitlementRewards: ""
+  EntitlementRewards: 5:LB_LazarusM3Clear_Rank1,25:LB_LazarusM3Clear_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: "@ui_leaderboard_with_gold"
-  RewardType: ""
+  RewardType: LazarusTimeM3
   NameString: ""
   ValueString: "@ui_leaderboard_column_time"
 - LeaderboardId: WeekExpeditionClearTimeLazarusM4
@@ -5550,13 +5637,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonReekwater00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_4"
   DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_expedition_lazarus"
-  CategoryPriority: null
+  CategoryPriority: 7.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5579,13 +5666,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonReekwater00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_5"
   DisplayNamePriority: 6.0
   Category: "@ui_leaderboard_category_expedition_lazarus"
-  CategoryPriority: null
+  CategoryPriority: 7.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5608,13 +5695,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonReekwater00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_6"
   DisplayNamePriority: 5.0
   Category: "@ui_leaderboard_category_expedition_lazarus"
-  CategoryPriority: null
+  CategoryPriority: 7.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5637,13 +5724,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonReekwater00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_7"
   DisplayNamePriority: 4.0
   Category: "@ui_leaderboard_category_expedition_lazarus"
-  CategoryPriority: null
+  CategoryPriority: 7.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5666,13 +5753,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonReekwater00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_8"
   DisplayNamePriority: 3.0
   Category: "@ui_leaderboard_category_expedition_lazarus"
-  CategoryPriority: null
+  CategoryPriority: 7.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5695,13 +5782,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonReekwater00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_9"
   DisplayNamePriority: 2.0
   Category: "@ui_leaderboard_category_expedition_lazarus"
-  CategoryPriority: null
+  CategoryPriority: 7.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5724,20 +5811,20 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonReekwater00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_10"
   DisplayNamePriority: 1.0
   Category: "@ui_leaderboard_category_expedition_lazarus"
-  CategoryPriority: null
+  CategoryPriority: 7.0
   Faction: ""
   Rewards: 5:Leaderboard_LazarusInstrumentalityTimeTop1,25:Leaderboard_LazarusInstrumentalityTimeTop10
   ItemRewards: ""
-  EntitlementRewards: 5:EntitlementSkin_Chest_Rank1_LBClear_LazarusInstrumentality,25:EntitlementSkin_Chest_LBClear_LazarusInstrumentality
+  EntitlementRewards: 5:LB_LazarusM10Clear_Rank1,25:LB_LazarusM10Clear_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: "@ui_leaderboard_with_gold"
-  RewardType: LazarusTime
+  RewardType: LazarusTimeM10
   NameString: ""
   ValueString: "@ui_leaderboard_column_time"
 - LeaderboardId: WeekExpeditionClearTimeTempestM1
@@ -5819,12 +5906,12 @@
   Category: "@ui_leaderboard_category_expedition_tempest"
   CategoryPriority: null
   Faction: ""
-  Rewards: ""
+  Rewards: 5:Leaderboard_TempestHeartTimeTop1,25:Leaderboard_TempestHeartTimeTop10
   ItemRewards: ""
-  EntitlementRewards: ""
+  EntitlementRewards: 5:LB_TempestM3Clear_Rank1,25:LB_TempestM3Clear_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: "@ui_leaderboard_with_gold"
-  RewardType: ""
+  RewardType: TempestTimeM3
   NameString: ""
   ValueString: "@ui_leaderboard_column_time"
 - LeaderboardId: WeekExpeditionClearTimeTempestM4
@@ -5840,13 +5927,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatterMtn00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_4"
   DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_expedition_tempest"
-  CategoryPriority: null
+  CategoryPriority: 9.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5869,13 +5956,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatterMtn00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_5"
   DisplayNamePriority: 6.0
   Category: "@ui_leaderboard_category_expedition_tempest"
-  CategoryPriority: null
+  CategoryPriority: 9.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5898,13 +5985,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatterMtn00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_6"
   DisplayNamePriority: 5.0
   Category: "@ui_leaderboard_category_expedition_tempest"
-  CategoryPriority: null
+  CategoryPriority: 9.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5927,13 +6014,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatterMtn00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_7"
   DisplayNamePriority: 4.0
   Category: "@ui_leaderboard_category_expedition_tempest"
-  CategoryPriority: null
+  CategoryPriority: 9.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5956,13 +6043,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatterMtn00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_8"
   DisplayNamePriority: 3.0
   Category: "@ui_leaderboard_category_expedition_tempest"
-  CategoryPriority: null
+  CategoryPriority: 9.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -5985,13 +6072,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatterMtn00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_9"
   DisplayNamePriority: 2.0
   Category: "@ui_leaderboard_category_expedition_tempest"
-  CategoryPriority: null
+  CategoryPriority: 9.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -6014,17 +6101,17 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatterMtn00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_10"
   DisplayNamePriority: 1.0
   Category: "@ui_leaderboard_category_expedition_tempest"
-  CategoryPriority: null
+  CategoryPriority: 9.0
   Faction: ""
   Rewards: 5:Leaderboard_TempestHeartTimeTop1,25:Leaderboard_TempestHeartTimeTop10
   ItemRewards: ""
-  EntitlementRewards: 5:EntitlementSkin_Chest_Rank1_LBClear_TempestHeart,25:EntitlementSkin_Chest_LBClear_TempestHeart
+  EntitlementRewards: 5:LB_TempestM10Clear_Rank1,25:LB_TempestM10Clear_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: "@ui_leaderboard_with_gold"
   RewardType: TempestTime
@@ -6109,12 +6196,12 @@
   Category: "@ui_leaderboard_category_expedition_barnacles"
   CategoryPriority: null
   Faction: ""
-  Rewards: ""
+  Rewards: 5:Leaderboard_BarnaclesTimeTop1,25:Leaderboard_BarnaclesTimeTop10
   ItemRewards: ""
-  EntitlementRewards: ""
+  EntitlementRewards: 5:LB_BarnaclesM3Clear_Rank1,25:LB_BarnaclesM3Clear_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: "@ui_leaderboard_with_gold"
-  RewardType: ""
+  RewardType: BarnaclesTimeM3
   NameString: ""
   ValueString: "@ui_leaderboard_column_time"
 - LeaderboardId: WeekExpeditionClearTimeBarnaclesM4
@@ -6130,13 +6217,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonCutlassKeys00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_4"
   DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_expedition_barnacles"
-  CategoryPriority: null
+  CategoryPriority: 1.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -6159,13 +6246,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonCutlassKeys00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_5"
   DisplayNamePriority: 6.0
   Category: "@ui_leaderboard_category_expedition_barnacles"
-  CategoryPriority: null
+  CategoryPriority: 1.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -6188,13 +6275,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonCutlassKeys00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_6"
   DisplayNamePriority: 5.0
   Category: "@ui_leaderboard_category_expedition_barnacles"
-  CategoryPriority: null
+  CategoryPriority: 1.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -6217,13 +6304,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonCutlassKeys00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_7"
   DisplayNamePriority: 4.0
   Category: "@ui_leaderboard_category_expedition_barnacles"
-  CategoryPriority: null
+  CategoryPriority: 1.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -6246,13 +6333,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonCutlassKeys00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_8"
   DisplayNamePriority: 3.0
   Category: "@ui_leaderboard_category_expedition_barnacles"
-  CategoryPriority: null
+  CategoryPriority: 1.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -6275,13 +6362,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonCutlassKeys00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_9"
   DisplayNamePriority: 2.0
   Category: "@ui_leaderboard_category_expedition_barnacles"
-  CategoryPriority: null
+  CategoryPriority: 1.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -6304,17 +6391,17 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonCutlassKeys00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_10"
   DisplayNamePriority: 1.0
   Category: "@ui_leaderboard_category_expedition_barnacles"
-  CategoryPriority: null
+  CategoryPriority: 1.0
   Faction: ""
   Rewards: 5:Leaderboard_BarnaclesTimeTop1,25:Leaderboard_BarnaclesTimeTop10
   ItemRewards: ""
-  EntitlementRewards: 5:EntitlementSkin_Chest_Rank1_LBClear_Barnacles,25:EntitlementSkin_Chest_LBClear_Barnacles
+  EntitlementRewards: 5:LB_BarnaclesM10Clear_Rank1,25:LB_BarnaclesM10Clear_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: "@ui_leaderboard_with_gold"
   RewardType: BarnaclesTime
@@ -6399,12 +6486,12 @@
   Category: "@ui_leaderboard_category_expedition_ennead"
   CategoryPriority: null
   Faction: ""
-  Rewards: ""
+  Rewards: 5:Leaderboard_BrimstoneTimeTop1,25:Leaderboard_BrimstoneTimeTop10
   ItemRewards: ""
-  EntitlementRewards: ""
+  EntitlementRewards: 5:LB_BrimstoneM3Clear_Rank1,25:LB_BrimstoneM3Clear_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: "@ui_leaderboard_with_gold"
-  RewardType: ""
+  RewardType: BrimstoneTimeM3
   NameString: ""
   ValueString: "@ui_leaderboard_column_time"
 - LeaderboardId: WeekExpeditionClearTimeEnneadM4
@@ -6420,13 +6507,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonBrimstoneSands00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_4"
   DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_expedition_ennead"
-  CategoryPriority: null
+  CategoryPriority: 3.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -6449,13 +6536,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonBrimstoneSands00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_5"
   DisplayNamePriority: 6.0
   Category: "@ui_leaderboard_category_expedition_ennead"
-  CategoryPriority: null
+  CategoryPriority: 3.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -6478,13 +6565,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonBrimstoneSands00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_6"
   DisplayNamePriority: 5.0
   Category: "@ui_leaderboard_category_expedition_ennead"
-  CategoryPriority: null
+  CategoryPriority: 3.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -6507,13 +6594,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonBrimstoneSands00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_7"
   DisplayNamePriority: 4.0
   Category: "@ui_leaderboard_category_expedition_ennead"
-  CategoryPriority: null
+  CategoryPriority: 3.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -6536,13 +6623,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonBrimstoneSands00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_8"
   DisplayNamePriority: 3.0
   Category: "@ui_leaderboard_category_expedition_ennead"
-  CategoryPriority: null
+  CategoryPriority: 3.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -6565,13 +6652,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonBrimstoneSands00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_9"
   DisplayNamePriority: 2.0
   Category: "@ui_leaderboard_category_expedition_ennead"
-  CategoryPriority: null
+  CategoryPriority: 3.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -6594,17 +6681,17 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonBrimstoneSands00
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_10"
   DisplayNamePriority: 1.0
   Category: "@ui_leaderboard_category_expedition_ennead"
-  CategoryPriority: null
+  CategoryPriority: 3.0
   Faction: ""
   Rewards: 5:Leaderboard_BrimstoneTimeTop1,25:Leaderboard_BrimstoneTimeTop10
   ItemRewards: ""
-  EntitlementRewards: 5:EntitlementSkin_Chest_Rank1_LBClear_Brimstone,25:EntitlementSkin_Chest_LBClear_Brimstone
+  EntitlementRewards: 5:LB_BrimstoneM10Clear_Rank1,25:LB_BrimstoneM10Clear_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: "@ui_leaderboard_with_gold"
   RewardType: BrimstoneTime
@@ -6689,12 +6776,12 @@
   Category: "@ui_leaderboard_category_expedition_depths"
   CategoryPriority: null
   Faction: ""
-  Rewards: ""
+  Rewards: 5:Leaderboard_DepthsTimeTop1,25:Leaderboard_DepthsTimeTop10
   ItemRewards: ""
-  EntitlementRewards: ""
+  EntitlementRewards: 5:LB_DepthsM3Clear_Rank1,25:LB_DepthsM3Clear_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: "@ui_leaderboard_with_gold"
-  RewardType: ""
+  RewardType: DepthsTimeM3
   NameString: ""
   ValueString: "@ui_leaderboard_column_time"
 - LeaderboardId: WeekExpeditionClearTimeDepthsM4
@@ -6710,13 +6797,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonRestlessShores01
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_4"
   DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_expedition_depths"
-  CategoryPriority: null
+  CategoryPriority: 4.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -6739,13 +6826,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonRestlessShores01
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_5"
   DisplayNamePriority: 6.0
   Category: "@ui_leaderboard_category_expedition_depths"
-  CategoryPriority: null
+  CategoryPriority: 4.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -6768,13 +6855,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonRestlessShores01
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_6"
   DisplayNamePriority: 5.0
   Category: "@ui_leaderboard_category_expedition_depths"
-  CategoryPriority: null
+  CategoryPriority: 4.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -6797,13 +6884,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonRestlessShores01
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_7"
   DisplayNamePriority: 4.0
   Category: "@ui_leaderboard_category_expedition_depths"
-  CategoryPriority: null
+  CategoryPriority: 4.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -6826,13 +6913,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonRestlessShores01
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_8"
   DisplayNamePriority: 3.0
   Category: "@ui_leaderboard_category_expedition_depths"
-  CategoryPriority: null
+  CategoryPriority: 4.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -6855,13 +6942,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonRestlessShores01
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_9"
   DisplayNamePriority: 2.0
   Category: "@ui_leaderboard_category_expedition_depths"
-  CategoryPriority: null
+  CategoryPriority: 4.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -6884,17 +6971,17 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonRestlessShores01
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_10"
   DisplayNamePriority: 1.0
   Category: "@ui_leaderboard_category_expedition_depths"
-  CategoryPriority: null
+  CategoryPriority: 4.0
   Faction: ""
   Rewards: 5:Leaderboard_DepthsTimeTop1,25:Leaderboard_DepthsTimeTop10
   ItemRewards: ""
-  EntitlementRewards: 5:EntitlementSkin_Chest_Rank1_LBClear_Depths,25:EntitlementSkin_Chest_LBClear_Depths
+  EntitlementRewards: 5:LB_DepthsM10Clear_Rank1,25:LB_DepthsM10Clear_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: "@ui_leaderboard_with_gold"
   RewardType: DepthsTime
@@ -6979,12 +7066,12 @@
   Category: "@ui_leaderboard_category_expedition_starstone"
   CategoryPriority: null
   Faction: ""
-  Rewards: ""
+  Rewards: 5:Leaderboard_StarstoneTimeTop1,25:Leaderboard_StarstoneTimeTop10
   ItemRewards: ""
-  EntitlementRewards: ""
+  EntitlementRewards: 5:LB_StarstoneM3Clear_Rank1,25:LB_StarstoneM3Clear_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: "@ui_leaderboard_with_gold"
-  RewardType: ""
+  RewardType: StarstoneTimeM3
   NameString: ""
   ValueString: "@ui_leaderboard_column_time"
 - LeaderboardId: WeekExpeditionClearTimeStarstoneM4
@@ -7000,13 +7087,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatteredObelisk
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_4"
   DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_expedition_starstone"
-  CategoryPriority: null
+  CategoryPriority: 8.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -7029,13 +7116,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatteredObelisk
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_5"
   DisplayNamePriority: 6.0
   Category: "@ui_leaderboard_category_expedition_starstone"
-  CategoryPriority: null
+  CategoryPriority: 8.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -7058,13 +7145,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatteredObelisk
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_6"
   DisplayNamePriority: 5.0
   Category: "@ui_leaderboard_category_expedition_starstone"
-  CategoryPriority: null
+  CategoryPriority: 8.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -7087,13 +7174,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatteredObelisk
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_7"
   DisplayNamePriority: 4.0
   Category: "@ui_leaderboard_category_expedition_starstone"
-  CategoryPriority: null
+  CategoryPriority: 8.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -7116,13 +7203,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatteredObelisk
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_8"
   DisplayNamePriority: 3.0
   Category: "@ui_leaderboard_category_expedition_starstone"
-  CategoryPriority: null
+  CategoryPriority: 8.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -7145,13 +7232,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatteredObelisk
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_9"
   DisplayNamePriority: 2.0
   Category: "@ui_leaderboard_category_expedition_starstone"
-  CategoryPriority: null
+  CategoryPriority: 8.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -7174,17 +7261,17 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonShatteredObelisk
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_10"
   DisplayNamePriority: 1.0
   Category: "@ui_leaderboard_category_expedition_starstone"
-  CategoryPriority: null
+  CategoryPriority: 8.0
   Faction: ""
   Rewards: 5:Leaderboard_StarstoneTimeTop1,25:Leaderboard_StarstoneTimeTop10
   ItemRewards: ""
-  EntitlementRewards: 5:EntitlementSkin_Chest_Rank1_LBClear_Starstone,25:EntitlementSkin_Chest_LBClear_Starstone
+  EntitlementRewards: 5:LB_StarstoneM10Clear_Rank1,25:LB_StarstoneM10Clear_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: "@ui_leaderboard_with_gold"
   RewardType: StarstoneTime
@@ -7269,12 +7356,12 @@
   Category: "@ui_leaderboard_category_expedition_empyrean"
   CategoryPriority: null
   Faction: ""
-  Rewards: ""
+  Rewards: 5:Leaderboard_ForgeTimeTop5,25:Leaderboard_ForgeTimeTop25
   ItemRewards: ""
-  EntitlementRewards: ""
+  EntitlementRewards: 5:LB_ForgeM3Clear_Rank1,25:LB_ForgeM3Clear_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: "@ui_leaderboard_with_gold"
-  RewardType: ""
+  RewardType: EmpyreanTimeM3
   NameString: ""
   ValueString: "@ui_leaderboard_column_time"
 - LeaderboardId: WeekExpeditionClearTimeEmpyreanM4
@@ -7290,13 +7377,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonGreatCleave01
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_4"
   DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_expedition_empyrean"
-  CategoryPriority: null
+  CategoryPriority: 2.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -7319,13 +7406,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonGreatCleave01
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_5"
   DisplayNamePriority: 6.0
   Category: "@ui_leaderboard_category_expedition_empyrean"
-  CategoryPriority: null
+  CategoryPriority: 2.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -7348,13 +7435,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonGreatCleave01
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_6"
   DisplayNamePriority: 5.0
   Category: "@ui_leaderboard_category_expedition_empyrean"
-  CategoryPriority: null
+  CategoryPriority: 2.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -7377,13 +7464,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonGreatCleave01
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_7"
   DisplayNamePriority: 4.0
   Category: "@ui_leaderboard_category_expedition_empyrean"
-  CategoryPriority: null
+  CategoryPriority: 2.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -7406,13 +7493,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonGreatCleave01
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_8"
   DisplayNamePriority: 3.0
   Category: "@ui_leaderboard_category_expedition_empyrean"
-  CategoryPriority: null
+  CategoryPriority: 2.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -7435,13 +7522,13 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonGreatCleave01
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_9"
   DisplayNamePriority: 2.0
   Category: "@ui_leaderboard_category_expedition_empyrean"
-  CategoryPriority: null
+  CategoryPriority: 2.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -7464,20 +7551,107 @@
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: DungeonGreatCleave01
-  FirstLevelCategory: Mutated Expeditions
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_expedition_difficulty_10"
   DisplayNamePriority: 1.0
   Category: "@ui_leaderboard_category_expedition_empyrean"
-  CategoryPriority: null
+  CategoryPriority: 2.0
   Faction: ""
   Rewards: 5:Leaderboard_ForgeTimeTop5,25:Leaderboard_ForgeTimeTop25
   ItemRewards: ""
-  EntitlementRewards: 5:Skin_Chest_Rank1_LBClear_Forge,25:Skin_Chest_LBClear_Forge
+  EntitlementRewards: 5:LB_ForgeM10Clear_Rank1,25:LB_ForgeM10Clear_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: "@ui_leaderboard_with_gold"
   RewardType: EmpyreanTime
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_time"
+- LeaderboardId: WeekExpeditionClearTimeFirstLightM1
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Week
+  LeaderboardDefinitionId: min-dungeon-group-gold-medal-expedition-clear-time.DungeonFirstLight01.1.{world}.{week}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: Expeditions
+  DataSheetLBScope: World
+  CharacterLeaderboard: true
+  GroupLeaderboard: true
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: DungeonFirstLight01
+  FirstLevelCategory: Mutated Expeditions
+  SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
+  SecondLevelCategoryPriority: 2.0
+  DisplayName: "@ui_leaderboard_expedition_difficulty_1"
+  DisplayNamePriority: 3.0
+  Category: "@ui_leaderboard_category_expedition_divide"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: ""
+  CategoryAdditionalHeader: "@ui_leaderboard_with_gold"
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_time"
+- LeaderboardId: WeekExpeditionClearTimeFirstLightM2
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Week
+  LeaderboardDefinitionId: min-dungeon-group-gold-medal-expedition-clear-time.DungeonFirstLight01.2.{world}.{week}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: Expeditions
+  DataSheetLBScope: World
+  CharacterLeaderboard: true
+  GroupLeaderboard: true
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: DungeonFirstLight01
+  FirstLevelCategory: Mutated Expeditions
+  SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
+  SecondLevelCategoryPriority: 2.0
+  DisplayName: "@ui_leaderboard_expedition_difficulty_2"
+  DisplayNamePriority: 2.0
+  Category: "@ui_leaderboard_category_expedition_divide"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: ""
+  CategoryAdditionalHeader: "@ui_leaderboard_with_gold"
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_time"
+- LeaderboardId: WeekExpeditionClearTimeFirstLightM3
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Week
+  LeaderboardDefinitionId: min-dungeon-group-gold-medal-expedition-clear-time.DungeonFirstLight01.3.{world}.{week}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: Expeditions
+  DataSheetLBScope: World
+  CharacterLeaderboard: true
+  GroupLeaderboard: true
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: DungeonFirstLight01
+  FirstLevelCategory: Mutated Expeditions
+  SecondLevelCategory: "@ui_leaderboard_display_expedition_clear_time"
+  SecondLevelCategoryPriority: 2.0
+  DisplayName: "@ui_leaderboard_expedition_difficulty_3"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_expedition_divide"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: 5:Leaderboard_DivideTimeTop5,25:Leaderboard_DivideTimeTop25
+  ItemRewards: ""
+  EntitlementRewards: 5:LB_DivideM3Clear_Rank1,25:LB_DivideM3Clear_Rank2
+  CategoryDescription: ""
+  CategoryAdditionalHeader: "@ui_leaderboard_with_gold"
+  RewardType: DivideScore
   NameString: ""
   ValueString: "@ui_leaderboard_column_time"
 - LeaderboardId: MonthBossTrialCompletionsSiren
@@ -7532,7 +7706,7 @@
   Faction: ""
   Rewards: 10:Leaderboard_SirenQueenCompletionTop1,50:Leaderboard_SirenQueenCompletionTop10
   ItemRewards: ""
-  EntitlementRewards: 10:EntitlementSkin_Chest_Rank1_LB_SirenQueen,50:EntitlementSkin_Chest_LB_SirenQueen
+  EntitlementRewards: 10:LB_Siren_Rank1,50:LB_Siren_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
   RewardType: SirenCompletetion
@@ -7590,7 +7764,7 @@
   Faction: ""
   Rewards: 10:Leaderboard_MonoeciousCleftCompletionTop1,50:Leaderboard_MonoeciousCleftCompletionTop10
   ItemRewards: ""
-  EntitlementRewards: 10:EntitlementSkin_Chest_Rank1_LB_MonoeciousCleft,50:EntitlementSkin_Chest_LB_MonoeciousCleft
+  EntitlementRewards: 10:LB_Monoecious_Rank1,50:LB_Monoecious_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
   RewardType: MonoeciousCompletetion
@@ -7615,7 +7789,7 @@
   DisplayName: "@ui_leaderboard_display_trials_completions"
   DisplayNamePriority: 1.0
   Category: "@ui_leaderboard_category_trials"
-  CategoryPriority: null
+  CategoryPriority: 11.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -7644,11 +7818,11 @@
   DisplayName: "@ui_leaderboard_display_trials_completions"
   DisplayNamePriority: 1.0
   Category: "@ui_leaderboard_category_trials"
-  CategoryPriority: null
+  CategoryPriority: 11.0
   Faction: ""
   Rewards: 10:Leaderboard_EternalPoolsCompletionTop1,50:Leaderboard_EternalPoolsCompletionTop10
   ItemRewards: ""
-  EntitlementRewards: 10:EntitlementSkin_Chest_Rank1_LB_EternalPools,50:EntitlementSkin_Chest_LB_EternalPools
+  EntitlementRewards: 10:LB_SwampBeast_Rank1,50:LB_SwampBeast_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
   RewardType: EternalPoolsCompletetion
@@ -7706,7 +7880,7 @@
   Faction: ""
   Rewards: 10:Leaderboard_SandwormTopTier,50:Leaderboard_SandwormSecondTier
   ItemRewards: ""
-  EntitlementRewards: 10:EntitlementSkin_Chest_Rank1_LB_Sandworm,50:EntitlementSkin_Chest_LB_Sandworm
+  EntitlementRewards: 10:LB_Sandworm_Rank1,50:LB_Sandworm_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
   RewardType: Sandworm
@@ -7764,7 +7938,7 @@
   Faction: ""
   Rewards: 3:Leaderboard_AllTerritoriesCompanyScoreTop1,6:Leaderboard_AllTerritoriesCompanyScoreTop10
   ItemRewards: ""
-  EntitlementRewards: 3:EntitlementSkin_Chest_Rank1_LB_Territory,6:EntitlementSkin_Chest_LB_Territory
+  EntitlementRewards: 3:LB_AllTerritory_Rank1,6:LB_AllTerritory_Rank2
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
   RewardType: AllTerritoriesScore
@@ -7845,7 +8019,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_territory_everfall"
-  DisplayNamePriority: 6.0
+  DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -7874,7 +8048,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_territory_everfall"
-  DisplayNamePriority: 6.0
+  DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -7903,7 +8077,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_territory_reekwater"
-  DisplayNamePriority: 10.0
+  DisplayNamePriority: 11.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -7932,7 +8106,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_territory_reekwater"
-  DisplayNamePriority: 10.0
+  DisplayNamePriority: 11.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -7961,7 +8135,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_territory_windsward"
-  DisplayNamePriority: 13.0
+  DisplayNamePriority: 14.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -7990,7 +8164,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_territory_windsward"
-  DisplayNamePriority: 13.0
+  DisplayNamePriority: 14.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -8073,13 +8247,13 @@
   CompanyLeaderboard: true
   FactionLeaderboard: true
   GameMode: ""
-  FirstLevelCategory: Faction War
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_territory_firstlight"
-  DisplayNamePriority: 7.0
+  DisplayNamePriority: 8.0
   Category: "@ui_leaderboard_category_territory_control"
-  CategoryPriority: null
+  CategoryPriority: 10.0
   Faction: ""
   Rewards: ""
   ItemRewards: ""
@@ -8102,13 +8276,13 @@
   CompanyLeaderboard: true
   FactionLeaderboard: true
   GameMode: ""
-  FirstLevelCategory: Faction War
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_territory_firstlight"
-  DisplayNamePriority: 7.0
+  DisplayNamePriority: 8.0
   Category: "@ui_leaderboard_category_territory_control"
-  CategoryPriority: null
+  CategoryPriority: 10.0
   Faction: ""
   Rewards: 3:Leaderboard_FirstLightCompanyScoreTop1,6:Leaderboard_FirstLightCompanyScoreTop10
   ItemRewards: ""
@@ -8193,7 +8367,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_territory_mourningdale"
-  DisplayNamePriority: 9.0
+  DisplayNamePriority: 10.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -8222,7 +8396,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_territory_mourningdale"
-  DisplayNamePriority: 9.0
+  DisplayNamePriority: 10.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -8251,7 +8425,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_territory_monarchsbluffs"
-  DisplayNamePriority: 8.0
+  DisplayNamePriority: 9.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -8280,7 +8454,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_territory_monarchsbluffs"
-  DisplayNamePriority: 8.0
+  DisplayNamePriority: 9.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -8309,7 +8483,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_territory_weaversfen"
-  DisplayNamePriority: 12.0
+  DisplayNamePriority: 13.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -8338,7 +8512,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_territory_weaversfen"
-  DisplayNamePriority: 12.0
+  DisplayNamePriority: 13.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -8348,6 +8522,64 @@
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
   RewardType: WeaversFenScore
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_days"
+- LeaderboardId: MonthTerritoryControl14
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Month
+  LeaderboardDefinitionId: top-company-territory-control-score.14.{world}.{month}
+  FactionLeaderboardDefinitionId: score$territory-control.{faction}.14.{world}.{month}
+  DataSheetCategory: Territory Control
+  DataSheetLBScope: World
+  CharacterLeaderboard: false
+  GroupLeaderboard: false
+  CompanyLeaderboard: true
+  FactionLeaderboard: true
+  GameMode: ""
+  FirstLevelCategory: Faction War
+  SecondLevelCategory: "@ui_leaderboard_display_territory_control_score"
+  SecondLevelCategoryPriority: 1.0
+  DisplayName: "@ui_leaderboard_territory_edengrove"
+  DisplayNamePriority: 6.0
+  Category: "@ui_leaderboard_category_territory_control"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: ""
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_days"
+- LeaderboardId: SeasonTerritoryControl14
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Season
+  LeaderboardDefinitionId: top-company-territory-control-score.14.{world}.{season}
+  FactionLeaderboardDefinitionId: score$territory-control.{faction}.14.{world}.{season}
+  DataSheetCategory: Territory Control
+  DataSheetLBScope: World
+  CharacterLeaderboard: false
+  GroupLeaderboard: false
+  CompanyLeaderboard: true
+  FactionLeaderboard: true
+  GameMode: ""
+  FirstLevelCategory: Faction War
+  SecondLevelCategory: "@ui_leaderboard_display_territory_control_score"
+  SecondLevelCategoryPriority: 1.0
+  DisplayName: "@ui_leaderboard_territory_edengrove"
+  DisplayNamePriority: 6.0
+  Category: "@ui_leaderboard_category_territory_control"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: 3:Leaderboard_EdengroveCompanyScoreTopTier,6:Leaderboard_EdengroveCompanyScoreSecondTier
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: ""
+  CategoryAdditionalHeader: ""
+  RewardType: EdengroveScore
   NameString: ""
   ValueString: "@ui_leaderboard_column_days"
 - LeaderboardId: MonthTerritoryControl15
@@ -8367,7 +8599,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_territory_restlessshore"
-  DisplayNamePriority: 11.0
+  DisplayNamePriority: 12.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -8396,7 +8628,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_score"
   SecondLevelCategoryPriority: 1.0
   DisplayName: "@ui_leaderboard_territory_restlessshore"
-  DisplayNamePriority: 11.0
+  DisplayNamePriority: 12.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -8599,7 +8831,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_streak"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_territory_everfall"
-  DisplayNamePriority: 6.0
+  DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -8628,7 +8860,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_streak"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_territory_everfall"
-  DisplayNamePriority: 6.0
+  DisplayNamePriority: 7.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -8657,7 +8889,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_streak"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_territory_reekwater"
-  DisplayNamePriority: 10.0
+  DisplayNamePriority: 11.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -8686,7 +8918,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_streak"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_territory_reekwater"
-  DisplayNamePriority: 10.0
+  DisplayNamePriority: 11.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -8715,7 +8947,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_streak"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_territory_windsward"
-  DisplayNamePriority: 13.0
+  DisplayNamePriority: 14.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -8744,7 +8976,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_streak"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_territory_windsward"
-  DisplayNamePriority: 13.0
+  DisplayNamePriority: 14.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -8827,11 +9059,11 @@
   CompanyLeaderboard: true
   FactionLeaderboard: false
   GameMode: ""
-  FirstLevelCategory: Faction War
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_streak"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_territory_firstlight"
-  DisplayNamePriority: 7.0
+  DisplayNamePriority: 8.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -8856,11 +9088,11 @@
   CompanyLeaderboard: true
   FactionLeaderboard: false
   GameMode: ""
-  FirstLevelCategory: Faction War
+  FirstLevelCategory: Inactive
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_streak"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_territory_firstlight"
-  DisplayNamePriority: 7.0
+  DisplayNamePriority: 8.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -8947,7 +9179,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_streak"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_territory_mourningdale"
-  DisplayNamePriority: 9.0
+  DisplayNamePriority: 10.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -8976,7 +9208,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_streak"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_territory_mourningdale"
-  DisplayNamePriority: 9.0
+  DisplayNamePriority: 10.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -9005,7 +9237,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_streak"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_territory_monarchsbluffs"
-  DisplayNamePriority: 8.0
+  DisplayNamePriority: 9.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -9034,7 +9266,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_streak"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_territory_monarchsbluffs"
-  DisplayNamePriority: 8.0
+  DisplayNamePriority: 9.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -9063,7 +9295,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_streak"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_territory_weaversfen"
-  DisplayNamePriority: 12.0
+  DisplayNamePriority: 13.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -9092,7 +9324,65 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_streak"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_territory_weaversfen"
-  DisplayNamePriority: 12.0
+  DisplayNamePriority: 13.0
+  Category: "@ui_leaderboard_category_territory_control"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: ""
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_days"
+- LeaderboardId: MonthTerritoryControlStreak14
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Month
+  LeaderboardDefinitionId: top-company-territory-control-streak.14.{world}.{month}
+  FactionLeaderboardDefinitionId: longest-streak$territory-control.{faction}.14.{world}.{month}
+  DataSheetCategory: Territory Control
+  DataSheetLBScope: World
+  CharacterLeaderboard: false
+  GroupLeaderboard: false
+  CompanyLeaderboard: true
+  FactionLeaderboard: false
+  GameMode: ""
+  FirstLevelCategory: Faction War
+  SecondLevelCategory: "@ui_leaderboard_display_territory_control_streak"
+  SecondLevelCategoryPriority: 2.0
+  DisplayName: "@ui_leaderboard_territory_edengrove"
+  DisplayNamePriority: 6.0
+  Category: "@ui_leaderboard_category_territory_control"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: ""
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_days"
+- LeaderboardId: SeasonTerritoryControlStreak14
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Season
+  LeaderboardDefinitionId: top-company-territory-control-streak.14.{world}.{season}
+  FactionLeaderboardDefinitionId: longest-streak$territory-control.{faction}.14.{world}.{season}
+  DataSheetCategory: Territory Control
+  DataSheetLBScope: World
+  CharacterLeaderboard: false
+  GroupLeaderboard: false
+  CompanyLeaderboard: true
+  FactionLeaderboard: false
+  GameMode: ""
+  FirstLevelCategory: Faction War
+  SecondLevelCategory: "@ui_leaderboard_display_territory_control_streak"
+  SecondLevelCategoryPriority: 2.0
+  DisplayName: "@ui_leaderboard_territory_edengrove"
+  DisplayNamePriority: 6.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -9121,7 +9411,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_streak"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_territory_restlessshore"
-  DisplayNamePriority: 11.0
+  DisplayNamePriority: 12.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -9150,7 +9440,7 @@
   SecondLevelCategory: "@ui_leaderboard_display_territory_control_streak"
   SecondLevelCategoryPriority: 2.0
   DisplayName: "@ui_leaderboard_territory_restlessshore"
-  DisplayNamePriority: 11.0
+  DisplayNamePriority: 12.0
   Category: "@ui_leaderboard_category_territory_control"
   CategoryPriority: null
   Faction: ""
@@ -9892,7 +10182,7 @@
   Namespace: pc
   Rotation: Season
   LeaderboardDefinitionId: top-fishing-legendaries.{world}.{season}
-  FactionLeaderboardDefinitionId: ""
+  FactionLeaderboardDefinitionId: longest-streak$territory-control.{faction}.16.{world}.{season}
   DataSheetCategory: Tradeskills
   DataSheetLBScope: World
   CharacterLeaderboard: true
@@ -9916,3 +10206,148 @@
   RewardType: ""
   NameString: ""
   ValueString: "@ui_leaderboard_column_caught"
+- LeaderboardId: InfluenceRaceModifiedInfluence
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Week
+  LeaderboardDefinitionId: top-company-influence-race-influence.{territory}.{world}.{influenceRaceId}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: Open World PVP
+  DataSheetLBScope: World
+  CharacterLeaderboard: false
+  GroupLeaderboard: false
+  CompanyLeaderboard: true
+  FactionLeaderboard: false
+  GameMode: OpenWorldPvp
+  FirstLevelCategory: Hidden
+  SecondLevelCategory: "@ui_leaderboard_display_fishing_legendaries"
+  SecondLevelCategoryPriority: 4.0
+  DisplayName: "@ui_leaderboard_display_legendaries"
+  DisplayNamePriority: null
+  Category: "@ui_leaderboard_category_legendaries"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: ""
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_caught"
+- LeaderboardId: InfluenceRacePvpExp
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Week
+  LeaderboardDefinitionId: top-character-influence-race-pvp-exp.{territory}.{world}.{influenceRaceId}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: Open World PVP
+  DataSheetLBScope: World
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: OpenWorldPvp
+  FirstLevelCategory: Hidden
+  SecondLevelCategory: "@ui_leaderboard_display_fishing_legendaries"
+  SecondLevelCategoryPriority: 4.0
+  DisplayName: "@ui_leaderboard_display_legendaries"
+  DisplayNamePriority: null
+  Category: "@ui_leaderboard_category_legendaries"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: ""
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_caught"
+- LeaderboardId: InfluenceRaceWinsAttackers
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Season
+  LeaderboardDefinitionId: top-company-influence-races-won-attackers.{world}.{season}
+  FactionLeaderboardDefinitionId: company-wins-attackers$influence-race.{faction}.{world}.{season}
+  DataSheetCategory: Open World PVP
+  DataSheetLBScope: World
+  CharacterLeaderboard: false
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: true
+  GameMode: OpenWorldPvp
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_influence_race_wins"
+  SecondLevelCategoryPriority: 4.0
+  DisplayName: "@ui_leaderboard_display_influence_race_wins_attackers"
+  DisplayNamePriority: 2.0
+  Category: "@ui_leaderboard_category_openworldpvp"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: ""
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_wins"
+- LeaderboardId: InfluenceRaceWinsDefenders
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Season
+  LeaderboardDefinitionId: top-company-influence-races-won-defenders.{world}.{season}
+  FactionLeaderboardDefinitionId: company-wins-defenders$influence-race.{faction}.{world}.{season}
+  DataSheetCategory: Open World PVP
+  DataSheetLBScope: World
+  CharacterLeaderboard: false
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: true
+  GameMode: OpenWorldPvp
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_influence_race_wins"
+  SecondLevelCategoryPriority: 4.0
+  DisplayName: "@ui_leaderboard_display_influence_race_wins_defenders"
+  DisplayNamePriority: 3.0
+  Category: "@ui_leaderboard_category_openworldpvp"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: ""
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_wins"
+- LeaderboardId: InfluenceRaceWins
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Season
+  LeaderboardDefinitionId: top-company-influence-races-won.{world}.{season}
+  FactionLeaderboardDefinitionId: company-wins$influence-race.{faction}.{world}.{season}
+  DataSheetCategory: Open World PVP
+  DataSheetLBScope: World
+  CharacterLeaderboard: false
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: true
+  GameMode: OpenWorldPvp
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_influence_race_wins"
+  SecondLevelCategoryPriority: 4.0
+  DisplayName: "@ui_leaderboard_display_influence_race_wins"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_openworldpvp"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: ""
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_wins"

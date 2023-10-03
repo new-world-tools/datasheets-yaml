@@ -97,6 +97,39 @@
   IsCollapsible: null
   UnchartedIcon: ""
   EventId: ""
+- TerritoryID: 50304.0
+  NameLocalizationKey: "@ui_poi_summervillage_50304"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/event_summervillage.png
+  CompassIcon: ""
+  DiscoveryRadius: 150.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: 2.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: ""
+  POITag: summervillage_50304
+  AudioGroup: POI_State
+  AudioState: village_summer
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Summer Village
+  VitalsCategory: ""
+  LevelRange: null
+  Containers: ""
+  TooltipBackground: LyShineUI/Images/map/tooltipimages/mapTooltip_Summer_npc.png
+  GameMode: ""
+  GroupSize: null
+  RecommendedLevel: null
+  IsCollapsible: true
+  UnchartedIcon: ""
+  EventId: SummerMedley
 - TerritoryID: 50305.0
   NameLocalizationKey: "@ui_poi_azure_fissure_50305"
   BaseStructureLimit: ""
@@ -763,7 +796,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/ancient_malevolence_elite.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/ancient_malevolence.png
   CompassIcon: ""
   DiscoveryRadius: 300.0
   IsDiscoverable: true
@@ -771,7 +804,7 @@
   DefaultAchievement: null
   OutpostId: ""
   Debug: ""
-  LootTags: GenMal,AngryEarth
+  LootTags: GenMal,AngryEarth,EPOI
   DiscoveredAchievement: crater_malevolence_50325_discovered
   ChartedAchievement: crater_malevolence_50325_charted
   POITag: crater_malevolence_50325,elite
@@ -1084,7 +1117,7 @@
   GameMode: ""
   GroupSize: null
   RecommendedLevel: null
-  IsCollapsible: null
+  IsCollapsible: true
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 50335.0
@@ -2157,7 +2190,7 @@
   DefaultAchievement: null
   OutpostId: ""
   Debug: ""
-  LootTags: ""
+  LootTags: Priscilla
   DiscoveredAchievement: crater_mysticbridge_50367_discovered
   ChartedAchievement: crater_mysticbridge_50367_charted
   POITag: crater_mysticbridge_50367
@@ -2190,7 +2223,7 @@
   DefaultAchievement: null
   OutpostId: ""
   Debug: ""
-  LootTags: ""
+  LootTags: Priscilla
   DiscoveredAchievement: crater_mysticbridgetower_50368_discovered
   ChartedAchievement: crater_mysticbridgetower_50368_charted
   POITag: crater_mysticbridgetower_50368
@@ -3363,4 +3396,466 @@
   RecommendedLevel: null
   IsCollapsible: null
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
+  EventId: ""
+- TerritoryID: 53005.0
+  NameLocalizationKey: "@ui_poi_spiritshrine_53005"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine_bg.dds
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\spirit_shrine_charted.dds"
+  DiscoveryRadius: 150.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: spiritshrine_53005_charted
+  POITag: spiritshrine_53005,fasttravel
+  AudioGroup: POI_State
+  AudioState: watchtower
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Spirit Shrine
+  VitalsCategory: ""
+  LevelRange: null
+  Containers: ""
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_spiritshrine.png
+  GameMode: ""
+  GroupSize: null
+  RecommendedLevel: null
+  IsCollapsible: null
+  UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
+  EventId: ""
+- TerritoryID: 53006.0
+  NameLocalizationKey: "@ui_poi_spiritshrine_53006"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine_bg.dds
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\spirit_shrine_charted.dds"
+  DiscoveryRadius: 150.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: spiritshrine_53006_charted
+  POITag: spiritshrine_53006,fasttravel
+  AudioGroup: POI_State
+  AudioState: watchtower
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Spirit Shrine
+  VitalsCategory: ""
+  LevelRange: null
+  Containers: ""
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_spiritshrine.png
+  GameMode: ""
+  GroupSize: null
+  RecommendedLevel: null
+  IsCollapsible: null
+  UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
+  EventId: ""
+- TerritoryID: 53007.0
+  NameLocalizationKey: "@ui_poi_spiritshrine_53007"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine_bg.dds
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\spirit_shrine_charted.dds"
+  DiscoveryRadius: 150.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: spiritshrine_53007_charted
+  POITag: spiritshrine_53007,fasttravel
+  AudioGroup: POI_State
+  AudioState: watchtower
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Spirit Shrine
+  VitalsCategory: ""
+  LevelRange: null
+  Containers: ""
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_spiritshrine.png
+  GameMode: ""
+  GroupSize: null
+  RecommendedLevel: null
+  IsCollapsible: null
+  UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
+  EventId: ""
+- TerritoryID: 53008.0
+  NameLocalizationKey: "@ui_poi_spiritshrine_53008"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine_bg.dds
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\spirit_shrine_charted.dds"
+  DiscoveryRadius: 150.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: spiritshrine_53008_charted
+  POITag: spiritshrine_53008,fasttravel
+  AudioGroup: POI_State
+  AudioState: watchtower
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Spirit Shrine
+  VitalsCategory: ""
+  LevelRange: null
+  Containers: ""
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_spiritshrine.png
+  GameMode: ""
+  GroupSize: null
+  RecommendedLevel: null
+  IsCollapsible: null
+  UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
+  EventId: ""
+- TerritoryID: 53009.0
+  NameLocalizationKey: "@ui_poi_motherwell_53009"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/angryearth_grovealtar_elite.png
+  CompassIcon: ""
+  DiscoveryRadius: 150.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: motherwell_53009_discovered
+  ChartedAchievement: motherwell_53009_charted
+  POITag: motherwell_53009
+  AudioGroup: POI_State
+  AudioState: ""
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Motherwell Entrance
+  VitalsCategory: ""
+  LevelRange: null
+  Containers: ""
+  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\POI\\mapTooltip_poi_motherwell.png"
+  GameMode: ""
+  GroupSize: null
+  RecommendedLevel: null
+  IsCollapsible: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 53010.0
+  NameLocalizationKey: "@Edengrove_Settlement_01"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: ""
+  CompassIcon: ""
+  DiscoveryRadius: 100.0
+  IsDiscoverable: false
+  IsChartable: false
+  DefaultAchievement: 2.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: ""
+  POITag: Edengrove_Settlement_01
+  AudioGroup: ""
+  AudioState: ""
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: ""
+  VitalsCategory: ""
+  LevelRange: null
+  Containers: ""
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_township14.png
+  GameMode: ""
+  GroupSize: null
+  RecommendedLevel: null
+  IsCollapsible: true
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 53011.0
+  NameLocalizationKey: "@ui_poi_myrddin_53011"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\ancient_tower.png"
+  CompassIcon: ""
+  DiscoveryRadius: 50.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: myrddin_53011_discovered
+  ChartedAchievement: myrddin_53011_charted
+  POITag: myrddin_53011
+  AudioGroup: POI_State
+  AudioState: ""
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Myrddin's Prison
+  VitalsCategory: ""
+  LevelRange: null
+  Containers: ""
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_outpostRush_grove.png
+  GameMode: ""
+  GroupSize: null
+  RecommendedLevel: null
+  IsCollapsible: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 53012.0
+  NameLocalizationKey: "@ui_poi_npchub_53012"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine_bg.dds
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\spirit_shrine_charted.dds"
+  DiscoveryRadius: 150.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: npchub_53012_discovered
+  ChartedAchievement: npchub_53012_charted
+  POITag: npchub_53012
+  AudioGroup: POI_State
+  AudioState: ""
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Inishglory Camp
+  VitalsCategory: ""
+  LevelRange: null
+  Containers: ""
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_fortress8.png
+  GameMode: ""
+  GroupSize: null
+  RecommendedLevel: null
+  IsCollapsible: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 53013.0
+  NameLocalizationKey: "@ui_poi_ritualsite_53013"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\outpost.png"
+  CompassIcon: ""
+  DiscoveryRadius: 150.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ritualsite_53013_discovered
+  ChartedAchievement: ritualsite_53013_charted
+  POITag: ritualsite_53013
+  AudioGroup: POI_State
+  AudioState: ""
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Site of Renewal
+  VitalsCategory: ""
+  LevelRange: null
+  Containers: ""
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_outpostRush_grove.png
+  GameMode: ""
+  GroupSize: null
+  RecommendedLevel: null
+  IsCollapsible: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 53014.0
+  NameLocalizationKey: "@ui_poi_ancientruins_53014"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/angryearth_ruins.png
+  CompassIcon: ""
+  DiscoveryRadius: 150.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ancientruins_53014_discovered
+  ChartedAchievement: ancientruins_53014_charted
+  POITag: ancientruins_53014
+  AudioGroup: POI_State
+  AudioState: ""
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: ""
+  VitalsCategory: ""
+  LevelRange: null
+  Containers: ""
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_outpostRush_grove.png
+  GameMode: ""
+  GroupSize: null
+  RecommendedLevel: null
+  IsCollapsible: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 53015.0
+  NameLocalizationKey: "@ui_poi_spiritshrine_53015"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine_bg.dds
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\spirit_shrine_charted.dds"
+  DiscoveryRadius: 150.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: spiritshrine_53015_charted
+  POITag: spiritshrine_53015,fasttravel
+  AudioGroup: POI_State
+  AudioState: watchtower
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Spirit Shrine
+  VitalsCategory: ""
+  LevelRange: null
+  Containers: ""
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_spiritshrine.png
+  GameMode: ""
+  GroupSize: null
+  RecommendedLevel: null
+  IsCollapsible: null
+  UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
+  EventId: ""
+- TerritoryID: 53016.0
+  NameLocalizationKey: "@ui_poi_malevarena_53016"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\angryearth_spriggan_elite.png"
+  CompassIcon: ""
+  DiscoveryRadius: 150.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: GenMal,AngryEarth,EPOI
+  DiscoveredAchievement: malevarena_53016_discovered
+  ChartedAchievement: malevarena_53016_charted
+  POITag: malevarena_53016,elite
+  AudioGroup: POI_State
+  AudioState: ""
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Nature's Scrutiny
+  VitalsCategory: ""
+  LevelRange: null
+  Containers: ""
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/POI/mapTooltip_Elite_MalevolenceArena.png
+  GameMode: ""
+  GroupSize: 3.0
+  RecommendedLevel: 66.0
+  IsCollapsible: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 53017.0
+  NameLocalizationKey: "@Edengrove_Tower_01"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: ""
+  CompassIcon: LyShineUI/Images/Map/Icon/POIs/InfluenceTower_Active.dds
+  DiscoveryRadius: 225.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: Edengrove_Tower_01_50317_charted
+  POITag: Mourningdale_Tower_01
+  AudioGroup: POI_State
+  AudioState: factionarea
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Mourningdale_Tower_01
+  VitalsCategory: ""
+  LevelRange: null
+  Containers: ""
+  TooltipBackground: ""
+  GameMode: ""
+  GroupSize: null
+  RecommendedLevel: null
+  IsCollapsible: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 53018.0
+  NameLocalizationKey: "@Edengrove_Tower_02"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: ""
+  CompassIcon: LyShineUI/Images/Map/Icon/POIs/InfluenceTower_Active.dds
+  DiscoveryRadius: 225.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: Edengrove_Tower_02_50318_charted
+  POITag: Mourningdale_Tower_02
+  AudioGroup: POI_State
+  AudioState: factionarea
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Mourningdale_Tower_02
+  VitalsCategory: ""
+  LevelRange: null
+  Containers: ""
+  TooltipBackground: ""
+  GameMode: ""
+  GroupSize: null
+  RecommendedLevel: null
+  IsCollapsible: null
+  UnchartedIcon: ""
   EventId: ""

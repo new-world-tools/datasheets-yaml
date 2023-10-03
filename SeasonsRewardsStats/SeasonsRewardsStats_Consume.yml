@@ -1,6 +1,6 @@
 - TrackedStatID: ConsumeT5Item
   StatType: Consume
-  Target: ""
+  TargetID: ""
   ItemTier: 5.0
   ItemClass: ""
   TradingCategories: ""
@@ -8,7 +8,7 @@
   TradingGroups: ""
 - TrackedStatID: ConsumeT5Coating
   StatType: Consume
-  Target: ""
+  TargetID: ""
   ItemTier: 5.0
   ItemClass: WeaponOil
   TradingCategories: ""
@@ -16,7 +16,7 @@
   TradingGroups: ""
 - TrackedStatID: ConsumeT5TradeskillConsumable
   StatType: Consume
-  Target: ""
+  TargetID: ""
   ItemTier: 5.0
   ItemClass: Consumable
   TradingCategories: ""
@@ -24,9 +24,17 @@
   TradingGroups: CraftingConsumables
 - TrackedStatID: ConsumeT5ResistanceConsumable
   StatType: Consume
-  Target: ""
+  TargetID: ""
   ItemTier: 5.0
   ItemClass: Consumable
   TradingCategories: ""
   TradingFamilies: ""
   TradingGroups: PotionElemDefense,PotionWellness,PotionPurifyB
+- TrackedStatID: ConsumeMountBuff
+  StatType: Consume
+  TargetID: MountConsum_GruelT3,MountConsum_GruelT2,MountConsum_GruelT1,MountConsum_GruelT0
+  ItemTier: null
+  ItemClass: ""
+  TradingCategories: ""
+  TradingFamilies: ""
+  TradingGroups: ""

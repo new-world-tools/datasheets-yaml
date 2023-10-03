@@ -84,6 +84,7 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
 - SpellID: VoidGauntlet_Heavy_Projectile
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -170,6 +171,7 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
 - SpellID: VoidGauntlet_VoidBlade
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -256,6 +258,7 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
 - SpellID: VoidGauntlet_NullChamber_AoE
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -331,8 +334,8 @@
   CharRelRotOffsetZ: ""
   ProjRaycastOrientation: ""
   BaseDamage: ""
-  DamageTable: ""
-  DamageTableRow: ""
+  DamageTable: DamageTable
+  DamageTableRow: VoidGauntlet_Oblivion
   AbilityId: ""
   TargetAbilityCondition: ""
   BeamEffect: ""
@@ -342,6 +345,7 @@
   SecondarySpellID: VoidGauntlet_NullChamber_DoT
   TertiaryPrefabPath: ""
   TertiarySpellID: VoidGauntlet_NullChamber_Empower
+  TrackableByOwner: true
 - SpellID: VoidGauntlet_NullChamber_AoE_BonusStamina
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -417,8 +421,8 @@
   CharRelRotOffsetZ: ""
   ProjRaycastOrientation: ""
   BaseDamage: ""
-  DamageTable: ""
-  DamageTableRow: ""
+  DamageTable: DamageTable
+  DamageTableRow: VoidGauntlet_Oblivion
   AbilityId: ""
   TargetAbilityCondition: ""
   BeamEffect: ""
@@ -428,6 +432,7 @@
   SecondarySpellID: VoidGauntlet_NullChamber_DoT
   TertiaryPrefabPath: ""
   TertiarySpellID: VoidGauntlet_NullChamber_Empower_BonusStamina
+  TrackableByOwner: true
 - SpellID: VoidGauntlet_NullChamber_DoT
   StatusEffects: VoidGauntlet_NullChamber_DoT
   StatusEffectDurations: ""
@@ -503,8 +508,8 @@
   CharRelRotOffsetZ: ""
   ProjRaycastOrientation: ""
   BaseDamage: ""
-  DamageTable: ""
-  DamageTableRow: ""
+  DamageTable: DamageTable
+  DamageTableRow: VoidGauntlet_Oblivion
   AbilityId: ""
   TargetAbilityCondition: ""
   BeamEffect: ""
@@ -514,6 +519,7 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
 - SpellID: VoidGauntlet_NullChamber_Empower
   StatusEffects: VoidGauntlet_NullChamber_Empower
   StatusEffectDurations: ""
@@ -600,6 +606,7 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
 - SpellID: VoidGauntlet_NullChamber_Empower_BonusStamina
   StatusEffects: VoidGauntlet_NullChamber_Empower,VoidGauntlet_NullChamber_BonusStamina
   StatusEffectDurations: ""
@@ -686,6 +693,7 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
 - SpellID: VoidGauntlet_NullChamber_Nullify_AoE
   StatusEffects: VoidGauntlet_NullChamber_Nullify_AoE
   StatusEffectDurations: ""
@@ -761,8 +769,8 @@
   CharRelRotOffsetZ: ""
   ProjRaycastOrientation: ""
   BaseDamage: ""
-  DamageTable: ""
-  DamageTableRow: ""
+  DamageTable: DamageTable
+  DamageTableRow: VoidGauntlet_Oblivion
   AbilityId: ""
   TargetAbilityCondition: ""
   BeamEffect: ""
@@ -772,6 +780,7 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
 - SpellID: VoidGauntlet_Scream
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -858,6 +867,7 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
 - SpellID: VoidGauntlet_DecayingOrb
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -944,6 +954,7 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: true
 - SpellID: VoidGauntlet_DecayingOrb_Heal
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -1030,6 +1041,7 @@
   SecondarySpellID: VoidGauntlet_DecayingOrb_Heal_AoE
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: true
 - SpellID: VoidGauntlet_DecayingOrb_Heal_AoE
   StatusEffects: VoidGauntlet_DecayingOrb_Heal
   StatusEffectDurations: ""
@@ -1116,6 +1128,7 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: true
 - SpellID: VoidGauntlet_DecayingOrb_Detonate_Damage_AoE
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -1202,6 +1215,7 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: true
 - SpellID: VoidGauntlet_DecayingOrb_Detonate_Heal_AoE
   StatusEffects: VoidGauntlet_DecayingOrb_Detonate_Heal
   StatusEffectDurations: ""
@@ -1288,6 +1302,7 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: true
 - SpellID: VoidGauntlet_DrainingTether_Projectile
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -1374,6 +1389,7 @@
   SecondarySpellID: VoidGauntlet_DrainingTether
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
 - SpellID: VoidGauntlet_DrainingTether
   StatusEffects: VoidGauntlet_DrainingTether_Weaken
   StatusEffectDurations: ""
@@ -1460,6 +1476,7 @@
   SecondarySpellID: VoidGauntlet_DrainingTether_AoE
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
 - SpellID: VoidGauntlet_DrainingTether_AoE
   StatusEffects: VoidGauntlet_DrainingTether_Empower
   StatusEffectDurations: ""
@@ -1546,6 +1563,7 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
 - SpellID: VoidGauntlet_EssenceRupture_Projectile
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -1632,6 +1650,7 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
 - SpellID: VoidGauntlet_EssenceRupture_Stamina_Projectile
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -1718,6 +1737,7 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
 - SpellID: VoidGauntlet_EssenceRupture_AoE_OnEnd_Projectile
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -1804,6 +1824,7 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
 - SpellID: VoidGauntlet_EssenceRupture_Heal_AoE
   StatusEffects: VoidGauntlet_EssenceRupture_AoE_Heal
   StatusEffectDurations: ""
@@ -1890,6 +1911,7 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
 - SpellID: VoidGauntlet_EmpowerCloseRange_Detection
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -1976,6 +1998,7 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
 - SpellID: VoidGauntlet_SiphonAura_AoE
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -2062,6 +2085,7 @@
   SecondarySpellID: VoidGauntlet_SiphonAura_DoT
   TertiaryPrefabPath: ""
   TertiarySpellID: VoidGauntlet_SiphonAura_Heal
+  TrackableByOwner: true
 - SpellID: VoidGauntlet_SiphonAura_DoT
   StatusEffects: VoidGauntlet_SiphonAura_DoT
   StatusEffectDurations: ""
@@ -2148,6 +2172,7 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
 - SpellID: VoidGauntlet_SiphonAura_Heal
   StatusEffects: VoidGauntlet_SiphonAura_Heal
   StatusEffectDurations: ""
@@ -2234,3 +2259,4 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null

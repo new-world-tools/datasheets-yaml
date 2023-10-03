@@ -449,7 +449,7 @@
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
   SubTask1: 06A_MSQ_03_VisitMarket_simplecontainer
-  SubTask2: 06A_MSQ_03_VisitMarket_whisper_container
+  SubTask2: 06A_MSQ_03_VisitMarket_trigger_whispers
   SubTask3: 06A_MSQ_03_VisitMarket_swap_container
   SubTask4: ""
   SubTask5: ""
@@ -713,12 +713,12 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 06A_MSQ_03_VisitMarket_whisper_container
-  Type: SimpleTaskContainer
+- TaskID: 06A_MSQ_03_VisitMarket_trigger_whispers
+  Type: TaskTriggerGameEvent
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: ""
-  TargetQty: null
+  TargetQty: 1.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
@@ -736,136 +736,6 @@
   CraftingRecipeId: ""
   CraftAnyRecipe: ""
   InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: ""
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: null
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: "@06A_MSQ_03_VisitMarket_trigger_whispers"
-  TargetDescriptionTaskId: ""
-  OverrideLocation: 9318.0 2658.0 84.35
-  IsHidden: null
-  HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
-  DiegeticPinZOverride: ""
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: null
-  SubTask1: 06A_MSQ_03_VisitMarket_unlock_whispers
-  SubTask2: 06A_MSQ_03_VisitMarket_trigger_whispers
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 06A_MSQ_03_VisitMarket_unlock_whispers
-  Type: TaskUnlockAchievement
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: ""
-  TargetQty: 1.0
-  ItemName: 06A_WW_whisper_01_unlock
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: null
-  EnforceLocationRequirement: null
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: null
-  ShouldCheckPoints: ""
-  GuranteedDropAttempts: null
-  TargetThreshold: null
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: ""
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: null
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: 1.0
-  HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
-  DiegeticPinZOverride: ""
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: null
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 06A_MSQ_03_VisitMarket_trigger_whispers
-  Type: TaskGameEvent
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: ""
-  TargetQty: 1.0
-  ItemName: 06A_WW_whisper_01
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: null
-  EnforceLocationRequirement: null
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: null
-  ShouldCheckPoints: ""
-  GuranteedDropAttempts: null
-  TargetThreshold: null
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: IO_06A_WW_whisper_01
   UIScreenTag: ""
   TriggerAreaType: ""
   KillEnemyType: 06A_WW_whisper_01_interact
@@ -970,7 +840,7 @@
   OnInteractStart: null
   SubTask1: 06A_MSQ_03_VisitMarket_swapMarcel01Off
   SubTask2: 06A_MSQ_03_VisitMarket_swapMarcel02On
-  SubTask3: 06A_MSQ_03_VisitMarket_lock_whispers
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
 - TaskID: 06A_MSQ_03_VisitMarket_swapMarcel01Off
@@ -1045,71 +915,6 @@
   RequiredLevel: ""
   TargetQty: 1.0
   ItemName: SwapActive_06_MarcelDupont_B
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: null
-  EnforceLocationRequirement: null
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: null
-  ShouldCheckPoints: ""
-  GuranteedDropAttempts: null
-  TargetThreshold: null
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: ""
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: null
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: 1.0
-  HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
-  DiegeticPinZOverride: ""
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: null
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 06A_MSQ_03_VisitMarket_lock_whispers
-  Type: TaskLockAchievement
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: ""
-  TargetQty: 1.0
-  ItemName: 06A_WW_whisper_01_unlock
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -6688,278 +6493,18 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
-  SubTask1: 06A_MSQ_10_TalkToSpeaker_whisper_container
-  SubTask2: 06A_MSQ_10_TalkToSpeaker_talk_container
-  SubTask3: 06A_MSQ_10_TalkToSpeaker_swapGrace_container
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 06A_MSQ_10_TalkToSpeaker_whisper_container
-  Type: SimpleTaskContainer
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: ""
-  TargetQty: null
-  ItemName: ""
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: null
-  EnforceLocationRequirement: null
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: null
-  ShouldCheckPoints: ""
-  GuranteedDropAttempts: null
-  TargetThreshold: null
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: ""
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: null
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: 1.0
-  HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
-  DiegeticPinZOverride: ""
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: null
-  SubTask1: 06A_MSQ_10_TalkToSpeaker_unlock_whispers
-  SubTask2: 06A_MSQ_10_TalkToSpeaker_whisper_resetCheck
-  SubTask3: 06A_MSQ_10_TalkToSpeaker_swap_container
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 06A_MSQ_10_TalkToSpeaker_unlock_whispers
-  Type: TaskUnlockAchievement
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: ""
-  TargetQty: 1.0
-  ItemName: 06A_WW_whisper_02_unlock
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: null
-  EnforceLocationRequirement: null
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: null
-  ShouldCheckPoints: ""
-  GuranteedDropAttempts: null
-  TargetThreshold: null
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: ""
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: null
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: 1.0
-  HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
-  DiegeticPinZOverride: ""
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: null
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 06A_MSQ_10_TalkToSpeaker_whisper_resetCheck
-  Type: PartialTaskContainer
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: ""
-  TargetQty: null
-  ItemName: ""
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: null
-  EnforceLocationRequirement: null
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: null
-  ShouldCheckPoints: ""
-  GuranteedDropAttempts: null
-  TargetThreshold: null
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: ""
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: null
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: 1.0
-  HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
-  DiegeticPinZOverride: ""
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: null
-  SubTask1: 06A_MSQ_10_TalkToSpeaker_whisperCheck
-  SubTask2: 06A_MSQ_10_TalkToSpeaker_trigger_whispers
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 06A_MSQ_10_TalkToSpeaker_whisperCheck
-  Type: TaskAchievement
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: ""
-  TargetQty: 1.0
-  ItemName: 06A_WW_whisper_02
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: null
-  EnforceLocationRequirement: null
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: null
-  ShouldCheckPoints: ""
-  GuranteedDropAttempts: null
-  TargetThreshold: null
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: ""
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: null
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: 1.0
-  HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
-  DiegeticPinZOverride: ""
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: null
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
+  SubTask1: 06A_MSQ_10_TalkToSpeaker_trigger_whispers
+  SubTask2: 06A_MSQ_10_TalkToSpeaker_swap_container
+  SubTask3: 06A_MSQ_10_TalkToSpeaker_talk_container
+  SubTask4: 06A_MSQ_10_TalkToSpeaker_swapGrace_container
   SubTask5: ""
 - TaskID: 06A_MSQ_10_TalkToSpeaker_trigger_whispers
-  Type: TaskGameEvent
+  Type: TaskTriggerGameEvent
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: ""
   TargetQty: 1.0
-  ItemName: 06A_WW_whisper_02
+  ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -6975,7 +6520,7 @@
   TargetThreshold: null
   CraftingRecipeId: ""
   CraftAnyRecipe: ""
-  InteractTag: IO_06A_WW_whisper_02
+  InteractTag: ""
   UIScreenTag: ""
   TriggerAreaType: ""
   KillEnemyType: 06A_WW_whisper_02_interact
@@ -7001,7 +6546,7 @@
   TP_DescriptionTag: "@06A_MSQ_10_TalkToSpeaker_talk_Francis"
   TargetDescriptionTaskId: ""
   OverrideLocation: 9376.73 2773.09 89.20
-  IsHidden: null
+  IsHidden: 1.0
   HideDiegeticGatherablePins: true
   ShowDiegeticTaskPin: null
   DiegeticPinZOverride: ""
@@ -7470,7 +7015,7 @@
   OnInteractStart: null
   SubTask1: 06A_MSQ_10_TalkToSpeaker_swapGrace01Off
   SubTask2: 06A_MSQ_10_TalkToSpeaker_swapGrace02On
-  SubTask3: 06A_MSQ_10_TalkToSpeaker_lock_whispers
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
 - TaskID: 06A_MSQ_10_TalkToSpeaker_swapGrace01Off
@@ -7545,71 +7090,6 @@
   RequiredLevel: ""
   TargetQty: 1.0
   ItemName: SwapActive_06_GraceWW_B
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: null
-  EnforceLocationRequirement: null
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: null
-  ShouldCheckPoints: ""
-  GuranteedDropAttempts: null
-  TargetThreshold: null
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: ""
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: null
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: 1.0
-  HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
-  DiegeticPinZOverride: ""
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: null
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 06A_MSQ_10_TalkToSpeaker_lock_whispers
-  Type: TaskLockAchievement
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: ""
-  TargetQty: 1.0
-  ItemName: 06A_WW_whisper_02_unlock
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -9615,7 +9095,7 @@
   OnInteractStart: null
   SubTask1: 06A_MSQ_13_ReturnMiradorJewel_goto_ruins
   SubTask2: 06A_MSQ_13_ReturnMiradorJewel_swap_container
-  SubTask3: 06A_MSQ_13_ReturnMiradorJewel_whisper_container
+  SubTask3: 06A_MSQ_13_ReturnMiradorJewel_trigger_whispers
   SubTask4: 06A_MSQ_13_ReturnMiradorJewel_fullpuzzle_container
   SubTask5: 06A_MSQ_13_ReturnMiradorJewel_talk_Nessa
 - TaskID: 06A_MSQ_13_ReturnMiradorJewel_goto_ruins
@@ -10008,147 +9488,17 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 06A_MSQ_13_ReturnMiradorJewel_whisper_container
-  Type: SimpleTaskContainer
+- TaskID: 06A_MSQ_13_ReturnMiradorJewel_trigger_whispers
+  Type: TaskTriggerGameEvent
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: ""
-  TargetQty: null
+  TargetQty: 1.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
   EnforceLocationRequirement: null
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: null
-  ShouldCheckPoints: ""
-  GuranteedDropAttempts: null
-  TargetThreshold: null
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: ""
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: null
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: 1.0
-  HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
-  DiegeticPinZOverride: ""
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: null
-  SubTask1: 06A_MSQ_13_ReturnMiradorJewel_unlock_whispers
-  SubTask2: 06A_MSQ_13_ReturnMiradorJewel_trigger_whispers
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 06A_MSQ_13_ReturnMiradorJewel_unlock_whispers
-  Type: TaskUnlockAchievement
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: ""
-  TargetQty: 1.0
-  ItemName: 06A_WW_whisper_03_unlock
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: null
-  EnforceLocationRequirement: null
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: null
-  ShouldCheckPoints: ""
-  GuranteedDropAttempts: null
-  TargetThreshold: null
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: ""
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: null
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: 1.0
-  HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
-  DiegeticPinZOverride: ""
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: null
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 06A_MSQ_13_ReturnMiradorJewel_trigger_whispers
-  Type: TaskGameEvent
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: ""
-  TargetQty: 1.0
-  ItemName: 06A_WW_whisper_03
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: null
-  EnforceLocationRequirement: true
   TerritoryID: ""
   POITag: ancient_ruins_40153
   GameModeID: ""
@@ -10160,7 +9510,7 @@
   TargetThreshold: null
   CraftingRecipeId: ""
   CraftAnyRecipe: ""
-  InteractTag: IO_06A_WW_whisper_03
+  InteractTag: ""
   UIScreenTag: ""
   TriggerAreaType: ""
   KillEnemyType: 06A_WW_whisper_03_interact
@@ -10266,7 +9616,7 @@
   SubTask1: 06A_MSQ_13_ReturnMiradorJewel_interact_jewel
   SubTask2: 06A_MSQ_13_ReturnMiradorJewel_partial_container
   SubTask3: 06A_MSQ_13_ReturnMiradorJewel_unlock_beams
-  SubTask4: 06A_MSQ_13_ReturnMiradorJewel_lock_whispers
+  SubTask4: ""
   SubTask5: ""
 - TaskID: 06A_MSQ_13_ReturnMiradorJewel_interact_jewel
   Type: TaskGameEvent
@@ -10730,71 +10080,6 @@
   RequiredLevel: ""
   TargetQty: 1.0
   ItemName: MiradorPuzzleActivated
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: null
-  EnforceLocationRequirement: null
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: null
-  ShouldCheckPoints: ""
-  GuranteedDropAttempts: null
-  TargetThreshold: null
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: ""
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: null
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: 1.0
-  HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
-  DiegeticPinZOverride: ""
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: null
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 06A_MSQ_13_ReturnMiradorJewel_lock_whispers
-  Type: TaskLockAchievement
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: ""
-  TargetQty: 1.0
-  ItemName: 06A_WW_whisper_03_unlock
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
