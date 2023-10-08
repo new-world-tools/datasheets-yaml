@@ -40565,10 +40565,10 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
-  SubTask1: 09A_S4_LockLureAchievementStart
-  SubTask2: 09A_S4_LockBarrel1Start
-  SubTask3: 09A_S4_LockBarrel2Start
-  SubTask4: 09A_S4_Container01
+  SubTask1: 09A_S4_LockBarrel1Start
+  SubTask2: 09A_S4_LockBarrel2Start
+  SubTask3: 09A_S4_Container01
+  SubTask4: ""
   SubTask5: ""
 - TaskID: 09A_S4_LockLureAchievementStart
   Type: TaskLockAchievement
@@ -40804,7 +40804,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@09A_S4_Container01"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 8959.3818 1030.0551 77.027
+  OverrideLocation: ""
   IsHidden: ""
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: null
@@ -42015,7 +42015,7 @@
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
   SubTask1: 09A_S4_PlaceLure
-  SubTask2: 09A_S4_UnlockLureAchievement
+  SubTask2: ""
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
@@ -42064,7 +42064,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
-  OverrideLocation: 8960.6914 1029.0607 76.8387
+  OverrideLocation: 8960.6914 1029.0607 77.027
   IsHidden: "1"
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: true
@@ -42203,11 +42203,11 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
-  SubTask1: 09A_S4_Escape
-  SubTask2: 09A_S4_WaitForAngryEarth
-  SubTask3: 09A_S4_Detonate
-  SubTask4: 09A_S4_LockLureAchievement
-  SubTask5: 09A_S4_LockBarrel1
+  SubTask1: 09A_S4_Detonate
+  SubTask2: 09A_S4_LockBarrel1
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
 - TaskID: 09A_S4_Escape
   Type: TaskTriggerArea
   FailOnCondition: ""
@@ -42379,7 +42379,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@09A_S4_Detonate"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 8974.893555 1061.607056 74.775299
+  OverrideLocation: 8974.8389 1061.5779 74.8137
   IsHidden: ""
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: true
@@ -44206,7 +44206,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@09A_S6_MEInteractable"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 9536.8867 229.5916 40.3283
+  OverrideLocation: 9556.8135 258.4576 40.8097
   IsHidden: ""
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: true

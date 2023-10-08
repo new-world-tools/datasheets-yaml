@@ -4334,8 +4334,8 @@
   GatheringFragment: ""
   FinalLootTable: Empty
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 120.0
-  MaxRespawnRate: 120.0
+  MinRespawnRate: 86400.0
+  MaxRespawnRate: 86400.0
   Tradeskill: None
   RequiredTradeskillLevel: null
   DepletedGatherableID: ""
@@ -4349,7 +4349,7 @@
   RequiredSongId: ""
   SongRewardId: ""
   ResetGatherTimeOnEndInteraction: true
-  IsLootContainer: false
+  IsLootContainer: true
   IsDynamicPoiTarget: ""
   RequireLootItems: ""
   IconTypeUnlock: ""
@@ -4466,7 +4466,7 @@
   RequiredSongId: ""
   SongRewardId: ""
   ResetGatherTimeOnEndInteraction: true
-  IsLootContainer: false
+  IsLootContainer: true
   IsDynamicPoiTarget: ""
   RequireLootItems: ""
   IconTypeUnlock: ""
@@ -4880,8 +4880,8 @@
   GatheringFragment: ""
   FinalLootTable: Empty
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 86400.0
-  MaxRespawnRate: 86400.0
+  MinRespawnRate: 60.0
+  MaxRespawnRate: 60.0
   Tradeskill: None
   RequiredTradeskillLevel: null
   DepletedGatherableID: ""
