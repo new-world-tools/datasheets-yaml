@@ -2460,10 +2460,10 @@
   IsNegative: null
   RespecTradeskills: ""
   RespecAttributes: ""
-  EffectDurationMods: CC=-1.0+Stun=-1.0+Root=-1.0+Slow=-1.0
-  EffectPotencyMods: CC=-1.0+Stun=-1.0+Root=-1.0+Slow=-1.0
+  EffectDurationMods: CC=-1.0
+  EffectPotencyMods: CC=-1.0
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: CC+Stun+Root+Slow
+  RemoveStatusEffectCategories: CC
   GlobalRollMod: ""
   LootTags: ""
   FishingLineStrength: ""
@@ -4193,7 +4193,7 @@
 - StatusID: Status_Flail_Charge_FortifyOnHit
   DisplayName: "@Status_Fortify"
   Description: "@Status_Fortify_description"
-  EffectCategories: NonDispellableBuff+ArmorFortify
+  EffectCategories: Buff+ArmorFortify
   PlaceholderIcon: lyshineui/images/status/SE_FortifyT1.png
   ShowInUITray: true
   ShowTextInDamageNumbers: false
@@ -4717,7 +4717,7 @@
 - StatusID: Status_Flail_Charge_Fortify
   DisplayName: "@Status_Fortify"
   Description: "@Status_Fortify_description"
-  EffectCategories: NonDispellableBuff+ArmorFortify
+  EffectCategories: Buff+ArmorFortify
   PlaceholderIcon: lyshineui/images/status/SE_FortifyT2.png
   ShowInUITray: true
   ShowTextInDamageNumbers: false

@@ -1145,12 +1145,12 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: ""
-  SubTask1: 9401_RecipieContainer
+  SubTask1: 9401_RecipeContainer
   SubTask2: 9401_TaskPartialContainer
   SubTask3: 9401_FeedingTask
-  SubTask4: 9401_HasFed_Checkpoint
+  SubTask4: ""
   SubTask5: ""
-- TaskID: 9401_RecipieContainer
+- TaskID: 9401_RecipeContainer
   Type: SimpleTaskContainer
   FailOnCondition: null
   StayActive: null
@@ -1529,8 +1529,72 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: ""
-  SubTask1: 9401_CraftMountConsumable
-  SubTask2: 9401_CraftMountConsumableB
+  SubTask1: 9401_FeedCheck_A
+  SubTask2: 9401_CraftMountConsumable
+  SubTask3: 9401_CraftMountConsumableB
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 9401_FeedCheck_A
+  Type: TaskAchievement
+  FailOnCondition: null
+  StayActive: null
+  TargetQty: 1.0
+  ItemName: 9401_Fed_Horse
+  ItemDropVC: ""
+  ItemDropProbability: ""
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
@@ -1599,7 +1663,7 @@
   SubTask4: ""
   SubTask5: ""
 - TaskID: 9401_CraftMountConsumableB
-  Type: TaskHaveItem
+  Type: TaskHaveItems
   FailOnCondition: null
   StayActive: null
   TargetQty: 1.0
@@ -1722,7 +1786,7 @@
   TriggerAnalyticsEvent: ""
   OnInteractStart: ""
   SubTask1: 9401_FeedMount
-  SubTask2: 9401_FeedCheck
+  SubTask2: 9401_FeedCheck_B
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
@@ -1790,7 +1854,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 9401_FeedCheck
+- TaskID: 9401_FeedCheck_B
   Type: TaskAchievement
   FailOnCondition: null
   StayActive: null
