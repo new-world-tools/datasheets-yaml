@@ -975,7 +975,7 @@
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
-  ResetConsecutiveOnSuccess: true
+  ResetConsecutiveOnSuccess: null
   TrackHitCount: false
   MaxTrackedHitCounts: 0.0
   NumberOfTrackedHits: null
@@ -1009,11 +1009,11 @@
   NumAroundComparisonType: ""
   AbilityList: ""
   AbilityTrigger: ""
-  InAction: Ability_Rapier_Flurry
-  InActionTime: 0.1
+  InAction: ""
+  InActionTime: null
   AfterAction: ""
-  InSequence: Ability_Rapier_Flurry
-  InSequenceTime: 0.1
+  InSequence: ""
+  InSequenceTime: null
   AfterSequence: ""
   BaseDamage: null
   BaseDamageReduction: ""
@@ -1060,7 +1060,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: 0.005
+  ActivationCooldown: 0.1
   Duration: null
   CooldownId: Ability_Rapier_Flurry
   CDRImmediatelyOptions: AbilitySpecific

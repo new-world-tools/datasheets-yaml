@@ -15,7 +15,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -80,7 +80,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -145,7 +145,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -210,7 +210,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -253,10 +253,75 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
-  SubTask1: 12A_MSQ_02_InnTutorial_Update_Container
-  SubTask2: 12A_MSQ_02_InnTutorial_PayneSwap
-  SubTask3: 12A_MSQ_02_InnTutorial_PayneSwap02
-  SubTask4: 12A_MSQ_02_InnTutorial_UnlockTradingPost
+  SubTask1: 12A_MSQ_02_InnTutorial_UnlockTradingPost
+  SubTask2: 12A_MSQ_02_InnTutorial_Update_Container
+  SubTask3: 12A_MSQ_02_InnTutorial_PayneSwap
+  SubTask4: 12A_MSQ_02_InnTutorial_PayneSwap02
+  SubTask5: ""
+- TaskID: 12A_MSQ_02_InnTutorial_UnlockTradingPost
+  Type: TaskUnlockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: S_hearthhome
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: true
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: ""
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
   SubTask5: ""
 - TaskID: 12A_MSQ_02_InnTutorial_Update_Container
   Type: SimpleTaskContainer
@@ -275,7 +340,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -340,7 +405,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -405,7 +470,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -470,7 +535,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -535,7 +600,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -600,7 +665,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -665,7 +730,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -730,7 +795,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -795,72 +860,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
-  GuranteedDropAttempts: null
-  TargetThreshold: ""
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: ""
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: ""
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: 1.0
-  HideDiegeticGatherablePins: ""
-  ShowDiegeticTaskPin: ""
-  DiegeticPinZOverride: ""
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: null
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 12A_MSQ_02_InnTutorial_UnlockTradingPost
-  Type: TaskUnlockAchievement
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: ""
-  TargetQty: 1.0
-  ItemName: S_hearthhome
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: null
-  EnforceLocationRequirement: null
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -925,7 +925,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -990,7 +990,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -1055,7 +1055,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -1120,7 +1120,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -1185,7 +1185,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -1250,7 +1250,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -1315,7 +1315,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -1380,7 +1380,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -1445,7 +1445,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -1510,7 +1510,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -1575,7 +1575,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -1640,7 +1640,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -1705,7 +1705,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -1770,7 +1770,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -1835,7 +1835,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -1900,7 +1900,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -1965,7 +1965,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -2030,7 +2030,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -2095,7 +2095,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -2160,7 +2160,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -2225,7 +2225,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -2290,7 +2290,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -2355,7 +2355,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -2420,7 +2420,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -2485,7 +2485,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -2550,7 +2550,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -2615,7 +2615,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -2680,7 +2680,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -2745,7 +2745,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -2810,7 +2810,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -2875,7 +2875,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -2940,7 +2940,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -3005,7 +3005,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -3070,7 +3070,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -3135,7 +3135,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -3200,7 +3200,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -3265,7 +3265,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -3330,7 +3330,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -3395,7 +3395,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -3460,7 +3460,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -3525,7 +3525,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -3590,7 +3590,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -3655,7 +3655,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -3720,7 +3720,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -3785,7 +3785,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -3850,7 +3850,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -3915,7 +3915,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -3980,7 +3980,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -4045,7 +4045,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -4110,7 +4110,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -4175,7 +4175,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -4240,7 +4240,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -4305,7 +4305,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -4370,7 +4370,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -4435,7 +4435,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -4500,7 +4500,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -4565,7 +4565,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -4630,7 +4630,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -4695,7 +4695,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -4760,7 +4760,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -4825,7 +4825,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -4890,7 +4890,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -4955,7 +4955,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -5020,7 +5020,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -5085,7 +5085,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -5150,7 +5150,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -5215,7 +5215,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -5280,7 +5280,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -5345,7 +5345,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -5410,7 +5410,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -5475,7 +5475,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -5540,7 +5540,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -5605,7 +5605,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -5670,7 +5670,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -5735,7 +5735,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -5800,7 +5800,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -5865,7 +5865,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -5930,7 +5930,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -5995,7 +5995,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -6060,7 +6060,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -6125,7 +6125,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -6190,7 +6190,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -6255,7 +6255,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -6320,7 +6320,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -6385,7 +6385,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -6450,7 +6450,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -6515,7 +6515,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -6580,7 +6580,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -6645,7 +6645,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -6710,7 +6710,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -6775,7 +6775,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -6840,7 +6840,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -6905,7 +6905,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -6970,7 +6970,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -7035,7 +7035,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -7100,7 +7100,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -7165,7 +7165,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -7230,7 +7230,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -7295,7 +7295,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -7360,7 +7360,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -7425,7 +7425,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -7490,7 +7490,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -7555,7 +7555,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -7620,7 +7620,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -7685,7 +7685,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -7750,7 +7750,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -7815,7 +7815,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -7880,7 +7880,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -7945,7 +7945,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -8010,7 +8010,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -8075,7 +8075,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -8140,7 +8140,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -8205,7 +8205,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -8270,7 +8270,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -8335,7 +8335,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -8400,7 +8400,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -8465,7 +8465,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -8530,7 +8530,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -8595,7 +8595,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -8660,7 +8660,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -8725,7 +8725,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -8790,7 +8790,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -8855,7 +8855,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -8920,7 +8920,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -8985,7 +8985,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -9050,7 +9050,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -9115,7 +9115,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -9180,7 +9180,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -9245,7 +9245,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -9310,7 +9310,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -9375,7 +9375,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -9440,7 +9440,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -9505,7 +9505,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -9570,7 +9570,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -9635,7 +9635,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -9700,7 +9700,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -9765,7 +9765,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -9830,7 +9830,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -9895,7 +9895,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -9960,7 +9960,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -10025,7 +10025,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -10090,7 +10090,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -10155,7 +10155,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -10220,7 +10220,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -10285,7 +10285,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -10350,7 +10350,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -10415,7 +10415,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -10480,7 +10480,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -10545,7 +10545,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -10610,7 +10610,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -10675,7 +10675,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -10740,7 +10740,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -10805,7 +10805,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -10870,7 +10870,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -10935,7 +10935,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -11000,7 +11000,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -11065,7 +11065,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -11130,7 +11130,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -11195,7 +11195,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -11260,7 +11260,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -11325,7 +11325,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -11390,7 +11390,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -11455,7 +11455,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -11520,7 +11520,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -11585,7 +11585,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -11650,7 +11650,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -11715,7 +11715,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -11780,7 +11780,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -11845,7 +11845,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -11910,7 +11910,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -11975,7 +11975,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -12040,7 +12040,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -12105,7 +12105,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -12170,7 +12170,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -12235,7 +12235,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -12300,7 +12300,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -12365,7 +12365,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -12430,7 +12430,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -12495,7 +12495,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -12560,7 +12560,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -12625,7 +12625,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -12690,7 +12690,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -12755,7 +12755,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -12820,7 +12820,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: 10.0
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -12885,7 +12885,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -12950,7 +12950,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -13015,7 +13015,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -13080,7 +13080,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -13145,7 +13145,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -13210,7 +13210,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -13275,7 +13275,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -13340,7 +13340,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -13405,7 +13405,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -13470,7 +13470,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -13535,7 +13535,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -13600,7 +13600,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -13665,7 +13665,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -13730,7 +13730,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -13795,7 +13795,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -13860,7 +13860,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -13925,7 +13925,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -13990,7 +13990,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -14055,7 +14055,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -14120,7 +14120,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -14185,7 +14185,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -14250,7 +14250,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -14315,7 +14315,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -14380,7 +14380,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -14445,7 +14445,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -14510,7 +14510,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -14575,7 +14575,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -14640,7 +14640,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -14705,7 +14705,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -14770,7 +14770,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -14835,7 +14835,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -14900,7 +14900,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -14965,7 +14965,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -15030,7 +15030,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -15095,7 +15095,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -15160,7 +15160,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -15225,7 +15225,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -15290,7 +15290,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -15355,7 +15355,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -15420,7 +15420,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -15485,7 +15485,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -15550,7 +15550,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -15615,7 +15615,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -15680,7 +15680,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -15745,7 +15745,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -15810,7 +15810,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -15875,7 +15875,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -15940,7 +15940,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -16005,7 +16005,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -16070,7 +16070,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -16135,7 +16135,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -16200,7 +16200,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -16265,7 +16265,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -16330,7 +16330,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -16395,7 +16395,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -16460,7 +16460,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -16525,7 +16525,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -16590,7 +16590,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -16655,7 +16655,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -16720,7 +16720,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -16785,7 +16785,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -16850,7 +16850,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -16915,7 +16915,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -16980,7 +16980,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -17045,7 +17045,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -17110,7 +17110,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -17175,7 +17175,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -17240,7 +17240,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -17305,7 +17305,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -17370,7 +17370,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -17435,7 +17435,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -17500,7 +17500,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -17565,7 +17565,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -17630,7 +17630,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: true
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -17695,7 +17695,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -17760,7 +17760,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -17825,7 +17825,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: true
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -17890,7 +17890,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -17955,7 +17955,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -18020,7 +18020,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -18085,7 +18085,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -18150,7 +18150,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -18215,7 +18215,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -18280,7 +18280,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -18345,7 +18345,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -18410,7 +18410,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -18475,7 +18475,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -18540,7 +18540,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: true
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -18605,7 +18605,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -18670,7 +18670,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -18735,7 +18735,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -18800,7 +18800,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -18865,7 +18865,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -18930,7 +18930,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: Procedural_LongswordT2
@@ -18995,7 +18995,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -19060,7 +19060,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -19125,7 +19125,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -19190,7 +19190,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
