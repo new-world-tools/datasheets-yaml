@@ -8,7 +8,7 @@
   CanFastTravel: ""
   Task: 99B_MSQ_01_searchwalsham_container
   NpcDestinationId: 99B_Yonas_p2
-  ExclusiveTerritory: null
+  ExclusiveTerritory: ""
   AchievementId: 99B_MSQ_01
   RequiredAchievementId: 99_MSQ_22
   RequiredFaction: ""
@@ -49,7 +49,7 @@
   CanFastTravel: ""
   Task: 99B_MSQ_02_meetgalahad_container
   NpcDestinationId: 99B_Galahad_p2
-  ExclusiveTerritory: null
+  ExclusiveTerritory: ""
   AchievementId: 99B_MSQ_02
   RequiredAchievementId: 99B_MSQ_01
   RequiredFaction: ""
@@ -90,7 +90,7 @@
   CanFastTravel: ""
   Task: 99B_MSQ_03_lostvillages_container
   NpcDestinationId: 99B_Yonas_p5
-  ExclusiveTerritory: null
+  ExclusiveTerritory: ""
   AchievementId: 99B_MSQ_03
   RequiredAchievementId: 99B_MSQ_02
   RequiredFaction: ""
@@ -131,7 +131,7 @@
   CanFastTravel: ""
   Task: 99B_MSQ_03_lostvillages_container
   NpcDestinationId: 99B_Yonas_p5
-  ExclusiveTerritory: null
+  ExclusiveTerritory: ""
   AchievementId: 99B_MSQ_03
   RequiredAchievementId: 99B_MSQ_02
   RequiredFaction: ""
@@ -172,7 +172,7 @@
   CanFastTravel: ""
   Task: 99B_MSQ_04_corruptedresources_container
   NpcDestinationId: 99B_Galahad_p4
-  ExclusiveTerritory: null
+  ExclusiveTerritory: ""
   AchievementId: 99B_MSQ_04
   RequiredAchievementId: 99B_MSQ_03
   RequiredFaction: ""
@@ -213,7 +213,7 @@
   CanFastTravel: ""
   Task: 99B_MSQ_05_findingfort_container
   NpcDestinationId: 99B_Galahad_p4
-  ExclusiveTerritory: null
+  ExclusiveTerritory: ""
   AchievementId: 99B_MSQ_05
   RequiredAchievementId: 99B_MSQ_04
   RequiredFaction: ""
@@ -254,7 +254,7 @@
   CanFastTravel: ""
   Task: 99B_MSQ_06_lostcathedral_container
   NpcDestinationId: 99B_Galahad_p4
-  ExclusiveTerritory: null
+  ExclusiveTerritory: ""
   AchievementId: 99B_MSQ_06
   RequiredAchievementId: 99B_MSQ_05
   RequiredFaction: ""
@@ -295,7 +295,7 @@
   CanFastTravel: ""
   Task: 99B_MSQ_07_cursedcemetery_container
   NpcDestinationId: 99B_Sun_p2
-  ExclusiveTerritory: null
+  ExclusiveTerritory: ""
   AchievementId: 99B_MSQ_07
   RequiredAchievementId: 99B_MSQ_06
   RequiredFaction: ""
@@ -336,7 +336,7 @@
   CanFastTravel: ""
   Task: 99B_MSQ_08_azothtree_container
   NpcDestinationId: 99B_Galahad_p6
-  ExclusiveTerritory: null
+  ExclusiveTerritory: ""
   AchievementId: 99B_MSQ_08
   RequiredAchievementId: 99B_MSQ_07
   RequiredFaction: ""
@@ -377,7 +377,7 @@
   CanFastTravel: ""
   Task: 99B_MSQ_09_killumberto_container
   NpcDestinationId: 99B_Galahad_p6
-  ExclusiveTerritory: null
+  ExclusiveTerritory: ""
   AchievementId: 99B_MSQ_09
   RequiredAchievementId: 99B_MSQ_08
   RequiredFaction: ""
@@ -418,9 +418,9 @@
   CanFastTravel: ""
   Task: 99B_MSQ_10_cleansefort_container
   NpcDestinationId: 99B_Yonas_p9
-  ExclusiveTerritory: 2.0
+  ExclusiveTerritory: ""
   AchievementId: 99B_MSQ_10
-  RequiredAchievementId: 99B_MSQ_09
+  RequiredAchievementId: 99B_MSQ_09 && !99_MSQ_26
   RequiredFaction: ""
   RequiredLevel: ""
   SuccessGameEventId: 99B_MSQ_10_cleansefort_success
@@ -459,9 +459,9 @@
   CanFastTravel: ""
   Task: 99B_MSQ_10_cleansefort_container
   NpcDestinationId: 99B_Yonas_p9
-  ExclusiveTerritory: 2.0
+  ExclusiveTerritory: ""
   AchievementId: 99B_MSQ_10
-  RequiredAchievementId: 99B_MSQ_09
+  RequiredAchievementId: 99B_MSQ_09 && 99_MSQ_26
   RequiredFaction: ""
   RequiredLevel: ""
   SuccessGameEventId: 99B_MSQ_10_cleansefort_alt_success
@@ -500,7 +500,7 @@
   CanFastTravel: ""
   Task: 99B_MSQ_11_weaversvector_container
   NpcDestinationId: 99B_Galahad_p8
-  ExclusiveTerritory: null
+  ExclusiveTerritory: ""
   AchievementId: 99B_MSQ_11
   RequiredAchievementId: 99B_MSQ_10
   RequiredFaction: ""

@@ -841,7 +841,7 @@
 - VitalsID: FL_DH_Armored_Dragon_Named
   DisplayName: "@FL_DH_Armored_Dragon_Named_VitalsName"
   VitalsCategories: Armored_Dragon,Hostile,Beast,Predator,Named
-  Level: 70.0
+  Level: 67.0
   Family: Wildlife
   CreatureType: Named_Solo+
   DifficultyTierOverride: null
@@ -1000,7 +1000,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  CharacterScale: 1.6
+  CharacterScale: 1.4
   IsMinion: ""
   ChainSpellImmune: null
   MutatorDifficultyMod: ""
@@ -4200,7 +4200,7 @@
   HealthPercentForLootContributionOverride: null
 - VitalsID: FL_Mammoth_Boss_DG_FirstLight_01
   DisplayName: "@FL_Mammoth_Boss_DG_FirstLight_01_VitalsName"
-  VitalsCategories: FL_Mammoth_Boss_DG_FirstLight_01,Hostile,Beast,Predator,FL_Mammoth
+  VitalsCategories: FL_Mammoth_Boss_DG_FirstLight_01,Hostile,Beast,Predator,FL_Mammoth,Named
   Level: 65.0
   Family: Wildlife
   CreatureType: DungeonBoss
@@ -7561,7 +7561,7 @@
 - VitalsID: FL_DH_Gorilla_Fire_Named
   DisplayName: "@FL_DH_Gorilla_Fire_Named_VitalsName"
   VitalsCategories: FL_DH_Gorilla_Fire_Named,Hostile,Beast,Predator,Named
-  Level: 70.0
+  Level: 67.0
   Family: Wildlife
   CreatureType: Named_Solo+
   DifficultyTierOverride: null
@@ -7720,7 +7720,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  CharacterScale: 2.0
+  CharacterScale: 1.5
   IsMinion: ""
   ChainSpellImmune: null
   MutatorDifficultyMod: ""
@@ -8149,7 +8149,7 @@
   LootDropChance: 0.1
   IgnoreLootDropModifier: "0"
   LootTableId: CreatureLootMaster
-  LootTags: Beast,Common,Named,Nyhart00
+  LootTags: Beast,Common,Named,Campbells00
   IgnoreEffectCategories: ""
   DEFStandard: ""
   DEFSiege: ""
@@ -8736,8 +8736,8 @@
   HealthPercentForLootContributionOverride: 0.01
 - VitalsID: FL_DH_Gorilla_Ice_Named
   DisplayName: "@FL_DH_Gorilla_Ice_Named_VitalsName"
-  VitalsCategories: FL_DH_Gorilla_Ice_Named,Hostile,Beast,Predator,Named
-  Level: 70.0
+  VitalsCategories: FL_DH_Gorilla_Ice_Named,Hostile,Beast,Predator
+  Level: 67.0
   Family: Wildlife
   CreatureType: Named_Solo+
   DifficultyTierOverride: null
@@ -8896,7 +8896,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  CharacterScale: 2.0
+  CharacterScale: 1.4
   IsMinion: ""
   ChainSpellImmune: null
   MutatorDifficultyMod: ""
@@ -9611,8 +9611,8 @@
   BlockDamageMitigation: 0.0
   BlockStaminaCost: 0.0
   StaminaMin: 0.0
-  StaminaBaseMax: 1000.0
-  StaminaInitial: 1000.0
+  StaminaBaseMax: 0.0
+  StaminaInitial: 0.0
   StaminaBaseTickRate: 0.0
   StaminaRegenCappedBy: 0.0
   StaminaRegenThresholds: ""
@@ -9779,8 +9779,8 @@
   BlockDamageMitigation: 0.0
   BlockStaminaCost: 0.0
   StaminaMin: 0.0
-  StaminaBaseMax: 1000.0
-  StaminaInitial: 1000.0
+  StaminaBaseMax: 0.0
+  StaminaInitial: 0.0
   StaminaBaseTickRate: 0.0
   StaminaRegenCappedBy: 0.0
   StaminaRegenThresholds: ""
@@ -16297,7 +16297,7 @@
 - VitalsID: FL_DH_Primal_Lion_Named
   DisplayName: "@FL_DH_Primal_Lion_Named_VitalsName"
   VitalsCategories: FL_DH_Primal_Lion_Named,Hostile,Beast,Predator,Primal_Lion,Named
-  Level: 70.0
+  Level: 67.0
   Family: Wildlife
   CreatureType: Named_Solo+
   DifficultyTierOverride: null
@@ -16456,7 +16456,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  CharacterScale: 1.6
+  CharacterScale: null
   IsMinion: ""
   ChainSpellImmune: null
   MutatorDifficultyMod: ""
@@ -19155,7 +19155,7 @@
   VitalsCategories: FL_DH_MegaFlora_RazorLotus,Hostile,AngryEarth
   Level: 70.0
   Family: AngryEarth
-  CreatureType: Named_Solo+
+  CreatureType: Solo+
   DifficultyTierOverride: null
   NoExpNoCoin: null
   CanDropLoot: true
@@ -19312,7 +19312,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  CharacterScale: 2.85
+  CharacterScale: 1.2
   IsMinion: ""
   ChainSpellImmune: null
   MutatorDifficultyMod: ""
@@ -32424,7 +32424,7 @@
   HealthPercentForLootContributionOverride: null
 - VitalsID: FL_AnubianGuardian_Archer_09FL01
   DisplayName: "@FL_AnubianGuardian_Archer_09FL01_VitalsName"
-  VitalsCategories: FL_AnubianGuardian_Archer_09FL01,Hostile,Beast,Predator,Ancient
+  VitalsCategories: FL_AnubianGuardian_Archer_09FL01,Hostile,Predator,Ancient
   Level: 65.0
   Family: AncientGuardian
   CreatureType: Solo
@@ -32592,7 +32592,7 @@
   HealthPercentForLootContributionOverride: null
 - VitalsID: FL_AnubianGuardian_Archer_09FL01a
   DisplayName: "@FL_AnubianGuardian_Archer_09FL01a_VitalsName"
-  VitalsCategories: FL_AnubianGuardian_Archer_09FL01a,Hostile,Beast,Predator,Ancient
+  VitalsCategories: FL_AnubianGuardian_Archer_09FL01a,Hostile,Predator,Ancient
   Level: 65.0
   Family: AncientGuardian
   CreatureType: Solo
@@ -32760,7 +32760,7 @@
   HealthPercentForLootContributionOverride: null
 - VitalsID: FL_AnubianGuardian_Archer_09FL03
   DisplayName: "@FL_AnubianGuardian_Archer_09FL03_VitalsName"
-  VitalsCategories: FL_AnubianGuardian_Archer_09FL03,Hostile,Beast,Predator,Ancient
+  VitalsCategories: FL_AnubianGuardian_Archer_09FL03,Hostile,Predator,Ancient
   Level: 65.0
   Family: AncientGuardian
   CreatureType: Solo
@@ -32928,7 +32928,7 @@
   HealthPercentForLootContributionOverride: null
 - VitalsID: FL_AnubianGuardian_Archer_09FL06
   DisplayName: "@FL_AnubianGuardian_Archer_09FL06_VitalsName"
-  VitalsCategories: FL_AnubianGuardian_Archer_09FL06,Hostile,Beast,Predator,Ancient
+  VitalsCategories: FL_AnubianGuardian_Archer_09FL06,Hostile,Predator,Ancient
   Level: 66.0
   Family: AncientGuardian
   CreatureType: Solo
@@ -43176,7 +43176,7 @@
   HealthPercentForLootContributionOverride: null
 - VitalsID: FL_Mammoth_Lightning_Elite_Named_09FL01
   DisplayName: "@FL_Mammoth_Lightning_Elite_Named_09FL01_VitalsName"
-  VitalsCategories: FL_Mammoth_Lightning_Elite_Named_09FL01,Hostile,Beast,Predator,FL_Mammoth,Named
+  VitalsCategories: FL_Mammoth_Lightning_Elite_Named_09FL01,Hostile,Beast,Predator,FL_Mammoth
   Level: 70.0
   Family: Wildlife
   CreatureType: Elite+
@@ -43344,8 +43344,8 @@
   HealthPercentForLootContributionOverride: 0.01
 - VitalsID: FL_DH_Mammoth_Lightning_Named
   DisplayName: "@FL_DH_Mammoth_Lightning_Named_VitalsName"
-  VitalsCategories: FL_DH_Mammoth_Lightning_Named,Hostile,Beast,Predator,FL_Mammoth,Named
-  Level: 70.0
+  VitalsCategories: FL_DH_Mammoth_Lightning_Named,Hostile,Beast,Predator,FL_Mammoth
+  Level: 67.0
   Family: Wildlife
   CreatureType: Named_Solo+
   DifficultyTierOverride: null
@@ -43504,7 +43504,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  CharacterScale: 1.4
+  CharacterScale: 1.2
   IsMinion: ""
   ChainSpellImmune: null
   MutatorDifficultyMod: ""
@@ -44017,7 +44017,7 @@
 - VitalsID: FL_DH_Mammoth_Nature_Named
   DisplayName: "@FL_DH_Mammoth_Nature_Named_VitalsName"
   VitalsCategories: FL_DH_Mammoth_Nature_Named,Hostile,Beast,Predator,FL_Mammoth,Named
-  Level: 70.0
+  Level: 67.0
   Family: Wildlife
   CreatureType: Named_Solo+
   DifficultyTierOverride: null
@@ -44176,7 +44176,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  CharacterScale: 1.4
+  CharacterScale: 1.2
   IsMinion: ""
   ChainSpellImmune: null
   MutatorDifficultyMod: ""
@@ -47208,7 +47208,7 @@
   HealthPercentForLootContributionOverride: null
 - VitalsID: FL_DG_FirstLight_01_Chameleon_Named
   DisplayName: "@FL_DG_FirstLight_01_Chameleon_Named_VitalsName"
-  VitalsCategories: Chameleon,Hostile,Beast,Predator,Named
+  VitalsCategories: Chameleon,Hostile,Beast,Predator
   Level: 65.0
   Family: Wildlife
   CreatureType: Dungeon+
@@ -48219,7 +48219,7 @@
   VitalsCategories: FL_DH_BearElemental_Named,Hostile,Beast,Elemental,Bear,AngryEarth,Named
   Level: 65.0
   Family: AngryEarth
-  CreatureType: Named_Solo+
+  CreatureType: Solo+
   DifficultyTierOverride: 3.0
   NoExpNoCoin: null
   CanDropLoot: true
@@ -48376,7 +48376,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  CharacterScale: 1.6
+  CharacterScale: 1.2
   IsMinion: ""
   ChainSpellImmune: null
   MutatorDifficultyMod: ""
@@ -52416,7 +52416,7 @@
   HealthPercentForLootContributionOverride: null
 - VitalsID: FL_Barbary_Lion_Elite_09FL12
   DisplayName: "@FL_Barbary_Lion_Elite_09FL12_VitalsName"
-  VitalsCategories: FL_Barbary_Lion_Elite_09FL12,Hostile,Beast,Predator,Primal_Lion,Barbary_Lion
+  VitalsCategories: FL_Barbary_Lion_Elite_09FL12,Hostile,Beast,Predator,Primal_Lion,Barbary_Lion,Ancient
   Level: 70.0
   Family: Wildlife
   CreatureType: Elite
@@ -52501,7 +52501,7 @@
   LootDropChance: 0.1
   IgnoreLootDropModifier: "FALSE"
   LootTableId: CreatureLootMaster
-  LootTags: Beast,Elite,BarbaryLion
+  LootTags: Ancient,Beast,Elite,BarbaryLion
   IgnoreEffectCategories: ""
   DEFStandard: ""
   DEFSiege: ""
@@ -68880,7 +68880,7 @@
   HealthPercentForLootContributionOverride: null
 - VitalsID: FL_Barbary_Lion_Named_09FL09
   DisplayName: "@FL_Barbary_Lion_Named_09FL09_VitalsName"
-  VitalsCategories: FL_Barbary_Lion_Named_09FL09,Hostile,Beast,Predator,Primal_Lion,Barbary_Lion,Named
+  VitalsCategories: FL_Barbary_Lion_Named_09FL09,Hostile,Beast,Predator,Primal_Lion,Barbary_Lion,Ancient,Named
   Level: 67.0
   Family: Wildlife
   CreatureType: Named_Solo+
@@ -68965,7 +68965,7 @@
   LootDropChance: 0.1
   IgnoreLootDropModifier: "FALSE"
   LootTableId: CreatureLootMaster
-  LootTags: Beast,Common,Named,Trampled01
+  LootTags: Ancient,Beast,Common,Named,Trampled01
   IgnoreEffectCategories: ""
   DEFStandard: ""
   DEFSiege: ""

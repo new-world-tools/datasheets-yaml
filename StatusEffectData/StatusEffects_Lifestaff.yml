@@ -52,7 +52,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -301,7 +303,9 @@
   FromSpell: 1.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -550,7 +554,9 @@
   FromSpell: 1.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -799,7 +805,9 @@
   FromSpell: 1.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -1048,7 +1056,9 @@
   FromSpell: 1.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -1297,7 +1307,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -1546,7 +1558,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -1747,7 +1761,7 @@
   EffectCategories: Buff+Fortify
   PlaceholderIcon: lyshineui/images/status/SE_FortifyT3.png
   ShowInUITray: true
-  ShowTextInDamageNumbers: true
+  ShowTextInDamageNumbers: false
   FxScriptOn: ""
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
@@ -1795,7 +1809,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -1996,7 +2012,7 @@
   EffectCategories: Buff+Fortify
   PlaceholderIcon: lyshineui/images/status/SE_FortifyT5.png
   ShowInUITray: true
-  ShowTextInDamageNumbers: true
+  ShowTextInDamageNumbers: false
   FxScriptOn: ""
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
@@ -2044,7 +2060,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -2293,7 +2311,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -2542,7 +2562,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -2743,7 +2765,7 @@
   EffectCategories: Fortify
   PlaceholderIcon: lyshineui/images/status/SE_SuperSiphon.png
   ShowInUITray: true
-  ShowTextInDamageNumbers: true
+  ShowTextInDamageNumbers: false
   FxScriptOn: Siphon_Heal_ON
   FxScriptOff: Siphon_Heal_OFF
   ShouldRefreshFxScript: ""
@@ -2791,7 +2813,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -3040,7 +3064,9 @@
   FromSpell: 1.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -3289,7 +3315,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -3538,7 +3566,9 @@
   FromSpell: 1.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -3787,7 +3817,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -4036,7 +4068,9 @@
   FromSpell: 1.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -4285,7 +4319,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -4534,7 +4570,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -4735,7 +4773,7 @@
   EffectCategories: Heal
   PlaceholderIcon: lyshineui/images/status/SE_HealT1.png
   ShowInUITray: true
-  ShowTextInDamageNumbers: true
+  ShowTextInDamageNumbers: false
   FxScriptOn: POTION_Heal
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
@@ -4783,7 +4821,9 @@
   FromSpell: 1.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -4984,7 +5024,7 @@
   EffectCategories: Heal
   PlaceholderIcon: lyshineui/images/status/SE_HealT1.png
   ShowInUITray: true
-  ShowTextInDamageNumbers: true
+  ShowTextInDamageNumbers: false
   FxScriptOn: POTION_Heal
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
@@ -5032,7 +5072,9 @@
   FromSpell: 1.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -5281,7 +5323,9 @@
   FromSpell: 1.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -5529,8 +5573,10 @@
   FromAlchemy: 0.0
   FromSpell: 1.0
   NoHealthRegen: 0.0
-  HealMod: 0.05
-  NonConsumableHealMod: 0.0
+  HealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: 0.1
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -5779,7 +5825,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -6028,7 +6076,9 @@
   FromSpell: 1.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -6277,7 +6327,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -6478,7 +6530,7 @@
   EffectCategories: ""
   PlaceholderIcon: lyshineui/images/status/SE_LifeStaff_Invulnerable.png
   ShowInUITray: true
-  ShowTextInDamageNumbers: true
+  ShowTextInDamageNumbers: false
   FxScriptOn: ""
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
@@ -6526,7 +6578,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -6775,7 +6829,9 @@
   FromSpell: 1.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -7024,7 +7080,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -7273,7 +7331,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -7522,7 +7582,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -7771,7 +7833,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -8020,7 +8084,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -8269,7 +8335,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -8518,7 +8586,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -8767,7 +8837,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -9016,7 +9088,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -9265,7 +9339,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -9514,7 +9590,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -9763,7 +9841,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -10012,7 +10092,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -10261,7 +10343,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -10510,7 +10594,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -10759,7 +10845,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -11008,7 +11096,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -11257,7 +11347,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -11458,7 +11550,7 @@
   EffectCategories: Buff+Haste+LifestaffBuff
   PlaceholderIcon: lyshineui/images/status/SE_Haste.png
   ShowInUITray: true
-  ShowTextInDamageNumbers: true
+  ShowTextInDamageNumbers: false
   FxScriptOn: StatFX_Haste_ON
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
@@ -11506,7 +11598,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -11755,7 +11849,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -12004,7 +12100,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -12205,7 +12303,7 @@
   EffectCategories: Buff+Fortify+LifestaffBuff
   PlaceholderIcon: lyshineui/images/status/SE_HealT2.png
   ShowInUITray: true
-  ShowTextInDamageNumbers: true
+  ShowTextInDamageNumbers: false
   FxScriptOn: ""
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
@@ -12253,7 +12351,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -12502,7 +12602,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -12751,7 +12853,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -13000,7 +13104,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -13249,7 +13355,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -13498,7 +13606,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -13747,7 +13857,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -13996,7 +14108,9 @@
   FromSpell: 1.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -14245,7 +14359,9 @@
   FromSpell: 1.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -14493,8 +14609,10 @@
   FromAlchemy: 0.0
   FromSpell: 1.0
   NoHealthRegen: 0.0
-  HealMod: 0.5
-  NonConsumableHealMod: 0.0
+  HealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: 0.5
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -14743,7 +14861,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -14944,7 +15064,7 @@
   EffectCategories: Buff+Haste+LifestaffBuff
   PlaceholderIcon: lyshineui/images/status/SE_Haste.png
   ShowInUITray: true
-  ShowTextInDamageNumbers: true
+  ShowTextInDamageNumbers: false
   FxScriptOn: StatFX_Haste_ON
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
@@ -14992,7 +15112,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -15241,7 +15363,9 @@
   FromSpell: 1.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -15490,7 +15614,9 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -15739,7 +15865,9 @@
   FromSpell: 1.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  NonConsumableHealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -15988,7 +16116,9 @@
   FromSpell: null
   NoHealthRegen: null
   HealMod: null
+  ConsumableHealMod: ""
   NonConsumableHealMod: null
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: null
   HealthRate: null
   CoreTempMod: null

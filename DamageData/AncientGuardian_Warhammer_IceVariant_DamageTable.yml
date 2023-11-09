@@ -1,172 +1,31 @@
-- DamageID: AG_Reaver_Slash_01
-  WeaponCategory: Sword
+- DamageID: Attack_Swing_L
+  WeaponCategory: Warhammer
   IgnoreInvulnerable: 0.0
   NoReaction: 0.0
   IsRanged: ""
   SurfaceImpactEffect: Bullet
   AttackType: Light
-  DamageType: Slash
-  Affixes: ""
+  DamageType: Strike
+  Affixes: AI_IceDMG_50
   StatusEffect: ""
   EffectOnlyOnDamage: null
-  DeflectDamageID: ""
+  DeflectDamageID: Deflect_Default
   CanCrit: false
-  DmgCoef: 0.225
+  DmgCoef: 0.25
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
   PowerLevel: 0.0
-  CritPowerLevel: 0.0
-  BlockPowerLevel: 0.0
-  HitStun: 10.0
-  BlockHitStun: 15.0
-  CritHitStun: 10.0
-  ImpactDistanceX: 0.0
-  ImpactDistanceY: 0.5
-  ImpactDistanceZ: 0.0
-  ImpactDecayRate: 0.8
-  CritImpactDistanceX: 0.0
-  CritImpactDistanceY: 0.5
-  CritImpactDistanceZ: 0.0
-  CritImpactDecayRate: 0.8
-  BlockImpactDistanceX: 0.0
-  BlockImpactDistanceY: 0.5
-  BlockImpactDistanceZ: 0.0
-  BlockImpactDecayRate: 0.8
-  AddDmg: 0.0
-  StaggerDmgModifier: 0.0
-  CritStaggerDmgModifier: 1.0
-  StaggerResistModifier: 1.0
-  CameraShakeID: Small
-  CritCameraShakeID: Small
-  ImpactRating: 0.0
-  BlockStaminaDmgMod: 0.1
-  BlockAbsorptionModifier: 1.0
-  StunBreakoutIncrement: 0.0
-  StaminaDmg: 0.0
-  HitRuneCharge: 0.1625
-  HitBlockedRuneCharge: 0.325
-- DamageID: AG_Reaver_Dash
-  WeaponCategory: Sword
-  IgnoreInvulnerable: 0.0
-  NoReaction: 0.0
-  IsRanged: ""
-  SurfaceImpactEffect: Bullet
-  AttackType: Heavy
-  DamageType: Slash
-  Affixes: ""
-  StatusEffect: ""
-  EffectOnlyOnDamage: null
-  DeflectDamageID: ""
-  CanCrit: false
-  DmgCoef: 0.85
-  DmgCoefHead: 1.0
-  DmgCoefCrit: 1.0
-  PowerLevel: 3.0
-  CritPowerLevel: 3.0
-  BlockPowerLevel: 3.0
-  HitStun: 30.0
-  BlockHitStun: 25.0
-  CritHitStun: 30.0
-  ImpactDistanceX: 0.0
-  ImpactDistanceY: 2.0
-  ImpactDistanceZ: 0.0
-  ImpactDecayRate: 0.8
-  CritImpactDistanceX: 0.0
-  CritImpactDistanceY: 2.0
-  CritImpactDistanceZ: 0.0
-  CritImpactDecayRate: 0.8
-  BlockImpactDistanceX: 0.0
-  BlockImpactDistanceY: 0.5
-  BlockImpactDistanceZ: 0.0
-  BlockImpactDecayRate: 0.8
-  AddDmg: 0.0
-  StaggerDmgModifier: 1.0
-  CritStaggerDmgModifier: 1.0
-  StaggerResistModifier: 1.0
-  CameraShakeID: Large
-  CritCameraShakeID: Large
-  ImpactRating: 0.0
-  BlockStaminaDmgMod: 0.8
-  BlockAbsorptionModifier: 1.0
-  StunBreakoutIncrement: 1.0
-  StaminaDmg: 0.0
-  HitRuneCharge: 0.1625
-  HitBlockedRuneCharge: 0.325
-- DamageID: AG_Reaver_Dash_Arcane
-  WeaponCategory: Sword
-  IgnoreInvulnerable: 0.0
-  NoReaction: 0.0
-  IsRanged: ""
-  SurfaceImpactEffect: Bullet
-  AttackType: Heavy
-  DamageType: Slash
-  Affixes: AI_ArcaneDMG_10
-  StatusEffect: AI_Snare_6sec
-  EffectOnlyOnDamage: true
-  DeflectDamageID: ""
-  CanCrit: false
-  DmgCoef: 0.85
-  DmgCoefHead: 1.0
-  DmgCoefCrit: 1.0
-  PowerLevel: 3.0
-  CritPowerLevel: 3.0
-  BlockPowerLevel: 3.0
-  HitStun: 30.0
-  BlockHitStun: 25.0
-  CritHitStun: 30.0
-  ImpactDistanceX: 0.0
-  ImpactDistanceY: 2.0
-  ImpactDistanceZ: 0.0
-  ImpactDecayRate: 0.8
-  CritImpactDistanceX: 0.0
-  CritImpactDistanceY: 2.0
-  CritImpactDistanceZ: 0.0
-  CritImpactDecayRate: 0.8
-  BlockImpactDistanceX: 0.0
-  BlockImpactDistanceY: 0.5
-  BlockImpactDistanceZ: 0.0
-  BlockImpactDecayRate: 0.8
-  AddDmg: 0.0
-  StaggerDmgModifier: 1.0
-  CritStaggerDmgModifier: 1.0
-  StaggerResistModifier: 1.0
-  CameraShakeID: Large
-  CritCameraShakeID: Large
-  ImpactRating: 0.0
-  BlockStaminaDmgMod: 0.8
-  BlockAbsorptionModifier: 1.0
-  StunBreakoutIncrement: 1.0
-  StaminaDmg: 0.0
-  HitRuneCharge: 0.1625
-  HitBlockedRuneCharge: 0.325
-- DamageID: AnubianReaver_InfernoSpinSlash
-  WeaponCategory: Sword
-  IgnoreInvulnerable: 0.0
-  NoReaction: 0.0
-  IsRanged: ""
-  SurfaceImpactEffect: Bullet
-  AttackType: Light
-  DamageType: Slash
-  Affixes: AI_FireDMG_100
-  StatusEffect: ""
-  EffectOnlyOnDamage: null
-  DeflectDamageID: ""
-  CanCrit: false
-  DmgCoef: 0.15
-  DmgCoefHead: 1.0
-  DmgCoefCrit: 1.0
-  PowerLevel: 1.0
-  CritPowerLevel: 1.0
   BlockPowerLevel: 1.0
+  CritPowerLevel: 0.0
   HitStun: 10.0
-  BlockHitStun: 15.0
+  BlockHitStun: 5.0
   CritHitStun: 10.0
   ImpactDistanceX: 0.0
-  ImpactDistanceY: 0.5
+  ImpactDistanceY: "0.6"
   ImpactDistanceZ: 0.0
   ImpactDecayRate: 0.8
   CritImpactDistanceX: 0.0
-  CritImpactDistanceY: 0.5
+  CritImpactDistanceY: 0.6
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   BlockImpactDistanceX: 0.0
@@ -175,45 +34,42 @@
   BlockImpactDecayRate: 0.8
   AddDmg: 0.0
   StaggerDmgModifier: 0.0
-  CritStaggerDmgModifier: 1.0
-  StaggerResistModifier: 1.0
-  CameraShakeID: Small
-  CritCameraShakeID: Small
-  ImpactRating: 0.0
-  BlockStaminaDmgMod: 0.1
+  StaggerResistModifier: 0.0
+  TargetCameraShakeID: Small
+  ImpactRating: 2.0
+  BlockStaminaDmgMod: 0.25
   BlockAbsorptionModifier: 1.0
   StunBreakoutIncrement: 0.0
-  StaminaDmg: 0.0
   HitRuneCharge: 0.1625
   HitBlockedRuneCharge: 0.325
-- DamageID: AnubianReaver_InfernoEruption
-  WeaponCategory: AncientMagic
+- DamageID: Attack_Mighty_Gavel
+  WeaponCategory: Warhammer
   IgnoreInvulnerable: 0.0
   NoReaction: 0.0
   IsRanged: ""
   SurfaceImpactEffect: Bullet
-  AttackType: Magic
-  DamageType: Fire
-  Affixes: ""
-  StatusEffect: AI_Anubian_Burn_9
-  EffectOnlyOnDamage: true
-  DeflectDamageID: ""
+  AttackType: Heavy
+  DamageType: Strike
+  Affixes: AI_IceDMG_50
+  StatusEffect: ""
+  EffectOnlyOnDamage: null
+  DeflectDamageID: Deflect_Default
   CanCrit: false
   DmgCoef: 0.5
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
   PowerLevel: 0.0
+  BlockPowerLevel: 1.0
   CritPowerLevel: 0.0
-  BlockPowerLevel: 0.0
-  HitStun: 30.0
-  BlockHitStun: 25.0
-  CritHitStun: 30.0
+  HitStun: 10.0
+  BlockHitStun: 5.0
+  CritHitStun: 10.0
   ImpactDistanceX: 0.0
-  ImpactDistanceY: 1.5
+  ImpactDistanceY: "2.5"
   ImpactDistanceZ: 0.0
   ImpactDecayRate: 0.8
   CritImpactDistanceX: 0.0
-  CritImpactDistanceY: 1.5
+  CritImpactDistanceY: 2.5
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   BlockImpactDistanceX: 0.0
@@ -221,16 +77,233 @@
   BlockImpactDistanceZ: 0.0
   BlockImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
-  CritStaggerDmgModifier: 1.0
-  StaggerResistModifier: 1.0
-  CameraShakeID: Small
-  CritCameraShakeID: Small
-  ImpactRating: 0.0
-  BlockStaminaDmgMod: 0.4
+  StaggerDmgModifier: 0.0
+  StaggerResistModifier: 0.0
+  TargetCameraShakeID: Small
+  ImpactRating: 2.0
+  BlockStaminaDmgMod: 1.5
   BlockAbsorptionModifier: 1.0
   StunBreakoutIncrement: 0.0
-  StaminaDmg: 0.0
+  HitRuneCharge: 0.1625
+  HitBlockedRuneCharge: 0.325
+- DamageID: Attack_Clearout
+  WeaponCategory: Warhammer
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: ""
+  SurfaceImpactEffect: Bullet
+  AttackType: Heavy
+  DamageType: Strike
+  Affixes: AI_IceDMG_50
+  StatusEffect: ""
+  EffectOnlyOnDamage: null
+  DeflectDamageID: Deflect_Default
+  CanCrit: false
+  DmgCoef: 0.35
+  DmgCoefHead: 1.0
+  DmgCoefCrit: 1.0
+  PowerLevel: 4.0
+  BlockPowerLevel: 4.0
+  CritPowerLevel: 4.0
+  HitStun: 45.0
+  BlockHitStun: 40.0
+  CritHitStun: 45.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: "5"
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 5.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.0
+  StaggerResistModifier: 0.0
+  TargetCameraShakeID: Small
+  ImpactRating: 2.0
+  BlockStaminaDmgMod: 0.25
+  BlockAbsorptionModifier: 1.0
+  StunBreakoutIncrement: 1.0
+  HitRuneCharge: 0.1625
+  HitBlockedRuneCharge: 0.325
+- DamageID: Attack_Shockwave
+  WeaponCategory: Warhammer
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: ""
+  SurfaceImpactEffect: Bullet
+  AttackType: Heavy
+  DamageType: Strike
+  Affixes: AI_IceDMG_50
+  StatusEffect: AI_Stun_2sec
+  EffectOnlyOnDamage: true
+  DeflectDamageID: Deflect_Default
+  CanCrit: false
+  DmgCoef: 0.4
+  DmgCoefHead: 1.0
+  DmgCoefCrit: 1.0
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 10.0
+  BlockHitStun: 5.0
+  CritHitStun: 10.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: "0.5"
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.5
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.0
+  StaggerResistModifier: 0.0
+  TargetCameraShakeID: Small
+  ImpactRating: 4.0
+  BlockStaminaDmgMod: 0.1
+  BlockAbsorptionModifier: 1.0
+  StunBreakoutIncrement: 1.0
+  HitRuneCharge: 0.1625
+  HitBlockedRuneCharge: 0.325
+- DamageID: Frosty_Flurry_Strike
+  WeaponCategory: Warhammer
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: ""
+  SurfaceImpactEffect: Bullet
+  AttackType: Light
+  DamageType: Strike
+  Affixes: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: null
+  DeflectDamageID: Deflect_Default
+  CanCrit: false
+  DmgCoef: 0.25
+  DmgCoefHead: 1.0
+  DmgCoefCrit: 1.0
+  PowerLevel: 0.0
+  BlockPowerLevel: 1.0
+  CritPowerLevel: 0.0
+  HitStun: 0.0
+  BlockHitStun: 5.0
+  CritHitStun: 10.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: "0.6"
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.6
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.0
+  StaggerResistModifier: 0.0
+  TargetCameraShakeID: Small
+  ImpactRating: 2.0
+  BlockStaminaDmgMod: 0.25
+  BlockAbsorptionModifier: 1.0
+  StunBreakoutIncrement: 0.0
+  HitRuneCharge: 0.1625
+  HitBlockedRuneCharge: 0.325
+- DamageID: Frosty_Flurry_AoE
+  WeaponCategory: Warhammer
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: ""
+  SurfaceImpactEffect: Bullet
+  AttackType: Light
+  DamageType: Ice
+  Affixes: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: null
+  DeflectDamageID: Deflect_Default
+  CanCrit: false
+  DmgCoef: 0.25
+  DmgCoefHead: 1.0
+  DmgCoefCrit: 1.0
+  PowerLevel: 2.0
+  BlockPowerLevel: 1.0
+  CritPowerLevel: 0.0
+  HitStun: 20.0
+  BlockHitStun: 5.0
+  CritHitStun: 10.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: ""
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.6
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.0
+  StaggerResistModifier: 0.0
+  TargetCameraShakeID: Small
+  ImpactRating: 2.0
+  BlockStaminaDmgMod: 0.25
+  BlockAbsorptionModifier: 1.0
+  StunBreakoutIncrement: 0.0
+  HitRuneCharge: 0.1625
+  HitBlockedRuneCharge: 0.325
+- DamageID: Deflect_Default
+  WeaponCategory: Unarmed
+  IgnoreInvulnerable: 1.0
+  NoReaction: 0.0
+  IsRanged: ""
+  SurfaceImpactEffect: ""
+  AttackType: ""
+  DamageType: Deflect
+  Affixes: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: null
+  DeflectDamageID: ""
+  CanCrit: null
+  DmgCoef: 0.0
+  DmgCoefHead: 0.0
+  DmgCoefCrit: 0.0
+  PowerLevel: 2.0
+  BlockPowerLevel: 2.0
+  CritPowerLevel: 2.0
+  HitStun: 0.0
+  BlockHitStun: 0.0
+  CritHitStun: 0.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: "1"
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 1.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.0
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.0
+  StaggerResistModifier: 0.0
+  TargetCameraShakeID: Small
+  ImpactRating: 0.0
+  BlockStaminaDmgMod: 0.45
+  BlockAbsorptionModifier: 1.0
+  StunBreakoutIncrement: 1.0
   HitRuneCharge: 0.1625
   HitBlockedRuneCharge: 0.325
 - DamageID: Fall
@@ -247,16 +320,16 @@
   DeflectDamageID: ""
   CanCrit: null
   DmgCoef: 1.0
-  DmgCoefHead: 1.0
-  DmgCoefCrit: 1.0
+  DmgCoefHead: 0.0
+  DmgCoefCrit: 0.0
   PowerLevel: 2.0
-  CritPowerLevel: 2.0
   BlockPowerLevel: 2.0
+  CritPowerLevel: 2.0
   HitStun: 0.0
   BlockHitStun: 0.0
   CritHitStun: 0.0
   ImpactDistanceX: 0.0
-  ImpactDistanceY: 0.0
+  ImpactDistanceY: "0"
   ImpactDistanceZ: 0.0
   ImpactDecayRate: 0.0
   CritImpactDistanceX: 0.0
@@ -268,16 +341,13 @@
   BlockImpactDistanceZ: 0.0
   BlockImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: null
-  CritStaggerDmgModifier: null
-  StaggerResistModifier: null
-  CameraShakeID: ""
-  CritCameraShakeID: ""
+  StaggerDmgModifier: 0.0
+  StaggerResistModifier: 0.0
+  TargetCameraShakeID: Small
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 0.0
+  BlockStaminaDmgMod: 1.0
   BlockAbsorptionModifier: 1.0
-  StunBreakoutIncrement: null
-  StaminaDmg: 0.0
+  StunBreakoutIncrement: 1.0
   HitRuneCharge: 0.1625
   HitBlockedRuneCharge: 0.325
 - DamageID: Reaction_Breakout
@@ -297,13 +367,13 @@
   DmgCoefHead: 0.0
   DmgCoefCrit: 0.0
   PowerLevel: 0.0
-  CritPowerLevel: 0.0
   BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
   HitStun: 0.0
   BlockHitStun: 0.0
   CritHitStun: 0.0
   ImpactDistanceX: 0.0
-  ImpactDistanceY: 0.0
+  ImpactDistanceY: "0"
   ImpactDistanceZ: 0.0
   ImpactDecayRate: 0.0
   CritImpactDistanceX: 0.0
@@ -316,61 +386,11 @@
   BlockImpactDecayRate: 0.0
   AddDmg: 0.0
   StaggerDmgModifier: 0.0
-  CritStaggerDmgModifier: 0.0
   StaggerResistModifier: 10.0
-  CameraShakeID: Small
-  CritCameraShakeID: Small
+  TargetCameraShakeID: Small
   ImpactRating: 1.0
   BlockStaminaDmgMod: null
-  BlockAbsorptionModifier: 1.0
+  BlockAbsorptionModifier: null
   StunBreakoutIncrement: 1.0
-  StaminaDmg: 1.0
-  HitRuneCharge: 0.1625
-  HitBlockedRuneCharge: 0.325
-- DamageID: test
-  WeaponCategory: AncientMagic
-  IgnoreInvulnerable: 0.0
-  NoReaction: 0.0
-  IsRanged: ""
-  SurfaceImpactEffect: Bullet
-  AttackType: Magic
-  DamageType: Fire
-  Affixes: ""
-  StatusEffect: ""
-  EffectOnlyOnDamage: null
-  DeflectDamageID: ""
-  CanCrit: false
-  DmgCoef: 0.15
-  DmgCoefHead: 1.0
-  DmgCoefCrit: 1.0
-  PowerLevel: 0.0
-  CritPowerLevel: 0.0
-  BlockPowerLevel: 0.0
-  HitStun: 10.0
-  BlockHitStun: 15.0
-  CritHitStun: 10.0
-  ImpactDistanceX: 0.0
-  ImpactDistanceY: 0.5
-  ImpactDistanceZ: 0.0
-  ImpactDecayRate: 0.8
-  CritImpactDistanceX: 0.0
-  CritImpactDistanceY: 0.5
-  CritImpactDistanceZ: 0.0
-  CritImpactDecayRate: 0.8
-  BlockImpactDistanceX: 0.0
-  BlockImpactDistanceY: 0.5
-  BlockImpactDistanceZ: 0.0
-  BlockImpactDecayRate: 0.8
-  AddDmg: 0.0
-  StaggerDmgModifier: 1.0
-  CritStaggerDmgModifier: 1.0
-  StaggerResistModifier: 1.0
-  CameraShakeID: Small
-  CritCameraShakeID: Small
-  ImpactRating: 0.0
-  BlockStaminaDmgMod: 0.1
-  BlockAbsorptionModifier: 1.0
-  StunBreakoutIncrement: 0.0
-  StaminaDmg: 0.0
   HitRuneCharge: 0.1625
   HitBlockedRuneCharge: 0.325

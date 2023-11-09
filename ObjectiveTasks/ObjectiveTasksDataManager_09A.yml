@@ -613,7 +613,7 @@
   OverrideLocation: ""
   IsHidden: ""
   HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: true
+  ShowDiegeticTaskPin: null
   DiegeticPinZOverride: null
   SS_VariantName: ""
   SS_StatePreset: null
@@ -1129,7 +1129,7 @@
   OnInteractStart: null
   SubTask1: 09A_M1_EG_UnlockFirstLight
   SubTask2: 09A_M1_EG_UnlockShrine
-  SubTask3: ""
+  SubTask3: 09A_M1_EG_S17_SwapActive_Wagon_Broken_On
   SubTask4: ""
   SubTask5: ""
 - TaskID: 09A_M1_EG_UnlockFirstLight
@@ -1258,6 +1258,69 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
+- TaskID: 09A_M1_EG_S17_SwapActive_Wagon_Broken_On
+  Type: TaskUnlockAchievement
+  FailOnCondition: ""
+  StayActive: ""
+  TargetQty: null
+  ItemName: SwapActive_09A_S17_Wagon_Broken
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
 - TaskID: 09A_M1_EG_Container_05
   Type: ConsecutiveTaskContainer
   FailOnCondition: ""
@@ -1304,7 +1367,7 @@
   TP_DescriptionTag: "@09a_M1_Container_05"
   TargetDescriptionTaskId: ""
   OverrideLocation: ""
-  IsHidden: ""
+  IsHidden: "1"
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: null
   DiegeticPinZOverride: null
@@ -1820,9 +1883,9 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
-  SubTask1: 09A_M1_EG_Container_07
-  SubTask2: 09A_M1_EG_Container_08
-  SubTask3: ""
+  SubTask1: 09A_M1_EG_TalkTo_Trahern
+  SubTask2: 09A_M1_EG_Container_07
+  SubTask3: 09A_M1_EG_Container_08
   SubTask4: ""
   SubTask5: ""
 - TaskID: 09A_M1_EG_Container_07
@@ -1883,9 +1946,9 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
-  SubTask1: 09A_M1_EG_TalkTo_Trahern
-  SubTask2: 09A_M1_EG_SwapActive_SickDruids_Off
-  SubTask3: 09A_M1_EG_Container_HealDruids
+  SubTask1: 09A_M1_EG_SwapActive_SickDruids_Off
+  SubTask2: 09A_M1_EG_Container_HealDruids
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
 - TaskID: 09A_M1_EG_TalkTo_Trahern
@@ -2312,7 +2375,7 @@
   TP_DescriptionTag: "@09a_M1_Container_08"
   TargetDescriptionTaskId: ""
   OverrideLocation: ""
-  IsHidden: ""
+  IsHidden: "1"
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: null
   DiegeticPinZOverride: null
@@ -3070,7 +3133,7 @@
   OverrideLocation: ""
   IsHidden: ""
   HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: true
+  ShowDiegeticTaskPin: null
   DiegeticPinZOverride: null
   SS_VariantName: ""
   SS_StatePreset: null
@@ -3131,7 +3194,7 @@
   TP_DescriptionTag: "@09a_M1_Container_04"
   TargetDescriptionTaskId: ""
   OverrideLocation: ""
-  IsHidden: ""
+  IsHidden: "1"
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: null
   DiegeticPinZOverride: null
@@ -3586,7 +3649,7 @@
   OnInteractStart: null
   SubTask1: 09A_M1_SM_UnlockFirstLight
   SubTask2: 09A_M1_SM_UnlockShrine
-  SubTask3: ""
+  SubTask3: 09A_M1_SM_S17_SwapActive_Wagon_Broken_On
   SubTask4: ""
   SubTask5: ""
 - TaskID: 09A_M1_SM_UnlockFirstLight
@@ -3715,6 +3778,69 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
+- TaskID: 09A_M1_SM_S17_SwapActive_Wagon_Broken_On
+  Type: TaskUnlockAchievement
+  FailOnCondition: ""
+  StayActive: ""
+  TargetQty: null
+  ItemName: SwapActive_09A_S17_Wagon_Broken
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
 - TaskID: 09A_M1_SM_Container_05
   Type: ConsecutiveTaskContainer
   FailOnCondition: ""
@@ -3761,7 +3887,7 @@
   TP_DescriptionTag: "@09a_M1_Container_05"
   TargetDescriptionTaskId: ""
   OverrideLocation: ""
-  IsHidden: ""
+  IsHidden: "1"
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: null
   DiegeticPinZOverride: null
@@ -4277,9 +4403,9 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
-  SubTask1: 09A_M1_SM_Container_07
-  SubTask2: 09A_M1_SM_Container_08
-  SubTask3: ""
+  SubTask1: 09A_M1_SM_TalkTo_Trahern
+  SubTask2: 09A_M1_SM_Container_07
+  SubTask3: 09A_M1_SM_Container_08
   SubTask4: ""
   SubTask5: ""
 - TaskID: 09A_M1_SM_Container_07
@@ -4340,9 +4466,9 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
-  SubTask1: 09A_M1_SM_TalkTo_Trahern
-  SubTask2: 09A_M1_SM_SwapActive_SickDruids_Off
-  SubTask3: 09A_M1_SM_Container_HealDruids
+  SubTask1: 09A_M1_SM_SwapActive_SickDruids_Off
+  SubTask2: 09A_M1_SM_Container_HealDruids
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
 - TaskID: 09A_M1_SM_TalkTo_Trahern
@@ -4769,7 +4895,7 @@
   TP_DescriptionTag: "@09a_M1_Container_08"
   TargetDescriptionTaskId: ""
   OverrideLocation: ""
-  IsHidden: ""
+  IsHidden: "1"
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: null
   DiegeticPinZOverride: null
@@ -5527,7 +5653,7 @@
   OverrideLocation: ""
   IsHidden: ""
   HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: true
+  ShowDiegeticTaskPin: null
   DiegeticPinZOverride: null
   SS_VariantName: ""
   SS_StatePreset: null
@@ -5588,7 +5714,7 @@
   TP_DescriptionTag: "@09a_M1_Container_04"
   TargetDescriptionTaskId: ""
   OverrideLocation: ""
-  IsHidden: ""
+  IsHidden: "1"
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: null
   DiegeticPinZOverride: null
@@ -6043,7 +6169,7 @@
   OnInteractStart: null
   SubTask1: 09A_M1_RW_UnlockFirstLight
   SubTask2: 09A_M1_RW_UnlockShrine
-  SubTask3: ""
+  SubTask3: 09A_M1_RW_S17_SwapActive_Wagon_Broken_On
   SubTask4: ""
   SubTask5: ""
 - TaskID: 09A_M1_RW_UnlockFirstLight
@@ -6172,6 +6298,69 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
+- TaskID: 09A_M1_RW_S17_SwapActive_Wagon_Broken_On
+  Type: TaskUnlockAchievement
+  FailOnCondition: ""
+  StayActive: ""
+  TargetQty: null
+  ItemName: SwapActive_09A_S17_Wagon_Broken
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
 - TaskID: 09A_M1_RW_Container_05
   Type: ConsecutiveTaskContainer
   FailOnCondition: ""
@@ -6218,7 +6407,7 @@
   TP_DescriptionTag: "@09a_M1_Container_05"
   TargetDescriptionTaskId: ""
   OverrideLocation: ""
-  IsHidden: ""
+  IsHidden: "1"
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: null
   DiegeticPinZOverride: null
@@ -6734,9 +6923,9 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
-  SubTask1: 09A_M1_RW_Container_07
-  SubTask2: 09A_M1_RW_Container_08
-  SubTask3: ""
+  SubTask1: 09A_M1_RW_TalkTo_Trahern
+  SubTask2: 09A_M1_RW_Container_07
+  SubTask3: 09A_M1_RW_Container_08
   SubTask4: ""
   SubTask5: ""
 - TaskID: 09A_M1_RW_Container_07
@@ -6797,9 +6986,9 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
-  SubTask1: 09A_M1_RW_TalkTo_Trahern
-  SubTask2: 09A_M1_RW_SwapActive_SickDruids_Off
-  SubTask3: 09A_M1_RW_Container_HealDruids
+  SubTask1: 09A_M1_RW_SwapActive_SickDruids_Off
+  SubTask2: 09A_M1_RW_Container_HealDruids
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
 - TaskID: 09A_M1_RW_TalkTo_Trahern
@@ -7226,7 +7415,7 @@
   TP_DescriptionTag: "@09a_M1_Container_08"
   TargetDescriptionTaskId: ""
   OverrideLocation: ""
-  IsHidden: ""
+  IsHidden: "1"
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: null
   DiegeticPinZOverride: null
@@ -19775,8 +19964,71 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
-  SubTask1: 09A_M5_DefenseEncounter_Complete
-  SubTask2: 09A_M5_TavernDefended
+  SubTask1: 09A_M5_TriggerArea_Horn
+  SubTask2: 09A_M5_DefenseEncounter_Complete
+  SubTask3: 09A_M5_TavernDefended
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 09A_M5_TriggerArea_Horn
+  Type: TaskTriggerArea
+  FailOnCondition: ""
+  StayActive: ""
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: Enter
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: TriggerVol_09A_M5_Horn
+  TP_DescriptionTag: "@09A_M5_DefenseEncounter_Complete"
+  TargetDescriptionTaskId: ""
+  OverrideLocation: 8879.0811 708.3986 75.6527
+  IsHidden: ""
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: true
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
@@ -19825,7 +20077,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@09A_M5_DefenseEncounter_Complete"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 8863.83 709.56
+  OverrideLocation: 8868.8877 707.0239 62.3731
   IsHidden: ""
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: true
@@ -19888,7 +20140,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@09A_M5_DefenseEncounter_Complete"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 8863.83 709.56
+  OverrideLocation: 8868.8877 707.0239 62.3731
   IsHidden: ""
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: true
@@ -26516,8 +26768,71 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
-  SubTask1: 09A_M10_WhisperTrigger
+  SubTask1: 09A_M10_Container_3
   SubTask2: 09A_M10_WhisperPlant_Nyhart
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 09A_M10_Container_3
+  Type: PartialTaskContainer
+  FailOnCondition: ""
+  StayActive: ""
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: 09A_M10_WhisperTrigger
+  SubTask2: 09A_M10_DefeatElite2_Failsafe
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
@@ -26564,6 +26879,69 @@
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: ""
   TP_TargetTag: TriggerVol_09A_M10_1
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 09A_M10_DefeatElite2_Failsafe
+  Type: TaskKillContribution
+  FailOnCondition: ""
+  StayActive: ""
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: FL_Gorilla_Lightning_named_09FL07
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
   OverrideLocation: ""
@@ -26705,11 +27083,200 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
+  SubTask1: 09A_M11_Container_Reset
+  SubTask2: 09A_M11_Container_0
+  SubTask3: 09A_M11_Container_1
+  SubTask4: 09A_M11_Container_2
+  SubTask5: ""
+- TaskID: 09A_M11_Container_Reset
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: ""
+  StayActive: ""
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: 09A_M11_LockTrialAchievement_Reset
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 09A_M11_LockTrialAchievement_Reset
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: ""
+  TargetQty: 1.0
+  ItemName: 09A_M11_MammothTrialActive
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: QuestMammoth
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 09A_M11_Container_0
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: ""
+  StayActive: ""
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
   SubTask1: 09A_M11_GoToMammoth
   SubTask2: 09A_M11_WhisperPlant_Mammoth
   SubTask3: 09A_M11_UnlockTrialAchievement1
-  SubTask4: 09A_M11_Container_1
-  SubTask5: 09A_M11_Container_2
+  SubTask4: ""
+  SubTask5: ""
 - TaskID: 09A_M11_GoToMammoth
   Type: TaskTriggerArea
   FailOnCondition: ""
@@ -27650,10 +28217,136 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
-  SubTask1: 09A_M12_Container_1
-  SubTask2: 09A_M12_Container_2
-  SubTask3: 09A_M12_Container_3
-  SubTask4: 09A_M12_Container_4
+  SubTask1: 09A_M12_Container_Reset
+  SubTask2: 09A_M12_Container_1
+  SubTask3: 09A_M12_Container_2
+  SubTask4: 09A_M12_Container_3
+  SubTask5: 09A_M12_Container_4
+- TaskID: 09A_M12_Container_Reset
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: ""
+  StayActive: ""
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: 09A_M12_LockTrialAchievement_Reset
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 09A_M12_LockTrialAchievement_Reset
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: ""
+  TargetQty: 1.0
+  ItemName: 09A_M12_MedusaTrialActive
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: QuestMedusa
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
   SubTask5: ""
 - TaskID: 09A_M12_Container_1
   Type: ConsecutiveTaskContainer
@@ -32186,10 +32879,73 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
-  SubTask1: 09A_M15_SwapActive_Morgaine_EP_Off_Reset
-  SubTask2: 09A_M15_SwapActive_Tear_Reset
-  SubTask3: 09A_M15_SwapActive_EntangledArtemis_Reset
-  SubTask4: 09A_M15_SwapActive_Artemis_EP_Reset
+  SubTask1: 09A_M15_Lock_TrialAchievement_Reset
+  SubTask2: 09A_M15_SwapActive_Morgaine_EP_Off_Reset
+  SubTask3: 09A_M15_SwapActive_Tear_Reset
+  SubTask4: 09A_M15_SwapActive_EntangledArtemis_Reset
+  SubTask5: 09A_M15_SwapActive_Artemis_EP_Reset
+- TaskID: 09A_M15_Lock_TrialAchievement_Reset
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: ""
+  TargetQty: null
+  ItemName: 09A_M15_ArtemisTrialActive
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
   SubTask5: ""
 - TaskID: 09A_M15_SwapActive_Morgaine_EP_Off_Reset
   Type: TaskLockAchievement
@@ -38635,7 +39391,7 @@
   ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
-  CraftingRecipeId: 09a_S0_SporeElixir
+  CraftingRecipeId: 09A_S0_SporeElixir
   CraftAnyRecipe: ""
   InteractTag: ""
   UIScreenTag: ""
@@ -38824,7 +39580,7 @@
   ShouldCheckPoints: null
   GuranteedDropAttempts: null
   TargetThreshold: ""
-  CraftingRecipeId: 09a_S0_SporeElixir
+  CraftingRecipeId: 09A_S0_SporeElixir
   CraftAnyRecipe: ""
   InteractTag: ""
   UIScreenTag: ""
@@ -44332,7 +45088,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@09A_S6_MEInteractable"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 9556.8135 258.4576 40.8097
+  OverrideLocation: 9536.8867 229.5916 40.3283
   IsHidden: ""
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: true
@@ -53672,7 +54428,7 @@
   SubTask1: 09A_S17_Cannon
   SubTask2: 09A_S17_Cannon_InteractVFX_Off
   SubTask3: 09A_S17_SwapActive_Treadwell_Off
-  SubTask4: 09A_S17_SwapActive_Wagon_Fixed_Off
+  SubTask4: ""
   SubTask5: ""
 - TaskID: 09A_S17_Cannon
   Type: TaskGameEvent
@@ -53806,69 +54562,6 @@
   StayActive: ""
   TargetQty: null
   ItemName: SwapActive_09A_Treadwell_On
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: ""
-  EnforceLocationRequirement: null
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: null
-  ShouldCheckPoints: null
-  GuranteedDropAttempts: null
-  TargetThreshold: ""
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: null
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: ""
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: "1"
-  HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
-  DiegeticPinZOverride: null
-  SS_VariantName: ""
-  SS_StatePreset: null
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: null
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 09A_S17_SwapActive_Wagon_Fixed_Off
-  Type: TaskLockAchievement
-  FailOnCondition: ""
-  StayActive: ""
-  TargetQty: null
-  ItemName: SwapActive_09A_S17_Wagon_Fixed
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: ""
@@ -55573,9 +56266,9 @@
   ItemDropVC: 09A_S21_IntriguingArtifacts
   ItemDropProbability: 100.0
   ChestDropProbability: ""
-  EnforceLocationRequirement: null
+  EnforceLocationRequirement: true
   TerritoryID: ""
-  POITag: ""
+  POITag: corrupted_camp_40048
   GameModeID: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null

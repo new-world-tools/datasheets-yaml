@@ -11,12 +11,12 @@
   AfflictionPercent: ""
   Affixes: ""
   StatusEffect: ""
-  EffectOnlyOnDamage: ""
+  EffectOnlyOnDamage: null
   DeflectDamageID: ""
   CanCrit: null
   DmgCoef: 1.0
   DmgCoefHead: 0.0
-  DmgCoefCrit: ""
+  DmgCoefCrit: null
   PowerLevel: 2.0
   BlockPowerLevel: 2.0
   CritPowerLevel: 2.0
@@ -47,6 +47,7 @@
   StunBreakoutIncrement: 1.0
   HitRuneCharge: 0.1625
   HitBlockedRuneCharge: 0.325
+  DamageGuildAndGroup: ""
 - DamageID: Reaction_Breakout
   WeaponCategory: Fall
   IgnoreInvulnerable: 1.0
@@ -60,12 +61,12 @@
   AfflictionPercent: ""
   Affixes: ""
   StatusEffect: ""
-  EffectOnlyOnDamage: ""
+  EffectOnlyOnDamage: null
   DeflectDamageID: ""
   CanCrit: null
   DmgCoef: 0.0
   DmgCoefHead: 0.0
-  DmgCoefCrit: ""
+  DmgCoefCrit: null
   PowerLevel: 0.0
   BlockPowerLevel: 0.0
   CritPowerLevel: 0.0
@@ -96,6 +97,7 @@
   StunBreakoutIncrement: 1.0
   HitRuneCharge: 0.1625
   HitBlockedRuneCharge: 0.325
+  DamageGuildAndGroup: ""
 - DamageID: Attack_PlatformJump
   WeaponCategory: Sword
   IgnoreInvulnerable: 0.0
@@ -109,12 +111,12 @@
   AfflictionPercent: ""
   Affixes: ""
   StatusEffect: ""
-  EffectOnlyOnDamage: ""
+  EffectOnlyOnDamage: null
   DeflectDamageID: Deflect_Default
   CanCrit: null
   DmgCoef: 0.0
   DmgCoefHead: 0.0
-  DmgCoefCrit: ""
+  DmgCoefCrit: null
   PowerLevel: 1.0
   BlockPowerLevel: 1.0
   CritPowerLevel: 1.0
@@ -145,6 +147,7 @@
   StunBreakoutIncrement: 1.0
   HitRuneCharge: 0.1625
   HitBlockedRuneCharge: 0.325
+  DamageGuildAndGroup: ""
 - DamageID: Attack_IceJavelin
   WeaponCategory: Sword
   IgnoreInvulnerable: 0.0
@@ -158,12 +161,12 @@
   AfflictionPercent: ""
   Affixes: ""
   StatusEffect: ""
-  EffectOnlyOnDamage: ""
+  EffectOnlyOnDamage: null
   DeflectDamageID: Deflect_Default
   CanCrit: false
   DmgCoef: 0.5
   DmgCoefHead: 0.5
-  DmgCoefCrit: ""
+  DmgCoefCrit: null
   PowerLevel: 4.0
   BlockPowerLevel: 4.0
   CritPowerLevel: 4.0
@@ -194,6 +197,7 @@
   StunBreakoutIncrement: 1.0
   HitRuneCharge: 0.1625
   HitBlockedRuneCharge: 0.325
+  DamageGuildAndGroup: ""
 - DamageID: Attack_SwipeL
   WeaponCategory: Sword
   IgnoreInvulnerable: 0.0
@@ -207,12 +211,12 @@
   AfflictionPercent: ""
   Affixes: ""
   StatusEffect: ""
-  EffectOnlyOnDamage: ""
+  EffectOnlyOnDamage: null
   DeflectDamageID: Deflect_Default
   CanCrit: false
   DmgCoef: 0.7
   DmgCoefHead: 1.0
-  DmgCoefCrit: ""
+  DmgCoefCrit: null
   PowerLevel: 2.0
   BlockPowerLevel: 2.0
   CritPowerLevel: 2.0
@@ -243,6 +247,7 @@
   StunBreakoutIncrement: 1.0
   HitRuneCharge: 0.1625
   HitBlockedRuneCharge: 0.325
+  DamageGuildAndGroup: ""
 - DamageID: Attack_SwipeR
   WeaponCategory: Sword
   IgnoreInvulnerable: 0.0
@@ -256,12 +261,12 @@
   AfflictionPercent: ""
   Affixes: ""
   StatusEffect: ""
-  EffectOnlyOnDamage: ""
+  EffectOnlyOnDamage: null
   DeflectDamageID: Deflect_Default
   CanCrit: false
   DmgCoef: 0.7
   DmgCoefHead: 1.0
-  DmgCoefCrit: ""
+  DmgCoefCrit: null
   PowerLevel: 2.0
   BlockPowerLevel: 2.0
   CritPowerLevel: 2.0
@@ -292,6 +297,7 @@
   StunBreakoutIncrement: 1.0
   HitRuneCharge: 0.1625
   HitBlockedRuneCharge: 0.325
+  DamageGuildAndGroup: ""
 - DamageID: Attack_IceWave
   WeaponCategory: Sword
   IgnoreInvulnerable: 0.0
@@ -299,18 +305,18 @@
   IsRanged: ""
   SurfaceImpactEffect: Bullet
   AttackType: Heavy
-  DamageType: Slash
+  DamageType: Ice
   Affliction: ""
   AddAffliction: ""
   AfflictionPercent: ""
   Affixes: ""
   StatusEffect: ""
-  EffectOnlyOnDamage: ""
+  EffectOnlyOnDamage: null
   DeflectDamageID: Deflect_Default
   CanCrit: false
-  DmgCoef: 1.15
+  DmgCoef: 0.8
   DmgCoefHead: 1.0
-  DmgCoefCrit: ""
+  DmgCoefCrit: null
   PowerLevel: 2.0
   BlockPowerLevel: 2.0
   CritPowerLevel: 2.0
@@ -341,6 +347,7 @@
   StunBreakoutIncrement: 1.0
   HitRuneCharge: 0.1625
   HitBlockedRuneCharge: 0.325
+  DamageGuildAndGroup: ""
 - DamageID: Attack_UpperCutSlam
   WeaponCategory: Sword
   IgnoreInvulnerable: 0.0
@@ -354,12 +361,12 @@
   AfflictionPercent: ""
   Affixes: ""
   StatusEffect: ""
-  EffectOnlyOnDamage: ""
+  EffectOnlyOnDamage: null
   DeflectDamageID: Deflect_Default
   CanCrit: false
   DmgCoef: 0.9
   DmgCoefHead: 1.0
-  DmgCoefCrit: ""
+  DmgCoefCrit: null
   PowerLevel: 3.0
   BlockPowerLevel: 3.0
   CritPowerLevel: 3.0
@@ -390,6 +397,7 @@
   StunBreakoutIncrement: 1.0
   HitRuneCharge: 0.1625
   HitBlockedRuneCharge: 0.325
+  DamageGuildAndGroup: ""
 - DamageID: Attack_ChargeStab
   WeaponCategory: Sword
   IgnoreInvulnerable: 0.0
@@ -403,12 +411,12 @@
   AfflictionPercent: ""
   Affixes: ""
   StatusEffect: ""
-  EffectOnlyOnDamage: ""
+  EffectOnlyOnDamage: null
   DeflectDamageID: Deflect_Default
   CanCrit: false
   DmgCoef: 0.25
   DmgCoefHead: 1.0
-  DmgCoefCrit: ""
+  DmgCoefCrit: null
   PowerLevel: 3.0
   BlockPowerLevel: 3.0
   CritPowerLevel: 3.0
@@ -439,3 +447,104 @@
   StunBreakoutIncrement: 1.0
   HitRuneCharge: 0.1625
   HitBlockedRuneCharge: 0.325
+  DamageGuildAndGroup: ""
+- DamageID: PhaseTransition
+  WeaponCategory: Sword
+  IgnoreInvulnerable: 1.0
+  NoReaction: 0.0
+  IsRanged: ""
+  SurfaceImpactEffect: Bullet
+  AttackType: Heavy
+  DamageType: Strike
+  Affliction: ""
+  AddAffliction: ""
+  AfflictionPercent: ""
+  Affixes: ""
+  StatusEffect: AI_Ice_Torso_Boss_Phase_Transition
+  EffectOnlyOnDamage: null
+  DeflectDamageID: Deflect_Default
+  CanCrit: false
+  DmgCoef: 0.01
+  DmgCoefHead: 1.0
+  DmgCoefCrit: null
+  PowerLevel: 3.0
+  BlockPowerLevel: 3.0
+  CritPowerLevel: 3.0
+  HitStun: 22.0
+  BlockHitStun: 25.0
+  CritHitStun: 22.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.0
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.0
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.0
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.0
+  CritStaggerDmgModifier: ""
+  StaggerResistModifier: 5.0
+  CritTargetCameraShakeID: Small
+  TargetCameraShakeID: Small
+  ImpactRating: 2.0
+  BlockStaminaDmgMod: 1.15
+  BlockAbsorptionModifier: 1.0
+  StunBreakoutIncrement: 1.0
+  HitRuneCharge: 0.1625
+  HitBlockedRuneCharge: 0.325
+  DamageGuildAndGroup: ""
+- DamageID: Ice_Attack
+  WeaponCategory: Unarmed
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: ""
+  SurfaceImpactEffect: Bullet
+  AttackType: Heavy
+  DamageType: Ice
+  Affliction: ""
+  AddAffliction: ""
+  AfflictionPercent: ""
+  Affixes: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: true
+  DeflectDamageID: Deflect_Default
+  CanCrit: false
+  DmgCoef: 0.6
+  DmgCoefHead: 0.6
+  DmgCoefCrit: 0.6
+  PowerLevel: 3.0
+  BlockPowerLevel: 2.0
+  CritPowerLevel: 3.0
+  HitStun: 20.0
+  BlockHitStun: 25.0
+  CritHitStun: 20.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.0
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.0
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.0
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.0
+  CritStaggerDmgModifier: ""
+  StaggerResistModifier: 1.5
+  CritTargetCameraShakeID: Small
+  TargetCameraShakeID: Small
+  ImpactRating: 3.0
+  BlockStaminaDmgMod: 1.5
+  BlockAbsorptionModifier: 1.0
+  StunBreakoutIncrement: 1.0
+  HitRuneCharge: 0.1625
+  HitBlockedRuneCharge: 0.325
+  DamageGuildAndGroup: ""

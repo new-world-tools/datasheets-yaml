@@ -2286,6 +2286,28 @@
   ItemClass: ""
   DisplayDescription: ""
   EventId: ""
+- CategoricalProgressionId: DungeonGreatCleave00DifficultyExp23
+  DisplayName: ""
+  MaxLevel: 3.0
+  Expansion01MaxLevel: null
+  AutoRankUp: true
+  InfiniteLevels: false
+  RepeatMaxLevel: false
+  AllowOverflow: false
+  RankTableId: MutatorRankData
+  ProgressionPointPool: ""
+  PreSkillCapSkill: ""
+  PostSkillCapSkill: ""
+  EconomyTrackerType: ""
+  GameEventId: ""
+  AchievementIdOnMaxRank: ""
+  MinTrackedLevel: ""
+  ShowAsObjectiveReward: null
+  IconPath: ""
+  UsesGlobalProgressionMod: null
+  ItemClass: ""
+  DisplayDescription: ""
+  EventId: ""
 - CategoricalProgressionId: EventProgress
   DisplayName: "@ui_event_progress_name"
   MaxLevel: 4.0
@@ -2330,28 +2352,6 @@
   ItemClass: ""
   DisplayDescription: "@ui_event_reputation_description"
   EventId: SummerMedley
-- CategoricalProgressionId: HalloweenEventProgress
-  DisplayName: "@ui_event_halloween_progress_name"
-  MaxLevel: 2.0
-  Expansion01MaxLevel: null
-  AutoRankUp: true
-  InfiniteLevels: false
-  RepeatMaxLevel: false
-  AllowOverflow: false
-  RankTableId: HalloweenEventRanks
-  ProgressionPointPool: ""
-  PreSkillCapSkill: ""
-  PostSkillCapSkill: ""
-  EconomyTrackerType: ""
-  GameEventId: ""
-  AchievementIdOnMaxRank: ""
-  MinTrackedLevel: ""
-  ShowAsObjectiveReward: true
-  IconPath: lyshineui/images/icons/objectives/reward_eventProgress_large.dds
-  UsesGlobalProgressionMod: null
-  ItemClass: ""
-  DisplayDescription: "@ui_event_reputation_description"
-  EventId: NightveilHallow
 - CategoricalProgressionId: SeasonPass
   DisplayName: "@seasons_rewards_categorical_progression_id"
   MaxLevel: 100.0

@@ -1502,6 +1502,38 @@
   IsCollapsible: null
   UnchartedIcon: ""
   EventId: ""
+- TerritoryID: 40348.0
+  NameLocalizationKey: "@ui_poi_40348_wintervillage"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/event_village.png
+  CompassIcon: ""
+  DiscoveryRadius: 150.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: 2.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: ""
+  POITag: wintervillage_40348
+  AudioGroup: POI_State
+  AudioState: village_winter
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: ""
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/POI/mapTooltip_poi_wintervillage.png
+  GameMode: ""
+  GroupSize: null
+  IsCollapsible: true
+  UnchartedIcon: ""
+  EventId: WinterConvergence
 - TerritoryID: 40349.0
   NameLocalizationKey: "@ui_poi_summervillage_40349"
   BaseStructureLimit: ""
@@ -1810,6 +1842,70 @@
   POITag: spiritshrine_40359,fasttravel
   AudioGroup: POI_State
   AudioState: spiritshrine_40359
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Spirit Shrine
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_spiritshrine.png
+  GameMode: ""
+  GroupSize: null
+  IsCollapsible: null
+  UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
+  EventId: ""
+- TerritoryID: 40360.0
+  NameLocalizationKey: "@ui_poi_dungeon_tarn_40360"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/expedition_glacialtarn.png
+  CompassIcon: ""
+  DiscoveryRadius: 200.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: dungeon_tarn_40360_discovered
+  ChartedAchievement: dungeon_tarn_40360_charted
+  POITag: dungeon_tarn_40360
+  AudioGroup: POI_State
+  AudioState: Dungeon_Tarn
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: ""
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_DungeonGreatCleave00.png"
+  GameMode: DungeonGreatCleave00
+  GroupSize: null
+  IsCollapsible: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 40362.0
+  NameLocalizationKey: "@ui_poi_spiritshrine_40362"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine_bg.dds
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\spirit_shrine_charted.dds"
+  DiscoveryRadius: 150.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: spiritshrine_40362_charted
+  POITag: spiritshrine_40362,fasttravel
+  AudioGroup: POI_State
+  AudioState: spiritshrine_40362
   AudioBank: ""
   CanPlaceCamp: false
   DevName: Spirit Shrine

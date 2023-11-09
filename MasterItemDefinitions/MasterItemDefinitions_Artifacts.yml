@@ -23,7 +23,7 @@
   PerkSlot1: PerkID_Artifact_Set1_HeavyHead
   PerkSlot2: PerkID_Gem_EmptyGemSlot
   PerkSlot3: PerkID_Common_CDR
-  PerkSlot4: PerkID_Armor_RangeDefense_Physical
+  PerkSlot4: perkid_armor_dodgesuccess_fortify
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_HeavyHead
   Perk2: PerkID_Gem_EmptyGemSlot
@@ -120,7 +120,7 @@
   CanReplaceGem: 1.0
   PerkSlot1: PerkID_Artifact_Set1_HeavyChest
   PerkSlot2: PerkID_Gem_EmptyGemSlot
-  PerkSlot3: PerkID_Common_CDR
+  PerkSlot3: PerkID_Armor_DefBasic
   PerkSlot4: PerkID_Armor_RangeDefense_Physical
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_HeavyChest
@@ -316,8 +316,8 @@
   CanReplaceGem: 1.0
   PerkSlot1: PerkID_Artifact_Set1_HeavyLegs
   PerkSlot2: PerkID_Gem_EmptyGemSlot
-  PerkSlot3: PerkID_Common_CDR
-  PerkSlot4: PerkID_Armor_RangeDefense_Physical
+  PerkSlot3: PerkID_Armor_DurCC
+  PerkSlot4: PerkID_Armor_DefBasic
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_HeavyLegs
   Perk2: PerkID_Gem_EmptyGemSlot
@@ -390,6 +390,104 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+- ItemID: Artifact_Set1_HeavyFeet
+  Name: "@Artifact_Set1_HeavyFeet_Name"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_heavy_feet_slot"
+  Description: "@Artifact_Set1_HeavyFeet_Desc"
+  ItemClass: Artifact+EquippableFeet+Armor+Heavy
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: ""
+  GearScoreOverride: 700.0
+  MinGearScore: 700.0
+  MaxGearScore: 700.0
+  Tier: 5.0
+  ItemStatsRef: HeavyFeet_Balanced
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Artifact_Set1_HeavyFeet
+  PerkSlot2: PerkID_Gem_EmptyGemSlot
+  PerkSlot3: PerkID_Armor_DefGrit
+  PerkSlot4: PerkID_Armor_RangeDefense_Physical
+  PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  Perk1: PerkID_Artifact_Set1_HeavyFeet
+  Perk2: PerkID_Gem_EmptyGemSlot
+  Perk3: PerkID_Armor_DefGrit
+  Perk4: PerkID_Armor_RangeDefense_Physical
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  OnEquipObjectiveId: Objective_Artifact_Set1_HeavyFeet
+  ForceRarity: ""
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: m_legendaryheavycalves2_feet
+  ArmorAppearanceF: f_legendaryheavycalves2_feet
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  MaxStackSize: 1.0
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  NotDroppable: true
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  ContainerLevel: ""
+  ContainerGS: ""
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: false
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArmorSmall"
+  CraftingRecipe: SalvageSmall_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageAchievement: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 60.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Armour
+  AudioPlace: Play_UI_Drop_Armour
+  AudioUse: Play_UI_Use_Armour
+  AudioCreated: Play_UI_Created_Armour
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
 - ItemID: Artifact_Set1_MediumHead
   Name: "@Artifact_Set1_MediumHead_Name"
   ItemType: Armor
@@ -414,8 +512,8 @@
   CanReplaceGem: 1.0
   PerkSlot1: PerkID_Artifact_Set1_MediumHead
   PerkSlot2: PerkID_Gem_EmptyGemSlot
-  PerkSlot3: PerkID_Common_CDR
-  PerkSlot4: PerkID_Armor_RangeDefense_Physical
+  PerkSlot3: perkid_armor_durdot
+  PerkSlot4: perkid_armor_durdebuff
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_MediumHead
   Perk2: PerkID_Gem_EmptyGemSlot
@@ -513,7 +611,7 @@
   PerkSlot1: PerkID_Artifact_Set1_MediumChest
   PerkSlot2: PerkID_Gem_EmptyGemSlot
   PerkSlot3: PerkID_Common_CDR
-  PerkSlot4: PerkID_Armor_RangeDefense_Physical
+  PerkSlot4: PerkID_Armor_Health
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_MediumChest
   Perk2: PerkID_Gem_EmptyGemSlot
@@ -611,7 +709,7 @@
   PerkSlot1: PerkID_Artifact_Set1_MediumHands
   PerkSlot2: PerkID_Gem_EmptyGemSlot
   PerkSlot3: PerkID_Common_CDR
-  PerkSlot4: PerkID_Armor_RangeDefense_Physical
+  PerkSlot4: PerkID_Armor_RangeDefense_Elemental
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_MediumHands
   Perk2: PerkID_Gem_EmptyGemSlot
@@ -709,7 +807,7 @@
   PerkSlot1: PerkID_Artifact_Set1_MediumLegs
   PerkSlot2: PerkID_Gem_EmptyGemSlot
   PerkSlot3: PerkID_Common_CDR
-  PerkSlot4: PerkID_Armor_RangeDefense_Physical
+  PerkSlot4: PerkID_Armor_RangeDefense_Elemental
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_MediumLegs
   Perk2: PerkID_Gem_EmptyGemSlot
@@ -769,6 +867,104 @@
   DurabilityDmgOnDeath: 0.12
   DestroyOnBreak: 0.0
   Weight: 40.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Leather
+  AudioPlace: Play_UI_Drop_Leather
+  AudioUse: Play_UI_Use_Leather
+  AudioCreated: Play_UI_Created_Leather
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+- ItemID: Artifact_Set1_MediumFeet
+  Name: "@Artifact_Set1_MediumFeet_Name"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_normal_feet_slot"
+  Description: "@Artifact_Set1_MediumFeet_Desc"
+  ItemClass: Artifact+EquippableFeet+Armor+Medium
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: ""
+  GearScoreOverride: 700.0
+  MinGearScore: 700.0
+  MaxGearScore: 700.0
+  Tier: 5.0
+  ItemStatsRef: MediumFeet_Balanced
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Artifact_Set1_MediumFeet
+  PerkSlot2: PerkID_Gem_EmptyGemSlot
+  PerkSlot3: PerkID_Common_CDR
+  PerkSlot4: PerkID_Armor_DurCC
+  PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  Perk1: PerkID_Artifact_Set1_MediumFeet
+  Perk2: PerkID_Gem_EmptyGemSlot
+  Perk3: PerkID_Common_CDR
+  Perk4: PerkID_Armor_DurCC
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  OnEquipObjectiveId: Objective_Artifact_Set1_MediumFeet
+  ForceRarity: ""
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: m_legendarymediumcalves1_feet
+  ArmorAppearanceF: f_legendarymediumcalves1_feet
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  MaxStackSize: 1.0
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  NotDroppable: true
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  ContainerLevel: ""
+  ContainerGS: ""
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: false
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArmorSmall"
+  CraftingRecipe: SalvageSmall_LeatherT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageAchievement: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 30.0
   AcquisitionNotificationId: ""
   AudioPickup: Play_UI_Pickup_Leather
   AudioPlace: Play_UI_Drop_Leather
@@ -965,6 +1161,202 @@
   DurabilityDmgOnDeath: 0.12
   DestroyOnBreak: 0.0
   Weight: 0.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Cloth
+  AudioPlace: Play_UI_Drop_Cloth
+  AudioUse: Play_UI_Use_Cloth
+  AudioCreated: Play_UI_Created_Cloth
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+- ItemID: Artifact_Set1_LightHands
+  Name: "@Artifact_Set1_LightHands_Name"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_light_glove_slot"
+  Description: "@Artifact_Set1_LightHands_Desc"
+  ItemClass: Artifact+EquippableHands+Armor+Light
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: ""
+  GearScoreOverride: 700.0
+  MinGearScore: 700.0
+  MaxGearScore: 700.0
+  Tier: 5.0
+  ItemStatsRef: LightHands_Balanced
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Artifact_Set1_LightHands
+  PerkSlot2: PerkID_Gem_EmptyGemSlot
+  PerkSlot3: PerkID_Common_CDR
+  PerkSlot4: PerkID_Armor_DurCC
+  PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  Perk1: PerkID_Artifact_Set1_LightHands
+  Perk2: PerkID_Gem_EmptyGemSlot
+  Perk3: PerkID_Common_CDR
+  Perk4: PerkID_Armor_DurCC
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  OnEquipObjectiveId: Objective_Artifact_Set1_LightHands
+  ForceRarity: ""
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: m_nagacorruptedmedium_hands
+  ArmorAppearanceF: f_nagacorruptedmedium_hands
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  MaxStackSize: 1.0
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  NotDroppable: true
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  ContainerLevel: ""
+  ContainerGS: ""
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: false
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArmorSmall"
+  CraftingRecipe: SalvageSmall_ClothT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageAchievement: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 15.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Cloth
+  AudioPlace: Play_UI_Drop_Cloth
+  AudioUse: Play_UI_Use_Cloth
+  AudioCreated: Play_UI_Created_Cloth
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+- ItemID: Artifact_Set1_LightLegs
+  Name: "@Artifact_Set1_LightLegs_Name"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_light_legs_slot"
+  Description: "@Artifact_Set1_LightLegs_Desc"
+  ItemClass: Artifact+EquippableLegs+Armor+Light
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: ""
+  GearScoreOverride: 700.0
+  MinGearScore: 700.0
+  MaxGearScore: 700.0
+  Tier: 5.0
+  ItemStatsRef: LightLegs_Balanced
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Artifact_Set1_LightLegs
+  PerkSlot2: PerkID_Gem_EmptyGemSlot
+  PerkSlot3: PerkID_Armor_DefBasic
+  PerkSlot4: PerkID_Armor_RangeDefense_Physical
+  PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  Perk1: PerkID_Artifact_Set1_LightLegs
+  Perk2: PerkID_Gem_EmptyGemSlot
+  Perk3: PerkID_Armor_DefBasic
+  Perk4: PerkID_Armor_RangeDefense_Physical
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  OnEquipObjectiveId: Objective_Artifact_Set1_LightLegs
+  ForceRarity: ""
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: m_nagacorruptedmedium_legs
+  ArmorAppearanceF: f_nagacorruptedmedium_legs
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  MaxStackSize: 1.0
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  NotDroppable: true
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  ContainerLevel: ""
+  ContainerGS: ""
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: false
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArmorMedium"
+  CraftingRecipe: SalvageLarge_ClothT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageAchievement: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 20.0
   AcquisitionNotificationId: ""
   AudioPickup: Play_UI_Pickup_Cloth
   AudioPlace: Play_UI_Drop_Cloth
@@ -1468,6 +1860,104 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+- ItemID: Artifact_Set1_2hBow
+  Name: "@Artifact_Set1_2hBow_Name"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_bow"
+  Description: "@Artifact_Set1_2hBow_Desc"
+  ItemClass: Artifact+Weapon+EquippableTwoHand+Bow+Ranged+NoGem
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: ""
+  GearScoreOverride: 700.0
+  MinGearScore: 700.0
+  MaxGearScore: 700.0
+  Tier: 5.0
+  ItemStatsRef: BowT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Artifact_Set1_Bow
+  PerkSlot2: PerkID_Artifact_Set1_BowPerk
+  PerkSlot3: PerkID_Weapon_DodgeSuccess_LightningDMG
+  PerkSlot4: PerkID_Weapon_DmgBasic
+  PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  Perk1: PerkID_Artifact_Set1_Bow
+  Perk2: PerkID_Artifact_Set1_BowPerk
+  Perk3: PerkID_Weapon_DodgeSuccess_LightningDMG
+  Perk4: PerkID_Weapon_DmgBasic
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  OnEquipObjectiveId: Objective_Artifact_Set1_2hBow
+  ForceRarity: ""
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 2hBowS3Artifacts
+  WeaponAccessory: 2hBowT5
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: Items/Weapons/weapon
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  MaxStackSize: 1.0
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  NotDroppable: true
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  ContainerLevel: ""
+  ContainerGS: ""
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: false
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageEngineerLarge"
+  CraftingRecipe: SalvageSmall_TimberT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageAchievement: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 126.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Bow
+  AudioPlace: Play_UI_Drop_Bow
+  AudioUse: Play_UI_Use_Bow
+  AudioCreated: Play_UI_Created_Bow
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
 - ItemID: Artifact_Set1_2hMusket
   Name: "@Artifact_Set1_2hMusket_Name"
   ItemType: Weapon
@@ -1566,6 +2056,104 @@
   Notes: ""
   HideInLootTicker: ""
   HideFromRewardOpenPopup: ""
+- ItemID: Artifact_Set1_1hRoundShield
+  Name: "@Artifact_Set1_1hRoundShield_Name"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_roundshield"
+  Description: "@Artifact_Set1_1hRoundShield_Desc"
+  ItemClass: Artifact+Weapon+EquippableOffHand+Shield+RoundShield+NoGem
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: ""
+  GearScoreOverride: 700.0
+  MinGearScore: 700.0
+  MaxGearScore: 700.0
+  Tier: 5.0
+  ItemStatsRef: 1hShieldAT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Artifact_Set1_RoundShield
+  PerkSlot2: PerkID_Ability_Shield_ShieldBash
+  PerkSlot3: PerkID_Ability_Shield_ShieldRush
+  PerkSlot4: PerkID_Weapon_EmpowerOnCrit
+  PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  Perk1: PerkID_Artifact_Set1_RoundShield
+  Perk2: PerkID_Ability_Shield_ShieldBash
+  Perk3: PerkID_Ability_Shield_ShieldRush
+  Perk4: PerkID_Weapon_EmpowerOnCrit
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  OnEquipObjectiveId: Objective_Artifact_Set1_1hRoundShield
+  ForceRarity: ""
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 1hRoundShieldS3Artifacts
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: Items/Weapons/weapon
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  MaxStackSize: 1.0
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  NotDroppable: true
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  ContainerLevel: ""
+  ContainerGS: ""
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: false
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageWeaponSmall"
+  CraftingRecipe: SalvageLarge_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageAchievement: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 48.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Firearm
+  AudioPlace: Play_UI_Drop_Firearm
+  AudioUse: Play_UI_Use_Firearm
+  AudioCreated: Play_UI_Created_Firearm
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
 - ItemID: Artifact_Set1_1hKiteShield
   Name: "@Artifact_Set1_1hKiteShield_Name"
   ItemType: Weapon
@@ -1591,7 +2179,7 @@
   PerkSlot1: PerkID_Artifact_Set1_KiteShield
   PerkSlot2: PerkID_Shield_Kite_OnBlockDmg
   PerkSlot3: PerkID_Shield_Kite_OnBlockHeal
-  PerkSlot4: PerkID_Shield_Kite_OnBlockDmg
+  PerkSlot4: PerkID_Weapon_HealOnDmg
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_KiteShield
   Perk2: PerkID_Shield_Kite_OnBlockDmg
@@ -1786,12 +2374,12 @@
   CanReplaceGem: 1.0
   PerkSlot1: PerkID_Artifact_Set1_FireStaff
   PerkSlot2: PerkID_Artifact_Set1_FirestaffPerk
-  PerkSlot3: PerkID_Ability_FireStaff_Incinerate
+  PerkSlot3: PerkID_Weapon_EmpowerOnCrit
   PerkSlot4: PerkID_Weapon_DmgCrit
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_FireStaff
   Perk2: PerkID_Artifact_Set1_FirestaffPerk
-  Perk3: PerkID_Ability_FireStaff_Incinerate
+  Perk3: PerkID_Weapon_EmpowerOnCrit
   Perk4: PerkID_Weapon_DmgCrit
   Perk5: ""
   PerkBucket1: ""
@@ -1809,6 +2397,104 @@
   ArmorAppearanceM: ""
   ArmorAppearanceF: ""
   WeaponAppearanceOverride: 2hFireStaffS3Artifacts
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: Items/Weapons/weapon
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  MaxStackSize: 1.0
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  NotDroppable: true
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  ContainerLevel: ""
+  ContainerGS: ""
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: false
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArcane"
+  CraftingRecipe: SalvageSmall_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageAchievement: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 128.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Generic
+  AudioPlace: Play_UI_Drop_Generic
+  AudioUse: Play_UI_Use_Generic
+  AudioCreated: Play_UI_Created_Generic
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+- ItemID: Artifact_Set1_2hStaffLife
+  Name: "@Artifact_Set1_2hStaffLife_Name"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_lifestaff"
+  Description: "@Artifact_Set1_2hStaffLife_Desc"
+  ItemClass: Artifact+Weapon+EquippableMainHand+LifeStaff+Magic+NoGem
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: ""
+  GearScoreOverride: 700.0
+  MinGearScore: 700.0
+  MaxGearScore: 700.0
+  Tier: 5.0
+  ItemStatsRef: LifeStaffT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Artifact_Set1_LifeStaff
+  PerkSlot2: PerkID_Ability_LifeStaff_Beacon
+  PerkSlot3: PerkID_Weapon_CDRBasic
+  PerkSlot4: PerkID_Weapon_DmgBasic
+  PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  Perk1: PerkID_Artifact_Set1_LifeStaff
+  Perk2: PerkID_Ability_LifeStaff_Beacon
+  Perk3: PerkID_Weapon_CDRBasic
+  Perk4: PerkID_Weapon_DmgBasic
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  OnEquipObjectiveId: Objective_Artifact_Set1_2hStaffLife
+  ForceRarity: ""
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 2hLifeStaffS3Artifacts
   WeaponAccessory: ""
   ConfirmDestroy: ""
   ConfirmBeforeUse: 0.0
@@ -2051,6 +2737,104 @@
   AudioDestroyed: Play_UI_item_broken
   MannequinTag: ""
   SoundTableID: 1H_Rapier
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+- ItemID: Artifact_Set1_1hGauntletIce
+  Name: "@Artifact_Set1_1hGauntletIce_Name"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_icegauntlet"
+  Description: "@Artifact_Set1_1hGauntletIce_Desc"
+  ItemClass: Artifact+Weapon+EquippableMainHand+IceMagic+Magic
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: ""
+  GearScoreOverride: 700.0
+  MinGearScore: 700.0
+  MaxGearScore: 700.0
+  Tier: 5.0
+  ItemStatsRef: 1hElementalGauntlet_IceT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Artifact_Set1_IceGauntlet
+  PerkSlot2: PerkID_Gem_EmptyGemSlot
+  PerkSlot3: PerkID_Ability_IceGauntlet_UnbrokenWinds
+  PerkSlot4: PerkID_Weapon_CDRBasic
+  PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  Perk1: PerkID_Artifact_Set1_IceGauntlet
+  Perk2: PerkID_Gem_EmptyGemSlot
+  Perk3: PerkID_Ability_IceGauntlet_UnbrokenWinds
+  Perk4: PerkID_Weapon_CDRBasic
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  OnEquipObjectiveId: Objective_Artifact_Set1_1hGauntletIce
+  ForceRarity: ""
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 2hIceGauntletS3Artifacts
+  WeaponAccessory: 2hIceGauntletS3Artifacts
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  MaxStackSize: 1.0
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  NotDroppable: true
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  ContainerLevel: ""
+  ContainerGS: ""
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: false
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArcane"
+  CraftingRecipe: SalvageSmall_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageAchievement: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 48.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Generic
+  AudioPlace: Play_UI_Drop_Generic
+  AudioUse: Play_UI_Use_Generic
+  AudioCreated: Play_UI_Created_Generic
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
   WarboardGatherStat: ""
   WarboardDepositStat: ""
   Notes: ""
@@ -2699,6 +3483,202 @@
   HousingTags: ""
   IconPath: lyshineui/images/icons/items/Armor/LostAmulet10.png
   HiResIconPath: lyshineui/images/icons/items_hires/LostAmulet10.png
+  MaxStackSize: 1.0
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  NotDroppable: true
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  ContainerLevel: ""
+  ContainerGS: ""
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: false
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageJewelry"
+  CraftingRecipe: SalvageSmall_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageAchievement: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 1.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Generic
+  AudioPlace: Play_UI_Drop_Generic
+  AudioUse: Play_UI_Use_Generic
+  AudioCreated: Play_UI_Created_Generic
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+- ItemID: Artifact_Set1_Earring2
+  Name: "@Artifact_Set1_Earring2_Name"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_earringjewelry"
+  Description: "@Artifact_Set1_Earring2_Desc"
+  ItemClass: Artifact+EquippableToken+Jewelry
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: ""
+  GearScoreOverride: 700.0
+  MinGearScore: 700.0
+  MaxGearScore: 700.0
+  Tier: 5.0
+  ItemStatsRef: EarringCONT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Artifact_Set1_Earring2
+  PerkSlot2: PerkID_Gem_EmptyGemSlot
+  PerkSlot3: PerkID_Common_CDR
+  PerkSlot4: PerkID_Earring_OnHeartHeal
+  PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  Perk1: PerkID_Artifact_Set1_Earring2
+  Perk2: PerkID_Gem_EmptyGemSlot
+  Perk3: PerkID_Common_CDR
+  Perk4: PerkID_Earring_OnHeartHeal
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  OnEquipObjectiveId: Objective_Artifact_Set1_Earring2
+  ForceRarity: ""
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: lyshineui/images/icons/items/Armor/LostEarring20.png
+  HiResIconPath: lyshineui/images/icons/items_hires/LostEarring20.png
+  MaxStackSize: 1.0
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  NotDroppable: true
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  ContainerLevel: ""
+  ContainerGS: ""
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: false
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageJewelry"
+  CraftingRecipe: SalvageSmall_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageAchievement: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 1.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Generic
+  AudioPlace: Play_UI_Drop_Generic
+  AudioUse: Play_UI_Use_Generic
+  AudioCreated: Play_UI_Created_Generic
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+- ItemID: Artifact_Set1_Ring2
+  Name: "@Artifact_Set1_Ring2_Name"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_ringjewelry"
+  Description: "@Artifact_Set1_Ring2_Desc"
+  ItemClass: Artifact+EquippableRing+Jewelry
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: ""
+  GearScoreOverride: 700.0
+  MinGearScore: 700.0
+  MaxGearScore: 700.0
+  Tier: 5.0
+  ItemStatsRef: RingCONT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Artifact_Set1_Ring2
+  PerkSlot2: PerkID_Gem_EmptyGemSlot
+  PerkSlot3: PerkID_Common_CDR
+  PerkSlot4: PerkID_Ring_MaxStamina
+  PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  Perk1: PerkID_Artifact_Set1_Ring2
+  Perk2: PerkID_Gem_EmptyGemSlot
+  Perk3: PerkID_Common_CDR
+  Perk4: PerkID_Ring_MaxStamina
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  OnEquipObjectiveId: Objective_Artifact_Set1_Ring2
+  ForceRarity: ""
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: lyshineui/images/icons/items/Armor/AncientRing27.png
+  HiResIconPath: lyshineui/images/icons/items_hires/AncientRing27.png
   MaxStackSize: 1.0
   DeathDropPercentage: 0.0
   Nonremovable: ""

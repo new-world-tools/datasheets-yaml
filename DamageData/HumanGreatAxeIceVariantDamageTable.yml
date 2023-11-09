@@ -1,121 +1,125 @@
-- DamageID: Left_Axe_Swing
-  WeaponCategory: ClubSpriggan
+- DamageID: Greataxe_Whirlwind
+  WeaponCategory: Axe
   IgnoreInvulnerable: 0.0
   NoReaction: 0.0
   IsRanged: ""
   SurfaceImpactEffect: Bullet
   AttackType: Light
-  Affixes: ""
-  DamageType: Strike
-  EffectOnlyOnDamage: true
-  StatusEffect: AI_HalloweenBoss_PumpkinPlague
-  DeflectDamageID: Default
-  CanCrit: false
-  DmgCoef: 0.4
-  DmgCoefHead: 1.0
-  DmgCoefCrit: 1.0
-  PowerLevel: 0.0
-  BlockPowerLevel: 0.0
-  CritPowerLevel: 0.0
-  HitStun: 7.0
-  BlockHitStun: 3.0
-  CritHitStun: 7.0
-  ImpactDistanceX: 0.0
-  ImpactDistanceY: 2.0
-  ImpactDistanceZ: 0.0
-  ImpactDecayRate: 0.8
-  BlockImpactDistanceX: 0.0
-  BlockImpactDistanceY: 0.25
-  BlockImpactDistanceZ: 0.0
-  BlockImpactDecayRate: 0.8
-  CritImpactDistanceX: 0.0
-  CritImpactDistanceY: 0.5
-  CritImpactDistanceZ: 0.0
-  CritImpactDecayRate: 0.8
-  AddDmg: 0.0
-  StaggerDmgModifier: 1.0
-  CritStaggerDmgModifier: ""
-  StaggerResistModifier: 1.0
-  TargetCameraShakeID: Small
-  CritTargetCameraShakeID: Small
-  ImpactRating: 1.0
-  BlockStaminaDmgMod: 0.35
-  BlockAbsorptionModifier: 1.0
-  HitRuneCharge: 0.1625
-  HitBlockedRuneCharge: 0.325
-- DamageID: Right_Axe_Swing
-  WeaponCategory: ClubSpriggan
-  IgnoreInvulnerable: 0.0
-  NoReaction: 0.0
-  IsRanged: ""
-  SurfaceImpactEffect: Bullet
-  AttackType: Heavy
-  Affixes: ""
-  DamageType: Strike
-  EffectOnlyOnDamage: true
-  StatusEffect: AI_HalloweenBoss_PumpkinPlague
-  DeflectDamageID: Default
-  CanCrit: false
-  DmgCoef: 0.5
-  DmgCoefHead: 1.0
-  DmgCoefCrit: 1.0
-  PowerLevel: 0.0
-  BlockPowerLevel: 0.0
-  CritPowerLevel: 0.0
-  HitStun: 10.0
-  BlockHitStun: 7.0
-  CritHitStun: 10.0
-  ImpactDistanceX: 0.0
-  ImpactDistanceY: 2.0
-  ImpactDistanceZ: 0.0
-  ImpactDecayRate: 0.8
-  BlockImpactDistanceX: 0.0
-  BlockImpactDistanceY: 0.5
-  BlockImpactDistanceZ: 0.0
-  BlockImpactDecayRate: 0.8
-  CritImpactDistanceX: 0.0
-  CritImpactDistanceY: 0.75
-  CritImpactDistanceZ: 0.0
-  CritImpactDecayRate: 0.8
-  AddDmg: 0.0
-  StaggerDmgModifier: 1.0
-  CritStaggerDmgModifier: ""
-  StaggerResistModifier: 1.0
-  TargetCameraShakeID: Small
-  CritTargetCameraShakeID: Small
-  ImpactRating: 1.0
-  BlockStaminaDmgMod: 0.5
-  BlockAbsorptionModifier: 1.0
-  HitRuneCharge: 0.1625
-  HitBlockedRuneCharge: 0.325
-- DamageID: Close_Range_Attack
-  WeaponCategory: ClubSpriggan
-  IgnoreInvulnerable: 0.0
-  NoReaction: 0.0
-  IsRanged: ""
-  SurfaceImpactEffect: Bullet
-  AttackType: Light
-  Affixes: ""
-  DamageType: Strike
-  EffectOnlyOnDamage: true
-  StatusEffect: AI_HalloweenBoss_PumpkinPlague
-  DeflectDamageID: Default
+  DamageType: Slash
+  Affixes: AI_IceDMG_50
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  DeflectDamageID: Deflect_Default
   CanCrit: false
   DmgCoef: 0.3
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
   PowerLevel: 0.0
-  BlockPowerLevel: 0.0
+  BlockPowerLevel: 1.0
   CritPowerLevel: 0.0
-  HitStun: 5.0
-  BlockHitStun: 2.0
-  CritHitStun: 5.0
+  HitStun: 10.0
+  BlockHitStun: 10.0
+  CritHitStun: 10.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.25
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.25
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.2
+  CritStaggerDmgModifier: 0.2
+  StaggerResistModifier: 0.0
+  TargetCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritTargetCameraShakeID: Small
+  ImpactRating: 3.0
+  BlockStaminaDmgMod: 0.25
+  BlockAbsorptionModifier: 1.0
+  StunBreakoutIncrement: 0.0
+  HitRuneCharge: 0.1625
+  HitBlockedRuneCharge: 0.325
+- DamageID: Greataxe_Execution
+  WeaponCategory: Axe
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: ""
+  SurfaceImpactEffect: Bullet
+  AttackType: Heavy
+  DamageType: Slash
+  Affixes: AI_IceDMG_50
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  DeflectDamageID: Deflect_Default
+  CanCrit: false
+  DmgCoef: 1.5
+  DmgCoefHead: 1.0
+  DmgCoefCrit: 1.0
+  PowerLevel: 3.0
+  BlockPowerLevel: 3.0
+  CritPowerLevel: 3.0
+  HitStun: 30.0
+  BlockHitStun: 20.0
+  CritHitStun: 30.0
   ImpactDistanceX: 0.0
   ImpactDistanceY: 1.0
   ImpactDistanceZ: 0.0
   ImpactDecayRate: 0.8
   BlockImpactDistanceX: 0.0
-  BlockImpactDistanceY: 0.1
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 1.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.3
+  CritStaggerDmgModifier: 0.3
+  StaggerResistModifier: 0.0
+  TargetCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritTargetCameraShakeID: Small
+  ImpactRating: 3.0
+  BlockStaminaDmgMod: 1.5
+  BlockAbsorptionModifier: 1.0
+  StunBreakoutIncrement: 0.0
+  HitRuneCharge: 0.1625
+  HitBlockedRuneCharge: 0.325
+- DamageID: Greataxe_Slash
+  WeaponCategory: Axe
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: ""
+  SurfaceImpactEffect: Bullet
+  AttackType: Light
+  DamageType: Slash
+  Affixes: AI_IceDMG_50
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  DeflectDamageID: Deflect_Default
+  CanCrit: false
+  DmgCoef: 0.35
+  DmgCoefHead: 1.0
+  DmgCoefCrit: 1.0
+  PowerLevel: 0.0
+  BlockPowerLevel: 1.0
+  CritPowerLevel: 0.0
+  HitStun: 10.0
+  BlockHitStun: 5.0
+  CritHitStun: 10.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
   BlockImpactDistanceZ: 0.0
   BlockImpactDecayRate: 0.8
   CritImpactDistanceX: 0.0
@@ -123,104 +127,157 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
-  CritStaggerDmgModifier: ""
-  StaggerResistModifier: 1.0
+  StaggerDmgModifier: 0.0
+  CritStaggerDmgModifier: 0.0
+  StaggerResistModifier: 0.0
   TargetCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
   CritTargetCameraShakeID: Small
-  ImpactRating: 1.0
-  BlockStaminaDmgMod: 0.25
+  ImpactRating: 3.0
+  BlockStaminaDmgMod: 0.33
   BlockAbsorptionModifier: 1.0
+  StunBreakoutIncrement: 1.0
   HitRuneCharge: 0.1625
   HitBlockedRuneCharge: 0.325
-- DamageID: Overhead_Axe_Cleave
-  WeaponCategory: ClubSpriggan
+- DamageID: Icey_Toss
+  WeaponCategory: Axe
   IgnoreInvulnerable: 0.0
   NoReaction: 0.0
   IsRanged: ""
   SurfaceImpactEffect: Bullet
-  AttackType: Heavy
+  AttackType: Light
+  DamageType: Slash
+  Affixes: AI_IceDMG_50
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  DeflectDamageID: Deflect_Default
+  CanCrit: false
+  DmgCoef: 0.3
+  DmgCoefHead: 1.0
+  DmgCoefCrit: 1.0
+  PowerLevel: 0.0
+  BlockPowerLevel: 1.0
+  CritPowerLevel: 0.0
+  HitStun: 10.0
+  BlockHitStun: 10.0
+  CritHitStun: 10.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.25
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.2
+  CritStaggerDmgModifier: 0.2
+  StaggerResistModifier: 0.0
+  TargetCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritTargetCameraShakeID: Small
+  ImpactRating: 3.0
+  BlockStaminaDmgMod: 0.33
+  BlockAbsorptionModifier: 1.0
+  StunBreakoutIncrement: 0.0
+  HitRuneCharge: 0.1625
+  HitBlockedRuneCharge: 0.325
+- DamageID: Icey_Toss_Pull
+  WeaponCategory: Axe
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: ""
+  SurfaceImpactEffect: Bullet
+  AttackType: Light
+  DamageType: Slash
+  Affixes: AI_IceDMG_50
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  DeflectDamageID: Deflect_Default
+  CanCrit: false
+  DmgCoef: 0.4
+  DmgCoefHead: 1.0
+  DmgCoefCrit: 1.0
+  PowerLevel: 3.0
+  BlockPowerLevel: 3.0
+  CritPowerLevel: 0.0
+  HitStun: 35.0
+  BlockHitStun: 10.0
+  CritHitStun: 10.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: -3.0
+  ImpactDistanceZ: 0.2
+  ImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.25
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.2
+  CritStaggerDmgModifier: 0.2
+  StaggerResistModifier: 0.0
+  TargetCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritTargetCameraShakeID: Small
+  ImpactRating: 3.0
+  BlockStaminaDmgMod: 0.7
+  BlockAbsorptionModifier: 1.0
+  StunBreakoutIncrement: 0.0
+  HitRuneCharge: 0.1625
+  HitBlockedRuneCharge: 0.325
+- DamageID: Fall
+  WeaponCategory: Fall
+  IgnoreInvulnerable: 1.0
+  NoReaction: 1.0
+  IsRanged: ""
+  SurfaceImpactEffect: Bullet
+  AttackType: ""
+  DamageType: Falling
   Affixes: ""
-  DamageType: Strike
-  EffectOnlyOnDamage: true
-  StatusEffect: AI_HalloweenBoss_PumpkinPlague
-  DeflectDamageID: Default
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  DeflectDamageID: ""
   CanCrit: false
   DmgCoef: 1.0
-  DmgCoefHead: 1.0
+  DmgCoefHead: 0.0
   DmgCoefCrit: 1.0
-  PowerLevel: 5.0
+  PowerLevel: 2.0
   BlockPowerLevel: 2.0
-  CritPowerLevel: 5.0
-  HitStun: 25.0
-  BlockHitStun: 18.0
-  CritHitStun: 25.0
+  CritPowerLevel: 2.0
+  HitStun: 0.0
+  BlockHitStun: 0.0
+  CritHitStun: 0.0
   ImpactDistanceX: 0.0
-  ImpactDistanceY: 2.0
+  ImpactDistanceY: 0.0
   ImpactDistanceZ: 0.0
-  ImpactDecayRate: 0.8
+  ImpactDecayRate: 0.0
   BlockImpactDistanceX: 0.0
-  BlockImpactDistanceY: 0.05
+  BlockImpactDistanceY: 0.0
   BlockImpactDistanceZ: 0.0
-  BlockImpactDecayRate: 0.8
+  BlockImpactDecayRate: 0.0
   CritImpactDistanceX: 0.0
-  CritImpactDistanceY: 0.25
+  CritImpactDistanceY: 0.0
   CritImpactDistanceZ: 0.0
-  CritImpactDecayRate: 0.8
+  CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
-  CritStaggerDmgModifier: ""
-  StaggerResistModifier: 1.0
+  StaggerDmgModifier: 0.0
+  CritStaggerDmgModifier: null
+  StaggerResistModifier: 0.0
   TargetCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
   CritTargetCameraShakeID: Small
-  ImpactRating: 2.0
-  BlockStaminaDmgMod: 1.15
+  ImpactRating: 0.0
+  BlockStaminaDmgMod: 1.0
   BlockAbsorptionModifier: 1.0
-  HitRuneCharge: 0.1625
-  HitBlockedRuneCharge: 0.325
-- DamageID: 3Hit_Combo_3rdAttack
-  WeaponCategory: ClubSpriggan
-  IgnoreInvulnerable: 0.0
-  NoReaction: 0.0
-  IsRanged: ""
-  SurfaceImpactEffect: Bullet
-  AttackType: Heavy
-  Affixes: ""
-  DamageType: Strike
-  EffectOnlyOnDamage: true
-  StatusEffect: AI_HalloweenBoss_PumpkinPlague
-  DeflectDamageID: Default
-  CanCrit: false
-  DmgCoef: 0.75
-  DmgCoefHead: 1.0
-  DmgCoefCrit: 1.0
-  PowerLevel: 4.0
-  BlockPowerLevel: 1.0
-  CritPowerLevel: 4.0
-  HitStun: 25.0
-  BlockHitStun: 18.0
-  CritHitStun: 25.0
-  ImpactDistanceX: 0.0
-  ImpactDistanceY: 3.0
-  ImpactDistanceZ: 0.0
-  ImpactDecayRate: 0.8
-  BlockImpactDistanceX: 0.0
-  BlockImpactDistanceY: 1.0
-  BlockImpactDistanceZ: 0.0
-  BlockImpactDecayRate: 0.8
-  CritImpactDistanceX: 0.0
-  CritImpactDistanceY: 1.5
-  CritImpactDistanceZ: 0.0
-  CritImpactDecayRate: 0.8
-  AddDmg: 0.0
-  StaggerDmgModifier: 1.0
-  CritStaggerDmgModifier: ""
-  StaggerResistModifier: 1.0
-  TargetCameraShakeID: Small
-  CritTargetCameraShakeID: Small
-  ImpactRating: 2.0
-  BlockStaminaDmgMod: 0.75
-  BlockAbsorptionModifier: 1.0
+  StunBreakoutIncrement: 1.0
   HitRuneCharge: 0.1625
   HitBlockedRuneCharge: 0.325
 - DamageID: Reaction_Breakout
@@ -230,15 +287,15 @@
   IsRanged: ""
   SurfaceImpactEffect: Bullet
   AttackType: ""
-  Affixes: ""
   DamageType: Falling
-  EffectOnlyOnDamage: null
+  Affixes: ""
   StatusEffect: ""
-  DeflectDamageID: Default
+  EffectOnlyOnDamage: ""
+  DeflectDamageID: ""
   CanCrit: false
   DmgCoef: 0.0
   DmgCoefHead: 0.0
-  DmgCoefCrit: null
+  DmgCoefCrit: 0.0
   PowerLevel: 0.0
   BlockPowerLevel: 0.0
   CritPowerLevel: 0.0
@@ -259,102 +316,14 @@
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
   StaggerDmgModifier: 0.0
-  CritStaggerDmgModifier: ""
+  CritStaggerDmgModifier: null
   StaggerResistModifier: 10.0
   TargetCameraShakeID: Small
-  CritTargetCameraShakeID: Small
-  ImpactRating: 0.0
-  BlockStaminaDmgMod: null
-  BlockAbsorptionModifier: null
-  HitRuneCharge: 0.1625
-  HitBlockedRuneCharge: 0.325
-- DamageID: Reaction_Breakout_Attack
-  WeaponCategory: ClubSpriggan
-  IgnoreInvulnerable: 1.0
-  NoReaction: 1.0
-  IsRanged: ""
-  SurfaceImpactEffect: Bullet
-  AttackType: Light
-  Affixes: ""
-  DamageType: Strike
-  EffectOnlyOnDamage: null
-  StatusEffect: ""
-  DeflectDamageID: Default
-  CanCrit: false
-  DmgCoef: 0.3
-  DmgCoefHead: 1.0
-  DmgCoefCrit: 1.0
-  PowerLevel: 0.0
-  BlockPowerLevel: 0.0
-  CritPowerLevel: 0.0
-  HitStun: 0.0
-  BlockHitStun: 0.0
-  CritHitStun: 0.0
-  ImpactDistanceX: 0.0
-  ImpactDistanceY: 0.0
-  ImpactDistanceZ: 0.0
-  ImpactDecayRate: 0.0
-  BlockImpactDistanceX: 0.0
-  BlockImpactDistanceY: 0.0
-  BlockImpactDistanceZ: 0.0
-  BlockImpactDecayRate: 0.0
-  CritImpactDistanceX: 0.0
-  CritImpactDistanceY: 0.0
-  CritImpactDistanceZ: 0.0
-  CritImpactDecayRate: 0.0
-  AddDmg: 0.0
-  StaggerDmgModifier: 1.0
-  CritStaggerDmgModifier: ""
-  StaggerResistModifier: 10.0
-  TargetCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
   CritTargetCameraShakeID: Small
   ImpactRating: 1.0
   BlockStaminaDmgMod: null
   BlockAbsorptionModifier: null
-  HitRuneCharge: 0.1625
-  HitBlockedRuneCharge: 0.325
-- DamageID: Deflect_Default
-  WeaponCategory: Unarmed
-  IgnoreInvulnerable: 1.0
-  NoReaction: 0.0
-  IsRanged: ""
-  SurfaceImpactEffect: ""
-  AttackType: ""
-  Affixes: ""
-  DamageType: Deflect
-  EffectOnlyOnDamage: null
-  StatusEffect: ""
-  DeflectDamageID: Deflect_Default
-  CanCrit: null
-  DmgCoef: 0.0
-  DmgCoefHead: 0.0
-  DmgCoefCrit: null
-  PowerLevel: 2.0
-  BlockPowerLevel: 2.0
-  CritPowerLevel: 2.0
-  HitStun: 0.0
-  BlockHitStun: 0.0
-  CritHitStun: null
-  ImpactDistanceX: 0.0
-  ImpactDistanceY: 1.0
-  ImpactDistanceZ: 0.0
-  ImpactDecayRate: 0.8
-  BlockImpactDistanceX: 0.0
-  BlockImpactDistanceY: 0.0
-  BlockImpactDistanceZ: 0.0
-  BlockImpactDecayRate: 0.0
-  CritImpactDistanceX: null
-  CritImpactDistanceY: null
-  CritImpactDistanceZ: null
-  CritImpactDecayRate: null
-  AddDmg: 0.0
-  StaggerDmgModifier: 0.0
-  CritStaggerDmgModifier: ""
-  StaggerResistModifier: 0.0
-  TargetCameraShakeID: Small
-  CritTargetCameraShakeID: ""
-  ImpactRating: 0.0
-  BlockStaminaDmgMod: 0.45
-  BlockAbsorptionModifier: 1.0
+  StunBreakoutIncrement: 0.0
   HitRuneCharge: 0.1625
   HitBlockedRuneCharge: 0.325

@@ -1,84 +1,336 @@
-- CutsceneCameraId: WideShot
-  CameraState: NormalCamera
-  CameraStateOrigin: 1 0 2
-  CameraStateLookAt: 1 0 0
-  EnterBlendTime: 2.0
-  ExitBlendTime: null
-  HideUIOnTrigger: "true"
-  OriginEnterBlendTime: null
-  OriginExitBlendTime: null
-  UseAbsolutePos: ""
-  HidePlayerAvatar: null
-  HideNearbyPlayerAvatars: null
-  BlockPlayerInput: ""
-  CancelInventory: ""
-  InterruptInCombat: ""
-  InterruptOnMovement: ""
-  CanSkip: ""
-  PlayFadeEffect: null
-  BannerTitleLabelText: ""
-  BannerTitleText: ""
-  BannerDescriptionText: ""
-- CutsceneCameraId: CloseShot
-  CameraState: UI_CustomDialogue
-  CameraStateOrigin: 3 0 2
-  CameraStateLookAt: 0 0 0
-  EnterBlendTime: 3.0
-  ExitBlendTime: null
-  HideUIOnTrigger: "false"
-  OriginEnterBlendTime: null
-  OriginExitBlendTime: null
-  UseAbsolutePos: ""
-  HidePlayerAvatar: null
-  HideNearbyPlayerAvatars: null
-  BlockPlayerInput: ""
-  CancelInventory: ""
-  InterruptInCombat: ""
-  InterruptOnMovement: ""
-  CanSkip: ""
-  PlayFadeEffect: null
-  BannerTitleLabelText: ""
-  BannerTitleText: ""
-  BannerDescriptionText: ""
-- CutsceneCameraId: CU
-  CameraState: NPC_CU_CamState
-  CameraStateOrigin: -.15 .2 1.65
-  CameraStateLookAt: -.22 0 1.65
-  EnterBlendTime: 0.0
-  ExitBlendTime: 0.0
-  HideUIOnTrigger: "FALSE"
-  OriginEnterBlendTime: 0.0
-  OriginExitBlendTime: 0.0
-  UseAbsolutePos: ""
-  HidePlayerAvatar: true
-  HideNearbyPlayerAvatars: true
-  BlockPlayerInput: ""
-  CancelInventory: ""
-  InterruptInCombat: ""
-  InterruptOnMovement: ""
-  CanSkip: ""
-  PlayFadeEffect: true
-  BannerTitleLabelText: ""
-  BannerTitleText: ""
-  BannerDescriptionText: ""
-- CutsceneCameraId: MCU
+- CutsceneCameraId: N_MCU_HG1
   CameraState: NPC_MCU_CamState
-  CameraStateOrigin: -.05 .5 1.5
-  CameraStateLookAt: -.8 .1 1.5
+  CameraStateOrigin: -.03 .3 1.58
+  CameraStateLookAt: -.13 0 1.5
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  HideUIOnTrigger: "FALSE"
+  HideUIOnTrigger: "false"
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   UseAbsolutePos: ""
-  HidePlayerAvatar: true
-  HideNearbyPlayerAvatars: true
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
   BlockPlayerInput: ""
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
   CanSkip: ""
-  PlayFadeEffect: true
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: N_CU_HG1
+  CameraState: NPC_CU_CamState
+  CameraStateOrigin: .09 .53 1.66
+  CameraStateLookAt: -.1 0 1.59
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  HideUIOnTrigger: "false"
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  UseAbsolutePos: ""
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  BlockPlayerInput: ""
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: N_MCU
+  CameraState: NPC_MCU_CamState
+  CameraStateOrigin: -.03 .3 1.58
+  CameraStateLookAt: -.13 0 1.52
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  HideUIOnTrigger: "false"
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  UseAbsolutePos: ""
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  BlockPlayerInput: ""
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: N_CU
+  CameraState: NPC_CU_CamState
+  CameraStateOrigin: .09 .53 1.63
+  CameraStateLookAt: -.1 0 1.59
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  HideUIOnTrigger: "false"
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  UseAbsolutePos: ""
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  BlockPlayerInput: ""
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: P_MCU_LG1
+  CameraState: NPC_MCU_CamState
+  CameraStateOrigin: -.14 .3 1.6
+  CameraStateLookAt: -.08 0 1.5
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  HideUIOnTrigger: "false"
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  UseAbsolutePos: ""
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  BlockPlayerInput: ""
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: P_CU_LG1
+  CameraState: NPC_CU_CamState
+  CameraStateOrigin: -.2 .5 1.7
+  CameraStateLookAt: -.11 0 1.58
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  HideUIOnTrigger: "false"
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  UseAbsolutePos: ""
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  BlockPlayerInput: ""
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: P_MCU
+  CameraState: NPC_MCU_CamState
+  CameraStateOrigin: -.14 .3 1.54
+  CameraStateLookAt: -.08 0 1.49
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  HideUIOnTrigger: "false"
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  UseAbsolutePos: ""
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  BlockPlayerInput: ""
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: P_CU
+  CameraState: NPC_CU_CamState
+  CameraStateOrigin: -.22 .53 1.63
+  CameraStateLookAt: -.11 0 1.57
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  HideUIOnTrigger: "false"
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  UseAbsolutePos: ""
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  BlockPlayerInput: ""
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: OLD_N_CU
+  CameraState: NPC_CU_CamState
+  CameraStateOrigin: 0 .45 1.61
+  CameraStateLookAt: -.07 0 1.61
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  HideUIOnTrigger: "false"
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  UseAbsolutePos: ""
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  BlockPlayerInput: ""
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: OLD_N_MCU
+  CameraState: NPC_MCU_CamState
+  CameraStateOrigin: 0 .3 1.53
+  CameraStateLookAt: -.07 0 1.53
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  HideUIOnTrigger: "false"
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  UseAbsolutePos: ""
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  BlockPlayerInput: ""
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: OLD_P_CU
+  CameraState: NPC_CU_CamState
+  CameraStateOrigin: -.1 .45 1.61
+  CameraStateLookAt: .01 0 1.61
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  HideUIOnTrigger: "false"
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  UseAbsolutePos: ""
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  BlockPlayerInput: ""
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: OLD_P_MCU
+  CameraState: NPC_MCU_CamState
+  CameraStateOrigin: -.0 .3 1.53
+  CameraStateLookAt: .05 0 1.53
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  HideUIOnTrigger: "false"
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  UseAbsolutePos: ""
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  BlockPlayerInput: ""
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: N_CU_OTS
+  CameraState: NPC_CU_CamState
+  CameraStateOrigin: -.1 .2 1.58
+  CameraStateLookAt: -.2 0 1.58
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  HideUIOnTrigger: "false"
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  UseAbsolutePos: ""
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  BlockPlayerInput: ""
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: N_MCU_OTS
+  CameraState: NPC_MCU_CamState
+  CameraStateOrigin: -.4 .35 1.31
+  CameraStateLookAt: -.5 .2 1.30
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  HideUIOnTrigger: "false"
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  UseAbsolutePos: ""
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  BlockPlayerInput: ""
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: P_CU_OTS
+  CameraState: NPC_CU_CamState
+  CameraStateOrigin: -.1 .2 1.58
+  CameraStateLookAt: -.2 0 1.58
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  HideUIOnTrigger: "false"
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  UseAbsolutePos: ""
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  BlockPlayerInput: ""
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: P_MCU_OTS
+  CameraState: NPC_MCU_CamState
+  CameraStateOrigin: -.4 .35 1.31
+  CameraStateLookAt: -.5 .2 1.30
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  HideUIOnTrigger: "false"
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  UseAbsolutePos: ""
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  BlockPlayerInput: ""
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
   BannerTitleLabelText: ""
   BannerTitleText: ""
   BannerDescriptionText: ""

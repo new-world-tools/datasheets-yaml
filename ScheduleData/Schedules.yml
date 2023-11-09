@@ -20,12 +20,12 @@
   UTC: null
   Comments: TurkeyTerror Event
 - ScheduleId: LegacyOfCrassus
-  StartDate: 2023-02-21T*:*:*
-  EndDate: 2023-03-07T*:*:*
+  StartDate: 2024-01-09T*:*:*
+  EndDate: 2024-01-23T*:*:*
   StartWeekday: ""
   EndWeekday: ""
   UTC: null
-  Comments: Legacy of Crassus February Event
+  Comments: Legacy of Crassus February Event (Modified for dates 2024)
 - ScheduleId: EggcitingDefense
   StartDate: 2023-08-14T*:*:*
   EndDate: 2023-08-28T*:*:*
@@ -73,7 +73,7 @@
   EndDate: 2023-08-15T*:*:*
   StartWeekday: ""
   EndWeekday: ""
-  UTC: null
+  UTC: true
   Comments: Summer Medleyfaire
 - ScheduleId: EventHalloween
   StartDate: 2023-10-18T06:15:00
@@ -83,16 +83,44 @@
   UTC: true
   Comments: Nightveil Hollow
 - ScheduleId: EventWinter
-  StartDate: 2023-12-01T*:*:*
-  EndDate: 2024-01-01T*:*:*
+  StartDate: 2023-12-12T13:15:00
+  EndDate: 2024-01-10T07:15:00
   StartWeekday: ""
   EndWeekday: ""
-  UTC: null
+  UTC: true
   Comments: Winter Convergence
 - ScheduleId: EventSpring
   StartDate: 2024-04-01T*:*:*
   EndDate: 2024-05-01T*:*:*
   StartWeekday: ""
   EndWeekday: ""
-  UTC: null
+  UTC: true
   Comments: Springtide Bloom
+- ScheduleId: EventLunarNewYear
+  StartDate: 2024-02-06T*:*:*
+  EndDate: 2024-02-20T*:*:*
+  StartWeekday: ""
+  EndWeekday: ""
+  UTC: false
+  Comments: Lunar New Year
+- ScheduleId: EventLunarNewYear_Rotation01
+  StartDate: ""
+  EndDate: ""
+  StartWeekday: Sunday
+  EndWeekday: Tuesday
+  UTC: false
+  Comments: "Tribute run rotation: S,M,T for Skysong Temple"
+- ScheduleId: EventLunarNewYear_Rotation02
+  StartDate: ""
+  EndDate: ""
+  StartWeekday: Wednesday
+  EndWeekday: Thursday
+  UTC: false
+  Comments: "Tribute run rotation: W,H for Serenity Outpost"
+- ScheduleId: EventLunarNewYear_Rotation03
+  StartDate: ""
+  EndDate: ""
+  StartWeekday: Friday
+  EndWeekday: Saturday
+  UTC: false
+  Comments: "Tribute run rotation: F,S for Imperial Palace"

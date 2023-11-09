@@ -6310,8 +6310,8 @@
   SellCurrencyCost: 0.0
   SellAzothCost: ""
   InContracts: false
-- ConversionID: M_2hGreatSword_MarauderRank6_2
-  ItemID: 2hGreatSword_MarauderRank6_2
+- ConversionID: M_1hFlail_MarauderRank6_2
+  ItemID: 1hFlail_MarauderRank6_2
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -6334,8 +6334,8 @@
   SellCurrencyCost: 0.0
   SellAzothCost: ""
   InContracts: false
-- ConversionID: M_1hFlail_MarauderRank6_2
-  ItemID: 1hFlail_MarauderRank6_2
+- ConversionID: M_2hGreatSword_MarauderRank6_2
+  ItemID: 2hGreatSword_MarauderRank6_2
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -6758,7 +6758,7 @@
   RankCheckCategoricalProgressionId: Marauder
   RequiredCategoricalProgressionRank: 5.0
   BuyCategoricalProgressionCost: 10000.0
-  BuyCurrencyCost: 500000.0
+  BuyCurrencyCost: 200000.0
   BuyCurrencyItemName: ""
   BuyCurrencyItemCost: null
   BuyCooldownSeconds: 82800.0
@@ -6782,7 +6782,7 @@
   RankCheckCategoricalProgressionId: Marauder
   RequiredCategoricalProgressionRank: 5.0
   BuyCategoricalProgressionCost: 10000.0
-  BuyCurrencyCost: 500000.0
+  BuyCurrencyCost: 200000.0
   BuyCurrencyItemName: ""
   BuyCurrencyItemCost: null
   BuyCooldownSeconds: 82800.0
@@ -6806,7 +6806,7 @@
   RankCheckCategoricalProgressionId: Marauder
   RequiredCategoricalProgressionRank: 5.0
   BuyCategoricalProgressionCost: 10000.0
-  BuyCurrencyCost: 500000.0
+  BuyCurrencyCost: 200000.0
   BuyCurrencyItemName: ""
   BuyCurrencyItemCost: null
   BuyCooldownSeconds: 82800.0
@@ -6830,7 +6830,7 @@
   RankCheckCategoricalProgressionId: Marauder
   RequiredCategoricalProgressionRank: 5.0
   BuyCategoricalProgressionCost: 10000.0
-  BuyCurrencyCost: 500000.0
+  BuyCurrencyCost: 200000.0
   BuyCurrencyItemName: ""
   BuyCurrencyItemCost: null
   BuyCooldownSeconds: 82800.0
@@ -6854,7 +6854,7 @@
   RankCheckCategoricalProgressionId: Marauder
   RequiredCategoricalProgressionRank: 5.0
   BuyCategoricalProgressionCost: 10000.0
-  BuyCurrencyCost: 500000.0
+  BuyCurrencyCost: 200000.0
   BuyCurrencyItemName: ""
   BuyCurrencyItemCost: null
   BuyCooldownSeconds: 82800.0
@@ -6905,7 +6905,7 @@
   BuyCurrencyCost: 500000.0
   BuyCurrencyItemName: ""
   BuyCurrencyItemCost: null
-  BuyCooldownSeconds: 84600.0
+  BuyCooldownSeconds: 86400.0
   SellCategoricalProgressionCost: 0.0
   SellCurrencyCost: 0.0
   SellAzothCost: ""
@@ -7054,6 +7054,30 @@
   SellCurrencyCost: 0.0
   SellAzothCost: ""
   InContracts: false
+- ConversionID: M_MountAttachmentItem_Marauder_Flag
+  ItemID: MountAttachmentItem_Marauder_Flag
+  EntitlementId: ""
+  AchievementId: ""
+  Perk1: ""
+  Perk2: ""
+  Perk3: ""
+  Perk4: ""
+  Bought: 1.0
+  Sold: 0.0
+  ItemQty: 1.0
+  DisplayOrder: 81.0
+  CategoricalProgressionId: MarauderTokens
+  RankCheckCategoricalProgressionId: Marauder
+  RequiredCategoricalProgressionRank: 5.0
+  BuyCategoricalProgressionCost: 65000.0
+  BuyCurrencyCost: 3e+06
+  BuyCurrencyItemName: ""
+  BuyCurrencyItemCost: null
+  BuyCooldownSeconds: null
+  SellCategoricalProgressionCost: 0.0
+  SellCurrencyCost: 0.0
+  SellAzothCost: ""
+  InContracts: false
 - ConversionID: M_GypsumOrb3
   ItemID: GypsumOrb
   EntitlementId: ""
@@ -7127,7 +7151,7 @@
   SellAzothCost: ""
   InContracts: false
 - ConversionID: M_Aptitude_Crate_Skinning
-  ItemID: rewardpostcapskinningt3
+  ItemID: rewardpostcapskinningt3_b
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -7151,7 +7175,7 @@
   SellAzothCost: ""
   InContracts: false
 - ConversionID: M_Aptitude_Crate_Harvesting
-  ItemID: rewardpostcapharvestingt3
+  ItemID: rewardpostcapharvestingt3_b
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -7175,7 +7199,7 @@
   SellAzothCost: ""
   InContracts: false
 - ConversionID: M_Aptitude_Crate_Logging
-  ItemID: rewardpostcaploggingt3
+  ItemID: rewardpostcaploggingt3_b
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -7199,7 +7223,7 @@
   SellAzothCost: ""
   InContracts: false
 - ConversionID: M_Aptitude_Crate_Mining
-  ItemID: rewardpostcapminingt3
+  ItemID: rewardpostcapminingt3_b
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -7223,7 +7247,7 @@
   SellAzothCost: ""
   InContracts: false
 - ConversionID: M_Aptitude_Crate_Fishing
-  ItemID: rewardpostcapfishingt3
+  ItemID: rewardpostcapfishingt3_b
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -14006,7 +14030,7 @@
   RankCheckCategoricalProgressionId: Covenant
   RequiredCategoricalProgressionRank: 5.0
   BuyCategoricalProgressionCost: 10000.0
-  BuyCurrencyCost: 500000.0
+  BuyCurrencyCost: 200000.0
   BuyCurrencyItemName: ""
   BuyCurrencyItemCost: null
   BuyCooldownSeconds: 82800.0
@@ -14030,7 +14054,7 @@
   RankCheckCategoricalProgressionId: Covenant
   RequiredCategoricalProgressionRank: 5.0
   BuyCategoricalProgressionCost: 10000.0
-  BuyCurrencyCost: 500000.0
+  BuyCurrencyCost: 200000.0
   BuyCurrencyItemName: ""
   BuyCurrencyItemCost: null
   BuyCooldownSeconds: 82800.0
@@ -14054,7 +14078,7 @@
   RankCheckCategoricalProgressionId: Covenant
   RequiredCategoricalProgressionRank: 5.0
   BuyCategoricalProgressionCost: 10000.0
-  BuyCurrencyCost: 500000.0
+  BuyCurrencyCost: 200000.0
   BuyCurrencyItemName: ""
   BuyCurrencyItemCost: null
   BuyCooldownSeconds: 82800.0
@@ -14078,7 +14102,7 @@
   RankCheckCategoricalProgressionId: Covenant
   RequiredCategoricalProgressionRank: 5.0
   BuyCategoricalProgressionCost: 10000.0
-  BuyCurrencyCost: 500000.0
+  BuyCurrencyCost: 200000.0
   BuyCurrencyItemName: ""
   BuyCurrencyItemCost: null
   BuyCooldownSeconds: 82800.0
@@ -14102,7 +14126,7 @@
   RankCheckCategoricalProgressionId: Covenant
   RequiredCategoricalProgressionRank: 5.0
   BuyCategoricalProgressionCost: 10000.0
-  BuyCurrencyCost: 500000.0
+  BuyCurrencyCost: 200000.0
   BuyCurrencyItemName: ""
   BuyCurrencyItemCost: null
   BuyCooldownSeconds: 82800.0
@@ -14153,7 +14177,7 @@
   BuyCurrencyCost: 500000.0
   BuyCurrencyItemName: ""
   BuyCurrencyItemCost: null
-  BuyCooldownSeconds: 84600.0
+  BuyCooldownSeconds: 86400.0
   SellCategoricalProgressionCost: 0.0
   SellCurrencyCost: 0.0
   SellAzothCost: ""
@@ -14302,6 +14326,30 @@
   SellCurrencyCost: 0.0
   SellAzothCost: ""
   InContracts: false
+- ConversionID: C_MountAttachmentItem_Covenant_Flag
+  ItemID: MountAttachmentItem_Covenant_Flag
+  EntitlementId: ""
+  AchievementId: ""
+  Perk1: ""
+  Perk2: ""
+  Perk3: ""
+  Perk4: ""
+  Bought: 1.0
+  Sold: 0.0
+  ItemQty: 1.0
+  DisplayOrder: 81.0
+  CategoricalProgressionId: CovenantTokens
+  RankCheckCategoricalProgressionId: Covenant
+  RequiredCategoricalProgressionRank: 5.0
+  BuyCategoricalProgressionCost: 65000.0
+  BuyCurrencyCost: 3e+06
+  BuyCurrencyItemName: ""
+  BuyCurrencyItemCost: null
+  BuyCooldownSeconds: null
+  SellCategoricalProgressionCost: 0.0
+  SellCurrencyCost: 0.0
+  SellAzothCost: ""
+  InContracts: false
 - ConversionID: C_GypsumOrb3
   ItemID: GypsumOrb
   EntitlementId: ""
@@ -14375,7 +14423,7 @@
   SellAzothCost: ""
   InContracts: false
 - ConversionID: C_Aptitude_Crate_Skinning
-  ItemID: rewardpostcapskinningt3
+  ItemID: rewardpostcapskinningt3_b
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -14399,7 +14447,7 @@
   SellAzothCost: ""
   InContracts: false
 - ConversionID: C_Aptitude_Crate_Harvesting
-  ItemID: rewardpostcapharvestingt3
+  ItemID: rewardpostcapharvestingt3_b
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -14423,7 +14471,7 @@
   SellAzothCost: ""
   InContracts: false
 - ConversionID: C_Aptitude_Crate_Logging
-  ItemID: rewardpostcaploggingt3
+  ItemID: rewardpostcaploggingt3_b
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -14447,7 +14495,7 @@
   SellAzothCost: ""
   InContracts: false
 - ConversionID: C_Aptitude_Crate_Mining
-  ItemID: rewardpostcapminingt3
+  ItemID: rewardpostcapminingt3_b
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -14471,7 +14519,7 @@
   SellAzothCost: ""
   InContracts: false
 - ConversionID: C_Aptitude_Crate_Fishing
-  ItemID: rewardpostcapfishingt3
+  ItemID: rewardpostcapfishingt3_b
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -21254,7 +21302,7 @@
   RankCheckCategoricalProgressionId: Syndicate
   RequiredCategoricalProgressionRank: 5.0
   BuyCategoricalProgressionCost: 10000.0
-  BuyCurrencyCost: 500000.0
+  BuyCurrencyCost: 200000.0
   BuyCurrencyItemName: ""
   BuyCurrencyItemCost: null
   BuyCooldownSeconds: 82800.0
@@ -21278,7 +21326,7 @@
   RankCheckCategoricalProgressionId: Syndicate
   RequiredCategoricalProgressionRank: 5.0
   BuyCategoricalProgressionCost: 10000.0
-  BuyCurrencyCost: 500000.0
+  BuyCurrencyCost: 200000.0
   BuyCurrencyItemName: ""
   BuyCurrencyItemCost: null
   BuyCooldownSeconds: 82800.0
@@ -21302,7 +21350,7 @@
   RankCheckCategoricalProgressionId: Syndicate
   RequiredCategoricalProgressionRank: 5.0
   BuyCategoricalProgressionCost: 10000.0
-  BuyCurrencyCost: 500000.0
+  BuyCurrencyCost: 200000.0
   BuyCurrencyItemName: ""
   BuyCurrencyItemCost: null
   BuyCooldownSeconds: 82800.0
@@ -21326,7 +21374,7 @@
   RankCheckCategoricalProgressionId: Syndicate
   RequiredCategoricalProgressionRank: 5.0
   BuyCategoricalProgressionCost: 10000.0
-  BuyCurrencyCost: 500000.0
+  BuyCurrencyCost: 200000.0
   BuyCurrencyItemName: ""
   BuyCurrencyItemCost: null
   BuyCooldownSeconds: 82800.0
@@ -21350,7 +21398,7 @@
   RankCheckCategoricalProgressionId: Syndicate
   RequiredCategoricalProgressionRank: 5.0
   BuyCategoricalProgressionCost: 10000.0
-  BuyCurrencyCost: 500000.0
+  BuyCurrencyCost: 200000.0
   BuyCurrencyItemName: ""
   BuyCurrencyItemCost: null
   BuyCooldownSeconds: 82800.0
@@ -21401,7 +21449,7 @@
   BuyCurrencyCost: 500000.0
   BuyCurrencyItemName: ""
   BuyCurrencyItemCost: null
-  BuyCooldownSeconds: 84600.0
+  BuyCooldownSeconds: 86400.0
   SellCategoricalProgressionCost: 0.0
   SellCurrencyCost: 0.0
   SellAzothCost: ""
@@ -21550,6 +21598,30 @@
   SellCurrencyCost: 0.0
   SellAzothCost: ""
   InContracts: false
+- ConversionID: S_MountAttachmentItem_Syndicate_Flag
+  ItemID: MountAttachmentItem_Syndicate_Flag
+  EntitlementId: ""
+  AchievementId: ""
+  Perk1: ""
+  Perk2: ""
+  Perk3: ""
+  Perk4: ""
+  Bought: 1.0
+  Sold: 0.0
+  ItemQty: 1.0
+  DisplayOrder: 81.0
+  CategoricalProgressionId: SyndicateTokens
+  RankCheckCategoricalProgressionId: Syndicate
+  RequiredCategoricalProgressionRank: 5.0
+  BuyCategoricalProgressionCost: 65000.0
+  BuyCurrencyCost: 3e+06
+  BuyCurrencyItemName: ""
+  BuyCurrencyItemCost: null
+  BuyCooldownSeconds: null
+  SellCategoricalProgressionCost: 0.0
+  SellCurrencyCost: 0.0
+  SellAzothCost: ""
+  InContracts: false
 - ConversionID: S_GypsumOrb3
   ItemID: GypsumOrb
   EntitlementId: ""
@@ -21623,7 +21695,7 @@
   SellAzothCost: ""
   InContracts: false
 - ConversionID: S_Aptitude_Crate_Skinning
-  ItemID: rewardpostcapskinningt3
+  ItemID: rewardpostcapskinningt3_b
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -21647,7 +21719,7 @@
   SellAzothCost: ""
   InContracts: false
 - ConversionID: S_Aptitude_Crate_Harvesting
-  ItemID: rewardpostcapharvestingt3
+  ItemID: rewardpostcapharvestingt3_b
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -21671,7 +21743,7 @@
   SellAzothCost: ""
   InContracts: false
 - ConversionID: S_Aptitude_Crate_Logging
-  ItemID: rewardpostcaploggingt3
+  ItemID: rewardpostcaploggingt3_b
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -21695,7 +21767,7 @@
   SellAzothCost: ""
   InContracts: false
 - ConversionID: S_Aptitude_Crate_Mining
-  ItemID: rewardpostcapminingt3
+  ItemID: rewardpostcapminingt3_b
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -21719,7 +21791,7 @@
   SellAzothCost: ""
   InContracts: false
 - ConversionID: S_Aptitude_Crate_Fishing
-  ItemID: rewardpostcapfishingt3
+  ItemID: rewardpostcapfishingt3_b
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -23086,6 +23158,30 @@
   SellCurrencyCost: null
   SellAzothCost: ""
   InContracts: null
+- ConversionID: WE_FlailT3
+  ItemID: 1hFlail_WinterT3_Shop
+  EntitlementId: ""
+  AchievementId: ""
+  Perk1: ""
+  Perk2: ""
+  Perk3: ""
+  Perk4: ""
+  Bought: 1.0
+  Sold: 0.0
+  ItemQty: 1.0
+  DisplayOrder: 18.0
+  CategoricalProgressionId: EventProgress
+  RankCheckCategoricalProgressionId: EventProgress
+  RequiredCategoricalProgressionRank: 2.0
+  BuyCategoricalProgressionCost: null
+  BuyCurrencyCost: null
+  BuyCurrencyItemName: WCToken
+  BuyCurrencyItemCost: 30.0
+  BuyCooldownSeconds: null
+  SellCategoricalProgressionCost: null
+  SellCurrencyCost: null
+  SellAzothCost: ""
+  InContracts: null
 - ConversionID: WE_FurnitureTable
   ItemID: House_HousingItem_Table_HolidayConv2021_Table01_A
   EntitlementId: ""
@@ -23097,7 +23193,7 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 1.0
+  DisplayOrder: 6.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 3.0
@@ -23121,7 +23217,7 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 2.0
+  DisplayOrder: 7.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 3.0
@@ -23145,7 +23241,7 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 3.0
+  DisplayOrder: 8.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 3.0
@@ -23169,7 +23265,7 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 4.0
+  DisplayOrder: 9.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 3.0
@@ -23193,7 +23289,7 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 5.0
+  DisplayOrder: 10.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 3.0
@@ -23217,7 +23313,7 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 6.0
+  DisplayOrder: 11.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 3.0
@@ -23241,7 +23337,7 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 7.0
+  DisplayOrder: 12.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 3.0
@@ -23265,7 +23361,7 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 8.0
+  DisplayOrder: 13.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 3.0
@@ -23289,7 +23385,7 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 9.0
+  DisplayOrder: 14.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 3.0
@@ -23302,8 +23398,8 @@
   SellCurrencyCost: null
   SellAzothCost: ""
   InContracts: null
-- ConversionID: WE_ArtifactSword
-  ItemID: Artifact_WCWeaponSword
+- ConversionID: WE_WoodenMobile
+  ItemID: House_HousingItem_Winter2023_WoodenMobile
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -23313,21 +23409,21 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 10.0
+  DisplayOrder: 1.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 3.0
   BuyCategoricalProgressionCost: null
   BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
+  BuyCurrencyItemName: WCPToken
+  BuyCurrencyItemCost: 5.0
   BuyCooldownSeconds: null
   SellCategoricalProgressionCost: null
   SellCurrencyCost: null
   SellAzothCost: ""
   InContracts: null
-- ConversionID: WE_ArtifactRoundShield
-  ItemID: Artifact_WCWeaponRShield
+- ConversionID: WE_FestiveCenterpiece
+  ItemID: House_HousingItem_Winter2023_FestiveCenterpiece
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -23337,21 +23433,21 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 11.0
+  DisplayOrder: 2.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 3.0
   BuyCategoricalProgressionCost: null
   BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
+  BuyCurrencyItemName: WCPToken
+  BuyCurrencyItemCost: 5.0
   BuyCooldownSeconds: null
   SellCategoricalProgressionCost: null
   SellCurrencyCost: null
   SellAzothCost: ""
   InContracts: null
-- ConversionID: WE_ArtifactKiteShield
-  ItemID: Artifact_WCWeaponKShield
+- ConversionID: WE_GleamiteStringLight
+  ItemID: House_HousingItem_Winter2023_GleamiteStringLight
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -23361,21 +23457,21 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 12.0
+  DisplayOrder: 3.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 3.0
   BuyCategoricalProgressionCost: null
   BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
+  BuyCurrencyItemName: WCPToken
+  BuyCurrencyItemCost: 5.0
   BuyCooldownSeconds: null
   SellCategoricalProgressionCost: null
   SellCurrencyCost: null
   SellAzothCost: ""
   InContracts: null
-- ConversionID: WE_ArtifactTowerShield
-  ItemID: Artifact_WCWeaponTShield
+- ConversionID: WE_GleamiteTableLight
+  ItemID: House_HousingItem_Winter2023_GleamiteTableLight
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -23385,21 +23481,21 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 13.0
+  DisplayOrder: 4.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 3.0
   BuyCategoricalProgressionCost: null
   BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
+  BuyCurrencyItemName: WCPToken
+  BuyCurrencyItemCost: 5.0
   BuyCooldownSeconds: null
   SellCategoricalProgressionCost: null
   SellCurrencyCost: null
   SellAzothCost: ""
   InContracts: null
-- ConversionID: WE_ArtifactBow
-  ItemID: Artifact_WCWeaponBow
+- ConversionID: WE_TrainSet
+  ItemID: House_HousingItem_Winter2023_TrainSet
   EntitlementId: ""
   AchievementId: ""
   Perk1: ""
@@ -23409,686 +23505,14 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 14.0
+  DisplayOrder: 5.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 3.0
   BuyCategoricalProgressionCost: null
   BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactMusket
-  ItemID: Artifact_WCWeaponMusket
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 15.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactBlunderbuss
-  ItemID: Artifact_WCWeaponBlunderbuss
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 16.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactWarhammer
-  ItemID: Artifact_WCWeaponWarhammer
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 17.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactHatchet
-  ItemID: Artifact_WCWeaponHatchet
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 18.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactGreatAxe
-  ItemID: Artifact_WCWeaponGreatAxe
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 19.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactGreatSword
-  ItemID: Artifact_WCWeaponGreatSword
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 20.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactRapier
-  ItemID: Artifact_WCWeaponRapier
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 21.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactSpear
-  ItemID: Artifact_WCWeaponSpear
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 22.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactFireStaff
-  ItemID: Artifact_WCWeaponStaffFire
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 23.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactLifeStaff
-  ItemID: Artifact_WCWeaponStaffLife
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 24.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactIceGauntlet
-  ItemID: Artifact_WCWeaponGauntletIce
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 25.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactVoidGauntlet
-  ItemID: Artifact_WCWeaponGauntletVoid
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 26.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactFlail
-  ItemID: Artifact_WCWeaponFlail
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 27.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactLightHead
-  ItemID: Artifact_WCArmorLightHead
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 28.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactLightChest
-  ItemID: Artifact_WCArmorLightChest
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 29.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactLightHands
-  ItemID: Artifact_WCArmorLightHands
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 30.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactLightLegs
-  ItemID: Artifact_WCArmorLightLegs
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 31.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactLightFeet
-  ItemID: Artifact_WCArmorLightFeet
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 32.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactMediumHead
-  ItemID: Artifact_WCArmorMediumHead
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 33.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactMediumChest
-  ItemID: Artifact_WCArmorMediumChest
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 34.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactMediumHands
-  ItemID: Artifact_WCArmorMediumHands
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 35.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactMediumLegs
-  ItemID: Artifact_WCArmorMediumLegs
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 36.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactMediumFeet
-  ItemID: Artifact_WCArmorMediumFeet
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 37.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactHeavyHead
-  ItemID: Artifact_WCArmorHeavyHead
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 38.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactHeavyChest
-  ItemID: Artifact_WCArmorHeavyChest
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 39.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactHeavyHands
-  ItemID: Artifact_WCArmorHeavyHands
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 40.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactHeavyLegs
-  ItemID: Artifact_WCArmorHeavyLegs
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 41.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactHeavyFeet
-  ItemID: Artifact_WCArmorHeavyFeet
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 42.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 3.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCToken
-  BuyCurrencyItemCost: 10.0
+  BuyCurrencyItemName: WCPToken
+  BuyCurrencyItemCost: 5.0
   BuyCooldownSeconds: null
   SellCategoricalProgressionCost: null
   SellCurrencyCost: null
@@ -24105,7 +23529,7 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 1.0
+  DisplayOrder: 16.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 4.0
@@ -24129,7 +23553,7 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 2.0
+  DisplayOrder: 17.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 4.0
@@ -24153,7 +23577,7 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 3.0
+  DisplayOrder: 18.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 4.0
@@ -24177,7 +23601,7 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 4.0
+  DisplayOrder: 19.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 4.0
@@ -24201,7 +23625,7 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 5.0
+  DisplayOrder: 20.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 4.0
@@ -24225,7 +23649,7 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 6.0
+  DisplayOrder: 21.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 4.0
@@ -24249,7 +23673,7 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 7.0
+  DisplayOrder: 22.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 4.0
@@ -24273,7 +23697,7 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 8.0
+  DisplayOrder: 23.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 4.0
@@ -24297,7 +23721,7 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 9.0
+  DisplayOrder: 24.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 4.0
@@ -24321,7 +23745,7 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 10.0
+  DisplayOrder: 25.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 4.0
@@ -24345,7 +23769,7 @@
   Bought: 1.0
   Sold: 0.0
   ItemQty: 1.0
-  DisplayOrder: 11.0
+  DisplayOrder: 26.0
   CategoricalProgressionId: EventProgress
   RankCheckCategoricalProgressionId: EventProgress
   RequiredCategoricalProgressionRank: 4.0
@@ -24358,9 +23782,273 @@
   SellCurrencyCost: null
   SellAzothCost: ""
   InContracts: null
-- ConversionID: WE_ArtifactSword600
-  ItemID: Artifact_WCWeaponSword600
+- ConversionID: WC_PristineGleamite
+  ItemID: WCPristineGleamite
   EntitlementId: ""
+  AchievementId: ""
+  Perk1: ""
+  Perk2: ""
+  Perk3: ""
+  Perk4: ""
+  Bought: 1.0
+  Sold: 0.0
+  ItemQty: 1.0
+  DisplayOrder: 1.0
+  CategoricalProgressionId: EventProgress
+  RankCheckCategoricalProgressionId: EventProgress
+  RequiredCategoricalProgressionRank: 4.0
+  BuyCategoricalProgressionCost: null
+  BuyCurrencyCost: null
+  BuyCurrencyItemName: WCPToken
+  BuyCurrencyItemCost: 15.0
+  BuyCooldownSeconds: 604800.0
+  SellCategoricalProgressionCost: null
+  SellCurrencyCost: null
+  SellAzothCost: ""
+  InContracts: null
+- ConversionID: WC_AzothInductor
+  ItemID: AzothInductor
+  EntitlementId: ""
+  AchievementId: ""
+  Perk1: ""
+  Perk2: ""
+  Perk3: ""
+  Perk4: ""
+  Bought: 1.0
+  Sold: 0.0
+  ItemQty: 1.0
+  DisplayOrder: 2.0
+  CategoricalProgressionId: EventProgress
+  RankCheckCategoricalProgressionId: EventProgress
+  RequiredCategoricalProgressionRank: 4.0
+  BuyCategoricalProgressionCost: null
+  BuyCurrencyCost: null
+  BuyCurrencyItemName: WCPToken
+  BuyCurrencyItemCost: 20.0
+  BuyCooldownSeconds: 604800.0
+  SellCategoricalProgressionCost: null
+  SellCurrencyCost: null
+  SellAzothCost: ""
+  InContracts: null
+- ConversionID: WC_ChromaticSeal
+  ItemID: ChromaticSeal
+  EntitlementId: ""
+  AchievementId: ""
+  Perk1: ""
+  Perk2: ""
+  Perk3: ""
+  Perk4: ""
+  Bought: 1.0
+  Sold: 0.0
+  ItemQty: 1.0
+  DisplayOrder: 3.0
+  CategoricalProgressionId: EventProgress
+  RankCheckCategoricalProgressionId: EventProgress
+  RequiredCategoricalProgressionRank: 4.0
+  BuyCategoricalProgressionCost: null
+  BuyCurrencyCost: null
+  BuyCurrencyItemName: WCPToken
+  BuyCurrencyItemCost: 10.0
+  BuyCooldownSeconds: 259200.0
+  SellCategoricalProgressionCost: null
+  SellCurrencyCost: null
+  SellAzothCost: ""
+  InContracts: null
+- ConversionID: WC_Chest_GoldenWreath
+  ItemID: ""
+  EntitlementId: EntitlementSkin_Chest_GoldenWreath
+  AchievementId: ""
+  Perk1: ""
+  Perk2: ""
+  Perk3: ""
+  Perk4: ""
+  Bought: 1.0
+  Sold: 0.0
+  ItemQty: 1.0
+  DisplayOrder: 4.0
+  CategoricalProgressionId: EventProgress
+  RankCheckCategoricalProgressionId: EventProgress
+  RequiredCategoricalProgressionRank: 4.0
+  BuyCategoricalProgressionCost: null
+  BuyCurrencyCost: null
+  BuyCurrencyItemName: WCPToken
+  BuyCurrencyItemCost: 10.0
+  BuyCooldownSeconds: null
+  SellCategoricalProgressionCost: null
+  SellCurrencyCost: null
+  SellAzothCost: ""
+  InContracts: null
+- ConversionID: WC_Skin_Head_GoldenWreath
+  ItemID: ""
+  EntitlementId: EntitlementSkin_Head_GoldenWreath
+  AchievementId: ""
+  Perk1: ""
+  Perk2: ""
+  Perk3: ""
+  Perk4: ""
+  Bought: 1.0
+  Sold: 0.0
+  ItemQty: 1.0
+  DisplayOrder: 5.0
+  CategoricalProgressionId: EventProgress
+  RankCheckCategoricalProgressionId: EventProgress
+  RequiredCategoricalProgressionRank: 4.0
+  BuyCategoricalProgressionCost: null
+  BuyCurrencyCost: null
+  BuyCurrencyItemName: WCPToken
+  BuyCurrencyItemCost: 15.0
+  BuyCooldownSeconds: null
+  SellCategoricalProgressionCost: null
+  SellCurrencyCost: null
+  SellAzothCost: ""
+  InContracts: null
+- ConversionID: WC_Skin_Legs_GoldenWreath
+  ItemID: ""
+  EntitlementId: EntitlementSkin_Legs_GoldenWreath
+  AchievementId: ""
+  Perk1: ""
+  Perk2: ""
+  Perk3: ""
+  Perk4: ""
+  Bought: 1.0
+  Sold: 0.0
+  ItemQty: 1.0
+  DisplayOrder: 6.0
+  CategoricalProgressionId: EventProgress
+  RankCheckCategoricalProgressionId: EventProgress
+  RequiredCategoricalProgressionRank: 4.0
+  BuyCategoricalProgressionCost: null
+  BuyCurrencyCost: null
+  BuyCurrencyItemName: WCPToken
+  BuyCurrencyItemCost: 10.0
+  BuyCooldownSeconds: null
+  SellCategoricalProgressionCost: null
+  SellCurrencyCost: null
+  SellAzothCost: ""
+  InContracts: null
+- ConversionID: WC_Skin_Feet_GoldenWreath
+  ItemID: ""
+  EntitlementId: EntitlementSkin_Feet_GoldenWreath
+  AchievementId: ""
+  Perk1: ""
+  Perk2: ""
+  Perk3: ""
+  Perk4: ""
+  Bought: 1.0
+  Sold: 0.0
+  ItemQty: 1.0
+  DisplayOrder: 7.0
+  CategoricalProgressionId: EventProgress
+  RankCheckCategoricalProgressionId: EventProgress
+  RequiredCategoricalProgressionRank: 4.0
+  BuyCategoricalProgressionCost: null
+  BuyCurrencyCost: null
+  BuyCurrencyItemName: WCPToken
+  BuyCurrencyItemCost: 10.0
+  BuyCooldownSeconds: null
+  SellCategoricalProgressionCost: null
+  SellCurrencyCost: null
+  SellAzothCost: ""
+  InContracts: null
+- ConversionID: WC_Skin_Hands_GoldenWreath
+  ItemID: ""
+  EntitlementId: EntitlementSkin_Hands_GoldenWreath
+  AchievementId: ""
+  Perk1: ""
+  Perk2: ""
+  Perk3: ""
+  Perk4: ""
+  Bought: 1.0
+  Sold: 0.0
+  ItemQty: 1.0
+  DisplayOrder: 8.0
+  CategoricalProgressionId: EventProgress
+  RankCheckCategoricalProgressionId: EventProgress
+  RequiredCategoricalProgressionRank: 4.0
+  BuyCategoricalProgressionCost: null
+  BuyCurrencyCost: null
+  BuyCurrencyItemName: WCPToken
+  BuyCurrencyItemCost: 10.0
+  BuyCooldownSeconds: null
+  SellCategoricalProgressionCost: null
+  SellCurrencyCost: null
+  SellAzothCost: ""
+  InContracts: null
+- ConversionID: WC_Skin_Chest_WinterWarrior
+  ItemID: ""
+  EntitlementId: EntitlementSkin_Chest_WinterWarrior
+  AchievementId: ""
+  Perk1: ""
+  Perk2: ""
+  Perk3: ""
+  Perk4: ""
+  Bought: 1.0
+  Sold: 0.0
+  ItemQty: 1.0
+  DisplayOrder: 9.0
+  CategoricalProgressionId: EventProgress
+  RankCheckCategoricalProgressionId: EventProgress
+  RequiredCategoricalProgressionRank: 4.0
+  BuyCategoricalProgressionCost: null
+  BuyCurrencyCost: null
+  BuyCurrencyItemName: WCPToken
+  BuyCurrencyItemCost: 15.0
+  BuyCooldownSeconds: null
+  SellCategoricalProgressionCost: null
+  SellCurrencyCost: null
+  SellAzothCost: ""
+  InContracts: null
+- ConversionID: WC_Skin_Legs_WinterWarrior
+  ItemID: ""
+  EntitlementId: EntitlementSkin_Legs_WinterWarrior
+  AchievementId: ""
+  Perk1: ""
+  Perk2: ""
+  Perk3: ""
+  Perk4: ""
+  Bought: 1.0
+  Sold: 0.0
+  ItemQty: 1.0
+  DisplayOrder: 10.0
+  CategoricalProgressionId: EventProgress
+  RankCheckCategoricalProgressionId: EventProgress
+  RequiredCategoricalProgressionRank: 4.0
+  BuyCategoricalProgressionCost: null
+  BuyCurrencyCost: null
+  BuyCurrencyItemName: WCPToken
+  BuyCurrencyItemCost: 10.0
+  BuyCooldownSeconds: null
+  SellCategoricalProgressionCost: null
+  SellCurrencyCost: null
+  SellAzothCost: ""
+  InContracts: null
+- ConversionID: WC_Skin_Feet_WinterWarrior
+  ItemID: ""
+  EntitlementId: EntitlementSkin_Feet_WinterWarrior
+  AchievementId: ""
+  Perk1: ""
+  Perk2: ""
+  Perk3: ""
+  Perk4: ""
+  Bought: 1.0
+  Sold: 0.0
+  ItemQty: 1.0
+  DisplayOrder: 11.0
+  CategoricalProgressionId: EventProgress
+  RankCheckCategoricalProgressionId: EventProgress
+  RequiredCategoricalProgressionRank: 4.0
+  BuyCategoricalProgressionCost: null
+  BuyCurrencyCost: null
+  BuyCurrencyItemName: WCPToken
+  BuyCurrencyItemCost: 10.0
+  BuyCooldownSeconds: null
+  SellCategoricalProgressionCost: null
+  SellCurrencyCost: null
+  SellAzothCost: ""
+  InContracts: null
+- ConversionID: WC_Emote_PopTheBottle
+  ItemID: ""
+  EntitlementId: Ent_Emote_PopTheBottle
   AchievementId: ""
   Perk1: ""
   Perk2: ""
@@ -24376,15 +24064,15 @@
   BuyCategoricalProgressionCost: null
   BuyCurrencyCost: null
   BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
+  BuyCurrencyItemCost: 10.0
   BuyCooldownSeconds: null
   SellCategoricalProgressionCost: null
   SellCurrencyCost: null
   SellAzothCost: ""
   InContracts: null
-- ConversionID: WE_ArtifactRoundShield600
-  ItemID: Artifact_WCWeaponRShield600
-  EntitlementId: ""
+- ConversionID: WC_Emote_Walk_IceSkate
+  ItemID: ""
+  EntitlementId: Ent_Emote_Walk_IceSkate
   AchievementId: ""
   Perk1: ""
   Perk2: ""
@@ -24400,15 +24088,15 @@
   BuyCategoricalProgressionCost: null
   BuyCurrencyCost: null
   BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
+  BuyCurrencyItemCost: 10.0
   BuyCooldownSeconds: null
   SellCategoricalProgressionCost: null
   SellCurrencyCost: null
   SellAzothCost: ""
   InContracts: null
-- ConversionID: WE_ArtifactKiteShield600
-  ItemID: Artifact_WCWeaponKShield600
-  EntitlementId: ""
+- ConversionID: WC_Emote_JingleBell
+  ItemID: ""
+  EntitlementId: Ent_Emote_JingleBell
   AchievementId: ""
   Perk1: ""
   Perk2: ""
@@ -24424,15 +24112,15 @@
   BuyCategoricalProgressionCost: null
   BuyCurrencyCost: null
   BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
+  BuyCurrencyItemCost: 10.0
   BuyCooldownSeconds: null
   SellCategoricalProgressionCost: null
   SellCurrencyCost: null
   SellAzothCost: ""
   InContracts: null
-- ConversionID: WE_ArtifactTowerShield600
-  ItemID: Artifact_WCWeaponTShield600
-  EntitlementId: ""
+- ConversionID: WC_CampSkin_Igloo_A
+  ItemID: ""
+  EntitlementId: Entitlement_CampSkin_Igloo_A
   AchievementId: ""
   Perk1: ""
   Perk2: ""
@@ -24448,679 +24136,7 @@
   BuyCategoricalProgressionCost: null
   BuyCurrencyCost: null
   BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactBow600
-  ItemID: Artifact_WCWeaponBow600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 16.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactMusket600
-  ItemID: Artifact_WCWeaponMusket600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 17.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactBlunderbuss600
-  ItemID: Artifact_WCWeaponBlunderbuss600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 18.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactWarhammer600
-  ItemID: Artifact_WCWeaponWarhammer600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 19.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactHatchet600
-  ItemID: Artifact_WCWeaponHatchet600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 20.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactGreatAxe600
-  ItemID: Artifact_WCWeaponGreatAxe600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 21.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactGreatSword600
-  ItemID: Artifact_WCWeaponGreatSword600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 22.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactRapier600
-  ItemID: Artifact_WCWeaponRapier600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 23.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactSpear600
-  ItemID: Artifact_WCWeaponSpear600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 24.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactFireStaff600
-  ItemID: Artifact_WCWeaponStaffFire600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 25.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactLifeStaff600
-  ItemID: Artifact_WCWeaponStaffLife600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 26.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactIceGauntlet600
-  ItemID: Artifact_WCWeaponGauntletIce600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 27.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactVoidGauntlet600
-  ItemID: Artifact_WCWeaponGauntletVoid600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 28.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactLightHead600
-  ItemID: Artifact_WCArmorLightHead600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 29.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactLightChest600
-  ItemID: Artifact_WCArmorLightChest600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 30.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactLightHands600
-  ItemID: Artifact_WCArmorLightHands600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 31.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactLightLegs600
-  ItemID: Artifact_WCArmorLightLegs600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 32.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactLightFeet600
-  ItemID: Artifact_WCArmorLightFeet600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 33.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactMediumHead600
-  ItemID: Artifact_WCArmorMediumHead600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 34.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactMediumChest600
-  ItemID: Artifact_WCArmorMediumChest600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 35.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactMediumHands600
-  ItemID: Artifact_WCArmorMediumHands600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 36.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactMediumLegs600
-  ItemID: Artifact_WCArmorMediumLegs600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 37.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactMediumFeet600
-  ItemID: Artifact_WCArmorMediumFeet600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 38.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactHeavyHead600
-  ItemID: Artifact_WCArmorHeavyHead600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 39.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactHeavyChest600
-  ItemID: Artifact_WCArmorHeavyChest600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 40.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactHeavyHands600
-  ItemID: Artifact_WCArmorHeavyHands600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 41.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactHeavyLegs600
-  ItemID: Artifact_WCArmorHeavyLegs600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 42.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
-  BuyCooldownSeconds: null
-  SellCategoricalProgressionCost: null
-  SellCurrencyCost: null
-  SellAzothCost: ""
-  InContracts: null
-- ConversionID: WE_ArtifactHeavyFeet600
-  ItemID: Artifact_WCArmorHeavyFeet600
-  EntitlementId: ""
-  AchievementId: ""
-  Perk1: ""
-  Perk2: ""
-  Perk3: ""
-  Perk4: ""
-  Bought: 1.0
-  Sold: 0.0
-  ItemQty: 1.0
-  DisplayOrder: 43.0
-  CategoricalProgressionId: EventProgress
-  RankCheckCategoricalProgressionId: EventProgress
-  RequiredCategoricalProgressionRank: 4.0
-  BuyCategoricalProgressionCost: null
-  BuyCurrencyCost: null
-  BuyCurrencyItemName: WCPToken
-  BuyCurrencyItemCost: 2.0
+  BuyCurrencyItemCost: 15.0
   BuyCooldownSeconds: null
   SellCategoricalProgressionCost: null
   SellCurrencyCost: null

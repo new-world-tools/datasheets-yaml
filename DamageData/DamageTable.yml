@@ -132,7 +132,7 @@
   BlockStaminaDmgMod: 1.0
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 1.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -993,7 +993,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.75
+  StaggerDmgModifier: 1.5
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -1005,7 +1005,7 @@
   CritCameraShakeID: Large_short
   CritTargetCameraShakeID: Large_short
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 1.75
+  BlockStaminaDmgMod: 1.5
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -1066,7 +1066,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 2.5
+  StaggerDmgModifier: 2.4
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -1078,7 +1078,7 @@
   CritCameraShakeID: Large_short
   CritTargetCameraShakeID: Large_short
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 2.5
+  BlockStaminaDmgMod: 2.4
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -1869,7 +1869,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 3.25
+  StaggerDmgModifier: 2.4
   StaggerResistModifier: 1.25
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -1881,7 +1881,7 @@
   CritCameraShakeID: Large_short
   CritTargetCameraShakeID: Large_short
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 3.25
+  BlockStaminaDmgMod: 2.4
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 1.0
@@ -1897,79 +1897,6 @@
   HitRuneCharge: 0.3575
   HitBlockedRuneCharge: 0.715
 - DamageID: MusketAttack1
-  WeaponCategory: Musket
-  IgnoreInvulnerable: 0.0
-  NoReaction: 0.0
-  IsRanged: true
-  IsAbility: null
-  IsEmote: null
-  AttackType: Light
-  DamageType: Thrust
-  Affliction: ""
-  AddAffliction: null
-  AfflictionPercent: ""
-  StatusEffect: ""
-  EffectOnlyOnDamage: ""
-  SurfaceImpactEffect: Bullet
-  DeflectDamageID: ""
-  CanCrit: null
-  Unblockable: null
-  AttackDealsNoDurability: null
-  NoHeadshot: null
-  NoBackstab: null
-  NoLegShots: null
-  CancelTargetHoming: null
-  DmgCoef: 1.0
-  DmgCoefHead: 1.3
-  DmgCoefCrit: null
-  DurabilityCostOverride: null
-  PowerLevel: 0.0
-  BlockPowerLevel: 0.0
-  CritPowerLevel: 0.0
-  HitStun: 20.0
-  BlockHitStun: 15.0
-  CritHitStun: 20.0
-  ImpactDistanceX: 0.0
-  ImpactDistanceY: 0.0
-  ImpactDistanceZ: 0.0
-  ImpactDecayRate: 0.0
-  BlockImpactDistanceX: 0.0
-  BlockImpactDistanceY: 0.0
-  BlockImpactDistanceZ: 0.0
-  BlockImpactDecayRate: 0.0
-  CritImpactDistanceX: 0.0
-  CritImpactDistanceY: 0.0
-  CritImpactDistanceZ: 0.0
-  CritImpactDecayRate: 0.0
-  AddDmg: 0.0
-  StaggerDmgModifier: 0.5
-  StaggerResistModifier: 1.0
-  CritStaggerDmgModifier: null
-  HitRateDmgModifier: null
-  MaxHitRateDmgMod: null
-  CameraShakeID: ""
-  TargetCameraShakeID: ""
-  BlockCameraShakeID: ""
-  BlockTargetCameraShakeID: ""
-  CritCameraShakeID: ""
-  CritTargetCameraShakeID: ""
-  ImpactRating: 0.0
-  BlockStaminaDmgMod: 0.5
-  BlockAbsorptionModifier: 1.0
-  LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
-  ThreatMultiplier: 1.0
-  AddThreat: 0.0
-  IsTaunt: false
-  TauntDuration: 0.0
-  TauntThreatBoostPercentage: 0.0
-  TauntMinimumThreatValue: 0.0
-  UseAttackerPosForReaction: null
-  AttackRuneCharge: 2.385
-  AttackBlockedRuneCharge: 1.1925
-  HitRuneCharge: 0.59625
-  HitBlockedRuneCharge: 1.1925
-- DamageID: MusketAttack_ShootersStance
   WeaponCategory: Musket
   IgnoreInvulnerable: 0.0
   NoReaction: 0.0
@@ -2038,6 +1965,79 @@
   TauntThreatBoostPercentage: 0.0
   TauntMinimumThreatValue: 0.0
   UseAttackerPosForReaction: null
+  AttackRuneCharge: 2.385
+  AttackBlockedRuneCharge: 1.1925
+  HitRuneCharge: 0.59625
+  HitBlockedRuneCharge: 1.1925
+- DamageID: MusketAttack_ShootersStance
+  WeaponCategory: Musket
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: true
+  IsAbility: null
+  IsEmote: null
+  AttackType: Light
+  DamageType: Thrust
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: ""
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 1.0
+  DmgCoefHead: 1.3
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 20.0
+  BlockHitStun: 15.0
+  CritHitStun: 20.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.0
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.0
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.0
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.3
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: ""
+  TargetCameraShakeID: ""
+  BlockCameraShakeID: ""
+  BlockTargetCameraShakeID: ""
+  CritCameraShakeID: ""
+  CritTargetCameraShakeID: ""
+  ImpactRating: 0.0
+  BlockStaminaDmgMod: 0.3
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
   AttackRuneCharge: 1.604
   AttackBlockedRuneCharge: 0.802
   HitRuneCharge: 0.401
@@ -2088,7 +2088,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 0.5
+  StaggerDmgModifier: 0.4
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -2100,7 +2100,7 @@
   CritCameraShakeID: ""
   CritTargetCameraShakeID: ""
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 0.5
+  BlockStaminaDmgMod: 0.4
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -2234,7 +2234,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.8
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -2246,7 +2246,7 @@
   CritCameraShakeID: ""
   CritTargetCameraShakeID: ""
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 1.0
+  BlockStaminaDmgMod: 0.8
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -2307,7 +2307,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.8
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -2319,7 +2319,7 @@
   CritCameraShakeID: ""
   CritTargetCameraShakeID: ""
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 1.0
+  BlockStaminaDmgMod: 0.8
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -2380,7 +2380,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 2.0
+  StaggerDmgModifier: 0.8
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -2392,7 +2392,7 @@
   CritCameraShakeID: ""
   CritTargetCameraShakeID: ""
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 1.25
+  BlockStaminaDmgMod: 0.8
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -2453,7 +2453,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 2.0
+  StaggerDmgModifier: 0.8
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -2465,7 +2465,7 @@
   CritCameraShakeID: ""
   CritTargetCameraShakeID: ""
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 1.25
+  BlockStaminaDmgMod: 0.8
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 1.0
@@ -2526,7 +2526,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 2.0
+  StaggerDmgModifier: 0.8
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -2538,7 +2538,7 @@
   CritCameraShakeID: ""
   CritTargetCameraShakeID: ""
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 1.25
+  BlockStaminaDmgMod: 0.8
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 1.0
@@ -2672,7 +2672,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.2
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -2684,7 +2684,7 @@
   CritCameraShakeID: ""
   CritTargetCameraShakeID: ""
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 1.0
+  BlockStaminaDmgMod: 0.2
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -2745,7 +2745,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.2
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -2757,7 +2757,7 @@
   CritCameraShakeID: ""
   CritTargetCameraShakeID: ""
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 1.0
+  BlockStaminaDmgMod: 0.2
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -2818,7 +2818,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.2
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -2830,7 +2830,7 @@
   CritCameraShakeID: ""
   CritTargetCameraShakeID: ""
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 1.0
+  BlockStaminaDmgMod: 0.2
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -3694,7 +3694,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 0.4
+  StaggerDmgModifier: 0.35
   StaggerResistModifier: 20.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -3840,7 +3840,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 0.07
+  StaggerDmgModifier: 0.25
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -3913,7 +3913,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 0.5
+  StaggerDmgModifier: 0.1
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -4205,7 +4205,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 0.0
+  StaggerDmgModifier: 0.5
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -4497,7 +4497,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 2.0
+  StaggerDmgModifier: 1.5
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -4509,7 +4509,7 @@
   CritCameraShakeID: Large_short
   CritTargetCameraShakeID: Large_short
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 2.0
+  BlockStaminaDmgMod: 1.5
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -4570,7 +4570,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 3.0
+  StaggerDmgModifier: 2.4
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: 1.0
   HitRateDmgModifier: 1.0
@@ -4582,7 +4582,7 @@
   CritCameraShakeID: Large_short
   CritTargetCameraShakeID: Large_short
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 3.0
+  BlockStaminaDmgMod: 2.4
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -6103,7 +6103,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.8
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -6118,7 +6118,7 @@
   BlockStaminaDmgMod: 0.8
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 1.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -6395,7 +6395,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 0.5
+  StaggerDmgModifier: 1.25
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -6468,7 +6468,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.5
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -6541,7 +6541,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.25
+  StaggerDmgModifier: 0.8
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -6556,7 +6556,7 @@
   BlockStaminaDmgMod: 0.8
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 1.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: true
@@ -6833,7 +6833,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 0.5
+  StaggerDmgModifier: 0.1
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -6906,7 +6906,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 0.75
+  StaggerDmgModifier: 0.5
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -6921,7 +6921,7 @@
   BlockStaminaDmgMod: 0.5
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 1.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -7052,7 +7052,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 1.25
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -7563,7 +7563,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 3.0
+  StaggerDmgModifier: 2.4
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -7575,7 +7575,7 @@
   CritCameraShakeID: Large_short
   CritTargetCameraShakeID: Large_short
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 3.0
+  BlockStaminaDmgMod: 2.4
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -8439,7 +8439,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 0.4
+  StaggerDmgModifier: 0.3
   StaggerResistModifier: 20.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -8512,7 +8512,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 0.5
+  StaggerDmgModifier: 0.3
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -8585,7 +8585,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 0.8
+  StaggerDmgModifier: 0.3
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -8658,7 +8658,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.3
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -8731,7 +8731,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.2
+  StaggerDmgModifier: 0.3
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -8804,7 +8804,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.2
+  StaggerDmgModifier: 0.3
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -8950,7 +8950,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 4.5
+  StaggerDmgModifier: 2.4
   StaggerResistModifier: 1.5
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -8962,7 +8962,7 @@
   CritCameraShakeID: Large_short
   CritTargetCameraShakeID: Large_short
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 4.5
+  BlockStaminaDmgMod: 2.4
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 1.0
@@ -9023,7 +9023,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 4.5
+  StaggerDmgModifier: 2.4
   StaggerResistModifier: 1.5
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -9035,7 +9035,7 @@
   CritCameraShakeID: Large_short
   CritTargetCameraShakeID: Large_short
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 4.5
+  BlockStaminaDmgMod: 2.4
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 1.0
@@ -10045,7 +10045,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 3.0
+  StaggerDmgModifier: 2.4
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -10057,7 +10057,7 @@
   CritCameraShakeID: Large_short
   CritTargetCameraShakeID: Large_short
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 3.0
+  BlockStaminaDmgMod: 2.4
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -10264,7 +10264,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.4
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.4
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -10337,7 +10337,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.6
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -10410,7 +10410,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.6
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -10483,7 +10483,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.5
+  StaggerDmgModifier: 1.2
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -10556,7 +10556,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.6
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -10629,7 +10629,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.6
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -10644,7 +10644,7 @@
   BlockStaminaDmgMod: 0.6
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 1.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -12600,7 +12600,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 2.0
+  StaggerDmgModifier: 1.25
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -12673,7 +12673,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 2.0
+  StaggerDmgModifier: 0.5
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -12688,7 +12688,7 @@
   BlockStaminaDmgMod: 0.5
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -12746,7 +12746,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.25
+  StaggerDmgModifier: 0.75
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -12892,7 +12892,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.25
+  StaggerDmgModifier: 0.75
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -12904,7 +12904,7 @@
   CritCameraShakeID: ""
   CritTargetCameraShakeID: ""
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 1.25
+  BlockStaminaDmgMod: 0.75
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 1.0
@@ -13403,7 +13403,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.8
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -13415,7 +13415,7 @@
   CritCameraShakeID: ""
   CritTargetCameraShakeID: ""
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 1.0
+  BlockStaminaDmgMod: 0.8
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -13476,7 +13476,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.8
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -13488,7 +13488,7 @@
   CritCameraShakeID: ""
   CritTargetCameraShakeID: ""
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 1.0
+  BlockStaminaDmgMod: 0.8
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -13564,7 +13564,7 @@
   BlockStaminaDmgMod: 1.5
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -13637,7 +13637,7 @@
   BlockStaminaDmgMod: 1.5
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -13710,7 +13710,7 @@
   BlockStaminaDmgMod: 1.5
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -13768,7 +13768,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.75
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -13780,7 +13780,7 @@
   CritCameraShakeID: ""
   CritTargetCameraShakeID: ""
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 1.0
+  BlockStaminaDmgMod: 0.75
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -13841,7 +13841,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.75
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -13853,7 +13853,7 @@
   CritCameraShakeID: ""
   CritTargetCameraShakeID: ""
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 1.0
+  BlockStaminaDmgMod: 0.75
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -13914,7 +13914,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.75
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -13926,7 +13926,7 @@
   CritCameraShakeID: ""
   CritTargetCameraShakeID: ""
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 1.0
+  BlockStaminaDmgMod: 0.75
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -14133,7 +14133,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.4
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -14206,7 +14206,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.4
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -14279,7 +14279,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.4
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -14352,7 +14352,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.9
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 1.85
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -14425,7 +14425,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.9
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 1.85
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -14498,7 +14498,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.9
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 1.85
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -14571,7 +14571,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.4
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -14644,7 +14644,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.4
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -14717,7 +14717,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.4
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -14790,7 +14790,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.4
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -14936,7 +14936,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.7
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -14951,7 +14951,7 @@
   BlockStaminaDmgMod: 0.7
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 1.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -15009,7 +15009,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.7
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -15024,7 +15024,7 @@
   BlockStaminaDmgMod: 0.7
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 1.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -15155,7 +15155,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.85
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.5
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -15228,7 +15228,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.85
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.75
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -15243,7 +15243,7 @@
   BlockStaminaDmgMod: 0.75
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 1.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -15316,7 +15316,7 @@
   BlockStaminaDmgMod: 1.0
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 1.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -15374,7 +15374,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.85
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 1.25
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -15389,7 +15389,7 @@
   BlockStaminaDmgMod: 1.25
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 1.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -15447,7 +15447,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.3
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -15462,7 +15462,7 @@
   BlockStaminaDmgMod: 0.3
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 1.0
   ThreatMultiplier: 1.5
   AddThreat: 0.0
   IsTaunt: false
@@ -15520,7 +15520,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.3
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -15593,7 +15593,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.85
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.7
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -15666,7 +15666,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.85
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.7
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -15739,7 +15739,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.85
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.7
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -15958,7 +15958,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.9
   AddDmg: 0.0
-  StaggerDmgModifier: 1.85
+  StaggerDmgModifier: 1.5
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -15970,7 +15970,7 @@
   CritCameraShakeID: ""
   CritTargetCameraShakeID: Large_short
   ImpactRating: 4.0
-  BlockStaminaDmgMod: 1.85
+  BlockStaminaDmgMod: 1.5
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -16031,7 +16031,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.9
   AddDmg: 0.0
-  StaggerDmgModifier: 1.85
+  StaggerDmgModifier: 1.5
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -16043,7 +16043,7 @@
   CritCameraShakeID: ""
   CritTargetCameraShakeID: Large_short
   ImpactRating: 4.0
-  BlockStaminaDmgMod: 1.85
+  BlockStaminaDmgMod: 1.5
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -16104,7 +16104,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.9
   AddDmg: 0.0
-  StaggerDmgModifier: 1.85
+  StaggerDmgModifier: 1.5
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -16116,7 +16116,7 @@
   CritCameraShakeID: ""
   CritTargetCameraShakeID: Large_short
   ImpactRating: 4.0
-  BlockStaminaDmgMod: 1.85
+  BlockStaminaDmgMod: 1.5
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -16177,7 +16177,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.9
   AddDmg: 0.0
-  StaggerDmgModifier: 1.85
+  StaggerDmgModifier: 1.5
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -16189,7 +16189,7 @@
   CritCameraShakeID: ""
   CritTargetCameraShakeID: Large_short
   ImpactRating: 4.0
-  BlockStaminaDmgMod: 1.85
+  BlockStaminaDmgMod: 1.5
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -16323,7 +16323,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.9
   AddDmg: 0.0
-  StaggerDmgModifier: 1.85
+  StaggerDmgModifier: 2.4
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -16396,7 +16396,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.9
   AddDmg: 0.0
-  StaggerDmgModifier: 1.85
+  StaggerDmgModifier: 2.4
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -19170,7 +19170,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 0.0
+  StaggerDmgModifier: 0.7
   StaggerResistModifier: 0.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -19243,7 +19243,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.3
   AddDmg: 0.0
-  StaggerDmgModifier: 1.5
+  StaggerDmgModifier: 1.0
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -19255,7 +19255,7 @@
   CritCameraShakeID: ""
   CritTargetCameraShakeID: Large_short
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 1.5
+  BlockStaminaDmgMod: 1.0
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -19316,7 +19316,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.3
   AddDmg: 0.0
-  StaggerDmgModifier: 1.5
+  StaggerDmgModifier: 0.7
   StaggerResistModifier: 0.7
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -19608,7 +19608,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.7
   AddDmg: 0.0
-  StaggerDmgModifier: 1.85
+  StaggerDmgModifier: 1.5
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -19620,7 +19620,7 @@
   CritCameraShakeID: Large_short
   CritTargetCameraShakeID: Large_short
   ImpactRating: 4.0
-  BlockStaminaDmgMod: 1.85
+  BlockStaminaDmgMod: 1.5
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
@@ -22601,7 +22601,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 0.0
+  StaggerDmgModifier: 0.4
   StaggerResistModifier: 0.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -23842,7 +23842,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.15
   StaggerResistModifier: 0.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -23915,7 +23915,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 1.0
+  StaggerDmgModifier: 0.15
   StaggerResistModifier: 0.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -26558,7 +26558,7 @@
   BlockStaminaDmgMod: 0.4
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 1.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: true
@@ -28806,7 +28806,7 @@
   CritImpactDistanceZ: 0.75
   CritImpactDecayRate: 0.85
   AddDmg: 0.0
-  StaggerDmgModifier: 0.7
+  StaggerDmgModifier: 1.0
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -28821,7 +28821,7 @@
   BlockStaminaDmgMod: 1.0
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 1.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -28879,7 +28879,7 @@
   CritImpactDistanceZ: 0.0
   CritImpactDecayRate: 0.0
   AddDmg: 0.0
-  StaggerDmgModifier: 0.7
+  StaggerDmgModifier: 1.0
   StaggerResistModifier: 1.0
   CritStaggerDmgModifier: null
   HitRateDmgModifier: null
@@ -29040,7 +29040,7 @@
   BlockStaminaDmgMod: 1.0
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 1.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -29186,7 +29186,7 @@
   BlockStaminaDmgMod: 1.5
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 1.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -29259,7 +29259,7 @@
   BlockStaminaDmgMod: 1.0
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 1.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false

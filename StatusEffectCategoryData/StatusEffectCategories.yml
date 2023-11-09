@@ -85,7 +85,7 @@
   PotencyDiminishingMod: null
   PotencyModMin: null
   PotencyModMax: null
-  ValueLimits: HealMod:-0.5,NonConsumableHealMod:-0.5
+  ValueLimits: HealMod:-0.5,NonConsumableHealMod:-0.5,ConsumableHealMod:-0.5,DmgPctToHealthHealMod:-0.5
 - StatusEffectCategoryID: Haste
   DurationDiminishingMod: null
   DurationModMin: null
@@ -149,7 +149,7 @@
   PotencyDiminishingMod: null
   PotencyModMin: null
   PotencyModMax: null
-  ValueLimits: HealMod:-1.0,NonConsumableHealMod:-1.0
+  ValueLimits: HealMod:-1.0,NonConsumableHealMod:-1.0,ConsumableHealMod:-1.0,DmgPctToHealthHealMod:-1.0
 - StatusEffectCategoryID: MutatorCurse
   DurationDiminishingMod: null
   DurationModMin: null
@@ -165,7 +165,7 @@
   PotencyDiminishingMod: null
   PotencyModMin: null
   PotencyModMax: null
-  ValueLimits: HealMod:1.0,NonConsumableHealMod:1.0
+  ValueLimits: HealMod:1.0,NonConsumableHealMod:1.0,ConsumableHealMod:1.0,DmgPctToHealthHealMod:1.0
 - StatusEffectCategoryID: UnclampedSlow
   DurationDiminishingMod: null
   DurationModMin: null
@@ -213,7 +213,7 @@
   PotencyDiminishingMod: null
   PotencyModMin: null
   PotencyModMax: null
-  ValueLimits: HealMod:-1.0,NonConsumableHealMod:-1.0
+  ValueLimits: HealMod:-1.0,NonConsumableHealMod:-1.0,ConsumableHealMod:-1.0,DmgPctToHealthHealMod:-1.0
 - StatusEffectCategoryID: UnclampedHaste
   DurationDiminishingMod: null
   DurationModMin: null

@@ -1,142 +1,6 @@
-- ConversationStateId: 0802_00_Magistrate
-  ConversationType: Linear_Objective
-  IsInitialState: true
-  DefaultDialogue: "@NPC_DefaultDialogue_0802_00_Magistrate"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: null
-  RequiredAchievement: ""
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: ""
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0802_01_Magistrate
-  ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0802_01_Magistrate"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: 49.0
-  RequiredAchievement: ""
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: 0802_0801_TheShowMustGoOn
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0802_02_Magistrate
-  ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0802_02_Magistrate"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: 58.0
-  RequiredAchievement: 08_Quest_01
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: 0802_0808_CorruptedCritics
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0802_03_Magistrate
-  ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0802_03_Magistrate"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: null
-  RequiredAchievement: 08_Quest_08
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: ""
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
 - ConversationStateId: 0803_00_Survivalist
   ConversationType: Linear_Objective
-  IsInitialState: true
+  IsInitialState: "1"
   DefaultDialogue: "@NPC_DefaultDialogue_0803_00_Survivalist"
   ForceConversationOpen: ""
   RequiredFaction: ""
@@ -170,7 +34,7 @@
   ConversationService3: ""
 - ConversationStateId: 0803_01_Survivalist
   ConversationType: Linear_Objective
-  IsInitialState: false
+  IsInitialState: "0"
   DefaultDialogue: "@NPC_DefaultDialogue_0803_01_Survivalist"
   ForceConversationOpen: ""
   RequiredFaction: ""
@@ -204,7 +68,7 @@
   ConversationService3: ""
 - ConversationStateId: 0803_02_Survivalist
   ConversationType: Linear_Objective
-  IsInitialState: false
+  IsInitialState: "0"
   DefaultDialogue: "@NPC_DefaultDialogue_0803_02_Survivalist"
   ForceConversationOpen: ""
   RequiredFaction: ""
@@ -238,7 +102,7 @@
   ConversationService3: ""
 - ConversationStateId: 0803_03_Survivalist
   ConversationType: Linear_Objective
-  IsInitialState: false
+  IsInitialState: "0"
   DefaultDialogue: "@NPC_DefaultDialogue_0803_03_Survivalist"
   ForceConversationOpen: ""
   RequiredFaction: ""
@@ -270,315 +134,9 @@
   ConversationService1: ""
   ConversationService2: ""
   ConversationService3: ""
-- ConversationStateId: 0804_00_Overseer
-  ConversationType: Linear_Objective
-  IsInitialState: true
-  DefaultDialogue: "@NPC_DefaultDialogue_0804_00_Overseer"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: null
-  RequiredAchievement: ""
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: ""
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0804_01_Overseer
-  ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0804_01_Overseer"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: 57.0
-  RequiredAchievement: ""
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: 0804_0812_CaptainsOrders
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0804_02_Overseer
-  ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0804_02_Overseer"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: null
-  RequiredAchievement: 08_Quest_12
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: 0804_0804_FlowerForTheDeparted
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0804_03_Overseer
-  ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0804_03_Overseer"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: null
-  RequiredAchievement: 08_Quest_04
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: ""
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0805_00_Artificer
-  ConversationType: Linear_Objective
-  IsInitialState: true
-  DefaultDialogue: "@NPC_DefaultDialogue_0805_00_Artificer"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: null
-  RequiredAchievement: ""
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: ""
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0805_01_Artificer
-  ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0805_01_Artificer"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: 49.0
-  RequiredAchievement: 08_Quest_01
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: 0805_0809_StudyInGreen
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0805_02_Artificer
-  ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0805_02_Artificer"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: 56.0
-  RequiredAchievement: 08_Quest_09
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: 0805_0806_ShrineCleansing
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0805_03_Artificer
-  ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0805_03_Artificer"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: null
-  RequiredAchievement: 08_Quest_06
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: 0805_0813_SkysongsEnd
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0805_04_Artificer
-  ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0805_04_Artificer"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: null
-  RequiredAchievement: 08_Quest_13
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: ""
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
 - ConversationStateId: 0807_00_Commander
   ConversationType: Linear_Objective
-  IsInitialState: true
+  IsInitialState: "1"
   DefaultDialogue: "@NPC_DefaultDialogue_0807_00_Commander"
   ForceConversationOpen: ""
   RequiredFaction: ""
@@ -612,7 +170,7 @@
   ConversationService3: ""
 - ConversationStateId: 0807_01_Commander
   ConversationType: Linear_Objective
-  IsInitialState: false
+  IsInitialState: "0"
   DefaultDialogue: "@NPC_DefaultDialogue_0807_01_Commander"
   ForceConversationOpen: ""
   RequiredFaction: Marauder
@@ -646,7 +204,7 @@
   ConversationService3: ""
 - ConversationStateId: 0807_01pre_Commander
   ConversationType: Linear_Objective
-  IsInitialState: false
+  IsInitialState: "0"
   DefaultDialogue: "@NPC_DefaultDialogue_0807_01pre_Commander"
   ForceConversationOpen: ""
   RequiredFaction: Marauder
@@ -680,7 +238,7 @@
   ConversationService3: ""
 - ConversationStateId: 0807_02_Commander
   ConversationType: Linear_Objective
-  IsInitialState: false
+  IsInitialState: "0"
   DefaultDialogue: "@NPC_DefaultDialogue_0807_02_Commander"
   ForceConversationOpen: ""
   RequiredFaction: Syndicate
@@ -714,7 +272,7 @@
   ConversationService3: ""
 - ConversationStateId: 0807_03_Commander
   ConversationType: Linear_Objective
-  IsInitialState: false
+  IsInitialState: "0"
   DefaultDialogue: "@NPC_DefaultDialogue_0807_03_Commander"
   ForceConversationOpen: ""
   RequiredFaction: Covenant
@@ -748,7 +306,7 @@
   ConversationService3: ""
 - ConversationStateId: 0808_00_Alchemist
   ConversationType: Linear_Objective
-  IsInitialState: true
+  IsInitialState: "1"
   DefaultDialogue: "@NPC_DefaultDialogue_0808_00_Alchemist"
   ForceConversationOpen: ""
   RequiredFaction: ""
@@ -782,7 +340,7 @@
   ConversationService3: ""
 - ConversationStateId: 0808_01_Alchemist
   ConversationType: Linear_Objective
-  IsInitialState: false
+  IsInitialState: "0"
   DefaultDialogue: "@NPC_DefaultDialogue_0808_01_Alchemist"
   ForceConversationOpen: ""
   RequiredFaction: Syndicate
@@ -816,7 +374,7 @@
   ConversationService3: ""
 - ConversationStateId: 0808_01pre_Alchemist
   ConversationType: Linear_Objective
-  IsInitialState: false
+  IsInitialState: "0"
   DefaultDialogue: "@NPC_DefaultDialogue_0808_01pre_Alchemist"
   ForceConversationOpen: ""
   RequiredFaction: Syndicate
@@ -850,7 +408,7 @@
   ConversationService3: ""
 - ConversationStateId: 0808_02_Alchemist
   ConversationType: Linear_Objective
-  IsInitialState: false
+  IsInitialState: "0"
   DefaultDialogue: "@NPC_DefaultDialogue_0808_02_Alchemist"
   ForceConversationOpen: ""
   RequiredFaction: Marauder
@@ -884,7 +442,7 @@
   ConversationService3: ""
 - ConversationStateId: 0808_03_Alchemist
   ConversationType: Linear_Objective
-  IsInitialState: false
+  IsInitialState: "0"
   DefaultDialogue: "@NPC_DefaultDialogue_0808_03_Alchemist"
   ForceConversationOpen: ""
   RequiredFaction: Covenant
@@ -918,7 +476,7 @@
   ConversationService3: ""
 - ConversationStateId: 0809_00_Adjudicator
   ConversationType: Linear_Objective
-  IsInitialState: true
+  IsInitialState: "1"
   DefaultDialogue: "@NPC_DefaultDialogue_0809_00_Adjudicator"
   ForceConversationOpen: ""
   RequiredFaction: ""
@@ -952,7 +510,7 @@
   ConversationService3: ""
 - ConversationStateId: 0809_01_Adjudicator
   ConversationType: Linear_Objective
-  IsInitialState: false
+  IsInitialState: "0"
   DefaultDialogue: "@NPC_DefaultDialogue_0809_01_Adjudicator"
   ForceConversationOpen: ""
   RequiredFaction: Covenant
@@ -986,7 +544,7 @@
   ConversationService3: ""
 - ConversationStateId: 0809_01pre_Adjudicator
   ConversationType: Linear_Objective
-  IsInitialState: false
+  IsInitialState: "0"
   DefaultDialogue: "@NPC_DefaultDialogue_0809_01pre_Adjudicator"
   ForceConversationOpen: ""
   RequiredFaction: Covenant
@@ -1020,7 +578,7 @@
   ConversationService3: ""
 - ConversationStateId: 0809_02_Adjudicator
   ConversationType: Linear_Objective
-  IsInitialState: false
+  IsInitialState: "0"
   DefaultDialogue: "@NPC_DefaultDialogue_0809_02_Adjudicator"
   ForceConversationOpen: ""
   RequiredFaction: Marauder
@@ -1054,7 +612,7 @@
   ConversationService3: ""
 - ConversationStateId: 0809_03_Adjudicator
   ConversationType: Linear_Objective
-  IsInitialState: false
+  IsInitialState: "0"
   DefaultDialogue: "@NPC_DefaultDialogue_0809_03_Adjudicator"
   ForceConversationOpen: ""
   RequiredFaction: Syndicate
@@ -1088,8 +646,8 @@
   ConversationService3: ""
 - ConversationStateId: 0810_00_Barkeep
   ConversationType: Linear_Objective
-  IsInitialState: true
-  DefaultDialogue: "@NPC_DefaultDialogue_0810_00_Barkeep"
+  IsInitialState: "1"
+  DefaultDialogue: "@NPC_DefaultDialogue_0810_01_Barkeep"
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredProgression: ""
@@ -1122,8 +680,8 @@
   ConversationService3: ""
 - ConversationStateId: 0810_01_Barkeep
   ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0810_01_Barkeep"
+  IsInitialState: "0"
+  DefaultDialogue: "@NPC_DefaultDialogue_0810_00_Barkeep"
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredProgression: ""
@@ -1156,7 +714,7 @@
   ConversationService3: ""
 - ConversationStateId: 0810_02_Barkeep
   ConversationType: Linear_Objective
-  IsInitialState: false
+  IsInitialState: "0"
   DefaultDialogue: "@NPC_DefaultDialogue_0810_02_Barkeep"
   ForceConversationOpen: ""
   RequiredFaction: ""
@@ -1190,7 +748,7 @@
   ConversationService3: ""
 - ConversationStateId: 0810_03_Barkeep
   ConversationType: Linear_Objective
-  IsInitialState: false
+  IsInitialState: "0"
   DefaultDialogue: "@NPC_DefaultDialogue_0810_03_Barkeep"
   ForceConversationOpen: ""
   RequiredFaction: ""
@@ -1222,111 +780,9 @@
   ConversationService1: ""
   ConversationService2: ""
   ConversationService3: ""
-- ConversationStateId: 0811_00_Stranger
-  ConversationType: Linear_Objective
-  IsInitialState: true
-  DefaultDialogue: "@NPC_DefaultDialogue_0811_00_Stranger"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: null
-  RequiredAchievement: ""
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: ""
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0811_01_Stranger
-  ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0811_01_Stranger"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: 53.0
-  RequiredAchievement: ""
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: 0811_0802_StatuetteStash
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0811_02_Stranger
-  ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0811_02_Stranger"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: null
-  RequiredAchievement: 08_Quest_02
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: 0811_0803_EndOfHerReign
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
 - ConversationStateId: 0823_00_Fisher
   ConversationType: Linear_Objective
-  IsInitialState: true
+  IsInitialState: "1"
   DefaultDialogue: "@NPC_DefaultDialogue_0823_00_Fisher"
   ForceConversationOpen: ""
   RequiredFaction: ""
@@ -1360,7 +816,7 @@
   ConversationService3: ""
 - ConversationStateId: 0823_01_Fisher
   ConversationType: Linear_Objective
-  IsInitialState: false
+  IsInitialState: "0"
   DefaultDialogue: "@NPC_DefaultDialogue_0823_01_Fisher"
   ForceConversationOpen: ""
   RequiredFaction: ""
@@ -1394,7 +850,7 @@
   ConversationService3: ""
 - ConversationStateId: 0823_02_Fisher
   ConversationType: Linear_Objective
-  IsInitialState: false
+  IsInitialState: "0"
   DefaultDialogue: "@NPC_DefaultDialogue_0823_02_Fisher"
   ForceConversationOpen: ""
   RequiredFaction: ""
@@ -1428,7 +884,7 @@
   ConversationService3: ""
 - ConversationStateId: 0824_00_Innkeep
   ConversationType: Linear_Objective
-  IsInitialState: true
+  IsInitialState: "1"
   DefaultDialogue: "@NPC_DefaultDialogue_0824_00_Innkeep"
   ForceConversationOpen: ""
   RequiredFaction: ""
@@ -1462,7 +918,7 @@
   ConversationService3: ""
 - ConversationStateId: 0899_00_Liberator
   ConversationType: Linear_Objective
-  IsInitialState: true
+  IsInitialState: "1"
   DefaultDialogue: "@NPC_DefaultDialogue_0899_00_Liberator"
   ForceConversationOpen: ""
   RequiredFaction: ""
@@ -1496,7 +952,7 @@
   ConversationService3: ""
 - ConversationStateId: 0899_01_Liberator
   ConversationType: Linear_Objective
-  IsInitialState: false
+  IsInitialState: "0"
   DefaultDialogue: "@NPC_DefaultDialogue_0899_01_Liberator"
   ForceConversationOpen: ""
   RequiredFaction: ""
@@ -1528,10 +984,10 @@
   ConversationService1: ""
   ConversationService2: ""
   ConversationService3: ""
-- ConversationStateId: 0831_00_TangZhi
+- ConversationStateId: 0804_00_Overseer
   ConversationType: Linear_Objective
-  IsInitialState: true
-  DefaultDialogue: "@NPC_DefaultDialogue_0831_00_TangZhi"
+  IsInitialState: "1"
+  DefaultDialogue: "@NPC_DefaultDialogue_0804_00_Overseer"
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredProgression: ""
@@ -1562,18 +1018,18 @@
   ConversationService1: ""
   ConversationService2: ""
   ConversationService3: ""
-- ConversationStateId: 0831_01_TangZhi
+- ConversationStateId: 0804_01_Overseer
   ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0831_01_TangZhi"
+  IsInitialState: "0"
+  DefaultDialogue: "@NPC_DefaultDialogue_0804_01_Overseer"
   ForceConversationOpen: ""
   RequiredFaction: ""
-  RequiredProgression: BlunderbussAbilityTable 19 0
-  RequiredLevel: 60.0
-  RequiredAchievement: 07_Quest_11
+  RequiredProgression: ""
+  RequiredLevel: 49.0
+  RequiredAchievement: ""
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
-  LinearObjectiveId1: 0831_0101_LastArgument
+  LinearObjectiveId1: 0804_0812_CaptainsOrders
   LinearObjectiveId2: ""
   LinearObjectiveId3: ""
   LinearObjectiveId4: ""
@@ -1596,15 +1052,49 @@
   ConversationService1: ""
   ConversationService2: ""
   ConversationService3: ""
-- ConversationStateId: 0831_01a_TangZhi
+- ConversationStateId: 0804_02_Overseer
   ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@0831_0102_LastArgument_Stock_incomplete_WTZ"
+  IsInitialState: "0"
+  DefaultDialogue: "@NPC_DefaultDialogue_0804_02_Overseer"
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredProgression: ""
   RequiredLevel: null
-  RequiredAchievement: Incomplete_LastArgument_01
+  RequiredAchievement: 08_Quest_12
+  RequiredActiveObjectiveId: ""
+  RequiredActiveTaskId: ""
+  LinearObjectiveId1: 0804_0804_FlowerForTheDeparted
+  LinearObjectiveId2: ""
+  LinearObjectiveId3: ""
+  LinearObjectiveId4: ""
+  LinearObjectiveId5: ""
+  LinearObjectiveId6: ""
+  LinearObjectiveId7: ""
+  LinearObjectiveId8: ""
+  LinearObjectiveId9: ""
+  LinearObjectiveId10: ""
+  TopicId1: ""
+  TopicId2: ""
+  TopicId3: ""
+  TopicId4: ""
+  TopicId5: ""
+  TopicId6: ""
+  TopicId7: ""
+  TopicId8: ""
+  TopicId9: ""
+  TopicId10: ""
+  ConversationService1: ""
+  ConversationService2: ""
+  ConversationService3: ""
+- ConversationStateId: 0804_03_Overseer
+  ConversationType: Linear_Objective
+  IsInitialState: "0"
+  DefaultDialogue: "@NPC_DefaultDialogue_0804_03_Overseer"
+  ForceConversationOpen: ""
+  RequiredFaction: ""
+  RequiredProgression: ""
+  RequiredLevel: null
+  RequiredAchievement: 08_Quest_04
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
   LinearObjectiveId1: ""
@@ -1630,248 +1120,10 @@
   ConversationService1: ""
   ConversationService2: ""
   ConversationService3: ""
-- ConversationStateId: 0831_02a_TangZhi
+- ConversationStateId: 0802_00_Magistrate
   ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@0831_0104_LastArgument_Lock_incomplete_WTZ"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: null
-  RequiredAchievement: Incomplete_LastArgument_02
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: ""
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0831_03_TangZhi
-  ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0831_02_TangZhi"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: null
-  RequiredAchievement: WeaponQuest_LastArgument_04
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: 0831_0106_LastArgument_Receiver
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0831_03a_TangZhi
-  ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@0831_0106_LastArgument_Receiver_incomplete_WTZ"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: null
-  RequiredAchievement: Incomplete_LastArgument_03
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: ""
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0831_04a_TangZhi
-  ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@0831_0108_LastArgument_Barrels_incomplete_WTZ"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: null
-  RequiredAchievement: Incomplete_LastArgument_04
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: ""
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0831_05_TangZhi
-  ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0831_03_TangZhi"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: null
-  RequiredAchievement: WeaponQuest_LastArgument_07
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: 0831_0109_LastArgument_Ignition
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0831_05a_TangZhi
-  ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@0831_0109_LastArgument_Ignition_incomplete_WTZ"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: null
-  RequiredAchievement: Incomplete_LastArgument_05
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: ""
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0831_06_TangZhi
-  ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0831_04_TangZhi"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: null
-  RequiredAchievement: WeaponQuest_LastArgument_08
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: ""
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0832_00_Alvaro
-  ConversationType: Linear_Objective
-  IsInitialState: true
-  DefaultDialogue: "@NPC_DefaultDialogue_0832_00_Alvaro"
+  IsInitialState: "1"
+  DefaultDialogue: "@NPC_DefaultDialogue_0802_00_Magistrate"
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredProgression: ""
@@ -1902,15 +1154,83 @@
   ConversationService1: ""
   ConversationService2: ""
   ConversationService3: ""
-- ConversationStateId: 0832_01a_Alvaro
+- ConversationStateId: 0802_01_Magistrate
   ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@0831_0102_LastArgument_Stock_incomplete_Alvaro"
+  IsInitialState: "0"
+  DefaultDialogue: "@NPC_DefaultDialogue_0802_01_Magistrate"
+  ForceConversationOpen: ""
+  RequiredFaction: ""
+  RequiredProgression: ""
+  RequiredLevel: 49.0
+  RequiredAchievement: ""
+  RequiredActiveObjectiveId: ""
+  RequiredActiveTaskId: ""
+  LinearObjectiveId1: 0802_0801_TheShowMustGoOn
+  LinearObjectiveId2: ""
+  LinearObjectiveId3: ""
+  LinearObjectiveId4: ""
+  LinearObjectiveId5: ""
+  LinearObjectiveId6: ""
+  LinearObjectiveId7: ""
+  LinearObjectiveId8: ""
+  LinearObjectiveId9: ""
+  LinearObjectiveId10: ""
+  TopicId1: ""
+  TopicId2: ""
+  TopicId3: ""
+  TopicId4: ""
+  TopicId5: ""
+  TopicId6: ""
+  TopicId7: ""
+  TopicId8: ""
+  TopicId9: ""
+  TopicId10: ""
+  ConversationService1: ""
+  ConversationService2: ""
+  ConversationService3: ""
+- ConversationStateId: 0802_02_Magistrate
+  ConversationType: Linear_Objective
+  IsInitialState: "0"
+  DefaultDialogue: "@NPC_DefaultDialogue_0802_02_Magistrate"
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredProgression: ""
   RequiredLevel: null
-  RequiredAchievement: Incomplete_LastArgument_01
+  RequiredAchievement: 08_Quest_01
+  RequiredActiveObjectiveId: ""
+  RequiredActiveTaskId: ""
+  LinearObjectiveId1: 0802_0808_CorruptedCritics
+  LinearObjectiveId2: ""
+  LinearObjectiveId3: ""
+  LinearObjectiveId4: ""
+  LinearObjectiveId5: ""
+  LinearObjectiveId6: ""
+  LinearObjectiveId7: ""
+  LinearObjectiveId8: ""
+  LinearObjectiveId9: ""
+  LinearObjectiveId10: ""
+  TopicId1: ""
+  TopicId2: ""
+  TopicId3: ""
+  TopicId4: ""
+  TopicId5: ""
+  TopicId6: ""
+  TopicId7: ""
+  TopicId8: ""
+  TopicId9: ""
+  TopicId10: ""
+  ConversationService1: ""
+  ConversationService2: ""
+  ConversationService3: ""
+- ConversationStateId: 0802_03_Magistrate
+  ConversationType: Linear_Objective
+  IsInitialState: "0"
+  DefaultDialogue: "@NPC_DefaultDialogue_0802_03_Magistrate"
+  ForceConversationOpen: ""
+  RequiredFaction: ""
+  RequiredProgression: ""
+  RequiredLevel: null
+  RequiredAchievement: 08_Quest_08
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
   LinearObjectiveId1: ""
@@ -1936,49 +1256,15 @@
   ConversationService1: ""
   ConversationService2: ""
   ConversationService3: ""
-- ConversationStateId: 0832_02_Alvaro
+- ConversationStateId: 0805_00_Artificer
   ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0832_01_Alvaro"
+  IsInitialState: "1"
+  DefaultDialogue: "@NPC_DefaultDialogue_0805_00_Artificer"
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredProgression: ""
   RequiredLevel: null
-  RequiredAchievement: WeaponQuest_LastArgument_02
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: 0831_0104_LastArgument_Lock
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0832_02a_Alvaro
-  ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@0831_0104_LastArgument_Lock_incomplete_Alvaro"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: null
-  RequiredAchievement: Incomplete_LastArgument_02
+  RequiredAchievement: ""
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
   LinearObjectiveId1: ""
@@ -2004,15 +1290,117 @@
   ConversationService1: ""
   ConversationService2: ""
   ConversationService3: ""
-- ConversationStateId: 0832_03a_Alvaro
+- ConversationStateId: 0805_01_Artificer
   ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@0831_0106_LastArgument_Receiver_incomplete_Alvaro"
+  IsInitialState: "0"
+  DefaultDialogue: "@NPC_DefaultDialogue_0805_01_Artificer"
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredProgression: ""
   RequiredLevel: null
-  RequiredAchievement: Incomplete_LastArgument_03
+  RequiredAchievement: 08_Quest_01
+  RequiredActiveObjectiveId: ""
+  RequiredActiveTaskId: ""
+  LinearObjectiveId1: 0805_0809_StudyInGreen
+  LinearObjectiveId2: ""
+  LinearObjectiveId3: ""
+  LinearObjectiveId4: ""
+  LinearObjectiveId5: ""
+  LinearObjectiveId6: ""
+  LinearObjectiveId7: ""
+  LinearObjectiveId8: ""
+  LinearObjectiveId9: ""
+  LinearObjectiveId10: ""
+  TopicId1: ""
+  TopicId2: ""
+  TopicId3: ""
+  TopicId4: ""
+  TopicId5: ""
+  TopicId6: ""
+  TopicId7: ""
+  TopicId8: ""
+  TopicId9: ""
+  TopicId10: ""
+  ConversationService1: ""
+  ConversationService2: ""
+  ConversationService3: ""
+- ConversationStateId: 0805_02_Artificer
+  ConversationType: Linear_Objective
+  IsInitialState: "0"
+  DefaultDialogue: "@NPC_DefaultDialogue_0805_02_Artificer"
+  ForceConversationOpen: ""
+  RequiredFaction: ""
+  RequiredProgression: ""
+  RequiredLevel: null
+  RequiredAchievement: 08_Quest_09
+  RequiredActiveObjectiveId: ""
+  RequiredActiveTaskId: ""
+  LinearObjectiveId1: 0805_0806_ShrineCleansing
+  LinearObjectiveId2: ""
+  LinearObjectiveId3: ""
+  LinearObjectiveId4: ""
+  LinearObjectiveId5: ""
+  LinearObjectiveId6: ""
+  LinearObjectiveId7: ""
+  LinearObjectiveId8: ""
+  LinearObjectiveId9: ""
+  LinearObjectiveId10: ""
+  TopicId1: ""
+  TopicId2: ""
+  TopicId3: ""
+  TopicId4: ""
+  TopicId5: ""
+  TopicId6: ""
+  TopicId7: ""
+  TopicId8: ""
+  TopicId9: ""
+  TopicId10: ""
+  ConversationService1: ""
+  ConversationService2: ""
+  ConversationService3: ""
+- ConversationStateId: 0805_03_Artificer
+  ConversationType: Linear_Objective
+  IsInitialState: "0"
+  DefaultDialogue: "@NPC_DefaultDialogue_0805_03_Artificer"
+  ForceConversationOpen: ""
+  RequiredFaction: ""
+  RequiredProgression: ""
+  RequiredLevel: null
+  RequiredAchievement: 08_Quest_06
+  RequiredActiveObjectiveId: ""
+  RequiredActiveTaskId: ""
+  LinearObjectiveId1: 0805_0813_SkysongsEnd
+  LinearObjectiveId2: ""
+  LinearObjectiveId3: ""
+  LinearObjectiveId4: ""
+  LinearObjectiveId5: ""
+  LinearObjectiveId6: ""
+  LinearObjectiveId7: ""
+  LinearObjectiveId8: ""
+  LinearObjectiveId9: ""
+  LinearObjectiveId10: ""
+  TopicId1: ""
+  TopicId2: ""
+  TopicId3: ""
+  TopicId4: ""
+  TopicId5: ""
+  TopicId6: ""
+  TopicId7: ""
+  TopicId8: ""
+  TopicId9: ""
+  TopicId10: ""
+  ConversationService1: ""
+  ConversationService2: ""
+  ConversationService3: ""
+- ConversationStateId: 0805_04_Artificer
+  ConversationType: Linear_Objective
+  IsInitialState: "0"
+  DefaultDialogue: "@NPC_DefaultDialogue_0805_04_Artificer"
+  ForceConversationOpen: ""
+  RequiredFaction: ""
+  RequiredProgression: ""
+  RequiredLevel: null
+  RequiredAchievement: 08_Quest_13
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
   LinearObjectiveId1: ""
@@ -2038,49 +1426,15 @@
   ConversationService1: ""
   ConversationService2: ""
   ConversationService3: ""
-- ConversationStateId: 0832_04_Alvaro
+- ConversationStateId: 0811_00_Stranger
   ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0832_02_Alvaro"
+  IsInitialState: "1"
+  DefaultDialogue: "@NPC_DefaultDialogue_0811_00_Stranger"
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredProgression: ""
   RequiredLevel: null
-  RequiredAchievement: WeaponQuest_LastArgument_06
-  RequiredActiveObjectiveId: ""
-  RequiredActiveTaskId: ""
-  LinearObjectiveId1: 0831_0108_LastArgument_Barrels
-  LinearObjectiveId2: ""
-  LinearObjectiveId3: ""
-  LinearObjectiveId4: ""
-  LinearObjectiveId5: ""
-  LinearObjectiveId6: ""
-  LinearObjectiveId7: ""
-  LinearObjectiveId8: ""
-  LinearObjectiveId9: ""
-  LinearObjectiveId10: ""
-  TopicId1: ""
-  TopicId2: ""
-  TopicId3: ""
-  TopicId4: ""
-  TopicId5: ""
-  TopicId6: ""
-  TopicId7: ""
-  TopicId8: ""
-  TopicId9: ""
-  TopicId10: ""
-  ConversationService1: ""
-  ConversationService2: ""
-  ConversationService3: ""
-- ConversationStateId: 0832_04a_Alvaro
-  ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@0831_0108_LastArgument_Barrels_incomplete_Alvaro"
-  ForceConversationOpen: ""
-  RequiredFaction: ""
-  RequiredProgression: ""
-  RequiredLevel: null
-  RequiredAchievement: Incomplete_LastArgument_04
+  RequiredAchievement: ""
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
   LinearObjectiveId1: ""
@@ -2106,18 +1460,18 @@
   ConversationService1: ""
   ConversationService2: ""
   ConversationService3: ""
-- ConversationStateId: 0832_05a_Alvaro
+- ConversationStateId: 0811_01_Stranger
   ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@0831_0109_LastArgument_Ignition_incomplete_Alvaro"
+  IsInitialState: "0"
+  DefaultDialogue: "@NPC_DefaultDialogue_0811_01_Stranger"
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredProgression: ""
-  RequiredLevel: null
-  RequiredAchievement: Incomplete_LastArgument_05
+  RequiredLevel: 49.0
+  RequiredAchievement: ""
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
-  LinearObjectiveId1: ""
+  LinearObjectiveId1: 0811_0802_StatuetteStash
   LinearObjectiveId2: ""
   LinearObjectiveId3: ""
   LinearObjectiveId4: ""
@@ -2140,18 +1494,18 @@
   ConversationService1: ""
   ConversationService2: ""
   ConversationService3: ""
-- ConversationStateId: 0832_06_Alvaro
+- ConversationStateId: 0811_02_Stranger
   ConversationType: Linear_Objective
-  IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0832_03_Alvaro"
+  IsInitialState: "0"
+  DefaultDialogue: "@NPC_DefaultDialogue_0811_02_Stranger"
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredProgression: ""
   RequiredLevel: null
-  RequiredAchievement: WeaponQuest_LastArgument_08
+  RequiredAchievement: 08_Quest_02
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
-  LinearObjectiveId1: ""
+  LinearObjectiveId1: 0811_0803_EndOfHerReign
   LinearObjectiveId2: ""
   LinearObjectiveId3: ""
   LinearObjectiveId4: ""
