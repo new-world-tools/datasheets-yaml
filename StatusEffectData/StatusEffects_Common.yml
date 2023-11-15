@@ -15719,7 +15719,7 @@
 - StatusID: WorldBoundExit
   DisplayName: ""
   Description: ""
-  EffectCategories: ""
+  EffectCategories: UnclampedSlow
   PlaceholderIcon: ""
   ShowInUITray: ""
   ShowInTokenTray: null
@@ -15990,7 +15990,7 @@
 - StatusID: StatusEffect_Boss_TeamWipe
   DisplayName: ""
   Description: ""
-  EffectCategories: TeamWipeCat
+  EffectCategories: TeamWipeCat+UnclampedSlow
   PlaceholderIcon: ""
   ShowInUITray: ""
   ShowInTokenTray: null
@@ -32263,7 +32263,7 @@
   ReapplyAfterPersistenceReload: null
   PersistEffectInCrossWorldInstances: null
   Notification: ""
-  DisableTelemetry: null
+  DisableTelemetry: false
   IsClientPredicted: null
   UseLightweightReplication: null
   PauseInGameModesList: ""
@@ -32534,7 +32534,7 @@
   ReapplyAfterPersistenceReload: null
   PersistEffectInCrossWorldInstances: null
   Notification: ""
-  DisableTelemetry: null
+  DisableTelemetry: false
   IsClientPredicted: null
   UseLightweightReplication: null
   PauseInGameModesList: ""
@@ -32805,7 +32805,7 @@
   ReapplyAfterPersistenceReload: null
   PersistEffectInCrossWorldInstances: null
   Notification: ""
-  DisableTelemetry: null
+  DisableTelemetry: false
   IsClientPredicted: null
   UseLightweightReplication: null
   PauseInGameModesList: ""
@@ -44445,7 +44445,7 @@
 - StatusID: Dungeon_Medusa_Statue_Gaze_Apply
   DisplayName: "@Dungeon_Medusa_Statue_Gaze_Apply"
   Description: "@Dungeon_Medusa_Statue_Gaze_Apply"
-  EffectCategories: ""
+  EffectCategories: NonDispellableSlow
   PlaceholderIcon: lyshineui/images/status/SE_SlowT4.png
   ShowInUITray: "1"
   ShowInTokenTray: null
@@ -140694,7 +140694,7 @@
   HealthModifierPercent: null
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: "-0.05"
   ShowUiDamageNumbersOnHeal: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""

@@ -19768,7 +19768,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_heavy_head_slot"
   Description: "@HeavyHead_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: EquippableHead+Armor+Heavy+Named
+  ItemClass: EquippableHead+Armor+Heavy
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -19800,6 +19800,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: m_pvpPrestigeHT5_head
+  ArmorAppearanceF: f_pvpPrestigeHT5_head
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArmorSmall"
+  CraftingRecipe: SalvageSmall_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 80.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Armour
+  AudioPlace: Play_UI_Drop_Armour
+  AudioUse: Play_UI_Use_Armour
+  AudioCreated: Play_UI_Created_Armour
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: HeavyHead_PVP_NamedT5_V2
+  Name: "@HeavyHead_PVP_Named_MasterName"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_heavy_head_slot"
+  Description: "@HeavyHead_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: EquippableHead+Armor+Heavy+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: HeavyHead_Balanced
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorSentry
+  PerkSlot2: PerkID_Armor_Health
+  PerkSlot3: PerkID_Gem_ElementalWard4
+  PerkSlot4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_ArmorSentry
+  Perk2: PerkID_Armor_Health
+  Perk3: PerkID_Gem_ElementalWard4
+  Perk4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -20200,7 +20308,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_heavy_chest_slot"
   Description: "@HeavyChest_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: EquippableChest+Armor+Heavy+Named
+  ItemClass: EquippableChest+Armor+Heavy
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -20232,6 +20340,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: m_pvpPrestigeHT5_chest
+  ArmorAppearanceF: f_pvpPrestigeHT5_chest
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArmorLarge"
+  CraftingRecipe: SalvageLarge_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 120.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Armour
+  AudioPlace: Play_UI_Drop_Armour
+  AudioUse: Play_UI_Use_Armour
+  AudioCreated: Play_UI_Created_Armour
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: HeavyChest_PVP_NamedT5_V2
+  Name: "@HeavyChest_PVP_Named_MasterName"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_heavy_chest_slot"
+  Description: "@HeavyChest_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: EquippableChest+Armor+Heavy+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: HeavyChest_Balanced
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorSentry
+  PerkSlot2: PerkID_Armor_Health
+  PerkSlot3: PerkID_Gem_ElementalWard4
+  PerkSlot4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_ArmorSentry
+  Perk2: PerkID_Armor_Health
+  Perk3: PerkID_Gem_ElementalWard4
+  Perk4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -20632,7 +20848,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_heavy_glove_slot"
   Description: "@HeavyHands_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: EquippableHands+Armor+Heavy+Named
+  ItemClass: EquippableHands+Armor+Heavy
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -20664,6 +20880,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: m_pvpPrestigeHT5_gloves
+  ArmorAppearanceF: f_pvpPrestigeHT5_gloves
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArmorSmall"
+  CraftingRecipe: SalvageSmall_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 60.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Armour
+  AudioPlace: Play_UI_Drop_Armour
+  AudioUse: Play_UI_Use_Armour
+  AudioCreated: Play_UI_Created_Armour
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: HeavyHands_PVP_NamedT5_V2
+  Name: "@HeavyHands_PVP_Named_MasterName"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_heavy_glove_slot"
+  Description: "@HeavyHands_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: EquippableHands+Armor+Heavy+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: HeavyHands_Balanced
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorSentry
+  PerkSlot2: PerkID_Armor_Health
+  PerkSlot3: PerkID_Gem_ElementalWard4
+  PerkSlot4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_ArmorSentry
+  Perk2: PerkID_Armor_Health
+  Perk3: PerkID_Gem_ElementalWard4
+  Perk4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -21064,7 +21388,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_heavy_legs_slot"
   Description: "@HeavyLegs_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: EquippableLegs+Armor+Heavy+Named
+  ItemClass: EquippableLegs+Armor+Heavy
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -21096,6 +21420,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: m_pvpPrestigeHT5_legs
+  ArmorAppearanceF: f_pvpPrestigeHT5_legs
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArmorMedium"
+  CraftingRecipe: SalvageLarge_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 80.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Armour
+  AudioPlace: Play_UI_Drop_Armour
+  AudioUse: Play_UI_Use_Armour
+  AudioCreated: Play_UI_Created_Armour
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: HeavyLegs_PVP_NamedT5_V2
+  Name: "@HeavyLegs_PVP_Named_MasterName"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_heavy_legs_slot"
+  Description: "@HeavyLegs_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: EquippableLegs+Armor+Heavy+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: HeavyLegs_Balanced
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorSentry
+  PerkSlot2: PerkID_Armor_Health
+  PerkSlot3: PerkID_Gem_ElementalWard4
+  PerkSlot4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_ArmorSentry
+  Perk2: PerkID_Armor_Health
+  Perk3: PerkID_Gem_ElementalWard4
+  Perk4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -21496,7 +21928,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_heavy_feet_slot"
   Description: "@HeavyFeet_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: EquippableFeet+Armor+Heavy+Named
+  ItemClass: EquippableFeet+Armor+Heavy
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -21528,6 +21960,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: m_pvpPrestigeHT5_feet
+  ArmorAppearanceF: f_pvpPrestigeHT5_feet
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArmorSmall"
+  CraftingRecipe: SalvageSmall_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 60.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Armour
+  AudioPlace: Play_UI_Drop_Armour
+  AudioUse: Play_UI_Use_Armour
+  AudioCreated: Play_UI_Created_Armour
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: HeavyFeet_PVP_NamedT5_V2
+  Name: "@HeavyFeet_PVP_Named_MasterName"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_heavy_feet_slot"
+  Description: "@HeavyFeet_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: EquippableFeet+Armor+Heavy+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: HeavyFeet_Balanced
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorSentry
+  PerkSlot2: PerkID_Armor_Health
+  PerkSlot3: PerkID_Gem_ElementalWard4
+  PerkSlot4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_ArmorSentry
+  Perk2: PerkID_Armor_Health
+  Perk3: PerkID_Gem_ElementalWard4
+  Perk4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -21928,7 +22468,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_head_slot"
   Description: "@MediumHead_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: EquippableHead+Armor+Medium+Named
+  ItemClass: EquippableHead+Armor+Medium
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -21960,6 +22500,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: m_pvpPrestigeMT5_head
+  ArmorAppearanceF: f_pvpPrestigeMT5_head
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArmorSmall"
+  CraftingRecipe: SalvageSmall_LeatherT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 40.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Leather
+  AudioPlace: Play_UI_Drop_Leather
+  AudioUse: Play_UI_Use_Leather
+  AudioCreated: Play_UI_Created_Leather
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: MediumHead_PVP_NamedT5_V2
+  Name: "@MediumHead_PVP_Named_MasterName"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_normal_head_slot"
+  Description: "@MediumHead_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: EquippableHead+Armor+Medium+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: MediumHead_Balanced
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorSentry
+  PerkSlot2: PerkID_Armor_Health
+  PerkSlot3: PerkID_Gem_PhysicalWard4
+  PerkSlot4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_ArmorSentry
+  Perk2: PerkID_Armor_Health
+  Perk3: PerkID_Gem_PhysicalWard4
+  Perk4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -22360,7 +23008,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_chest_slot"
   Description: "@MediumChest_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: EquippableChest+Armor+Medium+Named
+  ItemClass: EquippableChest+Armor+Medium
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -22392,6 +23040,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: m_pvpPrestigeMT5_chest
+  ArmorAppearanceF: f_pvpPrestigeMT5_chest
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArmorLarge"
+  CraftingRecipe: SalvageLarge_LeatherT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 60.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Leather
+  AudioPlace: Play_UI_Drop_Leather
+  AudioUse: Play_UI_Use_Leather
+  AudioCreated: Play_UI_Created_Leather
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: MediumChest_PVP_NamedT5_V2
+  Name: "@MediumChest_PVP_Named_MasterName"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_normal_chest_slot"
+  Description: "@MediumChest_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: EquippableChest+Armor+Medium+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: MediumChest_Balanced
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorSentry
+  PerkSlot2: PerkID_Armor_Health
+  PerkSlot3: PerkID_Gem_PhysicalWard4
+  PerkSlot4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_ArmorSentry
+  Perk2: PerkID_Armor_Health
+  Perk3: PerkID_Gem_PhysicalWard4
+  Perk4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -22792,7 +23548,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_glove_slot"
   Description: "@MediumHands_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: EquippableHands+Armor+Medium+Named
+  ItemClass: EquippableHands+Armor+Medium
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -22824,6 +23580,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: m_pvpPrestigeMT5_hands
+  ArmorAppearanceF: f_pvpPrestigeMT5_hands
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArmorSmall"
+  CraftingRecipe: SalvageSmall_LeatherT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 30.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Leather
+  AudioPlace: Play_UI_Drop_Leather
+  AudioUse: Play_UI_Use_Leather
+  AudioCreated: Play_UI_Created_Leather
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: MediumHands_PVP_NamedT5_V2
+  Name: "@MediumHands_PVP_Named_MasterName"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_normal_glove_slot"
+  Description: "@MediumHands_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: EquippableHands+Armor+Medium+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: MediumHands_Balanced
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorSentry
+  PerkSlot2: PerkID_Armor_Health
+  PerkSlot3: PerkID_Gem_PhysicalWard4
+  PerkSlot4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_ArmorSentry
+  Perk2: PerkID_Armor_Health
+  Perk3: PerkID_Gem_PhysicalWard4
+  Perk4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -23224,7 +24088,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_legs_slot"
   Description: "@MediumLegs_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: EquippableLegs+Armor+Medium+Named
+  ItemClass: EquippableLegs+Armor+Medium
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -23256,6 +24120,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: m_pvpPrestigeMT5_legs
+  ArmorAppearanceF: f_pvpPrestigeMT5_legs
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArmorMedium"
+  CraftingRecipe: SalvageLarge_LeatherT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 40.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Leather
+  AudioPlace: Play_UI_Drop_Leather
+  AudioUse: Play_UI_Use_Leather
+  AudioCreated: Play_UI_Created_Leather
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: MediumLegs_PVP_NamedT5_V2
+  Name: "@MediumLegs_PVP_Named_MasterName"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_normal_legs_slot"
+  Description: "@MediumLegs_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: EquippableLegs+Armor+Medium+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: MediumLegs_Balanced
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorSentry
+  PerkSlot2: PerkID_Armor_Health
+  PerkSlot3: PerkID_Gem_PhysicalWard4
+  PerkSlot4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_ArmorSentry
+  Perk2: PerkID_Armor_Health
+  Perk3: PerkID_Gem_PhysicalWard4
+  Perk4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -23656,7 +24628,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_feet_slot"
   Description: "@MediumFeet_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: EquippableFeet+Armor+Medium+Named
+  ItemClass: EquippableFeet+Armor+Medium
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -23688,6 +24660,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: m_pvpPrestigeMT5_feet
+  ArmorAppearanceF: f_pvpPrestigeMT5_feet
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArmorSmall"
+  CraftingRecipe: SalvageSmall_LeatherT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 30.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Leather
+  AudioPlace: Play_UI_Drop_Leather
+  AudioUse: Play_UI_Use_Leather
+  AudioCreated: Play_UI_Created_Leather
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: MediumFeet_PVP_NamedT5_V2
+  Name: "@MediumFeet_PVP_Named_MasterName"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_normal_feet_slot"
+  Description: "@MediumFeet_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: EquippableFeet+Armor+Medium+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: MediumFeet_Balanced
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorSentry
+  PerkSlot2: PerkID_Armor_Health
+  PerkSlot3: PerkID_Gem_PhysicalWard4
+  PerkSlot4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_ArmorSentry
+  Perk2: PerkID_Armor_Health
+  Perk3: PerkID_Gem_PhysicalWard4
+  Perk4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -24088,7 +25168,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_light_head_slot"
   Description: "@LightHead_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: EquippableHead+Armor+Light+Named
+  ItemClass: EquippableHead+Armor+Light
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -24120,6 +25200,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: m_pvpPrestigeLT5_head
+  ArmorAppearanceF: f_pvpPrestigeLT5_head
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArmorSmall"
+  CraftingRecipe: SalvageSmall_ClothT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 20.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Cloth
+  AudioPlace: Play_UI_Drop_Cloth
+  AudioUse: Play_UI_Use_Cloth
+  AudioCreated: Play_UI_Created_Cloth
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: LightHead_PVP_NamedT5_V2
+  Name: "@LightHead_PVP_Named_MasterName"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_light_head_slot"
+  Description: "@LightHead_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: EquippableHead+Armor+Light+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: LightHead_Balanced
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorSentry
+  PerkSlot2: PerkID_Common_CDR
+  PerkSlot3: PerkID_Gem_PhysicalWard4
+  PerkSlot4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_ArmorSentry
+  Perk2: PerkID_Common_CDR
+  Perk3: PerkID_Gem_PhysicalWard4
+  Perk4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -24520,7 +25708,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_light_chest_slot"
   Description: "@LightChest_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: EquippableChest+Armor+Light+Named
+  ItemClass: EquippableChest+Armor+Light
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -24552,6 +25740,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: m_pvpPrestigeLT5_chest
+  ArmorAppearanceF: f_pvpPrestigeLT5_chest
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArmorLarge"
+  CraftingRecipe: SalvageLarge_ClothT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 30.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Cloth
+  AudioPlace: Play_UI_Drop_Cloth
+  AudioUse: Play_UI_Use_Cloth
+  AudioCreated: Play_UI_Created_Cloth
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: LightChest_PVP_NamedT5_V2
+  Name: "@LightChest_PVP_Named_MasterName"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_light_chest_slot"
+  Description: "@LightChest_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: EquippableChest+Armor+Light+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: LightChest_Balanced
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorSentry
+  PerkSlot2: PerkID_Common_CDR
+  PerkSlot3: PerkID_Gem_PhysicalWard4
+  PerkSlot4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_ArmorSentry
+  Perk2: PerkID_Common_CDR
+  Perk3: PerkID_Gem_PhysicalWard4
+  Perk4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -24952,7 +26248,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_light_glove_slot"
   Description: "@LightHands_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: EquippableHands+Armor+Light+Named
+  ItemClass: EquippableHands+Armor+Light
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -24984,6 +26280,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: m_pvpPrestigeLT5_gloves
+  ArmorAppearanceF: f_pvpPrestigeLT5_gloves
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArmorSmall"
+  CraftingRecipe: SalvageSmall_ClothT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 15.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Cloth
+  AudioPlace: Play_UI_Drop_Cloth
+  AudioUse: Play_UI_Use_Cloth
+  AudioCreated: Play_UI_Created_Cloth
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: LightHands_PVP_NamedT5_V2
+  Name: "@LightHands_PVP_Named_MasterName"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_light_glove_slot"
+  Description: "@LightHands_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: EquippableHands+Armor+Light+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: LightHands_Balanced
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorSentry
+  PerkSlot2: PerkID_Common_CDR
+  PerkSlot3: PerkID_Gem_PhysicalWard4
+  PerkSlot4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_ArmorSentry
+  Perk2: PerkID_Common_CDR
+  Perk3: PerkID_Gem_PhysicalWard4
+  Perk4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -25384,7 +26788,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_light_legs_slot"
   Description: "@LightLegs_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: EquippableLegs+Armor+Light+Named
+  ItemClass: EquippableLegs+Armor+Light
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -25416,6 +26820,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: m_pvpPrestigeLT5_legs
+  ArmorAppearanceF: f_pvpPrestigeLT5_legs
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArmorMedium"
+  CraftingRecipe: SalvageLarge_ClothT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 20.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Cloth
+  AudioPlace: Play_UI_Drop_Cloth
+  AudioUse: Play_UI_Use_Cloth
+  AudioCreated: Play_UI_Created_Cloth
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: LightLegs_PVP_NamedT5_V2
+  Name: "@LightLegs_PVP_Named_MasterName"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_light_legs_slot"
+  Description: "@LightLegs_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: EquippableLegs+Armor+Light+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: LightLegs_Balanced
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorSentry
+  PerkSlot2: PerkID_Common_CDR
+  PerkSlot3: PerkID_Gem_PhysicalWard4
+  PerkSlot4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_ArmorSentry
+  Perk2: PerkID_Common_CDR
+  Perk3: PerkID_Gem_PhysicalWard4
+  Perk4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -25816,7 +27328,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_light_feet_slot"
   Description: "@LightFeet_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: EquippableFeet+Armor+Light+Named
+  ItemClass: EquippableFeet+Armor+Light
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -25848,6 +27360,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: m_pvpPrestigeLT5_feet
+  ArmorAppearanceF: f_pvpPrestigeLT5_feet
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArmorSmall"
+  CraftingRecipe: SalvageSmall_ClothT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 15.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Cloth
+  AudioPlace: Play_UI_Drop_Cloth
+  AudioUse: Play_UI_Use_Cloth
+  AudioCreated: Play_UI_Created_Cloth
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: LightFeet_PVP_NamedT5_V2
+  Name: "@LightFeet_PVP_Named_MasterName"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_light_feet_slot"
+  Description: "@LightFeet_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: EquippableFeet+Armor+Light+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: LightFeet_Balanced
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorSentry
+  PerkSlot2: PerkID_Common_CDR
+  PerkSlot3: PerkID_Gem_PhysicalWard4
+  PerkSlot4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_ArmorSentry
+  Perk2: PerkID_Common_CDR
+  Perk3: PerkID_Gem_PhysicalWard4
+  Perk4: PerkID_PvP_Armor_DodgeSuccess_Heal
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -47524,7 +49144,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_sword"
   Description: "@1hLongsword_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: Weapon+EquippableMainHand+Sword+Melee+Named
+  ItemClass: Weapon+EquippableMainHand+Sword+Melee
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -47556,6 +49176,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 1hSwordCrystallinePVPP2T5
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: Items/Weapons/weapon
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageWeaponSmall"
+  CraftingRecipe: SalvageSmall_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 54.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Sword
+  AudioPlace: Play_UI_Drop_Sword
+  AudioUse: Play_UI_Use_Sword
+  AudioCreated: Play_UI_Created_Sword
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: 1hLongsword_PVP_NamedT5_V2
+  Name: "@1hLongsword_PVP_Named_MasterName"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_sword"
+  Description: "@1hLongsword_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: Weapon+EquippableMainHand+Sword+Melee+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: SwordT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_OneHandSoldier
+  PerkSlot2: PerkID_Weapon_DmgCrit
+  PerkSlot3: PerkID_Gem_CruelGem4
+  PerkSlot4: PerkID_PvP_Weapon_ArmorPenetration_OnBackstab
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_OneHandSoldier
+  Perk2: PerkID_Weapon_DmgCrit
+  Perk3: PerkID_Gem_CruelGem4
+  Perk4: PerkID_PvP_Weapon_ArmorPenetration_OnBackstab
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -47956,7 +49684,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_hatchet"
   Description: "@1hThrowingAxe_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: Weapon+EquippableMainHand+Hatchet+Melee+Named
+  ItemClass: Weapon+EquippableMainHand+Hatchet+Melee
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -47988,6 +49716,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 1hHatchetCrystallinePVPP2T5
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: Items/Weapons/weapon
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageEngineerSmall"
+  CraftingRecipe: SalvageSmall_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 54.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Axe
+  AudioPlace: Play_UI_Drop_Axe
+  AudioUse: Play_UI_Use_Axe
+  AudioCreated: Play_UI_Created_Axe
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: 1hThrowingAxe_PVP_NamedT5_V2
+  Name: "@1hThrowingAxe_PVP_Named_MasterName"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_hatchet"
+  Description: "@1hThrowingAxe_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: Weapon+EquippableMainHand+Hatchet+Melee+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: HatchetT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_TwoHandSoldier
+  PerkSlot2: PerkID_Weapon_DmgCrit
+  PerkSlot3: PerkID_Gem_RetaliateGem4
+  PerkSlot4: PerkID_PvP_Weapon_ArmorPenetration_OnBackstab
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_TwoHandSoldier
+  Perk2: PerkID_Weapon_DmgCrit
+  Perk3: PerkID_Gem_RetaliateGem4
+  Perk4: PerkID_PvP_Weapon_ArmorPenetration_OnBackstab
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -48388,7 +50224,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_warhammer"
   Description: "@2hWarhammer_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: Weapon+EquippableTwoHand+2HHammer+Melee+Named
+  ItemClass: Weapon+EquippableTwoHand+2HHammer+Melee
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -48420,6 +50256,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 2hWarhammerCrystallinePVPP2T5
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: Items/Weapons/weapon
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageWeaponLarge"
+  CraftingRecipe: SalvageLarge_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 130.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Axe
+  AudioPlace: Play_UI_Drop_Axe
+  AudioUse: Play_UI_Use_Axe
+  AudioCreated: Play_UI_Created_Axe
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: 2hWarhammer_PVP_NamedT5_V2
+  Name: "@2hWarhammer_PVP_Named_MasterName"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_warhammer"
+  Description: "@2hWarhammer_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: Weapon+EquippableTwoHand+2HHammer+Melee+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: 2HHammerT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_TwoHandSoldier
+  PerkSlot2: PerkID_Weapon_DmgCrit
+  PerkSlot3: PerkID_Gem_CruelGem4
+  PerkSlot4: PerkID_PvP_Weapon_BlockBreak_Rend
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_TwoHandSoldier
+  Perk2: PerkID_Weapon_DmgCrit
+  Perk3: PerkID_Gem_CruelGem4
+  Perk4: PerkID_PvP_Weapon_BlockBreak_Rend
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -48820,7 +50764,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_axe"
   Description: "@2hGreatAxe_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: Weapon+EquippableTwoHand+2HAxe+Melee+Named
+  ItemClass: Weapon+EquippableTwoHand+2HAxe+Melee
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -48852,6 +50796,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 2hGreatAxeCrystallinePVPP2T5
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: Items/Weapons/weapon
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageWeaponLarge"
+  CraftingRecipe: SalvageLarge_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 128.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Axe
+  AudioPlace: Play_UI_Drop_Axe
+  AudioUse: Play_UI_Use_Axe
+  AudioCreated: Play_UI_Created_Axe
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: 2hGreatAxe_PVP_NamedT5_V2
+  Name: "@2hGreatAxe_PVP_Named_MasterName"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_axe"
+  Description: "@2hGreatAxe_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: Weapon+EquippableTwoHand+2HAxe+Melee+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: 2HAxeT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_TwoHandSoldier
+  PerkSlot2: PerkID_Weapon_DmgCrit
+  PerkSlot3: PerkID_Gem_CruelGem4
+  PerkSlot4: PerkID_PvP_Weapon_BlockBreak_Rend
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_TwoHandSoldier
+  Perk2: PerkID_Weapon_DmgCrit
+  Perk3: PerkID_Gem_CruelGem4
+  Perk4: PerkID_PvP_Weapon_BlockBreak_Rend
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -49252,7 +51304,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_bow"
   Description: "@2hBow_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: Weapon+EquippableTwoHand+Bow+Ranged+Named
+  ItemClass: Weapon+EquippableTwoHand+Bow+Ranged
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -49284,6 +51336,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 2hBowCrystallinePVPP2T5
+  WeaponAccessory: 2hBowT5
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: Items/Weapons/weapon
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageEngineerLarge"
+  CraftingRecipe: SalvageSmall_TimberT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 126.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Bow
+  AudioPlace: Play_UI_Drop_Bow
+  AudioUse: Play_UI_Use_Bow
+  AudioCreated: Play_UI_Created_Bow
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: 2hBow_PVP_NamedT5_V2
+  Name: "@2hBow_PVP_Named_MasterName"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_bow"
+  Description: "@2hBow_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: Weapon+EquippableTwoHand+Bow+Ranged+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: BowT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_TwoHandRanger
+  PerkSlot2: PerkID_Weapon_DmgCrit
+  PerkSlot3: PerkID_Gem_ExhilarateGem4
+  PerkSlot4: PerkID_PvP_Weapon_ArmorPenetration_OnHeadshot
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_TwoHandRanger
+  Perk2: PerkID_Weapon_DmgCrit
+  Perk3: PerkID_Gem_ExhilarateGem4
+  Perk4: PerkID_PvP_Weapon_ArmorPenetration_OnHeadshot
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -49684,7 +51844,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_musket"
   Description: "@2hMusket_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: Weapon+EquippableTwoHand+Musket+Ranged+Named
+  ItemClass: Weapon+EquippableTwoHand+Musket+Ranged
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -49716,6 +51876,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 2hMusketCrystallinePVPP2T5
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: Items/Weapons/weapon
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageEngineerLarge"
+  CraftingRecipe: SalvageLarge_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 134.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Firearm
+  AudioPlace: Play_UI_Drop_Firearm
+  AudioUse: Play_UI_Use_Firearm
+  AudioCreated: Play_UI_Created_Firearm
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: 2hMusket_PVP_NamedT5_V2
+  Name: "@2hMusket_PVP_Named_MasterName"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_musket"
+  Description: "@2hMusket_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: Weapon+EquippableTwoHand+Musket+Ranged+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: MusketT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_TwoHandRanger
+  PerkSlot2: PerkID_Weapon_DmgCrit
+  PerkSlot3: PerkID_Gem_ExhilarateGem4
+  PerkSlot4: PerkID_PvP_Weapon_ArmorPenetration_OnHeadshot
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_TwoHandRanger
+  Perk2: PerkID_Weapon_DmgCrit
+  Perk3: PerkID_Gem_ExhilarateGem4
+  Perk4: PerkID_PvP_Weapon_ArmorPenetration_OnHeadshot
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -50116,7 +52384,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_roundshield"
   Description: "@1hRoundShield_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: Weapon+EquippableOffHand+Shield+RoundShield+Named
+  ItemClass: Weapon+EquippableOffHand+Shield+RoundShield
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -50148,6 +52416,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 1hRoundShieldCrystallinePVPP2T5
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: Items/Weapons/weapon
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageWeaponSmall"
+  CraftingRecipe: SalvageLarge_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 48.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Firearm
+  AudioPlace: Play_UI_Drop_Firearm
+  AudioUse: Play_UI_Use_Firearm
+  AudioCreated: Play_UI_Created_Firearm
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: 1hRoundShield_PVP_NamedT5_V2
+  Name: "@1hRoundShield_PVP_Named_MasterName"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_roundshield"
+  Description: "@1hRoundShield_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: Weapon+EquippableOffHand+Shield+RoundShield+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: 1hShieldAT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_RoundShield
+  PerkSlot2: PerkID_Weapon_EmpowerOnCrit
+  PerkSlot3: ""
+  PerkSlot4: PerkID_PvP_Shield_FortifyStackOnBlock
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_RoundShield
+  Perk2: PerkID_Weapon_EmpowerOnCrit
+  Perk3: ""
+  Perk4: PerkID_PvP_Shield_FortifyStackOnBlock
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -50440,7 +52816,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_kiteshield"
   Description: "@1hKiteShield_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: Weapon+EquippableOffHand+Shield+KiteShield+Named
+  ItemClass: Weapon+EquippableOffHand+Shield+KiteShield
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -50472,6 +52848,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 1hKiteShieldCrystallinePVPP2T5
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: Items/Weapons/weapon
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageWeaponSmall"
+  CraftingRecipe: SalvageLarge_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 54.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Firearm
+  AudioPlace: Play_UI_Drop_Firearm
+  AudioUse: Play_UI_Use_Firearm
+  AudioCreated: Play_UI_Created_Firearm
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: 1hKiteShield_PVP_NamedT5_V2
+  Name: "@1hKiteShield_PVP_Named_MasterName"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_kiteshield"
+  Description: "@1hKiteShield_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: Weapon+EquippableOffHand+Shield+KiteShield+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: 1hShieldBT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_KiteShield
+  PerkSlot2: PerkID_Common_CDR
+  PerkSlot3: ""
+  PerkSlot4: PerkID_PvP_Shield_FortifyStackOnBlock
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_KiteShield
+  Perk2: PerkID_Common_CDR
+  Perk3: ""
+  Perk4: PerkID_PvP_Shield_FortifyStackOnBlock
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -50656,7 +53140,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_towershield"
   Description: "@1hTowerShield_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: Weapon+EquippableOffHand+Shield+TowerShield+Named
+  ItemClass: Weapon+EquippableOffHand+Shield+TowerShield
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -50688,6 +53172,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 1hTowerShieldCrystallinePVPP2T5
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: Items/Weapons/weapon
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageWeaponSmall"
+  CraftingRecipe: SalvageLarge_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 72.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Firearm
+  AudioPlace: Play_UI_Drop_Firearm
+  AudioUse: Play_UI_Use_Firearm
+  AudioCreated: Play_UI_Created_Firearm
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: 1H_ShieldA_metal
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: 1hTowerShield_PVP_NamedT5_V2
+  Name: "@1hTowerShield_PVP_Named_MasterName"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_towershield"
+  Description: "@1hTowerShield_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: Weapon+EquippableOffHand+Shield+TowerShield+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: 1hShieldDT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_TowerShield
+  PerkSlot2: PerkID_Shield_DefSlash
+  PerkSlot3: ""
+  PerkSlot4: PerkID_PvP_Shield_FortifyStackOnBlock
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_TowerShield
+  Perk2: PerkID_Shield_DefSlash
+  Perk3: ""
+  Perk4: PerkID_PvP_Shield_FortifyStackOnBlock
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -51088,7 +53680,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_firestaff"
   Description: "@2hStaffFire_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: Weapon+EquippableMainHand+FireStaff+Magic+Named
+  ItemClass: Weapon+EquippableMainHand+FireStaff+Magic
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -51120,6 +53712,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 2hFireStaffCrystallinePVPP2T5
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: Items/Weapons/weapon
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArcane"
+  CraftingRecipe: SalvageSmall_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 128.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Generic
+  AudioPlace: Play_UI_Drop_Generic
+  AudioUse: Play_UI_Use_Generic
+  AudioCreated: Play_UI_Created_Generic
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: 2hStaffFire_PVP_NamedT5_V2
+  Name: "@2hStaffFire_PVP_Named_MasterName"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_firestaff"
+  Description: "@2hStaffFire_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: Weapon+EquippableMainHand+FireStaff+Magic+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: FireStaffT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_TwoHandScholar
+  PerkSlot2: PerkID_Weapon_DmgCrit
+  PerkSlot3: PerkID_Gem_ExhilarateGem4
+  PerkSlot4: PerkID_PvP_WeaponMagic_DmgToHaste
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_TwoHandScholar
+  Perk2: PerkID_Weapon_DmgCrit
+  Perk3: PerkID_Gem_ExhilarateGem4
+  Perk4: PerkID_PvP_WeaponMagic_DmgToHaste
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -51520,7 +54220,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_lifestaff"
   Description: "@2hStaffLife_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: Weapon+EquippableMainHand+LifeStaff+Magic+Named
+  ItemClass: Weapon+EquippableMainHand+LifeStaff+Magic
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -51552,6 +54252,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 2hLifeStaffCrystallinePVPP2T5
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: Items/Weapons/weapon
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArcane"
+  CraftingRecipe: SalvageSmall_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 128.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Generic
+  AudioPlace: Play_UI_Drop_Generic
+  AudioUse: Play_UI_Use_Generic
+  AudioCreated: Play_UI_Created_Generic
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: 2hStaffLife_PVP_NamedT5_V2
+  Name: "@2hStaffLife_PVP_Named_MasterName"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_lifestaff"
+  Description: "@2hStaffLife_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: Weapon+EquippableMainHand+LifeStaff+Magic+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: LifeStaffT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_TwoHandSage
+  PerkSlot2: PerkID_WeaponLife_HealOutgoing
+  PerkSlot3: PerkID_Gem_RallyGem4
+  PerkSlot4: PerkID_PvP_WeaponMagic_DmgToHaste
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_TwoHandSage
+  Perk2: PerkID_WeaponLife_HealOutgoing
+  Perk3: PerkID_Gem_RallyGem4
+  Perk4: PerkID_PvP_WeaponMagic_DmgToHaste
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -51952,7 +54760,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_spear"
   Description: "@2hSpear_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: Weapon+EquippableTwoHand+Spear+Melee+Named
+  ItemClass: Weapon+EquippableTwoHand+Spear+Melee
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -51984,6 +54792,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 2hSpearCrystallinePVPP2T5
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: Items/Weapons/weapon
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageEngineerLarge"
+  CraftingRecipe: SalvageLarge_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 108.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Metal_Weapon
+  AudioPlace: Play_UI_Drop_Metal_Weapon
+  AudioUse: Play_UI_Use_Metal_Weapon
+  AudioCreated: Play_UI_Created_Metal_Weapon
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: 2H_Spear
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: 2hSpear_PVP_NamedT5_V2
+  Name: "@2hSpear_PVP_Named_MasterName"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_spear"
+  Description: "@2hSpear_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: Weapon+EquippableTwoHand+Spear+Melee+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: SpearT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_TwoHandRanger
+  PerkSlot2: PerkID_Weapon_DmgCrit
+  PerkSlot3: PerkID_Gem_GambitGem4
+  PerkSlot4: PerkID_PvP_Weapon_ArmorPenetration_OnBackstab
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_TwoHandRanger
+  Perk2: PerkID_Weapon_DmgCrit
+  Perk3: PerkID_Gem_GambitGem4
+  Perk4: PerkID_PvP_Weapon_ArmorPenetration_OnBackstab
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -52384,7 +55300,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_rapier"
   Description: "@1hRapier_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: Weapon+EquippableMainHand+Rapier+Melee+Named
+  ItemClass: Weapon+EquippableMainHand+Rapier+Melee
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -52416,6 +55332,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 1hRapierCrystallinePVPP2T5
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: Items/Weapons/weapon
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageWeaponSmall"
+  CraftingRecipe: SalvageSmall_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 40.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Sword
+  AudioPlace: Play_UI_Drop_Sword
+  AudioUse: Play_UI_Use_Sword
+  AudioCreated: Play_UI_Created_Sword
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: 1H_Rapier
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: 1hRapier_PVP_NamedT5_V2
+  Name: "@1hRapier_PVP_Named_MasterName"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_rapier"
+  Description: "@1hRapier_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: Weapon+EquippableMainHand+Rapier+Melee+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: RapierT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_TwoHandRanger
+  PerkSlot2: PerkID_Weapon_DmgCrit
+  PerkSlot3: PerkID_Gem_GambitGem4
+  PerkSlot4: PerkID_PvP_Weapon_ArmorPenetration_OnBackstab
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_TwoHandRanger
+  Perk2: PerkID_Weapon_DmgCrit
+  Perk3: PerkID_Gem_GambitGem4
+  Perk4: PerkID_PvP_Weapon_ArmorPenetration_OnBackstab
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -52816,7 +55840,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_icegauntlet"
   Description: "@1hGauntletIce_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: Weapon+EquippableMainHand+IceMagic+Magic+Named
+  ItemClass: Weapon+EquippableMainHand+IceMagic+Magic
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -52848,6 +55872,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 2hIceGauntletCrystallinePVPP2T5
+  WeaponAccessory: 2hIceGauntletCrystallinePVPP2T5
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArcane"
+  CraftingRecipe: SalvageSmall_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 48.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Generic
+  AudioPlace: Play_UI_Drop_Generic
+  AudioUse: Play_UI_Use_Generic
+  AudioCreated: Play_UI_Created_Generic
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: 1hGauntletIce_PVP_NamedT5_V2
+  Name: "@1hGauntletIce_PVP_Named_MasterName"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_icegauntlet"
+  Description: "@1hGauntletIce_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: Weapon+EquippableMainHand+IceMagic+Magic+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: 1hElementalGauntlet_IceT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_TwoHandScholar
+  PerkSlot2: PerkID_Weapon_DmgCrit
+  PerkSlot3: PerkID_Gem_CruelGem4
+  PerkSlot4: PerkID_PvP_WeaponMagic_DmgToHaste
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_TwoHandScholar
+  Perk2: PerkID_Weapon_DmgCrit
+  Perk3: PerkID_Gem_CruelGem4
+  Perk4: PerkID_PvP_WeaponMagic_DmgToHaste
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -53248,7 +56380,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_voidgauntlet"
   Description: "@1hGauntletVoid_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: Weapon+EquippableMainHand+VoidGauntlet+Magic+Named
+  ItemClass: Weapon+EquippableMainHand+VoidGauntlet+Magic
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -53280,6 +56412,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 2hVoidGauntletCrystallinePVPP2T5
+  WeaponAccessory: 2hVoidGauntletCrystallinePVPP2T5
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageArcane"
+  CraftingRecipe: SalvageSmall_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 48.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Generic
+  AudioPlace: Play_UI_Drop_Generic
+  AudioUse: Play_UI_Use_Generic
+  AudioCreated: Play_UI_Created_Generic
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: 1hGauntletVoid_PVP_NamedT5_V2
+  Name: "@1hGauntletVoid_PVP_Named_MasterName"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_voidgauntlet"
+  Description: "@1hGauntletVoid_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: Weapon+EquippableMainHand+VoidGauntlet+Magic+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: VoidGauntletT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_TwoHandScholar
+  PerkSlot2: PerkID_Weapon_DmgCrit
+  PerkSlot3: PerkID_Gem_RallyGem4
+  PerkSlot4: PerkID_PvP_WeaponMagic_DmgToHaste
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_TwoHandScholar
+  Perk2: PerkID_Weapon_DmgCrit
+  Perk3: PerkID_Gem_RallyGem4
+  Perk4: PerkID_PvP_WeaponMagic_DmgToHaste
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -53464,7 +56704,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_blunderbuss"
   Description: "@2hBlunderbuss_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: Weapon+EquippableTwoHand+Blunderbuss+Ranged+Named
+  ItemClass: Weapon+EquippableTwoHand+Blunderbuss+Ranged
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -53496,6 +56736,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 2hBlunderbussCrystallinePVPP2T5
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: Items/Weapons/weapon
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageEngineerLarge"
+  CraftingRecipe: SalvageLarge_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 134.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Firearm
+  AudioPlace: Play_UI_Drop_Firearm
+  AudioUse: Play_UI_Use_Firearm
+  AudioCreated: Play_UI_Created_Firearm
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: 2H_Rifle
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: 2hBlunderbuss_PVP_NamedT5_V2
+  Name: "@2hBlunderbuss_PVP_Named_MasterName"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_blunderbuss"
+  Description: "@2hBlunderbuss_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: Weapon+EquippableTwoHand+Blunderbuss+Ranged+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: BlunderbussT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_TwoHandSoldier
+  PerkSlot2: PerkID_Weapon_DmgCrit
+  PerkSlot3: PerkID_Gem_GambitGem4
+  PerkSlot4: PerkID_PvP_Weapon_ArmorPenetration_OnHeadshot
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_TwoHandSoldier
+  Perk2: PerkID_Weapon_DmgCrit
+  Perk3: PerkID_Gem_GambitGem4
+  Perk4: PerkID_PvP_Weapon_ArmorPenetration_OnHeadshot
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -53680,7 +57028,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_greatsword"
   Description: "@2hGreatSword_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: Weapon+EquippableTwoHand+GreatSword+Melee+Named
+  ItemClass: Weapon+EquippableTwoHand+GreatSword+Melee
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -53712,6 +57060,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 2hGreatswordCrystallinePVPP2T5
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: Items/Weapons/weapon
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageWeaponLarge"
+  CraftingRecipe: SalvageLarge_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 128.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Axe
+  AudioPlace: Play_UI_Drop_Axe
+  AudioUse: Play_UI_Use_Axe
+  AudioCreated: Play_UI_Created_Axe
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: 2hGreatSword_PVP_NamedT5_V2
+  Name: "@2hGreatSword_PVP_Named_MasterName"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_greatsword"
+  Description: "@2hGreatSword_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: Weapon+EquippableTwoHand+GreatSword+Melee+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: 2hGreatSwordT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_TwoHandRanger
+  PerkSlot2: PerkID_Weapon_DmgCrit
+  PerkSlot3: PerkID_Gem_GambitGem4
+  PerkSlot4: PerkID_PvP_Weapon_CleanseBuff_Crits
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_TwoHandRanger
+  Perk2: PerkID_Weapon_DmgCrit
+  Perk3: PerkID_Gem_GambitGem4
+  Perk4: PerkID_PvP_Weapon_CleanseBuff_Crits
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -53896,7 +57352,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_Flail"
   Description: "@1hFlail_PVP_Named_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: Weapon+EquippableMainHand+Flail+Melee+Named
+  ItemClass: Weapon+EquippableMainHand+Flail+Melee
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -53928,6 +57384,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 1hFlailCrystallinePVPB2T5
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: Items/Weapons/weapon
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageWeaponSmall"
+  CraftingRecipe: SalvageSmall_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 56.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Axe
+  AudioPlace: Play_UI_Drop_Axe
+  AudioUse: Play_UI_Use_Axe
+  AudioCreated: Play_UI_Created_Axe
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: 1H_Flail
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: Expansion2023
+- ItemID: 1hFlail_PVP_NamedT5_V2
+  Name: "@1hFlail_PVP_Named_MasterName"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_Flail"
+  Description: "@1hFlail_PVP_Named_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: Weapon+EquippableMainHand+Flail+Melee+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: FlailT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_OneHandSoldier
+  PerkSlot2: PerkID_Weapon_DmgCrit
+  PerkSlot3: PerkID_Gem_CruelGem4
+  PerkSlot4: PerkID_PvP_Weapon_ArmorPenetration_OnBackstab
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_OneHandSoldier
+  Perk2: PerkID_Weapon_DmgCrit
+  Perk3: PerkID_Gem_CruelGem4
+  Perk4: PerkID_PvP_Weapon_ArmorPenetration_OnBackstab
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -55192,7 +58756,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_earringjewelry"
   Description: "@Earring_PVP_NamedT5_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: EquippableToken+Jewelry+Named
+  ItemClass: EquippableToken+Jewelry
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -55224,6 +58788,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: lyshineui/images/icons/items/Armor/CorruptedEarring19.png
+  HiResIconPath: lyshineui/images/icons/items_hires/CorruptedEarring19.png
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageJewelry"
+  CraftingRecipe: SalvageSmall_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 1.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Generic
+  AudioPlace: Play_UI_Drop_Generic
+  AudioUse: Play_UI_Use_Generic
+  AudioCreated: Play_UI_Created_Generic
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: Earring_PVP_NamedT5_V2
+  Name: "@Earring_PVP_NamedT5_MasterName"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_earringjewelry"
+  Description: "@Earring_PVP_NamedT5_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: EquippableToken+Jewelry+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: EarringCONT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorSentry
+  PerkSlot2: PerkID_Earring_PotionCDR
+  PerkSlot3: PerkID_Gem_SpectralWard4
+  PerkSlot4: PerkID_Earring_HealthRegen
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_ArmorSentry
+  Perk2: PerkID_Earring_PotionCDR
+  Perk3: PerkID_Gem_SpectralWard4
+  Perk4: PerkID_Earring_HealthRegen
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -55516,7 +59188,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_ringjewelry"
   Description: "@Ring_PVP_NamedT5_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: EquippableRing+Jewelry+Named
+  ItemClass: EquippableRing+Jewelry
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -55548,6 +59220,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: lyshineui/images/icons/items/Armor/CorruptedRing19.png
+  HiResIconPath: lyshineui/images/icons/items_hires/CorruptedRing19.png
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageJewelry"
+  CraftingRecipe: SalvageSmall_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 1.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Generic
+  AudioPlace: Play_UI_Drop_Generic
+  AudioUse: Play_UI_Use_Generic
+  AudioCreated: Play_UI_Created_Generic
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: Ring_PVP_NamedT5_V2
+  Name: "@Ring_PVP_NamedT5_MasterName"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_ringjewelry"
+  Description: "@Ring_PVP_NamedT5_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: EquippableRing+Jewelry+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: RingCONT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorSentry
+  PerkSlot2: PerkID_Ring_MaxStamina
+  PerkSlot3: PerkID_Gem_SpectralWard4
+  PerkSlot4: PerkID_PvP_Ring_DmgPerTargetBuff
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_ArmorSentry
+  Perk2: PerkID_Ring_MaxStamina
+  Perk3: PerkID_Gem_SpectralWard4
+  Perk4: PerkID_PvP_Ring_DmgPerTargetBuff
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0
@@ -55840,7 +59620,7 @@
   ItemTypeDisplayName: "@ui_itemtypedescription_amuletjewelry"
   Description: "@Amulet_PVP_NamedT5_Description"
   HeartgemRuneTooltipTitle: ""
-  ItemClass: EquippableAmulet+Jewelry+Named
+  ItemClass: EquippableAmulet+Jewelry
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
@@ -55872,6 +59652,114 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  ForceRarity: null
+  RequiredLevel: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Armor
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: lyshineui/images/icons/items/Armor/CorruptedAmulet19.png
+  HiResIconPath: lyshineui/images/icons/items_hires/CorruptedAmulet19.png
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "1"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 1.0
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageJewelry"
+  CraftingRecipe: SalvageSmall_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 750.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 1.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Generic
+  AudioPlace: Play_UI_Drop_Generic
+  AudioUse: Play_UI_Use_Generic
+  AudioCreated: Play_UI_Created_Generic
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+- ItemID: Amulet_PVP_NamedT5_V2
+  Name: "@Amulet_PVP_NamedT5_MasterName"
+  ItemType: Armor
+  ItemTypeDisplayName: "@ui_itemtypedescription_amuletjewelry"
+  Description: "@Amulet_PVP_NamedT5_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: EquippableAmulet+Jewelry+Named
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: 500.0
+  MaxGearScore: 600.0
+  Tier: 5.0
+  ItemStatsRef: AmuletCONT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Stat_ArmorSentry
+  PerkSlot2: PerkID_Amulet_HP
+  PerkSlot3: PerkID_Gem_SpectralWard4
+  PerkSlot4: PerkID_PvP_Amulet_DodgeSuccess_DMG
+  PerkSlot5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
+  Perk1: PerkID_Stat_ArmorSentry
+  Perk2: PerkID_Amulet_HP
+  Perk3: PerkID_Gem_SpectralWard4
+  Perk4: PerkID_PvP_Amulet_DodgeSuccess_DMG
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: PerkBucket_PVPRTPerks_T4PrestigeBucket4Chance
   ForceRarity: null
   RequiredLevel: ""
   UseTypeAffix: 1.0

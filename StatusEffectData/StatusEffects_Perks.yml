@@ -38624,7 +38624,7 @@
   RefreshDuration: ""
   StackMax: 1.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: "1"
+  RemoveUnappliedStacks: "0"
   PotencyMax: null
   DontReplaceStack: null
   MoveSpeedMod: -0.05
@@ -39377,7 +39377,7 @@
   RefreshDuration: ""
   StackMax: 1.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: "1"
+  RemoveUnappliedStacks: "0"
   PotencyMax: null
   DontReplaceStack: null
   MoveSpeedMod: 0.035
@@ -44146,7 +44146,7 @@
   RefreshDuration: ""
   StackMax: 1.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: "1"
+  RemoveUnappliedStacks: "0"
   PotencyMax: null
   DontReplaceStack: null
   MoveSpeedMod: 0.03
@@ -46656,7 +46656,7 @@
   RefreshDuration: ""
   StackMax: 1.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: "1"
+  RemoveUnappliedStacks: "0"
   PotencyMax: null
   DontReplaceStack: null
   MoveSpeedMod: 0.05
@@ -46907,7 +46907,7 @@
   RefreshDuration: ""
   StackMax: 1.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: "1"
+  RemoveUnappliedStacks: "0"
   PotencyMax: null
   DontReplaceStack: null
   MoveSpeedMod: -0.08
@@ -48707,7 +48707,7 @@
   DisableTelemetry: ""
   IsClientPredicted: null
   PotencyPerLevel: ""
-  BaseDuration: 8.0
+  BaseDuration: 4.0
   TickRate: 1.0
   DelayInitialTick: null
   TickCondition: ""
@@ -49232,7 +49232,7 @@
   HealthModifierBasePercent: null
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: null
+  HealScalingValueMultiplier: -0.025
   ShowUiDamageNumbersOnHeal: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
@@ -50672,7 +50672,7 @@
   RefreshDuration: ""
   StackMax: 1.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: "1"
+  RemoveUnappliedStacks: "0"
   PotencyMax: null
   DontReplaceStack: null
   MoveSpeedMod: 0.05
@@ -55472,7 +55472,7 @@
 - StatusID: Status_Perk_Tool_HasteOnGather
   DisplayName: ""
   Description: ""
-  EffectCategories: ""
+  EffectCategories: Buff+Haste
   PlaceholderIcon: ""
   ShowInUITray: "0"
   ShowTextInDamageNumbers: false
@@ -55692,7 +55692,7 @@
   RefreshDuration: ""
   StackMax: 1.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: "1"
+  RemoveUnappliedStacks: "0"
   PotencyMax: 1.0
   DontReplaceStack: null
   MoveSpeedMod: 0.5
@@ -55943,7 +55943,7 @@
   RefreshDuration: ""
   StackMax: 1.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: "1"
+  RemoveUnappliedStacks: "0"
   PotencyMax: 1.0
   DontReplaceStack: null
   MoveSpeedMod: 0.5
@@ -69999,7 +69999,7 @@
   RefreshDuration: "0"
   StackMax: 1.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: "1"
+  RemoveUnappliedStacks: "0"
   PotencyMax: 1.0
   DontReplaceStack: null
   MoveSpeedMod: 0.2
@@ -74696,7 +74696,7 @@
   INSHarvesting: ""
   PhysicalArmor: null
   ElementalArmor: null
-  ABSStandard: null
+  ABSStandard: 0.05
   ABSSiege: null
   ABSStrike: null
   ABSSlash: 0.05
@@ -76340,7 +76340,7 @@
   HealthModifierBasePercent: null
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: null
+  HealScalingValueMultiplier: -0.05
   ShowUiDamageNumbersOnHeal: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
@@ -76520,7 +76520,7 @@
   AFABlight: null
   StackDuration: ""
   DurationMax: 16.0
-  InheritDuration: "1"
+  InheritDuration: "0"
   InheritTotalDuration: "0"
   RefreshDuration: "0"
   StackMax: 1.0
@@ -76591,7 +76591,7 @@
   HealthModifierBasePercent: null
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: null
+  HealScalingValueMultiplier: -0.05
   ShowUiDamageNumbersOnHeal: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
@@ -76771,7 +76771,7 @@
   AFABlight: null
   StackDuration: ""
   DurationMax: 13.0
-  InheritDuration: "1"
+  InheritDuration: "0"
   InheritTotalDuration: "0"
   RefreshDuration: "0"
   StackMax: 1.0
