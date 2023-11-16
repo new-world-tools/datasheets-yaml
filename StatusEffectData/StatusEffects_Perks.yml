@@ -49289,7 +49289,7 @@
   DisableTelemetry: ""
   IsClientPredicted: null
   PotencyPerLevel: ""
-  BaseDuration: 8.0
+  BaseDuration: 4.0
   TickRate: 1.0
   DelayInitialTick: null
   TickCondition: ""
@@ -49820,7 +49820,7 @@
   HealthModifierBasePercent: null
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: null
+  HealScalingValueMultiplier: -0.025
   ShowUiDamageNumbersOnHeal: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
@@ -75590,7 +75590,7 @@
   INSHarvesting: ""
   PhysicalArmor: null
   ElementalArmor: null
-  ABSStandard: null
+  ABSStandard: 0.05
   ABSSiege: null
   ABSStrike: null
   ABSSlash: 0.05
@@ -77252,7 +77252,7 @@
   HealthModifierBasePercent: null
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: null
+  HealScalingValueMultiplier: -0.05
   ShowUiDamageNumbersOnHeal: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
@@ -77435,9 +77435,9 @@
   AFABlight: null
   StackDuration: null
   DurationMax: 16.0
-  InheritDuration: "1"
-  InheritTotalDuration: "0"
-  RefreshDuration: "0"
+  InheritDuration: ""
+  InheritTotalDuration: ""
+  RefreshDuration: "1"
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: "0"
@@ -77506,7 +77506,7 @@
   HealthModifierBasePercent: null
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: null
+  HealScalingValueMultiplier: -0.05
   ShowUiDamageNumbersOnHeal: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
@@ -77689,9 +77689,9 @@
   AFABlight: null
   StackDuration: null
   DurationMax: 13.0
-  InheritDuration: "1"
-  InheritTotalDuration: "0"
-  RefreshDuration: "0"
+  InheritDuration: ""
+  InheritTotalDuration: ""
+  RefreshDuration: "1"
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: "0"
