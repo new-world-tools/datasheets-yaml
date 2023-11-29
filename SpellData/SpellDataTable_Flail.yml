@@ -87,8 +87,8 @@
   TertiarySpellID: ""
   StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Spell_Flail_Slam_AOE_Upgrade
-  StatusEffects: ""
-  StatusEffectDurations: ""
+  StatusEffects: Status_Flail_HexDoT
+  StatusEffectDurations: "6"
   Revive: ""
   Siphon: null
   AttachToOwner: null
@@ -132,13 +132,13 @@
   SecondarySpellProjectileLaunchAngles: ""
   ScaleWithCharacterBoundingBox: ""
   ScaleWithDynamicScale: ""
-  TargetTypes: All
+  TargetTypes: Enemy
   SpellTypes: Ability
   CastingTypes: NoTargetSpawnFromRaycast
   HitAiTarget: ""
   OverrideTargetForAiThreat: ""
   ShapeTypes: Cylinder
-  DamageType: ""
+  DamageType: Arcane
   CheckObstructions: true
   IgnoreOverheadCollision: true
   IgnoreStructures: null
@@ -162,8 +162,8 @@
   CharRelRotOffsetZ: ""
   ProjRaycastOrientation: ""
   BaseDamage: ""
-  DamageTable: ""
-  DamageTableRow: ""
+  DamageTable: DamageTable
+  DamageTableRow: 1H_Flail_Ability_Slam_DoT
   AbilityId: ""
   TargetAbilityCondition: ""
   BeamEffect: ""
@@ -175,8 +175,8 @@
   TertiarySpellID: Spell_Flail_Slam_AOE_Support
   StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Spell_Flail_Slam_AOE_DoT
-  StatusEffects: Status_Flail_HexDoT
-  StatusEffectDurations: "6"
+  StatusEffects: ""
+  StatusEffectDurations: ""
   Revive: ""
   Siphon: null
   AttachToOwner: null
@@ -227,8 +227,8 @@
   OverrideTargetForAiThreat: ""
   ShapeTypes: Cylinder
   DamageType: Arcane
-  CheckObstructions: null
-  IgnoreOverheadCollision: null
+  CheckObstructions: true
+  IgnoreOverheadCollision: true
   IgnoreStructures: null
   IgnoreSelf: null
   IsUnaffiliated: ""
@@ -250,8 +250,8 @@
   CharRelRotOffsetZ: ""
   ProjRaycastOrientation: ""
   BaseDamage: ""
-  DamageTable: DamageTable
-  DamageTableRow: 1H_Flail_Ability_Slam_DoT
+  DamageTable: ""
+  DamageTableRow: ""
   AbilityId: ""
   TargetAbilityCondition: ""
   BeamEffect: ""
