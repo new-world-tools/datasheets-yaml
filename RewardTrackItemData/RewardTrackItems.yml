@@ -336,32 +336,6 @@
   IconPath: ""
   HiResIconPath: ""
   UseLevelGS: ""
-- RewardId: S3_LB_PvP_PrestigeGS600Head
-  Entitlement: ""
-  GameEvent: ""
-  Item: "[LTID]PvP_PrestigeGSHead"
-  Name: ""
-  Description: ""
-  Quantity: 1.0
-  RollOnPresent: true
-  CategoricalProgressionId: AzothSalt_Currency
-  BuyCategoricalProgressionCost: 8000.0
-  IconPath: ""
-  HiResIconPath: ""
-  UseLevelGS: ""
-- RewardId: S3_LB_PvP_PrestigeGS600Chest
-  Entitlement: ""
-  GameEvent: ""
-  Item: "[LTID]PvP_PrestigeGSChest"
-  Name: ""
-  Description: ""
-  Quantity: 1.0
-  RollOnPresent: true
-  CategoricalProgressionId: AzothSalt_Currency
-  BuyCategoricalProgressionCost: 8000.0
-  IconPath: ""
-  HiResIconPath: ""
-  UseLevelGS: ""
 - RewardId: S3_LB_PvP_PrestigeGS600Hands
   Entitlement: ""
   GameEvent: ""
@@ -371,7 +345,20 @@
   Quantity: 1.0
   RollOnPresent: true
   CategoricalProgressionId: AzothSalt_Currency
-  BuyCategoricalProgressionCost: 10000.0
+  BuyCategoricalProgressionCost: 8000.0
+  IconPath: ""
+  HiResIconPath: ""
+  UseLevelGS: ""
+- RewardId: S3_LB_PvP_PrestigeGS600Feet
+  Entitlement: ""
+  GameEvent: ""
+  Item: "[LTID]PvP_PrestigeGSFeet"
+  Name: ""
+  Description: ""
+  Quantity: 1.0
+  RollOnPresent: true
+  CategoricalProgressionId: AzothSalt_Currency
+  BuyCategoricalProgressionCost: 8000.0
   IconPath: ""
   HiResIconPath: ""
   UseLevelGS: ""
@@ -384,14 +371,27 @@
   Quantity: 1.0
   RollOnPresent: true
   CategoricalProgressionId: AzothSalt_Currency
+  BuyCategoricalProgressionCost: 10000.0
+  IconPath: ""
+  HiResIconPath: ""
+  UseLevelGS: ""
+- RewardId: S3_LB_PvP_PrestigeGS600Head
+  Entitlement: ""
+  GameEvent: ""
+  Item: "[LTID]PvP_PrestigeGSHead"
+  Name: ""
+  Description: ""
+  Quantity: 1.0
+  RollOnPresent: true
+  CategoricalProgressionId: AzothSalt_Currency
   BuyCategoricalProgressionCost: 9000.0
   IconPath: ""
   HiResIconPath: ""
   UseLevelGS: ""
-- RewardId: S3_LB_PvP_PrestigeGS600Feet
+- RewardId: S3_LB_PvP_PrestigeGS600Chest
   Entitlement: ""
   GameEvent: ""
-  Item: "[LTID]PvP_PrestigeGSFeet"
+  Item: "[LTID]PvP_PrestigeGSChest"
   Name: ""
   Description: ""
   Quantity: 1.0
@@ -899,6 +899,32 @@
   Entitlement: ""
   GameEvent: ""
   Item: Artifact_Set1_MediumChest
+  Name: ""
+  Description: ""
+  Quantity: 1.0
+  RollOnPresent: null
+  CategoricalProgressionId: AzothSalt_Currency
+  BuyCategoricalProgressionCost: 50000.0
+  IconPath: ""
+  HiResIconPath: ""
+  UseLevelGS: ""
+- RewardId: S3_ITM_Artifacts04_ItemA
+  Entitlement: ""
+  GameEvent: ""
+  Item: Artifact_Set1_HeavyFeet
+  Name: ""
+  Description: ""
+  Quantity: 1.0
+  RollOnPresent: null
+  CategoricalProgressionId: AzothSalt_Currency
+  BuyCategoricalProgressionCost: 50000.0
+  IconPath: ""
+  HiResIconPath: ""
+  UseLevelGS: ""
+- RewardId: S3_ITM_Artifacts04_ItemB
+  Entitlement: ""
+  GameEvent: ""
+  Item: Artifact_Set1_2hStaffLife
   Name: ""
   Description: ""
   Quantity: 1.0

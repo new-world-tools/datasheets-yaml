@@ -17531,9 +17531,9 @@
   TriggerAnalyticsEvent: ""
   SubTask1: 99B_MSQ_10_d_02_01_TriggerArea_CaerDunGates
   SubTask2: 99B_MSQ_10_d_02_02_container_TalkTo
-  SubTask3: 99B_MSQ_10_d_02_03_02_ORI_Undercroft_Unlock
-  SubTask4: 99B_MSQ_10_d_02_ORI_Undercroft_Outside_fallthru
-  SubTask5: 99B_MSQ_10_d_03_ORI_Undercroft_Inside_fallthru
+  SubTask3: 99B_MSQ_10_d_02_03_ORI_Undercroft_Unlock
+  SubTask4: 99B_MSQ_10_d_02_04_ORI_Undercroft_Outside_fallthru
+  SubTask5: 99B_MSQ_10_d_02_05_ORI_Undercroft_Inside_fallthru
 - TaskID: 99B_MSQ_10_d_02_01_TriggerArea_CaerDunGates
   Type: TaskTriggerArea
   FailOnCondition: ""
@@ -17790,7 +17790,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99B_MSQ_10_d_02_03_02_ORI_Undercroft_Unlock
+- TaskID: 99B_MSQ_10_d_02_03_ORI_Undercroft_Unlock
   Type: TaskUnlockAchievement
   FailOnCondition: ""
   StayActive: null
@@ -17854,7 +17854,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99B_MSQ_10_d_02_ORI_Undercroft_Outside_fallthru
+- TaskID: 99B_MSQ_10_d_02_04_ORI_Undercroft_Outside_fallthru
   Type: PartialTaskContainer
   FailOnCondition: ""
   StayActive: null
@@ -17913,12 +17913,12 @@
   CommunityGoalTag: ""
   HideChildren: ""
   TriggerAnalyticsEvent: ""
-  SubTask1: 99B_MSQ_10_d_02_04_TriggerArea_UndercroftDoor
-  SubTask2: 99B_MSQ_10_d_02_05_GameMode_QuestUmberto_check
+  SubTask1: 99B_MSQ_10_d_02_04_01_TriggerArea_UndercroftDoor
+  SubTask2: 99B_MSQ_10_d_02_04_02_GameMode_QuestUmberto_check
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99B_MSQ_10_d_02_04_TriggerArea_UndercroftDoor
+- TaskID: 99B_MSQ_10_d_02_04_01_TriggerArea_UndercroftDoor
   Type: TaskTriggerArea
   FailOnCondition: ""
   StayActive: null
@@ -17982,7 +17982,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99B_MSQ_10_d_02_05_GameMode_QuestUmberto_check
+- TaskID: 99B_MSQ_10_d_02_04_02_GameMode_QuestUmberto_check
   Type: TaskGameMode
   FailOnCondition: ""
   StayActive: 1.0
@@ -18046,7 +18046,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99B_MSQ_10_d_03_ORI_Undercroft_Inside_fallthru
+- TaskID: 99B_MSQ_10_d_02_05_ORI_Undercroft_Inside_fallthru
   Type: PartialTaskContainer
   FailOnCondition: ""
   StayActive: null
@@ -18105,12 +18105,12 @@
   CommunityGoalTag: ""
   HideChildren: ""
   TriggerAnalyticsEvent: ""
-  SubTask1: 99B_MSQ_10_d_03_00_TriggerArea_UndercroftInterior
-  SubTask2: 99B_MSQ_10_d_03_01_GameMode_QuestUmberto
-  SubTask3: ""
+  SubTask1: 99B_MSQ_10_d_02_05_01_TriggerArea_UndercroftInterior
+  SubTask2: 99B_MSQ_10_d_02_05_02_GameMode_QuestUmberto
+  SubTask3: 99B_MSQ_10_d_02_05_03_SoulTrialCompleteCheck
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99B_MSQ_10_d_03_00_TriggerArea_UndercroftInterior
+- TaskID: 99B_MSQ_10_d_02_05_01_TriggerArea_UndercroftInterior
   Type: TaskTriggerArea
   FailOnCondition: ""
   StayActive: null
@@ -18174,7 +18174,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99B_MSQ_10_d_03_01_GameMode_QuestUmberto
+- TaskID: 99B_MSQ_10_d_02_05_02_GameMode_QuestUmberto
   Type: TaskGameMode
   FailOnCondition: ""
   StayActive: 1.0
@@ -18225,6 +18225,70 @@
   IsHidden: null
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: true
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99B_MSQ_10_d_02_05_03_SoulTrialCompleteCheck
+  Type: TaskAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: null
+  TargetQty: 1.0
+  ItemName: 02_UndercroftComplete
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: ""
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
   DiegeticPinZOverride: ""
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -18297,12 +18361,140 @@
   CommunityGoalTag: ""
   HideChildren: ""
   TriggerAnalyticsEvent: ""
-  SubTask1: 99B_MSQ_10_d_03_02_container_umbertoEncounter
-  SubTask2: 99B_MSQ_10_d_03_03_container_undercroftcomplete
+  SubTask1: 99B_MSQ_10_d_03_01_container_trialCompleteFallthru
+  SubTask2: 99B_MSQ_10_d_03_02_container_undercroftcomplete
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99B_MSQ_10_d_03_02_container_umbertoEncounter
+- TaskID: 99B_MSQ_10_d_03_01_container_trialCompleteFallthru
+  Type: PartialTaskContainer
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: ""
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: 99B_MSQ_10_d_03_01_01_SoulTrialCompleteCheck
+  SubTask2: 99B_MSQ_10_d_03_01_02_container_umbertoEncounter
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99B_MSQ_10_d_03_01_01_SoulTrialCompleteCheck
+  Type: TaskAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: null
+  TargetQty: 1.0
+  ItemName: 02_UndercroftComplete
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: ""
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99B_MSQ_10_d_03_01_02_container_umbertoEncounter
   Type: ConsecutiveTaskContainer
   FailOnCondition: ""
   StayActive: null
@@ -18361,12 +18553,12 @@
   CommunityGoalTag: ""
   HideChildren: ""
   TriggerAnalyticsEvent: ""
-  SubTask1: 99B_MSQ_10_d_03_02_01_Interact_PlaceHeartgem
-  SubTask2: 99B_MSQ_10_d_03_02_02_container_heartgem
+  SubTask1: 99B_MSQ_10_d_03_01_02_01_Interact_PlaceHeartgem
+  SubTask2: 99B_MSQ_10_d_03_01_02_02_container_heartgem
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99B_MSQ_10_d_03_02_01_Interact_PlaceHeartgem
+- TaskID: 99B_MSQ_10_d_03_01_02_01_Interact_PlaceHeartgem
   Type: TaskGameEvent
   FailOnCondition: ""
   StayActive: null
@@ -18430,7 +18622,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99B_MSQ_10_d_03_02_02_container_heartgem
+- TaskID: 99B_MSQ_10_d_03_01_02_02_container_heartgem
   Type: ConsecutiveTaskContainer
   FailOnCondition: ""
   StayActive: null
@@ -18489,12 +18681,12 @@
   CommunityGoalTag: ""
   HideChildren: ""
   TriggerAnalyticsEvent: ""
-  SubTask1: 99B_MSQ_10_d_03_02_02_01_Interact_SmashHeartgem
-  SubTask2: 99B_MSQ_10_d_03_02_02_02_Kill_1_Umberto
-  SubTask3: 99B_MSQ_10_d_03_02_02_03_Interact_FinalSeal
+  SubTask1: 99B_MSQ_10_d_03_01_02_02_01_Interact_SmashHeartgem
+  SubTask2: 99B_MSQ_10_d_03_01_02_02_02_Kill_1_Umberto
+  SubTask3: 99B_MSQ_10_d_03_01_02_02_03_Interact_FinalSeal
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99B_MSQ_10_d_03_02_02_01_Interact_SmashHeartgem
+- TaskID: 99B_MSQ_10_d_03_01_02_02_01_Interact_SmashHeartgem
   Type: TaskGameEvent
   FailOnCondition: ""
   StayActive: null
@@ -18558,7 +18750,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99B_MSQ_10_d_03_02_02_02_Kill_1_Umberto
+- TaskID: 99B_MSQ_10_d_03_01_02_02_02_Kill_1_Umberto
   Type: TaskKillContribution
   FailOnCondition: ""
   StayActive: 1.0
@@ -18622,7 +18814,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99B_MSQ_10_d_03_02_02_03_Interact_FinalSeal
+- TaskID: 99B_MSQ_10_d_03_01_02_02_03_Interact_FinalSeal
   Type: TaskGameEvent
   FailOnCondition: ""
   StayActive: null
@@ -18686,7 +18878,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99B_MSQ_10_d_03_03_container_undercroftcomplete
+- TaskID: 99B_MSQ_10_d_03_02_container_undercroftcomplete
   Type: ConsecutiveTaskContainer
   FailOnCondition: ""
   StayActive: null
@@ -18745,12 +18937,12 @@
   CommunityGoalTag: ""
   HideChildren: ""
   TriggerAnalyticsEvent: ""
-  SubTask1: 99B_MSQ_10_d_03_03_01_02_UndercroftComplete
-  SubTask2: 99B_MSQ_10_d_03_03_02_02_ORI_Undercroft_Lock
+  SubTask1: 99B_MSQ_10_d_03_02_01_UndercroftComplete
+  SubTask2: 99B_MSQ_10_d_03_02_02_ORI_Undercroft_Lock
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99B_MSQ_10_d_03_03_01_02_UndercroftComplete
+- TaskID: 99B_MSQ_10_d_03_02_01_UndercroftComplete
   Type: TaskUnlockAchievement
   FailOnCondition: ""
   StayActive: null
@@ -18814,7 +19006,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99B_MSQ_10_d_03_03_02_02_ORI_Undercroft_Lock
+- TaskID: 99B_MSQ_10_d_03_02_02_ORI_Undercroft_Lock
   Type: TaskLockAchievement
   FailOnCondition: ""
   StayActive: null

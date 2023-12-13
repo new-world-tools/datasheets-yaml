@@ -1766,8 +1766,8 @@
   GatheringFragment: ""
   FinalLootTable: RunewoodTreeTiny
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 420.0
-  MaxRespawnRate: 600.0
+  MinRespawnRate: 840.0
+  MaxRespawnRate: 1200.0
   Tradeskill: Logging
   RequiredTradeskillLevel: 205.0
   ExpansionIdUnlock: Expansion2023
@@ -1810,8 +1810,8 @@
   GatheringFragment: ""
   FinalLootTable: RunewoodTreeSmall
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 500.0
-  MaxRespawnRate: 720.0
+  MinRespawnRate: 1008.0
+  MaxRespawnRate: 1440.0
   Tradeskill: Logging
   RequiredTradeskillLevel: 205.0
   ExpansionIdUnlock: Expansion2023
@@ -1854,8 +1854,8 @@
   GatheringFragment: ""
   FinalLootTable: RunewoodTreeMedium
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 630.0
-  MaxRespawnRate: 900.0
+  MinRespawnRate: 1260.0
+  MaxRespawnRate: 1800.0
   Tradeskill: Logging
   RequiredTradeskillLevel: 205.0
   ExpansionIdUnlock: Expansion2023
@@ -1898,8 +1898,8 @@
   GatheringFragment: ""
   FinalLootTable: RunewoodTreeLarge
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 714.0
-  MaxRespawnRate: 1020.0
+  MinRespawnRate: 1428.0
+  MaxRespawnRate: 2040.0
   Tradeskill: Logging
   RequiredTradeskillLevel: 205.0
   ExpansionIdUnlock: Expansion2023
@@ -1942,8 +1942,8 @@
   GatheringFragment: ""
   FinalLootTable: RunewoodTreeHuge
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 840.0
-  MaxRespawnRate: 1200.0
+  MinRespawnRate: 1680.0
+  MaxRespawnRate: 2400.0
   Tradeskill: Logging
   RequiredTradeskillLevel: 205.0
   ExpansionIdUnlock: Expansion2023
@@ -3614,8 +3614,8 @@
   GatheringFragment: ""
   FinalLootTable: MythrilOreVeinFinishSmall
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 250.0
-  MaxRespawnRate: 360.0
+  MinRespawnRate: 504.0
+  MaxRespawnRate: 720.0
   Tradeskill: Mining
   RequiredTradeskillLevel: 205.0
   ExpansionIdUnlock: Expansion2023
@@ -3658,8 +3658,8 @@
   GatheringFragment: ""
   FinalLootTable: MythrilOreVeinFinishMedium
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 315.0
-  MaxRespawnRate: 450.0
+  MinRespawnRate: 630.0
+  MaxRespawnRate: 900.0
   Tradeskill: Mining
   RequiredTradeskillLevel: 205.0
   ExpansionIdUnlock: Expansion2023
@@ -3702,8 +3702,8 @@
   GatheringFragment: ""
   FinalLootTable: MythrilOreVeinFinishLarge
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 350.0
-  MaxRespawnRate: 510.0
+  MinRespawnRate: 714.0
+  MaxRespawnRate: 1020.0
   Tradeskill: Mining
   RequiredTradeskillLevel: 205.0
   ExpansionIdUnlock: Expansion2023
@@ -6694,8 +6694,8 @@
   GatheringFragment: ""
   FinalLootTable: HempSmallT52
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 250.0
-  MaxRespawnRate: 360.0
+  MinRespawnRate: 504.0
+  MaxRespawnRate: 720.0
   Tradeskill: Harvesting
   RequiredTradeskillLevel: 205.0
   ExpansionIdUnlock: Expansion2023
@@ -6738,8 +6738,8 @@
   GatheringFragment: ""
   FinalLootTable: HempMediumT52
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 315.0
-  MaxRespawnRate: 450.0
+  MinRespawnRate: 630.0
+  MaxRespawnRate: 900.0
   Tradeskill: Harvesting
   RequiredTradeskillLevel: 205.0
   ExpansionIdUnlock: Expansion2023
@@ -6782,8 +6782,8 @@
   GatheringFragment: ""
   FinalLootTable: HempLargeT52
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 350.0
-  MaxRespawnRate: 510.0
+  MinRespawnRate: 714.0
+  MaxRespawnRate: 1020.0
   Tradeskill: Harvesting
   RequiredTradeskillLevel: 205.0
   ExpansionIdUnlock: Expansion2023
@@ -15662,6 +15662,94 @@
   LandmarkIconPath: ""
   RequiredWhisperId: ""
   MountGatherers: ""
+- GatherableID: LostPresent00
+  DisplayName: "@LostPresent00_DisplayName"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: WinterConv_LostPresent_Standard
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 900.0
+  MaxRespawnRate: 1800.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 0.75
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: Gather_WinterConv_LostPresent_Standard
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: null
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: true
+  ObstructBuildables: true
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: LostPresent01
+  DisplayName: "@LostPresent01_DisplayName"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: WinterConv_LostPresent_Rare
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 900.0
+  MaxRespawnRate: 1800.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 2.5
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: true
+  GameEventID: Gather_WinterConv_LostPresent_Rare
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: null
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: true
+  ObstructBuildables: true
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
 - GatherableID: LootSmallT1
   DisplayName: "@LootContainer_DisplayName_Small"
   GatheringAction: None
@@ -19798,6 +19886,270 @@
   LandmarkIconPath: ""
   RequiredWhisperId: ""
   MountGatherers: ""
+- GatherableID: WinterConvSettlementTreeT1
+  DisplayName: "@WinterConv_Settlement_Tree_Master_DisplayName"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: WinterConv_Settlement_Tree_T1
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 79200.0
+  MaxRespawnRate: 79200.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 5.0
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: Gather_WinterConv_TreeOfLife_T1
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: "@WinterConv_Settlement_Tree_Master_Description"
+  IsLandmark: true
+  TooltipImage: "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_convergence_treeoflight.dds"
+  LandmarkIconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\event_winterTree.dds"
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: WinterConvSettlementTreeT2
+  DisplayName: "@WinterConv_Settlement_Tree_Master_DisplayName"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: WinterConv_Settlement_Tree_T2
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 79200.0
+  MaxRespawnRate: 79200.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 5.0
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: Gather_WinterConv_TreeOfLife_T2
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: "@WinterConv_Settlement_Tree_Master_Description"
+  IsLandmark: true
+  TooltipImage: "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_convergence_treeoflight.dds"
+  LandmarkIconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\event_winterTree.dds"
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: WinterConvSettlementTreeT3
+  DisplayName: "@WinterConv_Settlement_Tree_Master_DisplayName"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: WinterConv_Settlement_Tree_T3
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 79200.0
+  MaxRespawnRate: 79200.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 5.0
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: Gather_WinterConv_TreeOfLife_T3
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: "@WinterConv_Settlement_Tree_Master_Description"
+  IsLandmark: true
+  TooltipImage: "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_convergence_treeoflight.dds"
+  LandmarkIconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\event_winterTree.dds"
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: WinterConvVillageGiftBag
+  DisplayName: "@WinterConv_Village_GiftBag_DisplayName"
+  GatheringAction: Handcrafting
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: WinterConv_Village_GiftBag
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 79200.0
+  MaxRespawnRate: 79200.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 5.0
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: Gather_WinterConv_GiftBag_T1
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: "@WinterConv_Village_GiftBag_Description"
+  IsLandmark: true
+  TooltipImage: "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_convergence_giftbag.dds"
+  LandmarkIconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\event_giftSack.dds"
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: WinterConvGleamiteChunk
+  DisplayName: "@WinterConv_Gleamite_Chunk_DisplayName"
+  GatheringAction: MiningGleamite
+  GatheringType: Mining
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: WinterConv_Gleamite_Chunk
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 900.0
+  MaxRespawnRate: 1800.0
+  Tradeskill: Mining
+  RequiredTradeskillLevel: 10.0
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 35.0
+  WaitForImpact: true
+  Restriction: ToolRequired
+  AlignGatherer: true
+  GameEventID: Gather_WinterConv_GleamiteChunk
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: false
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: true
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: WinterConvGleamiteShard
+  DisplayName: "@WinterConv_Gleamite_Shard_DisplayName"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: WinterConv_Gleamite_Shard
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 900.0
+  MaxRespawnRate: 1800.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 0.25
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: Gather_WinterConv_GleamiteShard
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: false
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: true
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
 - GatherableID: SummerMedley_MusicalHotspot_ShredlyFairEasy
   DisplayName: ""
   GatheringAction: MusicalPerformances
@@ -19919,6 +20271,138 @@
   ObstructBuildables: null
   RequireControllingFaction: null
   AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: Season_04_IceGuardian_Icicle
+  DisplayName: "@Season_04_IceGuardian_Icicle_DisplayName"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: Trial_S4_Throwable_Item_Icicle
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 900.0
+  MaxRespawnRate: 1800.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 0.25
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: ""
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: false
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: Season_04_IceGuardian_BrokenRune
+  DisplayName: "@Season_04_IceGuardian_BrokenRune_DisplayName"
+  GatheringAction: AzothStaffLow
+  GatheringType: AzothStaff
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: ""
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 0.0
+  MaxRespawnRate: 0.0
+  Tradeskill: AzothStaff
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 0.1
+  WaitForImpact: false
+  Restriction: ToolRequired
+  AlignGatherer: false
+  GameEventID: ""
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: false
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: AI_Season_04_IceGuardian_AncientFlameBearer
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: Season_04_IceGuardian_BrokenRune_Solo
+  DisplayName: "@Season_04_IceGuardian_BrokenRune_DisplayName"
+  GatheringAction: AzothStaffLow
+  GatheringType: AzothStaff
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: ""
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 0.0
+  MaxRespawnRate: 0.0
+  Tradeskill: AzothStaff
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 0.1
+  WaitForImpact: false
+  Restriction: ToolRequired
+  AlignGatherer: false
+  GameEventID: ""
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: false
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: AI_Season_04_IceGuardian_AncientFlameBearer_Solo
   RequiredStatusEffect: ""
   ConsumedStatusEffect: ""
   NumRequiredToGather: null
@@ -53018,6 +53502,94 @@
   LandmarkIconPath: ""
   RequiredWhisperId: ""
   MountGatherers: ""
+- GatherableID: 0424_GleamiteIO
+  DisplayName: "@0424_GleamiteIO"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: Empty
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 10.0
+  MaxRespawnRate: 15.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 1.0
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: true
+  GameEventID: 0424_GleamiteIO_interact
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: true
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: 0424_LostPresentIO
+  DisplayName: "@0424_LostPresentIO"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: Empty
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 10.0
+  MaxRespawnRate: 15.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 1.0
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: true
+  GameEventID: 0424_LostPresentIO_interact
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: true
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
 - GatherableID: Dynasty_Gong
   DisplayName: "@Dynasty_Gong_DisplayName"
   GatheringAction: None
@@ -63270,6 +63842,94 @@
   LandmarkIconPath: ""
   RequiredWhisperId: 98_Syndicate_Whisper_01
   MountGatherers: ""
+- GatherableID: Yeti_2022_Fortify_Monolith
+  DisplayName: "@Yeti_2022_Fortify_Monolith_DisplayName"
+  GatheringAction: AzothStaffHigh
+  GatheringType: AzothStaff
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: ""
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 900.0
+  MaxRespawnRate: 1800.0
+  Tradeskill: AzothStaff
+  RequiredTradeskillLevel: 1.0
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 5.0
+  WaitForImpact: false
+  Restriction: ToolRequired
+  AlignGatherer: false
+  GameEventID: ""
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: false
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: true
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: 4.0
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: Yeti_2022_Empower_Monolith
+  DisplayName: "@Yeti_2022_Empower_Monolith_DisplayName"
+  GatheringAction: AzothStaffHigh
+  GatheringType: AzothStaff
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: ""
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 900.0
+  MaxRespawnRate: 1800.0
+  Tradeskill: AzothStaff
+  RequiredTradeskillLevel: 1.0
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 5.0
+  WaitForImpact: false
+  Restriction: ToolRequired
+  AlignGatherer: false
+  GameEventID: ""
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: false
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: true
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
 - GatherableID: MSQ_Grace_CorruptedNodule_1
   DisplayName: "@CorruptedNodule_DisplayName"
   GatheringAction: None
@@ -70606,6 +71266,226 @@
   IgnoreAllObstructions: null
   ObstructBuildables: null
   RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: S04_Q02_Daichi_Bow
+  DisplayName: "@S04_Q02_Daichi_Bow_DisplayName"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: Interact_MartialBow
+  FinalLootTable: Empty
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 30.0
+  MaxRespawnRate: 50.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 3.0
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: ""
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: true
+  IsLootContainer: false
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: Ice_Torso_Boss_Bridge
+  DisplayName: "@Ice_Torso_Boss_Bridge_DisplayName"
+  GatheringAction: AzothStaffCreate
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: Empty
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 1.0
+  MaxRespawnRate: 1.0
+  Tradeskill: None
+  RequiredTradeskillLevel: 0.0
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 2.0
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: ""
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: true
+  IsLootContainer: false
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: Dungeon_GreatCleave_00_IceGatherA
+  DisplayName: "@Dungeon_GreatCleave_00_IceGatherA"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: Empty
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 1200.0
+  MaxRespawnRate: 1200.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 5.0
+  WaitForImpact: true
+  Restriction: NoToolNecessary
+  AlignGatherer: true
+  GameEventID: Dungeon_GreatCleave_00_IceGatherA_interact
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: true
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: false
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: Dungeon_GreatCleave_00_IceGatherB
+  DisplayName: "@Dungeon_GreatCleave_00_IceGatherB"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: Empty
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 1200.0
+  MaxRespawnRate: 1200.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 5.0
+  WaitForImpact: true
+  Restriction: NoToolNecessary
+  AlignGatherer: true
+  GameEventID: Dungeon_GreatCleave_00_IceGatherB_interact
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: true
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: false
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: Dungeon_GreatCleave_00_IceGatherC
+  DisplayName: "@Dungeon_GreatCleave_00_IceGatherC"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: Empty
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 1200.0
+  MaxRespawnRate: 1200.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 5.0
+  WaitForImpact: true
+  Restriction: NoToolNecessary
+  AlignGatherer: true
+  GameEventID: Dungeon_GreatCleave_00_IceGatherC_interact
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: true
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: false
   AddedStatusEffect: ""
   RequiredStatusEffect: ""
   ConsumedStatusEffect: ""

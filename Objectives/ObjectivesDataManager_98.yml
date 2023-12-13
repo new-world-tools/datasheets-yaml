@@ -10,7 +10,7 @@
   NpcDestinationId: 9801_Florina_01
   ExclusiveTerritory: null
   AchievementId: FactionIntro_Covenant_01
-  RequiredAchievementId: ""
+  RequiredAchievementId: "!(covenant_faction_quest_01 || FactionIntro_Covenant_Recruitment)"
   RequiredFaction: ""
   RequiredLevel: 17.0
   SuccessGameEventId: FactionIntro_Covenant_01_Success
@@ -256,7 +256,7 @@
   NpcDestinationId: 9805_Tibbs_02
   ExclusiveTerritory: null
   AchievementId: FactionIntro_Marauders_01
-  RequiredAchievementId: ""
+  RequiredAchievementId: "!(marauders_faction_quest_01 || FactionIntro_Marauders_Recruitment)"
   RequiredFaction: ""
   RequiredLevel: 17.0
   SuccessGameEventId: FactionIntro_Marauders_01_Success
@@ -461,7 +461,7 @@
   NpcDestinationId: 9807_Aventus_01
   ExclusiveTerritory: null
   AchievementId: FactionIntro_Syndicate_01
-  RequiredAchievementId: ""
+  RequiredAchievementId: "!(syndicate_faction_quest_01 || FactionIntro_Syndicate_Recruitment)"
   RequiredFaction: ""
   RequiredLevel: 17.0
   SuccessGameEventId: FactionIntro_Syndicate_01_Success
@@ -3474,6 +3474,293 @@
   InProgressResponse: "@98_C_04_justforinjust_incomplete_V2"
   DestinationCompletionAvailablePrompt: "@complete_available_prompt_DEFAULT"
   DestinationCompletionAvailableResponse: "@98_C_04_justforinjust_complete_V2"
+  ObjectiveCompletionResponse: ""
+  ObjectiveAcceptanceResponse: ""
+  HideIncompleteTurninMarker: null
+  ORMReleaseEventTags: ""
+  ORMReleaseActiveOverride: ""
+  SkipReqAchievmentWhenInvalid: ""
+  EntitlementId: ""
+  QuestArcTag: ""
+  HideAvailableMapIcon : null
+- ObjectiveID: FM_98_03_GT_EXP_01_objective
+  Type: Mission
+  Difficulty: ""
+  DifficultyLevel: 65.0
+  MaxInfluenceLevel: ""
+  FlagPvp: ""
+  CanBeShared: true
+  CanFastTravel: true
+  Task: FM_98_03_GT_EXP_01_container
+  NpcDestinationId: ""
+  ExclusiveTerritory: 3.0
+  AchievementId: ""
+  RequiredAchievementId: ""
+  RequiredFaction: ""
+  RequiredLevel: 65.0
+  SuccessGameEventId: ""
+  FailureGameEventId: ""
+  ProgressionReward: ""
+  ExperienceReward: ""
+  ObjectiveReward: ""
+  ItemRewardName: ""
+  ItemRewardQty: ""
+  ShouldResetOnFactionChange: null
+  Repeatable: ""
+  CanBeAbandoned: true
+  Title: ""
+  Description: ""
+  PlayerPrompt: ""
+  ObjectiveProposalResponse: ""
+  InProgressResponse: ""
+  DestinationCompletionAvailablePrompt: ""
+  DestinationCompletionAvailableResponse: ""
+  ObjectiveCompletionResponse: ""
+  ObjectiveAcceptanceResponse: ""
+  HideIncompleteTurninMarker: null
+  ORMReleaseEventTags: ""
+  ORMReleaseActiveOverride: ""
+  SkipReqAchievmentWhenInvalid: ""
+  EntitlementId: ""
+  QuestArcTag: ""
+  HideAvailableMapIcon : null
+- ObjectiveID: FM_98_03_GT_EXP_02_objective
+  Type: Mission
+  Difficulty: ""
+  DifficultyLevel: 65.0
+  MaxInfluenceLevel: ""
+  FlagPvp: ""
+  CanBeShared: true
+  CanFastTravel: true
+  Task: FM_98_03_GT_EXP_02_container
+  NpcDestinationId: ""
+  ExclusiveTerritory: 3.0
+  AchievementId: ""
+  RequiredAchievementId: ""
+  RequiredFaction: ""
+  RequiredLevel: 65.0
+  SuccessGameEventId: ""
+  FailureGameEventId: ""
+  ProgressionReward: ""
+  ExperienceReward: ""
+  ObjectiveReward: ""
+  ItemRewardName: ""
+  ItemRewardQty: ""
+  ShouldResetOnFactionChange: null
+  Repeatable: ""
+  CanBeAbandoned: true
+  Title: ""
+  Description: ""
+  PlayerPrompt: ""
+  ObjectiveProposalResponse: ""
+  InProgressResponse: ""
+  DestinationCompletionAvailablePrompt: ""
+  DestinationCompletionAvailableResponse: ""
+  ObjectiveCompletionResponse: ""
+  ObjectiveAcceptanceResponse: ""
+  HideIncompleteTurninMarker: null
+  ORMReleaseEventTags: ""
+  ORMReleaseActiveOverride: ""
+  SkipReqAchievmentWhenInvalid: ""
+  EntitlementId: ""
+  QuestArcTag: ""
+  HideAvailableMapIcon : null
+- ObjectiveID: FM_98_03_GT_EXP_03_objective
+  Type: Mission
+  Difficulty: ""
+  DifficultyLevel: 65.0
+  MaxInfluenceLevel: ""
+  FlagPvp: ""
+  CanBeShared: true
+  CanFastTravel: true
+  Task: FM_98_03_GT_EXP_03_container
+  NpcDestinationId: ""
+  ExclusiveTerritory: 3.0
+  AchievementId: ""
+  RequiredAchievementId: ""
+  RequiredFaction: ""
+  RequiredLevel: 65.0
+  SuccessGameEventId: ""
+  FailureGameEventId: ""
+  ProgressionReward: ""
+  ExperienceReward: ""
+  ObjectiveReward: ""
+  ItemRewardName: ""
+  ItemRewardQty: ""
+  ShouldResetOnFactionChange: null
+  Repeatable: ""
+  CanBeAbandoned: true
+  Title: ""
+  Description: ""
+  PlayerPrompt: ""
+  ObjectiveProposalResponse: ""
+  InProgressResponse: ""
+  DestinationCompletionAvailablePrompt: ""
+  DestinationCompletionAvailableResponse: ""
+  ObjectiveCompletionResponse: ""
+  ObjectiveAcceptanceResponse: ""
+  HideIncompleteTurninMarker: null
+  ORMReleaseEventTags: ""
+  ORMReleaseActiveOverride: ""
+  SkipReqAchievmentWhenInvalid: ""
+  EntitlementId: ""
+  QuestArcTag: ""
+  HideAvailableMapIcon : null
+- ObjectiveID: FM_98_03_GT_EXP_04_objective
+  Type: Mission
+  Difficulty: ""
+  DifficultyLevel: 65.0
+  MaxInfluenceLevel: ""
+  FlagPvp: ""
+  CanBeShared: true
+  CanFastTravel: true
+  Task: FM_98_03_GT_EXP_04_container
+  NpcDestinationId: ""
+  ExclusiveTerritory: 3.0
+  AchievementId: ""
+  RequiredAchievementId: ""
+  RequiredFaction: ""
+  RequiredLevel: 65.0
+  SuccessGameEventId: ""
+  FailureGameEventId: ""
+  ProgressionReward: ""
+  ExperienceReward: ""
+  ObjectiveReward: ""
+  ItemRewardName: ""
+  ItemRewardQty: ""
+  ShouldResetOnFactionChange: null
+  Repeatable: ""
+  CanBeAbandoned: true
+  Title: ""
+  Description: ""
+  PlayerPrompt: ""
+  ObjectiveProposalResponse: ""
+  InProgressResponse: ""
+  DestinationCompletionAvailablePrompt: ""
+  DestinationCompletionAvailableResponse: ""
+  ObjectiveCompletionResponse: ""
+  ObjectiveAcceptanceResponse: ""
+  HideIncompleteTurninMarker: null
+  ORMReleaseEventTags: ""
+  ORMReleaseActiveOverride: ""
+  SkipReqAchievmentWhenInvalid: ""
+  EntitlementId: ""
+  QuestArcTag: ""
+  HideAvailableMapIcon : null
+- ObjectiveID: FM_98_03_GT_EXP_05_objective
+  Type: Mission
+  Difficulty: ""
+  DifficultyLevel: 65.0
+  MaxInfluenceLevel: ""
+  FlagPvp: ""
+  CanBeShared: true
+  CanFastTravel: true
+  Task: FM_98_03_GT_EXP_05_container
+  NpcDestinationId: ""
+  ExclusiveTerritory: 3.0
+  AchievementId: ""
+  RequiredAchievementId: ""
+  RequiredFaction: ""
+  RequiredLevel: 65.0
+  SuccessGameEventId: ""
+  FailureGameEventId: ""
+  ProgressionReward: ""
+  ExperienceReward: ""
+  ObjectiveReward: ""
+  ItemRewardName: ""
+  ItemRewardQty: ""
+  ShouldResetOnFactionChange: null
+  Repeatable: ""
+  CanBeAbandoned: true
+  Title: ""
+  Description: ""
+  PlayerPrompt: ""
+  ObjectiveProposalResponse: ""
+  InProgressResponse: ""
+  DestinationCompletionAvailablePrompt: ""
+  DestinationCompletionAvailableResponse: ""
+  ObjectiveCompletionResponse: ""
+  ObjectiveAcceptanceResponse: ""
+  HideIncompleteTurninMarker: null
+  ORMReleaseEventTags: ""
+  ORMReleaseActiveOverride: ""
+  SkipReqAchievmentWhenInvalid: ""
+  EntitlementId: ""
+  QuestArcTag: ""
+  HideAvailableMapIcon : null
+- ObjectiveID: FM_C_98_03_GT_EXP_05_objective
+  Type: Mission
+  Difficulty: ""
+  DifficultyLevel: 65.0
+  MaxInfluenceLevel: ""
+  FlagPvp: ""
+  CanBeShared: true
+  CanFastTravel: true
+  Task: FM_C_98_03_GT_EXP_05_container
+  NpcDestinationId: ""
+  ExclusiveTerritory: 3.0
+  AchievementId: ""
+  RequiredAchievementId: ""
+  RequiredFaction: ""
+  RequiredLevel: 65.0
+  SuccessGameEventId: ""
+  FailureGameEventId: ""
+  ProgressionReward: ""
+  ExperienceReward: ""
+  ObjectiveReward: ""
+  ItemRewardName: ""
+  ItemRewardQty: ""
+  ShouldResetOnFactionChange: null
+  Repeatable: ""
+  CanBeAbandoned: true
+  Title: ""
+  Description: ""
+  PlayerPrompt: ""
+  ObjectiveProposalResponse: ""
+  InProgressResponse: ""
+  DestinationCompletionAvailablePrompt: ""
+  DestinationCompletionAvailableResponse: ""
+  ObjectiveCompletionResponse: ""
+  ObjectiveAcceptanceResponse: ""
+  HideIncompleteTurninMarker: null
+  ORMReleaseEventTags: ""
+  ORMReleaseActiveOverride: ""
+  SkipReqAchievmentWhenInvalid: ""
+  EntitlementId: ""
+  QuestArcTag: ""
+  HideAvailableMapIcon : null
+- ObjectiveID: FM_S_98_03_GT_EXP_05_objective
+  Type: Mission
+  Difficulty: ""
+  DifficultyLevel: 65.0
+  MaxInfluenceLevel: ""
+  FlagPvp: ""
+  CanBeShared: true
+  CanFastTravel: true
+  Task: FM_S_98_03_GT_EXP_05_container
+  NpcDestinationId: ""
+  ExclusiveTerritory: 3.0
+  AchievementId: ""
+  RequiredAchievementId: ""
+  RequiredFaction: ""
+  RequiredLevel: 65.0
+  SuccessGameEventId: ""
+  FailureGameEventId: ""
+  ProgressionReward: ""
+  ExperienceReward: ""
+  ObjectiveReward: ""
+  ItemRewardName: ""
+  ItemRewardQty: ""
+  ShouldResetOnFactionChange: null
+  Repeatable: ""
+  CanBeAbandoned: true
+  Title: ""
+  Description: ""
+  PlayerPrompt: ""
+  ObjectiveProposalResponse: ""
+  InProgressResponse: ""
+  DestinationCompletionAvailablePrompt: ""
+  DestinationCompletionAvailableResponse: ""
   ObjectiveCompletionResponse: ""
   ObjectiveAcceptanceResponse: ""
   HideIncompleteTurninMarker: null

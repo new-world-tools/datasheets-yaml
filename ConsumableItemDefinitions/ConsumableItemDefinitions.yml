@@ -2691,8 +2691,8 @@
   RequiredItemClass: ""
   MannequinTag: Potion
   EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
+  CooldownDuration: 15.0
+  CooldownId: PotionFocus
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: PotionFocusT2
@@ -2722,8 +2722,8 @@
   RequiredItemClass: ""
   MannequinTag: Potion
   EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
+  CooldownDuration: 15.0
+  CooldownId: PotionFocus
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: PotionFocusT3
@@ -2753,8 +2753,8 @@
   RequiredItemClass: ""
   MannequinTag: Potion
   EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
+  CooldownDuration: 15.0
+  CooldownId: PotionFocus
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: PotionFocusT4
@@ -2784,8 +2784,8 @@
   RequiredItemClass: ""
   MannequinTag: Potion
   EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
+  CooldownDuration: 15.0
+  CooldownId: PotionFocus
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: PotionStalwartT1
@@ -5859,6 +5859,99 @@
   IsMountConsumable: null
 - ConsumableID: PotionBoostVoidAbsT5
   AddStatusEffects: PotionBoostVoidAbsT5
+  StatusEffectMod: 1.0
+  DurationOverrides: 30.0
+  MinDurationModifier: 0.0
+  MaxDurationModifier: 0.0
+  DurationScaleFactor: 1.0
+  MinPotencyModifier: null
+  MaxPotencyModifier: null
+  PotencyScaleFactor: null
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: DefBoost
+  DisplayStatusEffect: ""
+  UseCount: null
+  WeaponUseCount: ""
+  DisableUseInCombat: null
+  AfflictionDamage: ""
+  BaseDamageModifier: ""
+  BaseDamageType: ""
+  DamageType: ""
+  Damage: null
+  DMGVitalsCategory: ""
+  OnUseAffliction: ""
+  StatMultipliers: ""
+  RequiredItemClass: ""
+  MannequinTag: Potion
+  EquipAbility: ""
+  CooldownDuration: 100.0
+  CooldownId: AbsorbBoost
+  RequiredInactiveLootLimitId: ""
+  IsMountConsumable: null
+- ConsumableID: PotionBoostIceAbsT3
+  AddStatusEffects: PotionBoostIceAbsT3
+  StatusEffectMod: 1.0
+  DurationOverrides: 30.0
+  MinDurationModifier: 0.0
+  MaxDurationModifier: 0.0
+  DurationScaleFactor: 1.0
+  MinPotencyModifier: null
+  MaxPotencyModifier: null
+  PotencyScaleFactor: null
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: DefBoost
+  DisplayStatusEffect: ""
+  UseCount: null
+  WeaponUseCount: ""
+  DisableUseInCombat: null
+  AfflictionDamage: ""
+  BaseDamageModifier: ""
+  BaseDamageType: ""
+  DamageType: ""
+  Damage: null
+  DMGVitalsCategory: ""
+  OnUseAffliction: ""
+  StatMultipliers: ""
+  RequiredItemClass: ""
+  MannequinTag: Potion
+  EquipAbility: ""
+  CooldownDuration: 100.0
+  CooldownId: AbsorbBoost
+  RequiredInactiveLootLimitId: ""
+  IsMountConsumable: null
+- ConsumableID: PotionBoostIceAbsT4
+  AddStatusEffects: PotionBoostIceAbsT4
+  StatusEffectMod: 1.0
+  DurationOverrides: 30.0
+  MinDurationModifier: 0.0
+  MaxDurationModifier: 0.0
+  DurationScaleFactor: 1.0
+  MinPotencyModifier: null
+  MaxPotencyModifier: null
+  PotencyScaleFactor: null
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: DefBoost
+  DisplayStatusEffect: ""
+  UseCount: null
+  WeaponUseCount: ""
+  DisableUseInCombat: null
+  AfflictionDamage: ""
+  BaseDamageModifier: ""
+  BaseDamageType: ""
+  DamageType: ""
+  Damage: null
+  DMGVitalsCategory: ""
+  OnUseAffliction: ""
+  StatMultipliers: ""
+  RequiredItemClass: ""
+  MannequinTag: Potion
+  EquipAbility: ""
+  CooldownDuration: 100.0
+  CooldownId: AbsorbBoost
+  RequiredInactiveLootLimitId: ""
+  IsMountConsumable: null
+- ConsumableID: PotionBoostIceAbsT5
+  AddStatusEffects: PotionBoostIceAbsT5
   StatusEffectMod: 1.0
   DurationOverrides: 30.0
   MinDurationModifier: 0.0
@@ -9609,7 +9702,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: Artisan_FoodCONT5
-  AddStatusEffects: FoodCONT5+FoodRecoveryT5
+  AddStatusEffects: FoodCONT5_Artisan+FoodRecoveryT5
   StatusEffectMod: 1.0
   DurationOverrides: 3600.0
   MinDurationModifier: null
@@ -12926,7 +13019,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: FoodMinerT52
-  AddStatusEffects: FoodMinerT52+FoodRecoveryT5
+  AddStatusEffects: FoodMinerT52+FoodRecoveryT52
   StatusEffectMod: 1.0
   DurationOverrides: null
   MinDurationModifier: null
@@ -12957,7 +13050,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: FoodHarvesterT52
-  AddStatusEffects: FoodHarvesterT52+FoodRecoveryT5
+  AddStatusEffects: FoodHarvesterT52+FoodRecoveryT52
   StatusEffectMod: 1.0
   DurationOverrides: null
   MinDurationModifier: null
@@ -12988,7 +13081,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: FoodHunterT52
-  AddStatusEffects: FoodHunterT52+FoodRecoveryT5
+  AddStatusEffects: FoodHunterT52+FoodRecoveryT52
   StatusEffectMod: 1.0
   DurationOverrides: null
   MinDurationModifier: null
@@ -13019,7 +13112,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: FoodLumberjackT52
-  AddStatusEffects: FoodLumberjackT52+FoodRecoveryT5
+  AddStatusEffects: FoodLumberjackT52+FoodRecoveryT52
   StatusEffectMod: 1.0
   DurationOverrides: null
   MinDurationModifier: null
@@ -13050,7 +13143,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: FoodSTRT52
-  AddStatusEffects: FoodSTRT52+FoodRecoveryT5
+  AddStatusEffects: FoodSTRT52+FoodRecoveryT52
   StatusEffectMod: null
   DurationOverrides: null
   MinDurationModifier: null
@@ -13081,7 +13174,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: FoodDEXT52
-  AddStatusEffects: FoodDEXT52+FoodRecoveryT5
+  AddStatusEffects: FoodDEXT52+FoodRecoveryT52
   StatusEffectMod: null
   DurationOverrides: null
   MinDurationModifier: null
@@ -13112,7 +13205,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: FoodINTT52
-  AddStatusEffects: FoodINTT52+FoodRecoveryT5
+  AddStatusEffects: FoodINTT52+FoodRecoveryT52
   StatusEffectMod: null
   DurationOverrides: null
   MinDurationModifier: null
@@ -13143,7 +13236,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: FoodFOCT52
-  AddStatusEffects: FoodFOCT52+FoodRecoveryT5
+  AddStatusEffects: FoodFOCT52+FoodRecoveryT52
   StatusEffectMod: null
   DurationOverrides: null
   MinDurationModifier: null
@@ -13174,7 +13267,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: FoodCONT52
-  AddStatusEffects: FoodCONT52+FoodRecoveryT5
+  AddStatusEffects: FoodCONT52+FoodRecoveryT52
   StatusEffectMod: null
   DurationOverrides: null
   MinDurationModifier: null
@@ -13205,7 +13298,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: FoodMAGT5
-  AddStatusEffects: FoodMAGT5+FoodRecoveryT5
+  AddStatusEffects: FoodMAGT5+FoodRecoveryT52
   StatusEffectMod: null
   DurationOverrides: null
   MinDurationModifier: null
@@ -13236,7 +13329,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: FoodAMPT5
-  AddStatusEffects: FoodAMPT5+FoodRecoveryT5
+  AddStatusEffects: FoodAMPT5+FoodRecoveryT52
   StatusEffectMod: null
   DurationOverrides: null
   MinDurationModifier: null
@@ -15463,8 +15556,8 @@
   RequiredItemClass: ""
   MannequinTag: Potion
   EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
+  CooldownDuration: 15.0
+  CooldownId: PotionFocus
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: PvPArena_HoningStoneT3
@@ -16145,8 +16238,8 @@
   RequiredItemClass: ""
   MannequinTag: Potion
   EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
+  CooldownDuration: 3.0
+  CooldownId: PotionSpores
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: ArtemisBoonPotionD1_T2
@@ -16176,8 +16269,8 @@
   RequiredItemClass: ""
   MannequinTag: Potion
   EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
+  CooldownDuration: 3.0
+  CooldownId: PotionSpores
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: ArtemisBoonPotionD2_T2
@@ -16207,8 +16300,8 @@
   RequiredItemClass: ""
   MannequinTag: Potion
   EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
+  CooldownDuration: 3.0
+  CooldownId: PotionSpores
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: ArtemisBoonPotionD2_T3
@@ -16238,8 +16331,8 @@
   RequiredItemClass: ""
   MannequinTag: Potion
   EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
+  CooldownDuration: 3.0
+  CooldownId: PotionSpores
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: ArtemisBoonPotionD3_T3
@@ -16269,8 +16362,8 @@
   RequiredItemClass: ""
   MannequinTag: Potion
   EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
+  CooldownDuration: 3.0
+  CooldownId: PotionSpores
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: ArtemisBoonPotionD3_T4
@@ -16300,8 +16393,8 @@
   RequiredItemClass: ""
   MannequinTag: Potion
   EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
+  CooldownDuration: 3.0
+  CooldownId: PotionSpores
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: ArtemisBoonPotionD4_T4
@@ -16331,8 +16424,8 @@
   RequiredItemClass: ""
   MannequinTag: Potion
   EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
+  CooldownDuration: 3.0
+  CooldownId: PotionSpores
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: ArtemisBoonPotionD5_T5
@@ -16362,8 +16455,8 @@
   RequiredItemClass: ""
   MannequinTag: Potion
   EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
+  CooldownDuration: 3.0
+  CooldownId: PotionSpores
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: DemeterBoonPotionD1_T1
@@ -16393,8 +16486,8 @@
   RequiredItemClass: ""
   MannequinTag: Potion
   EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
+  CooldownDuration: 3.0
+  CooldownId: PotionSpores
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: DemeterBoonPotionD1_T2
@@ -16424,8 +16517,8 @@
   RequiredItemClass: ""
   MannequinTag: Potion
   EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
+  CooldownDuration: 3.0
+  CooldownId: PotionSpores
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: DemeterBoonPotionD2_T2
@@ -16455,8 +16548,8 @@
   RequiredItemClass: ""
   MannequinTag: Potion
   EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
+  CooldownDuration: 3.0
+  CooldownId: PotionSpores
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: DemeterBoonPotionD2_T3
@@ -16486,8 +16579,8 @@
   RequiredItemClass: ""
   MannequinTag: Potion
   EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
+  CooldownDuration: 3.0
+  CooldownId: PotionSpores
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: DemeterBoonPotionD3_T3
@@ -16517,8 +16610,8 @@
   RequiredItemClass: ""
   MannequinTag: Potion
   EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
+  CooldownDuration: 3.0
+  CooldownId: PotionSpores
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: DemeterBoonPotionD3_T4
@@ -16548,8 +16641,8 @@
   RequiredItemClass: ""
   MannequinTag: Potion
   EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
+  CooldownDuration: 3.0
+  CooldownId: PotionSpores
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: DemeterBoonPotionD4_T4
@@ -16579,8 +16672,8 @@
   RequiredItemClass: ""
   MannequinTag: Potion
   EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
+  CooldownDuration: 3.0
+  CooldownId: PotionSpores
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: DemeterBoonPotionD5_T5
@@ -16610,8 +16703,8 @@
   RequiredItemClass: ""
   MannequinTag: Potion
   EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
+  CooldownDuration: 3.0
+  CooldownId: PotionSpores
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: NH_Costume_Adiana

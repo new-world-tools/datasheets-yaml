@@ -1454,6 +1454,45 @@
   LimitNotificationLocTag: ""
   AchievementAtLimit: ""
   IsAchievementBound: null
+- LootLimitID: 2hPickCrassusT51
+  IsReplicated: false
+  MinLimitSeconds: 0.0
+  MaxLimitSeconds: 0.0
+  CountLimit: 1.0
+  MinLimitMult: 2.6784e+06
+  MaxLimitMult: 2.6784e+06
+  LimitExpireSeconds: 2.6784e+06
+  LootTagValuePerCount: null
+  LootTagValueOverrideAtLimit: null
+  LimitNotificationLocTag: ""
+  AchievementAtLimit: ""
+  IsAchievementBound: null
+- LootLimitID: House_HousingItem_Season4_Statue_Cyclops_Statue_A
+  IsReplicated: false
+  MinLimitSeconds: 0.0
+  MaxLimitSeconds: 0.0
+  CountLimit: 1.0
+  MinLimitMult: 2.6784e+06
+  MaxLimitMult: 2.6784e+06
+  LimitExpireSeconds: 2.6784e+06
+  LootTagValuePerCount: null
+  LootTagValueOverrideAtLimit: null
+  LimitNotificationLocTag: ""
+  AchievementAtLimit: ""
+  IsAchievementBound: null
+- LootLimitID: House_HousingItem_Season4_Statue_Cyclops_Statue_B
+  IsReplicated: false
+  MinLimitSeconds: 0.0
+  MaxLimitSeconds: 0.0
+  CountLimit: 1.0
+  MinLimitMult: 2.6784e+06
+  MaxLimitMult: 2.6784e+06
+  LimitExpireSeconds: 2.6784e+06
+  LootTagValuePerCount: null
+  LootTagValueOverrideAtLimit: null
+  LimitNotificationLocTag: ""
+  AchievementAtLimit: ""
+  IsAchievementBound: null
 - LootLimitID: WorldEvent_S2_BonusBox
   IsReplicated: false
   MinLimitSeconds: 0.0
@@ -1654,6 +1693,45 @@
   MinLimitSeconds: 0.0
   MaxLimitSeconds: 0.0
   CountLimit: 3.0
+  MinLimitMult: 64800.0
+  MaxLimitMult: 64800.0
+  LimitExpireSeconds: 64800.0
+  LootTagValuePerCount: null
+  LootTagValueOverrideAtLimit: null
+  LimitNotificationLocTag: ""
+  AchievementAtLimit: ""
+  IsAchievementBound: null
+- LootLimitID: WinterDarkMatter_Limit
+  IsReplicated: true
+  MinLimitSeconds: 0.0
+  MaxLimitSeconds: 0.0
+  CountLimit: 3.0
+  MinLimitMult: 64800.0
+  MaxLimitMult: 64800.0
+  LimitExpireSeconds: 64800.0
+  LootTagValuePerCount: null
+  LootTagValueOverrideAtLimit: null
+  LimitNotificationLocTag: ""
+  AchievementAtLimit: ""
+  IsAchievementBound: null
+- LootLimitID: WinterTree_Limit
+  IsReplicated: true
+  MinLimitSeconds: 0.0
+  MaxLimitSeconds: 0.0
+  CountLimit: 3.0
+  MinLimitMult: 64800.0
+  MaxLimitMult: 64800.0
+  LimitExpireSeconds: 64800.0
+  LootTagValuePerCount: null
+  LootTagValueOverrideAtLimit: null
+  LimitNotificationLocTag: ""
+  AchievementAtLimit: ""
+  IsAchievementBound: null
+- LootLimitID: WinterVillage_Limit
+  IsReplicated: true
+  MinLimitSeconds: 0.0
+  MaxLimitSeconds: 0.0
+  CountLimit: 1.0
   MinLimitMult: 64800.0
   MaxLimitMult: 64800.0
   LimitExpireSeconds: 64800.0
@@ -2323,5 +2401,83 @@
   LootTagValuePerCount: null
   LootTagValueOverrideAtLimit: null
   LimitNotificationLocTag: "@ui_reached_max_daily_fotb_rafflebones"
+  AchievementAtLimit: ""
+  IsAchievementBound: null
+- LootLimitID: PUGDailyReward_Mutated_ChromaticSeal
+  IsReplicated: false
+  MinLimitSeconds: 0.0
+  MaxLimitSeconds: 0.0
+  CountLimit: 1.0
+  MinLimitMult: 86400.0
+  MaxLimitMult: 86400.0
+  LimitExpireSeconds: 86400.0
+  LootTagValuePerCount: 0.0
+  LootTagValueOverrideAtLimit: null
+  LimitNotificationLocTag: ""
+  AchievementAtLimit: ""
+  IsAchievementBound: null
+- LootLimitID: PUGDailyReward_Mutated_ChromaticSeal_PityTicker
+  IsReplicated: false
+  MinLimitSeconds: 0.0
+  MaxLimitSeconds: 0.0
+  CountLimit: 1.0
+  MinLimitMult: 86400.0
+  MaxLimitMult: 86400.0
+  LimitExpireSeconds: 86400.0
+  LootTagValuePerCount: 50000.0
+  LootTagValueOverrideAtLimit: null
+  LimitNotificationLocTag: ""
+  AchievementAtLimit: ""
+  IsAchievementBound: null
+- LootLimitID: PUGFinder_Expedition_DailyRandomRewards
+  IsReplicated: true
+  MinLimitSeconds: 0.0
+  MaxLimitSeconds: 0.0
+  CountLimit: 3.0
+  MinLimitMult: 86400.0
+  MaxLimitMult: 86400.0
+  LimitExpireSeconds: 86400.0
+  LootTagValuePerCount: null
+  LootTagValueOverrideAtLimit: null
+  LimitNotificationLocTag: ""
+  AchievementAtLimit: ""
+  IsAchievementBound: null
+- LootLimitID: PUGFinder_MutatedExpedition_DailyRandomRewards
+  IsReplicated: true
+  MinLimitSeconds: 0.0
+  MaxLimitSeconds: 0.0
+  CountLimit: 3.0
+  MinLimitMult: 86400.0
+  MaxLimitMult: 86400.0
+  LimitExpireSeconds: 86400.0
+  LootTagValuePerCount: null
+  LootTagValueOverrideAtLimit: null
+  LimitNotificationLocTag: ""
+  AchievementAtLimit: ""
+  IsAchievementBound: null
+- LootLimitID: LNY_GiftLimit
+  IsReplicated: false
+  MinLimitSeconds: 0.0
+  MaxLimitSeconds: 0.0
+  CountLimit: 1.0
+  MinLimitMult: 64800.0
+  MaxLimitMult: 64800.0
+  LimitExpireSeconds: 64800.0
+  LootTagValuePerCount: null
+  LootTagValueOverrideAtLimit: null
+  LimitNotificationLocTag: ""
+  AchievementAtLimit: ""
+  IsAchievementBound: null
+- LootLimitID: LNY_GiftLimit_B
+  IsReplicated: false
+  MinLimitSeconds: 0.0
+  MaxLimitSeconds: 0.0
+  CountLimit: 1.0
+  MinLimitMult: 64800.0
+  MaxLimitMult: 64800.0
+  LimitExpireSeconds: 64800.0
+  LootTagValuePerCount: null
+  LootTagValueOverrideAtLimit: null
+  LimitNotificationLocTag: ""
   AchievementAtLimit: ""
   IsAchievementBound: null

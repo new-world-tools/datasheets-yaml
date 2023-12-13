@@ -1,3 +1,41 @@
+- VariantID: LostPresent01
+  Visual_Healthy: "slices\\Holiday\\WinterConvergence\\Activities\\LostPresent\\WinterConv_Activity_LostPresent_VisualHealthy.slice"
+  Visual_Depleted: ""
+  Visual_NotOnRequiredQuest: ""
+  Visual_Basemesh: ""
+  GatherableEntryID: LostPresent01
+  InteractPromptRadius: 1.0
+  DetectableRadius: 1.0
+  MarkerRadius: 1.0
+  AudioPreload_depleted: RarePresent
+  SFX_depleted: Play_SFX_RarePresent_Depleted
+  AudioPreload_idle: RarePresent
+  SFX_Idle: Play_SFX_RarePresent_Lp
+  VFX_Idle: Event_Winter_Convergence.Present.Idle_Rare
+  IdleVFX_Offset_Z: 10.0
+  DepletedVFX: Event_Winter_Convergence.Present.End_Rare
+  depletedVFX_Offset_Z: 10.0
+  DepletedVFX_Quest: ""
+  DepletedVFX_Quest_Offset_Z: null
+  GatheringFX: ""
+  gatheringVFX_Offzet_Z: 10.0
+  interactionMarker_Offset_Z: 10.0
+  InteractionEvent: ""
+  InteractTag: ""
+  InteractOnlyOnQuest: false
+  AchievementID: ""
+  AchievementServerState: ""
+  CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\basesphere.cgf"
+  ShouldHaveStaticCollision: null
+  Collision_Offset_Z: 10.0
+  VisualHealthy_Offset_Z: 10.0
+  IsStateControlledBySlayerScript: null
+  Collision_Scale_X: null
+  Collision_Scale_Y: null
+  Collision_Scale_Z: null
+  Force_Display_Health_Bar: null
+  Marker_Creature_Type_Override: ""
+  Marker_Vertical_Offset: null
 - VariantID: 0404_CorruptedNoduleA
   Visual_Healthy: "slices\\WorldEvents\\Shared\\WorldEvent_Object_Onboarding_CorruptedNodule_Visual_Healthy.dynamicslice"
   Visual_Depleted: "slices\\WorldEvents\\Shared\\WorldEvent_Object_Onboarding_CorruptedNodule_Visual_Depleted.dynamicslice"
@@ -3331,7 +3369,7 @@
   InteractOnlyOnQuest: false
   AchievementID: ""
   AchievementServerState: ""
-  CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
+  CollisionAssetOverride: ""
   ShouldHaveStaticCollision: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
@@ -3342,82 +3380,6 @@
   Force_Display_Health_Bar: true
   Marker_Creature_Type_Override: DamageableGatherable
   Marker_Vertical_Offset: -65.0
-- VariantID: 95A_S02_RoyalEggDestructible
-  Visual_Healthy: slices/SEASONS/SEASON_02/IOs/S02_Royal_egg_AWAKENED.dynamicslice
-  Visual_Depleted: "slices\\SEASONS\\SEASON_02\\IOs\\S02_Royal_Egg_CRASHED.dynamicslice"
-  Visual_NotOnRequiredQuest: ""
-  Visual_Basemesh: ""
-  GatherableEntryID: 95A_S02_RoyalEggDestructible
-  InteractPromptRadius: 1.0
-  DetectableRadius: 25.0
-  MarkerRadius: 25.0
-  AudioPreload_depleted: struct_harvester
-  SFX_depleted: Play_Structure_Ruin_Medium
-  AudioPreload_idle: ""
-  SFX_Idle: ""
-  VFX_Idle: cFX_Loot.Loot_Quest_Medium
-  IdleVFX_Offset_Z: -0.25
-  DepletedVFX: ""
-  depletedVFX_Offset_Z: null
-  DepletedVFX_Quest: cFX_Loot.Loot_Quest_Medium_Depleted
-  DepletedVFX_Quest_Offset_Z: -0.25
-  GatheringFX: ""
-  gatheringVFX_Offzet_Z: null
-  interactionMarker_Offset_Z: null
-  InteractionEvent: slices/Dungeon/Dungeon_Generic_Detectable_DungeonScripted.dynamicslice
-  InteractTag: IO_95A_S02_RoyalEggDestructible
-  InteractOnlyOnQuest: true
-  AchievementID: ""
-  AchievementServerState: ""
-  CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
-  ShouldHaveStaticCollision: null
-  Collision_Offset_Z: null
-  VisualHealthy_Offset_Z: null
-  IsStateControlledBySlayerScript: null
-  Collision_Scale_X: null
-  Collision_Scale_Y: null
-  Collision_Scale_Z: null
-  Force_Display_Health_Bar: true
-  Marker_Creature_Type_Override: DamageableGatherable
-  Marker_Vertical_Offset: 0.0
-- VariantID: 95A_S02_DroneEggDestructible
-  Visual_Healthy: slices/SEASONS/SEASON_02/IOs/S02_Drone_Egg_AWAKENED.dynamicslice
-  Visual_Depleted: "slices\\SEASONS\\SEASON_02\\IOs\\S02_Drone_Egg_CRASHED.dynamicslice"
-  Visual_NotOnRequiredQuest: ""
-  Visual_Basemesh: ""
-  GatherableEntryID: 95A_S02_DroneEggDestructible
-  InteractPromptRadius: 1.0
-  DetectableRadius: 25.0
-  MarkerRadius: 25.0
-  AudioPreload_depleted: struct_harvester
-  SFX_depleted: Play_Structure_Ruin_Medium
-  AudioPreload_idle: ""
-  SFX_Idle: ""
-  VFX_Idle: cFX_Loot.Loot_Quest_Medium
-  IdleVFX_Offset_Z: -0.25
-  DepletedVFX: ""
-  depletedVFX_Offset_Z: null
-  DepletedVFX_Quest: cFX_Loot.Loot_Quest_Medium_Depleted
-  DepletedVFX_Quest_Offset_Z: -0.25
-  GatheringFX: ""
-  gatheringVFX_Offzet_Z: null
-  interactionMarker_Offset_Z: null
-  InteractionEvent: slices/Dungeon/Dungeon_Generic_Detectable_DungeonScripted.dynamicslice
-  InteractTag: IO_95A_S02_DroneEggDestructible
-  InteractOnlyOnQuest: true
-  AchievementID: ""
-  AchievementServerState: ""
-  CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
-  ShouldHaveStaticCollision: null
-  Collision_Offset_Z: null
-  VisualHealthy_Offset_Z: null
-  IsStateControlledBySlayerScript: null
-  Collision_Scale_X: null
-  Collision_Scale_Y: null
-  Collision_Scale_Z: null
-  Force_Display_Health_Bar: true
-  Marker_Creature_Type_Override: DamageableGatherable
-  Marker_Vertical_Offset: 0.0
 - VariantID: 09A_S1_FloraTrap
   Visual_Healthy: "slices\\WorldEvents\\FirstLight\\Interact\\AnimalRescue\\Object_09A_S1_FloraTrap_Healthy.dynamicslice"
   Visual_Depleted: ""
@@ -3719,6 +3681,44 @@
   Collision_Scale_X: null
   Collision_Scale_Y: null
   Collision_Scale_Z: null
+  Force_Display_Health_Bar: true
+  Marker_Creature_Type_Override: DamageableGatherable
+  Marker_Vertical_Offset: null
+- VariantID: 95_s04_04_DestroyWall
+  Visual_Healthy: ""
+  Visual_Depleted: ""
+  Visual_NotOnRequiredQuest: ""
+  Visual_Basemesh: ""
+  GatherableEntryID: 95_s04_04_DestroyWall
+  InteractPromptRadius: 1.0
+  DetectableRadius: 8.0
+  MarkerRadius: 12.0
+  AudioPreload_depleted: Season_S04_WallExplosion
+  SFX_depleted: Play_SFX_S04Q04_WallExplosion
+  AudioPreload_idle: ""
+  SFX_Idle: ""
+  VFX_Idle: cFX_Loot.Loot_Quest_Small
+  IdleVFX_Offset_Z: null
+  DepletedVFX: buildables.PowderKeg_T1.Explosion
+  depletedVFX_Offset_Z: null
+  DepletedVFX_Quest: cFX_Loot.Loot_Quest_Small_Depleted
+  DepletedVFX_Quest_Offset_Z: null
+  GatheringFX: ""
+  gatheringVFX_Offzet_Z: null
+  interactionMarker_Offset_Z: null
+  InteractionEvent: ""
+  InteractTag: IO_95_s04_04_DestroyWall
+  InteractOnlyOnQuest: true
+  AchievementID: ""
+  AchievementServerState: ""
+  CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
+  ShouldHaveStaticCollision: null
+  Collision_Offset_Z: 1.0
+  VisualHealthy_Offset_Z: null
+  IsStateControlledBySlayerScript: null
+  Collision_Scale_X: 1.0
+  Collision_Scale_Y: 1.0
+  Collision_Scale_Z: 1.0
   Force_Display_Health_Bar: true
   Marker_Creature_Type_Override: DamageableGatherable
   Marker_Vertical_Offset: null

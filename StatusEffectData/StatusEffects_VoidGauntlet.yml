@@ -1008,7 +1008,7 @@
   EffectCategories: Buff+ArmorFortify
   PlaceholderIcon: lyshineui/images/status/SE_FortifyT1.png
   ShowInUITray: true
-  ShowTextInDamageNumbers: true
+  ShowTextInDamageNumbers: false
   FxScriptOn: StatFX_ArmorBuff_ON
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
@@ -3267,7 +3267,7 @@
   EffectCategories: Buff+ArmorFortify
   PlaceholderIcon: lyshineui/images/status/SE_FortifyT1.png
   ShowInUITray: true
-  ShowTextInDamageNumbers: true
+  ShowTextInDamageNumbers: false
   FxScriptOn: StatFX_ArmorBuff_ON
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
@@ -5526,7 +5526,7 @@
   EffectCategories: Debuff+Slow+CC+VoidGauntlet
   PlaceholderIcon: lyshineui/images/status/SE_SlowT3.png
   ShowInUITray: true
-  ShowTextInDamageNumbers: true
+  ShowTextInDamageNumbers: false
   FxScriptOn: StatFX_Slow_ON
   FxScriptOff: StatFX_Slow_OFF
   ShouldRefreshFxScript: ""
@@ -6028,7 +6028,7 @@
   EffectCategories: Debuff+Debilitate+EssenceRupture+VoidGauntlet+EssenceRuptureT2
   PlaceholderIcon: lyshineui/images/status/SE_ShockT1.png
   ShowInUITray: true
-  ShowTextInDamageNumbers: true
+  ShowTextInDamageNumbers: false
   FxScriptOn: EssenseRupture_ON
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
@@ -6792,7 +6792,7 @@
   UseLightweightReplication: null
   ForceReplicateToRemotes: null
   PotencyPerLevel: ""
-  BaseDuration: 0.1
+  BaseDuration: 0.0
   TickRate: 1.0
   DelayInitialTick: null
   TickCondition: ""
@@ -7025,7 +7025,7 @@
   SourceRuneChargeOnApply: 0.144
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: true
-  ApplicationCooldown: null
+  ApplicationCooldown: 0.1
 - StatusID: VoidGauntlet_EssenceRupture_Heal_Stamina
   DisplayName: ""
   Description: ""
@@ -7534,7 +7534,7 @@
   EffectCategories: Buff+Empower
   PlaceholderIcon: lyshineui/images/status/SE_EmpowerT2.png
   ShowInUITray: true
-  ShowTextInDamageNumbers: true
+  ShowTextInDamageNumbers: false
   FxScriptOn: ""
   FxScriptOff: ""
   ShouldRefreshFxScript: ""

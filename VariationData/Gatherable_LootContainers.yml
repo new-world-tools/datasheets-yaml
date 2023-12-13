@@ -658,6 +658,36 @@
   Idle_SFX_Offset_Z: null
   Idle_SFX_Play: Play_Loot_Small_Idle
   Idle_SFX_Stop: Stop_Loot_Small_Idle
+- VariantID: Ancient_T3_L_Standing
+  Visual_Chest: slices/POIs/LootContainers/Ancient_T3_L_chest.dynamicslice
+  Visual_Loot: slices/POIs/LootContainers/Ancient_T3_L_loot.dynamicslice
+  GatherableEntryID: LootLargeT1_Standing
+  LootTableComponent: ContainerLootLarge
+  GatheringRadius: 0.25
+  InteractionRadius: 3.0
+  DetectableRadius: 1.0
+  DepletedPreload: loot_container
+  DepletedSFX: Play_Gather_Chest_Large
+  DepletedFX: cFX_Loot.Chest_Big_Celebration02
+  Idle_VFX: Loot.Chest_big_closed01
+  MarkerRadius: 4.0
+  Name: "@LootContainer_AncientLarge_DisplayName"
+  LoS_Override: null
+  MarkerOffset_Z: null
+  InteractTag: ""
+  DepletedFXOffset_Y: null
+  DepletedFXOffset_Z: null
+  IdleFXOffset_Y: ""
+  IdleFXOffset_Z: ""
+  LootLockSlice: ""
+  Idle_SFX_Preload: loot_container
+  Depleted_SFX_Particle_Preload: loot_container
+  Depleted_SFX_Offset_Y: null
+  Depleted_SFX_Offset_Z: null
+  Idle_SFX_Offset_Y: null
+  Idle_SFX_Offset_Z: null
+  Idle_SFX_Play: Play_Loot_Small_Idle
+  Idle_SFX_Stop: Stop_Loot_Small_Idle
 - VariantID: Ancient_T3_M
   Visual_Chest: slices/POIs/LootContainers/Ancient_T3_M_chest.dynamicslice
   Visual_Loot: slices/POIs/LootContainers/Ancient_T3_M_loot.dynamicslice
@@ -688,10 +718,70 @@
   Idle_SFX_Offset_Z: null
   Idle_SFX_Play: Play_Loot_Small_Idle
   Idle_SFX_Stop: Stop_Loot_Small_Idle
+- VariantID: Ancient_T3_M_Standing
+  Visual_Chest: slices/POIs/LootContainers/Ancient_T3_M_chest.dynamicslice
+  Visual_Loot: slices/POIs/LootContainers/Ancient_T3_M_loot.dynamicslice
+  GatherableEntryID: LootMediumT1_Standing
+  LootTableComponent: ContainerLootSmallLeveled
+  GatheringRadius: 0.25
+  InteractionRadius: 3.0
+  DetectableRadius: 1.0
+  DepletedPreload: loot_container
+  DepletedSFX: Play_Gather_Chest_Large
+  DepletedFX: cFX_Loot.Chest_Medium_Celebration01
+  Idle_VFX: Loot.Chest_big_open01
+  MarkerRadius: 4.0
+  Name: "@LootContainer_AncientMedium_DisplayName"
+  LoS_Override: null
+  MarkerOffset_Z: null
+  InteractTag: ""
+  DepletedFXOffset_Y: null
+  DepletedFXOffset_Z: null
+  IdleFXOffset_Y: ""
+  IdleFXOffset_Z: ""
+  LootLockSlice: ""
+  Idle_SFX_Preload: loot_container
+  Depleted_SFX_Particle_Preload: loot_container
+  Depleted_SFX_Offset_Y: null
+  Depleted_SFX_Offset_Z: null
+  Idle_SFX_Offset_Y: null
+  Idle_SFX_Offset_Z: null
+  Idle_SFX_Play: Play_Loot_Small_Idle
+  Idle_SFX_Stop: Stop_Loot_Small_Idle
 - VariantID: Ancient_T3_S
   Visual_Chest: slices/POIs/LootContainers/Ancient_T3_S_chest.dynamicslice
   Visual_Loot: slices/POIs/LootContainers/Ancient_T3_S_loot.dynamicslice
   GatherableEntryID: LootMediumT3
+  LootTableComponent: ContainerLootSmallLeveled
+  GatheringRadius: 0.25
+  InteractionRadius: 3.0
+  DetectableRadius: 1.0
+  DepletedPreload: loot_container
+  DepletedSFX: Play_Gather_Chest_Small
+  DepletedFX: cFX_Loot.Chest_Small_Celebration01
+  Idle_VFX: Loot.Crate_xsmall01
+  MarkerRadius: 4.0
+  Name: "@LootContainer_AncientSmall_DisplayName"
+  LoS_Override: null
+  MarkerOffset_Z: null
+  InteractTag: ""
+  DepletedFXOffset_Y: null
+  DepletedFXOffset_Z: null
+  IdleFXOffset_Y: ""
+  IdleFXOffset_Z: ""
+  LootLockSlice: ""
+  Idle_SFX_Preload: loot_container
+  Depleted_SFX_Particle_Preload: loot_container
+  Depleted_SFX_Offset_Y: null
+  Depleted_SFX_Offset_Z: null
+  Idle_SFX_Offset_Y: null
+  Idle_SFX_Offset_Z: null
+  Idle_SFX_Play: Play_Loot_Small_Idle
+  Idle_SFX_Stop: Stop_Loot_Small_Idle
+- VariantID: Ancient_T3_S_Standing
+  Visual_Chest: slices/POIs/LootContainers/Ancient_T3_S_chest.dynamicslice
+  Visual_Loot: slices/POIs/LootContainers/Ancient_T3_S_loot.dynamicslice
+  GatherableEntryID: LootMediumT1_Standing
   LootTableComponent: ContainerLootSmallLeveled
   GatheringRadius: 0.25
   InteractionRadius: 3.0
@@ -1301,6 +1391,36 @@
   DepletedFX: cFX_Loot.Chest_Big_Celebration01
   Idle_VFX: Loot.Chest_big_open01
   MarkerRadius: 4.0
+  Name: "@LootContainer_Elite_Supplies_DisplayName"
+  LoS_Override: null
+  MarkerOffset_Z: null
+  InteractTag: ""
+  DepletedFXOffset_Y: null
+  DepletedFXOffset_Z: null
+  IdleFXOffset_Y: ""
+  IdleFXOffset_Z: ""
+  LootLockSlice: ""
+  Idle_SFX_Preload: loot_container
+  Depleted_SFX_Particle_Preload: loot_container
+  Depleted_SFX_Offset_Y: null
+  Depleted_SFX_Offset_Z: null
+  Idle_SFX_Offset_Y: null
+  Idle_SFX_Offset_Z: null
+  Idle_SFX_Play: Play_Loot_Small_Idle
+  Idle_SFX_Stop: Stop_Loot_Small_Idle
+- VariantID: ChestEliteT5Mryk
+  Visual_Chest: slices/POIs/LootContainers/Abandoned_ELITE_T5_Chest.dynamicslice
+  Visual_Loot: slices/POIs/LootContainers/Abandoned_ELITE_T5_Loot.dynamicslice
+  GatherableEntryID: LootLargeT3ElitePOI
+  LootTableComponent: ChestLootElite
+  GatheringRadius: 0.25
+  InteractionRadius: 1.5
+  DetectableRadius: 1.5
+  DepletedPreload: loot_container
+  DepletedSFX: Play_Gather_Chest_Large
+  DepletedFX: cFX_Loot.Chest_Big_Celebration01
+  Idle_VFX: Loot.Chest_big_open01
+  MarkerRadius: 2.5
   Name: "@LootContainer_Elite_Supplies_DisplayName"
   LoS_Override: null
   MarkerOffset_Z: null
@@ -2102,6 +2222,36 @@
   Visual_Chest: slices/POIs/LootContainers/Provisioning_T3_M_chest.dynamicslice
   Visual_Loot: slices/POIs/LootContainers/Provisioning_T3_M_loot.dynamicslice
   GatherableEntryID: LootMediumT3
+  LootTableComponent: ContainerLootCookingSmall
+  GatheringRadius: 0.25
+  InteractionRadius: 3.0
+  DetectableRadius: 1.0
+  DepletedPreload: loot_container
+  DepletedSFX: Play_Gather_Chest_Small
+  DepletedFX: cFX_Loot.Chest_Medium_Celebration01
+  Idle_VFX: Loot.Crate_small01
+  MarkerRadius: 4.0
+  Name: "@LootContainer_CookingMedium_DisplayName"
+  LoS_Override: null
+  MarkerOffset_Z: null
+  InteractTag: ""
+  DepletedFXOffset_Y: null
+  DepletedFXOffset_Z: null
+  IdleFXOffset_Y: ""
+  IdleFXOffset_Z: ""
+  LootLockSlice: ""
+  Idle_SFX_Preload: loot_container
+  Depleted_SFX_Particle_Preload: loot_container
+  Depleted_SFX_Offset_Y: null
+  Depleted_SFX_Offset_Z: null
+  Idle_SFX_Offset_Y: null
+  Idle_SFX_Offset_Z: null
+  Idle_SFX_Play: Play_Loot_Small_Idle
+  Idle_SFX_Stop: Stop_Loot_Small_Idle
+- VariantID: Provisioning_T3_M_Standing
+  Visual_Chest: slices/POIs/LootContainers/Provisioning_T3_M_chest.dynamicslice
+  Visual_Loot: slices/POIs/LootContainers/Provisioning_T3_M_loot.dynamicslice
+  GatherableEntryID: LootMediumT1_Standing
   LootTableComponent: ContainerLootCookingSmall
   GatheringRadius: 0.25
   InteractionRadius: 3.0
@@ -3462,6 +3612,126 @@
   Idle_VFX: Loot.Chest_big_peek01
   MarkerRadius: 4.0
   Name: "@Town_Cow_MD_DisplayName"
+  LoS_Override: null
+  MarkerOffset_Z: null
+  InteractTag: ""
+  DepletedFXOffset_Y: null
+  DepletedFXOffset_Z: null
+  IdleFXOffset_Y: ""
+  IdleFXOffset_Z: ""
+  LootLockSlice: ""
+  Idle_SFX_Preload: loot_container
+  Depleted_SFX_Particle_Preload: loot_container
+  Depleted_SFX_Offset_Y: null
+  Depleted_SFX_Offset_Z: null
+  Idle_SFX_Offset_Y: null
+  Idle_SFX_Offset_Z: null
+  Idle_SFX_Play: Play_Loot_Small_Idle
+  Idle_SFX_Stop: Stop_Loot_Small_Idle
+- VariantID: WinterConv_Settlement_Tree_T1
+  Visual_Chest: ""
+  Visual_Loot: slices/POIs/WinterHoliday/Settlement_WCTree_Decor/Settlement_WinterConv_Tree_T1.dynamicslice
+  GatherableEntryID: WinterConvSettlementTreeT1
+  LootTableComponent: WinterConv_Settlement_Tree_T1
+  GatheringRadius: 8.0
+  InteractionRadius: 8.0
+  DetectableRadius: 4.0
+  DepletedPreload: TreeofLife
+  DepletedSFX: Play_SFX_TreeofLife_Depleted
+  DepletedFX: Event_Winter_Convergence.Tree.Burst
+  Idle_VFX: Event_Winter_Convergence.Tree.Idle
+  MarkerRadius: 8.0
+  Name: "@WinterConv_SettlementTree_T1_DisplayName"
+  LoS_Override: false
+  MarkerOffset_Z: null
+  InteractTag: ""
+  DepletedFXOffset_Y: null
+  DepletedFXOffset_Z: null
+  IdleFXOffset_Y: ""
+  IdleFXOffset_Z: ""
+  LootLockSlice: ""
+  Idle_SFX_Preload: loot_container
+  Depleted_SFX_Particle_Preload: loot_container
+  Depleted_SFX_Offset_Y: null
+  Depleted_SFX_Offset_Z: null
+  Idle_SFX_Offset_Y: null
+  Idle_SFX_Offset_Z: null
+  Idle_SFX_Play: Play_Loot_Small_Idle
+  Idle_SFX_Stop: Stop_Loot_Small_Idle
+- VariantID: WinterConv_Settlement_Tree_T2
+  Visual_Chest: ""
+  Visual_Loot: slices/POIs/WinterHoliday/Settlement_WCTree_Decor/Settlement_WinterConv_Tree_T2.dynamicslice
+  GatherableEntryID: WinterConvSettlementTreeT2
+  LootTableComponent: WinterConv_Settlement_Tree_T2
+  GatheringRadius: 8.0
+  InteractionRadius: 8.0
+  DetectableRadius: 4.0
+  DepletedPreload: TreeofLife
+  DepletedSFX: Play_SFX_TreeofLife_Depleted
+  DepletedFX: Event_Winter_Convergence.Tree.Burst
+  Idle_VFX: Event_Winter_Convergence.Tree.Idle
+  MarkerRadius: 8.0
+  Name: "@WinterConv_SettlementTree_T2_DisplayName"
+  LoS_Override: false
+  MarkerOffset_Z: null
+  InteractTag: ""
+  DepletedFXOffset_Y: null
+  DepletedFXOffset_Z: null
+  IdleFXOffset_Y: ""
+  IdleFXOffset_Z: ""
+  LootLockSlice: ""
+  Idle_SFX_Preload: loot_container
+  Depleted_SFX_Particle_Preload: loot_container
+  Depleted_SFX_Offset_Y: null
+  Depleted_SFX_Offset_Z: null
+  Idle_SFX_Offset_Y: null
+  Idle_SFX_Offset_Z: null
+  Idle_SFX_Play: Play_Loot_Small_Idle
+  Idle_SFX_Stop: Stop_Loot_Small_Idle
+- VariantID: WinterConv_Settlement_Tree_T3
+  Visual_Chest: ""
+  Visual_Loot: slices/POIs/WinterHoliday/Settlement_WCTree_Decor/Settlement_WinterConv_Tree_T3.dynamicslice
+  GatherableEntryID: WinterConvSettlementTreeT3
+  LootTableComponent: WinterConv_Settlement_Tree_T3
+  GatheringRadius: 8.0
+  InteractionRadius: 8.0
+  DetectableRadius: 4.0
+  DepletedPreload: TreeofLife
+  DepletedSFX: Play_SFX_TreeofLife_Depleted
+  DepletedFX: Event_Winter_Convergence.Tree.Burst
+  Idle_VFX: Event_Winter_Convergence.Tree.Idle
+  MarkerRadius: 8.0
+  Name: "@WinterConv_SettlementTree_T3_DisplayName"
+  LoS_Override: false
+  MarkerOffset_Z: null
+  InteractTag: ""
+  DepletedFXOffset_Y: null
+  DepletedFXOffset_Z: null
+  IdleFXOffset_Y: ""
+  IdleFXOffset_Z: ""
+  LootLockSlice: ""
+  Idle_SFX_Preload: loot_container
+  Depleted_SFX_Particle_Preload: loot_container
+  Depleted_SFX_Offset_Y: null
+  Depleted_SFX_Offset_Z: null
+  Idle_SFX_Offset_Y: null
+  Idle_SFX_Offset_Z: null
+  Idle_SFX_Play: Play_Loot_Small_Idle
+  Idle_SFX_Stop: Stop_Loot_Small_Idle
+- VariantID: WinterConv_Village_GiftBag
+  Visual_Chest: ""
+  Visual_Loot: slices/Holiday/WinterConvergence/Activities/WinterWanderer/WinterConv_giftSack.dynamicslice
+  GatherableEntryID: WinterConvVillageGiftBag
+  LootTableComponent: WinterConv_Village_GiftBag
+  GatheringRadius: 0.95
+  InteractionRadius: 2.0
+  DetectableRadius: 1.0
+  DepletedPreload: loot_container
+  DepletedSFX: Play_Gather_Chest_Large
+  DepletedFX: Event_Winter_Convergence.Gift_Sack.Depleted
+  Idle_VFX: Event_Winter_Convergence.Gift_Sack.Idle
+  MarkerRadius: 3.0
+  Name: "@WinterConv_Village_GiftBag_DisplayName"
   LoS_Override: null
   MarkerOffset_Z: null
   InteractTag: ""
@@ -5570,6 +5840,126 @@
   IdleFXOffset_Y: ""
   IdleFXOffset_Z: ""
   LootLockSlice: "slices\\WorldEvents\\FirstLight\\Interact\\BeastGlyphs\\WorldEvent_IO_BeastGlyphChest_01_05.slice"
+  Idle_SFX_Preload: loot_container
+  Depleted_SFX_Particle_Preload: loot_container
+  Depleted_SFX_Offset_Y: null
+  Depleted_SFX_Offset_Z: null
+  Idle_SFX_Offset_Y: null
+  Idle_SFX_Offset_Z: null
+  Idle_SFX_Play: Play_Loot_Small_Idle
+  Idle_SFX_Stop: Stop_Loot_Small_Idle
+- VariantID: LNY_Tribute_Table_Variant_01
+  Visual_Chest: ""
+  Visual_Loot: ""
+  GatherableEntryID: LNY_Tribute_Table_01
+  LootTableComponent: Halloween_TreatBasket
+  GatheringRadius: 0.5
+  InteractionRadius: 3.0
+  DetectableRadius: 4.0
+  DepletedPreload: ""
+  DepletedSFX: ""
+  DepletedFX: ""
+  Idle_VFX: ""
+  MarkerRadius: null
+  Name: "@LNY_Tribute_Table_01_DisplayName"
+  LoS_Override: false
+  MarkerOffset_Z: null
+  InteractTag: ""
+  DepletedFXOffset_Y: null
+  DepletedFXOffset_Z: null
+  IdleFXOffset_Y: ""
+  IdleFXOffset_Z: ""
+  LootLockSlice: ""
+  Idle_SFX_Preload: loot_container
+  Depleted_SFX_Particle_Preload: loot_container
+  Depleted_SFX_Offset_Y: null
+  Depleted_SFX_Offset_Z: null
+  Idle_SFX_Offset_Y: null
+  Idle_SFX_Offset_Z: null
+  Idle_SFX_Play: Play_Loot_Small_Idle
+  Idle_SFX_Stop: Stop_Loot_Small_Idle
+- VariantID: EliteChest_Season_04_Throne
+  Visual_Chest: ""
+  Visual_Loot: ""
+  GatherableEntryID: LootLargeT3ElitePOI
+  LootTableComponent: BrimstoneGlyphLockChests
+  GatheringRadius: 0.25
+  InteractionRadius: 3.0
+  DetectableRadius: 4.0
+  DepletedPreload: loot_container
+  DepletedSFX: Play_Gather_Chest_Large
+  DepletedFX: cFX_Loot.Chest_Big_Celebration01
+  Idle_VFX: Loot.Chest_big_open01
+  MarkerRadius: 6.0
+  Name: "@LootContainer_Throne_DisplayName"
+  LoS_Override: null
+  MarkerOffset_Z: -0.25
+  InteractTag: ""
+  DepletedFXOffset_Y: null
+  DepletedFXOffset_Z: null
+  IdleFXOffset_Y: ""
+  IdleFXOffset_Z: ""
+  LootLockSlice: ""
+  Idle_SFX_Preload: loot_container
+  Depleted_SFX_Particle_Preload: loot_container
+  Depleted_SFX_Offset_Y: -2.0
+  Depleted_SFX_Offset_Z: 2.0
+  Idle_SFX_Offset_Y: -2.0
+  Idle_SFX_Offset_Z: 2.0
+  Idle_SFX_Play: Play_Loot_Small_Idle
+  Idle_SFX_Stop: Stop_Loot_Small_Idle
+- VariantID: EliteChest_Season_04
+  Visual_Chest: ""
+  Visual_Loot: ""
+  GatherableEntryID: LootLargeT3ElitePOI
+  LootTableComponent: BrimstoneGlyphLockChests
+  GatheringRadius: 0.25
+  InteractionRadius: 3.0
+  DetectableRadius: 4.0
+  DepletedPreload: loot_container
+  DepletedSFX: Play_Gather_Chest_Large
+  DepletedFX: cFX_Loot.Chest_Big_Celebration01
+  Idle_VFX: Loot.Chest_big_open01
+  MarkerRadius: 6.0
+  Name: "@LootContainer_AnubianStoneTomb_DisplayName"
+  LoS_Override: null
+  MarkerOffset_Z: -0.25
+  InteractTag: ""
+  DepletedFXOffset_Y: null
+  DepletedFXOffset_Z: null
+  IdleFXOffset_Y: ""
+  IdleFXOffset_Z: ""
+  LootLockSlice: ""
+  Idle_SFX_Preload: loot_container
+  Depleted_SFX_Particle_Preload: loot_container
+  Depleted_SFX_Offset_Y: -2.0
+  Depleted_SFX_Offset_Z: 2.0
+  Idle_SFX_Offset_Y: -2.0
+  Idle_SFX_Offset_Z: 2.0
+  Idle_SFX_Play: Play_Loot_Small_Idle
+  Idle_SFX_Stop: Stop_Loot_Small_Idle
+- VariantID: StoneTomb_Season_04
+  Visual_Chest: ""
+  Visual_Loot: ""
+  GatherableEntryID: LootLargeT3ElitePOI
+  LootTableComponent: BrimstoneSarcophagi
+  GatheringRadius: 0.25
+  InteractionRadius: 3.0
+  DetectableRadius: 4.0
+  DepletedPreload: loot_container
+  DepletedSFX: Play_Gather_Chest_Large
+  DepletedFX: cFX_Loot.Chest_Big_Celebration03
+  Idle_VFX: Loot.GlyphChest_big_open1
+  MarkerRadius: 5.0
+  Name: "@LootContainer_AnubianStoneTomb_DisplayName"
+  LoS_Override: false
+  MarkerOffset_Z: null
+  InteractTag: ""
+  DepletedFXOffset_Y: null
+  DepletedFXOffset_Z: null
+  IdleFXOffset_Y: ""
+  IdleFXOffset_Z: ""
+  LootLockSlice: "slices\\WorldEvents\\Seasons\\Season_04\\WorldEvent_IO_StoneTomb_Master.dynamicslice"
   Idle_SFX_Preload: loot_container
   Depleted_SFX_Particle_Preload: loot_container
   Depleted_SFX_Offset_Y: null

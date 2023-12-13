@@ -61,3 +61,17 @@
   IsDebit: null
   Reasons: ""
   IsPermanent: true
+- TrackedStatID: CategoricalProgressionAnyPostCap
+  StatType: CategoricalProgression
+  CategoricalProgressionIds: Weaponsmithing_PostCap,Armoring_PostCap,Jewelcrafting_PostCap,Arcana_PostCap,Cooking_PostCap,Fishing_PostCap,Furnishing_PostCap,Engineering_PostCap,Smelting_PostCap,Woodworking_PostCap,Leatherworking_PostCap,Weaving_PostCap,Stonecutting_PostCap,Skinning_PostCap,Mining_PostCap,Logging_PostCap,Harvesting_PostCap,Instruments_PostCap,Riding_PostCap
+  TrackingType: Ranked
+  IsDebit: null
+  Reasons: ""
+  IsPermanent: null
+- TrackedStatID: CategoricalProgressionFactionTokens
+  StatType: CategoricalProgression
+  CategoricalProgressionIds: SyndicateTokens,MarauderTokens,CovenantTokens
+  TrackingType: Points
+  IsDebit: null
+  Reasons: ""
+  IsPermanent: null
