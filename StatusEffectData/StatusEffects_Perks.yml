@@ -39086,7 +39086,7 @@
   RefreshDuration: ""
   StackMax: 1.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: "1"
+  RemoveUnappliedStacks: "0"
   PotencyMax: null
   DontReplaceStack: null
   MoveSpeedMod: -0.05
@@ -39848,7 +39848,7 @@
   RefreshDuration: ""
   StackMax: 1.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: "1"
+  RemoveUnappliedStacks: "0"
   PotencyMax: null
   DontReplaceStack: null
   MoveSpeedMod: 0.035
@@ -44674,7 +44674,7 @@
   RefreshDuration: ""
   StackMax: 1.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: "1"
+  RemoveUnappliedStacks: "0"
   PotencyMax: null
   DontReplaceStack: null
   MoveSpeedMod: 0.03
@@ -47214,7 +47214,7 @@
   RefreshDuration: ""
   StackMax: 1.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: "1"
+  RemoveUnappliedStacks: "0"
   PotencyMax: null
   DontReplaceStack: null
   MoveSpeedMod: 0.05
@@ -47468,7 +47468,7 @@
   RefreshDuration: ""
   StackMax: 1.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: "1"
+  RemoveUnappliedStacks: "0"
   PotencyMax: null
   DontReplaceStack: null
   MoveSpeedMod: -0.08
@@ -51278,7 +51278,7 @@
   RefreshDuration: ""
   StackMax: 1.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: "1"
+  RemoveUnappliedStacks: "0"
   PotencyMax: null
   DontReplaceStack: null
   MoveSpeedMod: 0.05
@@ -56135,7 +56135,7 @@
 - StatusID: Status_Perk_Tool_HasteOnGather
   DisplayName: ""
   Description: ""
-  EffectCategories: ""
+  EffectCategories: Buff+Haste
   PlaceholderIcon: ""
   ShowInUITray: "0"
   ShowTextInDamageNumbers: false
@@ -70836,7 +70836,7 @@
   RefreshDuration: "0"
   StackMax: 1.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: "1"
+  RemoveUnappliedStacks: "FALSE"
   PotencyMax: 1.0
   DontReplaceStack: null
   MoveSpeedMod: 0.2
@@ -84341,7 +84341,7 @@
   DisableTelemetry: ""
   IsClientPredicted: null
   PotencyPerLevel: ""
-  BaseDuration: 4.0
+  BaseDuration: 8.0
   TickRate: 1.0
   DelayInitialTick: null
   TickCondition: ""
@@ -84546,13 +84546,13 @@
   AFACurse: null
   AFABlight: null
   StackDuration: false
-  DurationMax: 10.0
-  InheritDuration: "1"
+  DurationMax: 15.0
+  InheritDuration: "0"
   InheritTotalDuration: "0"
   RefreshDuration: "0"
   StackMax: 1.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: "1"
+  RemoveUnappliedStacks: "0"
   PotencyMax: null
   DontReplaceStack: null
   MoveSpeedMod: null
@@ -84595,7 +84595,7 @@
   DisableTelemetry: ""
   IsClientPredicted: null
   PotencyPerLevel: ""
-  BaseDuration: 3.0
+  BaseDuration: 8.0
   TickRate: 1.0
   DelayInitialTick: null
   TickCondition: ""
@@ -84800,10 +84800,10 @@
   AFACurse: null
   AFABlight: null
   StackDuration: false
-  DurationMax: 6.0
+  DurationMax: 15.0
   InheritDuration: "0"
-  InheritTotalDuration: "1"
-  RefreshDuration: "1"
+  InheritTotalDuration: "0"
+  RefreshDuration: "0"
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: "0"
@@ -87613,6 +87613,768 @@
   UIPriority: 1.0
   UiNameplatePriority: 1.0
   ShowInNameplates: "1"
+  ShowTextInNameplates: ""
+  OverrideOtherNameplateText: ""
+  HidesOtherStatusEffectIcons: ""
+  DynamicModelScaleFactor: ""
+  DynamicModelScaleRampTimeSecs: ""
+  SpawnSlice: ""
+  DisableSupportContributionRewards: ""
+  BlockMultipleEffectsFromSameSource: ""
+  AllowSelfOnlyAsSourceForAbilities: ""
+  IgnoreInvulnerable: null
+  NotCombatAction: ""
+  ApplicationCooldown: null
+  SourceRuneChargeOnApply: null
+  SourceRuneChargeOnTick: null
+  SourceRuneChargeOnHealthChangeOnly: null
+- StatusID: Status_Perk_Artifact_Set1_Bow_StaticCharge
+  DisplayName: "@Status_StaticCharge"
+  Description: "@Status_StaticCharge_Description"
+  EffectCategories: Debuff+Tracking+Boltcaster
+  PlaceholderIcon: lyshineui/images/status/SE_ShockT1.png
+  ShowInUITray: "1"
+  ShowTextInDamageNumbers: true
+  FxScriptOn: ""
+  FxScriptOff: ""
+  ShouldRefreshFxScript: ""
+  WeaponEffectType: ""
+  Notification: ""
+  DisableTelemetry: ""
+  IsClientPredicted: null
+  PotencyPerLevel: ""
+  BaseDuration: 3.0
+  TickRate: 1.0
+  DelayInitialTick: null
+  TickCondition: ""
+  OnTickStatusEffect: ""
+  KeepOnTickEffectOnEnd: ""
+  StopOnHitCount: null
+  HitCondition: ""
+  RequireReaction: null
+  OnStackStatusEffect: ""
+  AddOnStackSize: ""
+  AddOnStackSizeComparison: ""
+  HealThreatMultiplier: null
+  ScaleAmountOverTime: ""
+  ScaleAmountOverTimeMin: ""
+  ScaleAmountOverTimeMax: ""
+  DamageSkipsDeathsDoor: ""
+  Health: null
+  HealthMin: ""
+  HealthModifierPercent: null
+  HealthModifierBasePercent: null
+  HealthModifierDamageBased: null
+  UseHealScalingValue: ""
+  HealScalingValueMultiplier: null
+  ShowUiDamageNumbersOnHeal: null
+  StaminaDamageModifier: ""
+  ManaModifierDamageBased: ""
+  DamageType: ""
+  CritChanceModifier: null
+  CritDamageModifier: ""
+  OnEndStatusEffect: ""
+  CastSpell: ""
+  TargetOwnsSpell: null
+  UseSourceWeaponForSpell: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
+  HealMod: null
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: null
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
+  StaminaRate: null
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: ""
+  XPIncreases: ""
+  AzothMod: null
+  FactionReputationMod: null
+  FactionTokensMod: null
+  TerritoryStandingMod: null
+  EXPLogging: null
+  EXPMining: null
+  EXPHarvesting: null
+  EXPSkinning: null
+  EXPSmelting: null
+  EXPWoodworking: null
+  EXPLeatherworking: null
+  EXPWeaving: null
+  EXPStonecutting: null
+  GrantSanctuary: null
+  NoSprint: null
+  NoRun: null
+  NoDodge: null
+  NoNav: null
+  Silenced: null
+  Stunned: null
+  RemoveOnDeath: null
+  RemoveOnDeathsDoor: null
+  RemoveOnRespawn: null
+  RemoveOnGameModeExit: null
+  IgnoreDiminishingReturns: null
+  OnlyChangeOwnedStatusEffects: ""
+  Afflictions: ""
+  OnHitAffixes: ""
+  EquipAbility: ""
+  UseSourceWeaponForAbilityEffect: ""
+  IsNegative: true
+  RespecTradeskills: ""
+  RespecAttributes: ""
+  EffectDurationMods: ""
+  EffectDurationMods_Tooltip: null
+  EffectPotencyMods: ""
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: ""
+  GlobalRollMod: null
+  LootTags: ""
+  FishingLineStrength: ""
+  FishSizeRollModifier: ""
+  MODConstitution: ""
+  MODFocus: ""
+  MODStrength: ""
+  MODDexterity: ""
+  MODIntelligence: ""
+  MGSArcana: null
+  MGSWeaponsmithing: null
+  MGSJewelcrafting: null
+  MGSEngineering: null
+  MGSArmoring: null
+  MaxGSArcana: null
+  MaxGSWeaponsmithing: null
+  MaxGSJewelcrafting: null
+  MaxGSEngineering: null
+  MaxGSArmoring: null
+  ROLCooking: null
+  ROLWeaving: null
+  ROLStonecutting: null
+  ROLSmelting: null
+  ROLLeatherworking: null
+  ROLWoodworking: null
+  ROLLogging: null
+  ROLMining: null
+  ROLSkinning: null
+  ROLHarvesting: null
+  ROLFishing: ""
+  MULTLogging: null
+  MULTMining: null
+  MULTSkinning: null
+  MULTHarvesting: null
+  MULTFishing: ""
+  EFFLogging: null
+  EFFMining: null
+  EFFSkinning: null
+  EFFHarvesting: null
+  INSLogging: ""
+  INSMining: ""
+  INSSkinning: ""
+  INSHarvesting: ""
+  PhysicalArmor: null
+  ElementalArmor: null
+  ABSStandard: null
+  ABSSiege: null
+  ABSStrike: null
+  ABSSlash: null
+  ABSThrust: null
+  ABSArcane: null
+  ABSFire: null
+  ABSIce: null
+  ABSNature: null
+  ABSLightning: null
+  ABSCorruption: null
+  ABSAcid: null
+  ABSVitalsCategory: null
+  RESPoison: ""
+  RESDisease: ""
+  RESBleed: ""
+  RESFrostbite: ""
+  RESCurse: ""
+  RESBlight: ""
+  BLAStandard: ""
+  BLASiege: ""
+  BLAStrike: ""
+  BLASlash: ""
+  BLAThrust: ""
+  BLAArcane: ""
+  BLAFire: ""
+  BLAIce: ""
+  BLALightning: ""
+  BLACorruption: ""
+  ABAPoison: ""
+  ABADisease: ""
+  ABABleed: ""
+  ABAFrostbite: ""
+  ABACurse: ""
+  ABABlight: ""
+  WKNStandard: ""
+  WKNSiege: ""
+  WKNStrike: ""
+  WKNSlash: ""
+  WKNThrust: ""
+  WKNArcane: ""
+  WKNFire: ""
+  WKNIce: ""
+  WKNNature: ""
+  WKNLightning: ""
+  WKNCorruption: ""
+  DMGStandard: null
+  DMGSiege: null
+  DMGStrike: null
+  DMGSlash: null
+  DMGThrust: null
+  DMGArcane: null
+  DMGFire: null
+  DMGIce: null
+  DMGNature: null
+  DMGLightning: null
+  DMGCorruption: null
+  DMGAcid: null
+  DMGVitalsCategory: null
+  AFAPoison: null
+  AFADisease: null
+  AFABleed: null
+  AFAFrostbite: null
+  AFACurse: null
+  AFABlight: null
+  StackDuration: null
+  DurationMax: 3.0
+  InheritDuration: ""
+  InheritTotalDuration: ""
+  RefreshDuration: "1"
+  StackMax: 3.0
+  InitialStackSize: ""
+  RemoveUnappliedStacks: "1"
+  PotencyMax: null
+  DontReplaceStack: null
+  MoveSpeedMod: null
+  SprintSpeedMod: null
+  FastTravelEncumbranceMod: ""
+  GameEventId: ""
+  HealRewardGameEventId: ""
+  HealRewardThreshold: ""
+  WeaponMasteryCategoryId: ""
+  UIPriority: 2.0
+  UiNameplatePriority: 2.0
+  ShowInNameplates: "1"
+  ShowTextInNameplates: ""
+  OverrideOtherNameplateText: ""
+  HidesOtherStatusEffectIcons: ""
+  DynamicModelScaleFactor: ""
+  DynamicModelScaleRampTimeSecs: ""
+  SpawnSlice: ""
+  DisableSupportContributionRewards: ""
+  BlockMultipleEffectsFromSameSource: ""
+  AllowSelfOnlyAsSourceForAbilities: ""
+  IgnoreInvulnerable: null
+  NotCombatAction: ""
+  ApplicationCooldown: null
+  SourceRuneChargeOnApply: null
+  SourceRuneChargeOnTick: null
+  SourceRuneChargeOnHealthChangeOnly: null
+- StatusID: Status_Perk_Artifact_Set1_Bow_StaticDischarge
+  DisplayName: "@Status_StaticDischarge"
+  Description: "@Status_StaticDischarge_Description"
+  EffectCategories: Debuff+DMG
+  PlaceholderIcon: lyshineui/images/status/SE_ShockT1.png
+  ShowInUITray: "0"
+  ShowTextInDamageNumbers: false
+  FxScriptOn: StatFX_Shock_ON
+  FxScriptOff: ""
+  ShouldRefreshFxScript: ""
+  WeaponEffectType: ""
+  Notification: ""
+  DisableTelemetry: ""
+  IsClientPredicted: null
+  PotencyPerLevel: ""
+  BaseDuration: 0.0
+  TickRate: 1.0
+  DelayInitialTick: null
+  TickCondition: ""
+  OnTickStatusEffect: ""
+  KeepOnTickEffectOnEnd: ""
+  StopOnHitCount: null
+  HitCondition: ""
+  RequireReaction: null
+  OnStackStatusEffect: ""
+  AddOnStackSize: ""
+  AddOnStackSizeComparison: ""
+  HealThreatMultiplier: null
+  ScaleAmountOverTime: ""
+  ScaleAmountOverTimeMin: ""
+  ScaleAmountOverTimeMax: ""
+  DamageSkipsDeathsDoor: ""
+  Health: null
+  HealthMin: ""
+  HealthModifierPercent: null
+  HealthModifierBasePercent: null
+  HealthModifierDamageBased: -0.8
+  UseHealScalingValue: ""
+  HealScalingValueMultiplier: null
+  ShowUiDamageNumbersOnHeal: null
+  StaminaDamageModifier: ""
+  ManaModifierDamageBased: ""
+  DamageType: Lightning
+  CritChanceModifier: null
+  CritDamageModifier: ""
+  OnEndStatusEffect: ""
+  CastSpell: ""
+  TargetOwnsSpell: null
+  UseSourceWeaponForSpell: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
+  HealMod: null
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: null
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
+  StaminaRate: null
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: ""
+  XPIncreases: ""
+  AzothMod: null
+  FactionReputationMod: null
+  FactionTokensMod: null
+  TerritoryStandingMod: null
+  EXPLogging: null
+  EXPMining: null
+  EXPHarvesting: null
+  EXPSkinning: null
+  EXPSmelting: null
+  EXPWoodworking: null
+  EXPLeatherworking: null
+  EXPWeaving: null
+  EXPStonecutting: null
+  GrantSanctuary: null
+  NoSprint: null
+  NoRun: null
+  NoDodge: null
+  NoNav: null
+  Silenced: null
+  Stunned: null
+  RemoveOnDeath: null
+  RemoveOnDeathsDoor: null
+  RemoveOnRespawn: null
+  RemoveOnGameModeExit: null
+  IgnoreDiminishingReturns: null
+  OnlyChangeOwnedStatusEffects: ""
+  Afflictions: ""
+  OnHitAffixes: ""
+  EquipAbility: ""
+  UseSourceWeaponForAbilityEffect: ""
+  IsNegative: true
+  RespecTradeskills: ""
+  RespecAttributes: ""
+  EffectDurationMods: ""
+  EffectDurationMods_Tooltip: null
+  EffectPotencyMods: ""
+  RemoveStatusEffects: Status_Perk_Artifact_Set1_Bow_StaticCharge
+  RemoveStatusEffectCategories: Boltcaster
+  GlobalRollMod: null
+  LootTags: ""
+  FishingLineStrength: ""
+  FishSizeRollModifier: ""
+  MODConstitution: ""
+  MODFocus: ""
+  MODStrength: ""
+  MODDexterity: ""
+  MODIntelligence: ""
+  MGSArcana: null
+  MGSWeaponsmithing: null
+  MGSJewelcrafting: null
+  MGSEngineering: null
+  MGSArmoring: null
+  MaxGSArcana: null
+  MaxGSWeaponsmithing: null
+  MaxGSJewelcrafting: null
+  MaxGSEngineering: null
+  MaxGSArmoring: null
+  ROLCooking: null
+  ROLWeaving: null
+  ROLStonecutting: null
+  ROLSmelting: null
+  ROLLeatherworking: null
+  ROLWoodworking: null
+  ROLLogging: null
+  ROLMining: null
+  ROLSkinning: null
+  ROLHarvesting: null
+  ROLFishing: ""
+  MULTLogging: null
+  MULTMining: null
+  MULTSkinning: null
+  MULTHarvesting: null
+  MULTFishing: ""
+  EFFLogging: null
+  EFFMining: null
+  EFFSkinning: null
+  EFFHarvesting: null
+  INSLogging: ""
+  INSMining: ""
+  INSSkinning: ""
+  INSHarvesting: ""
+  PhysicalArmor: null
+  ElementalArmor: null
+  ABSStandard: null
+  ABSSiege: null
+  ABSStrike: null
+  ABSSlash: null
+  ABSThrust: null
+  ABSArcane: null
+  ABSFire: null
+  ABSIce: null
+  ABSNature: null
+  ABSLightning: null
+  ABSCorruption: null
+  ABSAcid: null
+  ABSVitalsCategory: null
+  RESPoison: ""
+  RESDisease: ""
+  RESBleed: ""
+  RESFrostbite: ""
+  RESCurse: ""
+  RESBlight: ""
+  BLAStandard: ""
+  BLASiege: ""
+  BLAStrike: ""
+  BLASlash: ""
+  BLAThrust: ""
+  BLAArcane: ""
+  BLAFire: ""
+  BLAIce: ""
+  BLALightning: ""
+  BLACorruption: ""
+  ABAPoison: ""
+  ABADisease: ""
+  ABABleed: ""
+  ABAFrostbite: ""
+  ABACurse: ""
+  ABABlight: ""
+  WKNStandard: ""
+  WKNSiege: ""
+  WKNStrike: ""
+  WKNSlash: ""
+  WKNThrust: ""
+  WKNArcane: ""
+  WKNFire: ""
+  WKNIce: ""
+  WKNNature: ""
+  WKNLightning: ""
+  WKNCorruption: ""
+  DMGStandard: null
+  DMGSiege: null
+  DMGStrike: null
+  DMGSlash: null
+  DMGThrust: null
+  DMGArcane: null
+  DMGFire: null
+  DMGIce: null
+  DMGNature: null
+  DMGLightning: null
+  DMGCorruption: null
+  DMGAcid: null
+  DMGVitalsCategory: null
+  AFAPoison: null
+  AFADisease: null
+  AFABleed: null
+  AFAFrostbite: null
+  AFACurse: null
+  AFABlight: null
+  StackDuration: null
+  DurationMax: 0.1
+  InheritDuration: ""
+  InheritTotalDuration: ""
+  RefreshDuration: "0"
+  StackMax: 3.0
+  InitialStackSize: ""
+  RemoveUnappliedStacks: "0"
+  PotencyMax: null
+  DontReplaceStack: null
+  MoveSpeedMod: null
+  SprintSpeedMod: null
+  FastTravelEncumbranceMod: ""
+  GameEventId: ""
+  HealRewardGameEventId: ""
+  HealRewardThreshold: ""
+  WeaponMasteryCategoryId: ""
+  UIPriority: 2.0
+  UiNameplatePriority: 2.0
+  ShowInNameplates: "1"
+  ShowTextInNameplates: ""
+  OverrideOtherNameplateText: ""
+  HidesOtherStatusEffectIcons: ""
+  DynamicModelScaleFactor: ""
+  DynamicModelScaleRampTimeSecs: ""
+  SpawnSlice: ""
+  DisableSupportContributionRewards: ""
+  BlockMultipleEffectsFromSameSource: ""
+  AllowSelfOnlyAsSourceForAbilities: ""
+  IgnoreInvulnerable: null
+  NotCombatAction: ""
+  ApplicationCooldown: 3.0
+  SourceRuneChargeOnApply: null
+  SourceRuneChargeOnTick: null
+  SourceRuneChargeOnHealthChangeOnly: null
+- StatusID: Status_Perk_Artifact_Set1_Bow_StaticCharge_Removal
+  DisplayName: ""
+  Description: ""
+  EffectCategories: ""
+  PlaceholderIcon: ""
+  ShowInUITray: "0"
+  ShowTextInDamageNumbers: false
+  FxScriptOn: ""
+  FxScriptOff: ""
+  ShouldRefreshFxScript: ""
+  WeaponEffectType: ""
+  Notification: ""
+  DisableTelemetry: ""
+  IsClientPredicted: null
+  PotencyPerLevel: ""
+  BaseDuration: 0.2
+  TickRate: 1.0
+  DelayInitialTick: null
+  TickCondition: ""
+  OnTickStatusEffect: ""
+  KeepOnTickEffectOnEnd: ""
+  StopOnHitCount: null
+  HitCondition: ""
+  RequireReaction: null
+  OnStackStatusEffect: ""
+  AddOnStackSize: ""
+  AddOnStackSizeComparison: ""
+  HealThreatMultiplier: null
+  ScaleAmountOverTime: ""
+  ScaleAmountOverTimeMin: ""
+  ScaleAmountOverTimeMax: ""
+  DamageSkipsDeathsDoor: ""
+  Health: null
+  HealthMin: ""
+  HealthModifierPercent: null
+  HealthModifierBasePercent: null
+  HealthModifierDamageBased: null
+  UseHealScalingValue: ""
+  HealScalingValueMultiplier: null
+  ShowUiDamageNumbersOnHeal: null
+  StaminaDamageModifier: ""
+  ManaModifierDamageBased: ""
+  DamageType: ""
+  CritChanceModifier: null
+  CritDamageModifier: ""
+  OnEndStatusEffect: ""
+  CastSpell: ""
+  TargetOwnsSpell: null
+  UseSourceWeaponForSpell: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
+  HealMod: null
+  ConsumableHealMod: ""
+  NonConsumableHealMod: null
+  DmgPctToHealthHealMod: null
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
+  StaminaRate: null
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: ""
+  XPIncreases: ""
+  AzothMod: null
+  FactionReputationMod: null
+  FactionTokensMod: null
+  TerritoryStandingMod: null
+  EXPLogging: null
+  EXPMining: null
+  EXPHarvesting: null
+  EXPSkinning: null
+  EXPSmelting: null
+  EXPWoodworking: null
+  EXPLeatherworking: null
+  EXPWeaving: null
+  EXPStonecutting: null
+  GrantSanctuary: null
+  NoSprint: null
+  NoRun: null
+  NoDodge: null
+  NoNav: null
+  Silenced: null
+  Stunned: null
+  RemoveOnDeath: null
+  RemoveOnDeathsDoor: null
+  RemoveOnRespawn: null
+  RemoveOnGameModeExit: null
+  IgnoreDiminishingReturns: null
+  OnlyChangeOwnedStatusEffects: ""
+  Afflictions: ""
+  OnHitAffixes: ""
+  EquipAbility: ""
+  UseSourceWeaponForAbilityEffect: ""
+  IsNegative: null
+  RespecTradeskills: ""
+  RespecAttributes: ""
+  EffectDurationMods: ""
+  EffectDurationMods_Tooltip: null
+  EffectPotencyMods: ""
+  RemoveStatusEffects: Status_Perk_Artifact_Set1_Bow_StaticCharge
+  RemoveStatusEffectCategories: Boltcaster
+  GlobalRollMod: null
+  LootTags: ""
+  FishingLineStrength: ""
+  FishSizeRollModifier: ""
+  MODConstitution: ""
+  MODFocus: ""
+  MODStrength: ""
+  MODDexterity: ""
+  MODIntelligence: ""
+  MGSArcana: null
+  MGSWeaponsmithing: null
+  MGSJewelcrafting: null
+  MGSEngineering: null
+  MGSArmoring: null
+  MaxGSArcana: null
+  MaxGSWeaponsmithing: null
+  MaxGSJewelcrafting: null
+  MaxGSEngineering: null
+  MaxGSArmoring: null
+  ROLCooking: null
+  ROLWeaving: null
+  ROLStonecutting: null
+  ROLSmelting: null
+  ROLLeatherworking: null
+  ROLWoodworking: null
+  ROLLogging: null
+  ROLMining: null
+  ROLSkinning: null
+  ROLHarvesting: null
+  ROLFishing: ""
+  MULTLogging: null
+  MULTMining: null
+  MULTSkinning: null
+  MULTHarvesting: null
+  MULTFishing: ""
+  EFFLogging: null
+  EFFMining: null
+  EFFSkinning: null
+  EFFHarvesting: null
+  INSLogging: ""
+  INSMining: ""
+  INSSkinning: ""
+  INSHarvesting: ""
+  PhysicalArmor: null
+  ElementalArmor: null
+  ABSStandard: null
+  ABSSiege: null
+  ABSStrike: null
+  ABSSlash: null
+  ABSThrust: null
+  ABSArcane: null
+  ABSFire: null
+  ABSIce: null
+  ABSNature: null
+  ABSLightning: null
+  ABSCorruption: null
+  ABSAcid: null
+  ABSVitalsCategory: null
+  RESPoison: ""
+  RESDisease: ""
+  RESBleed: ""
+  RESFrostbite: ""
+  RESCurse: ""
+  RESBlight: ""
+  BLAStandard: ""
+  BLASiege: ""
+  BLAStrike: ""
+  BLASlash: ""
+  BLAThrust: ""
+  BLAArcane: ""
+  BLAFire: ""
+  BLAIce: ""
+  BLALightning: ""
+  BLACorruption: ""
+  ABAPoison: ""
+  ABADisease: ""
+  ABABleed: ""
+  ABAFrostbite: ""
+  ABACurse: ""
+  ABABlight: ""
+  WKNStandard: ""
+  WKNSiege: ""
+  WKNStrike: ""
+  WKNSlash: ""
+  WKNThrust: ""
+  WKNArcane: ""
+  WKNFire: ""
+  WKNIce: ""
+  WKNNature: ""
+  WKNLightning: ""
+  WKNCorruption: ""
+  DMGStandard: null
+  DMGSiege: null
+  DMGStrike: null
+  DMGSlash: null
+  DMGThrust: null
+  DMGArcane: null
+  DMGFire: null
+  DMGIce: null
+  DMGNature: null
+  DMGLightning: null
+  DMGCorruption: null
+  DMGAcid: null
+  DMGVitalsCategory: null
+  AFAPoison: null
+  AFADisease: null
+  AFABleed: null
+  AFAFrostbite: null
+  AFACurse: null
+  AFABlight: null
+  StackDuration: null
+  DurationMax: 0.2
+  InheritDuration: ""
+  InheritTotalDuration: ""
+  RefreshDuration: ""
+  StackMax: 1.0
+  InitialStackSize: ""
+  RemoveUnappliedStacks: "0"
+  PotencyMax: null
+  DontReplaceStack: null
+  MoveSpeedMod: null
+  SprintSpeedMod: null
+  FastTravelEncumbranceMod: ""
+  GameEventId: ""
+  HealRewardGameEventId: ""
+  HealRewardThreshold: ""
+  WeaponMasteryCategoryId: ""
+  UIPriority: null
+  UiNameplatePriority: null
+  ShowInNameplates: "0"
   ShowTextInNameplates: ""
   OverrideOtherNameplateText: ""
   HidesOtherStatusEffectIcons: ""
@@ -102121,7 +102883,7 @@
   DisableTelemetry: ""
   IsClientPredicted: null
   PotencyPerLevel: ""
-  BaseDuration: 10.0
+  BaseDuration: 6.0
   TickRate: 1.0
   DelayInitialTick: null
   TickCondition: ""

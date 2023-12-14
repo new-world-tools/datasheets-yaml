@@ -13783,7 +13783,7 @@
   AlignGatherer: false
   GameEventID: 95_s04_Q2_Buildfire_A_interact
   ItemRestrictionId: 95_S04_Wyrdwood
-  ItemRestrictionQuantity: 100.0
+  ItemRestrictionQuantity: 1.0
   RequiredSongId: ""
   SongRewardId: ""
   ResetGatherTimeOnEndInteraction: true
@@ -13822,7 +13822,7 @@
   AlignGatherer: false
   GameEventID: 95_s04_Q2_Buildfire_B_interact
   ItemRestrictionId: 95_S04_Wyrdwood
-  ItemRestrictionQuantity: 100.0
+  ItemRestrictionQuantity: 1.0
   RequiredSongId: ""
   SongRewardId: ""
   ResetGatherTimeOnEndInteraction: true
@@ -13861,7 +13861,7 @@
   AlignGatherer: false
   GameEventID: 95_s04_Q2_Buildfire_C_interact
   ItemRestrictionId: 95_S04_Wyrdwood
-  ItemRestrictionQuantity: 100.0
+  ItemRestrictionQuantity: 1.0
   RequiredSongId: ""
   SongRewardId: ""
   ResetGatherTimeOnEndInteraction: true
@@ -13900,7 +13900,7 @@
   AlignGatherer: false
   GameEventID: 95_s04_Q2_Buildfire_D_interact
   ItemRestrictionId: 95_S04_Wyrdwood
-  ItemRestrictionQuantity: 100.0
+  ItemRestrictionQuantity: 1.0
   RequiredSongId: ""
   SongRewardId: ""
   ResetGatherTimeOnEndInteraction: true
@@ -13923,19 +13923,19 @@
   RequiredWhisperId: ""
 - GatherableID: 95_S04_Q2_CollectWood
   DisplayName: "@95_S04_Q2_CollectWood_DisplayName"
-  GatheringAction: None
-  GatheringType: None
+  GatheringAction: ChoppingVertical
+  GatheringType: Chopping
   GatheringFragment: ""
-  FinalLootTable: Quest_s04_Q2_Wyrdwood_Loot
+  FinalLootTable: Empty
   LootTableDefaultMaterial: ""
   MinRespawnRate: 120.0
   MaxRespawnRate: 150.0
-  Tradeskill: None
+  Tradeskill: Logging
   RequiredTradeskillLevel: null
   DepletedGatherableID: ""
-  BaseGatherTime: 5.0
+  BaseGatherTime: 25.0
   WaitForImpact: false
-  Restriction: NoToolNecessary
+  Restriction: ToolRequired
   AlignGatherer: false
   GameEventID: 95_s04_Q2_CollectWood_interact
   ItemRestrictionId: ""

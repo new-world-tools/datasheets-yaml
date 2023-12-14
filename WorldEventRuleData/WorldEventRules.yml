@@ -1,11 +1,11 @@
-- RuleId: TestRule-global
+- RuleId: Hub
   Category: ""
-  Hub: ""
+  Hub: "*"
   Zone: ""
-  MaxEvents: 6.0
-  MinDistance: null
+  MaxEvents: 20.0
+  MinDistance: 10.0
   Disabled: ""
-  Comments: ""
+  Comments: Prevents any event from overlapping and no more than 20 events per hub at a time
 - RuleId: TestRule-1
   Category: Test
   Hub: ""
@@ -30,3 +30,19 @@
   MinDistance: 10.0
   Disabled: ""
   Comments: ""
+- RuleId: WorldBoss-hub
+  Category: WorldBoss
+  Hub: "*"
+  Zone: ""
+  MaxEvents: 4.0
+  MinDistance: null
+  Disabled: ""
+  Comments: Prevents more than 4 WorldBoss events active on a hub at a time
+- RuleId: Darkness-hub
+  Category: DarknessEvent
+  Hub: "*"
+  Zone: ""
+  MaxEvents: 10.0
+  MinDistance: null
+  Disabled: ""
+  Comments: Prevents more than 10 Darkness events active on a hub at a time

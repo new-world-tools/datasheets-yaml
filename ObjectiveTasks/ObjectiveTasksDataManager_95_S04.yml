@@ -7651,7 +7651,7 @@
   OnInteractStart: ""
   SubTask1: 95_s04_02_StartBonfire_container
   SubTask2: 95_s04_02_BuilldAll_container
-  SubTask3: 95_s04_02_LightFires_container_Partial
+  SubTask3: 95_s04_02_BonfirePuzzle
   SubTask4: 95_s04_02_SolvedBonfirePuzzle
   SubTask5: ""
 - TaskID: 95_s04_02_StartBonfire_container
@@ -8385,7 +8385,7 @@
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: null
-  TargetQty: 50.0
+  TargetQty: 1.0
   ItemName: 95_S04_Wyrdwood
   ItemDropVC: ""
   ItemDropProbability: null
@@ -8517,7 +8517,7 @@
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: null
-  TargetQty: 100.0
+  TargetQty: 4.0
   ItemName: 95_S04_Wyrdwood
   ItemDropVC: Ghost_Starved_S4Q2
   ItemDropProbability: 100.0
@@ -8583,7 +8583,7 @@
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: null
-  TargetQty: 100.0
+  TargetQty: 4.0
   ItemName: 95_S04_Wyrdwood
   ItemDropVC: 95_S04_Q2_CollectWood
   ItemDropProbability: 100.0
@@ -9045,7 +9045,7 @@
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: null
-  TargetQty: 50.0
+  TargetQty: 1.0
   ItemName: 95_S04_Wyrdwood
   ItemDropVC: ""
   ItemDropProbability: null
@@ -9177,7 +9177,7 @@
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: null
-  TargetQty: 200.0
+  TargetQty: 4.0
   ItemName: 95_S04_Wyrdwood
   ItemDropVC: Ghost_Starved_S4Q2
   ItemDropProbability: 100.0
@@ -9243,7 +9243,7 @@
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: null
-  TargetQty: 200.0
+  TargetQty: 4.0
   ItemName: 95_S04_Wyrdwood
   ItemDropVC: 95_S04_Q2_CollectWood
   ItemDropProbability: 100.0
@@ -9705,7 +9705,7 @@
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: null
-  TargetQty: 50.0
+  TargetQty: 1.0
   ItemName: 95_S04_Wyrdwood
   ItemDropVC: ""
   ItemDropProbability: null
@@ -9837,7 +9837,7 @@
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: null
-  TargetQty: 300.0
+  TargetQty: 4.0
   ItemName: 95_S04_Wyrdwood
   ItemDropVC: Ghost_Starved_S4Q2
   ItemDropProbability: 100.0
@@ -9903,7 +9903,7 @@
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: null
-  TargetQty: 300.0
+  TargetQty: 4.0
   ItemName: 95_S04_Wyrdwood
   ItemDropVC: 95_S04_Q2_CollectWood
   ItemDropProbability: 100.0
@@ -10365,7 +10365,7 @@
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: null
-  TargetQty: 50.0
+  TargetQty: 1.0
   ItemName: 95_S04_Wyrdwood
   ItemDropVC: ""
   ItemDropProbability: null
@@ -10497,7 +10497,7 @@
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: null
-  TargetQty: 400.0
+  TargetQty: 4.0
   ItemName: 95_S04_Wyrdwood
   ItemDropVC: Ghost_Starved_S4Q2
   ItemDropProbability: 100.0
@@ -10563,7 +10563,7 @@
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: null
-  TargetQty: 400.0
+  TargetQty: 4.0
   ItemName: 95_S04_Wyrdwood
   ItemDropVC: 95_S04_Q2_CollectWood
   ItemDropProbability: 100.0
@@ -16229,9 +16229,75 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: ""
-  SubTask1: 95_s04_03_MeltWall_Skye_p02i_SO
-  SubTask2: 95_s04_03_MeltWall_Zander_p01i_SO
-  SubTask3: 95_s04_03_MeltWall_Daichi_p03i_SO
+  SubTask1: 95_s04_03_MeltWall_SwapoutTimer
+  SubTask2: 95_s04_03_MeltWall_Skye_p02i_SO
+  SubTask3: 95_s04_03_MeltWall_Zander_p01i_SO
+  SubTask4: 95_s04_03_MeltWall_Daichi_p03i_SO
+  SubTask5: ""
+- TaskID: 95_s04_03_MeltWall_SwapoutTimer
+  Type: TaskTimer
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: null
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  UseGlobalStorage: ""
+  EnforceLocationRequirement: ""
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: 0.1
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
 - TaskID: 95_s04_03_MeltWall_Skye_p02i_SO
@@ -23162,7 +23228,7 @@
   SubTask1: 95_s04_04_SO_Dog_p01_fromIcecastle_ext
   SubTask2: 95_s04_04_SI_Rima_p02_ER
   SubTask3: 95_s04_04_SI_Scholar_p01_ER
-  SubTask4: ""
+  SubTask4: 95_s04_04_SI_Skye_p05_MageCavesExt
   SubTask5: ""
 - TaskID: 95_s04_04_SO_Dog_p01_fromIcecastle_ext
   Type: TaskLockAchievement
@@ -23303,6 +23369,72 @@
   RequiredLevel: null
   TargetQty: 1.0
   ItemName: SwapActive_95_s04_Scholar_p01
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  UseGlobalStorage: ""
+  EnforceLocationRequirement: ""
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 95_s04_04_SI_Skye_p05_MageCavesExt
+  Type: TaskUnlockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: null
+  TargetQty: 1.0
+  ItemName: SwapActive_95_s04_Skye_p05
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: ""
@@ -23952,7 +24084,7 @@
   TriggerAnalyticsEvent: ""
   OnInteractStart: ""
   SubTask1: 95_s04_04_SO_Rima_p02_fromER_wa
-  SubTask2: 95_s04_04_SI_Skye_p05_MageCavesExt
+  SubTask2: ""
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
@@ -24029,72 +24161,6 @@
   RequiredLevel: null
   TargetQty: 1.0
   ItemName: SwapActive_95_s04_Rima_p03
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: ""
-  UseGlobalStorage: ""
-  EnforceLocationRequirement: ""
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: ""
-  AwardOnlyOnce: ""
-  ShouldCheckPoints: null
-  GuranteedDropAttempts: null
-  TargetThreshold: ""
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: null
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: ""
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: 1.0
-  HideDiegeticGatherablePins: ""
-  ShowDiegeticTaskPin: ""
-  DiegeticPinZOverride: null
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: ""
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 95_s04_04_SI_Skye_p05_MageCavesExt
-  Type: TaskUnlockAchievement
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: null
-  TargetQty: 1.0
-  ItemName: SwapActive_95_s04_Skye_p05
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: ""
@@ -24629,7 +24695,7 @@
   UseGlobalStorage: ""
   EnforceLocationRequirement: ""
   TerritoryID: ""
-  POITag: dungeon_forge_40351
+  POITag: ""
   GameModeID: ""
   LootTag: ""
   PauseAndClearLootOnTaskComplete: ""
@@ -24679,8 +24745,8 @@
   OnInteractStart: ""
   SubTask1: 95_s04_04_SolveMageDoorPuzzle_simple
   SubTask2: 95_s04_04_SolveMageDoorPuzzle_nevertrueTask
-  SubTask3: ""
-  SubTask4: ""
+  SubTask3: 95_s04_04_SolveMageDoorPuzzle_nevertrueTask2
+  SubTask4: 95_s04_04_SolveMageDoorPuzzle_nevertrueTask3
   SubTask5: ""
 - TaskID: 95_s04_04_SolveMageDoorPuzzle_simple
   Type: SimpleTaskContainer
@@ -24796,13 +24862,145 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@95_s04_04_FightMage_SolveMageDoorPuzzle_Description"
   TargetDescriptionTaskId: ""
-  OverrideLocation: ""
+  OverrideLocation: 6876.1 4961.8 185.4
   IsHidden: null
   HideDiegeticGatherablePins: "0"
   ShowDiegeticTaskPin: ""
   DiegeticPinZOverride: null
   SS_VariantName: 95_s04_04_MageDoor1,95_s04_04_MageDoor2,95_s04_04_MageDoor3
   SS_StatePreset: 0,0,0
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 95_s04_04_SolveMageDoorPuzzle_nevertrueTask2
+  Type: TaskTriggerArea
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: null
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  UseGlobalStorage: ""
+  EnforceLocationRequirement: ""
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: 6881.3 4952.1 185.6
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: "0"
+  ShowDiegeticTaskPin: "0"
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 95_s04_04_SolveMageDoorPuzzle_nevertrueTask3
+  Type: TaskTriggerArea
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: null
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  UseGlobalStorage: ""
+  EnforceLocationRequirement: ""
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: 6870.6 4937.8 186.3
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: "0"
+  ShowDiegeticTaskPin: "0"
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -24928,7 +25126,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
-  OverrideLocation: 6876.1 4961.8 185.4
+  OverrideLocation: ""
   IsHidden: 1.0
   HideDiegeticGatherablePins: "TRUE"
   ShowDiegeticTaskPin: "FALSE"
@@ -25126,7 +25324,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
-  OverrideLocation: 6881.3 4952.1 185.6
+  OverrideLocation: ""
   IsHidden: 1.0
   HideDiegeticGatherablePins: "TRUE"
   ShowDiegeticTaskPin: "FALSE"
@@ -25324,7 +25522,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
-  OverrideLocation: 6870.6 4937.8 186.3
+  OverrideLocation: ""
   IsHidden: 1.0
   HideDiegeticGatherablePins: "TRUE"
   ShowDiegeticTaskPin: "FALSE"
@@ -31149,7 +31347,7 @@
   SubTask2: 95_s04_04_SI_Dog_p02_retMageCaveExt
   SubTask3: 95_s04_04_ExitMageCaves_TV
   SubTask4: 95_s04_04_Talk_Skye_MordredHasStaff
-  SubTask5: 95_s04_04_ReturnCrowsNest
+  SubTask5: 95_s04_04_SO_CavesToRune_Container
 - TaskID: 95_s04_04_SI_Rima_p03_retMageCaveExt
   Type: TaskUnlockAchievement
   FailOnCondition: ""
@@ -31414,6 +31612,72 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
+- TaskID: 95_s04_04_SO_CavesToRune_Container
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  UseGlobalStorage: ""
+  EnforceLocationRequirement: ""
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: 95_s04_04_ReturnCrowsNest
+  SubTask2: 95_s04_04_SO_Rima_p03_fromMageCaveExt
+  SubTask3: 95_s04_04_SO_Skye_p05_fromMageCaveExt
+  SubTask4: 95_s04_04_SO_Dog_p02_fromMageCaveExt
+  SubTask5: ""
 - TaskID: 95_s04_04_ReturnCrowsNest
   Type: TaskGoToPOITag
   FailOnCondition: ""
@@ -31464,6 +31728,204 @@
   TargetDescriptionTaskId: ""
   OverrideLocation: ""
   IsHidden: null
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 95_s04_04_SO_Rima_p03_fromMageCaveExt
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: null
+  TargetQty: 1.0
+  ItemName: SwapActive_95_s04_Rima_p03
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  UseGlobalStorage: ""
+  EnforceLocationRequirement: ""
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: true
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 95_s04_04_SO_Skye_p05_fromMageCaveExt
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: null
+  TargetQty: 1.0
+  ItemName: SwapActive_95_s04_Skye_p05
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  UseGlobalStorage: ""
+  EnforceLocationRequirement: ""
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: true
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 95_s04_04_SO_Dog_p02_fromMageCaveExt
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: null
+  TargetQty: 1.0
+  ItemName: SwapActive_95_s04_Dog_p02
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  UseGlobalStorage: ""
+  EnforceLocationRequirement: ""
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: true
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: ""
   DiegeticPinZOverride: null
@@ -31541,11 +32003,77 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: ""
-  SubTask1: 95_s04_05_DA_DiscussedRune
+  SubTask1: 95_s04_05_questInitialize_simple
   SubTask2: 95_s04_05_GoToRuneForge
-  SubTask3: 95_s04_05_SO_CavesToRune_Container
-  SubTask4: 95_s04_05_CompleteTrial_Container
-  SubTask5: 95_s04_05_SI_ToRune_Container
+  SubTask3: 95_s04_05_CompleteTrial_Container
+  SubTask4: 95_s04_05_SI_ToRune_Container
+  SubTask5: ""
+- TaskID: 95_s04_05_questInitialize_simple
+  Type: SimpleTaskContainer
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  UseGlobalStorage: ""
+  EnforceLocationRequirement: ""
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: 95_s04_05_DA_DiscussedRune
+  SubTask2: 95_s04_05_WinterRuneLoreLock
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
 - TaskID: 95_s04_05_DA_DiscussedRune
   Type: TaskUnlockAchievement
   FailOnCondition: ""
@@ -31565,6 +32093,72 @@
   PauseAndClearLootOnTaskComplete: ""
   AwardOnlyOnce: ""
   ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 95_s04_05_WinterRuneLoreLock
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: null
+  TargetQty: 1.0
+  ItemName: Lore_unlock_TalesOfWinter_Title_05_01
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  UseGlobalStorage: ""
+  EnforceLocationRequirement: ""
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: true
   GuranteedDropAttempts: null
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -31662,270 +32256,6 @@
   TargetDescriptionTaskId: ""
   OverrideLocation: 10496.566406 7283.365234 500.194946
   IsHidden: null
-  HideDiegeticGatherablePins: ""
-  ShowDiegeticTaskPin: ""
-  DiegeticPinZOverride: null
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: ""
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 95_s04_05_SO_CavesToRune_Container
-  Type: ConsecutiveTaskContainer
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: null
-  TargetQty: null
-  ItemName: ""
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: ""
-  UseGlobalStorage: ""
-  EnforceLocationRequirement: ""
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: ""
-  AwardOnlyOnce: ""
-  ShouldCheckPoints: null
-  GuranteedDropAttempts: null
-  TargetThreshold: ""
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: null
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: ""
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: 1.0
-  HideDiegeticGatherablePins: ""
-  ShowDiegeticTaskPin: ""
-  DiegeticPinZOverride: null
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: ""
-  SubTask1: 95_s04_05_SO_Rima_p03_fromMageCaveExt
-  SubTask2: 95_s04_05_SO_Skye_p05_fromMageCaveExt
-  SubTask3: 95_s04_05_SO_Dog_p02_fromMageCaveExt
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 95_s04_05_SO_Rima_p03_fromMageCaveExt
-  Type: TaskLockAchievement
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: null
-  TargetQty: 1.0
-  ItemName: SwapActive_95_s04_Rima_p03
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: ""
-  UseGlobalStorage: ""
-  EnforceLocationRequirement: ""
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: ""
-  AwardOnlyOnce: ""
-  ShouldCheckPoints: null
-  GuranteedDropAttempts: null
-  TargetThreshold: ""
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: null
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: ""
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: 1.0
-  HideDiegeticGatherablePins: ""
-  ShowDiegeticTaskPin: ""
-  DiegeticPinZOverride: null
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: ""
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 95_s04_05_SO_Skye_p05_fromMageCaveExt
-  Type: TaskLockAchievement
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: null
-  TargetQty: 1.0
-  ItemName: SwapActive_95_s04_Skye_p05
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: ""
-  UseGlobalStorage: ""
-  EnforceLocationRequirement: ""
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: ""
-  AwardOnlyOnce: ""
-  ShouldCheckPoints: null
-  GuranteedDropAttempts: null
-  TargetThreshold: ""
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: null
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: ""
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: 1.0
-  HideDiegeticGatherablePins: ""
-  ShowDiegeticTaskPin: ""
-  DiegeticPinZOverride: null
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: ""
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 95_s04_05_SO_Dog_p02_fromMageCaveExt
-  Type: TaskLockAchievement
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: null
-  TargetQty: 1.0
-  ItemName: SwapActive_95_s04_Dog_p02
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: ""
-  UseGlobalStorage: ""
-  EnforceLocationRequirement: ""
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: ""
-  AwardOnlyOnce: ""
-  ShouldCheckPoints: null
-  GuranteedDropAttempts: null
-  TargetThreshold: ""
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: null
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: ""
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: 1.0
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: ""
   DiegeticPinZOverride: null
@@ -40865,7 +41195,7 @@
   UseGlobalStorage: ""
   EnforceLocationRequirement: ""
   TerritoryID: ""
-  POITag: dungeon_forge_40351
+  POITag: ""
   GameModeID: ""
   LootTag: ""
   PauseAndClearLootOnTaskComplete: ""
@@ -40915,8 +41245,8 @@
   OnInteractStart: ""
   SubTask1: 95_s04_06_SolveLizardPuzzle_simple
   SubTask2: 95_s04_06_SolveLizardPuzzle_nevertrueTask
-  SubTask3: ""
-  SubTask4: ""
+  SubTask3: 95_s04_06_SolveLizardPuzzle_nevertrueTask2
+  SubTask4: 95_s04_06_SolveLizardPuzzle_nevertrueTask3
   SubTask5: ""
 - TaskID: 95_s04_06_SolveLizardPuzzle_simple
   Type: SimpleTaskContainer
@@ -41032,13 +41362,145 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@95_s04_06_StopDevice_SolveLizardPuzzle_Description"
   TargetDescriptionTaskId: ""
-  OverrideLocation: ""
+  OverrideLocation: 10140.69 8079.77 87.13
   IsHidden: null
-  HideDiegeticGatherablePins: "1"
-  ShowDiegeticTaskPin: ""
+  HideDiegeticGatherablePins: "0"
+  ShowDiegeticTaskPin: "1"
   DiegeticPinZOverride: null
   SS_VariantName: 95_s04_06_lizardStatue1,95_s04_06_lizardStatue2,95_s04_06_lizardStatue3
   SS_StatePreset: 0,0,0
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 95_s04_06_SolveLizardPuzzle_nevertrueTask2
+  Type: TaskTriggerArea
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: null
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  UseGlobalStorage: ""
+  EnforceLocationRequirement: ""
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: 10146.69 8075.77 87.13
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: "0"
+  ShowDiegeticTaskPin: "0"
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 95_s04_06_SolveLizardPuzzle_nevertrueTask3
+  Type: TaskTriggerArea
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: null
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  UseGlobalStorage: ""
+  EnforceLocationRequirement: ""
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: 10152.69 8079.52 87.13
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: "0"
+  ShowDiegeticTaskPin: "0"
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -41164,10 +41626,10 @@
   TP_TargetTag: ""
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
-  OverrideLocation: 10140.69 8079.77 87.13
+  OverrideLocation: ""
   IsHidden: 1.0
   HideDiegeticGatherablePins: "TRUE"
-  ShowDiegeticTaskPin: "TRUE"
+  ShowDiegeticTaskPin: "0"
   DiegeticPinZOverride: null
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -41362,10 +41824,10 @@
   TP_TargetTag: ""
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
-  OverrideLocation: 10146.69 8075.77 87.13
+  OverrideLocation: ""
   IsHidden: 1.0
   HideDiegeticGatherablePins: "TRUE"
-  ShowDiegeticTaskPin: "TRUE"
+  ShowDiegeticTaskPin: "0"
   DiegeticPinZOverride: null
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -41560,10 +42022,10 @@
   TP_TargetTag: ""
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
-  OverrideLocation: 10152.69 8079.52 87.13
+  OverrideLocation: ""
   IsHidden: 1.0
   HideDiegeticGatherablePins: "TRUE"
-  ShowDiegeticTaskPin: "TRUE"
+  ShowDiegeticTaskPin: "0"
   DiegeticPinZOverride: null
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -42154,7 +42616,7 @@
   TP_TargetTag: TV_95_s04_06_MordredFightIntro
   TP_DescriptionTag: "@95_s04_06_StopDevice_Trigger_MordredFightIntro_Description"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 308.2546 419.7175 75.0156
+  OverrideLocation: 255.641006 256.004883 257.534668
   IsHidden: null
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: "TRUE"
@@ -42286,7 +42748,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@95_s04_06_StopDevice_DefeatMordred_Description"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 308.2546 419.7175 75.0156
+  OverrideLocation: 255.641006 256.004883 257.534668
   IsHidden: null
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: "1"
@@ -42352,7 +42814,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@95_s04_06_StopDevice_DefeatMordred_Description"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 308.2546 419.7175 75.0156
+  OverrideLocation: 255.641006 256.004883 257.534668
   IsHidden: null
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: "0"

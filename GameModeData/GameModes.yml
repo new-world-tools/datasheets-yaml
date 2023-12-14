@@ -587,7 +587,7 @@
   UsePendingListMatchmaking: true
   AutoEquipQuickslot: true
   GrantConsumables: ""
-  ActivityType: ""
+  ActivityType: Arena3v3
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: 3.0
   ResetChargeOnEnter: true
@@ -711,7 +711,7 @@
   UsePendingListMatchmaking: true
   AutoEquipQuickslot: true
   GrantConsumables: ""
-  ActivityType: ""
+  ActivityType: Arena3v3
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: 3.0
   ResetChargeOnEnter: true
@@ -794,7 +794,7 @@
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_Dungeon_Windsward_00
-  LootTags: Amrine,Lost
+  LootTags: Amrine,Lost,Dungeon
   MutLootTagsOverride: ""
   ContainerLevel: 25.0
   LootGSRangeOverride: 300-375
@@ -918,8 +918,8 @@
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_Dungeon_Everfall_00
-  LootTags: ShatteredObelisk,Ancient
-  MutLootTagsOverride: ShatteredObelisk_Mut,Ancient,GypsumBlue
+  LootTags: ShatteredObelisk,Ancient,Dungeon
+  MutLootTagsOverride: ShatteredObelisk_Mut,Ancient,GypsumBlue,Dungeon
   ContainerLevel: 35.0
   LootGSRangeOverride: 400-450
   MutLootGSRangeOverride: 650-700
@@ -1042,8 +1042,8 @@
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_Dungeon_RestlessShores_01
-  LootTags: RestlessShores01,Corrupted
-  MutLootTagsOverride: Restless01_Mut,Corrupted,GypsumBlue
+  LootTags: RestlessShores01,Corrupted,Dungeon
+  MutLootTagsOverride: Restless01_Mut,Corrupted,GypsumBlue,Dungeon
   ContainerLevel: 45.0
   LootGSRangeOverride: 475-525
   MutLootGSRangeOverride: 650-700
@@ -1166,8 +1166,8 @@
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NewWorld_VitaeEterna
-  LootTags: Ebonscale00,Corrupted
-  MutLootTagsOverride: Ebonscale00_Mut,Corrupted,GypsumBlue
+  LootTags: Ebonscale00,Corrupted,Dungeon
+  MutLootTagsOverride: Ebonscale00_Mut,Corrupted,GypsumBlue,Dungeon
   ContainerLevel: 55.0
   LootGSRangeOverride: 525-675
   MutLootGSRangeOverride: 650-700
@@ -1290,7 +1290,7 @@
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_Dungeon_Edengrove_00
-  LootTags: Edengrove00,AngryEarth,GypsumBlue
+  LootTags: Edengrove00,AngryEarth,GypsumBlue,Dungeon
   MutLootTagsOverride: ""
   ContainerLevel: 60.0
   LootGSRangeOverride: 600-675
@@ -1414,7 +1414,7 @@
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_Dungeon_Reekwater_00
-  LootTags: Reekwater00,Ancient,GypsumBlue
+  LootTags: Reekwater00,Ancient,GypsumBlue,Dungeon
   MutLootTagsOverride: ""
   ContainerLevel: 60.0
   LootGSRangeOverride: 600-675
@@ -1538,7 +1538,7 @@
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_Dungeon_CutlassKeys_00
-  LootTags: CutlassKeys00,Lost,GypsumBlue
+  LootTags: CutlassKeys00,Lost,GypsumBlue,Dungeon
   MutLootTagsOverride: ""
   ContainerLevel: 64.0
   LootGSRangeOverride: 625-675
@@ -1662,7 +1662,7 @@
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_Dungeon_GreatCleave_01
-  LootTags: GreatCleave01,Knight,GypsumBlue
+  LootTags: GreatCleave01,Knight,GypsumBlue,Dungeon
   MutLootTagsOverride: ""
   ContainerLevel: 65.0
   LootGSRangeOverride: 625-675
@@ -1786,7 +1786,7 @@
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_Dungeon_ShatterMtn_00
-  LootTags: ShatterMtn00,Corrupted,GypsumBlue
+  LootTags: ShatterMtn00,Corrupted,GypsumBlue,Dungeon
   MutLootTagsOverride: ""
   ContainerLevel: 62.0
   LootGSRangeOverride: 625-675
@@ -1910,7 +1910,7 @@
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_Dungeon_BrimstoneSands_00
-  LootTags: BrimstoneSands00,Ancient,GypsumBlue
+  LootTags: BrimstoneSands00,Ancient,GypsumBlue,Dungeon
   MutLootTagsOverride: ""
   ContainerLevel: 65.0
   LootGSRangeOverride: 625-675
@@ -2034,7 +2034,7 @@
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_Dungeon_GreatCleave_00
-  LootTags: GreatCleave00,Ancient,GypsumBlue
+  LootTags: GreatCleave00,Ancient,GypsumBlue,Dungeon
   MutLootTagsOverride: ""
   ContainerLevel: 65.0
   LootGSRangeOverride: 625-675
@@ -2158,7 +2158,7 @@
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_Dungeon_FirstLight_01
-  LootTags: EXPFirstLight01,FirstLight,GypsumBlue
+  LootTags: EXPFirstLight01,FirstLight,GypsumBlue,Dungeon
   MutLootTagsOverride: ""
   ContainerLevel: 70.0
   LootGSRangeOverride: 650-685
@@ -3727,9 +3727,9 @@
   Description: "@trial_season_04_q05_description"
   UiInteractOption: EnterTrialSeason04Q05
   RequirementText: ""
-  IconPath: LyShineUI/Images/Map/Icon/POIs/arena_flamekeeper.png
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
-  BackgroundImagePath: LyShineUI/Images/EntranceScreen/Hatchery/EntranceScreenBG_Hatchery.png
+  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_TrialSeason04Q05.png"
   CoatlicueName: "coatlicue\\NW_Trial_Season_04"
   WorldBounds: 145.0,6.0,512.0,512.0
   TeamTeleportData: 213.0,258.0,247.0,270

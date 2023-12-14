@@ -15719,7 +15719,7 @@
 - StatusID: WorldBoundExit
   DisplayName: ""
   Description: ""
-  EffectCategories: ""
+  EffectCategories: UnclampedSlow
   PlaceholderIcon: ""
   ShowInUITray: ""
   ShowInTokenTray: null
@@ -15990,7 +15990,7 @@
 - StatusID: StatusEffect_Boss_TeamWipe
   DisplayName: ""
   Description: ""
-  EffectCategories: TeamWipeCat
+  EffectCategories: TeamWipeCat+UnclampedSlow
   PlaceholderIcon: ""
   ShowInUITray: ""
   ShowInTokenTray: null
@@ -32263,7 +32263,7 @@
   ReapplyAfterPersistenceReload: null
   PersistEffectInCrossWorldInstances: null
   Notification: ""
-  DisableTelemetry: null
+  DisableTelemetry: false
   IsClientPredicted: null
   UseLightweightReplication: null
   PauseInGameModesList: ""
@@ -32534,7 +32534,7 @@
   ReapplyAfterPersistenceReload: null
   PersistEffectInCrossWorldInstances: null
   Notification: ""
-  DisableTelemetry: null
+  DisableTelemetry: false
   IsClientPredicted: null
   UseLightweightReplication: null
   PauseInGameModesList: ""
@@ -32805,7 +32805,7 @@
   ReapplyAfterPersistenceReload: null
   PersistEffectInCrossWorldInstances: null
   Notification: ""
-  DisableTelemetry: null
+  DisableTelemetry: false
   IsClientPredicted: null
   UseLightweightReplication: null
   PauseInGameModesList: ""
@@ -44716,7 +44716,7 @@
 - StatusID: Dungeon_Medusa_Statue_Gaze_Apply
   DisplayName: "@Dungeon_Medusa_Statue_Gaze_Apply"
   Description: "@Dungeon_Medusa_Statue_Gaze_Apply"
-  EffectCategories: ""
+  EffectCategories: NonDispellableSlow
   PlaceholderIcon: lyshineui/images/status/SE_SlowT4.png
   ShowInUITray: "1"
   ShowInTokenTray: null
@@ -44985,10 +44985,10 @@
   MeshChangeCDF: ""
   ApplicationCooldown: null
 - StatusID: Dungeon_CrossWorldPugGroup
-  DisplayName: ""
-  Description: ""
-  EffectCategories: ""
-  PlaceholderIcon: ""
+  DisplayName: "@Dungeon_CrossWorldPugGroup_DisplayName"
+  Description: "@Dungeon_CrossWorldPugGroup_Description"
+  EffectCategories: Hearty
+  PlaceholderIcon: lyshineui/images/status/Temp_Food_ResistStandard.png
   ShowInUITray: "1"
   ShowInTokenTray: null
   ShowTextInDamageNumbers: false
@@ -45019,7 +45019,7 @@
   OnStackStatusEffect: ""
   AddOnStackSize: null
   AddOnStackSizeComparison: ""
-  HealThreatMultiplier: null
+  HealThreatMultiplier: 0.5
   ScaleAmountOverTime: ""
   ScaleAmountOverTimeMin: ""
   ScaleAmountOverTimeMax: ""
@@ -45028,10 +45028,10 @@
   Health: null
   HealthMin: null
   HealthMinPercent: ""
-  HealthModifierPercent: 0.0
+  HealthModifierPercent: null
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: "0.1"
   ShowUiDamageNumbersOnHeal: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
@@ -45047,7 +45047,7 @@
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
-  MaxHealthMod: 0.0
+  MaxHealthMod: 0.1
   HealthRate: 0.0
   CoreTempMod: 0.0
   TempMod: 0.0
@@ -45192,18 +45192,18 @@
   WKNNature: null
   WKNLightning: null
   WKNCorruption: null
-  DMGStandard: null
-  DMGSiege: null
-  DMGStrike: null
-  DMGSlash: null
-  DMGThrust: null
-  DMGArcane: null
-  DMGFire: null
-  DMGIce: null
-  DMGNature: null
-  DMGLightning: null
-  DMGCorruption: null
-  DMGAcid: null
+  DMGStandard: 0.1
+  DMGSiege: 0.1
+  DMGStrike: 0.1
+  DMGSlash: 0.1
+  DMGThrust: 0.1
+  DMGArcane: 0.1
+  DMGFire: 0.1
+  DMGIce: 0.1
+  DMGNature: 0.1
+  DMGLightning: 0.1
+  DMGCorruption: 0.1
+  DMGAcid: 0.1
   DMGVitalsCategory: ""
   DMGVitalsCategory_Tooltip: null
   AFAPoison: null
@@ -158014,7 +158014,7 @@
   PauseOnDisable: true
   PotencyPerLevel: ""
   HideHudDurationNumbers: null
-  BaseDuration: 7200.0
+  BaseDuration: 86400.0
   TickRate: 0.0
   DelayInitialTick: null
   TickCondition: ""
@@ -158285,7 +158285,7 @@
   PauseOnDisable: true
   PotencyPerLevel: ""
   HideHudDurationNumbers: null
-  BaseDuration: 7200.0
+  BaseDuration: 86400.0
   TickRate: 0.0
   DelayInitialTick: null
   TickCondition: ""
@@ -158556,7 +158556,7 @@
   PauseOnDisable: true
   PotencyPerLevel: ""
   HideHudDurationNumbers: null
-  BaseDuration: 7200.0
+  BaseDuration: 86400.0
   TickRate: 0.0
   DelayInitialTick: null
   TickCondition: ""
@@ -158827,7 +158827,7 @@
   PauseOnDisable: true
   PotencyPerLevel: ""
   HideHudDurationNumbers: null
-  BaseDuration: 7200.0
+  BaseDuration: 86400.0
   TickRate: 0.0
   DelayInitialTick: null
   TickCondition: ""
@@ -159098,7 +159098,7 @@
   PauseOnDisable: true
   PotencyPerLevel: ""
   HideHudDurationNumbers: null
-  BaseDuration: 7200.0
+  BaseDuration: 86400.0
   TickRate: 0.0
   DelayInitialTick: null
   TickCondition: ""

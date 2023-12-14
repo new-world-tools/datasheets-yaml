@@ -8430,7 +8430,7 @@
   RequiredEntitlements: ""
 - UniqueTagID: Ent_RewardGrant_DevStreamers_Event
   EntitlementIndex: 699.0
-  IsEnabled: true
+  IsEnabled: false
   DisplayName: ""
   Description: ""
   IsConsumable: null
@@ -8475,7 +8475,7 @@
   RequiredEntitlements: ""
 - UniqueTagID: Ent_RewardGrant_DevStreamers_Event_2
   EntitlementIndex: 702.0
-  IsEnabled: true
+  IsEnabled: false
   DisplayName: ""
   Description: ""
   IsConsumable: null
@@ -8490,7 +8490,7 @@
   RequiredEntitlements: ""
 - UniqueTagID: Ent_RewardGrant_DevStreamers_Event_3
   EntitlementIndex: 703.0
-  IsEnabled: true
+  IsEnabled: false
   DisplayName: ""
   Description: ""
   IsConsumable: null
@@ -9345,7 +9345,7 @@
   RequiredEntitlements: ""
 - UniqueTagID: Ent_ItemDrop_TwitchConEU
   EntitlementIndex: 760.0
-  IsEnabled: true
+  IsEnabled: false
   DisplayName: ""
   Description: ""
   IsConsumable: null
@@ -12090,7 +12090,7 @@
   RequiredEntitlements: ""
 - UniqueTagID: RewardCache_BFNW2_Twitch
   EntitlementIndex: 943.0
-  IsEnabled: true
+  IsEnabled: false
   DisplayName: ""
   Description: ""
   IsConsumable: null
@@ -12540,7 +12540,7 @@
   RequiredEntitlements: ""
 - UniqueTagID: RewardCache_Oct2022Prime_Container_2
   EntitlementIndex: 973.0
-  IsEnabled: true
+  IsEnabled: false
   DisplayName: ""
   Description: ""
   IsConsumable: null
@@ -12555,7 +12555,7 @@
   RequiredEntitlements: ""
 - UniqueTagID: RewardCache_BFriday_Prime
   EntitlementIndex: 974.0
-  IsEnabled: true
+  IsEnabled: false
   DisplayName: ""
   Description: ""
   IsConsumable: null
@@ -13965,7 +13965,7 @@
   RequiredEntitlements: ""
 - UniqueTagID: Ent_RewardCache_DecPrime
   EntitlementIndex: 1071.0
-  IsEnabled: true
+  IsEnabled: false
   DisplayName: ""
   Description: ""
   IsConsumable: null
@@ -14310,7 +14310,7 @@
   RequiredEntitlements: ""
 - UniqueTagID: RewardCache_CS_MGContainer
   EntitlementIndex: 1095.0
-  IsEnabled: true
+  IsEnabled: false
   DisplayName: ""
   Description: ""
   IsConsumable: null
@@ -14505,7 +14505,7 @@
   RequiredEntitlements: ""
 - UniqueTagID: RewardCache_WinterDragon_Prime
   EntitlementIndex: 1108.0
-  IsEnabled: true
+  IsEnabled: false
   DisplayName: ""
   Description: ""
   IsConsumable: null
@@ -15795,7 +15795,7 @@
   RequiredEntitlements: ""
 - UniqueTagID: RewardCache_OmensOfWinter_Prime
   EntitlementIndex: 1195.0
-  IsEnabled: true
+  IsEnabled: false
   DisplayName: ""
   Description: ""
   IsConsumable: null
@@ -16125,7 +16125,7 @@
   RequiredEntitlements: ""
 - UniqueTagID: RewardCache_Firelight_Prime
   EntitlementIndex: 1217.0
-  IsEnabled: true
+  IsEnabled: false
   DisplayName: ""
   Description: ""
   IsConsumable: null
@@ -16215,7 +16215,7 @@
   RequiredEntitlements: ""
 - UniqueTagID: MakeGood_JanuaryPrime_Cache
   EntitlementIndex: 1223.0
-  IsEnabled: true
+  IsEnabled: false
   DisplayName: ""
   Description: ""
   IsConsumable: null
@@ -17820,7 +17820,7 @@
   RequiredEntitlements: ""
 - UniqueTagID: RewardCache_Apr2023_Container
   EntitlementIndex: 1331.0
-  IsEnabled: true
+  IsEnabled: false
   DisplayName: ""
   Description: ""
   IsConsumable: null
@@ -19065,7 +19065,7 @@
   RequiredEntitlements: ""
 - UniqueTagID: RewardCache_Jun2023_Prime
   EntitlementIndex: 1416.0
-  IsEnabled: true
+  IsEnabled: false
   DisplayName: ""
   Description: ""
   IsConsumable: true
@@ -19095,7 +19095,7 @@
   RequiredEntitlements: ""
 - UniqueTagID: RewardCache_May2023_Prime
   EntitlementIndex: 1418.0
-  IsEnabled: true
+  IsEnabled: false
   DisplayName: ""
   Description: ""
   IsConsumable: null
@@ -19963,6 +19963,21 @@
   Notes: ""
   ObjectiveId: ""
   RequiredEntitlements: ""
+- UniqueTagID: EntitlementSkin_DSGothOctopus
+  EntitlementIndex: 1476.0
+  IsEnabled: true
+  DisplayName: ""
+  Description: ""
+  IsConsumable: null
+  Icon: ""
+  RewardType: ItemSkin
+  Reward(s): Skin_Chest_Jul2023_DSGothOctopus+Skin_Head_Jul2023_DSGothOctopus+Skin_Legs_Jul2023_DSGothOctopus+Skin_Feet_Jul2023_DSGothOctopus+Skin_Hands_Jul2023_DSGothOctopus
+  EntitlementInfo: ""
+  SourceType: Store
+  AchievementId: ""
+  Notes: ""
+  ObjectiveId: ""
+  RequiredEntitlements: ""
 - UniqueTagID: EntitlementSkin_DeepSeaGothic_Musket
   EntitlementIndex: 1477.0
   IsEnabled: true
@@ -20625,7 +20640,7 @@
   RequiredEntitlements: ""
 - UniqueTagID: RewardCache_PrimeDay2023_Prime
   EntitlementIndex: 1521.0
-  IsEnabled: true
+  IsEnabled: false
   DisplayName: ""
   Description: ""
   IsConsumable: true
@@ -23183,7 +23198,7 @@
   RewardType: ItemSkin
   Reward(s): Skin_Chest_FirstLightElvenTwitch
   EntitlementInfo: ""
-  SourceType: Twitch
+  SourceType: Store
   AchievementId: ""
   Notes: ""
   ObjectiveId: ""
@@ -23198,7 +23213,7 @@
   RewardType: ItemSkin
   Reward(s): Skin_Head_FirstLightElvenTwitch
   EntitlementInfo: ""
-  SourceType: Twitch
+  SourceType: Store
   AchievementId: ""
   Notes: ""
   ObjectiveId: ""
@@ -23213,7 +23228,7 @@
   RewardType: ItemSkin
   Reward(s): Skin_Legs_FirstLightElvenTwitch
   EntitlementInfo: ""
-  SourceType: Twitch
+  SourceType: Store
   AchievementId: ""
   Notes: ""
   ObjectiveId: ""
@@ -23228,7 +23243,7 @@
   RewardType: ItemSkin
   Reward(s): Skin_Feet_FirstLightElvenTwitch
   EntitlementInfo: ""
-  SourceType: Twitch
+  SourceType: Store
   AchievementId: ""
   Notes: ""
   ObjectiveId: ""
@@ -23243,7 +23258,7 @@
   RewardType: ItemSkin
   Reward(s): Skin_Hands_FirstLightElvenTwitch
   EntitlementInfo: ""
-  SourceType: Twitch
+  SourceType: Store
   AchievementId: ""
   Notes: ""
   ObjectiveId: ""
@@ -26011,13 +26026,13 @@
 - UniqueTagID: Ent_PremiumEmote_SnowballThrow
   EntitlementIndex: 1897.0
   IsEnabled: true
-  DisplayName: "@Token_PremiumEmote_SnowballThrow_name"
-  Description: "@Token_PremiumEmote_SnowballThrow_description"
-  IsConsumable: true
-  Icon: lyshineui/images/icons/items_hires/ConsumableToken_Proficiency.png
-  RewardType: StatusEffect
-  Reward(s): PremiumEmote_SnowballThrow
-  EntitlementInfo: "@Token_PremiumEmote_SnowballThrow_name"
+  DisplayName: ""
+  Description: ""
+  IsConsumable: null
+  Icon: ""
+  RewardType: Emote
+  Reward(s): Emote_SnowballThrow
+  EntitlementInfo: ""
   SourceType: Store
   AchievementId: ""
   Notes: ""
@@ -26301,7 +26316,7 @@
   IsConsumable: null
   Icon: ""
   RewardType: ItemSkin
-  Reward(s): Skin_MTX_Ronin_RedMempo_Head
+  Reward(s): Skin_MTX_Ronin_RedMempo_Chest
   EntitlementInfo: ""
   SourceType: Twitch
   AchievementId: ""
@@ -26316,7 +26331,7 @@
   IsConsumable: null
   Icon: ""
   RewardType: ItemSkin
-  Reward(s): Skin_MTX_Ronin_RedMempo_Chest
+  Reward(s): Skin_MTX_Ronin_RedMempo_Head
   EntitlementInfo: ""
   SourceType: Twitch
   AchievementId: ""
@@ -26331,7 +26346,7 @@
   IsConsumable: null
   Icon: ""
   RewardType: ItemSkin
-  Reward(s): Skin_MTX_Ronin_RedMempo_Hands
+  Reward(s): Skin_MTX_Ronin_RedMempo_Legs
   EntitlementInfo: ""
   SourceType: Twitch
   AchievementId: ""
@@ -26346,7 +26361,7 @@
   IsConsumable: null
   Icon: ""
   RewardType: ItemSkin
-  Reward(s): Skin_MTX_Ronin_RedMempo_Legs
+  Reward(s): Skin_MTX_Ronin_RedMempo_Feet
   EntitlementInfo: ""
   SourceType: Twitch
   AchievementId: ""
@@ -26361,7 +26376,7 @@
   IsConsumable: null
   Icon: ""
   RewardType: ItemSkin
-  Reward(s): Skin_MTX_Ronin_RedMempo_Feet
+  Reward(s): Skin_MTX_Ronin_RedMempo_Hands
   EntitlementInfo: ""
   SourceType: Twitch
   AchievementId: ""
@@ -26698,7 +26713,7 @@
   Notes: ""
   ObjectiveId: ""
   RequiredEntitlements: ""
-- UniqueTagID: EntitlementSkin_Chest_ShadowHunterBasic
+- UniqueTagID: EntitlementSkin_Chest_ShadowHunter
   EntitlementIndex: 1943.0
   IsEnabled: true
   DisplayName: ""
@@ -26706,14 +26721,14 @@
   IsConsumable: null
   Icon: ""
   RewardType: ItemSkin
-  Reward(s): Skin_Chest_ShadowHunterBasic
+  Reward(s): Skin_Chest_ShadowHunter
   EntitlementInfo: ""
   SourceType: SeasonPass
   AchievementId: ""
   Notes: ""
   ObjectiveId: ""
   RequiredEntitlements: ""
-- UniqueTagID: EntitlementSkin_Head_ShadowHunterBasic
+- UniqueTagID: EntitlementSkin_Head_ShadowHunter
   EntitlementIndex: 1944.0
   IsEnabled: true
   DisplayName: ""
@@ -26721,14 +26736,14 @@
   IsConsumable: null
   Icon: ""
   RewardType: ItemSkin
-  Reward(s): Skin_Head_ShadowHunterBasic
+  Reward(s): Skin_Head_ShadowHunter
   EntitlementInfo: ""
   SourceType: SeasonPass
   AchievementId: ""
   Notes: ""
   ObjectiveId: ""
   RequiredEntitlements: ""
-- UniqueTagID: EntitlementSkin_Legs_ShadowHunterBasic
+- UniqueTagID: EntitlementSkin_Legs_ShadowHunter
   EntitlementIndex: 1945.0
   IsEnabled: true
   DisplayName: ""
@@ -26736,14 +26751,14 @@
   IsConsumable: null
   Icon: ""
   RewardType: ItemSkin
-  Reward(s): Skin_Legs_ShadowHunterBasic
+  Reward(s): Skin_Legs_ShadowHunter
   EntitlementInfo: ""
   SourceType: SeasonPass
   AchievementId: ""
   Notes: ""
   ObjectiveId: ""
   RequiredEntitlements: ""
-- UniqueTagID: EntitlementSkin_Feet_ShadowHunterBasic
+- UniqueTagID: EntitlementSkin_Feet_ShadowHunter
   EntitlementIndex: 1946.0
   IsEnabled: true
   DisplayName: ""
@@ -26751,14 +26766,14 @@
   IsConsumable: null
   Icon: ""
   RewardType: ItemSkin
-  Reward(s): Skin_Feet_ShadowHunterBasic
+  Reward(s): Skin_Feet_ShadowHunter
   EntitlementInfo: ""
   SourceType: SeasonPass
   AchievementId: ""
   Notes: ""
   ObjectiveId: ""
   RequiredEntitlements: ""
-- UniqueTagID: EntitlementSkin_Hands_ShadowHunterBasic
+- UniqueTagID: EntitlementSkin_Hands_ShadowHunter
   EntitlementIndex: 1947.0
   IsEnabled: true
   DisplayName: ""
@@ -26766,7 +26781,7 @@
   IsConsumable: null
   Icon: ""
   RewardType: ItemSkin
-  Reward(s): Skin_Hands_ShadowHunterBasic
+  Reward(s): Skin_Hands_ShadowHunter
   EntitlementInfo: ""
   SourceType: SeasonPass
   AchievementId: ""
@@ -28918,3 +28933,48 @@
   Notes: ""
   ObjectiveId: ""
   RequiredEntitlements: ""
+- UniqueTagID: Ent_MountAttachmentItem_Skin_Ronin_Quiver
+  EntitlementIndex: 2091.0
+  IsEnabled: true
+  DisplayName: ""
+  Description: ""
+  IsConsumable: null
+  Icon: ""
+  RewardType: MountAttachment
+  Reward(s): MountAttachmentItem_Skin_Ronin_Quiver
+  EntitlementInfo: ""
+  SourceType: Store
+  AchievementId: ""
+  Notes: ""
+  ObjectiveId: ""
+  RequiredEntitlements: Ent_Xpack_RiseOfTheAngryEarth_Owner
+- UniqueTagID: Ent_MountAttachmentItem_Skin_Ronin_Fan
+  EntitlementIndex: 2092.0
+  IsEnabled: true
+  DisplayName: ""
+  Description: ""
+  IsConsumable: null
+  Icon: ""
+  RewardType: MountAttachment
+  Reward(s): MountAttachmentItem_Skin_Ronin_Fan
+  EntitlementInfo: ""
+  SourceType: Store
+  AchievementId: ""
+  Notes: ""
+  ObjectiveId: ""
+  RequiredEntitlements: Ent_Xpack_RiseOfTheAngryEarth_Owner
+- UniqueTagID: Ent_MountAttachmentItem_Skin_Ronin_Mask
+  EntitlementIndex: 2093.0
+  IsEnabled: true
+  DisplayName: ""
+  Description: ""
+  IsConsumable: null
+  Icon: ""
+  RewardType: MountAttachment
+  Reward(s): MountAttachmentItem_Skin_Ronin_Mask
+  EntitlementInfo: ""
+  SourceType: Store
+  AchievementId: ""
+  Notes: ""
+  ObjectiveId: ""
+  RequiredEntitlements: Ent_Xpack_RiseOfTheAngryEarth_Owner

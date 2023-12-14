@@ -14976,7 +14976,7 @@
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: null
   TP_TargetTag: ""
-  TP_DescriptionTag: "@objective_mission_kill_generic_at_POI"
+  TP_DescriptionTag: "@Objective_Kill_in_FL"
   OverrideLocation: ""
   IsHidden: null
   CompletedNotificationId: ""
@@ -15735,7 +15735,7 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 20.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
@@ -15792,7 +15792,7 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 3.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
@@ -15849,7 +15849,7 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 5.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
@@ -15868,7 +15868,7 @@
   InteractTag: ""
   UIScreenTag: ""
   TriggerAreaType: ""
-  KillEnemyType: wolf_elemental_ice
+  KillEnemyType: IceWolf
   KillEnemyWeaponID: ""
   Duration: null
   TaskBuySellType: ""
@@ -15888,7 +15888,7 @@
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: null
   TP_TargetTag: ""
-  TP_DescriptionTag: "@Objective_Kill_in_FL"
+  TP_DescriptionTag: "@objective_mission_task_kill_X_enemies"
   OverrideLocation: ""
   IsHidden: null
   CompletedNotificationId: ""
@@ -17103,7 +17103,7 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 1.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
@@ -17122,7 +17122,7 @@
   InteractTag: ""
   UIScreenTag: ""
   TriggerAreaType: ""
-  KillEnemyType: fl_gorilla_ice_elite_09fl12
+  KillEnemyType: FL_Gorilla_Ice_Elite_Named_09FL12
   KillEnemyWeaponID: ""
   Duration: null
   TaskBuySellType: ""
@@ -17142,7 +17142,7 @@
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: null
   TP_TargetTag: ""
-  TP_DescriptionTag: "@Objective_Kill_in_FL"
+  TP_DescriptionTag: "@objective_mission_task_kill_X_enemies"
   OverrideLocation: ""
   IsHidden: null
   CompletedNotificationId: ""
@@ -17160,7 +17160,7 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 20.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
@@ -17199,7 +17199,7 @@
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: null
   TP_TargetTag: ""
-  TP_DescriptionTag: "@Objective_Kill_in_FL"
+  TP_DescriptionTag: "@Objective_Kill_GlacialTarn"
   OverrideLocation: ""
   IsHidden: null
   CompletedNotificationId: ""
@@ -17217,7 +17217,7 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 1.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
@@ -17256,7 +17256,7 @@
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: null
   TP_TargetTag: ""
-  TP_DescriptionTag: "@Objective_Kill_in_FL"
+  TP_DescriptionTag: "@Objective_Kill_GlacialTarn"
   OverrideLocation: ""
   IsHidden: null
   CompletedNotificationId: ""
@@ -17559,13 +17559,13 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 5.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
-  EnforceLocationRequirement: true
-  TerritoryID: 9.0
+  EnforceLocationRequirement: null
+  TerritoryID: null
   POITag: ""
   GameModeID: ""
   ShouldCheckPoints: null
@@ -17578,7 +17578,7 @@
   InteractTag: ""
   UIScreenTag: ""
   TriggerAreaType: ""
-  KillEnemyType: wolf_elemental_ice
+  KillEnemyType: IceWolf
   KillEnemyWeaponID: ""
   Duration: null
   TaskBuySellType: ""
@@ -17598,7 +17598,7 @@
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: null
   TP_TargetTag: ""
-  TP_DescriptionTag: "@Objective_Kill_in_FL"
+  TP_DescriptionTag: "@objective_mission_task_kill_X_enemies"
   OverrideLocation: ""
   IsHidden: null
   CompletedNotificationId: ""
@@ -17616,15 +17616,15 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 3.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
-  EnforceLocationRequirement: null
-  TerritoryID: null
+  EnforceLocationRequirement: true
+  TerritoryID: 9.0
   POITag: ""
-  GameModeID: DungeonGreatCleave00
+  GameModeID: ""
   ShouldCheckPoints: null
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
@@ -17673,7 +17673,7 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 20.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
@@ -17712,7 +17712,7 @@
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: null
   TP_TargetTag: ""
-  TP_DescriptionTag: "@Objective_Kill_in_FL"
+  TP_DescriptionTag: "@Objective_Kill_GlacialTarn"
   OverrideLocation: ""
   IsHidden: null
   CompletedNotificationId: ""
@@ -20295,13 +20295,13 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 5.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
-  EnforceLocationRequirement: true
-  TerritoryID: 9.0
+  EnforceLocationRequirement: null
+  TerritoryID: null
   POITag: ""
   GameModeID: ""
   ShouldCheckPoints: null
@@ -20314,7 +20314,7 @@
   InteractTag: ""
   UIScreenTag: ""
   TriggerAreaType: ""
-  KillEnemyType: Beast
+  KillEnemyType: IceWolf
   KillEnemyWeaponID: ""
   Duration: null
   TaskBuySellType: ""
@@ -20334,7 +20334,7 @@
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: null
   TP_TargetTag: ""
-  TP_DescriptionTag: "@Objective_Kill_in_FL"
+  TP_DescriptionTag: "@objective_mission_task_kill_X_enemies"
   OverrideLocation: ""
   IsHidden: null
   CompletedNotificationId: ""
@@ -20352,7 +20352,7 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 3.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
@@ -20371,7 +20371,7 @@
   InteractTag: ""
   UIScreenTag: ""
   TriggerAreaType: ""
-  KillEnemyType: Ancient
+  KillEnemyType: fl_mammoth_ice_elite_09fl01
   KillEnemyWeaponID: ""
   Duration: null
   TaskBuySellType: ""
@@ -20409,15 +20409,15 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 20.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
-  EnforceLocationRequirement: true
-  TerritoryID: 9.0
+  EnforceLocationRequirement: null
+  TerritoryID: null
   POITag: ""
-  GameModeID: ""
+  GameModeID: DungeonGreatCleave00
   ShouldCheckPoints: null
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
@@ -20428,7 +20428,7 @@
   InteractTag: ""
   UIScreenTag: ""
   TriggerAreaType: ""
-  KillEnemyType: AngryEarth
+  KillEnemyType: Ancient
   KillEnemyWeaponID: ""
   Duration: null
   TaskBuySellType: ""
@@ -20448,7 +20448,7 @@
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: null
   TP_TargetTag: ""
-  TP_DescriptionTag: "@Objective_Kill_in_FL"
+  TP_DescriptionTag: "@Objective_Kill_GlacialTarn"
   OverrideLocation: ""
   IsHidden: null
   CompletedNotificationId: ""
@@ -21207,7 +21207,7 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 1.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
@@ -21226,7 +21226,7 @@
   InteractTag: ""
   UIScreenTag: ""
   TriggerAreaType: ""
-  KillEnemyType: Beast
+  KillEnemyType: FL_Gorilla_Ice_Elite_Named_09FL12
   KillEnemyWeaponID: ""
   Duration: null
   TaskBuySellType: ""
@@ -21264,15 +21264,72 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 20.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
-  EnforceLocationRequirement: true
-  TerritoryID: 9.0
+  EnforceLocationRequirement: null
+  TerritoryID: null
   POITag: ""
-  GameModeID: ""
+  GameModeID: DungeonGreatCleave00
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: Varangian
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Kill_GlacialTarn"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk3_Artifact_Set1_1hRoundShield
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 20.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: DungeonGreatCleave00
   ShouldCheckPoints: null
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
@@ -21303,64 +21360,7 @@
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: null
   TP_TargetTag: ""
-  TP_DescriptionTag: "@Objective_Kill_in_FL"
-  OverrideLocation: ""
-  IsHidden: null
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: true
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: Task_Perk3_Artifact_Set1_1hRoundShield
-  Type: TaskKillContribution
-  FailOnCondition: null
-  ResetOnCondition: null
-  StayActive: null
-  TargetQty: 30.0
-  ItemName: ""
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: null
-  EnforceLocationRequirement: true
-  TerritoryID: 9.0
-  POITag: ""
-  GameModeID: ""
-  ShouldCheckPoints: null
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: null
-  GuranteedDropAttempts: ""
-  TargetThreshold: ""
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: AngryEarth
-  KillEnemyWeaponID: ""
-  Duration: null
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: ""
-  UseLargeItemDisplay: null
-  TP_TargetTag: ""
-  TP_DescriptionTag: "@Objective_Kill_in_FL"
+  TP_DescriptionTag: "@Objective_Kill_GlacialTarn"
   OverrideLocation: ""
   IsHidden: null
   CompletedNotificationId: ""
@@ -23031,16 +23031,16 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 20.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
-  EnforceLocationRequirement: true
-  TerritoryID: 9.0
+  EnforceLocationRequirement: null
+  TerritoryID: null
   POITag: ""
-  GameModeID: ""
-  ShouldCheckPoints: null
+  GameModeID: OutpostRush
+  ShouldCheckPoints: true
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   GuranteedDropAttempts: ""
@@ -23050,7 +23050,7 @@
   InteractTag: ""
   UIScreenTag: ""
   TriggerAreaType: ""
-  KillEnemyType: Beast
+  KillEnemyType: Player
   KillEnemyWeaponID: ""
   Duration: null
   TaskBuySellType: ""
@@ -23070,7 +23070,7 @@
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: null
   TP_TargetTag: ""
-  TP_DescriptionTag: "@Objective_Kill_in_FL"
+  TP_DescriptionTag: "@Objective_Kill_OPR"
   OverrideLocation: ""
   IsHidden: null
   CompletedNotificationId: ""
@@ -23088,16 +23088,16 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 20.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
-  EnforceLocationRequirement: true
-  TerritoryID: 9.0
+  EnforceLocationRequirement: null
+  TerritoryID: null
   POITag: ""
-  GameModeID: ""
-  ShouldCheckPoints: null
+  GameModeID: Arena3v3
+  ShouldCheckPoints: true
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   GuranteedDropAttempts: ""
@@ -23107,7 +23107,7 @@
   InteractTag: ""
   UIScreenTag: ""
   TriggerAreaType: ""
-  KillEnemyType: Ancient
+  KillEnemyType: Player
   KillEnemyWeaponID: ""
   Duration: null
   TaskBuySellType: ""
@@ -23127,7 +23127,7 @@
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: null
   TP_TargetTag: ""
-  TP_DescriptionTag: "@Objective_Kill_in_FL"
+  TP_DescriptionTag: "@Objective_Kill_Arena"
   OverrideLocation: ""
   IsHidden: null
   CompletedNotificationId: ""
@@ -23145,16 +23145,16 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 35.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
-  EnforceLocationRequirement: true
-  TerritoryID: 9.0
+  EnforceLocationRequirement: null
+  TerritoryID: null
   POITag: ""
   GameModeID: ""
-  ShouldCheckPoints: null
+  ShouldCheckPoints: true
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   GuranteedDropAttempts: ""
@@ -23164,7 +23164,7 @@
   InteractTag: ""
   UIScreenTag: ""
   TriggerAreaType: ""
-  KillEnemyType: AngryEarth
+  KillEnemyType: Player
   KillEnemyWeaponID: ""
   Duration: null
   TaskBuySellType: ""
@@ -23184,7 +23184,7 @@
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: null
   TP_TargetTag: ""
-  TP_DescriptionTag: "@Objective_Kill_in_FL"
+  TP_DescriptionTag: "@Objective_Kill_OpenWorld"
   OverrideLocation: ""
   IsHidden: null
   CompletedNotificationId: ""
@@ -24399,7 +24399,7 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 1.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
@@ -24418,7 +24418,7 @@
   InteractTag: ""
   UIScreenTag: ""
   TriggerAreaType: ""
-  KillEnemyType: Beast
+  KillEnemyType: FL_Gorilla_Ice_Elite_Named_09FL12
   KillEnemyWeaponID: ""
   Duration: null
   TaskBuySellType: ""
@@ -24456,15 +24456,15 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 20.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
-  EnforceLocationRequirement: true
-  TerritoryID: 9.0
+  EnforceLocationRequirement: null
+  TerritoryID: null
   POITag: ""
-  GameModeID: ""
+  GameModeID: DungeonGreatCleave00
   ShouldCheckPoints: null
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
@@ -24495,7 +24495,7 @@
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: null
   TP_TargetTag: ""
-  TP_DescriptionTag: "@Objective_Kill_in_FL"
+  TP_DescriptionTag: "@Objective_Kill_GlacialTarn"
   OverrideLocation: ""
   IsHidden: null
   CompletedNotificationId: ""
@@ -24513,15 +24513,15 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 20.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
-  EnforceLocationRequirement: true
-  TerritoryID: 9.0
+  EnforceLocationRequirement: null
+  TerritoryID: null
   POITag: ""
-  GameModeID: ""
+  GameModeID: DungeonGreatCleave00
   ShouldCheckPoints: null
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
@@ -24532,7 +24532,7 @@
   InteractTag: ""
   UIScreenTag: ""
   TriggerAreaType: ""
-  KillEnemyType: AngryEarth
+  KillEnemyType: Varangian
   KillEnemyWeaponID: ""
   Duration: null
   TaskBuySellType: ""
@@ -24552,7 +24552,7 @@
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: null
   TP_TargetTag: ""
-  TP_DescriptionTag: "@Objective_Kill_in_FL"
+  TP_DescriptionTag: "@Objective_Kill_GlacialTarn"
   OverrideLocation: ""
   IsHidden: null
   CompletedNotificationId: ""

@@ -2022,6 +2022,17 @@
   LootDropChanceOverride: null
   MtlOverride: ""
   FemaleMtlOverride: ""
+- VitalsCategoryID: IceVariant
+  DisplayName: "@VC_IceVariant"
+  Icon: ""
+  LocationHint: ""
+  LocStringGenerationHelper: <string key="VC_IceVariant">IceVariant</string>
+  GroupVitalsCategoryId: ""
+  IsNamed: null
+  IsDynamicPoiTarget: null
+  LootDropChanceOverride: null
+  MtlOverride: ""
+  FemaleMtlOverride: ""
 - VitalsCategoryID: AncientGuardian_Bowman_IceVariant_GreatCleave_00
   DisplayName: "@VC_AncientGuardian_Bowman_IceVariant_GreatCleave_00"
   Icon: ""
@@ -14154,28 +14165,6 @@
   IsDynamicPoiTarget: true
   LootDropChanceOverride: null
   MtlOverride: ""
-  FemaleMtlOverride: ""
-- VitalsCategoryID: CorruptedLegion_Cyclops_LOC_BOSS_00
-  DisplayName: "@VC_CorruptedLegion_Cyclops_LOC_BOSS_00"
-  Icon: ""
-  LocationHint: ""
-  LocStringGenerationHelper: <string key="VC_CorruptedLegion_Cyclops_LOC_BOSS_00">CorruptedLegion_Cyclops_LOC_BOSS_00</string>
-  GroupVitalsCategoryId: Generic
-  IsNamed: true
-  IsDynamicPoiTarget: true
-  LootDropChanceOverride: null
-  MtlOverride: "Objects\\Characters\\npc\\supernatural\\cyclops\\cyclops_main_var01_matgroup.mtl"
-  FemaleMtlOverride: ""
-- VitalsCategoryID: CorruptedLegion_Cyclops_LOC_BOSS_01
-  DisplayName: "@VC_CorruptedLegion_Cyclops_LOC_BOSS_01"
-  Icon: ""
-  LocationHint: ""
-  LocStringGenerationHelper: <string key="VC_CorruptedLegion_Cyclops_LOC_BOSS_01">CorruptedLegion_Cyclops_LOC_BOSS_01</string>
-  GroupVitalsCategoryId: Generic
-  IsNamed: true
-  IsDynamicPoiTarget: true
-  LootDropChanceOverride: null
-  MtlOverride: "Objects\\Characters\\npc\\supernatural\\cyclops\\cyclops_main_var02_matgroup.mtl"
   FemaleMtlOverride: ""
 - VitalsCategoryID: CorruptedLegion_Cyclops_Named_00
   DisplayName: "@VC_CorruptedLegion_Cyclops_Named_00"
@@ -47771,33 +47760,11 @@
   LootDropChanceOverride: null
   MtlOverride: ""
   FemaleMtlOverride: ""
-- VitalsCategoryID: Legion_Legionnaire_Ethereal_LOC_BOSS
-  DisplayName: "@VC_Legion_Legionnaire_Ethereal_LOC_BOSS"
-  Icon: ""
-  LocationHint: ""
-  LocStringGenerationHelper: <string key="VC_Legion_Legionnaire_Ethereal_LOC_BOSS">Legion_Legionnaire_Ethereal_LOC_BOSS</string>
-  GroupVitalsCategoryId: Generic
-  IsNamed: null
-  IsDynamicPoiTarget: null
-  LootDropChanceOverride: null
-  MtlOverride: ""
-  FemaleMtlOverride: ""
 - VitalsCategoryID: Legion_Legionnaire_Ethereal_Named_05_ELITE
   DisplayName: "@VC_Legion_Legionnaire_Ethereal_Named_05_ELITE"
   Icon: ""
   LocationHint: ""
   LocStringGenerationHelper: <string key="VC_Legion_Legionnaire_Ethereal_Named_05_ELITE">Legion_Legionnaire_Ethereal_Named_05_ELITE</string>
-  GroupVitalsCategoryId: Generic
-  IsNamed: null
-  IsDynamicPoiTarget: null
-  LootDropChanceOverride: null
-  MtlOverride: ""
-  FemaleMtlOverride: ""
-- VitalsCategoryID: Legion_Legionnaire_LOC_BOSS
-  DisplayName: "@VC_Legion_Legionnaire_LOC_BOSS"
-  Icon: ""
-  LocationHint: ""
-  LocStringGenerationHelper: <string key="VC_Legion_Legionnaire_LOC_BOSS">Legion_Legionnaire_LOC_BOSS</string>
   GroupVitalsCategoryId: Generic
   IsNamed: null
   IsDynamicPoiTarget: null
@@ -47897,17 +47864,6 @@
   Icon: ""
   LocationHint: ""
   LocStringGenerationHelper: <string key="VC_Legion_Legionnaire_NoShield_DG_BrimstoneSands_00">Legion_Legionnaire_NoShield_DG_BrimstoneSands_00</string>
-  GroupVitalsCategoryId: Generic
-  IsNamed: null
-  IsDynamicPoiTarget: null
-  LootDropChanceOverride: null
-  MtlOverride: ""
-  FemaleMtlOverride: ""
-- VitalsCategoryID: Legion_Legionnaire_NoShield_LOC_BOSS
-  DisplayName: "@VC_Legion_Legionnaire_NoShield_LOC_BOSS"
-  Icon: ""
-  LocationHint: ""
-  LocStringGenerationHelper: <string key="VC_Legion_Legionnaire_NoShield_LOC_BOSS">Legion_Legionnaire_NoShield_LOC_BOSS</string>
   GroupVitalsCategoryId: Generic
   IsNamed: null
   IsDynamicPoiTarget: null
@@ -48282,17 +48238,6 @@
   Icon: ""
   LocationHint: ""
   LocStringGenerationHelper: <string key="VC_Legion_Sagittarii_DG_BrimstoneSands_00">Legion_Sagittarii_DG_BrimstoneSands_00</string>
-  GroupVitalsCategoryId: Generic
-  IsNamed: null
-  IsDynamicPoiTarget: null
-  LootDropChanceOverride: null
-  MtlOverride: ""
-  FemaleMtlOverride: ""
-- VitalsCategoryID: Legion_Sagittarii_LOC_BOSS
-  DisplayName: "@VC_Legion_Sagittarii_LOC_BOSS"
-  Icon: ""
-  LocationHint: ""
-  LocStringGenerationHelper: <string key="VC_Legion_Sagittarii_LOC_BOSS">Legion_Sagittarii_LOC_BOSS</string>
   GroupVitalsCategoryId: Generic
   IsNamed: null
   IsDynamicPoiTarget: null
@@ -48678,17 +48623,6 @@
   Icon: ""
   LocationHint: ""
   LocStringGenerationHelper: <string key="VC_Legion_Signifer_DG_BrimstoneSands_Named_00">Legion_Signifer_DG_BrimstoneSands_Named_00</string>
-  GroupVitalsCategoryId: Generic
-  IsNamed: true
-  IsDynamicPoiTarget: true
-  LootDropChanceOverride: null
-  MtlOverride: ""
-  FemaleMtlOverride: ""
-- VitalsCategoryID: Legion_Signifer_LOC_BOSS
-  DisplayName: "@VC_Legion_Signifer_LOC_BOSS"
-  Icon: ""
-  LocationHint: ""
-  LocStringGenerationHelper: <string key="VC_Legion_Signifer_LOC_BOSS">Legion_Signifer_LOC_BOSS</string>
   GroupVitalsCategoryId: Generic
   IsNamed: true
   IsDynamicPoiTarget: true
@@ -66724,17 +66658,6 @@
   LootDropChanceOverride: null
   MtlOverride: ""
   FemaleMtlOverride: ""
-- VitalsCategoryID: Totem_LOC_BOSS
-  DisplayName: "@VC_Totem_LOC_BOSS"
-  Icon: ""
-  LocationHint: ""
-  LocStringGenerationHelper: <string key="VC_Totem_LOC_BOSS">Totem_LOC_BOSS</string>
-  GroupVitalsCategoryId: Generic
-  IsNamed: null
-  IsDynamicPoiTarget: null
-  LootDropChanceOverride: null
-  MtlOverride: ""
-  FemaleMtlOverride: ""
 - VitalsCategoryID: Totem_Pirate_Cursed
   DisplayName: "@VC_Totem_Pirate_Cursed"
   Icon: ""
@@ -80303,6 +80226,17 @@
   Icon: ""
   LocationHint: ""
   LocStringGenerationHelper: <string key="VC_Wolf_Elemental_Ice_25">Wolf_Elemental_Ice_25</string>
+  GroupVitalsCategoryId: ""
+  IsNamed: null
+  IsDynamicPoiTarget: null
+  LootDropChanceOverride: null
+  MtlOverride: ""
+  FemaleMtlOverride: ""
+- VitalsCategoryID: IceWolf
+  DisplayName: "@VC_Wolf_Elemental_Ice_S4"
+  Icon: ""
+  LocationHint: ""
+  LocStringGenerationHelper: <string key="VC_IceWolf">IceWolf</string>
   GroupVitalsCategoryId: ""
   IsNamed: null
   IsDynamicPoiTarget: null
