@@ -10,7 +10,7 @@
   NpcDestinationId: 9801_Florina_01
   ExclusiveTerritory: null
   AchievementId: FactionIntro_Covenant_01
-  RequiredAchievementId: "!(covenant_faction_quest_01 || FactionIntro_Covenant_Recruitment)"
+  RequiredAchievementId: "!FactionIntro_Covenant_Recruitment"
   RequiredFaction: ""
   RequiredLevel: 17.0
   SuccessGameEventId: FactionIntro_Covenant_01_Success
@@ -256,7 +256,7 @@
   NpcDestinationId: 9805_Tibbs_02
   ExclusiveTerritory: null
   AchievementId: FactionIntro_Marauders_01
-  RequiredAchievementId: "!(marauders_faction_quest_01 || FactionIntro_Marauders_Recruitment)"
+  RequiredAchievementId: "!FactionIntro_Marauders_Recruitment"
   RequiredFaction: ""
   RequiredLevel: 17.0
   SuccessGameEventId: FactionIntro_Marauders_01_Success
@@ -461,7 +461,7 @@
   NpcDestinationId: 9807_Aventus_01
   ExclusiveTerritory: null
   AchievementId: FactionIntro_Syndicate_01
-  RequiredAchievementId: "!(syndicate_faction_quest_01 || FactionIntro_Syndicate_Recruitment)"
+  RequiredAchievementId: "!FactionIntro_Marauders_Recruitment"
   RequiredFaction: ""
   RequiredLevel: 17.0
   SuccessGameEventId: FactionIntro_Syndicate_01_Success

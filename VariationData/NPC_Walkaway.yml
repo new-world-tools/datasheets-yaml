@@ -1259,7 +1259,7 @@
   InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway.timeline"
-  AE.0_RequiredAchievementConditional: 06A_P_03 || !SwapActive_06_YelenaPajitnova_B
+  AE.0_RequiredAchievementConditional: 06A_P_03 && !SwapActive_06_YelenaPajitnova_B
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
   AE.9_EventDelayDuration: 0.05
@@ -1267,8 +1267,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 12.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: "!06A_P_03 && SwapActive_06_YelenaPajitnova_B"
-  SwapAchievementId: "!06A_P_03 && SwapActive_06_YelenaPajitnova_B"
+  AE.3_RequiredAchievementConditional: "!(06A_P_03 && !SwapActive_06_YelenaPajitnova_B)"
+  SwapAchievementId: "!(06A_P_03 && !SwapActive_06_YelenaPajitnova_B)"
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.05
@@ -1299,7 +1299,7 @@
   InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
-  AE.0_RequiredAchievementConditional: 06A_IR_02 || !SwapActive_06_Roya_B
+  AE.0_RequiredAchievementConditional: (06A_IR_02 && SwapActive_06_Roya_B)
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
   AE.9_EventDelayDuration: 0.05
@@ -1307,8 +1307,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 10.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: "!06A_IR_02 && SwapActive_06_Roya_B"
-  SwapAchievementId: "!06A_IR_02 && SwapActive_06_Roya_B"
+  AE.3_RequiredAchievementConditional: "!(06A_IR_02 && SwapActive_06_Roya_B)"
+  SwapAchievementId: "!(06A_IR_02 && SwapActive_06_Roya_B)"
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.05
@@ -2419,7 +2419,7 @@
   InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_nt_walkaway.timeline"
-  AE.0_RequiredAchievementConditional: "!Expansion_2023_Unlock || SwapActive_09A_Morgaine_EG_Off"
+  AE.0_RequiredAchievementConditional: "!(Expansion_2023_Unlock && !SwapActive_09A_Morgaine_EG_Off)"
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
   AE.9_EventDelayDuration: 0.05
@@ -2427,8 +2427,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 5.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: Expansion_2023_Unlock && !SwapActive_09A_Morgaine_EG_Off
-  SwapAchievementId: Expansion_2023_Unlock && !SwapActive_09A_Morgaine_EG_Off
+  AE.3_RequiredAchievementConditional: (Expansion_2023_Unlock && !SwapActive_09A_Morgaine_EG_Off)
+  SwapAchievementId: (Expansion_2023_Unlock && !SwapActive_09A_Morgaine_EG_Off)
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.0
@@ -2459,7 +2459,7 @@
   InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
-  AE.0_RequiredAchievementConditional: "!Expansion_2023_Unlock || SwapActive_09A_Morgaine_SM_Off"
+  AE.0_RequiredAchievementConditional: "!(Expansion_2023_Unlock && !SwapActive_09A_Morgaine_SM_Off)"
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
   AE.9_EventDelayDuration: 0.05
@@ -2467,8 +2467,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 5.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: Expansion_2023_Unlock && !SwapActive_09A_Morgaine_SM_Off
-  SwapAchievementId: Expansion_2023_Unlock && !SwapActive_09A_Morgaine_SM_Off
+  AE.3_RequiredAchievementConditional: (Expansion_2023_Unlock && !SwapActive_09A_Morgaine_SM_Off)
+  SwapAchievementId: (Expansion_2023_Unlock && !SwapActive_09A_Morgaine_SM_Off)
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.0
@@ -2499,7 +2499,7 @@
   InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_nt_walkaway.timeline"
-  AE.0_RequiredAchievementConditional: "!Expansion_2023_Unlock || SwapActive_09A_Morgaine_RW_Off"
+  AE.0_RequiredAchievementConditional: "!(Expansion_2023_Unlock && !SwapActive_09A_Morgaine_RW_Off)"
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
   AE.9_EventDelayDuration: 0.05
@@ -2507,8 +2507,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 5.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: Expansion_2023_Unlock && !SwapActive_09A_Morgaine_RW_Off
-  SwapAchievementId: Expansion_2023_Unlock && !SwapActive_09A_Morgaine_RW_Off
+  AE.3_RequiredAchievementConditional: (Expansion_2023_Unlock && !SwapActive_09A_Morgaine_RW_Off)
+  SwapAchievementId: (Expansion_2023_Unlock && !SwapActive_09A_Morgaine_RW_Off)
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.0
@@ -2579,7 +2579,7 @@
   InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
-  AE.0_RequiredAchievementConditional: "!09A_M1 || SwapActive_09A_Vachon_WC_On"
+  AE.0_RequiredAchievementConditional: "!(09A_M1 && !SwapActive_09A_Vachon_WC_On)"
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
   AE.9_EventDelayDuration: 0.05
@@ -2587,8 +2587,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 5.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: 09A_M1 && !SwapActive_09A_Vachon_WC_On
-  SwapAchievementId: 09A_M1 && !SwapActive_09A_Vachon_WC_On
+  AE.3_RequiredAchievementConditional: (09A_M1 && !SwapActive_09A_Vachon_WC_On)
+  SwapAchievementId: (09A_M1 && !SwapActive_09A_Vachon_WC_On)
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.0
@@ -2619,7 +2619,7 @@
   InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_nt_walkaway.timeline"
-  AE.0_RequiredAchievementConditional: "!09A_M7 || (09A_S10 && 09A_M15)"
+  AE.0_RequiredAchievementConditional: "!(09A_M7 && !09A_S10)"
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
   AE.9_EventDelayDuration: 0.05
@@ -2627,8 +2627,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 5.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: 09A_M7 && (!09A_S10 || !09A_M15)
-  SwapAchievementId: 09A_M7 && (!09A_S10 || !09A_M15)
+  AE.3_RequiredAchievementConditional: (09A_M7 && !09A_S10)
+  SwapAchievementId: (09A_M7 && !09A_S10)
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.0
@@ -2739,7 +2739,7 @@
   InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
-  AE.0_RequiredAchievementConditional: 09A_M15 || !SwapActive_09A_Hargest_End_On
+  AE.0_RequiredAchievementConditional: "!(!09A_M15 && SwapActive_09A_Hargest_End_On)"
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
   AE.9_EventDelayDuration: 0.05
@@ -2747,8 +2747,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 5.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: "!09A_M15 && SwapActive_09A_Hargest_End_On"
-  SwapAchievementId: "!09A_M15 && SwapActive_09A_Hargest_End_On"
+  AE.3_RequiredAchievementConditional: (!09A_M15 && SwapActive_09A_Hargest_End_On)
+  SwapAchievementId: (!09A_M15 && SwapActive_09A_Hargest_End_On)
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.0
@@ -2859,7 +2859,7 @@
   InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
-  AE.0_RequiredAchievementConditional: 09A_M15 || !SwapActive_09A_Trahern_End_On
+  AE.0_RequiredAchievementConditional: "!(!09A_M15 && SwapActive_09A_Trahern_End_On)"
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
   AE.9_EventDelayDuration: 0.05
@@ -2867,8 +2867,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 5.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: "!09A_M15 && SwapActive_09A_Trahern_End_On"
-  SwapAchievementId: "!09A_M15 && SwapActive_09A_Trahern_End_On"
+  AE.3_RequiredAchievementConditional: (!09A_M15 && SwapActive_09A_Trahern_End_On)
+  SwapAchievementId: (!09A_M15 && SwapActive_09A_Trahern_End_On)
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.0
@@ -3059,7 +3059,7 @@
   InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
-  AE.0_RequiredAchievementConditional: 09A_M15 || !SwapActive_09A_Riches_End_On
+  AE.0_RequiredAchievementConditional: "!(!09A_M15 && SwapActive_09A_Riches_End_On)"
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
   AE.9_EventDelayDuration: 0.05
@@ -3067,8 +3067,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 5.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: "!09A_M15 && SwapActive_09A_Riches_End_On"
-  SwapAchievementId: "!09A_M15 && SwapActive_09A_Riches_End_On"
+  AE.3_RequiredAchievementConditional: (!09A_M15 && SwapActive_09A_Riches_End_On)
+  SwapAchievementId: (!09A_M15 && SwapActive_09A_Riches_End_On)
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.0
@@ -3099,7 +3099,7 @@
   InteractOverride_Y: 1.25
   MarkerOffset_Z: 1.25
   WalkawayTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.0_RequiredAchievementConditional: 09A_M15 || !SwapActive_09A_Taurus_End_On
+  AE.0_RequiredAchievementConditional: "!(!09A_M15 && SwapActive_09A_Taurus_End_On)"
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
   AE.9_EventDelayDuration: 0.05
@@ -3107,8 +3107,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 5.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: "!09A_M15 && SwapActive_09A_Taurus_End_On"
-  SwapAchievementId: "!09A_M15 && SwapActive_09A_Taurus_End_On"
+  AE.3_RequiredAchievementConditional: (!09A_M15 && SwapActive_09A_Taurus_End_On)
+  SwapAchievementId: (!09A_M15 && SwapActive_09A_Taurus_End_On)
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.0
@@ -3219,7 +3219,7 @@
   InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
-  AE.0_RequiredAchievementConditional: 09A_M15 || !SwapActive_09A_Kim_End_On
+  AE.0_RequiredAchievementConditional: "!(!09A_M15 && SwapActive_09A_Kim_End_On)"
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
   AE.9_EventDelayDuration: 0.05
@@ -3227,8 +3227,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 5.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: "!09A_M15 && SwapActive_09A_Kim_End_On"
-  SwapAchievementId: "!09A_M15 && SwapActive_09A_Kim_End_On"
+  AE.3_RequiredAchievementConditional: (!09A_M15 && SwapActive_09A_Kim_End_On)
+  SwapAchievementId: (!09A_M15 && SwapActive_09A_Kim_End_On)
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.0
@@ -3259,7 +3259,7 @@
   InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
-  AE.0_RequiredAchievementConditional: 09A_S5 || !SwapActive_09A_James_S5_On
+  AE.0_RequiredAchievementConditional: "!(!09A_S5 && SwapActive_09A_James_S5_On)"
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
   AE.9_EventDelayDuration: 0.05
@@ -3267,8 +3267,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 5.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: "!09A_S5 && SwapActive_09A_James_S5_On"
-  SwapAchievementId: "!09A_S5 && SwapActive_09A_James_S5_On"
+  AE.3_RequiredAchievementConditional: (!09A_S5 && SwapActive_09A_James_S5_On)
+  SwapAchievementId: (!09A_S5 && SwapActive_09A_James_S5_On)
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.0
@@ -3299,7 +3299,7 @@
   InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
-  AE.0_RequiredAchievementConditional: "!09A_M14 || SwapActive_09A_S17_Cannon_Built"
+  AE.0_RequiredAchievementConditional: "!(09A_M14 && !SwapActive_09A_S17_Cannon_Built)"
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
   AE.9_EventDelayDuration: 0.05
@@ -3307,8 +3307,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 5.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: 09A_M14 && !SwapActive_09A_S17_Cannon_Built
-  SwapAchievementId: 09A_M14 && !SwapActive_09A_S17_Cannon_Built
+  AE.3_RequiredAchievementConditional: (09A_M14 && !SwapActive_09A_S17_Cannon_Built)
+  SwapAchievementId: (09A_M14 && !SwapActive_09A_S17_Cannon_Built)
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.0
@@ -3419,7 +3419,7 @@
   InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\unique_09A_Kievan_walkaway.timeline"
-  AE.0_RequiredAchievementConditional: 09A_S9 && 09A_M15
+  AE.0_RequiredAchievementConditional: (09A_S9 && 09A_M15)
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
   AE.9_EventDelayDuration: 0.05
@@ -3427,8 +3427,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 5.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: 09_FirstLightUnlock
-  SwapAchievementId: 09_FirstLightUnlock
+  AE.3_RequiredAchievementConditional: "!(09A_S9 && 09A_M15)"
+  SwapAchievementId: "!(09A_S9 && 09A_M15)"
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.0
@@ -3459,7 +3459,7 @@
   InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
-  AE.0_RequiredAchievementConditional: "!SwapActive_09A_Fionn_M6_On || (09A_S6 && 09A_M6)"
+  AE.0_RequiredAchievementConditional: "!(SwapActive_09A_Fionn_M6_On && (!09A_S6 || !09A_M6))"
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
   AE.9_EventDelayDuration: 0.05
@@ -3467,8 +3467,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 5.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: SwapActive_09A_Fionn_M6_On && (!09A_S6 || !09A_M6)
-  SwapAchievementId: SwapActive_09A_Fionn_M6_On && (!09A_S6 || !09A_M6)
+  AE.3_RequiredAchievementConditional: (SwapActive_09A_Fionn_M6_On && (!09A_S6 || !09A_M6))
+  SwapAchievementId: (SwapActive_09A_Fionn_M6_On && (!09A_S6 || !09A_M6))
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.0

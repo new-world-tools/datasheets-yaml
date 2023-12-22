@@ -3606,7 +3606,7 @@
   GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_greet.timeline"
   IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_ambient.timeline"
   InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
-  SwapAchievementId: SwapActive_9801_Florina_00_Off
+  SwapAchievementId: (SwapActive_9801_Florina_00_Off && FactionIntro_Covenant_01)
   PlaceholderMesh: ""
   AttachedMesh: ""
   AttachmentPositionX: null
@@ -3726,7 +3726,7 @@
   GreetTimeline: "Libs\\Timeline\\Npc\\settle_strgr_heron_intro_01.timeline"
   IdleTimeline: "Libs\\Timeline\\Npc\\settle_strgr_heron_ambient_01.timeline"
   InteractTimeline: "Libs\\Timeline\\Npc\\settle_strgr_heron_interact_01.timeline"
-  SwapAchievementId: SwapActive_9805_Tibbs_00_Off
+  SwapAchievementId: (SwapActive_9805_Tibbs_00_Off && FactionIntro_Marauders_01)
   PlaceholderMesh: ""
   AttachedMesh: ""
   AttachmentPositionX: null
@@ -3826,7 +3826,7 @@
   GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
   IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
   InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
-  SwapAchievementId: SwapActive_9807_Aventus_00_Off
+  SwapAchievementId: (SwapActive_9807_Aventus_00_Off && FactionIntro_Syndicate_01)
   PlaceholderMesh: ""
   AttachedMesh: ""
   AttachmentPositionX: null
