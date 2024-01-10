@@ -42431,7 +42431,7 @@
   DisableTelemetry: ""
   IsClientPredicted: null
   PotencyPerLevel: ""
-  BaseDuration: 10.0
+  BaseDuration: 5.0
   TickRate: 1.0
   DelayInitialTick: null
   TickCondition: ""
@@ -42642,7 +42642,7 @@
   RefreshDuration: ""
   StackMax: 1.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: "1"
+  RemoveUnappliedStacks: "0"
   PotencyMax: null
   DontReplaceStack: null
   MoveSpeedMod: null
@@ -99604,7 +99604,7 @@
   HealthModifierBasePercent: null
   HealthModifierDamageBased: -0.05
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: -0.05
+  HealScalingValueMultiplier: -0.025
   ShowUiDamageNumbersOnHeal: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""

@@ -87,8 +87,8 @@
   TertiarySpellID: ""
   StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Spell_Flail_Slam_AOE_Upgrade
-  StatusEffects: Status_Flail_HexDoT
-  StatusEffectDurations: "6"
+  StatusEffects: ""
+  StatusEffectDurations: ""
   Revive: ""
   Siphon: null
   AttachToOwner: null
@@ -132,7 +132,7 @@
   SecondarySpellProjectileLaunchAngles: ""
   ScaleWithCharacterBoundingBox: ""
   ScaleWithDynamicScale: ""
-  TargetTypes: Enemy
+  TargetTypes: All
   SpellTypes: Ability
   CastingTypes: NoTargetSpawnFromRaycast
   HitAiTarget: ""
@@ -175,8 +175,8 @@
   TertiarySpellID: Spell_Flail_Slam_AOE_Support
   StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Spell_Flail_Slam_AOE_DoT
-  StatusEffects: ""
-  StatusEffectDurations: ""
+  StatusEffects: Status_Flail_HexDoT
+  StatusEffectDurations: "6"
   Revive: ""
   Siphon: null
   AttachToOwner: null
