@@ -8146,7 +8146,7 @@
   GreetTimeline: "Libs\\Timeline\\Npc\\zander_greet.timeline"
   IdleTimeline: "Libs\\Timeline\\Npc\\zander_ambient.timeline"
   InteractTimeline: "Libs\\Timeline\\Npc\\zander_interact.timeline"
-  SwapAchievementId: SwapActive_95_Zander_s01_01
+  SwapAchievementId: (95_s01_04 && !95_s01_05) || SwapActive_95_Zander_s01_01
   PlaceholderMesh: ""
   AttachedMesh: ""
   AttachmentPositionX: null
@@ -8206,7 +8206,7 @@
   GreetTimeline: "Libs\\Timeline\\Npc\\Dog_sick_LyingToSit_Intro.timeline"
   IdleTimeline: "Libs\\Timeline\\Npc\\Dog_sick_LyingToSit_Idle.timeline"
   InteractTimeline: "Libs\\Timeline\\Npc\\Dog_sick_LyingToSit_Interact.timeline"
-  SwapAchievementId: SwapActive_95_Dog_s01_02
+  SwapAchievementId: SwapActive_95_Dog_s01_02 || (95_s01_04 && !95_s01_05)
   PlaceholderMesh: ""
   AttachedMesh: ""
   AttachmentPositionX: null

@@ -2403,20 +2403,7 @@
   LimitNotificationLocTag: "@ui_reached_max_daily_fotb_rafflebones"
   AchievementAtLimit: ""
   IsAchievementBound: null
-- LootLimitID: PUGDailyReward_Mutated_ChromaticSeal
-  IsReplicated: false
-  MinLimitSeconds: 0.0
-  MaxLimitSeconds: 0.0
-  CountLimit: 1.0
-  MinLimitMult: 86400.0
-  MaxLimitMult: 86400.0
-  LimitExpireSeconds: 86400.0
-  LootTagValuePerCount: 0.0
-  LootTagValueOverrideAtLimit: null
-  LimitNotificationLocTag: ""
-  AchievementAtLimit: ""
-  IsAchievementBound: null
-- LootLimitID: PUGDailyReward_Mutated_ChromaticSeal_PityTicker
+- LootLimitID: PUGDailyReward_Mutated_ChromaticSeal_PityTicker_OLD
   IsReplicated: false
   MinLimitSeconds: 0.0
   MaxLimitSeconds: 0.0
@@ -2429,11 +2416,11 @@
   LimitNotificationLocTag: ""
   AchievementAtLimit: ""
   IsAchievementBound: null
-- LootLimitID: PUGFinder_Expedition_DailyRandomRewards
+- LootLimitID: PUGFinder_Expedition_DailyRandomRewards_Limit
   IsReplicated: true
   MinLimitSeconds: 0.0
   MaxLimitSeconds: 0.0
-  CountLimit: 3.0
+  CountLimit: 2.0
   MinLimitMult: 86400.0
   MaxLimitMult: 86400.0
   LimitExpireSeconds: 86400.0
@@ -2442,11 +2429,63 @@
   LimitNotificationLocTag: ""
   AchievementAtLimit: ""
   IsAchievementBound: null
-- LootLimitID: PUGFinder_MutatedExpedition_DailyRandomRewards
+- LootLimitID: PUGFinder_Expedition_DailyRoleRewards_Limit
   IsReplicated: true
   MinLimitSeconds: 0.0
   MaxLimitSeconds: 0.0
-  CountLimit: 3.0
+  CountLimit: 2.0
+  MinLimitMult: 86400.0
+  MaxLimitMult: 86400.0
+  LimitExpireSeconds: 86400.0
+  LootTagValuePerCount: null
+  LootTagValueOverrideAtLimit: null
+  LimitNotificationLocTag: ""
+  AchievementAtLimit: ""
+  IsAchievementBound: null
+- LootLimitID: PUGFinder_Expedition_DailyCarryRewards_Limit
+  IsReplicated: true
+  MinLimitSeconds: 0.0
+  MaxLimitSeconds: 0.0
+  CountLimit: 2.0
+  MinLimitMult: 86400.0
+  MaxLimitMult: 86400.0
+  LimitExpireSeconds: 86400.0
+  LootTagValuePerCount: null
+  LootTagValueOverrideAtLimit: null
+  LimitNotificationLocTag: ""
+  AchievementAtLimit: ""
+  IsAchievementBound: null
+- LootLimitID: PUGFinder_MutatedExpedition_DailyRandomRewards_Limit
+  IsReplicated: true
+  MinLimitSeconds: 0.0
+  MaxLimitSeconds: 0.0
+  CountLimit: 1.0
+  MinLimitMult: 86400.0
+  MaxLimitMult: 86400.0
+  LimitExpireSeconds: 86400.0
+  LootTagValuePerCount: null
+  LootTagValueOverrideAtLimit: null
+  LimitNotificationLocTag: ""
+  AchievementAtLimit: ""
+  IsAchievementBound: null
+- LootLimitID: PUGFinder_MutatedExpedition_DailyRoleRewards_Limit
+  IsReplicated: true
+  MinLimitSeconds: 0.0
+  MaxLimitSeconds: 0.0
+  CountLimit: 1.0
+  MinLimitMult: 86400.0
+  MaxLimitMult: 86400.0
+  LimitExpireSeconds: 86400.0
+  LootTagValuePerCount: null
+  LootTagValueOverrideAtLimit: null
+  LimitNotificationLocTag: ""
+  AchievementAtLimit: ""
+  IsAchievementBound: null
+- LootLimitID: PUGFinder_MutatedExpedition_DailyCarryRewards_Limit
+  IsReplicated: true
+  MinLimitSeconds: 0.0
+  MaxLimitSeconds: 0.0
+  CountLimit: 1.0
   MinLimitMult: 86400.0
   MaxLimitMult: 86400.0
   LimitExpireSeconds: 86400.0

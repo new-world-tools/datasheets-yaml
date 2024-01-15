@@ -44873,13 +44873,13 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: ""
-  SubTask1: S04_GT_EXPD_02_EnterExpedition_partial
-  SubTask2: S04_GT_EXPD_05_KillIceBoss
+  SubTask1: S04_GT_EXPD_02_CompleteExpedition_Container
+  SubTask2: ""
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: S04_GT_EXPD_02_EnterExpedition_partial
-  Type: PartialTaskContainer
+- TaskID: S04_GT_EXPD_02_CompleteExpedition_Container
+  Type: ConsecutiveTaskContainer
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: null
@@ -44891,7 +44891,7 @@
   UseGlobalStorage: ""
   EnforceLocationRequirement: ""
   TerritoryID: ""
-  POITag: dungeon_tarn_40360
+  POITag: ""
   GameModeID: ""
   LootTag: ""
   PauseAndClearLootOnTaskComplete: ""
@@ -44926,10 +44926,10 @@
   TP_TargetTag: ""
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
-  OverrideLocation: ""
+  OverrideLocation: 10109.654297 8044.833984 459.274323
   IsHidden: 1.0
   HideDiegeticGatherablePins: ""
-  ShowDiegeticTaskPin: ""
+  ShowDiegeticTaskPin: "1"
   DiegeticPinZOverride: null
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -44940,7 +44940,7 @@
   TriggerAnalyticsEvent: ""
   OnInteractStart: ""
   SubTask1: S04_GT_EXPD_03_EnterExpeditionStory
-  SubTask2: S04_GT_EXPD_04_EnterExpeditionStory_PinTask
+  SubTask2: S04_GT_EXPD_04_KillIceBoss
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
@@ -44995,7 +44995,7 @@
   OverrideLocation: ""
   IsHidden: null
   HideDiegeticGatherablePins: ""
-  ShowDiegeticTaskPin: ""
+  ShowDiegeticTaskPin: "0"
   DiegeticPinZOverride: null
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -45010,73 +45010,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: S04_GT_EXPD_04_EnterExpeditionStory_PinTask
-  Type: TaskGameEvent
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: null
-  TargetQty: 1.0
-  ItemName: ""
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: ""
-  UseGlobalStorage: ""
-  EnforceLocationRequirement: ""
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: ""
-  AwardOnlyOnce: ""
-  ShouldCheckPoints: null
-  GuranteedDropAttempts: null
-  TargetThreshold: ""
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: neverbetrue
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: null
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: ""
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: 10108.710938 8044.420410 459.102020
-  IsHidden: 1.0
-  HideDiegeticGatherablePins: ""
-  ShowDiegeticTaskPin: "1"
-  DiegeticPinZOverride: null
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: ""
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: S04_GT_EXPD_05_KillIceBoss
+- TaskID: S04_GT_EXPD_04_KillIceBoss
   Type: TaskKillContribution
   FailOnCondition: ""
   StayActive: null
@@ -45124,10 +45058,10 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@S04_GT_EXPD_01_KillSerLoth"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 10795.125 6664.892 328.060
+  OverrideLocation: 877.257385 848.426392 253.773743
   IsHidden: null
   HideDiegeticGatherablePins: ""
-  ShowDiegeticTaskPin: "1"
+  ShowDiegeticTaskPin: "0"
   DiegeticPinZOverride: null
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -45203,13 +45137,13 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: ""
-  SubTask1: S04_GT_EXPD_RPT_01_EnterExpeditionRepeat_partial
-  SubTask2: S04_GT_EXPD_RPT_04_GatherIceRepeatA
-  SubTask3: S04_GT_EXPD_RPT_05_KillIceBoss
+  SubTask1: S04_GT_EXPD_RPT_01_CompleteExpeditionRepeat_Container
+  SubTask2: ""
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: S04_GT_EXPD_RPT_01_EnterExpeditionRepeat_partial
-  Type: PartialTaskContainer
+- TaskID: S04_GT_EXPD_RPT_01_CompleteExpeditionRepeat_Container
+  Type: ConsecutiveTaskContainer
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: null
@@ -45256,10 +45190,10 @@
   TP_TargetTag: ""
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
-  OverrideLocation: ""
+  OverrideLocation: 10109.654297 8044.833984 459.274323
   IsHidden: 1.0
   HideDiegeticGatherablePins: ""
-  ShowDiegeticTaskPin: ""
+  ShowDiegeticTaskPin: "1"
   DiegeticPinZOverride: null
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -45270,8 +45204,8 @@
   TriggerAnalyticsEvent: ""
   OnInteractStart: ""
   SubTask1: S04_GT_EXPD_RPT_02_EnterExpeditionRepeat
-  SubTask2: S04_GT_EXPD_RPT_03_EnterExpeditionRepeat_PinTask
-  SubTask3: ""
+  SubTask2: S04_GT_EXPD_RPT_03_GatherIceRepeatA
+  SubTask3: S04_GT_EXPD_RPT_04_KillIceBoss
   SubTask4: ""
   SubTask5: ""
 - TaskID: S04_GT_EXPD_RPT_02_EnterExpeditionRepeat
@@ -45325,7 +45259,7 @@
   OverrideLocation: ""
   IsHidden: null
   HideDiegeticGatherablePins: ""
-  ShowDiegeticTaskPin: ""
+  ShowDiegeticTaskPin: "0"
   DiegeticPinZOverride: null
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -45340,73 +45274,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: S04_GT_EXPD_RPT_03_EnterExpeditionRepeat_PinTask
-  Type: TaskGameEvent
-  FailOnCondition: ""
-  StayActive: null
-  RequiredLevel: null
-  TargetQty: 1.0
-  ItemName: ""
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: ""
-  UseGlobalStorage: ""
-  EnforceLocationRequirement: ""
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: ""
-  AwardOnlyOnce: ""
-  ShouldCheckPoints: null
-  GuranteedDropAttempts: null
-  TargetThreshold: ""
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: neverbetrue
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: null
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: ""
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: 10108.710938 8044.420410 459.102020
-  IsHidden: 1.0
-  HideDiegeticGatherablePins: ""
-  ShowDiegeticTaskPin: "1"
-  DiegeticPinZOverride: null
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: ""
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: S04_GT_EXPD_RPT_04_GatherIceRepeatA
+- TaskID: S04_GT_EXPD_RPT_03_GatherIceRepeatA
   Type: TaskHaveAndReturnItems
   FailOnCondition: ""
   StayActive: 1.0
@@ -45472,7 +45340,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: S04_GT_EXPD_RPT_05_KillIceBoss
+- TaskID: S04_GT_EXPD_RPT_04_KillIceBoss
   Type: TaskKillContribution
   FailOnCondition: ""
   StayActive: null
@@ -45520,10 +45388,10 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@S04_GT_EXPD_RPT_KillSerLoth"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 10795.125 6664.892 328.060
+  OverrideLocation: 877.257385 848.426392 253.773743
   IsHidden: null
   HideDiegeticGatherablePins: ""
-  ShowDiegeticTaskPin: "1"
+  ShowDiegeticTaskPin: "0"
   DiegeticPinZOverride: null
   SS_VariantName: ""
   SS_StatePreset: ""
