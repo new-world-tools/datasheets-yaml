@@ -12,15 +12,15 @@
   EffectOnlyOnDamage: ""
   DeflectDamageID: ""
   CanCrit: false
-  DmgCoef: 0.85
+  DmgCoef: 0.8
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
-  PowerLevel: 2.0
-  CritPowerLevel: 2.0
-  BlockPowerLevel: 2.0
-  HitStun: 20.0
+  PowerLevel: 1.0
+  CritPowerLevel: 1.0
+  BlockPowerLevel: 1.0
+  HitStun: 15.0
   BlockHitStun: 20.0
-  CritHitStun: 25.0
+  CritHitStun: 15.0
   ImpactDistanceX: 0.0
   ImpactDistanceY: 2.0
   ImpactDistanceZ: 0.0
@@ -41,7 +41,7 @@
   BlockTargetCameraShakeID: Small
   CritTargetCameraShakeID: Small
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 1.0
+  BlockStaminaDmgMod: 0.8
   BlockAbsorptionModifier: 1.0
   StunBreakoutIncrement: 1.0
   LOSCheckVerticalAngleOffset: ""
@@ -62,15 +62,15 @@
   EffectOnlyOnDamage: ""
   DeflectDamageID: ""
   CanCrit: false
-  DmgCoef: 0.6
+  DmgCoef: 0.5
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
   PowerLevel: 0.0
   CritPowerLevel: 0.0
   BlockPowerLevel: 0.0
-  HitStun: 0.0
-  BlockHitStun: 0.0
-  CritHitStun: 0.0
+  HitStun: 10.0
+  BlockHitStun: 15.0
+  CritHitStun: 20.0
   ImpactDistanceX: 0.25
   ImpactDistanceY: 0.0
   ImpactDistanceZ: 0.0
@@ -91,7 +91,7 @@
   BlockTargetCameraShakeID: Small
   CritTargetCameraShakeID: Small
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 0.6
+  BlockStaminaDmgMod: 0.5
   BlockAbsorptionModifier: 1.0
   StunBreakoutIncrement: 1.0
   LOSCheckVerticalAngleOffset: ""
@@ -112,15 +112,15 @@
   EffectOnlyOnDamage: ""
   DeflectDamageID: ""
   CanCrit: false
-  DmgCoef: 0.6
+  DmgCoef: 0.5
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
   PowerLevel: 0.0
   CritPowerLevel: 0.0
   BlockPowerLevel: 0.0
-  HitStun: 0.0
-  BlockHitStun: 0.0
-  CritHitStun: 0.0
+  HitStun: 10.0
+  BlockHitStun: 15.0
+  CritHitStun: 20.0
   ImpactDistanceX: -0.25
   ImpactDistanceY: 0.0
   ImpactDistanceZ: 0.0
@@ -141,7 +141,7 @@
   BlockTargetCameraShakeID: Small
   CritTargetCameraShakeID: Small
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 0.6
+  BlockStaminaDmgMod: 0.5
   BlockAbsorptionModifier: 1.0
   StunBreakoutIncrement: 1.0
   LOSCheckVerticalAngleOffset: ""
@@ -162,15 +162,15 @@
   EffectOnlyOnDamage: ""
   DeflectDamageID: ""
   CanCrit: false
-  DmgCoef: 0.35
+  DmgCoef: 0.7
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
-  PowerLevel: 1.0
-  CritPowerLevel: 1.0
+  PowerLevel: 2.0
+  CritPowerLevel: 2.0
   BlockPowerLevel: 1.0
-  HitStun: 15.0
-  BlockHitStun: 15.0
-  CritHitStun: 15.0
+  HitStun: 25.0
+  BlockHitStun: 20.0
+  CritHitStun: 25.0
   ImpactDistanceX: 0.0
   ImpactDistanceY: 0.0
   ImpactDistanceZ: 0.0
@@ -202,7 +202,7 @@
   WeaponCategory: GhostSpell_Ice
   IsRanged: 1.0
   IgnoreInvulnerable: 1.0
-  Unblockable: 1.0
+  Unblockable: 0.0
   NoReaction: 0.0
   SurfaceImpactEffect: Bullet
   AttackType: Light
@@ -212,10 +212,10 @@
   EffectOnlyOnDamage: ""
   DeflectDamageID: ""
   CanCrit: false
-  DmgCoef: 0.4
+  DmgCoef: 0.3
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
-  PowerLevel: 1.0
+  PowerLevel: 0.0
   CritPowerLevel: 1.0
   BlockPowerLevel: 1.0
   HitStun: 15.0
@@ -262,15 +262,15 @@
   EffectOnlyOnDamage: ""
   DeflectDamageID: ""
   CanCrit: false
-  DmgCoef: 0.35
+  DmgCoef: 0.3
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
-  PowerLevel: 2.0
-  CritPowerLevel: 2.0
-  BlockPowerLevel: 2.0
-  HitStun: 20.0
-  BlockHitStun: 15.0
-  CritHitStun: 20.0
+  PowerLevel: 1.0
+  CritPowerLevel: 1.0
+  BlockPowerLevel: 1.0
+  HitStun: 15.0
+  BlockHitStun: 20.0
+  CritHitStun: 15.0
   ImpactDistanceX: 0.0
   ImpactDistanceY: 1.5
   ImpactDistanceZ: 0.0
@@ -312,14 +312,14 @@
   EffectOnlyOnDamage: ""
   DeflectDamageID: ""
   CanCrit: false
-  DmgCoef: 0.45
+  DmgCoef: 0.4
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
-  PowerLevel: 2.0
-  CritPowerLevel: 2.0
-  BlockPowerLevel: 1.0
+  PowerLevel: 3.0
+  CritPowerLevel: 3.0
+  BlockPowerLevel: 2.0
   HitStun: 20.0
-  BlockHitStun: 15.0
+  BlockHitStun: 25.0
   CritHitStun: 20.0
   ImpactDistanceX: 0.0
   ImpactDistanceY: -2.0
@@ -341,7 +341,7 @@
   BlockTargetCameraShakeID: Small
   CritTargetCameraShakeID: Small
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 0.8
+  BlockStaminaDmgMod: 0.7
   BlockAbsorptionModifier: 1.0
   StunBreakoutIncrement: 1.0
   LOSCheckVerticalAngleOffset: ""
@@ -403,7 +403,7 @@
   IsRanged: 1.0
   IgnoreInvulnerable: 0.0
   Unblockable: 1.0
-  NoReaction: 1.0
+  NoReaction: 0.0
   SurfaceImpactEffect: Bullet
   AttackType: Heavy
   DamageType: Ice
@@ -412,15 +412,15 @@
   EffectOnlyOnDamage: ""
   DeflectDamageID: ""
   CanCrit: false
-  DmgCoef: 0.06
+  DmgCoef: 0.015
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
   PowerLevel: 0.0
-  CritPowerLevel: 0.0
+  CritPowerLevel: 1.0
   BlockPowerLevel: 0.0
-  HitStun: 0.0
-  BlockHitStun: 0.0
-  CritHitStun: 0.0
+  HitStun: 10.0
+  BlockHitStun: 15.0
+  CritHitStun: 15.0
   ImpactDistanceX: 0.0
   ImpactDistanceY: 0.0
   ImpactDistanceZ: 0.0
@@ -465,7 +465,7 @@
   DmgCoef: 0.2
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
-  PowerLevel: 1.0
+  PowerLevel: 0.0
   CritPowerLevel: 1.0
   BlockPowerLevel: 1.0
   HitStun: 15.0
@@ -512,7 +512,7 @@
   EffectOnlyOnDamage: ""
   DeflectDamageID: ""
   CanCrit: false
-  DmgCoef: 0.0
+  DmgCoef: 0.1
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
   PowerLevel: 0.0
@@ -562,7 +562,7 @@
   EffectOnlyOnDamage: ""
   DeflectDamageID: ""
   CanCrit: false
-  DmgCoef: 0.0
+  DmgCoef: 0.1
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
   PowerLevel: 0.0
@@ -612,15 +612,15 @@
   EffectOnlyOnDamage: ""
   DeflectDamageID: ""
   CanCrit: false
-  DmgCoef: 0.3
+  DmgCoef: 0.35
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
-  PowerLevel: 3.0
-  CritPowerLevel: 3.0
-  BlockPowerLevel: 3.0
-  HitStun: 30.0
-  BlockHitStun: 30.0
-  CritHitStun: 35.0
+  PowerLevel: 0.0
+  CritPowerLevel: 1.0
+  BlockPowerLevel: 0.0
+  HitStun: 10.0
+  BlockHitStun: 15.0
+  CritHitStun: 15.0
   ImpactDistanceX: 0.0
   ImpactDistanceY: 0.0
   ImpactDistanceZ: 0.0
@@ -662,15 +662,15 @@
   EffectOnlyOnDamage: ""
   DeflectDamageID: ""
   CanCrit: false
-  DmgCoef: 0.25
+  DmgCoef: 0.15
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
   PowerLevel: 0.0
-  CritPowerLevel: 0.0
-  BlockPowerLevel: 0.0
-  HitStun: 0.0
-  BlockHitStun: 0.0
-  CritHitStun: 0.0
+  CritPowerLevel: 1.0
+  BlockPowerLevel: 1.0
+  HitStun: 5.0
+  BlockHitStun: 10.0
+  CritHitStun: 15.0
   ImpactDistanceX: 0.0
   ImpactDistanceY: 0.0
   ImpactDistanceZ: 0.0

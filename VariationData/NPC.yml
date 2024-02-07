@@ -8146,7 +8146,7 @@
   GreetTimeline: "Libs\\Timeline\\Npc\\zander_greet.timeline"
   IdleTimeline: "Libs\\Timeline\\Npc\\zander_ambient.timeline"
   InteractTimeline: "Libs\\Timeline\\Npc\\zander_interact.timeline"
-  SwapAchievementId: SwapActive_95_Zander_s01_01 || (95_s01_04 && !95_s01_05)
+  SwapAchievementId: (95_s01_04 && !95_s01_05) || SwapActive_95_Zander_s01_01
   PlaceholderMesh: ""
   AttachedMesh: ""
   AttachmentPositionX: null

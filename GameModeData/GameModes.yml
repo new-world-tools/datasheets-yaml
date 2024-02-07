@@ -122,6 +122,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 1.0
+  MatchmakingMaxLevel: 65.0
+  MatchmakingMinGS: 500.0
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: 5.0
+  MatchmakingRequiresTauntGem: true
+  MatchmakingMinTanks: 1.0
+  MatchmakingMaxTanks: 3.0
+  MatchmakingMinHealers: 1.0
+  MatchmakingMaxHealers: 3.0
+  MatchmakingMinDPS: 0.0
+  MatchmakingMaxDPS: 5.0
+  UseMMBuff: true
+  MatchmakingPriority: null
+  AchievementIdForCompletingMaxRank: ""
 - GameModeId: TestMode2
   ScriptName: GameModeTest
   SlicePath: GameModes/GameModeTest_02
@@ -246,6 +262,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 30.0
+  MatchmakingMaxLevel: 65.0
+  MatchmakingMinGS: 0.0
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: 0.0
+  MatchmakingRequiresTauntGem: false
+  MatchmakingMinTanks: 0.0
+  MatchmakingMaxTanks: 0.0
+  MatchmakingMinHealers: 0.0
+  MatchmakingMaxHealers: 0.0
+  MatchmakingMinDPS: 0.0
+  MatchmakingMaxDPS: 0.0
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AchievementIdForCompletingMaxRank: ""
 - GameModeId: Duel
   ScriptName: Duel
   SlicePath: GameModes/GameMode_Duel
@@ -370,6 +402,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AchievementIdForCompletingMaxRank: ""
 - GameModeId: OutpostRush
   ScriptName: OutpostRush
   SlicePath: POIs/OutpostRush/OutpostRush_Layout_00
@@ -463,7 +511,7 @@
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: true
   GrantConsumables: ""
-  ActivityType: OPR
+  ActivityType: OutpostRush
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
@@ -494,6 +542,22 @@
   ReplicateParticipantCharacterIds: false
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 60.0
+  MatchmakingMaxLevel: 65.0
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AchievementIdForCompletingMaxRank: ""
 - GameModeId: Arena3v3
   ScriptName: Arena3v3
   SlicePath: GameModes/GameMode_Arena01_3v3
@@ -618,6 +682,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 20.0
+  MatchmakingMaxLevel: 65.0
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: 5.0
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: 0.0
+  MatchmakingMaxTanks: 3.0
+  MatchmakingMinHealers: 0.0
+  MatchmakingMaxHealers: 3.0
+  MatchmakingMinDPS: 0.0
+  MatchmakingMaxDPS: 3.0
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AchievementIdForCompletingMaxRank: ""
 - GameModeId: Arena3v3_02
   ScriptName: Arena3v3
   SlicePath: GameModes/GameMode_Arena02_3v3
@@ -742,6 +822,302 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 20.0
+  MatchmakingMaxLevel: 65.0
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: 5.0
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: 0.0
+  MatchmakingMaxTanks: 3.0
+  MatchmakingMinHealers: 0.0
+  MatchmakingMaxHealers: 3.0
+  MatchmakingMinDPS: 0.0
+  MatchmakingMaxDPS: 3.0
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AchievementIdForCompletingMaxRank: ""
+- GameModeId: Dungeon
+  ScriptName: Dungeon
+  SlicePath: ""
+  RequiresTeamRaids: ""
+  AdvanceThroughStatesOnUpdate: ""
+  DisplayName: "@matchmaking_dungeon_activity"
+  Description: ""
+  UiInteractOption: ""
+  RequirementText: ""
+  IconPath: ""
+  SimpleImagePath: LyShineUI/Images/PugFinder/expeditionIconSmall.png
+  BackgroundImagePath: ""
+  CoatlicueName: ""
+  WorldBounds: ""
+  TeamTeleportData: ""
+  FeatureFlag: dungeon-activity
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  ClearBattleTokensOnExit: ""
+  RequiresGameModeGDEException: ""
+  RecommendedLevel: null
+  RequiredLevel: null
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: 5.0
+  BackfillReadyThreshold: 4.0
+  NumTeams: 1.0
+  TeamCapacity: 5.0
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: null
+  PreserveOldGroup: null
+  IsDungeon: null
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: null
+  IsMutable: null
+  IsRemoteEntryAllowed: null
+  DifficultyProgressionId: ""
+  RestrictGathering: null
+  RestrictWaterGathering: null
+  MapId: ""
+  LootTags: ""
+  MutLootTagsOverride: ""
+  ContainerLevel: null
+  LootGSRangeOverride: ""
+  MutLootGSRangeOverride: ""
+  VictoryDelaySec: null
+  MaxAI: ""
+  AISpawnRadius: ""
+  AIDespawnRadius: ""
+  ProjectedCpuUsePercent: null
+  ProjectedMemoryUseMb: null
+  ProjectedDurationMinutes: null
+  Priority: null
+  ImmediateLaunch: null
+  PauseTimeOfDay: null
+  FreezeTime: null
+  AILevelAdjustedPerceptionEnabled: null
+  AILeashingOptOut: null
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: null
+  UseTeamNamePlate: null
+  ItemDropQuantityOnDeathModifier: null
+  QuitButtonTextId: ""
+  CannotFastTravelTextId: ""
+  LeaveDescTextId: ""
+  LeaveTimeDescTextId: ""
+  LeaveTitleTextId: ""
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: null
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: null
+  MinAcceptedInvites: 5.0
+  UsePendingListMatchmaking: null
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: Dungeon
+  OverrideDungeonTimeout: null
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: "@ui_pugfinder_cancel_queue_title"
+  LeaveQueueDescriptionTextId: "@ui_pugfinder_cancel_queue_expedition_desc"
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: null
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: 1.0
+  MatchmakingMaxTanks: 1.0
+  MatchmakingMinHealers: 1.0
+  MatchmakingMaxHealers: 1.0
+  MatchmakingMinDPS: 3.0
+  MatchmakingMaxDPS: 3.0
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AchievementIdForCompletingMaxRank: ""
+- GameModeId: Mutation
+  ScriptName: Mutation
+  SlicePath: ""
+  RequiresTeamRaids: ""
+  AdvanceThroughStatesOnUpdate: ""
+  DisplayName: "@matchmaking_mutation_activity"
+  Description: ""
+  UiInteractOption: ""
+  RequirementText: ""
+  IconPath: ""
+  SimpleImagePath: LyShineUI/Images/PugFinder/expeditionMutatedIconSmall.png
+  BackgroundImagePath: ""
+  CoatlicueName: ""
+  WorldBounds: ""
+  TeamTeleportData: ""
+  FeatureFlag: mutation-activity
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  ClearBattleTokensOnExit: ""
+  RequiresGameModeGDEException: ""
+  RecommendedLevel: null
+  RequiredLevel: null
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: 5.0
+  BackfillReadyThreshold: 4.0
+  NumTeams: 1.0
+  TeamCapacity: 5.0
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: null
+  PreserveOldGroup: null
+  IsDungeon: null
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: null
+  IsMutable: null
+  IsRemoteEntryAllowed: null
+  DifficultyProgressionId: ""
+  RestrictGathering: null
+  RestrictWaterGathering: null
+  MapId: ""
+  LootTags: ""
+  MutLootTagsOverride: ""
+  ContainerLevel: null
+  LootGSRangeOverride: ""
+  MutLootGSRangeOverride: ""
+  VictoryDelaySec: null
+  MaxAI: ""
+  AISpawnRadius: ""
+  AIDespawnRadius: ""
+  ProjectedCpuUsePercent: null
+  ProjectedMemoryUseMb: null
+  ProjectedDurationMinutes: null
+  Priority: null
+  ImmediateLaunch: null
+  PauseTimeOfDay: null
+  FreezeTime: null
+  AILevelAdjustedPerceptionEnabled: null
+  AILeashingOptOut: null
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: null
+  UseTeamNamePlate: null
+  ItemDropQuantityOnDeathModifier: null
+  QuitButtonTextId: ""
+  CannotFastTravelTextId: ""
+  LeaveDescTextId: ""
+  LeaveTimeDescTextId: ""
+  LeaveTitleTextId: ""
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: null
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: null
+  MinAcceptedInvites: 5.0
+  UsePendingListMatchmaking: null
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: Mutation
+  OverrideDungeonTimeout: null
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: "@ui_pugfinder_cancel_queue_title"
+  LeaveQueueDescriptionTextId: "@ui_pugfinder_cancel_queue_mutation_desc"
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: null
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: 1.0
+  MatchmakingMaxTanks: 1.0
+  MatchmakingMinHealers: 1.0
+  MatchmakingMaxHealers: 1.0
+  MatchmakingMinDPS: 3.0
+  MatchmakingMaxDPS: 3.0
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AchievementIdForCompletingMaxRank: ""
 - GameModeId: DungeonAmrine
   ScriptName: DungeonAmrine
   SlicePath: Dungeon/LevelScripts/AmrineDungeon
@@ -835,7 +1211,7 @@
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
-  ActivityType: Expedition
+  ActivityType: Dungeon
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
@@ -866,6 +1242,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 25.0
+  MatchmakingMaxLevel: 35.0
+  MatchmakingMinGS: 200.0
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 30.0
+  MatchmakingRequiredHealingMastery: 3.0
+  MatchmakingRequiresTauntGem: true
+  MatchmakingMinTanks: 1.0
+  MatchmakingMaxTanks: 1.0
+  MatchmakingMinHealers: 1.0
+  MatchmakingMaxHealers: 1.0
+  MatchmakingMinDPS: 3.0
+  MatchmakingMaxDPS: 3.0
+  UseMMBuff: true
+  MatchmakingPriority: 1.0
+  AchievementIdForCompletingMaxRank: DungeonEverfall00MaxRank
 - GameModeId: DungeonShatteredObelisk
   ScriptName: DungeonShatteredObelisk
   SlicePath: Dungeon/LevelScripts/ShatteredObeliskDungeon
@@ -959,7 +1351,7 @@
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
-  ActivityType: Expedition
+  ActivityType: Dungeon
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
@@ -990,6 +1382,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 35.0
+  MatchmakingMaxLevel: 45.0
+  MatchmakingMinGS: 300.0
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 45.0
+  MatchmakingRequiredHealingMastery: 3.0
+  MatchmakingRequiresTauntGem: true
+  MatchmakingMinTanks: 1.0
+  MatchmakingMaxTanks: 1.0
+  MatchmakingMinHealers: 1.0
+  MatchmakingMaxHealers: 1.0
+  MatchmakingMinDPS: 3.0
+  MatchmakingMaxDPS: 3.0
+  UseMMBuff: true
+  MatchmakingPriority: 2.0
+  AchievementIdForCompletingMaxRank: DungeonShatterMtn00MaxRank
 - GameModeId: DungeonRestlessShores01
   ScriptName: DungeonRestlessShores01
   SlicePath: Dungeon/LevelScripts/RestlessShores01Dungeon
@@ -1083,7 +1491,7 @@
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
-  ActivityType: Expedition
+  ActivityType: Dungeon
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
@@ -1114,6 +1522,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 45.0
+  MatchmakingMaxLevel: 55.0
+  MatchmakingMinGS: 400.0
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 70.0
+  MatchmakingRequiredHealingMastery: 4.0
+  MatchmakingRequiresTauntGem: true
+  MatchmakingMinTanks: 1.0
+  MatchmakingMaxTanks: 1.0
+  MatchmakingMinHealers: 1.0
+  MatchmakingMaxHealers: 1.0
+  MatchmakingMinDPS: 3.0
+  MatchmakingMaxDPS: 3.0
+  UseMMBuff: true
+  MatchmakingPriority: 3.0
+  AchievementIdForCompletingMaxRank: DungeonRestlessShores01MaxRank
 - GameModeId: DungeonEbonscale00
   ScriptName: DungeonEbonscale00
   SlicePath: Dungeon/LevelScripts/Ebonscale00Dungeon
@@ -1207,7 +1631,7 @@
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
-  ActivityType: Expedition
+  ActivityType: Dungeon
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
@@ -1238,6 +1662,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 55.0
+  MatchmakingMaxLevel: 60.0
+  MatchmakingMinGS: 450.0
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 105.0
+  MatchmakingRequiredHealingMastery: 5.0
+  MatchmakingRequiresTauntGem: true
+  MatchmakingMinTanks: 1.0
+  MatchmakingMaxTanks: 1.0
+  MatchmakingMinHealers: 1.0
+  MatchmakingMaxHealers: 1.0
+  MatchmakingMinDPS: 3.0
+  MatchmakingMaxDPS: 3.0
+  UseMMBuff: true
+  MatchmakingPriority: 4.0
+  AchievementIdForCompletingMaxRank: DungeonEbonscale00MaxRank
 - GameModeId: DungeonEdengrove00
   ScriptName: DungeonEdengrove00
   SlicePath: Dungeon/LevelScripts/Edengrove00Dungeon
@@ -1331,7 +1771,7 @@
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
-  ActivityType: Expedition
+  ActivityType: Dungeon
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
@@ -1362,6 +1802,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 60.0
+  MatchmakingMaxLevel: 65.0
+  MatchmakingMinGS: 520.0
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 125.0
+  MatchmakingRequiredHealingMastery: 7.0
+  MatchmakingRequiresTauntGem: true
+  MatchmakingMinTanks: 1.0
+  MatchmakingMaxTanks: 1.0
+  MatchmakingMinHealers: 1.0
+  MatchmakingMaxHealers: 1.0
+  MatchmakingMinDPS: 3.0
+  MatchmakingMaxDPS: 3.0
+  UseMMBuff: true
+  MatchmakingPriority: 5.0
+  AchievementIdForCompletingMaxRank: DungeonEdengrove00MaxRank
 - GameModeId: DungeonReekwater00
   ScriptName: DungeonReekwater00
   SlicePath: Dungeon/LevelScripts/Reekwater00Dungeon
@@ -1455,7 +1911,7 @@
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
-  ActivityType: Expedition
+  ActivityType: Dungeon
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
@@ -1486,6 +1942,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 60.0
+  MatchmakingMaxLevel: 65.0
+  MatchmakingMinGS: 535.0
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 135.0
+  MatchmakingRequiredHealingMastery: 7.0
+  MatchmakingRequiresTauntGem: true
+  MatchmakingMinTanks: 1.0
+  MatchmakingMaxTanks: 1.0
+  MatchmakingMinHealers: 1.0
+  MatchmakingMaxHealers: 1.0
+  MatchmakingMinDPS: 3.0
+  MatchmakingMaxDPS: 3.0
+  UseMMBuff: true
+  MatchmakingPriority: 5.0
+  AchievementIdForCompletingMaxRank: DungeonReekwater00MaxRank
 - GameModeId: DungeonCutlassKeys00
   ScriptName: DungeonCutlassKeys00
   SlicePath: Dungeon/LevelScripts/CutlassKeys00Dungeon
@@ -1579,7 +2051,7 @@
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
-  ActivityType: Expedition
+  ActivityType: Dungeon
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
@@ -1610,6 +2082,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 60.0
+  MatchmakingMaxLevel: 65.0
+  MatchmakingMinGS: 550.0
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 145.0
+  MatchmakingRequiredHealingMastery: 7.0
+  MatchmakingRequiresTauntGem: true
+  MatchmakingMinTanks: 1.0
+  MatchmakingMaxTanks: 1.0
+  MatchmakingMinHealers: 1.0
+  MatchmakingMaxHealers: 1.0
+  MatchmakingMinDPS: 3.0
+  MatchmakingMaxDPS: 3.0
+  UseMMBuff: true
+  MatchmakingPriority: 5.0
+  AchievementIdForCompletingMaxRank: DungeonCutlass00MaxRank
 - GameModeId: DungeonGreatCleave01
   ScriptName: DungeonGreatCleave01
   SlicePath: Dungeon/LevelScripts/GreatCleave01Dungeon
@@ -1703,7 +2191,7 @@
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
-  ActivityType: Expedition
+  ActivityType: Dungeon
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
@@ -1734,6 +2222,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 60.0
+  MatchmakingMaxLevel: 65.0
+  MatchmakingMinGS: 560.0
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 155.0
+  MatchmakingRequiredHealingMastery: 7.0
+  MatchmakingRequiresTauntGem: true
+  MatchmakingMinTanks: 1.0
+  MatchmakingMaxTanks: 1.0
+  MatchmakingMinHealers: 1.0
+  MatchmakingMaxHealers: 1.0
+  MatchmakingMinDPS: 3.0
+  MatchmakingMaxDPS: 3.0
+  UseMMBuff: true
+  MatchmakingPriority: 5.0
+  AchievementIdForCompletingMaxRank: DungeonGreatCleave00MaxRank
 - GameModeId: DungeonShatterMtn00
   ScriptName: DungeonShatterMtn00
   SlicePath: Dungeon/LevelScripts/ShatterMtn00Dungeon
@@ -1827,7 +2331,7 @@
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
-  ActivityType: Expedition
+  ActivityType: Dungeon
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
@@ -1858,6 +2362,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 60.0
+  MatchmakingMaxLevel: 65.0
+  MatchmakingMinGS: 575.0
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 160.0
+  MatchmakingRequiredHealingMastery: 7.0
+  MatchmakingRequiresTauntGem: true
+  MatchmakingMinTanks: 1.0
+  MatchmakingMaxTanks: 1.0
+  MatchmakingMinHealers: 1.0
+  MatchmakingMaxHealers: 1.0
+  MatchmakingMinDPS: 3.0
+  MatchmakingMaxDPS: 3.0
+  UseMMBuff: true
+  MatchmakingPriority: 5.0
+  AchievementIdForCompletingMaxRank: DungeonShatterMtn00MaxRank
 - GameModeId: DungeonBrimstoneSands00
   ScriptName: DungeonBrimstoneSands00
   SlicePath: Dungeon/LevelScripts/BrimstoneSands00Dungeon
@@ -1951,7 +2471,7 @@
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
-  ActivityType: Expedition
+  ActivityType: Dungeon
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
@@ -1982,130 +2502,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
-- GameModeId: DungeonGreatCleave00
-  ScriptName: DungeonGreatCleave00
-  SlicePath: Dungeon/LevelScripts/GlacialTarnDungeon
-  RequiresTeamRaids: "0"
-  AdvanceThroughStatesOnUpdate: "1"
-  DisplayName: "@dungeon_greatcleave00_title"
-  Description: "@dungeon_greatcleave00_description"
-  UiInteractOption: ""
-  RequirementText: "@dungeon_greatcleave00_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_glacialtarn.png
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_glacialtarn_simple.png
-  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonGreatCleave00.png
-  CoatlicueName: "coatlicue\\NW_Dungeon_GreatCleave_00"
-  WorldBounds: 679.0,320.0,640.0,640.0
-  TeamTeleportData: 1223,586,302,80
-  FeatureFlag: greatcleave00-dungeon
-  PurchasableItemClasses: ""
-  PurchasableItemClassesRestrictedToMode: ""
-  NonPurchasableItemClasses: ""
-  ItemClassesToRemoveOnExit: DungeonItem
-  RequiredConsumableItemClasses: ""
-  DisabledItemClasses: ""
-  ClearBattleTokensOnExit: "0"
-  RequiresGameModeGDEException: "1"
-  RecommendedLevel: 65.0
-  RequiredLevel: 65.0
-  QueueLevelBuckets: ""
-  QueueReadyThreshold: 5.0
-  BackfillReadyThreshold: 4.0
-  NumTeams: 1.0
-  TeamCapacity: 5.0
-  CombineTeamGroups: null
-  ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
-  GearScoreOverrideValueMax: null
-  MinPlayerLevelToUseGearScoreOverride: null
-  MaxPlayerLevelToUseGearScoreOverride: null
-  PossibleItemDropIds: ""
-  ItemDropLevelThreshold01: 61.0
-  PossibleItemDropIdsByLevel01: EarringT5_Dungeon13_HaillysComet,2hFireStaff_Dungeon13_Frostburn,2hBlunderbuss_Dungeon13_ShortAlphorn,AmuletT5_Dungeon13_HeartOfCold,2hGreataxe_Dungeon13_Avalanche
-  MinGroupSize: 3.0
-  PreserveOldGroup: null
-  IsDungeon: true
-  IsRaidTrial: null
-  IsSeasonTrial: null
-  IsSoloTrial: null
-  IsMutable: true
-  IsRemoteEntryAllowed: true
-  DifficultyProgressionId: DungeonGreatCleave00DifficultyExp23
-  RestrictGathering: false
-  RestrictWaterGathering: true
-  MapId: NW_Dungeon_GreatCleave_00
-  LootTags: GreatCleave00,Ancient,GypsumBlue,Dungeon
-  MutLootTagsOverride: ""
-  ContainerLevel: 65.0
-  LootGSRangeOverride: 625-675
-  MutLootGSRangeOverride: 650-700
-  VictoryDelaySec: 4.0
-  MaxAI: OpenWorld
-  AISpawnRadius: OpenWorld
-  AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.75
-  ProjectedMemoryUseMb: 512.0
-  ProjectedDurationMinutes: 30.0
-  Priority: 2.0
-  ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
-  AILevelAdjustedPerceptionEnabled: false
-  AILeashingOptOut: true
-  DisableDeathsDoor: null
-  DisableMSQTrackersOnHud: null
-  AIPreventEnemyTraining: false
-  UseTeamNamePlate: false
-  ItemDropQuantityOnDeathModifier: 1.0
-  QuitButtonTextId: ""
-  CannotFastTravelTextId: ""
-  LeaveDescTextId: ""
-  LeaveTimeDescTextId: ""
-  LeaveTitleTextId: ""
-  WarBoardStatDefinitions: ""
-  WarBoardAttackerTeamIdx: null
-  WarBoardDefenderTeamIdx: null
-  RaidInviteDelaySec: 5.0
-  RaidInviteDurationSec: 90.0
-  BackfillDelaySec: 30.0
-  PriorityAddMin: null
-  PriorityAddMax: null
-  AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
-  UsePendingListMatchmaking: false
-  AutoEquipQuickslot: null
-  GrantConsumables: ""
-  ActivityType: Expedition
-  OverrideDungeonTimeout: null
-  SpecialQueueGroupSizes: null
-  ResetChargeOnEnter: true
-  ShouldShowAcceptedFlow: null
-  ScreenHeaderTextId: ""
-  JoinButtonTextId: ""
-  SignupTitleTextId: ""
-  LeaveQueueTitleTextId: ""
-  LeaveQueueDescriptionTextId: ""
-  FailGroupPenaltyTextId: ""
-  RespawnTypeToUseForUnstuck: ""
-  LootLimitId: ""
-  DailyLootLimitId: ""
-  WeeklyLootLimitId: ""
-  PossibleJourneyIds: ""
-  TrialIconPath: ""
-  Tip01IconPath: ""
-  Tip01Text: ""
-  Tip02IconPath: ""
-  Tip02Text: ""
-  Tip03IconPath: ""
-  Tip03Text: ""
-  HidePoiName: null
-  HideCompass: null
-  ExclusiveRewardIds: ""
-  UniqueRewardIds: ""
-  BasicRewardIds: ""
-  ReplicateParticipantCharacterIds: true
-  GearScoreRecommendedValueMin: null
-  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 60.0
+  MatchmakingMaxLevel: 65.0
+  MatchmakingMinGS: 590.0
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 170.0
+  MatchmakingRequiredHealingMastery: 7.0
+  MatchmakingRequiresTauntGem: true
+  MatchmakingMinTanks: 1.0
+  MatchmakingMaxTanks: 1.0
+  MatchmakingMinHealers: 1.0
+  MatchmakingMaxHealers: 1.0
+  MatchmakingMinDPS: 3.0
+  MatchmakingMaxDPS: 3.0
+  UseMMBuff: true
+  MatchmakingPriority: 5.0
+  AchievementIdForCompletingMaxRank: DungeonBrimstoneSands00MaxRank
 - GameModeId: DungeonFirstLight01
   ScriptName: DungeonFirstLight01
   SlicePath: Dungeon/LevelScripts/FirstLight01Dungeon
@@ -2199,7 +2611,7 @@
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
-  ActivityType: Expedition
+  ActivityType: Dungeon
   OverrideDungeonTimeout: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
@@ -2230,6 +2642,162 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 62.0
+  MatchmakingMaxLevel: 65.0
+  MatchmakingMinGS: 625.0
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 190.0
+  MatchmakingRequiredHealingMastery: 8.0
+  MatchmakingRequiresTauntGem: true
+  MatchmakingMinTanks: 1.0
+  MatchmakingMaxTanks: 1.0
+  MatchmakingMinHealers: 1.0
+  MatchmakingMaxHealers: 1.0
+  MatchmakingMinDPS: 3.0
+  MatchmakingMaxDPS: 3.0
+  UseMMBuff: true
+  MatchmakingPriority: 5.0
+  AchievementIdForCompletingMaxRank: DungeonFirstLight01MaxRank
+- GameModeId: DungeonGreatCleave00
+  ScriptName: DungeonGreatCleave00
+  SlicePath: Dungeon/LevelScripts/GlacialTarnDungeon
+  RequiresTeamRaids: "0"
+  AdvanceThroughStatesOnUpdate: "1"
+  DisplayName: "@dungeon_greatcleave00_title"
+  Description: "@dungeon_greatcleave00_description"
+  UiInteractOption: ""
+  RequirementText: "@dungeon_greatcleave00_required_equipment"
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_glacialtarn.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_glacialtarn_simple.png
+  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonGreatCleave00.png
+  CoatlicueName: "coatlicue\\NW_Dungeon_GreatCleave_00"
+  WorldBounds: 679.0,320.0,640.0,640.0
+  TeamTeleportData: 1223,586,302,80
+  FeatureFlag: greatcleave00-dungeon
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: DungeonItem
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 65.0
+  RequiredLevel: 65.0
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: 5.0
+  BackfillReadyThreshold: 4.0
+  NumTeams: 1.0
+  TeamCapacity: 5.0
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: 61.0
+  PossibleItemDropIdsByLevel01: EarringT5_Dungeon13_HaillysComet,2hFireStaff_Dungeon13_Frostburn,2hBlunderbuss_Dungeon13_ShortAlphorn,AmuletT5_Dungeon13_HeartOfCold,2hGreataxe_Dungeon13_Avalanche
+  MinGroupSize: 3.0
+  PreserveOldGroup: null
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: null
+  IsMutable: true
+  IsRemoteEntryAllowed: true
+  DifficultyProgressionId: DungeonGreatCleave00DifficultyExp23
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  MapId: NW_Dungeon_GreatCleave_00
+  LootTags: GreatCleave00,Ancient,GypsumBlue,Dungeon
+  MutLootTagsOverride: ""
+  ContainerLevel: 65.0
+  LootGSRangeOverride: 625-675
+  MutLootGSRangeOverride: 650-700
+  VictoryDelaySec: 4.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedCpuUsePercent: 0.75
+  ProjectedMemoryUseMb: 512.0
+  ProjectedDurationMinutes: 30.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: ""
+  CannotFastTravelTextId: ""
+  LeaveDescTextId: ""
+  LeaveTimeDescTextId: ""
+  LeaveTitleTextId: ""
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: Dungeon
+  OverrideDungeonTimeout: null
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: true
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 65.0
+  MatchmakingMaxLevel: 65.0
+  MatchmakingMinGS: 630.0
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 220.0
+  MatchmakingRequiredHealingMastery: 9.0
+  MatchmakingRequiresTauntGem: true
+  MatchmakingMinTanks: 1.0
+  MatchmakingMaxTanks: 1.0
+  MatchmakingMinHealers: 1.0
+  MatchmakingMaxHealers: 1.0
+  MatchmakingMinDPS: 3.0
+  MatchmakingMaxDPS: 3.0
+  UseMMBuff: true
+  MatchmakingPriority: 5.0
+  AchievementIdForCompletingMaxRank: DungeonGreatCleave01MaxRank
 - GameModeId: TrialBrimstoneSandworm
   ScriptName: TrialBrimstoneSandworm
   SlicePath: GameModes/Trials/BrimstoneSandwormTrial00
@@ -2354,6 +2922,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: 600.0
   GearScoreRecommendedValueMax: 625.0
+  MatchmakingMinLevel: 60.0
+  MatchmakingMaxLevel: 65.0
+  MatchmakingMinGS: 625.0
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: 350.0
+  MatchmakingRequiredHealingMastery: 14.0
+  MatchmakingRequiresTauntGem: true
+  MatchmakingMinTanks: 3.0
+  MatchmakingMaxTanks: 4.0
+  MatchmakingMinHealers: 12.0
+  MatchmakingMaxHealers: 14.0
+  MatchmakingMinDPS: 3.0
+  MatchmakingMaxDPS: 4.0
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AchievementIdForCompletingMaxRank: ""
 - GameModeId: TrialSeason01
   ScriptName: TrialSeason01
   SlicePath: Dungeon/LevelScripts/Season_Trial_01
@@ -2478,6 +3062,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: 600.0
   GearScoreRecommendedValueMax: 625.0
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AchievementIdForCompletingMaxRank: ""
 - GameModeId: QuestAdiana
   ScriptName: QuestAdiana
   SlicePath: Dungeon/AdianaFirstLight/AdianaScript
@@ -2602,6 +3202,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AchievementIdForCompletingMaxRank: ""
 - GameModeId: QuestApophis
   ScriptName: QuestApophis
   SlicePath: Dungeon/ApophisBrimstone/ApophisScript
@@ -2726,6 +3342,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AchievementIdForCompletingMaxRank: ""
 - GameModeId: QuestCaerDun
   ScriptName: QuestCaerDun
   SlicePath: Dungeon/CaerDunBrightwood/CaerDunScript
@@ -2850,6 +3482,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AchievementIdForCompletingMaxRank: ""
 - GameModeId: QuestMammoth
   ScriptName: QuestMammoth
   SlicePath: Dungeon/MammothFirstLight/MammothScript
@@ -2974,6 +3622,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AchievementIdForCompletingMaxRank: ""
 - GameModeId: QuestMedusa
   ScriptName: QuestMedusa
   SlicePath: Dungeon/MedusaFirstLight/MedusaScript
@@ -3098,6 +3762,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AchievementIdForCompletingMaxRank: ""
 - GameModeId: QuestMotherwell
   ScriptName: QuestMotherwell
   SlicePath: Dungeon/MotherwellEdengrove/MotherwellScript
@@ -3222,6 +3902,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AchievementIdForCompletingMaxRank: ""
 - GameModeId: QuestNihilo
   ScriptName: QuestNihilo
   SlicePath: Dungeon/NihiloGreatCleave/LeviathanScript
@@ -3346,6 +4042,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AchievementIdForCompletingMaxRank: ""
 - GameModeId: QuestYonas
   ScriptName: QuestYonas
   SlicePath: Dungeon/YonasCave/YonasScript
@@ -3470,6 +4182,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AchievementIdForCompletingMaxRank: ""
 - GameModeId: TrialSeason04Q02
   ScriptName: TrialSeason04Q02
   SlicePath: Dungeon/LevelScripts/TrialSeason04Q02
@@ -3594,6 +4322,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AchievementIdForCompletingMaxRank: ""
 - GameModeId: TrialSeason04Q06
   ScriptName: TrialSeason04Q06
   SlicePath: Dungeon/LevelScripts/TrialSeason04Q06
@@ -3718,6 +4462,22 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AchievementIdForCompletingMaxRank: ""
 - GameModeId: TrialSeason04Q05
   ScriptName: TrialSeason04Q05
   SlicePath: Dungeon/LevelScripts/TrialSeason04Q05
@@ -3842,3 +4602,19 @@
   ReplicateParticipantCharacterIds: true
   GearScoreRecommendedValueMin: 600.0
   GearScoreRecommendedValueMax: 625.0
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AchievementIdForCompletingMaxRank: ""
