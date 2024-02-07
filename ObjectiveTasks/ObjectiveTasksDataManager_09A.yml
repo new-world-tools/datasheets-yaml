@@ -28975,9 +28975,9 @@
   OnInteractStart: null
   SubTask1: 09A_M11_Container_Reset
   SubTask2: 09A_M11_Container_0
-  SubTask3: 09A_M11_Container_1
-  SubTask4: 09A_M11_Container_2
-  SubTask5: ""
+  SubTask3: 09A_M11_Container_1_FailsafeCheck
+  SubTask4: 09A_M11_LockTrialAchievement
+  SubTask5: 09A_M11_Container_2
 - TaskID: 09A_M11_Container_Reset
   Type: ConsecutiveTaskContainer
   FailOnCondition: ""
@@ -29356,6 +29356,132 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
+- TaskID: 09A_M11_Container_1_FailsafeCheck
+  Type: PartialTaskContainer
+  FailOnCondition: ""
+  StayActive: ""
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: 09A_M11_CheckAchievement
+  SubTask2: 09A_M11_Container_1
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 09A_M11_CheckAchievement
+  Type: TaskAchievement
+  FailOnCondition: ""
+  StayActive: ""
+  TargetQty: 1.0
+  ItemName: 09A_M11_MammothTrialComplete
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
 - TaskID: 09A_M11_Container_1
   Type: ConsecutiveTaskContainer
   FailOnCondition: ""
@@ -29417,7 +29543,7 @@
   SubTask1: 09A_M11_TalkToMammothAmbush
   SubTask2: 09A_M11_DefeatMammoth
   SubTask3: 09A_M11_UnlockTrialAchievement2
-  SubTask4: 09A_M11_LockTrialAchievement
+  SubTask4: ""
   SubTask5: ""
 - TaskID: 09A_M11_TalkToMammothAmbush
   Type: TaskTriggerArea
@@ -30109,9 +30235,9 @@
   OnInteractStart: null
   SubTask1: 09A_M12_Container_Reset
   SubTask2: 09A_M12_Container_1
-  SubTask3: 09A_M12_Container_2
-  SubTask4: 09A_M12_Container_3
-  SubTask5: 09A_M12_Container_4
+  SubTask3: 09A_M12_Container_2_FailsafeCheck
+  SubTask4: 09A_M12_Container_SwapEnd
+  SubTask5: ""
 - TaskID: 09A_M12_Container_Reset
   Type: ConsecutiveTaskContainer
   FailOnCondition: ""
@@ -30616,6 +30742,132 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
+- TaskID: 09A_M12_Container_2_FailsafeCheck
+  Type: PartialTaskContainer
+  FailOnCondition: ""
+  StayActive: ""
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: 09A_M12_CheckAchievement
+  SubTask2: 09A_M12_Container_2
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 09A_M12_CheckAchievement
+  Type: TaskAchievement
+  FailOnCondition: ""
+  StayActive: ""
+  TargetQty: 1.0
+  ItemName: 09A_M12_MedusaTrialComplete
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
 - TaskID: 09A_M12_Container_2
   Type: ConsecutiveTaskContainer
   FailOnCondition: ""
@@ -30678,7 +30930,7 @@
   SubTask2: 09A_M12_LoadingDelay
   SubTask3: 09A_M12_EnterArena
   SubTask4: 09A_M12_LeaveLoadVolume
-  SubTask5: ""
+  SubTask5: 09A_M12_Container_3
 - TaskID: 09A_M12_Container_2a
   Type: PartialTaskContainer
   FailOnCondition: ""
@@ -31119,7 +31371,7 @@
   SubTask2: 09A_M12_DefeatMedusa
   SubTask3: 09A_M12_DefeatMedusaAchievement
   SubTask4: 09A_M12_SaveTaurus
-  SubTask5: 09A_M12_UnlockTaurusSwap
+  SubTask5: 09A_M12_Container_4
 - TaskID: 09A_M12_CinematicAchievement
   Type: TaskUnlockAchievement
   FailOnCondition: ""
@@ -31372,6 +31624,69 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
+- TaskID: 09A_M12_Container_4
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: ""
+  StayActive: ""
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: 09A_M12_UnlockTaurusSwap
+  SubTask2: 09A_M12_TalkToTaurus
+  SubTask3: 09A_M12_Container_TrialExit
+  SubTask4: ""
+  SubTask5: ""
 - TaskID: 09A_M12_UnlockTaurusSwap
   Type: TaskUnlockAchievement
   FailOnCondition: ""
@@ -31433,69 +31748,6 @@
   SubTask1: ""
   SubTask2: ""
   SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 09A_M12_Container_4
-  Type: ConsecutiveTaskContainer
-  FailOnCondition: ""
-  StayActive: ""
-  TargetQty: null
-  ItemName: ""
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: ""
-  EnforceLocationRequirement: null
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: null
-  ShouldCheckPoints: null
-  GuranteedDropAttempts: null
-  TargetThreshold: ""
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: null
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: ""
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: "1"
-  HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
-  DiegeticPinZOverride: null
-  SS_VariantName: ""
-  SS_StatePreset: null
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: null
-  SubTask1: 09A_M12_TalkToTaurus
-  SubTask2: 09A_M12_Container_TrialExit
-  SubTask3: 09A_M12_Container_SwapEnd
   SubTask4: ""
   SubTask5: ""
 - TaskID: 09A_M12_TalkToTaurus
