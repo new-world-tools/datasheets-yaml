@@ -16,3 +16,21 @@
   AttachmentName: righthandattach
   WarningTime: null
   AttachmentSlicePath: slices/Characters/SpellSlices/Seasons/Season_04/ancient_ice_guardian_trial_icicle_equipped.dynamicslice
+- ThrowableId: MSQ_Empress_Cannon
+  ActivationTime: 3.0
+  SpawnSliceOnActivate: true
+  ActivationSlicePath: slices/items/weapons/Throwable_Base_Explosion.dynamicslice
+  GatherableSlicePath: slices/Characters/SpellSlices/Dynasty_Empress_Solo_Cannon_Gatherable.dynamicslice
+  SpellName: AI_MSQ_Empress_Cannon_BallProjectile
+  AttachmentName: righthandattach
+  WarningTime: 2.0
+  AttachmentSlicePath: slices/Characters/SpellSlices/Dynasty_Empress_Solo_Cannon_Equipped.dynamicslice
+- ThrowableId: LightningFields_Core_Throwable_Item
+  ActivationTime: null
+  SpawnSliceOnActivate: true
+  ActivationSlicePath: ""
+  GatherableSlicePath: slices/WorldEvents/CutlassKeys/LightningFields/LightningFields_Throwable_Gatherable_01.dynamicslice
+  SpellName: LightningFields_Throwable_Base_Projectile
+  AttachmentName: righthandattach
+  WarningTime: null
+  AttachmentSlicePath: slices/WorldEvents/CutlassKeys/LightningFields/LightningFields_Throwable_Object_Equipped_01.dynamicslice

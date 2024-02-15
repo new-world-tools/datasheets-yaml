@@ -341,15 +341,15 @@
 - ConversationStateId: 0714_01_Watcher
   ConversationType: Linear_Objective
   IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0714_01_Watcher"
+  DefaultDialogue: "@NPC_DefaultDialogue_0714_03_Watcher"
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredProgression: ""
-  RequiredLevel: 58.0
-  RequiredAchievement: ""
+  RequiredLevel: null
+  RequiredAchievement: 99G_MSQ_05 || 99_MSQ_59
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
-  LinearObjectiveId1: 0714_0101_fieldsoffire
+  LinearObjectiveId1: 0715_0102_luckonlylends
   LinearObjectiveId2: ""
   LinearObjectiveId3: ""
   LinearObjectiveId4: ""
@@ -379,8 +379,8 @@
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredProgression: ""
-  RequiredLevel: 58.0
-  RequiredAchievement: BeachStart_Everfall
+  RequiredLevel: null
+  RequiredAchievement: 07_Quest_05 && BeachStart_Everfall && (99G_MSQ_06 || 99_MSQ_59)
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
   LinearObjectiveId1: 0714_0101_fieldsoffire
@@ -409,15 +409,15 @@
 - ConversationStateId: 0714_03_Watcher
   ConversationType: Linear_Objective
   IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0714_03_Watcher"
+  DefaultDialogue: "@NPC_DefaultDialogue_0714_01_Watcher"
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredProgression: ""
   RequiredLevel: null
-  RequiredAchievement: 07_Quest_03
+  RequiredAchievement: 07_Quest_05 && (99G_MSQ_06 || 99_MSQ_59)
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
-  LinearObjectiveId1: 0715_0102_luckonlylends
+  LinearObjectiveId1: 0714_0101_fieldsoffire
   LinearObjectiveId2: ""
   LinearObjectiveId3: ""
   LinearObjectiveId4: ""
@@ -448,7 +448,7 @@
   RequiredFaction: ""
   RequiredProgression: ""
   RequiredLevel: null
-  RequiredAchievement: 07_Quest_05
+  RequiredAchievement: 07_Quest_05 && 07_Quest_03
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
   LinearObjectiveId1: 0714_0105_baetylusheadpiece
@@ -550,7 +550,7 @@
   RequiredFaction: ""
   RequiredProgression: ""
   RequiredLevel: null
-  RequiredAchievement: 07_Quest_03
+  RequiredAchievement: 99G_MSQ_01 || 99_MSQ_59
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
   LinearObjectiveId1: 0715_0101_varietiesofheat
@@ -584,7 +584,7 @@
   RequiredFaction: ""
   RequiredProgression: ""
   RequiredLevel: null
-  RequiredAchievement: BeachStart_Monarchs
+  RequiredAchievement: BeachStart_Monarchs && (99G_MSQ_01 || 99_MSQ_59)
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
   LinearObjectiveId1: 0715_0101_varietiesofheat
@@ -681,15 +681,15 @@
 - ConversationStateId: 0717_01_Warden
   ConversationType: Linear_Objective
   IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0717_01_Warden"
+  DefaultDialogue: "@NPC_DefaultDialogue_0717_02_Warden"
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredProgression: ""
   RequiredLevel: null
-  RequiredAchievement: 07_Quest_03
+  RequiredAchievement: 99_MSQ_56 || 99E_MSQ_11
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
-  LinearObjectiveId1: 0713_0101_explorerift
+  LinearObjectiveId1: 9901_0057_insoulinstone
   LinearObjectiveId2: ""
   LinearObjectiveId3: ""
   LinearObjectiveId4: ""
@@ -715,16 +715,16 @@
 - ConversationStateId: 0717_02_Warden
   ConversationType: Linear_Objective
   IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0717_02_Warden"
+  DefaultDialogue: "@NPC_DefaultDialogue_0717_01_Warden"
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredProgression: ""
   RequiredLevel: null
-  RequiredAchievement: 99_MSQ_56 || 99E_MSQ_11
+  RequiredAchievement: 07_Quest_06 && (99G_MSQ_07 || 99_MSQ_57)
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
-  LinearObjectiveId1: 9901_0057_insoulinstone
-  LinearObjectiveId2: 0713_0101_explorerift
+  LinearObjectiveId1: 0713_0101_explorerift
+  LinearObjectiveId2: ""
   LinearObjectiveId3: ""
   LinearObjectiveId4: ""
   LinearObjectiveId5: ""
@@ -754,10 +754,10 @@
   RequiredFaction: ""
   RequiredProgression: ""
   RequiredLevel: null
-  RequiredAchievement: 99_MSQ_57
+  RequiredAchievement: ""
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
-  LinearObjectiveId1: 0713_0101_explorerift
+  LinearObjectiveId1: ""
   LinearObjectiveId2: ""
   LinearObjectiveId3: ""
   LinearObjectiveId4: ""
@@ -822,7 +822,7 @@
   RequiredFaction: ""
   RequiredProgression: ""
   RequiredLevel: null
-  RequiredAchievement: 07_Quest_02
+  RequiredAchievement: 99G_MSQ_06 || 99_MSQ_59
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
   LinearObjectiveId1: 0716_0101_malevolentofferings
@@ -856,7 +856,7 @@
   RequiredFaction: ""
   RequiredProgression: ""
   RequiredLevel: null
-  RequiredAchievement: BeachStart_FirstLight
+  RequiredAchievement: BeachStart_FirstLight && (99G_MSQ_06 || 99_MSQ_59)
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
   LinearObjectiveId1: 0716_0101_malevolentofferings
@@ -958,7 +958,7 @@
   RequiredFaction: ""
   RequiredProgression: ""
   RequiredLevel: null
-  RequiredAchievement: 07_Quest_06
+  RequiredAchievement: 99G_MSQ_05 || 99_MSQ_59
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
   LinearObjectiveId1: 0712_0101_layerspastandpresent
@@ -992,7 +992,7 @@
   RequiredFaction: ""
   RequiredProgression: ""
   RequiredLevel: null
-  RequiredAchievement: BeachStart_Windsward
+  RequiredAchievement: BeachStart_Windsward && (99G_MSQ_05 || 99_MSQ_59)
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
   LinearObjectiveId1: 0712_0101_layerspastandpresent
@@ -1094,7 +1094,7 @@
   RequiredFaction: ""
   RequiredProgression: ""
   RequiredLevel: null
-  RequiredAchievement: 07_Quest_06
+  RequiredAchievement: 99G_MSQ_03 || 99_MSQ_59
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
   LinearObjectiveId1: 0718_0102_humble
@@ -1297,7 +1297,7 @@
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredProgression: ""
-  RequiredLevel: 58.0
+  RequiredLevel: null
   RequiredAchievement: ""
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
@@ -1327,15 +1327,15 @@
 - ConversationStateId: 0719_02_Ranger
   ConversationType: Linear_Objective
   IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0719_02_Ranger"
+  DefaultDialogue: "@NPC_DefaultDialogue_0719_03_Ranger"
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredProgression: ""
-  RequiredLevel: 58.0
-  RequiredAchievement: 03_Quest_10
+  RequiredLevel: null
+  RequiredAchievement: 99F_MSQ_12 || 99_MSQ_59
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
-  LinearObjectiveId1: 0719_0101_reflectionsmountainheart
+  LinearObjectiveId1: 0719_0201_madakisstratagem
   LinearObjectiveId2: ""
   LinearObjectiveId3: ""
   LinearObjectiveId4: ""
@@ -1361,15 +1361,15 @@
 - ConversationStateId: 0719_03_Ranger
   ConversationType: Linear_Objective
   IsInitialState: false
-  DefaultDialogue: "@NPC_DefaultDialogue_0719_03_Ranger"
+  DefaultDialogue: "@NPC_DefaultDialogue_0719_02_Ranger"
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredProgression: ""
-  RequiredLevel: 60.0
-  RequiredAchievement: 07_Quest_10
+  RequiredLevel: null
+  RequiredAchievement: 03_Quest_10 || 99G_MSQ_12
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
-  LinearObjectiveId1: 0719_0201_madakisstratagem
+  LinearObjectiveId1: 0719_0101_reflectionsmountainheart
   LinearObjectiveId2: ""
   LinearObjectiveId3: ""
   LinearObjectiveId4: ""
@@ -1910,7 +1910,7 @@
   RequiredFaction: ""
   RequiredProgression: ""
   RequiredLevel: 60.0
-  RequiredAchievement: ""
+  RequiredAchievement: 99_MSQ_59||99G_MSQ_12
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
   LinearObjectiveId1: 0726_0101_MightyTempest
@@ -2212,6 +2212,244 @@
   ConversationType: Linear_Objective
   IsInitialState: true
   DefaultDialogue: "@0728_Kesava_1"
+  ForceConversationOpen: ""
+  RequiredFaction: ""
+  RequiredProgression: ""
+  RequiredLevel: null
+  RequiredAchievement: ""
+  RequiredActiveObjectiveId: ""
+  RequiredActiveTaskId: ""
+  LinearObjectiveId1: ""
+  LinearObjectiveId2: ""
+  LinearObjectiveId3: ""
+  LinearObjectiveId4: ""
+  LinearObjectiveId5: ""
+  LinearObjectiveId6: ""
+  LinearObjectiveId7: ""
+  LinearObjectiveId8: ""
+  LinearObjectiveId9: ""
+  LinearObjectiveId10: ""
+  TopicId1: ""
+  TopicId2: ""
+  TopicId3: ""
+  TopicId4: ""
+  TopicId5: ""
+  TopicId6: ""
+  TopicId7: ""
+  TopicId8: ""
+  TopicId9: ""
+  TopicId10: ""
+  ConversationService1: ""
+  ConversationService2: ""
+  ConversationService3: ""
+- ConversationStateId: 99G_00_Laverna
+  ConversationType: Linear_Objective
+  IsInitialState: true
+  DefaultDialogue: "@99G_Laverna_Greet_00"
+  ForceConversationOpen: ""
+  RequiredFaction: ""
+  RequiredProgression: ""
+  RequiredLevel: null
+  RequiredAchievement: ""
+  RequiredActiveObjectiveId: ""
+  RequiredActiveTaskId: ""
+  LinearObjectiveId1: ""
+  LinearObjectiveId2: ""
+  LinearObjectiveId3: ""
+  LinearObjectiveId4: ""
+  LinearObjectiveId5: ""
+  LinearObjectiveId6: ""
+  LinearObjectiveId7: ""
+  LinearObjectiveId8: ""
+  LinearObjectiveId9: ""
+  LinearObjectiveId10: ""
+  TopicId1: ""
+  TopicId2: ""
+  TopicId3: ""
+  TopicId4: ""
+  TopicId5: ""
+  TopicId6: ""
+  TopicId7: ""
+  TopicId8: ""
+  TopicId9: ""
+  TopicId10: ""
+  ConversationService1: ""
+  ConversationService2: ""
+  ConversationService3: ""
+- ConversationStateId: 99G_00_Petar
+  ConversationType: Linear_Objective
+  IsInitialState: true
+  DefaultDialogue: "@99G_Petar_Greet_00"
+  ForceConversationOpen: ""
+  RequiredFaction: ""
+  RequiredProgression: ""
+  RequiredLevel: null
+  RequiredAchievement: ""
+  RequiredActiveObjectiveId: ""
+  RequiredActiveTaskId: ""
+  LinearObjectiveId1: ""
+  LinearObjectiveId2: ""
+  LinearObjectiveId3: ""
+  LinearObjectiveId4: ""
+  LinearObjectiveId5: ""
+  LinearObjectiveId6: ""
+  LinearObjectiveId7: ""
+  LinearObjectiveId8: ""
+  LinearObjectiveId9: ""
+  LinearObjectiveId10: ""
+  TopicId1: ""
+  TopicId2: ""
+  TopicId3: ""
+  TopicId4: ""
+  TopicId5: ""
+  TopicId6: ""
+  TopicId7: ""
+  TopicId8: ""
+  TopicId9: ""
+  TopicId10: ""
+  ConversationService1: ""
+  ConversationService2: ""
+  ConversationService3: ""
+- ConversationStateId: 99G_01_Petar
+  ConversationType: Linear_Objective
+  IsInitialState: false
+  DefaultDialogue: "@99G_Petar_Greet_01"
+  ForceConversationOpen: ""
+  RequiredFaction: ""
+  RequiredProgression: ""
+  RequiredLevel: null
+  RequiredAchievement: 99G_MSQ_10
+  RequiredActiveObjectiveId: ""
+  RequiredActiveTaskId: ""
+  LinearObjectiveId1: ""
+  LinearObjectiveId2: ""
+  LinearObjectiveId3: ""
+  LinearObjectiveId4: ""
+  LinearObjectiveId5: ""
+  LinearObjectiveId6: ""
+  LinearObjectiveId7: ""
+  LinearObjectiveId8: ""
+  LinearObjectiveId9: ""
+  LinearObjectiveId10: ""
+  TopicId1: ""
+  TopicId2: ""
+  TopicId3: ""
+  TopicId4: ""
+  TopicId5: ""
+  TopicId6: ""
+  TopicId7: ""
+  TopicId8: ""
+  TopicId9: ""
+  TopicId10: ""
+  ConversationService1: ""
+  ConversationService2: ""
+  ConversationService3: ""
+- ConversationStateId: 99G_00_Qasim
+  ConversationType: Linear_Objective
+  IsInitialState: true
+  DefaultDialogue: "@99G_Qasim_Greet_00"
+  ForceConversationOpen: ""
+  RequiredFaction: ""
+  RequiredProgression: ""
+  RequiredLevel: null
+  RequiredAchievement: ""
+  RequiredActiveObjectiveId: ""
+  RequiredActiveTaskId: ""
+  LinearObjectiveId1: ""
+  LinearObjectiveId2: ""
+  LinearObjectiveId3: ""
+  LinearObjectiveId4: ""
+  LinearObjectiveId5: ""
+  LinearObjectiveId6: ""
+  LinearObjectiveId7: ""
+  LinearObjectiveId8: ""
+  LinearObjectiveId9: ""
+  LinearObjectiveId10: ""
+  TopicId1: ""
+  TopicId2: ""
+  TopicId3: ""
+  TopicId4: ""
+  TopicId5: ""
+  TopicId6: ""
+  TopicId7: ""
+  TopicId8: ""
+  TopicId9: ""
+  TopicId10: ""
+  ConversationService1: ""
+  ConversationService2: ""
+  ConversationService3: ""
+- ConversationStateId: 99G_00_Matthias
+  ConversationType: Linear_Objective
+  IsInitialState: true
+  DefaultDialogue: "@99G_Matthias_Greet_00"
+  ForceConversationOpen: ""
+  RequiredFaction: ""
+  RequiredProgression: ""
+  RequiredLevel: null
+  RequiredAchievement: ""
+  RequiredActiveObjectiveId: ""
+  RequiredActiveTaskId: ""
+  LinearObjectiveId1: ""
+  LinearObjectiveId2: ""
+  LinearObjectiveId3: ""
+  LinearObjectiveId4: ""
+  LinearObjectiveId5: ""
+  LinearObjectiveId6: ""
+  LinearObjectiveId7: ""
+  LinearObjectiveId8: ""
+  LinearObjectiveId9: ""
+  LinearObjectiveId10: ""
+  TopicId1: ""
+  TopicId2: ""
+  TopicId3: ""
+  TopicId4: ""
+  TopicId5: ""
+  TopicId6: ""
+  TopicId7: ""
+  TopicId8: ""
+  TopicId9: ""
+  TopicId10: ""
+  ConversationService1: ""
+  ConversationService2: ""
+  ConversationService3: ""
+- ConversationStateId: 99G_01_Matthias
+  ConversationType: Linear_Objective
+  IsInitialState: false
+  DefaultDialogue: "@99G_Matthias_Greet_01"
+  ForceConversationOpen: ""
+  RequiredFaction: ""
+  RequiredProgression: ""
+  RequiredLevel: null
+  RequiredAchievement: 99G_MSQ_10
+  RequiredActiveObjectiveId: ""
+  RequiredActiveTaskId: ""
+  LinearObjectiveId1: ""
+  LinearObjectiveId2: ""
+  LinearObjectiveId3: ""
+  LinearObjectiveId4: ""
+  LinearObjectiveId5: ""
+  LinearObjectiveId6: ""
+  LinearObjectiveId7: ""
+  LinearObjectiveId8: ""
+  LinearObjectiveId9: ""
+  LinearObjectiveId10: ""
+  TopicId1: ""
+  TopicId2: ""
+  TopicId3: ""
+  TopicId4: ""
+  TopicId5: ""
+  TopicId6: ""
+  TopicId7: ""
+  TopicId8: ""
+  TopicId9: ""
+  TopicId10: ""
+  ConversationService1: ""
+  ConversationService2: ""
+  ConversationService3: ""
+- ConversationStateId: 99G_00_Mathilda
+  ConversationType: Linear_Objective
+  IsInitialState: true
+  DefaultDialogue: "@99G_Mathilda_Greet_00"
   ForceConversationOpen: ""
   RequiredFaction: ""
   RequiredProgression: ""

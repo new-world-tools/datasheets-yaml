@@ -21,8 +21,8 @@
   ItemRewardName: 95_s01_01_Bag
   ItemRewardQty: 1.0
   ShouldResetOnFactionChange: ""
-  Repeatable: null
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@95_s01_01_CROW_GracelessRequest_Title"
   Description: "@95_s01_01_CROW_GracelessRequest_Description"
   PlayerPrompt: "@95_s01_01_CROW_GracelessRequest_Start"
@@ -39,6 +39,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 95_s01_03_CROW_BestOfAeternum
   Type: SeasonQuest
   Difficulty: ""
@@ -62,8 +63,8 @@
   ItemRewardName: ""
   ItemRewardQty: null
   ShouldResetOnFactionChange: ""
-  Repeatable: null
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@95_s01_03_CROW_BestOfAeternum_Title"
   Description: "@95_s01_03_CROW_BestOfAeternum_Description"
   PlayerPrompt: "@95_s01_03_CROW_BestOfAeternum_Start_alt"
@@ -80,6 +81,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 95_s01_04_CROW_ZanderTheRed
   Type: SeasonQuest
   Difficulty: ""
@@ -103,8 +105,8 @@
   ItemRewardName: 95_s01_05_2hWarhammer
   ItemRewardQty: 1.0
   ShouldResetOnFactionChange: ""
-  Repeatable: null
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@95_s01_04_CROW_ZanderTheRed_Title"
   Description: "@95_s01_04_CROW_ZanderTheRed_Description"
   PlayerPrompt: "@95_s01_04_CROW_ZanderTheRed_Start"
@@ -121,6 +123,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 95_s01_05_CROW_CanonAndCoin
   Type: SeasonQuest
   Difficulty: ""
@@ -144,8 +147,8 @@
   ItemRewardName: DarkMatter
   ItemRewardQty: 40.0
   ShouldResetOnFactionChange: ""
-  Repeatable: null
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@95_s01_05_CROW_CanonAndCoin_Title"
   Description: "@95_s01_05_CROW_CanonAndCoin_Description"
   PlayerPrompt: "@95_s01_05_CROW_CanonAndCoin_Start"
@@ -162,6 +165,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 95_s01_X1_EXPD_Empyrean
   Type: Journey
   Difficulty: ""
@@ -185,8 +189,8 @@
   ItemRewardName: 95_s01_e03_2hGreatAxe
   ItemRewardQty: 1.0
   ShouldResetOnFactionChange: ""
-  Repeatable: null
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@95_s01_X1_EXPD_Empyrean_Title"
   Description: "@95_s01_X1_EXPD_Empyrean_Description"
   PlayerPrompt: "@95_s01_X1_EXPD_Empyrean_Start"
@@ -203,6 +207,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 95_s01_X2_EXPD_EmpyreanRepeat
   Type: Journey
   Difficulty: ""
@@ -226,8 +231,8 @@
   ItemRewardName: GypsumOrb
   ItemRewardQty: 1.0
   ShouldResetOnFactionChange: ""
-  Repeatable: 1.0
   CanBeAbandoned: true
+  Repeatable: true
   Title: "@95_s01_X2_EXPD_EmpyreanRepeat_Title"
   Description: "@95_s01_X2_EXPD_EmpyreanRepeat_Description"
   PlayerPrompt: "@95_s01_X2_EXPD_EmpyreanRepeat_Start"
@@ -244,3 +249,4 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: Daily

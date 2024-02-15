@@ -1326,8 +1326,8 @@
   GatheringFragment: ""
   FinalLootTable: IronwoodTreeTiny
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 630.0
-  MaxRespawnRate: 900.0
+  MinRespawnRate: 840.0
+  MaxRespawnRate: 1200.0
   Tradeskill: Logging
   RequiredTradeskillLevel: 150.0
   ExpansionIdUnlock: ""
@@ -1370,8 +1370,8 @@
   GatheringFragment: ""
   FinalLootTable: IronwoodTreeSmall
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 756.0
-  MaxRespawnRate: 1080.0
+  MinRespawnRate: 1008.0
+  MaxRespawnRate: 1440.0
   Tradeskill: Logging
   RequiredTradeskillLevel: 150.0
   ExpansionIdUnlock: ""
@@ -1414,8 +1414,8 @@
   GatheringFragment: ""
   FinalLootTable: IronwoodTreeMedium
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 945.0
-  MaxRespawnRate: 1350.0
+  MinRespawnRate: 1260.0
+  MaxRespawnRate: 1800.0
   Tradeskill: Logging
   RequiredTradeskillLevel: 150.0
   ExpansionIdUnlock: ""
@@ -1458,8 +1458,8 @@
   GatheringFragment: ""
   FinalLootTable: IronwoodTreeLarge
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 1071.0
-  MaxRespawnRate: 1530.0
+  MinRespawnRate: 1428.0
+  MaxRespawnRate: 2040.0
   Tradeskill: Logging
   RequiredTradeskillLevel: 150.0
   ExpansionIdUnlock: ""
@@ -1502,8 +1502,8 @@
   GatheringFragment: ""
   FinalLootTable: IronwoodTreeHuge
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 1260.0
-  MaxRespawnRate: 1800.0
+  MinRespawnRate: 1680.0
+  MaxRespawnRate: 2400.0
   Tradeskill: Logging
   RequiredTradeskillLevel: 150.0
   ExpansionIdUnlock: ""
@@ -1546,8 +1546,8 @@
   GatheringFragment: ""
   FinalLootTable: WyrdwoodTreeTiny
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 840.0
-  MaxRespawnRate: 1200.0
+  MinRespawnRate: 630.0
+  MaxRespawnRate: 900.0
   Tradeskill: Logging
   RequiredTradeskillLevel: 100.0
   ExpansionIdUnlock: ""
@@ -1590,8 +1590,8 @@
   GatheringFragment: ""
   FinalLootTable: WyrdwoodTreeSmall
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 1008.0
-  MaxRespawnRate: 1440.0
+  MinRespawnRate: 756.0
+  MaxRespawnRate: 1080.0
   Tradeskill: Logging
   RequiredTradeskillLevel: 100.0
   ExpansionIdUnlock: ""
@@ -1634,8 +1634,8 @@
   GatheringFragment: ""
   FinalLootTable: WyrdwoodTreeMedium
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 1260.0
-  MaxRespawnRate: 1800.0
+  MinRespawnRate: 945.0
+  MaxRespawnRate: 1350.0
   Tradeskill: Logging
   RequiredTradeskillLevel: 100.0
   ExpansionIdUnlock: ""
@@ -1678,8 +1678,8 @@
   GatheringFragment: ""
   FinalLootTable: WyrdwoodTreeLarge
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 1428.0
-  MaxRespawnRate: 2040.0
+  MinRespawnRate: 1071.0
+  MaxRespawnRate: 1530.0
   Tradeskill: Logging
   RequiredTradeskillLevel: 100.0
   ExpansionIdUnlock: ""
@@ -1722,8 +1722,8 @@
   GatheringFragment: ""
   FinalLootTable: WyrdwoodTreeHuge
   LootTableDefaultMaterial: ""
-  MinRespawnRate: 1680.0
-  MaxRespawnRate: 2400.0
+  MinRespawnRate: 1260.0
+  MaxRespawnRate: 1800.0
   Tradeskill: Logging
   RequiredTradeskillLevel: 100.0
   ExpansionIdUnlock: ""
@@ -19944,7 +19944,7 @@
   RequiredTradeskillLevel: null
   ExpansionIdUnlock: ""
   DepletedGatherableID: null
-  BaseGatherTime: 0.25
+  BaseGatherTime: 0.0
   WaitForImpact: false
   Restriction: NoToolNecessary
   AlignGatherer: false
@@ -20824,7 +20824,7 @@
   RequiredTradeskillLevel: null
   ExpansionIdUnlock: ""
   DepletedGatherableID: null
-  BaseGatherTime: 6.0
+  BaseGatherTime: 3.0
   WaitForImpact: false
   Restriction: ItemRequired
   AlignGatherer: true
@@ -21352,7 +21352,7 @@
   RequiredTradeskillLevel: null
   ExpansionIdUnlock: ""
   DepletedGatherableID: null
-  BaseGatherTime: 6.0
+  BaseGatherTime: 3.0
   WaitForImpact: false
   Restriction: NoToolNecessary
   AlignGatherer: true
@@ -63050,6 +63050,50 @@
   LandmarkIconPath: ""
   RequiredWhisperId: ""
   MountGatherers: ""
+- GatherableID: LightningFields_Core_Throwable
+  DisplayName: "@LightningFields_Core_Throwable_DisplayName"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: LightningFields_Core_Throwable_Item
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 900.0
+  MaxRespawnRate: 1800.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 0.0
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: ""
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: false
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
 - GatherableID: 16_Side_12_DragonEggA
   DisplayName: "@16_Side_12_DragonEgg_DisplayName"
   GatheringAction: None
@@ -70794,6 +70838,94 @@
   LandmarkIconPath: ""
   RequiredWhisperId: ""
   MountGatherers: ""
+- GatherableID: MSQ_AbominableLiang_Soul
+  DisplayName: "@99F_MSQ_08_Liang_Soul_Separation"
+  GatheringAction: AzothStaffLow
+  GatheringType: AzothStaff
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: Empty
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 60480.0
+  MaxRespawnRate: 86400.0
+  Tradeskill: AzothStaff
+  RequiredTradeskillLevel: 0.0
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 6.0
+  WaitForImpact: false
+  Restriction: ToolRequired
+  AlignGatherer: false
+  GameEventID: MSQ_AbominableLiang_Soul_interact
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: true
+  IsLootContainer: false
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: "1"
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: MSQ_AbominableLiang_TalismanPile
+  DisplayName: "@MSQ_AbominableLiang_TalismanPile_DisplayName"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: Empty
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 20.0
+  MaxRespawnRate: 20.0
+  Tradeskill: None
+  RequiredTradeskillLevel: 0.0
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 0.0
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: MSQ_AbominableLiang_TalismanPile_interact
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: true
+  IsLootContainer: false
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: AI_AbominableLiang_ProtectiveTalisman
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
 - GatherableID: Ice_Torso_Boss_Bridge
   DisplayName: "@Ice_Torso_Boss_Bridge_DisplayName"
   GatheringAction: AzothStaffCreate
@@ -70838,23 +70970,67 @@
   LandmarkIconPath: ""
   RequiredWhisperId: ""
   MountGatherers: ""
-- GatherableID: Dungeon_GreatCleave_00_IceGatherA
-  DisplayName: "@Dungeon_GreatCleave_00_IceGatherA"
+- GatherableID: MSQ_Empress_Cannon
+  DisplayName: "@MSQ_Empress_Cannon_DisplayName"
   GatheringAction: None
   GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: MSQ_Empress_Cannon_Throwable
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 30.0
+  MaxRespawnRate: 30.0
+  Tradeskill: None
+  RequiredTradeskillLevel: 0.0
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 0.3
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: ""
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: true
+  IsLootContainer: false
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: Dungeon_GreatCleave_00_IceGatherA
+  DisplayName: "@Dungeon_GreatCleave_00_IceGatherA"
+  GatheringAction: Mining
+  GatheringType: Mining
   IdleFragment: ""
   GatheringFragment: ""
   FinalLootTable: Empty
   LootTableDefaultMaterial: ""
   MinRespawnRate: 1200.0
   MaxRespawnRate: 1200.0
-  Tradeskill: None
-  RequiredTradeskillLevel: null
+  Tradeskill: Mining
+  RequiredTradeskillLevel: 0.0
   ExpansionIdUnlock: ""
   DepletedGatherableID: null
   BaseGatherTime: 5.0
   WaitForImpact: true
-  Restriction: NoToolNecessary
+  Restriction: ToolRequired
   AlignGatherer: true
   GameEventID: Dungeon_GreatCleave_00_IceGatherA_interact
   ItemRestrictionId: ""
@@ -70884,21 +71060,21 @@
   MountGatherers: ""
 - GatherableID: Dungeon_GreatCleave_00_IceGatherB
   DisplayName: "@Dungeon_GreatCleave_00_IceGatherB"
-  GatheringAction: None
-  GatheringType: None
+  GatheringAction: Mining
+  GatheringType: Mining
   IdleFragment: ""
   GatheringFragment: ""
   FinalLootTable: Empty
   LootTableDefaultMaterial: ""
   MinRespawnRate: 1200.0
   MaxRespawnRate: 1200.0
-  Tradeskill: None
-  RequiredTradeskillLevel: null
+  Tradeskill: Mining
+  RequiredTradeskillLevel: 0.0
   ExpansionIdUnlock: ""
   DepletedGatherableID: null
   BaseGatherTime: 5.0
   WaitForImpact: true
-  Restriction: NoToolNecessary
+  Restriction: ToolRequired
   AlignGatherer: true
   GameEventID: Dungeon_GreatCleave_00_IceGatherB_interact
   ItemRestrictionId: ""
@@ -70928,21 +71104,21 @@
   MountGatherers: ""
 - GatherableID: Dungeon_GreatCleave_00_IceGatherC
   DisplayName: "@Dungeon_GreatCleave_00_IceGatherC"
-  GatheringAction: None
-  GatheringType: None
+  GatheringAction: Mining
+  GatheringType: Mining
   IdleFragment: ""
   GatheringFragment: ""
   FinalLootTable: Empty
   LootTableDefaultMaterial: ""
   MinRespawnRate: 1200.0
   MaxRespawnRate: 1200.0
-  Tradeskill: None
-  RequiredTradeskillLevel: null
+  Tradeskill: Mining
+  RequiredTradeskillLevel: 0.0
   ExpansionIdUnlock: ""
   DepletedGatherableID: null
   BaseGatherTime: 5.0
   WaitForImpact: true
-  Restriction: NoToolNecessary
+  Restriction: ToolRequired
   AlignGatherer: true
   GameEventID: Dungeon_GreatCleave_00_IceGatherC_interact
   ItemRestrictionId: ""
@@ -71655,6 +71831,666 @@
   SongRewardId: ""
   ResetGatherTimeOnEndInteraction: false
   IsLootContainer: false
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: 99G_MSQ_MyrkgardBanner
+  DisplayName: "@99G_MSQ_MyrkgardBanner_DisplayName"
+  GatheringAction: AzothStaffLow
+  GatheringType: AzothStaff
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: Empty
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 300.0
+  MaxRespawnRate: 300.0
+  Tradeskill: AzothStaff
+  RequiredTradeskillLevel: 5.0
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 3.0
+  WaitForImpact: false
+  Restriction: ToolRequired
+  AlignGatherer: false
+  GameEventID: 99G_MSQ_MyrkgardBanner_interact
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: true
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: 99G_MSQ_SM_DestroyEnemy_Kneel01
+  DisplayName: "@99G_MSQ_SM_DestroyEnemy_Kneel"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: Emote_Pray
+  FinalLootTable: Empty
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 30.0
+  MaxRespawnRate: 30.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 6.0
+  WaitForImpact: null
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: 99G_MSQ_SM_DestroyEnemy_Kneel01_interact
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: true
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: Season_05_Trial_Entrance_Dancefloor
+  DisplayName: "@Season_05_Trial_Entrance_Banner_Raise_DisplayName"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: Interact_BlacksmithLoop
+  FinalLootTable: ""
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 86400.0
+  MaxRespawnRate: 86400.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 4.0
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: ""
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: Season_05_Trial_Entrance_Dancefloor_01_Runeforge
+  DisplayName: "@Season_05_Trial_Entrance_Banner_Raise_DisplayName"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: Interact_BlacksmithLoop
+  FinalLootTable: ""
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 86400.0
+  MaxRespawnRate: 86400.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 4.0
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: Season_05_Journey_Trial_Entrance_Gather_01_Runeforge
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: Season_05_Trial_Entrance_Dancefloor_02_Hatchery
+  DisplayName: "@Season_05_Trial_Entrance_Banner_Raise_DisplayName"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: Interact_BlacksmithLoop
+  FinalLootTable: ""
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 86400.0
+  MaxRespawnRate: 86400.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 4.0
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: Season_05_Journey_Trial_Entrance_Gather_02_Hatchery
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: Season_05_Trial_Entrance_Dancefloor_03_Sandworm
+  DisplayName: "@Season_05_Trial_Entrance_Banner_Raise_DisplayName"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: Interact_BlacksmithLoop
+  FinalLootTable: ""
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 86400.0
+  MaxRespawnRate: 86400.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 4.0
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: Season_05_Journey_Trial_Entrance_Gather_03_Sandworm
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: Season_05_Trial_Entrance_Dancefloor_04_Myrkgard
+  DisplayName: "@Season_05_Trial_Entrance_Banner_Raise_DisplayName"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: Interact_BlacksmithLoop
+  FinalLootTable: ""
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 86400.0
+  MaxRespawnRate: 86400.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 4.0
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: Season_05_Journey_Trial_Entrance_Gather_04_Myrkgard
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: Season_05_Trial_Entrance_Dancefloor_05_EternalPool
+  DisplayName: "@Season_05_Trial_Entrance_Banner_Raise_DisplayName"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: Interact_BlacksmithLoop
+  FinalLootTable: ""
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 86400.0
+  MaxRespawnRate: 86400.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 4.0
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: Season_05_Journey_Trial_Entrance_Gather_05_EternalPool
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: Season_05_Trial_Entrance_Dancefloor_06_Zygoramet
+  DisplayName: "@Season_05_Trial_Entrance_Banner_Raise_DisplayName"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: Interact_BlacksmithLoop
+  FinalLootTable: ""
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 86400.0
+  MaxRespawnRate: 86400.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 4.0
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: Season_05_Journey_Trial_Entrance_Gather_06_Zygoramet
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: Dragon_H_Pillar
+  DisplayName: "@Dragon_H_Pillar_DisplayName"
+  GatheringAction: Mining
+  GatheringType: Mining
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: Empty
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 1.0
+  MaxRespawnRate: 1.0
+  Tradeskill: None
+  RequiredTradeskillLevel: 0.0
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 30.0
+  WaitForImpact: false
+  Restriction: ToolRequired
+  AlignGatherer: false
+  GameEventID: ""
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: null
+  IsLootContainer: false
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: true
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: MSQ_Isabella_Entrance_Bubble
+  DisplayName: "@MSQ_Isabella_Entrance_Bubble_DisplayName"
+  GatheringAction: AzothStaffHigh
+  GatheringType: AzothStaff
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: Empty
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 60.0
+  MaxRespawnRate: 60.0
+  Tradeskill: AzothStaff
+  RequiredTradeskillLevel: 5.0
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 5.0
+  WaitForImpact: false
+  Restriction: ToolRequired
+  AlignGatherer: false
+  GameEventID: ""
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: true
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: true
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: RE_Spyglass_Vista
+  DisplayName: "@RE_Spyglass_Vista_DisplayName"
+  GatheringAction: None
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: Empty
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 15.0
+  MaxRespawnRate: 15.0
+  Tradeskill: None
+  RequiredTradeskillLevel: 0.0
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 1.0
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: View_Spyglass_Telescope
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: true
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: 99C_MSQ2_AncientChest_1
+  DisplayName: "@99C_MSQ2_AncientChest_DisplayName"
+  GatheringAction: Handcrafting
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: Empty
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 200.0
+  MaxRespawnRate: 300.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 3.0
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: IO_99C_MSQ2_AncientChest_1_interact
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: true
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: 99C_MSQ2_AncientChest_2
+  DisplayName: "@99C_MSQ2_AncientChest_DisplayName"
+  GatheringAction: Handcrafting
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: Empty
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 200.0
+  MaxRespawnRate: 300.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 3.0
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: IO_99C_MSQ2_AncientChest_2_interact
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: true
+  IsLootContainer: true
+  IsElite: null
+  IsDynamicPoiTarget: null
+  RequireLootItems: ""
+  IconTypeUnlock: ""
+  IgnoreAllObstructions: null
+  ObstructBuildables: null
+  RequireControllingFaction: null
+  AddedStatusEffect: ""
+  RequiredStatusEffect: ""
+  ConsumedStatusEffect: ""
+  NumRequiredToGather: null
+  UsableEmoteTags: ""
+  RequirementDescription: ""
+  DisplayDescription: ""
+  IsLandmark: null
+  TooltipImage: ""
+  LandmarkIconPath: ""
+  RequiredWhisperId: ""
+  MountGatherers: ""
+- GatherableID: 99C_MSQ2_AncientChest_3
+  DisplayName: "@99C_MSQ2_AncientChest_DisplayName"
+  GatheringAction: Handcrafting
+  GatheringType: None
+  IdleFragment: ""
+  GatheringFragment: ""
+  FinalLootTable: Empty
+  LootTableDefaultMaterial: ""
+  MinRespawnRate: 200.0
+  MaxRespawnRate: 300.0
+  Tradeskill: None
+  RequiredTradeskillLevel: null
+  ExpansionIdUnlock: ""
+  DepletedGatherableID: null
+  BaseGatherTime: 3.0
+  WaitForImpact: false
+  Restriction: NoToolNecessary
+  AlignGatherer: false
+  GameEventID: IO_99C_MSQ2_AncientChest_3_interact
+  ItemRestrictionId: ""
+  ItemRestrictionQuantity: ""
+  RequiredSongId: ""
+  SongRewardId: ""
+  ResetGatherTimeOnEndInteraction: true
+  IsLootContainer: true
   IsElite: null
   IsDynamicPoiTarget: null
   RequireLootItems: ""

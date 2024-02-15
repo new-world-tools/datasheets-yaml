@@ -47,7 +47,7 @@
   SlotNumber: 2.0
   IsPvpSlot: null
   MissionGoalType: Log
-  Weight: 1.0
+  Weight: 1000.0
 - MissionWeightId: HUNT_slot_3
   SlotNumber: 3.0
   IsPvpSlot: null
@@ -62,7 +62,7 @@
   SlotNumber: 3.0
   IsPvpSlot: null
   MissionGoalType: Log
-  Weight: 2e+07
+  Weight: 2000.0
 - MissionWeightId: EXPEDITION_LOOT_slot_3
   SlotNumber: 3.0
   IsPvpSlot: null
@@ -83,13 +83,43 @@
   IsPvpSlot: true
   MissionGoalType: Intercept
   Weight: 10000.0
+- MissionWeightId: PVP_CONTROL_slot_1
+  SlotNumber: 1.0
+  IsPvpSlot: true
+  MissionGoalType: Espionage
+  Weight: 10000.0
+- MissionWeightId: PVP_WARCAMP_slot_1
+  SlotNumber: 1.0
+  IsPvpSlot: true
+  MissionGoalType: Control
+  Weight: 10000.0
 - MissionWeightId: PVP_CONTROL_slot_2
   SlotNumber: 2.0
   IsPvpSlot: true
   MissionGoalType: Espionage
   Weight: 10000.0
+- MissionWeightId: PVP_WARCAMP_slot_2
+  SlotNumber: 2.0
+  IsPvpSlot: true
+  MissionGoalType: Control
+  Weight: 10000.0
+- MissionWeightId: PVP_INTERCEPT_slot 2
+  SlotNumber: 2.0
+  IsPvpSlot: true
+  MissionGoalType: Intercept
+  Weight: 10000.0
 - MissionWeightId: PVP_WARCAMP_slot_3
   SlotNumber: 3.0
   IsPvpSlot: true
   MissionGoalType: Control
+  Weight: 10000.0
+- MissionWeightId: PVP_INTERCEPT_slot 3
+  SlotNumber: 3.0
+  IsPvpSlot: true
+  MissionGoalType: Intercept
+  Weight: 10000.0
+- MissionWeightId: PVP_CONTROL_slot_3
+  SlotNumber: 3.0
+  IsPvpSlot: true
+  MissionGoalType: Espionage
   Weight: 10000.0

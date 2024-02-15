@@ -714,7 +714,7 @@
   ScalingConstitution: ""
   OnKill: false
   OnExecuted: false
-  OnHit: false
+  OnHit: true
   OnBlockedHit: false
   OnCrit: false
   OnHeadShot: false
@@ -725,7 +725,7 @@
   OnDeath: false
   OnDeathsDoor: false
   OnWeaponSwap: null
-  RequireReaction: null
+  RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
@@ -737,7 +737,7 @@
   DamageIsMelee: ""
   ForceShowNameTag: ""
   TargetHasGritActive: ""
-  DamageTableRow: ""
+  DamageTableRow: BowAttackJumpBack,BowAttackKnockBack
   RemoteDamageTableRow: ""
   RangedAttackName: ""
   AttackType: ""
@@ -763,10 +763,10 @@
   NumAroundComparisonType: ""
   AbilityList: ""
   AbilityTrigger: ""
-  InAction: ""
+  InAction: Bow_JumpBackShot
   InActionTime: null
   AfterAction: ""
-  InSequence: ""
+  InSequence: Ability_Bow_JumpBackShot
   InSequenceTime: null
   AfterSequence: ""
   BaseDamage: null
@@ -800,7 +800,7 @@
   PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
-  SelfApplyStatusEffect: ""
+  SelfApplyStatusEffect: Status_Upgrade_Bow_EvasiveShot_Haste
   OtherApplyStatusEffect: ""
   ModifySelfApplyStatusEffectDuration: ""
   SetPotencyAsCount: ""

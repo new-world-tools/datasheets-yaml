@@ -42,11 +42,11 @@
   ParticleScaleOverride: ""
   IconPath: ""
   HiResIconPath: ""
-  RightAttachmentPosition: 0.015,0,-0.1
-  RightAttachmentRotation: 90,0,0
+  RightAttachmentPosition: 0.025,0,-0.05
+  RightAttachmentRotation: 90,15,0
   RightAttachmentScale: 0.9,0.9,0.9
-  LeftAttachmentPosition: -0.015,0,-0.1
-  LeftAttachmentRotation: 90,0,0
+  LeftAttachmentPosition: -0.025,0,-0.05
+  LeftAttachmentRotation: 90,15,0
   LeftAttachmentScale: 0.9,0.9,0.9
   Left/On: ""
   Right/Off: ""
@@ -68,12 +68,12 @@
   ParticleScaleOverride: ""
   IconPath: ""
   HiResIconPath: ""
-  RightAttachmentPosition: 0.075,-0.05,-0.1
-  RightAttachmentRotation: 90,0,180
-  RightAttachmentScale: 0.75,0.75,0.75
-  LeftAttachmentPosition: -0.075,-0.05,-0.1
-  LeftAttachmentRotation: 90,0,0
-  LeftAttachmentScale: 0.75,0.75,0.75
+  RightAttachmentPosition: 0.01,-0.05,0
+  RightAttachmentRotation: 100,15,180
+  RightAttachmentScale: 0.9,0.9,0.9
+  LeftAttachmentPosition: -0.01,-0.05,0
+  LeftAttachmentRotation: 80,15,0
+  LeftAttachmentScale: 0.9,0.9,0.9
   Left/On: ""
   Right/Off: ""
 - MountItemAppearanceID: Mounts_TowershieldSettings
@@ -94,12 +94,12 @@
   ParticleScaleOverride: ""
   IconPath: ""
   HiResIconPath: ""
-  RightAttachmentPosition: 0.075,-0.05,-0.1
-  RightAttachmentRotation: 90,0,180
-  RightAttachmentScale: 0.75,0.75,0.75
-  LeftAttachmentPosition: -0.075,-0.05,-0.1
-  LeftAttachmentRotation: 90,0,0
-  LeftAttachmentScale: 0.75,0.75,0.75
+  RightAttachmentPosition: 0.035,-0.05,0.1
+  RightAttachmentRotation: 100,15,180
+  RightAttachmentScale: 0.8,0.8,0.8
+  LeftAttachmentPosition: -0.035,-0.05,0.1
+  LeftAttachmentRotation: 80,15,0
+  LeftAttachmentScale: 0.8,0.8,0.8
   Left/On: ""
   Right/Off: ""
 - MountItemAppearanceID: Mounts_AncientArtifact_Setting
@@ -337,8 +337,8 @@
   Left/On: ""
   Right/Off: ""
 - MountItemAppearanceID: Mounts_Tome_Setting
-  AutoFlipZAxis: false
-  MirrorItem: RightSide
+  AutoFlipZAxis: true
+  MirrorItem: None
   EnableLight: false
   LightDiffuseMultiplier: null
   LightMaxDistance: null
@@ -354,11 +354,11 @@
   ParticleScaleOverride: ""
   IconPath: ""
   HiResIconPath: ""
-  RightAttachmentPosition: 0.03,0.0,-0.25
-  RightAttachmentRotation: ""
+  RightAttachmentPosition: -0.025,0.0,0.0
+  RightAttachmentRotation: 0,30,0
   RightAttachmentScale: ""
-  LeftAttachmentPosition: -0.03,0.0,-0.25
-  LeftAttachmentRotation: ""
+  LeftAttachmentPosition: 0.025,0.0,0.0
+  LeftAttachmentRotation: 0,30,0
   LeftAttachmentScale: ""
   Left/On: ""
   Right/Off: ""
@@ -620,5 +620,161 @@
   LeftAttachmentPosition: 0.0,0.0,0.0
   LeftAttachmentRotation: ""
   LeftAttachmentScale: ""
+  Left/On: ""
+  Right/Off: ""
+- MountItemAppearanceID: MountAttachmentItem_Skin_Reaper_SkullLantern_Setting
+  AutoFlipZAxis: false
+  MirrorItem: RightSide
+  EnableLight: false
+  LightDiffuseMultiplier: null
+  LightMaxDistance: null
+  LightAttenuationBulbSize: null
+  LightColorOverride: ""
+  LightPositionOverride: ""
+  LightRotationOverride: ""
+  EnableParticle: false
+  ParticleEffect: ""
+  ParticleColorOverride: ""
+  ParticlePositionOverride: ""
+  ParticleRotationOverride: ""
+  ParticleScaleOverride: ""
+  IconPath: ""
+  HiResIconPath: ""
+  RightAttachmentPosition: 0.01,-0.05,-0.1
+  RightAttachmentRotation: 20,0,0
+  RightAttachmentScale: ""
+  LeftAttachmentPosition: -0.01,-0.05,-0.1
+  LeftAttachmentRotation: 20,0,0
+  LeftAttachmentScale: ""
+  Left/On: ""
+  Right/Off: ""
+- MountItemAppearanceID: MountAttachmentItem_Skin_Reaper_SoulsVials_Setting
+  AutoFlipZAxis: false
+  MirrorItem: RightSide
+  EnableLight: false
+  LightDiffuseMultiplier: null
+  LightMaxDistance: null
+  LightAttenuationBulbSize: null
+  LightColorOverride: ""
+  LightPositionOverride: ""
+  LightRotationOverride: ""
+  EnableParticle: false
+  ParticleEffect: ""
+  ParticleColorOverride: ""
+  ParticlePositionOverride: ""
+  ParticleRotationOverride: ""
+  ParticleScaleOverride: ""
+  IconPath: ""
+  HiResIconPath: ""
+  RightAttachmentPosition: 0.035,-0.1,-0.1
+  RightAttachmentRotation: 0,0,0
+  RightAttachmentScale: 0.9,0.9,0.9
+  LeftAttachmentPosition: -0.035,-0.1,-0.1
+  LeftAttachmentRotation: 0,0,0
+  LeftAttachmentScale: 0.9,0.9,0.9
+  Left/On: ""
+  Right/Off: ""
+- MountItemAppearanceID: MountAttachmentItem_Skin_Reaper_RavenShield_Setting
+  AutoFlipZAxis: true
+  MirrorItem: None
+  EnableLight: false
+  LightDiffuseMultiplier: null
+  LightMaxDistance: null
+  LightAttenuationBulbSize: null
+  LightColorOverride: ""
+  LightPositionOverride: ""
+  LightRotationOverride: ""
+  EnableParticle: false
+  ParticleEffect: ""
+  ParticleColorOverride: ""
+  ParticlePositionOverride: ""
+  ParticleRotationOverride: ""
+  ParticleScaleOverride: ""
+  IconPath: ""
+  HiResIconPath: ""
+  RightAttachmentPosition: 0.07,0.1,-0.1
+  RightAttachmentRotation: 20,0,90
+  RightAttachmentScale: 0.9,0.9,0.9
+  LeftAttachmentPosition: -0.07,0.1,-0.1
+  LeftAttachmentRotation: 20,0,90
+  LeftAttachmentScale: 0.9,0.9,0.9
+  Left/On: ""
+  Right/Off: ""
+- MountItemAppearanceID: MountAttachmentItem_Skin_DarkAcademy_BearTrap_Setting
+  AutoFlipZAxis: true
+  MirrorItem: RightSide
+  EnableLight: false
+  LightDiffuseMultiplier: null
+  LightMaxDistance: null
+  LightAttenuationBulbSize: null
+  LightColorOverride: ""
+  LightPositionOverride: ""
+  LightRotationOverride: ""
+  EnableParticle: false
+  ParticleEffect: ""
+  ParticleColorOverride: ""
+  ParticlePositionOverride: ""
+  ParticleRotationOverride: ""
+  ParticleScaleOverride: ""
+  IconPath: ""
+  HiResIconPath: ""
+  RightAttachmentPosition: 0.02,0.0,0.0
+  RightAttachmentRotation: 10,-20,90
+  RightAttachmentScale: 0.9,0.9,0.9
+  LeftAttachmentPosition: -0.02,0.0,0.0
+  LeftAttachmentRotation: 10,20,90
+  LeftAttachmentScale: 0.9,0.9,0.9
+  Left/On: ""
+  Right/Off: ""
+- MountItemAppearanceID: MountAttachmentItem_Skin_DarkAcademy_Sextant_Setting
+  AutoFlipZAxis: true
+  MirrorItem: RightSide
+  EnableLight: false
+  LightDiffuseMultiplier: null
+  LightMaxDistance: null
+  LightAttenuationBulbSize: null
+  LightColorOverride: ""
+  LightPositionOverride: ""
+  LightRotationOverride: ""
+  EnableParticle: false
+  ParticleEffect: ""
+  ParticleColorOverride: ""
+  ParticlePositionOverride: ""
+  ParticleRotationOverride: ""
+  ParticleScaleOverride: ""
+  IconPath: ""
+  HiResIconPath: ""
+  RightAttachmentPosition: 0.04,0.0,0.05
+  RightAttachmentRotation: 20,-20,90
+  RightAttachmentScale: 0.9,0.9,0.9
+  LeftAttachmentPosition: -0.04,0.0,0.05
+  LeftAttachmentRotation: 20,20,90
+  LeftAttachmentScale: 0.9,0.9,0.9
+  Left/On: ""
+  Right/Off: ""
+- MountItemAppearanceID: MountAttachmentItem_Skin_DarkAcademy_SkullBear_Setting
+  AutoFlipZAxis: true
+  MirrorItem: None
+  EnableLight: false
+  LightDiffuseMultiplier: null
+  LightMaxDistance: null
+  LightAttenuationBulbSize: null
+  LightColorOverride: ""
+  LightPositionOverride: ""
+  LightRotationOverride: ""
+  EnableParticle: false
+  ParticleEffect: ""
+  ParticleColorOverride: ""
+  ParticlePositionOverride: ""
+  ParticleRotationOverride: ""
+  ParticleScaleOverride: ""
+  IconPath: ""
+  HiResIconPath: ""
+  RightAttachmentPosition: 0.0,0.0,0.1
+  RightAttachmentRotation: 0,-10,90
+  RightAttachmentScale: 0.9,0.9,0.9
+  LeftAttachmentPosition: 0.0,0.0,0.1
+  LeftAttachmentRotation: 0,10,90
+  LeftAttachmentScale: 0.9,0.9,0.9
   Left/On: ""
   Right/Off: ""

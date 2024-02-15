@@ -1213,7 +1213,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/DamnedCapitalCity.png
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\eastern_ebonscale_pass.png"
   CompassIcon: ""
   DiscoveryRadius: 150.0
   IsDiscoverable: true
@@ -1244,7 +1244,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/DamnedCapitalCity.png
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\eastern_ebonscale_pass.png"
   CompassIcon: ""
   DiscoveryRadius: 150.0
   IsDiscoverable: true
@@ -1672,6 +1672,68 @@
   IsCollapsible: null
   UnchartedIcon: ""
   EventId: ""
+- TerritoryID: 30258.0
+  NameLocalizationKey: "@ui_poi_dynasty_wall_30258"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\eastern_ebonscale_pass.png"
+  CompassIcon: ""
+  DiscoveryRadius: 150.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: Dynasty_Wall_30258_discovered
+  ChartedAchievement: Dynasty_Wall_30258_charted
+  POITag: Dynasty_Wall_30258
+  AudioGroup: POI_State
+  AudioState: abandoned_village
+  AudioBank: AbandonedMine
+  CanPlaceCamp: false
+  DevName: ""
+  VitalsCategory: Dynasty
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_township8.png"
+  GameMode: ""
+  IsCollapsible: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 30259.0
+  NameLocalizationKey: "@ui_poi_empress_retreat_30259"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\empress_retreat.png"
+  CompassIcon: ""
+  DiscoveryRadius: 150.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: Empress_Retreat_30259_discovered
+  ChartedAchievement: Empress_Retreat_30259_charted
+  POITag: Empress_Retreat_30259
+  AudioGroup: POI_State
+  AudioState: abandoned_village
+  AudioBank: AbandonedMine
+  CanPlaceCamp: false
+  DevName: ""
+  VitalsCategory: Dynasty
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_township8.png"
+  GameMode: ""
+  IsCollapsible: null
+  UnchartedIcon: ""
+  EventId: ""
 - TerritoryID: 30260.0
   NameLocalizationKey: "@ui_poi_spiritshrine_30260"
   BaseStructureLimit: ""
@@ -1690,6 +1752,99 @@
   DiscoveredAchievement: ""
   ChartedAchievement: spiritshrine_30260_charted
   POITag: spiritshrine_30260,fasttravel
+  AudioGroup: POI_State
+  AudioState: watchtower
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Spirit Shrine
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_spiritshrine.png
+  GameMode: ""
+  IsCollapsible: null
+  UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
+  EventId: ""
+- TerritoryID: 30261.0
+  NameLocalizationKey: "@ui_poi_spiritshrine_30261"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine_bg.dds
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\spirit_shrine_charted.dds"
+  DiscoveryRadius: 150.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: spiritshrine_30261_charted
+  POITag: spiritshrine_30261,fasttravel
+  AudioGroup: POI_State
+  AudioState: watchtower
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Spirit Shrine
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_spiritshrine.png
+  GameMode: ""
+  IsCollapsible: null
+  UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
+  EventId: ""
+- TerritoryID: 30262.0
+  NameLocalizationKey: "@ui_poi_spiritshrine_30262"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine_bg.dds
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\spirit_shrine_charted.dds"
+  DiscoveryRadius: 150.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: spiritshrine_30262_charted
+  POITag: spiritshrine_30262,fasttravel
+  AudioGroup: POI_State
+  AudioState: watchtower
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Spirit Shrine
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_spiritshrine.png
+  GameMode: ""
+  IsCollapsible: null
+  UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
+  EventId: ""
+- TerritoryID: 30263.0
+  NameLocalizationKey: "@ui_poi_spiritshrine_30263"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine_bg.dds
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\spirit_shrine_charted.dds"
+  DiscoveryRadius: 150.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: spiritshrine_30263_charted
+  POITag: spiritshrine_30263,fasttravel
   AudioGroup: POI_State
   AudioState: watchtower
   AudioBank: ""

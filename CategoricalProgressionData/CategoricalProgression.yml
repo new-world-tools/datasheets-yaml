@@ -1841,7 +1841,7 @@
   AchievementIdOnMaxRank: ""
   MinTrackedLevel: ""
   ShowAsObjectiveReward: null
-  IconPath: lyshineui/images/icons/misc/icon_azothCurrency.dds
+  IconPath: lyshineui/images/icons/items/currency/Icon_Azoth.dds
   UsesGlobalProgressionMod: null
   ItemClass: ""
   DisplayDescription: ""
@@ -2352,6 +2352,28 @@
   ItemClass: ""
   DisplayDescription: "@ui_event_reputation_description"
   EventId: SummerMedley
+- CategoricalProgressionId: SpringEventProgress
+  DisplayName: "@ui_event_spring_progress_name"
+  MaxLevel: 2.0
+  Expansion01MaxLevel: null
+  AutoRankUp: true
+  InfiniteLevels: false
+  RepeatMaxLevel: false
+  AllowOverflow: false
+  RankTableId: SpringEventRanks
+  ProgressionPointPool: ""
+  PreSkillCapSkill: ""
+  PostSkillCapSkill: ""
+  EconomyTrackerType: ""
+  GameEventId: ""
+  AchievementIdOnMaxRank: ""
+  MinTrackedLevel: ""
+  ShowAsObjectiveReward: true
+  IconPath: lyshineui/images/icons/objectives/reward_eventProgress_large.dds
+  UsesGlobalProgressionMod: null
+  ItemClass: ""
+  DisplayDescription: "@ui_event_reputation_description"
+  EventId: SpringtideBloom
 - CategoricalProgressionId: SeasonPass
   DisplayName: "@seasons_rewards_categorical_progression_id"
   MaxLevel: 100.0

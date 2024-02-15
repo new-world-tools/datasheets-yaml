@@ -1968,7 +1968,7 @@
   SourceRuneChargeOnHealthChangeOnly: null
 - StatusID: Blunderbuss_Increase_Damage_Taken
   DisplayName: "@Status_Rend"
-  Description: "@Status_Rend_Descirption"
+  Description: "@Status_Rend_Description"
   EffectCategories: Debuff+ArmorRend+Debilitate
   PlaceholderIcon: lyshineui/images/status/SE_RendT3.png
   ShowInUITray: "1"
@@ -2916,8 +2916,8 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  StackDuration: 1.0
-  DurationMax: 3.0
+  StackDuration: 0.0
+  DurationMax: 6.0
   InheritDuration: ""
   InheritTotalDuration: ""
   RefreshDuration: "TRUE"
@@ -4183,7 +4183,7 @@
 - StatusID: Blunderbuss_ClawShot_Root
   DisplayName: "@Status_Root"
   Description: "@Status_Root_Description"
-  EffectCategories: Debuff+Root+CC+Trapper
+  EffectCategories: NonDispellableDebuff+Root+NonDispellableCC+Trapper
   PlaceholderIcon: lyshineui/images/status/SE_TrappedT1.png
   ShowInUITray: "1"
   ShowTextInDamageNumbers: true
@@ -4196,7 +4196,7 @@
   IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
-  BaseDuration: 1.0
+  BaseDuration: 0.7
   TickRate: 1.0
   DelayInitialTick: ""
   TickCondition: ""
@@ -4393,7 +4393,7 @@
   AFACurse: ""
   AFABlight: ""
   StackDuration: 0.0
-  DurationMax: 3.0
+  DurationMax: 1.0
   InheritDuration: "1"
   InheritTotalDuration: "1"
   RefreshDuration: "1"
@@ -4639,7 +4639,7 @@
   AFACurse: ""
   AFABlight: ""
   StackDuration: null
-  DurationMax: 1.0
+  DurationMax: 2.0
   InheritDuration: "FALSE"
   InheritTotalDuration: "FALSE"
   RefreshDuration: "FALSE"
@@ -8335,7 +8335,7 @@
   RefreshDuration: "0"
   StackMax: 5.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: "0"
+  RemoveUnappliedStacks: "1"
   PotencyMax: null
   DontReplaceStack: ""
   MoveSpeedMod: null

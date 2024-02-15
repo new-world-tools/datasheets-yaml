@@ -1,3 +1,35 @@
+- TerritoryID: 50223.0
+  NameLocalizationKey: "@ui_poi_abandoned_farm_village_50223"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_farm_village.png
+  CompassIcon: ""
+  DiscoveryRadius: 150.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: abandoned_farm_village_50223_discovered
+  ChartedAchievement: abandoned_farm_village_50223_charted
+  POITag: abandoned_farm_village_50223
+  AudioGroup: POI_State
+  AudioState: abandoned_village
+  AudioBank: AbandonedMine
+  CanPlaceCamp: false
+  DevName: Taryville
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: ""
+  GameMode: ""
+  GroupSize: ""
+  UnchartedIcon: ""
+  IsCollapsible: null
+  EventId: ""
 - TerritoryID: 50201.0
   NameLocalizationKey: "@ui_poi_haunted_town_50201"
   BaseStructureLimit: ""
@@ -510,38 +542,6 @@
   UnchartedIcon: ""
   IsCollapsible: null
   EventId: ""
-- TerritoryID: 50223.0
-  NameLocalizationKey: "@ui_poi_abandoned_farm_village_50223"
-  BaseStructureLimit: ""
-  MaxStructureLimit: ""
-  TerritoryScore: ""
-  IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_farm_village.png
-  CompassIcon: ""
-  DiscoveryRadius: 150.0
-  IsDiscoverable: true
-  IsChartable: true
-  DefaultAchievement: null
-  OutpostId: ""
-  Debug: ""
-  LootTags: ""
-  DiscoveredAchievement: abandoned_farm_village_50223_discovered
-  ChartedAchievement: abandoned_farm_village_50223_charted
-  POITag: abandoned_farm_village_50223
-  AudioGroup: POI_State
-  AudioState: abandoned_village
-  AudioBank: AbandonedMine
-  CanPlaceCamp: false
-  DevName: Taryville
-  VitalsCategory: ""
-  LevelRange: ""
-  Containers: null
-  TooltipBackground: ""
-  GameMode: ""
-  GroupSize: ""
-  UnchartedIcon: ""
-  IsCollapsible: null
-  EventId: ""
 - TerritoryID: 50232.0
   NameLocalizationKey: "@ui_poi_undeadbastion_50232"
   BaseStructureLimit: ""
@@ -798,70 +798,6 @@
   UnchartedIcon: ""
   IsCollapsible: null
   EventId: ""
-- TerritoryID: 50244.0
-  NameLocalizationKey: "@ui_poi_fish_hotspot_broad"
-  BaseStructureLimit: ""
-  MaxStructureLimit: ""
-  TerritoryScore: ""
-  IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/fish_hotspot1.png
-  CompassIcon: ""
-  DiscoveryRadius: 60.0
-  IsDiscoverable: false
-  IsChartable: true
-  DefaultAchievement: null
-  OutpostId: ""
-  Debug: ""
-  LootTags: ""
-  DiscoveredAchievement: ""
-  ChartedAchievement: fish_hotspot_50244_charted
-  POITag: FishingHotspot
-  AudioGroup: POI_State
-  AudioState: camp
-  AudioBank: ""
-  CanPlaceCamp: false
-  DevName: Fishing Hotspot
-  VitalsCategory: ""
-  LevelRange: ""
-  Containers: null
-  TooltipBackground: /LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_fish_1.png
-  GameMode: ""
-  GroupSize: ""
-  UnchartedIcon: ""
-  IsCollapsible: null
-  EventId: ""
-- TerritoryID: 50245.0
-  NameLocalizationKey: "@ui_poi_fish_hotspot_broad"
-  BaseStructureLimit: ""
-  MaxStructureLimit: ""
-  TerritoryScore: ""
-  IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/fish_hotspot1.png
-  CompassIcon: ""
-  DiscoveryRadius: 60.0
-  IsDiscoverable: false
-  IsChartable: true
-  DefaultAchievement: null
-  OutpostId: ""
-  Debug: ""
-  LootTags: ""
-  DiscoveredAchievement: ""
-  ChartedAchievement: fish_hotspot_50245_charted
-  POITag: FishingHotspot
-  AudioGroup: POI_State
-  AudioState: camp
-  AudioBank: ""
-  CanPlaceCamp: false
-  DevName: Fishing Hotspot
-  VitalsCategory: ""
-  LevelRange: ""
-  Containers: null
-  TooltipBackground: /LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_fish_1.png
-  GameMode: ""
-  GroupSize: ""
-  UnchartedIcon: ""
-  IsCollapsible: null
-  EventId: ""
 - TerritoryID: 50240.0
   NameLocalizationKey: "@ui_poi_fish_hotspot_rare"
   BaseStructureLimit: ""
@@ -985,6 +921,70 @@
   LevelRange: ""
   Containers: null
   TooltipBackground: /LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_fish_3.png
+  GameMode: ""
+  GroupSize: ""
+  UnchartedIcon: ""
+  IsCollapsible: null
+  EventId: ""
+- TerritoryID: 50244.0
+  NameLocalizationKey: "@ui_poi_fish_hotspot_broad"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/fish_hotspot1.png
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: fish_hotspot_50244_charted
+  POITag: FishingHotspot
+  AudioGroup: POI_State
+  AudioState: camp
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Fishing Hotspot
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: /LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_fish_1.png
+  GameMode: ""
+  GroupSize: ""
+  UnchartedIcon: ""
+  IsCollapsible: null
+  EventId: ""
+- TerritoryID: 50245.0
+  NameLocalizationKey: "@ui_poi_fish_hotspot_broad"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/fish_hotspot1.png
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: fish_hotspot_50245_charted
+  POITag: FishingHotspot
+  AudioGroup: POI_State
+  AudioState: camp
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Fishing Hotspot
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: /LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_fish_1.png
   GameMode: ""
   GroupSize: ""
   UnchartedIcon: ""
@@ -1310,6 +1310,70 @@
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
   IsCollapsible: null
   EventId: ""
+- TerritoryID: 50257.0
+  NameLocalizationKey: "@WeaversFen_Settlement_01"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: ""
+  CompassIcon: ""
+  DiscoveryRadius: 100.0
+  IsDiscoverable: false
+  IsChartable: false
+  DefaultAchievement: 2.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: ""
+  POITag: WeaversFen_Settlement_01
+  AudioGroup: POI_State
+  AudioState: settlement
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: ""
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: ""
+  GameMode: ""
+  GroupSize: ""
+  UnchartedIcon: ""
+  IsCollapsible: null
+  EventId: ""
+- TerritoryID: 50258.0
+  NameLocalizationKey: "@ui_poi_spiritshrine_05_50258"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine_bg.dds
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\spirit_shrine_charted.dds"
+  DiscoveryRadius: 150.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: spiritshrine_05_50258_charted
+  POITag: spiritshrine_05_50258,fasttravel
+  AudioGroup: POI_State
+  AudioState: watchtower
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Spirit Shrine
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_spiritshrine.png
+  GameMode: ""
+  GroupSize: ""
+  UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
+  IsCollapsible: null
+  EventId: ""
 - TerritoryID: 50259.0
   NameLocalizationKey: "@Weavers_Fen_Tower_01"
   BaseStructureLimit: ""
@@ -1397,38 +1461,6 @@
   AudioBank: ""
   CanPlaceCamp: false
   DevName: Weavers_Fen_Tower_03
-  VitalsCategory: ""
-  LevelRange: ""
-  Containers: null
-  TooltipBackground: ""
-  GameMode: ""
-  GroupSize: ""
-  UnchartedIcon: ""
-  IsCollapsible: null
-  EventId: ""
-- TerritoryID: 50257.0
-  NameLocalizationKey: "@WeaversFen_Settlement_01"
-  BaseStructureLimit: ""
-  MaxStructureLimit: ""
-  TerritoryScore: ""
-  IsPOI: true
-  MapIcon: ""
-  CompassIcon: ""
-  DiscoveryRadius: 100.0
-  IsDiscoverable: false
-  IsChartable: false
-  DefaultAchievement: 2.0
-  OutpostId: ""
-  Debug: ""
-  LootTags: ""
-  DiscoveredAchievement: ""
-  ChartedAchievement: ""
-  POITag: WeaversFen_Settlement_01
-  AudioGroup: POI_State
-  AudioState: settlement
-  AudioBank: ""
-  CanPlaceCamp: false
-  DevName: ""
   VitalsCategory: ""
   LevelRange: ""
   Containers: null

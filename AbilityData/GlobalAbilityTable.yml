@@ -72,8 +72,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -134,7 +134,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -317,8 +317,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -379,7 +379,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -562,8 +562,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -624,7 +624,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -807,8 +807,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -869,7 +869,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: 0.25
@@ -1052,8 +1052,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -1114,7 +1114,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: 0.2
@@ -1297,8 +1297,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -1359,10 +1359,255 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: 0.15
+  BlockDamage: ""
+  BlockDamageReduction: null
+  CritDamage: ""
+  CritChance: ""
+  HeadshotDamage: ""
+  HitFromBehindDamage: ""
+  StaggerDamage: ""
+  StaggerDamageReduction: ""
+  HitRateDmg: ""
+  HitRateDmgReduction: ""
+  HealthDamageMitigation: ""
+  ThreatDamage: ""
+  ArmorPenetration: ""
+  CritArmorPenetration: ""
+  HeadshotArmorPenetration: ""
+  HitFromBehindArmorPenetration: ""
+  PhysicalArmor: ""
+  PhysicalArmorMaxHealthMod: ""
+  ElementalArmor: ""
+  LinearlyScaleToDistance: ""
+  RefundAmmoPercentChance: ""
+  RefundConsumablePercentChance: ""
+  GiveAzothPercentChance: ""
+  Azoth: ""
+  Knockback: ""
+  KnockbackReduction: ""
+  WeaponAccuracy: ""
+  Health: ""
+  HealthPenaltyPerStackRemoved: ""
+  DmgPctToHealth: null
+  HealScalingValueMultiplier: ""
+  ConsumableHealMod: ""
+  MaxHealth: ""
+  Mana: ""
+  ManaRate: ""
+  MaxMana: ""
+  ManaCostList: ""
+  ManaCostMult: ""
+  Stamina: ""
+  DamageTableRowOverride: ""
+  StatusEffectDamageTableRowOverride: ""
+  ForceStatusEffectDamageTableRow: ""
+  RangedAttackNameOverride: ""
+  DamageTableStatusEffectOverride: ""
+  EnableCrit: ""
+  EnableTaunt: ""
+  CanBlockRangedOverride: ""
+  PerStatusEffectOnSelf: ""
+  PerStatusEffectOnSelfMax: ""
+  PerStatusEffectOnTarget: ""
+  PerStatusEffectOnTargetMax: ""
+  DisableApplyPerStatusEffectStack: ""
+  DisableScalePerTargetSEStack: ""
+  ForceTakeStaminaDamage: ""
+  StaminaCostList: ""
+  StaminaCostFlatMod: ""
+  CastSpell: ""
+  DisableCastSpellDurability: ""
+  SelfApplyStatusEffect: ""
+  OtherApplyStatusEffect: ""
+  SelfApplyStatusEffectDurations: ""
+  OtherApplyStatusEffectDurations: ""
+  DoNotUnequipSelfAppliedSE: null
+  UseMinAttackInfoForSelfAppliedSE: null
+  ModifySelfApplyStatusEffectDuration: ""
+  NumStatusEffectsToTransfer: ""
+  StatusEffectCategoryToTransfer: ""
+  SetPotencyAsCount: ""
+  MultiplyRemovedByPotency: ""
+  OnlyChangeOwnedStatusEffects: ""
+  NumStatusEffectsToRemove: null
+  NumTargetStatusEffectsToRemove: ""
+  NumStatusEffectStacksToRemove: ""
+  RemoveStatusEffects: ""
+  StatusEffectsList: ""
+  StatusEffectCategoriesList: ""
+  RemoveTargetStatusEffectsList: ""
+  RemoveTargetStatusEffectCats: ""
+  ConsumeTargetStatusEffectMult: ""
+  StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMod: ""
+  StatusEffectDurationMult: ""
+  TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
+  TargetStatusEffectDurationMod: ""
+  TargetStatusEffectDurationMult: ""
+  ActivationCooldown: null
+  Duration: null
+  CooldownId: ""
+  CDRImmediatelyOptions: ""
+  ResetCooldownTimers: ""
+  CooldownTimer: ""
+  NumFreeCooldownsPerUse: ""
+  TargetCooldownExtensionModifier: ""
+  TargetCooldownsExtensionMultiplier: ""
+  ConsumableCooldownForReset: ""
+  ResetConsumableCooldowns: ""
+  MaxHitCountMultiplier: ""
+  SetMannequinTag: ""
+  SetMannequinTagStatus: ""
+  RepairDustYieldMod: ""
+  ToolDurabilityLossMod: ""
+  FastTravelInnCooldownMod: ""
+  FastTravelAzothCostMod: ""
+- AbilityID: EquipLoad_MeleeDmgIncrease_Light
+  DisplayName: ""
+  Description: ""
+  UICategory: ""
+  Icon: ""
+  StatusEffectIcon: ""
+  Sound: ""
+  TelegraphStatusEffect: ""
+  TelegraphCountOffset: ""
+  OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: ""
+  WeaponTag: ""
+  RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
+  TreeId: ""
+  TreeRowPosition: ""
+  TreeColumnPosition: ""
+  IsActiveAbility: false
+  IsGlobalAbility: false
+  IsStackableAbility: false
+  IsStackableMax: null
+  ScalingStrength: ""
+  ScalingDexterity: ""
+  ScalingIntelligence: ""
+  ScalingSpirit: ""
+  ScalingConstitution: ""
+  OnEventPassiveConditionsPass: null
+  OnKill: null
+  OnExecuted: null
+  OnHit: true
+  OnBlockedHit: null
+  OnHitBehind: null
+  OnCrit: null
+  OnCritTaken: null
+  OnHeadShot: null
+  OnLegShot: null
+  OnHitTaken: null
+  OnBlockedHitTaken: null
+  OnBlockBreak: null
+  OnTargetBlockBreak: null
+  OnDeath: null
+  OnDeathsDoor: null
+  OnHasDied: null
+  OnAttachedSpellTargetDied: null
+  OnHealed: ""
+  OnSelfDamage: ""
+  OnProjPassedThrough: ""
+  OnContributedKill: null
+  OnHealthChanged: ""
+  OnUsedConsumable: ""
+  OnGatheringComplete: ""
+  OnHitTakenWhileInvulnerable: ""
+  OnWeaponSwap: ""
+  OnStatusEffectApplied: null
+  OnInActionLongEnough: ""
+  OnTargetStatusEffectRemoved: ""
+  OnEventConditionalActivationChance: ""
+  OnDismount: null
+  GatheringTradeskill: ""
+  EquipLoadCategory: ""
+  ExcludeFromGameModes: ""
+  RequireReaction: null
+  NumSuccessfulHits: ""
+  NumConsecutiveHits: ""
+  MaxConsecutiveHits: ""
+  ResetConsecutiveOnSuccess: ""
+  IgnoreResetConsecutiveOnDeath: ""
+  DisableConsecutivePotency: ""
+  TrackHitCount: ""
+  MaxTrackedHitCounts: ""
+  NumberOfTrackedHits: ""
+  NumberOfHitsComparisonType: ""
+  ResetTrackedOnSuccess: ""
+  AbilityIdToCheckForTrackedHits: ""
+  DamageIsRanged: false
+  DamageIsMelee: true
+  AllowSelfDamageForHitEvents: ""
+  ForceShowNameTag: ""
+  HasGritActive: ""
+  TargetHasGritActive: ""
+  DamageTableRow: ""
+  RemoteDamageTableRow: ""
+  RangedAttackName: ""
+  AttackType: ""
+  IgnoreDisabledAttackTypes: ""
+  DamageTypes: ""
+  DamageCategory: ""
+  IsInCombatState: ""
+  IsNotInCombatState: ""
+  CheckOwnedStatusEffects: ""
+  StatusEffect: ""
+  StatusEffectStackSize: null
+  StatusEffectComparison: ""
+  StatusEffectCategories: ""
+  DontHaveStatusEffect: ""
+  StatusEffectBeingApplied: ""
+  CheckStatusEffectsOnTargetOwned: ""
+  TargetStatusEffect: ""
+  TargetStatusEffectCategory: ""
+  TargetStatusEffectStackSize: ""
+  TargetStatusEffectComparison: ""
+  TargetCollisionFilters: ""
+  MyMarker: ""
+  TargetMarker: ""
+  MyHealthPercent: ""
+  MyComparisonType: ""
+  MyStaminaPercent: ""
+  MyStaminaComparisonType: ""
+  MyManaPercent: ""
+  MyManaComparisonType: ""
+  TargetHealthPercent: ""
+  TargetComparisonType: ""
+  DistFromDefender: ""
+  DistComparisonType: ""
+  MaxNumAroundMe: ""
+  NumAroundMe: ""
+  NumAroundComparisonType: ""
+  AbilityOnCooldownOptions: ""
+  AbilitiesOnCooldown: ""
+  AbilityCooldownComparisonType: ""
+  AttachedTargetSpellIds: ""
+  AbilityList: ""
+  AbilityTrigger: ""
+  IsConsumableIds: ""
+  IsNotConsumableIds: ""
+  InAction: ""
+  InActionTime: ""
+  AfterAction: ""
+  InSequence: ""
+  InSequenceTime: ""
+  AfterSequence: ""
+  LoadedAmmoCount: ""
+  LoadedAmmoCountComparisonType: ""
+  AttackerVitalsCategory: ""
+  TargetVitalsCategory: ""
+  DismountReasons: ""
+  BaseDamage: 0.05
+  SetHealthOnFatalDamageTaken: ""
+  BaseDamageReduction: ""
+  CritDamageReduction: null
   BlockDamage: ""
   BlockDamageReduction: null
   CritDamage: ""
@@ -1542,8 +1787,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -1604,7 +1849,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -1787,8 +2032,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -1849,7 +2094,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -2032,8 +2277,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -2094,7 +2339,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -2277,8 +2522,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -2339,7 +2584,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -2522,8 +2767,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -2584,7 +2829,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -2767,8 +3012,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -2829,7 +3074,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -3012,8 +3257,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -3074,7 +3319,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -3257,8 +3502,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -3319,7 +3564,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -3502,8 +3747,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -3564,7 +3809,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -3747,8 +3992,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -3809,7 +4054,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -3992,8 +4237,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -4054,7 +4299,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -4237,8 +4482,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -4299,7 +4544,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -4482,8 +4727,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -4544,7 +4789,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -4727,8 +4972,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -4789,7 +5034,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -4972,8 +5217,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -5034,7 +5279,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -5217,8 +5462,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -5279,7 +5524,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -5462,8 +5707,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -5524,7 +5769,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -5707,8 +5952,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -5769,7 +6014,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -5952,8 +6197,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -6014,7 +6259,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -6197,8 +6442,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -6259,7 +6504,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -6442,8 +6687,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -6504,7 +6749,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -6687,8 +6932,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -6749,7 +6994,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -6932,8 +7177,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -6994,7 +7239,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -7177,8 +7422,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -7239,7 +7484,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -7422,8 +7667,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -7484,7 +7729,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -7667,8 +7912,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -7729,7 +7974,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -7912,8 +8157,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -7974,7 +8219,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -8157,8 +8402,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -8219,7 +8464,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -8402,8 +8647,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -8464,7 +8709,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -8647,8 +8892,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -8709,7 +8954,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -8892,8 +9137,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -8954,7 +9199,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -9137,8 +9382,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -9199,7 +9444,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -9382,8 +9627,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -9444,7 +9689,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -9627,8 +9872,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -9689,7 +9934,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -9872,8 +10117,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -9934,7 +10179,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -10117,8 +10362,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -10179,7 +10424,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -10362,8 +10607,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -10424,7 +10669,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -10607,8 +10852,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -10669,7 +10914,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -10852,8 +11097,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -10914,7 +11159,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -11097,8 +11342,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -11159,7 +11404,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -11342,8 +11587,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -11404,7 +11649,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -11587,8 +11832,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -11649,7 +11894,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -11832,8 +12077,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -11894,7 +12139,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -12077,8 +12322,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -12139,7 +12384,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -12322,8 +12567,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -12384,7 +12629,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -12567,8 +12812,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -12629,7 +12874,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -12812,8 +13057,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -12874,7 +13119,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -13057,8 +13302,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -13119,7 +13364,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -13302,8 +13547,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -13364,7 +13609,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -13547,8 +13792,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -13609,7 +13854,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -13792,8 +14037,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -13854,7 +14099,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -14037,8 +14282,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -14099,7 +14344,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -14282,8 +14527,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -14344,7 +14589,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -14527,8 +14772,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -14589,7 +14834,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -14772,8 +15017,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -14834,7 +15079,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -15017,8 +15262,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -15079,7 +15324,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -15262,8 +15507,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -15324,7 +15569,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -15507,8 +15752,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -15569,7 +15814,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -15752,8 +15997,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -15814,7 +16059,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -15997,8 +16242,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -16059,7 +16304,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: Voluntary
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -16242,8 +16487,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -16304,7 +16549,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: Combat
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -16487,8 +16732,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -16549,7 +16794,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: Combat
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -16732,8 +16977,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -16794,7 +17039,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: Combat
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -16977,8 +17222,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -17039,7 +17284,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -17222,8 +17467,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -17284,7 +17529,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: Voluntary
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -17467,8 +17712,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -17529,7 +17774,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: Combat
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -17712,8 +17957,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -17774,7 +18019,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: Combat
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -17957,8 +18202,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -18019,7 +18264,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: Combat
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -18202,8 +18447,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -18264,7 +18509,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -18447,8 +18692,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -18509,7 +18754,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: Voluntary
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -18692,8 +18937,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -18754,7 +18999,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: Combat
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -18937,8 +19182,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -18999,7 +19244,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: Combat
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -19182,8 +19427,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -19244,7 +19489,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: Combat
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -19427,8 +19672,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -19489,7 +19734,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -19672,8 +19917,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -19734,7 +19979,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: Voluntary
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -19917,8 +20162,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -19979,7 +20224,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: Combat
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -20162,8 +20407,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -20224,7 +20469,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: Combat
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -20407,8 +20652,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -20469,7 +20714,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: Combat
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -20652,8 +20897,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -20714,7 +20959,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -20897,8 +21142,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -20959,7 +21204,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: Voluntary
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -21142,8 +21387,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -21204,7 +21449,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: Combat
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -21387,8 +21632,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -21449,7 +21694,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: Combat
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -21632,8 +21877,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -21694,7 +21939,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: Combat
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -21877,8 +22122,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -21939,7 +22184,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -22122,8 +22367,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -22184,7 +22429,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -22367,8 +22612,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -22429,7 +22674,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -22612,8 +22857,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -22674,7 +22919,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -22857,8 +23102,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -22919,7 +23164,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -23102,8 +23347,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -23164,7 +23409,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -23347,8 +23592,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -23409,7 +23654,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -23592,8 +23837,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -23654,7 +23899,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -23837,8 +24082,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -23899,7 +24144,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -24082,8 +24327,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -24144,7 +24389,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -24327,8 +24572,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -24389,7 +24634,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -24572,8 +24817,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -24634,7 +24879,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -24817,8 +25062,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -24879,7 +25124,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -25062,8 +25307,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -25124,7 +25369,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -25307,8 +25552,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -25369,7 +25614,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -25552,8 +25797,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -25614,7 +25859,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -25797,8 +26042,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -25859,7 +26104,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null
@@ -26042,8 +26287,8 @@
   NumberOfHitsComparisonType: ""
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
   AllowSelfDamageForHitEvents: ""
   ForceShowNameTag: ""
   HasGritActive: ""
@@ -26104,7 +26349,7 @@
   AttackerVitalsCategory: ""
   TargetVitalsCategory: ""
   DismountReasons: ""
-  BaseDamage: ""
+  BaseDamage: null
   SetHealthOnFatalDamageTaken: ""
   BaseDamageReduction: ""
   CritDamageReduction: null

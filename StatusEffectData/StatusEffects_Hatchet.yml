@@ -11,7 +11,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 12.0
@@ -255,7 +255,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: -1.0
@@ -499,7 +499,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 12.0
@@ -743,7 +743,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 0.1
@@ -987,7 +987,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 12.0
@@ -1231,7 +1231,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: true
   PotencyPerLevel: ""
   BaseDuration: 12.0
@@ -1465,7 +1465,7 @@
 - StatusID: Hatchet_Berserk_CCPurge
   DisplayName: ""
   Description: ""
-  EffectCategories: ""
+  EffectCategories: Cleanse
   PlaceholderIcon: ""
   ShowInUITray: null
   ShowTextInDamageNumbers: false
@@ -1475,11 +1475,11 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: true
   UseLightweightReplication: true
   PotencyPerLevel: ""
-  BaseDuration: 0.1
-  TickRate: 0.0
+  BaseDuration: 0.5
+  TickRate: 1.0
   DelayInitialTick: null
   TickCondition: ""
   OnTickStatusEffect: ""
@@ -1719,7 +1719,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: -1.0
@@ -1963,7 +1963,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 3.0
@@ -2207,7 +2207,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 0.1
@@ -2451,7 +2451,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: true
   PotencyPerLevel: ""
   BaseDuration: 60.0
@@ -2695,7 +2695,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 3.0
@@ -2939,7 +2939,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 5.0
@@ -3183,7 +3183,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 6.0
@@ -3427,7 +3427,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 6.0
@@ -3671,7 +3671,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: true
   PotencyPerLevel: ""
   BaseDuration: 0.1
@@ -3915,7 +3915,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: true
   PotencyPerLevel: ""
   BaseDuration: 0.1
@@ -4159,7 +4159,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: true
   PotencyPerLevel: ""
   BaseDuration: 0.1
@@ -4403,7 +4403,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 2.0
@@ -4647,7 +4647,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 3.0
@@ -4891,7 +4891,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 10.0
@@ -5135,7 +5135,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 10.0
@@ -5379,7 +5379,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 5.0
@@ -5623,7 +5623,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 5.0
@@ -5867,7 +5867,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 1.0
@@ -6111,7 +6111,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 10.0
@@ -6355,7 +6355,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 10.0
@@ -6599,7 +6599,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 0.5
@@ -6843,7 +6843,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: true
   PotencyPerLevel: ""
   BaseDuration: 60.0
@@ -7087,7 +7087,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 1.0
@@ -7331,7 +7331,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: -1.0
@@ -7575,7 +7575,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 10.0
@@ -7819,7 +7819,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 5.0
@@ -8063,7 +8063,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: true
   PotencyPerLevel: ""
   BaseDuration: 1.0
@@ -8307,7 +8307,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 4.0
@@ -8551,7 +8551,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: true
   PotencyPerLevel: ""
   BaseDuration: null
@@ -8795,7 +8795,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: true
   PotencyPerLevel: ""
   BaseDuration: null
@@ -9039,7 +9039,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: true
   PotencyPerLevel: ""
   BaseDuration: null
@@ -9283,7 +9283,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: ""
+  IsClientPredicted: null
   UseLightweightReplication: true
   PotencyPerLevel: ""
   BaseDuration: 2.0

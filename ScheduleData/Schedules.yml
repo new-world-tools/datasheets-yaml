@@ -4,6 +4,7 @@
   StartWeekday: ""
   EndWeekday: ""
   UTC: false
+  ScheduledQuestDescription: ""
   Comments: Forinternaltesting,donotremove
 - ScheduleId: test_2
   StartDate: ""
@@ -11,6 +12,7 @@
   StartWeekday: Wednesday
   EndWeekday: Thursday
   UTC: false
+  ScheduledQuestDescription: ""
   Comments: Forinternaltesting,donotremove
 - ScheduleId: TurkeyTerror
   StartDate: 2023-11-15T*:*:*
@@ -18,6 +20,7 @@
   StartWeekday: ""
   EndWeekday: ""
   UTC: null
+  ScheduledQuestDescription: ""
   Comments: TurkeyTerror Event
 - ScheduleId: LegacyOfCrassus
   StartDate: 2024-01-09T*:*:*
@@ -25,6 +28,7 @@
   StartWeekday: ""
   EndWeekday: ""
   UTC: null
+  ScheduledQuestDescription: ""
   Comments: Legacy of Crassus February Event (Modified for dates 2024)
 - ScheduleId: EggcitingDefense
   StartDate: 2023-08-14T*:*:*
@@ -32,6 +36,7 @@
   StartWeekday: ""
   EndWeekday: ""
   UTC: null
+  ScheduledQuestDescription: ""
   Comments: Eggciting Defense August Event
 - ScheduleId: EventKill
   StartDate: "*-01-01T*:*:*"
@@ -39,6 +44,7 @@
   StartWeekday: ""
   EndWeekday: ""
   UTC: null
+  ScheduledQuestDescription: ""
   Comments: For Diamond Gypsum Events (JuniperBag)
 - ScheduleId: EventDarkness
   StartDate: "*-04-01T*:*:*"
@@ -46,6 +52,7 @@
   StartWeekday: ""
   EndWeekday: ""
   UTC: null
+  ScheduledQuestDescription: ""
   Comments: For Diamond Gypsum Events (RitualBag)
 - ScheduleId: EventGather
   StartDate: "*-07-01T*:*:*"
@@ -53,6 +60,7 @@
   StartWeekday: ""
   EndWeekday: ""
   UTC: null
+  ScheduledQuestDescription: ""
   Comments: For Diamond Gypsum Events (BagofEarthGifts)
 - ScheduleId: EventChest
   StartDate: "*-10-01T*:*:*"
@@ -60,6 +68,7 @@
   StartWeekday: ""
   EndWeekday: ""
   UTC: null
+  ScheduledQuestDescription: ""
   Comments: For Diamond Gypsum Events (ConcealedVault)
 - ScheduleId: FortunesOfTheBold
   StartDate: 2023-08-16T*:*:*
@@ -67,6 +76,7 @@
   StartWeekday: ""
   EndWeekday: ""
   UTC: false
+  ScheduledQuestDescription: ""
   Comments: For C2C event Fortunes of the Bold (Rafflebones)
 - ScheduleId: EventSummer
   StartDate: 2023-07-19T*:*:*
@@ -74,6 +84,7 @@
   StartWeekday: ""
   EndWeekday: ""
   UTC: true
+  ScheduledQuestDescription: ""
   Comments: Summer Medleyfaire
 - ScheduleId: EventHalloween
   StartDate: 2023-10-18T06:15:00
@@ -81,20 +92,23 @@
   StartWeekday: ""
   EndWeekday: ""
   UTC: true
+  ScheduledQuestDescription: ""
   Comments: Nightveil Hollow
 - ScheduleId: EventWinter
-  StartDate: 2023-12-12T13:15:00
+  StartDate: 2023-12-01T13:15:00
   EndDate: 2024-01-10T07:15:00
   StartWeekday: ""
   EndWeekday: ""
   UTC: true
+  ScheduledQuestDescription: ""
   Comments: Winter Convergence
 - ScheduleId: EventSpring
-  StartDate: 2024-04-01T*:*:*
+  StartDate: 2024-04-09T*:*:*
   EndDate: 2024-05-01T*:*:*
   StartWeekday: ""
   EndWeekday: ""
   UTC: true
+  ScheduledQuestDescription: ""
   Comments: Springtide Bloom
 - ScheduleId: EventLunarNewYear
   StartDate: 2024-02-06T*:*:*
@@ -102,6 +116,7 @@
   StartWeekday: ""
   EndWeekday: ""
   UTC: false
+  ScheduledQuestDescription: ""
   Comments: Lunar New Year
 - ScheduleId: EventLunarNewYear_Rotation01
   StartDate: ""
@@ -109,6 +124,7 @@
   StartWeekday: Sunday
   EndWeekday: Tuesday
   UTC: false
+  ScheduledQuestDescription: ""
   Comments: "Tribute run rotation: S,M,T for Skysong Temple"
 - ScheduleId: EventLunarNewYear_Rotation02
   StartDate: ""
@@ -116,6 +132,7 @@
   StartWeekday: Wednesday
   EndWeekday: Thursday
   UTC: false
+  ScheduledQuestDescription: ""
   Comments: "Tribute run rotation: W,H for Serenity Outpost"
 - ScheduleId: EventLunarNewYear_Rotation03
   StartDate: ""
@@ -123,4 +140,37 @@
   StartWeekday: Friday
   EndWeekday: Saturday
   UTC: false
+  ScheduledQuestDescription: ""
   Comments: "Tribute run rotation: F,S for Imperial Palace"
+- ScheduleId: Minutely
+  StartDate: "*-*-*T*:*:00"
+  EndDate: ""
+  StartWeekday: ""
+  EndWeekday: ""
+  UTC: null
+  ScheduledQuestDescription: "@objective_minutely_description"
+  Comments: Once per minute schedule
+- ScheduleId: Hourly
+  StartDate: "*-*-*T*:00:00"
+  EndDate: ""
+  StartWeekday: ""
+  EndWeekday: ""
+  UTC: null
+  ScheduledQuestDescription: "@objective_hourly_description"
+  Comments: Hourly schedule
+- ScheduleId: Daily
+  StartDate: "*-*-*TDailyCooldown"
+  EndDate: ""
+  StartWeekday: ""
+  EndWeekday: ""
+  UTC: null
+  ScheduledQuestDescription: "@objective_daily_description"
+  Comments: Daily schedule - resets at daily cooldown config time
+- ScheduleId: Weekly
+  StartDate: ""
+  EndDate: ""
+  StartWeekday: WeeklyCooldown
+  EndWeekday: ""
+  UTC: null
+  ScheduledQuestDescription: "@objective_weekly_description"
+  Comments: Weekly schedule - resets at weekly cooldown config time
