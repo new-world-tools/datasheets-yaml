@@ -4519,7 +4519,7 @@
 - StatusID: VoidGauntlet_DrainingTether_Empower
   DisplayName: "@Status_Empower"
   Description: "@Status_VoidGauntlet_DrainingTether_Empower_Description"
-  EffectCategories: Buff+Empower
+  EffectCategories: NonDispellableBuff+NonDispellableEmpower
   PlaceholderIcon: lyshineui/images/status/SE_EmpowerT1.png
   ShowInUITray: true
   ShowTextInDamageNumbers: true
@@ -5021,7 +5021,7 @@
 - StatusID: VoidGauntlet_DrainingTether_Weaken
   DisplayName: "@Status_Weaken"
   Description: "@Status_VoidGauntlet_DrainingTether_Weaken_Description"
-  EffectCategories: Debuff+Weaken+Debilitate+VoidGauntlet
+  EffectCategories: NonDispellableDebuff+NonDispellableWeaken+Debilitate+VoidGauntlet
   PlaceholderIcon: lyshineui/images/status/SE_WeakenT1.png
   ShowInUITray: true
   ShowTextInDamageNumbers: true

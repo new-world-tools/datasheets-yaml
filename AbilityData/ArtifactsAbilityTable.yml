@@ -17764,7 +17764,7 @@
   TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
   TargetStatusEffectDurationMult: null
-  ActivationCooldown: null
+  ActivationCooldown: 0.1
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -18106,7 +18106,7 @@
   ResetTrackedOnSuccess: ""
   AbilityIdToCheckForTrackedHits: ""
   DamageIsRanged: null
-  DamageIsMelee: null
+  DamageIsMelee: true
   ForceShowNameTag: ""
   HasGritActive: ""
   TargetHasGritActive: ""
