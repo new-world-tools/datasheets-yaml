@@ -21,8 +21,8 @@
   ItemRewardName: s02_SatyrFlute
   ItemRewardQty: 1.0
   ShouldResetOnFactionChange: ""
-  Repeatable: ""
   CanBeAbandoned: "TRUE"
+  Repeatable: ""
   Title: "@95A_S02_VoicesoftheDesert_Obj_Title"
   Description: "@95A_S02_VoicesoftheDesert_Obj_Desc"
   PlayerPrompt: "@95A_S02_VoicesoftheDesert_Obj_Start_Prompt"
@@ -39,6 +39,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 95A_T01_RiseoftheBeast
   Type: Journey
   Difficulty: ""
@@ -62,8 +63,8 @@
   ItemRewardName: s02_Quest_2hBow
   ItemRewardQty: 1.0
   ShouldResetOnFactionChange: ""
-  Repeatable: ""
   CanBeAbandoned: "TRUE"
+  Repeatable: ""
   Title: "@95A_T01_RiseoftheBeast_Obj_Title"
   Description: "@95A_T01_RiseoftheBeast_Obj_Desc"
   PlayerPrompt: "@95A_T01_RiseoftheBeast_Obj_Start_Prompt"
@@ -80,6 +81,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 95A_T02_RiseoftheHero
   Type: Journey
   Difficulty: ""
@@ -103,8 +105,8 @@
   ItemRewardName: GypsumOrb
   ItemRewardQty: 1.0
   ShouldResetOnFactionChange: ""
-  Repeatable: "TRUE"
   CanBeAbandoned: "TRUE"
+  Repeatable: "TRUE"
   Title: "@95A_T02_RiseoftheHero_Obj_Title"
   Description: "@95A_T02_RiseoftheHero_Obj_Desc"
   PlayerPrompt: "@95A_T02_RiseoftheHero_Obj_Start_Prompt"
@@ -121,3 +123,4 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: Daily

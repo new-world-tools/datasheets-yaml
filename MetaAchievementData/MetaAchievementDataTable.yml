@@ -11103,6 +11103,42 @@
   Icon: "lyshineui\\images\\Icons\\Achievements\\CharacterProgression1.png"
   Entitlement Id: ""
   AchievePoints: 0.0
+  Total: 59.0
+  VitalsCategories: ""
+  Categorical Progression: ""
+  LorePagesTopicIds: ""
+  TradeskillType: ""
+  ItemClass: ""
+  TrueFalse: null
+  QuestGroupTag: ""
+  GameEventType: ""
+  TerritoryId: null
+  IsPvp: ""
+  InGroup: ""
+  FactionType: ""
+  MissionGoalType: ""
+  GameModeId: ""
+  GameModeResult: ""
+  AttributeType: ""
+  AchievementsID: ""
+  AchievementCategory: ""
+- MetaAchievementId: CharacterProgression7
+  ReadyForSteam: null
+  SteamApiName: ""
+  Type: CharacterLevel
+  Predecessor MetaAchievementIds: CharacterProgression1
+  ProgressId: ""
+  ProgressIdParent: ""
+  UIDisplayCategory: Overall
+  HideFromUI: null
+  Title: "@ui_metachievement_progression_characterlevel_title7"
+  Description: "@ui_metachievement_progression_characterlevel_generic_desc"
+  Hidden Text: "@ui_metachievement_hidden_progression_characterlevel7"
+  Notification Verbosity: OneHundred
+  Tier: "@ui_meta_achievements_roman_numeral_vii"
+  Icon: "lyshineui\\images\\Icons\\Achievements\\CharacterProgression1.png"
+  Entitlement Id: ""
+  AchievePoints: 0.0
   Total: 64.0
   VitalsCategories: ""
   Categorical Progression: ""
@@ -15550,47 +15586,11 @@
   AttributeType: ""
   AchievementsID: ""
   AchievementCategory: ""
-- MetaAchievementId: GearScoreProgression5
-  ReadyForSteam: null
-  SteamApiName: ""
-  Type: GearScoreProgression
-  Predecessor MetaAchievementIds: GearScoreProgression3
-  ProgressId: ""
-  ProgressIdParent: GearScoreProgression
-  UIDisplayCategory: Gear_Bonuses
-  HideFromUI: null
-  Title: "@ui_metachievement_gearscoreprogression_title4"
-  Description: "@ui_metachievement_gearscoreprogression_desc"
-  Hidden Text: ""
-  Notification Verbosity: OneHundred
-  Tier: "@ui_meta_achievements_roman_numeral_iv"
-  Icon: "lyshineui\\images\\Icons\\Achievements\\GearScoreProgression1.png"
-  Entitlement Id: ""
-  AchievePoints: 0.0
-  Total: 600.0
-  VitalsCategories: ""
-  Categorical Progression: ""
-  LorePagesTopicIds: ""
-  TradeskillType: ""
-  ItemClass: ""
-  TrueFalse: null
-  QuestGroupTag: ""
-  GameEventType: ""
-  TerritoryId: null
-  IsPvp: ""
-  InGroup: ""
-  FactionType: ""
-  MissionGoalType: ""
-  GameModeId: ""
-  GameModeResult: ""
-  AttributeType: ""
-  AchievementsID: ""
-  AchievementCategory: ""
 - MetaAchievementId: GearScoreProgression6
   ReadyForSteam: null
   SteamApiName: ""
   Type: GearScoreProgression
-  Predecessor MetaAchievementIds: GearScoreProgression3
+  Predecessor MetaAchievementIds: GearScoreProgression4
   ProgressId: ""
   ProgressIdParent: GearScoreProgression
   UIDisplayCategory: Gear_Bonuses
@@ -17141,7 +17141,7 @@
   Predecessor MetaAchievementIds: ""
   ProgressId: ""
   ProgressIdParent: ""
-  UIDisplayCategory: Territory_Standing
+  UIDisplayCategory: Legacy
   HideFromUI: null
   Title: "@ui_metachievement_territorystanding_firstlight_title1"
   Description: "@ui_metachievement_territorystanding_generic_desc"
@@ -17177,7 +17177,7 @@
   Predecessor MetaAchievementIds: ""
   ProgressId: ""
   ProgressIdParent: ""
-  UIDisplayCategory: Territory_Standing
+  UIDisplayCategory: Legacy
   HideFromUI: null
   Title: "@ui_metachievement_territorystanding_firstlight_title_retract_10"
   Description: "@ui_metachievement_territorystanding_generic_desc"
@@ -17213,7 +17213,7 @@
   Predecessor MetaAchievementIds: ""
   ProgressId: ""
   ProgressIdParent: ""
-  UIDisplayCategory: Territory_Standing
+  UIDisplayCategory: Legacy
   HideFromUI: null
   Title: "@ui_metachievement_territorystanding_firstlight_title2"
   Description: "@ui_metachievement_territorystanding_generic_desc"
@@ -17249,7 +17249,7 @@
   Predecessor MetaAchievementIds: ""
   ProgressId: ""
   ProgressIdParent: ""
-  UIDisplayCategory: Territory_Standing
+  UIDisplayCategory: Legacy
   HideFromUI: null
   Title: "@ui_metachievement_territorystanding_firstlight_title3"
   Description: "@ui_metachievement_territorystanding_generic_desc"
@@ -17285,7 +17285,7 @@
   Predecessor MetaAchievementIds: ""
   ProgressId: ""
   ProgressIdParent: ""
-  UIDisplayCategory: Territory_Standing
+  UIDisplayCategory: Legacy
   HideFromUI: null
   Title: "@ui_metachievement_territorystanding_firstlight_title4"
   Description: "@ui_metachievement_territorystanding_generic_desc"
@@ -21173,7 +21173,7 @@
   Predecessor MetaAchievementIds: ""
   ProgressId: ""
   ProgressIdParent: ""
-  UIDisplayCategory: Per_Territory
+  UIDisplayCategory: Legacy
   HideFromUI: null
   Title: "@ui_metachievement_territorypoicount_firstlight_title"
   Description: "@ui_metachievement_territorypoicount_generic_desc"
@@ -21733,42 +21733,6 @@
   QuestGroupTag: ""
   GameEventType: ""
   TerritoryId: 9181.0
-  IsPvp: ""
-  InGroup: ""
-  FactionType: ""
-  MissionGoalType: ""
-  GameModeId: ""
-  GameModeResult: ""
-  AttributeType: ""
-  AchievementsID: ""
-  AchievementCategory: ""
-- MetaAchievementId: Destination_FoundEdengroveLastStand
-  ReadyForSteam: null
-  SteamApiName: ""
-  Type: SettlementDiscovered
-  Predecessor MetaAchievementIds: ""
-  ProgressId: ""
-  ProgressIdParent: ""
-  UIDisplayCategory: Hamlets
-  HideFromUI: null
-  Title: "@ui_metachievement_reached_edengroveoutpoststand_title"
-  Description: "@ui_metachievement_reached_generic_hamlet_desc"
-  Hidden Text: ""
-  Notification Verbosity: OneHundred
-  Tier: ""
-  Icon: "lyshineui\\images\\Icons\\Achievements\\Destination_FoundEdengroveLastStand.png"
-  Entitlement Id: ""
-  AchievePoints: 0.0
-  Total: null
-  VitalsCategories: ""
-  Categorical Progression: ""
-  LorePagesTopicIds: ""
-  TradeskillType: ""
-  ItemClass: ""
-  TrueFalse: null
-  QuestGroupTag: ""
-  GameEventType: ""
-  TerritoryId: 9094.0
   IsPvp: ""
   InGroup: ""
   FactionType: ""
@@ -27272,7 +27236,7 @@
   Categorical Progression: ""
   LorePagesTopicIds: ""
   TradeskillType: ""
-  ItemClass: Flail
+  ItemClass: flail
   TrueFalse: null
   QuestGroupTag: ""
   GameEventType: ""
@@ -30778,20 +30742,20 @@
   AttributeType: ""
   AchievementsID: ""
   AchievementCategory: ""
-- MetaAchievementId: QuestArc_EbonscaleReach1
+- MetaAchievementId: Quest_Ebonscale_Prince
   ReadyForSteam: null
   SteamApiName: ""
-  Type: QuestArc
+  Type: BinaryAchievement
   Predecessor MetaAchievementIds: ""
   ProgressId: ""
   ProgressIdParent: ""
   UIDisplayCategory: Territory_Stories
   HideFromUI: null
-  Title: "@ui_metachievement_questarc_ebonscalereach_title1"
-  Description: "@ui_metachievement_questarc_ebonscalereach_desc1"
-  Hidden Text: ""
+  Title: "@ui_metachievement_quest_ebonscale_prince"
+  Description: "@ui_metachievement_quest_ebonscale_prince_desc"
+  Hidden Text: "@ui_metachievement_hidden_ebonscale"
   Notification Verbosity: OneHundred
-  Tier: "@ui_meta_achievements_roman_numeral_i"
+  Tier: ""
   Icon: "lyshineui\\images\\Icons\\Achievements\\QuestArc_EbonscaleReach1.png"
   Entitlement Id: ""
   AchievePoints: 0.0
@@ -30802,7 +30766,7 @@
   TradeskillType: ""
   ItemClass: ""
   TrueFalse: null
-  QuestGroupTag: EbonscaleReachArc1
+  QuestGroupTag: ""
   GameEventType: ""
   TerritoryId: null
   IsPvp: ""
@@ -30812,22 +30776,22 @@
   GameModeId: ""
   GameModeResult: ""
   AttributeType: ""
-  AchievementsID: ""
+  AchievementsID: 99F_MSQ_08
   AchievementCategory: ""
-- MetaAchievementId: QuestArc_EbonscaleReach2
+- MetaAchievementId: Quest_Ebonscale_Empress
   ReadyForSteam: null
   SteamApiName: ""
-  Type: QuestArc
+  Type: BinaryAchievement
   Predecessor MetaAchievementIds: ""
   ProgressId: ""
   ProgressIdParent: ""
   UIDisplayCategory: Territory_Stories
   HideFromUI: null
-  Title: "@ui_metachievement_questarc_ebonscalereach_title2"
-  Description: "@ui_metachievement_questarc_ebonscalereach_desc2"
-  Hidden Text: ""
+  Title: "@ui_metachievement_quest_ebonscale_empress"
+  Description: "@ui_metachievement_quest_ebonscale_empress_desc"
+  Hidden Text: "@ui_metachievement_hidden_ebonscale"
   Notification Verbosity: OneHundred
-  Tier: "@ui_meta_achievements_roman_numeral_ii"
+  Tier: ""
   Icon: "lyshineui\\images\\Icons\\Achievements\\QuestArc_EbonscaleReach1.png"
   Entitlement Id: ""
   AchievePoints: 0.0
@@ -30838,7 +30802,7 @@
   TradeskillType: ""
   ItemClass: ""
   TrueFalse: null
-  QuestGroupTag: EbonscaleReachArc2
+  QuestGroupTag: ""
   GameEventType: ""
   TerritoryId: null
   IsPvp: ""
@@ -30848,22 +30812,22 @@
   GameModeId: ""
   GameModeResult: ""
   AttributeType: ""
-  AchievementsID: ""
+  AchievementsID: 99F_MSQ_11
   AchievementCategory: ""
-- MetaAchievementId: QuestArc_EbonscaleReach3
+- MetaAchievementId: Quest_Ebonscale_Artist
   ReadyForSteam: null
   SteamApiName: ""
-  Type: QuestArc
+  Type: BinaryAchievement
   Predecessor MetaAchievementIds: ""
   ProgressId: ""
   ProgressIdParent: ""
   UIDisplayCategory: Territory_Stories
   HideFromUI: null
-  Title: "@ui_metachievement_questarc_ebonscalereach_title3"
-  Description: "@ui_metachievement_questarc_ebonscalereach_desc3"
-  Hidden Text: ""
+  Title: "@ui_metachievement_quest_ebonscale_artist"
+  Description: "@ui_metachievement_quest_ebonscale_artist_desc"
+  Hidden Text: "@ui_metachievement_hidden_ebonscale"
   Notification Verbosity: OneHundred
-  Tier: "@ui_meta_achievements_roman_numeral_iii"
+  Tier: ""
   Icon: "lyshineui\\images\\Icons\\Achievements\\QuestArc_EbonscaleReach1.png"
   Entitlement Id: ""
   AchievePoints: 0.0
@@ -30874,7 +30838,7 @@
   TradeskillType: ""
   ItemClass: ""
   TrueFalse: null
-  QuestGroupTag: EbonscaleReachArc3
+  QuestGroupTag: ""
   GameEventType: ""
   TerritoryId: null
   IsPvp: ""
@@ -30884,7 +30848,7 @@
   GameModeId: ""
   GameModeResult: ""
   AttributeType: ""
-  AchievementsID: ""
+  AchievementsID: 08a_Quest_13
   AchievementCategory: ""
 - MetaAchievementId: QuestArc_v2_Edengrove1
   ReadyForSteam: null
@@ -31570,20 +31534,20 @@
   AttributeType: ""
   AchievementsID: ""
   AchievementCategory: ""
-- MetaAchievementId: QuestArc_ShatteredMtn1
+- MetaAchievementId: Quest_Shattered_Friend
   ReadyForSteam: null
   SteamApiName: ""
-  Type: QuestArc
+  Type: BinaryAchievement
   Predecessor MetaAchievementIds: ""
   ProgressId: ""
   ProgressIdParent: ""
   UIDisplayCategory: Territory_Stories
   HideFromUI: null
-  Title: "@ui_metachievement_questarc_shatteredmtn_title1"
-  Description: "@ui_metachievement_questarc_shatteredmtn_desc1"
-  Hidden Text: ""
+  Title: "@ui_metachievement_quest_shattered_friend"
+  Description: "@ui_metachievement_quest_shattered_friend_desc"
+  Hidden Text: "@ui_metachievement_hidden_shattered"
   Notification Verbosity: OneHundred
-  Tier: "@ui_meta_achievements_roman_numeral_i"
+  Tier: ""
   Icon: "lyshineui\\images\\Icons\\Achievements\\QuestArc_ShatteredMtn1.png"
   Entitlement Id: ""
   AchievePoints: 0.0
@@ -31594,7 +31558,7 @@
   TradeskillType: ""
   ItemClass: ""
   TrueFalse: null
-  QuestGroupTag: ShateredMtnArc1
+  QuestGroupTag: ""
   GameEventType: ""
   TerritoryId: null
   IsPvp: ""
@@ -31604,22 +31568,22 @@
   GameModeId: ""
   GameModeResult: ""
   AttributeType: ""
-  AchievementsID: ""
+  AchievementsID: 99G_MSQ_01
   AchievementCategory: ""
-- MetaAchievementId: QuestArc_ShatteredMtn2
+- MetaAchievementId: Quest_Shattered_Banner
   ReadyForSteam: null
   SteamApiName: ""
-  Type: QuestArc
+  Type: BinaryAchievement
   Predecessor MetaAchievementIds: ""
   ProgressId: ""
   ProgressIdParent: ""
   UIDisplayCategory: Territory_Stories
   HideFromUI: null
-  Title: "@ui_metachievement_questarc_shatteredmtn_title2"
-  Description: "@ui_metachievement_questarc_shatteredmtn_desc2"
-  Hidden Text: ""
+  Title: "@ui_metachievement_quest_shattered_banner"
+  Description: "@ui_metachievement_quest_shattered_banner_desc"
+  Hidden Text: "@ui_metachievement_hidden_shattered"
   Notification Verbosity: OneHundred
-  Tier: "@ui_meta_achievements_roman_numeral_ii"
+  Tier: ""
   Icon: "lyshineui\\images\\Icons\\Achievements\\QuestArc_ShatteredMtn1.png"
   Entitlement Id: ""
   AchievePoints: 0.0
@@ -31630,7 +31594,7 @@
   TradeskillType: ""
   ItemClass: ""
   TrueFalse: null
-  QuestGroupTag: ShateredMtnArc2
+  QuestGroupTag: ""
   GameEventType: ""
   TerritoryId: null
   IsPvp: ""
@@ -31640,22 +31604,22 @@
   GameModeId: ""
   GameModeResult: ""
   AttributeType: ""
-  AchievementsID: ""
+  AchievementsID: 99G_MSQ_10
   AchievementCategory: ""
-- MetaAchievementId: QuestArc_ShatteredMtn3
+- MetaAchievementId: Quest_Shattered_Mind
   ReadyForSteam: null
   SteamApiName: ""
-  Type: QuestArc
+  Type: BinaryAchievement
   Predecessor MetaAchievementIds: ""
   ProgressId: ""
   ProgressIdParent: ""
   UIDisplayCategory: Territory_Stories
   HideFromUI: null
-  Title: "@ui_metachievement_questarc_shatteredmtn_title3"
-  Description: "@ui_metachievement_questarc_shatteredmtn_desc3"
-  Hidden Text: ""
+  Title: "@ui_metachievement_quest_shattered_mind"
+  Description: "@ui_metachievement_quest_shattered_mind_desc"
+  Hidden Text: "@ui_metachievement_hidden_shattered"
   Notification Verbosity: OneHundred
-  Tier: "@ui_meta_achievements_roman_numeral_iii"
+  Tier: ""
   Icon: "lyshineui\\images\\Icons\\Achievements\\QuestArc_ShatteredMtn1.png"
   Entitlement Id: ""
   AchievePoints: 0.0
@@ -31666,7 +31630,7 @@
   TradeskillType: ""
   ItemClass: ""
   TrueFalse: null
-  QuestGroupTag: ShateredMtnArc3
+  QuestGroupTag: ""
   GameEventType: ""
   TerritoryId: null
   IsPvp: ""
@@ -31676,7 +31640,7 @@
   GameModeId: ""
   GameModeResult: ""
   AttributeType: ""
-  AchievementsID: ""
+  AchievementsID: 99G_MSQ_11
   AchievementCategory: ""
 - MetaAchievementId: Quest_WeaversFen_Crone
   ReadyForSteam: null

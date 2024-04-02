@@ -1029,7 +1029,7 @@
   IsPOI: true
   MapIcon: LyShineUI/Images/Map/Icon/POIs/wolf_den.png
   CompassIcon: ""
-  DiscoveryRadius: 100.0
+  DiscoveryRadius: 150.0
   IsDiscoverable: true
   IsChartable: true
   DefaultAchievement: null
@@ -1062,7 +1062,7 @@
   IsPOI: true
   MapIcon: LyShineUI/Images/Map/Icon/POIs/wolf_den.png
   CompassIcon: ""
-  DiscoveryRadius: 100.0
+  DiscoveryRadius: 150.0
   IsDiscoverable: true
   IsChartable: true
   DefaultAchievement: null
@@ -1185,4 +1185,202 @@
   IsCollapsible: null
   RecommendedLevel: null
   UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 40437.0
+  NameLocalizationKey: "@ui_poi_myrkgardwest_40437"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/ancient_shrine.png
+  CompassIcon: ""
+  DiscoveryRadius: 375.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: MyrkgardWest,Corrupted
+  DiscoveredAchievement: myrkgardwest_40437_discovered
+  ChartedAchievement: myrkgardwest_40437_charted
+  POITag: myrkgardwest
+  AudioGroup: POI_State
+  AudioState: damned
+  AudioBank: Damned
+  CanPlaceCamp: false
+  DevName: Greater Tribulation
+  VitalsCategory: Corrupted
+  LevelRange: 31-65
+  Containers: 41.0
+  TooltipBackground: ""
+  GameMode: ""
+  GroupSize: 3.0
+  IsCollapsible: null
+  RecommendedLevel: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 40438.0
+  NameLocalizationKey: "@ui_poi_lowermine_40438"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/Mine.png
+  CompassIcon: ""
+  DiscoveryRadius: 375.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ScorchMines,Corrupted
+  DiscoveredAchievement: lowermine_40438_discovered
+  ChartedAchievement: lowermine_40438_charted
+  POITag: lowermine,elite
+  AudioGroup: POI_State
+  AudioState: damned
+  AudioBank: Damned
+  CanPlaceCamp: false
+  DevName: Ambusti Inferior
+  VitalsCategory: Corrupted
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: ""
+  GameMode: ""
+  GroupSize: null
+  IsCollapsible: null
+  RecommendedLevel: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 40439.0
+  NameLocalizationKey: "@ui_poi_strangers_campsite_40439"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\StrangersCampsite.png"
+  CompassIcon: ""
+  DiscoveryRadius: 250.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: strangers_campsite_40439_discovered
+  ChartedAchievement: strangers_campsite_40439_charted
+  POITag: strangers_campsite
+  AudioGroup: POI_State
+  AudioState: camp
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Stranger's Campsite
+  VitalsCategory: Corrupted
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_station_cooking.png"
+  GameMode: ""
+  GroupSize: null
+  IsCollapsible: null
+  RecommendedLevel: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 40440.0
+  NameLocalizationKey: "@ui_poi_mountainhome_cliff_40440"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\Mountainhome_Cliff.png"
+  CompassIcon: ""
+  DiscoveryRadius: 250.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: mountainhome_cliff_40440_discovered
+  ChartedAchievement: mountainhome_cliff_40440_charted
+  POITag: mountainhome_cliff
+  AudioGroup: POI_State
+  AudioState: camp
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Mountainhome Cliff
+  VitalsCategory: Corrupted
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: ""
+  GameMode: ""
+  GroupSize: null
+  IsCollapsible: null
+  RecommendedLevel: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 40441.0
+  NameLocalizationKey: "@ui_poi_soulwarden_camp_40441"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\soulwarden_camp.png"
+  CompassIcon: ""
+  DiscoveryRadius: 250.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: soulwarden_camp_40441_discovered
+  ChartedAchievement: soulwarden_camp_40441_charted
+  POITag: soulwarden_camp
+  AudioGroup: POI_State
+  AudioState: camp
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Soulwarden Camp
+  VitalsCategory: Corrupted
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: ""
+  GameMode: ""
+  GroupSize: null
+  IsCollapsible: null
+  RecommendedLevel: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 40442.0
+  NameLocalizationKey: "@ui_poi_spiritshrine_40442"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine_bg.dds
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\spirit_shrine_charted.dds"
+  DiscoveryRadius: 150.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: spiritshrine_40442_charted
+  POITag: spiritshrine_40442,fasttravel
+  AudioGroup: POI_State
+  AudioState: spiritshrine_40442
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Spirit Shrine
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_spiritshrine.png
+  GameMode: ""
+  GroupSize: null
+  IsCollapsible: null
+  RecommendedLevel: null
+  UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
   EventId: ""

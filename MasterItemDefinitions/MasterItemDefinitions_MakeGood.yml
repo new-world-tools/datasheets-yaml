@@ -11,6 +11,7 @@
   TradingFamily: ArmorLight
   TradingGroup: SlotHead
   BindOnPickup: null
+  NoBindOnPickupChance: 1.0
   BindOnEquip: 1.0
   GearScoreOverride: 400.0
   MinGearScore: 300.0
@@ -24,8 +25,8 @@
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
   PerkSlot1: PerkID_Stat_ArmorScholar
-  PerkSlot2: ""
-  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot2: PerkID_Armor_HarvestingLuck
+  PerkSlot3: ""
   PerkSlot4: ""
   PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
@@ -38,8 +39,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 1.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 1.0
   UseMaterialAffix: 1.0
   UseMagicAffix: 1.0
@@ -74,6 +77,7 @@
   CraftingRecipe: SalvageSmall_LeatherT3
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT3
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -106,6 +110,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: ClothingHead_HorticulturistT4_MakeGood
   ParentItemId_DVT: ClothingHead_HorticulturistT4
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -119,6 +128,7 @@
   TradingFamily: ArmorLight
   TradingGroup: SlotHead
   BindOnPickup: null
+  NoBindOnPickupChance: 1.0
   BindOnEquip: 1.0
   GearScoreOverride: 500.0
   MinGearScore: 400.0
@@ -132,8 +142,8 @@
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
   PerkSlot1: PerkID_Stat_ArmorScholar
-  PerkSlot2: ""
-  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot2: PerkID_Armor_HarvestingLuck
+  PerkSlot3: ""
   PerkSlot4: ""
   PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
@@ -146,8 +156,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 2.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 1.0
   UseMaterialAffix: 1.0
   UseMagicAffix: 1.0
@@ -182,6 +194,7 @@
   CraftingRecipe: SalvageSmall_LeatherT4
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT4
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -214,6 +227,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: ClothingHead_HorticulturistT5_MakeGood
   ParentItemId_DVT: ClothingHead_HorticulturistT5
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -227,6 +245,7 @@
   TradingFamily: ArmorLight
   TradingGroup: SlotHead
   BindOnPickup: null
+  NoBindOnPickupChance: 1.0
   BindOnEquip: 1.0
   GearScoreOverride: 600.0
   MinGearScore: 500.0
@@ -240,8 +259,8 @@
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
   PerkSlot1: PerkID_Stat_ArmorScholar
-  PerkSlot2: ""
-  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot2: PerkID_Armor_HarvestingLuck
+  PerkSlot3: ""
   PerkSlot4: ""
   PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
@@ -254,8 +273,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 3.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 1.0
   UseMaterialAffix: 1.0
   UseMagicAffix: 1.0
@@ -290,6 +311,7 @@
   CraftingRecipe: SalvageSmall_LeatherT5
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -322,6 +344,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: ClothingChest_HorticulturistT3_MakeGood
   ParentItemId_DVT: ClothingChest_HorticulturistT3
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -335,6 +362,7 @@
   TradingFamily: ArmorLight
   TradingGroup: SlotChest
   BindOnPickup: null
+  NoBindOnPickupChance: 1.0
   BindOnEquip: 1.0
   GearScoreOverride: 400.0
   MinGearScore: 300.0
@@ -348,8 +376,8 @@
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
   PerkSlot1: PerkID_Stat_ArmorScholar
-  PerkSlot2: ""
-  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot2: PerkID_Armor_HarvestingLuck
+  PerkSlot3: ""
   PerkSlot4: ""
   PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
@@ -362,8 +390,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 1.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 1.0
   UseMaterialAffix: 1.0
   UseMagicAffix: 1.0
@@ -398,6 +428,7 @@
   CraftingRecipe: SalvageLarge_LeatherT3
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT3
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -430,6 +461,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: ClothingChest_HorticulturistT4_MakeGood
   ParentItemId_DVT: ClothingChest_HorticulturistT4
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -443,6 +479,7 @@
   TradingFamily: ArmorLight
   TradingGroup: SlotChest
   BindOnPickup: null
+  NoBindOnPickupChance: 1.0
   BindOnEquip: 1.0
   GearScoreOverride: 500.0
   MinGearScore: 400.0
@@ -456,8 +493,8 @@
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
   PerkSlot1: PerkID_Stat_ArmorScholar
-  PerkSlot2: ""
-  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot2: PerkID_Armor_HarvestingLuck
+  PerkSlot3: ""
   PerkSlot4: ""
   PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
@@ -470,8 +507,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 2.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 1.0
   UseMaterialAffix: 1.0
   UseMagicAffix: 1.0
@@ -506,6 +545,7 @@
   CraftingRecipe: SalvageLarge_LeatherT4
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT4
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -538,6 +578,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: ClothingChest_HorticulturistT5_MakeGood
   ParentItemId_DVT: ClothingChest_HorticulturistT5
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -551,6 +596,7 @@
   TradingFamily: ArmorLight
   TradingGroup: SlotChest
   BindOnPickup: null
+  NoBindOnPickupChance: 1.0
   BindOnEquip: 1.0
   GearScoreOverride: 600.0
   MinGearScore: 500.0
@@ -564,8 +610,8 @@
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
   PerkSlot1: PerkID_Stat_ArmorScholar
-  PerkSlot2: ""
-  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot2: PerkID_Armor_HarvestingLuck
+  PerkSlot3: ""
   PerkSlot4: ""
   PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
@@ -578,8 +624,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 3.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 1.0
   UseMaterialAffix: 1.0
   UseMagicAffix: 1.0
@@ -614,6 +662,7 @@
   CraftingRecipe: SalvageLarge_LeatherT5
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -646,6 +695,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: ClothingHands_HorticulturistT3_MakeGood
   ParentItemId_DVT: ClothingHands_HorticulturistT3
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -659,6 +713,7 @@
   TradingFamily: ArmorLight
   TradingGroup: SlotHands
   BindOnPickup: null
+  NoBindOnPickupChance: 1.0
   BindOnEquip: 1.0
   GearScoreOverride: 400.0
   MinGearScore: 300.0
@@ -672,8 +727,8 @@
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
   PerkSlot1: PerkID_Stat_ArmorScholar
-  PerkSlot2: ""
-  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot2: PerkID_Armor_HarvestingLuck
+  PerkSlot3: ""
   PerkSlot4: ""
   PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
@@ -686,8 +741,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 1.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 1.0
   UseMaterialAffix: 1.0
   UseMagicAffix: 1.0
@@ -722,6 +779,7 @@
   CraftingRecipe: SalvageSmall_LeatherT3
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT3
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -754,6 +812,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: ClothingHands_HorticulturistT4_MakeGood
   ParentItemId_DVT: ClothingHands_HorticulturistT4
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -767,6 +830,7 @@
   TradingFamily: ArmorLight
   TradingGroup: SlotHands
   BindOnPickup: null
+  NoBindOnPickupChance: 1.0
   BindOnEquip: 1.0
   GearScoreOverride: 500.0
   MinGearScore: 400.0
@@ -780,8 +844,8 @@
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
   PerkSlot1: PerkID_Stat_ArmorScholar
-  PerkSlot2: ""
-  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot2: PerkID_Armor_HarvestingLuck
+  PerkSlot3: ""
   PerkSlot4: ""
   PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
@@ -794,8 +858,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 2.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 1.0
   UseMaterialAffix: 1.0
   UseMagicAffix: 1.0
@@ -830,6 +896,7 @@
   CraftingRecipe: SalvageSmall_LeatherT4
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT4
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -862,6 +929,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: ClothingHands_HorticulturistT5_MakeGood
   ParentItemId_DVT: ClothingHands_HorticulturistT5
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -875,6 +947,7 @@
   TradingFamily: ArmorLight
   TradingGroup: SlotHands
   BindOnPickup: null
+  NoBindOnPickupChance: 1.0
   BindOnEquip: 1.0
   GearScoreOverride: 600.0
   MinGearScore: 500.0
@@ -888,8 +961,8 @@
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
   PerkSlot1: PerkID_Stat_ArmorScholar
-  PerkSlot2: ""
-  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot2: PerkID_Armor_HarvestingLuck
+  PerkSlot3: ""
   PerkSlot4: ""
   PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
@@ -902,8 +975,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 3.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 1.0
   UseMaterialAffix: 1.0
   UseMagicAffix: 1.0
@@ -938,6 +1013,7 @@
   CraftingRecipe: SalvageSmall_LeatherT5
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -970,6 +1046,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: ClothingLegs_HorticulturistT3_MakeGood
   ParentItemId_DVT: ClothingLegs_HorticulturistT3
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -983,6 +1064,7 @@
   TradingFamily: ArmorLight
   TradingGroup: SlotLegs
   BindOnPickup: null
+  NoBindOnPickupChance: 1.0
   BindOnEquip: 1.0
   GearScoreOverride: 400.0
   MinGearScore: 300.0
@@ -996,8 +1078,8 @@
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
   PerkSlot1: PerkID_Stat_ArmorScholar
-  PerkSlot2: ""
-  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot2: PerkID_Armor_HarvestingLuck
+  PerkSlot3: ""
   PerkSlot4: ""
   PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
@@ -1010,8 +1092,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 1.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 1.0
   UseMaterialAffix: 1.0
   UseMagicAffix: 1.0
@@ -1046,6 +1130,7 @@
   CraftingRecipe: SalvageLarge_LeatherT3
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT3
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -1078,6 +1163,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: ClothingLegs_HorticulturistT4_MakeGood
   ParentItemId_DVT: ClothingLegs_HorticulturistT4
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -1091,6 +1181,7 @@
   TradingFamily: ArmorLight
   TradingGroup: SlotLegs
   BindOnPickup: null
+  NoBindOnPickupChance: 1.0
   BindOnEquip: 1.0
   GearScoreOverride: 500.0
   MinGearScore: 400.0
@@ -1104,8 +1195,8 @@
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
   PerkSlot1: PerkID_Stat_ArmorScholar
-  PerkSlot2: ""
-  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot2: PerkID_Armor_HarvestingLuck
+  PerkSlot3: ""
   PerkSlot4: ""
   PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
@@ -1118,8 +1209,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 2.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 1.0
   UseMaterialAffix: 1.0
   UseMagicAffix: 1.0
@@ -1154,6 +1247,7 @@
   CraftingRecipe: SalvageLarge_LeatherT4
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT4
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -1186,6 +1280,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: ClothingLegs_HorticulturistT5_MakeGood
   ParentItemId_DVT: ClothingLegs_HorticulturistT5
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -1199,6 +1298,7 @@
   TradingFamily: ArmorLight
   TradingGroup: SlotLegs
   BindOnPickup: null
+  NoBindOnPickupChance: 1.0
   BindOnEquip: 1.0
   GearScoreOverride: 600.0
   MinGearScore: 500.0
@@ -1212,8 +1312,8 @@
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
   PerkSlot1: PerkID_Stat_ArmorScholar
-  PerkSlot2: ""
-  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot2: PerkID_Armor_HarvestingLuck
+  PerkSlot3: ""
   PerkSlot4: ""
   PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
@@ -1226,8 +1326,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 3.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 1.0
   UseMaterialAffix: 1.0
   UseMagicAffix: 1.0
@@ -1262,6 +1364,7 @@
   CraftingRecipe: SalvageLarge_LeatherT5
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -1294,6 +1397,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: ClothingFeet_HorticulturistT3_MakeGood
   ParentItemId_DVT: ClothingFeet_HorticulturistT3
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -1307,6 +1415,7 @@
   TradingFamily: ArmorLight
   TradingGroup: SlotFeet
   BindOnPickup: null
+  NoBindOnPickupChance: 1.0
   BindOnEquip: 1.0
   GearScoreOverride: 400.0
   MinGearScore: 300.0
@@ -1320,8 +1429,8 @@
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
   PerkSlot1: PerkID_Stat_ArmorScholar
-  PerkSlot2: ""
-  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot2: PerkID_Armor_HarvestingLuck
+  PerkSlot3: ""
   PerkSlot4: ""
   PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
@@ -1334,8 +1443,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 1.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 1.0
   UseMaterialAffix: 1.0
   UseMagicAffix: 1.0
@@ -1370,6 +1481,7 @@
   CraftingRecipe: SalvageSmall_LeatherT3
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT3
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -1402,6 +1514,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: ClothingFeet_HorticulturistT4_MakeGood
   ParentItemId_DVT: ClothingFeet_HorticulturistT4
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -1415,6 +1532,7 @@
   TradingFamily: ArmorLight
   TradingGroup: SlotFeet
   BindOnPickup: null
+  NoBindOnPickupChance: 1.0
   BindOnEquip: 1.0
   GearScoreOverride: 500.0
   MinGearScore: 400.0
@@ -1428,8 +1546,8 @@
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
   PerkSlot1: PerkID_Stat_ArmorScholar
-  PerkSlot2: ""
-  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot2: PerkID_Armor_HarvestingLuck
+  PerkSlot3: ""
   PerkSlot4: ""
   PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
@@ -1442,8 +1560,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 2.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 1.0
   UseMaterialAffix: 1.0
   UseMagicAffix: 1.0
@@ -1478,6 +1598,7 @@
   CraftingRecipe: SalvageSmall_LeatherT4
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT4
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -1510,6 +1631,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: ClothingFeet_HorticulturistT5_MakeGood
   ParentItemId_DVT: ClothingFeet_HorticulturistT5
   IgnoreParentColumns_DVT: GearScoreOverride,SalvageResources,GrantsHWMBump
@@ -1523,6 +1649,7 @@
   TradingFamily: ArmorLight
   TradingGroup: SlotFeet
   BindOnPickup: null
+  NoBindOnPickupChance: 1.0
   BindOnEquip: 1.0
   GearScoreOverride: 600.0
   MinGearScore: 500.0
@@ -1536,8 +1663,8 @@
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
   PerkSlot1: PerkID_Stat_ArmorScholar
-  PerkSlot2: ""
-  PerkSlot3: PerkID_Armor_HarvestingLuck
+  PerkSlot2: PerkID_Armor_HarvestingLuck
+  PerkSlot3: ""
   PerkSlot4: ""
   PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
@@ -1550,8 +1677,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 3.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 1.0
   UseMaterialAffix: 1.0
   UseMagicAffix: 1.0
@@ -1586,6 +1715,7 @@
   CraftingRecipe: SalvageSmall_LeatherT5
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -1618,6 +1748,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: RingT5_TheRingoftheForgersSignet_Orange
   ParentItemId_DVT: RingT5_TheRingoftheForgersSignet
   IgnoreParentColumns_DVT: ForceRarity,GearScoreOverride,CanRollPerkOnUpgrade
@@ -1631,6 +1766,7 @@
   TradingFamily: ""
   TradingGroup: ""
   BindOnPickup: 1.0
+  NoBindOnPickupChance: null
   BindOnEquip: null
   GearScoreOverride: 600.0
   MinGearScore: 500.0
@@ -1644,8 +1780,8 @@
   CanHavePerks: 1.0
   CanReplaceGem: 0.0
   PerkSlot1: PerkID_Stat_ArmorScholar
-  PerkSlot2: PerkID_Gem_ThrustWard4
-  PerkSlot3: PerkID_Ring_Crit
+  PerkSlot2: PerkID_Ring_Crit
+  PerkSlot3: PerkID_Gem_ThrustWard4
   PerkSlot4: PerkID_Common_CDR
   PerkSlot5: PerkID_Ring_DurSlow
   Perk1: PerkID_Stat_ArmorScholar
@@ -1658,8 +1794,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 4.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 1.0
   UseMaterialAffix: 1.0
   UseMagicAffix: 1.0
@@ -1694,6 +1832,7 @@
   CraftingRecipe: SalvageSmall_MetalT5
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -1726,6 +1865,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: RingT5_TheRingoftheForgersSignet_Purple
   ParentItemId_DVT: RingT5_TheRingoftheForgersSignet
   IgnoreParentColumns_DVT: PerkSlot5,Perk5,ForceRarity,GearScoreOverride,CanRollPerkOnUpgrade
@@ -1739,6 +1883,7 @@
   TradingFamily: ""
   TradingGroup: ""
   BindOnPickup: 1.0
+  NoBindOnPickupChance: null
   BindOnEquip: null
   GearScoreOverride: 600.0
   MinGearScore: 500.0
@@ -1752,8 +1897,8 @@
   CanHavePerks: 1.0
   CanReplaceGem: 0.0
   PerkSlot1: PerkID_Stat_ArmorScholar
-  PerkSlot2: PerkID_Gem_ThrustWard4
-  PerkSlot3: PerkID_Ring_Crit
+  PerkSlot2: PerkID_Ring_Crit
+  PerkSlot3: PerkID_Gem_ThrustWard4
   PerkSlot4: PerkID_Common_CDR
   PerkSlot5: ""
   Perk1: PerkID_Stat_ArmorScholar
@@ -1766,8 +1911,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 3.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 1.0
   UseMaterialAffix: 1.0
   UseMagicAffix: 1.0
@@ -1802,6 +1949,7 @@
   CraftingRecipe: SalvageSmall_MetalT5
   RepairGameEventID: ""
   SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -1834,6 +1982,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: 1hSickleT5_MakeGood
   ParentItemId_DVT: ""
   IgnoreParentColumns_DVT: ""
@@ -1847,6 +2000,7 @@
   TradingFamily: ""
   TradingGroup: ""
   BindOnPickup: 1.0
+  NoBindOnPickupChance: null
   BindOnEquip: null
   GearScoreOverride: null
   MinGearScore: null
@@ -1874,8 +2028,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 3.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 0.0
   UseMaterialAffix: 0.0
   UseMagicAffix: 0.0
@@ -1910,6 +2066,7 @@
   CraftingRecipe: ""
   RepairGameEventID: ""
   SalvageGameEventID: ""
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -1942,6 +2099,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: 1hSkinningKnifeT5_MakeGood
   ParentItemId_DVT: ""
   IgnoreParentColumns_DVT: ""
@@ -1955,6 +2117,7 @@
   TradingFamily: ""
   TradingGroup: ""
   BindOnPickup: 1.0
+  NoBindOnPickupChance: null
   BindOnEquip: null
   GearScoreOverride: null
   MinGearScore: null
@@ -1982,8 +2145,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 3.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 0.0
   UseMaterialAffix: 0.0
   UseMagicAffix: 0.0
@@ -2018,6 +2183,7 @@
   CraftingRecipe: ""
   RepairGameEventID: ""
   SalvageGameEventID: ""
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -2050,6 +2216,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: 2hPickT5_MakeGood
   ParentItemId_DVT: ""
   IgnoreParentColumns_DVT: ""
@@ -2063,6 +2234,7 @@
   TradingFamily: ""
   TradingGroup: ""
   BindOnPickup: 1.0
+  NoBindOnPickupChance: null
   BindOnEquip: null
   GearScoreOverride: null
   MinGearScore: null
@@ -2090,8 +2262,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 3.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 0.0
   UseMaterialAffix: 0.0
   UseMagicAffix: 0.0
@@ -2126,6 +2300,7 @@
   CraftingRecipe: ""
   RepairGameEventID: ""
   SalvageGameEventID: ""
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -2158,6 +2333,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: 2hAxeT5_MakeGood
   ParentItemId_DVT: ""
   IgnoreParentColumns_DVT: ""
@@ -2171,6 +2351,7 @@
   TradingFamily: ""
   TradingGroup: ""
   BindOnPickup: 1.0
+  NoBindOnPickupChance: null
   BindOnEquip: null
   GearScoreOverride: null
   MinGearScore: null
@@ -2198,8 +2379,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 3.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 0.0
   UseMaterialAffix: 0.0
   UseMagicAffix: 0.0
@@ -2234,6 +2417,7 @@
   CraftingRecipe: ""
   RepairGameEventID: ""
   SalvageGameEventID: ""
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -2266,6 +2450,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: BagAT5_MakeGood
   ParentItemId_DVT: ""
   IgnoreParentColumns_DVT: ""
@@ -2279,6 +2468,7 @@
   TradingFamily: ""
   TradingGroup: ""
   BindOnPickup: 1.0
+  NoBindOnPickupChance: null
   BindOnEquip: null
   GearScoreOverride: null
   MinGearScore: null
@@ -2306,8 +2496,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 3.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 0.0
   UseMaterialAffix: 0.0
   UseMagicAffix: 0.0
@@ -2342,6 +2534,7 @@
   CraftingRecipe: ""
   RepairGameEventID: ""
   SalvageGameEventID: ""
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -2374,6 +2567,11 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
 - ItemID: BagGypsum10_MakeGood
   ParentItemId_DVT: ""
   IgnoreParentColumns_DVT: ""
@@ -2387,6 +2585,7 @@
   TradingFamily: ""
   TradingGroup: ""
   BindOnPickup: 1.0
+  NoBindOnPickupChance: null
   BindOnEquip: null
   GearScoreOverride: null
   MinGearScore: null
@@ -2414,8 +2613,10 @@
   PerkBucket3: ""
   PerkBucket4: ""
   PerkBucket5: ""
+  OnEquipObjectiveId: ""
   ForceRarity: 3.0
   RequiredLevel: ""
+  RequiredTradeskillRank: ""
   UseTypeAffix: 0.0
   UseMaterialAffix: 0.0
   UseMagicAffix: 0.0
@@ -2450,6 +2651,7 @@
   CraftingRecipe: ""
   RepairGameEventID: ""
   SalvageGameEventID: ""
+  SalvageLootTags: ""
   SalvageGuaranteedPerkCount: ""
   SalvageAchievement: ""
   SalvageEntitlementId: ""
@@ -2482,3 +2684,8 @@
   ObtainableReleaseVersion: ""
   MountItemAppearance: ""
   ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""

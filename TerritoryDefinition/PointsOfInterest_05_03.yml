@@ -3588,7 +3588,7 @@
   VitalsCategory: ""
   LevelRange: null
   Containers: ""
-  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_township14.png
+  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_township14.png"
   GameMode: ""
   GroupSize: null
   RecommendedLevel: null
@@ -3601,7 +3601,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\ancient_tower.png"
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\castle.png"
   CompassIcon: ""
   DiscoveryRadius: 50.0
   IsDiscoverable: false
@@ -3621,7 +3621,7 @@
   VitalsCategory: ""
   LevelRange: null
   Containers: ""
-  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_outpostRush_grove.png
+  TooltipBackground: ""
   GameMode: ""
   GroupSize: null
   RecommendedLevel: null
@@ -3634,8 +3634,8 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine_bg.dds
-  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\spirit_shrine_charted.dds"
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/outpost.png
+  CompassIcon: ""
   DiscoveryRadius: 150.0
   IsDiscoverable: true
   IsChartable: true
@@ -3647,7 +3647,7 @@
   ChartedAchievement: npchub_53012_charted
   POITag: npchub_53012
   AudioGroup: POI_State
-  AudioState: ""
+  AudioState: watchtower
   AudioBank: ""
   CanPlaceCamp: false
   DevName: Inishglory Camp
@@ -3667,7 +3667,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: "LyShineUI\\Images\\Map\\Icon\\outpost.png"
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/angryearth_village.png
   CompassIcon: ""
   DiscoveryRadius: 150.0
   IsDiscoverable: true
@@ -3854,6 +3854,72 @@
   Containers: ""
   TooltipBackground: ""
   GameMode: ""
+  GroupSize: null
+  RecommendedLevel: null
+  IsCollapsible: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 53019.0
+  NameLocalizationKey: "@ui_poi_runeforge_trial_53019"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/arena_iceguardian.png
+  CompassIcon: ""
+  DiscoveryRadius: 150.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: runeforge_trial_53019_discovered
+  ChartedAchievement: runeforge_trial_53019_charted
+  POITag: runeforge_trial_53019
+  AudioGroup: POI_State
+  AudioState: ""
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: ""
+  VitalsCategory: ""
+  LevelRange: null
+  Containers: ""
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/GlacialTarn_mapTooltip_backgroundImage.png
+  GameMode: TrialSeason04
+  GroupSize: null
+  RecommendedLevel: null
+  IsCollapsible: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 53020.0
+  NameLocalizationKey: "@ui_poi_runeforge_trial_53019"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/ancient_temple_sm.png
+  CompassIcon: ""
+  DiscoveryRadius: 150.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: runeforge_trial_53020_discovered
+  ChartedAchievement: runeforge_trial_53020_charted
+  POITag: runeforge_trial_53020
+  AudioGroup: POI_State
+  AudioState: ""
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: ""
+  VitalsCategory: ""
+  LevelRange: null
+  Containers: ""
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/GlacialTarn_mapTooltip_backgroundImage.png
+  GameMode: TrialSeason04
   GroupSize: null
   RecommendedLevel: null
   IsCollapsible: null

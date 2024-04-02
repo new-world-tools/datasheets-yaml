@@ -7,10 +7,10 @@
   CanBeShared: null
   CanFastTravel: null
   Task: 0714_0101_d_00_container_fieldsoffire
-  NpcDestinationId: 0714_Watcher
+  NpcDestinationId: 0714_Watcher_03
   ExclusiveTerritory: null
   AchievementId: 07_Quest_03
-  RequiredAchievementId: ""
+  RequiredAchievementId: 07_Quest_05 && (99G_MSQ_06 || 99_MSQ_59)
   RequiredFaction: ""
   RequiredLevel: ""
   SuccessGameEventId: 0714_0101_fieldsoffire_success
@@ -20,8 +20,8 @@
   ObjectiveReward: ""
   ItemRewardName: GypsumOrb
   ItemRewardQty: 1.0
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@0714_0101_fieldsoffire_objective_title"
   Description: "@0714_0101_fieldsoffire_objective_desc"
   PlayerPrompt: "@0714_0101_fieldsoffire_start_prompt"
@@ -38,6 +38,7 @@
   EntitlementId: ""
   QuestArcTag: ShateredMtnArc1
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 0719_0101_reflectionsmountainheart
   Type: Journey
   Difficulty: ""
@@ -47,10 +48,10 @@
   CanBeShared: null
   CanFastTravel: null
   Task: 0719_0101_d_00_container_reflectionsmountainheart
-  NpcDestinationId: 0719_Ranger
+  NpcDestinationId: 0719_Ranger_02
   ExclusiveTerritory: null
   AchievementId: 07_Quest_10
-  RequiredAchievementId: ""
+  RequiredAchievementId: 03_Quest_10 || 99G_MSQ_12
   RequiredFaction: ""
   RequiredLevel: ""
   SuccessGameEventId: 0719_0101_reflectionsmountainheart_success
@@ -60,8 +61,8 @@
   ObjectiveReward: ""
   ItemRewardName: GypsumOrb
   ItemRewardQty: 1.0
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@0719_0101_reflectionsmountainheart_objective_title"
   Description: "@0719_0101_reflectionsmountainheart_objective_desc"
   PlayerPrompt: "@0719_0101_reflectionsmountainheart_start_prompt"
@@ -78,6 +79,7 @@
   EntitlementId: ""
   QuestArcTag: GreatCleaveArc2
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 0713_0101_explorerift
   Type: Journey
   Difficulty: ""
@@ -87,10 +89,10 @@
   CanBeShared: null
   CanFastTravel: null
   Task: 0713_0101_d_00_container_explorerift
-  NpcDestinationId: 0713_Watcher
+  NpcDestinationId: 0713_Watcher_03
   ExclusiveTerritory: null
   AchievementId: 07_Quest_02
-  RequiredAchievementId: 07_Quest_03
+  RequiredAchievementId: 07_Quest_06 && (99G_MSQ_07 || 99_MSQ_59)
   RequiredFaction: ""
   RequiredLevel: ""
   SuccessGameEventId: 0713_0101_explorerift_success
@@ -100,8 +102,8 @@
   ObjectiveReward: ""
   ItemRewardName: GypsumOrb
   ItemRewardQty: 1.0
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@0713_0101_explorerift_objective_title"
   Description: "@0713_0101_explorerift_objective_desc"
   PlayerPrompt: "@0713_0101_explorerift_start_prompt"
@@ -118,6 +120,7 @@
   EntitlementId: ""
   QuestArcTag: ShateredMtnArc3
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 0715_0102_luckonlylends
   Type: Journey
   Difficulty: ""
@@ -127,10 +130,10 @@
   CanBeShared: null
   CanFastTravel: null
   Task: 0715_0102_d_00_container_luckonlylends
-  NpcDestinationId: 0714_Watcher
+  NpcDestinationId: 0714_Watcher_02
   ExclusiveTerritory: null
   AchievementId: 07_Quest_05
-  RequiredAchievementId: 07_Quest_03
+  RequiredAchievementId: 99G_MSQ_05 || 99_MSQ_59
   RequiredFaction: ""
   RequiredLevel: ""
   SuccessGameEventId: 0715_0102_luckonlylends_success
@@ -140,8 +143,8 @@
   ObjectiveReward: ""
   ItemRewardName: GypsumOrb
   ItemRewardQty: 1.0
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@0715_0102_luckonlylends_objective_title"
   Description: "@0715_0102_luckonlylends_objective_desc"
   PlayerPrompt: "@0715_0102_luckonlylends_start_prompt"
@@ -158,6 +161,7 @@
   EntitlementId: ""
   QuestArcTag: ShateredMtnArc1
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 0715_0101_varietiesofheat
   Type: Journey
   Difficulty: ""
@@ -170,7 +174,7 @@
   NpcDestinationId: 0715_Watcher
   ExclusiveTerritory: null
   AchievementId: 07_Quest_04
-  RequiredAchievementId: 07_Quest_03
+  RequiredAchievementId: 99G_MSQ_01 || 99_MSQ_59
   RequiredFaction: ""
   RequiredLevel: ""
   SuccessGameEventId: 0715_0101_varietiesofheat_success
@@ -180,8 +184,8 @@
   ObjectiveReward: ""
   ItemRewardName: GypsumOrb
   ItemRewardQty: 1.0
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@0715_0101_varietiesofheat_objective_title"
   Description: "@0715_0101_varietiesofheat_objective_desc"
   PlayerPrompt: "@0715_0101_varietiesofheat_start_prompt"
@@ -198,6 +202,7 @@
   EntitlementId: ""
   QuestArcTag: ShateredMtnArc1
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 0716_0101_malevolentofferings
   Type: Journey
   Difficulty: ""
@@ -207,10 +212,10 @@
   CanBeShared: null
   CanFastTravel: null
   Task: 0716_0101_d_00_container_malevolentofferings
-  NpcDestinationId: 0713_Watcher
+  NpcDestinationId: 0713_Watcher_02
   ExclusiveTerritory: null
   AchievementId: 07_Quest_06
-  RequiredAchievementId: 07_Quest_02
+  RequiredAchievementId: 99G_MSQ_06 || 99_MSQ_59
   RequiredFaction: ""
   RequiredLevel: ""
   SuccessGameEventId: 0716_0101_malevolentofferings_success
@@ -220,8 +225,8 @@
   ObjectiveReward: ""
   ItemRewardName: GypsumOrb
   ItemRewardQty: 1.0
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@0716_0101_malevolentofferings_objective_title"
   Description: "@0716_0101_malevolentofferings_objective_desc"
   PlayerPrompt: "@0716_0101_malevolentofferings_start_prompt"
@@ -238,6 +243,7 @@
   EntitlementId: ""
   QuestArcTag: ShateredMtnArc3
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 0712_0101_layerspastandpresent
   Type: Journey
   Difficulty: ""
@@ -247,10 +253,10 @@
   CanBeShared: null
   CanFastTravel: null
   Task: 0712_0101_d_00_container_layerspastandpresent
-  NpcDestinationId: 0712_Watcher
+  NpcDestinationId: 0712_Watcher_02
   ExclusiveTerritory: null
   AchievementId: 07_Quest_01
-  RequiredAchievementId: 07_Quest_06
+  RequiredAchievementId: 99G_MSQ_05 || 99_MSQ_59
   RequiredFaction: ""
   RequiredLevel: ""
   SuccessGameEventId: 0712_0101_layerspastandpresent_success
@@ -260,8 +266,8 @@
   ObjectiveReward: ""
   ItemRewardName: GypsumOrb
   ItemRewardQty: 1.0
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@0712_0101_layerspastandpresent_objective_title"
   Description: "@0712_0101_layerspastandpresent_objective_desc"
   PlayerPrompt: "@0712_0101_layerspastandpresent_start_prompt"
@@ -278,6 +284,7 @@
   EntitlementId: ""
   QuestArcTag: ShateredMtnArc3
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 0718_0102_humble
   Type: Journey
   Difficulty: ""
@@ -287,10 +294,10 @@
   CanBeShared: null
   CanFastTravel: null
   Task: 0718_0102_d_00_container_humble
-  NpcDestinationId: 0718_Ranger
+  NpcDestinationId: 0718_Ranger_02
   ExclusiveTerritory: null
   AchievementId: 07_Quest_09
-  RequiredAchievementId: 07_Quest_06
+  RequiredAchievementId: 99G_MSQ_03 || 99_MSQ_59
   RequiredFaction: ""
   RequiredLevel: ""
   SuccessGameEventId: 0718_0102_humble_success
@@ -300,8 +307,8 @@
   ObjectiveReward: ""
   ItemRewardName: GypsumOrb
   ItemRewardQty: 1.0
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@0718_0102_humble_objective_title"
   Description: "@0718_0102_humble_objective_desc"
   PlayerPrompt: "@0718_0102_humble_start_prompt"
@@ -318,6 +325,7 @@
   EntitlementId: ""
   QuestArcTag: ShateredMtnArc2
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 0718_0101_guardian
   Type: Journey
   Difficulty: ""
@@ -327,7 +335,7 @@
   CanBeShared: null
   CanFastTravel: null
   Task: 0718_0101_d_00_container_guardian
-  NpcDestinationId: 0718_Ranger
+  NpcDestinationId: 0718_Ranger_03
   ExclusiveTerritory: null
   AchievementId: 07_Quest_08
   RequiredAchievementId: 07_Quest_09
@@ -340,8 +348,8 @@
   ObjectiveReward: ""
   ItemRewardName: GypsumOrb
   ItemRewardQty: 1.0
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@0718_0101_guardian_objective_title"
   Description: "@0718_0101_guardian_objective_desc"
   PlayerPrompt: "@0718_0101_guardian_start_prompt"
@@ -358,6 +366,7 @@
   EntitlementId: ""
   QuestArcTag: ShateredMtnArc2
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 0717_0101_myrkgardarena
   Type: Journey
   Difficulty: ""
@@ -380,8 +389,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: "1"
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@0717_0101_myrkgardarena_objective_title"
   Description: "@0717_0101_myrkgardarena_objective_desc"
   PlayerPrompt: "@0717_0101_myrkgardarena_start_prompt"
@@ -398,6 +407,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 0719_0201_madakisstratagem
   Type: Journey
   Difficulty: ""
@@ -407,10 +417,10 @@
   CanBeShared: null
   CanFastTravel: null
   Task: 0719_0201_d_00_container_madakisstratagem
-  NpcDestinationId: 0719_Ranger
+  NpcDestinationId: 0719_Ranger_02
   ExclusiveTerritory: null
   AchievementId: 07_Quest_11
-  RequiredAchievementId: ""
+  RequiredAchievementId: 99F_MSQ_12 || 99_MSQ_59
   RequiredFaction: ""
   RequiredLevel: ""
   SuccessGameEventId: 0719_0201_madakisstratagem_success
@@ -420,8 +430,8 @@
   ObjectiveReward: ""
   ItemRewardName: GypsumOrb
   ItemRewardQty: 1.0
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@0719_0201_madakisstratagem_objective_title"
   Description: "@0719_0201_madakisstratagem_objective_desc"
   PlayerPrompt: "@0719_0201_madakisstratagem_start_prompt"
@@ -438,6 +448,7 @@
   EntitlementId: ""
   QuestArcTag: GreatCleaveArc2
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 0714_0105_baetylusheadpiece
   Type: Journey
   Difficulty: ""
@@ -447,10 +458,10 @@
   CanBeShared: null
   CanFastTravel: null
   Task: 0714_0105_d_00_container_baetylusheadpiece
-  NpcDestinationId: 0714_Watcher
+  NpcDestinationId: 0714_Watcher_03
   ExclusiveTerritory: null
   AchievementId: 07_Quest_Lazarus_11
-  RequiredAchievementId: 07_Quest_05
+  RequiredAchievementId: 07_Quest_05 && 07_Quest_03
   RequiredFaction: ""
   RequiredLevel: ""
   SuccessGameEventId: 0714_0105_baetylusheadpiece_success
@@ -460,8 +471,8 @@
   ObjectiveReward: ""
   ItemRewardName: GypsumOrb
   ItemRewardQty: 1.0
-  Repeatable: ""
   CanBeAbandoned: false
+  Repeatable: null
   Title: "@0714_0105_baetylusheadpiece_objective_title"
   Description: "@0714_0105_baetylusheadpiece_objective_desc"
   PlayerPrompt: "@0714_0105_baetylusheadpiece_start_prompt"
@@ -478,6 +489,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 0718_0103_ultimatedefense
   Type: Journey
   Difficulty: ""
@@ -487,7 +499,7 @@
   CanBeShared: null
   CanFastTravel: null
   Task: 0718_0103_d_00_container_ultimatedefense
-  NpcDestinationId: 0718_Ranger
+  NpcDestinationId: 0718_Ranger_03
   ExclusiveTerritory: null
   AchievementId: 07_Quest_Garden_12
   RequiredAchievementId: 07_Quest_08
@@ -500,8 +512,8 @@
   ObjectiveReward: ""
   ItemRewardName: GypsumOrb
   ItemRewardQty: 1.0
-  Repeatable: ""
   CanBeAbandoned: false
+  Repeatable: null
   Title: "@0718_0103_ultimatedefense_objective_title"
   Description: "@0718_0103_ultimatedefense_objective_desc"
   PlayerPrompt: "@0718_0103_ultimatedefense_start_prompt"
@@ -518,6 +530,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 0726_0101_MightyTempest
   Type: Journey
   Difficulty: ""
@@ -530,7 +543,7 @@
   NpcDestinationId: 0726_MaraRosa
   ExclusiveTerritory: null
   AchievementId: 07_Quest_Isabella_01
-  RequiredAchievementId: ""
+  RequiredAchievementId: 99_MSQ_59||99G_MSQ_12
   RequiredFaction: ""
   RequiredLevel: ""
   SuccessGameEventId: 0726_0101_MightyTempest_success
@@ -540,8 +553,8 @@
   ObjectiveReward: ""
   ItemRewardName: GypsumOrb
   ItemRewardQty: 1.0
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@0726_0101_MightyTempest_objective_title"
   Description: "@0726_0101_MightyTempest_objective_desc"
   PlayerPrompt: "@0726_0101_MightyTempest_start_prompt"
@@ -558,6 +571,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 0726_0102_IsabellaDeLeon
   Type: Journey
   Difficulty: ""
@@ -580,8 +594,8 @@
   ObjectiveReward: ""
   ItemRewardName: GypsumOrb
   ItemRewardQty: 1.0
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@0726_0102_IsabellaDeLeon_objective_title"
   Description: "@0726_0102_IsabellaDeLeon_objective_desc"
   PlayerPrompt: "@0726_0102_IsabellaDeLeon_start_prompt"
@@ -598,6 +612,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 0726_0103_IsabellasCorruption
   Type: Journey
   Difficulty: ""
@@ -620,8 +635,8 @@
   ObjectiveReward: ""
   ItemRewardName: GypsumOrb
   ItemRewardQty: 1.0
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@0726_0103_IsabellasCorruption_objective_title"
   Description: "@0726_0103_IsabellasCorruption_objective_desc"
   PlayerPrompt: "@0726_0103_IsabellasCorruption_start_prompt"
@@ -638,6 +653,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 0726_0104_RiseOfIsabella
   Type: Journey
   Difficulty: ""
@@ -660,8 +676,8 @@
   ObjectiveReward: ""
   ItemRewardName: GypsumOrb
   ItemRewardQty: 1.0
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@0726_0104_RiseOfIsabella_objective_title"
   Description: "@0726_0104_RiseOfIsabella_objective_desc"
   PlayerPrompt: "@0726_0104_RiseOfIsabella_start_prompt"
@@ -678,6 +694,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 0726_0105_DeathOfHeretic
   Type: Journey
   Difficulty: ""
@@ -700,8 +717,8 @@
   ObjectiveReward: ""
   ItemRewardName: GypsumOrb
   ItemRewardQty: 1.0
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@0726_0105_DeathOfHeretic_objective_title"
   Description: "@0726_0105_DeathOfHeretic_objective_desc"
   PlayerPrompt: "@0726_0105_DeathOfHeretic_start_prompt"
@@ -718,6 +735,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 0726_0106_PossessionOfRusso
   Type: Journey
   Difficulty: ""
@@ -740,8 +758,8 @@
   ObjectiveReward: ""
   ItemRewardName: GypsumOrb
   ItemRewardQty: 1.0
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: "@0726_0106_PossessionOfRusso_objective_title"
   Description: "@0726_0106_PossessionOfRusso_objective_desc"
   PlayerPrompt: "@0726_0106_PossessionOfRusso_start_prompt"
@@ -758,6 +776,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: 0726_0107_Repeatable
   Type: Journey
   Difficulty: ""
@@ -780,8 +799,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: true
   Title: "@0726_0107_Repeatable_objective_title"
   Description: "@0726_0107_Repeatable_objective_desc"
   PlayerPrompt: "@0726_0107_Repeatable_start_prompt"
@@ -798,6 +817,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: Daily
 - ObjectiveID: FM_07_PVP_Spy_Marauder_objective
   Type: Mission
   Difficulty: ""
@@ -820,8 +840,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: "1"
   CanBeAbandoned: true
+  Repeatable: true
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -838,6 +858,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: Hourly
 - ObjectiveID: FM_07_PVP_Poach_Marauder_objective
   Type: Mission
   Difficulty: ""
@@ -860,8 +881,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: "1"
   CanBeAbandoned: true
+  Repeatable: true
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -878,6 +899,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: Hourly
 - ObjectiveID: FM_07_PVP_Control_Marauder_objective
   Type: Mission
   Difficulty: ""
@@ -900,8 +922,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: "1"
   CanBeAbandoned: true
+  Repeatable: true
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -918,6 +940,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: Hourly
 - ObjectiveID: FM_07_PVP_Spy_Syndicate_objective
   Type: Mission
   Difficulty: ""
@@ -940,8 +963,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: "1"
   CanBeAbandoned: true
+  Repeatable: true
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -958,6 +981,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: Hourly
 - ObjectiveID: FM_07_PVP_Poach_Syndicate_objective
   Type: Mission
   Difficulty: ""
@@ -980,8 +1004,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: "1"
   CanBeAbandoned: true
+  Repeatable: true
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -998,6 +1022,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: Hourly
 - ObjectiveID: FM_07_PVP_Control_Syndicate_objective
   Type: Mission
   Difficulty: ""
@@ -1020,8 +1045,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: "1"
   CanBeAbandoned: true
+  Repeatable: true
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1038,6 +1063,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: Hourly
 - ObjectiveID: FM_07_PVP_Spy_Covenant_objective
   Type: Mission
   Difficulty: ""
@@ -1060,8 +1086,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: "1"
   CanBeAbandoned: true
+  Repeatable: true
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1078,6 +1104,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: Hourly
 - ObjectiveID: FM_07_PVP_Poach_Covenant_objective
   Type: Mission
   Difficulty: ""
@@ -1100,8 +1127,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: "1"
   CanBeAbandoned: true
+  Repeatable: true
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1118,6 +1145,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: Hourly
 - ObjectiveID: FM_07_PVP_Control_Covenant_objective
   Type: Mission
   Difficulty: ""
@@ -1140,8 +1168,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: "1"
   CanBeAbandoned: true
+  Repeatable: true
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1158,6 +1186,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: Hourly
 - ObjectiveID: FM_0701_objective
   Type: Mission
   Difficulty: ""
@@ -1180,8 +1209,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1198,6 +1227,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_0702_objective
   Type: Mission
   Difficulty: ""
@@ -1220,8 +1250,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1238,6 +1268,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_0703_objective
   Type: Mission
   Difficulty: ""
@@ -1260,8 +1291,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1278,6 +1309,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_0704_objective
   Type: Mission
   Difficulty: ""
@@ -1300,8 +1332,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1318,6 +1350,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_0705_objective
   Type: Mission
   Difficulty: ""
@@ -1340,8 +1373,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1358,6 +1391,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_0706_objective
   Type: Mission
   Difficulty: ""
@@ -1380,8 +1414,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1398,6 +1432,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_0707_objective
   Type: Mission
   Difficulty: ""
@@ -1420,8 +1455,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1438,6 +1473,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_0701_objective
   Type: Mission
   Difficulty: ""
@@ -1460,8 +1496,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1478,6 +1514,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_0702_objective
   Type: Mission
   Difficulty: ""
@@ -1500,8 +1537,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1518,6 +1555,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_0703_objective
   Type: Mission
   Difficulty: ""
@@ -1540,8 +1578,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1558,6 +1596,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_0704_objective
   Type: Mission
   Difficulty: ""
@@ -1580,8 +1619,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1598,6 +1637,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_0705_objective
   Type: Mission
   Difficulty: ""
@@ -1620,8 +1660,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1638,6 +1678,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_0706_objective
   Type: Mission
   Difficulty: ""
@@ -1660,8 +1701,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1678,6 +1719,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_0707_objective
   Type: Mission
   Difficulty: ""
@@ -1700,8 +1742,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1718,6 +1760,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_0701_objective
   Type: Mission
   Difficulty: ""
@@ -1740,8 +1783,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1758,6 +1801,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_0702_objective
   Type: Mission
   Difficulty: ""
@@ -1780,8 +1824,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1798,6 +1842,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_0703_objective
   Type: Mission
   Difficulty: ""
@@ -1820,8 +1865,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1838,6 +1883,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_0704_objective
   Type: Mission
   Difficulty: ""
@@ -1860,8 +1906,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1878,6 +1924,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_0705_objective
   Type: Mission
   Difficulty: ""
@@ -1900,8 +1947,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1918,6 +1965,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_0706_objective
   Type: Mission
   Difficulty: ""
@@ -1940,8 +1988,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1958,6 +2006,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_0707_objective
   Type: Mission
   Difficulty: ""
@@ -1980,8 +2029,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -1998,6 +2047,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_0761_objective
   Type: Mission
   Difficulty: ""
@@ -2020,8 +2070,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2038,6 +2088,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_0762_objective
   Type: Mission
   Difficulty: ""
@@ -2060,8 +2111,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2078,6 +2129,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_0763_objective
   Type: Mission
   Difficulty: ""
@@ -2100,8 +2152,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2118,6 +2170,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_0764_objective
   Type: Mission
   Difficulty: ""
@@ -2140,8 +2193,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2158,6 +2211,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_0765_objective
   Type: Mission
   Difficulty: ""
@@ -2180,8 +2234,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2198,6 +2252,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_0766_objective
   Type: Mission
   Difficulty: ""
@@ -2220,8 +2275,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2238,6 +2293,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_0761_objective
   Type: Mission
   Difficulty: ""
@@ -2260,8 +2316,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2278,6 +2334,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_0762_objective
   Type: Mission
   Difficulty: ""
@@ -2300,8 +2357,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2318,6 +2375,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_0763_objective
   Type: Mission
   Difficulty: ""
@@ -2340,8 +2398,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2358,6 +2416,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_0764_objective
   Type: Mission
   Difficulty: ""
@@ -2380,8 +2439,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2398,6 +2457,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_0765_objective
   Type: Mission
   Difficulty: ""
@@ -2420,8 +2480,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2438,6 +2498,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_S_0766_objective
   Type: Mission
   Difficulty: ""
@@ -2460,8 +2521,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2478,6 +2539,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_0761_objective
   Type: Mission
   Difficulty: ""
@@ -2500,8 +2562,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2518,6 +2580,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_0762_objective
   Type: Mission
   Difficulty: ""
@@ -2540,8 +2603,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2558,6 +2621,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_0763_objective
   Type: Mission
   Difficulty: ""
@@ -2580,8 +2644,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2598,6 +2662,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_0764_objective
   Type: Mission
   Difficulty: ""
@@ -2620,8 +2685,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2638,6 +2703,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_0765_objective
   Type: Mission
   Difficulty: ""
@@ -2660,8 +2726,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2678,6 +2744,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_C_0766_objective
   Type: Mission
   Difficulty: ""
@@ -2700,8 +2767,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2718,6 +2785,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_07_H_01_objective
   Type: Mission
   Difficulty: ""
@@ -2740,8 +2808,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2758,6 +2826,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_07_H_02_objective
   Type: Mission
   Difficulty: ""
@@ -2780,8 +2849,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2798,6 +2867,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_07_EXP_01_objective
   Type: Mission
   Difficulty: ""
@@ -2820,8 +2890,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2838,6 +2908,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_07_EXP_02_objective
   Type: Mission
   Difficulty: ""
@@ -2860,8 +2931,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2878,6 +2949,7 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""
 - ObjectiveID: FM_07_EXP_03_objective
   Type: Mission
   Difficulty: ""
@@ -2900,8 +2972,8 @@
   ObjectiveReward: ""
   ItemRewardName: ""
   ItemRewardQty: null
-  Repeatable: ""
   CanBeAbandoned: true
+  Repeatable: null
   Title: ""
   Description: ""
   PlayerPrompt: ""
@@ -2918,3 +2990,4 @@
   EntitlementId: ""
   QuestArcTag: ""
   HideAvailableMapIcon : ""
+  ScheduleId: ""

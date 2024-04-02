@@ -14312,7 +14312,7 @@
   PlaceholderIcon: lyshineui/images/status/SE_HealT1.png
   ShowInUITray: false
   ShowTextInDamageNumbers: false
-  FxScriptOn: POTION_Heal_Loop
+  FxScriptOn: ""
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
   WeaponEffectType: ""
@@ -14563,7 +14563,7 @@
   PlaceholderIcon: lyshineui/images/status/SE_HealT1.png
   ShowInUITray: false
   ShowTextInDamageNumbers: false
-  FxScriptOn: POTION_Heal_Loop
+  FxScriptOn: ""
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
   WeaponEffectType: ""
@@ -14825,7 +14825,7 @@
   PotencyPerLevel: ""
   HideHudDurationNumbers: null
   BaseDuration: 3.0
-  TickRate: 21.0
+  TickRate: 1.0
   DelayInitialTick: ""
   TickCondition: ""
   OnTickStatusEffect: ""
@@ -14841,7 +14841,7 @@
   ScaleAmountOverTimeMin: ""
   ScaleAmountOverTimeMax: ""
   DamageSkipsDeathsDoor: ""
-  Health: 1.0
+  Health: 0.0
   HealthMin: ""
   HealthModifierPercent: 0.0
   HealthModifierBasePercent: ""
@@ -15031,7 +15031,7 @@
   RefreshDuration: "1"
   StackMax: 1.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: "1"
+  RemoveUnappliedStacks: "0"
   PotencyMax: null
   DontReplaceStack: ""
   MoveSpeedMod: null

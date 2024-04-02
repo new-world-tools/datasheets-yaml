@@ -7193,7 +7193,7 @@
   StatusEffectBeingApplied: ""
   StatusEffect: ""
   StatusEffectCategories: Root,Stun
-  DontHaveStatusEffect: ""
+  DontHaveStatusEffect: ATB_Dex_Bonus_300_1_CooldownTimer
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -7254,9 +7254,9 @@
   StaminaCostList: ""
   StaminaCostFlatMod: ""
   CastSpell: ""
-  SelfApplyStatusEffect: ""
+  SelfApplyStatusEffect: ATB_Dex_Bonus_300_1_CooldownTimer
   OtherApplyStatusEffect: ""
-  DoNotUnequipSelfAppliedSE: null
+  DoNotUnequipSelfAppliedSE: true
   ModifySelfApplyStatusEffectDuration: ""
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
@@ -7335,7 +7335,7 @@
   OnStatusEffectApplied: ""
   OnHitTakenWhileInvulnerable: null
   OnWeaponSwap: null
-  RequireReaction: null
+  RequireReaction: true
   NumConsecutiveHits: ""
   MaxConsecutiveHits: ""
   TrackHitCount: ""
@@ -7416,7 +7416,7 @@
   StaminaCostList: ""
   StaminaCostFlatMod: ""
   CastSpell: ""
-  SelfApplyStatusEffect: ATB_Dex_Bonus_300_2_Effect
+  SelfApplyStatusEffect: ""
   OtherApplyStatusEffect: ""
   DoNotUnequipSelfAppliedSE: null
   ModifySelfApplyStatusEffectDuration: ""
@@ -12849,7 +12849,7 @@
   TrackHitCount: ""
   ResetConsecutiveOnSuccess: ""
   DamageIsRanged: ""
-  DamageIsMelee: true
+  DamageIsMelee: null
   ForceShowNameTag: ""
   HasGritActive: null
   TargetHasGritActive: ""

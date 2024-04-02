@@ -38,9 +38,9 @@
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 0.2
+  BlockStaminaDmgMod: 0.4
   BlockAbsorptionModifier: 1.0
-  StaggerDmgModifier: 0.3
+  StaggerDmgModifier: 0.5
   CritStaggerDmgModifier: ""
   StaggerResistModifier: 1.0
   TargetCameraShakeID: Small
@@ -89,9 +89,9 @@
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 0.1
+  BlockStaminaDmgMod: 0.4
   BlockAbsorptionModifier: 1.0
-  StaggerDmgModifier: 0.5
+  StaggerDmgModifier: 0.7
   CritStaggerDmgModifier: ""
   StaggerResistModifier: 1.0
   TargetCameraShakeID: Small
@@ -106,7 +106,7 @@
   NoReaction: 0.0
   SurfaceImpactEffect: Bullet
   AttackType: Heavy
-  DamageType: Nature
+  DamageType: Ice
   Unblockable: ""
   IsRanged: ""
   Affliction: ""
@@ -140,9 +140,9 @@
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 0.2
+  BlockStaminaDmgMod: 0.5
   BlockAbsorptionModifier: 1.0
-  StaggerDmgModifier: 0.3
+  StaggerDmgModifier: 0.4
   CritStaggerDmgModifier: ""
   StaggerResistModifier: 1.0
   TargetCameraShakeID: Small
@@ -214,7 +214,7 @@
   Affliction: ""
   AddAffliction: ""
   AfflictionPercent: ""
-  Affixes: ""
+  Affixes: AI_IceDMG_50
   StatusEffect: ""
   EffectOnlyOnDamage: null
   DeflectDamageID: ""
@@ -242,9 +242,9 @@
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 0.2
+  BlockStaminaDmgMod: 0.4
   BlockAbsorptionModifier: 1.0
-  StaggerDmgModifier: 0.3
+  StaggerDmgModifier: 0.7
   CritStaggerDmgModifier: ""
   StaggerResistModifier: 1.0
   TargetCameraShakeID: Small
@@ -265,7 +265,7 @@
   Affliction: ""
   AddAffliction: ""
   AfflictionPercent: ""
-  Affixes: ""
+  Affixes: AI_IceDMG_50
   StatusEffect: ""
   EffectOnlyOnDamage: null
   DeflectDamageID: ""
@@ -293,9 +293,9 @@
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 0.2
+  BlockStaminaDmgMod: 0.4
   BlockAbsorptionModifier: 1.0
-  StaggerDmgModifier: 0.3
+  StaggerDmgModifier: 0.6
   CritStaggerDmgModifier: ""
   StaggerResistModifier: 1.0
   TargetCameraShakeID: Small
@@ -344,9 +344,9 @@
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 0.2
+  BlockStaminaDmgMod: 0.3
   BlockAbsorptionModifier: 1.0
-  StaggerDmgModifier: 0.3
+  StaggerDmgModifier: 0.5
   CritStaggerDmgModifier: ""
   StaggerResistModifier: 1.0
   TargetCameraShakeID: Small
@@ -361,7 +361,7 @@
   NoReaction: 0.0
   SurfaceImpactEffect: Bullet
   AttackType: Heavy
-  DamageType: Strike
+  DamageType: Thrust
   Unblockable: ""
   IsRanged: ""
   Affliction: ""
@@ -397,7 +397,7 @@
   ImpactRating: 0.0
   BlockStaminaDmgMod: 0.0
   BlockAbsorptionModifier: 1.0
-  StaggerDmgModifier: 0.3
+  StaggerDmgModifier: 0.5
   CritStaggerDmgModifier: ""
   StaggerResistModifier: 1.0
   TargetCameraShakeID: Small
@@ -419,7 +419,7 @@
   AddAffliction: ""
   AfflictionPercent: ""
   Affixes: AI_IceDMG_50
-  StatusEffect: AI_Bleed_9
+  StatusEffect: AI_IceDragon_Bleed_9
   EffectOnlyOnDamage: true
   DeflectDamageID: ""
   CanCrit: false
@@ -446,9 +446,9 @@
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 0.2
+  BlockStaminaDmgMod: 0.4
   BlockAbsorptionModifier: 1.0
-  StaggerDmgModifier: 0.3
+  StaggerDmgModifier: 0.6
   CritStaggerDmgModifier: ""
   StaggerResistModifier: 1.0
   TargetCameraShakeID: Small
@@ -470,7 +470,7 @@
   AddAffliction: ""
   AfflictionPercent: ""
   Affixes: AI_IceDMG_50
-  StatusEffect: AI_Bleed_9
+  StatusEffect: AI_IceDragon_Bleed_9
   EffectOnlyOnDamage: true
   DeflectDamageID: ""
   CanCrit: false
@@ -497,9 +497,9 @@
   CritImpactDecayRate: 0.8
   AddDmg: 0.0
   ImpactRating: 0.0
-  BlockStaminaDmgMod: 0.2
+  BlockStaminaDmgMod: 0.4
   BlockAbsorptionModifier: 1.0
-  StaggerDmgModifier: 0.3
+  StaggerDmgModifier: 0.6
   CritStaggerDmgModifier: ""
   StaggerResistModifier: 1.0
   TargetCameraShakeID: Small

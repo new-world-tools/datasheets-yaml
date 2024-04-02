@@ -25788,8 +25788,8 @@
   SubTask1: 99E_MSQ_10_d_01_01_SwapActive_CaerDunDestroyed_Visual_ON
   SubTask2: 99E_MSQ_10_d_01_01a_SwapActive_CaerDunBurning_Visual_ON
   SubTask3: 99E_MSQ_10_d_01_02_SwapActive_99E_Yonas_G_Off
-  SubTask4: 99E_MSQ_10_d_01_03_container_setupSwapsB
-  SubTask5: ""
+  SubTask4: 99E_MSQ_10_d_01_02_SwapActive_99E_Yash_H_Off
+  SubTask5: 99E_MSQ_10_d_01_03_container_setupSwapsB
 - TaskID: 99E_MSQ_10_d_01_01_SwapActive_CaerDunDestroyed_Visual_ON
   Type: TaskUnlockAchievement
   FailOnCondition: ""
@@ -25861,6 +25861,70 @@
   RequiredLevel: ""
   TargetQty: 1.0
   ItemName: 99E_MSQ_CaerDunBurning_Unlock
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99E_MSQ_10_d_01_02_SwapActive_99E_Yash_H_Off
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: SwapActive_MSQ_Yash_GC_H
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: ""
@@ -27066,10 +27130,10 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   SubTask1: 99E_MSQ_10_d_03_01_SwapActive_99E_Sun_p16_Walkin
-  SubTask2: 99E_MSQ_10_d_03_02_SwapActive_99E_Morgaine_p11_Walkin
-  SubTask3: 99E_MSQ_10_d_03_03_SwapActive_99E_Sun_p6v3_Off
-  SubTask4: 99E_MSQ_10_d_03_04_SwapActive_99E_Morgaine_p2v2_Off
-  SubTask5: 99E_MSQ_10_d_03_05_TalkTo_Yash_02
+  SubTask2: 99E_MSQ_10_d_03_03_SwapActive_99E_Sun_p6v3_Off
+  SubTask3: 99E_MSQ_10_d_03_04_SwapActive_99E_Morgaine_p2v2_Off
+  SubTask4: 99E_MSQ_10_d_03_05_TalkTo_Yash_02
+  SubTask5: ""
 - TaskID: 99E_MSQ_10_d_03_01_SwapActive_99E_Sun_p16_Walkin
   Type: TaskUnlockAchievement
   FailOnCondition: ""
@@ -28475,8 +28539,8 @@
   TriggerAnalyticsEvent: ""
   SubTask1: 99E_MSQ_10_d_04_04_03_01_yonasCaveComplete
   SubTask2: 99E_MSQ_10_d_04_04_03_02_ORI_YonasCave_Lock
-  SubTask3: 99E_MSQ_10_d_04_04_03_03_TriggerArea_YonasCaveExit
-  SubTask4: 99E_MSQ_10_d_04_04_03_04_IsabellaWhisper_F
+  SubTask3: 99E_MSQ_10_d_04_04_02_03_container_Whisper
+  SubTask4: ""
   SubTask5: ""
 - TaskID: 99E_MSQ_10_d_04_04_03_01_yonasCaveComplete
   Type: TaskUnlockAchievement
@@ -28606,6 +28670,70 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
+- TaskID: 99E_MSQ_10_d_04_04_02_03_container_Whisper
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@99E_MSQ_10_ToCaerDun_leave_YonasCave"
+  TargetDescriptionTaskId: ""
+  OverrideLocation: 8771.457 6576.4814 312.7061
+  IsHidden: null
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: 99E_MSQ_10_d_04_04_03_03_TriggerArea_YonasCaveExit
+  SubTask2: 99E_MSQ_10_d_04_04_03_04_IsabellaWhisper_Timer
+  SubTask3: 99E_MSQ_10_d_04_04_03_04_IsabellaWhisper_F
+  SubTask4: ""
+  SubTask5: ""
 - TaskID: 99E_MSQ_10_d_04_04_03_03_TriggerArea_YonasCaveExit
   Type: TaskTriggerArea
   FailOnCondition: ""
@@ -28619,7 +28747,7 @@
   EnforceLocationRequirement: null
   TerritoryID: ""
   POITag: ""
-  GameModeID: QuestYonas
+  GameModeID: ""
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: ""
@@ -28651,10 +28779,74 @@
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: ""
   TP_TargetTag: TriggerVol_99E_YonasCaveDoor
-  TP_DescriptionTag: "@99E_MSQ_10_ToCaerDun_leave_YonasCave"
+  TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
-  OverrideLocation: 8771.457 6576.4814 312.7061
-  IsHidden: null
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99E_MSQ_10_d_04_04_03_04_IsabellaWhisper_Timer
+  Type: TaskTimer
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: 3.0
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: null
   DiegeticPinZOverride: ""
@@ -28794,9 +28986,9 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   SubTask1: 99E_MSQ_10_d_05_01_SwapActive_99E_Sun_p16_Off
-  SubTask2: 99E_MSQ_10_d_05_02_SwapActive_99E_Morgaine_p11_Off
-  SubTask3: 99E_MSQ_10_d_05_03_SwapActive_99E_Yash_p2_Off
-  SubTask4: 99E_MSQ_10_d_05_04_container_completeSwapsOn
+  SubTask2: 99E_MSQ_10_d_05_03_SwapActive_99E_Yash_p2_Off
+  SubTask3: 99E_MSQ_10_d_05_04_container_completeSwapsOn
+  SubTask4: ""
   SubTask5: ""
 - TaskID: 99E_MSQ_10_d_05_01_SwapActive_99E_Sun_p16_Off
   Type: TaskLockAchievement
@@ -29051,8 +29243,8 @@
   TriggerAnalyticsEvent: ""
   SubTask1: 99E_MSQ_10_d_05_04_01_SwapActive_99E_Yash_p3_On
   SubTask2: 99E_MSQ_10_d_05_04_02_SwapActive_99E_Sun_p17_On
-  SubTask3: 99E_MSQ_10_d_05_04_03_SwapActive_99E_Morgaine_p12_On
-  SubTask4: 99E_MSQ_10_d_05_05_TriggerArea_CaerDunInterior
+  SubTask3: 99E_MSQ_10_d_05_05_TriggerArea_CaerDunInterior
+  SubTask4: ""
   SubTask5: ""
 - TaskID: 99E_MSQ_10_d_05_04_01_SwapActive_99E_Yash_p3_On
   Type: TaskUnlockAchievement

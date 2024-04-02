@@ -75,3 +75,24 @@
   IsDebit: null
   Reasons: ""
   IsPermanent: null
+- TrackedStatID: CategoricalProgressionCraftingPostCap
+  StatType: CategoricalProgression
+  CategoricalProgressionIds: Weaponsmithing_PostCap,Armoring_PostCap,Jewelcrafting_PostCap,Arcana_PostCap,Cooking_PostCap,Furnishing_PostCap,Engineering_PostCap
+  TrackingType: Ranked
+  IsDebit: null
+  Reasons: ""
+  IsPermanent: null
+- TrackedStatID: CategoricalProgressionGatheringPostCap
+  StatType: CategoricalProgression
+  CategoricalProgressionIds: Fishing_PostCap,Skinning_PostCap,Mining_PostCap,Logging_PostCap,Harvesting_PostCap
+  TrackingType: Ranked
+  IsDebit: null
+  Reasons: ""
+  IsPermanent: null
+- TrackedStatID: CategoricalProgressionTerritoryStanding
+  StatType: CategoricalProgression
+  CategoricalProgressionIds: 2,4,5,6,8,9,10,11,12,13,14,15,16
+  TrackingType: Points
+  IsDebit: null
+  Reasons: ""
+  IsPermanent: null

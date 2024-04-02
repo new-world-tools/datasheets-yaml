@@ -3,6 +3,7 @@
   StatusEffectDurations: "6"
   Revive: ""
   Siphon: null
+  TerminateExistingSiphonSpellOnConnection: null
   AttachToOwner: null
   StickWhenAttached: null
   StoreOffsetWhenStuckToGDE: ""
@@ -91,6 +92,7 @@
   StatusEffectDurations: ""
   Revive: ""
   Siphon: null
+  TerminateExistingSiphonSpellOnConnection: null
   AttachToOwner: null
   StickWhenAttached: null
   StoreOffsetWhenStuckToGDE: ""
@@ -179,6 +181,7 @@
   StatusEffectDurations: "6"
   Revive: ""
   Siphon: null
+  TerminateExistingSiphonSpellOnConnection: null
   AttachToOwner: null
   StickWhenAttached: null
   StoreOffsetWhenStuckToGDE: ""
@@ -267,6 +270,7 @@
   StatusEffectDurations: "3"
   Revive: ""
   Siphon: null
+  TerminateExistingSiphonSpellOnConnection: null
   AttachToOwner: null
   StickWhenAttached: null
   StoreOffsetWhenStuckToGDE: ""
@@ -355,6 +359,7 @@
   StatusEffectDurations: "6"
   Revive: ""
   Siphon: null
+  TerminateExistingSiphonSpellOnConnection: null
   AttachToOwner: true
   StickWhenAttached: true
   StoreOffsetWhenStuckToGDE: ""
@@ -443,6 +448,7 @@
   StatusEffectDurations: 6,0.1,1
   Revive: ""
   Siphon: null
+  TerminateExistingSiphonSpellOnConnection: null
   AttachToOwner: true
   StickWhenAttached: true
   StoreOffsetWhenStuckToGDE: ""
@@ -531,6 +537,7 @@
   StatusEffectDurations: ""
   Revive: ""
   Siphon: null
+  TerminateExistingSiphonSpellOnConnection: null
   AttachToOwner: true
   StickWhenAttached: null
   StoreOffsetWhenStuckToGDE: ""
@@ -619,6 +626,7 @@
   StatusEffectDurations: ""
   Revive: ""
   Siphon: null
+  TerminateExistingSiphonSpellOnConnection: null
   AttachToOwner: null
   StickWhenAttached: null
   StoreOffsetWhenStuckToGDE: ""
@@ -707,6 +715,7 @@
   StatusEffectDurations: ""
   Revive: ""
   Siphon: null
+  TerminateExistingSiphonSpellOnConnection: null
   AttachToOwner: null
   StickWhenAttached: null
   StoreOffsetWhenStuckToGDE: ""
@@ -795,6 +804,7 @@
   StatusEffectDurations: "8"
   Revive: ""
   Siphon: null
+  TerminateExistingSiphonSpellOnConnection: null
   AttachToOwner: null
   StickWhenAttached: null
   StoreOffsetWhenStuckToGDE: ""
@@ -883,6 +893,7 @@
   StatusEffectDurations: ""
   Revive: ""
   Siphon: true
+  TerminateExistingSiphonSpellOnConnection: true
   AttachToOwner: null
   StickWhenAttached: null
   StoreOffsetWhenStuckToGDE: ""
@@ -971,6 +982,7 @@
   StatusEffectDurations: ""
   Revive: ""
   Siphon: true
+  TerminateExistingSiphonSpellOnConnection: true
   AttachToOwner: null
   StickWhenAttached: true
   StoreOffsetWhenStuckToGDE: ""
@@ -1059,6 +1071,7 @@
   StatusEffectDurations: ""
   Revive: ""
   Siphon: true
+  TerminateExistingSiphonSpellOnConnection: true
   AttachToOwner: null
   StickWhenAttached: true
   StoreOffsetWhenStuckToGDE: ""
@@ -1147,6 +1160,7 @@
   StatusEffectDurations: ""
   Revive: ""
   Siphon: null
+  TerminateExistingSiphonSpellOnConnection: null
   AttachToOwner: true
   StickWhenAttached: null
   StoreOffsetWhenStuckToGDE: ""
@@ -1230,11 +1244,101 @@
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
   StatusEffectsOnTargetBlockingThisSpell: ""
-- SpellID: Spell_Flail_Ultimate_PerNearby_Detection
+- SpellID: Spell_Flail_Ultimate_PerNearby_Detection_Light
   StatusEffects: Status_Flail_Ultimate_HealOverTime
   StatusEffectDurations: ""
   Revive: ""
   Siphon: null
+  TerminateExistingSiphonSpellOnConnection: null
+  AttachToOwner: true
+  StickWhenAttached: null
+  StoreOffsetWhenStuckToGDE: ""
+  UseDirectTargetAsAttachOwner: ""
+  DoNotSyncToJointOnClient: null
+  SpawnSecondaryOnElapsed: ""
+  SpawnSecondaryOnCollision: ""
+  AttachProjectileOnCollision: ""
+  EndOnCasterDeath: null
+  IgnoreTargetIfAtDeathsDoor: null
+  IgnoreTargetIfDead: null
+  UseCameraTargetLock: ""
+  TrackNumInVolume: true
+  ClearOnExit: true
+  ClearOnEnd: true
+  ManaCost: ""
+  UseStatusEffectDuration: false
+  Duration: -1.0
+  DurationScaling: ""
+  Height: null
+  Length: ""
+  Radius: 5.0
+  InnerRadius: ""
+  RadiusScaling: ""
+  MaxRadiusScaling: ""
+  CastDistance: 0.0
+  CastHeight: 5.0
+  CastRadius: 5.0
+  ConeAngle: ""
+  ConeWidth: ""
+  ChannelTime: 0.0
+  ChainDelayDuration: null
+  MaxChainNum: null
+  UseChainCasterPaperdoll: ""
+  NumToSpawn: ""
+  NumToSpawnBeforeFail: ""
+  SpawnRate: ""
+  SpawnAngle: ""
+  SecondarySpellProjectileLaunchAngles: ""
+  ScaleWithCharacterBoundingBox: ""
+  ScaleWithDynamicScale: ""
+  TargetTypes: Friend
+  SpellTypes: Ability
+  CastingTypes: AoE
+  HitAiTarget: ""
+  OverrideTargetForAiThreat: ""
+  ShapeTypes: Sphere
+  DamageType: ""
+  CheckObstructions: true
+  IgnoreOverheadCollision: true
+  IgnoreStructures: null
+  IgnoreSelf: true
+  IsUnaffiliated: ""
+  WeaponSlotOverride: ""
+  RangedAttackProfile: ""
+  RangedAttackName: ""
+  FireJointName: ""
+  ProjPosOffsetX: ""
+  ProjPosOffsetY: ""
+  ProjPosOffsetZ: ""
+  ProjRotOffsetX: ""
+  ProjRotOffsetY: ""
+  ProjRotOffsetZ: ""
+  CharRelPosOffsetX: ""
+  CharRelPosOffsetY: null
+  CharRelPosOffsetZ: ""
+  CharRelRotOffsetX: ""
+  CharRelRotOffsetY: ""
+  CharRelRotOffsetZ: ""
+  ProjRaycastOrientation: ""
+  BaseDamage: ""
+  DamageTable: ""
+  DamageTableRow: ""
+  AbilityId: Ultimate_Flail_Eldritch
+  TargetAbilityCondition: ""
+  BeamEffect: ""
+  IndicatorVFX: ""
+  SpellPrefabPath: Items/Weapons/spell_NumAroundMe_FlailUlt
+  SecondaryPrefabPath: ""
+  SecondarySpellID: ""
+  TertiaryPrefabPath: ""
+  TertiarySpellID: ""
+  StatusEffectsOnTargetBlockingThisSpell: ""
+- SpellID: Spell_Flail_Ultimate_PerNearby_Detection_Med
+  StatusEffects: Status_Flail_Ultimate_HealOverTime
+  StatusEffectDurations: ""
+  Revive: ""
+  Siphon: null
+  TerminateExistingSiphonSpellOnConnection: null
   AttachToOwner: true
   StickWhenAttached: null
   StoreOffsetWhenStuckToGDE: ""
@@ -1318,11 +1422,101 @@
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
   StatusEffectsOnTargetBlockingThisSpell: ""
+- SpellID: Spell_Flail_Ultimate_PerNearby_Detection_Heavy
+  StatusEffects: Status_Flail_Ultimate_HealOverTime
+  StatusEffectDurations: ""
+  Revive: ""
+  Siphon: null
+  TerminateExistingSiphonSpellOnConnection: null
+  AttachToOwner: true
+  StickWhenAttached: null
+  StoreOffsetWhenStuckToGDE: ""
+  UseDirectTargetAsAttachOwner: ""
+  DoNotSyncToJointOnClient: null
+  SpawnSecondaryOnElapsed: ""
+  SpawnSecondaryOnCollision: ""
+  AttachProjectileOnCollision: ""
+  EndOnCasterDeath: null
+  IgnoreTargetIfAtDeathsDoor: null
+  IgnoreTargetIfDead: null
+  UseCameraTargetLock: ""
+  TrackNumInVolume: true
+  ClearOnExit: true
+  ClearOnEnd: true
+  ManaCost: ""
+  UseStatusEffectDuration: false
+  Duration: -1.0
+  DurationScaling: ""
+  Height: null
+  Length: ""
+  Radius: 3.0
+  InnerRadius: ""
+  RadiusScaling: ""
+  MaxRadiusScaling: ""
+  CastDistance: 0.0
+  CastHeight: 5.0
+  CastRadius: 5.0
+  ConeAngle: ""
+  ConeWidth: ""
+  ChannelTime: 0.0
+  ChainDelayDuration: null
+  MaxChainNum: null
+  UseChainCasterPaperdoll: ""
+  NumToSpawn: ""
+  NumToSpawnBeforeFail: ""
+  SpawnRate: ""
+  SpawnAngle: ""
+  SecondarySpellProjectileLaunchAngles: ""
+  ScaleWithCharacterBoundingBox: ""
+  ScaleWithDynamicScale: ""
+  TargetTypes: Friend
+  SpellTypes: Ability
+  CastingTypes: AoE
+  HitAiTarget: ""
+  OverrideTargetForAiThreat: ""
+  ShapeTypes: Sphere
+  DamageType: ""
+  CheckObstructions: true
+  IgnoreOverheadCollision: true
+  IgnoreStructures: null
+  IgnoreSelf: true
+  IsUnaffiliated: ""
+  WeaponSlotOverride: ""
+  RangedAttackProfile: ""
+  RangedAttackName: ""
+  FireJointName: ""
+  ProjPosOffsetX: ""
+  ProjPosOffsetY: ""
+  ProjPosOffsetZ: ""
+  ProjRotOffsetX: ""
+  ProjRotOffsetY: ""
+  ProjRotOffsetZ: ""
+  CharRelPosOffsetX: ""
+  CharRelPosOffsetY: null
+  CharRelPosOffsetZ: ""
+  CharRelRotOffsetX: ""
+  CharRelRotOffsetY: ""
+  CharRelRotOffsetZ: ""
+  ProjRaycastOrientation: ""
+  BaseDamage: ""
+  DamageTable: ""
+  DamageTableRow: ""
+  AbilityId: Ultimate_Flail_Eldritch
+  TargetAbilityCondition: ""
+  BeamEffect: ""
+  IndicatorVFX: ""
+  SpellPrefabPath: Items/Weapons/spell_NumAroundMe_FlailUlt
+  SecondaryPrefabPath: ""
+  SecondarySpellID: ""
+  TertiaryPrefabPath: ""
+  TertiarySpellID: ""
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Spell_Flail_Ultimate_ChainHeal
   StatusEffects: Status_Flail_Ultimate_HealChain
   StatusEffectDurations: ""
   Revive: ""
   Siphon: null
+  TerminateExistingSiphonSpellOnConnection: null
   AttachToOwner: true
   StickWhenAttached: null
   StoreOffsetWhenStuckToGDE: ""
@@ -1411,6 +1605,7 @@
   StatusEffectDurations: ""
   Revive: ""
   Siphon: null
+  TerminateExistingSiphonSpellOnConnection: null
   AttachToOwner: true
   StickWhenAttached: null
   StoreOffsetWhenStuckToGDE: ""
