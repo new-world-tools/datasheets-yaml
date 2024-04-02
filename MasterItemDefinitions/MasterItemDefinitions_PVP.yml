@@ -64195,12 +64195,12 @@
   PerkSlot1: PerkID_Stat_TwoHandSage
   PerkSlot2: PerkID_WeaponLife_HealOutgoing
   PerkSlot3: PerkID_Gem_RallyGem4
-  PerkSlot4: PerkID_LifeStaff_OnLowBonusHeal
+  PerkSlot4: PerkID_Weapon_CDRBasic
   PerkSlot5: PerkBucket_PVPRTPrestigePerks
   Perk1: PerkID_Stat_TwoHandSage
   Perk2: PerkID_WeaponLife_HealOutgoing
   Perk3: PerkID_Gem_RallyGem4
-  Perk4: PerkID_LifeStaff_OnLowBonusHeal
+  Perk4: PerkID_Weapon_CDRBasic
   Perk5: ""
   PerkBucket1: ""
   PerkBucket2: ""
@@ -96081,6 +96081,121 @@
   HousingTags: ""
   IconPath: lyshineui/images/icons/items/Resource/GlassVialT4.png
   HiResIconPath: lyshineui/images/icons/items_hires/GlassVialT4.png
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: "10000"
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: null
+  ContainerGS: null
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: 0.0
+  SalvageResources: null
+  IsRepairable: 0.0
+  RepairDustModifier: null
+  RepairRecipe: ""
+  CraftingRecipe: ""
+  RepairGameEventID: ""
+  SalvageGameEventID: ""
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: PerkItem
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: null
+  DurabilityDmgOnDeath: null
+  DestroyOnBreak: 0.0
+  Weight: 1.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Generic
+  AudioPlace: Play_UI_Drop_Generic
+  AudioUse: Play_UI_Use_Generic
+  AudioCreated: Play_UI_Created_Generic
+  AudioDestroyed: ""
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppable: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
+- ItemID: PvP_PerkItem9
+  Name: "@PvP_PerkItem9_MasterName"
+  ItemType: Resource
+  ItemTypeDisplayName: "@ui_itemtypedescription_resource"
+  Description: "@PvP_PerkItem9_Description"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: Resource+PerkResource
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: null
+  NoBindOnPickupChance: ""
+  BindOnEquip: null
+  GearScoreOverride: null
+  MinGearScore: null
+  MaxGearScore: null
+  Tier: null
+  ItemStatsRef: ""
+  GrantsHWMBump: ""
+  IgnoreNameChanges: null
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: null
+  CanReplaceGem: null
+  PerkSlot1: ""
+  PerkSlot2: ""
+  PerkSlot3: ""
+  PerkSlot4: ""
+  PerkSlot5: ""
+  Perk1: ""
+  Perk2: ""
+  Perk3: ""
+  Perk4: ""
+  Perk5: ""
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: ""
+  OnEquipObjectiveId: ""
+  ForceRarity: 1.0
+  RequiredLevel: ""
+  RequiredTradeskillRank: ""
+  UseTypeAffix: 0.0
+  UseMaterialAffix: 0.0
+  UseMagicAffix: 0.0
+  UiItemClass: UI_CraftingModifiers
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: ""
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: ""
+  HousingTags: ""
+  IconPath: lyshineui/images/icons/items/Resource/GlassVialT5.png
+  HiResIconPath: lyshineui/images/icons/items_hires/GlassVialT5.png
   HeartgemTooltipBackgroundImage: ""
   MaxStackSize: "10000"
   DeathDropPercentage: 0.0
