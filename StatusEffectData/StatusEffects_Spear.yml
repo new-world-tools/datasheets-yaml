@@ -213,8 +213,8 @@
   StackDuration: null
   DurationMax: 20.0
   InheritDuration: ""
-  InheritTotalDuration: ""
-  RefreshDuration: ""
+  InheritTotalDuration: null
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: null
@@ -459,8 +459,8 @@
   StackDuration: null
   DurationMax: 20.0
   InheritDuration: ""
-  InheritTotalDuration: ""
-  RefreshDuration: ""
+  InheritTotalDuration: null
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: null
@@ -705,8 +705,8 @@
   StackDuration: null
   DurationMax: 15.0
   InheritDuration: ""
-  InheritTotalDuration: ""
-  RefreshDuration: ""
+  InheritTotalDuration: null
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: null
@@ -951,8 +951,8 @@
   StackDuration: 0.0
   DurationMax: 15.0
   InheritDuration: ""
-  InheritTotalDuration: ""
-  RefreshDuration: ""
+  InheritTotalDuration: null
+  RefreshDuration: null
   StackMax: 3.0
   InitialStackSize: ""
   RemoveUnappliedStacks: true
@@ -1197,8 +1197,8 @@
   StackDuration: 0.0
   DurationMax: 15.0
   InheritDuration: ""
-  InheritTotalDuration: ""
-  RefreshDuration: ""
+  InheritTotalDuration: null
+  RefreshDuration: null
   StackMax: 3.0
   InitialStackSize: ""
   RemoveUnappliedStacks: true
@@ -1443,8 +1443,8 @@
   StackDuration: 0.0
   DurationMax: 6.0
   InheritDuration: ""
-  InheritTotalDuration: ""
-  RefreshDuration: ""
+  InheritTotalDuration: null
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: true
@@ -1689,8 +1689,8 @@
   StackDuration: null
   DurationMax: null
   InheritDuration: ""
-  InheritTotalDuration: ""
-  RefreshDuration: ""
+  InheritTotalDuration: null
+  RefreshDuration: null
   StackMax: 4.0
   InitialStackSize: ""
   RemoveUnappliedStacks: false
@@ -1935,8 +1935,8 @@
   StackDuration: null
   DurationMax: 3.0
   InheritDuration: ""
-  InheritTotalDuration: ""
-  RefreshDuration: ""
+  InheritTotalDuration: null
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: false
@@ -2181,8 +2181,8 @@
   StackDuration: null
   DurationMax: 8.0
   InheritDuration: ""
-  InheritTotalDuration: ""
-  RefreshDuration: ""
+  InheritTotalDuration: null
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: false
@@ -2213,11 +2213,11 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
 - StatusID: Spear_BonusStaminaOnCrit
-  DisplayName: ""
-  Description: ""
-  EffectCategories: ""
-  PlaceholderIcon: ""
-  ShowInUITray: null
+  DisplayName: "@Status_Energized"
+  Description: "@Status_Energized_Description"
+  EffectCategories: Buff+Energized
+  PlaceholderIcon: lyshineui/images/status/SE_StaminaRecoveryT1.png
+  ShowInUITray: true
   ShowTextInDamageNumbers: false
   FxScriptOn: ""
   FxScriptOff: ""
@@ -2228,7 +2228,7 @@
   IsClientPredicted: ""
   UseLightweightReplication: true
   PotencyPerLevel: ""
-  BaseDuration: 0.1
+  BaseDuration: 3.0
   TickRate: 1.0
   DelayInitialTick: null
   TickCondition: ""
@@ -2268,8 +2268,8 @@
   HealthRate: 0.0
   CoreTempMod: 0.0
   TempMod: 0.0
-  Stamina: 20.0
-  StaminaRate: 0.0
+  Stamina: 0.0
+  StaminaRate: 0.3
   Mana: 0.0
   ManaRate: 0.0
   Food: 0.0
@@ -2427,8 +2427,8 @@
   StackDuration: null
   DurationMax: 5.0
   InheritDuration: ""
-  InheritTotalDuration: ""
-  RefreshDuration: ""
+  InheritTotalDuration: true
+  RefreshDuration: true
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: false
@@ -2441,9 +2441,9 @@
   HealRewardGameEventId: ""
   HealRewardThreshold: ""
   WeaponMasteryCategoryId: ""
-  UIPriority: null
-  UiNameplatePriority: null
-  ShowInNameplates: null
+  UIPriority: 4.0
+  UiNameplatePriority: 4.0
+  ShowInNameplates: false
   ShowTextInNameplates: ""
   OverrideOtherNameplateText: ""
   HidesOtherStatusEffectIcons: ""
@@ -2673,8 +2673,8 @@
   StackDuration: null
   DurationMax: 6.0
   InheritDuration: ""
-  InheritTotalDuration: ""
-  RefreshDuration: ""
+  InheritTotalDuration: null
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: false
@@ -2919,8 +2919,8 @@
   StackDuration: null
   DurationMax: 5.0
   InheritDuration: ""
-  InheritTotalDuration: ""
-  RefreshDuration: ""
+  InheritTotalDuration: null
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: false
@@ -3165,8 +3165,8 @@
   StackDuration: null
   DurationMax: 5.0
   InheritDuration: ""
-  InheritTotalDuration: ""
-  RefreshDuration: ""
+  InheritTotalDuration: null
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: false
@@ -3411,8 +3411,8 @@
   StackDuration: null
   DurationMax: null
   InheritDuration: ""
-  InheritTotalDuration: ""
-  RefreshDuration: ""
+  InheritTotalDuration: null
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: false
@@ -3657,8 +3657,8 @@
   StackDuration: 0.0
   DurationMax: 6.0
   InheritDuration: ""
-  InheritTotalDuration: ""
-  RefreshDuration: ""
+  InheritTotalDuration: null
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: true
@@ -3903,8 +3903,8 @@
   StackDuration: 0.0
   DurationMax: 6.0
   InheritDuration: ""
-  InheritTotalDuration: ""
-  RefreshDuration: ""
+  InheritTotalDuration: null
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: true
@@ -4149,8 +4149,8 @@
   StackDuration: 0.0
   DurationMax: 10.0
   InheritDuration: ""
-  InheritTotalDuration: ""
-  RefreshDuration: ""
+  InheritTotalDuration: null
+  RefreshDuration: null
   StackMax: 3.0
   InitialStackSize: ""
   RemoveUnappliedStacks: true

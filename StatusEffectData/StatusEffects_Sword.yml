@@ -34,6 +34,7 @@
   Health: 0.0
   HealthMin: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -280,6 +281,7 @@
   Health: 0.0
   HealthMin: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -526,6 +528,7 @@
   Health: 0.0
   HealthMin: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -772,6 +775,7 @@
   Health: 0.0
   HealthMin: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -1018,6 +1022,7 @@
   Health: 0.0
   HealthMin: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -1264,6 +1269,7 @@
   Health: 0.0
   HealthMin: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -1510,6 +1516,7 @@
   Health: 0.0
   HealthMin: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -1756,6 +1763,7 @@
   Health: 0.0
   HealthMin: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -2002,6 +2010,7 @@
   Health: null
   HealthMin: ""
   HealthModifierPercent: null
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -2248,6 +2257,7 @@
   Health: null
   HealthMin: ""
   HealthModifierPercent: null
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -2494,6 +2504,7 @@
   Health: 0.0
   HealthMin: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -2740,6 +2751,7 @@
   Health: 0.0
   HealthMin: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -2986,6 +2998,7 @@
   Health: 0.0
   HealthMin: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -3232,6 +3245,7 @@
   Health: 0.0
   HealthMin: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -3478,6 +3492,7 @@
   Health: null
   HealthMin: ""
   HealthModifierPercent: null
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -3724,6 +3739,7 @@
   Health: null
   HealthMin: ""
   HealthModifierPercent: null
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -3970,6 +3986,7 @@
   Health: null
   HealthMin: ""
   HealthModifierPercent: null
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -4216,6 +4233,7 @@
   Health: 0.0
   HealthMin: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -4462,6 +4480,7 @@
   Health: 0.0
   HealthMin: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -4708,6 +4727,7 @@
   Health: 0.0
   HealthMin: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -4954,6 +4974,7 @@
   Health: 0.0
   HealthMin: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -5199,7 +5220,8 @@
   DamageSkipsDeathsDoor: ""
   Health: 0.0
   HealthMin: ""
-  HealthModifierPercent: 0.15
+  HealthModifierPercent: 0.0
+  HealthModifierBasePercent: 0.3
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -5446,6 +5468,7 @@
   Health: 0.0
   HealthMin: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -5692,6 +5715,7 @@
   Health: null
   HealthMin: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -5938,6 +5962,7 @@
   Health: 0.0
   HealthMin: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -6184,6 +6209,7 @@
   Health: null
   HealthMin: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
@@ -6430,6 +6456,7 @@
   Health: null
   HealthMin: ""
   HealthModifierPercent: null
+  HealthModifierBasePercent: null
   HealthModifierDamageBased: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""

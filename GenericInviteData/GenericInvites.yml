@@ -12,7 +12,8 @@
   AllowInWarPrep: false
   AllowInWar: false
   AllowInArena: false
-  AllowInFFA: ""
+  AllowInFFA: false
+  AllowAcceptWhilePvpFlagged: true
   DisallowInGameModes: Dungeon,OutpostRush,Duel,Arena3v3,
   DisallowedWaterDepths: Deep,
 - ActivityCrc: Trade
@@ -29,7 +30,8 @@
   AllowInWarPrep: true
   AllowInWar: false
   AllowInArena: false
-  AllowInFFA: ""
+  AllowInFFA: false
+  AllowAcceptWhilePvpFlagged: true
   DisallowInGameModes: OutpostRush,Duel,Arena3v3,
   DisallowedWaterDepths: ""
 - ActivityCrc: MusicalPerformance
@@ -46,6 +48,25 @@
   AllowInWarPrep: true
   AllowInWar: false
   AllowInArena: false
-  AllowInFFA: ""
-  DisallowInGameModes: ""
+  AllowInFFA: true
+  AllowAcceptWhilePvpFlagged: true
+  DisallowInGameModes: Dungeon,OutpostRush,Duel,Arena3v3,
+  DisallowedWaterDepths: ""
+- ActivityCrc: Shard
+  ActivityType: 4.0
+  DurationSec: 10.0
+  Teams: null
+  MinLevel: null
+  MaxLevel: ""
+  FactionType: ""
+  MinDistance: ""
+  MaxDistance: 1000.0
+  AllowInSanctuary: true
+  AllowInFtue: true
+  AllowInWarPrep: true
+  AllowInWar: false
+  AllowInArena: false
+  AllowInFFA: false
+  AllowAcceptWhilePvpFlagged: false
+  DisallowInGameModes: Dungeon,OutpostRush,Duel,Arena3v3,
   DisallowedWaterDepths: ""

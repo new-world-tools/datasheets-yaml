@@ -7559,8 +7559,8 @@
   ExclusiveLabels: Skill+Hatchet
   ItemPerkConflictsLocText: ""
   DeprecatedPerkId: ""
-  ScalingPerGearScore: 0.00134,625:0.004
-  ItemClassGSBonus: Hatchet:750
+  ScalingPerGearScore: "2.666666666666667E-3"
+  ItemClassGSBonus: Hatchet:550
   DisplayName: "@PerkID_Ability_Hatchet_Berserk_Name"
   SecondaryEffectDisplayName: ""
   Description: "@PerkID_Ability_Hatchet_Berserk_Description"
@@ -8199,8 +8199,8 @@
   ExclusiveLabels: Skill+Spear
   ItemPerkConflictsLocText: ""
   DeprecatedPerkId: ""
-  ScalingPerGearScore: 0.015,625:0.0208
-  ItemClassGSBonus: Spear:700
+  ScalingPerGearScore: "1.4999999999999999E-2"
+  ItemClassGSBonus: Spear:500
   DisplayName: "@PerkID_Ability_Spear_Perforate_Name"
   SecondaryEffectDisplayName: ""
   Description: "@PerkID_Ability_Spear_Perforate_Description"
@@ -9831,7 +9831,7 @@
   ExclusiveLabels: Skill+Blunderbuss
   ItemPerkConflictsLocText: ""
   DeprecatedPerkId: ""
-  ScalingPerGearScore: "4.5454545454545452E-3"
+  ScalingPerGearScore: "5.2777777777777779E-3"
   ItemClassGSBonus: Blunderbuss:500
   DisplayName: "@PerkID_Ability_Blunderbuss_NetShot_Name"
   SecondaryEffectDisplayName: ""
@@ -12295,7 +12295,7 @@
   ExclusiveLabels: DebuffDur
   ItemPerkConflictsLocText: ""
   DeprecatedPerkId: ""
-  ScalingPerGearScore: "4.8484848484848493E-3"
+  ScalingPerGearScore: "5.0000000000000001E-3"
   ItemClassGSBonus: ""
   DisplayName: "@PerkID_Armor_DurCC_Name"
   SecondaryEffectDisplayName: ""
@@ -31893,7 +31893,7 @@
   NamePriority: ""
   IconPath: "LyShineUI\\Images\\Icons\\Misc\\icon_attribute_arrow.png"
   Affix: Affix_Artifact_Set1_MediumFeet
-  EquipAbility: GlobalPerk_Artifact_Set1_MediumFeet
+  EquipAbility: GlobalPerk_Artifact_Set1_MediumFeet,GlobalPerk_Artifact_Set1_MediumFeet_2
   DayPhases: ""
   FishingWaterType: ""
   TerritoryId: ""
@@ -33502,3 +33502,35 @@
   Category: ""
   ScheduleID: ""
   Sorting: Artifact
+- PerkID: PerkID_Flail_RabbitFlail
+  PerkType: Generated
+  ConditionEvent: OnEquip
+  ItemClass: Flail
+  ExcludeItemClass: ""
+  Channel: 1.0
+  ExclusiveLabels: ""
+  ItemPerkConflictsLocText: ""
+  DeprecatedPerkId: ""
+  ScalingPerGearScore: ""
+  ItemClassGSBonus: ""
+  DisplayName: "@PerkID_Flail_RabbitFlail_Name"
+  SecondaryEffectDisplayName: ""
+  Description: "@PerkID_Flail_RabbitFlail_Description"
+  StatDisplayText: ""
+  GroupName: ""
+  Tier: null
+  ExcludeFromTradingPost: ""
+  AppliedPrefix: ""
+  AppliedSuffix: ""
+  NamePriority: ""
+  IconPath: LyShineUI/Images/Icons/Perks/RabbitsRevengeFlail.png
+  Affix: Affix_Flail_RabbitFlail
+  EquipAbility: ""
+  DayPhases: ""
+  FishingWaterType: ""
+  TerritoryId: ""
+  CombatStatus: ""
+  WeaponTag: ""
+  Category: ""
+  ScheduleID: ""
+  Sorting: ""
