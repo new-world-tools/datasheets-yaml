@@ -86051,7 +86051,7 @@
   HealthMin: null
   HealthModifierPercent: 0.0
   HealthModifierBasePercent: null
-  HealthModifierDamageBased: 0.1
+  HealthModifierDamageBased: 0.07
   UseHealScalingValue: ""
   HealScalingValueMultiplier: null
   ShowUiDamageNumbersOnHeal: null
@@ -86238,9 +86238,9 @@
   StackDuration: ""
   DurationMax: 12.0
   InheritDuration: "FALSE"
-  InheritTotalDuration: "TRUE"
-  RefreshDuration: "TRUE"
-  StackMax: 3.0
+  InheritTotalDuration: "0"
+  RefreshDuration: "0"
+  StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: "FALSE"
   PotencyMax: null
@@ -86266,7 +86266,7 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: null
   NotCombatAction: ""
-  ApplicationCooldown: null
+  ApplicationCooldown: 10.0
   SourceRuneChargeOnApply: null
   SourceRuneChargeOnTick: 0.1
   SourceRuneChargeOnHealthChangeOnly: true
