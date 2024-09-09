@@ -297,6 +297,19 @@
   Keybind: ""
   KeybindActionmap: ""
   NumberFields: ""
+- NotificationId: Trade_Failure_Not_In_FFA_State
+  DisplayTitle: "@ui_trade_failure"
+  DisplayText: "@ui_trade_failure_not_in_ffa_state"
+  SecondaryText: ""
+  IconPath: ""
+  MaxDisplayCount: -1.0
+  NotificationType: Minor
+  TrackDisplayCount: null
+  DurationOverride: null
+  CooldownSeconds: null
+  Keybind: ""
+  KeybindActionmap: ""
+  NumberFields: ""
 - NotificationId: Trade_Failure_Global_Storage_Not_Enough_Currency
   DisplayTitle: "@ui_trade_failure"
   DisplayText: "@ui_trade_failure_global_storage_not_enough_currency"
@@ -487,7 +500,7 @@
   MaxDisplayCount: null
   NotificationType: Minor
   TrackDisplayCount: null
-  DurationOverride: 10.0
+  DurationOverride: null
   CooldownSeconds: null
   Keybind: ""
   KeybindActionmap: ""

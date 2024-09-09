@@ -4,7 +4,7 @@
   CreatureType: Quest
   RewardModifier: Armor
   Reward Type: ""
-  UniversalExpAmount: "800"
+  UniversalExpAmount: 800.0
   CurrencyReward: 5875.0
   RewardsNotes: ""
   ItemReward: FactionIntro_Covenant_01_Amulet_Reward
@@ -17,7 +17,7 @@
   FactionTokens: ""
   FactionInfluenceAmount: ""
   FactionInfluenceSrc: ""
-  AzothReward: 10.0
+  AzothReward: 37.5
   AzothRewardChance: 1.0
   WhisperId: ""
   AchievementId: ""
@@ -32,7 +32,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "0"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -60,7 +60,7 @@
   CreatureType: Quest
   RewardModifier: Weapons
   Reward Type: ""
-  UniversalExpAmount: "1370"
+  UniversalExpAmount: 1240.0
   CurrencyReward: 6125.0
   RewardsNotes: ""
   ItemReward: FactionIntro_Covenant_02_Hood_Reward
@@ -73,7 +73,7 @@
   FactionTokens: ""
   FactionInfluenceAmount: ""
   FactionInfluenceSrc: ""
-  AzothReward: 10.0
+  AzothReward: 37.5
   AzothRewardChance: 1.0
   WhisperId: ""
   AchievementId: ""
@@ -88,7 +88,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "0"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -116,7 +116,7 @@
   CreatureType: Quest+
   RewardModifier: Armor
   Reward Type: ""
-  UniversalExpAmount: "1920"
+  UniversalExpAmount: 1710.0
   CurrencyReward: 8925.0
   RewardsNotes: ""
   ItemReward: FactionIntro_Covenant_03_LifeStaff_Reward
@@ -129,7 +129,7 @@
   FactionTokens: ""
   FactionInfluenceAmount: ""
   FactionInfluenceSrc: ""
-  AzothReward: 20.0
+  AzothReward: 50.0
   AzothRewardChance: 1.0
   WhisperId: ""
   AchievementId: ""
@@ -144,7 +144,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "0"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: FactionEnlistmentBox_Covenant
@@ -172,7 +172,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -200,7 +200,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -228,7 +228,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -256,10 +256,66 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
+  ItemRewardQty: ""
+  GearScoreRange: ""
+  CategoricalProgressionId: ""
+  CategoricalProgressionReward: ""
+  TerritoryStanding: ""
+  FactionReputation: ""
+  FactionTokens: ""
+  FactionInfluenceAmount: ""
+  FactionInfluenceSrc: ""
+  AzothReward: null
+  AzothRewardChance: 0.0
+  WhisperId: ""
+  AchievementId: ""
+  IgnoreEconomyTracker: ""
+  EntitlementId: ""
+  PVPXP: ""
+  RemoveStatusEffectCategories: ""
+  EmitTelemetry: true
+- EventID: 98_Covenant_03_EncounterComplete_Interact
+  GameEventType: ""
+  Level: 0.0
+  CreatureType: Quest-
+  RewardModifier: ""
+  Reward Type: ""
+  UniversalExpAmount: 0.0
+  CurrencyReward: 0.0
+  RewardsNotes: ""
+  ItemReward: ""
+  ItemRewardQty: ""
+  GearScoreRange: ""
+  CategoricalProgressionId: ""
+  CategoricalProgressionReward: ""
+  TerritoryStanding: ""
+  FactionReputation: ""
+  FactionTokens: ""
+  FactionInfluenceAmount: ""
+  FactionInfluenceSrc: ""
+  AzothReward: null
+  AzothRewardChance: 0.0
+  WhisperId: ""
+  AchievementId: ""
+  IgnoreEconomyTracker: ""
+  EntitlementId: ""
+  PVPXP: ""
+  RemoveStatusEffectCategories: ""
+  EmitTelemetry: true
+- EventID: 98_Covenant_03_GiveRelic
+  GameEventType: ""
+  Level: 0.0
+  CreatureType: Quest-
+  RewardModifier: ""
+  Reward Type: ""
+  UniversalExpAmount: 0.0
+  CurrencyReward: 0.0
+  RewardsNotes: ""
+  ItemReward: FactionIntro_Covenant_03_Relic
   ItemRewardQty: ""
   GearScoreRange: ""
   CategoricalProgressionId: ""
@@ -284,7 +340,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -312,7 +368,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -334,13 +390,97 @@
   PVPXP: ""
   RemoveStatusEffectCategories: ""
   EmitTelemetry: true
+- EventID: 98_Covenant_03_Candle_01_interact
+  GameEventType: ""
+  Level: 0.0
+  CreatureType: Quest-
+  RewardModifier: ""
+  Reward Type: ""
+  UniversalExpAmount: 0.0
+  CurrencyReward: 0.0
+  RewardsNotes: ""
+  ItemReward: ""
+  ItemRewardQty: ""
+  GearScoreRange: ""
+  CategoricalProgressionId: ""
+  CategoricalProgressionReward: ""
+  TerritoryStanding: ""
+  FactionReputation: ""
+  FactionTokens: ""
+  FactionInfluenceAmount: ""
+  FactionInfluenceSrc: ""
+  AzothReward: null
+  AzothRewardChance: 0.0
+  WhisperId: ""
+  AchievementId: ""
+  IgnoreEconomyTracker: ""
+  EntitlementId: ""
+  PVPXP: ""
+  RemoveStatusEffectCategories: ""
+  EmitTelemetry: true
+- EventID: 98_Covenant_03_Candle_02_interact
+  GameEventType: ""
+  Level: 0.0
+  CreatureType: Quest-
+  RewardModifier: ""
+  Reward Type: ""
+  UniversalExpAmount: 0.0
+  CurrencyReward: 0.0
+  RewardsNotes: ""
+  ItemReward: ""
+  ItemRewardQty: ""
+  GearScoreRange: ""
+  CategoricalProgressionId: ""
+  CategoricalProgressionReward: ""
+  TerritoryStanding: ""
+  FactionReputation: ""
+  FactionTokens: ""
+  FactionInfluenceAmount: ""
+  FactionInfluenceSrc: ""
+  AzothReward: null
+  AzothRewardChance: 0.0
+  WhisperId: ""
+  AchievementId: ""
+  IgnoreEconomyTracker: ""
+  EntitlementId: ""
+  PVPXP: ""
+  RemoveStatusEffectCategories: ""
+  EmitTelemetry: true
+- EventID: 98_Covenant_03_Candle_03_interact
+  GameEventType: ""
+  Level: 0.0
+  CreatureType: Quest-
+  RewardModifier: ""
+  Reward Type: ""
+  UniversalExpAmount: 0.0
+  CurrencyReward: 0.0
+  RewardsNotes: ""
+  ItemReward: ""
+  ItemRewardQty: ""
+  GearScoreRange: ""
+  CategoricalProgressionId: ""
+  CategoricalProgressionReward: ""
+  TerritoryStanding: ""
+  FactionReputation: ""
+  FactionTokens: ""
+  FactionInfluenceAmount: ""
+  FactionInfluenceSrc: ""
+  AzothReward: null
+  AzothRewardChance: 0.0
+  WhisperId: ""
+  AchievementId: ""
+  IgnoreEconomyTracker: ""
+  EntitlementId: ""
+  PVPXP: ""
+  RemoveStatusEffectCategories: ""
+  EmitTelemetry: true
 - EventID: FactionIntro_Marauders_01_Success
   GameEventType: ""
   Level: 17.0
   CreatureType: Quest
   RewardModifier: Armor
   Reward Type: ""
-  UniversalExpAmount: "800"
+  UniversalExpAmount: 670.0
   CurrencyReward: 5875.0
   RewardsNotes: ""
   ItemReward: FactionIntro_Marauders_01_Ring_Reward
@@ -368,7 +508,7 @@
   CreatureType: Quest
   RewardModifier: Weapons
   Reward Type: ""
-  UniversalExpAmount: "1370"
+  UniversalExpAmount: 1240.0
   CurrencyReward: 6125.0
   RewardsNotes: ""
   ItemReward: FactionIntro_Marauders_02_Helm_Reward
@@ -396,7 +536,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "0"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -424,7 +564,7 @@
   CreatureType: Quest+
   RewardModifier: Armor
   Reward Type: ""
-  UniversalExpAmount: "1920"
+  UniversalExpAmount: 1710.0
   CurrencyReward: 8925.0
   RewardsNotes: ""
   ItemReward: FactionIntro_Marauders_03_2hGreatAxe_Reward
@@ -452,7 +592,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "0"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: FactionEnlistmentBox_Marauder
@@ -480,7 +620,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -508,7 +648,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -536,7 +676,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -564,7 +704,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -592,7 +732,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -620,7 +760,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -648,7 +788,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -676,7 +816,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -704,7 +844,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -732,7 +872,7 @@
   CreatureType: Quest
   RewardModifier: Armor
   Reward Type: ""
-  UniversalExpAmount: "800"
+  UniversalExpAmount: 670.0
   CurrencyReward: 5875.0
   RewardsNotes: ""
   ItemReward: FactionIntro_Syndicate_01_Gloves_Reward
@@ -760,7 +900,7 @@
   CreatureType: Quest
   RewardModifier: Weapons
   Reward Type: ""
-  UniversalExpAmount: "1370"
+  UniversalExpAmount: 1240.0
   CurrencyReward: 6125.0
   RewardsNotes: ""
   ItemReward: FactionIntro_Syndicate_02_Hat_Reward
@@ -788,7 +928,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "0"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -816,7 +956,7 @@
   CreatureType: Quest+
   RewardModifier: Armor
   Reward Type: ""
-  UniversalExpAmount: "1920"
+  UniversalExpAmount: 1710.0
   CurrencyReward: 8925.0
   RewardsNotes: ""
   ItemReward: FactionIntro_Syndicate_03_Musket_Reward
@@ -844,7 +984,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "0"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: FactionEnlistmentBox_Syndicate
@@ -872,7 +1012,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -900,7 +1040,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -928,7 +1068,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -956,7 +1096,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -984,7 +1124,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -1012,7 +1152,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -1040,7 +1180,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -1068,7 +1208,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -1096,7 +1236,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -1124,7 +1264,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -1152,7 +1292,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -1180,7 +1320,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -1208,7 +1348,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -1236,7 +1376,7 @@
   CreatureType: Quest-
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "#N/A"
+  UniversalExpAmount: 0.0
   CurrencyReward: 0.0
   RewardsNotes: ""
   ItemReward: ""
@@ -1264,7 +1404,7 @@
   CreatureType: Quest
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "3500"
+  UniversalExpAmount: 2520.0
   CurrencyReward: 11875.0
   RewardsNotes: ""
   ItemReward: ""
@@ -1292,7 +1432,7 @@
   CreatureType: Quest
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "5250"
+  UniversalExpAmount: 3770.0
   CurrencyReward: 11875.0
   RewardsNotes: ""
   ItemReward: ""
@@ -1320,7 +1460,7 @@
   CreatureType: Quest
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "3500"
+  UniversalExpAmount: 2520.0
   CurrencyReward: 11875.0
   RewardsNotes: ""
   ItemReward: ""
@@ -1348,7 +1488,7 @@
   CreatureType: Quest
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "5250"
+  UniversalExpAmount: 3770.0
   CurrencyReward: 11875.0
   RewardsNotes: ""
   ItemReward: ""
@@ -1376,7 +1516,7 @@
   CreatureType: Quest
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "3500"
+  UniversalExpAmount: 2520.0
   CurrencyReward: 11875.0
   RewardsNotes: ""
   ItemReward: ""
@@ -1404,7 +1544,7 @@
   CreatureType: Quest
   RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: "5250"
+  UniversalExpAmount: 3770.0
   CurrencyReward: 11875.0
   RewardsNotes: ""
   ItemReward: ""

@@ -1,7 +1,7 @@
 - AbilityID: Ability_Rapier_Slash
   DisplayName: "@Rapier_01"
   Description: "@Rapier_01_description"
-  UICategory: Melee Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/Rapier_Ability1_Slash.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Rapier_Ability_1
@@ -11,8 +11,8 @@
   WeaponTag: Rapier
   RequiredAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 0.0
-  TreeColumnPosition: 0.0
+  TreeRowPosition: 1.0
+  TreeColumnPosition: 4.0
   IsActiveAbility: true
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -77,11 +77,12 @@
   InSequence: Ability_Rapier_Slash
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -89,7 +90,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -102,6 +103,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: DamageTable
   StatusEffectDamageTableRowOverride: 1H_Rapier_Slash_Bleed
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -135,7 +137,7 @@
 - AbilityID: Rapier_Slash_Mod1
   DisplayName: "@Rapier_01_Mod1"
   Description: "@Rapier_01_Mod1_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/Rapier_Ability1Mod1_Pressure.png
   StatusEffectIcon: ""
   Sound: ""
@@ -146,7 +148,7 @@
   RequiredAbilityId: Ability_Rapier_Slash
   TreeId: 0.0
   TreeRowPosition: 2.0
-  TreeColumnPosition: 0.0
+  TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -211,11 +213,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -223,7 +226,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -236,6 +239,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -269,7 +273,7 @@
 - AbilityID: Rapier_Slash_Mod2
   DisplayName: "@Rapier_01_Mod2"
   Description: "@Rapier_01_Mod2_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/Rapier_Ability1Mod2_CompoundAttack.png
   StatusEffectIcon: ""
   Sound: ""
@@ -280,9 +284,9 @@
   RequiredAbilityId: Rapier_Slash_Mod1
   TreeId: 0.0
   TreeRowPosition: 3.0
-  TreeColumnPosition: 0.0
+  TreeColumnPosition: 4.0
   IsActiveAbility: false
-  IsGlobalAbility: false
+  IsGlobalAbility: true
   ScalingStrength: ""
   ScalingDexterity: ""
   ScalingIntelligence: ""
@@ -345,11 +349,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: Ability_Rapier_Slash
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -357,7 +362,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -370,6 +375,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -403,7 +409,7 @@
 - AbilityID: Rapier_Slash_Mod3
   DisplayName: "@Rapier_01_Mod3"
   Description: "@Rapier_01_Mod3_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/Rapier_EvasionPass2_ControlledBreathing.png
   StatusEffectIcon: ""
   Sound: ""
@@ -414,7 +420,7 @@
   RequiredAbilityId: Rapier_Slash_Mod2
   TreeId: 0.0
   TreeRowPosition: 4.0
-  TreeColumnPosition: 0.0
+  TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -479,11 +485,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 1.0
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -491,7 +498,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -504,6 +511,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -537,7 +545,7 @@
 - AbilityID: Ability_Rapier_Flurry
   DisplayName: "@Rapier_02"
   Description: "@Rapier_02_description"
-  UICategory: Melee Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/Rapier_Ability2_Flurry.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Rapier_Ability_3
@@ -548,7 +556,7 @@
   RequiredAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 0.0
-  TreeColumnPosition: 4.0
+  TreeColumnPosition: 0.0
   IsActiveAbility: true
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -613,11 +621,12 @@
   InSequence: Ability_Rapier_Flurry
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -625,7 +634,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -638,6 +647,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -671,7 +681,7 @@
 - AbilityID: Rapier_Flurry_All_In
   DisplayName: "@Rapier_02_Mod2"
   Description: "@Rapier_02_Mod2_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/Rapier_Ability2Mod2_All_In.png
   StatusEffectIcon: ""
   Sound: ""
@@ -682,7 +692,7 @@
   RequiredAbilityId: Ability_Rapier_Flurry
   TreeId: 0.0
   TreeRowPosition: 1.0
-  TreeColumnPosition: 4.0
+  TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -747,11 +757,12 @@
   InSequence: Ability_Rapier_Flurry
   InSequenceTime: 0.1
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: 0.25
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -759,7 +770,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -772,6 +783,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -805,7 +817,7 @@
 - AbilityID: Rapier_Flurry_Weakness
   DisplayName: "@Rapier_02_Mod3"
   Description: "@Rapier_02_Mod3_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/Rapier_Ability2Mod3_ContinuedWeakness.png
   StatusEffectIcon: ""
   Sound: ""
@@ -816,7 +828,7 @@
   RequiredAbilityId: Rapier_Flurry_Haste
   TreeId: 0.0
   TreeRowPosition: 3.0
-  TreeColumnPosition: 4.0
+  TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -881,11 +893,12 @@
   InSequence: Ability_Rapier_Flurry
   InSequenceTime: 0.1
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -893,7 +906,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -906,6 +919,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -939,7 +953,7 @@
 - AbilityID: Rapier_Flurry_Haste
   DisplayName: "@Rapier_02_Mod1"
   Description: "@Rapier_02_Mod1_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/Rapier_Ability2Mod1_HastyFlurry.png
   StatusEffectIcon: ""
   Sound: ""
@@ -950,7 +964,7 @@
   RequiredAbilityId: Rapier_Flurry_All_In
   TreeId: 0.0
   TreeRowPosition: 2.0
-  TreeColumnPosition: 4.0
+  TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -1015,11 +1029,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -1027,7 +1042,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -1040,6 +1055,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -1073,7 +1089,7 @@
 - AbilityID: Rapier_Flurry_Mod4
   DisplayName: "@Rapier_02_Mod4"
   Description: "@Rapier_02_Mod4_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/Rapier_EvasionPass4_ArtOfBattle.png
   StatusEffectIcon: ""
   Sound: ""
@@ -1084,7 +1100,7 @@
   RequiredAbilityId: Rapier_Flurry_Weakness
   TreeId: 0.0
   TreeRowPosition: 4.0
-  TreeColumnPosition: 4.0
+  TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -1149,11 +1165,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -1161,7 +1178,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -1174,6 +1191,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: DamageTable
   StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -1207,7 +1225,7 @@
 - AbilityID: Ability_Rapier_Flourish
   DisplayName: "@Rapier_03"
   Description: "@Rapier_03_description"
-  UICategory: Melee Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/Rapier_Ability3_Flourish.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Rapier_Ability_2
@@ -1283,11 +1301,12 @@
   InSequence: Ability_Rapier_Flourish
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -1295,7 +1314,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: -0.9
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -1308,6 +1327,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -1317,7 +1337,7 @@
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
-  OtherApplyStatusEffect: Rapier_Flourish_Debuff
+  OtherApplyStatusEffect: ""
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
   RemoveStatusEffects: ""
@@ -1341,7 +1361,7 @@
 - AbilityID: Rapier_Flourish_Mod1
   DisplayName: "@Rapier_03_Mod1"
   Description: "@Rapier_03_Mod1_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/Rapier_Ability3Mod1_Grit.png
   StatusEffectIcon: ""
   Sound: ""
@@ -1417,11 +1437,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -1429,7 +1450,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -1442,6 +1463,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -1475,7 +1497,7 @@
 - AbilityID: Rapier_Flourish_Mod2
   DisplayName: "@Rapier_03_Mod2"
   Description: "@Rapier_03_Mod2_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/Rapier_Ability3Mod2_Stamina.png
   StatusEffectIcon: ""
   Sound: ""
@@ -1551,11 +1573,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -1563,7 +1586,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -1576,6 +1599,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -1609,7 +1633,7 @@
 - AbilityID: Rapier_Flourish_Mod3
   DisplayName: "@Rapier_03_Mod3"
   Description: "@Rapier_03_Mod3_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/Rapier_BloodMasterPass2_HeavyBleeds.png
   StatusEffectIcon: ""
   Sound: ""
@@ -1685,11 +1709,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -1697,7 +1722,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -1710,6 +1735,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -1743,7 +1769,7 @@
 - AbilityID: Rapier_Flourish_Mod4
   DisplayName: "@Rapier_03_Mod4"
   Description: "@Rapier_03_Mod4_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/Rapier_Ability3Mod3_DeadlyFinish.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Rapier_Ultimate_1
@@ -1819,11 +1845,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -1831,7 +1858,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: -0.9
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -1844,6 +1871,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -1853,7 +1881,7 @@
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
-  OtherApplyStatusEffect: Rapier_Flourish_Debuff
+  OtherApplyStatusEffect: ""
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
   RemoveStatusEffects: ""
@@ -1953,11 +1981,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.08
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -1965,7 +1994,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -1978,6 +2007,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -2087,11 +2117,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -2099,7 +2130,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -2112,6 +2143,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -2221,11 +2253,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -2233,7 +2266,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -2246,6 +2279,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -2355,11 +2389,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.05
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -2367,7 +2402,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -2380,6 +2415,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -2489,11 +2525,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -2501,7 +2538,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -2514,6 +2551,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -2547,7 +2585,7 @@
 - AbilityID: Ability_Rapier_Riposte
   DisplayName: "@Rapier_04"
   Description: "@Rapier_04_description"
-  UICategory: Debuff
+  UICategory: Defense
   Icon: lyshineui/images/icons/abilities/Rapier_Ability4_Riposte.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Rapier_Ability_4
@@ -2558,7 +2596,7 @@
   RequiredAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 1.0
-  TreeColumnPosition: 0.0
+  TreeColumnPosition: 4.0
   IsActiveAbility: true
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -2623,11 +2661,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -2635,7 +2674,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -2648,6 +2687,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: 1H_Rapier_Riposte_Taunt
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -2681,7 +2721,7 @@
 - AbilityID: Rapier_Riposte_Mod1
   DisplayName: "@Rapier_04_Mod1"
   Description: "@Rapier_04_Mod1_description"
-  UICategory: Debuff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/Rapier_Ability4Mod1_Insult_to_Injury.png
   StatusEffectIcon: ""
   Sound: ""
@@ -2692,7 +2732,7 @@
   RequiredAbilityId: Ability_Rapier_Riposte
   TreeId: 1.0
   TreeRowPosition: 2.0
-  TreeColumnPosition: 0.0
+  TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -2757,11 +2797,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -2769,7 +2810,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -2782,6 +2823,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -2815,7 +2857,7 @@
 - AbilityID: Rapier_Riposte_Mod2
   DisplayName: "@Rapier_04_Mod2"
   Description: "@Rapier_04_Mod2_description"
-  UICategory: Debuff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/Rapier_Ability4Mod2_Priority.png
   StatusEffectIcon: ""
   Sound: ""
@@ -2826,7 +2868,7 @@
   RequiredAbilityId: Rapier_Riposte_Mod1
   TreeId: 1.0
   TreeRowPosition: 3.0
-  TreeColumnPosition: 0.0
+  TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -2891,11 +2933,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -2903,7 +2946,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -2916,6 +2959,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -2949,7 +2993,7 @@
 - AbilityID: Rapier_Riposte_Mod3
   DisplayName: "@Rapier_04_Mod3"
   Description: "@Rapier_04_Mod3_description"
-  UICategory: Debuff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/Rapier_Ability4Mod3.png
   StatusEffectIcon: ""
   Sound: ""
@@ -2960,7 +3004,7 @@
   RequiredAbilityId: Rapier_Riposte_Mod2
   TreeId: 1.0
   TreeRowPosition: 4.0
-  TreeColumnPosition: 0.0
+  TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -3025,11 +3069,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -3037,7 +3082,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -3050,6 +3095,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -3083,7 +3129,7 @@
 - AbilityID: Ability_Rapier_Aerial_Lunge_Intro
   DisplayName: "@Rapier_05"
   Description: "@Rapier_05_description"
-  UICategory: Melee Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/Rapier_Ability5_AerialLunge.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Rapier_Ability_6
@@ -3093,8 +3139,8 @@
   WeaponTag: Rapier
   RequiredAbilityId: ""
   TreeId: 1.0
-  TreeRowPosition: 1.0
-  TreeColumnPosition: 4.0
+  TreeRowPosition: 0.0
+  TreeColumnPosition: 0.0
   IsActiveAbility: true
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -3159,11 +3205,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -3171,7 +3218,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -3184,6 +3231,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -3217,7 +3265,7 @@
 - AbilityID: Rapier_Aerial_Lunge_Mod1
   DisplayName: "@Rapier_05_Mod1"
   Description: "@Rapier_05_Mod1_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/Rapier_Ability5Mod1_RenewedVigor.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3227,8 +3275,8 @@
   WeaponTag: Rapier
   RequiredAbilityId: Ability_Rapier_Aerial_Lunge_Intro
   TreeId: 1.0
-  TreeRowPosition: 2.0
-  TreeColumnPosition: 4.0
+  TreeRowPosition: 1.0
+  TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -3293,11 +3341,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -3305,7 +3354,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -3318,6 +3367,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -3351,7 +3401,7 @@
 - AbilityID: Rapier_Aerial_Lunge_Mod2
   DisplayName: "@Rapier_05_Mod2"
   Description: "@Rapier_05_Mod2_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/Rapier_BloodMasterPass5_DoubleSlash.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3361,8 +3411,8 @@
   WeaponTag: Rapier
   RequiredAbilityId: Rapier_Aerial_Lunge_Mod1
   TreeId: 1.0
-  TreeRowPosition: 3.0
-  TreeColumnPosition: 4.0
+  TreeRowPosition: 2.0
+  TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -3427,11 +3477,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
-  BaseDamage: 0.15
+  TargetVitalsCategory: ""
+  BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: 0.15
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -3439,7 +3490,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -3452,6 +3503,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -3485,7 +3537,7 @@
 - AbilityID: Rapier_Aerial_Lunge_Mod3
   DisplayName: "@Rapier_05_Mod3"
   Description: "@Rapier_05_Mod3_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/Rapier_Ability5Mod2_Wake.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3495,8 +3547,8 @@
   WeaponTag: Rapier
   RequiredAbilityId: Rapier_Aerial_Lunge_Mod2
   TreeId: 1.0
-  TreeRowPosition: 4.0
-  TreeColumnPosition: 4.0
+  TreeRowPosition: 3.0
+  TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -3561,11 +3613,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -3573,7 +3626,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -3586,6 +3639,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -3619,7 +3673,7 @@
 - AbilityID: Ability_Rapier_Evasion
   DisplayName: "@Rapier_06"
   Description: "@Rapier_06_description"
-  UICategory: Buff
+  UICategory: Defense
   Icon: lyshineui/images/icons/abilities/Rapier_Ability6_Evade.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Rapier_Ability_5
@@ -3629,7 +3683,7 @@
   WeaponTag: Rapier
   RequiredAbilityId: ""
   TreeId: 1.0
-  TreeRowPosition: 0.0
+  TreeRowPosition: 1.0
   TreeColumnPosition: 2.0
   IsActiveAbility: true
   IsGlobalAbility: false
@@ -3695,11 +3749,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -3707,7 +3762,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -3720,6 +3775,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -3753,7 +3809,7 @@
 - AbilityID: Rapier_Evasion_Mod1
   DisplayName: "@Rapier_06_Mod4"
   Description: "@Rapier_06_Mod4_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/Rapier_Ability6Mod4_BurstTempo.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3763,7 +3819,7 @@
   WeaponTag: Rapier
   RequiredAbilityId: Ability_Rapier_Evasion
   TreeId: 1.0
-  TreeRowPosition: 1.0
+  TreeRowPosition: 2.0
   TreeColumnPosition: 2.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -3829,11 +3885,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -3841,7 +3898,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -3854,6 +3911,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -3874,7 +3932,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: null
+  ActivationCooldown: 0.1
   Duration: null
   CooldownId: Ability_Rapier_Evasion
   CDRImmediatelyOptions: AbilitySpecific
@@ -3887,7 +3945,7 @@
 - AbilityID: Rapier_Evasion_Mod2
   DisplayName: "@Rapier_06_Mod2"
   Description: "@Rapier_06_Mod2_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/Rapier_Ability6Mod2_MinorTempo.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3897,7 +3955,7 @@
   WeaponTag: Rapier
   RequiredAbilityId: Rapier_Evasion_Mod1
   TreeId: 1.0
-  TreeRowPosition: 2.0
+  TreeRowPosition: 3.0
   TreeColumnPosition: 2.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -3963,11 +4021,12 @@
   InSequence: Ability_Rapier_Evasion
   InSequenceTime: 0.01
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -3975,7 +4034,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -3988,6 +4047,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -4021,7 +4081,7 @@
 - AbilityID: Rapier_Evasion_Mod3
   DisplayName: "@Rapier_06_Mod3"
   Description: "@Rapier_06_Mod3_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/Rapier_Ability6Mod3_MajorTempo.png
   StatusEffectIcon: ""
   Sound: ""
@@ -4031,7 +4091,7 @@
   WeaponTag: Rapier
   RequiredAbilityId: Rapier_Evasion_Mod2
   TreeId: 1.0
-  TreeRowPosition: 3.0
+  TreeRowPosition: 4.0
   TreeColumnPosition: 2.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -4097,11 +4157,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
-  BaseDamage: 0.15
+  TargetVitalsCategory: ""
+  BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -4109,7 +4170,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -4122,6 +4183,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -4155,7 +4217,7 @@
 - AbilityID: Rapier_Evasion_Mod4
   DisplayName: "@Rapier_06_Mod1"
   Description: "@Rapier_06_Mod1_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/Rapier_Ability6Mod1_Breath.png
   StatusEffectIcon: ""
   Sound: ""
@@ -4166,7 +4228,7 @@
   RequiredAbilityId: Rapier_Evasion_Mod3
   TreeId: 1.0
   TreeRowPosition: 4.0
-  TreeColumnPosition: 2.0
+  TreeColumnPosition: 1.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -4231,11 +4293,12 @@
   InSequence: Ability_Rapier_Evasion
   InSequenceTime: 0.01
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -4243,7 +4306,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -4256,6 +4319,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -4365,11 +4429,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -4377,7 +4442,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -4390,6 +4455,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -4499,11 +4565,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -4511,7 +4578,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -4524,6 +4591,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -4633,11 +4701,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -4645,7 +4714,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -4658,6 +4727,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -4767,11 +4837,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -4779,7 +4850,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -4792,6 +4863,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -4901,11 +4973,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.3
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -4913,7 +4986,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -4926,6 +4999,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
@@ -5035,11 +5109,12 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
-  CritDamage: ""
+  CritDamage: null
   CritChance: ""
   HeadshotDamage: ""
   stagger damage: ""
@@ -5047,7 +5122,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: ""
   ElementalArmor: ""
@@ -5060,6 +5135,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""

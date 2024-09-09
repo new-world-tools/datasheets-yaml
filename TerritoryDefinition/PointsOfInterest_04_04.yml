@@ -136,7 +136,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/military_camp_elite.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_campsite_elite.png
   CompassIcon: ""
   DiscoveryRadius: 375.0
   IsDiscoverable: true
@@ -235,7 +235,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandonedcity_elite.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandonedcity.png
   CompassIcon: ""
   DiscoveryRadius: 600.0
   IsDiscoverable: true
@@ -243,10 +243,10 @@
   DefaultAchievement: null
   OutpostId: ""
   Debug: ""
-  LootTags: UpperSvikin,Corrupted,EPOI
+  LootTags: UpperSvikin,Corrupted
   DiscoveredAchievement: damnedfortress_40408_discovered
   ChartedAchievement: damnedfortress_40408_charted
-  POITag: damnedfortress,elite
+  POITag: damnedfortress
   AudioGroup: POI_State
   AudioState: damned
   AudioBank: Damned
@@ -257,7 +257,7 @@
   Containers: 30.0
   TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\POI\\mapTooltip_Elite_Caminus.png"
   GameMode: ""
-  GroupSize: 3.0
+  GroupSize: null
   IsCollapsible: null
   RecommendedLevel: null
   UnchartedIcon: ""
@@ -565,7 +565,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/FarmingVillage.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_village.png
   CompassIcon: ""
   DiscoveryRadius: 200.0
   IsDiscoverable: true
@@ -895,7 +895,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/expedition_isabella.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/expedition.png
   CompassIcon: ""
   DiscoveryRadius: 150.0
   IsDiscoverable: true
@@ -994,7 +994,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/HiRes/Silver_Crows.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/Silver_Crows.png
   CompassIcon: ""
   DiscoveryRadius: 150.0
   IsDiscoverable: false
@@ -1121,14 +1121,14 @@
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
   EventId: ""
 - TerritoryID: 40435.0
-  NameLocalizationKey: "@ui_poi_daichi_dojo"
+  NameLocalizationKey: "@ui_poi_daichi_dojo_DailySoloTrials"
   BaseStructureLimit: ""
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Territory/StandingRewards/HousePoint_icon.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/trial_soul.png
   CompassIcon: ""
-  DiscoveryRadius: 250.0
+  DiscoveryRadius: 60.0
   IsDiscoverable: false
   IsChartable: true
   DefaultAchievement: null
@@ -1146,8 +1146,8 @@
   VitalsCategory: ""
   LevelRange: ""
   Containers: null
-  TooltipBackground: ""
-  GameMode: ""
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/SoloTrial/mapTooltip_TrialSeason04Q02.png
+  GameMode: TrialSeason04Q02
   GroupSize: null
   IsCollapsible: null
   RecommendedLevel: null
@@ -1159,7 +1159,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/angryearth_camp.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_campsite.png
   CompassIcon: ""
   DiscoveryRadius: 350.0
   IsDiscoverable: true
@@ -1258,7 +1258,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\StrangersCampsite.png"
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_campsite.png
   CompassIcon: ""
   DiscoveryRadius: 250.0
   IsDiscoverable: true
@@ -1383,4 +1383,37 @@
   IsCollapsible: null
   RecommendedLevel: null
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
+  EventId: ""
+- TerritoryID: 40443.0
+  NameLocalizationKey: "@ui_poi_trial_isabella_40443"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/trial_soul.png
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: trial_isabella_40443_charted
+  POITag: trial_isabella_40443
+  AudioGroup: POI_State
+  AudioState: damned
+  AudioBank: Damned
+  CanPlaceCamp: false
+  DevName: QuestIsabella
+  VitalsCategory: Corrupted
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/SoloTrial/mapTooltip_QuestIsabella.png
+  GameMode: QuestIsabella
+  GroupSize: null
+  IsCollapsible: null
+  RecommendedLevel: null
+  UnchartedIcon: ""
   EventId: ""

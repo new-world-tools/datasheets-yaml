@@ -1,6 +1,6 @@
 - StatusID: Musket_LegHit_Slow
-  DisplayName: "@Musket_LegHit_Slow_DisplayName"
-  Description: "@Musket_LegHit_Slow_Description"
+  DisplayName: "@Status_Slow"
+  Description: "@Status_Slow_Description"
   EffectCategories: Debuff+Slow+CC+Trapper
   PlaceholderIcon: lyshineui/images/status/SE_SlowT3.png
   ShowInUITray: true
@@ -90,6 +90,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -336,6 +337,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -497,8 +499,8 @@
   PlaceholderIcon: lyshineui/images/status/SE_RendT3.png
   ShowInUITray: true
   ShowTextInDamageNumbers: false
-  FxScriptOn: StatFX_Root_ON
-  FxScriptOff: StatFX_Root_OFF
+  FxScriptOn: StatFX_Rend_ON
+  FxScriptOff: StatFX_Rend_OFF
   ShouldRefreshFxScript: ""
   WeaponEffectType: ""
   Notification: ""
@@ -582,6 +584,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -828,6 +831,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1074,6 +1078,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1320,6 +1325,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1566,6 +1572,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1812,6 +1819,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1982,7 +1990,7 @@
   IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: null
-  BaseDuration: 9.0
+  BaseDuration: 7.0
   TickRate: 1.0
   DelayInitialTick: ""
   TickCondition: ""
@@ -2002,7 +2010,7 @@
   Health: 0.0
   HealthMin: ""
   HealthModifierPercent: 0.0
-  HealthModifierDamageBased: -0.2
+  HealthModifierDamageBased: -0.15
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
   StaminaDamageModifier: ""
@@ -2058,6 +2066,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2248,7 +2257,7 @@
   Health: 0.0
   HealthMin: ""
   HealthModifierPercent: 0.0
-  HealthModifierDamageBased: -0.2
+  HealthModifierDamageBased: -0.15
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
   StaminaDamageModifier: ""
@@ -2304,6 +2313,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2550,6 +2560,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2796,6 +2807,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3042,6 +3054,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3288,6 +3301,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3534,6 +3548,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3780,6 +3795,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4026,6 +4042,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4272,6 +4289,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4518,6 +4536,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4764,6 +4783,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5010,6 +5030,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5256,6 +5277,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5502,6 +5524,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5748,6 +5771,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5994,6 +6018,7 @@
   RemoveOnGameModeExit: 1.0
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -6240,6 +6265,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -6486,6 +6512,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -6732,6 +6759,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -6978,6 +7006,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -7224,6 +7253,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""

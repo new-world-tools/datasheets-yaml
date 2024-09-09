@@ -45,6 +45,53 @@
   DamageGuildAndGroup: null
   HitRuneCharge: 0.1625
   HitBlockedRuneCharge: 0.325
+- DamageID: Slash_Maze
+  WeaponCategory: Unarmed
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  SurfaceImpactEffect: Bullet
+  AttackType: Light
+  DamageType: Slash
+  IsRanged: null
+  StatusEffect: AI_Medusa_Maze_Unblockable
+  EffectOnlyOnDamage: null
+  DeflectDamageID: Deflect_Default
+  CanCrit: false
+  DmgCoef: 0.0
+  DmgCoefHead: 1.0
+  DmgCoefCrit: 1.0
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 10.0
+  BlockHitStun: 5.0
+  CritHitStun: 10.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.8
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 1.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.3
+  CritStaggerDmgModifier: 0.3
+  StaggerResistModifier: 1.0
+  CameraShakeID: Small
+  CritCameraShakeID: Small
+  ImpactRating: 3.0
+  BlockStaminaDmgMod: 4.0
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  stunBreakoutIncrementer: ""
+  DamageGuildAndGroup: null
+  HitRuneCharge: 0.1625
+  HitBlockedRuneCharge: 0.325
 - DamageID: Slash_Poison
   WeaponCategory: Medusa_SlashPoison
   IgnoreInvulnerable: 0.0
@@ -133,6 +180,53 @@
   CritCameraShakeID: Small
   ImpactRating: 3.0
   BlockStaminaDmgMod: 1.5
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  stunBreakoutIncrementer: ""
+  DamageGuildAndGroup: null
+  HitRuneCharge: 0.1625
+  HitBlockedRuneCharge: 0.325
+- DamageID: Charge_Maze
+  WeaponCategory: Medusa_Charge
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  SurfaceImpactEffect: Bullet
+  AttackType: Heavy
+  DamageType: Strike
+  IsRanged: null
+  StatusEffect: AI_Medusa_Maze_Unblockable
+  EffectOnlyOnDamage: null
+  DeflectDamageID: Deflect_Default
+  CanCrit: true
+  DmgCoef: 0.0
+  DmgCoefHead: 1.0
+  DmgCoefCrit: 1.0
+  PowerLevel: 3.0
+  BlockPowerLevel: 3.0
+  CritPowerLevel: 3.0
+  HitStun: 35.0
+  BlockHitStun: 30.0
+  CritHitStun: 35.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 3.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 3.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.3
+  CritStaggerDmgModifier: 0.3
+  StaggerResistModifier: 1.0
+  CameraShakeID: Small
+  CritCameraShakeID: Small
+  ImpactRating: 3.0
+  BlockStaminaDmgMod: 4.0
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   stunBreakoutIncrementer: ""
@@ -383,6 +477,53 @@
   DamageType: Strike
   IsRanged: null
   StatusEffect: AI_Medusa_Petrification_Minion
+  EffectOnlyOnDamage: null
+  DeflectDamageID: Deflect_Default
+  CanCrit: false
+  DmgCoef: 0.0
+  DmgCoefHead: 1.0
+  DmgCoefCrit: 1.0
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 35.0
+  BlockHitStun: 30.0
+  CritHitStun: 35.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 3.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.3
+  CritStaggerDmgModifier: 0.3
+  StaggerResistModifier: 1.0
+  CameraShakeID: Small
+  CritCameraShakeID: Small
+  ImpactRating: 3.0
+  BlockStaminaDmgMod: 0.0
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  stunBreakoutIncrementer: ""
+  DamageGuildAndGroup: null
+  HitRuneCharge: 0.1625
+  HitBlockedRuneCharge: 0.325
+- DamageID: GorgonsGaze_Maze
+  WeaponCategory: Unarmed
+  IgnoreInvulnerable: 1.0
+  NoReaction: 1.0
+  SurfaceImpactEffect: Bullet
+  AttackType: Heavy
+  DamageType: Strike
+  IsRanged: null
+  StatusEffect: AI_Medusa_Gaze_Maze
   EffectOnlyOnDamage: null
   DeflectDamageID: Deflect_Default
   CanCrit: false

@@ -145,7 +145,7 @@
   NoReaction: 0.0
   IsRanged: null
   SurfaceImpactEffect: Bullet
-  AttackType: Light
+  AttackType: Heavy
   DamageType: Strike
   Affixes: ""
   StatusEffect: ""
@@ -192,7 +192,7 @@
   NoReaction: 0.0
   IsRanged: null
   SurfaceImpactEffect: Bullet
-  AttackType: Light
+  AttackType: Heavy
   DamageType: Strike
   Affixes: ""
   StatusEffect: ""
@@ -202,12 +202,12 @@
   DmgCoef: 0.75
   DmgCoefHead: 0.65
   DmgCoefCrit: 1.0
-  PowerLevel: 0.0
-  BlockPowerLevel: 0.0
-  CritPowerLevel: 0.0
-  HitStun: 10.0
-  BlockHitStun: 15.0
-  CritHitStun: 10.0
+  PowerLevel: 2.0
+  BlockPowerLevel: 2.0
+  CritPowerLevel: 2.0
+  HitStun: 18.0
+  BlockHitStun: 18.0
+  CritHitStun: 18.0
   ImpactDistanceX: 0.0
   ImpactDistanceY: 1.0
   ImpactDistanceZ: 0.0
@@ -475,7 +475,7 @@
   IsRanged: null
   SurfaceImpactEffect: ""
   AttackType: ""
-  DamageType: Deflect
+  DamageType: Standard
   Affixes: ""
   StatusEffect: ""
   EffectOnlyOnDamage: ""

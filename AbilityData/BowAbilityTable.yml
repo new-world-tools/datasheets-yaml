@@ -1,7 +1,7 @@
 - AbilityID: Ability_Bow_PoisonShot
   DisplayName: "@Ability_Bow_PoisonShot"
   Description: "@Ability_Bow_PoisonShot_description"
-  UICategory: Ranged Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/bowAbility5.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Bow_Ability_1
@@ -79,6 +79,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -103,6 +104,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -134,12 +136,13 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: true
 - AbilityID: Upgrade_Bow_PoisonShot_PoisonDmg
   DisplayName: "@Upgrade_Bow_PoisonShot_PoisonDmg"
   Description: "@Upgrade_Bow_PoisonShot_PoisonDmg_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/bowAbility5_mod1.png
   StatusEffectIcon: ""
   Sound: ""
@@ -217,6 +220,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -241,6 +245,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -272,12 +277,13 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Upgrade_Bow_PoisonShot_DirectDmg
   DisplayName: "@Upgrade_Bow_PoisonShot_DirectDmg"
   Description: "@Upgrade_Bow_PoisonShot_DirectDmg_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/bowAbility5_mod2.png
   StatusEffectIcon: ""
   Sound: ""
@@ -355,6 +361,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -379,6 +386,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: Bow_PoisonShot_Upgrade
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -410,12 +418,13 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Ability_Bow_EvadeShot
   DisplayName: "@Ability_Bow_EvadeShot"
   Description: "@Ability_Bow_EvadeShot_description"
-  UICategory: Buff
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/bowAbility2.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Bow_Ability_2
@@ -427,7 +436,7 @@
   RequiredAbilityId: ""
   TreeId: 0.0
   RequiredEquippedAbilityId: ""
-  TreeRowPosition: 0.0
+  TreeRowPosition: 1.0
   TreeColumnPosition: 2.0
   IsActiveAbility: true
   IsGlobalAbility: false
@@ -493,6 +502,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -517,6 +527,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -548,12 +559,13 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Upgrade_Bow_EvasiveShot_Knockback
   DisplayName: "@Upgrade_Bow_EvasiveKnockback_Knockback"
   Description: "@Upgrade_Bow_EvasiveKnockback_Knockback_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/bowAbility2_mod1.png
   StatusEffectIcon: ""
   Sound: ""
@@ -565,7 +577,7 @@
   RequiredAbilityId: Ability_Bow_EvadeShot
   TreeId: 0.0
   RequiredEquippedAbilityId: ""
-  TreeRowPosition: 1.0
+  TreeRowPosition: 2.0
   TreeColumnPosition: 2.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -631,6 +643,7 @@
   InSequence: Ability_Bow_JumpBackShot
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -655,6 +668,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: BowAttackKnockBack
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -686,12 +700,13 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Upgrade_Bow_EvasiveShot_Haste
   DisplayName: "@Upgrade_Bow_EvasiveShot_Haste"
   Description: "@Upgrade_Bow_EvasiveShot_Haste_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/bowAbility2_mod2.png
   StatusEffectIcon: ""
   Sound: ""
@@ -769,6 +784,7 @@
   InSequence: Ability_Bow_JumpBackShot
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -793,6 +809,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -824,12 +841,13 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Ability_Bow_RainofArrows
   DisplayName: "@Ability_Bow_RainofArrows"
   Description: "@Ability_Bow_RainofArrows_description"
-  UICategory: Ranged Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/bowAbility6.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Bow_Ability_3
@@ -841,7 +859,7 @@
   RequiredAbilityId: ""
   TreeId: 0.0
   RequiredEquippedAbilityId: ""
-  TreeRowPosition: 1.0
+  TreeRowPosition: 0.0
   TreeColumnPosition: 4.0
   IsActiveAbility: true
   IsGlobalAbility: false
@@ -907,6 +925,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -931,6 +950,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -962,12 +982,13 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: true
 - AbilityID: Upgrade_Bow_RainofArrows_Bleed
   DisplayName: "@Upgrade_Bow_RainofArrows_Bleed"
   Description: "@Upgrade_Bow_RainofArrows_Bleed_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/bowAbility6_mod1.png
   StatusEffectIcon: ""
   Sound: ""
@@ -979,7 +1000,7 @@
   RequiredAbilityId: Ability_Bow_RainofArrows
   TreeId: 0.0
   RequiredEquippedAbilityId: ""
-  TreeRowPosition: 2.0
+  TreeRowPosition: 1.0
   TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -1045,6 +1066,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1069,6 +1091,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -1100,12 +1123,13 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Upgrade_Bow_RainofArrows_Slow
   DisplayName: "@Upgrade_Bow_RainofArrows_Slow"
   Description: "@Upgrade_Bow_RainofArrows_Slow_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/bowAbility6_mod2.png
   StatusEffectIcon: ""
   Sound: ""
@@ -1117,7 +1141,7 @@
   RequiredAbilityId: Ability_Bow_RainofArrows
   TreeId: 0.0
   RequiredEquippedAbilityId: ""
-  TreeRowPosition: 4.0
+  TreeRowPosition: 3.0
   TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -1183,6 +1207,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1207,6 +1232,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -1238,8 +1264,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Passive_Bow_Skirmish_RendHead
   DisplayName: "@Passive_Bow_Skirmish_RendHead"
   Description: "@Passive_Bow_Skirmish_RendHead_description"
@@ -1321,6 +1348,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1345,6 +1373,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -1376,8 +1405,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Passive_Bow_Skirmish_HasteWhenFoesNear
   DisplayName: "@Passive_Bow_Skirmish_HasteWhenFoesNear"
   Description: "@Passive_Bow_Skirmish_HasteWhenFoesNear_description"
@@ -1394,7 +1424,7 @@
   TreeId: 0.0
   RequiredEquippedAbilityId: ""
   TreeRowPosition: 0.0
-  TreeColumnPosition: 4.0
+  TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -1459,6 +1489,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1483,6 +1514,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -1514,8 +1546,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Passive_Bow_Skirmish_CDRVsLow
   DisplayName: "@Passive_Bow_Skirmish_CDRVsLow"
   Description: "@Passive_Bow_Skirmish_CDRVsLow_description"
@@ -1597,6 +1630,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1621,6 +1655,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -1652,8 +1687,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Passive_Bow_Skirmish_SlowFull
   DisplayName: "@Passive_Bow_Skirmish_SlowFull"
   Description: "@Passive_Bow_Skirmish_SlowFull_description"
@@ -1735,6 +1771,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1759,6 +1796,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -1790,8 +1828,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Passive_Bow_Skirmish_StaminaVsDebuff
   DisplayName: "@Passive_Bow_Skirmish_StaminaVsDebuff"
   Description: "@Passive_Bow_Skirmish_StaminaVsDebuff_description"
@@ -1873,6 +1912,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1897,6 +1937,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -1928,8 +1969,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Passive_Bow_Skirmish_DodgeHaste
   DisplayName: "@Passive_Bow_Skirmish_DodgeHaste"
   Description: "@Passive_Bow_Skirmish_DodgeHaste_description"
@@ -2011,6 +2053,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2035,6 +2078,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -2066,8 +2110,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Passive_Bow_Skirmish_HasteOnSwap
   DisplayName: "@Passive_Bow_Skirmish_HasteOnSwap"
   Description: "@Passive_Bow_Skirmish_HasteOnSwap_description"
@@ -2149,6 +2194,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2173,6 +2219,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -2204,8 +2251,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Passive_Bow_Skirmish_DmgVsDebuff
   DisplayName: "@Passive_Bow_Skirmish_DmgVsDebuff"
   Description: "@Passive_Bow_Skirmish_DmgVsDebuff_description"
@@ -2287,6 +2335,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2311,6 +2360,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -2342,8 +2392,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Passive_Bow_Skirmish_DebuffDur
   DisplayName: "@Passive_Bow_Skirmish_DebuffDur"
   Description: "@Passive_Bow_Skirmish_DebuffDur_description"
@@ -2425,6 +2476,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2449,6 +2501,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -2480,8 +2533,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Ultimate_Bow_Skirmish
   DisplayName: "@Ultimate_Bow_Skirmish_DodgeDmg"
   Description: "@Ultimate_Bow_Skirmish_DodgeDmg_description"
@@ -2563,6 +2617,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: Dodge_Roll,Dodge_Roll_Fast,Dodge_Roll_Slow
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2587,6 +2642,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -2618,12 +2674,13 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Ability_Bow_RapidShot
   DisplayName: "@Ability_Bow_RapidShot"
   Description: "@Ability_Bow_RapidShot_description"
-  UICategory: Ranged Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/bowAbility1.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Bow_Ability_4
@@ -2701,6 +2758,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2725,6 +2783,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -2756,12 +2815,13 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Upgrade_Bow_RapidAccuracy_CDROnLast
   DisplayName: "@Upgrade_Bow_RapidAccuracy_CDROnLast"
   Description: "@Upgrade_Bow_RapidAccuracy_CDROnLast_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/bowAbility1_Mod1.png
   StatusEffectIcon: ""
   Sound: ""
@@ -2839,6 +2899,7 @@
   InSequence: Ability_Bow_RapidShot
   InSequenceTime: 0.1
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2863,6 +2924,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -2894,12 +2956,13 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Upgrade_Bow_RapidAccuracy_DmgOnLast
   DisplayName: "@Upgrade_Bow_RapidAccuracy_DmgOnLast"
   Description: "@Upgrade_Bow_RapidAccuracy_DmgOnLast_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/bowAbility1_Mod2.png
   StatusEffectIcon: ""
   Sound: ""
@@ -2977,6 +3040,7 @@
   InSequence: Ability_Bow_RapidShot
   InSequenceTime: 0.1
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.25
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3001,6 +3065,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -3032,12 +3097,13 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Ability_Bow_PenetratingShot
   DisplayName: "@Ability_Bow_PenetratingShot"
   Description: "@Ability_Bow_PenetratingShot_description"
-  UICategory: Ranged Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/bowAbility3.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Bow_Ability_5
@@ -3115,6 +3181,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3139,6 +3206,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -3170,12 +3238,13 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: true
 - AbilityID: Upgrade_Bow_PenetratingShot_DmgPerHit
   DisplayName: "@Upgrade_Bow_PenetratingShot_DmgPerHit"
   Description: "@Upgrade_Bow_PenetratingShot_DmgPerHit_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/bowAbility3_mod1.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3253,6 +3322,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3277,6 +3347,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: Bow_Penetrating_AttackA1
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -3308,12 +3379,13 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Upgrade_Bow_PenetratingShot_DmgPerDist
   DisplayName: "@Upgrade_Bow_PenetratingShot_DmgPerDist"
   Description: "@Upgrade_Bow_PenetratingShot_DmgPerDist_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/bowAbility3_mod2.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3391,6 +3463,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.15
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3415,6 +3488,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -3446,12 +3520,13 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Ability_Bow_SplinterShot
   DisplayName: "@Ability_Bow_SplinterShot"
   Description: "@Ability_Bow_SplinterShot_description"
-  UICategory: Ranged Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/bow_ability_explosion.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Bow_Ability_6
@@ -3529,6 +3604,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3553,6 +3629,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -3584,12 +3661,13 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Upgrade_Bow_SplinterShot_CDRPerHIt
   DisplayName: "@Upgrade_Bow_SplinterShot_CDRPerHIt"
   Description: "@Upgrade_Bow_SplinterShot_CDRPerHIt_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/bow_upgrade.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3667,6 +3745,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3691,6 +3770,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: DamageTable
   StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override
   ForceStatusEffectDamageTableRow: true
   RangedAttackNameOverride: ""
@@ -3722,12 +3802,13 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Upgrade_Bow_SplinterShot_FiveA
   DisplayName: "@Upgrade_Bow_SplinterShot_FiveA"
   Description: "@Upgrade_Bow_SplinterShot_FiveA_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/bow_upgrade_1.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3805,6 +3886,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3829,6 +3911,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -3860,8 +3943,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Passive_Bow_Hunter_DmgVsDist
   DisplayName: "@Passive_Bow_Hunter_DmgVsDist"
   Description: "@Passive_Bow_Hunter_DmgVsDist_description"
@@ -3943,6 +4027,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3967,6 +4052,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -3998,8 +4084,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Passive_Bow_Hunter_HeavyDmg
   DisplayName: "@Passive_Bow_Hunter_HeavyDmg"
   Description: "@Passive_Bow_Hunter_HeavyDmg_description"
@@ -4081,6 +4168,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4105,6 +4193,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -4136,8 +4225,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Passive_Bow_Hunter_ArmorAimHeavy
   DisplayName: "@Passive_Bow_Hunter_ArmorAimHeavy"
   Description: "@Passive_Bow_Hunter_ArmorAimHeavy_description"
@@ -4219,6 +4309,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4243,6 +4334,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -4274,8 +4366,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Passive_Bow_Hunter_DmgVsLow
   DisplayName: "@Passive_Bow_Hunter_DmgVsLow"
   Description: "@Passive_Bow_Hunter_DmgVsLow_description"
@@ -4357,6 +4450,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.15
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4381,6 +4475,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -4412,8 +4507,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Passive_Bow_Hunter_HeavyDmgVsFull
   DisplayName: "@Passive_Bow_Hunter_HeavyDmgVsFull"
   Description: "@Passive_Bow_Hunter_HeavyDmgVsFull_description"
@@ -4495,6 +4591,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4519,6 +4616,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -4550,8 +4648,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Passive_Bow_Hunter_DmgOnFirst
   DisplayName: "@Passive_Bow_Hunter_DmgOnFirst"
   Description: "@Passive_Bow_Hunter_DmgOnFirst_description"
@@ -4633,6 +4732,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.2
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4657,6 +4757,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -4688,8 +4789,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Passive_Bow_Hunter_DmgOnFirst_Tracker
   DisplayName: ""
   Description: ""
@@ -4771,6 +4873,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4795,6 +4898,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -4826,8 +4930,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Passive_Bow_Hunter_Accuracy
   DisplayName: "@Passive_Bow_Hunter_Accuracy"
   Description: "@Passive_Bow_Hunter_Accuracy_description"
@@ -4909,6 +5014,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4933,6 +5039,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -4964,8 +5071,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Passive_Bow_Hunter_HealOnFive
   DisplayName: "@Passive_Bow_Hunter_HealOnFive"
   Description: "@Passive_Bow_Hunter_HealOnFive_description"
@@ -5047,6 +5155,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -5071,6 +5180,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -5102,8 +5212,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: 0.5
+  SupportsSmartcast: null
 - AbilityID: Passive_Bow_Hunter_Crit
   DisplayName: "@Passive_Bow_Hunter_Crit"
   Description: "@Passive_Bow_Hunter_Crit_description"
@@ -5185,6 +5296,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -5209,6 +5321,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -5240,8 +5353,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Ultimate_Bow_Hunter
   DisplayName: "@Ultimate_Bow_Hunter"
   Description: "@Ultimate_Bow_Hunter_description"
@@ -5323,6 +5437,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -5347,6 +5462,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -5378,8 +5494,9 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: null
+  RefundAmmoPercentChance: ""
   ActivationCooldown: null
+  SupportsSmartcast: null
 - AbilityID: Ultimate_Bow_Hunter_Refund
   DisplayName: ""
   Description: ""
@@ -5409,7 +5526,7 @@
   OnHit: false
   OnBlockedHit: false
   OnCrit: false
-  OnHeadShot: true
+  OnHeadShot: false
   OnLegShot: false
   OnHitTaken: false
   OnBlockBreak: false
@@ -5461,6 +5578,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -5485,6 +5603,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
@@ -5516,5 +5635,6 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  RefundAmmoPercentChance: 0.5
-  ActivationCooldown: 2.0
+  RefundAmmoPercentChance: ""
+  ActivationCooldown: null
+  SupportsSmartcast: null

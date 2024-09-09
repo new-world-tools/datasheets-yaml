@@ -1,79 +1,26 @@
-- CutsceneCameraId: NSL_MQN_MED_SNGL
-  CameraState: NPC_FOV13old_CamState
-  CameraStateOrigin: -0.1 1.2 1.48
-  CameraStateLookAt: -.1 0 1.45
-  EnterBlendTime: 0.0
-  ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
-  OriginEnterBlendTime: 0.0
-  OriginExitBlendTime: 0.0
-  NpcLookAtInfo: c -.2 0 0
-  PlayerFadeRate: -1.0
-  HidePlayerAvatar: "true"
-  HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
-  DummyPresetPos: ""
-  DummyPresetRot: ""
-  DummyIsArmed: null
-  DummyLookAtInfo: ""
-  BlockPlayerInput: null
-  CancelInventory: ""
-  InterruptInCombat: ""
-  InterruptOnMovement: ""
-  CanSkip: ""
-  PlayFadeEffect: "false"
-  BannerTitleLabelText: ""
-  BannerTitleText: ""
-  BannerDescriptionText: ""
-- CutsceneCameraId: NSR_MQN_MED_SNGL
-  CameraState: NPC_FOV13old_CamState
-  CameraStateOrigin: .1 1.2 1.48
-  CameraStateLookAt: .1 0 1.45
-  EnterBlendTime: 0.0
-  ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
-  OriginEnterBlendTime: 0.0
-  OriginExitBlendTime: 0.0
-  NpcLookAtInfo: c .2 0 0
-  PlayerFadeRate: -1.0
-  HidePlayerAvatar: "true"
-  HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
-  DummyPresetPos: ""
-  DummyPresetRot: ""
-  DummyIsArmed: null
-  DummyLookAtInfo: ""
-  BlockPlayerInput: null
-  CancelInventory: ""
-  InterruptInCombat: ""
-  InterruptOnMovement: ""
-  CanSkip: ""
-  PlayFadeEffect: "false"
-  BannerTitleLabelText: ""
-  BannerTitleText: ""
-  BannerDescriptionText: ""
 - CutsceneCameraId: NSR_MNP_MED_2SHT_OTS_Primary
-  CameraState: NPC_FOV13_CamState
-  CameraStateOrigin: .52 4.2 1.6
-  CameraStateLookAt: .28 0 1.46
+  CameraState: NPC_FOV20_CamState
+  CameraStateOrigin: -0.35 2.45 1.75
+  CameraStateLookAt: 0.26 0.1 1.47
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: p 0 0 1.57
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
-  DummyPresetPos: s .75 1.5 0
-  DummyPresetRot: s 0 0 178
-  DummyIsArmed: false
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.45,0.8,2,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
   DummyLookAtInfo: s 0 0 1.57
-  BlockPlayerInput: true
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -83,25 +30,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_MNP_MED_2SHT_OTS_Primary_reverse
-  CameraState: NPC_FOV19_CamState
-  CameraStateOrigin: s -1.5 -.5 1.7
-  CameraStateLookAt: p -.5 .1 1.35
+  CameraState: NPC_FOV20_CamState
+  CameraStateOrigin: s -1.1 -0.9 1.7
+  CameraStateLookAt: p -.25 .1 1.44
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: p 0 0 1.57
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
-  DummyPresetPos: s .75 1.5 0
-  DummyPresetRot: s 0 0 178
-  DummyIsArmed: false
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2,0.8,3,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
   DummyLookAtInfo: s 0 0 1.57
-  BlockPlayerInput: true
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -111,25 +61,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_MNP_MCU_2SHT_OTS_Primary
-  CameraState: NPC_FOV11_CamState
-  CameraStateOrigin: .75 3.4 1.6
-  CameraStateLookAt: .1 .1 1.53
+  CameraState: NPC_FOV18_CamState
+  CameraStateOrigin: -0.25 2.3 1.67
+  CameraStateLookAt: 0.19 0.1 1.51
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: p 0 0 1.57
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
-  DummyPresetPos: s .75 1.5 0
-  DummyPresetRot: s 0 0 178
-  DummyIsArmed: false
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.3,0.8,1.8,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
   DummyLookAtInfo: s 0 0 1.57
-  BlockPlayerInput: true
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -139,25 +92,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_MNP_MCU_2SHT_OTS_Primary_reverse
-  CameraState: NPC_FOV15_CamState
-  CameraStateOrigin: s -1.3 -.6 1.7
-  CameraStateLookAt: p -.25 .05 1.45
+  CameraState: NPC_FOV19_CamState
+  CameraStateOrigin: s -0.7 -0.6 1.67
+  CameraStateLookAt: p -0.15 0.1 1.51
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: p 0 0 1.57
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
-  DummyPresetPos: s .75 1.5 0
-  DummyPresetRot: s 0 0 178
-  DummyIsArmed: false
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2,0.8,2.5,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
   DummyLookAtInfo: s 0 0 1.57
-  BlockPlayerInput: true
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -167,25 +123,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_MNP_CUP_2SHT_OTS_Primary
-  CameraState: NPC_FOV09_CamState
-  CameraStateOrigin: .75 3.3 1.63
-  CameraStateLookAt: .11 .1 1.61
+  CameraState: NPC_FOV17_CamState
+  CameraStateOrigin: -0.08 2.02 1.68
+  CameraStateLookAt: 0.12 0.1 1.57
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: p 0 0 1.57
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
-  DummyPresetPos: s .75 1.5 0
-  DummyPresetRot: s 0 0 178
-  DummyIsArmed: false
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.16,0.8,1.9,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
   DummyLookAtInfo: s 0 0 1.57
-  BlockPlayerInput: true
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -195,25 +154,1578 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_MNP_CUP_2SHT_OTS_Primary_reverse
-  CameraState: NPC_FOV13_CamState
-  CameraStateOrigin: s -1 -.57 1.75
-  CameraStateLookAt: p -.18 .05 1.55
+  CameraState: NPC_FOV17_CamState
+  CameraStateOrigin: s -0.57 -0.55 1.67
+  CameraStateLookAt: p -0.08 0.1 1.558
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: p 0 0 1.57
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
-  DummyPresetPos: s .75 1.5 0
-  DummyPresetRot: s 0 0 178
-  DummyIsArmed: false
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.16,0.8,1.9,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
   DummyLookAtInfo: s 0 0 1.57
-  BlockPlayerInput: true
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_COW_2SHT_OTS_Primary
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: -0.5 2.4 1.67
+  CameraStateLookAt: 0.35 0.1 1.32
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,0.8,2,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_COW_2SHT_OTS_Primary_reverse
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: s -0.85 -0.71 1.76
+  CameraStateLookAt: p -0.35 0.1 1.29
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.2,0.8,2,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_COW_WID_2SHT_OTS_Primary
+  CameraState: NPC_FOV45_CamState
+  CameraStateOrigin: -0.6 2.3 1.55
+  CameraStateLookAt: 0.35 0.1 1.15
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.3,0.8,2.21,0.7,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_COW_WID_2SHT_OTS_Primary_reverse
+  CameraState: NPC_FOV45_CamState
+  CameraStateOrigin: s -0.9 -0.5 1.76
+  CameraStateLookAt: p -0.35 0.1 1.13
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.3,0.8,2.21,0.7,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_MED_2SHT_OTS_SIT_Primary
+  CameraState: NPC_FOV25_CamState
+  CameraStateOrigin: -0.28 2.25 2
+  CameraStateLookAt: 0.35 0.1 1.13
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.25,0.8,2.1,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_MED_2SHT_SPRO_Primary
+  CameraState: NPC_FOV20_CamState
+  CameraStateOrigin: -3.5 1.2 1.29
+  CameraStateLookAt: 0.2 0.65 1.29
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: ""
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_MED_2SHT_SPRO
+  CameraState: NPC_FOV25_CamState
+  CameraStateOrigin: -2.4 2.4 1.35
+  CameraStateLookAt: 0.2 0.65 1.28
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,0.8,0,0,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_MED_2SHT_SPRO
+  CameraState: NPC_FOV25_CamState
+  CameraStateOrigin: 2.9 -0.8 1.35
+  CameraStateLookAt: 0.15 0.65 1.26
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,0.8,0,0,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_CUP_SNGL_Primary
+  CameraState: NPC_FOV16_CamState
+  CameraStateOrigin: s 0 1.5 1.6
+  CameraStateLookAt: s 0.05 0.1 1.61
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1.5,0.8,1.5,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_CUP_SNGL_Primary
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: s .3 1 1.55
+  CameraStateLookAt: s -0.03 0.1 1.6
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1.44,0.8,0,0,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_MED_2SHT_OTS_Primary
+  CameraState: NPC_FOV25_CamState
+  CameraStateOrigin: 1.45 2 1.7
+  CameraStateLookAt: 0.12 0.65 1.46
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.2,0.8,2.1,1,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_MED_2SHT_OTS_Primary_reverse
+  CameraState: NPC_FOV20_CamState
+  CameraStateOrigin: 0.65 -1.2 1.75
+  CameraStateLookAt: -0.22 2 1.36
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.2,0.8,1.9,1.6,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_MCU_2SHT_OTS_Primary
+  CameraState: NPC_FOV20_CamState
+  CameraStateOrigin: 1.3 1.9 1.7
+  CameraStateLookAt: 0.15 0.65 1.53
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.0,0.8,1.8,1,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_MCU_2SHT_OTS_Primary_reverse
+  CameraState: NPC_FOV18_CamState
+  CameraStateOrigin: 0.45 -0.9 1.65
+  CameraStateLookAt: 0.2 0.65 1.56
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.0,0.8,1.6,1,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_CUP_2SHT_OTS_Primary
+  CameraState: NPC_FOV19_CamState
+  CameraStateOrigin: 1.1 1.8 1.7
+  CameraStateLookAt: 0.17 0.65 1.58
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1.88,0.8,1.7,1,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_CUP_2SHT_OTS_Primary_reverse
+  CameraState: NPC_FOV17_CamState
+  CameraStateOrigin: 0.33 -0.65 1.66
+  CameraStateLookAt: 0.17 0.65 1.59
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.0,0.8,1.7,1,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_MED_2SHT_OTS_SEATED_Primary
+  CameraState: NPC_FOV20_CamState
+  CameraStateOrigin: -0.4 2.5 2.1
+  CameraStateLookAt: 0.26 0.1 1.15
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.5,0.8,2.4,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.2
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_MED_2SHT_OTS_SEATED_Primary_reverse
+  CameraState: NPC_FOV20_CamState
+  CameraStateOrigin: s -1.1 -1.1 1.3
+  CameraStateLookAt: p -0.28 0.1 1.39
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.7,0.8,2.6,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_MCU_2SHT_OTS_SEATED_Primary
+  CameraState: NPC_FOV19_CamState
+  CameraStateOrigin: -0.3 2.26 2.0
+  CameraStateLookAt: 0.2 0.1 1.2
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.26,0.8,2.16,1,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.2
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_MCU_2SHT_OTS_SEATED_Primary_reverse
+  CameraState: NPC_FOV19_CamState
+  CameraStateOrigin: s -1 -0.9 1.3
+  CameraStateLookAt: p -0.2 0.1 1.45
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.26,0.8,2.16,1.42,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_CUP_2SHT_OTS_SEATED_Primary
+  CameraState: NPC_FOV16_CamState
+  CameraStateOrigin: -0.38 2.32 1.95
+  CameraStateLookAt: 0.16 0.1 1.22
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.32,0.8,2.2,1.2,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.2
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_CUP_2SHT_OTS_SEATED_Primary_reverse
+  CameraState: NPC_FOV16_CamState
+  CameraStateOrigin: s -0.65 -0.6 1.25
+  CameraStateLookAt: p -0.1 0.1 1.545
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.32,0.8,2.2,0.9,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_CUP_SNGL_SEATED_solo
+  CameraState: NPC_FOV12_CamState
+  CameraStateOrigin: -0.45 2.2 2.2
+  CameraStateLookAt: 0.08 0.1 1.26
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.2,0.8,0,0,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.2
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_CUP_SNGL_SEATED_reverse_solo
+  CameraState: NPC_FOV15_CamState
+  CameraStateOrigin: s -0.6 -0.2 1.27
+  CameraStateLookAt: p 0.08 0.2 1.535
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 0.2,0.8,0,0,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_BKW_MED_2SHT_OTS_SEATED_Primary
+  CameraState: NPC_FOV20_CamState
+  CameraStateOrigin: -1.2 -2.8 1.6
+  CameraStateLookAt: -0.85 0 0.22
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.8,0.8,1.8,1.6,8
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s -1.4 -1.6 -0.6
+  DummyPresetRot: s 0 0 0
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_BKW_MCU_2SHT_OTS_SEATED_Primary
+  CameraState: NPC_FOV19_CamState
+  CameraStateOrigin: -1.2 -2.4 1.4
+  CameraStateLookAt: -0.85 0 0.26
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,0.8,1.8,1,8
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s -1.4 -1.6 -0.6
+  DummyPresetRot: s 0 0 0
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_BKW_MCU_2SHT_OTS_SEATED_alt
+  CameraState: NPC_FOV20_CamState
+  CameraStateOrigin: -1.5 -2 1.8
+  CameraStateLookAt: -.2 0 1.2
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p .1 0 1.4
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.8,0.8,1.8,1.6,8
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s -1 -.3 -.1
+  DummyPresetRot: s 0 0 310
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_BKW_MCU_2SHT_OTS_SEATED_alt2
+  CameraState: NPC_FOV20_CamState
+  CameraStateOrigin: 0 -2.5 1.8
+  CameraStateLookAt: -.2 0 1.2
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p .1 0 1.42
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.8,0.8,1.8,1.6,8
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s -.5 -1 -.1
+  DummyPresetRot: s 0 0 0
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_WID_2SHT_CROP_Primary
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: -2.6 2.5 1.1
+  CameraStateLookAt: 0.2 0.65 1.15
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.5,0.5,0,0,30
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_WID_2SHT_CROP_Primary_reverse
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: -2.7 -0.4 1.4
+  CameraStateLookAt: 0.3 0.65 1.13
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.5,0.5,0,0,30
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_WID_2SHT_CROP_Primary
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: 3.3 1.2 1.3
+  CameraStateLookAt: 0.0 0.65 1.14
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1.2,0.5,0,0,30
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_WID_2SHT_CROP_Primary_reverse
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: 2.8 -1.0 1.2
+  CameraStateLookAt: 0.05 0.65 1.12
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1.2,0.5,0,0,30
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_WID_2SHT_Primary
+  CameraState: NPC_FOV24old_CamState
+  CameraStateOrigin: -2 2.5 1
+  CameraStateLookAt: 0.2 0.65 0.94
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.5,0.4,0,0,80
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_WID_2SHT_Primary_reverse
+  CameraState: NPC_FOV24old_CamState
+  CameraStateOrigin: -2.5 -0.8 1.07
+  CameraStateLookAt: .2 0.65 0.93
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.5,0.4,0,0,80
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_WID_2SHT_Primary
+  CameraState: NPC_FOV24old_CamState
+  CameraStateOrigin: 2.75 1.75 1
+  CameraStateLookAt: 0.2 0.65 0.9
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1.75,0.4,0,0,80
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_WID_2SHT_Primary_reverse
+  CameraState: NPC_FOV24old_CamState
+  CameraStateOrigin: 2.1 -1.2 1.07
+  CameraStateLookAt: .2 0.65 0.93
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1.75,0.4,0,0,80
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_EWD_2SHT_Primary
+  CameraState: NPC_FOV60_CamState
+  CameraStateOrigin: -3 2.4 1.5
+  CameraStateLookAt: 0.2 0.65 0.94
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,0.2,0,0,100
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_EWD_2SHT_Primary_reverse
+  CameraState: NPC_FOV60_CamState
+  CameraStateOrigin: -3.4 -0.6 1.5
+  CameraStateLookAt: 0.2 0.65 0.93
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,0.2,0,0,100
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_EWD_2SHT_Primary
+  CameraState: NPC_FOV60_CamState
+  CameraStateOrigin: 3.4 1.2 1.5
+  CameraStateLookAt: 0.2 0.65 0.94
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1.8,0.2,0,0,100
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_EWD_2SHT_Primary_reverse
+  CameraState: NPC_FOV60_CamState
+  CameraStateOrigin: 2.8 -1.5 1.5
+  CameraStateLookAt: .2 0.65 0.93
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1.8,0.2,0,0,100
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_WID_2SHT_TOP_Primary
+  CameraState: NPC_FOV40_CamState
+  CameraStateOrigin: -2.4 2.4 3.5
+  CameraStateLookAt: 0.2 0.65 0.82
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,0.5,0,0,50
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_WID_2SHT_TOP_Primary_reverse
+  CameraState: NPC_FOV40_CamState
+  CameraStateOrigin: -2.6 -0.3 3.5
+  CameraStateLookAt: 0.2 0.65 0.83
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,0.5,0,0,50
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_WID_2SHT_TOP_Primary
+  CameraState: NPC_FOV40_CamState
+  CameraStateOrigin: 2.5 1.5 3.6
+  CameraStateLookAt: 0.0 0.65 0.75
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,0.5,0,0,50
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_WID_2SHT_TOP_Primary_reverse
+  CameraState: NPC_FOV40_CamState
+  CameraStateOrigin: 2 -0.5 3.6
+  CameraStateLookAt: 0.0 0.65 0.85
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,0.5,0,0,50
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_EWD_2SHT_Primary_alt
+  CameraState: NPC_FOV60_CamState
+  CameraStateOrigin: 2.6 -0.05 1.27
+  CameraStateLookAt: 1.3 0.65 1.1
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.6,0.4,0,0,40
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_WID_2SHT_CROP_LA_Primary
+  CameraState: NPC_FOV50_CamState
+  CameraStateOrigin: -1.4 2.4 0.6
+  CameraStateLookAt: 0.2 0.65 1.2
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,0.3,0,0,90
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_WID_2SHT_CROP_LA_Primary_AIVis
+  CameraState: NPC_FOV50_CamState
+  CameraStateOrigin: -1.4 2.4 0.6
+  CameraStateLookAt: 0.2 0.65 1.2
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: ""
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,0.3,0,0,90
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: ""
+  DummyPresetRot: ""
+  DummyIsArmed: ""
+  DummyLookAtInfo: ""
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_WID_2SHT_CROP_LA_Primary_reverse
+  CameraState: NPC_FOV50_CamState
+  CameraStateOrigin: -2 0 0.6
+  CameraStateLookAt: .2 0.65 1.2
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,0.3,0,0,90
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_WID_2SHT_CROP_LA_Primary
+  CameraState: NPC_FOV50_CamState
+  CameraStateOrigin: 2.0 1.6 0.6
+  CameraStateLookAt: 0.0 0.65 1.25
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1.6,0.3,0,0,90
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_WID_2SHT_CROP_LA_Primary_reverse
+  CameraState: NPC_FOV50_CamState
+  CameraStateOrigin: 1.5 -0.95 0.6
+  CameraStateLookAt: 0.0 0.65 1.2
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1.6,0.3,0,0,90
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -223,25 +1735,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_MNP_MED_2SHT_OTS_alt
-  CameraState: NPC_FOV12_CamState
-  CameraStateOrigin: 1 4.5 1.72
-  CameraStateLookAt: .3 .3 1.43
+  CameraState: NPC_FOV25_CamState
+  CameraStateOrigin: -0.18 2.45 1.77
+  CameraStateLookAt: 0.31 0.1 1.4
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
-  NpcLookAtInfo: p .15 0 1.57
+  NpcLookAtInfo: p 0 0 1.57
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
-  DummyPresetPos: s .75 1.5 0
-  DummyPresetRot: s 0 0 178
-  DummyIsArmed: false
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.45,0.8,2.3,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
   DummyLookAtInfo: s 0 0 1.57
-  BlockPlayerInput: true
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -251,25 +1766,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_MNP_MED_2SHT_OTS_alt_reverse
-  CameraState: NPC_FOV19_CamState
-  CameraStateOrigin: s -1.8 -1 1.7
-  CameraStateLookAt: p -.45 .1 1.25
+  CameraState: NPC_FOV25_CamState
+  CameraStateOrigin: s -0.78 -0.9 1.75
+  CameraStateLookAt: p -0.3 0.1 1.37
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: p 0 0 1.57
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
-  DummyPresetPos: s .75 1.5 0
-  DummyPresetRot: s 0 0 178
-  DummyIsArmed: false
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.45,0.8,2.3,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
   DummyLookAtInfo: s 0 0 1.57
-  BlockPlayerInput: true
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -279,25 +1797,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_MNP_MCU_2SHT_OTS_alt
-  CameraState: NPC_FOV12_CamState
-  CameraStateOrigin: .75 3.5 1.65
-  CameraStateLookAt: .2 .3 1.52
+  CameraState: NPC_FOV20_CamState
+  CameraStateOrigin: -0.07 2.3 1.75
+  CameraStateLookAt: 0.24 0.1 1.5
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
-  NpcLookAtInfo: p .15 0 1.57
+  NpcLookAtInfo: p 0 0 1.57
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
-  DummyPresetPos: s .75 1.5 0
-  DummyPresetRot: s 0 0 178
-  DummyIsArmed: false
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.3,0.8,2.2,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
   DummyLookAtInfo: s 0 0 1.57
-  BlockPlayerInput: true
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -307,25 +1828,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_MNP_MCU_2SHT_OTS_alt_reverse
-  CameraState: NPC_FOV13_CamState
-  CameraStateOrigin: s -1.7 -1.1 1.65
-  CameraStateLookAt: p -.33 .1 1.48
+  CameraState: NPC_FOV20_CamState
+  CameraStateOrigin: s -0.6 -0.75 1.69
+  CameraStateLookAt: p -0.16 0.1 1.5
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: p 0 0 1.57
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
-  DummyPresetPos: s .75 1.5 0
-  DummyPresetRot: s 0 0 178
-  DummyIsArmed: false
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.3,0.8,2.2,0.6,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
   DummyLookAtInfo: s 0 0 1.57
-  BlockPlayerInput: true
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -335,25 +1859,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_MNP_CUP_2SHT_OTS_alt
-  CameraState: NPC_FOV10_CamState
-  CameraStateOrigin: .76 3.15 1.68
-  CameraStateLookAt: .2 .3 1.6
+  CameraState: NPC_FOV16_CamState
+  CameraStateOrigin: 0.01 2.05 1.67
+  CameraStateLookAt: 0.12 0.1 1.585
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
-  NpcLookAtInfo: p .15 0 1.57
+  NpcLookAtInfo: p 0 0 1.57
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
-  DummyPresetPos: s .75 1.5 0
-  DummyPresetRot: s 0 0 178
-  DummyIsArmed: false
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.05,0.8,2.2,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
   DummyLookAtInfo: s 0 0 1.57
-  BlockPlayerInput: true
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -363,25 +1890,276 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_MNP_CUP_2SHT_OTS_alt_reverse
-  CameraState: NPC_FOV10_CamState
-  CameraStateOrigin: s -1.65 -1.2 1.75
-  CameraStateLookAt: p -.1 .1 1.55
+  CameraState: NPC_FOV16_CamState
+  CameraStateOrigin: s -0.5 -0.65 1.7
+  CameraStateLookAt: p -0.09 0.1 1.57
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: p 0 0 1.57
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
-  DummyPresetPos: s .75 1.5 0
-  DummyPresetRot: s 0 0 178
-  DummyIsArmed: false
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.05,0.8,2.2,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
   DummyLookAtInfo: s 0 0 1.57
-  BlockPlayerInput: true
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_MED_2SHT_OTS_alt
+  CameraState: NPC_FOV25_CamState
+  CameraStateOrigin: 1.41 2 1.77
+  CameraStateLookAt: -0.38 0.1 1.35
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.23,0.8,2.1,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_MED_2SHT_OTS_alt_reverse
+  CameraState: NPC_FOV25_CamState
+  CameraStateOrigin: 0.45 -1.2 1.67
+  CameraStateLookAt: 0.18 0.1 1.5
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.23,0.8,2.1,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_MCU_2SHT_OTS_alt
+  CameraState: NPC_FOV20_CamState
+  CameraStateOrigin: 1.2 1.9 1.7
+  CameraStateLookAt: -0.25 0.1 1.47
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.15,0.8,2,1,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_MCU_2SHT_OTS_alt_reverse
+  CameraState: NPC_FOV20_CamState
+  CameraStateOrigin: 0.32 -0.95 1.7
+  CameraStateLookAt: 0.19 0.1 1.585
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.15,0.8,2,1,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_CUP_2SHT_OTS_alt
+  CameraState: NPC_FOV16_CamState
+  CameraStateOrigin: 1.2 2 1.65
+  CameraStateLookAt: -.17 0.1 1.55
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1.9,0.8,1.8,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_CUP_2SHT_OTS_alt_reverse
+  CameraState: NPC_FOV16_CamState
+  CameraStateOrigin: 0.2 -0.8 1.7
+  CameraStateLookAt: 0.15 0.1 1.627
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1.9,0.8,1.8,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_CUP_SNGL_reverse_solo
+  CameraState: NPC_FOV16_CamState
+  CameraStateOrigin: s -0.6 -0.16 1.59
+  CameraStateLookAt: p 0.08 0.2 1.59
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1.5,0.8,1.5,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MNP_CUP_SNGL_reverse_solo
+  CameraState: NPC_FOV16_CamState
+  CameraStateOrigin: s 0.4 -0.2 1.59
+  CameraStateLookAt: p 0.02 0.2 1.61
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1.5,0.8,1.5,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -391,25 +2169,586 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: WIP_CAMPRESET
-  CameraState: NPC_FOV10_CamState
-  CameraStateOrigin: s -1.65 -1.2 1.75
-  CameraStateLookAt: p -.1 .1 1.55
+  CameraState: NPC_FOV15_CamState
+  CameraStateOrigin: -.5 3 1.59
+  CameraStateLookAt: .26 .1 1.5
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: p 0 0 1.57
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: ""
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_LNP_MED_2SHT_OTS_Primary
+  CameraState: NPC_FOV13_CamState
+  CameraStateOrigin: .52 4.2 1.6
+  CameraStateLookAt: .28 0 1.46
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: ""
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: s .75 1.5 0
   DummyPresetRot: s 0 0 178
-  DummyIsArmed: false
+  DummyIsArmed: "false"
   DummyLookAtInfo: s 0 0 1.57
-  BlockPlayerInput: true
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_LNP_MED_2SHT_OTS_Primary_reverse
+  CameraState: NPC_FOV19_CamState
+  CameraStateOrigin: s -1.5 -.5 1.7
+  CameraStateLookAt: p -.5 .1 1.35
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: ""
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .75 1.5 0
+  DummyPresetRot: s 0 0 178
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_LNP_MCU_2SHT_OTS_Primary
+  CameraState: NPC_FOV11_CamState
+  CameraStateOrigin: .75 3.4 1.6
+  CameraStateLookAt: .1 .1 1.53
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: ""
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .75 1.5 0
+  DummyPresetRot: s 0 0 178
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_LNP_MCU_2SHT_OTS_Primary_reverse
+  CameraState: NPC_FOV15_CamState
+  CameraStateOrigin: s -1.3 -.6 1.7
+  CameraStateLookAt: p -.25 .05 1.45
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: ""
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .75 1.5 0
+  DummyPresetRot: s 0 0 178
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_LNP_CUP_2SHT_OTS_Primary
+  CameraState: NPC_FOV09_CamState
+  CameraStateOrigin: .75 3.3 1.63
+  CameraStateLookAt: .15 .1 1.61
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: ""
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .75 1.5 0
+  DummyPresetRot: s 0 0 178
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_LNP_CUP_2SHT_OTS_Primary_reverse
+  CameraState: NPC_FOV13_CamState
+  CameraStateOrigin: s -1 -.57 1.75
+  CameraStateLookAt: p -.18 .05 1.55
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: ""
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .75 1.5 0
+  DummyPresetRot: s 0 0 178
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_LNP_MED_2SHT_OTS_alt
+  CameraState: NPC_FOV12_CamState
+  CameraStateOrigin: 1 4.5 1.72
+  CameraStateLookAt: .3 .3 1.43
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: ""
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .75 1.5 0
+  DummyPresetRot: s 0 0 178
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_LNP_MED_2SHT_OTS_alt_reverse
+  CameraState: NPC_FOV16_CamState
+  CameraStateOrigin: s -1.35 -1 1.65
+  CameraStateLookAt: p -.4 .1 1.4
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: ""
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .75 1.5 0
+  DummyPresetRot: s 0 0 178
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_LNP_MCU_2SHT_OTS_alt
+  CameraState: NPC_FOV16_CamState
+  CameraStateOrigin: 0.65 2.5 1.7
+  CameraStateLookAt: 0.2 0.3 1.53
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.5,0.8,2.3,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .75 1.5 0
+  DummyPresetRot: s 0 0 178
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_LNP_MCU_2SHT_OTS_alt_reverse
+  CameraState: NPC_FOV16_CamState
+  CameraStateOrigin: s -1.1 -0.74 1.7
+  CameraStateLookAt: p -0.26 0.1 1.47
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.5,0.8,2.3,0.8,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .75 1.5 0
+  DummyPresetRot: s 0 0 178
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_LNP_CUP_2SHT_OTS_alt
+  CameraState: NPC_FOV10_CamState
+  CameraStateOrigin: .76 3.15 1.68
+  CameraStateLookAt: .2 .3 1.6
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: ""
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .75 1.5 0
+  DummyPresetRot: s 0 0 178
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_LNP_CUP_2SHT_OTS_alt_reverse
+  CameraState: NPC_FOV10_CamState
+  CameraStateOrigin: s -1.65 -1.2 1.75
+  CameraStateLookAt: p -.1 .1 1.55
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: ""
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .75 1.5 0
+  DummyPresetRot: s 0 0 178
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_LFP_CUP_SNGL_reverse_solo
+  CameraState: NPC_FOV18_CamState
+  CameraStateOrigin: s -.45 0 1.7
+  CameraStateLookAt: p 0 .1 1.55
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: ""
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .75 1.5 0
+  DummyPresetRot: s 0 0 178
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_CRT_EWD_SNGL
+  CameraState: NPC_FOV25_CamState
+  CameraStateOrigin: 3.4 -2.4 3
+  CameraStateLookAt: -0.05 -0.05 0.41
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: c .1 0 0
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,0.8,0,0,15
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: ""
+  DummyPresetRot: ""
+  DummyIsArmed: ""
+  DummyLookAtInfo: ""
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_CRT_NOT_EWD_SNGL
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: 0.8 -1.6 3
+  CameraStateLookAt: 0.19 0 1.49
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: c .1 0 0
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1.6,0.8,0,0,13
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: ""
+  DummyPresetRot: ""
+  DummyIsArmed: ""
+  DummyLookAtInfo: ""
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_CUP_2SHT_OTS_Primary_solo
+  CameraState: NPC_FOV16_CamState
+  CameraStateOrigin: s 0 1.5 1.6
+  CameraStateLookAt: s 0.05 0.1 1.61
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1.5,0.8,1.5,0.8,15
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s .25 1.3 0
+  DummyPresetRot: s 0 0 180
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_MQN_MED_SNGL
+  CameraState: NPC_FOV25_CamState
+  CameraStateOrigin: -0.1 2.0 1.48
+  CameraStateLookAt: -0.1 0 1.45
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: c -.2 0 0
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2,0.8,0,0,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: ""
+  DummyPresetRot: ""
+  DummyIsArmed: ""
+  DummyLookAtInfo: ""
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MQN_MED_SNGL
+  CameraState: NPC_FOV25_CamState
+  CameraStateOrigin: 0.1 2.0 1.48
+  CameraStateLookAt: 0.1 0 1.45
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: c .2 0 0
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2,0.8,0,0,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: ""
+  DummyPresetRot: ""
+  DummyIsArmed: ""
+  DummyLookAtInfo: ""
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -419,25 +2758,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSL_MQN_MCU_SNGL_OFFSET
-  CameraState: NPC_FOV09old_CamState
-  CameraStateOrigin: -0.1 1.65 1.62
-  CameraStateLookAt: -.075 -2 1.52
+  CameraState: NPC_FOV20_CamState
+  CameraStateOrigin: -0.1 1.9 1.62
+  CameraStateLookAt: -0.075 -2 1.5
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c -.3 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1.9,0.8,0,0,10
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -447,25 +2789,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_MQN_MCU_SNGL_OFFSET
-  CameraState: NPC_FOV09old_CamState
-  CameraStateOrigin: .1 1.65 1.62
-  CameraStateLookAt: .075 -2 1.52
+  CameraState: NPC_FOV20_CamState
+  CameraStateOrigin: 0.1 1.9 1.62
+  CameraStateLookAt: 0.075 -2 1.5
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c .3 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1.9,0.8,0,0,10
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -475,25 +2820,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSL_MQN_CUP_SNGL
-  CameraState: NPC_FOV09old_CamState
-  CameraStateOrigin: -0.1 0.65 1.64
-  CameraStateLookAt: 0.2 -2 1.6
+  CameraState: NPC_FOV15_CamState
+  CameraStateOrigin: -0.1 2.05 1.64
+  CameraStateLookAt: -0.13 -2 1.6
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c -.1 0 -.2
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.05,0.8,0,0,10
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -503,81 +2851,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_MQN_CUP_SNGL
-  CameraState: NPC_FOV09old_CamState
-  CameraStateOrigin: 0.1 0.65 1.64
-  CameraStateLookAt: -0.2 -2 1.6
+  CameraState: NPC_FOV15_CamState
+  CameraStateOrigin: 0.1 2.05 1.64
+  CameraStateLookAt: -0.13 -2 1.6
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c .1 0 -.2
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.05,0.8,0,0,10
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
-  CancelInventory: ""
-  InterruptInCombat: ""
-  InterruptOnMovement: ""
-  CanSkip: ""
-  PlayFadeEffect: "false"
-  BannerTitleLabelText: ""
-  BannerTitleText: ""
-  BannerDescriptionText: ""
-- CutsceneCameraId: NSL_SQN_MED_SNGL_OFFSET
-  CameraState: NPC_FOV13old_CamState
-  CameraStateOrigin: -0.1 2.2 1.48
-  CameraStateLookAt: -.2 0 1.385
-  EnterBlendTime: 0.0
-  ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
-  OriginEnterBlendTime: 0.0
-  OriginExitBlendTime: 0.0
-  NpcLookAtInfo: c -.05 0 0
-  PlayerFadeRate: -1.0
-  HidePlayerAvatar: "true"
-  HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
-  DummyPresetPos: ""
-  DummyPresetRot: ""
-  DummyIsArmed: null
-  DummyLookAtInfo: ""
-  BlockPlayerInput: null
-  CancelInventory: ""
-  InterruptInCombat: ""
-  InterruptOnMovement: ""
-  CanSkip: ""
-  PlayFadeEffect: "false"
-  BannerTitleLabelText: ""
-  BannerTitleText: ""
-  BannerDescriptionText: ""
-- CutsceneCameraId: NSR_SQN_MED_SNGL_OFFSET
-  CameraState: NPC_FOV13old_CamState
-  CameraStateOrigin: 0.1 2.2 1.48
-  CameraStateLookAt: .2 0 1.385
-  EnterBlendTime: 0.0
-  ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
-  OriginEnterBlendTime: 0.0
-  OriginExitBlendTime: 0.0
-  NpcLookAtInfo: c .05 0 0
-  PlayerFadeRate: -1.0
-  HidePlayerAvatar: "true"
-  HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
-  DummyPresetPos: ""
-  DummyPresetRot: ""
-  DummyIsArmed: null
-  DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -587,25 +2882,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSL_SQN_MED_SNGL_C
-  CameraState: NPC_FOV13old_CamState
-  CameraStateOrigin: -0.1 2.2 1.48
-  CameraStateLookAt: 0 0 1.385
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: -0.1 2.1 1.48
+  CameraStateLookAt: -0.07 0 1.37
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c -.05 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.1,0.8,0,0,12
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -615,25 +2913,121 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_SQN_MED_SNGL_C
-  CameraState: NPC_FOV13old_CamState
-  CameraStateOrigin: 0.1 2.2 1.48
-  CameraStateLookAt: 0 0 1.385
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: 0.1 2.1 1.48
+  CameraStateLookAt: 0.02 0 1.37
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c .05 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.1,0.8,0,0,12
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_SQN_WID_SNGL_C
+  CameraState: NPC_FOV45_CamState
+  CameraStateOrigin: 0.1 2 1.4
+  CameraStateLookAt: 0 0 1.23
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: c .05 0 0
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2,0.8,0,0,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: ""
+  DummyPresetRot: ""
+  DummyIsArmed: ""
+  DummyLookAtInfo: ""
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_SQN_MED_SNGL_OFFSET
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: -0.1 2.1 1.48
+  CameraStateLookAt: -0.2 0 1.37
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: c -.05 0 0
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.1,0.8,0,0,12
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: ""
+  DummyPresetRot: ""
+  DummyIsArmed: ""
+  DummyLookAtInfo: ""
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_SQN_MED_SNGL_OFFSET
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: 0.1 2.1 1.48
+  CameraStateLookAt: 0.2 0 1.37
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: c .05 0 0
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.1,0.8,0,0,12
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: ""
+  DummyPresetRot: ""
+  DummyIsArmed: ""
+  DummyLookAtInfo: ""
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -643,25 +3037,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSL_NPC_EWD_SNGL
-  CameraState: NPC_FOV15old_CamState
-  CameraStateOrigin: 0.3 4.3 1.1
-  CameraStateLookAt: -0.09 0 1
+  CameraState: NPC_FOV45_CamState
+  CameraStateOrigin: 0.3 2.2 1.3
+  CameraStateLookAt: -0.15 0 1.08
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c -.1 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.2,0.3,0,0,25
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -671,25 +3068,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_NPC_EWD_SNGL
-  CameraState: NPC_FOV15old_CamState
-  CameraStateOrigin: 0.3 4.3 1.1
-  CameraStateLookAt: 0.2 0 1
+  CameraState: NPC_FOV45_CamState
+  CameraStateOrigin: 0.3 2.2 1.3
+  CameraStateLookAt: 0.2 0 1.08
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c .1 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.2,0.3,0,0,25
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -699,25 +3099,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSL_3XL_EWD_SNGL
-  CameraState: NPC_FOV50old_CamState
-  CameraStateOrigin: 0.2 2.2 1.3
-  CameraStateLookAt: -0.13 -0.2 1.8
+  CameraState: NPC_FOV80_CamState
+  CameraStateOrigin: 0.2 2.7 1.5
+  CameraStateLookAt: -0.13 -0.2 1.78
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c -.5 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.6,0.5,0,0,18
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -727,25 +3130,59 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_3XL_EWD_SNGL
-  CameraState: NPC_FOV50old_CamState
-  CameraStateOrigin: -0.2 2.2 1.3
+  CameraState: NPC_FOV80_CamState
+  CameraStateOrigin: -0.2 2.4 1.5
   CameraStateLookAt: 0.13 -0.2 1.8
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c .5 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,0.5,0,0,18
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_3XL_EWD_SNGL_Taurus_HG
+  CameraState: NPC_FOV50old_CamState
+  CameraStateOrigin: 0 0.5 2
+  CameraStateLookAt: 0.13 -0.2 4.2
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: c .5 0 0
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: ""
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: ""
+  DummyPresetRot: ""
+  DummyIsArmed: ""
+  DummyLookAtInfo: ""
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -755,25 +3192,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSL_2XL_EWD_SNGL
-  CameraState: NPC_FOV50old_CamState
-  CameraStateOrigin: .05 0.5 0.4
-  CameraStateLookAt: -0.05 -0.2 0.7
+  CameraState: NPC_FOV65_CamState
+  CameraStateOrigin: 0.07 1.0 0.3
+  CameraStateLookAt: -0.05 -0.2 0.66
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c -.1 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1,0.4,0,0,60
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -783,25 +3223,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_2XL_EWD_SNGL
-  CameraState: NPC_FOV50old_CamState
-  CameraStateOrigin: -0.05 0.5 0.4
+  CameraState: NPC_FOV65_CamState
+  CameraStateOrigin: -0.05 1.1 0.4
   CameraStateLookAt: 0.05 -0.2 0.7
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c .1 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1,0.4,0,0,60
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -811,25 +3254,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSL_1.3_WID_SNGL
-  CameraState: NPC_FOV15old_CamState
-  CameraStateOrigin: -.1 1.8 1.1
-  CameraStateLookAt: -.12 -0.2 1.42
+  CameraState: NPC_FOV25_CamState
+  CameraStateOrigin: -0.1 2.3 1.1
+  CameraStateLookAt: -0.12 -0.2 1.39
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c -.7 0 -.2
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.3,0.5,0,0,15
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -839,25 +3285,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_1.3_WID_SNGL
-  CameraState: NPC_FOV15old_CamState
-  CameraStateOrigin: .1 1.8 1.1
-  CameraStateLookAt: .12 -0.2 1.42
+  CameraState: NPC_FOV25_CamState
+  CameraStateOrigin: 0.1 2.3 1.1
+  CameraStateLookAt: 0.12 -0.2 1.38
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c .1 0 -.2
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.3,0.5,0,0,15
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -867,25 +3316,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_BBD_MED_OTSP
-  CameraState: NPC_FOV24old_CamState
-  CameraStateOrigin: 0.2 -4.4 0.8
-  CameraStateLookAt: -0.15 -0.2 1.65
+  CameraState: NPC_FOV65_CamState
+  CameraStateOrigin: 0.1 -2.6 1.2
+  CameraStateLookAt: -0.05 -0.2 1.65
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c 0 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "false"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.6,0.3,0,0,30
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -895,25 +3347,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_BBD_WID_OTSP
-  CameraState: NPC_FOV54old_CamState
-  CameraStateOrigin: -0.08 -0.6 1.65
-  CameraStateLookAt: -0.17 -0.2 1.65
+  CameraState: NPC_FOV65_CamState
+  CameraStateOrigin: -0.08 -2.55 1.7
+  CameraStateLookAt: -0.1 -0.2 1.67
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c 0 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "false"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.55,0.3,0,0,30
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -923,25 +3378,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSL_FAC_MED_SNGL_LA
-  CameraState: NPC_FOV30old_CamState
-  CameraStateOrigin: 0.5 1.3 0.5
-  CameraStateLookAt: -0.2 0 0.97
+  CameraState: NPC_FOV50_CamState
+  CameraStateOrigin: 0.5 2.3 0.5
+  CameraStateLookAt: -0.45 0 0.92
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c -.5 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.3,0.5,0,0,80
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -951,25 +3409,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_FAC_MED_SNGL_LA
-  CameraState: NPC_FOV30old_CamState
-  CameraStateOrigin: -0.1 1.3 0.7
-  CameraStateLookAt: 0.2 0 0.97
+  CameraState: NPC_FOV50_CamState
+  CameraStateOrigin: -0.1 2.45 0.7
+  CameraStateLookAt: 0.2 0 0.92
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c .5 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.45,0.5,0,0,80
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -979,25 +3440,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSL_FAC_MED_SNGL
-  CameraState: NPC_FOV13old_CamState
-  CameraStateOrigin: -1.2 -2 1
-  CameraStateLookAt: -.3 0 0.82
+  CameraState: NPC_FOV25_CamState
+  CameraStateOrigin: -1.2 -2.4 1
+  CameraStateLookAt: -0.3 0 0.8
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c .1 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,0.6,0,0,15
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -1007,25 +3471,183 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_FAC_MED_SNGL
-  CameraState: NPC_FOV13old_CamState
-  CameraStateOrigin: -1.3 -2 1
-  CameraStateLookAt: -.6 0 0.82
+  CameraState: NPC_FOV25_CamState
+  CameraStateOrigin: -1.3 -2.4 1
+  CameraStateLookAt: -0.6 0 0.8
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c -.1 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,0.6,0,0,15
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_FAC_MED_OTS
+  CameraState: NPC_FOV25_CamState
+  CameraStateOrigin: .5 -2.4 1.5
+  CameraStateLookAt: -.4 0 1.4
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.5
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,0.6,0,0,15
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s -.5 -1 0
+  DummyPresetRot: s 0 0 0
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_MNP_FAC_MED_OTS_LA
+  CameraState: NPC_FOV25_CamState
+  CameraStateOrigin: 0 -2.4 1
+  CameraStateLookAt: -.2 0 1.4
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.5
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,0.6,0,0,15
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s -.5 -1.2 -.5
+  DummyPresetRot: s 0 0 0
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.5
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_FAC_MED_SNGL_LOW
+  CameraState: NPC_FOV25_CamState
+  CameraStateOrigin: 0.1 1.9 0.76
+  CameraStateLookAt: 0.2 0 0.77
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: c -.1 0 0
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 1.9,0.6,0,0,5.5
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: ""
+  DummyPresetRot: ""
+  DummyIsArmed: ""
+  DummyLookAtInfo: ""
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_BKW_MED_SNGL
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: -1.1 -2.12 1.3
+  CameraStateLookAt: -.25 0 1.28
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: c -.1 0 0
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.1,0.6,0,0,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: ""
+  DummyPresetRot: ""
+  DummyIsArmed: ""
+  DummyLookAtInfo: ""
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_BKW_MCU_SNGL
+  CameraState: NPC_FOV18_CamState
+  CameraStateOrigin: -0.6 -2.2 1.5
+  CameraStateLookAt: -0.1 0 1.5
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: c -.1 0 0
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.2,0.8,0,0,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: ""
+  DummyPresetRot: ""
+  DummyIsArmed: ""
+  DummyLookAtInfo: ""
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -1035,25 +3657,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_STP_MED_SNGL_HA
-  CameraState: NPC_FOV13old_CamState
-  CameraStateOrigin: -1.2 -3 1
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: -1.2 -2.2 1
   CameraStateLookAt: -0.3 0 0.625
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c -2 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.2,0.45,0,0,12
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -1063,25 +3688,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_STP_MED_SNGL_HA_B
-  CameraState: NPC_FOV13old_CamState
-  CameraStateOrigin: 0.5 3 1.25
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: 0.5 2.4 1.25
   CameraStateLookAt: 0.22 0 1.25
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c 1 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,0.4,0,0,25
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -1091,25 +3719,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_CAG_WID_SNGL_LA
-  CameraState: NPC_FOV15old_CamState
-  CameraStateOrigin: -0.4 4.5 -0.5
-  CameraStateLookAt: 0.15 -0.2 1.38
+  CameraState: NPC_FOV40_CamState
+  CameraStateOrigin: -0.4 2.3 0.2
+  CameraStateLookAt: 0.15 -0.2 1.32
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c 0 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.3,0.8,0,0,35
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -1119,25 +3750,121 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSL_SIT_WID_SNGL_HA
-  CameraState: NPC_FOV13old_CamState
-  CameraStateOrigin: -1.2 2.5 1.8
-  CameraStateLookAt: -0.1 0 0.95
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: -1.2 2.0 1.8
+  CameraStateLookAt: -0.1 0 0.94
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c 0 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2,0.6,0,0,12
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSL_SIT_CUP_SNGL_HA
+  CameraState: NPC_FOV13_CamState
+  CameraStateOrigin: -1.2 2 1.8
+  CameraStateLookAt: -0.04 0 1.24
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: c 0 0 0
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2,0.8,0,0,10
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: ""
+  DummyPresetRot: ""
+  DummyIsArmed: ""
+  DummyLookAtInfo: ""
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_SIT_WID_SNGL_HA_settlement
+  CameraState: NPC_FOV13old_CamState
+  CameraStateOrigin: -1.3 -.6 1.2
+  CameraStateLookAt: -.8 0 0.6
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: c -.1 0 0
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: ""
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: ""
+  DummyPresetRot: ""
+  DummyIsArmed: ""
+  DummyLookAtInfo: ""
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_LAY_WID_SNGL_HA
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: -1.2 2.0 1.8
+  CameraStateLookAt: 0.05 0 0.14
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: c 0 0 2
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2,0.6,0,0,5
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: ""
+  DummyPresetRot: ""
+  DummyIsArmed: ""
+  DummyLookAtInfo: ""
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -1147,25 +3874,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSL_FWD_WID_SNGL
-  CameraState: NPC_FOV15old_CamState
-  CameraStateOrigin: 0 1.8 1.45
-  CameraStateLookAt: -0.1 -0.2 1.35
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: 0 2.25 1.45
+  CameraStateLookAt: -0.1 -0.2 1.33
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c -.9 0 -.9
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.25,0.6,0,0,12
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -1175,25 +3905,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_FWD_WID_SNGL
-  CameraState: NPC_FOV15old_CamState
-  CameraStateOrigin: 0 1.8 1.45
-  CameraStateLookAt: .1 -0.2 1.35
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: 0 2.25 1.45
+  CameraStateLookAt: 0.1 -0.2 1.33
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c -.5 0 -.9
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.25,0.6,0,0,12
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -1203,25 +3936,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_BAR_MED_SNGL
-  CameraState: NPC_FOV13old_CamState
-  CameraStateOrigin: 0 2.5 1.6
-  CameraStateLookAt: 0.05 0 1.31
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: 0 2.1 1.6
+  CameraStateLookAt: 0.08 0 1.36
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c 0.4 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.15,0.6,0,0,10
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -1231,25 +3967,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSL_INN_MED_SNGL
-  CameraState: NPC_FOV13old_CamState
-  CameraStateOrigin: 0 2.5 1.6
-  CameraStateLookAt: -0.12 0 1.31
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: 0 2.3 1.6
+  CameraStateLookAt: -0.15 0 1.31
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c -0.3 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.3,0.8,0,0,7
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -1259,25 +3998,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_INN_MED_SNGL
-  CameraState: NPC_FOV13old_CamState
-  CameraStateOrigin: 0 2.5 1.6
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: 0 2.3 1.6
   CameraStateLookAt: 0.05 0 1.31
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c 0.5 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.3,0.8,0,0,7
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -1287,25 +4029,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSL_OBS_MED_SNGL
-  CameraState: NPC_FOV13old_CamState
-  CameraStateOrigin: 0 2.3 1.6
-  CameraStateLookAt: -0.122 0 1.31
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: 0 2.4 1.6
+  CameraStateLookAt: -0.13 0 1.29
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c -0.3 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,1.2,0,0,14
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -1315,25 +4060,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_OBS_MED_SNGL
-  CameraState: NPC_FOV13old_CamState
-  CameraStateOrigin: 0 2.3 1.6
-  CameraStateLookAt: 0.03 0 1.31
+  CameraState: NPC_FOV30_CamState
+  CameraStateOrigin: 0 2.4 1.6
+  CameraStateLookAt: 0.05 0 1.29
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c 0.2 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.4,1.2,0,0,14
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -1343,25 +4091,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSL_ANI_EWD_SNGL
-  CameraState: NPC_FOV15old_CamState
-  CameraStateOrigin: -5 4 4
-  CameraStateLookAt: -0.9 0 1.2
+  CameraState: NPC_FOV45_CamState
+  CameraStateOrigin: -3.9 2.5 3.8
+  CameraStateLookAt: -1 0 1.3
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c -0.3 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.5,0.5,0,0,8
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -1371,25 +4122,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_ANI_EWD_SNGL
-  CameraState: NPC_FOV15old_CamState
-  CameraStateOrigin: -5 4 4
+  CameraState: NPC_FOV45_CamState
+  CameraStateOrigin: -3.8 2.5 3.8
   CameraStateLookAt: 0.35 0 0.8
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c 0.3 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.5,0.5,0,0,8
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -1400,24 +4154,27 @@
   BannerDescriptionText: ""
 - CutsceneCameraId: NSL_TBL_EWD_SNGL
   CameraState: NPC_FOV15old_CamState
-  CameraStateOrigin: -5 4 3.2
-  CameraStateLookAt: -0.9 0 1.2
+  CameraStateOrigin: -3.9 2.5 3
+  CameraStateLookAt: -1 0 1.2
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c -0.3 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.5,0.5,0,0,8
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -1428,24 +4185,27 @@
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_TBL_EWD_SNGL
   CameraState: NPC_FOV15old_CamState
-  CameraStateOrigin: -5 4 3.2
+  CameraStateOrigin: -3.8 2.5 3.2
   CameraStateLookAt: 0.35 0 0.8
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: c .3 0 0
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 2.5,0.5,0,0,8
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -1455,25 +4215,28 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSL_NOT_WID_SNGL
-  CameraState: NPC_FOV35old_CamState
-  CameraStateOrigin: 0.2 -0.01 0.27
+  CameraState: NPC_FOV50_CamState
+  CameraStateOrigin: 0.2 -0.7 2.2
   CameraStateLookAt: 0.2 0 0
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: ""
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 0.7,0,0,0,10
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""
@@ -1483,25 +4246,59 @@
   BannerTitleText: ""
   BannerDescriptionText: ""
 - CutsceneCameraId: NSR_NOT_WID_SNGL
-  CameraState: NPC_FOV35old_CamState
-  CameraStateOrigin: -0.2 -0.01 0.27
+  CameraState: NPC_FOV50_CamState
+  CameraStateOrigin: -0.2 -0.7 2.2
   CameraStateLookAt: -0.2 0 0
   EnterBlendTime: 0.0
   ExitBlendTime: 0.0
-  ForceInstantExitTransition: "false"
-  HideUIOnTrigger: "false"
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
   OriginEnterBlendTime: 0.0
   OriginExitBlendTime: 0.0
   NpcLookAtInfo: ""
   PlayerFadeRate: -1.0
   HidePlayerAvatar: "true"
   HideNearbyPlayerAvatars: "true"
-  ForceInstantLookAts: ""
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: 0.7,0,0,0,10
+  LookAtSmoothTimeOverride: ""
   DummyPresetPos: ""
   DummyPresetRot: ""
-  DummyIsArmed: null
+  DummyIsArmed: ""
   DummyLookAtInfo: ""
-  BlockPlayerInput: null
+  BlockPlayerInput: "true"
+  CancelInventory: ""
+  InterruptInCombat: ""
+  InterruptOnMovement: ""
+  CanSkip: ""
+  PlayFadeEffect: "false"
+  BannerTitleLabelText: ""
+  BannerTitleText: ""
+  BannerDescriptionText: ""
+- CutsceneCameraId: NSR_FISH_WID_2SHT_OTS
+  CameraState: NPC_FOV15_CamState
+  CameraStateOrigin: -4 -1 1.65
+  CameraStateLookAt: -1.2 0 1.43
+  EnterBlendTime: 0.0
+  ExitBlendTime: 0.0
+  ForceInstantExitTransition: false
+  HideUIOnTrigger: false
+  OriginEnterBlendTime: 0.0
+  OriginExitBlendTime: 0.0
+  NpcLookAtInfo: p 0 0 1.57
+  PlayerFadeRate: -1.0
+  HidePlayerAvatar: "true"
+  HideNearbyPlayerAvatars: "true"
+  HideNearbyAIAvatars: "true"
+  ForceInstantLookAts: "true"
+  DepthOfFieldOverride: ""
+  LookAtSmoothTimeOverride: ""
+  DummyPresetPos: s -2.8 -.2 -.05
+  DummyPresetRot: s 0 0 300
+  DummyIsArmed: "false"
+  DummyLookAtInfo: s 0 0 1.57
+  BlockPlayerInput: "true"
   CancelInventory: ""
   InterruptInCombat: ""
   InterruptOnMovement: ""

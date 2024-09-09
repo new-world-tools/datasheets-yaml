@@ -14,7 +14,7 @@
   IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
-  BaseDuration: 12.0
+  BaseDuration: 10.0
   TickRate: 1.01
   DelayInitialTick: ""
   TickCondition: ""
@@ -90,6 +90,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -211,7 +212,7 @@
   AFACurse: null
   AFABlight: null
   StackDuration: ""
-  DurationMax: 20.0
+  DurationMax: 18.0
   InheritDuration: "FALSE"
   InheritTotalDuration: "TRUE"
   RefreshDuration: "TRUE"
@@ -337,6 +338,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: "TRUE"
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -584,6 +586,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -831,6 +834,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1078,6 +1082,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1325,6 +1330,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1572,6 +1578,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1730,7 +1737,7 @@
 - StatusID: Rapier_Evade_Forward_Damage
   DisplayName: "@Status_Empower"
   Description: "@Status_Empower_Description"
-  EffectCategories: Buff+Empower
+  EffectCategories: Buff
   PlaceholderIcon: lyshineui/images/status/SE_EmpowerT1.png
   ShowInUITray: "TRUE"
   ShowTextInDamageNumbers: false
@@ -1819,6 +1826,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2066,6 +2074,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: "1"
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2224,7 +2233,7 @@
 - StatusID: Rapier_BonusDMGAfterAbility
   DisplayName: ""
   Description: "@Rapier_BonusDMGAfterAbility_Description"
-  EffectCategories: Buff+Empower
+  EffectCategories: Buff
   PlaceholderIcon: lyshineui/images/status/SE_EmpowerT5.png
   ShowInUITray: "1"
   ShowTextInDamageNumbers: false
@@ -2313,6 +2322,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: "1"
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2473,7 +2483,7 @@
   Description: "@Rapier_BonusStamRegenOnKill_Description"
   EffectCategories: ""
   PlaceholderIcon: ""
-  ShowInUITray: "1"
+  ShowInUITray: "0"
   ShowTextInDamageNumbers: false
   FxScriptOn: ""
   FxScriptOff: ""
@@ -2560,6 +2570,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2807,6 +2818,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3054,6 +3066,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: "1"
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3301,6 +3314,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: "1"
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3548,6 +3562,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""

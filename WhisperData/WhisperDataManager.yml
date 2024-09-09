@@ -7,7 +7,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_01_Whisper_FTUE_01
+  VoiceOver: Play_npc_01_Whisper_FTUE_01
   Subtitle: ""
   AchievementId: whisper_test_01
   UseVFX: true
@@ -21,7 +21,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_01_Whisper_FTUE_02
+  VoiceOver: Play_npc_01_Whisper_FTUE_02
   Subtitle: ""
   AchievementId: whisper_test_02
   UseVFX: true
@@ -35,11 +35,11 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_01_Whisper_FTUE_04
+  VoiceOver: Play_npc_01_Whisper_FTUE_04
   Subtitle: ""
   AchievementId: whisper_test_03
-  UseVFX: false
-  VfxId: ""
+  UseVFX: true
+  VfxId: whisper_vfx_01
 - WhisperId: 06A_WW_whisper_01
   TriggerType: GAME_EVENT
   RequiredAchievementId: ""
@@ -49,7 +49,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_06A_MSQ_03_VisitMarket_whisper_text
+  VoiceOver: Play_whisp_06A_MSQ_03_VisitMarket_whisper_text
   Subtitle: ""
   AchievementId: 06A_WW_whisper_01
   UseVFX: true
@@ -63,7 +63,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_06A_MSQ_10_TalkToSpeaker_whisper
+  VoiceOver: Play_whisp_06A_MSQ_10_TalkToSpeaker_whisper
   Subtitle: ""
   AchievementId: 06A_WW_whisper_02
   UseVFX: true
@@ -77,7 +77,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_06A_MSQ_13_ReturnMiradorJewel_whisper_text
+  VoiceOver: Play_whisp_06A_MSQ_13_ReturnMiradorJewel_whisper_text
   Subtitle: ""
   AchievementId: 06A_WW_whisper_03
   UseVFX: true
@@ -91,11 +91,25 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_06A_MSQ_18_ReturnSiriusJewel_whisper_text
+  VoiceOver: Play_whisp_06A_MSQ_18_ReturnSiriusJewel_whisper_text
   Subtitle: ""
   AchievementId: 06A_WW_whisper_04
   UseVFX: true
   VfxId: whisper_vfx_01
+- WhisperId: 06A_WW_VoicedLoreNote_01A
+  TriggerType: GAME_EVENT
+  RequiredAchievementId: ""
+  TimelineId: ""
+  Duration: 15.0
+  GameEvent: ""
+  StartSFX: ""
+  StopSFX: ""
+  AudioPreload: ""
+  VoiceOver: Play_lore_06_Windsward_Body_18_01A_LoreNote
+  Subtitle: ""
+  AchievementId: 06A_WW_VoicedLoreNote_01A
+  UseVFX: false
+  VfxId: ""
 - WhisperId: 06A_WW_VoicedLoreNote_01
   TriggerType: GAME_EVENT
   RequiredAchievementId: ""
@@ -105,7 +119,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_06_Windsward_Body_18_01_LoreNote
+  VoiceOver: Play_npc_06_Windsward_Body_18_01_LoreNote
   Subtitle: ""
   AchievementId: 06A_WW_VoicedLoreNote_01
   UseVFX: false
@@ -119,7 +133,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_06_Windsward_Body_18_02_LoreNote
+  VoiceOver: Play_npc_06_Windsward_Body_18_02_LoreNote
   Subtitle: ""
   AchievementId: 06A_WW_VoicedLoreNote_02
   UseVFX: false
@@ -133,7 +147,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_06_Windsward_Body_18_03_LoreNote
+  VoiceOver: Play_npc_06_Windsward_Body_18_03_LoreNote
   Subtitle: ""
   AchievementId: 06A_WW_VoicedLoreNote_03
   UseVFX: false
@@ -147,7 +161,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_01_Whisper_FTUE_01
+  VoiceOver: Play_npc_01_Whisper_FTUE_01
   Subtitle: ""
   AchievementId: 01_Whisper_FTUE_01
   UseVFX: true
@@ -161,7 +175,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_01_Whisper_FTUE_02
+  VoiceOver: Play_npc_01_Whisper_FTUE_02
   Subtitle: ""
   AchievementId: 01_Whisper_FTUE_02
   UseVFX: true
@@ -175,7 +189,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_01_Whisper_FTUE_04
+  VoiceOver: Play_npc_01_Whisper_FTUE_04
   Subtitle: ""
   AchievementId: 01_Whisper_FTUE_04
   UseVFX: true
@@ -189,9 +203,23 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_01_Whisper_FTUE_05
+  VoiceOver: Play_npc_01_Whisper_FTUE_05
   Subtitle: ""
   AchievementId: 01_Whisper_FTUE_05
+  UseVFX: true
+  VfxId: whisper_vfx_01
+- WhisperId: 01_IsabellasFirstWhisper_Isabella_01
+  TriggerType: GAME_EVENT
+  RequiredAchievementId: ""
+  TimelineId: Whisper_Timeline_01_IsabellasFirstWhisper_Isabella_01_IGC
+  Duration: 11.0
+  GameEvent: 01_IsabellasFirstWhisper_Isabella_01_event
+  StartSFX: Play_SFX_Whisper_Start_03
+  StopSFX: Play_SFX_Whispers_TailOut
+  AudioPreload: whispers_isabela
+  VoiceOver: Play_whisp_01_IsabellasFirstWhisper_Isabella
+  Subtitle: ""
+  AchievementId: 01_Whisper_Beach_01
   UseVFX: true
   VfxId: whisper_vfx_01
 - WhisperId: 01_Whisper_Beach_01
@@ -203,7 +231,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_01_Whisper_Beach_01
+  VoiceOver: Play_npc_01_Whisper_Beach_01
   Subtitle: ""
   AchievementId: 01_Whisper_Beach_01
   UseVFX: true
@@ -217,7 +245,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_01_Whisper_Beach_02
+  VoiceOver: Play_npc_01_Whisper_Beach_02
   Subtitle: ""
   AchievementId: 01_Whisper_Beach_02
   UseVFX: true
@@ -231,7 +259,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_01_Whisper_Beach_03
+  VoiceOver: Play_npc_01_Whisper_Beach_03
   Subtitle: ""
   AchievementId: 01_Whisper_Beach_03
   UseVFX: true
@@ -245,7 +273,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_01_Whisper_Beach_04
+  VoiceOver: Play_npc_01_Whisper_Beach_04
   Subtitle: ""
   AchievementId: 01_Whisper_Beach_04
   UseVFX: true
@@ -259,7 +287,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_01_Whisper_Beach_05
+  VoiceOver: Play_npc_01_Whisper_Beach_05
   Subtitle: ""
   AchievementId: 01_Whisper_Beach_05
   UseVFX: true
@@ -273,7 +301,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_01_Whisper_Beach_06
+  VoiceOver: Play_npc_01_Whisper_Beach_06
   Subtitle: ""
   AchievementId: 01_Whisper_Beach_06
   UseVFX: true
@@ -287,7 +315,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_01_Whisper_Beach_07
+  VoiceOver: Play_npc_01_Whisper_Beach_07
   Subtitle: ""
   AchievementId: 01_Whisper_Beach_07
   UseVFX: true
@@ -301,7 +329,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_12A_Whisper_MonarchsBluffs_01
+  VoiceOver: Play_npc_12A_Whisper_MonarchsBluffs_01
   Subtitle: ""
   AchievementId: 12A_MB_Whisper_01
   UseVFX: true
@@ -315,7 +343,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_12A_Whisper_MonarchsBluffs_02
+  VoiceOver: Play_npc_12A_Whisper_MonarchsBluffs_02
   Subtitle: ""
   AchievementId: 12A_MB_Whisper_02
   UseVFX: true
@@ -329,7 +357,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_12A_Whisper_MonarchsBluffs_03
+  VoiceOver: Play_npc_12A_Whisper_MonarchsBluffs_03
   Subtitle: ""
   AchievementId: 12A_MB_Whisper_03
   UseVFX: true
@@ -343,7 +371,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_12A_Whisper_MonarchsBluffs_04
+  VoiceOver: Play_npc_12A_Whisper_MonarchsBluffs_04
   Subtitle: ""
   AchievementId: 12A_MB_Whisper_04
   UseVFX: true
@@ -357,7 +385,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_98_Isabella_Covenant
+  VoiceOver: Play_npc_98_Isabella_Covenant
   Subtitle: ""
   AchievementId: 98_Covenant_Whisper_01
   UseVFX: true
@@ -371,7 +399,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_98_Isabella_Marauder
+  VoiceOver: Play_npc_98_Isabella_Marauder
   Subtitle: ""
   AchievementId: 98_Marauders_Whisper_01
   UseVFX: true
@@ -385,7 +413,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_98_Isabella_Syndicate
+  VoiceOver: Play_npc_98_Isabella_Syndicate
   Subtitle: ""
   AchievementId: 98_Syndicate_Whisper_01
   UseVFX: true
@@ -399,7 +427,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_99A_MSQ_SoulwardenIntro_Body_01_01
+  VoiceOver: Play_npc_99A_MSQ_SoulwardenIntro_Body_01_01
   Subtitle: ""
   AchievementId: ""
   UseVFX: false
@@ -413,7 +441,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_99A_MSQ_SoulwardenIntro_Body_01_02
+  VoiceOver: Play_npc_99A_MSQ_SoulwardenIntro_Body_01_02
   Subtitle: ""
   AchievementId: ""
   UseVFX: false
@@ -427,7 +455,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_99A_MSQ_SoulwardenIntro_Body_01_03
+  VoiceOver: Play_npc_99A_MSQ_SoulwardenIntro_Body_01_03
   Subtitle: ""
   AchievementId: ""
   UseVFX: false
@@ -441,7 +469,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_99A_MSQ_SoulwardenIntro_Body_01_04
+  VoiceOver: Play_npc_99A_MSQ_SoulwardenIntro_Body_01_04
   Subtitle: ""
   AchievementId: ""
   UseVFX: false
@@ -455,7 +483,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_99A_MSQ_SoulwardenIntro_Body_02_01
+  VoiceOver: Play_npc_99A_MSQ_SoulwardenIntro_Body_02_01
   Subtitle: ""
   AchievementId: ""
   UseVFX: false
@@ -469,7 +497,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_99A_MSQ_SoulwardenIntro_Body_02_02
+  VoiceOver: Play_npc_99A_MSQ_SoulwardenIntro_Body_02_02
   Subtitle: ""
   AchievementId: ""
   UseVFX: false
@@ -483,7 +511,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_99A_MSQ_SoulwardenIntro_Body_02_03
+  VoiceOver: Play_npc_99A_MSQ_SoulwardenIntro_Body_02_03
   Subtitle: ""
   AchievementId: ""
   UseVFX: false
@@ -497,7 +525,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_99A_MSQ_SoulwardenIntro_Body_03_01
+  VoiceOver: Play_npc_99A_MSQ_SoulwardenIntro_Body_03_01
   Subtitle: ""
   AchievementId: ""
   UseVFX: false
@@ -511,7 +539,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_99A_MSQ_SoulwardenIntro_Body_03_02
+  VoiceOver: Play_npc_99A_MSQ_SoulwardenIntro_Body_03_02
   Subtitle: ""
   AchievementId: ""
   UseVFX: false
@@ -525,7 +553,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_99A_MSQ_SoulwardenIntro_Body_03_03
+  VoiceOver: Play_npc_99A_MSQ_SoulwardenIntro_Body_03_03
   Subtitle: ""
   AchievementId: ""
   UseVFX: false
@@ -539,7 +567,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_99A_MSQ_01_00_IsabellaWhisper
+  VoiceOver: Play_whisp_99A_MSQ_01_00_IsabellaWhisper
   Subtitle: ""
   AchievementId: ""
   UseVFX: true
@@ -553,7 +581,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_99A_MSQ_01B_03_IsabellaWhisper
+  VoiceOver: Play_whisp_99A_MSQ_01B_03_IsabellaWhisper
   Subtitle: ""
   AchievementId: ""
   UseVFX: true
@@ -567,7 +595,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_99A_MSQ_03_01A_IsabellaWhisper
+  VoiceOver: Play_whisp_99A_MSQ_03_01A_IsabellaWhisper
   Subtitle: ""
   AchievementId: ""
   UseVFX: true
@@ -581,7 +609,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_99A_MSQ_07_01A_IsabellaWhisper
+  VoiceOver: Play_whisp_99A_MSQ_07_01A_IsabellaWhisper
   Subtitle: ""
   AchievementId: ""
   UseVFX: true
@@ -595,7 +623,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_99A_MSQ_07_03_IsabellaWhisper
+  VoiceOver: Play_whisp_99A_MSQ_07_03_IsabellaWhisper
   Subtitle: ""
   AchievementId: ""
   UseVFX: true
@@ -609,7 +637,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_99A_MSQ_11_02_IsabellaWhisper
+  VoiceOver: Play_whisp_99A_MSQ_11_02_IsabellaWhisper
   Subtitle: ""
   AchievementId: ""
   UseVFX: true
@@ -623,7 +651,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_99A_MSQ_13_01A_IsabellaWhisper
+  VoiceOver: Play_whisp_99A_MSQ_13_01A_IsabellaWhisper
   Subtitle: ""
   AchievementId: ""
   UseVFX: true
@@ -637,7 +665,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_99A_MSQ_13_03_IsabellaWhisper
+  VoiceOver: Play_whisp_99A_MSQ_13_03_IsabellaWhisper
   Subtitle: ""
   AchievementId: ""
   UseVFX: true
@@ -651,7 +679,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_99A_MSQ_15_03_IsabellaWhisper
+  VoiceOver: Play_whisp_99A_MSQ_15_03_IsabellaWhisper
   Subtitle: ""
   AchievementId: ""
   UseVFX: true
@@ -665,7 +693,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_1625_0701_challengingpharaoh_Imhotep_Taunt1
+  VoiceOver: Play_npc_1625_0701_challengingpharaoh_Imhotep_Taunt1
   Subtitle: ""
   AchievementId: 16_BS_Whisper_04
   UseVFX: false
@@ -679,7 +707,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_1625_0701_challengingpharaoh_Imhotep_Taunt2
+  VoiceOver: Play_npc_1625_0701_challengingpharaoh_Imhotep_Taunt2
   Subtitle: ""
   AchievementId: 16_BS_Whisper_05
   UseVFX: false
@@ -693,7 +721,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_1625_0701_challengingpharaoh_Imhotep_Taunt3
+  VoiceOver: Play_npc_1625_0701_challengingpharaoh_Imhotep_Taunt3
   Subtitle: ""
   AchievementId: 16_BS_Whisper_06
   UseVFX: false
@@ -707,7 +735,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_1625_0701_challengingpharaoh_Imhotep_Taunt4
+  VoiceOver: Play_npc_1625_0701_challengingpharaoh_Imhotep_Taunt4
   Subtitle: ""
   AchievementId: 16_BS_Whisper_07
   UseVFX: false
@@ -721,7 +749,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_1625_0701_challengingpharaoh_Imhotep_Taunt5
+  VoiceOver: Play_npc_1625_0701_challengingpharaoh_Imhotep_Taunt5
   Subtitle: ""
   AchievementId: 16_BS_Whisper_08
   UseVFX: false
@@ -735,7 +763,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_Tales_of_Brimstone_Sands_Body_18_01
+  VoiceOver: Play_npc_Tales_of_Brimstone_Sands_Body_18_01
   Subtitle: ""
   AchievementId: 16_BS_Whisper_ImhotepJournalA
   UseVFX: false
@@ -749,7 +777,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_Tales_of_Brimstone_Sands_Body_18_02
+  VoiceOver: Play_npc_Tales_of_Brimstone_Sands_Body_18_02
   Subtitle: ""
   AchievementId: 16_BS_Whisper_ImhotepJournalB
   UseVFX: false
@@ -763,7 +791,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_01_Watcher_FTUE_01
+  VoiceOver: Play_npc_01_Watcher_FTUE_01
   Subtitle: ""
   AchievementId: S_beachintro_cutscene
   UseVFX: false
@@ -805,7 +833,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: ""
+  VoiceOver: Play_npc_Miners_Shazaan_line1
   Subtitle: "@Miners_Shazaan_line1"
   AchievementId: 12A_MSQ_Miner1_subtitle
   UseVFX: false
@@ -819,7 +847,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: ""
+  VoiceOver: Play_npc_Miners_Tomira_line1
   Subtitle: "@Miners_Tomira_line1"
   AchievementId: 12A_MSQ_Miner2_subtitle
   UseVFX: false
@@ -833,7 +861,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: ""
+  VoiceOver: Play_npc_Miners_Chandu_line1
   Subtitle: "@Miners_Chandu_line1"
   AchievementId: 12A_MSQ_Miner3_subtitle
   UseVFX: false
@@ -847,7 +875,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_99C_MSQ_02_Karburg_Isabella_whisper
+  VoiceOver: Play_whisp_99C_MSQ_02_Karburg_Isabella_whisper
   Subtitle: ""
   AchievementId: 99C_Isabella_whisper_WF_01
   UseVFX: true
@@ -861,7 +889,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_99C_MSQ_06_Isabella_Whisper
+  VoiceOver: Play_whisp_99C_MSQ_06_Isabella_Whisper
   Subtitle: ""
   AchievementId: 99C_Isabella_whisper_WF_02
   UseVFX: true
@@ -875,7 +903,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_99C_MSQ_11_Lepus_Isabella_whisper
+  VoiceOver: Play_whisp_99C_MSQ_11_Lepus_Isabella_whisper
   Subtitle: ""
   AchievementId: 99C_Isabella_whisper_WF_03
   UseVFX: true
@@ -889,7 +917,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_13_WeaverFen_Body_11_01_LoreNote
+  VoiceOver: Play_npc_13_WeaverFen_Body_11_01_LoreNote
   Subtitle: ""
   AchievementId: 99C_Morgaine_VoicedLoreNote_01
   UseVFX: false
@@ -903,7 +931,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_13_WeaverFen_Body_11_02_LoreNote
+  VoiceOver: Play_npc_13_WeaverFen_Body_11_02_LoreNote
   Subtitle: ""
   AchievementId: 99C_Morgaine_VoicedLoreNote_02
   UseVFX: false
@@ -917,7 +945,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_13_WeaverFen_Body_11_03_LoreNote
+  VoiceOver: Play_npc_13_WeaverFen_Body_11_03_LoreNote
   Subtitle: ""
   AchievementId: 99C_Morgaine_VoicedLoreNote_03
   UseVFX: false
@@ -931,7 +959,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_13_WeaverFen_Body_11_04_LoreNote
+  VoiceOver: Play_npc_13_WeaverFen_Body_11_04_LoreNote
   Subtitle: ""
   AchievementId: 99C_Morgaine_VoicedLoreNote_04
   UseVFX: false
@@ -973,7 +1001,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_99B_Isabella_Whisper_02
+  VoiceOver: Play_whisp_99B_Isabella_Whisper_02
   Subtitle: ""
   AchievementId: 99B_Isabella_whisper_BW_01
   UseVFX: true
@@ -987,7 +1015,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_99B_Isabella_Whisper_03
+  VoiceOver: Play_whisp_99B_Isabella_Whisper_03
   Subtitle: ""
   AchievementId: 99B_Isabella_whisper_BW_02
   UseVFX: true
@@ -1001,7 +1029,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_99B_MSQ_01_umberto_lorenote_1
+  VoiceOver: Play_npc_99B_MSQ_01_umberto_lorenote_1
   Subtitle: ""
   AchievementId: 99B_Umberto_VoicedLoreNote_01
   UseVFX: false
@@ -1015,7 +1043,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_99B_MSQ_01_umberto_lorenote_2
+  VoiceOver: Play_npc_99B_MSQ_01_umberto_lorenote_2
   Subtitle: ""
   AchievementId: 99B_Umberto_VoicedLoreNote_02
   UseVFX: false
@@ -1029,7 +1057,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_99B_MSQ_01_umberto_lorenote_3
+  VoiceOver: Play_npc_99B_MSQ_01_umberto_lorenote_3
   Subtitle: ""
   AchievementId: 99B_Umberto_VoicedLoreNote_03
   UseVFX: false
@@ -1043,7 +1071,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_99B_MSQ_01_umberto_lorenote_4
+  VoiceOver: Play_npc_99B_MSQ_01_umberto_lorenote_4
   Subtitle: ""
   AchievementId: 99B_Umberto_VoicedLoreNote_04
   UseVFX: false
@@ -1057,7 +1085,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_99B_MSQ_03_umberto_lorenote_5
+  VoiceOver: Play_npc_99B_MSQ_03_umberto_lorenote_5
   Subtitle: ""
   AchievementId: 99B_Umberto_VoicedLoreNote_05
   UseVFX: false
@@ -1071,7 +1099,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_99B_MSQ_06_umberto_lorenote_7
+  VoiceOver: Play_npc_99B_MSQ_06_umberto_lorenote_7
   Subtitle: ""
   AchievementId: 99B_Umberto_VoicedLoreNote_07
   UseVFX: false
@@ -1085,7 +1113,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_99B_MSQ_06_umberto_lorenote_8
+  VoiceOver: Play_npc_99B_MSQ_06_umberto_lorenote_8
   Subtitle: ""
   AchievementId: 99B_Umberto_VoicedLoreNote_08
   UseVFX: false
@@ -1099,7 +1127,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_99B_MSQ_07_moira_lorenote_1
+  VoiceOver: Play_npc_99B_MSQ_07_moira_lorenote_1
   Subtitle: ""
   AchievementId: 99B_Moira_VoicedLoreNote_01
   UseVFX: false
@@ -1113,7 +1141,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_npc_99D_Ruins_Isabella_Whisper
+  VoiceOver: Play_whisp_99D_Ruins_Isabella_Whisper
   Subtitle: ""
   AchievementId: 99D_Isabella_whisper_GC_00
   UseVFX: true
@@ -1127,7 +1155,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_npc_99D_Isabella_whisper_01
+  VoiceOver: Play_whisp_99D_Isabella_whisper_01
   Subtitle: ""
   AchievementId: 99D_Isabella_whisper_GC_01
   UseVFX: true
@@ -1141,7 +1169,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_npc_99D_Isabella_whisper_02
+  VoiceOver: Play_whisp_99D_Isabella_whisper_02
   Subtitle: ""
   AchievementId: 99D_Isabella_whisper_GC_02
   UseVFX: true
@@ -1155,7 +1183,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_npc_99D_Isabella_whisper_03
+  VoiceOver: Play_whisp_99D_Isabella_whisper_03
   Subtitle: ""
   AchievementId: 99D_Isabella_whisper_GC_03
   UseVFX: true
@@ -1248,7 +1276,7 @@
   TriggerType: GAME_EVENT
   RequiredAchievementId: ""
   TimelineId: ""
-  Duration: 15.0
+  Duration: 34.0
   GameEvent: ""
   StartSFX: ""
   StopSFX: ""
@@ -1261,13 +1289,13 @@
 - WhisperId: 99E_Myrddin_VoicedLoreNote_02
   TriggerType: GAME_EVENT
   RequiredAchievementId: ""
-  TimelineId: ""
+  TimelineId: Whisper_Timeline_99E_Myrddin_VoicedLoreNote_02
   Duration: 15.0
   GameEvent: ""
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_npc_14_Edengrove_Body_01_02
+  VoiceOver: Play_lore_14_Edengrove_Body_01_02
   Subtitle: ""
   AchievementId: 99E_Myrddin_VoicedLoreNote_02
   UseVFX: false
@@ -1276,7 +1304,7 @@
   TriggerType: GAME_EVENT
   RequiredAchievementId: ""
   TimelineId: ""
-  Duration: 15.0
+  Duration: 33.0
   GameEvent: ""
   StartSFX: ""
   StopSFX: ""
@@ -1289,8 +1317,8 @@
 - WhisperId: 99E_Myrddin_VoicedLoreNote_04
   TriggerType: GAME_EVENT
   RequiredAchievementId: ""
-  TimelineId: ""
-  Duration: 15.0
+  TimelineId: Whisper_Timeline_99E_Myrddin_VoicedLoreNote_04
+  Duration: 37.0
   GameEvent: ""
   StartSFX: ""
   StopSFX: ""
@@ -1303,13 +1331,13 @@
 - WhisperId: 99E_Myrddin_VoicedLoreNote_05
   TriggerType: GAME_EVENT
   RequiredAchievementId: ""
-  TimelineId: ""
-  Duration: 15.0
+  TimelineId: Whisper_Timeline_99E_Myrddin_VoicedLoreNote_05
+  Duration: 54.0
   GameEvent: ""
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_npc_14_Edengrove_Body_01_05
+  VoiceOver: Play_lore_14_Edengrove_Body_01_05
   Subtitle: ""
   AchievementId: 99E_Myrddin_VoicedLoreNote_05
   UseVFX: false
@@ -1323,7 +1351,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_npc_99E_Isabella_Whisper_01
+  VoiceOver: Play_whisp_99E_Isabella_Whisper_01
   Subtitle: ""
   AchievementId: 99E_Isabella_whisper_EG_01
   UseVFX: true
@@ -1337,7 +1365,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_npc_99E_Isabella_Whisper_02
+  VoiceOver: Play_whisp_99E_Isabella_Whisper_02
   Subtitle: ""
   AchievementId: 99E_Isabella_whisper_EG_02
   UseVFX: true
@@ -2304,7 +2332,7 @@
   StopSFX: ""
   AudioPreload: ""
   VoiceOver: Play_npc_09A_M3_SurvivalistRiches_VOLoreNote
-  Subtitle: ""
+  Subtitle: "@09A_M3_SurvivalistRiches_VOLoreNote"
   AchievementId: ""
   UseVFX: false
   VfxId: ""
@@ -2457,7 +2485,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_whisp_99F_MSQ01_GatherAllies_Isabella_A_wsprer
+  VoiceOver: Play_whisp_99F_MSQ01_GatherAllies_Isabella_A
   Subtitle: ""
   AchievementId: 99F_Isabella_whisper_ER_01
   UseVFX: true
@@ -2513,7 +2541,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_whisp_99G_MSQ03_AttackMentally_Isabella_A_wsprer
+  VoiceOver: Play_whisp_99G_MSQ03_AttackMentally_Isabella_A_short
   Subtitle: ""
   AchievementId: ""
   UseVFX: true
@@ -2527,7 +2555,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_whisp_99G_MSQ03_AttackMentally_Isabella_B_wsprer
+  VoiceOver: Play_whisp_99G_MSQ03_AttackMentally_Isabella_B_short
   Subtitle: ""
   AchievementId: ""
   UseVFX: true
@@ -2541,7 +2569,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_whisp_99G_MSQ03_AttackMentally_Isabella_C_wsprer
+  VoiceOver: Play_whisp_99G_MSQ03_AttackMentally_Isabella_C_short
   Subtitle: ""
   AchievementId: ""
   UseVFX: true
@@ -2555,7 +2583,7 @@
   StartSFX: Play_SFX_Whisper_Start_03
   StopSFX: Play_SFX_Whispers_TailOut
   AudioPreload: whispers_isabela
-  VoiceOver: Play_whisp_99G_MSQ03_AttackMentally_Isabella_D_wsprer
+  VoiceOver: Play_whisp_99G_MSQ03_AttackMentally_Isabella_D_short
   Subtitle: ""
   AchievementId: ""
   UseVFX: true
@@ -2597,7 +2625,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_whisp_99G_MSQ03_AttackMentally_Brooch_Russo_wspr
+  VoiceOver: Play_whisp_99G_MSQ03_AttackMentally_Brooch_Russo_Short
   Subtitle: "@99G_MSQ03_AttackMentally_Brooch_Russo_Bark"
   AchievementId: ""
   UseVFX: false
@@ -2611,7 +2639,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_whisp_99G_MSQ03_AttackMentally_CaptainLog_Russo_wspr
+  VoiceOver: Play_whisp_99G_MSQ03_AttackMentally_CaptainLog_Russo_Short
   Subtitle: "@99G_MSQ03_AttackMentally_CaptainLog_Russo_Bark"
   AchievementId: ""
   UseVFX: false
@@ -2625,7 +2653,7 @@
   StartSFX: ""
   StopSFX: ""
   AudioPreload: ""
-  VoiceOver: Play_whisp_99G_MSQ03_AttackMentally_Cup_Russo_wspr
+  VoiceOver: Play_whisp_99G_MSQ03_AttackMentally_Cup_Russo_Short
   Subtitle: "@99G_MSQ03_AttackMentally_Cup_Russo_Bark"
   AchievementId: ""
   UseVFX: false

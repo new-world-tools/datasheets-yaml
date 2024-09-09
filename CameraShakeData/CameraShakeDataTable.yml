@@ -525,6 +525,57 @@
   UpdateOnly: 0.0
   Permanent: 0.0
   IsSmooth: 0.0
+- CameraShakeID: AI_Broodmother_Stomp
+  ShakeShiftX: 0.03
+  ShakeShiftY: 0.03
+  ShakeShiftZ: 0.03
+  ShakeAngleX: 0.0
+  ShakeAngleY: 0.005
+  ShakeAngleZ: 0.0
+  SustainDuration: 0.1
+  FadeInDuration: 0.0
+  FadeOutDuration: 0.1
+  Frequency: 0.02
+  Randomness: 0.0
+  ShakeChannel: 1.0
+  FlipVec: 1.0
+  UpdateOnly: 0.0
+  Permanent: 0.0
+  IsSmooth: 1.0
+- CameraShakeID: AI_Broodmother_ScootSteps
+  ShakeShiftX: 0.01
+  ShakeShiftY: 0.0
+  ShakeShiftZ: 0.01
+  ShakeAngleX: 0.005
+  ShakeAngleY: 0.005
+  ShakeAngleZ: 0.005
+  SustainDuration: 0.01
+  FadeInDuration: 0.01
+  FadeOutDuration: 0.01
+  Frequency: 0.015
+  Randomness: 0.0
+  ShakeChannel: 0.0
+  FlipVec: 1.0
+  UpdateOnly: 0.0
+  Permanent: 0.0
+  IsSmooth: 1.0
+- CameraShakeID: AI_Broodmother_Intro
+  ShakeShiftX: 0.04
+  ShakeShiftY: 0.04
+  ShakeShiftZ: 0.04
+  ShakeAngleX: 0.01
+  ShakeAngleY: 0.01
+  ShakeAngleZ: 0.01
+  SustainDuration: 0.2
+  FadeInDuration: 0.1
+  FadeOutDuration: 0.1
+  Frequency: 0.03
+  Randomness: 0.0
+  ShakeChannel: 2.0
+  FlipVec: 1.0
+  UpdateOnly: 0.0
+  Permanent: 0.0
+  IsSmooth: 1.0
 - CameraShakeID: Blunderbuss_Primary_Fire_ADS
   ShakeShiftX: 0.0
   ShakeShiftY: 0.0
@@ -572,6 +623,23 @@
   Frequency: 1.0
   Randomness: 0.0
   ShakeChannel: 8.0
+  FlipVec: 1.0
+  UpdateOnly: 0.0
+  Permanent: 0.0
+  IsSmooth: 1.0
+- CameraShakeID: FTUE_Door
+  ShakeShiftX: 0.01
+  ShakeShiftY: 0.01
+  ShakeShiftZ: 0.01
+  ShakeAngleX: 0.003
+  ShakeAngleY: 0.003
+  ShakeAngleZ: 0.003
+  SustainDuration: 4.0
+  FadeInDuration: 0.3
+  FadeOutDuration: 1.0
+  Frequency: 0.03
+  Randomness: 0.3
+  ShakeChannel: 6.0
   FlipVec: 1.0
   UpdateOnly: 0.0
   Permanent: 0.0

@@ -90,6 +90,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -333,6 +334,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -485,8 +487,8 @@
   IgnoreInvulnerable: ""
   NotCombatAction: ""
 - StatusID: WarHammer_Status_Stun2s
-  DisplayName: "@WarHammer_Stun_DisplayName"
-  Description: "@WarHammer_Stun_Description"
+  DisplayName: "@Status_Stun"
+  Description: "@Status_Stun_Description"
   EffectCategories: Debuff+Stun+CC
   PlaceholderIcon: lyshineui/images/status/SE_Stun.png
   ShowInUITray: true
@@ -576,6 +578,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -728,8 +731,8 @@
   IgnoreInvulnerable: ""
   NotCombatAction: ""
 - StatusID: WarHammer_Status_Stun5s
-  DisplayName: "@WarHammer_Stun_DisplayName"
-  Description: "@WarHammer_Stun_Description"
+  DisplayName: "@Status_Stun"
+  Description: "@Status_Stun_Description"
   EffectCategories: Debuff+Stun+CC
   PlaceholderIcon: lyshineui/images/status/SE_Stun.png
   ShowInUITray: true
@@ -819,6 +822,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -971,8 +975,8 @@
   IgnoreInvulnerable: ""
   NotCombatAction: ""
 - StatusID: WarHammer_ArmRed20Pct5Sec
-  DisplayName: "@WarHammer_ArmorReduction_DisplayName"
-  Description: "@WarHammer_ArmorReduction_Description"
+  DisplayName: "@Status_Rend"
+  Description: "@Status_Rend_Description"
   EffectCategories: Debuff+ArmorRend+Debilitate
   PlaceholderIcon: lyshineui/images/status/SE_RendT3.png
   ShowInUITray: true
@@ -1062,6 +1066,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1214,8 +1219,8 @@
   IgnoreInvulnerable: ""
   NotCombatAction: ""
 - StatusID: WarHammer_SpeedUp6Sec
-  DisplayName: "@WarHammer_SpeedUp_DisplayName"
-  Description: "@WarHammer_SpeedUp_Description"
+  DisplayName: "@Status_Haste"
+  Description: "@Status_Haste_Description"
   EffectCategories: Buff+Haste
   PlaceholderIcon: lyshineui/images/status/SE_Haste.png
   ShowInUITray: true
@@ -1305,6 +1310,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1457,8 +1463,8 @@
   IgnoreInvulnerable: ""
   NotCombatAction: ""
 - StatusID: WarHammer_SpeedUp8Sec
-  DisplayName: "@WarHammer_SpeedUp_DisplayName"
-  Description: "@WarHammer_SpeedUp_Description"
+  DisplayName: "@Status_Haste"
+  Description: "@Status_Haste_Description"
   EffectCategories: Buff+Haste
   PlaceholderIcon: lyshineui/images/status/SE_Haste.png
   ShowInUITray: true
@@ -1548,6 +1554,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1700,8 +1707,8 @@
   IgnoreInvulnerable: ""
   NotCombatAction: ""
 - StatusID: WarHammer_PoD_Slow5Sec
-  DisplayName: "@WarHammer_Slow_DisplayName"
-  Description: "@WarHammer_Slow_Description"
+  DisplayName: "@Status_Slow"
+  Description: "@Status_Slow_Description"
   EffectCategories: Debuff+Slow+CC
   PlaceholderIcon: lyshineui/images/status/SE_SlowT5.png
   ShowInUITray: true
@@ -1791,6 +1798,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1943,8 +1951,8 @@
   IgnoreInvulnerable: ""
   NotCombatAction: ""
 - StatusID: WarHammer_HinderedSpirit
-  DisplayName: "@WarHammer_HinderedSpirit_DisplayName"
-  Description: "@WarHammer_HinderedSpirit_Description"
+  DisplayName: "@Status_Rend"
+  Description: "@Status_Rend_Description"
   EffectCategories: Debuff
   PlaceholderIcon: lyshineui/images/status/SE_ArmorReduction.png
   ShowInUITray: true
@@ -2034,6 +2042,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2186,8 +2195,8 @@
   IgnoreInvulnerable: ""
   NotCombatAction: ""
 - StatusID: WarHammer_WeakenVictim
-  DisplayName: "@WarHammer_Weaken_DisplayName"
-  Description: "@WarHammer_Weaken_Description"
+  DisplayName: "@Status_Weaken"
+  Description: "@WarHammer_Shockwave_Weaken_Description"
   EffectCategories: Debuff+ArmorRend+Debilitate
   PlaceholderIcon: lyshineui/images/status/SE_RendT2.png
   ShowInUITray: true
@@ -2277,6 +2286,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2520,6 +2530,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2672,8 +2683,8 @@
   IgnoreInvulnerable: ""
   NotCombatAction: ""
 - StatusID: WarHammer_Resilience
-  DisplayName: "@WarHammer_Resilience_DisplayName"
-  Description: "@WarHammer_Resilience_Description"
+  DisplayName: "@Status_Fortify"
+  Description: "@Status_Fortify_Description"
   EffectCategories: Buff+ArmorFortify
   PlaceholderIcon: lyshineui/images/status/SE_FortifyT3.png
   ShowInUITray: true
@@ -2763,6 +2774,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2915,8 +2927,8 @@
   IgnoreInvulnerable: ""
   NotCombatAction: ""
 - StatusID: WarHammer_Extinction
-  DisplayName: "@WarHammer_Extinction_DisplayName"
-  Description: "@WarHammer_Extinction_Description"
+  DisplayName: "@Status_Fortify"
+  Description: "@Status_Fortify_Description"
   EffectCategories: Buff+Uninterruptible+ArmorFortify
   PlaceholderIcon: lyshineui/images/status/SE_FortifyT3.png
   ShowInUITray: true
@@ -3006,6 +3018,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3249,6 +3262,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3492,6 +3506,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3735,6 +3750,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3978,6 +3994,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4221,6 +4238,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4464,6 +4482,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4617,7 +4636,7 @@
   NotCombatAction: ""
 - StatusID: WarHammer_Pass_EmpowerOnBlock
   DisplayName: "@Status_Empower"
-  Description: "@WarHammer_Empower_Description"
+  Description: "@Status_Empower_Description"
   EffectCategories: Buff+Empower
   PlaceholderIcon: lyshineui/images/status/SE_EmpowerT2.png
   ShowInUITray: true
@@ -4707,6 +4726,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4950,6 +4970,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5193,6 +5214,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5436,6 +5458,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5589,7 +5612,7 @@
   NotCombatAction: ""
 - StatusID: WarHammer_Pass_Fortify
   DisplayName: "@Status_Fortify"
-  Description: "@WarHammer_Fortify_Description"
+  Description: "@Status_Fortify_Description"
   EffectCategories: Buff+ArmorFortify
   PlaceholderIcon: lyshineui/images/status/SE_FortifyT3.png
   ShowInUITray: true
@@ -5679,6 +5702,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5800,7 +5824,7 @@
   AFACurse: null
   AFABlight: null
   StackDuration: 0.0
-  DurationMax: 1.0
+  DurationMax: 2.0
   InheritDuration: "0"
   InheritTotalDuration: null
   RefreshDuration: null
@@ -5922,6 +5946,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -6165,6 +6190,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -6408,6 +6434,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -6651,6 +6678,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -6894,6 +6922,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -7137,6 +7166,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""

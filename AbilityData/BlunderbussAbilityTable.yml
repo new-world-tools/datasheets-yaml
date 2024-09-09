@@ -1,7 +1,7 @@
 - AbilityID: Ability_Blunderbuss_ClawShot
   DisplayName: "@Leviathon_01"
   Description: "@Leviathon_01_description"
-  UICategory: Ranged Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability01.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Blunderbuss_Ability_2
@@ -78,6 +78,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -139,7 +140,7 @@
 - AbilityID: Blunderbuss_ClawShot_Mod1
   DisplayName: "@Leviathon_01_Mod1"
   Description: "@Leviathon_01_Mod1_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability01_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -216,6 +217,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -277,7 +279,7 @@
 - AbilityID: Blunderbuss_ClawShot_Mod2
   DisplayName: "@Leviathon_01_Mod2"
   Description: "@Leviathon_01_Mod2_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability01_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -354,6 +356,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -415,7 +418,7 @@
 - AbilityID: Blunderbuss_ClawShot_Mod3
   DisplayName: "@Leviathon_01_Mod3"
   Description: "@Leviathon_01_Mod3_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability01_Mod03.png
   StatusEffectIcon: ""
   Sound: ""
@@ -492,6 +495,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -553,7 +557,7 @@
 - AbilityID: Ability_Blunderbuss_NetShot
   DisplayName: "@Leviathon_02"
   Description: "@Leviathon_02_description"
-  UICategory: Ranged Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability02.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Blunderbuss_Ability_1
@@ -565,8 +569,8 @@
   RequiredAbilityId: ""
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 0.0
-  TreeColumnPosition: 0.0
+  TreeRowPosition: 1.0
+  TreeColumnPosition: 4.0
   IsActiveAbility: true
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -630,6 +634,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -691,7 +696,7 @@
 - AbilityID: Blunderbuss_NetShot_Mod1
   DisplayName: "@Leviathon_02_Mod1"
   Description: "@Leviathon_02_Mod1_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability02_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -703,8 +708,8 @@
   RequiredAbilityId: Ability_Blunderbuss_NetShot
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 1.0
-  TreeColumnPosition: 0.0
+  TreeRowPosition: 2.0
+  TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -768,6 +773,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -829,7 +835,7 @@
 - AbilityID: Blunderbuss_NetShot_Mod3
   DisplayName: "@Leviathon_02_Mod3"
   Description: "@Leviathon_02_Mod3_description"
-  UICategory: Debuff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability02_Mod03.png
   StatusEffectIcon: ""
   Sound: ""
@@ -841,8 +847,8 @@
   RequiredAbilityId: Blunderbuss_NetShot_Mod1
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 2.0
-  TreeColumnPosition: 0.0
+  TreeRowPosition: 3.0
+  TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -906,6 +912,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -967,7 +974,7 @@
 - AbilityID: Blunderbuss_NetShot_Mod2
   DisplayName: "@Leviathon_02_Mod2"
   Description: "@Leviathon_02_Mod2_description"
-  UICategory: Debuff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability02_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -979,8 +986,8 @@
   RequiredAbilityId: Blunderbuss_NetShot_Mod3
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 3.0
-  TreeColumnPosition: 0.0
+  TreeRowPosition: 4.0
+  TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -1044,6 +1051,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -1105,7 +1113,7 @@
 - AbilityID: Ability_Blunderbuss_AzothShrapnelBlast
   DisplayName: "@Leviathon_05"
   Description: "@Leviathon_05_description"
-  UICategory: Ranged Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability05.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Blunderbuss_Ability_3
@@ -1118,7 +1126,7 @@
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 0.0
-  TreeColumnPosition: 4.0
+  TreeColumnPosition: 0.0
   IsActiveAbility: true
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -1182,6 +1190,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: -0.2
@@ -1243,7 +1252,7 @@
 - AbilityID: Blunderbuss_AzothShrapnelBlast_Mod1
   DisplayName: "@Leviathon_05_Mod1"
   Description: "@Leviathon_05_Mod1_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability05_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -1256,7 +1265,7 @@
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 1.0
-  TreeColumnPosition: 4.0
+  TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -1320,6 +1329,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -1381,7 +1391,7 @@
 - AbilityID: Blunderbuss_AzothShrapnelBlast_Mod2
   DisplayName: "@Leviathon_05_Mod2"
   Description: "@Leviathon_05_Mod2_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability05_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -1394,7 +1404,7 @@
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 2.0
-  TreeColumnPosition: 4.0
+  TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -1458,6 +1468,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -1519,7 +1530,7 @@
 - AbilityID: Blunderbuss_AzothShrapnelBlast_Mod3
   DisplayName: "@Leviathon_05_Mod3"
   Description: "@Leviathon_05_Mod3_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability05_Mod03.png
   StatusEffectIcon: ""
   Sound: ""
@@ -1532,7 +1543,7 @@
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 3.0
-  TreeColumnPosition: 4.0
+  TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -1596,6 +1607,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -1657,7 +1669,7 @@
 - AbilityID: Blunderbuss_AzothShrapnelBlast_Mod4
   DisplayName: "@Leviathon_05_Mod4"
   Description: "@Leviathon_05_Mod4_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability05_Mod04.png
   StatusEffectIcon: ""
   Sound: ""
@@ -1670,7 +1682,7 @@
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 4.0
-  TreeColumnPosition: 4.0
+  TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -1734,6 +1746,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -1872,6 +1885,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: 0.0
   LoadedAmmoCountComparisonType: Equal
   BaseDamage: 0.15
@@ -2010,6 +2024,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -2148,6 +2163,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -2286,6 +2302,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -2424,6 +2441,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -2485,7 +2503,7 @@
 - AbilityID: Blunderbuss_Unload
   DisplayName: "@Leviathon_ContUltimate"
   Description: "@Leviathon_ContUltimate_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ult01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -2562,6 +2580,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -2623,7 +2642,7 @@
 - AbilityID: Ability_Blunderbuss_SplittingGrenade
   DisplayName: "@Leviathon_04"
   Description: "@Leviathon_04_description"
-  UICategory: Ranged Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability04.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Blunderbuss_Ability_4
@@ -2700,6 +2719,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: -0.4
@@ -2761,7 +2781,7 @@
 - AbilityID: Blunderbuss_SplittingGrenade_Mod1
   DisplayName: "@Leviathon_04_Mod1"
   Description: "@Leviathon_04_Mod1_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability04_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -2838,6 +2858,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: 0.25
@@ -2899,7 +2920,7 @@
 - AbilityID: Blunderbuss_SplittingGrenade_Mod2
   DisplayName: "@Leviathon_04_Mod2"
   Description: "@Leviathon_04_Mod2_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability04_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -2976,6 +2997,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -3037,7 +3059,7 @@
 - AbilityID: Blunderbuss_SplittingGrenade_Mod3
   DisplayName: "@Leviathon_04_Mod3"
   Description: "@Leviathon_04_Mod3_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability04_Mod03.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3052,7 +3074,7 @@
   TreeRowPosition: 2.0
   TreeColumnPosition: 0.0
   IsActiveAbility: false
-  IsGlobalAbility: false
+  IsGlobalAbility: true
   ScalingStrength: ""
   ScalingDexterity: ""
   ScalingIntelligence: ""
@@ -3071,7 +3093,7 @@
   OnDeath: false
   OnDeathsDoor: false
   OnStatusEffectApplied: false
-  RequireReaction: null
+  RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
@@ -3114,6 +3136,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -3175,7 +3198,7 @@
 - AbilityID: Ability_Blunderbuss_MortarShot
   DisplayName: "@Leviathon_06"
   Description: "@Leviathon_06_description"
-  UICategory: Ranged Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability06.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Blunderbuss_Ability_5
@@ -3252,6 +3275,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: 0.35
@@ -3313,7 +3337,7 @@
 - AbilityID: Blunderbuss_MortarShot_Mod1
   DisplayName: "@Leviathon_06_Mod1"
   Description: "@Leviathon_06_Mod1_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability06_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3390,6 +3414,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -3451,7 +3476,7 @@
 - AbilityID: Blunderbuss_MortarShot_Mod2
   DisplayName: "@Leviathon_06_Mod2"
   Description: "@Leviathon_06_Mod2_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability06_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3528,6 +3553,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -3589,7 +3615,7 @@
 - AbilityID: Blunderbuss_MortarShot_Mod3
   DisplayName: "@Leviathon_06_Mod3"
   Description: "@Leviathon_06_Mod3_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability06_Mod03.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3666,6 +3692,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -3727,7 +3754,7 @@
 - AbilityID: Ability_Blunderbuss_VortexShot
   DisplayName: "@Leviathon_03"
   Description: "@Leviathon_03_description"
-  UICategory: Debuff
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability03.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Blunderbuss_Ability_6
@@ -3804,6 +3831,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -3865,7 +3893,7 @@
 - AbilityID: Blunderbuss_VortexShot_Mod1
   DisplayName: "@Leviathon_03_Mod1"
   Description: "@Leviathon_03_Mod1_description"
-  UICategory: Debuff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability03_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3942,6 +3970,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -4003,7 +4032,7 @@
 - AbilityID: Blunderbuss_VortexShot_Mod2
   DisplayName: "@Leviathon_03_Mod2"
   Description: "@Leviathon_03_Mod2_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ability03_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -4080,6 +4109,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -4218,6 +4248,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: 0.15
@@ -4356,6 +4387,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: 0.1
@@ -4494,6 +4526,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -4632,6 +4665,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -4770,6 +4804,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -4908,6 +4943,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -5046,6 +5082,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -5107,7 +5144,7 @@
 - AbilityID: Blunderbuss_Charge
   DisplayName: "@Leviathon_PassiveC"
   Description: "@Leviathon_PassiveC_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/blunderbuss_Ult02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -5122,7 +5159,7 @@
   TreeRowPosition: 5.0
   TreeColumnPosition: 2.0
   IsActiveAbility: false
-  IsGlobalAbility: false
+  IsGlobalAbility: true
   ScalingStrength: ""
   ScalingDexterity: ""
   ScalingIntelligence: ""
@@ -5184,6 +5221,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -5322,6 +5360,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -5398,7 +5437,7 @@
   TreeRowPosition: null
   TreeColumnPosition: null
   IsActiveAbility: false
-  IsGlobalAbility: false
+  IsGlobalAbility: true
   ScalingStrength: ""
   ScalingDexterity: ""
   ScalingIntelligence: ""
@@ -5460,6 +5499,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -5536,7 +5576,7 @@
   TreeRowPosition: null
   TreeColumnPosition: null
   IsActiveAbility: false
-  IsGlobalAbility: false
+  IsGlobalAbility: true
   ScalingStrength: ""
   ScalingDexterity: ""
   ScalingIntelligence: ""
@@ -5598,6 +5638,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -5674,7 +5715,7 @@
   TreeRowPosition: null
   TreeColumnPosition: null
   IsActiveAbility: false
-  IsGlobalAbility: false
+  IsGlobalAbility: true
   ScalingStrength: ""
   ScalingDexterity: ""
   ScalingIntelligence: ""
@@ -5736,6 +5777,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -5812,7 +5854,7 @@
   TreeRowPosition: null
   TreeColumnPosition: null
   IsActiveAbility: false
-  IsGlobalAbility: false
+  IsGlobalAbility: true
   ScalingStrength: ""
   ScalingDexterity: ""
   ScalingIntelligence: ""
@@ -5874,6 +5916,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null
@@ -5950,7 +5993,7 @@
   TreeRowPosition: null
   TreeColumnPosition: null
   IsActiveAbility: false
-  IsGlobalAbility: false
+  IsGlobalAbility: true
   ScalingStrength: ""
   ScalingDexterity: ""
   ScalingIntelligence: ""
@@ -6012,6 +6055,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   LoadedAmmoCount: null
   LoadedAmmoCountComparisonType: ""
   BaseDamage: null

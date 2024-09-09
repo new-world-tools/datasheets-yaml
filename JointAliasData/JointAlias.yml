@@ -3,6 +3,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: Hand_right
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -16,6 +18,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: Hand_right
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -29,6 +33,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -39,9 +45,11 @@
   LeftUpperArm: UpperArm_left
 - SkeletonName: alligator_skel
   Xform: Xform
-  Head: bind_head_01
+  Head: bind_mouth_web
   Neck: bind_neck_01
   Spine: bind_spine_05
+  LeftEye: ""
+  RightEye: ""
   RightHand: bind_right_frontLeg_04
   RightForeArm: bind_right_frontLeg_03
   RightMidArm: bind_right_frontLeg_02
@@ -55,6 +63,8 @@
   Head: bind_head_01
   Neck: bind_neck_01
   Spine: bind_spine_03
+  LeftEye: ""
+  RightEye: ""
   RightHand: bind_right_frontLeg_04
   RightForeArm: bind_right_frontLeg_03
   RightMidArm: bind_right_frontLeg_02
@@ -68,6 +78,8 @@
   Head: bind_head_01
   Neck: bind_neck_01
   Spine: bind_spine_03
+  LeftEye: ""
+  RightEye: ""
   RightHand: bind_right_frontFoot_01
   RightForeArm: bind_right_frontLeg_03
   RightMidArm: bind_right_frontLeg_02
@@ -81,6 +93,8 @@
   Head: bind_head_01
   Neck: bind_neck_01
   Spine: bind_spine_05
+  LeftEye: ""
+  RightEye: ""
   RightHand: bind_right_frontLeg_04
   RightForeArm: bind_right_frontLeg_03
   RightMidArm: bind_right_frontLeg_02
@@ -94,6 +108,8 @@
   Head: bind_head_01
   Neck: bind_neck_01
   Spine: bind_spine_02
+  LeftEye: ""
+  RightEye: ""
   RightHand: bind_right_Front_toe
   RightForeArm: bind_right_Front_ankle
   RightMidArm: bind_right_Front_elbow
@@ -107,6 +123,8 @@
   Head: bind_head_01
   Neck: bind_neck_01
   Spine: bind_spine2
+  LeftEye: ""
+  RightEye: ""
   RightHand: bind_right_frontLeg_03
   RightForeArm: bind_right_frontLeg_03
   RightMidArm: bind_right_frontLeg_02
@@ -120,6 +138,8 @@
   Head: head_jnt
   Neck: neck_1_jnt
   Spine: spine_3_jnt
+  LeftEye: left_eye_jnt
+  RightEye: right_eye_jnt
   RightHand: ""
   RightForeArm: ""
   RightMidArm: ""
@@ -133,6 +153,8 @@
   Head: c_neck4_BND
   Neck: c_neck4_BND
   Spine: c_spine5_BND
+  LeftEye: l_eye1_BND
+  RightEye: r_eye1_BND
   RightHand: ""
   RightForeArm: ""
   RightMidArm: ""
@@ -146,6 +168,8 @@
   Head: head_jnt
   Neck: neck_1_jnt
   Spine: spine_3_jnt
+  LeftEye: left_eye_jnt
+  RightEye: right_eye_jnt
   RightHand: right_claw_jnt
   RightForeArm: right_hand_jnt
   RightMidArm: right_elbow_jnt
@@ -159,6 +183,8 @@
   Head: bind_head_jnt
   Neck: bind_neck_1_jnt
   Spine: bind_spine_2_jnt
+  LeftEye: bind_left_eye_jnt
+  RightEye: bind_right_eye_jnt
   RightHand: bind_right_fingers_end_jnt
   RightForeArm: bind_right_wrist_jnt
   RightMidArm: bind_right_arm_jnt
@@ -172,6 +198,8 @@
   Head: head_jnt
   Neck: neck_1_jnt
   Spine: spine_3_jnt
+  LeftEye: ""
+  RightEye: ""
   RightHand: right_front_phalange_2_jnt
   RightForeArm: right_front_phalange_1_jnt
   RightMidArm: right_cannon_jnt
@@ -185,6 +213,8 @@
   Head: bind_head
   Neck: bind_neck_1
   Spine: bind_spine_2
+  LeftEye: bind_head
+  RightEye: bind_head
   RightHand: bind_rightFingers
   RightForeArm: bind_rightWrist
   RightMidArm: bind_rightElbow
@@ -196,8 +226,10 @@
 - SkeletonName: primalLion_skel
   Xform: Xform
   Head: bind_head
-  Neck: bind_neck_01
+  Neck: bind_neck_b
   Spine: bind_spine_c
+  LeftEye: ""
+  RightEye: ""
   RightHand: bind_right_front_ball
   RightForeArm: bind_left_right_lo_arm_twist_a
   RightMidArm: bind_right_front_elbow
@@ -211,6 +243,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: ""
+  RightEye: ""
   RightHand: ""
   RightForeArm: ""
   RightMidArm: ""
@@ -224,6 +258,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: ""
+  RightEye: ""
   RightHand: ""
   RightForeArm: ""
   RightMidArm: ""
@@ -237,6 +273,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: ""
+  RightEye: ""
   RightHand: ""
   RightForeArm: ""
   RightMidArm: ""
@@ -250,6 +288,8 @@
   Head: bind_head_01
   Neck: bind_neck_01
   Spine: bind_spine_04
+  LeftEye: ""
+  RightEye: ""
   RightHand: ""
   RightForeArm: ""
   RightMidArm: ""
@@ -263,6 +303,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -276,6 +318,8 @@
   Head: bind_head
   Neck: bind_spine_a
   Spine: bind_spine_c
+  LeftEye: ""
+  RightEye: ""
   RightHand: bind_right_front_ball
   RightForeArm: bind_left_front_wrist
   RightMidArm: bind_left_front_elbow
@@ -284,11 +328,13 @@
   LeftForeArm: bind_right_front_wrist
   LeftMidArm: bind_left_front_elbow
   LeftUpperArm: bind_left_front_shoulder
-- SkeletonName: withered_regurgitator
+- SkeletonName: withered_regurgitator_skel
   Xform: Xform
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -302,6 +348,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: ""
+  RightEye: ""
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -315,19 +363,38 @@
   Head: bind_head
   Neck: bind_spine_a
   Spine: bind_spine_c
-  RightHand: right_hand_attachment
+  LeftEye: ""
+  RightEye: ""
+  RightHand: right_hand_attach
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
   RightUpperArm: bind_right_up_arm_twist_a
-  LeftHand: left_hand_attachment
+  LeftHand: left_hand_attach
   LeftForeArm: bind_left_lo_arm_twist_a
   LeftMidArm: bind_left_elbow
   LeftUpperArm: bind_left_up_arm_twist_a
+- SkeletonName: lostpikeman_skel
+  Xform: Xform
+  Head: Head
+  Neck: Neck
+  Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
+  RightHand: right_hand_attach
+  RightForeArm: Forearm_right_twist
+  RightMidArm: MidArm_right
+  RightUpperArm: UpperArm_right
+  LeftHand: left_hand_attach
+  LeftForeArm: Forearm_left_twist
+  LeftMidArm: MidArm_left
+  LeftUpperArm: UpperArm_left
 - SkeletonName: lostsiren_skel
   Xform: Xform
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid
+  RightEye: bind_right_eyelid
   RightHand: right_hand_attachment
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -341,6 +408,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid
+  RightEye: bind_right_eyelid
   RightHand: right_hand_attachment
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -354,6 +423,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid
+  RightEye: bind_right_eyelid
   RightHand: right_hand_attachment
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -367,6 +438,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: ""
+  RightEye: ""
   RightHand: right_hand_attachment
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -380,6 +453,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: ""
+  RightEye: ""
   RightHand: right_hand_attach
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -393,6 +468,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: ""
+  RightEye: ""
   RightHand: right_hand_attachment
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -406,6 +483,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid
+  RightEye: bind_right_eyelid
   RightHand: right_hand_attachment
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -419,6 +498,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid
+  RightEye: bind_right_eyelid
   RightHand: right_hand_attachment
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -432,6 +513,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: l_mid_brow_BND
+  RightEye: r_mid_brow_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -445,6 +528,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_brow
+  RightEye: bind_right_brow
   RightHand: right_hand_attach
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -458,6 +543,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid
+  RightEye: bind_right_eyelid
   RightHand: right_hand_attach
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -471,6 +558,8 @@
   Head: c_neck3_BND
   Neck: c_neck3_BND
   Spine: c_spine3_BND
+  LeftEye: l_eyebrow1_BND
+  RightEye: r_eyebrow1_BND
   RightHand: l_wrist2_BND
   RightForeArm: l_arm3_BND
   RightMidArm: l_arm2_BND
@@ -484,6 +573,8 @@
   Head: c_neck3_BND
   Neck: c_neck3_BND
   Spine: ""
+  LeftEye: ""
+  RightEye: ""
   RightHand: ""
   RightForeArm: ""
   RightMidArm: ""
@@ -497,6 +588,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: ""
+  RightEye: ""
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -510,6 +603,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -523,6 +618,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: ""
+  RightEye: ""
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -536,6 +633,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: ""
+  RightEye: ""
   RightHand: bind_right_front_ball
   RightForeArm: bind_left_front_wrist
   RightMidArm: bind_left_front_elbow
@@ -549,6 +648,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: ""
+  RightEye: ""
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -562,6 +663,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -575,6 +678,8 @@
   Head: head_jnt
   Neck: neck_1_jnt
   Spine: spine_3_jnt
+  LeftEye: ""
+  RightEye: ""
   RightHand: right_hand_jnt
   RightForeArm: ""
   RightMidArm: ""
@@ -588,6 +693,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -601,6 +708,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -614,6 +723,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -627,6 +738,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -640,6 +753,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -653,6 +768,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: ""
+  RightEye: ""
   RightHand: right_hand_attachment
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -666,6 +783,8 @@
   Head: bind_hook
   Neck: ""
   Spine: spine_beam
+  LeftEye: bind_hook
+  RightEye: bind_hook
   RightHand: bind_spline_k
   RightForeArm: bind_spline_i
   RightMidArm: bind_spline_g
@@ -679,6 +798,8 @@
   Head: Head
   Neck: Neck
   Spine: c_spineTwist5_BND
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -692,6 +813,8 @@
   Head: Head
   Neck: Neck
   Spine: c_spineTwist5_BND
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -705,6 +828,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine3
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -718,6 +843,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine3
+  LeftEye: ""
+  RightEye: ""
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -731,6 +858,8 @@
   Head: bind_head_jnt
   Neck: bind_neck_1_jnt
   Spine: bind_spine_2_jnt
+  LeftEye: bind_left_eye_jnt
+  RightEye: bind_right_eye_jnt
   RightHand: bind_right_hand_jnt
   RightForeArm: bind_right_wrist_jnt
   RightMidArm: bind_right_arm_jnt
@@ -744,6 +873,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -757,6 +888,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid
+  RightEye: bind_right_eyelid
   RightHand: right_hand_attachment
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -770,6 +903,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -783,6 +918,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid
+  RightEye: bind_right_eyelid
   RightHand: right_hand_attachment
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -796,6 +933,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -809,6 +948,8 @@
   Head: Head
   Neck: Neck
   Spine: c_spineTwist5_BND
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -822,6 +963,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid
+  RightEye: bind_right_eyelid
   RightHand: right_hand_attachment
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -835,6 +978,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -848,6 +993,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -861,6 +1008,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -874,6 +1023,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -887,6 +1038,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine3
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_twist02_right
   RightMidArm: UpperArm_twist03_right
@@ -900,6 +1053,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid
+  RightEye: bind_right_eyelid
   RightHand: right_hand_attach
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -913,6 +1068,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid
+  RightEye: bind_right_eyelid
   RightHand: right_hand_attach
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -926,6 +1083,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_b
+  LeftEye: ""
+  RightEye: ""
   RightHand: bind_right_hand_thumb_a
   RightForeArm: bind_right_wrist
   RightMidArm: bind_right_elbow
@@ -939,6 +1098,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_b
+  LeftEye: ""
+  RightEye: ""
   RightHand: bind_right_hand_thumb_a
   RightForeArm: bind_right_wrist
   RightMidArm: bind_right_elbow
@@ -952,6 +1113,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_b
+  LeftEye: ""
+  RightEye: ""
   RightHand: bind_right_wrist
   RightForeArm: bind_right_wrist
   RightMidArm: bind_right_elbow
@@ -965,6 +1128,8 @@
   Head: neck_C0_head_jnt
   Neck: neck_C0_2_jnt
   Spine: spine_C1_3_jnt
+  LeftEye: ""
+  RightEye: ""
   RightHand: frontPaw_toes_R1_0_jnt
   RightForeArm: arm_R0_lowerarm_twist_01_jnt
   RightMidArm: arm_R0_lowerarm_jnt
@@ -978,6 +1143,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine3
+  LeftEye: ""
+  RightEye: ""
   RightHand: right_hand_attach
   RightForeArm: Forearm_twist02_right
   RightMidArm: UpperArm_twist03_right
@@ -991,6 +1158,8 @@
   Head: head
   Neck: neck
   Spine: spine2
+  LeftEye: ""
+  RightEye: ""
   RightHand: r_wrist
   RightForeArm: Forearm_twist03_right
   RightMidArm: Forearm_twist01_right
@@ -1004,6 +1173,8 @@
   Head: Head
   Neck: Neck
   Spine: spine3
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_twist03_right
   RightMidArm: Forearm_twist01_right
@@ -1017,6 +1188,8 @@
   Head: bind_head_01
   Neck: bind_neck_01
   Spine: bind_spine_04
+  LeftEye: ""
+  RightEye: ""
   RightHand: right_hand_attach
   RightForeArm: Forearm_twist03_right
   RightMidArm: Forearm_twist01_right
@@ -1030,6 +1203,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid
+  RightEye: bind_right_eyelid
   RightHand: right_hand_attach
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -1043,6 +1218,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid_lower
+  RightEye: bind_right_eyelid_lower
   RightHand: right_hand_attach
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -1056,6 +1233,8 @@
   Head: bind_head
   Neck: bind_spine_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid_bttm
+  RightEye: bind_right_eyelid_bttm
   RightHand: right_hand_weapon_attachment
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -1069,6 +1248,8 @@
   Head: bind_head
   Neck: bind_spine_a
   Spine: bind_spine_c
+  LeftEye: ""
+  RightEye: ""
   RightHand: right_hand_weapon_attachment
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -1082,6 +1263,8 @@
   Head: bind_head
   Neck: bind_spine_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid_lower
+  RightEye: bind_right_eyelid_lower
   RightHand: right_hand_weapon_attachment
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -1095,6 +1278,8 @@
   Head: bind_head
   Neck: bind_spine_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid_lower
+  RightEye: bind_right_eyelid_lower
   RightHand: right_hand_weapon_attachment
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -1108,6 +1293,8 @@
   Head: Head_C0_0_jnt
   Neck: ""
   Spine: ""
+  LeftEye: spline_C0_2_jnt
+  RightEye: spline_C0_2_jnt
   RightHand: ""
   RightForeArm: ""
   RightMidArm: ""
@@ -1121,6 +1308,8 @@
   Head: Head
   Neck: Neck_rig
   Spine: Spine3
+  LeftEye: Look
+  RightEye: Look
   RightHand: right_hand_attach
   RightForeArm: Forearm_right
   RightMidArm: UpperArm_right
@@ -1134,6 +1323,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid
+  RightEye: bind_right_eyelid
   RightHand: right_hand_attach
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -1147,6 +1338,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -1160,6 +1353,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_a
+  LeftEye: ""
+  RightEye: ""
   RightHand: right_hand_attach
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -1173,6 +1368,8 @@
   Head: bind_head_01
   Neck: bind_neck_01
   Spine: bind_spine_03
+  LeftEye: ""
+  RightEye: ""
   RightHand: bind_right_frontFoot_01
   RightForeArm: bind_right_frontLeg_03
   RightMidArm: bind_right_frontLeg_02
@@ -1186,6 +1383,8 @@
   Head: Xform
   Neck: Xform
   Spine: Xform
+  LeftEye: ""
+  RightEye: ""
   RightHand: Xform
   RightForeArm: Xform
   RightMidArm: Xform
@@ -1199,6 +1398,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: Hand_right
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -1212,6 +1413,8 @@
   Head: Head
   Neck: Neck
   Spine: c_spineTwist5_BND
+  LeftEye: ""
+  RightEye: ""
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -1225,6 +1428,8 @@
   Head: Head
   Neck: Neck
   Spine: c_spineTwist5_BND
+  LeftEye: ""
+  RightEye: ""
   RightHand: right_hand_attach
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -1238,6 +1443,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right
   RightMidArm: UpperArm_right
@@ -1251,6 +1458,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: Forearm_right
   RightMidArm: UpperArm_right
@@ -1264,6 +1473,8 @@
   Head: C_neck_HEAD_jnt
   Neck: C_neck_0_jnt
   Spine: C_spine_2_jnt
+  LeftEye: L_eye_EYE_jnt
+  RightEye: R_eye_EYE_jnt
   RightHand: R_arm_END_jnt
   RightForeArm: R_arm_3_jnt
   RightMidArm: R_arm_2_jnt
@@ -1277,6 +1488,8 @@
   Head: C_neck0_head_jnt
   Neck: C_neck0_0_jnt
   Spine: C_spine0_0_jnt
+  LeftEye: R_eye0_eye_jnt
+  RightEye: L_eye0_eye_jnt
   RightHand: R_legFront0_end_jnt
   RightForeArm: R_legFront0_8_jnt
   RightMidArm: R_legFront0_5_jnt
@@ -1290,6 +1503,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eye
+  RightEye: bind_right_eye
   RightHand: right_hand_attach
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -1303,6 +1518,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: right_hand_attach
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -1316,6 +1533,8 @@
   Head: Head
   Neck: M_Spine_RazorLotus_C0_9_jnt
   Spine: M_Spine_RazorLotus_C0_4_jnt
+  LeftEye: head
+  RightEye: head
   RightHand: M_Spine_RazorLotus_C0_4_jnt
   RightForeArm: M_Spine_RazorLotus_C0_4_jnt
   RightMidArm: M_Spine_RazorLotus_C0_4_jnt
@@ -1329,6 +1548,8 @@
   Head: neck_C0_head_jnt
   Neck: neck_C0_2_jnt
   Spine: spine_C1_2_jnt
+  LeftEye: eye_L0_0_jnt
+  RightEye: eye_R0_0_jnt
   RightHand: arm_R0_hand_jnt
   RightForeArm: arm_R0_Lowerarm_twist_01_jnt
   RightMidArm: arm_R0_lowerarm_jnt
@@ -1342,6 +1563,8 @@
   Head: neck_C0_head_jnt
   Neck: neck_C0_2_jnt
   Spine: spine_C1_3_jnt
+  LeftEye: ""
+  RightEye: ""
   RightHand: frontPaw_toes_R1_0_jnt
   RightForeArm: arm_R0_lowerarm_twist_01_jnt
   RightMidArm: arm_R0_lowerarm_jnt
@@ -1355,6 +1578,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: tentacleSpineA_C0_spine_02_Jnt
+  LeftEye: EyeBallA_L0_01_Jnt
+  RightEye: EyeBallC_R0_01_Jnt
   RightHand: hand_attach_R0_hand_attach_Jnt
   RightForeArm: arm_R0_lowerarm_twist_01_Jnt
   RightMidArm: arm_R0_upperarm_twist_01_Jnt
@@ -1368,6 +1593,8 @@
   Head: M_Spine_ExplosiveSprout_C0_0_bind
   Neck: M_Spine_ExplosiveSprout_C0_0_bind
   Spine: M_Spine_ExplosiveSprout_C0_0_bind
+  LeftEye: ""
+  RightEye: ""
   RightHand: M_Spine_ExplosiveSprout_C0_0_bind
   RightForeArm: M_Spine_ExplosiveSprout_C0_0_bind
   RightMidArm: M_Spine_ExplosiveSprout_C0_0_bind
@@ -1381,6 +1608,8 @@
   Head: crystal_C0_0_jnt
   Neck: crystal_C0_0_jnt
   Spine: crystal_C0_0_jnt
+  LeftEye: ""
+  RightEye: ""
   RightHand: crystal_C0_0_jnt
   RightForeArm: crystal_C0_0_jnt
   RightMidArm: crystal_C0_0_jnt
@@ -1394,6 +1623,8 @@
   Head: C_neck0_head_jnt
   Neck: C_neck0_0_jnt
   Spine: C_spine0_0_jnt
+  LeftEye: L_eye0_eye_jnt
+  RightEye: R_eye0_eye_jnt
   RightHand: R_legFront0_end_jnt
   RightForeArm: R_legFront0_8_jnt
   RightMidArm: R_legFront0_5_jnt
@@ -1407,6 +1638,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid
+  RightEye: bind_right_eyelid
   RightHand: bind_right_wrist
   RightForeArm: bind_right_elbow
   RightMidArm: bind_right_shoulder
@@ -1420,6 +1653,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eye
+  RightEye: bind_right_eye
   RightHand: right_hand_attach
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -1433,11 +1668,28 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid
+  RightEye: bind_right_eyelid
   RightHand: right_hand_attach
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
   RightUpperArm: bind_right_up_arm_twist_a
   LeftHand: left_hand_attach
+  LeftForeArm: bind_left_lo_arm_twist_a
+  LeftMidArm: bind_left_elbow
+  LeftUpperArm: bind_left_up_arm_twist_a
+- SkeletonName: hercyne_elephant_skel
+  Xform: Xform
+  Head: bind_head
+  Neck: bind_spine_a
+  Spine: bind_spine_c
+  LeftEye: bind_left_eyelid
+  RightEye: bind_right_eyelid
+  RightHand: right_hand_attachment
+  RightForeArm: bind_right_lo_arm_twist_a
+  RightMidArm: bind_right_elbow
+  RightUpperArm: bind_right_up_arm_twist_a
+  LeftHand: left_hand_attachment
   LeftForeArm: bind_left_lo_arm_twist_a
   LeftMidArm: bind_left_elbow
   LeftUpperArm: bind_left_up_arm_twist_a
@@ -1446,6 +1698,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid
+  RightEye: bind_right_eyelid
   RightHand: right_hand_attach
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -1454,11 +1708,43 @@
   LeftForeArm: bind_left_lo_arm_twist_a
   LeftMidArm: bind_left_elbow
   LeftUpperArm: bind_left_up_arm_twist_a
+- SkeletonName: typhon_skel
+  Xform: Xform
+  Head: bind_head
+  Neck: bind_neck_a
+  Spine: bind_spine_c
+  LeftEye: bind_left_eye
+  RightEye: bind_right_eye
+  RightHand: right_hand_attach
+  RightForeArm: bind_right_lo_arm_twist_a
+  RightMidArm: bind_right_elbow
+  RightUpperArm: bind_right_up_arm_twist_a
+  LeftHand: left_hand_attach
+  LeftForeArm: bind_left_lo_arm_twist_a
+  LeftMidArm: bind_left_elbow
+  LeftUpperArm: bind_left_up_arm_twist_a
+- SkeletonName: broodmother_skel
+  Xform: xform_c0_xform_jnt
+  Head: neck_c1_4_jnt
+  Neck: neck_c1_2_jnt
+  Spine: spine_c1_3_jnt
+  LeftEye: ""
+  RightEye: ""
+  RightHand: arm_r0_hand_jnt
+  RightForeArm: arm_r0_lowerarm_twist_01_jnt
+  RightMidArm: arm_r0_lowerarm_jnt
+  RightUpperArm: arm_r0_upperarm_twist_01_jnt
+  LeftHand: arm_l0_hand_jnt
+  LeftForeArm: arm_l0_lowerarm_twist_01_jnt
+  LeftMidArm: arm_l0_lowerarm_jnt
+  LeftUpperArm: arm_l0_upperarm_twist_01_jnt
 - SkeletonName: EmpressZhou_skel
   Xform: Xform
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid
+  RightEye: bind_right_eyelid
   RightHand: bind_right_wrist
   RightForeArm: bind_right_elbow
   RightMidArm: bind_right_shoulder
@@ -1472,6 +1758,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eye
+  RightEye: bind_right_eye
   RightHand: bind_right_wrist
   RightForeArm: bind_right_elbow
   RightMidArm: bind_right_shoulder
@@ -1485,6 +1773,8 @@
   Head: Head
   Neck: Neck
   Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
   RightHand: Hand_right
   RightForeArm: Forearm_right_twist
   RightMidArm: MidArm_right
@@ -1498,6 +1788,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid
+  RightEye: bind_right_eyelid
   RightHand: right_hand_attachment
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -1511,6 +1803,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: bind_left_eyelid
+  RightEye: bind_right_eyelid
   RightHand: right_hand_attachment
   RightForeArm: bind_right_lo_arm_twist_a
   RightMidArm: bind_right_elbow
@@ -1519,11 +1813,28 @@
   LeftForeArm: bind_left_lo_arm_twist_a
   LeftMidArm: bind_left_elbow
   LeftUpperArm: bind_left_up_arm_twist_a
+- SkeletonName: graceomalley_skel
+  Xform: Xform
+  Head: Head
+  Neck: Neck
+  Spine: Spine2
+  LeftEye: Eye_left_BND
+  RightEye: Eye_right_BND
+  RightHand: Hand_right
+  RightForeArm: Forearm_roll_right
+  RightMidArm: MidArm_right
+  RightUpperArm: UpperArm_right
+  LeftHand: Hand_left
+  LeftForeArm: Forearm_roll_left
+  LeftMidArm: MidArm_left
+  LeftUpperArm: UpperArm_left
 - SkeletonName: AbominableLiang_skel
   Xform: Xform
   Head: bind_head
   Neck: bind_spine_a
   Spine: bind_spine_c
+  LeftEye: ""
+  RightEye: ""
   RightHand: bind_right_front_ball
   RightForeArm: bind_left_front_wrist
   RightMidArm: bind_left_front_elbow
@@ -1537,6 +1848,8 @@
   Head: bind_head
   Neck: bind_neck_a
   Spine: bind_spine_c
+  LeftEye: ""
+  RightEye: ""
   RightHand: bind_right_wrist
   RightForeArm: bind_right_elbow
   RightMidArm: bind_right_shoulder
@@ -1545,3 +1858,18 @@
   LeftForeArm: bind_left_elbow
   LeftMidArm: bind_left_shoulder
   LeftUpperArm: bind_left_scapula
+- SkeletonName: LostMonarch_skel
+  Xform: Xform
+  Head: Head
+  Neck: Neck
+  Spine: Spine2
+  LeftEye: ""
+  RightEye: ""
+  RightHand: Hand_right
+  RightForeArm: Forearm_right_twist
+  RightMidArm: MidArm_right
+  RightUpperArm: UpperArm_right
+  LeftHand: Hand_left
+  LeftForeArm: Forearm_left_twist
+  LeftMidArm: MidArm_left
+  LeftUpperArm: UpperArm_left

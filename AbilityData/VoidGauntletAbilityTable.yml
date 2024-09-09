@@ -1,7 +1,7 @@
 - AbilityID: Ability_VoidGauntlet_VoidBlade
   DisplayName: "@VoidGauntlet_Ability_VoidBlade"
   Description: "@VoidGauntlet_Ability_VoidBlade_description"
-  UICategory: Melee Damage
+  UICategory: Attack
   UISpellForManaCheck: VoidGauntlet_VoidBlade
   Icon: lyshineui/images/icons/abilities/voidmagic_Ability01.png
   StatusEffectIcon: ""
@@ -91,6 +91,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -119,6 +120,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -160,7 +162,7 @@
 - AbilityID: Upgrade_VoidGauntlet_VoidBlade_Fortify
   DisplayName: "@VoidGauntlet_Upgrade_VoidBlade_Fortify"
   Description: "@VoidGauntlet_Upgrade_VoidBlade_Fortify_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/voidmagic_Ability01_Mod01.png
   StatusEffectIcon: ""
@@ -250,6 +252,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -278,6 +281,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -319,7 +323,7 @@
 - AbilityID: Upgrade_VoidGauntlet_VoidBlade_CritDmg
   DisplayName: "@VoidGauntlet_Upgrade_VoidBlade_CritDmg"
   Description: "@VoidGauntlet_Upgrade_VoidBlade_CritDmg_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/voidmagic_Ability01_Mod02.png
   StatusEffectIcon: ""
@@ -409,6 +413,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -437,6 +442,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -478,7 +484,7 @@
 - AbilityID: Upgrade_VoidGauntlet_VoidBlade_HealOnHvy
   DisplayName: "@VoidGauntlet_Upgrade_VoidBlade_HealOnHvy"
   Description: "@VoidGauntlet_Upgrade_VoidBlade_HealOnHvy_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/voidmagic_Ability01_Mod03.png
   StatusEffectIcon: ""
@@ -568,6 +574,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -596,7 +603,8 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
-  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override
+  StatusEffectDamageTableIdForRowOverride: DamageTable
+  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override_VoidGauntlet
   ForceStatusEffectDamageTableRow: true
   PowerLevelOverride: ""
   EnableCrit: ""
@@ -637,7 +645,7 @@
 - AbilityID: Ability_VoidGauntlet_NullChamber
   DisplayName: "@VoidGauntlet_Ability_NullChamber"
   Description: "@VoidGauntlet_Ability_NullChamber_description"
-  UICategory: Magic Damage
+  UICategory: Attack
   UISpellForManaCheck: VoidGauntlet_NullChamber_AoE
   Icon: lyshineui/images/icons/abilities/voidmagic_Ability02.png
   StatusEffectIcon: ""
@@ -727,6 +735,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -755,6 +764,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -796,7 +806,7 @@
 - AbilityID: Upgrade_VoidGauntlet_NullChamber_WeakenOnHit
   DisplayName: "@VoidGauntlet_Upgrade_NullChamber_WeakenOnHit"
   Description: "@VoidGauntlet_Upgrade_NullChamber_WeakenOnHit_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/voidmagic_Ability02_Mod01.png
   StatusEffectIcon: ""
@@ -886,6 +896,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -914,7 +925,8 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
-  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override
+  StatusEffectDamageTableIdForRowOverride: DamageTable
+  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override_VoidGauntlet
   ForceStatusEffectDamageTableRow: true
   PowerLevelOverride: ""
   EnableCrit: ""
@@ -955,7 +967,7 @@
 - AbilityID: Upgrade_VoidGauntlet_NullChamber_BonusStamina
   DisplayName: "@VoidGauntlet_Upgrade_NullChamber_BonusStamina"
   Description: "@VoidGauntlet_Upgrade_NullChamber_BonusStamina_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/voidmagic_Ability02_Mod02.png
   StatusEffectIcon: ""
@@ -1045,6 +1057,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1073,6 +1086,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -1114,7 +1128,7 @@
 - AbilityID: Ability_VoidGauntlet_Scream
   DisplayName: "@VoidGauntlet_Ability_Scream"
   Description: "@VoidGauntlet_Ability_Scream_description"
-  UICategory: Debuff
+  UICategory: Attack
   UISpellForManaCheck: VoidGauntlet_Scream
   Icon: lyshineui/images/icons/abilities/voidmagic_Ability03.png
   StatusEffectIcon: ""
@@ -1204,6 +1218,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1232,6 +1247,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -1273,7 +1289,7 @@
 - AbilityID: Upgrade_VoidGauntlet_Scream_BonusDurVsLowHP
   DisplayName: "@VoidGauntlet_Upgrade_Scream_BonusDurationVsLowHP"
   Description: "@VoidGauntlet_Upgrade_Scream_BonusDurationVsLowHP_description"
-  UICategory: Debuff
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/voidmagic_Ability03_Mod01.png
   StatusEffectIcon: ""
@@ -1363,6 +1379,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1391,6 +1408,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -1432,7 +1450,7 @@
 - AbilityID: Upgrade_VoidGauntlet_Scream_FortifyPerHit
   DisplayName: "@VoidGauntlet_Upgrade_Scream_FortifyPerHit"
   Description: "@VoidGauntlet_Upgrade_Scream_FortifyPerHit_description"
-  UICategory: Debuff
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/voidmagic_Ability03_Mod02.png
   StatusEffectIcon: ""
@@ -1522,6 +1540,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1550,6 +1569,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -1614,7 +1634,7 @@
   ScalingConstitution: ""
   OnKill: false
   OnExecuted: false
-  OnHit: false
+  OnHit: true
   OnBlockedHit: false
   OnCrit: false
   OnHeadShot: false
@@ -1627,7 +1647,7 @@
   OnAttachedSpellTargetDied: false
   OnSelfDamage: false
   OnStatusEffectApplied: false
-  RequireReaction: null
+  RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
@@ -1643,7 +1663,7 @@
   DamageTableRow: ""
   RemoteDamageTableRow: ""
   RangedAttackName: ""
-  AttackType: ""
+  AttackType: Heavy
   StatusEffect: ""
   StatusEffectStackSize: null
   StatusEffectComparison: ""
@@ -1661,8 +1681,8 @@
   MyComparisonType: ""
   MyStaminaPercent: ""
   MyStaminaComparisonType: ""
-  MyManaPercent: null
-  MyManaComparisonType: ""
+  MyManaPercent: 50.0
+  MyManaComparisonType: LessThan
   TargetHealthPercent: null
   TargetComparisonType: ""
   DistFromDefender: ""
@@ -1681,6 +1701,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1702,13 +1723,14 @@
   Health: ""
   DmgPctToHealth: null
   MaxHealth: ""
-  Mana: null
+  Mana: 0.05
   MaxMana: ""
   ManaCostList: ""
   ManaCostMult: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -1746,7 +1768,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  ActivationCooldown: null
+  ActivationCooldown: 0.5
 - AbilityID: Passive_VoidGauntlet_BonusCritChanceHighHP
   DisplayName: "@VoidGauntlet_Passive_BonusCritChanceHighHP"
   Description: "@VoidGauntlet_Passive_BonusCritChanceHighHP_description"
@@ -1840,6 +1862,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1868,6 +1891,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -1999,6 +2023,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2027,6 +2052,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -2158,6 +2184,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2186,6 +2213,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -2317,6 +2345,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2345,6 +2374,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -2476,6 +2506,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2504,6 +2535,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -2635,6 +2667,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2663,6 +2696,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -2794,6 +2828,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2822,6 +2857,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -2953,6 +2989,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2981,6 +3018,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -3022,7 +3060,7 @@
 - AbilityID: Ability_VoidGauntlet_DecayingOrb
   DisplayName: "@VoidGauntlet_Ability_DecayingOrb"
   Description: "@VoidGauntlet_Ability_DecayingOrb_description"
-  UICategory: Debuff
+  UICategory: Heal
   UISpellForManaCheck: VoidGauntlet_DecayingOrb
   Icon: lyshineui/images/icons/abilities/voidmagic_Ability04_Mod01.png
   StatusEffectIcon: ""
@@ -3045,7 +3083,7 @@
   ScalingConstitution: ""
   OnKill: false
   OnExecuted: false
-  OnHit: false
+  OnHit: true
   OnBlockedHit: false
   OnCrit: false
   OnHeadShot: false
@@ -3058,7 +3096,7 @@
   OnAttachedSpellTargetDied: false
   OnSelfDamage: false
   OnStatusEffectApplied: false
-  RequireReaction: null
+  RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
@@ -3071,7 +3109,7 @@
   DamageIsMelee: null
   ForceShowNameTag: ""
   TargetHasGritActive: ""
-  DamageTableRow: ""
+  DamageTableRow: VoidGauntlet_DecayingOrb
   RemoteDamageTableRow: ""
   RangedAttackName: ""
   AttackType: ""
@@ -3112,7 +3150,8 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
-  BaseDamage: null
+  TargetVitalsCategory: Hostile
+  BaseDamage: 0.2
   BaseDamageReduction: ""
   BlockDamage: ""
   BlockDamageReduction: ""
@@ -3140,6 +3179,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -3169,7 +3209,7 @@
   TargetStatusEffectDurationMod: null
   TargetStatusEffectDurationMult: null
   Duration: null
-  CooldownId: Ability_VoidGauntlet_DecayingOrb
+  CooldownId: ""
   CDRImmediatelyOptions: ""
   ResetCooldownTimers: ""
   CooldownTimer: null
@@ -3181,7 +3221,7 @@
 - AbilityID: Upgrade_VoidGauntlet_DecayingOrb_ManaPerHit
   DisplayName: "@VoidGauntlet_Upgrade_DecayingOrb_ManaPerHit"
   Description: "@VoidGauntlet_Upgrade_DecayingOrb_ManaPerHit_description"
-  UICategory: Debuff
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/voidmagic_Ability04_Mod02.png
   StatusEffectIcon: ""
@@ -3271,6 +3311,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3299,7 +3340,8 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
-  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override
+  StatusEffectDamageTableIdForRowOverride: DamageTable
+  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override_VoidGauntlet
   ForceStatusEffectDamageTableRow: true
   PowerLevelOverride: ""
   EnableCrit: ""
@@ -3340,7 +3382,7 @@
 - AbilityID: Upgrade_VoidGauntlet_DecayingOrb_SlowVsDebuff
   DisplayName: "@VoidGauntlet_Upgrade_DecayingOrb_SlowVsDebuff"
   Description: "@VoidGauntlet_Upgrade_DecayingOrb_SlowVsDebuff_description"
-  UICategory: Debuff
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/voidmagic_Ability04_Mod03.png
   StatusEffectIcon: ""
@@ -3430,6 +3472,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3458,7 +3501,8 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
-  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override
+  StatusEffectDamageTableIdForRowOverride: DamageTable
+  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override_VoidGauntlet
   ForceStatusEffectDamageTableRow: true
   PowerLevelOverride: ""
   EnableCrit: ""
@@ -3499,7 +3543,7 @@
 - AbilityID: Upgrade_VoidGauntlet_DecayingOrb_ManualDetonate
   DisplayName: "@VoidGauntlet_Upgrade_DecayingOrb_ManualDetonate"
   Description: "@VoidGauntlet_Upgrade_DecayingOrb_ManualDetonate_description"
-  UICategory: Debuff
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/voidmagic_Ability04_Mod04.png
   StatusEffectIcon: ""
@@ -3522,7 +3566,7 @@
   ScalingConstitution: ""
   OnKill: false
   OnExecuted: false
-  OnHit: false
+  OnHit: true
   OnBlockedHit: false
   OnCrit: false
   OnHeadShot: false
@@ -3535,7 +3579,7 @@
   OnAttachedSpellTargetDied: false
   OnSelfDamage: false
   OnStatusEffectApplied: false
-  RequireReaction: null
+  RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
@@ -3549,7 +3593,7 @@
   ForceShowNameTag: ""
   TargetHasGritActive: ""
   DamageTableRow: ""
-  RemoteDamageTableRow: ""
+  RemoteDamageTableRow: VoidGauntlet_DecayingOrb_Detonate_Damage
   RangedAttackName: ""
   AttackType: ""
   StatusEffect: ""
@@ -3589,7 +3633,8 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
-  BaseDamage: null
+  TargetVitalsCategory: Hostile
+  BaseDamage: 0.3
   BaseDamageReduction: ""
   BlockDamage: ""
   BlockDamageReduction: ""
@@ -3617,6 +3662,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -3658,7 +3704,7 @@
 - AbilityID: Ability_VoidGauntlet_DrainingTether
   DisplayName: "@VoidGauntlet_Ability_DrainingTether"
   Description: "@VoidGauntlet_Ability_DrainingTether_description"
-  UICategory: Debuff
+  UICategory: Attack
   UISpellForManaCheck: VoidGauntlet_DrainingTether_Projectile
   Icon: lyshineui/images/icons/abilities/voidmagic_Ability05.png
   StatusEffectIcon: ""
@@ -3748,6 +3794,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3776,6 +3823,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -3817,7 +3865,7 @@
 - AbilityID: Upgrade_VoidGauntlet_DrainingTether_CDROnHit
   DisplayName: "@VoidGauntlet_Upgrade_DrainingTether_CDROnHit"
   Description: "@VoidGauntlet_Upgrade_DrainingTether_CDROnHit_description"
-  UICategory: Debuff
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/voidmagic_Ability05_Mod01.png
   StatusEffectIcon: ""
@@ -3907,6 +3955,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3935,7 +3984,8 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
-  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override
+  StatusEffectDamageTableIdForRowOverride: DamageTable
+  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override_VoidGauntlet
   ForceStatusEffectDamageTableRow: true
   PowerLevelOverride: ""
   EnableCrit: ""
@@ -3976,7 +4026,7 @@
 - AbilityID: Upgrade_VoidGauntlet_DrainingTether_ManaRegen
   DisplayName: "@VoidGauntlet_Upgrade_DrainingTether_ManaRegen"
   Description: "@VoidGauntlet_Upgrade_DrainingTether_ManaRegen_description"
-  UICategory: Debuff
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/voidmagic_Ability05_Mod02.png
   StatusEffectIcon: ""
@@ -4066,6 +4116,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4094,6 +4145,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -4135,7 +4187,7 @@
 - AbilityID: Upgrade_VoidGauntlet_DrainingTether_HealthOnDeath
   DisplayName: "@VoidGauntlet_Upgrade_DrainingTether_HealthOnDeath"
   Description: "@VoidGauntlet_Upgrade_DrainingTether_HealthOnDeath_description"
-  UICategory: Debuff
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/voidmagic_Ability05_Mod03.png
   StatusEffectIcon: ""
@@ -4225,6 +4277,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4253,6 +4306,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -4294,7 +4348,7 @@
 - AbilityID: Ability_VoidGauntlet_EssenceRupture
   DisplayName: "@VoidGauntlet_Ability_EssenceRupture"
   Description: "@VoidGauntlet_Ability_EssenceRupture_description"
-  UICategory: Debuff
+  UICategory: Heal
   UISpellForManaCheck: VoidGauntlet_EssenceRupture_Projectile
   Icon: lyshineui/images/icons/abilities/voidmagic_Ability06.png
   StatusEffectIcon: ""
@@ -4330,7 +4384,7 @@
   OnAttachedSpellTargetDied: false
   OnSelfDamage: false
   OnStatusEffectApplied: false
-  RequireReaction: null
+  RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
@@ -4343,7 +4397,7 @@
   DamageIsMelee: null
   ForceShowNameTag: ""
   TargetHasGritActive: ""
-  DamageTableRow: ""
+  DamageTableRow: VoidGauntlet_EssenceRupture
   RemoteDamageTableRow: ""
   RangedAttackName: ""
   AttackType: ""
@@ -4384,7 +4438,8 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
-  BaseDamage: null
+  TargetVitalsCategory: Hostile
+  BaseDamage: 0.25
   BaseDamageReduction: ""
   BlockDamage: ""
   BlockDamageReduction: ""
@@ -4412,8 +4467,9 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
-  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override
-  ForceStatusEffectDamageTableRow: true
+  StatusEffectDamageTableIdForRowOverride: ""
+  StatusEffectDamageTableRowOverride: ""
+  ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
   EnableCrit: ""
   PerStatusEffectOnTarget: ""
@@ -4441,7 +4497,7 @@
   TargetStatusEffectDurationMod: null
   TargetStatusEffectDurationMult: null
   Duration: null
-  CooldownId: Ability_VoidGauntlet_EssenceRupture
+  CooldownId: ""
   CDRImmediatelyOptions: ""
   ResetCooldownTimers: ""
   CooldownTimer: null
@@ -4453,7 +4509,7 @@
 - AbilityID: Upgrade_VoidGauntlet_EssenceRupture_StaminaOnHit
   DisplayName: "@VoidGauntlet_Upgrade_EssenceRupture_StaminaOnHit"
   Description: "@VoidGauntlet_Upgrade_EssenceRupture_StaminaOnHit_description"
-  UICategory: Debuff
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/voidmagic_Ability06_Mod01.png
   StatusEffectIcon: ""
@@ -4543,6 +4599,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4571,7 +4628,8 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
-  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override
+  StatusEffectDamageTableIdForRowOverride: DamageTable
+  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override_VoidGauntlet
   ForceStatusEffectDamageTableRow: true
   PowerLevelOverride: ""
   EnableCrit: ""
@@ -4612,7 +4670,7 @@
 - AbilityID: Upgrade_VoidGauntlet_EssenceRupture_HealAoEOnEnd
   DisplayName: "@VoidGauntlet_Upgrade_EssenceRupture_HealAoEOnEnd"
   Description: "@VoidGauntlet_Upgrade_EssenceRupture_HealAoEOnEnd_description"
-  UICategory: Debuff
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/voidmagic_Ability06_Mod02.png
   StatusEffectIcon: ""
@@ -4702,6 +4760,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4730,7 +4789,8 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
-  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override
+  StatusEffectDamageTableIdForRowOverride: DamageTable
+  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override_VoidGauntlet
   ForceStatusEffectDamageTableRow: true
   PowerLevelOverride: ""
   EnableCrit: ""
@@ -4861,6 +4921,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4889,7 +4950,8 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
-  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override
+  StatusEffectDamageTableIdForRowOverride: DamageTable
+  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override_VoidGauntlet
   ForceStatusEffectDamageTableRow: true
   PowerLevelOverride: ""
   EnableCrit: ""
@@ -5020,6 +5082,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -5048,6 +5111,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -5179,6 +5243,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -5207,6 +5272,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -5338,6 +5404,7 @@
   InSequence: Ability_VoidGauntlet_Harvest
   InSequenceTime: 0.75
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -5366,6 +5433,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -5497,6 +5565,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -5525,6 +5594,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -5656,6 +5726,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -5684,6 +5755,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -5815,6 +5887,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: Dodge_Roll,Dodge_Roll_Fast,Dodge_Roll_Slow,Dodge_Stunlock
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -5843,6 +5916,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -5974,6 +6048,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -6002,6 +6077,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -6133,6 +6209,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -6161,6 +6238,7 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
@@ -6198,7 +6276,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  ActivationCooldown: 0.1
+  ActivationCooldown: 0.5
 - AbilityID: Passive_VoidGauntlet_ApplySiphonAuraStacks
   DisplayName: ""
   Description: ""
@@ -6292,6 +6370,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -6320,7 +6399,8 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
-  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override
+  StatusEffectDamageTableIdForRowOverride: DamageTable
+  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override_VoidGauntlet
   ForceStatusEffectDamageTableRow: true
   PowerLevelOverride: ""
   EnableCrit: ""
@@ -6451,6 +6531,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -6479,7 +6560,8 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
-  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override
+  StatusEffectDamageTableIdForRowOverride: DamageTable
+  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override_VoidGauntlet
   ForceStatusEffectDamageTableRow: true
   PowerLevelOverride: ""
   EnableCrit: ""

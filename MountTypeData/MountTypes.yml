@@ -7,6 +7,7 @@
   AudioBoneR: right_saddle_attach
   RequiredAchievementId: MountType_Unlock_Horse
   IconCaptureAnim: horse_idle
+  SortedOrder: 1.0
   OffsetX: ""
   OffsetY: ""
   OffsetZ: 0.0
@@ -115,6 +116,7 @@
   AudioBoneR: right_saddle_attach
   RequiredAchievementId: MountType_Unlock_Sabretooth
   IconCaptureAnim: primallion_ambient_idle
+  SortedOrder: 3.0
   OffsetX: ""
   OffsetY: ""
   OffsetZ: 0.0
@@ -223,6 +225,7 @@
   AudioBoneR: right_saddle_attach
   RequiredAchievementId: MountType_Unlock_DireWolf
   IconCaptureAnim: wolf_idle
+  SortedOrder: 2.0
   OffsetX: ""
   OffsetY: ""
   OffsetZ: 0.0
@@ -274,6 +277,115 @@
   PlayerFragmentAbility3: MountAbility3_Wolf
   MountFragmentPet: Pet
   PlayerFragmentPet: MountPet_Wolf
+  LimbIKAnimationLayer: ""
+  LimbIKRootJoint: ""
+  LimbIKFadeOutDistanceRange: ""
+  LimbIKRootOffsetRange: ""
+  LimbIKBlendIKSpeedRange: ""
+  LimbIKContactRayLength: ""
+  LimbIKChainMaxVerticalOffset: ""
+  LimbIKRootSmoothTime: ""
+  Limb0JointName: ""
+  Limb0SolverName: ""
+  Limb0WeightJointName: ""
+  Limb0BlendWeightSmoothTime: ""
+  Limb0TargetSmoothTimeUpAndDown: ""
+  Limb0SlopeNormalSmoothTime: ""
+  Limb0SlopeAngleLimitDegs: ""
+  Limb0AutoBlendRange: ""
+  Limb0AutoBlendRangeScale: ""
+  Limb1JointName: ""
+  Limb1SolverName: ""
+  Limb1WeightJointName: ""
+  Limb1BlendWeightSmoothTime: ""
+  Limb1TargetSmoothTimeUpAndDown: ""
+  Limb1SlopeNormalSmoothTime: ""
+  Limb1SlopeAngleLimitDegs: ""
+  Limb1AutoBlendRange: ""
+  Limb1AutoBlendRangeScale: ""
+  Limb2JointName: ""
+  Limb2SolverName: ""
+  Limb2WeightJointName: ""
+  Limb2BlendWeightSmoothTime: ""
+  Limb2TargetSmoothTimeUpAndDown: ""
+  Limb2SlopeNormalSmoothTime: ""
+  Limb2SlopeAngleLimitDegs: ""
+  Limb2AutoBlendRange: ""
+  Limb2AutoBlendRangeScale: ""
+  Limb3JointName: ""
+  Limb3SolverName: ""
+  Limb3WeightJointName: ""
+  Limb3BlendWeightSmoothTime: ""
+  Limb3TargetSmoothTimeUpAndDown: ""
+  Limb3SlopeNormalSmoothTime: ""
+  Limb3SlopeAngleLimitDegs: ""
+  Limb3AutoBlendRange: ""
+  Limb3AutoBlendRangeScale: ""
+  GatherTime: 0.0
+  SummonTimeMs: 3000.0
+  ForcedDismountCooldownMs: 1000.0
+  VoluntaryDismountCooldownMs: 1000.0
+- MountID: Bear
+  MountHitVolumePrefab: MountHitVolumes/Bear_HitVolumes
+  ContDef: animations/mannequin/adb/mounts/bear_family/mount_bear_controllerdefs.xml
+  ADB: animations/mannequin/adb/mounts/mount_bear_anims.adb
+  FootStepMat: materials/vfx/decals/footstep/paw_fs_dirt02
+  AudioBoneL: AGS_spineIkFk_C0_neck1_jnt
+  AudioBoneR: right_saddle_attach
+  RequiredAchievementId: MountType_Unlock_Bear
+  IconCaptureAnim: mount_bear_idle
+  SortedOrder: 4.0
+  OffsetX: ""
+  OffsetY: ""
+  OffsetZ: 0.0
+  Scale: 1.0
+  TradeskillProgressionId: Riding
+  MountFragmentMountUp: MountUp
+  PlayerFragmentMountUp: MountMountUp_Bear
+  MountFragmentDisMount: DisMount
+  PlayerFragmentDisMount: MountDisMount_Bear
+  MountFragmentIdle: Idle
+  PlayerFragmentIdle: MountIdle_Bear
+  MountFragmentNavWalk: NavWalk
+  PlayerFragmentNavWalk: MountNavWalk_Bear
+  MountFragmentNavCanter: NavCanter
+  PlayerFragmentNavCanter: MountNavCanter_Bear
+  MountFragmentNavGallop: NavGallop
+  PlayerFragmentNavGallop: MountNavGallop_Bear
+  MountFragmentNavBack: NavBack
+  PlayerFragmentNavBack: MountNavBack_Bear
+  MountFragmentStop: NavStop
+  PlayerFragmentStop: MountStop_Bear
+  MountFragmentFall: Fall
+  PlayerFragmentFall: MountFall_Bear
+  MountFragmentFallLand: FallLand
+  PlayerFragmentFallLand: MountFallLand_Bear
+  MountFragmentJump: Jump
+  PlayerFragmentJump: MountJump_Bear
+  MountFragmentLand: Land
+  PlayerFragmentLand: MountLand_Bear
+  MountFragmentUseIdle: UseIdle
+  PlayerFragmentUseIdle: MountUseIdle_Bear
+  MountFragmentInventoryTurn: Inventory_Turn
+  PlayerFragmentInventoryTurn: Inventory_UpperBody_Turn_Bear
+  MountFragmentInventoryIdle: Inventory_Idle
+  PlayerFragmentInventoryIdle: Inventory_UpperBody_Idle_Bear
+  MountFragmentInventoryExit: Inventory_Exit
+  PlayerFragmentInventoryExit: Inventory_UpperBody_Exit_Bear
+  MountFragmentFidget1: Fidget1
+  PlayerFragmentFidget1: MountFidget1_Bear
+  MountFragmentFidget2: Fidget2
+  PlayerFragmentFidget2: MountFidget2_Bear
+  MountFragmentFidget3: Fidget3
+  PlayerFragmentFidget3: MountFidget3_Bear
+  MountFragmentAbility1: Attack
+  PlayerFragmentAbility1: MountAbility1_Bear
+  MountFragmentAbility2: Dig
+  PlayerFragmentAbility2: MountAbility2_Bear
+  MountFragmentAbility3: Ability3
+  PlayerFragmentAbility3: MountAbility3_Bear
+  MountFragmentPet: Pet
+  PlayerFragmentPet: MountPet_Bear
   LimbIKAnimationLayer: ""
   LimbIKRootJoint: ""
   LimbIKFadeOutDistanceRange: ""

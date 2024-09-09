@@ -433,7 +433,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/angryearth_camp.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_campsite.png
   CompassIcon: ""
   DiscoveryRadius: 60.0
   IsDiscoverable: true
@@ -730,7 +730,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\ancient_watchtower.png"
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\ancient_lighthouse.png"
   CompassIcon: ""
   DiscoveryRadius: 1500.0
   IsDiscoverable: true
@@ -1027,7 +1027,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/campsite.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_campsite.png
   CompassIcon: ""
   DiscoveryRadius: 100.0
   IsDiscoverable: true
@@ -1060,7 +1060,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/HiRes/Silver_Crows.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/Silver_Crows.png
   CompassIcon: ""
   DiscoveryRadius: 100.0
   IsDiscoverable: true
@@ -1093,7 +1093,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/military_camp_elite.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_campsite_elite.png
   CompassIcon: ""
   DiscoveryRadius: 125.0
   IsDiscoverable: true
@@ -1121,12 +1121,12 @@
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 30336.0
-  NameLocalizationKey: "@ui_poi_hatchery_solo_trial_30336"
+  NameLocalizationKey: "@ui_poi_hatchery_solo_trial_30336_DailySoloTrials"
   BaseStructureLimit: ""
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\cave_elite.png"
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/trial_soul.png
   CompassIcon: ""
   DiscoveryRadius: 60.0
   IsDiscoverable: true
@@ -1146,8 +1146,8 @@
   VitalsCategory: ""
   LevelRange: ""
   Containers: null
-  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_TrialSeason02Q12.dds"
-  GameMode: ""
+  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_TrialSeason02Q12.png"
+  GameMode: TrialSeason02Q12
   GroupSize: null
   IsCollapsible: null
   RecommendedLevel: null
@@ -1225,7 +1225,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\arena_flamekeeper.png"
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_season.png"
   CompassIcon: ""
   DiscoveryRadius: 60.0
   IsDiscoverable: true
@@ -1245,7 +1245,7 @@
   VitalsCategory: ""
   LevelRange: ""
   Containers: null
-  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\POI\\brimstone_sands\\mapTooltip_brimstone_POI_desert_ruins.png"
+  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_TrialSeason02Q12.png"
   GameMode: TrialSeason01
   GroupSize: null
   IsCollapsible: null
@@ -1390,8 +1390,8 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\castle.png"
-  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\castle.png"
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\island_of_frost.png"
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\island_of_frost.png"
   DiscoveryRadius: 300.0
   IsDiscoverable: true
   IsChartable: true

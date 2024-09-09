@@ -213,7 +213,7 @@
   PotencyDiminishingMod: null
   PotencyModMin: null
   PotencyModMax: null
-  ValueLimits: HealMod:-1.0,NonConsumableHealMod:-1.0,ConsumableHealMod:-1.0,DmgPctToHealthHealMod:-1.0
+  ValueLimits: HealMod:-2.0,NonConsumableHealMod:-2.0,ConsumableHealMod:-2.0,DmgPctToHealthHealMod:-2.0
 - StatusEffectCategoryID: UnclampedHaste
   DurationDiminishingMod: null
   DurationModMin: null
@@ -382,3 +382,11 @@
   PotencyModMin: 0.0
   PotencyModMax: 0.0
   ValueLimits: ""
+- StatusEffectCategoryID: ABSCapped90Percent
+  DurationDiminishingMod: null
+  DurationModMin: null
+  DurationModMax: null
+  PotencyDiminishingMod: null
+  PotencyModMin: null
+  PotencyModMax: null
+  ValueLimits: ABSStandard:0.9,ABSSiege:0.9,ABSStrike:0.9,ABSSlash:0.9,ABSThrust:0.9,ABSArcane:0.9,ABSFire:0.9,ABSIce:0.9,ABSNature:0.9,ABSLightning:0.9,ABSCorruption:0.9,ABSAcid:0.9

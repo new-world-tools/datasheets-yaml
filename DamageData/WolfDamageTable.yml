@@ -234,9 +234,9 @@
   DmgCoef: 0.01
   DmgCoefHead: 0.0
   DmgCoefCrit: 0.0
-  PowerLevel: 0.0
-  BlockPowerLevel: 0.0
-  CritPowerLevel: 0.0
+  PowerLevel: 2.0
+  BlockPowerLevel: 2.0
+  CritPowerLevel: 2.0
   HitStun: 20.0
   BlockHitStun: 15.0
   CritHitStun: 30.0
@@ -401,7 +401,7 @@
   IsRanged: true
   SurfaceImpactEffect: Bullet
   AttackType: Magic 
-  DamageType: Magic
+  DamageType: Arcane
   Affixes: ""
   StatusEffect: AI_Snare_6sec
   EffectOnlyOnDamage: null
@@ -489,7 +489,7 @@
   IsRanged: null
   SurfaceImpactEffect: ""
   AttackType: ""
-  DamageType: Deflect
+  DamageType: Standard
   Affixes: ""
   StatusEffect: ""
   EffectOnlyOnDamage: null

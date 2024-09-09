@@ -446,6 +446,48 @@
   AudioGroup: POI_State
   AudioState: worldboss
   AudioBank: ""
+- TerritoryID: 8033.0
+  NameLocalizationKey: "@ui_worldboss_season_01_event"
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/furySpriggan.png
+  CompassIcon: LyShineUI/Images/Map/Icon/POIs/furySpriggan.png
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/POI/mapTooltip_poi_furyspriggan.png
+  GroupSize: 4.0
+  POITag: SeasonEncounter
+  RequiredItemId: ""
+  RecommendedLevel: 65.0
+  PulseColor: 235 52 52
+  AudioGroup: POI_State
+  AudioState: worldboss
+  AudioBank: ""
+- TerritoryID: 8036.0
+  NameLocalizationKey: "@ui_worldboss_season_02_event"
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/event_eggsciting.png
+  CompassIcon: LyShineUI/Images/Map/Icon/POIs/event_eggsciting.png
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/maptooltip_eggciting.png
+  GroupSize: 0.0
+  POITag: SeasonEncounter
+  RequiredItemId: ""
+  RecommendedLevel: 65.0
+  PulseColor: 235 52 52
+  AudioGroup: POI_State
+  AudioState: worldboss
+  AudioBank: ""
+- TerritoryID: 8037.0
+  NameLocalizationKey: "@ui_worldboss_season_02_event"
+  IsPOI: true
+  MapIcon: ""
+  CompassIcon: ""
+  TooltipBackground: ""
+  GroupSize: 0.0
+  POITag: EventEncounter
+  RequiredItemId: ""
+  RecommendedLevel: 60.0
+  PulseColor: 235 52 52
+  AudioGroup: POI_State
+  AudioState: ""
+  AudioBank: ""
 - TerritoryID: 8038.0
   NameLocalizationKey: "@ui_fl_worldboss_beast_01_Obj_Enc_Title"
   IsPOI: false
@@ -694,6 +736,20 @@
   POITag: EventEncounter
   RequiredItemId: ""
   RecommendedLevel: 19.0
+  PulseColor: 1 0 0
+  AudioGroup: POI_State
+  AudioState: ""
+  AudioBank: ""
+- TerritoryID: 8056.0
+  NameLocalizationKey: "@C10A_Q4_Encounter_Title"
+  IsPOI: true
+  MapIcon: LyShineUI/Images/map/Icon/POIs/damned_compass_danger.png
+  CompassIcon: LyShineUI/Images/map/Icon/POIs/damned_compass_danger.png
+  TooltipBackground: ""
+  GroupSize: 0.0
+  POITag: FLTavernEncounter
+  RequiredItemId: ""
+  RecommendedLevel: 65.0
   PulseColor: 1 0 0
   AudioGroup: POI_State
   AudioState: ""

@@ -1324,7 +1324,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/event_cave.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/cave.png
   CompassIcon: ""
   DiscoveryRadius: 150.0
   IsDiscoverable: true
@@ -1373,11 +1373,11 @@
   AudioState: camp
   AudioBank: ""
   CanPlaceCamp: false
-  DevName: Knight's Hideaway
+  DevName: Treasure's Hideaway
   VitalsCategory: ""
   LevelRange: null
   Containers: null
-  TooltipBackground: LyShineUI/Images/Map/tooltipImages/POI/mapTooltip_poi_varangian.png
+  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\POI\\cutlass_keys\\mapTooltip_goldpile.png"
   GameMode: ""
   UnchartedIcon: ""
   EventId: ""
@@ -1555,7 +1555,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\angryearth_spriggan.png"
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\ancient_ruins.png"
   CompassIcon: ""
   DiscoveryRadius: 150.0
   IsDiscoverable: true
@@ -1852,7 +1852,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_fishing_village.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_village.png
   CompassIcon: ""
   DiscoveryRadius: 150.0
   IsDiscoverable: true
@@ -1885,7 +1885,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\abandoned_farm_village.png"
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_village.png
   CompassIcon: ""
   DiscoveryRadius: 200.0
   IsDiscoverable: true
@@ -2243,12 +2243,12 @@
   GroupSize: null
   IsCollapsible: null
 - TerritoryID: 40069.0
-  NameLocalizationKey: "@ui_poi_mammothtrial_40069"
+  NameLocalizationKey: "@ui_poi_mammothtrial_40069_DailySoloTrials"
   BaseStructureLimit: ""
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/firstlight_mammoth_boss_trial_elite.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/trial_soul.png
   CompassIcon: ""
   DiscoveryRadius: 100.0
   IsDiscoverable: true
@@ -2269,19 +2269,19 @@
   LevelRange: null
   Containers: 0.0
   TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestMammoth.png"
-  GameMode: ""
+  GameMode: QuestMammoth
   UnchartedIcon: ""
   EventId: ""
   RecommendedLevel: null
   GroupSize: null
   IsCollapsible: null
 - TerritoryID: 40070.0
-  NameLocalizationKey: "@ui_poi_medusatrial_40070"
+  NameLocalizationKey: "@ui_poi_medusatrial_40070_DailySoloTrials"
   BaseStructureLimit: ""
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/firstlight_mammoth_boss_trial_elite.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/trial_soul.png
   CompassIcon: ""
   DiscoveryRadius: 150.0
   IsDiscoverable: true
@@ -2302,7 +2302,7 @@
   LevelRange: null
   Containers: null
   TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestMedusa.png"
-  GameMode: ""
+  GameMode: QuestMedusa
   UnchartedIcon: ""
   EventId: ""
   RecommendedLevel: null
@@ -2314,7 +2314,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\expedition_crystalclaw.png"
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\expedition.png"
   CompassIcon: ""
   DiscoveryRadius: 400.0
   IsDiscoverable: true
@@ -2534,6 +2534,39 @@
   Containers: null
   TooltipBackground: /LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_fish_3.png
   GameMode: ""
+  UnchartedIcon: ""
+  EventId: ""
+  RecommendedLevel: null
+  GroupSize: null
+  IsCollapsible: null
+- TerritoryID: 40078.0
+  NameLocalizationKey: "@ui_poi_adianatrial_40078"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/trial_soul.png
+  CompassIcon: ""
+  DiscoveryRadius: 100.0
+  IsDiscoverable: true
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: adianatrial_40078_discovered
+  ChartedAchievement: adianatrial_40078_charted
+  POITag: adianatrial_40078
+  AudioGroup: POI_State
+  AudioState: ancient_lighthouse
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: AdianaTrial
+  VitalsCategory: ""
+  LevelRange: null
+  Containers: 0.0
+  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestAdiana.png"
+  GameMode: QuestAdiana
   UnchartedIcon: ""
   EventId: ""
   RecommendedLevel: null

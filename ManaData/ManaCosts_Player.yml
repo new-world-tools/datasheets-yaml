@@ -1,136 +1,126 @@
-- CostID: Celestial_Heal_AoE
-  ManaCost: 40.0
-- CostID: Celestial_Heal_AoE_Staff
-  ManaCost: 40.0
-- CostID: Celestial_Life_DMG_Absorb
-  ManaCost: 35.0
-- CostID: Celestial_Life_DMG_Bonus
-  ManaCost: 35.0
-- CostID: Celestial_Revive
-  ManaCost: 50.0
-- CostID: Celestial_Heal_AoE_Staff_Mana_Upgrade
-  ManaCost: 15.0
-- CostID: Elemental_Fire_AoE
-  ManaCost: 50.0
-- CostID: Elemental_Fire_AoE_Staff
-  ManaCost: 50.0
-- CostID: Elemental_Fire_Projectile
-  ManaCost: 0.0
-- CostID: Elemental_Fire_Projectile_Special
-  ManaCost: 10.0
-- CostID: Elemental_Fire_Combustion
-  ManaCost: 35.0
-- CostID: Elemental_FireGrenade
-  ManaCost: 25.0
-- CostID: Elemental_Fire_Staff_Heavy
-  ManaCost: 50.0
-- CostID: Elemental_CC_Slow
-  ManaCost: 10.0
-- CostID: Elemental_CC_Silenced
-  ManaCost: 35.0
-- CostID: Elemental_CC_Weakness
-  ManaCost: 35.0
-- CostID: Elemental_Fire_Projectile_Charged
-  ManaCost: 30.0
-- CostID: Elemental_Fire_Gauntlet_Dash
-  ManaCost: 20.0
-- CostID: Siphon_Healing_Mana_Check
-  ManaCost: 2.0
-- CostID: LifeStaff_TouchOfLife
-  ManaCost: 25.0
-- CostID: LifeStaff_Smite
-  ManaCost: 25.0
-- CostID: LifeStaff_HolyShield
-  ManaCost: 15.0
-- CostID: LifeStaff_HealingWave
-  ManaCost: 15.0
-- CostID: LifeStaff_HolyShield_Mana_Upgrade
-  ManaCost: 15.0
-- CostID: LifeStaff_TouchOfLife_Mana_Upgrade
-  ManaCost: 20.0
-- CostID: LifeStaff_Speed_Intro
-  ManaCost: 30.0
-- CostID: LifeStaff_HolyShield_Intro
-  ManaCost: 15.0
-- CostID: LifeStaff_HolyShield_Kickout
-  ManaCost: 3.0
 - CostID: LifeStaff_Primary
   ManaCost: 0.0
+  DevHelper_Legend: Light Attack
 - CostID: LifeStaff_Heavy
-  ManaCost: 6.0
-- CostID: FireStaff_Incinerate
-  ManaCost: 22.0
-- CostID: FireStaff_FlameThrower
-  ManaCost: 2.5
-- CostID: FireStaff_PillarOfFire
-  ManaCost: 15.0
-- CostID: FireStaff_Storm
-  ManaCost: 30.0
-- CostID: FireStaff_FlameThrower_Cancel
-  ManaCost: 5.0
-- CostID: FireStaff_Speed_Intro
-  ManaCost: 30.0
-- CostID: FireStaff_Siege
-  ManaCost: 25.0
-- CostID: FireStaff_Siege_Recharge_ManaCheck
-  ManaCost: 26.0
-- CostID: FireStaff_Storm_Mana_Upgrade
-  ManaCost: 25.0
-- CostID: FireStaff_Primary
   ManaCost: 0.0
-- CostID: FireStaff_Heavy
-  ManaCost: 6.0
-- CostID: FireStaff_Heavy_Range
-  ManaCost: 10.0
-- CostID: FireStaff_Heavy_Speed
-  ManaCost: 15.0
-- CostID: Siphon_Healing_Check_To_Cast
-  ManaCost: 5.0
-- CostID: FireStaff_Speed_Cost
-  ManaCost: 30.0
-- CostID: IceMagic_Primary
-  ManaCost: 0.0
-- CostID: IceMagic_Heavy
-  ManaCost: 6.0
-- CostID: IceMagic_Block
-  ManaCost: 10.0
-- CostID: IceMagic_Spikes
-  ManaCost: 15.0
-- CostID: IceMagic_IceStorm
+  DevHelper_Legend: Heavy Attack
+- CostID: LifeStaff_TouchOfLife
   ManaCost: 25.0
-- CostID: IceMagic_IceStorm_Mana
-  ManaCost: 5.0
-- CostID: IceMagic_WindChill
+  DevHelper_Legend: Divine Embrace
+- CostID: LifeStaff_TouchOfLife_Mana_Upgrade
   ManaCost: 20.0
-- CostID: IceMagic_Entombed
-  ManaCost: 0.0
-- CostID: IceMagic_Entombed_Break
-  ManaCost: 10.0
-- CostID: IceMagic_IceShower
-  ManaCost: 25.0
-- CostID: IceMagic_IcePylon
+  DevHelper_Legend: Divine Embrace Privledge Upgrade
+- CostID: LifeStaff_HolyShield
   ManaCost: 15.0
-- CostID: LifeStaff_LightsEmbrace
-  ManaCost: 18.0
+  DevHelper_Legend: Splash Of Light
+- CostID: LifeStaff_HealingWave
+  ManaCost: 15.0
+  DevHelper_Legend: Sacred Ground
 - CostID: LifeStaff_OrbofLight
   ManaCost: 16.0
+  DevHelper_Legend: Orb Of Protection
 - CostID: LifeStaff_Beacon
   ManaCost: 16.0
+  DevHelper_Legend: Beacon
+- CostID: LifeStaff_LightsEmbrace
+  ManaCost: 18.0
+  DevHelper_Legend: Light's Embrace
+- CostID: FireStaff_Primary
+  ManaCost: 0.0
+  DevHelper_Legend: Light Attack
+- CostID: FireStaff_Heavy
+  ManaCost: 0.0
+  DevHelper_Legend: Heavy Attack
+- CostID: FireStaff_PillarOfFire
+  ManaCost: 15.0
+  DevHelper_Legend: Pillar Of Fire
+- CostID: FireStaff_Storm
+  ManaCost: 25.0
+  DevHelper_Legend: Meteor Shower
+- CostID: FireStaff_Storm_Mana_Upgrade
+  ManaCost: 20.0
+  DevHelper_Legend: Meteor Shower
+- CostID: FireStaff_Siege
+  ManaCost: 25.0
+  DevHelper_Legend: Fireball
+- CostID: FireStaff_FlameThrower
+  ManaCost: 2.5
+  DevHelper_Legend: Flamethrower
+- CostID: FireStaff_FlameThrower_Cancel
+  ManaCost: 5.0
+  DevHelper_Legend: Flamethrower
+- CostID: FireStaff_Incinerate
+  ManaCost: 22.0
+  DevHelper_Legend: Incinerate
+- CostID: FireStaff_Speed_Intro
+  ManaCost: 30.0
+  DevHelper_Legend: Burnout
+- CostID: FireStaff_Speed_Cost
+  ManaCost: 30.0
+  DevHelper_Legend: Burnout
+- CostID: FireStaff_Heavy_Range
+  ManaCost: 10.0
+  DevHelper_Legend: ?
+- CostID: FireStaff_Heavy_Speed
+  ManaCost: 15.0
+  DevHelper_Legend: ?
+- CostID: IceMagic_Primary
+  ManaCost: 0.0
+  DevHelper_Legend: Light Attack
+- CostID: IceMagic_Heavy
+  ManaCost: 0.0
+  DevHelper_Legend: Heavy Attack
+- CostID: IceMagic_Block
+  ManaCost: 10.0
+  DevHelper_Legend: Block
+- CostID: IceMagic_Spikes
+  ManaCost: 15.0
+  DevHelper_Legend: Ice Spikes
+- CostID: IceMagic_IceStorm
+  ManaCost: 25.0
+  DevHelper_Legend: Ice Storm
+- CostID: IceMagic_IceStorm_Mana
+  ManaCost: 5.0
+  DevHelper_Legend: Ice Storm Storm Summoner Upgrade
+- CostID: IceMagic_WindChill
+  ManaCost: 20.0
+  DevHelper_Legend: Windchill
+- CostID: IceMagic_Entombed
+  ManaCost: 0.0
+  DevHelper_Legend: Entomb
+- CostID: IceMagic_Entombed_Break
+  ManaCost: 10.0
+  DevHelper_Legend: Entomb
+- CostID: IceMagic_IceShower
+  ManaCost: 25.0
+  DevHelper_Legend: Ice Shower
+- CostID: IceMagic_IcePylon
+  ManaCost: 15.0
+  DevHelper_Legend: Ice Pylon
 - CostID: VoidGauntlet_Primary
   ManaCost: 0.0
+  DevHelper_Legend: Light Attack
 - CostID: VoidGauntlet_Heavy
-  ManaCost: 6.0
+  ManaCost: 0.0
+  DevHelper_Legend: Heavy Attack
 - CostID: VoidGauntlet_VoidBlade
-  ManaCost: 20.0
+  ManaCost: 5.0
+  DevHelper_Legend: Void Blade
 - CostID: VoidGauntlet_NullChamber
-  ManaCost: 30.0
+  ManaCost: 25.0
+  DevHelper_Legend: Oblivion
 - CostID: VoidGauntlet_Scream
   ManaCost: 25.0
+  DevHelper_Legend: Scream
 - CostID: VoidGauntlet_DecayingOrb
-  ManaCost: 20.0
+  ManaCost: 16.0
+  DevHelper_Legend: Orb of Decay
 - CostID: VoidGauntlet_DrainingTether
-  ManaCost: 25.0
+  ManaCost: 20.0
+  DevHelper_Legend: Baleful Tether
 - CostID: VoidGauntlet_EssenceRupture
-  ManaCost: 25.0
+  ManaCost: 18.0
+  DevHelper_Legend: Essense Rupture
 - CostID: Zero_Mana
   ManaCost: 0.0
+  DevHelper_Legend: ?

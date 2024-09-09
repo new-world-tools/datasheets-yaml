@@ -5,7 +5,7 @@
   RewardBelowMaxLvl_GameEvent: PUGFinder_Expedition_DailyRandomCache_BelowMaxLvl
   RewardAtMaxLvl_GameEvent: PUGFinder_Expedition_DailyRandomCache_AtMaxLvl
   DailyLimit: 3.0
-  IsDisabled: null
+  IsDisabled: ""
 - IncentiveID: Expedition_TankIncentive
   ActivityTypes: Dungeon
   IncentiveType: Role
@@ -13,7 +13,7 @@
   RewardBelowMaxLvl_GameEvent: PUGFinder_Expedition_RoleInDemand_Cache_AtMaxLvl
   RewardAtMaxLvl_GameEvent: PUGFinder_Expedition_RoleInDemand_Cache_AtMaxLvl
   DailyLimit: 0.0
-  IsDisabled: null
+  IsDisabled: ""
 - IncentiveID: Expedition_HealerIncentive
   ActivityTypes: Dungeon
   IncentiveType: Role
@@ -21,15 +21,7 @@
   RewardBelowMaxLvl_GameEvent: PUGFinder_Expedition_RoleInDemand_Cache_AtMaxLvl
   RewardAtMaxLvl_GameEvent: PUGFinder_Expedition_RoleInDemand_Cache_AtMaxLvl
   DailyLimit: 0.0
-  IsDisabled: null
-- IncentiveID: Expedition_DebugIncentive
-  ActivityTypes: Dungeon
-  IncentiveType: Role
-  Role: DPS
-  RewardBelowMaxLvl_GameEvent: PUGFinder_Expedition_RoleInDemand_Cache_AtMaxLvl
-  RewardAtMaxLvl_GameEvent: PUGFinder_Expedition_RoleInDemand_Cache_AtMaxLvl
-  DailyLimit: 99.0
-  IsDisabled: true
+  IsDisabled: ""
 - IncentiveID: Expedition_CarryReward
   ActivityTypes: Dungeon
   IncentiveType: Carry
@@ -37,7 +29,7 @@
   RewardBelowMaxLvl_GameEvent: PUGFinder_Expedition_Carry_Cache
   RewardAtMaxLvl_GameEvent: PUGFinder_Expedition_Carry_Cache
   DailyLimit: 0.0
-  IsDisabled: null
+  IsDisabled: ""
 - IncentiveID: Mutated_RandomExpedition
   ActivityTypes: Mutation
   IncentiveType: RandomQueue
@@ -45,7 +37,7 @@
   RewardBelowMaxLvl_GameEvent: PUGFinder_MutatedExpedition_DailyRandomCache
   RewardAtMaxLvl_GameEvent: PUGFinder_MutatedExpedition_DailyRandomCache
   DailyLimit: 3.0
-  IsDisabled: null
+  IsDisabled: ""
 - IncentiveID: Mutated_TankIncentive
   ActivityTypes: Mutation
   IncentiveType: Role
@@ -53,7 +45,7 @@
   RewardBelowMaxLvl_GameEvent: PUGFinder_MutatedExpedition_RoleInDemand_Cache
   RewardAtMaxLvl_GameEvent: PUGFinder_MutatedExpedition_RoleInDemand_Cache
   DailyLimit: 0.0
-  IsDisabled: null
+  IsDisabled: ""
 - IncentiveID: Mutated_HealerIncentive
   ActivityTypes: Mutation
   IncentiveType: Role
@@ -61,15 +53,7 @@
   RewardBelowMaxLvl_GameEvent: PUGFinder_MutatedExpedition_RoleInDemand_Cache
   RewardAtMaxLvl_GameEvent: PUGFinder_MutatedExpedition_RoleInDemand_Cache
   DailyLimit: 0.0
-  IsDisabled: null
-- IncentiveID: Mutated_DebugIncentive
-  ActivityTypes: Mutation
-  IncentiveType: Role
-  Role: DPS
-  RewardBelowMaxLvl_GameEvent: PUGFinder_MutatedExpedition_RoleInDemand_Cache
-  RewardAtMaxLvl_GameEvent: PUGFinder_MutatedExpedition_RoleInDemand_Cache
-  DailyLimit: 99.0
-  IsDisabled: true
+  IsDisabled: ""
 - IncentiveID: Mutated_CarryReward
   ActivityTypes: Mutation
   IncentiveType: Carry
@@ -77,4 +61,4 @@
   RewardBelowMaxLvl_GameEvent: PUGFinder_MutatedExpedition_Carry_Cache
   RewardAtMaxLvl_GameEvent: PUGFinder_MutatedExpedition_Carry_Cache
   DailyLimit: 0.0
-  IsDisabled: null
+  IsDisabled: ""

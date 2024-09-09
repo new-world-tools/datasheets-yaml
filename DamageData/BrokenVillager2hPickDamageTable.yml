@@ -11,15 +11,15 @@
   EffectOnlyOnDamage: ""
   DeflectDamageID: ""
   CanCrit: false
-  DmgCoef: 0.3
+  DmgCoef: 0.4
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
-  PowerLevel: 0.0
+  PowerLevel: 1.0
   BlockPowerLevel: 1.0
-  CritPowerLevel: 0.0
-  HitStun: 10.0
-  BlockHitStun: 5.0
-  CritHitStun: 10.0
+  CritPowerLevel: 1.0
+  HitStun: 15.0
+  BlockHitStun: 15.0
+  CritHitStun: 15.0
   ImpactDistanceX: 0.0
   ImpactDistanceY: 1.0
   ImpactDistanceZ: 0.0
@@ -55,15 +55,15 @@
   EffectOnlyOnDamage: ""
   DeflectDamageID: ""
   CanCrit: false
-  DmgCoef: 0.3
+  DmgCoef: 0.4
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
-  PowerLevel: 0.0
+  PowerLevel: 1.0
   BlockPowerLevel: 1.0
-  CritPowerLevel: 0.0
-  HitStun: 10.0
-  BlockHitStun: 5.0
-  CritHitStun: 10.0
+  CritPowerLevel: 1.0
+  HitStun: 15.0
+  BlockHitStun: 15.0
+  CritHitStun: 15.0
   ImpactDistanceX: 0.0
   ImpactDistanceY: 1.0
   ImpactDistanceZ: 0.0
@@ -102,12 +102,12 @@
   DmgCoef: 0.4
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
-  PowerLevel: 0.0
+  PowerLevel: 1.0
   BlockPowerLevel: 1.0
-  CritPowerLevel: 0.0
-  HitStun: 10.0
-  BlockHitStun: 5.0
-  CritHitStun: 10.0
+  CritPowerLevel: 1.0
+  HitStun: 15.0
+  BlockHitStun: 15.0
+  CritHitStun: 15.0
   ImpactDistanceX: 0.0
   ImpactDistanceY: 1.0
   ImpactDistanceZ: 0.0
@@ -146,12 +146,12 @@
   DmgCoef: 0.4
   DmgCoefHead: 1.0
   DmgCoefCrit: 1.0
-  PowerLevel: 0.0
+  PowerLevel: 1.0
   BlockPowerLevel: 1.0
-  CritPowerLevel: 0.0
-  HitStun: 10.0
+  CritPowerLevel: 1.0
+  HitStun: 15.0
   BlockHitStun: 15.0
-  CritHitStun: 10.0
+  CritHitStun: 15.0
   ImpactDistanceX: 0.0
   ImpactDistanceY: 1.0
   ImpactDistanceZ: 0.0
@@ -183,6 +183,50 @@
   AttackType: Heavy
   DamageType: Strike
   Affixes: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  DeflectDamageID: ""
+  CanCrit: false
+  DmgCoef: 0.5
+  DmgCoefHead: 1.0
+  DmgCoefCrit: 1.0
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 35.0
+  BlockHitStun: 30.0
+  CritHitStun: 35.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 1.8
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 1.8
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 1.0
+  StaggerResistModifier: 1.0
+  CameraShakeID: Small
+  ImpactRating: 0.0
+  BlockStaminaDmgMod: 1.0
+  BlockAbsorptionModifier: 1.0
+  StunBreakoutIncrement: 1.0
+  HitRuneCharge: 0.1625
+  HitBlockedRuneCharge: 0.325
+- DamageID: Broken_2H_TurnAround_Overhead_Strike_Frenzy
+  WeaponCategory: Sword
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: ""
+  SurfaceImpactEffect: Bullet
+  AttackType: Heavy
+  DamageType: Strike
+  Affixes: AI_CorruptionDMG_50
   StatusEffect: ""
   EffectOnlyOnDamage: ""
   DeflectDamageID: ""

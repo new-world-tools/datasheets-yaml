@@ -1,21 +1,3 @@
-- BalanceTarget: AbilityDamageBonuses
-  BalanceCategory: AbilityDamageBonus
-  AbilityBaseDamageAdjustment: ""
-  WeaponBaseDamageAdjustment: null
-  AffixStatAdjustment: ""
-  IncomingHealAdjustment: ""
-  SelfHealAdjustment: null
-  ConsumableHealAdjustment: ""
-  PotencyAdjustment: ""
-- BalanceTarget: AffixStatsDamage
-  BalanceCategory: AffixStats
-  AbilityBaseDamageAdjustment: ""
-  WeaponBaseDamageAdjustment: null
-  AffixStatAdjustment: ""
-  IncomingHealAdjustment: ""
-  SelfHealAdjustment: null
-  ConsumableHealAdjustment: ""
-  PotencyAdjustment: ""
 - BalanceTarget: HealingAdjustments
   BalanceCategory: Healing
   AbilityBaseDamageAdjustment: ""
@@ -25,33 +7,7 @@
   SelfHealAdjustment: -0.1
   ConsumableHealAdjustment: ""
   PotencyAdjustment: ""
-- BalanceTarget: Empower
-  BalanceCategory: StatusEffect
-  AbilityBaseDamageAdjustment: ""
-  WeaponBaseDamageAdjustment: null
-  AffixStatAdjustment: ""
-  IncomingHealAdjustment: ""
-  SelfHealAdjustment: null
-  ConsumableHealAdjustment: ""
-  PotencyAdjustment: ""
-- BalanceTarget: Buff
-  BalanceCategory: StatusEffect
-  AbilityBaseDamageAdjustment: ""
-  WeaponBaseDamageAdjustment: null
-  AffixStatAdjustment: ""
-  IncomingHealAdjustment: ""
-  SelfHealAdjustment: null
-  ConsumableHealAdjustment: ""
-  PotencyAdjustment: ""
-- BalanceTarget: Axe2H
-  BalanceCategory: ItemClass
-  AbilityBaseDamageAdjustment: ""
-  WeaponBaseDamageAdjustment: null
-  AffixStatAdjustment: ""
-  IncomingHealAdjustment: ""
-  SelfHealAdjustment: null
-  ConsumableHealAdjustment: ""
-  PotencyAdjustment: ""
+  DurationAdjustment: ""
 - BalanceTarget: Blunderbuss
   BalanceCategory: ItemClass
   AbilityBaseDamageAdjustment: ""
@@ -61,6 +17,7 @@
   SelfHealAdjustment: null
   ConsumableHealAdjustment: ""
   PotencyAdjustment: ""
+  DurationAdjustment: ""
 - BalanceTarget: Bow
   BalanceCategory: ItemClass
   AbilityBaseDamageAdjustment: ""
@@ -70,6 +27,7 @@
   SelfHealAdjustment: null
   ConsumableHealAdjustment: ""
   PotencyAdjustment: ""
+  DurationAdjustment: ""
 - BalanceTarget: FIreStaff
   BalanceCategory: ItemClass
   AbilityBaseDamageAdjustment: ""
@@ -79,42 +37,7 @@
   SelfHealAdjustment: null
   ConsumableHealAdjustment: ""
   PotencyAdjustment: ""
-- BalanceTarget: Flail
-  BalanceCategory: ItemClass
-  AbilityBaseDamageAdjustment: ""
-  WeaponBaseDamageAdjustment: null
-  AffixStatAdjustment: ""
-  IncomingHealAdjustment: ""
-  SelfHealAdjustment: null
-  ConsumableHealAdjustment: ""
-  PotencyAdjustment: ""
-- BalanceTarget: GreatSword
-  BalanceCategory: ItemClass
-  AbilityBaseDamageAdjustment: ""
-  WeaponBaseDamageAdjustment: null
-  AffixStatAdjustment: ""
-  IncomingHealAdjustment: ""
-  SelfHealAdjustment: null
-  ConsumableHealAdjustment: ""
-  PotencyAdjustment: ""
-- BalanceTarget: Hammer2H
-  BalanceCategory: ItemClass
-  AbilityBaseDamageAdjustment: ""
-  WeaponBaseDamageAdjustment: null
-  AffixStatAdjustment: ""
-  IncomingHealAdjustment: ""
-  SelfHealAdjustment: null
-  ConsumableHealAdjustment: ""
-  PotencyAdjustment: ""
-- BalanceTarget: Hatchet
-  BalanceCategory: ItemClass
-  AbilityBaseDamageAdjustment: ""
-  WeaponBaseDamageAdjustment: null
-  AffixStatAdjustment: ""
-  IncomingHealAdjustment: ""
-  SelfHealAdjustment: null
-  ConsumableHealAdjustment: ""
-  PotencyAdjustment: ""
+  DurationAdjustment: ""
 - BalanceTarget: IceMagic
   BalanceCategory: ItemClass
   AbilityBaseDamageAdjustment: ""
@@ -124,6 +47,7 @@
   SelfHealAdjustment: null
   ConsumableHealAdjustment: ""
   PotencyAdjustment: ""
+  DurationAdjustment: ""
 - BalanceTarget: LifeStaff
   BalanceCategory: ItemClass
   AbilityBaseDamageAdjustment: ""
@@ -133,6 +57,7 @@
   SelfHealAdjustment: null
   ConsumableHealAdjustment: ""
   PotencyAdjustment: ""
+  DurationAdjustment: ""
 - BalanceTarget: Musket
   BalanceCategory: ItemClass
   AbilityBaseDamageAdjustment: ""
@@ -142,42 +67,7 @@
   SelfHealAdjustment: null
   ConsumableHealAdjustment: ""
   PotencyAdjustment: ""
-- BalanceTarget: Rapier
-  BalanceCategory: ItemClass
-  AbilityBaseDamageAdjustment: ""
-  WeaponBaseDamageAdjustment: null
-  AffixStatAdjustment: ""
-  IncomingHealAdjustment: ""
-  SelfHealAdjustment: null
-  ConsumableHealAdjustment: ""
-  PotencyAdjustment: ""
-- BalanceTarget: Shield
-  BalanceCategory: ItemClass
-  AbilityBaseDamageAdjustment: ""
-  WeaponBaseDamageAdjustment: null
-  AffixStatAdjustment: ""
-  IncomingHealAdjustment: ""
-  SelfHealAdjustment: null
-  ConsumableHealAdjustment: ""
-  PotencyAdjustment: ""
-- BalanceTarget: Spear
-  BalanceCategory: ItemClass
-  AbilityBaseDamageAdjustment: ""
-  WeaponBaseDamageAdjustment: null
-  AffixStatAdjustment: ""
-  IncomingHealAdjustment: ""
-  SelfHealAdjustment: null
-  ConsumableHealAdjustment: ""
-  PotencyAdjustment: ""
-- BalanceTarget: Sword
-  BalanceCategory: ItemClass
-  AbilityBaseDamageAdjustment: ""
-  WeaponBaseDamageAdjustment: null
-  AffixStatAdjustment: ""
-  IncomingHealAdjustment: ""
-  SelfHealAdjustment: null
-  ConsumableHealAdjustment: ""
-  PotencyAdjustment: ""
+  DurationAdjustment: ""
 - BalanceTarget: VoidGauntlet
   BalanceCategory: ItemClass
   AbilityBaseDamageAdjustment: ""
@@ -187,3 +77,4 @@
   SelfHealAdjustment: null
   ConsumableHealAdjustment: ""
   PotencyAdjustment: ""
+  DurationAdjustment: ""

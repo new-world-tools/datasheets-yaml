@@ -1,7 +1,7 @@
 - AbilityID: Ability_Spear_Javelin
   DisplayName: "@Spear_Javelin"
   Description: "@Spear_Javelin_description"
-  UICategory: Ranged Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/spear_Ability01.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Spear_Ability_1
@@ -11,7 +11,7 @@
   WeaponTag: Spear
   RequiredAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 0.0
+  TreeRowPosition: 2.0
   TreeColumnPosition: 2.0
   IsActiveAbility: true
   IsGlobalAbility: false
@@ -57,6 +57,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -75,6 +76,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -101,6 +103,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -134,10 +137,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: true
 - AbilityID: Ability_Spear_Javelin_Reaction_Upgrade
   DisplayName: "@Spear_Javelin_Reaction_Upgrade"
   Description: "@Spear_Javelin_Reaction_Upgrade_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/spear_Ability01_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -147,7 +151,7 @@
   WeaponTag: Spear
   RequiredAbilityId: Ability_Spear_Javelin
   TreeId: 0.0
-  TreeRowPosition: 1.0
+  TreeRowPosition: 3.0
   TreeColumnPosition: 2.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -193,6 +197,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -211,6 +216,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -237,6 +243,7 @@
   Stamina: null
   DamageTableRowOverride: 2H_Spear_Javelin_Knockback
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -270,10 +277,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_Javelin_CDROnHeadshot
   DisplayName: "@Spear_Javelin_CDROnHeadshot"
   Description: "@Spear_Javelin_CDROnHeadshot_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/spear_Ability01_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -283,7 +291,7 @@
   WeaponTag: Spear
   RequiredAbilityId: Ability_Spear_Javelin_Reaction_Upgrade
   TreeId: 0.0
-  TreeRowPosition: 3.0
+  TreeRowPosition: 4.0
   TreeColumnPosition: 2.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -329,6 +337,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -347,6 +356,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -373,6 +383,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -406,10 +417,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_Javelin_BonusDmg_LongRng
   DisplayName: "@Spear_Javelin_BonusDmg_LongRng"
   Description: "@Spear_Javelin_BonusDmg_LongRng_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/spear_Ability01_Mod03.png
   StatusEffectIcon: ""
   Sound: ""
@@ -420,7 +432,7 @@
   RequiredAbilityId: Ability_Spear_Javelin_CDROnHeadshot
   TreeId: 0.0
   TreeRowPosition: 4.0
-  TreeColumnPosition: 2.0
+  TreeColumnPosition: 1.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -465,6 +477,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -483,6 +496,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -509,6 +523,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: BonusDMGOverDistance
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -542,10 +557,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_Sweep
   DisplayName: "@Spear_Sweep"
   Description: "@Spear_Sweep_description"
-  UICategory: Debuff
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/spear_Ability02.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Spear_Ability_2
@@ -601,6 +617,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -619,6 +636,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -645,6 +663,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -678,10 +697,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_Sweep_Grit
   DisplayName: "@Spear_Sweep_Grit"
   Description: "@Spear_Sweep_Grit_description"
-  UICategory: Debuff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/spear_Ability02_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -737,6 +757,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -755,6 +776,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -781,6 +803,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -814,10 +837,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_Sweep_FollowupAttack
   DisplayName: "@Spear_Sweep_FollowupAttack"
   Description: "@Spear_Sweep_FollowupAttack_description"
-  UICategory: Debuff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/spear_Ability02_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -873,6 +897,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -891,6 +916,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -917,6 +943,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -950,10 +977,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_Cyclone
   DisplayName: "@Spear_Cyclone"
   Description: "@Spear_Cyclone_description"
-  UICategory: Debuff
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/spear_Ability03.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Spear_Ability_3
@@ -963,7 +991,7 @@
   WeaponTag: Spear
   RequiredAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 2.0
+  TreeRowPosition: 0.0
   TreeColumnPosition: 0.0
   IsActiveAbility: true
   IsGlobalAbility: false
@@ -1009,6 +1037,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -1027,6 +1056,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1053,6 +1083,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -1086,10 +1117,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_Cyclone_BonusStaminaOnMultiHit
   DisplayName: "@Spear_Cyclone_BonusStaminaOnMultiHit"
   Description: "@Spear_Cyclone_BonusStaminaOnMultiHit_description"
-  UICategory: Debuff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/spear_Ability03_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -1099,7 +1131,7 @@
   WeaponTag: Spear
   RequiredAbilityId: Ability_Spear_Cyclone
   TreeId: 0.0
-  TreeRowPosition: 3.0
+  TreeRowPosition: 1.0
   TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -1145,6 +1177,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -1160,9 +1193,10 @@
   InAction: ""
   InActionTime: null
   AfterAction: ""
-  InSequence: ""
-  InSequenceTime: null
+  InSequence: Ability_Spear_Cyclone
+  InSequenceTime: 0.1
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1189,6 +1223,7 @@
   Stamina: 25.0
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -1222,10 +1257,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_Cyclone_Grit
   DisplayName: "@Spear_Cyclone_Grit"
   Description: "@Spear_Cyclone_Grit_description"
-  UICategory: Debuff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/spear_Ability03_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -1235,7 +1271,7 @@
   WeaponTag: Spear
   RequiredAbilityId: Ability_Spear_Cyclone_BonusStaminaOnMultiHit
   TreeId: 0.0
-  TreeRowPosition: 4.0
+  TreeRowPosition: 3.0
   TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -1281,6 +1317,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -1299,6 +1336,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1325,6 +1363,7 @@
   Stamina: null
   DamageTableRowOverride: 2H_Spear_Cyclone_Pushback
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -1358,6 +1397,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_BonusHvyDmgConsec
   DisplayName: "@Spear_BonusHvyDmgConsec"
   Description: "@Spear_BonusHvyDmgConsec_description"
@@ -1417,6 +1457,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -1435,6 +1476,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1461,6 +1503,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -1494,6 +1537,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_BonusCritChanceAtRng
   DisplayName: "@Spear_BonusCritChanceAtRng"
   Description: "@Spear_BonusCritChanceAtRng_description"
@@ -1553,6 +1597,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -1571,6 +1616,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1597,6 +1643,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -1630,6 +1677,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_CDROnHvyHit
   DisplayName: "@Spear_CDROnHvyHit"
   Description: "@Spear_CDROnHvyHit_description"
@@ -1644,7 +1692,7 @@
   RequiredAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 1.0
-  TreeColumnPosition: 0.0
+  TreeColumnPosition: 1.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -1689,6 +1737,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -1707,6 +1756,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1733,6 +1783,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -1766,6 +1817,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_ReducedDodgeStamCost
   DisplayName: "@Spear_ReducedDodgeStamCost"
   Description: "@Spear_ReducedDodgeStamCost_description"
@@ -1825,6 +1877,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -1843,6 +1896,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1869,6 +1923,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -1902,6 +1957,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_BonusStaminaOnCrit
   DisplayName: "@Spear_BonusStaminaOnCrit"
   Description: "@Spear_BonusStaminaOnCrit_description"
@@ -1961,6 +2017,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -1979,6 +2036,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2005,6 +2063,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -2038,6 +2097,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_BonusDmgVsKnockedDown
   DisplayName: "@Spear_BonusDmgVsKnockedDown"
   Description: "@Spear_BonusDmgVsKnockedDown_description"
@@ -2097,6 +2157,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: IsKnockedDown
+  TargetSequenceMarker: sqmkrIsKnockedDown
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -2115,6 +2176,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.25
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2141,6 +2203,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -2174,6 +2237,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_FortifyOnHvyHit
   DisplayName: "@Spear_FortifyOnHvyHit"
   Description: "@Spear_FortifyOnHvyHit_description"
@@ -2233,6 +2297,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -2251,6 +2316,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2277,6 +2343,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -2310,6 +2377,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_BonusStamRegenOnLowStam
   DisplayName: "@Spear_BonusStamRegenOnLowStam"
   Description: "@Spear_BonusStamRegenOnLowStam_description"
@@ -2324,7 +2392,7 @@
   RequiredAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 4.0
-  TreeColumnPosition: 1.0
+  TreeColumnPosition: 3.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -2369,6 +2437,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -2387,6 +2456,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2413,6 +2483,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -2446,6 +2517,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_BonusDmgMaxStamina
   DisplayName: "@Spear_BonusDmgMaxStamina"
   Description: "@Spear_BonusDmgMaxStamina_description"
@@ -2505,6 +2577,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: 100.0
@@ -2523,6 +2596,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.25
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2549,6 +2623,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -2582,10 +2657,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_Skewer
   DisplayName: "@Spear_Skewer"
   Description: "@Spear_Skewer_description"
-  UICategory: Melee Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/spear_Ability04.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Spear_Ability_4
@@ -2641,6 +2717,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -2659,6 +2736,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2685,6 +2763,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: DamageTable
   StatusEffectDamageTableRowOverride: 2H_Spear_Skewer_Bleed
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -2718,10 +2797,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_Skewer_BonusDmgVsMaxHP
   DisplayName: "@Spear_Skewer_BonusDmgVsMaxHP"
   Description: "@Spear_Skewer_BonusDmgVsMaxHP_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/spear_Ability04_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -2777,6 +2857,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -2795,6 +2876,7 @@
   InSequence: Ability_Spear_Skewer
   InSequenceTime: 0.1
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.2
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2821,6 +2903,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -2854,10 +2937,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_Skewer_EmpowerOnCrit
   DisplayName: "@Spear_Skewer_EmpowerOnCrit"
   Description: "@Spear_Skewer_EmpowerOnCrit_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/spear_Ability04_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -2913,6 +2997,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -2931,6 +3016,7 @@
   InSequence: Ability_Spear_Skewer
   InSequenceTime: 0.1
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2957,6 +3043,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -2990,10 +3077,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_Skewer_BonusBleedDuration
   DisplayName: "@Spear_Skewer_BonusBleedDuration"
   Description: "@Spear_Skewer_BonusBleedDuration_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/spear_Ability04_Mod03.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3049,6 +3137,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -3067,6 +3156,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3093,6 +3183,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: Spear_Skewer_Bleed_Upgrade
   PowerLevelOverride: ""
@@ -3126,10 +3217,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_Perforate
   DisplayName: "@Spear_Perforate"
   Description: "@Spear_Perforate_description"
-  UICategory: Melee Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/spear_Ability05.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Spear_Ability_5
@@ -3185,6 +3277,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -3203,6 +3296,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3229,6 +3323,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -3262,10 +3357,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_Perforate_BonusRend
   DisplayName: "@Spear_Perforate_BonusRend"
   Description: "@Spear_Perforate_BonusRend_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/spear_Ability05_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3321,6 +3417,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -3339,6 +3436,7 @@
   InSequence: Ability_Spear_Perforate
   InSequenceTime: 0.1
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3365,6 +3463,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: Spear_Perforate_Rend_Upgrade
   PowerLevelOverride: ""
@@ -3398,10 +3497,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_Perforate_StaggerOnEnd
   DisplayName: "@Spear_Perforate_StaggerOnEnd"
   Description: "@Spear_Perforate_StaggerOnEnd_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/spear_Ability05_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3457,6 +3557,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -3475,6 +3576,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3501,6 +3603,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -3534,10 +3637,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_VaultKick
   DisplayName: "@Spear_VaultKick"
   Description: "@Spear_VaultKick_description"
-  UICategory: Debuff
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/spear_Ability06.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Spear_Ability_6
@@ -3593,6 +3697,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -3611,6 +3716,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3637,6 +3743,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -3670,10 +3777,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_VaultKick_EmpowerVsLowHP
   DisplayName: "@Spear_VaultKick_EmpowerVsLowHP"
   Description: "@Spear_VaultKick_EmpowerVsLowHP_description"
-  UICategory: Debuff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/spear_Ability06_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3729,6 +3837,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -3747,6 +3856,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3773,6 +3883,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -3806,10 +3917,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_VaultKick_CDROnHit
   DisplayName: "@Spear_VaultKick_CDROnHit"
   Description: "@Spear_VaultKick_CDROnHit_description"
-  UICategory: Debuff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/spear_Ability06_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3865,6 +3977,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -3883,6 +3996,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3909,6 +4023,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -3942,6 +4057,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_BonusCritChanceOnLight
   DisplayName: "@Spear_BonusCritChanceOnLight"
   Description: "@Spear_BonusCritChanceOnLight_description"
@@ -4001,6 +4117,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -4019,6 +4136,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4045,6 +4163,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -4078,6 +4197,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_CDROnLight
   DisplayName: "@Spear_CDROnLight"
   Description: "@Spear_CDROnLight_description"
@@ -4137,6 +4257,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -4155,6 +4276,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4181,6 +4303,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -4214,6 +4337,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_SlowOnLightVsLowHP
   DisplayName: "@Spear_SlowOnLightVsLowHP"
   Description: "@Spear_SlowOnLightVsLowHP_description"
@@ -4273,6 +4397,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -4291,6 +4416,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4317,6 +4443,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -4350,6 +4477,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_BonusDmgVsLowHP
   DisplayName: "@Spear_BonusDmgVsLowHP"
   Description: "@Spear_BonusDmgVsLowHP_description"
@@ -4409,6 +4537,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -4427,6 +4556,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.15
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4453,6 +4583,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -4486,6 +4617,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_BonusDmgVsGrit
   DisplayName: "@Spear_BonusDmgVsGrit"
   Description: "@Spear_BonusDmgVsGrit_description"
@@ -4545,6 +4677,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -4563,6 +4696,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.2
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4589,6 +4723,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -4622,6 +4757,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_CDROnHitAfterDodge
   DisplayName: "@Spear_CDROnHitAfterDodge"
   Description: "@Spear_CDROnHitAfterDodge_description"
@@ -4681,6 +4817,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -4699,6 +4836,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4725,6 +4863,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -4758,6 +4897,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_ExtendDebuffOnCrit
   DisplayName: "@Spear_ExtendDebuffOnCrit"
   Description: "@Spear_ExtendDebuffOnCrit_description"
@@ -4817,6 +4957,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -4835,6 +4976,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4861,6 +5003,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -4894,6 +5037,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_BonusCritChanceVsBleed
   DisplayName: "@Spear_BonusCritChanceVsBleed"
   Description: "@Spear_BonusCritChanceVsBleed_description"
@@ -4953,6 +5097,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -4971,6 +5116,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4997,6 +5143,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -5030,6 +5177,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Spear_BonusDmgVsDebuff
   DisplayName: "@Spear_BonusDmgVsDebuff"
   Description: "@Spear_BonusDmgVsDebuff_description"
@@ -5089,6 +5237,7 @@
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
+  TargetSequenceMarker: ""
   MyHealthPercent: ""
   MyComparisonType: ""
   MyStaminaPercent: null
@@ -5107,6 +5256,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -5133,6 +5283,7 @@
   Stamina: null
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   DamageTableStatusEffectOverride: ""
   PowerLevelOverride: ""
@@ -5166,3 +5317,4 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null

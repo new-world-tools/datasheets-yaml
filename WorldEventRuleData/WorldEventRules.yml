@@ -2,17 +2,17 @@
   Category: ""
   Hub: "*"
   Zone: ""
-  MaxEvents: 20.0
+  MaxEvents: 100.0
   MinDistance: 10.0
-  Disabled: ""
-  Comments: Prevents any event from overlapping and no more than 20 events per hub at a time
+  Disabled: true
+  Comments: Prevents any event from overlapping and no more than 100 events per hub at a time
 - RuleId: TestRule-1
   Category: Test
   Hub: ""
   Zone: ""
   MaxEvents: 4.0
   MinDistance: null
-  Disabled: ""
+  Disabled: null
   Comments: ""
 - RuleId: TestRule-2
   Category: Test2
@@ -20,7 +20,7 @@
   Zone: ""
   MaxEvents: 4.0
   MinDistance: null
-  Disabled: ""
+  Disabled: null
   Comments: ""
 - RuleId: TestRule-3
   Category: Test3
@@ -28,21 +28,21 @@
   Zone: ""
   MaxEvents: null
   MinDistance: 10.0
-  Disabled: ""
+  Disabled: null
   Comments: ""
 - RuleId: WorldBoss-hub
   Category: WorldBoss
   Hub: "*"
   Zone: ""
-  MaxEvents: 4.0
+  MaxEvents: 10.0
   MinDistance: null
-  Disabled: ""
-  Comments: Prevents more than 4 WorldBoss events active on a hub at a time
+  Disabled: true
+  Comments: Prevents more than 10 WorldBoss events active on a hub at a time
 - RuleId: Darkness-hub
   Category: DarknessEvent
   Hub: "*"
   Zone: ""
-  MaxEvents: 10.0
+  MaxEvents: 50.0
   MinDistance: null
-  Disabled: ""
-  Comments: Prevents more than 10 Darkness events active on a hub at a time
+  Disabled: true
+  Comments: Prevents more than 50 Darkness events active on a hub at a time

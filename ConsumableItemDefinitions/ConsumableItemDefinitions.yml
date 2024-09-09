@@ -2946,7 +2946,7 @@
 - ConsumableID: PotionEncumbranceT3
   AddStatusEffects: GrandPotionEncumbrance
   StatusEffectMod: 1.0
-  DurationOverrides: 180.0
+  DurationOverrides: 600.0
   MinDurationModifier: 0.0
   MaxDurationModifier: 0.0
   DurationScaleFactor: 1.0
@@ -3533,7 +3533,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingBeastT2
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_Beasts_T2
   StatusEffectMod: 1.0
   DurationOverrides: 1500.0
   MinDurationModifier: 0.0
@@ -3543,8 +3543,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_Beasts_T2
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -3553,7 +3553,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: Beast=.09
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -3564,7 +3564,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingBeastT3
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_Beasts_T3
   StatusEffectMod: 1.0
   DurationOverrides: 1800.0
   MinDurationModifier: 0.0
@@ -3574,8 +3574,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_Beasts_T3
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -3584,7 +3584,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: Beast=.11
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -3595,7 +3595,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingBeastT4
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_Beasts_T4
   StatusEffectMod: 1.0
   DurationOverrides: 2100.0
   MinDurationModifier: 0.0
@@ -3605,8 +3605,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_Beasts_T4
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -3615,7 +3615,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: Beast=.13
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -3626,7 +3626,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingBeastT5
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_Beasts_T5
   StatusEffectMod: 1.0
   DurationOverrides: 2400.0
   MinDurationModifier: 0.0
@@ -3636,8 +3636,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_Beasts_T5
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -3646,7 +3646,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: Beast=.15
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -3657,7 +3657,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingLostT2
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_Lost_T2
   StatusEffectMod: 1.0
   DurationOverrides: 1500.0
   MinDurationModifier: 0.0
@@ -3667,8 +3667,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_Lost_T2
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -3677,7 +3677,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: Lost=.09
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -3688,7 +3688,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingLostT3
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_Lost_T3
   StatusEffectMod: 1.0
   DurationOverrides: 1800.0
   MinDurationModifier: 0.0
@@ -3698,8 +3698,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_Lost_T3
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -3708,7 +3708,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: Lost=.11
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -3719,7 +3719,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingLostT4
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_Lost_T4
   StatusEffectMod: 1.0
   DurationOverrides: 2100.0
   MinDurationModifier: 0.0
@@ -3729,8 +3729,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_Lost_T4
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -3739,7 +3739,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: Lost=.13
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -3750,7 +3750,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingLostT5
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_Lost_T5
   StatusEffectMod: 1.0
   DurationOverrides: 2400.0
   MinDurationModifier: 0.0
@@ -3760,8 +3760,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_Lost_T5
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -3770,7 +3770,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: Lost=.15
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -3781,7 +3781,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingCorruptedT2
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_Corrupted_T2
   StatusEffectMod: 1.0
   DurationOverrides: 1500.0
   MinDurationModifier: 0.0
@@ -3791,8 +3791,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_Corrupted_T2
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -3801,7 +3801,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: Corrupted=.09
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -3812,7 +3812,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingCorruptedT3
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_Corrupted_T3
   StatusEffectMod: 1.0
   DurationOverrides: 1800.0
   MinDurationModifier: 0.0
@@ -3822,8 +3822,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_Corrupted_T3
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -3832,7 +3832,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: Corrupted=.11
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -3843,7 +3843,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingCorruptedT4
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_Corrupted_T4
   StatusEffectMod: 1.0
   DurationOverrides: 2100.0
   MinDurationModifier: 0.0
@@ -3853,8 +3853,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_Corrupted_T4
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -3863,7 +3863,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: Corrupted=.13
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -3874,7 +3874,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingCorruptedT5
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_Corrupted_T5
   StatusEffectMod: 1.0
   DurationOverrides: 2400.0
   MinDurationModifier: 0.0
@@ -3884,8 +3884,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_Corrupted_T5
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -3894,7 +3894,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: Corrupted=.15
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -3905,7 +3905,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingAncientT2
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_Ancient_T2
   StatusEffectMod: 1.0
   DurationOverrides: 1500.0
   MinDurationModifier: 0.0
@@ -3915,8 +3915,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_Ancient_T2
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -3925,7 +3925,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: Ancient=.09
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -3936,7 +3936,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingAncientT3
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_Ancient_T3
   StatusEffectMod: 1.0
   DurationOverrides: 1800.0
   MinDurationModifier: 0.0
@@ -3946,8 +3946,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_Ancient_T3
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -3956,7 +3956,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: Ancient=.11
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -3967,7 +3967,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingAncientT4
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_Ancient_T4
   StatusEffectMod: 1.0
   DurationOverrides: 2100.0
   MinDurationModifier: 0.0
@@ -3977,8 +3977,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_Ancient_T4
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -3987,7 +3987,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: Ancient=.13
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -3998,7 +3998,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingAncientT5
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_Ancient_T5
   StatusEffectMod: 1.0
   DurationOverrides: 2400.0
   MinDurationModifier: 0.0
@@ -4008,8 +4008,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_Ancient_T5
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -4018,7 +4018,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: Ancient=.15
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -4029,7 +4029,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingAngryEarthT2
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_AngryEarth_T2
   StatusEffectMod: 1.0
   DurationOverrides: 1500.0
   MinDurationModifier: 0.0
@@ -4039,8 +4039,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_AngryEarth_T2
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -4049,7 +4049,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: AngryEarth=.09
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -4060,7 +4060,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingAngryEarthT3
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_AngryEarth_T3
   StatusEffectMod: 1.0
   DurationOverrides: 1800.0
   MinDurationModifier: 0.0
@@ -4070,8 +4070,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_AngryEarth_T3
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -4080,7 +4080,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: AngryEarth=.11
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -4091,7 +4091,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingAngryEarthT4
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_AngryEarth_T4
   StatusEffectMod: 1.0
   DurationOverrides: 2100.0
   MinDurationModifier: 0.0
@@ -4101,8 +4101,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_AngryEarth_T4
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -4111,7 +4111,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: AngryEarth=.13
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -4122,7 +4122,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingAngryEarthT5
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_AngryEarth_T5
   StatusEffectMod: 1.0
   DurationOverrides: 2400.0
   MinDurationModifier: 0.0
@@ -4132,8 +4132,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_AngryEarth_T5
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -4142,7 +4142,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: AngryEarth=.15
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -4153,7 +4153,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingAeternianT2
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_Aeternian_T2
   StatusEffectMod: 1.0
   DurationOverrides: 1500.0
   MinDurationModifier: 0.0
@@ -4163,8 +4163,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_Aeternian_T2
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -4173,7 +4173,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: human=.09
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -4184,7 +4184,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingAeternianT3
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_Aeternian_T3
   StatusEffectMod: 1.0
   DurationOverrides: 1800.0
   MinDurationModifier: 0.0
@@ -4194,8 +4194,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_Aeternian_T3
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -4204,7 +4204,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: human=.11
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -4215,7 +4215,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingAeternianT4
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_Aeternian_T4
   StatusEffectMod: 1.0
   DurationOverrides: 2100.0
   MinDurationModifier: 0.0
@@ -4225,8 +4225,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_Aeternian_T4
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -4235,7 +4235,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: human=.13
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -4246,7 +4246,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: CoatingAeternianT5
-  AddStatusEffects: ""
+  AddStatusEffects: WeaponCoatingEffect_Aeternian_T5
   StatusEffectMod: 1.0
   DurationOverrides: 2400.0
   MinDurationModifier: 0.0
@@ -4256,8 +4256,8 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: WeaponCoatingEffect_Aeternian_T5
+  RemoveStatusEffectCategories: CoatingBoost
+  DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
   DisableUseInCombat: null
@@ -4266,7 +4266,7 @@
   BaseDamageType: ""
   DamageType: ""
   Damage: null
-  DMGVitalsCategory: human=.15
+  DMGVitalsCategory: ""
   OnUseAffliction: ""
   StatMultipliers: ""
   RequiredItemClass: ""
@@ -5992,7 +5992,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: DefBoost
+  RemoveStatusEffectCategories: WardBoost
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -6023,7 +6023,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: DefBoost
+  RemoveStatusEffectCategories: WardBoost
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -6054,7 +6054,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: DefBoost
+  RemoveStatusEffectCategories: WardBoost
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -6085,7 +6085,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: DefBoost
+  RemoveStatusEffectCategories: WardBoost
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -6116,7 +6116,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: DefBoost
+  RemoveStatusEffectCategories: WardBoost
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -6147,7 +6147,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: DefBoost
+  RemoveStatusEffectCategories: WardBoost
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -6178,7 +6178,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: DefBoost
+  RemoveStatusEffectCategories: WardBoost
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -6209,7 +6209,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: DefBoost
+  RemoveStatusEffectCategories: WardBoost
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -6240,7 +6240,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: DefBoost
+  RemoveStatusEffectCategories: WardBoost
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -6271,7 +6271,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: DefBoost
+  RemoveStatusEffectCategories: WardBoost
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -6302,7 +6302,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: DefBoost
+  RemoveStatusEffectCategories: WardBoost
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -6333,7 +6333,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: DefBoost
+  RemoveStatusEffectCategories: WardBoost
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -6364,7 +6364,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: DefBoost
+  RemoveStatusEffectCategories: WardBoost
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -6395,7 +6395,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: DefBoost
+  RemoveStatusEffectCategories: WardBoost
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -6426,7 +6426,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: DefBoost
+  RemoveStatusEffectCategories: WardBoost
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -6457,7 +6457,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: DefBoost
+  RemoveStatusEffectCategories: WardBoost
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -6488,7 +6488,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: DefBoost
+  RemoveStatusEffectCategories: WardBoost
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -6519,7 +6519,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: DefBoost
+  RemoveStatusEffectCategories: WardBoost
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -14165,6 +14165,130 @@
   CooldownId: AbsorbBoost
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
+- ConsumableID: HoningStoneT5_GoldTouched
+  AddStatusEffects: HoningStoneT5
+  StatusEffectMod: null
+  DurationOverrides: null
+  MinDurationModifier: null
+  MaxDurationModifier: null
+  DurationScaleFactor: null
+  MinPotencyModifier: null
+  MaxPotencyModifier: null
+  PotencyScaleFactor: null
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: Boost
+  DisplayStatusEffect: ""
+  UseCount: null
+  WeaponUseCount: ""
+  DisableUseInCombat: null
+  AfflictionDamage: ""
+  BaseDamageModifier: ""
+  BaseDamageType: ""
+  DamageType: ""
+  Damage: null
+  DMGVitalsCategory: ""
+  OnUseAffliction: ""
+  StatMultipliers: ""
+  RequiredItemClass: ""
+  MannequinTag: WeaponOil
+  EquipAbility: ""
+  CooldownDuration: null
+  CooldownId: ""
+  RequiredInactiveLootLimitId: ""
+  IsMountConsumable: null
+- ConsumableID: ProficiencyBoosterT5_GoldTouched
+  AddStatusEffects: ProficiencyBoosterT5
+  StatusEffectMod: null
+  DurationOverrides: null
+  MinDurationModifier: null
+  MaxDurationModifier: null
+  DurationScaleFactor: null
+  MinPotencyModifier: null
+  MaxPotencyModifier: null
+  PotencyScaleFactor: null
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: GatherBoost
+  DisplayStatusEffect: ""
+  UseCount: null
+  WeaponUseCount: ""
+  DisableUseInCombat: null
+  AfflictionDamage: ""
+  BaseDamageModifier: ""
+  BaseDamageType: ""
+  DamageType: ""
+  Damage: null
+  DMGVitalsCategory: ""
+  OnUseAffliction: ""
+  StatMultipliers: ""
+  RequiredItemClass: ""
+  MannequinTag: Drink
+  EquipAbility: ""
+  CooldownDuration: null
+  CooldownId: ""
+  RequiredInactiveLootLimitId: ""
+  IsMountConsumable: null
+- ConsumableID: OakfleshBalmT5_GoldTouched
+  AddStatusEffects: OakfleshBalmT5
+  StatusEffectMod: null
+  DurationOverrides: null
+  MinDurationModifier: null
+  MaxDurationModifier: null
+  DurationScaleFactor: null
+  MinPotencyModifier: null
+  MaxPotencyModifier: null
+  PotencyScaleFactor: null
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: DefBoost
+  DisplayStatusEffect: ""
+  UseCount: null
+  WeaponUseCount: ""
+  DisableUseInCombat: null
+  AfflictionDamage: ""
+  BaseDamageModifier: ""
+  BaseDamageType: ""
+  DamageType: ""
+  Damage: null
+  DMGVitalsCategory: ""
+  OnUseAffliction: ""
+  StatMultipliers: ""
+  RequiredItemClass: ""
+  MannequinTag: Boost
+  EquipAbility: ""
+  CooldownDuration: 100.0
+  CooldownId: AbsorbBoost
+  RequiredInactiveLootLimitId: ""
+  IsMountConsumable: null
+- ConsumableID: GemstoneDustT5_GoldTouched
+  AddStatusEffects: GemstoneDustT5
+  StatusEffectMod: null
+  DurationOverrides: null
+  MinDurationModifier: null
+  MaxDurationModifier: null
+  DurationScaleFactor: null
+  MinPotencyModifier: null
+  MaxPotencyModifier: null
+  PotencyScaleFactor: null
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: DefBoost
+  DisplayStatusEffect: ""
+  UseCount: null
+  WeaponUseCount: ""
+  DisableUseInCombat: null
+  AfflictionDamage: ""
+  BaseDamageModifier: ""
+  BaseDamageType: ""
+  DamageType: ""
+  Damage: null
+  DMGVitalsCategory: ""
+  OnUseAffliction: ""
+  StatMultipliers: ""
+  RequiredItemClass: ""
+  MannequinTag: Boost
+  EquipAbility: ""
+  CooldownDuration: 100.0
+  CooldownId: AbsorbBoost
+  RequiredInactiveLootLimitId: ""
+  IsMountConsumable: null
 - ConsumableID: OR_PotionHealth
   AddStatusEffects: PotionHealT5
   StatusEffectMod: 1.0
@@ -14352,7 +14476,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: WCConsumable_SpicedNog
-  AddStatusEffects: WCConsumable_SpicedNog+FoodRecoveryT3+WCConsumable_Gleamite
+  AddStatusEffects: WCConsumable_SpicedNog+FoodRecoveryT5+WCConsumable_Gleamite
   StatusEffectMod: null
   DurationOverrides: null
   MinDurationModifier: null
@@ -14383,7 +14507,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: WCConsumable_Mealiewrap
-  AddStatusEffects: WCConsumable_Mealiewrap+FoodRecoveryT3+WCConsumable_Gleamite
+  AddStatusEffects: WCConsumable_Mealiewrap+FoodRecoveryT5+WCConsumable_Gleamite
   StatusEffectMod: null
   DurationOverrides: null
   MinDurationModifier: null
@@ -14414,7 +14538,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: WCConsumable_ConvergenceCake
-  AddStatusEffects: WCConsumable_ConvergenceCake+FoodRecoveryT2+WCConsumable_Gleamite
+  AddStatusEffects: WCConsumable_ConvergenceCake+FoodRecoveryT5+WCConsumable_Gleamite
   StatusEffectMod: null
   DurationOverrides: null
   MinDurationModifier: null
@@ -14445,7 +14569,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: WCConsumable_ButtercreamPudding
-  AddStatusEffects: WCConsumable_ButtercreamPudding+FoodRecoveryT2+WCConsumable_Gleamite
+  AddStatusEffects: WCConsumable_ButtercreamPudding+FoodRecoveryT5+WCConsumable_Gleamite
   StatusEffectMod: null
   DurationOverrides: null
   MinDurationModifier: null
@@ -14476,7 +14600,7 @@
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
 - ConsumableID: WCConsumable_GingersnapCookie
-  AddStatusEffects: WCConsumable_GingersnapCookie+FoodRecoveryT2+WCConsumable_Gleamite
+  AddStatusEffects: WCConsumable_GingersnapCookie+FoodRecoveryT5+WCConsumable_Gleamite
   StatusEffectMod: null
   DurationOverrides: null
   MinDurationModifier: null
@@ -15870,37 +15994,6 @@
   CooldownId: ""
   RequiredInactiveLootLimitId: ""
   IsMountConsumable: null
-- ConsumableID: 1679_0101_DesertCerate
-  AddStatusEffects: ""
-  StatusEffectMod: null
-  DurationOverrides: null
-  MinDurationModifier: null
-  MaxDurationModifier: null
-  DurationScaleFactor: null
-  MinPotencyModifier: null
-  MaxPotencyModifier: null
-  PotencyScaleFactor: null
-  RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: ""
-  DisplayStatusEffect: ""
-  UseCount: null
-  WeaponUseCount: ""
-  DisableUseInCombat: null
-  AfflictionDamage: ""
-  BaseDamageModifier: ""
-  BaseDamageType: ""
-  DamageType: ""
-  Damage: null
-  DMGVitalsCategory: ""
-  OnUseAffliction: ""
-  StatMultipliers: ""
-  RequiredItemClass: ""
-  MannequinTag: Potion
-  EquipAbility: ""
-  CooldownDuration: null
-  CooldownId: ""
-  RequiredInactiveLootLimitId: ""
-  IsMountConsumable: null
 - ConsumableID: QuestReward_MB_Potion_Regen
   AddStatusEffects: MajorPotionRegen
   StatusEffectMod: 1.0
@@ -16067,7 +16160,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: Recovery+FoodInitialRecovery
+  RemoveStatusEffectCategories: FoodUtility
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -16098,7 +16191,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: Recovery+FoodInitialRecovery
+  RemoveStatusEffectCategories: FoodUtility
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -16129,7 +16222,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: Recovery+FoodInitialRecovery
+  RemoveStatusEffectCategories: FoodUtility
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -16160,7 +16253,7 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: Recovery+FoodInitialRecovery
+  RemoveStatusEffectCategories: FoodUtility
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""
@@ -16997,7 +17090,162 @@
   MaxPotencyModifier: null
   PotencyScaleFactor: null
   RemoveStatusEffects: ""
-  RemoveStatusEffectCategories: GatherBoost
+  RemoveStatusEffectCategories: Gatherboost
+  DisplayStatusEffect: ""
+  UseCount: null
+  WeaponUseCount: ""
+  DisableUseInCombat: null
+  AfflictionDamage: ""
+  BaseDamageModifier: ""
+  BaseDamageType: ""
+  DamageType: ""
+  Damage: null
+  DMGVitalsCategory: ""
+  OnUseAffliction: ""
+  StatMultipliers: ""
+  RequiredItemClass: ""
+  MannequinTag: Eat
+  EquipAbility: ""
+  CooldownDuration: null
+  CooldownId: ""
+  RequiredInactiveLootLimitId: ""
+  IsMountConsumable: null
+- ConsumableID: FoodSTRT52S
+  AddStatusEffects: FoodSTRT52+FoodRecoveryT52
+  StatusEffectMod: null
+  DurationOverrides: null
+  MinDurationModifier: null
+  MaxDurationModifier: null
+  DurationScaleFactor: null
+  MinPotencyModifier: null
+  MaxPotencyModifier: null
+  PotencyScaleFactor: null
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: Attributes+Recovery
+  DisplayStatusEffect: ""
+  UseCount: null
+  WeaponUseCount: ""
+  DisableUseInCombat: null
+  AfflictionDamage: ""
+  BaseDamageModifier: ""
+  BaseDamageType: ""
+  DamageType: ""
+  Damage: null
+  DMGVitalsCategory: ""
+  OnUseAffliction: ""
+  StatMultipliers: ""
+  RequiredItemClass: ""
+  MannequinTag: Eat
+  EquipAbility: ""
+  CooldownDuration: null
+  CooldownId: ""
+  RequiredInactiveLootLimitId: ""
+  IsMountConsumable: null
+- ConsumableID: FoodDEXT52S
+  AddStatusEffects: FoodDEXT52+FoodRecoveryT52
+  StatusEffectMod: null
+  DurationOverrides: null
+  MinDurationModifier: null
+  MaxDurationModifier: null
+  DurationScaleFactor: null
+  MinPotencyModifier: null
+  MaxPotencyModifier: null
+  PotencyScaleFactor: null
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: Attributes+Recovery
+  DisplayStatusEffect: ""
+  UseCount: null
+  WeaponUseCount: ""
+  DisableUseInCombat: null
+  AfflictionDamage: ""
+  BaseDamageModifier: ""
+  BaseDamageType: ""
+  DamageType: ""
+  Damage: null
+  DMGVitalsCategory: ""
+  OnUseAffliction: ""
+  StatMultipliers: ""
+  RequiredItemClass: ""
+  MannequinTag: Eat
+  EquipAbility: ""
+  CooldownDuration: null
+  CooldownId: ""
+  RequiredInactiveLootLimitId: ""
+  IsMountConsumable: null
+- ConsumableID: FoodINTT52S
+  AddStatusEffects: FoodINTT52+FoodRecoveryT52
+  StatusEffectMod: null
+  DurationOverrides: null
+  MinDurationModifier: null
+  MaxDurationModifier: null
+  DurationScaleFactor: null
+  MinPotencyModifier: null
+  MaxPotencyModifier: null
+  PotencyScaleFactor: null
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: Attributes+Recovery
+  DisplayStatusEffect: ""
+  UseCount: null
+  WeaponUseCount: ""
+  DisableUseInCombat: null
+  AfflictionDamage: ""
+  BaseDamageModifier: ""
+  BaseDamageType: ""
+  DamageType: ""
+  Damage: null
+  DMGVitalsCategory: ""
+  OnUseAffliction: ""
+  StatMultipliers: ""
+  RequiredItemClass: ""
+  MannequinTag: Eat
+  EquipAbility: ""
+  CooldownDuration: null
+  CooldownId: ""
+  RequiredInactiveLootLimitId: ""
+  IsMountConsumable: null
+- ConsumableID: FoodFOCT52S
+  AddStatusEffects: FoodFOCT52+FoodRecoveryT52
+  StatusEffectMod: null
+  DurationOverrides: null
+  MinDurationModifier: null
+  MaxDurationModifier: null
+  DurationScaleFactor: null
+  MinPotencyModifier: null
+  MaxPotencyModifier: null
+  PotencyScaleFactor: null
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: Attributes+Recovery
+  DisplayStatusEffect: ""
+  UseCount: null
+  WeaponUseCount: ""
+  DisableUseInCombat: null
+  AfflictionDamage: ""
+  BaseDamageModifier: ""
+  BaseDamageType: ""
+  DamageType: ""
+  Damage: null
+  DMGVitalsCategory: ""
+  OnUseAffliction: ""
+  StatMultipliers: ""
+  RequiredItemClass: ""
+  MannequinTag: Eat
+  EquipAbility: ""
+  CooldownDuration: null
+  CooldownId: ""
+  RequiredInactiveLootLimitId: ""
+  IsMountConsumable: null
+- ConsumableID: FoodCONT52S
+  AddStatusEffects: FoodCONT52+FoodRecoveryT52
+  StatusEffectMod: null
+  DurationOverrides: null
+  MinDurationModifier: null
+  MaxDurationModifier: null
+  DurationScaleFactor: null
+  MinPotencyModifier: null
+  MaxPotencyModifier: null
+  PotencyScaleFactor: null
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: Attributes+Recovery
   DisplayStatusEffect: ""
   UseCount: null
   WeaponUseCount: ""

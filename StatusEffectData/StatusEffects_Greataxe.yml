@@ -11,7 +11,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: null
+  IsClientPredicted: ""
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 3.0
@@ -90,6 +90,7 @@
   RemoveOnGameModeExit: 1.0
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -241,9 +242,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ApplicationCooldown: null
 - StatusID: GreatAxe_Vortex_Root
   DisplayName: "@Status_Root"
-  Description: Status_Root_Description
+  Description: "@Status_Root_Description"
   EffectCategories: Debuff+Root
   PlaceholderIcon: lyshineui/images/status/SE_Root.png
   ShowInUITray: true
@@ -254,7 +256,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: null
+  IsClientPredicted: ""
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 1.0
@@ -333,6 +335,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -484,6 +487,7 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ApplicationCooldown: null
 - StatusID: Status_Ultimate_Greataxe_Mauler
   DisplayName: "@Status_Ultimate_Greataxe_Mauler"
   Description: "@Status_Ultimate_Greataxe_Mauler_description"
@@ -497,7 +501,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: null
+  IsClientPredicted: ""
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 3.0
@@ -576,6 +580,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -727,6 +732,7 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ApplicationCooldown: null
 - StatusID: Status_Ultimate_Greataxe_Reaper
   DisplayName: "@Status_Ultimate_Greataxe_Reaper"
   Description: "@Status_Ultimate_Greataxe_Reaper_description"
@@ -740,7 +746,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: null
+  IsClientPredicted: ""
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: -1.0
@@ -819,6 +825,7 @@
   RemoveOnGameModeExit: 1.0
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -970,6 +977,7 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ApplicationCooldown: null
 - StatusID: Status_Passive_Greataxe_Reaper_DmgOnLight
   DisplayName: "@Status_Empower"
   Description: "@Status_Passive_Greataxe_Reaper_DmgOnLight_description"
@@ -983,7 +991,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: null
+  IsClientPredicted: ""
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 5.0
@@ -1062,6 +1070,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1213,6 +1222,7 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ApplicationCooldown: null
 - StatusID: Status_Passive_Greataxe_Reaper_HasteOnLight
   DisplayName: "@Status_Haste"
   Description: "@Status_Passive_Greataxe_Reaper_HasteOnLight_description"
@@ -1226,7 +1236,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: null
+  IsClientPredicted: ""
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 3.0
@@ -1305,6 +1315,7 @@
   RemoveOnGameModeExit: 1.0
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1427,12 +1438,12 @@
   AFABlight: ""
   StackDuration: 0.0
   DurationMax: 6.0
-  InheritDuration: "1"
-  InheritTotalDuration: false
-  RefreshDuration: "0"
+  InheritDuration: "0"
+  InheritTotalDuration: true
+  RefreshDuration: "1"
   StackMax: 1.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: true
+  RemoveUnappliedStacks: false
   PotencyMax: 1.0
   DontReplaceStack: ""
   MoveSpeedMod: 0.2
@@ -1456,6 +1467,7 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ApplicationCooldown: null
 - StatusID: Status_Passive_Greataxe_Reaper_DmgWhenBlocked
   DisplayName: "@Status_Empower"
   Description: "@Status_Passive_Greataxe_Reaper_DmgWhenBlocked_description"
@@ -1469,7 +1481,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: null
+  IsClientPredicted: ""
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 10.0
@@ -1548,6 +1560,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1699,6 +1712,7 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ApplicationCooldown: null
 - StatusID: Status_Passive_Greataxe_Mauler_StamVsLowHp
   DisplayName: ""
   Description: ""
@@ -1712,7 +1726,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: null
+  IsClientPredicted: ""
   UseLightweightReplication: true
   PotencyPerLevel: ""
   BaseDuration: 0.1
@@ -1791,6 +1805,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1942,6 +1957,7 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ApplicationCooldown: null
 - StatusID: Status_Passive_Greataxe_Mauler_DmgOnBlock
   DisplayName: "@Status_Empower"
   Description: "@Status_Passive_Greataxe_Mauler_DmgOnBlock_description"
@@ -1955,7 +1971,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: null
+  IsClientPredicted: ""
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 5.0
@@ -2034,6 +2050,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2185,6 +2202,7 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ApplicationCooldown: null
 - StatusID: Status_Upgrade_Greataxe_GravityWell_ArmorInWell
   DisplayName: "@Status_Fortify"
   Description: "@Status_Upgrade_Greataxe_GravityWell_ArmorInWell_description"
@@ -2198,7 +2216,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: null
+  IsClientPredicted: ""
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: -1.0
@@ -2277,6 +2295,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2428,6 +2447,7 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ApplicationCooldown: null
 - StatusID: Status_Passive_Greataxe_Mauler_StamVsLowHp_Timer
   DisplayName: "@Status_Timer"
   Description: "@Status_Passive_Greataxe_Mauler_StamVsLowHp_Timer_description"
@@ -2441,7 +2461,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: null
+  IsClientPredicted: ""
   UseLightweightReplication: true
   PotencyPerLevel: ""
   BaseDuration: 20.0
@@ -2520,6 +2540,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2671,6 +2692,7 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ApplicationCooldown: null
 - StatusID: Status_Upgrade_Greataxe_Reap_DmgAtRng
   DisplayName: ""
   Description: ""
@@ -2684,7 +2706,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: null
+  IsClientPredicted: ""
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: 1.0
@@ -2763,6 +2785,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2914,6 +2937,7 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ApplicationCooldown: null
 - StatusID: Status_Passive_Greataxe_Mauler_DmgWhenFoesNear
   DisplayName: "@Status_Empower"
   Description: "@Status_Passive_Greataxe_Mauler_DmgWhenFoesNear_description"
@@ -2927,7 +2951,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: null
+  IsClientPredicted: ""
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: -1.0
@@ -3006,6 +3030,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3157,6 +3182,7 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ApplicationCooldown: null
 - StatusID: Status_Passive_Greataxe_Mauler_ArmorWhenFoesNear
   DisplayName: "@Status_Fortify"
   Description: "@Status_Passive_Greataxe_Mauler_ArmorWhenFoesNear_description"
@@ -3170,7 +3196,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: null
+  IsClientPredicted: ""
   UseLightweightReplication: null
   PotencyPerLevel: ""
   BaseDuration: -1.0
@@ -3249,6 +3275,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3400,6 +3427,7 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ApplicationCooldown: null
 - StatusID: Status_WhenFoesNearCleanup_Tracker
   DisplayName: ""
   Description: ""
@@ -3413,7 +3441,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: 1.0
+  IsClientPredicted: "1"
   UseLightweightReplication: true
   PotencyPerLevel: ""
   BaseDuration: 60.0
@@ -3492,6 +3520,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3613,7 +3642,7 @@
   AFACurse: ""
   AFABlight: ""
   StackDuration: null
-  DurationMax: 1.0
+  DurationMax: 60.0
   InheritDuration: ""
   InheritTotalDuration: null
   RefreshDuration: ""
@@ -3643,6 +3672,7 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ApplicationCooldown: null
 - StatusID: Status_WhenFoesNearCleanup
   DisplayName: ""
   Description: ""
@@ -3656,7 +3686,7 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: 1.0
+  IsClientPredicted: "1"
   UseLightweightReplication: true
   PotencyPerLevel: ""
   BaseDuration: 0.1
@@ -3735,6 +3765,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3886,11 +3917,12 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ApplicationCooldown: null
 - StatusID: Status_Passive_GreatAxe_Gravity_Root
-  DisplayName: "@Status_Root"
-  Description: Status_Root_Description
-  EffectCategories: Debuff+Root
-  PlaceholderIcon: lyshineui/images/status/SE_Root.png
+  DisplayName: ""
+  Description: ""
+  EffectCategories: Tracking
+  PlaceholderIcon: ""
   ShowInUITray: false
   ShowTextInDamageNumbers: false
   FxScriptOn: ""
@@ -3899,8 +3931,8 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: null
-  UseLightweightReplication: null
+  IsClientPredicted: "0"
+  UseLightweightReplication: false
   PotencyPerLevel: ""
   BaseDuration: 0.33
   TickRate: 1.0
@@ -3978,6 +4010,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4129,9 +4162,10 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ApplicationCooldown: 1.0
 - StatusID: Status_Passive_GreatAxe_Gravity_Root_Hold
   DisplayName: "@Status_Root"
-  Description: Status_Root_Description
+  Description: "@Status_Root_Description"
   EffectCategories: Debuff+Root
   PlaceholderIcon: lyshineui/images/status/SE_Root.png
   ShowInUITray: true
@@ -4142,10 +4176,10 @@
   WeaponEffectType: ""
   Notification: ""
   DisableTelemetry: ""
-  IsClientPredicted: null
+  IsClientPredicted: ""
   UseLightweightReplication: null
   PotencyPerLevel: ""
-  BaseDuration: 0.25
+  BaseDuration: 0.4
   TickRate: 1.0
   DelayInitialTick: ""
   TickCondition: ""
@@ -4221,6 +4255,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4372,3 +4407,4 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ApplicationCooldown: null

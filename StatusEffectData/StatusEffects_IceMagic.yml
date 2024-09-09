@@ -92,6 +92,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -249,7 +250,7 @@
 - StatusID: IceMagic_IceStorm_Damage
   DisplayName: ""
   Description: ""
-  EffectCategories: NonDispellableDebuff+Freeze+Frost
+  EffectCategories: NonDispellableDebuff+Freeze+Frost+FrostBurn+DoT
   PlaceholderIcon: ""
   ShowInUITray: false
   ShowTextInDamageNumbers: false
@@ -340,6 +341,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -588,6 +590,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -745,7 +748,7 @@
 - StatusID: IceMagic_IceStorm_UT_Damage
   DisplayName: ""
   Description: ""
-  EffectCategories: NonDispellableDebuff+Freeze+Frost
+  EffectCategories: NonDispellableDebuff+Freeze+Frost+FrostBurn+DoT
   PlaceholderIcon: ""
   ShowInUITray: false
   ShowTextInDamageNumbers: false
@@ -836,6 +839,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1084,6 +1088,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1332,6 +1337,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1580,6 +1586,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1828,6 +1835,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2076,6 +2084,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2324,6 +2333,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2572,6 +2582,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2729,7 +2740,7 @@
 - StatusID: IceMagic_Frostbite_DeadlyFrost
   DisplayName: ""
   Description: ""
-  EffectCategories: NonDispellableDebuff+Freeze+Slow+Frost
+  EffectCategories: NonDispellableDebuff+Freeze+Slow+Frost+FrostBurn+DoT
   PlaceholderIcon: ""
   ShowInUITray: false
   ShowTextInDamageNumbers: false
@@ -2820,6 +2831,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2977,7 +2989,7 @@
 - StatusID: IceMagic_Frostbite_DeadlyFrost_Dur3
   DisplayName: ""
   Description: ""
-  EffectCategories: NonDispellableDebuff+Freeze+Slow+Frost
+  EffectCategories: NonDispellableDebuff+Freeze+Slow+Frost+FrostBurn+DoT
   PlaceholderIcon: ""
   ShowInUITray: false
   ShowTextInDamageNumbers: false
@@ -3068,6 +3080,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3316,6 +3329,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3564,6 +3578,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3812,6 +3827,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4060,6 +4076,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4308,6 +4325,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4556,6 +4574,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4804,6 +4823,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5052,6 +5072,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5209,7 +5230,7 @@
 - StatusID: IceMagic_Entombed
   DisplayName: "@IceMagic_Entombed_DisplayName"
   Description: "@IceMagic_Entombed_Description"
-  EffectCategories: Uninterruptible
+  EffectCategories: Uninterruptible+UnclampedDisease
   PlaceholderIcon: lyshineui/images/status/SE_FortifyT5.png
   ShowInUITray: true
   ShowTextInDamageNumbers: false
@@ -5258,7 +5279,7 @@
   UseSourceWeaponForSpell: ""
   FromAlchemy: 0.0
   FromSpell: 0.0
-  NoHealthRegen: 0.0
+  NoHealthRegen: 1.0
   HealMod: -2.0
   MaxHealthMod: 0.0
   HealthRate: 0.0
@@ -5267,7 +5288,7 @@
   Stamina: 0.0
   StaminaRate: 0.0
   Mana: 0.0
-  ManaRate: 6.0
+  ManaRate: 0.0
   Food: 0.0
   FoodBurn: 0.0
   Drink: 0.0
@@ -5300,6 +5321,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5457,7 +5479,7 @@
 - StatusID: IceMagic_Entombed_Cleanse
   DisplayName: "@IceMagic_Entombed_DisplayName"
   Description: "@IceMagic_Entombed_Description"
-  EffectCategories: Uninterruptible
+  EffectCategories: Uninterruptible+UnclampedDisease
   PlaceholderIcon: lyshineui/images/status/SE_FortifyT5.png
   ShowInUITray: true
   ShowTextInDamageNumbers: true
@@ -5506,7 +5528,7 @@
   UseSourceWeaponForSpell: ""
   FromAlchemy: 0.0
   FromSpell: 0.0
-  NoHealthRegen: 0.0
+  NoHealthRegen: 1.0
   HealMod: -2.0
   MaxHealthMod: 0.0
   HealthRate: 0.0
@@ -5515,7 +5537,7 @@
   Stamina: 0.0
   StaminaRate: 0.0
   Mana: 0.0
-  ManaRate: 6.0
+  ManaRate: 0.0
   Food: 0.0
   FoodBurn: 0.0
   Drink: 0.0
@@ -5548,6 +5570,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5622,6 +5645,255 @@
   RESFrostbite: 100.0
   RESCurse: 100.0
   RESBlight: 100.0
+  BLAStandard: ""
+  BLASiege: ""
+  BLAStrike: ""
+  BLASlash: ""
+  BLAThrust: ""
+  BLAArcane: ""
+  BLAFire: ""
+  BLAIce: ""
+  BLALightning: ""
+  BLACorruption: ""
+  ABAPoison: ""
+  ABADisease: ""
+  ABABleed: ""
+  ABAFrostbite: ""
+  ABACurse: ""
+  ABABlight: ""
+  WKNStandard: null
+  WKNSiege: null
+  WKNStrike: null
+  WKNSlash: null
+  WKNThrust: null
+  WKNArcane: null
+  WKNFire: null
+  WKNIce: null
+  WKNNature: null
+  WKNLightning: null
+  WKNCorruption: null
+  DMGStandard: ""
+  DMGSiege: ""
+  DMGStrike: ""
+  DMGSlash: ""
+  DMGThrust: ""
+  DMGArcane: ""
+  DMGFire: ""
+  DMGIce: ""
+  DMGNature: ""
+  DMGLightning: ""
+  DMGCorruption: ""
+  DMGAcid: ""
+  DMGVitalsCategory: ""
+  AFAPoison: ""
+  AFADisease: ""
+  AFABleed: ""
+  AFAFrostbite: ""
+  AFACurse: ""
+  AFABlight: ""
+  StackDuration: 0.0
+  DurationMax: 20.0
+  InheritDuration: ""
+  InheritTotalDuration: ""
+  RefreshDuration: null
+  StackMax: 1.0
+  InitialStackSize: ""
+  RemoveUnappliedStacks: "TRUE"
+  PotencyMax: null
+  DontReplaceStack: null
+  MoveSpeedMod: null
+  SprintSpeedMod: null
+  FastTravelEncumbranceMod: ""
+  GameEventId: ""
+  HealRewardGameEventId: ""
+  HealRewardThreshold: ""
+  WeaponMasteryCategoryId: ""
+  UIPriority: 2.0
+  UiNameplatePriority: 2.0
+  ShowInNameplates: false
+  ShowTextInNameplates: ""
+  OverrideOtherNameplateText: ""
+  HidesOtherStatusEffectIcons: ""
+  DynamicModelScaleFactor: ""
+  DynamicModelScaleRampTimeSecs: ""
+  SpawnSlice: ""
+  DisableSupportContributionRewards: ""
+  BlockMultipleEffectsFromSameSource: ""
+  AllowSelfOnlyAsSourceForAbilities: ""
+  IgnoreInvulnerable: null
+  NotCombatAction: ""
+  SourceRuneChargeOnApply: null
+  SourceRuneChargeOnTick: null
+  SourceRuneChargeOnHealthChangeOnly: null
+- StatusID: IceMagic_Entombed_ManaRegen
+  DisplayName: ""
+  Description: ""
+  EffectCategories: ""
+  PlaceholderIcon: ""
+  ShowInUITray: false
+  ShowTextInDamageNumbers: false
+  FxScriptOn: ""
+  FxScriptOff: ""
+  ShouldRefreshFxScript: ""
+  WeaponEffectType: ""
+  Notification: ""
+  DisableTelemetry: ""
+  IsClientPredicted: ""
+  UseLightweightReplication: false
+  PotencyPerLevel: ""
+  ApplicationCooldown: null
+  BaseDuration: 10.0
+  TickRate: 1.0
+  DelayInitialTick: null
+  TickCondition: ""
+  OnTickStatusEffect: ""
+  KeepOnTickEffectOnEnd: null
+  StopOnHitCount: 0.0
+  HitCondition: ""
+  RequireReaction: ""
+  OnStackStatusEffect: ""
+  AddOnStackSize: ""
+  AddOnStackSizeComparison: ""
+  HealThreatMultiplier: ""
+  ScaleAmountOverTime: ""
+  ScaleAmountOverTimeMin: ""
+  ScaleAmountOverTimeMax: ""
+  DamageSkipsDeathsDoor: ""
+  Health: 0.0
+  HealthMin: ""
+  HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
+  HealthModifierDamageBased: null
+  UseHealScalingValue: ""
+  HealScalingValueMultiplier: ""
+  StaminaDamageModifier: ""
+  ManaModifierDamageBased: ""
+  DamageType: ""
+  CritChanceModifier: ""
+  CritDamageModifier: ""
+  OnEndStatusEffect: ""
+  CastSpell: ""
+  TargetOwnsSpell: ""
+  UseSourceWeaponForSpell: ""
+  FromAlchemy: 0.0
+  FromSpell: 0.0
+  NoHealthRegen: 0.0
+  HealMod: 0.0
+  MaxHealthMod: 0.0
+  HealthRate: 0.0
+  CoreTempMod: 0.0
+  TempMod: 0.0
+  Stamina: 0.0
+  StaminaRate: 0.0
+  Mana: 0.0
+  ManaRate: 6.0
+  Food: 0.0
+  FoodBurn: 0.0
+  Drink: 0.0
+  DrinkBurn: 0.0
+  Encumbrance: 0.0
+  ItemClassWeightMods: ""
+  XPIncreases: ""
+  AzothMod: ""
+  FactionReputationMod: ""
+  FactionTokensMod: ""
+  EXPLogging: ""
+  EXPMining: ""
+  EXPHarvesting: ""
+  EXPSkinning: ""
+  EXPSmelting: ""
+  EXPWoodworking: ""
+  EXPLeatherworking: ""
+  EXPWeaving: ""
+  EXPStonecutting: ""
+  GrantSanctuary: 0.0
+  NoSprint: 0.0
+  NoRun: 0.0
+  NoDodge: 0.0
+  NoNav: 0.0
+  Silenced: 0.0
+  Stunned: 0.0
+  RemoveOnDeath: 1.0
+  RemoveOnDeathsDoor: 1.0
+  RemoveOnRespawn: ""
+  RemoveOnGameModeExit: ""
+  IgnoreDiminishingReturns: true
+  OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
+  Afflictions: ""
+  OnHitAffixes: ""
+  EquipAbility: ""
+  UseSourceWeaponForAbilityEffect: ""
+  IsNegative: null
+  RespecTradeskills: ""
+  RespecAttributes: ""
+  EffectDurationMods: ""
+  EffectPotencyMods: ""
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: ""
+  GlobalRollMod: ""
+  FishingLineStrength: ""
+  FishSizeRollModifier: ""
+  MODConstitution: ""
+  MODFocus: ""
+  MODStrength: ""
+  MODDexterity: ""
+  MODIntelligence: ""
+  MGSArcana: ""
+  MGSWeaponsmithing: ""
+  MGSJewelcrafting: ""
+  MGSEngineering: ""
+  MGSArmoring: ""
+  MaxGSArcana: ""
+  MaxGSWeaponsmithing: ""
+  MaxGSJewelcrafting: ""
+  MaxGSEngineering: ""
+  MaxGSArmoring: ""
+  ROLCooking: ""
+  ROLWeaving: ""
+  ROLStonecutting: ""
+  ROLSmelting: ""
+  ROLLeatherworking: ""
+  ROLWoodworking: ""
+  ROLLogging: ""
+  ROLMining: ""
+  ROLSkinning: ""
+  ROLHarvesting: ""
+  ROLFishing: ""
+  MULTLogging: ""
+  MULTMining: ""
+  MULTSkinning: ""
+  MULTHarvesting: ""
+  MULTFishing: ""
+  EFFLogging: ""
+  EFFMining: ""
+  EFFSkinning: ""
+  EFFHarvesting: ""
+  INSLogging: ""
+  INSMining: ""
+  INSSkinning: ""
+  INSHarvesting: ""
+  PhysicalArmor: null
+  ElementalArmor: null
+  ABSStandard: null
+  ABSSiege: null
+  ABSStrike: null
+  ABSSlash: null
+  ABSThrust: null
+  ABSArcane: null
+  ABSFire: null
+  ABSIce: null
+  ABSNature: null
+  ABSLightning: null
+  ABSCorruption: null
+  ABSAcid: null
+  ABSVitalsCategory: null
+  RESPoison: null
+  RESDisease: null
+  RESBleed: null
+  RESFrostbite: null
+  RESCurse: null
+  RESBlight: null
   BLAStandard: ""
   BLASiege: ""
   BLAStrike: ""
@@ -5796,6 +6068,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -6044,6 +6317,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -6292,6 +6566,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -6540,6 +6815,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -6788,6 +7064,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -7036,6 +7313,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -7284,6 +7562,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -7532,6 +7811,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -7780,6 +8060,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -8028,6 +8309,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -8276,6 +8558,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -8524,6 +8807,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -8772,6 +9056,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -8945,7 +9230,7 @@
   ApplicationCooldown: null
   BaseDuration: 1.0
   TickRate: 1.0
-  DelayInitialTick: 0.9
+  DelayInitialTick: true
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
@@ -9020,6 +9305,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -9268,6 +9554,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -9516,6 +9803,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -9764,6 +10052,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -9904,6 +10193,255 @@
   UIPriority: 2.0
   UiNameplatePriority: 2.0
   ShowInNameplates: false
+  ShowTextInNameplates: ""
+  OverrideOtherNameplateText: ""
+  HidesOtherStatusEffectIcons: ""
+  DynamicModelScaleFactor: ""
+  DynamicModelScaleRampTimeSecs: ""
+  SpawnSlice: ""
+  DisableSupportContributionRewards: ""
+  BlockMultipleEffectsFromSameSource: ""
+  AllowSelfOnlyAsSourceForAbilities: ""
+  IgnoreInvulnerable: null
+  NotCombatAction: ""
+  SourceRuneChargeOnApply: null
+  SourceRuneChargeOnTick: null
+  SourceRuneChargeOnHealthChangeOnly: null
+- StatusID: IceMagic_HeavyAttackSlow
+  DisplayName: "@Status_Slow"
+  Description: "@Status_Slow_Description"
+  EffectCategories: Debuff+Slow+CC
+  PlaceholderIcon: lyshineui/images/status/SE_SlowT1.png
+  ShowInUITray: true
+  ShowTextInDamageNumbers: false
+  FxScriptOn: StatFX_Slow_ON
+  FxScriptOff: ""
+  ShouldRefreshFxScript: ""
+  WeaponEffectType: ""
+  Notification: ""
+  DisableTelemetry: ""
+  IsClientPredicted: ""
+  UseLightweightReplication: null
+  PotencyPerLevel: ""
+  ApplicationCooldown: 6.0
+  BaseDuration: 3.0
+  TickRate: 1.0
+  DelayInitialTick: null
+  TickCondition: ""
+  OnTickStatusEffect: ""
+  KeepOnTickEffectOnEnd: null
+  StopOnHitCount: 0.0
+  HitCondition: ""
+  RequireReaction: ""
+  OnStackStatusEffect: ""
+  AddOnStackSize: ""
+  AddOnStackSizeComparison: ""
+  HealThreatMultiplier: ""
+  ScaleAmountOverTime: ""
+  ScaleAmountOverTimeMin: ""
+  ScaleAmountOverTimeMax: ""
+  DamageSkipsDeathsDoor: ""
+  Health: 0.0
+  HealthMin: ""
+  HealthModifierPercent: 0.0
+  HealthModifierBasePercent: null
+  HealthModifierDamageBased: null
+  UseHealScalingValue: ""
+  HealScalingValueMultiplier: ""
+  StaminaDamageModifier: ""
+  ManaModifierDamageBased: ""
+  DamageType: ""
+  CritChanceModifier: ""
+  CritDamageModifier: ""
+  OnEndStatusEffect: ""
+  CastSpell: ""
+  TargetOwnsSpell: ""
+  UseSourceWeaponForSpell: ""
+  FromAlchemy: 0.0
+  FromSpell: 0.0
+  NoHealthRegen: 0.0
+  HealMod: 0.0
+  MaxHealthMod: 0.0
+  HealthRate: 0.0
+  CoreTempMod: 0.0
+  TempMod: 0.0
+  Stamina: 0.0
+  StaminaRate: 0.0
+  Mana: 0.0
+  ManaRate: 0.0
+  Food: 0.0
+  FoodBurn: 0.0
+  Drink: 0.0
+  DrinkBurn: 0.0
+  Encumbrance: 0.0
+  ItemClassWeightMods: ""
+  XPIncreases: ""
+  AzothMod: ""
+  FactionReputationMod: ""
+  FactionTokensMod: ""
+  EXPLogging: ""
+  EXPMining: ""
+  EXPHarvesting: ""
+  EXPSkinning: ""
+  EXPSmelting: ""
+  EXPWoodworking: ""
+  EXPLeatherworking: ""
+  EXPWeaving: ""
+  EXPStonecutting: ""
+  GrantSanctuary: 0.0
+  NoSprint: 0.0
+  NoRun: 0.0
+  NoDodge: 0.0
+  NoNav: 0.0
+  Silenced: 0.0
+  Stunned: 0.0
+  RemoveOnDeath: 1.0
+  RemoveOnDeathsDoor: 1.0
+  RemoveOnRespawn: ""
+  RemoveOnGameModeExit: ""
+  IgnoreDiminishingReturns: null
+  OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
+  Afflictions: ""
+  OnHitAffixes: ""
+  EquipAbility: ""
+  UseSourceWeaponForAbilityEffect: ""
+  IsNegative: true
+  RespecTradeskills: ""
+  RespecAttributes: ""
+  EffectDurationMods: ""
+  EffectPotencyMods: ""
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: ""
+  GlobalRollMod: ""
+  FishingLineStrength: ""
+  FishSizeRollModifier: ""
+  MODConstitution: ""
+  MODFocus: ""
+  MODStrength: ""
+  MODDexterity: ""
+  MODIntelligence: ""
+  MGSArcana: ""
+  MGSWeaponsmithing: ""
+  MGSJewelcrafting: ""
+  MGSEngineering: ""
+  MGSArmoring: ""
+  MaxGSArcana: ""
+  MaxGSWeaponsmithing: ""
+  MaxGSJewelcrafting: ""
+  MaxGSEngineering: ""
+  MaxGSArmoring: ""
+  ROLCooking: ""
+  ROLWeaving: ""
+  ROLStonecutting: ""
+  ROLSmelting: ""
+  ROLLeatherworking: ""
+  ROLWoodworking: ""
+  ROLLogging: ""
+  ROLMining: ""
+  ROLSkinning: ""
+  ROLHarvesting: ""
+  ROLFishing: ""
+  MULTLogging: ""
+  MULTMining: ""
+  MULTSkinning: ""
+  MULTHarvesting: ""
+  MULTFishing: ""
+  EFFLogging: ""
+  EFFMining: ""
+  EFFSkinning: ""
+  EFFHarvesting: ""
+  INSLogging: ""
+  INSMining: ""
+  INSSkinning: ""
+  INSHarvesting: ""
+  PhysicalArmor: null
+  ElementalArmor: null
+  ABSStandard: null
+  ABSSiege: null
+  ABSStrike: null
+  ABSSlash: null
+  ABSThrust: null
+  ABSArcane: null
+  ABSFire: null
+  ABSIce: null
+  ABSNature: null
+  ABSLightning: null
+  ABSCorruption: null
+  ABSAcid: null
+  ABSVitalsCategory: null
+  RESPoison: null
+  RESDisease: null
+  RESBleed: null
+  RESFrostbite: null
+  RESCurse: null
+  RESBlight: null
+  BLAStandard: ""
+  BLASiege: ""
+  BLAStrike: ""
+  BLASlash: ""
+  BLAThrust: ""
+  BLAArcane: ""
+  BLAFire: ""
+  BLAIce: ""
+  BLALightning: ""
+  BLACorruption: ""
+  ABAPoison: ""
+  ABADisease: ""
+  ABABleed: ""
+  ABAFrostbite: ""
+  ABACurse: ""
+  ABABlight: ""
+  WKNStandard: null
+  WKNSiege: null
+  WKNStrike: null
+  WKNSlash: null
+  WKNThrust: null
+  WKNArcane: null
+  WKNFire: null
+  WKNIce: null
+  WKNNature: null
+  WKNLightning: null
+  WKNCorruption: null
+  DMGStandard: ""
+  DMGSiege: ""
+  DMGStrike: ""
+  DMGSlash: ""
+  DMGThrust: ""
+  DMGArcane: ""
+  DMGFire: ""
+  DMGIce: ""
+  DMGNature: ""
+  DMGLightning: ""
+  DMGCorruption: ""
+  DMGAcid: ""
+  DMGVitalsCategory: ""
+  AFAPoison: ""
+  AFADisease: ""
+  AFABleed: ""
+  AFAFrostbite: ""
+  AFACurse: ""
+  AFABlight: ""
+  StackDuration: 0.0
+  DurationMax: 6.0
+  InheritDuration: ""
+  InheritTotalDuration: ""
+  RefreshDuration: true
+  StackMax: 1.0
+  InitialStackSize: ""
+  RemoveUnappliedStacks: "0"
+  PotencyMax: null
+  DontReplaceStack: null
+  MoveSpeedMod: -0.1
+  SprintSpeedMod: -0.1
+  FastTravelEncumbranceMod: ""
+  GameEventId: ""
+  HealRewardGameEventId: ""
+  HealRewardThreshold: ""
+  WeaponMasteryCategoryId: ""
+  UIPriority: 3.0
+  UiNameplatePriority: 3.0
+  ShowInNameplates: true
   ShowTextInNameplates: ""
   OverrideOtherNameplateText: ""
   HidesOtherStatusEffectIcons: ""

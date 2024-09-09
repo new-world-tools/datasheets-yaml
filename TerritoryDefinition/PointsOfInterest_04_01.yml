@@ -31,19 +31,23 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40102.0
   NameLocalizationKey: "@ui_poi_witheredfarm_1_40102_MSQ2"
   BaseStructureLimit: ""
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_farm_village.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_village.png
   CompassIcon: ""
   DiscoveryRadius: 300.0
   IsDiscoverable: true
@@ -69,20 +73,24 @@
   IsCollapsible: null
   UnchartedIcon: ""
   EventId: ""
-  PhasingMode: ""
-  PhasingBoundsMargin: ""
+  PhasingMode: ENABLED
+  PhasingAreaBoundsScale: 0.0
+  PhasingBoundsMargin: 440 420 104 180
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
-  PhasingSortPriority: null
+  PhasingPopulationTarget: 150.0
+  PhasingPopulationMax: 300.0
+  PhasingSortPriority: 70.0
+  PhasingAILeashOverride: 25.0
+  PhasingProjectedACU: 0.2
+  PhasingProjectedMemoryMb: 4096.0
 - TerritoryID: 40103.0
   NameLocalizationKey: "@ui_poi_witheredfarm_2_40103_MSQ2"
   BaseStructureLimit: ""
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_farm_village.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_village.png
   CompassIcon: ""
   DiscoveryRadius: 300.0
   IsDiscoverable: true
@@ -109,19 +117,23 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40104.0
   NameLocalizationKey: "@ui_poi_witheredfarm_3_40104_MSQ2"
   BaseStructureLimit: ""
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_farm_village.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_village.png
   CompassIcon: ""
   DiscoveryRadius: 250.0
   IsDiscoverable: true
@@ -148,12 +160,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40105.0
   NameLocalizationKey: "@ui_poi_ancient_temple_lg_40105"
   BaseStructureLimit: ""
@@ -187,12 +203,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40106.0
   NameLocalizationKey: "@ui_poi_ancient_lookout_40106"
   BaseStructureLimit: ""
@@ -226,12 +246,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40107.0
   NameLocalizationKey: "@ui_poi_ancient_lookout_40107"
   BaseStructureLimit: ""
@@ -265,12 +289,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40108.0
   NameLocalizationKey: "@ui_poi_ancient_lookout_40108"
   BaseStructureLimit: ""
@@ -304,12 +332,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40109.0
   NameLocalizationKey: "@ui_poi_ancient_lookout_40109"
   BaseStructureLimit: ""
@@ -343,12 +375,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40110.0
   NameLocalizationKey: "@ui_poi_ancient_lookout_40110"
   BaseStructureLimit: ""
@@ -382,12 +418,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40111.0
   NameLocalizationKey: "@ui_poi_ancient_lookout_40111"
   BaseStructureLimit: ""
@@ -421,12 +461,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40112.0
   NameLocalizationKey: "@ui_poi_ancient_lookout_40112"
   BaseStructureLimit: ""
@@ -460,12 +504,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40113.0
   NameLocalizationKey: "@ui_poi_ancient_lookout_40113"
   BaseStructureLimit: ""
@@ -499,12 +547,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40114.0
   NameLocalizationKey: "@ui_poi_ancient_lookout_40114"
   BaseStructureLimit: ""
@@ -538,12 +590,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40115.0
   NameLocalizationKey: "@ui_poi_ancient_lookout_40115"
   BaseStructureLimit: ""
@@ -577,12 +633,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40116.0
   NameLocalizationKey: "@ui_poi_shattered_obelisk_40116"
   BaseStructureLimit: ""
@@ -616,12 +676,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40117.0
   NameLocalizationKey: "@ui_poi_alpha_wolf_den_40117"
   BaseStructureLimit: ""
@@ -655,12 +719,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40118.0
   NameLocalizationKey: "@ui_poi_alpha_wolf_den_40118"
   BaseStructureLimit: ""
@@ -694,12 +762,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40119.0
   NameLocalizationKey: "@ui_poi_alpha_wolf_den_40119"
   BaseStructureLimit: ""
@@ -733,12 +805,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40120.0
   NameLocalizationKey: "@ui_poi_ancient_buttress_40120"
   BaseStructureLimit: ""
@@ -772,12 +848,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40121.0
   NameLocalizationKey: "@ui_poi_ancient_bridge_40121_MSQ2"
   BaseStructureLimit: ""
@@ -811,12 +891,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40122.0
   NameLocalizationKey: "@ui_poi_undeadbastion_2_40122_MSQ2"
   BaseStructureLimit: ""
@@ -850,12 +934,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40123.0
   NameLocalizationKey: "@ui_poi_ancient_ruins_40123"
   BaseStructureLimit: ""
@@ -889,12 +977,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40124.0
   NameLocalizationKey: "@ui_poi_undeadbastion_3_40124_MSQ2"
   BaseStructureLimit: ""
@@ -928,12 +1020,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40125.0
   NameLocalizationKey: "@ui_poi_bear_den_40125"
   BaseStructureLimit: ""
@@ -967,12 +1063,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40126.0
   NameLocalizationKey: "@ui_poi_ancient_bridge_40126"
   BaseStructureLimit: ""
@@ -1006,12 +1106,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40127.0
   NameLocalizationKey: "@ui_poi_ancient_lookout_40127"
   BaseStructureLimit: ""
@@ -1045,12 +1149,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40137.0
   NameLocalizationKey: "@ui_poi_undeadbastion_1_40137_MSQ2"
   BaseStructureLimit: ""
@@ -1084,12 +1192,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40138.0
   NameLocalizationKey: "@ui_poi_bear_den_40138"
   BaseStructureLimit: ""
@@ -1123,12 +1235,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40139.0
   NameLocalizationKey: "@ui_poi_bear_den_40139"
   BaseStructureLimit: ""
@@ -1162,12 +1278,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40140.0
   NameLocalizationKey: "@ui_poi_drownedshipwreck_3_40140_MSQ2"
   BaseStructureLimit: ""
@@ -1201,12 +1321,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40141.0
   NameLocalizationKey: "@ui_poi_drownedshipwreck_4_40141_MSQ2"
   BaseStructureLimit: ""
@@ -1240,12 +1364,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40142.0
   NameLocalizationKey: "@ui_poi_drownedshipwreck_2_40142_MSQ2"
   BaseStructureLimit: ""
@@ -1279,12 +1407,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40143.0
   NameLocalizationKey: "@ui_poi_boar_infestation_1_40143"
   BaseStructureLimit: ""
@@ -1318,12 +1450,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40144.0
   NameLocalizationKey: "@ui_poi_drownedshipwreck_1_40144_MSQ2"
   BaseStructureLimit: ""
@@ -1357,12 +1493,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40145.0
   NameLocalizationKey: "@ui_poi_boar_infestation_1_40145"
   BaseStructureLimit: ""
@@ -1396,12 +1536,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40146.0
   NameLocalizationKey: "@ui_poi_drownedcavern_40146"
   BaseStructureLimit: ""
@@ -1435,12 +1579,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40148.0
   NameLocalizationKey: "@ui_poi_outpost_41_2_40148"
   BaseStructureLimit: ""
@@ -1474,19 +1622,23 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40149.0
   NameLocalizationKey: "@ui_poi_witheredfarm_3_40149"
   BaseStructureLimit: ""
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_farm_village.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_village.png
   CompassIcon: ""
   DiscoveryRadius: 150.0
   IsDiscoverable: true
@@ -1513,12 +1665,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40150.0
   NameLocalizationKey: "@ui_poi_boar_infestation_1_40150"
   BaseStructureLimit: ""
@@ -1552,12 +1708,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40151.0
   NameLocalizationKey: "@ui_poi_nettlerest_graveyard_40151"
   BaseStructureLimit: ""
@@ -1591,12 +1751,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40152.0
   NameLocalizationKey: "@ui_poi_overlook_40152"
   BaseStructureLimit: ""
@@ -1630,12 +1794,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40153.0
   NameLocalizationKey: "@ui_poi_ancient_ruins_40153"
   BaseStructureLimit: ""
@@ -1669,12 +1837,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40154.0
   NameLocalizationKey: "@ui_poi_ancient_ruins_40154"
   BaseStructureLimit: ""
@@ -1708,12 +1880,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40155.0
   NameLocalizationKey: "@ui_poi_ancient_ruins_40155"
   BaseStructureLimit: ""
@@ -1747,12 +1923,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40156.0
   NameLocalizationKey: "@ui_poi_infested_monolith_40156"
   BaseStructureLimit: ""
@@ -1786,19 +1966,23 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40157.0
   NameLocalizationKey: "@ui_poi_withered_camp_40157"
   BaseStructureLimit: ""
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/campsite.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_campsite.png
   CompassIcon: ""
   DiscoveryRadius: 150.0
   IsDiscoverable: true
@@ -1825,12 +2009,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40158.0
   NameLocalizationKey: "@ui_poi_undeadbastion_40158"
   BaseStructureLimit: ""
@@ -1864,19 +2052,23 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40159.0
   NameLocalizationKey: "@ui_poi_witheredfarm_40159_MSQ2"
   BaseStructureLimit: ""
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_farm_village.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_village.png
   CompassIcon: ""
   DiscoveryRadius: 150.0
   IsDiscoverable: true
@@ -1903,12 +2095,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40160.0
   NameLocalizationKey: "@ui_poi_infested_village_40160_MSQ2"
   BaseStructureLimit: ""
@@ -1942,12 +2138,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40161.0
   NameLocalizationKey: "@ui_poi_fish_hotspot_broad"
   BaseStructureLimit: ""
@@ -1981,12 +2181,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40162.0
   NameLocalizationKey: "@ui_poi_fish_hotspot_broad"
   BaseStructureLimit: ""
@@ -2020,12 +2224,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40163.0
   NameLocalizationKey: "@ui_poi_fish_hotspot_rare"
   BaseStructureLimit: ""
@@ -2059,12 +2267,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40164.0
   NameLocalizationKey: "@ui_poi_fish_hotspot_secret"
   BaseStructureLimit: ""
@@ -2098,12 +2310,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40165.0
   NameLocalizationKey: "@ui_poi_fish_hotspot_secret"
   BaseStructureLimit: ""
@@ -2137,19 +2353,23 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40166.0
   NameLocalizationKey: "@ui_poi_msq_hub_hermit"
   BaseStructureLimit: ""
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_fishing_village.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_village.png
   CompassIcon: ""
   DiscoveryRadius: 150.0
   IsDiscoverable: true
@@ -2176,19 +2396,23 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40167.0
   NameLocalizationKey: "@ui_poi_amrine_dungeon"
   BaseStructureLimit: ""
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/expedition.png
   CompassIcon: ""
   DiscoveryRadius: 150.0
   IsDiscoverable: true
@@ -2215,19 +2439,23 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40168.0
   NameLocalizationKey: "@ui_poi_shattered_dungeon"
   BaseStructureLimit: ""
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/expedition_obelisk.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/expedition.png
   CompassIcon: ""
   DiscoveryRadius: 150.0
   IsDiscoverable: true
@@ -2254,12 +2482,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40169.0
   NameLocalizationKey: "@ui_poi_factionarea_40169"
   BaseStructureLimit: ""
@@ -2293,12 +2525,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40170.0
   NameLocalizationKey: "@ui_poi_spiritshrine_01_40170"
   BaseStructureLimit: ""
@@ -2332,12 +2568,16 @@
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40171.0
   NameLocalizationKey: "@ui_poi_spiritshrine_02_40171"
   BaseStructureLimit: ""
@@ -2371,12 +2611,16 @@
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40172.0
   NameLocalizationKey: "@ui_poi_yeti_40172"
   BaseStructureLimit: ""
@@ -2410,12 +2654,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40173.0
   NameLocalizationKey: "@ui_poi_yeti_40173"
   BaseStructureLimit: ""
@@ -2449,19 +2697,23 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40174.0
   NameLocalizationKey: "@ui_poi_camp_40174"
   BaseStructureLimit: ""
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/campsite.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_campsite.png
   CompassIcon: ""
   DiscoveryRadius: 150.0
   IsDiscoverable: true
@@ -2488,12 +2740,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40175.0
   NameLocalizationKey: "@ui_poi_spiritshrine_03_40175"
   BaseStructureLimit: ""
@@ -2527,12 +2783,16 @@
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40176.0
   NameLocalizationKey: "@ui_poi_spiritshrine_04_40176"
   BaseStructureLimit: ""
@@ -2566,12 +2826,16 @@
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40177.0
   NameLocalizationKey: "@ui_poi_eldergate_ruins_40177"
   BaseStructureLimit: ""
@@ -2605,12 +2869,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40178.0
   NameLocalizationKey: "@ui_poi_ancient_ruins_40178"
   BaseStructureLimit: ""
@@ -2644,12 +2912,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40179.0
   NameLocalizationKey: "@ui_poi_spiritshrine_05_40179"
   BaseStructureLimit: ""
@@ -2683,12 +2955,16 @@
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40180.0
   NameLocalizationKey: "@ui_poi_spiritshrine_06_40180"
   BaseStructureLimit: ""
@@ -2722,12 +2998,16 @@
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40181.0
   NameLocalizationKey: "@ui_poi_corruptedpriest_40181"
   BaseStructureLimit: ""
@@ -2761,12 +3041,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40182.0
   NameLocalizationKey: "@ui_poi_bisonisland_40182"
   BaseStructureLimit: ""
@@ -2800,12 +3084,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40183.0
   NameLocalizationKey: "@ui_poi_spiritshrine_07_40183"
   BaseStructureLimit: ""
@@ -2839,12 +3127,16 @@
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40184.0
   NameLocalizationKey: "@ui_poi_covenantenclave_40184"
   BaseStructureLimit: ""
@@ -2878,12 +3170,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40185.0
   NameLocalizationKey: "@ui_poi_cygnius_40185"
   BaseStructureLimit: ""
@@ -2917,12 +3213,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40186.0
   NameLocalizationKey: "@Windsward_Settlement_01"
   BaseStructureLimit: ""
@@ -2956,12 +3256,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ENABLED
-  PhasingBoundsMargin: 120 250 115 260
+  PhasingAreaBoundsScale: null
+  PhasingBoundsMargin: 120 80 80 260
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: 60.0
+  PhasingAILeashOverride: 25.0
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40187.0
   NameLocalizationKey: "@Windsward_Tower_01"
   BaseStructureLimit: ""
@@ -2995,12 +3299,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40188.0
   NameLocalizationKey: "@Windsward_Tower_02"
   BaseStructureLimit: ""
@@ -3034,12 +3342,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40189.0
   NameLocalizationKey: "@Windsward_Tower_03"
   BaseStructureLimit: ""
@@ -3073,12 +3385,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40190.0
   NameLocalizationKey: "@Everfall_Tower_02"
   BaseStructureLimit: ""
@@ -3112,12 +3428,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40191.0
   NameLocalizationKey: "@Everfall_Tower_03"
   BaseStructureLimit: ""
@@ -3151,12 +3471,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40192.0
   NameLocalizationKey: "@ui_poi_factionarea_40192"
   BaseStructureLimit: ""
@@ -3190,12 +3514,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40193.0
   NameLocalizationKey: "@ui_poi_factionarea_40193"
   BaseStructureLimit: ""
@@ -3229,12 +3557,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40194.0
   NameLocalizationKey: "@ui_poi_factionarea_40194"
   BaseStructureLimit: ""
@@ -3268,12 +3600,16 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
 - TerritoryID: 40195.0
   NameLocalizationKey: "@ui_poi_factionarea_40195"
   BaseStructureLimit: ""
@@ -3307,9 +3643,99 @@
   UnchartedIcon: ""
   EventId: ""
   PhasingMode: ""
+  PhasingAreaBoundsScale: null
   PhasingBoundsMargin: ""
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: ""
-  PhasingPopulationMax: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
   PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
+- TerritoryID: 40196.0
+  NameLocalizationKey: "@ui_poi_trialmedea_40196"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/trial_soul.png
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: trialmedea_40196_charted
+  POIObjectiveAchievementId: ""
+  POITag: poi_trialmedea_40196
+  AudioGroup: POI_State
+  AudioState: Infested_Monolith
+  AudioBank: ""
+  CanPlaceCamp: true
+  DevName: Medea Solo Trial
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestMedea.png"
+  GameMode: QuestMedea
+  IsCollapsible: null
+  UnchartedIcon: ""
+  EventId: ""
+  PhasingMode: ""
+  PhasingAreaBoundsScale: null
+  PhasingBoundsMargin: ""
+  PhasingEnterMargin: ""
+  PhasingExitMargin: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
+  PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null
+- TerritoryID: 40197.0
+  NameLocalizationKey: "@ui_poi_trialheartforge_40197"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/trial_soul.png
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: trialheartforge_40197_charted
+  POIObjectiveAchievementId: ""
+  POITag: poi_trialheartforge_40197
+  AudioGroup: POI_State
+  AudioState: ancient_temple
+  AudioBank: ""
+  CanPlaceCamp: true
+  DevName: Heartforge Solo Trial
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestHeartforge.png"
+  GameMode: QuestHeartforge
+  IsCollapsible: null
+  UnchartedIcon: ""
+  EventId: ""
+  PhasingMode: ""
+  PhasingAreaBoundsScale: null
+  PhasingBoundsMargin: ""
+  PhasingEnterMargin: ""
+  PhasingExitMargin: ""
+  PhasingPopulationTarget: null
+  PhasingPopulationMax: null
+  PhasingSortPriority: null
+  PhasingAILeashOverride: null
+  PhasingProjectedACU: null
+  PhasingProjectedMemoryMb: null

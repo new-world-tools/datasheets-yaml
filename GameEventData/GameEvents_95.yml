@@ -4,7 +4,7 @@
   CreatureType: Quest
   RewardModifier: Weapons
   Reward Type: ""
-  UniversalExpAmount: 7500.0
+  UniversalExpAmount: 5980.0
   CurrencyReward: 11250.0
   RewardsNotes: startingthesilvercrowsmercgroupwgrace,fairlyeasyclearoutcorruptedAItask-startinganewgrouptogethersomaybeagroupbuffitem?
   ItemReward: ""
@@ -17,7 +17,7 @@
   FactionTokens: ""
   FactionInfluenceAmount: ""
   FactionInfluenceSrc: ""
-  AzothReward: 15.0
+  AzothReward: 50.0
   AzothRewardChance: 1.0
   WhisperID: ""
   AchievementId: ""
@@ -32,7 +32,7 @@
   CreatureType: Quest-
   RewardModifier: Armor
   Reward Type: ""
-  UniversalExpAmount: 5630.0
+  UniversalExpAmount: 4790.0
   CurrencyReward: 4500.0
   RewardsNotes: posting flyers and having interviews to join the mercenary group (mini cutscene) - gold no item needed
   ItemReward: ""
@@ -45,7 +45,7 @@
   FactionTokens: ""
   FactionInfluenceAmount: ""
   FactionInfluenceSrc: ""
-  AzothReward: 7.5
+  AzothReward: 25.0
   AzothRewardChance: 1.0
   WhisperID: ""
   AchievementId: ""
@@ -60,7 +60,7 @@
   CreatureType: Quest
   RewardModifier: Weapons
   Reward Type: ""
-  UniversalExpAmount: 7500.0
+  UniversalExpAmount: 5980.0
   CurrencyReward: 11250.0
   RewardsNotes: meetzander,getrecipefromhealer,craftpotions,returntozander-weapon?Maybethemedonzander-brawlerthing?Hedoesn'tuseitanymoreprefershisfists
   ItemReward: ""
@@ -73,7 +73,7 @@
   FactionTokens: ""
   FactionInfluenceAmount: ""
   FactionInfluenceSrc: ""
-  AzothReward: 15.0
+  AzothReward: 50.0
   AzothRewardChance: 1.0
   WhisperID: ""
   AchievementId: ""
@@ -88,7 +88,7 @@
   CreatureType: Quest+
   RewardModifier: Weapons
   Reward Type: ""
-  UniversalExpAmount: 9380.0
+  UniversalExpAmount: 7180.0
   CurrencyReward: 15750.0
   RewardsNotes: healing staff? Related to going against human corruption or something about greed- maybe a life staff primary and jewelry item as well as extra reward if you catch him (church associated?) - this is a big moment for the new team so could be a silver crow specific item
   ItemReward: ""
@@ -101,7 +101,7 @@
   FactionTokens: ""
   FactionInfluenceAmount: ""
   FactionInfluenceSrc: ""
-  AzothReward: 30.0
+  AzothReward: 100.0
   AzothRewardChance: 1.0
   WhisperID: ""
   AchievementId: ""
@@ -116,7 +116,7 @@
   CreatureType: Quest+
   RewardModifier: Weapons
   Reward Type: ""
-  UniversalExpAmount: 9380.0
+  UniversalExpAmount: 7180.0
   CurrencyReward: 15750.0
   RewardsNotes: quest to Expedition to chase down Loth
   ItemReward: ""
@@ -129,7 +129,7 @@
   FactionTokens: ""
   FactionInfluenceAmount: ""
   FactionInfluenceSrc: ""
-  AzothReward: 30.0
+  AzothReward: 100.0
   AzothRewardChance: 1.0
   WhisperID: ""
   AchievementId: ""
@@ -142,12 +142,12 @@
   GameEventType: ""
   Level: 60.0
   CreatureType: Quest-
-  RewardModifier: Armor
+  RewardModifier: ""
   Reward Type: ""
-  UniversalExpAmount: 5630.0
-  CurrencyReward: 4500.0
+  UniversalExpAmount: 4790.0
+  CurrencyReward: 15460.0
   RewardsNotes: Otmar Winkler's Wonders - he wants to collect a chart of expedition
-  ItemReward: ""
+  ItemReward: CRX_RepeatableReward_Empyrean
   ItemRewardQty: ""
   GearScoreRange: ""
   CategoricalProgressionId: ""
@@ -157,7 +157,7 @@
   FactionTokens: ""
   FactionInfluenceAmount: ""
   FactionInfluenceSrc: ""
-  AzothReward: 7.5
+  AzothReward: 30.0
   AzothRewardChance: 1.0
   WhisperID: ""
   AchievementId: ""
@@ -670,7 +670,7 @@
   PVPXP: ""
   RemoveStatusEffectCategories: ""
   EmitTelemetry: true
-- EventID: Dungeon_GreatCleave_01_GemGather_interact
+- EventID: Dungeon_GreatCleave_01_GemGather_interactA
   GameEventType: ""
   Level: 0.0
   CreatureType: Quest
@@ -727,6 +727,62 @@
   RemoveStatusEffectCategories: ""
   EmitTelemetry: true
 - EventID: 95_s01_01_CROW_GracelessRequest_WaveComplete
+  GameEventType: ""
+  Level: 0.0
+  CreatureType: Quest
+  RewardModifier: "0"
+  Reward Type: ""
+  UniversalExpAmount: 0.0
+  CurrencyReward: 0.0
+  RewardsNotes: ""
+  ItemReward: ""
+  ItemRewardQty: ""
+  GearScoreRange: ""
+  CategoricalProgressionId: ""
+  CategoricalProgressionReward: ""
+  TerritoryStanding: 0.0
+  FactionReputation: ""
+  FactionTokens: ""
+  FactionInfluenceAmount: ""
+  FactionInfluenceSrc: ""
+  AzothReward: 0.0
+  AzothRewardChance: 0.0
+  WhisperID: ""
+  AchievementId: ""
+  IgnoreEconomyTracker: ""
+  EntitlementId: ""
+  PVPXP: ""
+  RemoveStatusEffectCategories: ""
+  EmitTelemetry: true
+- EventID: Dungeon_GreatCleave_01_GemGather_interactB
+  GameEventType: ""
+  Level: 0.0
+  CreatureType: Quest
+  RewardModifier: "0"
+  Reward Type: ""
+  UniversalExpAmount: 0.0
+  CurrencyReward: 0.0
+  RewardsNotes: ""
+  ItemReward: ""
+  ItemRewardQty: ""
+  GearScoreRange: ""
+  CategoricalProgressionId: ""
+  CategoricalProgressionReward: ""
+  TerritoryStanding: 0.0
+  FactionReputation: ""
+  FactionTokens: ""
+  FactionInfluenceAmount: ""
+  FactionInfluenceSrc: ""
+  AzothReward: 0.0
+  AzothRewardChance: 0.0
+  WhisperID: ""
+  AchievementId: ""
+  IgnoreEconomyTracker: ""
+  EntitlementId: ""
+  PVPXP: ""
+  RemoveStatusEffectCategories: ""
+  EmitTelemetry: true
+- EventID: Dungeon_GreatCleave_01_GemGather_interactC
   GameEventType: ""
   Level: 0.0
   CreatureType: Quest

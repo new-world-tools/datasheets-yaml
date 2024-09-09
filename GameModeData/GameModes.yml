@@ -10,6 +10,7 @@
   IconPath: ""
   SimpleImagePath: ""
   BackgroundImagePath: ""
+  ListImagePath: ""
   CoatlicueName: ""
   WorldBounds: ""
   TeamTeleportData: ""
@@ -24,6 +25,7 @@
   RequiresGameModeGDEException: "True"
   RecommendedLevel: null
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -55,12 +57,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: null
   LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
   VictoryDelaySec: null
   MaxAI: ""
   AISpawnRadius: ""
   AIDespawnRadius: ""
-  ProjectedCpuUsePercent: null
+  ProjectedAZothComputeUnits: null
   ProjectedMemoryUseMb: null
   ProjectedDurationMinutes: null
   Priority: null
@@ -115,6 +118,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -141,7 +145,15 @@
   AllowMounts: false
   MountSummonErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: TestMode2
   ScriptName: GameModeTest
   SlicePath: GameModes/GameModeTest_02
@@ -154,6 +166,7 @@
   IconPath: ""
   SimpleImagePath: ""
   BackgroundImagePath: ""
+  ListImagePath: ""
   CoatlicueName: ""
   WorldBounds: ""
   TeamTeleportData: ""
@@ -168,6 +181,7 @@
   RequiresGameModeGDEException: "True"
   RecommendedLevel: null
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -199,12 +213,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: null
   LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
   VictoryDelaySec: null
   MaxAI: ""
   AISpawnRadius: ""
   AIDespawnRadius: ""
-  ProjectedCpuUsePercent: null
+  ProjectedAZothComputeUnits: null
   ProjectedMemoryUseMb: null
   ProjectedDurationMinutes: null
   Priority: null
@@ -259,6 +274,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -285,7 +301,15 @@
   AllowMounts: false
   MountSummonErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: Duel
   ScriptName: Duel
   SlicePath: GameModes/GameMode_Duel
@@ -298,6 +322,7 @@
   IconPath: ""
   SimpleImagePath: ""
   BackgroundImagePath: ""
+  ListImagePath: ""
   CoatlicueName: ""
   WorldBounds: ""
   TeamTeleportData: ""
@@ -312,6 +337,7 @@
   RequiresGameModeGDEException: "True"
   RecommendedLevel: null
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -343,12 +369,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: null
   LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
   VictoryDelaySec: null
   MaxAI: ""
   AISpawnRadius: ""
   AIDespawnRadius: ""
-  ProjectedCpuUsePercent: null
+  ProjectedAZothComputeUnits: null
   ProjectedMemoryUseMb: null
   ProjectedDurationMinutes: null
   Priority: null
@@ -403,6 +430,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -429,7 +457,15 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_duel"
   AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: OutpostRush
   ScriptName: OutpostRush
   SlicePath: POIs/OutpostRush/OutpostRush_Layout_00
@@ -440,8 +476,9 @@
   UiInteractOption: ""
   RequirementText: ""
   IconPath: LyShineUI/Images/Icons/OutpostRush/icon_outpostRush.png
-  SimpleImagePath: ""
+  SimpleImagePath: LyShineUI/Images/Icons/OutpostRush/icon_outpostRush.png
   BackgroundImagePath: ""
+  ListImagePath: ""
   CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
   WorldBounds: 937.0,10562.0,704.0,1056.0
   TeamTeleportData: 1241,10746,96,0+1309,11279,66,180
@@ -456,6 +493,7 @@
   RequiresGameModeGDEException: "True"
   RecommendedLevel: 60.0
   RequiredLevel: 60.0
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: 32.0
   BackfillReadyThreshold: 39.0
@@ -463,8 +501,8 @@
   TeamCapacity: 20.0
   CombineTeamGroups: null
   ModeNameLocStringId: "@ui_outpost_rush_title"
-  GearScoreOverrideValueMin: 675.0
-  GearScoreOverrideValueMax: 700.0
+  GearScoreOverrideValueMin: 700.0
+  GearScoreOverrideValueMax: 725.0
   MinPlayerLevelToUseGearScoreOverride: 60.0
   MaxPlayerLevelToUseGearScoreOverride: 65.0
   PossibleItemDropIds: ""
@@ -487,12 +525,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: null
   LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
   VictoryDelaySec: null
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 8.0
+  ProjectedAZothComputeUnits: 8.0
   ProjectedMemoryUseMb: 1024.0
   ProjectedDurationMinutes: 50.0
   Priority: 1.0
@@ -547,6 +586,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: nw_activity_opr
   HidePoiName: true
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -558,22 +598,30 @@
   MatchmakingMinLevel: 60.0
   MatchmakingMaxLevel: 65.0
   MatchmakingMinGS: null
-  UsesRoleSelection: false
-  MatchmakingRequiredHealingFocus: null
-  MatchmakingRequiredHealingMastery: null
-  MatchmakingRequiresTauntGem: null
-  MatchmakingMinTanks: null
-  MatchmakingMaxTanks: null
-  MatchmakingMinHealers: null
-  MatchmakingMaxHealers: null
-  MatchmakingMinDPS: null
-  MatchmakingMaxDPS: null
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 200.0
+  MatchmakingRequiredHealingMastery: 10.0
+  MatchmakingRequiresTauntGem: false
+  MatchmakingMinTanks: 0.0
+  MatchmakingMaxTanks: 4.0
+  MatchmakingMinHealers: 1.0
+  MatchmakingMaxHealers: 1.0
+  MatchmakingMinDPS: 0.0
+  MatchmakingMaxDPS: 4.0
   UseMMBuff: false
   MatchmakingPriority: null
   AllowMounts: true
   MountSummonErrorMsg: "@ui_mount_summon_failed_opr"
   AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: 1500.0
+  MRV2_NewD: 350.0
+  MRV2_NewV: 0.06
+  MRV2_SConst: 0.5
+  MRV2_CConst: 1e-06
+  MRV2_DecDays: 14.0
+  MRV2_GBs: 1.0,1.2,1.25,1.25,1.3
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: Arena3v3
   ScriptName: Arena3v3
   SlicePath: GameModes/GameMode_Arena01_3v3
@@ -584,8 +632,9 @@
   UiInteractOption: ""
   RequirementText: ""
   IconPath: LyShineUI/Images/Icons/PvpArena/icon_pvpArena.png
-  SimpleImagePath: ""
+  SimpleImagePath: LyShineUI/Images/Icons/PvpArena/icon_pvpArena.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonBrimstoneSands00.png
+  ListImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonBrimstoneSands00.png
   CoatlicueName: "coatlicue\\NW_Arena01"
   WorldBounds: 864.0,832.0,992.0,960.0
   TeamTeleportData: 939,935,227,180+939,873,227,0
@@ -600,6 +649,7 @@
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 20.0
   RequiredLevel: 20.0
+  EntryAchievementConditional: ""
   QueueLevelBuckets: 20,30,40,50,60,66
   QueueReadyThreshold: 6.0
   BackfillReadyThreshold: 5.0
@@ -607,8 +657,8 @@
   TeamCapacity: 3.0
   CombineTeamGroups: true
   ModeNameLocStringId: "@ui_pvp_3v3_arena_signup_title"
-  GearScoreOverrideValueMin: 675.0
-  GearScoreOverrideValueMax: 700.0
+  GearScoreOverrideValueMin: 700.0
+  GearScoreOverrideValueMax: 725.0
   MinPlayerLevelToUseGearScoreOverride: 60.0
   MaxPlayerLevelToUseGearScoreOverride: 65.0
   PossibleItemDropIds: ""
@@ -631,12 +681,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: null
   LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.5
+  ProjectedAZothComputeUnits: 0.5
   ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
@@ -691,6 +742,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: nw_activity_arena
   HidePoiName: true
   HideCompass: true
   ExclusiveRewardIds: ""
@@ -702,14 +754,14 @@
   MatchmakingMinLevel: 20.0
   MatchmakingMaxLevel: 65.0
   MatchmakingMinGS: null
-  UsesRoleSelection: false
-  MatchmakingRequiredHealingFocus: null
-  MatchmakingRequiredHealingMastery: 5.0
-  MatchmakingRequiresTauntGem: null
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 200.0
+  MatchmakingRequiredHealingMastery: 10.0
+  MatchmakingRequiresTauntGem: false
   MatchmakingMinTanks: 0.0
   MatchmakingMaxTanks: 3.0
   MatchmakingMinHealers: 0.0
-  MatchmakingMaxHealers: 3.0
+  MatchmakingMaxHealers: 1.0
   MatchmakingMinDPS: 0.0
   MatchmakingMaxDPS: 3.0
   UseMMBuff: false
@@ -717,7 +769,15 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_arena3v3"
   AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: 1500.0
+  MRV2_NewD: 350.0
+  MRV2_NewV: 0.06
+  MRV2_SConst: 0.5
+  MRV2_CConst: 1e-06
+  MRV2_DecDays: 14.0
+  MRV2_GBs: 1.0,1.2,1.25,1.25,1.3
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: Arena3v3_02
   ScriptName: Arena3v3
   SlicePath: GameModes/GameMode_Arena02_3v3
@@ -728,8 +788,9 @@
   UiInteractOption: ""
   RequirementText: ""
   IconPath: LyShineUI/Images/Icons/PvpArena/icon_pvpArena.png
-  SimpleImagePath: ""
+  SimpleImagePath: LyShineUI/Images/Icons/PvpArena/icon_pvpArena.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonBrimstoneSands00.png
+  ListImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonBrimstoneSands00.png
   CoatlicueName: "coatlicue\\NW_Arena02"
   WorldBounds: 1064.0,1189.0,256.0,256.0
   TeamTeleportData: 1206,1300,52,180+1206,1226,52,0
@@ -744,6 +805,7 @@
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 20.0
   RequiredLevel: 20.0
+  EntryAchievementConditional: ""
   QueueLevelBuckets: 20,30,40,50,60,66
   QueueReadyThreshold: 6.0
   BackfillReadyThreshold: 5.0
@@ -751,8 +813,8 @@
   TeamCapacity: 3.0
   CombineTeamGroups: true
   ModeNameLocStringId: "@ui_pvp_3v3_arena_signup_title"
-  GearScoreOverrideValueMin: 675.0
-  GearScoreOverrideValueMax: 700.0
+  GearScoreOverrideValueMin: 700.0
+  GearScoreOverrideValueMax: 725.0
   MinPlayerLevelToUseGearScoreOverride: 60.0
   MaxPlayerLevelToUseGearScoreOverride: 65.0
   PossibleItemDropIds: ""
@@ -775,12 +837,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: null
   LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.5
+  ProjectedAZothComputeUnits: 0.5
   ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
@@ -835,6 +898,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: nw_activity_arena
   HidePoiName: null
   HideCompass: true
   ExclusiveRewardIds: ""
@@ -846,14 +910,14 @@
   MatchmakingMinLevel: 20.0
   MatchmakingMaxLevel: 65.0
   MatchmakingMinGS: null
-  UsesRoleSelection: false
-  MatchmakingRequiredHealingFocus: null
-  MatchmakingRequiredHealingMastery: 5.0
-  MatchmakingRequiresTauntGem: null
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 200.0
+  MatchmakingRequiredHealingMastery: 10.0
+  MatchmakingRequiresTauntGem: false
   MatchmakingMinTanks: 0.0
   MatchmakingMaxTanks: 3.0
   MatchmakingMinHealers: 0.0
-  MatchmakingMaxHealers: 3.0
+  MatchmakingMaxHealers: 1.0
   MatchmakingMinDPS: 0.0
   MatchmakingMaxDPS: 3.0
   UseMMBuff: false
@@ -861,7 +925,15 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_arena3v3"
   AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: 1500.0
+  MRV2_NewD: 350.0
+  MRV2_NewV: 0.06
+  MRV2_SConst: 0.5
+  MRV2_CConst: 1e-06
+  MRV2_DecDays: 14.0
+  MRV2_GBs: 1.0,1.2,1.25,1.25,1.3
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: Dungeon
   ScriptName: Dungeon
   SlicePath: ""
@@ -874,6 +946,7 @@
   IconPath: ""
   SimpleImagePath: LyShineUI/Images/PugFinder/expeditionIconSmall.png
   BackgroundImagePath: ""
+  ListImagePath: ""
   CoatlicueName: ""
   WorldBounds: ""
   TeamTeleportData: ""
@@ -888,6 +961,7 @@
   RequiresGameModeGDEException: ""
   RecommendedLevel: null
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
@@ -903,7 +977,7 @@
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
   MinGroupSize: null
-  PreserveOldGroup: null
+  PreserveOldGroup: true
   IgnoreRequireContribution: null
   IsDungeon: null
   IsRaidTrial: null
@@ -919,12 +993,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: null
   LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
   VictoryDelaySec: null
   MaxAI: ""
   AISpawnRadius: ""
   AIDespawnRadius: ""
-  ProjectedCpuUsePercent: null
+  ProjectedAZothComputeUnits: null
   ProjectedMemoryUseMb: null
   ProjectedDurationMinutes: null
   Priority: null
@@ -979,6 +1054,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -1005,7 +1081,15 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
   AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: Mutation
   ScriptName: Mutation
   SlicePath: ""
@@ -1018,6 +1102,7 @@
   IconPath: ""
   SimpleImagePath: LyShineUI/Images/PugFinder/expeditionMutatedIconSmall.png
   BackgroundImagePath: ""
+  ListImagePath: ""
   CoatlicueName: ""
   WorldBounds: ""
   TeamTeleportData: ""
@@ -1032,6 +1117,7 @@
   RequiresGameModeGDEException: ""
   RecommendedLevel: null
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
@@ -1047,7 +1133,7 @@
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
   MinGroupSize: null
-  PreserveOldGroup: null
+  PreserveOldGroup: true
   IgnoreRequireContribution: null
   IsDungeon: null
   IsRaidTrial: null
@@ -1063,12 +1149,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: null
   LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
   VictoryDelaySec: null
   MaxAI: ""
   AISpawnRadius: ""
   AIDespawnRadius: ""
-  ProjectedCpuUsePercent: null
+  ProjectedAZothComputeUnits: null
   ProjectedMemoryUseMb: null
   ProjectedDurationMinutes: null
   Priority: null
@@ -1123,6 +1210,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -1149,7 +1237,15 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
   AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: DungeonAmrine
   ScriptName: DungeonAmrine
   SlicePath: Dungeon/LevelScripts/AmrineDungeon
@@ -1159,9 +1255,10 @@
   Description: "@dungeon_amrine_description"
   UiInteractOption: EnterDungeonAmrine
   RequirementText: "@dungeon_amrine_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.png
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonAmrine.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonAmrine.png
   CoatlicueName: "coatlicue\\NW_Dungeon_Windsward_00"
   WorldBounds: 610.0,560.0,352.0,512.0
   TeamTeleportData: 645.0,663.0,153.0,0
@@ -1176,6 +1273,7 @@
   RequiresGameModeGDEException: "True"
   RecommendedLevel: 25.0
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
@@ -1191,7 +1289,7 @@
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 3.0
-  PreserveOldGroup: null
+  PreserveOldGroup: true
   IgnoreRequireContribution: true
   IsDungeon: true
   IsRaidTrial: null
@@ -1207,12 +1305,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: 25.0
   LootGSRangeOverride: 300-375
-  MutLootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: 2.0
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.75
+  ProjectedAZothComputeUnits: 0.75
   ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
@@ -1267,6 +1366,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -1293,7 +1393,15 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
   AchievementIdForCompletingMaxRank: DungeonEverfall00MaxRank
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: DungeonShatteredObelisk
   ScriptName: DungeonShatteredObelisk
   SlicePath: Dungeon/LevelScripts/ShatteredObeliskDungeon
@@ -1303,9 +1411,10 @@
   Description: "@dungeon_everfall_description"
   UiInteractOption: EnterDungeonShatteredObelisk
   RequirementText: "@dungeon_everfall_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_obelisk.png
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonShatteredObelisk_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonShatteredObelisk.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonShatteredObelisk.png
   CoatlicueName: "coatlicue\\NW_Dungeon_Everfall_00"
   WorldBounds: 0.0,0.0,1056.0,864.0
   TeamTeleportData: 965.0,576.0,317.0,90
@@ -1320,6 +1429,7 @@
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 35.0
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
@@ -1335,7 +1445,7 @@
   ItemDropLevelThreshold01: 61.0
   PossibleItemDropIdsByLevel01: MediumHead_Ancient2T5,MediumChest_Ancient2T5,MediumHands_Ancient2T5,MediumLegs_Ancient2T5,MediumFeet_Ancient2T5
   MinGroupSize: 3.0
-  PreserveOldGroup: null
+  PreserveOldGroup: true
   IgnoreRequireContribution: true
   IsDungeon: true
   IsRaidTrial: null
@@ -1350,13 +1460,14 @@
   LootTags: ShatteredObelisk,Ancient,Dungeon
   MutLootTagsOverride: ShatteredObelisk_Mut,Ancient,GypsumBlue,Dungeon
   ContainerLevel: 35.0
-  LootGSRangeOverride: 400-450
-  MutLootGSRangeOverride: 650-700
+  LootGSRangeOverride: 370-450
+  UseLevelGS: ""
+  GSClampLevelReqDelta: 2.0
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 1.5
+  ProjectedAZothComputeUnits: 1.5
   ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
@@ -1411,6 +1522,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -1437,7 +1549,15 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
   AchievementIdForCompletingMaxRank: DungeonShatterMtn00MaxRank
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: DungeonRestlessShores01
   ScriptName: DungeonRestlessShores01
   SlicePath: Dungeon/LevelScripts/RestlessShores01Dungeon
@@ -1447,9 +1567,10 @@
   Description: "@dungeon_restlessshores01_description"
   UiInteractOption: EnterDungeonDepths
   RequirementText: "@dungeon_restlessshores01_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_depths.png
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonRestlessShores01_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonRestlessShores01.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonRestlessShores01.png
   CoatlicueName: "coatlicue\\NW_Dungeon_RestlessShores_01"
   WorldBounds: 500.0,780.0,1152.0,1440.0
   TeamTeleportData: 992.0,1007.0,149.0,180
@@ -1464,6 +1585,7 @@
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 45.0
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
@@ -1479,7 +1601,7 @@
   ItemDropLevelThreshold01: 61.0
   PossibleItemDropIdsByLevel01: MediumHead_Corrupted2T5,MediumChest_Corrupted2T5,MediumHands_Corrupted2T5,MediumLegs_Corrupted2T5,MediumFeet_Corrupted2T5
   MinGroupSize: 3.0
-  PreserveOldGroup: null
+  PreserveOldGroup: true
   IgnoreRequireContribution: true
   IsDungeon: true
   IsRaidTrial: null
@@ -1495,12 +1617,13 @@
   MutLootTagsOverride: Restless01_Mut,Corrupted,GypsumBlue,Dungeon
   ContainerLevel: 45.0
   LootGSRangeOverride: 475-525
-  MutLootGSRangeOverride: 650-700
+  UseLevelGS: ""
+  GSClampLevelReqDelta: 2.0
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.75
+  ProjectedAZothComputeUnits: 0.75
   ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
@@ -1555,6 +1678,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -1581,7 +1705,15 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
   AchievementIdForCompletingMaxRank: DungeonRestlessShores01MaxRank
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: DungeonEbonscale00
   ScriptName: DungeonEbonscale00
   SlicePath: Dungeon/LevelScripts/Ebonscale00Dungeon
@@ -1591,9 +1723,10 @@
   Description: "@dungeon_ebonscale00_description"
   UiInteractOption: EnterDungeonShipyard
   RequirementText: "@dungeon_ebonscale_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_shipyard.png
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonEbonscale00_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonEbonscale00.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonEbonscale00.png
   CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
   WorldBounds: 4480.0,4096.0,608.0,544.0
   TeamTeleportData: 5039.0,4321.0,41,0
@@ -1608,6 +1741,7 @@
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 55.0
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
@@ -1623,7 +1757,7 @@
   ItemDropLevelThreshold01: 61.0
   PossibleItemDropIdsByLevel01: MediumHead_Corrupted2T5,MediumChest_Corrupted2T5,MediumHands_Corrupted2T5,MediumLegs_Corrupted2T5,MediumFeet_Corrupted2T5
   MinGroupSize: 3.0
-  PreserveOldGroup: null
+  PreserveOldGroup: true
   IgnoreRequireContribution: true
   IsDungeon: true
   IsRaidTrial: null
@@ -1639,12 +1773,13 @@
   MutLootTagsOverride: Ebonscale00_Mut,Corrupted,GypsumBlue,Dungeon
   ContainerLevel: 55.0
   LootGSRangeOverride: 525-675
-  MutLootGSRangeOverride: 650-700
+  UseLevelGS: ""
+  GSClampLevelReqDelta: 2.0
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.75
+  ProjectedAZothComputeUnits: 0.75
   ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
@@ -1699,6 +1834,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -1725,7 +1861,15 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
   AchievementIdForCompletingMaxRank: DungeonEbonscale00MaxRank
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: DungeonEdengrove00
   ScriptName: DungeonEdengrove00
   SlicePath: Dungeon/LevelScripts/Edengrove00Dungeon
@@ -1735,9 +1879,10 @@
   Description: "@dungeon_edengrove00_description"
   UiInteractOption: EnterDungeonGenesis
   RequirementText: "@dungeon_edengrove00_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_genesis.png
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonEdengrove00_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonEdengrove00.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonEdengrove00.png
   CoatlicueName: "coatlicue\\NW_Dungeon_Edengrove_00"
   WorldBounds: 384.0,1024.0,640.0,800.0
   TeamTeleportData: 675.0,1166.0,186.0,0
@@ -1752,6 +1897,7 @@
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 60.0
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
@@ -1767,7 +1913,7 @@
   ItemDropLevelThreshold01: 61.0
   PossibleItemDropIdsByLevel01: 2hSpear_Bramblebranch,EarringT5_GenesisOfLife,2hBow_Spiralseed,1hFlail_CleansingWhip,1hLongsword_JacaklopeAntler,2hStaffFire_Ignition
   MinGroupSize: 3.0
-  PreserveOldGroup: null
+  PreserveOldGroup: true
   IgnoreRequireContribution: true
   IsDungeon: true
   IsRaidTrial: null
@@ -1783,12 +1929,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: 60.0
   LootGSRangeOverride: 600-675
-  MutLootGSRangeOverride: 650-700
+  UseLevelGS: ""
+  GSClampLevelReqDelta: 2.0
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.75
+  ProjectedAZothComputeUnits: 0.75
   ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
@@ -1843,6 +1990,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -1869,7 +2017,15 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
   AchievementIdForCompletingMaxRank: DungeonEdengrove00MaxRank
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: DungeonReekwater00
   ScriptName: DungeonReekwater00
   SlicePath: Dungeon/LevelScripts/Reekwater00Dungeon
@@ -1879,9 +2035,10 @@
   Description: "@dungeon_reekwater_description"
   UiInteractOption: EnterDungeonLazarus
   RequirementText: "@dungeon_reekwater_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_lazarus.png
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonReekwater00_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonReekwater00.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonReekwater00.png
   CoatlicueName: "coatlicue\\NW_Dungeon_Reekwater_00"
   WorldBounds: 610.0,560.0,512.0,512.0
   TeamTeleportData: 798.0,569.0,205.0,0
@@ -1896,6 +2053,7 @@
   RequiresGameModeGDEException: "TRUE"
   RecommendedLevel: 60.0
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
@@ -1911,7 +2069,7 @@
   ItemDropLevelThreshold01: 61.0
   PossibleItemDropIdsByLevel01: 1hThrowingAxe_PrimalRage,2hStaffLife_RitualOfTheHereafter,RingT5_Hamstring,2hBow_SnowcoatedShortbow,1hGauntletIce_Gravelguard
   MinGroupSize: 3.0
-  PreserveOldGroup: null
+  PreserveOldGroup: true
   IgnoreRequireContribution: true
   IsDungeon: true
   IsRaidTrial: null
@@ -1927,12 +2085,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: 60.0
   LootGSRangeOverride: 600-675
-  MutLootGSRangeOverride: 650-700
+  UseLevelGS: ""
+  GSClampLevelReqDelta: 2.0
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.75
+  ProjectedAZothComputeUnits: 0.75
   ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
@@ -1987,6 +2146,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -2013,7 +2173,15 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
   AchievementIdForCompletingMaxRank: DungeonReekwater00MaxRank
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: DungeonCutlassKeys00
   ScriptName: DungeonCutlassKeys00
   SlicePath: Dungeon/LevelScripts/CutlassKeys00Dungeon
@@ -2023,9 +2191,10 @@
   Description: "@dungeon_cutlasskeys00_description"
   UiInteractOption: EnterDungeonCutlassKeys
   RequirementText: "@dungeon_cutlasskeys00_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonCutlassKeys00.png
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonCutlassKeys00_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonCutlassKeys00.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonCutlassKeys00.png
   CoatlicueName: "coatlicue\\NW_Dungeon_CutlassKeys_00"
   WorldBounds: 198.0,640.0,800.0,800.0
   TeamTeleportData: 407,922,175.0,270
@@ -2040,6 +2209,7 @@
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 60.0
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
@@ -2055,7 +2225,7 @@
   ItemDropLevelThreshold01: 61.0
   PossibleItemDropIdsByLevel01: 1hLongsword_PiratesCutlass,1hRapier_CaptainsRapier,AmuletT5_SeafaringBlessing,2hStaffLife_SwabbingStaff,1hGauntletVoid_BurstingVoid
   MinGroupSize: 3.0
-  PreserveOldGroup: null
+  PreserveOldGroup: true
   IgnoreRequireContribution: true
   IsDungeon: true
   IsRaidTrial: null
@@ -2071,12 +2241,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: 64.0
   LootGSRangeOverride: 625-675
-  MutLootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: 2.0
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.75
+  ProjectedAZothComputeUnits: 0.75
   ProjectedMemoryUseMb: 575.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
@@ -2131,6 +2302,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -2157,7 +2329,15 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
   AchievementIdForCompletingMaxRank: DungeonCutlass00MaxRank
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: DungeonGreatCleave01
   ScriptName: DungeonGreatCleave01
   SlicePath: Dungeon/LevelScripts/GreatCleave01Dungeon
@@ -2167,12 +2347,13 @@
   Description: "@dungeon_greatcleave01_description"
   UiInteractOption: ""
   RequirementText: "@dungeon_greatcleave01_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_empyrean.png
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonEmpyreanForge00_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonEmpyreanForge00.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonEmpyreanForge00.png
   CoatlicueName: "coatlicue\\NW_Dungeon_GreatCleave_01"
   WorldBounds: 256.0,180.0,1024.0,1024.0
-  TeamTeleportData: 652.0,228.0,232.0,45
+  TeamTeleportData: 652.0,228.0,236.0,45
   FeatureFlag: greatcleave01-dungeon
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -2184,6 +2365,7 @@
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 60.0
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
@@ -2199,7 +2381,7 @@
   ItemDropLevelThreshold01: 61.0
   PossibleItemDropIdsByLevel01: 1hRapier_Knightslayer,RingT5_RedHotSlag,1hThrowingAxe_Trickshot,HeavyFeet_CounterbalancingBoots,2hMusket_Flamespout,1hFlail_RendingFlail
   MinGroupSize: 3.0
-  PreserveOldGroup: null
+  PreserveOldGroup: true
   IgnoreRequireContribution: true
   IsDungeon: true
   IsRaidTrial: null
@@ -2215,12 +2397,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: 65.0
   LootGSRangeOverride: 625-675
-  MutLootGSRangeOverride: 650-700
+  UseLevelGS: ""
+  GSClampLevelReqDelta: 2.0
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.75
+  ProjectedAZothComputeUnits: 0.75
   ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
@@ -2275,6 +2458,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -2301,7 +2485,15 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
   AchievementIdForCompletingMaxRank: DungeonGreatCleave00MaxRank
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: DungeonShatterMtn00
   ScriptName: DungeonShatterMtn00
   SlicePath: Dungeon/LevelScripts/ShatterMtn00Dungeon
@@ -2311,9 +2503,10 @@
   Description: "@dungeon_shattermtn00_description"
   UiInteractOption: EnterDungeonIsabella
   RequirementText: "@dungeon_shattermtn00_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_isabella.png
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonShatterMtn00_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonIsabella.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonIsabella.png
   CoatlicueName: "coatlicue\\NW_Dungeon_ShatterMtn_00"
   WorldBounds: 242.0,368.0,1760.0,1760.0
   TeamTeleportData: 1566.0,819.0,190.0,55
@@ -2328,6 +2521,7 @@
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 60.0
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
@@ -2343,7 +2537,7 @@
   ItemDropLevelThreshold01: 61.0
   PossibleItemDropIdsByLevel01: 2hGreataxe_DeadlyCyclone,2hBlunderbuss_Artillerist,1hFlail_CommandingStance,LightFeet_EnduringStruggle,1hGauntletVoid_Voidrage,1hRapier_RazorsEdge
   MinGroupSize: 3.0
-  PreserveOldGroup: null
+  PreserveOldGroup: true
   IgnoreRequireContribution: true
   IsDungeon: true
   IsRaidTrial: null
@@ -2359,12 +2553,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: 62.0
   LootGSRangeOverride: 625-675
-  MutLootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: 2.0
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 1.25
+  ProjectedAZothComputeUnits: 1.25
   ProjectedMemoryUseMb: 768.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
@@ -2419,6 +2614,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -2445,7 +2641,15 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
   AchievementIdForCompletingMaxRank: DungeonShatterMtn00MaxRank
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: DungeonBrimstoneSands00
   ScriptName: DungeonBrimstoneSands00
   SlicePath: Dungeon/LevelScripts/BrimstoneSands00Dungeon
@@ -2458,6 +2662,7 @@
   IconPath: LyShineUI/Images/Map/Icon/POIs/scarab_elite.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonBrimstoneSands00_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonBrimstoneSands00.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonBrimstoneSands00.png
   CoatlicueName: "coatlicue\\NW_Dungeon_BrimstoneSands_00"
   WorldBounds: 544.0,576.0,960.0,960.0
   TeamTeleportData: 898.0,1085.0,863.0,90
@@ -2472,6 +2677,7 @@
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 60.0
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
@@ -2487,7 +2693,7 @@
   ItemDropLevelThreshold01: 61.0
   PossibleItemDropIdsByLevel01: 2hWarhammer_HippopotamidaeanStrength,2hMusket_AmmitsHunger,EarringT5_Lifeloop,MediumHands_DryLeatherGloves,1hGauntletIce_FrozenSoul,1hThrowingAxe_BrawlingAxe
   MinGroupSize: 3.0
-  PreserveOldGroup: null
+  PreserveOldGroup: true
   IgnoreRequireContribution: true
   IsDungeon: true
   IsRaidTrial: null
@@ -2503,12 +2709,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: 65.0
   LootGSRangeOverride: 625-675
-  MutLootGSRangeOverride: 650-700
+  UseLevelGS: ""
+  GSClampLevelReqDelta: 2.0
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 1.25
+  ProjectedAZothComputeUnits: 1.25
   ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
@@ -2563,6 +2770,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -2589,7 +2797,15 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
   AchievementIdForCompletingMaxRank: DungeonBrimstoneSands00MaxRank
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: DungeonFirstLight01
   ScriptName: DungeonFirstLight01
   SlicePath: Dungeon/LevelScripts/FirstLight01Dungeon
@@ -2599,9 +2815,10 @@
   Description: "@dungeon_firstlight01_description"
   UiInteractOption: EnterDungeonFirstLight
   RequirementText: "@dungeon_firstlight01_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_crystalclaw.png
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonCrystalclawCavern_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonFirstLight00.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonFirstLight00.png
   CoatlicueName: "coatlicue\\NW_Dungeon_FirstLight_01"
   WorldBounds: 384.0,384.0,960.0,960.0
   TeamTeleportData: 651.0,1181.4,279.0,240
@@ -2616,6 +2833,7 @@
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 65.0
   RequiredLevel: 62.0
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
@@ -2631,7 +2849,7 @@
   ItemDropLevelThreshold01: 61.0
   PossibleItemDropIdsByLevel01: 2hWarhammer_FistOfKurokT5_V2,2hGreatsword_FootfallT5_V2,2hStaffFire_MadhouseT5_V2,1hRapier_RazorsLeafT5_V2,1hGauntletIce_IcicleT5_V2
   MinGroupSize: 3.0
-  PreserveOldGroup: null
+  PreserveOldGroup: true
   IgnoreRequireContribution: true
   IsDungeon: true
   IsRaidTrial: null
@@ -2647,12 +2865,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: 70.0
   LootGSRangeOverride: 650-685
-  MutLootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: 2.0
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 1.0
+  ProjectedAZothComputeUnits: 1.0
   ProjectedMemoryUseMb: 768.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
@@ -2707,6 +2926,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -2733,7 +2953,15 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
   AchievementIdForCompletingMaxRank: DungeonFirstLight01MaxRank
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: DungeonGreatCleave00
   ScriptName: DungeonGreatCleave00
   SlicePath: Dungeon/LevelScripts/GlacialTarnDungeon
@@ -2743,9 +2971,10 @@
   Description: "@dungeon_greatcleave00_description"
   UiInteractOption: ""
   RequirementText: "@dungeon_greatcleave00_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_glacialtarn.png
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_glacialtarn_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonGreatCleave00.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonGreatCleave00.png
   CoatlicueName: "coatlicue\\NW_Dungeon_GreatCleave_00"
   WorldBounds: 679.0,320.0,640.0,640.0
   TeamTeleportData: 1223,586,302,80
@@ -2760,6 +2989,7 @@
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 65.0
   RequiredLevel: 65.0
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
@@ -2775,7 +3005,7 @@
   ItemDropLevelThreshold01: 61.0
   PossibleItemDropIdsByLevel01: EarringT5_Dungeon13_HaillysComet,2hFireStaff_Dungeon13_Frostburn,2hBlunderbuss_Dungeon13_ShortAlphorn,AmuletT5_Dungeon13_HeartOfCold,2hGreataxe_Dungeon13_Avalanche
   MinGroupSize: 3.0
-  PreserveOldGroup: null
+  PreserveOldGroup: true
   IgnoreRequireContribution: true
   IsDungeon: true
   IsRaidTrial: null
@@ -2791,12 +3021,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: 65.0
   LootGSRangeOverride: 625-675
-  MutLootGSRangeOverride: 650-700
+  UseLevelGS: ""
+  GSClampLevelReqDelta: 2.0
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.75
+  ProjectedAZothComputeUnits: 0.75
   ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
@@ -2851,6 +3082,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -2877,7 +3109,15 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
   AchievementIdForCompletingMaxRank: DungeonGreatCleave01MaxRank
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: TrialBrimstoneSandworm
   ScriptName: TrialBrimstoneSandworm
   SlicePath: GameModes/Trials/BrimstoneSandwormTrial00
@@ -2887,9 +3127,10 @@
   Description: "@trial_brimstone_sandworm_description"
   UiInteractOption: EnterDungeon_RaidTrial
   RequirementText: ""
-  IconPath: LyShineUI/Images/Map/Icon/POIs/arena_sandworm_elite.png
+  IconPath: LyShineUI/Images/Map/Icon/POIs/trial_elite.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
   BackgroundImagePath: LyShineUI/Images/EntranceScreen/Sandworm/EntranceScreenBG_Sandworm.png
+  ListImagePath: LyShineUI/Images/EntranceScreen/Sandworm/EntranceScreenBG_Sandworm.png
   CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
   WorldBounds: 4902.0,7698.0,128.0,128.0
   TeamTeleportData: 4935.0,7788.0,224.0,235
@@ -2902,8 +3143,9 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
-  RecommendedLevel: 60.0
+  RecommendedLevel: 65.0
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: 18.0
   BackfillReadyThreshold: 19.0
@@ -2935,12 +3177,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: null
   LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 3.2
+  ProjectedAZothComputeUnits: 3.2
   ProjectedMemoryUseMb: 256.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
@@ -2985,8 +3228,8 @@
   FailGroupPenaltyTextId: ""
   RespawnTypeToUseForUnstuck: ""
   LootLimitId: ""
-  DailyLootLimitId: Trial_Sandworm_DailyBox
-  WeeklyLootLimitId: Trial_Sandworm_WeeklyBox
+  DailyLootLimitId: Trial_Sandworm_DailyBox_V2
+  WeeklyLootLimitId: Trial_Sandworm_WeeklyBox_V2
   PossibleJourneyIds: ""
   TrialIconPath: lyshineui/images/entrancescreen/sandworm/entrancescreenicon_sandworm.png
   Tip01IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective1.png
@@ -2995,14 +3238,15 @@
   Tip02Text: "@Trial_Season_02_Objective_2"
   Tip03IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective3.png
   Tip03Text: "@Trial_Season_02_Objective_3"
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: true
-  ExclusiveRewardIds: DarkMatter,GypsumOrb,Sandworm_Trial_Materia,Shard_Heavy_Chest,MediumHead_Sandworm_Trial_T5,MediumChest_Sandworm_Trial_T5,MediumHands_Sandworm_Trial_T5,MediumLegs_Sandworm_Trial_T5,MediumFeet_Sandworm_Trial_T5,HeavyHead_Sandworm_Trial_T5,HeavyChest_Sandworm_Trial_T5,HeavyHands_Sandworm_Trial_T5,HeavyLegs_Sandworm_Trial_T5,HeavyFeet_Sandworm_Trial_T5,LightHead_Sandworm_Trial_T5,LightChest_Sandworm_Trial_T5,LightHands_Sandworm_Trial_T5,LightLegs_Sandworm_Trial_T5,LightFeet_Sandworm_Trial_T5,MediumHead_Sandworm_Trial_Named_T5,MediumChest_Sandworm_Trial_Named_T5,MediumHands_Sandworm_Trial_Named_T5,MediumLegs_Sandworm_Trial_Named_T5,MediumFeet_Sandworm_Trial_Named_T5,HeavyHead_Sandworm_Trial_Named_T5,HeavyChest_Sandworm_Trial_Named_T5,HeavyHands_Sandworm_Trial_Named_T5,HeavyLegs_Sandworm_Trial_Named_T5,HeavyFeet_Sandworm_Trial_Named_T5,LightHead_Sandworm_Trial_Named_T5,LightChest_Sandworm_Trial_Named_T5,LightHands_Sandworm_Trial_Named_T5,LightLegs_Sandworm_Trial_Named_T5,LightFeet_Sandworm_Trial_Named_T5,Sandworm_Trial_WeaponLongsword_T5,Sandworm_Trial_WeaponGreatAxe_T5,Sandworm_Trial_WeaponMusket_T5,Sandworm_Trial_WeaponBlunderbuss_T5,Sandworm_Trial_WeaponBow_T5,Sandworm_Trial_WeaponThrowingAxe_T5,Sandworm_Trial_WeaponFireStaff_T5,Sandworm_Trial_WeaponLifeStaff_T5,Sandworm_Trial_WeaponWarhammer_T5,Sandworm_Trial_WeaponGreatsword_T5,Sandworm_Trial_WeaponRapier_T5,Sandworm_Trial_WeaponSpear_T5,Sandworm_Trial_WeaponIceGauntlet_T5,Sandworm_Trial_WeaponVoidGauntlet_T5,Sandworm_Trial_WeaponKiteShield_T5,Sandworm_Trial_WeaponRoundShieldT5,Sandworm_Trial_WeaponTowerShield_T5,Sandworm_Trial_AmuletT5,Sandworm_Trial_RingT5,Sandworm_Trial_EarringT5
-  UniqueRewardIds: DarkMatter,GypsumOrb,Sandworm_Trial_Materia,RuneSandwormT1,MediumHead_Sandworm_Trial_Named_T5,MediumChest_Sandworm_Trial_Named_T5,MediumHands_Sandworm_Trial_Named_T5,MediumLegs_Sandworm_Trial_Named_T5,MediumFeet_Sandworm_Trial_Named_T5,HeavyHead_Sandworm_Trial_Named_T5,HeavyChest_Sandworm_Trial_Named_T5,HeavyHands_Sandworm_Trial_Named_T5,HeavyLegs_Sandworm_Trial_Named_T5,HeavyFeet_Sandworm_Trial_Named_T5,LightHead_Sandworm_Trial_Named_T5,LightChest_Sandworm_Trial_Named_T5,LightHands_Sandworm_Trial_Named_T5,LightLegs_Sandworm_Trial_Named_T5,LightFeet_Sandworm_Trial_Named_T5,Sandworm_Trial_WeaponLongsword_T5,Sandworm_Trial_WeaponGreatAxe_T5,Sandworm_Trial_WeaponMusket_T5,Sandworm_Trial_WeaponBlunderbuss_T5,Sandworm_Trial_WeaponBow_T5,Sandworm_Trial_WeaponThrowingAxe_T5,Sandworm_Trial_WeaponFireStaff_T5,Sandworm_Trial_WeaponLifeStaff_T5,Sandworm_Trial_WeaponWarhammer_T5,Sandworm_Trial_WeaponGreatsword_T5,Sandworm_Trial_WeaponRapier_T5,Sandworm_Trial_WeaponSpear_T5,Sandworm_Trial_WeaponIceGauntlet_T5,Sandworm_Trial_WeaponVoidGauntlet_T5,Sandworm_Trial_WeaponKiteShield_T5,Sandworm_Trial_WeaponRoundShieldT5,Sandworm_Trial_WeaponTowerShield_T5,Sandworm_Trial_AmuletT5,Sandworm_Trial_RingT5,Sandworm_Trial_EarringT5
-  BasicRewardIds: DarkMatter,MediumHead_Sandworm_Trial_T5,MediumChest_Sandworm_Trial_T5,MediumHands_Sandworm_Trial_T5,MediumLegs_Sandworm_Trial_T5,MediumFeet_Sandworm_Trial_T5,HeavyHead_Sandworm_Trial_T5,HeavyChest_Sandworm_Trial_T5,HeavyHands_Sandworm_Trial_T5,HeavyLegs_Sandworm_Trial_T5,HeavyFeet_Sandworm_Trial_T5,LightHead_Sandworm_Trial_T5,LightChest_Sandworm_Trial_T5,LightHands_Sandworm_Trial_T5,LightLegs_Sandworm_Trial_T5,LightFeet_Sandworm_Trial_T5
+  ExclusiveRewardIds: DarkMatter,GypsumOrb,CRX_MediumHead_Sandworm_Trial,CRX_MediumChest_Sandworm_Trial,CRX_MediumHands_Sandworm_Trial,CRX_MediumLegs_Sandworm_Trial,CRX_MediumFeet_Sandworm_Trial,CRX_HeavyHead_Sandworm_Trial,CRX_HeavyChest_Sandworm_Trial,CRX_HeavyHands_Sandworm_Trial,CRX_HeavyLegs_Sandworm_Trial,CRX_HeavyFeet_Sandworm_Trial,CRX_LightHead_Sandworm_Trial,CRX_LightChest_Sandworm_Trial,CRX_LightHands_Sandworm_Trial,CRX_LightLegs_Sandworm_Trial,CRX_LightFeet_Sandworm_Trial,CRX_Sandworm_Trial_NamedWeaponLongsword,CRX_Sandworm_Trial_NamedWeaponGreatAxe,CRX_Sandworm_Trial_NamedWeaponMusket,CRX_Sandworm_Trial_NamedWeaponBlunderbuss,CRX_Sandworm_Trial_NamedWeaponBow,CRX_Sandworm_Trial_NamedWeaponThrowingAxe,CRX_Sandworm_Trial_NamedWeaponFireStaff,CRX_Sandworm_Trial_NamedWeaponLifeStaff,CRX_Sandworm_Trial_NamedWeaponWarhammer,CRX_Sandworm_Trial_NamedWeaponGreatsword,CRX_Sandworm_Trial_NamedWeaponRapier,CRX_Sandworm_Trial_NamedWeaponSpear,CRX_Sandworm_Trial_NamedWeaponIceGauntlet,CRX_Sandworm_Trial_NamedWeaponVoidGauntlet,CRX_Sandworm_Trial_NamedWeaponKiteShield,CRX_Sandworm_Trial_NamedWeaponRoundShield,CRX_Sandworm_Trial_NamedWeaponTowerShield,CRX_Sandworm_Trial_NamedWeaponFlail
+  UniqueRewardIds: DarkMatter,GypsumOrb,Sandworm_Trial_Materia,RuneSandwormT1,CRX_MediumHead_Sandworm_Trial_Named,CRX_MediumChest_Sandworm_Trial_Named,CRX_MediumHands_Sandworm_Trial_Named,CRX_MediumLegs_Sandworm_Trial_Named,CRX_MediumFeet_Sandworm_Trial_Named,CRX_HeavyHead_Sandworm_Trial_Named,CRX_HeavyChest_Sandworm_Trial_Named,CRX_HeavyHands_Sandworm_Trial_Named,CRX_HeavyLegs_Sandworm_Trial_Named,CRX_HeavyFeet_Sandworm_Trial_Named,CRX_LightHead_Sandworm_Trial_Named,CRX_LightChest_Sandworm_Trial_Named,CRX_LightHands_Sandworm_Trial_Named,CRX_LightLegs_Sandworm_Trial_Named,CRX_LightFeet_Sandworm_Trial_Named,CRX_Sandworm_Trial_WeaponLongsword,CRX_Sandworm_Trial_WeaponGreatAxe,CRX_Sandworm_Trial_WeaponMusket,CRX_Sandworm_Trial_WeaponBlunderbuss,CRX_Sandworm_Trial_WeaponBow,CRX_Sandworm_Trial_WeaponThrowingAxe,CRX_Sandworm_Trial_WeaponFireStaff,CRX_Sandworm_Trial_WeaponLifeStaff,CRX_Sandworm_Trial_WeaponWarhammer,CRX_Sandworm_Trial_WeaponGreatsword,CRX_Sandworm_Trial_WeaponRapier,CRX_Sandworm_Trial_WeaponSpear,CRX_Sandworm_Trial_WeaponIceGauntlet,CRX_Sandworm_Trial_WeaponVoidGauntlet,CRX_Sandworm_Trial_WeaponKiteShield,CRX_Sandworm_Trial_WeaponRoundShield,CRX_Sandworm_Trial_WeaponTowerShield,CRX_Sandworm_Trial_WeaponFlail,CRX_Sandworm_Trial_NamedWeaponLongsword,CRX_Sandworm_Trial_NamedWeaponGreatAxe,CRX_Sandworm_Trial_NamedWeaponMusket,CRX_Sandworm_Trial_NamedWeaponBlunderbuss,CRX_Sandworm_Trial_NamedWeaponBow,CRX_Sandworm_Trial_NamedWeaponThrowingAxe,CRX_Sandworm_Trial_NamedWeaponFireStaff,CRX_Sandworm_Trial_NamedWeaponLifeStaff,CRX_Sandworm_Trial_NamedWeaponWarhammer,CRX_Sandworm_Trial_NamedWeaponGreatsword,CRX_Sandworm_Trial_NamedWeaponRapier,CRX_Sandworm_Trial_NamedWeaponSpear,CRX_Sandworm_Trial_NamedWeaponIceGauntlet,CRX_Sandworm_Trial_NamedWeaponVoidGauntlet,CRX_Sandworm_Trial_NamedWeaponKiteShield,CRX_Sandworm_Trial_NamedWeaponRoundShield,CRX_Sandworm_Trial_NamedWeaponTowerShield,CRX_Sandworm_Trial_NamedWeaponFlail,CRX_Sandworm_Trial_Amulet,CRX_Sandworm_Trial_Ring,CRX_Sandworm_Trial_Earring
+  BasicRewardIds: DarkMatter,CRX_MediumHead_Sandworm_Trial,CRX_MediumChest_Sandworm_Trial,CRX_MediumHands_Sandworm_Trial,CRX_MediumLegs_Sandworm_Trial,CRX_MediumFeet_Sandworm_Trial,CRX_HeavyHead_Sandworm_Trial,CRX_HeavyChest_Sandworm_Trial,CRX_HeavyHands_Sandworm_Trial,CRX_HeavyLegs_Sandworm_Trial,CRX_HeavyFeet_Sandworm_Trial,CRX_LightHead_Sandworm_Trial,CRX_LightChest_Sandworm_Trial,CRX_LightHands_Sandworm_Trial,CRX_LightLegs_Sandworm_Trial,CRX_LightFeet_Sandworm_Trial
   ReplicateParticipantCharacterIds: true
-  GearScoreRecommendedValueMin: 600.0
-  GearScoreRecommendedValueMax: 625.0
+  GearScoreRecommendedValueMin: 700.0
+  GearScoreRecommendedValueMax: 725.0
   MatchmakingMinLevel: 60.0
   MatchmakingMaxLevel: 65.0
   MatchmakingMinGS: 625.0
@@ -3021,7 +3265,171 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
   AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
+- GameModeId: RaidCutlassKeys00
+  ScriptName: RaidCutlassKeys00
+  SlicePath: Dungeon/LevelScripts/RaidCutlassKeys00
+  RequiresTeamRaids: "TRUE"
+  AdvanceThroughStatesOnUpdate: "1"
+  DisplayName: "@raid_cutlasskeys00_title"
+  Description: "@raid_cutlasskeys00_description"
+  UiInteractOption: ""
+  RequirementText: ""
+  IconPath: LyShineUI/Images/Map/Icon/POIs/raid.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/raid.png
+  BackgroundImagePath: LyShineUI/Images/Dungeons/raidImages/raidimages_RaidCutlassKeys00.png
+  ListImagePath: LyShineUI/Images/Dungeons/raidImages/raidimages_RaidCutlassKeys00.png
+  CoatlicueName: "coatlicue\\NW_Raid_CutlassKeys_00"
+  WorldBounds: 460.0,574.0,1024.0,1024.0
+  TeamTeleportData: 569.0,1237.0,120.0,260
+  FeatureFlag: cutlasskeys00-raid
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 65.0
+  RequiredLevel: 65.0
+  EntryAchievementConditional: ""
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: 8.0
+  BackfillReadyThreshold: 9.0
+  NumTeams: 1.0
+  TeamCapacity: 10.0
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: AmuletT5_Hoplite,RingT5_Hoplite,EarringT5_Hoplite,2hStaffLife_Hoplite,1hGauntletIce_Hoplite,1hGauntletVoid_Hoplite,2hStaffFire_Hoplite,2hSpear_Hoplite,1hRapier_Hoplite,2hWarhammer_Hoplite,1hRshield_Hoplite,1hKshield_Hoplite,1hTshield_Hoplite,1hThrowingAxe_Hoplite,2hBow_Hoplite,2hBlunderbuss_Hoplite,2hMusket_Hoplite,2hGreataxe_Hoplite,1hLongsword_Hoplite,2hGreatSword_Hoplite,1hFlail_Hoplite,LightChest_Hoplite,LightHead_Hoplite,LightLegs_Hoplite,LightFeet_Hoplite,LightHands_Hoplite,MediumChest_Hoplite,MediumHead_Hoplite,MediumLegs_Hoplite,MediumFeet_Hoplite,MediumHands_Hoplite,HeavyChest_Hoplite,HeavyHead_Hoplite,HeavyLegs_Hoplite,HeavyFeet_Hoplite,HeavyHands_Hoplite
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: AmuletT5_Hoplite,RingT5_Hoplite,EarringT5_Hoplite,2hStaffLife_Hoplite,1hGauntletIce_Hoplite,1hGauntletVoid_Hoplite,2hStaffFire_Hoplite,2hSpear_Hoplite,1hRapier_Hoplite,2hWarhammer_Hoplite,1hRshield_Hoplite,1hKshield_Hoplite,1hTshield_Hoplite,1hThrowingAxe_Hoplite,2hBow_Hoplite,2hBlunderbuss_Hoplite,2hMusket_Hoplite,2hGreataxe_Hoplite,1hLongsword_Hoplite,2hGreatSword_Hoplite,1hFlail_Hoplite,LightChest_Hoplite,LightHead_Hoplite,LightLegs_Hoplite,LightFeet_Hoplite,LightHands_Hoplite,MediumChest_Hoplite,MediumHead_Hoplite,MediumLegs_Hoplite,MediumFeet_Hoplite,MediumHands_Hoplite,HeavyChest_Hoplite,HeavyHead_Hoplite,HeavyLegs_Hoplite,HeavyFeet_Hoplite,HeavyHands_Hoplite
+  MinGroupSize: 6.0
+  PreserveOldGroup: null
+  IgnoreRequireContribution: true
+  IsDungeon: true
+  IsRaidTrial: true
+  IsSeasonTrial: null
+  IsSoloTrial: null
+  IsMutable: null
+  IsRemoteEntryAllowed: true
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  MapId: NW_Raid_CutlassKeys_00
+  LootTags: GypsumBlue,Raid,HercyneRaid
+  MutLootTagsOverride: ""
+  ContainerLevel: 70.0
+  LootGSRangeOverride: 715-725
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: 4.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedAZothComputeUnits: 3.2
+  ProjectedMemoryUseMb: 256.0
+  ProjectedDurationMinutes: 30.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  PauseTimeOfDay: true
+  FreezeTime: 14.25
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: ""
+  CannotFastTravelTextId: ""
+  LeaveDescTextId: ""
+  LeaveTimeDescTextId: ""
+  LeaveTitleTextId: ""
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: ""
+  OverrideDungeonTimeout: null
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  ProsperoActivityId: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: AmuletT5_Hoplite,RingT5_Hoplite,EarringT5_Hoplite,2hStaffLife_Hoplite,1hGauntletIce_Hoplite,1hGauntletVoid_Hoplite,2hStaffFire_Hoplite,2hSpear_Hoplite,1hRapier_Hoplite,2hWarhammer_Hoplite,1hRshield_Hoplite,1hKshield_Hoplite,1hTshield_Hoplite,1hThrowingAxe_Hoplite,2hBow_Hoplite,2hBlunderbuss_Hoplite,2hMusket_Hoplite,2hGreataxe_Hoplite,1hLongsword_Hoplite,2hGreatSword_Hoplite,1hFlail_Hoplite,LightChest_Hoplite,LightHead_Hoplite,LightLegs_Hoplite,LightFeet_Hoplite,LightHands_Hoplite,MediumChest_Hoplite,MediumHead_Hoplite,MediumLegs_Hoplite,MediumFeet_Hoplite,MediumHands_Hoplite,HeavyChest_Hoplite,HeavyHead_Hoplite,HeavyLegs_Hoplite,HeavyFeet_Hoplite,HeavyHands_Hoplite
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: 710.0
+  GearScoreRecommendedValueMax: 725.0
+  MatchmakingMinLevel: 62.0
+  MatchmakingMaxLevel: 65.0
+  MatchmakingMinGS: 625.0
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 325.0
+  MatchmakingRequiredHealingMastery: 13.0
+  MatchmakingRequiresTauntGem: true
+  MatchmakingMinTanks: 2.0
+  MatchmakingMaxTanks: 3.0
+  MatchmakingMinHealers: 4.0
+  MatchmakingMaxHealers: 6.0
+  MatchmakingMinDPS: 2.0
+  MatchmakingMaxDPS: 3.0
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AllowMounts: false
+  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: TrialSeason01
   ScriptName: TrialSeason01
   SlicePath: Dungeon/LevelScripts/Season_Trial_01
@@ -3031,9 +3439,10 @@
   Description: "@Trial_Season_01_description"
   UiInteractOption: EnterTrialSeason01
   RequirementText: "@Trial_Season_01_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/arena_flamekeeper.png
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_season.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_season.png"
   BackgroundImagePath: LyShineUI/Images/EntranceScreen/Hatchery/EntranceScreenBG_Hatchery.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_TrialSeason02Q12.png
   CoatlicueName: "coatlicue\\NW_Trial_Season_02"
   WorldBounds: 921.0,916.0,256.0,256.0
   TeamTeleportData: 1056.0,959.0,105.5,0
@@ -3046,8 +3455,9 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
-  RecommendedLevel: 60.0
-  RequiredLevel: null
+  RecommendedLevel: 65.0
+  RequiredLevel: 60.0
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: 8.0
   BackfillReadyThreshold: 9.0
@@ -3079,12 +3489,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: null
   LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
   VictoryDelaySec: 9.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.375
+  ProjectedAZothComputeUnits: 0.375
   ProjectedMemoryUseMb: 256.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
@@ -3117,7 +3528,7 @@
   AutoEquipQuickslot: null
   GrantConsumables: ""
   ActivityType: ""
-  OverrideDungeonTimeout: null
+  OverrideDungeonTimeout: 3600.0
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -3139,14 +3550,15 @@
   Tip02Text: "@Trial_Season_01_Objective_2"
   Tip03IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective3.png
   Tip03Text: "@Trial_Season_01_Objective_3"
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
-  ExclusiveRewardIds: DarkMatter,HeavyChest_Trial_S2_NamedT5,HeavyHead_Trial_S2_NamedT5,HeavyLegs_Trial_S2_NamedT5,HeavyFeet_Trial_S2_NamedT5,HeavyHands_Trial_S2_NamedT5,MediumChest_Trial_S2_RimaT5,MediumHead_Trial_S2_RimaT5,MediumLegs_Trial_S2_RimaT5,MediumFeet_Trial_S2_RimaT5,MediumHands_Trial_S2_RimaT5,LightChest_Trial_S2_SharifT5,LightHead_Trial_S2_SharifT5,LightLegs_Trial_S2_SharifT5,LightFeet_Trial_S2_SharifT5,LightHands_Trial_S2_SharifT5,House_HousingItem_Season2_SandwormEgg_Variant5,GoldenScarab,WritofAdventure,GlyphStone_Night,GlyphStone_Water,GlyphStone_Gift,GlyphStone_Mountain,GlyphStone_River,GlyphStone_Shadow,GlyphStone_Chaos,GlyphStone_Sun,GlyphStone_Sealed,GlyphStone_Destruction,GlyphStone_Strength,GlyphStone_Food,GlyphStone_Above
-  UniqueRewardIds: ItemDisplay_2hBow_Trial_S2_T5,ItemDisplay_2hGreatAxe_Trial_S2_T5,ItemDisplay_1hSword_Trial_S2_T5,ItemDisplay_2hMusket_Trial_S2_T5,ItemDisplay_1hRapier_Trial_S2_T5,ItemDisplay_2hSpear_Trial_S2_T5,ItemDisplay_1hHatchet_Trial_S2_T5,ItemDisplay_2hWarhammer_Trial_S2_T5,ItemDisplay_2hFireStaff_Trial_S2_T5,ItemDisplay_2hLifeStaff_Trial_S2_T5,ItemDisplay_1hGauntletIce_Trial_S2_T5,ItemDisplay_1hGauntletVoid_Trial_S2_T5,ItemDisplay_2hBlunderbuss_Trial_S2_T5,ItemDisplay_2hGreatsword_Trial_S2_T5,ItemDisplay_1hRoundShield_Trial_S2_T5,ItemDisplay_1hKiteShield_Trial_S2_T5,ItemDisplay_1hTowerShield_Trial_S2_T5,ItemDisplay_LightChest_Trial_S2_T5,ItemDisplay_LightHead_Trial_S2_T5,ItemDisplay_LightLegs_Trial_S2_T5,ItemDisplay_LightFeet_Trial_S2_T5,ItemDisplay_LightHands_Trial_S2_T5,ItemDisplay_MediumChest_Trial_S2_T5,ItemDisplay_MediumHead_Trial_S2_T5,ItemDisplay_MediumLegs_Trial_S2_T5,ItemDisplay_MediumFeet_Trial_S2_T5,ItemDisplay_MediumHands_Trial_S2_T5,ItemDisplay_HeavyChest_Trial_S2_T5,ItemDisplay_HeavyHead_Trial_S2_T5,ItemDisplay_HeavyLegs_Trial_S2_T5,ItemDisplay_HeavyFeet_Trial_S2_T5,ItemDisplay_HeavyHands_Trial_S2_T5
-  BasicRewardIds: SmolderingSandT1,PotionHealthT5,PotionManaT5,PotionRegenT4
+  ExclusiveRewardIds: DarkMatter,HeavyChest_Trial_S2_NamedT5_V2,HeavyHead_Trial_S2_NamedT5_V2,HeavyLegs_Trial_S2_NamedT5_V2,HeavyFeet_Trial_S2_NamedT5_V2,HeavyHands_Trial_S2_NamedT5_V2,MediumChest_Trial_S2_RimaT5_V2,MediumHead_Trial_S2_RimaT5_V2,MediumLegs_Trial_S2_RimaT5_V2,MediumFeet_Trial_S2_RimaT5_V2,MediumHands_Trial_S2_RimaT5_V2,LightChest_Trial_S2_SharifT5_V2,LightHead_Trial_S2_SharifT5_V2,LightLegs_Trial_S2_SharifT5_V2,LightFeet_Trial_S2_SharifT5_V2,LightHands_Trial_S2_SharifT5_V2,House_HousingItem_Season2_SandwormEgg_Variant5,GoldenScarab,WritofAdventure,GlyphStone_Night,GlyphStone_Water,GlyphStone_Gift,GlyphStone_Mountain,GlyphStone_River,GlyphStone_Shadow,GlyphStone_Chaos,GlyphStone_Sun,GlyphStone_Sealed,GlyphStone_Destruction,GlyphStone_Strength,GlyphStone_Food,GlyphStone_Above
+  UniqueRewardIds: 2hBow_Trial_S2_T5_V2,2hGreatAxe_Trial_S2_T5_V2,1hSword_Trial_S2_T5_V2,2hMusket_Trial_S2_T5_V2,1hRapier_Trial_S2_T5_V2,2hSpear_Trial_S2_T5_V2,1hHatchet_Trial_S2_T5_V2,2hWarhammer_Trial_S2_T5_V2,2hFireStaff_Trial_S2_T5_V2,2hLifeStaff_Trial_S2_T5_V2,1hGauntletIce_Trial_S2_T5_V2,1hGauntletVoid_Trial_S2_T5_V2,2hBlunderbuss_Trial_S2_T5_V2,2hGreatsword_Trial_S2_T5_V2,1hRoundShield_Trial_S2_T5_V2,1hKiteShield_Trial_S2_T5_V2,1hTowerShield_Trial_S2_T5_V2,LightChest_Trial_S2_T5_V2,LightHead_Trial_S2_T5_V2,LightLegs_Trial_S2_T5_V2,LightFeet_Trial_S2_T5_V2,LightHands_Trial_S2_T5_V2,MediumChest_Trial_S2_T5_V2,MediumHead_Trial_S2_T5_V2,MediumLegs_Trial_S2_T5_V2,MediumFeet_Trial_S2_T5_V2,MediumHands_Trial_S2_T5_V2,HeavyChest_Trial_S2_T5_V2,HeavyHead_Trial_S2_T5_V2,HeavyLegs_Trial_S2_T5_V2,HeavyFeet_Trial_S2_T5_V2,HeavyHands_Trial_S2_T5_V2
+  BasicRewardIds: PotionHealthT5,PotionManaT5,PotionRegenT4
   ReplicateParticipantCharacterIds: true
-  GearScoreRecommendedValueMin: 600.0
-  GearScoreRecommendedValueMax: 625.0
+  GearScoreRecommendedValueMin: 650.0
+  GearScoreRecommendedValueMax: 700.0
   MatchmakingMinLevel: null
   MatchmakingMaxLevel: null
   MatchmakingMinGS: null
@@ -3165,7 +3577,171 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
   AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
+- GameModeId: TrialSeason04
+  ScriptName: TrialSeason04
+  SlicePath: Dungeon/LevelScripts/Trial_Season_04
+  RequiresTeamRaids: "TRUE"
+  AdvanceThroughStatesOnUpdate: "1"
+  DisplayName: "@Trial_Season_04_title"
+  Description: "@Trial_Season_04_description"
+  UiInteractOption: EnterTrialSeason04
+  RequirementText: "@Trial_Season_04_required_equipment"
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_season.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_season.png"
+  BackgroundImagePath: LyShineUI/Images/EntranceScreen/Season5_Trial/EntranceScreenBG_Season5_Trial.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_TrialSeason04Q05.png
+  CoatlicueName: "coatlicue\\NW_Trial_Season_04"
+  WorldBounds: 145.0,6.0,512.0,512.0
+  TeamTeleportData: 213.0,258.0,247.0,270
+  FeatureFlag: trial-season-04
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 65.0
+  RequiredLevel: 61.0
+  EntryAchievementConditional: ""
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: 8.0
+  BackfillReadyThreshold: 9.0
+  NumTeams: 1.0
+  TeamCapacity: 10.0
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 6.0
+  PreserveOldGroup: null
+  IgnoreRequireContribution: true
+  IsDungeon: true
+  IsRaidTrial: true
+  IsSeasonTrial: true
+  IsSoloTrial: null
+  IsMutable: null
+  IsRemoteEntryAllowed: true
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  MapId: NW_Trial_Season_04
+  LootTags: ""
+  MutLootTagsOverride: ""
+  ContainerLevel: null
+  LootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: 9.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedAZothComputeUnits: 0.375
+  ProjectedMemoryUseMb: 256.0
+  ProjectedDurationMinutes: 10.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  PauseTimeOfDay: true
+  FreezeTime: 4.2
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: ""
+  OverrideDungeonTimeout: 3600.0
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: true
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: Trial_S5_BonusBox
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: LyShineUI/Images/EntranceScreen/Season5_Trial/icon_seasonTrials_iceguardian.png
+  Tip01IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective1.png
+  Tip01Text: "@Trial_Season_04_Objective_3"
+  Tip02IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective2.png
+  Tip02Text: "@Trial_Season_04_Objective_2"
+  Tip03IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective3.png
+  Tip03Text: "@Trial_Season_04_Objective_1"
+  ProsperoActivityId: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: DarkMatter,FactionTokenSmall_Box_S4,Artifact_Set2_2hGreatAxe,LightChest_Trial_S5_NamedT5,LightHead_Trial_S5_NamedT5,LightLegs_Trial_S5_NamedT5,LightFeet_Trial_S5_NamedT5,LightHands_Trial_S5_NamedT5,MediumChest_Trial_S5_NamedT5,MediumHead_Trial_S5_NamedT5,MediumLegs_Trial_S5_NamedT5,MediumFeet_Trial_S5_NamedT5,MediumHands_Trial_S5_NamedT5,HeavyChest_Trial_S5_NamedT5,HeavyHead_Trial_S5_NamedT5,HeavyLegs_Trial_S5_NamedT5,HeavyFeet_Trial_S5_NamedT5,HeavyHands_Trial_S5_NamedT5,2hWarhammer_Trial_S5_NamedT5,2hSpear_Trial_S5_NamedT5,2hMusket_Trial_S5_NamedT5,1hFlail_Trial_S5_NamedT5,2hStaffLife_Trial_S5_NamedT5,2hStaffFire_Trial_S5_NamedT5
+  UniqueRewardIds: LightChest_Trial_S5_T5,LightHead_Trial_S5_T5,LightLegs_Trial_S5_T5,LightFeet_Trial_S5_T5,LightHands_Trial_S5_T5,MediumChest_Trial_S5_T5,MediumHead_Trial_S5_T5,MediumLegs_Trial_S5_T5,MediumFeet_Trial_S5_T5,MediumHands_Trial_S5_T5,HeavyChest_Trial_S5_T5,HeavyHead_Trial_S5_T5,HeavyLegs_Trial_S5_T5,HeavyFeet_Trial_S5_T5,HeavyHands_Trial_S5_T5,2hBow_Trial_S5_T5,2hGreatAxe_Trial_S5_T5,1hSword_Trial_S5_T5,2hMusket_Trial_S5_T5,1hRapier_Trial_S5_T5,2hSpear_Trial_S5_T5,1hHatchet_Trial_S5_T5,2hWarhammer_Trial_S5_T5,2hFireStaff_Trial_S5_T5,2hLifeStaff_Trial_S5_T5,1hGauntletIce_Trial_S5_T5,1hGauntletVoid_Trial_S5_T5,2hBlunderbuss_Trial_S5_T5,2hGreatsword_Trial_S5_T5,1hFlail_Trial_S5_T5,1hRoundShield_Trial_S5_T5,1hKiteShield_Trial_S5_T5,1hTowerShield_Trial_S5_T5
+  BasicRewardIds: GypsumBlue
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: 650.0
+  GearScoreRecommendedValueMax: 700.0
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AllowMounts: false
+  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: QuestAdiana
   ScriptName: QuestAdiana
   SlicePath: Dungeon/AdianaFirstLight/AdianaScript
@@ -3175,9 +3751,10 @@
   Description: "@Quest_Adiana_description"
   UiInteractOption: EnterQuestAdiana
   RequirementText: "@Quest_Adiana_required_equipment"
-  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\firstlight_mammoth_boss_trial.png"
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
-  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestAdiana.png"
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestAdiana.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestAdiana.png
   CoatlicueName: "coatlicue\\NW_ORI_FL_QuestAdiana"
   WorldBounds: 600.0,700.0,256.0,256.0
   TeamTeleportData: 730.0,788,417.0,0
@@ -3192,6 +3769,7 @@
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 65.0
   RequiredLevel: null
+  EntryAchievementConditional: Expansion_2023_Unlock
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -3203,7 +3781,7 @@
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
-  PossibleItemDropIds: Artifact_Set1_MediumLegs,09A_M15_2hBow_T5
+  PossibleItemDropIds: Artifact_Set1_MediumLegs,CRX_09A_M15_2hBow_T5
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 0.0
@@ -3214,21 +3792,22 @@
   IsSeasonTrial: null
   IsSoloTrial: true
   IsMutable: null
-  IsRemoteEntryAllowed: null
+  IsRemoteEntryAllowed: true
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_ORI_FL_QuestAdiana
   LootTags: FirstLight
   MutLootTagsOverride: ""
-  ContainerLevel: 60.0
-  LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
+  ContainerLevel: 65.0
+  LootGSRangeOverride: 630-675
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.75
+  ProjectedAZothComputeUnits: 0.75
   ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
@@ -3283,6 +3862,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -3309,7 +3889,15 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
   AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: false
 - GameModeId: QuestApophis
   ScriptName: QuestApophis
   SlicePath: Dungeon/ApophisBrimstone/ApophisScript
@@ -3319,9 +3907,10 @@
   Description: "@Quest_Apophis_description"
   UiInteractOption: EnterQuestApophis
   RequirementText: "@Quest_Apophis_required_equipment"
-  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\firstlight_mammoth_boss_trial.png"
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
-  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestApophis.png"
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestApophis.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestApophis.png
   CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
   WorldBounds: 4660.0,8992.0,128.0,128.0
   TeamTeleportData: 4710.0,9075.2,414.4,207
@@ -3334,8 +3923,9 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
-  RecommendedLevel: 60.0
+  RecommendedLevel: 63.0
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -3347,7 +3937,7 @@
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
-  PossibleItemDropIds: 2hWarhammer_BanisherOfChaosT5
+  PossibleItemDropIds: 2hWarhammer_BanisherOfChaosT5,DarkMatter,GypsumOrb
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 0.0
@@ -3358,741 +3948,22 @@
   IsSeasonTrial: null
   IsSoloTrial: true
   IsMutable: null
-  IsRemoteEntryAllowed: null
+  IsRemoteEntryAllowed: true
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: ""
   LootTags: ""
   MutLootTagsOverride: ""
-  ContainerLevel: null
-  LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
+  ContainerLevel: 63.0
+  LootGSRangeOverride: 626-655
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
   VictoryDelaySec: 9.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.375
-  ProjectedMemoryUseMb: 256.0
-  ProjectedDurationMinutes: 10.0
-  Priority: 2.0
-  ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
-  AILevelAdjustedPerceptionEnabled: false
-  AILeashingOptOut: true
-  DisableDeathsDoor: null
-  DisableMSQTrackersOnHud: null
-  AIPreventEnemyTraining: false
-  UseTeamNamePlate: false
-  ItemDropQuantityOnDeathModifier: 1.0
-  QuitButtonTextId: "@ui_solo_arena_leave"
-  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
-  LeaveDescTextId: "@ui_solo_arena_leave_desc"
-  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
-  LeaveTitleTextId: "@ui_solo_arena_leave_title"
-  WarBoardStatDefinitions: ""
-  WarBoardAttackerTeamIdx: null
-  WarBoardDefenderTeamIdx: null
-  RaidInviteDelaySec: 5.0
-  RaidInviteDurationSec: 90.0
-  BackfillDelaySec: 30.0
-  PriorityAddMin: null
-  PriorityAddMax: null
-  AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
-  UsePendingListMatchmaking: false
-  AutoEquipQuickslot: null
-  GrantConsumables: ""
-  ActivityType: ""
-  OverrideDungeonTimeout: 900.0
-  SpecialQueueGroupSizes: null
-  ResetChargeOnEnter: null
-  ShouldShowAcceptedFlow: null
-  ScreenHeaderTextId: ""
-  JoinButtonTextId: ""
-  SignupTitleTextId: ""
-  LeaveQueueTitleTextId: ""
-  LeaveQueueDescriptionTextId: ""
-  FailGroupPenaltyTextId: ""
-  RespawnTypeToUseForUnstuck: ""
-  LootLimitId: ""
-  DailyLootLimitId: ""
-  WeeklyLootLimitId: ""
-  PossibleJourneyIds: ""
-  TrialIconPath: ""
-  Tip01IconPath: ""
-  Tip01Text: ""
-  Tip02IconPath: ""
-  Tip02Text: ""
-  Tip03IconPath: ""
-  Tip03Text: ""
-  HidePoiName: null
-  HideCompass: null
-  ExclusiveRewardIds: ""
-  UniqueRewardIds: ""
-  BasicRewardIds: ""
-  ReplicateParticipantCharacterIds: true
-  GearScoreRecommendedValueMin: null
-  GearScoreRecommendedValueMax: null
-  MatchmakingMinLevel: null
-  MatchmakingMaxLevel: null
-  MatchmakingMinGS: null
-  UsesRoleSelection: false
-  MatchmakingRequiredHealingFocus: null
-  MatchmakingRequiredHealingMastery: null
-  MatchmakingRequiresTauntGem: null
-  MatchmakingMinTanks: null
-  MatchmakingMaxTanks: null
-  MatchmakingMinHealers: null
-  MatchmakingMaxHealers: null
-  MatchmakingMinDPS: null
-  MatchmakingMaxDPS: null
-  UseMMBuff: false
-  MatchmakingPriority: null
-  AllowMounts: false
-  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
-  AchievementIdForCompletingMaxRank: ""
-  WorldPosToTeleportBackTo: ""
-- GameModeId: QuestCaerDun
-  ScriptName: QuestCaerDun
-  SlicePath: Dungeon/CaerDunBrightwood/CaerDunScript
-  RequiresTeamRaids: "0"
-  AdvanceThroughStatesOnUpdate: "1"
-  DisplayName: "@Quest_CaerDun_title"
-  Description: "@Quest_CaerDun_description"
-  UiInteractOption: EnterQuestCaerDun
-  RequirementText: "@Quest_CaerDun_required_equipment"
-  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\firstlight_mammoth_boss_trial.png"
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
-  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestCaerDun.png"
-  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
-  WorldBounds: 9074.68,6534.42,64.0,64.0
-  TeamTeleportData: 9109,6554,316,90
-  FeatureFlag: quest-caerdun
-  PurchasableItemClasses: ""
-  PurchasableItemClassesRestrictedToMode: ""
-  NonPurchasableItemClasses: ""
-  ItemClassesToRemoveOnExit: ""
-  RequiredConsumableItemClasses: ""
-  DisabledItemClasses: ""
-  ClearBattleTokensOnExit: "0"
-  RequiresGameModeGDEException: "1"
-  RecommendedLevel: 35.0
-  RequiredLevel: null
-  QueueLevelBuckets: ""
-  QueueReadyThreshold: null
-  BackfillReadyThreshold: null
-  NumTeams: null
-  TeamCapacity: null
-  CombineTeamGroups: null
-  ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
-  GearScoreOverrideValueMax: null
-  MinPlayerLevelToUseGearScoreOverride: null
-  MaxPlayerLevelToUseGearScoreOverride: null
-  PossibleItemDropIds: QuestReward_MSQ2_2hFishingPole_Yonas
-  ItemDropLevelThreshold01: null
-  PossibleItemDropIdsByLevel01: ""
-  MinGroupSize: 0.0
-  PreserveOldGroup: null
-  IgnoreRequireContribution: true
-  IsDungeon: true
-  IsRaidTrial: null
-  IsSeasonTrial: null
-  IsSoloTrial: true
-  IsMutable: null
-  IsRemoteEntryAllowed: null
-  DifficultyProgressionId: ""
-  RestrictGathering: false
-  RestrictWaterGathering: true
-  MapId: ""
-  LootTags: ""
-  MutLootTagsOverride: ""
-  ContainerLevel: null
-  LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
-  VictoryDelaySec: 4.0
-  MaxAI: OpenWorld
-  AISpawnRadius: OpenWorld
-  AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.375
-  ProjectedMemoryUseMb: 256.0
-  ProjectedDurationMinutes: 10.0
-  Priority: 2.0
-  ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
-  AILevelAdjustedPerceptionEnabled: false
-  AILeashingOptOut: true
-  DisableDeathsDoor: null
-  DisableMSQTrackersOnHud: null
-  AIPreventEnemyTraining: false
-  UseTeamNamePlate: false
-  ItemDropQuantityOnDeathModifier: 1.0
-  QuitButtonTextId: "@ui_solo_arena_leave"
-  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
-  LeaveDescTextId: "@ui_solo_arena_leave_desc"
-  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
-  LeaveTitleTextId: "@ui_solo_arena_leave_title"
-  WarBoardStatDefinitions: ""
-  WarBoardAttackerTeamIdx: null
-  WarBoardDefenderTeamIdx: null
-  RaidInviteDelaySec: 5.0
-  RaidInviteDurationSec: 90.0
-  BackfillDelaySec: 30.0
-  PriorityAddMin: null
-  PriorityAddMax: null
-  AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
-  UsePendingListMatchmaking: false
-  AutoEquipQuickslot: null
-  GrantConsumables: ""
-  ActivityType: ""
-  OverrideDungeonTimeout: 900.0
-  SpecialQueueGroupSizes: null
-  ResetChargeOnEnter: null
-  ShouldShowAcceptedFlow: null
-  ScreenHeaderTextId: ""
-  JoinButtonTextId: ""
-  SignupTitleTextId: ""
-  LeaveQueueTitleTextId: ""
-  LeaveQueueDescriptionTextId: ""
-  FailGroupPenaltyTextId: ""
-  RespawnTypeToUseForUnstuck: ""
-  LootLimitId: ""
-  DailyLootLimitId: ""
-  WeeklyLootLimitId: ""
-  PossibleJourneyIds: ""
-  TrialIconPath: ""
-  Tip01IconPath: ""
-  Tip01Text: ""
-  Tip02IconPath: ""
-  Tip02Text: ""
-  Tip03IconPath: ""
-  Tip03Text: ""
-  HidePoiName: null
-  HideCompass: null
-  ExclusiveRewardIds: ""
-  UniqueRewardIds: ""
-  BasicRewardIds: ""
-  ReplicateParticipantCharacterIds: true
-  GearScoreRecommendedValueMin: null
-  GearScoreRecommendedValueMax: null
-  MatchmakingMinLevel: null
-  MatchmakingMaxLevel: null
-  MatchmakingMinGS: null
-  UsesRoleSelection: false
-  MatchmakingRequiredHealingFocus: null
-  MatchmakingRequiredHealingMastery: null
-  MatchmakingRequiresTauntGem: null
-  MatchmakingMinTanks: null
-  MatchmakingMaxTanks: null
-  MatchmakingMinHealers: null
-  MatchmakingMaxHealers: null
-  MatchmakingMinDPS: null
-  MatchmakingMaxDPS: null
-  UseMMBuff: false
-  MatchmakingPriority: null
-  AllowMounts: false
-  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
-  AchievementIdForCompletingMaxRank: ""
-  WorldPosToTeleportBackTo: ""
-- GameModeId: QuestEmpressZhou
-  ScriptName: QuestEmpressZhou
-  SlicePath: Dungeon/EmpressZhou/Script_QuestEmpressZhou
-  RequiresTeamRaids: "0"
-  AdvanceThroughStatesOnUpdate: "1"
-  DisplayName: "@quest_empress_zhou_title"
-  Description: "@quest_empress_zhou_description"
-  UiInteractOption: EnterQuestEmpressZhou
-  RequirementText: ""
-  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\firstlight_mammoth_boss_trial.png"
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
-  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestEmpressZhou.png"
-  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
-  WorldBounds: 5201.0,4282.0,256.0,256.0
-  TeamTeleportData: 5329.0,4375.43,44.28,90
-  FeatureFlag: quest-empresszhou
-  PurchasableItemClasses: ""
-  PurchasableItemClassesRestrictedToMode: ""
-  NonPurchasableItemClasses: ""
-  ItemClassesToRemoveOnExit: ""
-  RequiredConsumableItemClasses: ""
-  DisabledItemClasses: ""
-  ClearBattleTokensOnExit: "0"
-  RequiresGameModeGDEException: "1"
-  RecommendedLevel: 60.0
-  RequiredLevel: null
-  QueueLevelBuckets: ""
-  QueueReadyThreshold: null
-  BackfillReadyThreshold: null
-  NumTeams: null
-  TeamCapacity: null
-  CombineTeamGroups: null
-  ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
-  GearScoreOverrideValueMax: null
-  MinPlayerLevelToUseGearScoreOverride: null
-  MaxPlayerLevelToUseGearScoreOverride: null
-  PossibleItemDropIds: Amulet_Empress_Solo_Trial_T5
-  ItemDropLevelThreshold01: null
-  PossibleItemDropIdsByLevel01: ""
-  MinGroupSize: 0.0
-  PreserveOldGroup: null
-  IgnoreRequireContribution: true
-  IsDungeon: true
-  IsRaidTrial: null
-  IsSeasonTrial: null
-  IsSoloTrial: true
-  IsMutable: null
-  IsRemoteEntryAllowed: null
-  DifficultyProgressionId: ""
-  RestrictGathering: false
-  RestrictWaterGathering: true
-  MapId: NewWorld_VitaeEterna
-  LootTags: ""
-  MutLootTagsOverride: ""
-  ContainerLevel: null
-  LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
-  VictoryDelaySec: null
-  MaxAI: OpenWorld
-  AISpawnRadius: OpenWorld
-  AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.375
-  ProjectedMemoryUseMb: 256.0
-  ProjectedDurationMinutes: 10.0
-  Priority: 2.0
-  ImmediateLaunch: false
-  PauseTimeOfDay: true
-  FreezeTime: 18.0
-  AILevelAdjustedPerceptionEnabled: false
-  AILeashingOptOut: true
-  DisableDeathsDoor: null
-  DisableMSQTrackersOnHud: null
-  AIPreventEnemyTraining: false
-  UseTeamNamePlate: false
-  ItemDropQuantityOnDeathModifier: 1.0
-  QuitButtonTextId: "@ui_solo_arena_leave"
-  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
-  LeaveDescTextId: "@ui_solo_arena_leave_desc"
-  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
-  LeaveTitleTextId: "@ui_solo_arena_leave_title"
-  WarBoardStatDefinitions: ""
-  WarBoardAttackerTeamIdx: null
-  WarBoardDefenderTeamIdx: null
-  RaidInviteDelaySec: 5.0
-  RaidInviteDurationSec: 90.0
-  BackfillDelaySec: 30.0
-  PriorityAddMin: null
-  PriorityAddMax: null
-  AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
-  UsePendingListMatchmaking: false
-  AutoEquipQuickslot: null
-  GrantConsumables: ""
-  ActivityType: ""
-  OverrideDungeonTimeout: 900.0
-  SpecialQueueGroupSizes: null
-  ResetChargeOnEnter: null
-  ShouldShowAcceptedFlow: null
-  ScreenHeaderTextId: ""
-  JoinButtonTextId: ""
-  SignupTitleTextId: ""
-  LeaveQueueTitleTextId: ""
-  LeaveQueueDescriptionTextId: ""
-  FailGroupPenaltyTextId: ""
-  RespawnTypeToUseForUnstuck: ""
-  LootLimitId: ""
-  DailyLootLimitId: ""
-  WeeklyLootLimitId: ""
-  PossibleJourneyIds: ""
-  TrialIconPath: ""
-  Tip01IconPath: ""
-  Tip01Text: ""
-  Tip02IconPath: ""
-  Tip02Text: ""
-  Tip03IconPath: ""
-  Tip03Text: ""
-  HidePoiName: null
-  HideCompass: null
-  ExclusiveRewardIds: ""
-  UniqueRewardIds: ""
-  BasicRewardIds: ""
-  ReplicateParticipantCharacterIds: true
-  GearScoreRecommendedValueMin: null
-  GearScoreRecommendedValueMax: null
-  MatchmakingMinLevel: null
-  MatchmakingMaxLevel: null
-  MatchmakingMinGS: null
-  UsesRoleSelection: false
-  MatchmakingRequiredHealingFocus: null
-  MatchmakingRequiredHealingMastery: null
-  MatchmakingRequiresTauntGem: null
-  MatchmakingMinTanks: null
-  MatchmakingMaxTanks: null
-  MatchmakingMinHealers: null
-  MatchmakingMaxHealers: null
-  MatchmakingMinDPS: null
-  MatchmakingMaxDPS: null
-  UseMMBuff: false
-  MatchmakingPriority: null
-  AllowMounts: false
-  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
-  AchievementIdForCompletingMaxRank: ""
-  WorldPosToTeleportBackTo: ""
-- GameModeId: QuestIsabella
-  ScriptName: QuestIsabella
-  SlicePath: Dungeon/Isabella/QuestIsabellaScript
-  RequiresTeamRaids: "0"
-  AdvanceThroughStatesOnUpdate: "1"
-  DisplayName: "@quest_isabella_title"
-  Description: "@quest_isabella_description"
-  UiInteractOption: EnterQuestIsabella
-  RequirementText: ""
-  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\firstlight_mammoth_boss_trial.png"
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
-  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestIsabella.png"
-  CoatlicueName: "coatlicue\\NW_ORI_SM_QuestIsabella"
-  WorldBounds: 962.0,779.0,512.0,512.0
-  TeamTeleportData: 1240,1078,140,90
-  FeatureFlag: quest-isabella
-  PurchasableItemClasses: ""
-  PurchasableItemClassesRestrictedToMode: ""
-  NonPurchasableItemClasses: ""
-  ItemClassesToRemoveOnExit: ""
-  RequiredConsumableItemClasses: ""
-  DisabledItemClasses: ""
-  ClearBattleTokensOnExit: "0"
-  RequiresGameModeGDEException: "1"
-  RecommendedLevel: 60.0
-  RequiredLevel: null
-  QueueLevelBuckets: ""
-  QueueReadyThreshold: null
-  BackfillReadyThreshold: null
-  NumTeams: null
-  TeamCapacity: null
-  CombineTeamGroups: null
-  ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
-  GearScoreOverrideValueMax: null
-  MinPlayerLevelToUseGearScoreOverride: null
-  MaxPlayerLevelToUseGearScoreOverride: null
-  PossibleItemDropIds: Rapier_Isabella_Solo_Trial_T5
-  ItemDropLevelThreshold01: null
-  PossibleItemDropIdsByLevel01: ""
-  MinGroupSize: 0.0
-  PreserveOldGroup: null
-  IgnoreRequireContribution: true
-  IsDungeon: true
-  IsRaidTrial: null
-  IsSeasonTrial: null
-  IsSoloTrial: true
-  IsMutable: null
-  IsRemoteEntryAllowed: null
-  DifficultyProgressionId: ""
-  RestrictGathering: false
-  RestrictWaterGathering: true
-  MapId: NW_ORI_SM_QuestIsabella
-  LootTags: ""
-  MutLootTagsOverride: ""
-  ContainerLevel: null
-  LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
-  VictoryDelaySec: 69.0
-  MaxAI: OpenWorld
-  AISpawnRadius: OpenWorld
-  AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.375
-  ProjectedMemoryUseMb: 256.0
-  ProjectedDurationMinutes: 10.0
-  Priority: 2.0
-  ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
-  AILevelAdjustedPerceptionEnabled: false
-  AILeashingOptOut: true
-  DisableDeathsDoor: null
-  DisableMSQTrackersOnHud: null
-  AIPreventEnemyTraining: false
-  UseTeamNamePlate: false
-  ItemDropQuantityOnDeathModifier: 1.0
-  QuitButtonTextId: "@ui_solo_arena_leave"
-  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
-  LeaveDescTextId: "@ui_solo_arena_leave_desc"
-  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
-  LeaveTitleTextId: "@ui_solo_arena_leave_title"
-  WarBoardStatDefinitions: ""
-  WarBoardAttackerTeamIdx: null
-  WarBoardDefenderTeamIdx: null
-  RaidInviteDelaySec: 5.0
-  RaidInviteDurationSec: 90.0
-  BackfillDelaySec: 30.0
-  PriorityAddMin: null
-  PriorityAddMax: null
-  AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
-  UsePendingListMatchmaking: false
-  AutoEquipQuickslot: null
-  GrantConsumables: ""
-  ActivityType: ""
-  OverrideDungeonTimeout: 2700.0
-  SpecialQueueGroupSizes: null
-  ResetChargeOnEnter: null
-  ShouldShowAcceptedFlow: null
-  ScreenHeaderTextId: ""
-  JoinButtonTextId: ""
-  SignupTitleTextId: ""
-  LeaveQueueTitleTextId: ""
-  LeaveQueueDescriptionTextId: ""
-  FailGroupPenaltyTextId: ""
-  RespawnTypeToUseForUnstuck: ""
-  LootLimitId: ""
-  DailyLootLimitId: ""
-  WeeklyLootLimitId: ""
-  PossibleJourneyIds: ""
-  TrialIconPath: ""
-  Tip01IconPath: ""
-  Tip01Text: ""
-  Tip02IconPath: ""
-  Tip02Text: ""
-  Tip03IconPath: ""
-  Tip03Text: ""
-  HidePoiName: null
-  HideCompass: null
-  ExclusiveRewardIds: ""
-  UniqueRewardIds: ""
-  BasicRewardIds: ""
-  ReplicateParticipantCharacterIds: true
-  GearScoreRecommendedValueMin: 580.0
-  GearScoreRecommendedValueMax: 600.0
-  MatchmakingMinLevel: null
-  MatchmakingMaxLevel: null
-  MatchmakingMinGS: null
-  UsesRoleSelection: false
-  MatchmakingRequiredHealingFocus: null
-  MatchmakingRequiredHealingMastery: null
-  MatchmakingRequiresTauntGem: null
-  MatchmakingMinTanks: null
-  MatchmakingMaxTanks: null
-  MatchmakingMinHealers: null
-  MatchmakingMaxHealers: null
-  MatchmakingMinDPS: null
-  MatchmakingMaxDPS: null
-  UseMMBuff: false
-  MatchmakingPriority: null
-  AllowMounts: false
-  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
-  AchievementIdForCompletingMaxRank: ""
-  WorldPosToTeleportBackTo: ""
-- GameModeId: QuestMammoth
-  ScriptName: QuestMammoth
-  SlicePath: Dungeon/MammothFirstLight/MammothScript
-  RequiresTeamRaids: "FALSE"
-  AdvanceThroughStatesOnUpdate: "TRUE"
-  DisplayName: "@Quest_Mammoth_title"
-  Description: "@trial_mammoth_description"
-  UiInteractOption: EnterQuestMammoth
-  RequirementText: "@Quest_Mammoth_required_equipment"
-  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\firstlight_mammoth_boss_trial.png"
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
-  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_QuestMammoth.png
-  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
-  WorldBounds: 9461.7,1919.0,128.0,128.0
-  TeamTeleportData: 9471.6,1960.6,65.4,301.4
-  FeatureFlag: quest-mammoth
-  PurchasableItemClasses: ""
-  PurchasableItemClassesRestrictedToMode: ""
-  NonPurchasableItemClasses: ""
-  ItemClassesToRemoveOnExit: ""
-  RequiredConsumableItemClasses: ""
-  DisabledItemClasses: ""
-  ClearBattleTokensOnExit: "0"
-  RequiresGameModeGDEException: "1"
-  RecommendedLevel: 60.0
-  RequiredLevel: null
-  QueueLevelBuckets: ""
-  QueueReadyThreshold: null
-  BackfillReadyThreshold: null
-  NumTeams: null
-  TeamCapacity: null
-  CombineTeamGroups: null
-  ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
-  GearScoreOverrideValueMax: null
-  MinPlayerLevelToUseGearScoreOverride: null
-  MaxPlayerLevelToUseGearScoreOverride: null
-  PossibleItemDropIds: GypsumOrb,09A_M13_ChestT5
-  ItemDropLevelThreshold01: null
-  PossibleItemDropIdsByLevel01: ""
-  MinGroupSize: 0.0
-  PreserveOldGroup: null
-  IgnoreRequireContribution: true
-  IsDungeon: true
-  IsRaidTrial: null
-  IsSeasonTrial: null
-  IsSoloTrial: true
-  IsMutable: null
-  IsRemoteEntryAllowed: null
-  DifficultyProgressionId: ""
-  RestrictGathering: false
-  RestrictWaterGathering: true
-  MapId: ""
-  LootTags: FirstLight
-  MutLootTagsOverride: ""
-  ContainerLevel: 60.0
-  LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
-  VictoryDelaySec: 4.0
-  MaxAI: OpenWorld
-  AISpawnRadius: OpenWorld
-  AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.375
-  ProjectedMemoryUseMb: 256.0
-  ProjectedDurationMinutes: 10.0
-  Priority: 2.0
-  ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
-  AILevelAdjustedPerceptionEnabled: false
-  AILeashingOptOut: true
-  DisableDeathsDoor: null
-  DisableMSQTrackersOnHud: null
-  AIPreventEnemyTraining: false
-  UseTeamNamePlate: false
-  ItemDropQuantityOnDeathModifier: 1.0
-  QuitButtonTextId: "@ui_solo_arena_leave"
-  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
-  LeaveDescTextId: "@ui_solo_arena_leave_desc"
-  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
-  LeaveTitleTextId: "@ui_solo_arena_leave_title"
-  WarBoardStatDefinitions: ""
-  WarBoardAttackerTeamIdx: null
-  WarBoardDefenderTeamIdx: null
-  RaidInviteDelaySec: 5.0
-  RaidInviteDurationSec: 90.0
-  BackfillDelaySec: 30.0
-  PriorityAddMin: null
-  PriorityAddMax: null
-  AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
-  UsePendingListMatchmaking: false
-  AutoEquipQuickslot: null
-  GrantConsumables: ""
-  ActivityType: ""
-  OverrideDungeonTimeout: 900.0
-  SpecialQueueGroupSizes: null
-  ResetChargeOnEnter: null
-  ShouldShowAcceptedFlow: null
-  ScreenHeaderTextId: ""
-  JoinButtonTextId: ""
-  SignupTitleTextId: ""
-  LeaveQueueTitleTextId: ""
-  LeaveQueueDescriptionTextId: ""
-  FailGroupPenaltyTextId: ""
-  RespawnTypeToUseForUnstuck: ""
-  LootLimitId: ""
-  DailyLootLimitId: ""
-  WeeklyLootLimitId: ""
-  PossibleJourneyIds: ""
-  TrialIconPath: ""
-  Tip01IconPath: ""
-  Tip01Text: ""
-  Tip02IconPath: ""
-  Tip02Text: ""
-  Tip03IconPath: ""
-  Tip03Text: ""
-  HidePoiName: null
-  HideCompass: null
-  ExclusiveRewardIds: ""
-  UniqueRewardIds: ""
-  BasicRewardIds: ""
-  ReplicateParticipantCharacterIds: true
-  GearScoreRecommendedValueMin: null
-  GearScoreRecommendedValueMax: null
-  MatchmakingMinLevel: null
-  MatchmakingMaxLevel: null
-  MatchmakingMinGS: null
-  UsesRoleSelection: false
-  MatchmakingRequiredHealingFocus: null
-  MatchmakingRequiredHealingMastery: null
-  MatchmakingRequiresTauntGem: null
-  MatchmakingMinTanks: null
-  MatchmakingMaxTanks: null
-  MatchmakingMinHealers: null
-  MatchmakingMaxHealers: null
-  MatchmakingMinDPS: null
-  MatchmakingMaxDPS: null
-  UseMMBuff: false
-  MatchmakingPriority: null
-  AllowMounts: false
-  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
-  AchievementIdForCompletingMaxRank: ""
-  WorldPosToTeleportBackTo: ""
-- GameModeId: QuestMedusa
-  ScriptName: QuestMedusa
-  SlicePath: Dungeon/MedusaFirstLight/MedusaScript
-  RequiresTeamRaids: "FALSE"
-  AdvanceThroughStatesOnUpdate: "TRUE"
-  DisplayName: "@Quest_Medusa_title"
-  Description: "@Quest_Medusa_description"
-  UiInteractOption: EnterQuestMedusa
-  RequirementText: "@Quest_Medusa_required_equipment"
-  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\firstlight_mammoth_boss_trial.png"
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
-  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestMedusa.png"
-  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
-  WorldBounds: 8601.0,1193.0,64.0,256.0
-  TeamTeleportData: 8654.499023,1399.289917,203.916153,51.72
-  FeatureFlag: quest-medusa
-  PurchasableItemClasses: ""
-  PurchasableItemClassesRestrictedToMode: ""
-  NonPurchasableItemClasses: ""
-  ItemClassesToRemoveOnExit: ""
-  RequiredConsumableItemClasses: ""
-  DisabledItemClasses: ""
-  ClearBattleTokensOnExit: "0"
-  RequiresGameModeGDEException: "1"
-  RecommendedLevel: 62.0
-  RequiredLevel: null
-  QueueLevelBuckets: ""
-  QueueReadyThreshold: null
-  BackfillReadyThreshold: null
-  NumTeams: null
-  TeamCapacity: null
-  CombineTeamGroups: null
-  ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
-  GearScoreOverrideValueMax: null
-  MinPlayerLevelToUseGearScoreOverride: null
-  MaxPlayerLevelToUseGearScoreOverride: null
-  PossibleItemDropIds: 09A_M12_2hStaffFire_T5
-  ItemDropLevelThreshold01: null
-  PossibleItemDropIdsByLevel01: ""
-  MinGroupSize: 0.0
-  PreserveOldGroup: null
-  IgnoreRequireContribution: true
-  IsDungeon: true
-  IsRaidTrial: null
-  IsSeasonTrial: null
-  IsSoloTrial: true
-  IsMutable: null
-  IsRemoteEntryAllowed: null
-  DifficultyProgressionId: ""
-  RestrictGathering: false
-  RestrictWaterGathering: true
-  MapId: ""
-  LootTags: FirstLight
-  MutLootTagsOverride: ""
-  ContainerLevel: 60.0
-  LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
-  VictoryDelaySec: 4.0
-  MaxAI: OpenWorld
-  AISpawnRadius: OpenWorld
-  AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.563
+  ProjectedAZothComputeUnits: 0.375
   ProjectedMemoryUseMb: 256.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
@@ -4147,6 +4018,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -4173,7 +4045,795 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
   AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: false
+- GameModeId: QuestCaerDun
+  ScriptName: QuestCaerDun
+  SlicePath: Dungeon/CaerDunBrightwood/CaerDunScript
+  RequiresTeamRaids: "0"
+  AdvanceThroughStatesOnUpdate: "1"
+  DisplayName: "@Quest_CaerDun_title"
+  Description: "@Quest_CaerDun_description"
+  UiInteractOption: EnterQuestCaerDun
+  RequirementText: "@Quest_CaerDun_required_equipment"
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestCaerDun.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestCaerDun.png
+  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
+  WorldBounds: 9074.68,6534.42,64.0,64.0
+  TeamTeleportData: 9109,6554,316,90
+  FeatureFlag: quest-caerdun
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 35.0
+  RequiredLevel: null
+  EntryAchievementConditional: ""
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  NumTeams: null
+  TeamCapacity: null
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: QuestReward_MSQ2_2hFishingPole_Yonas
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 0.0
+  PreserveOldGroup: null
+  IgnoreRequireContribution: true
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: true
+  IsMutable: null
+  IsRemoteEntryAllowed: true
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  MapId: ""
+  LootTags: ""
+  MutLootTagsOverride: ""
+  ContainerLevel: 35.0
+  LootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: null
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedAZothComputeUnits: 0.375
+  ProjectedMemoryUseMb: 256.0
+  ProjectedDurationMinutes: 10.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: ""
+  OverrideDungeonTimeout: 1200.0
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  ProsperoActivityId: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AllowMounts: false
+  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: false
+- GameModeId: QuestEmpressZhou
+  ScriptName: QuestEmpressZhou
+  SlicePath: Dungeon/EmpressZhou/Script_QuestEmpressZhou
+  RequiresTeamRaids: "0"
+  AdvanceThroughStatesOnUpdate: "1"
+  DisplayName: "@quest_empress_zhou_title"
+  Description: "@quest_empress_zhou_description"
+  UiInteractOption: EnterQuestEmpressZhou
+  RequirementText: ""
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestEmpressZhou.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestEmpressZhou.png
+  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
+  WorldBounds: 5201.0,4282.0,256.0,256.0
+  TeamTeleportData: 5329.0,4375.43,44.28,90
+  FeatureFlag: quest-empresszhou
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 59.0
+  RequiredLevel: null
+  EntryAchievementConditional: ""
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  NumTeams: null
+  TeamCapacity: null
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: CRX_Amulet_Empress_Solo_Trial
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 0.0
+  PreserveOldGroup: null
+  IgnoreRequireContribution: true
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: true
+  IsMutable: null
+  IsRemoteEntryAllowed: true
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  MapId: NewWorld_VitaeEterna
+  LootTags: ""
+  MutLootTagsOverride: ""
+  ContainerLevel: 59.0
+  LootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: null
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedAZothComputeUnits: 0.375
+  ProjectedMemoryUseMb: 256.0
+  ProjectedDurationMinutes: 10.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  PauseTimeOfDay: true
+  FreezeTime: 18.0
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: ""
+  OverrideDungeonTimeout: 1200.0
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  ProsperoActivityId: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AllowMounts: false
+  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: false
+- GameModeId: QuestIsabella
+  ScriptName: QuestIsabella
+  SlicePath: Dungeon/Isabella/QuestIsabellaScript
+  RequiresTeamRaids: "0"
+  AdvanceThroughStatesOnUpdate: "1"
+  DisplayName: "@quest_isabella_title"
+  Description: "@quest_isabella_description"
+  UiInteractOption: EnterQuestIsabella
+  RequirementText: ""
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestIsabella.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestIsabella.png
+  CoatlicueName: "coatlicue\\NW_ORI_SM_QuestIsabella"
+  WorldBounds: 962.0,779.0,512.0,512.0
+  TeamTeleportData: 1240,1078,140,90
+  FeatureFlag: quest-isabella
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 60.0
+  RequiredLevel: null
+  EntryAchievementConditional: ""
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  NumTeams: null
+  TeamCapacity: null
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: CRX_Rapier_Isabella_Solo_Trial
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 0.0
+  PreserveOldGroup: null
+  IgnoreRequireContribution: true
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: true
+  IsMutable: null
+  IsRemoteEntryAllowed: true
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  MapId: NW_ORI_SM_QuestIsabella
+  LootTags: ""
+  MutLootTagsOverride: ""
+  ContainerLevel: 60.0
+  LootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: 6.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedAZothComputeUnits: 0.375
+  ProjectedMemoryUseMb: 256.0
+  ProjectedDurationMinutes: 10.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: ""
+  OverrideDungeonTimeout: 2700.0
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  ProsperoActivityId: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: 580.0
+  GearScoreRecommendedValueMax: 600.0
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AllowMounts: false
+  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: false
+- GameModeId: QuestMammoth
+  ScriptName: QuestMammoth
+  SlicePath: Dungeon/MammothFirstLight/MammothScript
+  RequiresTeamRaids: "FALSE"
+  AdvanceThroughStatesOnUpdate: "TRUE"
+  DisplayName: "@Quest_Mammoth_title"
+  Description: "@trial_mammoth_description"
+  UiInteractOption: EnterQuestMammoth
+  RequirementText: "@Quest_Mammoth_required_equipment"
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestMammoth.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestMammoth.png
+  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
+  WorldBounds: 9461.7,1919.0,128.0,128.0
+  TeamTeleportData: 9471.6,1960.6,65.4,301.4
+  FeatureFlag: quest-mammoth
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 64.0
+  RequiredLevel: null
+  EntryAchievementConditional: Expansion_2023_Unlock
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  NumTeams: null
+  TeamCapacity: null
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: DarkMatter,CRX_09A_M13_ChestT5
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 0.0
+  PreserveOldGroup: null
+  IgnoreRequireContribution: true
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: true
+  IsMutable: null
+  IsRemoteEntryAllowed: true
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  MapId: ""
+  LootTags: FirstLight
+  MutLootTagsOverride: ""
+  ContainerLevel: 64.0
+  LootGSRangeOverride: 626-665
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: null
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedAZothComputeUnits: 0.375
+  ProjectedMemoryUseMb: 256.0
+  ProjectedDurationMinutes: 10.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: ""
+  OverrideDungeonTimeout: 1800.0
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  ProsperoActivityId: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AllowMounts: false
+  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: false
+- GameModeId: QuestMedusa
+  ScriptName: QuestMedusa
+  SlicePath: Dungeon/MedusaFirstLight/MedusaScript
+  RequiresTeamRaids: "FALSE"
+  AdvanceThroughStatesOnUpdate: "TRUE"
+  DisplayName: "@Quest_Medusa_title"
+  Description: "@Quest_Medusa_description"
+  UiInteractOption: EnterQuestMedusa
+  RequirementText: "@Quest_Medusa_required_equipment"
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestMedusa.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestMedusa.png
+  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
+  WorldBounds: 8601.0,1193.0,64.0,256.0
+  TeamTeleportData: 8654.499023,1399.289917,203.916153,51.72
+  FeatureFlag: quest-medusa
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 65.0
+  RequiredLevel: null
+  EntryAchievementConditional: Expansion_2023_Unlock
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  NumTeams: null
+  TeamCapacity: null
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: CRX_09A_M12_2hStaffFire_T5
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 0.0
+  PreserveOldGroup: null
+  IgnoreRequireContribution: true
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: true
+  IsMutable: null
+  IsRemoteEntryAllowed: true
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  MapId: ""
+  LootTags: FirstLight
+  MutLootTagsOverride: ""
+  ContainerLevel: 65.0
+  LootGSRangeOverride: 630-675
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: 4.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedAZothComputeUnits: 0.563
+  ProjectedMemoryUseMb: 256.0
+  ProjectedDurationMinutes: 10.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: ""
+  OverrideDungeonTimeout: 1800.0
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  ProsperoActivityId: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AllowMounts: false
+  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: false
 - GameModeId: QuestMotherwell
   ScriptName: QuestMotherwell
   SlicePath: Dungeon/MotherwellEdengrove/MotherwellScript
@@ -4183,9 +4843,10 @@
   Description: "@Quest_Motherwell_description"
   UiInteractOption: EnterQuestMotherwell
   RequirementText: "@Quest_Motherwell_required_equipment"
-  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\firstlight_mammoth_boss_trial.png"
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
-  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestMotherwell.png"
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestMotherwell.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestMotherwell.png
   CoatlicueName: "coatlicue\\NW_ORI_EG_QuestMotherwell"
   WorldBounds: 928.0,672.0,320.0,320.0
   TeamTeleportData: 1149.9,925.3,114.1,122.7
@@ -4200,6 +4861,7 @@
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 57.0
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -4211,7 +4873,7 @@
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
-  PossibleItemDropIds: QuestReward_99E_MSQ_09_GuardiansSatchel
+  PossibleItemDropIds: CRX_MSQ2EG_GuardiansSatchel,Darkness_AzothStaff_T4
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 0.0
@@ -4222,21 +4884,22 @@
   IsSeasonTrial: null
   IsSoloTrial: true
   IsMutable: null
-  IsRemoteEntryAllowed: null
+  IsRemoteEntryAllowed: true
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_ORI_EG_QuestMotherwell
   LootTags: ""
   MutLootTagsOverride: ""
-  ContainerLevel: null
+  ContainerLevel: 57.0
   LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
-  VictoryDelaySec: null
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.375
+  ProjectedAZothComputeUnits: 0.375
   ProjectedMemoryUseMb: 256.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
@@ -4269,7 +4932,7 @@
   AutoEquipQuickslot: null
   GrantConsumables: ""
   ActivityType: ""
-  OverrideDungeonTimeout: 900.0
+  OverrideDungeonTimeout: 1200.0
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -4291,6 +4954,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -4317,7 +4981,171 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
   AchievementIdForCompletingMaxRank: ""
-  WorldPosToTeleportBackTo: 11335.0556,6856.8593,332.5426
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: false
+- GameModeId: QuestMedea
+  ScriptName: QuestMedea
+  SlicePath: Dungeon/MedeaWindsward/MedeaScript
+  RequiresTeamRaids: "FALSE"
+  AdvanceThroughStatesOnUpdate: "TRUE"
+  DisplayName: "@Quest_Medea_title"
+  Description: "@Quest_Medea_description"
+  UiInteractOption: EnterQuestMedea
+  RequirementText: ""
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestMedea.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestMedea.png
+  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
+  WorldBounds: 8436,2615,256,256
+  TeamTeleportData: 8504,2663,56.6259,90
+  FeatureFlag: quest-medea
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 17.0
+  RequiredLevel: null
+  EntryAchievementConditional: ""
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  NumTeams: null
+  TeamCapacity: null
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: CRX_QuestReward_ArcTyp_WW_2hGreataxe,CRX_QuestReward_ArcTyp_WW_1hRapier,CRX_QuestReward_ArcTyp_WW_1hGauntletVoid,CRX_QuestReward_ArcTyp_WW_2hStaffFire,CRX_QuestReward_ArcTyp_WW_2hBow,CRX_QuestReward_ArcTyp_WW_1hLongsword,CRX_QuestReward_ArcTyp_WW_2hGreatsword
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 0.0
+  PreserveOldGroup: null
+  IgnoreRequireContribution: true
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: true
+  IsMutable: null
+  IsRemoteEntryAllowed: false
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  MapId: NW_ORI_EG_QuestMedea
+  LootTags: ""
+  MutLootTagsOverride: ""
+  ContainerLevel: 17.0
+  LootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: 4.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedAZothComputeUnits: 0.375
+  ProjectedMemoryUseMb: 256.0
+  ProjectedDurationMinutes: 10.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: ""
+  OverrideDungeonTimeout: 1800.0
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  ProsperoActivityId: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AllowMounts: false
+  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: false
 - GameModeId: QuestNihilo
   ScriptName: QuestNihilo
   SlicePath: Dungeon/NihiloGreatCleave/LeviathanScript
@@ -4327,9 +5155,10 @@
   Description: "@Quest_Nihilo_description"
   UiInteractOption: EnterQuestNihilo
   RequirementText: "@Quest_Nihilo_required_equipment"
-  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\firstlight_mammoth_boss_trial.png"
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
-  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestNihilo.png"
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestNihilo.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestNihilo.png
   CoatlicueName: "coatlicue\\NW_ORI_GC_QuestNihilo"
   WorldBounds: 777.0,534.0,640.0,640.0
   TeamTeleportData: 1033.0,707.0,169.5,90.0
@@ -4342,8 +5171,9 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
-  RecommendedLevel: 50.0
+  RecommendedLevel: 48.0
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -4355,7 +5185,7 @@
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
-  PossibleItemDropIds: QuestReward_MSQ2GC_MediumChest_SecretFire
+  PossibleItemDropIds: CRX_QuestReward_GC_MSQ_IceGauntlet
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 0.0
@@ -4366,21 +5196,22 @@
   IsSeasonTrial: null
   IsSoloTrial: true
   IsMutable: null
-  IsRemoteEntryAllowed: null
+  IsRemoteEntryAllowed: true
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: NW_ORI_GC_QuestNihilo
   LootTags: ""
   MutLootTagsOverride: ""
-  ContainerLevel: null
+  ContainerLevel: 50.0
   LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.375
+  ProjectedAZothComputeUnits: 0.375
   ProjectedMemoryUseMb: 256.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
@@ -4413,7 +5244,7 @@
   AutoEquipQuickslot: null
   GrantConsumables: ""
   ActivityType: ""
-  OverrideDungeonTimeout: 900.0
+  OverrideDungeonTimeout: 2700.0
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -4435,6 +5266,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -4461,7 +5293,15 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
   AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: false
 - GameModeId: QuestYonas
   ScriptName: QuestYonas
   SlicePath: Dungeon/YonasCave/YonasScript
@@ -4471,9 +5311,10 @@
   Description: "@Quest_Yonas_description"
   UiInteractOption: EnterQuestYonas
   RequirementText: "@Quest_Yonas_required_equipment"
-  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\firstlight_mammoth_boss_trial.png"
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
-  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestYonas.png"
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestYonas.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestYonas.png
   CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
   WorldBounds: 8766.0,6596.0,96.0,96.0
   TeamTeleportData: 8784.0,6608.0,314.1,0.0
@@ -4488,6 +5329,7 @@
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 57.0
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -4499,7 +5341,7 @@
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
-  PossibleItemDropIds: QuestReward_MSQ2EG_LegendsHatchet
+  PossibleItemDropIds: CRX_MSQ2EG_LegendsHatchet,CRX_RewardContainerT5_Legwear_65
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 0.0
@@ -4510,21 +5352,22 @@
   IsSeasonTrial: null
   IsSoloTrial: true
   IsMutable: null
-  IsRemoteEntryAllowed: null
+  IsRemoteEntryAllowed: true
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
   MapId: ""
   LootTags: ""
   MutLootTagsOverride: ""
-  ContainerLevel: null
+  ContainerLevel: 57.0
   LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.375
+  ProjectedAZothComputeUnits: 0.375
   ProjectedMemoryUseMb: 256.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
@@ -4557,7 +5400,7 @@
   AutoEquipQuickslot: null
   GrantConsumables: ""
   ActivityType: ""
-  OverrideDungeonTimeout: 900.0
+  OverrideDungeonTimeout: 1200.0
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -4579,6 +5422,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -4605,23 +5449,32 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
   AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
-- GameModeId: TrialSeason04
-  ScriptName: TrialSeason04
-  SlicePath: Dungeon/LevelScripts/Trial_Season_04
-  RequiresTeamRaids: "TRUE"
-  AdvanceThroughStatesOnUpdate: "1"
-  DisplayName: "@Trial_Season_04_title"
-  Description: "@Trial_Season_04_description"
-  UiInteractOption: EnterTrialSeason04
-  RequirementText: "@Trial_Season_04_required_equipment"
-  IconPath: LyShineUI/Images/Map/Icon/POIs/arena_flamekeeper.png
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
-  BackgroundImagePath: "LyShineUI\\Images\\EntranceScreen\\Season5_Trial\\EntranceScreenBG_Season5_Trial.png"
-  CoatlicueName: "coatlicue\\NW_Trial_Season_04"
-  WorldBounds: 145.0,6.0,512.0,512.0
-  TeamTeleportData: 213.0,258.0,247.0,270
-  FeatureFlag: trial-season-04
+  DisablePSActivityCards: false
+- GameModeId: TrialSeason02Q13
+  ScriptName: TrialSeason02Q13
+  SlicePath: Dungeon/LevelScripts/TrialSeason02Q13
+  RequiresTeamRaids: "FALSE"
+  AdvanceThroughStatesOnUpdate: "TRUE"
+  DisplayName: "@trial_season_02_q13_title"
+  Description: "@trial_season_02_q13_description"
+  UiInteractOption: EnterTrialSeason02Q13
+  RequirementText: ""
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_TrialSeason02Q13.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_TrialSeason02Q13.png
+  CoatlicueName: "coatlicue\\NW_Trial_Season_02_Q13"
+  WorldBounds: 877.0,935.0,256.0,256.0
+  TeamTeleportData: 973.0,1085.0,142.0,180
+  FeatureFlag: trial-season-02-q13
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
@@ -4630,51 +5483,53 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
-  RecommendedLevel: 65.0
-  RequiredLevel: 61.0
+  RecommendedLevel: 60.0
+  RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
-  QueueReadyThreshold: 8.0
-  BackfillReadyThreshold: 9.0
-  NumTeams: 1.0
-  TeamCapacity: 10.0
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  NumTeams: null
+  TeamCapacity: null
   CombineTeamGroups: null
   ModeNameLocStringId: ""
   GearScoreOverrideValueMin: null
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
-  PossibleItemDropIds: ""
+  PossibleItemDropIds: s02_Quest_2hGreatsword
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
-  MinGroupSize: 6.0
+  MinGroupSize: 0.0
   PreserveOldGroup: null
   IgnoreRequireContribution: true
   IsDungeon: true
-  IsRaidTrial: true
-  IsSeasonTrial: true
-  IsSoloTrial: null
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: true
   IsMutable: null
   IsRemoteEntryAllowed: true
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_Trial_Season_04
-  LootTags: ""
+  MapId: NW_Trial_Season_02_Q13
+  LootTags: Corrupted
   MutLootTagsOverride: ""
-  ContainerLevel: null
-  LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
-  VictoryDelaySec: 9.0
+  ContainerLevel: 67.0
+  LootGSRangeOverride: "600"
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.375
+  ProjectedAZothComputeUnits: 0.375
   ProjectedMemoryUseMb: 256.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: true
-  FreezeTime: 4.2
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -4701,7 +5556,7 @@
   AutoEquipQuickslot: null
   GrantConsumables: ""
   ActivityType: ""
-  OverrideDungeonTimeout: null
+  OverrideDungeonTimeout: 1200.0
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -4712,25 +5567,26 @@
   LeaveQueueDescriptionTextId: ""
   FailGroupPenaltyTextId: ""
   RespawnTypeToUseForUnstuck: ""
-  LootLimitId: Trial_S5_BonusBox
+  LootLimitId: ""
   DailyLootLimitId: ""
   WeeklyLootLimitId: ""
   PossibleJourneyIds: ""
-  TrialIconPath: LyShineUI/Images/EntranceScreen/Season5_Trial/icon_seasonTrials_iceguardian.png
-  Tip01IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective1.png
-  Tip01Text: "@Trial_Season_04_Objective_3"
-  Tip02IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective2.png
-  Tip02Text: "@Trial_Season_04_Objective_2"
-  Tip03IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective3.png
-  Tip03Text: "@Trial_Season_04_Objective_1"
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
-  ExclusiveRewardIds: DarkMatter,FactionTokenSmall_Box_S4,Artifact_Set2_2hGreatAxe,LightChest_Trial_S5_NamedT5,LightHead_Trial_S5_NamedT5,LightLegs_Trial_S5_NamedT5,LightFeet_Trial_S5_NamedT5,LightHands_Trial_S5_NamedT5,MediumChest_Trial_S5_NamedT5,MediumHead_Trial_S5_NamedT5,MediumLegs_Trial_S5_NamedT5,MediumFeet_Trial_S5_NamedT5,MediumHands_Trial_S5_NamedT5,HeavyChest_Trial_S5_NamedT5,HeavyHead_Trial_S5_NamedT5,HeavyLegs_Trial_S5_NamedT5,HeavyFeet_Trial_S5_NamedT5,HeavyHands_Trial_S5_NamedT5,2hWarhammer_Trial_S5_NamedT5,2hSpear_Trial_S5_NamedT5,2hMusket_Trial_S5_NamedT5,1hFlail_Trial_S5_NamedT5,2hStaffLife_Trial_S5_NamedT5,2hStaffFire_Trial_S5_NamedT5
-  UniqueRewardIds: LightChest_Trial_S5_T5,LightHead_Trial_S5_T5,LightLegs_Trial_S5_T5,LightFeet_Trial_S5_T5,LightHands_Trial_S5_T5,MediumChest_Trial_S5_T5,MediumHead_Trial_S5_T5,MediumLegs_Trial_S5_T5,MediumFeet_Trial_S5_T5,MediumHands_Trial_S5_T5,HeavyChest_Trial_S5_T5,HeavyHead_Trial_S5_T5,HeavyLegs_Trial_S5_T5,HeavyFeet_Trial_S5_T5,HeavyHands_Trial_S5_T5,2hBow_Trial_S5_T5,2hGreatAxe_Trial_S5_T5,1hSword_Trial_S5_T5,2hMusket_Trial_S5_T5,1hRapier_Trial_S5_T5,2hSpear_Trial_S5_T5,1hHatchet_Trial_S5_T5,2hWarhammer_Trial_S5_T5,2hFireStaff_Trial_S5_T5,2hLifeStaff_Trial_S5_T5,1hGauntletIce_Trial_S5_T5,1hGauntletVoid_Trial_S5_T5,2hBlunderbuss_Trial_S5_T5,2hGreatsword_Trial_S5_T5,1hFlail_Trial_S5_T5,1hRoundShield_Trial_S5_T5,1hKiteShield_Trial_S5_T5,1hTowerShield_Trial_S5_T5
-  BasicRewardIds: GypsumBlue
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
   ReplicateParticipantCharacterIds: true
-  GearScoreRecommendedValueMin: 650.0
-  GearScoreRecommendedValueMax: 700.0
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
   MatchmakingMinLevel: null
   MatchmakingMaxLevel: null
   MatchmakingMinGS: null
@@ -4749,7 +5605,171 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
   AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
+- GameModeId: TrialSeason02Q12
+  ScriptName: TrialSeason02Q12
+  SlicePath: Dungeon/LevelScripts/TrialSeason02Q12
+  RequiresTeamRaids: "FALSE"
+  AdvanceThroughStatesOnUpdate: "TRUE"
+  DisplayName: "@trial_season_02_q12_title"
+  Description: "@trial_season_02_q12_description"
+  UiInteractOption: EnterTrialSeason02Q12
+  RequirementText: ""
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_TrialSeason02Q12.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_TrialSeason02Q12.png
+  CoatlicueName: "coatlicue\\NW_Trial_Season_02"
+  WorldBounds: 921.0,916.0,256.0,256.0
+  TeamTeleportData: 1056.269,987.204,98.031,0
+  FeatureFlag: trial-season-02-q12
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 60.0
+  RequiredLevel: null
+  EntryAchievementConditional: ""
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  NumTeams: null
+  TeamCapacity: null
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: s02_Quest_MediumChest
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 0.0
+  PreserveOldGroup: null
+  IgnoreRequireContribution: true
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: true
+  IsMutable: null
+  IsRemoteEntryAllowed: true
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  MapId: NW_Trial_Season_02
+  LootTags: Corrupted
+  MutLootTagsOverride: ""
+  ContainerLevel: 67.0
+  LootGSRangeOverride: "600"
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: 4.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedAZothComputeUnits: 0.375
+  ProjectedMemoryUseMb: 256.0
+  ProjectedDurationMinutes: 10.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  PauseTimeOfDay: true
+  FreezeTime: 6.0
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: ""
+  OverrideDungeonTimeout: 1800.0
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: true
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  ProsperoActivityId: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AllowMounts: false
+  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: TrialSeason04Q02
   ScriptName: TrialSeason04Q02
   SlicePath: Dungeon/LevelScripts/TrialSeason04Q02
@@ -4759,9 +5779,10 @@
   Description: "@trial_season_04_q02_description"
   UiInteractOption: EnterTrialSeason04Q02
   RequirementText: ""
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.png
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
-  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonimages_DaichiDojo.png
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_TrialSeason04Q02.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_TrialSeason04Q02.png
   CoatlicueName: "coatlicue\\NW_Trial_Season_04_DaichiDojo"
   WorldBounds: 277.0,375.0,64.0,64.0
   TeamTeleportData: 308.0,416.0,75.0,180
@@ -4776,6 +5797,7 @@
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 61.0
   RequiredLevel: 61.0
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -4787,7 +5809,7 @@
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
-  PossibleItemDropIds: ""
+  PossibleItemDropIds: LightChest_Quest_S04_02
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
   MinGroupSize: null
@@ -4798,7 +5820,7 @@
   IsSeasonTrial: null
   IsSoloTrial: true
   IsMutable: null
-  IsRemoteEntryAllowed: null
+  IsRemoteEntryAllowed: true
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -4807,12 +5829,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: 67.0
   LootGSRangeOverride: "600"
-  MutLootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
   VictoryDelaySec: 7.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.375
+  ProjectedAZothComputeUnits: 0.375
   ProjectedMemoryUseMb: 256.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
@@ -4845,7 +5868,7 @@
   AutoEquipQuickslot: null
   GrantConsumables: ""
   ActivityType: ""
-  OverrideDungeonTimeout: 2700.0
+  OverrideDungeonTimeout: 1800.0
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -4867,6 +5890,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -4893,7 +5917,15 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
   AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: TrialSeason04Q06
   ScriptName: TrialSeason04Q06
   SlicePath: Dungeon/LevelScripts/TrialSeason04Q06
@@ -4903,9 +5935,10 @@
   Description: "@trial_season_04_q06_description"
   UiInteractOption: EnterTrialSeason04Q06
   RequirementText: ""
-  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition_amrine.png
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
-  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonimages_MordredsCavern.png
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_TrialSeason04Q06.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_TrialSeason04Q06.png
   CoatlicueName: "coatlicue\\NW_Trial_Season_04_DeviceRoom"
   WorldBounds: 121.0,128.0,256.0,256.0
   TeamTeleportData: 172.82,254.97,260.34,270
@@ -4920,6 +5953,7 @@
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 61.0
   RequiredLevel: 61.0
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -4931,7 +5965,7 @@
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
-  PossibleItemDropIds: ""
+  PossibleItemDropIds: 2hGreatSword_Quest_S04_06
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
   MinGroupSize: null
@@ -4942,7 +5976,7 @@
   IsSeasonTrial: null
   IsSoloTrial: true
   IsMutable: null
-  IsRemoteEntryAllowed: null
+  IsRemoteEntryAllowed: true
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -4951,12 +5985,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: 67.0
   LootGSRangeOverride: "600"
-  MutLootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.375
+  ProjectedAZothComputeUnits: 0.375
   ProjectedMemoryUseMb: 256.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
@@ -4989,7 +6024,7 @@
   AutoEquipQuickslot: null
   GrantConsumables: ""
   ActivityType: ""
-  OverrideDungeonTimeout: 2700.0
+  OverrideDungeonTimeout: 1800.0
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -5011,6 +6046,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -5037,7 +6073,15 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
   AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
 - GameModeId: TrialSeason04Q05
   ScriptName: TrialSeason04Q05
   SlicePath: Dungeon/LevelScripts/TrialSeason04Q05
@@ -5047,9 +6091,10 @@
   Description: "@trial_season_04_q05_description"
   UiInteractOption: EnterTrialSeason04Q05
   RequirementText: ""
-  IconPath: LyShineUI/Images/Map/Icon/POIs/arena_flamekeeper.png
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
-  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_TrialSeason04Q05.png"
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_TrialSeason04Q05.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_TrialSeason04Q05.png
   CoatlicueName: "coatlicue\\NW_Trial_Season_04"
   WorldBounds: 145.0,6.0,512.0,512.0
   TeamTeleportData: 213.0,258.0,248.5,270
@@ -5064,6 +6109,7 @@
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 60.0
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -5075,7 +6121,7 @@
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
-  PossibleItemDropIds: ""
+  PossibleItemDropIds: Amulet_Quest_S04_05
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
   MinGroupSize: null
@@ -5086,7 +6132,7 @@
   IsSeasonTrial: null
   IsSoloTrial: true
   IsMutable: null
-  IsRemoteEntryAllowed: null
+  IsRemoteEntryAllowed: true
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -5095,12 +6141,13 @@
   MutLootTagsOverride: ""
   ContainerLevel: 67.0
   LootGSRangeOverride: "600"
-  MutLootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
   VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.375
+  ProjectedAZothComputeUnits: 0.375
   ProjectedMemoryUseMb: 256.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
@@ -5155,6 +6202,7 @@
   Tip02Text: "@Trial_Season_04_Objective_2"
   Tip03IconPath: LyShineUI/Images/EntranceScreen/Hatchery/trialsHatcheryObjective3.png
   Tip03Text: "@Trial_Season_04_Objective_3"
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -5181,23 +6229,32 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
   AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
-- GameModeId: QuestLiang
-  ScriptName: QuestLiang
-  SlicePath: Dungeon/AbominableLiangEbonscale/AbominableLiangScript
-  RequiresTeamRaids: "0"
-  AdvanceThroughStatesOnUpdate: "1"
-  DisplayName: "@quest_liang_title"
-  Description: "@quest_liang_description"
-  UiInteractOption: EnterQuestLiang
-  RequirementText: ""
-  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\firstlight_mammoth_boss_trial.png"
-  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
-  BackgroundImagePath: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestLiang.png"
-  CoatlicueName: "coatlicue\\NW_ORI_ER_QuestLiang"
-  WorldBounds: 500.0,500.0,1024.0,1024.0
-  TeamTeleportData: 1034.3,943.5,130.0,270.0
-  FeatureFlag: quest-liang
+  DisablePSActivityCards: true
+- GameModeId: QuestHeartforge
+  ScriptName: QuestHeartforge
+  SlicePath: Dungeon/Heartforge/HeartforgeScript
+  RequiresTeamRaids: "FALSE"
+  AdvanceThroughStatesOnUpdate: "TRUE"
+  DisplayName: "@Quest_Heartforge_title"
+  Description: "@Quest_Heartforge_description"
+  UiInteractOption: EnterQuestHeartforge
+  RequirementText: "@Quest_Heartforge_required_equipment"
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestHeartforge.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestHeartforge.png
+  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
+  WorldBounds: 9511.0,3128.0,96.0,96.0
+  TeamTeleportData: 9534.0,3189.0,135.0,200.0
+  FeatureFlag: quest-heartforge
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
@@ -5206,8 +6263,9 @@
   DisabledItemClasses: ""
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
-  RecommendedLevel: 55.0
+  RecommendedLevel: 25.0
   RequiredLevel: null
+  EntryAchievementConditional: ""
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
@@ -5219,7 +6277,7 @@
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
-  PossibleItemDropIds: Flail_Liang_Solo_Trial_T5
+  PossibleItemDropIds: CRX_QuestReward_EF_Head_Medium
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
   MinGroupSize: 0.0
@@ -5230,21 +6288,22 @@
   IsSeasonTrial: null
   IsSoloTrial: true
   IsMutable: null
-  IsRemoteEntryAllowed: null
+  IsRemoteEntryAllowed: false
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_ORI_ER_QuestLiang
+  MapId: ""
   LootTags: ""
   MutLootTagsOverride: ""
-  ContainerLevel: null
+  ContainerLevel: 25.0
   LootGSRangeOverride: ""
-  MutLootGSRangeOverride: ""
-  VictoryDelaySec: 10.0
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: 4.0
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedCpuUsePercent: 0.375
+  ProjectedAZothComputeUnits: 0.375
   ProjectedMemoryUseMb: 256.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
@@ -5277,7 +6336,7 @@
   AutoEquipQuickslot: null
   GrantConsumables: ""
   ActivityType: ""
-  OverrideDungeonTimeout: 900.0
+  OverrideDungeonTimeout: 1800.0
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -5299,6 +6358,7 @@
   Tip02Text: ""
   Tip03IconPath: ""
   Tip03Text: ""
+  ProsperoActivityId: ""
   HidePoiName: null
   HideCompass: null
   ExclusiveRewardIds: ""
@@ -5325,4 +6385,324 @@
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
   AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
   WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: false
+- GameModeId: QuestLiang
+  ScriptName: QuestLiang
+  SlicePath: Dungeon/AbominableLiangEbonscale/AbominableLiangScript
+  RequiresTeamRaids: "0"
+  AdvanceThroughStatesOnUpdate: "1"
+  DisplayName: "@quest_liang_title"
+  Description: "@quest_liang_description"
+  UiInteractOption: EnterQuestLiang
+  RequirementText: ""
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestLiang.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestLiang.png
+  CoatlicueName: "coatlicue\\NW_ORI_ER_QuestLiang"
+  WorldBounds: 500.0,500.0,1024.0,1024.0
+  TeamTeleportData: 1034.3,943.5,130.0,270.0
+  FeatureFlag: quest-liang
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 58.0
+  RequiredLevel: null
+  EntryAchievementConditional: ""
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  NumTeams: null
+  TeamCapacity: null
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: CRX_QuestReward_ArcTyp_ER_2hWarhammer,CRX_QuestReward_ArcTyp_ER_2hMusket,CRX_QuestReward_ArcTyp_ER_1hGauntletIce,CRX_QuestReward_ArcTyp_ER_2hStaffLife,CRX_QuestReward_ArcTyp_ER_2hSpear,CRX_QuestReward_ArcTyp_ER_1hHatchet,CRX_QuestReward_ArcTyp_ER_2hBlunderbuss
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 0.0
+  PreserveOldGroup: null
+  IgnoreRequireContribution: true
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: true
+  IsMutable: null
+  IsRemoteEntryAllowed: false
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  MapId: NW_ORI_ER_QuestLiang
+  LootTags: ""
+  MutLootTagsOverride: ""
+  ContainerLevel: 58.0
+  LootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: 10.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedAZothComputeUnits: 0.375
+  ProjectedMemoryUseMb: 256.0
+  ProjectedDurationMinutes: 10.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: ""
+  OverrideDungeonTimeout: 1800.0
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  ProsperoActivityId: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AllowMounts: false
+  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: false
+- GameModeId: QuestGawain
+  ScriptName: QuestGawain
+  SlicePath: Dungeon/Gawain/GawainScript
+  RequiresTeamRaids: "0"
+  AdvanceThroughStatesOnUpdate: "FALSE"
+  DisplayName: "@quest_gawain_title"
+  Description: "@quest_gawain_description"
+  UiInteractOption: EnterQuestGawain
+  RequirementText: ""
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestGawain.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestGawain.png
+  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
+  WorldBounds: 6786.0,2882.0,96.0,96.0
+  TeamTeleportData: 6831,2907,78,315
+  FeatureFlag: quest-gawain
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 17.0
+  RequiredLevel: null
+  EntryAchievementConditional: ""
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  NumTeams: null
+  TeamCapacity: null
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 0.0
+  PreserveOldGroup: null
+  IgnoreRequireContribution: true
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: true
+  IsMutable: null
+  IsRemoteEntryAllowed: true
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  MapId: ""
+  LootTags: ""
+  MutLootTagsOverride: ""
+  ContainerLevel: 17.0
+  LootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: 4.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedAZothComputeUnits: 0.375
+  ProjectedMemoryUseMb: 256.0
+  ProjectedDurationMinutes: 10.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: ""
+  OverrideDungeonTimeout: 1800.0
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  ProsperoActivityId: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  MatchmakingPriority: null
+  AllowMounts: false
+  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: false

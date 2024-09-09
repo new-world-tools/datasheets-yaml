@@ -17,7 +17,7 @@
   TrackNumInVolume: ""
   ClearOnExit: true
   ClearOnEnd: true
-  ManaCost: Elemental_Fire_AoE
+  ManaCost: ""
   UseStatusEffectDuration: false
   Duration: 1000.0
   DurationScaling: ""
@@ -102,7 +102,7 @@
   TrackNumInVolume: ""
   ClearOnExit: null
   ClearOnEnd: true
-  ManaCost: FireStaff_Primary
+  ManaCost: ""
   UseStatusEffectDuration: false
   Duration: -1.0
   DurationScaling: ""
@@ -187,7 +187,7 @@
   TrackNumInVolume: ""
   ClearOnExit: null
   ClearOnEnd: true
-  ManaCost: FireStaff_Heavy
+  ManaCost: ""
   UseStatusEffectDuration: false
   Duration: -1.0
   DurationScaling: ""
@@ -272,7 +272,7 @@
   TrackNumInVolume: ""
   ClearOnExit: null
   ClearOnEnd: true
-  ManaCost: FireStaff_Heavy
+  ManaCost: ""
   UseStatusEffectDuration: false
   Duration: -1.0
   DurationScaling: ""
@@ -357,7 +357,7 @@
   TrackNumInVolume: ""
   ClearOnExit: null
   ClearOnEnd: true
-  ManaCost: FireStaff_Heavy
+  ManaCost: ""
   UseStatusEffectDuration: false
   Duration: -1.0
   DurationScaling: ""
@@ -442,7 +442,7 @@
   TrackNumInVolume: ""
   ClearOnExit: true
   ClearOnEnd: true
-  ManaCost: Elemental_Fire_AoE_Staff
+  ManaCost: ""
   UseStatusEffectDuration: false
   Duration: 6000.0
   DurationScaling: ""
@@ -527,7 +527,7 @@
   TrackNumInVolume: ""
   ClearOnExit: true
   ClearOnEnd: true
-  ManaCost: Elemental_Fire_AoE
+  ManaCost: ""
   UseStatusEffectDuration: false
   Duration: 1000.0
   DurationScaling: ""
@@ -612,7 +612,7 @@
   TrackNumInVolume: ""
   ClearOnExit: null
   ClearOnEnd: true
-  ManaCost: Elemental_Fire_Projectile_Special
+  ManaCost: ""
   UseStatusEffectDuration: false
   Duration: -1.0
   DurationScaling: ""
@@ -697,7 +697,7 @@
   TrackNumInVolume: ""
   ClearOnExit: null
   ClearOnEnd: true
-  ManaCost: Elemental_Fire_AoE_Staff
+  ManaCost: ""
   UseStatusEffectDuration: false
   Duration: 6000.0
   DurationScaling: ""
@@ -782,7 +782,7 @@
   TrackNumInVolume: ""
   ClearOnExit: null
   ClearOnEnd: true
-  ManaCost: Elemental_Fire_Grenade
+  ManaCost: ""
   UseStatusEffectDuration: false
   Duration: -1.0
   DurationScaling: ""
@@ -867,7 +867,7 @@
   TrackNumInVolume: ""
   ClearOnExit: null
   ClearOnEnd: true
-  ManaCost: Elemental_Fire_Combustion
+  ManaCost: ""
   UseStatusEffectDuration: false
   Duration: 1000.0
   DurationScaling: ""
@@ -952,7 +952,7 @@
   TrackNumInVolume: ""
   ClearOnExit: null
   ClearOnEnd: true
-  ManaCost: Elemental_Fire_Combustion
+  ManaCost: ""
   UseStatusEffectDuration: false
   Duration: 1000.0
   DurationScaling: ""
@@ -1037,7 +1037,7 @@
   TrackNumInVolume: ""
   ClearOnExit: true
   ClearOnEnd: true
-  ManaCost: Elemental_CC_Slow
+  ManaCost: ""
   UseStatusEffectDuration: false
   Duration: 6000.0
   DurationScaling: ""
@@ -1122,7 +1122,7 @@
   TrackNumInVolume: ""
   ClearOnExit: true
   ClearOnEnd: true
-  ManaCost: Elemental_CC_Silenced
+  ManaCost: ""
   UseStatusEffectDuration: false
   Duration: 6000.0
   DurationScaling: ""
@@ -1207,7 +1207,7 @@
   TrackNumInVolume: ""
   ClearOnExit: true
   ClearOnEnd: true
-  ManaCost: Elemental_CC_Weakness
+  ManaCost: ""
   UseStatusEffectDuration: false
   Duration: 6000.0
   DurationScaling: ""
@@ -4777,7 +4777,7 @@
   TrackNumInVolume: ""
   ClearOnExit: null
   ClearOnEnd: true
-  ManaCost: FireStaff_Heavy
+  ManaCost: ""
   UseStatusEffectDuration: false
   Duration: -1.0
   DurationScaling: ""
@@ -4947,7 +4947,7 @@
   TrackNumInVolume: ""
   ClearOnExit: null
   ClearOnEnd: true
-  ManaCost: FireStaff_Heavy
+  ManaCost: ""
   UseStatusEffectDuration: false
   Duration: -1.0
   DurationScaling: ""
@@ -5289,7 +5289,92 @@
   ClearOnEnd: true
   ManaCost: FireStaff_Storm
   UseStatusEffectDuration: false
-  Duration: 4000.0
+  Duration: 6000.0
+  DurationScaling: ""
+  Height: 10.0
+  Length: ""
+  Radius: 4.5
+  InnerRadius: ""
+  RadiusScaling: ""
+  MaxRadiusScaling: ""
+  CastDistance: 20.0
+  CastHeight: 15.0
+  CastRadius: 15.0
+  ConeAngle: ""
+  ConeWidth: ""
+  ChannelTime: 0.0
+  ChainDelayDuration: ""
+  MaxChainNum: ""
+  UseChainCasterPaperdoll: ""
+  NumToSpawn: ""
+  NumToSpawnBeforeFail: ""
+  SpawnRate: null
+  SpawnAngle: null
+  SecondarySpellProjectileLaunchAngles: ""
+  ScaleWithCharacterBoundingBox: ""
+  ScaleWithDynamicScale: ""
+  TargetTypes: Enemy
+  SpellTypes: Elemental
+  CastingTypes: AoE
+  HitAiTarget: ""
+  OverrideTargetForAiThreat: ""
+  ShapeTypes: Cylinder
+  DamageType: Fire
+  CheckObstructions: true
+  IgnoreOverheadCollision: true
+  IgnoreStructures: false
+  IgnoreSelf: null
+  WeaponSlotOverride: ""
+  RangedAttackProfile: ""
+  RangedAttackName: ""
+  FireJointName: ""
+  ProjPosOffsetX: ""
+  ProjPosOffsetY: ""
+  ProjPosOffsetZ: ""
+  ProjRotOffsetX: ""
+  ProjRotOffsetY: ""
+  ProjRotOffsetZ: ""
+  CharRelPosOffsetX: ""
+  CharRelPosOffsetY: ""
+  CharRelPosOffsetZ: ""
+  CharRelRotOffsetX: ""
+  CharRelRotOffsetY: ""
+  CharRelRotOffsetZ: ""
+  ProjRaycastOrientation: ""
+  BaseDamage: ""
+  DamageTable: DamageTable
+  DamageTableRow: Firestaff_Storm
+  AbilityId: ""
+  TargetAbilityCondition: ""
+  BeamEffect: ""
+  IndicatorVFX: ""
+  SpellPrefabPath: Items/Weapons/MeteorShower_AoE
+  SecondaryPrefabPath: ""
+  SecondarySpellID: ""
+  TertiaryPrefabPath: ""
+  TertiarySpellID: ""
+- SpellID: Spell_Ability_FireStaff_Storm_AddDisease
+  StatusEffects: Status_FireStaff_MeteorShower_Damage,Status_FireStaff_MeteorShower_Disease
+  StatusEffectDurations: null
+  Revive: ""
+  Siphon: ""
+  AttachToOwner: null
+  StickWhenAttached: null
+  StoreOffsetWhenStuckToGDE: null
+  UseDirectTargetAsAttachOwner: null
+  SpawnSecondaryOnElapsed: ""
+  SpawnSecondaryOnCollision: null
+  AttachProjectileOnCollision: ""
+  EndOnCasterDeath: null
+  IgnoreTargetIfAtDeathsDoor: ""
+  IgnoreTargetIfDead: ""
+  UseCameraTargetLock: ""
+  TrackNumInVolume: ""
+  ClearOnExit: true
+  ClearOnEnd: true
+  ManaCost: FireStaff_Storm
+  UseStatusEffectDuration: false
+  Duration: 6000.0
   DurationScaling: ""
   Height: 10.0
   Length: ""
@@ -5374,7 +5459,7 @@
   ClearOnEnd: true
   ManaCost: FireStaff_Storm_Mana_Upgrade
   UseStatusEffectDuration: false
-  Duration: 4000.0
+  Duration: 6000.0
   DurationScaling: ""
   Height: 10.0
   Length: ""
@@ -5459,7 +5544,7 @@
   ClearOnEnd: false
   ManaCost: ""
   UseStatusEffectDuration: true
-  Duration: 1000.0
+  Duration: 0.0
   DurationScaling: ""
   Height: 5.0
   Length: ""
