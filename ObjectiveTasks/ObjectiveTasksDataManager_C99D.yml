@@ -17017,10 +17017,10 @@
   CommunityGoalTag: ""
   HideChildren: ""
   TriggerAnalyticsEvent: ""
-  SubTask1: 99D_MSQ_07_PortalFight_partial_container
-  SubTask2: 99D_MSQ_07_PortalFight_teleportAlwaysOn
-  SubTask3: 99D_MSQ_07_PortalFight_swap_containerOn
-  SubTask4: 99D_MSQ_07_PortalFight_shrineTeleport_container
+  SubTask1: 99D_MSQ_07_PortalFight_teleportAlwaysOn
+  SubTask2: 99D_MSQ_07_PortalFight_swap_containerOn
+  SubTask3: 99D_MSQ_07_PortalFight_shrineTeleport_container
+  SubTask4: ""
   SubTask5: ""
 - TaskID: 99D_MSQ_07_PortalFight_partial_container
   Type: PartialTaskContainer
@@ -17851,7 +17851,7 @@
   TriggerAnalyticsEvent: ""
   SubTask1: 99D_MSQ_07_PortalFight_useShrine
   SubTask2: 99D_MSQ_07_PortalFight_YonasTrigger
-  SubTask3: ""
+  SubTask3: 99D_MSQ_07_PortalFight_YonasTriggerAfterTeleport
   SubTask4: ""
   SubTask5: ""
 - TaskID: 99D_MSQ_07_PortalFight_useShrine
@@ -17903,6 +17903,70 @@
   TargetDescriptionTaskId: ""
   OverrideLocation: 8723.29 7730.66 649.52
   IsHidden: null
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: true
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99D_MSQ_07_PortalFight_YonasTriggerAfterTeleport
+  Type: TaskTriggerArea
+  FailOnCondition: null
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: Enter
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: Yonas_GC_Trigger
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: null
   DiegeticPinZOverride: ""
@@ -17962,7 +18026,7 @@
   MapMarkerWorldPositionY: ""
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: ""
-  TP_TargetTag: Yonas_GC_Trigger
+  TP_TargetTag: Yonas_Fallthrough_Trigger
   TP_DescriptionTag: "@99D_MSQ_07_PortalFight_YonasTrigger"
   TargetDescriptionTaskId: ""
   OverrideLocation: 9568.62 8210.46 435.12

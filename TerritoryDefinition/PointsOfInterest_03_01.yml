@@ -512,7 +512,7 @@
   PhasingPopulationMax: 300.0
   PhasingSortPriority: 70.0
   PhasingAILeashOverride: 25.0
-  PhasingProjectedACU: 0.2
+  PhasingProjectedACU: 0.1
   PhasingProjectedMemoryMb: 4096.0
 - TerritoryID: 30113.0
   NameLocalizationKey: "@ui_poi_witheredfarm_3_30113"
@@ -2314,12 +2314,12 @@
   PhasingBoundsMargin: 150 250 240 250
   PhasingEnterMargin: ""
   PhasingExitMargin: ""
-  PhasingPopulationTarget: null
-  PhasingPopulationMax: null
+  PhasingPopulationTarget: 300.0
+  PhasingPopulationMax: 500.0
   PhasingSortPriority: 60.0
   PhasingAILeashOverride: 25.0
-  PhasingProjectedACU: null
-  PhasingProjectedMemoryMb: null
+  PhasingProjectedACU: 0.2
+  PhasingProjectedMemoryMb: 8192.0
 - TerritoryID: 30157.0
   NameLocalizationKey: "@Monarchs_Bluff_Tower_01"
   BaseStructureLimit: ""
