@@ -1,6 +1,16 @@
 - DisplayName: Default
   Path: libs/config/defaultprofile.xml
   DisplayString: "@ui_default_profile"
+  Rebindable: false
 - DisplayName: Advanced
   Path: libs/config/advancedprofile.xml
   DisplayString: "@ui_advanced_profile"
+  Rebindable: false
+- DisplayName: Custom 1
+  Path: libs/config/defaultprofile.xml
+  DisplayString: "@ui_custom1_profile"
+  Rebindable: true
+- DisplayName: Custom 2
+  Path: libs/config/advancedprofile.xml
+  DisplayString: "@ui_custom2_profile"
+  Rebindable: true

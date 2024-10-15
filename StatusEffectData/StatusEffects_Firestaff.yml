@@ -37,7 +37,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: 0.24
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: Fire
@@ -92,6 +92,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -286,7 +287,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -341,6 +342,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -462,7 +464,7 @@
   AFACurse: ""
   AFABlight: ""
   StackDuration: null
-  DurationMax: 1.0
+  DurationMax: 3.0
   InheritDuration: ""
   InheritTotalDuration: ""
   RefreshDuration: ""
@@ -535,7 +537,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: 0.24
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: Fire
@@ -590,6 +592,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -784,7 +787,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -839,6 +842,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1033,7 +1037,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: -0.1
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: Fire
@@ -1088,6 +1092,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1282,7 +1287,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: -0.1
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: Fire
@@ -1337,6 +1342,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1494,7 +1500,7 @@
   ApplicationCooldown: null
 - StatusID: FireStaff_Burnout_DMG_DOT
   DisplayName: "@Status_Burn"
-  Description: "@BurnoutDoT_DMG_Description"
+  Description: "@BurnoutDoT_Description"
   EffectCategories: Debuff+Burn+Dot+FireBurn
   PlaceholderIcon: lyshineui/images/status/SE_BurnT1.png
   ShowInUITray: true
@@ -1531,7 +1537,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: -0.15
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: Fire
@@ -1586,6 +1592,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1780,7 +1787,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: 0.0
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -1835,6 +1842,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2029,7 +2037,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: -0.05
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: Fire
@@ -2084,6 +2092,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2278,7 +2287,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -2333,6 +2342,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2527,7 +2537,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: 0.0
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: Fire
@@ -2582,6 +2592,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2776,7 +2787,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: Fire
@@ -2831,6 +2842,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: "TRUE"
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3025,7 +3037,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: 0.3
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -3080,6 +3092,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3274,7 +3287,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: 0.3
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -3329,6 +3342,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3523,7 +3537,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: 0.3
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -3578,6 +3592,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3772,7 +3787,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: 0.3
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -3827,6 +3842,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4021,7 +4037,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: -0.05
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: Fire
@@ -4076,6 +4092,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4270,7 +4287,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -4325,6 +4342,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4519,7 +4537,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -4574,6 +4592,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: "1"
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4768,7 +4787,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -4823,6 +4842,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: "1"
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5017,7 +5037,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -5072,6 +5092,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: "1"
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5266,7 +5287,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -5321,6 +5342,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: "1"
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5515,7 +5537,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -5570,6 +5592,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: "1"
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5691,7 +5714,7 @@
   AFACurse: ""
   AFABlight: ""
   StackDuration: null
-  DurationMax: 1.0
+  DurationMax: 10.0
   InheritDuration: ""
   InheritTotalDuration: ""
   RefreshDuration: ""
@@ -5764,7 +5787,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -5819,6 +5842,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5940,7 +5964,7 @@
   AFACurse: ""
   AFABlight: ""
   StackDuration: null
-  DurationMax: 1.0
+  DurationMax: 4.0
   InheritDuration: ""
   InheritTotalDuration: ""
   RefreshDuration: ""
@@ -6013,7 +6037,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -6068,6 +6092,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -6262,7 +6287,7 @@
   HealthModifierPercent: null
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -6317,6 +6342,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -6511,7 +6537,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -6566,6 +6592,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -6760,7 +6787,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -6815,6 +6842,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: "1"
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -7009,7 +7037,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -7064,6 +7092,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: "1"
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -7258,7 +7287,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -7313,6 +7342,7 @@
   RemoveOnGameModeExit: 1.0
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: "1"
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -7507,7 +7537,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: -0.2
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: Fire
@@ -7562,6 +7592,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -7720,7 +7751,7 @@
 - StatusID: Status_FireStaff_ScorchedEarth_DOT
   DisplayName: "@ScorchedEarthDoT_DisplayName"
   Description: "@ScorchedEarthDoT_Description"
-  EffectCategories: Burn+FireBurn+NonDispellableBuff
+  EffectCategories: Burn+FireBurn+NonDispellableDebuff
   PlaceholderIcon: lyshineui/images/status/SE_BurnT1.png
   ShowInUITray: true
   ShowTextInDamageNumbers: true
@@ -7756,7 +7787,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: -0.1
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: Fire
@@ -7811,6 +7842,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -7969,7 +8001,7 @@
 - StatusID: Status_FireStaff_MeteorShower_Damage
   DisplayName: "@MeteorShowerDamage_DisplayName"
   Description: "@MeteorShowerDamage_Description"
-  EffectCategories: Burn+FireBurn+NonDispellableBuff
+  EffectCategories: Burn+FireBurn+NonDispellableDebuff
   PlaceholderIcon: lyshineui/images/status/SE_BurnT1.png
   ShowInUITray: true
   ShowTextInDamageNumbers: true
@@ -8005,7 +8037,7 @@
   HealthModifierPercent: null
   HealthModifierDamageBased: -0.5
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: Fire
@@ -8060,6 +8092,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -8218,7 +8251,7 @@
 - StatusID: Status_FireStaff_MeteorShower_DamageUpgrade
   DisplayName: "@MeteorShowerDamage_DisplayName"
   Description: "@MeteorShowerDamage_Description"
-  EffectCategories: Burn+FireBurn+NonDispellableBuff
+  EffectCategories: Burn+FireBurn+NonDispellableDebuff
   PlaceholderIcon: lyshineui/images/status/SE_BurnT1.png
   ShowInUITray: true
   ShowTextInDamageNumbers: true
@@ -8254,7 +8287,7 @@
   HealthModifierPercent: null
   HealthModifierDamageBased: -0.5
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: Fire
@@ -8309,6 +8342,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -8464,6 +8498,256 @@
   SourceRuneChargeOnTick: 0.325
   SourceRuneChargeOnHealthChangeOnly: true
   ApplicationCooldown: 0.5
+- StatusID: Status_FireStaff_MeteorShower_Disease
+  DisplayName: "@Status_Disease"
+  Description: "@Status_Disease_Description"
+  EffectCategories: NonDispellableDebuff+Debilitate+Disease
+  PlaceholderIcon: lyshineui/images/status/SE_DiseaseAbsT1.png
+  ShowInUITray: true
+  ShowTextInDamageNumbers: true
+  FxScriptOn: StatFX_Disease_ON
+  FxScriptOff: StatFX_Disease_OFF
+  ShouldRefreshFxScript: ""
+  WeaponEffectType: ""
+  Notification: ""
+  DisableTelemetry: ""
+  IsClientPredicted: ""
+  UseLightweightReplication: ""
+  PotencyPerLevel: ""
+  HideHudDurationNumbers: null
+  BaseDuration: 4.0
+  TickRate: 1.0
+  DelayInitialTick: null
+  TickCondition: ""
+  OnTickStatusEffect: ""
+  KeepOnTickEffectOnEnd: ""
+  StopOnHitCount: null
+  HitCondition: ""
+  RequireReaction: null
+  OnStackStatusEffect: ""
+  AddOnStackSize: ""
+  AddOnStackSizeComparison: ""
+  HealThreatMultiplier: ""
+  ScaleAmountOverTime: ""
+  ScaleAmountOverTimeMin: ""
+  ScaleAmountOverTimeMax: ""
+  DamageSkipsDeathsDoor: ""
+  Health: null
+  HealthMin: ""
+  HealthModifierPercent: null
+  HealthModifierDamageBased: null
+  UseHealScalingValue: ""
+  HealScalingValueMultiplier: -0.1
+  StaminaDamageModifier: ""
+  ManaModifierDamageBased: ""
+  DamageType: ""
+  CritChanceModifier: ""
+  CritDamageModifier: ""
+  OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: null
+  CastSpell: ""
+  TargetOwnsSpell: ""
+  UseSourceWeaponForSpell: ""
+  FromAlchemy: 0.0
+  FromSpell: 1.0
+  NoHealthRegen: 0.0
+  HealMod: -0.2
+  MaxHealthMod: 0.0
+  HealthRate: 0.0
+  CoreTempMod: 0.0
+  TempMod: 0.0
+  Stamina: 0.0
+  StaminaRate: 0.0
+  Mana: 0.0
+  ManaRate: 0.0
+  Food: 0.0
+  FoodBurn: 0.0
+  Drink: 0.0
+  DrinkBurn: 0.0
+  Encumbrance: 0.0
+  ItemClassWeightMods: ""
+  XPIncreases: null
+  AzothMod: ""
+  FactionReputationMod: ""
+  FactionTokensMod: ""
+  EXPLogging: null
+  EXPMining: null
+  EXPHarvesting: null
+  EXPSkinning: null
+  EXPSmelting: null
+  EXPWoodworking: null
+  EXPLeatherworking: null
+  EXPWeaving: null
+  EXPStonecutting: null
+  GrantSanctuary: 0.0
+  NoSprint: 0.0
+  NoRun: 0.0
+  NoDodge: 0.0
+  NoNav: 0.0
+  Silenced: 0.0
+  Stunned: 0.0
+  RemoveOnDeath: 1.0
+  RemoveOnDeathsDoor: 1.0
+  RemoveOnRespawn: ""
+  RemoveOnGameModeExit: null
+  IgnoreDiminishingReturns: null
+  OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
+  Afflictions: ""
+  OnHitAffixes: ""
+  EquipAbility: ""
+  UseSourceWeaponForAbilityEffect: ""
+  IsNegative: "1"
+  RespecTradeskills: ""
+  RespecAttributes: ""
+  EffectDurationMods: ""
+  EffectPotencyMods: ""
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: ""
+  GlobalRollMod: ""
+  FishingLineStrength: ""
+  FishSizeRollModifier: ""
+  MODConstitution: ""
+  MODFocus: ""
+  MODStrength: ""
+  MODDexterity: ""
+  MODIntelligence: ""
+  MGSArcana: ""
+  MGSWeaponsmithing: ""
+  MGSJewelcrafting: ""
+  MGSEngineering: ""
+  MGSArmoring: ""
+  MaxGSArcana: ""
+  MaxGSWeaponsmithing: ""
+  MaxGSJewelcrafting: ""
+  MaxGSEngineering: ""
+  MaxGSArmoring: ""
+  ROLCooking: ""
+  ROLWeaving: ""
+  ROLStonecutting: ""
+  ROLSmelting: ""
+  ROLLeatherworking: ""
+  ROLWoodworking: ""
+  ROLLogging: ""
+  ROLMining: ""
+  ROLSkinning: ""
+  ROLHarvesting: ""
+  ROLFishing: ""
+  MULTLogging: ""
+  MULTMining: ""
+  MULTSkinning: ""
+  MULTHarvesting: ""
+  MULTFishing: ""
+  EFFLogging: ""
+  EFFMining: ""
+  EFFSkinning: ""
+  EFFHarvesting: ""
+  INSLogging: ""
+  INSMining: ""
+  INSSkinning: ""
+  INSHarvesting: ""
+  PhysicalArmor: null
+  ElementalArmor: null
+  ABSStandard: ""
+  ABSSiege: ""
+  ABSStrike: ""
+  ABSSlash: ""
+  ABSThrust: ""
+  ABSArcane: ""
+  ABSFire: null
+  ABSIce: ""
+  ABSNature: ""
+  ABSLightning: ""
+  ABSCorruption: ""
+  ABSAcid: ""
+  ABSVitalsCategory: ""
+  RESPoison: ""
+  RESDisease: ""
+  RESBleed: ""
+  RESFrostbite: ""
+  RESCurse: ""
+  RESBlight: ""
+  BLAStandard: ""
+  BLASiege: ""
+  BLAStrike: ""
+  BLASlash: ""
+  BLAThrust: ""
+  BLAArcane: ""
+  BLAFire: null
+  BLAIce: ""
+  BLALightning: ""
+  BLACorruption: ""
+  ABAPoison: ""
+  ABADisease: ""
+  ABABleed: ""
+  ABAFrostbite: ""
+  ABACurse: ""
+  ABABlight: ""
+  WKNStandard: null
+  WKNSiege: null
+  WKNStrike: null
+  WKNSlash: null
+  WKNThrust: null
+  WKNArcane: null
+  WKNFire: null
+  WKNIce: null
+  WKNNature: null
+  WKNLightning: null
+  WKNCorruption: null
+  DMGStandard: null
+  DMGSiege: null
+  DMGStrike: null
+  DMGSlash: null
+  DMGThrust: null
+  DMGArcane: null
+  DMGFire: null
+  DMGIce: null
+  DMGNature: null
+  DMGLightning: null
+  DMGCorruption: null
+  DMGAcid: null
+  DMGVitalsCategory: null
+  AFAPoison: ""
+  AFADisease: ""
+  AFABleed: ""
+  AFAFrostbite: ""
+  AFACurse: ""
+  AFABlight: ""
+  StackDuration: 0.0
+  DurationMax: 10.0
+  InheritDuration: "0"
+  InheritTotalDuration: "0"
+  RefreshDuration: "0"
+  StackMax: 1.0
+  InitialStackSize: ""
+  RemoveUnappliedStacks: "0"
+  PotencyMax: null
+  DontReplaceStack: ""
+  MoveSpeedMod: null
+  SprintSpeedMod: null
+  FastTravelEncumbranceMod: ""
+  GameEventId: ""
+  HealRewardGameEventId: ""
+  HealRewardThreshold: ""
+  WeaponMasteryCategoryId: ""
+  UIPriority: 2.0
+  UiNameplatePriority: 2.0
+  ShowInNameplates: true
+  ShowTextInNameplates: ""
+  OverrideOtherNameplateText: ""
+  HidesOtherStatusEffectIcons: ""
+  DynamicModelScaleFactor: ""
+  DynamicModelScaleRampTimeSecs: ""
+  SpawnSlice: ""
+  DisableSupportContributionRewards: ""
+  BlockMultipleEffectsFromSameSource: ""
+  AllowSelfOnlyAsSourceForAbilities: ""
+  IgnoreInvulnerable: ""
+  NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: null
+  SourceRuneChargeOnHealthChangeOnly: null
+  ApplicationCooldown: null
 - StatusID: Status_FireStaff_PyroUlt_Explosion
   DisplayName: ""
   Description: ""
@@ -8503,7 +8787,7 @@
   HealthModifierPercent: null
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -8558,6 +8842,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -8679,7 +8964,7 @@
   AFACurse: ""
   AFABlight: ""
   StackDuration: 0.0
-  DurationMax: 1.0
+  DurationMax: 2.0
   InheritDuration: ""
   InheritTotalDuration: ""
   RefreshDuration: ""
@@ -8730,7 +9015,7 @@
   UseLightweightReplication: ""
   PotencyPerLevel: ""
   HideHudDurationNumbers: null
-  BaseDuration: 10.0
+  BaseDuration: 6.0
   TickRate: 0.0
   DelayInitialTick: null
   TickCondition: ""
@@ -8752,7 +9037,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -8807,6 +9092,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -9001,7 +9287,7 @@
   HealthModifierPercent: 0.0
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: ""
+  HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -9056,6 +9342,7 @@
   RemoveOnGameModeExit: null
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -9195,6 +9482,256 @@
   WeaponMasteryCategoryId: ""
   UIPriority: 1.0
   UiNameplatePriority: 1.0
+  ShowInNameplates: true
+  ShowTextInNameplates: ""
+  OverrideOtherNameplateText: ""
+  HidesOtherStatusEffectIcons: ""
+  DynamicModelScaleFactor: ""
+  DynamicModelScaleRampTimeSecs: ""
+  SpawnSlice: ""
+  DisableSupportContributionRewards: ""
+  BlockMultipleEffectsFromSameSource: ""
+  AllowSelfOnlyAsSourceForAbilities: ""
+  IgnoreInvulnerable: ""
+  NotCombatAction: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: null
+  SourceRuneChargeOnHealthChangeOnly: null
+  ApplicationCooldown: null
+- StatusID: Status_Passive_Firestaff_incinerate_Weaken
+  DisplayName: "@Status_Weaken"
+  Description: "@Status_Weaken_Description"
+  EffectCategories: Debuff+Debilitate+Weaken
+  PlaceholderIcon: lyshineui/images/status/SE_WeakenT1.png
+  ShowInUITray: true
+  ShowTextInDamageNumbers: false
+  FxScriptOn: StatFX_Weaken_ON
+  FxScriptOff: ""
+  ShouldRefreshFxScript: ""
+  WeaponEffectType: ""
+  Notification: ""
+  DisableTelemetry: ""
+  IsClientPredicted: ""
+  UseLightweightReplication: ""
+  PotencyPerLevel: ""
+  HideHudDurationNumbers: null
+  BaseDuration: 5.0
+  TickRate: 1.0
+  DelayInitialTick: null
+  TickCondition: ""
+  OnTickStatusEffect: ""
+  KeepOnTickEffectOnEnd: ""
+  StopOnHitCount: null
+  HitCondition: ""
+  RequireReaction: null
+  OnStackStatusEffect: ""
+  AddOnStackSize: ""
+  AddOnStackSizeComparison: ""
+  HealThreatMultiplier: ""
+  ScaleAmountOverTime: ""
+  ScaleAmountOverTimeMin: ""
+  ScaleAmountOverTimeMax: ""
+  DamageSkipsDeathsDoor: ""
+  Health: 0.0
+  HealthMin: ""
+  HealthModifierPercent: 0.0
+  HealthModifierDamageBased: null
+  UseHealScalingValue: ""
+  HealScalingValueMultiplier: null
+  StaminaDamageModifier: ""
+  ManaModifierDamageBased: ""
+  DamageType: ""
+  CritChanceModifier: ""
+  CritDamageModifier: ""
+  OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: null
+  CastSpell: ""
+  TargetOwnsSpell: ""
+  UseSourceWeaponForSpell: ""
+  FromAlchemy: 0.0
+  FromSpell: 0.0
+  NoHealthRegen: 0.0
+  HealMod: 0.0
+  MaxHealthMod: 0.0
+  HealthRate: 0.0
+  CoreTempMod: 0.0
+  TempMod: 0.0
+  Stamina: 0.0
+  StaminaRate: 0.0
+  Mana: 0.0
+  ManaRate: 0.0
+  Food: 0.0
+  FoodBurn: 0.0
+  Drink: 0.0
+  DrinkBurn: 0.0
+  Encumbrance: 0.0
+  ItemClassWeightMods: ""
+  XPIncreases: null
+  AzothMod: ""
+  FactionReputationMod: ""
+  FactionTokensMod: ""
+  EXPLogging: null
+  EXPMining: null
+  EXPHarvesting: null
+  EXPSkinning: null
+  EXPSmelting: null
+  EXPWoodworking: null
+  EXPLeatherworking: null
+  EXPWeaving: null
+  EXPStonecutting: null
+  GrantSanctuary: 0.0
+  NoSprint: 0.0
+  NoRun: 0.0
+  NoDodge: 0.0
+  NoNav: 0.0
+  Silenced: 0.0
+  Stunned: 0.0
+  RemoveOnDeath: 1.0
+  RemoveOnDeathsDoor: 1.0
+  RemoveOnRespawn: ""
+  RemoveOnGameModeExit: null
+  IgnoreDiminishingReturns: null
+  OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: ""
+  Afflictions: ""
+  OnHitAffixes: ""
+  EquipAbility: ""
+  UseSourceWeaponForAbilityEffect: ""
+  IsNegative: "1"
+  RespecTradeskills: ""
+  RespecAttributes: ""
+  EffectDurationMods: ""
+  EffectPotencyMods: ""
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: ""
+  GlobalRollMod: ""
+  FishingLineStrength: ""
+  FishSizeRollModifier: ""
+  MODConstitution: ""
+  MODFocus: ""
+  MODStrength: ""
+  MODDexterity: ""
+  MODIntelligence: ""
+  MGSArcana: ""
+  MGSWeaponsmithing: ""
+  MGSJewelcrafting: ""
+  MGSEngineering: ""
+  MGSArmoring: ""
+  MaxGSArcana: ""
+  MaxGSWeaponsmithing: ""
+  MaxGSJewelcrafting: ""
+  MaxGSEngineering: ""
+  MaxGSArmoring: ""
+  ROLCooking: ""
+  ROLWeaving: ""
+  ROLStonecutting: ""
+  ROLSmelting: ""
+  ROLLeatherworking: ""
+  ROLWoodworking: ""
+  ROLLogging: ""
+  ROLMining: ""
+  ROLSkinning: ""
+  ROLHarvesting: ""
+  ROLFishing: ""
+  MULTLogging: ""
+  MULTMining: ""
+  MULTSkinning: ""
+  MULTHarvesting: ""
+  MULTFishing: ""
+  EFFLogging: ""
+  EFFMining: ""
+  EFFSkinning: ""
+  EFFHarvesting: ""
+  INSLogging: ""
+  INSMining: ""
+  INSSkinning: ""
+  INSHarvesting: ""
+  PhysicalArmor: null
+  ElementalArmor: null
+  ABSStandard: ""
+  ABSSiege: ""
+  ABSStrike: ""
+  ABSSlash: ""
+  ABSThrust: ""
+  ABSArcane: ""
+  ABSFire: null
+  ABSIce: ""
+  ABSNature: ""
+  ABSLightning: ""
+  ABSCorruption: ""
+  ABSAcid: ""
+  ABSVitalsCategory: ""
+  RESPoison: ""
+  RESDisease: ""
+  RESBleed: ""
+  RESFrostbite: ""
+  RESCurse: ""
+  RESBlight: ""
+  BLAStandard: ""
+  BLASiege: ""
+  BLAStrike: ""
+  BLASlash: ""
+  BLAThrust: ""
+  BLAArcane: ""
+  BLAFire: null
+  BLAIce: ""
+  BLALightning: ""
+  BLACorruption: ""
+  ABAPoison: ""
+  ABADisease: ""
+  ABABleed: ""
+  ABAFrostbite: ""
+  ABACurse: ""
+  ABABlight: ""
+  WKNStandard: null
+  WKNSiege: null
+  WKNStrike: null
+  WKNSlash: null
+  WKNThrust: null
+  WKNArcane: null
+  WKNFire: null
+  WKNIce: null
+  WKNNature: null
+  WKNLightning: null
+  WKNCorruption: null
+  DMGStandard: -0.12
+  DMGSiege: -0.12
+  DMGStrike: -0.12
+  DMGSlash: -0.12
+  DMGThrust: -0.12
+  DMGArcane: -0.12
+  DMGFire: -0.12
+  DMGIce: -0.12
+  DMGNature: -0.12
+  DMGLightning: -0.12
+  DMGCorruption: -0.12
+  DMGAcid: -0.12
+  DMGVitalsCategory: -0.12
+  AFAPoison: ""
+  AFADisease: ""
+  AFABleed: ""
+  AFAFrostbite: ""
+  AFACurse: ""
+  AFABlight: ""
+  StackDuration: 0.0
+  DurationMax: 10.0
+  InheritDuration: ""
+  InheritTotalDuration: ""
+  RefreshDuration: ""
+  StackMax: 1.0
+  InitialStackSize: ""
+  RemoveUnappliedStacks: "0"
+  PotencyMax: null
+  DontReplaceStack: ""
+  MoveSpeedMod: null
+  SprintSpeedMod: null
+  FastTravelEncumbranceMod: ""
+  GameEventId: ""
+  HealRewardGameEventId: ""
+  HealRewardThreshold: ""
+  WeaponMasteryCategoryId: ""
+  UIPriority: 2.0
+  UiNameplatePriority: 2.0
   ShowInNameplates: true
   ShowTextInNameplates: ""
   OverrideOtherNameplateText: ""

@@ -208,7 +208,7 @@
   VitalsCategories: ""
   Level: null
   RequireGroup: ""
-  WeaponMasteryIds: HatchetAbilityTable,SwordAbilityTable,RapierAbilityTable,DaggerAbilityTable,FlailAbilityTable
+  WeaponMasteryIds: HatchetAbilityTable,SwordAbilityTable,RapierAbilityTable,FlailAbilityTable
   OpenWorldOnly: null
   POITags: ""
   GameMode: ""
@@ -768,7 +768,7 @@
   IsKillingBlow: null
 - TrackedStatID: KillTrialBoss
   StatType: Kill
-  TargetID: Evil_Knight_Flamekeeper_Boss,Naga_AncientGuardian_IceGuardian,Sandworm,Spriggan_Forest,Undead_Siren,Swamp_Dryad_Beast_Named_ELITE_05WC10
+  TargetID: Evil_Knight_Flamekeeper_Boss,Naga_AncientGuardian_IceGuardian,Sandworm,Spriggan_Forest,Undead_Siren,Swamp_Dryad_Beast_Named_ELITE_05WC10,FL_AI_Adiana_Bow,Sand_Elemental_QuestBoss,Brother_Umberto,Dynasty_Empress_Solo,Lost_Monarch,AncientGuardian_Mage_MSQ_Named_02_Encounter_Boss,Isabella_MSQ2,Abominable_Liang_MSQ,Mammoth_Boss_MSQ_FirstLight,Medea_Caster,FL_Medusa,Elk_Motherwell_Stag,Corrupted_Leviathan,Yonas_MSQ2,Season_02_Flamekeeper_Boss_Q12,Season_02_Malek,Season_04_Daichi,Season_04_Mordred_AI
   VitalsCategories: ""
   Level: null
   RequireGroup: ""
@@ -820,7 +820,7 @@
   VitalsCategories: Player
   Level: null
   RequireGroup: ""
-  WeaponMasteryIds: HatchetAbilityTable,SwordAbilityTable,RapierAbilityTable,DaggerAbilityTable,FlailAbilityTable,WarHammerAbilityTable,GreatAxeAbilityTable,SpearAbilityTable,GreatSwordAbilityTable
+  WeaponMasteryIds: HatchetAbilityTable,SwordAbilityTable,RapierAbilityTable,FlailAbilityTable,WarHammerAbilityTable,GreatAxeAbilityTable,SpearAbilityTable,GreatSwordAbilityTable
   OpenWorldOnly: null
   POITags: ""
   GameMode: ""
@@ -830,6 +830,90 @@
   StatType: Kill
   TargetID: ""
   VitalsCategories: Named_Expedition_AI
+  Level: null
+  RequireGroup: ""
+  WeaponMasteryIds: ""
+  OpenWorldOnly: null
+  POITags: ""
+  GameMode: ""
+  LootTags: ""
+  IsKillingBlow: null
+- TrackedStatID: KillElite65
+  StatType: Kill
+  TargetID: ""
+  VitalsCategories: ""
+  Level: 65.0
+  RequireGroup: ""
+  WeaponMasteryIds: ""
+  OpenWorldOnly: null
+  POITags: ""
+  GameMode: ""
+  LootTags: Elite
+  IsKillingBlow: null
+- TrackedStatID: KillPlayerRanged
+  StatType: Kill
+  TargetID: ""
+  VitalsCategories: Player
+  Level: null
+  RequireGroup: ""
+  WeaponMasteryIds: BowAbilityTable,MusketAbilityTable,BlunderbussAbilityTable
+  OpenWorldOnly: null
+  POITags: ""
+  GameMode: ""
+  LootTags: ""
+  IsKillingBlow: null
+- TrackedStatID: KillNamedCutlassKeys
+  StatType: Kill
+  TargetID: ""
+  VitalsCategories: ""
+  Level: null
+  RequireGroup: ""
+  WeaponMasteryIds: ""
+  OpenWorldOnly: null
+  POITags: windswardshores1,windswardshores2,windswardshores3,windswardshores4,windswardshores5,windswardshores6,windswardshores7,windswardshores8,windswardshores9,windswardshores7FFA,windswardshores9FFA,windswardshores2_v2,windswardshores6_v2,windswardshores8_v2
+  GameMode: ""
+  LootTags: Named
+  IsKillingBlow: null
+- TrackedStatID: KillPlayerCutlassKeys
+  StatType: Kill
+  TargetID: ""
+  VitalsCategories: Player
+  Level: null
+  RequireGroup: ""
+  WeaponMasteryIds: ""
+  OpenWorldOnly: null
+  POITags: windswardshores7FFA,windswardshores9FFA
+  GameMode: ""
+  LootTags: ""
+  IsKillingBlow: null
+- TrackedStatID: KillBroodmotherBow
+  StatType: Kill
+  TargetID: Hercyne_Broodmother
+  VitalsCategories: ""
+  Level: null
+  RequireGroup: ""
+  WeaponMasteryIds: BowAbilityTable
+  OpenWorldOnly: null
+  POITags: ""
+  GameMode: ""
+  LootTags: ""
+  IsKillingBlow: null
+- TrackedStatID: KillBroodmother
+  StatType: Kill
+  TargetID: Hercyne_Broodmother
+  VitalsCategories: ""
+  Level: null
+  RequireGroup: ""
+  WeaponMasteryIds: ""
+  OpenWorldOnly: null
+  POITags: ""
+  GameMode: ""
+  LootTags: ""
+  IsKillingBlow: null
+- TrackedStatID: KillSoloTrialBoss
+  StatType: Kill
+  TargetID: FL_AI_Adiana_Bow,Sand_Elemental_QuestBoss,Brother_Umberto,Dynasty_Empress_Solo,Lost_Monarch,AncientGuardian_Mage_MSQ_Named_02_Encounter_Boss,Isabella_MSQ2,Abominable_Liang_MSQ,Mammoth_Boss_MSQ_FirstLight,Medea_Caster,FL_Medusa,Elk_Motherwell_Stag,Corrupted_Leviathan,Yonas_MSQ2,Season_02_Flamekeeper_Boss_Q12,Season_02_Malek,Season_04_Daichi,Season_04_Mordred_AI
+  VitalsCategories: ""
   Level: null
   RequireGroup: ""
   WeaponMasteryIds: ""

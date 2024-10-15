@@ -175,15 +175,20 @@
   Item35: LightHead_SunkenFishermanT4
   Quantity35: 1.0
   LootBucket36: DayNightFishRareBait
-  Tags36: Day,Dusk
+  Tags36: Day,Dusk,MinContLevel:5
   MatchOne36: "TRUE"
-  Item36: RareBaitNightcrawlerT4
-  Quantity36: 1-3
+  Item36: BaitSaltNightcrawlerT2
+  Quantity36: 1.0
   LootBucket37: RareBait
-  Tags37: ""
+  Tags37: MinContLevel:5
   MatchOne37: false
-  Item37: RareBaitBreadT4
-  Quantity37: 2-3
+  Item37: BaitSaltNightcrawlerT2
+  Quantity37: 1.0
+  LootBucket38: FishingTreasureGearT5
+  Tags38: ""
+  MatchOne38: false
+  Item38: 2hFishingPole_Ancient
+  Quantity38: 1.0
 - RowPlaceholders: DATA1
   LootBucket1: ""
   Tags1: ""
@@ -361,15 +366,20 @@
   Item35: LightChest_SunkenFishermanT4
   Quantity35: 1.0
   LootBucket36: ""
-  Tags36: Night,Dawn
+  Tags36: Night,Dawn,MinContLevel:5
   MatchOne36: "TRUE"
-  Item36: RareBaitGlowwormT4
-  Quantity36: 1-3
+  Item36: BaitSaltNightcrawlerT2
+  Quantity36: 1.0
   LootBucket37: ""
   Tags37: ""
-  MatchOne37: false
-  Item37: RareBaitMeatT4
-  Quantity37: 2-3
+  MatchOne37: null
+  Item37: ""
+  Quantity37: null
+  LootBucket38: ""
+  Tags38: ""
+  MatchOne38: false
+  Item38: 2hFishingPole_AngryEarth
+  Quantity38: 1.0
 - RowPlaceholders: DATA2
   LootBucket1: ""
   Tags1: Everfall,Brightwood,Weavers,GreatCleave,Queensport,Reekwater,FirstLight
@@ -547,15 +557,20 @@
   Item35: LightHands_SunkenFishermanT4
   Quantity35: 1.0
   LootBucket36: ""
-  Tags36: ""
-  MatchOne36: ""
-  Item36: ""
-  Quantity36: ""
+  Tags36: Day,Dusk,MinContLevel:5
+  MatchOne36: "TRUE"
+  Item36: BaitSaltGlowwormT3
+  Quantity36: 1.0
   LootBucket37: ""
   Tags37: ""
-  MatchOne37: false
-  Item37: RareBaitFishT4
-  Quantity37: 2-3
+  MatchOne37: null
+  Item37: ""
+  Quantity37: null
+  LootBucket38: ""
+  Tags38: ""
+  MatchOne38: false
+  Item38: 2hFishingPole_Corrupted
+  Quantity38: 1.0
 - RowPlaceholders: DATA3
   LootBucket1: ""
   Tags1: Windsward,Everfall,Weavers,Restless,Edengrove,Reekwater,Shattered
@@ -733,15 +748,20 @@
   Item35: LightLegs_SunkenFishermanT4
   Quantity35: 1.0
   LootBucket36: ""
-  Tags36: ""
-  MatchOne36: ""
-  Item36: ""
-  Quantity36: ""
+  Tags36: Night,Dawn,MinContLevel:5
+  MatchOne36: "TRUE"
+  Item36: BaitSaltGlowwormT3
+  Quantity36: 1.0
   LootBucket37: ""
   Tags37: ""
-  MatchOne37: false
-  Item37: RareBaitCheeseT4
-  Quantity37: 2-3
+  MatchOne37: null
+  Item37: ""
+  Quantity37: null
+  LootBucket38: ""
+  Tags38: ""
+  MatchOne38: false
+  Item38: 2hFishingPole_Lost
+  Quantity38: 1.0
 - RowPlaceholders: DATA4
   LootBucket1: ""
   Tags1: Monarchs,Everfall,Brightwood,Weavers,GreatCleave,Edengrove,Shattered
@@ -922,12 +942,17 @@
   Tags36: ""
   MatchOne36: ""
   Item36: ""
-  Quantity36: ""
+  Quantity36: null
   LootBucket37: ""
   Tags37: ""
-  MatchOne37: false
-  Item37: RareBaitClamT4
-  Quantity37: 2-3
+  MatchOne37: null
+  Item37: ""
+  Quantity37: null
+  LootBucket38: ""
+  Tags38: ""
+  MatchOne38: null
+  Item38: ""
+  Quantity38: null
 - RowPlaceholders: DATA5
   LootBucket1: ""
   Tags1: Windsward,Everfall,Brightwood,CutlassKeys,Mourning,Edengrove,Shattered,Brimstone
@@ -1108,12 +1133,17 @@
   Tags36: ""
   MatchOne36: ""
   Item36: ""
-  Quantity36: ""
+  Quantity36: null
   LootBucket37: ""
   Tags37: ""
-  MatchOne37: false
-  Item37: RareBaitWoodliceT4
-  Quantity37: 2-3
+  MatchOne37: null
+  Item37: ""
+  Quantity37: null
+  LootBucket38: ""
+  Tags38: ""
+  MatchOne38: null
+  Item38: ""
+  Quantity38: null
 - RowPlaceholders: DATA6
   LootBucket1: ""
   Tags1: ""
@@ -1294,12 +1324,17 @@
   Tags36: ""
   MatchOne36: ""
   Item36: ""
-  Quantity36: ""
+  Quantity36: null
   LootBucket37: ""
   Tags37: ""
-  MatchOne37: false
-  Item37: RareBaitSnailT4
-  Quantity37: 2-3
+  MatchOne37: null
+  Item37: ""
+  Quantity37: null
+  LootBucket38: ""
+  Tags38: ""
+  MatchOne38: null
+  Item38: ""
+  Quantity38: null
 - RowPlaceholders: DATA7
   LootBucket1: ""
   Tags1: ""
@@ -1480,12 +1515,17 @@
   Tags36: ""
   MatchOne36: ""
   Item36: ""
-  Quantity36: ""
+  Quantity36: null
   LootBucket37: ""
   Tags37: ""
-  MatchOne37: false
-  Item37: RareBaitNightcrawlerT4
-  Quantity37: 2-3
+  MatchOne37: null
+  Item37: ""
+  Quantity37: null
+  LootBucket38: ""
+  Tags38: ""
+  MatchOne38: null
+  Item38: ""
+  Quantity38: null
 - RowPlaceholders: DATA8
   LootBucket1: ""
   Tags1: ""
@@ -1666,12 +1706,17 @@
   Tags36: ""
   MatchOne36: ""
   Item36: ""
-  Quantity36: ""
+  Quantity36: null
   LootBucket37: ""
   Tags37: ""
-  MatchOne37: false
-  Item37: RareBaitOysterT4
-  Quantity37: 2-3
+  MatchOne37: null
+  Item37: ""
+  Quantity37: null
+  LootBucket38: ""
+  Tags38: ""
+  MatchOne38: null
+  Item38: ""
+  Quantity38: null
 - RowPlaceholders: DATA9
   LootBucket1: ""
   Tags1: ""
@@ -1852,12 +1897,17 @@
   Tags36: ""
   MatchOne36: ""
   Item36: ""
-  Quantity36: ""
+  Quantity36: null
   LootBucket37: ""
   Tags37: ""
-  MatchOne37: false
-  Item37: RareBaitFireflyT4
-  Quantity37: 2-3
+  MatchOne37: null
+  Item37: ""
+  Quantity37: null
+  LootBucket38: ""
+  Tags38: ""
+  MatchOne38: null
+  Item38: ""
+  Quantity38: null
 - RowPlaceholders: DATA10
   LootBucket1: ""
   Tags1: ""
@@ -2038,12 +2088,17 @@
   Tags36: ""
   MatchOne36: ""
   Item36: ""
-  Quantity36: ""
+  Quantity36: null
   LootBucket37: ""
   Tags37: ""
-  MatchOne37: false
-  Item37: RareBaitElectricEelT4
-  Quantity37: 2-3
+  MatchOne37: null
+  Item37: ""
+  Quantity37: null
+  LootBucket38: ""
+  Tags38: ""
+  MatchOne38: null
+  Item38: ""
+  Quantity38: null
 - RowPlaceholders: DATA11
   LootBucket1: ""
   Tags1: ""
@@ -2224,12 +2279,17 @@
   Tags36: ""
   MatchOne36: ""
   Item36: ""
-  Quantity36: ""
+  Quantity36: null
   LootBucket37: ""
   Tags37: ""
-  MatchOne37: false
-  Item37: RareBaitGlowwormT4
-  Quantity37: 2-3
+  MatchOne37: null
+  Item37: ""
+  Quantity37: null
+  LootBucket38: ""
+  Tags38: ""
+  MatchOne38: null
+  Item38: ""
+  Quantity38: null
 - RowPlaceholders: DATA12
   LootBucket1: ""
   Tags1: ""
@@ -2410,12 +2470,17 @@
   Tags36: ""
   MatchOne36: ""
   Item36: ""
-  Quantity36: ""
+  Quantity36: null
   LootBucket37: ""
   Tags37: ""
   MatchOne37: null
   Item37: ""
-  Quantity37: ""
+  Quantity37: null
+  LootBucket38: ""
+  Tags38: ""
+  MatchOne38: null
+  Item38: ""
+  Quantity38: null
 - RowPlaceholders: DATA13
   LootBucket1: ""
   Tags1: ""
@@ -2596,12 +2661,17 @@
   Tags36: ""
   MatchOne36: ""
   Item36: ""
-  Quantity36: ""
+  Quantity36: null
   LootBucket37: ""
   Tags37: ""
   MatchOne37: null
   Item37: ""
-  Quantity37: ""
+  Quantity37: null
+  LootBucket38: ""
+  Tags38: ""
+  MatchOne38: null
+  Item38: ""
+  Quantity38: null
 - RowPlaceholders: DATA14
   LootBucket1: ""
   Tags1: ""
@@ -2782,12 +2852,17 @@
   Tags36: ""
   MatchOne36: ""
   Item36: ""
-  Quantity36: ""
+  Quantity36: null
   LootBucket37: ""
   Tags37: ""
   MatchOne37: null
   Item37: ""
-  Quantity37: ""
+  Quantity37: null
+  LootBucket38: ""
+  Tags38: ""
+  MatchOne38: null
+  Item38: ""
+  Quantity38: null
 - RowPlaceholders: DATA15
   LootBucket1: ""
   Tags1: ""
@@ -2968,9 +3043,14 @@
   Tags36: ""
   MatchOne36: ""
   Item36: ""
-  Quantity36: ""
+  Quantity36: null
   LootBucket37: ""
   Tags37: ""
   MatchOne37: null
   Item37: ""
-  Quantity37: ""
+  Quantity37: null
+  LootBucket38: ""
+  Tags38: ""
+  MatchOne38: null
+  Item38: ""
+  Quantity38: null

@@ -1,7 +1,7 @@
 - AbilityID: Ability_Firestaff_PillarofFire
   DisplayName: "@Ability_Firestaff_PillarofFire"
   Description: "@Ability_Firestaff_PillarofFire_description"
-  UICategory: Magic Damage
+  UICategory: Attack
   UISpellForManaCheck: FireStaff_PillarOfFire
   Icon: lyshineui/images/icons/abilities/firestaffAbility2.png
   StatusEffectIcon: ""
@@ -14,7 +14,7 @@
   RequiredAbilityId: ""
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 0.0
+  TreeRowPosition: 2.0
   TreeColumnPosition: 0.0
   IsActiveAbility: true
   IsGlobalAbility: false
@@ -79,6 +79,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -98,17 +99,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -118,6 +120,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -137,10 +140,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: true
 - AbilityID: Upgrade_Firestaff_PillarofFire_Dmg
   DisplayName: "@Upgrade_Firestaff_PillarofFire_Dmg"
   Description: "@Upgrade_Firestaff_PillarofFire_Dmg_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/firestaffAbility2_mod1.png
   StatusEffectIcon: ""
@@ -153,7 +157,7 @@
   RequiredAbilityId: Ability_Firestaff_PillarofFire
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 1.0
+  TreeRowPosition: 3.0
   TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -218,6 +222,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.05
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -237,17 +242,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: true
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -257,6 +263,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -276,10 +283,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Upgrade_Firestaff_PillarofFire_Mana
   DisplayName: "@Upgrade_Firestaff_PillarofFire_Mana"
   Description: "@Upgrade_Firestaff_PillarofFire_Mana_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/firestaffAbility2_mod2.png
   StatusEffectIcon: ""
@@ -292,7 +300,7 @@
   RequiredAbilityId: Ability_Firestaff_PillarofFire
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 2.0
+  TreeRowPosition: 4.0
   TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -357,6 +365,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -376,17 +385,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: 0.15
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -396,6 +406,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -415,10 +426,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Firestaff_MeteorShower
   DisplayName: "@Ability_Firestaff_MeteorShower"
   Description: "@Ability_Firestaff_MeteorShower_description"
-  UICategory: Magic Damage
+  UICategory: Attack
   UISpellForManaCheck: FireStaff_Storm
   Icon: lyshineui/images/icons/abilities/firestaffAbility3.png
   StatusEffectIcon: ""
@@ -496,6 +508,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -515,17 +528,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -535,6 +549,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -554,12 +569,13 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-- AbilityID: Upgrade_Firestaff_MeteorShower_Mana
-  DisplayName: "@Upgrade_Firestaff_MeteorShower_Mana"
-  Description: "@Upgrade_Firestaff_MeteorShower_Mana_description"
-  UICategory: Magic Damage
+  SupportsSmartcast: true
+- AbilityID: Upgrade_Firestaff_MeteorShower_Extra
+  DisplayName: "@Upgrade_Firestaff_MeteorShower_Extra"
+  Description: "@Upgrade_Firestaff_MeteorShower_Extra_description"
+  UICategory: Passive
   UISpellForManaCheck: ""
-  Icon: lyshineui/images/icons/abilities/firestaffAbility3_mod1.png
+  Icon: lyshineui/images/icons/abilities/firestaffAbility3_mod2.png
   StatusEffectIcon: ""
   Sound: ""
   TelegraphStatusEffect: ""
@@ -581,7 +597,7 @@
   ScalingConstitution: ""
   OnKill: false
   OnExecuted: false
-  OnHit: true
+  OnHit: false
   OnBlockedHit: false
   OnCrit: false
   OnHeadShot: false
@@ -635,6 +651,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -654,17 +671,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
-  Mana: 0.03
+  Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -674,6 +692,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -693,10 +712,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Upgrade_Firestaff_MeteorShower_More
   DisplayName: "@Upgrade_Firestaff_MeteorShower_More"
   Description: "@Upgrade_Firestaff_MeteorShower_More_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/firestaffAbility3_mod3.png
   StatusEffectIcon: ""
@@ -774,6 +794,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -793,17 +814,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
-  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override
+  StatusEffectDamageTableIdForRowOverride: DamageTable
+  StatusEffectDamageTableRowOverride: FireStaff_Common_DoT
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -813,6 +835,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -832,12 +855,13 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-- AbilityID: Upgrade_Firestaff_MeteorShower_Extra
-  DisplayName: "@Upgrade_Firestaff_MeteorShower_Extra"
-  Description: "@Upgrade_Firestaff_MeteorShower_Extra_description"
-  UICategory: Magic Damage
+  SupportsSmartcast: null
+- AbilityID: Upgrade_Firestaff_MeteorShower_Mana
+  DisplayName: "@Upgrade_Firestaff_MeteorShower_Mana"
+  Description: "@Upgrade_Firestaff_MeteorShower_Mana_description"
+  UICategory: Passive
   UISpellForManaCheck: ""
-  Icon: lyshineui/images/icons/abilities/firestaffAbility3_mod2.png
+  Icon: lyshineui/images/icons/abilities/firestaffAbility5_mod1.png
   StatusEffectIcon: ""
   Sound: ""
   TelegraphStatusEffect: ""
@@ -851,145 +875,6 @@
   TreeRowPosition: 4.0
   TreeColumnPosition: 2.0
   IsActiveAbility: false
-  IsGlobalAbility: false
-  ScalingStrength: ""
-  ScalingDexterity: ""
-  ScalingIntelligence: ""
-  ScalingSpirit: ""
-  ScalingConstitution: ""
-  OnKill: false
-  OnExecuted: false
-  OnHit: false
-  OnBlockedHit: false
-  OnCrit: false
-  OnHeadShot: false
-  OnLegShot: false
-  OnHitTaken: false
-  OnBlockedHitTaken: false
-  OnBlockBreak: false
-  OnTargetBlockBreak: false
-  OnDeath: false
-  OnDeathsDoor: false
-  OnHitTakenWhileInvulnerable: false
-  OnWeaponSwap: ""
-  RequireReaction: null
-  NumSuccessfulHits: 0.0
-  NumConsecutiveHits: 0.0
-  MaxConsecutiveHits: 0.0
-  ResetConsecutiveOnSuccess: ""
-  TrackHitCount: false
-  MaxTrackedHitCounts: 0.0
-  NumberOfTrackedHits: null
-  NumberOfHitsComparisonType: ""
-  DamageIsRanged: null
-  DamageIsMelee: null
-  ForceShowNameTag: ""
-  TargetHasGritActive: ""
-  DamageTableRow: FireStaff_Storm
-  RemoteDamageTableRow: ""
-  RangedAttackName: ""
-  AttackType: ""
-  StatusEffect: ""
-  StatusEffectCategories: ""
-  DontHaveStatusEffect: ""
-  TargetStatusEffect: ""
-  TargetStatusEffectCategory: ""
-  TargetStatusEffectStackSize: null
-  TargetStatusEffectComparison: ""
-  TargetCollisionFilters: ""
-  TargetMarker: ""
-  MyHealthPercent: ""
-  MyComparisonType: ""
-  MyStaminaPercent: ""
-  MyStaminaComparisonType: ""
-  TargetHealthPercent: ""
-  TargetComparisonType: ""
-  DistFromDefender: null
-  DistComparisonType: ""
-  NumAroundMe: ""
-  NumAroundComparisonType: ""
-  AbilityList: ""
-  AbilityTrigger: ""
-  InAction: ""
-  InActionTime: ""
-  AfterAction: ""
-  BaseDamage: null
-  BaseDamageReduction: ""
-  BlockDamage: ""
-  BlockDamageReduction: ""
-  CritDamage: null
-  CritChance: null
-  HeadshotDamage: ""
-  StaggerDamage: ""
-  StaggerDamageReduction: ""
-  HitRateDmg: ""
-  HitRateDmgReduction: ""
-  HealthDamageMitigation: ""
-  ThreatDamage: ""
-  ArmorPenetration: ""
-  PhysicalArmor: ""
-  ElementalArmor: ""
-  Knockback: ""
-  WeaponAccuracy: ""
-  Health: ""
-  DmgPctToHealth: null
-  MaxHealth: ""
-  Mana: null
-  MaxMana: ""
-  DamageTableRowOverride: ""
-  StatusEffectDamageTableRowOverride: ""
-  ForceStatusEffectDamageTableRow: null
-  RangedAttackNameOverride: ""
-  DamageTableStatusEffectOverride: ""
-  EnableCrit: ""
-  PerStatusEffectOnTarget: null
-  ForceTakeStaminaDamage: ""
-  CastSpell: ""
-  SelfApplyStatusEffect: ""
-  OtherApplyStatusEffect: ""
-  DoNotUnequipSelfAppliedSE: null
-  ModifySelfApplyStatusEffectDuration: ""
-  UseDefenderWeaponOnApplyOtherSE: null
-  SetPotencyAsCount: ""
-  MultiplyRemovedByPotency: ""
-  RemoveStatusEffects: ""
-  StatusEffectsList: ""
-  StatusEffectCategoriesList: ""
-  RemoveTargetStatusEffectsList: ""
-  ConsumeTargetStatusEffectMult: ""
-  StatusEffectDurationReduction: ""
-  TargetStatusEffectDurationList: ""
-  TargetStatusEffectDurationMod: ""
-  TargetStatusEffectDurationMult: null
-  ActivationCooldown: null
-  Duration: ""
-  CooldownId: ""
-  CDRImmediatelyOptions: ""
-  ResetCooldownTimers: ""
-  CooldownTimer: null
-  NumFreeCooldownsPerUse: ""
-  MaxHitCountMultiplier: ""
-  SetMannequinTag: ""
-  SetMannequinTagStatus: ""
-- AbilityID: Ability_Firestaff_Fireball
-  DisplayName: "@Ability_Firestaff_Fireball"
-  Description: "@Ability_Firestaff_Fireball_description"
-  UICategory: Magic Damage
-  UISpellForManaCheck: FireStaff_Siege_Shoot
-  Icon: lyshineui/images/icons/abilities/firestaffAbility1.png
-  StatusEffectIcon: ""
-  Sound: Play_UI_WeaponSkills_FireStaff_Ability_3
-  TelegraphStatusEffect: ""
-  TelegraphCountOffset: ""
-  OnEquipStatusEffect: ""
-  WeaponTag: Fire
-  EquipWhenUnsheathed: ""
-  RequiredAbilityId: ""
-  RequiredEquippedAbilityId: ""
-  TreeId: 0.0
-  TreeRowPosition: 2.0
-  TreeColumnPosition: 4.0
-  IsActiveAbility: true
   IsGlobalAbility: false
   ScalingStrength: ""
   ScalingDexterity: ""
@@ -1052,6 +937,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1071,17 +957,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -1091,6 +978,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -1102,7 +990,7 @@
   TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
-  CooldownId: Ability_Firestaff_Fireball
+  CooldownId: ""
   CDRImmediatelyOptions: ""
   ResetCooldownTimers: ""
   CooldownTimer: null
@@ -1110,10 +998,154 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
+- AbilityID: Ability_Firestaff_Fireball
+  DisplayName: "@Ability_Firestaff_Fireball"
+  Description: "@Ability_Firestaff_Fireball_description"
+  UICategory: Attack
+  UISpellForManaCheck: FireStaff_Siege_Shoot
+  Icon: lyshineui/images/icons/abilities/firestaffAbility1.png
+  StatusEffectIcon: ""
+  Sound: Play_UI_WeaponSkills_FireStaff_Ability_3
+  TelegraphStatusEffect: ""
+  TelegraphCountOffset: ""
+  OnEquipStatusEffect: ""
+  WeaponTag: Fire
+  EquipWhenUnsheathed: ""
+  RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
+  TreeId: 0.0
+  TreeRowPosition: 0.0
+  TreeColumnPosition: 4.0
+  IsActiveAbility: true
+  IsGlobalAbility: false
+  ScalingStrength: ""
+  ScalingDexterity: ""
+  ScalingIntelligence: ""
+  ScalingSpirit: ""
+  ScalingConstitution: ""
+  OnKill: false
+  OnExecuted: false
+  OnHit: true
+  OnBlockedHit: false
+  OnCrit: false
+  OnHeadShot: false
+  OnLegShot: false
+  OnHitTaken: false
+  OnBlockedHitTaken: false
+  OnBlockBreak: false
+  OnTargetBlockBreak: false
+  OnDeath: false
+  OnDeathsDoor: false
+  OnHitTakenWhileInvulnerable: false
+  OnWeaponSwap: ""
+  RequireReaction: true
+  NumSuccessfulHits: 0.0
+  NumConsecutiveHits: 0.0
+  MaxConsecutiveHits: 0.0
+  ResetConsecutiveOnSuccess: ""
+  TrackHitCount: false
+  MaxTrackedHitCounts: 0.0
+  NumberOfTrackedHits: null
+  NumberOfHitsComparisonType: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
+  ForceShowNameTag: ""
+  TargetHasGritActive: ""
+  DamageTableRow: ""
+  RemoteDamageTableRow: Firestaff_Siege_AOE
+  RangedAttackName: ""
+  AttackType: ""
+  StatusEffect: ""
+  StatusEffectCategories: ""
+  DontHaveStatusEffect: ""
+  TargetStatusEffect: ""
+  TargetStatusEffectCategory: ""
+  TargetStatusEffectStackSize: null
+  TargetStatusEffectComparison: ""
+  TargetCollisionFilters: ""
+  TargetMarker: ""
+  MyHealthPercent: ""
+  MyComparisonType: ""
+  MyStaminaPercent: ""
+  MyStaminaComparisonType: ""
+  TargetHealthPercent: ""
+  TargetComparisonType: ""
+  DistFromDefender: null
+  DistComparisonType: ""
+  NumAroundMe: ""
+  NumAroundComparisonType: ""
+  AbilityList: ""
+  AbilityTrigger: ""
+  InAction: ""
+  InActionTime: ""
+  AfterAction: ""
+  TargetVitalsCategory: Hostile
+  BaseDamage: 0.2
+  BaseDamageReduction: ""
+  BlockDamage: ""
+  BlockDamageReduction: ""
+  CritDamage: null
+  CritChance: null
+  HeadshotDamage: ""
+  StaggerDamage: ""
+  StaggerDamageReduction: ""
+  HitRateDmg: ""
+  HitRateDmgReduction: ""
+  HealthDamageMitigation: ""
+  ThreatDamage: ""
+  ArmorPenetration: ""
+  PhysicalArmor: ""
+  ElementalArmor: ""
+  Knockback: ""
+  WeaponAccuracy: ""
+  Health: ""
+  DmgPctToHealth: ""
+  MaxHealth: ""
+  Mana: null
+  MaxMana: ""
+  DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
+  StatusEffectDamageTableRowOverride: ""
+  ForceStatusEffectDamageTableRow: null
+  RangedAttackNameOverride: ""
+  DamageTableStatusEffectOverride: ""
+  EnableCrit: ""
+  PerStatusEffectOnTarget: ""
+  ForceTakeStaminaDamage: ""
+  CastSpell: ""
+  SelfApplyStatusEffect: ""
+  OtherApplyStatusEffect: ""
+  DoNotUnequipSelfAppliedSE: null
+  ModifySelfApplyStatusEffectDuration: ""
+  UseDefenderWeaponOnApplyOtherSE: null
+  SetPotencyAsCount: ""
+  MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
+  RemoveStatusEffects: ""
+  StatusEffectsList: ""
+  StatusEffectCategoriesList: ""
+  RemoveTargetStatusEffectsList: ""
+  ConsumeTargetStatusEffectMult: ""
+  StatusEffectDurationReduction: ""
+  TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationMod: ""
+  TargetStatusEffectDurationMult: null
+  ActivationCooldown: null
+  Duration: ""
+  CooldownId: ""
+  CDRImmediatelyOptions: ""
+  ResetCooldownTimers: ""
+  CooldownTimer: null
+  NumFreeCooldownsPerUse: ""
+  MaxHitCountMultiplier: ""
+  SetMannequinTag: ""
+  SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Upgrade_Firestaff_Fireball_Dur
   DisplayName: "@Upgrade_Firestaff_Fireball_Dur"
   Description: "@Upgrade_Firestaff_Fireball_Dur_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/firestaffAbility1_mod1.png
   StatusEffectIcon: ""
@@ -1126,7 +1158,7 @@
   RequiredAbilityId: Ability_Firestaff_Fireball
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 3.0
+  TreeRowPosition: 1.0
   TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -1191,6 +1223,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1210,17 +1243,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
-  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override
+  StatusEffectDamageTableIdForRowOverride: DamageTable
+  StatusEffectDamageTableRowOverride: FireStaff_Common_DoT
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -1230,6 +1264,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -1249,10 +1284,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Upgrade_Firestaff_Fireball_Mana
   DisplayName: "@Upgrade_Firestaff_Fireball_Mana"
   Description: "@Upgrade_Firestaff_Fireball_Mana_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/firestaffAbility1_mod2.png
   StatusEffectIcon: ""
@@ -1265,7 +1301,7 @@
   RequiredAbilityId: Ability_Firestaff_Fireball
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 4.0
+  TreeRowPosition: 2.0
   TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -1330,6 +1366,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1349,17 +1386,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: 0.1
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: DamageTable
   StatusEffectDamageTableRowOverride: NO_ENTRY 
   ForceStatusEffectDamageTableRow: true
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -1369,6 +1407,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -1388,6 +1427,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Passive_Firestaff_FireMage_ManaOnHit
   DisplayName: "@Passive_Firestaff_FireMage_ManaOnHit"
   Description: "@Passive_Firestaff_FireMage_ManaOnHit_description"
@@ -1469,6 +1509,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1488,17 +1529,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: 0.05
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -1508,6 +1550,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -1517,7 +1560,7 @@
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
   TargetStatusEffectDurationMult: null
-  ActivationCooldown: 1.0
+  ActivationCooldown: 0.5
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1527,6 +1570,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Passive_Firestaff_FireMage_CDRHeavy
   DisplayName: "@Passive_Firestaff_FireMage_CDRHeavy"
   Description: "@Passive_Firestaff_FireMage_CDRHeavy_description"
@@ -1608,6 +1652,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1627,17 +1672,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -1647,6 +1693,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -1666,6 +1713,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Passive_Firestaff_FireMage_DmgFullMana
   DisplayName: "@Passive_Firestaff_FireMage_DmgFullMana"
   Description: "@Passive_Firestaff_FireMage_DmgFullMana_description"
@@ -1683,7 +1731,7 @@
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 1.0
-  TreeColumnPosition: 4.0
+  TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -1747,6 +1795,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1766,17 +1815,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -1786,6 +1836,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -1805,6 +1856,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Passive_Firestaff_FireMage_HeavyNoMana
   DisplayName: "@Passive_Firestaff_FireMage_HeavyNoMana"
   Description: "@Passive_Firestaff_FireMage_HeavyNoMana_description"
@@ -1886,6 +1938,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1905,17 +1958,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -1925,6 +1979,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -1944,6 +1999,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Passive_Firestaff_FireMage_CritBurn
   DisplayName: "@Passive_Firestaff_FireMage_CritBurn"
   Description: "@Passive_Firestaff_FireMage_CritBurn_description"
@@ -2025,6 +2081,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2044,17 +2101,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
-  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override
+  StatusEffectDamageTableIdForRowOverride: DamageTable
+  StatusEffectDamageTableRowOverride: FireStaff_Common_DoT
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -2064,6 +2122,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -2083,6 +2142,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Passive_Firestaff_FireMage_Crit
   DisplayName: "@Passive_Firestaff_FireMage_Crit"
   Description: "@Passive_Firestaff_FireMage_Crit_description"
@@ -2164,6 +2224,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2183,17 +2244,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -2203,6 +2265,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -2222,6 +2285,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Passive_Firestaff_FireMage_DmgNoDmg
   DisplayName: "@Passive_Firestaff_FireMage_DmgNoDmg"
   Description: "@Passive_Firestaff_FireMage_DmgNoDmg_description"
@@ -2303,6 +2367,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2322,17 +2387,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: Status_Passive_Firestaff_FireMage_DmgNoDmg_Timer
@@ -2342,6 +2408,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: AbilitySpecific
   StatusEffectsList: Status_Passive_Firestaff_FireMage_DmgNoDmg
   StatusEffectCategoriesList: ""
@@ -2361,6 +2428,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Passive_Firestaff_FireMage_CritDmg
   DisplayName: "@Passive_Firestaff_FireMage_CritDmg"
   Description: "@Passive_Firestaff_FireMage_CritDmg_description"
@@ -2378,7 +2446,7 @@
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 4.0
-  TreeColumnPosition: 0.0
+  TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -2442,6 +2510,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2461,17 +2530,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -2481,6 +2551,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -2500,6 +2571,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Passive_Firestaff_FireMage_Ultimate
   DisplayName: "@Passive_Firestaff_FireMage_Ultimate"
   Description: "@Passive_Firestaff_FireMage_Ultimate_description"
@@ -2581,6 +2653,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2600,17 +2673,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -2620,6 +2694,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -2639,10 +2714,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Firestaff_Incinerate
   DisplayName: "@Ability_Firestaff_Incinerate"
   Description: "@Ability_Firestaff_Incinerate_description"
-  UICategory: Magic Damage
+  UICategory: Attack
   UISpellForManaCheck: FireStaff_Incinerate
   Icon: lyshineui/images/icons/abilities/firestaffAbility6.png
   StatusEffectIcon: ""
@@ -2720,6 +2796,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2739,17 +2816,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -2759,6 +2837,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -2778,12 +2857,13 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Upgrade_Firestaff_Incinerate_Burn
   DisplayName: "@Upgrade_Firestaff_Incinerate_Burn"
   Description: "@Upgrade_Firestaff_Incinerate_Burn_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
-  Icon: lyshineui/images/icons/abilities/firestaffAbility6_mod1.png
+  Icon: lyshineui/images/icons/abilities/Musket_Passive18.png
   StatusEffectIcon: ""
   Sound: ""
   TelegraphStatusEffect: ""
@@ -2859,6 +2939,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2878,26 +2959,28 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
-  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override
+  StatusEffectDamageTableIdForRowOverride: ""
+  StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
-  OtherApplyStatusEffect: FireStaff_Pyro_DOT
+  OtherApplyStatusEffect: Status_Passive_Firestaff_incinerate_Weaken
   DoNotUnequipSelfAppliedSE: null
   ModifySelfApplyStatusEffectDuration: ""
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -2917,12 +3000,13 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Upgrade_Firestaff_Incinerate_Heal
   DisplayName: "@Upgrade_Firestaff_Incinerate_Heal"
   Description: "@Upgrade_Firestaff_Incinerate_Heal_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
-  Icon: lyshineui/images/icons/abilities/firestaffAbility6_mod2.png
+  Icon: lyshineui/images/icons/abilities/greatsword_Ability06_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
   TelegraphStatusEffect: ""
@@ -2962,10 +3046,10 @@
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
   ResetConsecutiveOnSuccess: ""
-  TrackHitCount: true
+  TrackHitCount: false
   MaxTrackedHitCounts: 0.0
-  NumberOfTrackedHits: 3.0
-  NumberOfHitsComparisonType: LessThanOrEqual
+  NumberOfTrackedHits: null
+  NumberOfHitsComparisonType: ""
   DamageIsRanged: null
   DamageIsMelee: null
   ForceShowNameTag: ""
@@ -2998,6 +3082,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3017,17 +3102,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: 0.2
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -3037,16 +3123,17 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
-  RemoveStatusEffects: ""
+  NumStatusEffectsToRemove: 1.0
+  RemoveStatusEffects: AbilitySpecific
   StatusEffectsList: ""
-  StatusEffectCategoriesList: ""
+  StatusEffectCategoriesList: Debuff
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
   TargetStatusEffectDurationMult: null
-  ActivationCooldown: null
+  ActivationCooldown: 1.0
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -3056,10 +3143,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Upgrade_Firestaff_Incinerate_Double
   DisplayName: "@Upgrade_Firestaff_Incinerate_Double"
   Description: "@Upgrade_Firestaff_Incinerate_Double_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/firestaffAbility6_mod3.png
   StatusEffectIcon: ""
@@ -3137,6 +3225,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3156,17 +3245,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: Status_Passive_Firestaff_incinerate_Empower
@@ -3176,6 +3266,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -3195,10 +3286,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Firestaff_FlameThrower
   DisplayName: "@Ability_Firestaff_FlameThrower"
   Description: "@Ability_Firestaff_FlameThrower_description"
-  UICategory: Magic Damage
+  UICategory: Attack
   UISpellForManaCheck: FireStaff_FlameThrower
   Icon: lyshineui/images/icons/abilities/firestaffAbility4.png
   StatusEffectIcon: ""
@@ -3276,6 +3368,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3295,17 +3388,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
-  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override
+  StatusEffectDamageTableIdForRowOverride: DamageTable
+  StatusEffectDamageTableRowOverride: FireStaff_Common_DoT
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -3315,6 +3409,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -3334,10 +3429,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Upgrade_Firestaff_FlameThrower_Rng
   DisplayName: "@Upgrade_Firestaff_FlameThrower_Rng"
   Description: "@Upgrade_Firestaff_FlameThrower_Rng_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/firestaffAbility4_mod2.png
   StatusEffectIcon: ""
@@ -3415,6 +3511,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3434,17 +3531,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -3454,6 +3552,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -3473,10 +3572,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Upgrade_Firestaff_FlameThrower_Dmg
   DisplayName: "@Upgrade_Firestaff_FlameThrower_Dmg"
   Description: "@Upgrade_Firestaff_FlameThrower_Dmg_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/firestaffAbility4_mod1.png
   StatusEffectIcon: ""
@@ -3554,6 +3654,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.25
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3573,17 +3674,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -3593,6 +3695,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -3612,10 +3715,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Upgrade_Firestaff_FlameThrower_NoCooldown
   DisplayName: "@Upgrade_Firestaff_FlameThrower_NoCooldown"
   Description: "@Upgrade_Firestaff_FlameThrower_NoCooldown_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/firestaffAbility4_mod3.png
   StatusEffectIcon: ""
@@ -3693,6 +3797,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3712,17 +3817,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -3732,6 +3838,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -3751,10 +3858,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Ability_Firestaff_BurnOut
   DisplayName: "@Ability_Firestaff_BurnOut"
   Description: "@Ability_Firestaff_BurnOut_description"
-  UICategory: Magic Damage
+  UICategory: Attack
   UISpellForManaCheck: FireStaff_Speed_Intro
   Icon: lyshineui/images/icons/abilities/firestaffAbility5.png
   StatusEffectIcon: ""
@@ -3832,6 +3940,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3851,17 +3960,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -3871,6 +3981,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -3890,10 +4001,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Upgrade_Firestaff_BurnOut_CDR
   DisplayName: "@Upgrade_Firestaff_BurnOut_CDR"
   Description: "@Upgrade_Firestaff_BurnOut_CDR_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/firestaffAbility5_mod1.png
   StatusEffectIcon: ""
@@ -3971,6 +4083,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3990,17 +4103,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -4010,6 +4124,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -4029,10 +4144,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Upgrade_Firestaff_BurnOut_Aoe
   DisplayName: "@Upgrade_Firestaff_BurnOut_Aoe"
   Description: "@Upgrade_Firestaff_BurnOut_Aoe_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/bow_ability_explosion.png
   StatusEffectIcon: ""
@@ -4110,6 +4226,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4129,17 +4246,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -4149,6 +4267,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -4168,6 +4287,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Passive_Firestaff_Pyro_DmgOnLow
   DisplayName: "@Passive_Firestaff_Pyro_DmgOnLow"
   Description: "@Passive_Firestaff_Pyro_DmgOnLow_description"
@@ -4249,6 +4369,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4268,17 +4389,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -4288,6 +4410,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -4307,6 +4430,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Passive_Firestaff_Pyro_ManaOnblock
   DisplayName: "@Passive_Firestaff_Pyro_ManaOnblock"
   Description: "@Passive_Firestaff_Pyro_ManaOnblock_description"
@@ -4388,6 +4512,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4407,17 +4532,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
-  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override
+  StatusEffectDamageTableIdForRowOverride: DamageTable
+  StatusEffectDamageTableRowOverride: FireStaff_Common_DoT
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -4427,6 +4553,7 @@
   UseDefenderWeaponOnApplyOtherSE: true
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -4446,6 +4573,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Passive_Firestaff_Pyro_FortOnBurn
   DisplayName: "@Passive_Firestaff_Pyro_FortOnBurn"
   Description: "@Passive_Firestaff_Pyro_FortOnBurn_description"
@@ -4527,6 +4655,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4546,17 +4675,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: Status_Passive_Firestaff_Pyro_FortOnBurn
@@ -4566,6 +4696,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -4585,6 +4716,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Passive_Firestaff_Pyro_ManaOnBurn
   DisplayName: "@Passive_Firestaff_Pyro_ManaOnBurn"
   Description: "@Passive_Firestaff_Pyro_ManaOnBurn_description"
@@ -4666,6 +4798,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4685,17 +4818,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -4705,6 +4839,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -4724,6 +4859,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Passive_Firestaff_Pyro_BurnOnLight
   DisplayName: "@Passive_Firestaff_Pyro_BurnOnLight"
   Description: "@Passive_Firestaff_Pyro_BurnOnLight_description"
@@ -4805,6 +4941,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4824,17 +4961,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: DamageTable
   StatusEffectDamageTableRowOverride: FireStaff_Common_DoT
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -4844,6 +4982,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -4863,6 +5002,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Passive_Firestaff_Pyro_BurnNearby
   DisplayName: "@Passive_Firestaff_Pyro_BurnNearby"
   Description: "@Passive_Firestaff_Pyro_BurnNearby_description"
@@ -4944,6 +5084,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4963,17 +5104,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: Spell_Passive_Firestaff_Pyro_BurnNearby
   SelfApplyStatusEffect: TrialByFireTimer
@@ -4983,6 +5125,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -5002,6 +5145,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Passive_Firestaff_Pyro_Haste
   DisplayName: "@Passive_Firestaff_Pyro_Haste"
   Description: "@Passive_Firestaff_Pyro_Haste_description"
@@ -5083,6 +5227,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -5102,17 +5247,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: ""
@@ -5122,6 +5268,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -5141,6 +5288,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null
 - AbilityID: Passive_Firestaff_Pyro_Ultimate
   DisplayName: "@Passive_Firestaff_Pyro_Ultimate"
   Description: "@Passive_Firestaff_Pyro_Ultimate_description"
@@ -5203,7 +5351,7 @@
   DontHaveStatusEffect: Status_Passive_Firestaff_PyroUlt_Explosion_Timer
   TargetStatusEffect: FireStaff_Pyro_DOT
   TargetStatusEffectCategory: ""
-  TargetStatusEffectStackSize: 5.0
+  TargetStatusEffectStackSize: 3.0
   TargetStatusEffectComparison: GreaterThanOrEqual
   TargetCollisionFilters: ""
   TargetMarker: ""
@@ -5222,6 +5370,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -5241,17 +5390,18 @@
   Knockback: ""
   WeaponAccuracy: ""
   Health: ""
-  DmgPctToHealth: null
+  DmgPctToHealth: ""
   MaxHealth: ""
   Mana: null
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: null
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
   EnableCrit: ""
-  PerStatusEffectOnTarget: null
+  PerStatusEffectOnTarget: ""
   ForceTakeStaminaDamage: ""
   CastSpell: ""
   SelfApplyStatusEffect: Status_Passive_Firestaff_PyroUlt_Explosion_Timer
@@ -5261,6 +5411,7 @@
   UseDefenderWeaponOnApplyOtherSE: null
   SetPotencyAsCount: ""
   MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
   RemoveStatusEffects: ""
   StatusEffectsList: ""
   StatusEffectCategoriesList: ""
@@ -5280,3 +5431,4 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
+  SupportsSmartcast: null

@@ -7,8 +7,8 @@
   AttackType: Heavy
   DamageType: Strike
   IsRanged: ""
-  StatusEffect: ""
-  EffectOnlyOnDamage: null
+  StatusEffect: AI_Torso_Boss_Attack_Rend
+  EffectOnlyOnDamage: true
   DeflectDamageID: Deflect_Default
   CanCrit: false
   AttackDealsNoDurability: null
@@ -56,8 +56,8 @@
   AttackType: Heavy
   DamageType: Strike
   IsRanged: ""
-  StatusEffect: ""
-  EffectOnlyOnDamage: null
+  StatusEffect: AI_Torso_Boss_Attack_Rend
+  EffectOnlyOnDamage: true
   DeflectDamageID: Deflect_Default
   CanCrit: false
   AttackDealsNoDurability: null
@@ -105,8 +105,8 @@
   AttackType: Heavy
   DamageType: Strike
   IsRanged: ""
-  StatusEffect: ""
-  EffectOnlyOnDamage: null
+  StatusEffect: AI_Torso_Boss_Attack_Rend
+  EffectOnlyOnDamage: true
   DeflectDamageID: Deflect_Default
   CanCrit: false
   AttackDealsNoDurability: null
@@ -203,8 +203,8 @@
   AttackType: Light
   DamageType: Strike
   IsRanged: ""
-  StatusEffect: ""
-  EffectOnlyOnDamage: null
+  StatusEffect: AI_Torso_Boss_Attack_Rend
+  EffectOnlyOnDamage: true
   DeflectDamageID: Deflect_Default
   CanCrit: false
   AttackDealsNoDurability: null
@@ -252,8 +252,8 @@
   AttackType: Light
   DamageType: Strike
   IsRanged: ""
-  StatusEffect: ""
-  EffectOnlyOnDamage: null
+  StatusEffect: AI_Torso_Boss_Attack_Rend
+  EffectOnlyOnDamage: true
   DeflectDamageID: Deflect_Default
   CanCrit: false
   AttackDealsNoDurability: null
@@ -350,8 +350,8 @@
   AttackType: Magic
   DamageType: Arcane
   IsRanged: ""
-  StatusEffect: ""
-  EffectOnlyOnDamage: null
+  StatusEffect: AI_Torso_Boss_Laser_Rend_Apply
+  EffectOnlyOnDamage: false
   DeflectDamageID: Deflect_Default
   CanCrit: false
   AttackDealsNoDurability: true
@@ -399,7 +399,7 @@
   AttackType: Magic
   DamageType: Arcane
   IsRanged: ""
-  StatusEffect: AI_Torso_Boss_FinalLaser
+  StatusEffect: AI_Torso_Boss_FinalLaser,AI_Torso_Boss_Laser_Rend_Apply
   EffectOnlyOnDamage: false
   DeflectDamageID: Deflect_Default
   CanCrit: false
@@ -497,8 +497,8 @@
   AttackType: Light
   DamageType: Strike
   IsRanged: ""
-  StatusEffect: ""
-  EffectOnlyOnDamage: null
+  StatusEffect: AI_Torso_Boss_Attack_Rend
+  EffectOnlyOnDamage: true
   DeflectDamageID: Deflect_Default
   CanCrit: false
   AttackDealsNoDurability: null
@@ -579,6 +579,104 @@
   CameraShakeID: Small
   CritCameraShakeID: Small
   ImpactRating: 3.0
+  BlockStaminaDmgMod: 1.5
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 16.0
+  stunBreakoutIncrementer: 1.0
+  DamageGuildAndGroup: null
+  HitRuneCharge: 0.1625
+  HitBlockedRuneCharge: 0.325
+- DamageID: Swipe_Mid_Arcane
+  WeaponCategory: Unarmed
+  IgnoreInvulnerable: 1.0
+  NoReaction: 0.0
+  Unblockable: 0.0
+  SurfaceImpactEffect: Bullet
+  AttackType: Light
+  DamageType: Arcane
+  IsRanged: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: null
+  DeflectDamageID: Deflect_Default
+  CanCrit: false
+  AttackDealsNoDurability: null
+  DmgCoef: 0.5
+  DmgCoefHead: 1.0
+  DmgCoefCrit: 1.0
+  PowerLevel: 3.0
+  BlockPowerLevel: 3.0
+  CritPowerLevel: 3.0
+  HitStun: 20.0
+  BlockHitStun: 0.0
+  CritHitStun: 0.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 1.5
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 1.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 1.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.3
+  CritStaggerDmgModifier: 0.3
+  StaggerResistModifier: 1.0
+  CameraShakeID: Small
+  CritCameraShakeID: Small
+  ImpactRating: 3.0
+  BlockStaminaDmgMod: 1.5
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 16.0
+  stunBreakoutIncrementer: 1.0
+  DamageGuildAndGroup: null
+  HitRuneCharge: 0.1625
+  HitBlockedRuneCharge: 0.325
+- DamageID: Slap_Arcane
+  WeaponCategory: Unarmed
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  Unblockable: 1.0
+  SurfaceImpactEffect: Bullet
+  AttackType: Light
+  DamageType: Arcane
+  IsRanged: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: null
+  DeflectDamageID: Deflect_Default
+  CanCrit: false
+  AttackDealsNoDurability: null
+  DmgCoef: 0.1
+  DmgCoefHead: 1.0
+  DmgCoefCrit: 1.0
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 0.0
+  BlockHitStun: 0.0
+  CritHitStun: 0.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 1.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.3
+  CritStaggerDmgModifier: 0.3
+  StaggerResistModifier: 1.0
+  CameraShakeID: Small
+  CritCameraShakeID: Small
+  ImpactRating: 0.0
   BlockStaminaDmgMod: 1.5
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 16.0

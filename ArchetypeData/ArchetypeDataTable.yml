@@ -1,6 +1,6 @@
 - ArchetypeId: mercenary
-  Title: "@ftue_archetypes_name_mercenary"
-  Description: "@ftue_archetypes_description_mercenary"
+  Title: "@ftue_archetypes_name_soldier"
+  Description: "@ftue_archetypes_description_soldier"
   ProficiencyTooltip_1: "@ftue_archetypes_tooltip_mercenary_1"
   ProficiencyImage_1: LyShineUI/Images/Icons/Perks/WeaponsmithMastery1.dds
   ProficiencyTooltip_2: "@ftue_archetypes_tooltip_mercenary_2"
@@ -9,17 +9,43 @@
   ProficiencyImage_3: LyShineUI/Images/Icons/Perks/SmelterMastery1.dds
   ProficiencyDescription: "@ftue_archetypes_proficiency_desc_mercenary"
   EquipWeight: "@inv_equipLoadSlow"
-  BackstoryId: Archetype_Mercenary
-  MaleHead: ClothHybrid_Hat
-  FemaleHead: F_ClothHybrid_Hat
-  MaleShirt: ClothHybrid_Shirt
-  FemaleShirt: F_ClothHybrid_Shirt
-  MaleGloves: ClothHybrid_Gloves
-  FemaleGloves: F_ClothHybrid_Gloves
-  MalePants: ClothHybrid_Pants
-  FemalePants: F_ClothHybrid_Pants
-  MaleBoots: ClothHybrid_Boots
-  FemaleBoots: F_ClothHybrid_Boots
+  BackstoryId: Archetype_Soldier
+  MaleHead: m_Archetype_Sellsword_head
+  FemaleHead: f_Archetype_Sellsword_head
+  MaleShirt: m_Archetype_Sellsword_chest
+  FemaleShirt: f_Archetype_Sellsword_chest
+  MaleGloves: m_Archetype_Sellsword_gloves
+  FemaleGloves: f_Archetype_Sellsword_gloves
+  MalePants: m_Archetype_Sellsword_legs
+  FemalePants: f_Archetype_Sellsword_legs
+  MaleBoots: m_Archetype_Sellsword_feet
+  FemaleBoots: f_Archetype_Sellsword_feet
+  DefaultGender: Male
+  MaleFace: face29
+  FemaleFace: face21
+  MaleSkin: skin05
+  FemaleSkin: skin04
+  MaleHairStyle: hairstyle10m
+  FemaleHairStyle: hairstyle39m
+  MaleHairColor: haircolor16
+  FemaleHairColor: haircolor13
+  MaleFacialHair: facialhair09m
+  FemaleFacialHair: none
+  MaleFacialHairColor: haircolor16
+  FemaleFacialHairColor: haircolor13
+  MaleEyeColor: eyecolor12
+  FemaleEyeColor: eyecolor6
+  MaleFaceMark: none
+  FemaleFaceMark: facemark03
+  MaleScar: scar6
+  FemaleScar: scar6
+  MaleTattoo: none
+  FemaleTattoo: tattoo55
+  MaleTattooColor: ""
+  FemaleTattooColor: tattoocolor4
+  FTUELootBagGameEvent: ""
+  ItemExclusionList: 1hSwordT2_FTUE
+  ConsumableItemList: PotionHealthT1:2
 - ArchetypeId: warmonger
   Title: "@ftue_archetypes_name_warmonger"
   Description: "@ftue_archetypes_description_warmonger"
@@ -31,17 +57,43 @@
   ProficiencyImage_3: LyShineUI/Images/Icons/Perks/LeatherworkerMastery1.dds
   ProficiencyDescription: "@ftue_archetypes_proficiency_desc_warmonger"
   EquipWeight: "@inv_equipLoadNormal"
-  BackstoryId: Archetype_Warmonger
-  MaleHead: ""
-  FemaleHead: ""
-  MaleShirt: Conquistador_Chest_T1
-  FemaleShirt: F_Conquistador_Chest_T1
-  MaleGloves: Conquistador_Gloves_T1
-  FemaleGloves: F_Conquistador_Gloves_T1
-  MalePants: Conquistador_Pants_T1
-  FemalePants: F_Conquistador_Pants_T1
-  MaleBoots: Conquistador_Boots_T1
-  FemaleBoots: F_Conquistador_Boots_T1
+  BackstoryId: Archetype_Destroyer
+  MaleHead: m_Archetype_Warmonger_head
+  FemaleHead: f_Archetype_Warmonger_head
+  MaleShirt: m_Archetype_Warmonger_chest
+  FemaleShirt: f_Archetype_Warmonger_chest
+  MaleGloves: m_Archetype_Warmonger_gloves
+  FemaleGloves: f_Archetype_Warmonger_gloves
+  MalePants: m_Archetype_Warmonger_legs
+  FemalePants: f_Archetype_Warmonger_legs
+  MaleBoots: m_Archetype_Warmonger_feet
+  FemaleBoots: f_Archetype_Warmonger_feet
+  DefaultGender: Female
+  MaleFace: face27
+  FemaleFace: face24
+  MaleSkin: skin06
+  FemaleSkin: skin04
+  MaleHairStyle: hairstyle65m
+  FemaleHairStyle: hairstyle60m
+  MaleHairColor: haircolor25
+  FemaleHairColor: haircolor10
+  MaleFacialHair: none
+  FemaleFacialHair: none
+  MaleFacialHairColor: haircolor25
+  FemaleFacialHairColor: haircolor10
+  MaleEyeColor: eyecolor4
+  FemaleEyeColor: eyecolor10
+  MaleFaceMark: facemark02
+  FemaleFaceMark: facemark03
+  MaleScar: scar10
+  FemaleScar: scar3
+  MaleTattoo: tattoo48
+  FemaleTattoo: tattoo54
+  MaleTattooColor: tattoocolor4
+  FemaleTattooColor: tattoocolor2
+  FTUELootBagGameEvent: ""
+  ItemExclusionList: 1hSwordT2_FTUE
+  ConsumableItemList: PotionHealthT1:2
 - ArchetypeId: tracker
   Title: "@ftue_archetypes_name_tracker"
   Description: "@ftue_archetypes_description_tracker"
@@ -53,17 +105,43 @@
   ProficiencyImage_3: LyShineUI/Images/Icons/Perks/WoodworkerMastery1.dds
   ProficiencyDescription: "@ftue_archetypes_proficiency_desc_tracker"
   EquipWeight: "@inv_equipLoadNormal"
-  BackstoryId: Archetype_Tracker
-  MaleHead: m_harvester_head
-  FemaleHead: f_harvester_head
-  MaleShirt: m_harvester_chest
-  FemaleShirt: f_harvester_chest
-  MaleGloves: m_harvester_hands
-  FemaleGloves: f_harvester_hands
-  MalePants: m_harvester_legs
-  FemalePants: f_harvester_legs
-  MaleBoots: m_harvester_feet
-  FemaleBoots: f_harvester_feet
+  BackstoryId: Archetype_Ranger
+  MaleHead: m_Archetype_Ranger_head
+  FemaleHead: f_Archetype_Ranger_head
+  MaleShirt: m_Archetype_Ranger_chest
+  FemaleShirt: f_Archetype_Ranger_chest
+  MaleGloves: m_Archetype_Ranger_gloves
+  FemaleGloves: f_Archetype_Ranger_gloves
+  MalePants: m_Archetype_Ranger_legs
+  FemalePants: f_Archetype_Ranger_legs
+  MaleBoots: m_Archetype_Ranger_feet
+  FemaleBoots: f_Archetype_Ranger_feet
+  DefaultGender: Female
+  MaleFace: face26
+  FemaleFace: face22
+  MaleSkin: skin05
+  FemaleSkin: skin01
+  MaleHairStyle: hairstyle12m
+  FemaleHairStyle: hairstyle44m
+  MaleHairColor: haircolor16
+  FemaleHairColor: haircolor11
+  MaleFacialHair: facialhair03m
+  FemaleFacialHair: none
+  MaleFacialHairColor: haircolor17
+  FemaleFacialHairColor: haircolor11
+  MaleEyeColor: eyecolor1
+  FemaleEyeColor: eyecolor11
+  MaleFaceMark: facemark03
+  FemaleFaceMark: facemark01
+  MaleScar: scar6
+  FemaleScar: scar7
+  MaleTattoo: none
+  FemaleTattoo: tattoo49
+  MaleTattooColor: ""
+  FemaleTattooColor: tattoocolor5
+  FTUELootBagGameEvent: ""
+  ItemExclusionList: 1hSwordT2_FTUE
+  ConsumableItemList: PotionHealthT1:2
 - ArchetypeId: musketeer
   Title: "@ftue_archetypes_name_musketeer"
   Description: "@ftue_archetypes_description_musketeer"
@@ -76,16 +154,42 @@
   ProficiencyDescription: "@ftue_archetypes_proficiency_desc_musketeer"
   EquipWeight: "@inv_equipLoadFast"
   BackstoryId: Archetype_Musketeer
-  MaleHead: MilitaryCivil_Hat
-  FemaleHead: F_MilitaryCivil_Hat
-  MaleShirt: MilitaryCivil_Shirt
-  FemaleShirt: F_MilitaryCivil_Shirt
-  MaleGloves: MilitaryCivil_Gloves
-  FemaleGloves: F_MilitaryCivil_Gloves
-  MalePants: MilitaryCivil_Pants
-  FemalePants: F_MilitaryCivil_Pants
-  MaleBoots: MilitaryCivil_Boots
-  FemaleBoots: F_MilitaryCivil_Boots
+  MaleHead: m_Archetype_Wayfarer_head
+  FemaleHead: f_Archetype_Wayfarer_head
+  MaleShirt: m_Archetype_Wayfarer_chest
+  FemaleShirt: f_Archetype_Wayfarer_chest
+  MaleGloves: m_Archetype_Wayfarer_gloves
+  FemaleGloves: f_Archetype_Wayfarer_gloves
+  MalePants: m_Archetype_Wayfarer_legs
+  FemalePants: f_Archetype_Wayfarer_legs
+  MaleBoots: m_Archetype_Wayfarer_feet
+  FemaleBoots: f_Archetype_Wayfarer_feet
+  DefaultGender: Male
+  MaleFace: face28
+  FemaleFace: face15
+  MaleSkin: skin07
+  FemaleSkin: skin04
+  MaleHairStyle: hairstyle63m
+  FemaleHairStyle: hairstyle19m
+  MaleHairColor: haircolor20
+  FemaleHairColor: haircolor18
+  MaleFacialHair: facialhair68m
+  FemaleFacialHair: none
+  MaleFacialHairColor: haircolor18
+  FemaleFacialHairColor: haircolor20
+  MaleEyeColor: eyecolor5
+  FemaleEyeColor: eyecolor8
+  MaleFaceMark: facemark03
+  FemaleFaceMark: facemark03
+  MaleScar: scar5
+  FemaleScar: scar9
+  MaleTattoo: none
+  FemaleTattoo: none
+  MaleTattooColor: ""
+  FemaleTattooColor: ""
+  FTUELootBagGameEvent: ""
+  ItemExclusionList: 1hSwordT2_FTUE
+  ConsumableItemList: PotionHealthT1:2
 - ArchetypeId: occultist
   Title: "@ftue_archetypes_name_occultist"
   Description: "@ftue_archetypes_description_occultist"
@@ -93,21 +197,47 @@
   ProficiencyImage_1: LyShineUI/Images/Icons/Perks/JewelcrafterMastery1.dds
   ProficiencyTooltip_2: "@ftue_archetypes_tooltip_occultist_2"
   ProficiencyImage_2: LyShineUI/Images/Icons/Perks/MinerMastery1.dds
-  ProficiencyTooltip_3: "@ftue_archetypes_tooltip_occultist_3"
-  ProficiencyImage_3: LyShineUI/Images/Icons/Perks/StonecutterMastery1.dds
+  ProficiencyTooltip_3: "@ftue_archetypes_tooltip_mercenary_3"
+  ProficiencyImage_3: LyShineUI/Images/Icons/Perks/SmelterMastery1.dds
   ProficiencyDescription: "@ftue_archetypes_proficiency_desc_occultist"
   EquipWeight: "@inv_equipLoadfast"
   BackstoryId: Archetype_Occultist
-  MaleHead: m_femininelightt3_head
-  FemaleHead: f_femininelightt3_head
-  MaleShirt: m_femininelightt3_chest
-  FemaleShirt: f_femininelightt3_chest
-  MaleGloves: m_femininelightt3_gloves
-  FemaleGloves: f_femininelightt3_gloves
-  MalePants: m_femininelightt3_legs
-  FemalePants: f_femininelightt3_legs
-  MaleBoots: m_femininelightt3_feet
-  FemaleBoots: f_femininelightt3_feet
+  MaleHead: m_Archetype_Occultist_head
+  FemaleHead: f_Archetype_Occultist_head
+  MaleShirt: m_Archetype_Occultist_chest
+  FemaleShirt: f_Archetype_Occultist_chest
+  MaleGloves: m_Archetype_Occultist_gloves
+  FemaleGloves: f_Archetype_Occultist_gloves
+  MalePants: m_Archetype_Occultist_legs
+  FemalePants: f_Archetype_Occultist_legs
+  MaleBoots: m_Archetype_Occultist_feet
+  FemaleBoots: f_Archetype_Occultist_feet
+  DefaultGender: Female
+  MaleFace: face17
+  FemaleFace: face27
+  MaleSkin: skin07
+  FemaleSkin: skin05
+  MaleHairStyle: hairstyle53m
+  FemaleHairStyle: hairstyle58m
+  MaleHairColor: haircolor02
+  FemaleHairColor: haircolor25
+  MaleFacialHair: facialhair55m
+  FemaleFacialHair: none
+  MaleFacialHairColor: haircolor02
+  FemaleFacialHairColor: haircolor25
+  MaleEyeColor: eyecolor19
+  FemaleEyeColor: eyecolor14
+  MaleFaceMark: facemark03
+  FemaleFaceMark: facemark03
+  MaleScar: none
+  FemaleScar: none
+  MaleTattoo: tattoo32
+  FemaleTattoo: tattoo57
+  MaleTattooColor: tattoocolor4
+  FemaleTattooColor: tattoocolor8
+  FTUELootBagGameEvent: ""
+  ItemExclusionList: 1hSwordT2_FTUE
+  ConsumableItemList: PotionHealthT1:2
 - ArchetypeId: theurgist
   Title: "@ftue_archetypes_name_theurgist"
   Description: "@ftue_archetypes_description_theurgist"
@@ -119,17 +249,43 @@
   ProficiencyImage_3: LyShineUI/Images/Icons/Perks/WeaverMastery1.dds
   ProficiencyDescription: "@ftue_archetypes_proficiency_desc_theurgist"
   EquipWeight: "@inv_equipLoadFast"
-  BackstoryId: Archetype_Theurgist
-  MaleHead: m_femininePioneerLT2_head
-  FemaleHead: f_femininePioneerLT2_head
-  MaleShirt: m_femininePioneerLT2_chest
-  FemaleShirt: f_femininePioneerLT2_chest
-  MaleGloves: m_femininePioneerLT2_gloves
-  FemaleGloves: f_femininePioneerLT2_gloves
-  MalePants: m_femininePioneerLT2_legs
-  FemalePants: f_femininePioneerLT2_legs
-  MaleBoots: m_femininePioneerLT2_feet
-  FemaleBoots: f_femininePioneerLT2_feet
+  BackstoryId: Archetype_Mystic
+  MaleHead: m_Archetype_Magus_head
+  FemaleHead: f_Archetype_Magus_head
+  MaleShirt: m_Archetype_Magus_chest
+  FemaleShirt: f_Archetype_Magus_chest
+  MaleGloves: m_Archetype_Magus_gloves
+  FemaleGloves: f_Archetype_Magus_gloves
+  MalePants: m_Archetype_Magus_legs
+  FemalePants: f_Archetype_Magus_legs
+  MaleBoots: m_Archetype_Magus_feet
+  FemaleBoots: f_Archetype_Magus_feet
+  DefaultGender: Female
+  MaleFace: face24
+  FemaleFace: face11
+  MaleSkin: skin05
+  FemaleSkin: skin08
+  MaleHairStyle: hairstyle70m
+  FemaleHairStyle: hairstyle50m
+  MaleHairColor: haircolor25
+  FemaleHairColor: haircolor25
+  MaleFacialHair: facialhair04m
+  FemaleFacialHair: none
+  MaleFacialHairColor: haircolor25
+  FemaleFacialHairColor: haircolor25
+  MaleEyeColor: eyecolor18
+  FemaleEyeColor: eyecolor3
+  MaleFaceMark: facemark03
+  FemaleFaceMark: facemark02
+  MaleScar: scar8
+  FemaleScar: none
+  MaleTattoo: tattoo10
+  FemaleTattoo: tattoo58
+  MaleTattooColor: tattoocolor4
+  FemaleTattooColor: tattoocolor15
+  FTUELootBagGameEvent: ""
+  ItemExclusionList: 1hSwordT2_FTUE
+  ConsumableItemList: PotionHealthT1:2
 - ArchetypeId: wanderer
   Title: "@ftue_archetypes_name_wanderer"
   Description: "@ftue_archetypes_description_wanderer"
@@ -141,14 +297,40 @@
   ProficiencyImage_3: LyShineUI/Images/Icons/Perks/LeatherworkerMastery1.dds
   ProficiencyDescription: "@ftue_archetypes_proficiency_desc_wanderer"
   EquipWeight: "@inv_equipLoadSlow"
-  BackstoryId: Archetype_Wanderer
-  MaleHead: Leather_Hat_T2
-  FemaleHead: F_Leather_Hat_T2
-  MaleShirt: Leather_Shirt_T2
-  FemaleShirt: F_Leather_Shirt_T2
-  MaleGloves: Leather_Gloves_T2
-  FemaleGloves: F_Leather_Gloves_T2
-  MalePants: Leather_Pants_T2
-  FemalePants: F_Leather_Pants_T2
-  MaleBoots: Leather_Boots_T2
-  FemaleBoots: F_Leather_Boots_T2
+  BackstoryId: Archetype_Swordsman
+  MaleHead: m_Archetype_Wanderer_head
+  FemaleHead: f_Archetype_Wanderer_head
+  MaleShirt: m_Archetype_Wanderer_chest
+  FemaleShirt: f_Archetype_Wanderer_chest
+  MaleGloves: m_Archetype_Wanderer_gloves
+  FemaleGloves: f_Archetype_Wanderer_gloves
+  MalePants: m_Archetype_Wanderer_legs
+  FemalePants: f_Archetype_Wanderer_legs
+  MaleBoots: m_Archetype_Wanderer_feet
+  FemaleBoots: f_Archetype_Wanderer_feet
+  DefaultGender: Male
+  MaleFace: face25
+  FemaleFace: face07
+  MaleSkin: skin05
+  FemaleSkin: skin06
+  MaleHairStyle: hairstyle40m
+  FemaleHairStyle: hairstyle42m
+  MaleHairColor: haircolor20
+  FemaleHairColor: haircolor23
+  MaleFacialHair: none
+  FemaleFacialHair: none
+  MaleFacialHairColor: haircolor20
+  FemaleFacialHairColor: haircolor23
+  MaleEyeColor: eyecolor5
+  FemaleEyeColor: eyecolor15
+  MaleFaceMark: facemark03
+  FemaleFaceMark: facemark04
+  MaleScar: scar1
+  FemaleScar: scar1
+  MaleTattoo: none
+  FemaleTattoo: tattoo55
+  MaleTattooColor: ""
+  FemaleTattooColor: tattoocolor8
+  FTUELootBagGameEvent: ""
+  ItemExclusionList: 1hSwordT2_FTUE
+  ConsumableItemList: PotionHealthT1:2

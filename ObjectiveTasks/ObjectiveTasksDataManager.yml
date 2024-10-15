@@ -934,7 +934,7 @@
   InteractTag: ""
   UIScreenTag: ""
   TriggerAreaType: ""
-  KillEnemyType: Mission_Success_Procurer
+  KillEnemyType: Mission_Success_Procurer_T1
   KillEnemyWeaponID: ""
   Duration: null
   TaskBuySellType: ""
@@ -7750,6 +7750,120 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
+- TaskID: FM_task_Doubloon_X_times_POITag_container
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: true
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: null
+  SubTask1: FM_task_Doubloon_X_times_at_mission_location
+  SubTask2: M_ReturnToGiver
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: FM_task_Doubloon_X_times_at_mission_location
+  Type: TaskGameEvent
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: 1.0
+  TargetQty: 5.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: true
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: DoubloonChestPvP_GatherEvent
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: 1.0
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@objective_mission_doubloon_generic"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
 - TaskID: FM_task_acquire_X_items_POITag_container
   Type: ConsecutiveTaskContainer
   FailOnCondition: null
@@ -11615,7 +11729,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -11803,7 +11917,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_HeavyHead
+  ItemName: FC_Artifact_Set1_HeavyHead || FC_Artifact_Set1_HeavyHead_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -12071,7 +12185,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -12144,7 +12258,7 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 5.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
@@ -12259,7 +12373,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_HeavyChest
+  ItemName: FC_Artifact_Set1_HeavyChest || FC_Artifact_Set1_HeavyChest_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -12527,7 +12641,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -12715,7 +12829,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_HeavyHands
+  ItemName: FC_Artifact_Set1_HeavyHands || FC_Artifact_Set1_HeavyHands_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -12983,7 +13097,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -13171,7 +13285,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_HeavyLegs
+  ItemName: FC_Artifact_Set1_HeavyLegs || FC_Artifact_Set1_HeavyLegs_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -13439,7 +13553,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -13627,7 +13741,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_HeavyFeet
+  ItemName: FC_Artifact_Set1_HeavyFeet || FC_Artifact_Set1_HeavyFeet_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -13895,7 +14009,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -14083,7 +14197,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_MediumHead
+  ItemName: FC_Artifact_Set1_MediumHead || FC_Artifact_Set1_MediumHead_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -14351,7 +14465,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -14539,7 +14653,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_MediumChest
+  ItemName: FC_Artifact_Set1_MediumChest || FC_Artifact_Set1_MediumChest_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -14807,7 +14921,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -14995,7 +15109,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_MediumHands
+  ItemName: FC_Artifact_Set1_MediumHands || FC_Artifact_Set1_MediumHands_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -15263,7 +15377,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -15319,7 +15433,7 @@
   UseLargeItemDisplay: null
   TP_TargetTag: ""
   TP_DescriptionTag: "@objective_mission_kill_generic_at_POI"
-  OverrideLocation: ""
+  OverrideLocation: 9547.343 966.229 79.469
   IsHidden: null
   CompletedNotificationId: ""
   GridLayout: ""
@@ -15451,7 +15565,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_MediumLegs
+  ItemName: FC_Artifact_Set1_MediumLegs || FC_Artifact_Set1_MediumLegs_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -15719,7 +15833,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -15907,7 +16021,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_MediumFeet
+  ItemName: FC_Artifact_Set1_MediumFeet || FC_Artifact_Set1_MediumFeet_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -16175,7 +16289,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -16363,7 +16477,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_LightHead
+  ItemName: FC_Artifact_Set1_LightHead || FC_Artifact_Set1_LightHead_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -16631,7 +16745,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -16711,7 +16825,7 @@
   ChestDropProbability: null
   EnforceLocationRequirement: true
   TerritoryID: 9.0
-  POITag: ""
+  POITag: abandoned_village_40050,abandoned_village_40060,ancient_lighthouse_40046
   GameModeID: ""
   ShouldCheckPoints: null
   LootTag: ""
@@ -16819,7 +16933,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_LightChest
+  ItemName: FC_Artifact_Set1_LightChest || FC_Artifact_Set1_LightChest_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -17087,7 +17201,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -17275,7 +17389,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_LightHands
+  ItemName: FC_Artifact_Set1_LightHands || FC_Artifact_Set1_LightHands_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -17543,7 +17657,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -17731,7 +17845,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_LightLegs
+  ItemName: FC_Artifact_Set1_LightLegs || FC_Artifact_Set1_LightLegs_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -17999,7 +18113,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -18187,7 +18301,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_LightFeet
+  ItemName: FC_Artifact_Set1_LightFeet || FC_Artifact_Set1_LightFeet_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -18455,7 +18569,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -18643,7 +18757,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_1hLongsword
+  ItemName: FC_Artifact_Set1_1hLongsword || FC_Artifact_Set1_1hLongsword_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -18911,7 +19025,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -19099,7 +19213,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_1hHatchet
+  ItemName: FC_Artifact_Set1_1hThrowingAxe || FC_Artifact_Set1_1hThrowingAxe_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -19367,7 +19481,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -19555,7 +19669,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_2hWarhammer
+  ItemName: FC_Artifact_Set1_2hWarhammer || FC_Artifact_Set1_2hWarhammer_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -19823,7 +19937,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -20011,7 +20125,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_2hGreatAxe
+  ItemName: FC_Artifact_Set1_2hGreatAxe || FC_Artifact_Set1_2hGreatAxe_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -20279,7 +20393,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -20467,7 +20581,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_2hBow
+  ItemName: FC_Artifact_Set1_2hBow || FC_Artifact_Set1_2hBow_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -20735,7 +20849,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -20791,7 +20905,7 @@
   UseLargeItemDisplay: null
   TP_TargetTag: ""
   TP_DescriptionTag: "@objective_mission_kill_generic_at_POI"
-  OverrideLocation: ""
+  OverrideLocation: 8347.192 1367.092 321.144
   IsHidden: null
   CompletedNotificationId: ""
   GridLayout: ""
@@ -20923,7 +21037,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_2hMusket
+  ItemName: FC_Artifact_Set1_2hMusket || FC_Artifact_Set1_2hMusket_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -21191,7 +21305,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -21379,7 +21493,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_1hRoundShield
+  ItemName: FC_Artifact_Set1_1hRoundShield || FC_Artifact_Set1_1hRoundShield_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -21647,7 +21761,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -21835,7 +21949,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_1hKiteShield
+  ItemName: FC_Artifact_Set1_1hKiteShield || FC_Artifact_Set1_1hKiteShield_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -22103,7 +22217,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -22291,7 +22405,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_1hTowerShield
+  ItemName: FC_Artifact_Set1_1hTowerShield || FC_Artifact_Set1_1hTowerShield_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -22559,7 +22673,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -22632,7 +22746,7 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 10.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
@@ -22747,7 +22861,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_2hStaffFire
+  ItemName: FC_Artifact_Set1_2hStaffFire || FC_Artifact_Set1_2hStaffFire_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -23015,7 +23129,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -23203,7 +23317,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_2hStaffLife
+  ItemName: FC_Artifact_Set1_2hStaffLife || FC_Artifact_Set1_2hStaffLife_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -23471,7 +23585,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -23659,7 +23773,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_2hSpear
+  ItemName: FC_Artifact_Set1_2hSpear || FC_Artifact_Set1_2hSpear_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -23927,7 +24041,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -24000,7 +24114,7 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 10.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
@@ -24115,7 +24229,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_1hRapier
+  ItemName: FC_Artifact_Set1_1hRapier || FC_Artifact_Set1_1hRapier_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -24383,7 +24497,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -24571,7 +24685,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_1hGauntletIce
+  ItemName: FC_Artifact_Set1_1hGauntletIce || FC_Artifact_Set1_1hGauntletIce_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -24839,7 +24953,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -25027,7 +25141,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_1hGauntletVoid
+  ItemName: FC_Artifact_Set1_1hGauntletVoid || FC_Artifact_Set1_1hGauntletVoid_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -25295,7 +25409,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -25483,7 +25597,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_2hBlunderbuss
+  ItemName: FC_Artifact_Set1_2hBlunderbuss || FC_Artifact_Set1_2hBlunderbuss_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -25751,7 +25865,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -25939,7 +26053,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_2hGreatSword
+  ItemName: FC_Artifact_Set1_2hGreatSword || FC_Artifact_Set1_2hGreatSword_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -26207,7 +26321,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -26280,7 +26394,7 @@
   FailOnCondition: null
   ResetOnCondition: null
   StayActive: null
-  TargetQty: 30.0
+  TargetQty: 10.0
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
@@ -26395,7 +26509,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_1hFlail
+  ItemName: FC_Artifact_Set1_1hFlail || FC_Artifact_Set1_1hFlail_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -26663,7 +26777,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -26851,7 +26965,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_Earring1
+  ItemName: FC_Artifact_Set1_Earring1 || FC_Artifact_Set1_Earring1_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -27119,7 +27233,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -27307,7 +27421,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_Ring1
+  ItemName: FC_Artifact_Set1_Ring1 || FC_Artifact_Set1_Ring1_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -27575,7 +27689,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -27763,7 +27877,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_Amulet1
+  ItemName: FC_Artifact_Set1_Amulet1 || FC_Artifact_Set1_Amulet1_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -28031,7 +28145,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -28219,7 +28333,463 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set1_Amulet2
+  ItemName: FC_Artifact_Set1_Amulet2 || FC_Artifact_Set1_Amulet2_GS725
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_CraftArtifact"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Container_Artifact_Set2_HeavyChest
+  Type: SimpleTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_ContainerEquip_Artifact_Set2_HeavyChest
+  SubTask2: Task_Craft_Artifact_Set2_HeavyChest
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_ContainerEquip_Artifact_Set2_HeavyChest
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: false
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Artifact_Desc"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_Equip_Artifact_Set2_HeavyChest
+  SubTask2: Task_ContainerPerks_Artifact_Set2_HeavyChest
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Equip_Artifact_Set2_HeavyChest
+  Type: TaskEquipItem
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: 1.0
+  TargetQty: 1.0
+  ItemName: Artifact_Set2_HeavyChest
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@objective_equip"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_ContainerPerks_Artifact_Set2_HeavyChest
+  Type: SimpleTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
+  OverrideLocation: ""
+  IsHidden: 1.0
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_Perk1_Artifact_Set2_HeavyChest
+  SubTask2: Task_Perk2_Artifact_Set2_HeavyChest
+  SubTask3: Task_Perk3_Artifact_Set2_HeavyChest
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk1_Artifact_Set2_HeavyChest
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 10.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: true
+  TerritoryID: 10.0
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: true
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: Player
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Kill_in_CK"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk2_Artifact_Set2_HeavyChest
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 50.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: true
+  TerritoryID: null
+  POITag: pirate_fort_30016
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: Lost
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@objective_mission_kill_generic_at_POI"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk3_Artifact_Set2_HeavyChest
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 50.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: OutpostRush
+  ShouldCheckPoints: true
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: Player
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Kill_OPR"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Craft_Artifact_Set2_HeavyChest
+  Type: TaskAchievement
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: 1.0
+  TargetQty: null
+  ItemName: FC_Artifact_Set2_HeavyChest || FC_Artifact_Set2_HeavyChest_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -28487,7 +29057,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -28675,7 +29245,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set2_HeavyHands
+  ItemName: FC_Artifact_Set2_HeavyHands || FC_Artifact_Set2_HeavyHands_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -28943,7 +29513,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -29131,7 +29701,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set2_HeavyLegs
+  ItemName: FC_Artifact_Set2_HeavyLegs || FC_Artifact_Set2_HeavyLegs_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -29399,7 +29969,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -29587,7 +30157,1375 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set2_MediumChest
+  ItemName: FC_Artifact_Set2_MediumChest || FC_Artifact_Set2_MediumChest_GS725
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_CraftArtifact"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Container_Artifact_Set2_MediumHands
+  Type: SimpleTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_ContainerEquip_Artifact_Set2_MediumHands
+  SubTask2: Task_Craft_Artifact_Set2_MediumHands
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_ContainerEquip_Artifact_Set2_MediumHands
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: false
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Artifact_Desc"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_Equip_Artifact_Set2_MediumHands
+  SubTask2: Task_ContainerPerks_Artifact_Set2_MediumHands
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Equip_Artifact_Set2_MediumHands
+  Type: TaskEquipItem
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: 1.0
+  TargetQty: 1.0
+  ItemName: Artifact_Set2_MediumHands
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@objective_equip"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_ContainerPerks_Artifact_Set2_MediumHands
+  Type: SimpleTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
+  OverrideLocation: ""
+  IsHidden: 1.0
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_Perk1_Artifact_Set2_MediumHands
+  SubTask2: Task_Perk2_Artifact_Set2_MediumHands
+  SubTask3: Task_Perk3_Artifact_Set2_MediumHands
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk1_Artifact_Set2_MediumHands
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 10.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: true
+  TerritoryID: 10.0
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: true
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: Player
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Kill_in_CK"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk2_Artifact_Set2_MediumHands
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 50.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: pirate_Fort_30056
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: Lost
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@objective_mission_kill_generic_at_POI"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk3_Artifact_Set2_MediumHands
+  Type: TaskGameEvent
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 10.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: true
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: PvP_FortTakeover
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Capture_Fort"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Craft_Artifact_Set2_MediumHands
+  Type: TaskAchievement
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: 1.0
+  TargetQty: null
+  ItemName: FC_Artifact_Set2_MediumHands || FC_Artifact_Set2_MediumHands_GS725
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_CraftArtifact"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Container_Artifact_Set2_MediumLegs
+  Type: SimpleTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_ContainerEquip_Artifact_Set2_MediumLegs
+  SubTask2: Task_Craft_Artifact_Set2_MediumLegs
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_ContainerEquip_Artifact_Set2_MediumLegs
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: false
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Artifact_Desc"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_Equip_Artifact_Set2_MediumLegs
+  SubTask2: Task_ContainerPerks_Artifact_Set2_MediumLegs
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Equip_Artifact_Set2_MediumLegs
+  Type: TaskEquipItem
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: 1.0
+  TargetQty: 1.0
+  ItemName: Artifact_Set2_MediumLegs
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@objective_equip"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_ContainerPerks_Artifact_Set2_MediumLegs
+  Type: SimpleTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
+  OverrideLocation: ""
+  IsHidden: 1.0
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_Perk1_Artifact_Set2_MediumLegs
+  SubTask2: Task_Perk2_Artifact_Set2_MediumLegs
+  SubTask3: Task_Perk3_Artifact_Set2_MediumLegs
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk1_Artifact_Set2_MediumLegs
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: true
+  TerritoryID: null
+  POITag: ""
+  GameModeID: TrialSeason01
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: Evil_Knight_Flamekeeper_Boss
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Kill_Hatchery"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk2_Artifact_Set2_MediumLegs
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: true
+  TerritoryID: null
+  POITag: ""
+  GameModeID: RaidCutlassKeys00
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: Hercyne_Broodmother
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Kill_in_CK_Raid"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk3_Artifact_Set2_MediumLegs
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 100.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: true
+  TerritoryID: null
+  POITag: ""
+  GameModeID: RaidCutlassKeys00
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: AngryEarth
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Kill_in_CK_Raid"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Craft_Artifact_Set2_MediumLegs
+  Type: TaskAchievement
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: 1.0
+  TargetQty: null
+  ItemName: FC_Artifact_Set2_MediumLegs || FC_Artifact_Set2_MediumLegs_GS725
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_CraftArtifact"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Container_Artifact_Set2_LightHead
+  Type: SimpleTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_ContainerEquip_Artifact_Set2_LightHead
+  SubTask2: Task_Craft_Artifact_Set2_LightHead
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_ContainerEquip_Artifact_Set2_LightHead
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: false
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Artifact_Desc"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_Equip_Artifact_Set2_LightHead
+  SubTask2: Task_ContainerPerks_Artifact_Set2_LightHead
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Equip_Artifact_Set2_LightHead
+  Type: TaskEquipItem
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: 1.0
+  TargetQty: 1.0
+  ItemName: Artifact_Set2_LightHead
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@objective_equip"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_ContainerPerks_Artifact_Set2_LightHead
+  Type: SimpleTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
+  OverrideLocation: ""
+  IsHidden: 1.0
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_Perk1_Artifact_Set2_LightHead
+  SubTask2: Task_Perk2_Artifact_Set2_LightHead
+  SubTask3: Task_Perk3_Artifact_Set2_LightHead
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk1_Artifact_Set2_LightHead
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 30.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: true
+  TerritoryID: null
+  POITag: fishingvillage_30063
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: Lost
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@objective_mission_kill_generic_at_POI"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk2_Artifact_Set2_LightHead
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: CK_Ghost_Shipwrecked_Named_10WS09
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@objective_mission_kill_generic"
+  OverrideLocation: 7522 172 40
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk3_Artifact_Set2_LightHead
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 30.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: true
+  TerritoryID: null
+  POITag: pirate_fort_30016
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: Lost
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@objective_mission_kill_generic_at_POI"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Craft_Artifact_Set2_LightHead
+  Type: TaskAchievement
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: 1.0
+  TargetQty: null
+  ItemName: FC_Artifact_Set2_LightHead || FC_Artifact_Set2_LightHead_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -29855,7 +31793,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -30043,7 +31981,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set2_LightFeet
+  ItemName: FC_Artifact_Set2_LightFeet || FC_Artifact_Set2_LightFeet_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -30311,7 +32249,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -30499,7 +32437,463 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set2_1hThrowingAxe
+  ItemName: FC_Artifact_Set2_1hThrowingAxe || FC_Artifact_Set2_1hThrowingAxe_GS725
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_CraftArtifact"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Container_Artifact_Set2_2hWarhammer
+  Type: SimpleTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_ContainerEquip_Artifact_Set2_2hWarhammer
+  SubTask2: Task_Craft_Artifact_Set2_2hWarhammer
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_ContainerEquip_Artifact_Set2_2hWarhammer
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: false
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Artifact_Desc"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_Equip_Artifact_Set2_2hWarhammer
+  SubTask2: Task_ContainerPerks_Artifact_Set2_2hWarhammer
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Equip_Artifact_Set2_2hWarhammer
+  Type: TaskEquipItem
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: 1.0
+  TargetQty: 1.0
+  ItemName: Artifact_Set2_2hWarhammer
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@objective_equip"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_ContainerPerks_Artifact_Set2_2hWarhammer
+  Type: SimpleTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
+  OverrideLocation: ""
+  IsHidden: 1.0
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_Perk1_Artifact_Set2_2hWarhammer
+  SubTask2: Task_Perk2_Artifact_Set2_2hWarhammer
+  SubTask3: Task_Perk3_Artifact_Set2_2hWarhammer
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk1_Artifact_Set2_2hWarhammer
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: TrialSeason04
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: Naga_AncientGuardian_IceGuardian
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Kill_Runeforge"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk2_Artifact_Set2_2hWarhammer
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: TrialBrimstoneSandworm
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: Sandworm
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Kill_Sandworm"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk3_Artifact_Set2_2hWarhammer
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: true
+  TerritoryID: null
+  POITag: AE_Elite_50119
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: Swamp_Dryad_Beast_Named_ELITE_05Wc10
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@objective_mission_kill_generic_at_POI"
+  OverrideLocation: 11137.65 3815.272 273.378
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Craft_Artifact_Set2_2hWarhammer
+  Type: TaskAchievement
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: 1.0
+  TargetQty: null
+  ItemName: FC_Artifact_Set2_2hWarhammer || FC_Artifact_Set2_2hWarhammer_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -30767,7 +33161,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -30955,7 +33349,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set2_2hGreatAxe
+  ItemName: FC_Artifact_Set2_2hGreatAxe || FC_Artifact_Set2_2hGreatAxe_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -31223,7 +33617,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -31279,7 +33673,7 @@
   UseLargeItemDisplay: null
   TP_TargetTag: ""
   TP_DescriptionTag: "@objective_mission_kill_generic_at_POI"
-  OverrideLocation: ""
+  OverrideLocation: 8459.5 1846.4 173.4
   IsHidden: null
   CompletedNotificationId: ""
   GridLayout: ""
@@ -31411,7 +33805,1375 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set2_2hSpear
+  ItemName: FC_Artifact_Set2_2hSpear || FC_Artifact_Set2_2hSpear_GS725
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_CraftArtifact"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Container_Artifact_Set2_2hGreatSword
+  Type: SimpleTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_ContainerEquip_Artifact_Set2_2hGreatSword
+  SubTask2: Task_Craft_Artifact_Set2_2hGreatSword
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_ContainerEquip_Artifact_Set2_2hGreatSword
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: false
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Artifact_Desc"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_Equip_Artifact_Set2_2hGreatSword
+  SubTask2: Task_ContainerPerks_Artifact_Set2_2hGreatSword
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Equip_Artifact_Set2_2hGreatSword
+  Type: TaskEquipItem
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: 1.0
+  TargetQty: 1.0
+  ItemName: Artifact_Set2_2hGreatSword
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@objective_equip"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_ContainerPerks_Artifact_Set2_2hGreatSword
+  Type: SimpleTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
+  OverrideLocation: ""
+  IsHidden: 1.0
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_Perk1_Artifact_Set2_2hGreatSword
+  SubTask2: Task_Perk2_Artifact_Set2_2hGreatSword
+  SubTask3: Task_Perk3_Artifact_Set2_2hGreatSword
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk1_Artifact_Set2_2hGreatSword
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: true
+  TerritoryID: null
+  POITag: pirate_fort_30016
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: CK_Undead_Pirate_Brute_Named_10WS09_ELITE_a
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@objective_mission_kill_generic_at_POI"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk2_Artifact_Set2_2hGreatSword
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 40.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: true
+  TerritoryID: null
+  POITag: brute_island_30024
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: Lost
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@objective_mission_kill_generic_at_POI"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk3_Artifact_Set2_2hGreatSword
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: true
+  TerritoryID: null
+  POITag: ""
+  GameModeID: DungeonCutlassKeys00
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: Dryad_Siren
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Kill_BnBP"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Craft_Artifact_Set2_2hGreatSword
+  Type: TaskAchievement
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: 1.0
+  TargetQty: null
+  ItemName: FC_Artifact_Set2_2hGreatSword || FC_Artifact_Set2_2hGreatSword_GS725
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_CraftArtifact"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Container_Artifact_Set2_1hFlail
+  Type: SimpleTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_ContainerEquip_Artifact_Set2_1hFlail
+  SubTask2: Task_Craft_Artifact_Set2_1hFlail
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_ContainerEquip_Artifact_Set2_1hFlail
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: false
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Artifact_Desc"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_Equip_Artifact_Set2_1hFlail
+  SubTask2: Task_ContainerPerks_Artifact_Set2_1hFlail
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Equip_Artifact_Set2_1hFlail
+  Type: TaskEquipItem
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: 1.0
+  TargetQty: 1.0
+  ItemName: Artifact_Set2_1hFlail
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@objective_equip"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_ContainerPerks_Artifact_Set2_1hFlail
+  Type: SimpleTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
+  OverrideLocation: ""
+  IsHidden: 1.0
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_Perk1_Artifact_Set2_1hFlail
+  SubTask2: Task_Perk2_Artifact_Set2_1hFlail
+  SubTask3: Task_Perk3_Artifact_Set2_1hFlail
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk1_Artifact_Set2_1hFlail
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 50.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: true
+  TerritoryID: null
+  POITag: pirate_fort_30056
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: Lost
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@objective_mission_kill_generic_at_POI"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk2_Artifact_Set2_1hFlail
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: true
+  TerritoryID: null
+  POITag: Arena2
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: spriggan_forest
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@objective_mission_kill_generic_at_POI"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk3_Artifact_Set2_1hFlail
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: true
+  TerritoryID: null
+  POITag: ancient_observatory_20423
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: Anubian_Scarab_67_Named_ELITE_00
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@objective_mission_kill_generic_at_POI"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Craft_Artifact_Set2_1hFlail
+  Type: TaskAchievement
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: 1.0
+  TargetQty: null
+  ItemName: FC_Artifact_Set2_1hFlail || FC_Artifact_Set2_1hFlail_GS725
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_CraftArtifact"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Container_Artifact_Set2_Ring1
+  Type: SimpleTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_ContainerEquip_Artifact_Set2_Ring1
+  SubTask2: Task_Craft_Artifact_Set2_Ring1
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_ContainerEquip_Artifact_Set2_Ring1
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: false
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Artifact_Desc"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_Equip_Artifact_Set2_Ring1
+  SubTask2: Task_ContainerPerks_Artifact_Set2_Ring1
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Equip_Artifact_Set2_Ring1
+  Type: TaskEquipItem
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: 1.0
+  TargetQty: 1.0
+  ItemName: Artifact_Set2_Ring1
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@objective_equip"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_ContainerPerks_Artifact_Set2_Ring1
+  Type: SimpleTaskContainer
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
+  OverrideLocation: ""
+  IsHidden: 1.0
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: Task_Perk1_Artifact_Set2_Ring1
+  SubTask2: Task_Perk2_Artifact_Set2_Ring1
+  SubTask3: Task_Perk3_Artifact_Set2_Ring1
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk1_Artifact_Set2_Ring1
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: true
+  TerritoryID: null
+  POITag: ""
+  GameModeID: TrialBrimstoneSandworm
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: Sandworm
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Kill_Sandworm"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk2_Artifact_Set2_Ring1
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 50.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: true
+  TerritoryID: null
+  POITag: ""
+  GameModeID: DungeonFirstLight01
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: Beast
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Kill_SavageDivide"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Perk3_Artifact_Set2_Ring1
+  Type: TaskKillContribution
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: null
+  TargetQty: 50.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: true
+  TerritoryID: null
+  POITag: ""
+  GameModeID: RaidCutlassKeys00
+  ShouldCheckPoints: null
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: AngryEarth
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Objective_Kill_in_CK_Raid"
+  OverrideLocation: ""
+  IsHidden: null
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: true
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Task_Craft_Artifact_Set2_Ring1
+  Type: TaskAchievement
+  FailOnCondition: null
+  ResetOnCondition: null
+  StayActive: 1.0
+  TargetQty: null
+  ItemName: FC_Artifact_Set2_Ring1 || FC_Artifact_Set2_Ring1_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -31679,7 +35441,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@Objective_Artifact_PerkTasks"
   OverrideLocation: ""
-  IsHidden: null
+  IsHidden: 1.0
   CompletedNotificationId: ""
   GridLayout: ""
   CommunityGoalTag: ""
@@ -31828,7 +35590,7 @@
   InteractTag: ""
   UIScreenTag: ""
   TriggerAreaType: ""
-  KillEnemyType: ghost_charred_65
+  KillEnemyType: GhostCharred
   KillEnemyWeaponID: ""
   Duration: null
   TaskBuySellType: ""
@@ -31867,7 +35629,7 @@
   ResetOnCondition: null
   StayActive: 1.0
   TargetQty: null
-  ItemName: FC_Artifact_Set2_Amulet1
+  ItemName: FC_Artifact_Set2_Amulet1 || FC_Artifact_Set2_Amulet1_GS725
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null

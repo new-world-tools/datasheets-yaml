@@ -64078,40 +64078,40 @@
   ColorFamilies: ""
   PlacementGridDisplaySize: ""
   Notes: ""
-- HouseItemID: House_HousingItem_Spriggan2024_PottedTree
+- HouseItemID: House_HousingItem_Buff_SPECIAL_Season6_T1
   ExcludeFromGame: 0.0
-  PrefabPath: Housing/Items/InGame_Rewards/Season6/HousingItem_Spriggan2024_PottedTree
-  DEV-FurnitureSet: NA-Other
+  PrefabPath: Housing/Items/InGame_Rewards/Buff_Trophies/HousingItem_Buff_SPECIAL_Season6_T1
+  DEV-FurnitureSet: NA-Buffs
   UIHousingCategory: Misc
-  HousingTag1 Placed: OnFloor
-  HousingTag2 Points: +IsMediumDecor
+  HousingTag1 Placed: OnWall
+  HousingTag2 Points: +IsLargeDecor
   HousingTag3 Limiter: ""
-  HousingTag5 Buffs: ""
-  HousingTags: OnFloor+IsMediumDecor
-  IsEntitlement: "0"
-  AttributionId: ""
-  HowToOptain (Primarily): Season Event Drop
-  ItemRarity: Epic
-  ForceRarity: 3.0
+  HousingTag5 Buffs: +SeasonXPBonus
+  HousingTags: OnWall+IsLargeDecor+SeasonXPBonus
+  IsEntitlement: "FALSE"
+  AttributionId: Season_6
+  HowToOptain (Primarily): Season Journey Reward
+  ItemRarity: Legendary
+  ForceRarity: 4.0
   RankingPointsDuplicateLimit: 2.0
-  RankingPointsNegativeLimit: 3.0
+  RankingPointsNegativeLimit: 4.0
   PointModifier: 0.0
-  RankingPoints: "0.13"
-  MaxPotentialPoints: "0.26"
-  HousingStatusEffect: ""
+  RankingPoints: "0.15"
+  MaxPotentialPoints: "0.3"
+  HousingStatusEffect: Season6_TrophySeasonXPBonus
   StorageBonus: null
   InteractionAnimationID: ""
-  Name: "@House_HousingItem_Spriggan2024_PottedTree_MasterName"
-  Description: "@House_HousingItem_Spriggan2024_PottedTree_Description"
-  IconPath: lyshineui/images/icons/items/HousingItem/House_HousingItem_Spriggan2024_PottedTree.png
-  HiResIconPath: lyshineui/images/icons/items_hires/House_HousingItem_Spriggan2024_PottedTree.png
+  Name: "@House_HousingItem_Buff_SPECIAL_Season6_T1_MasterName"
+  Description: "@House_HousingItem_Buff_SPECIAL_Season6_T1_Description"
+  IconPath: lyshineui/images/icons/items/HousingItem/House_HousingItem_Buff_SPECIAL_Season6_T1.png
+  HiResIconPath: lyshineui/images/icons/items_hires/House_HousingItem_Buff_SPECIAL_Season6_T1.png
   Weight: 9.0
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
   ItemType: HousingItem
   UiItemClass: UI_Furniture
-  Tier: 4.0
+  Tier: 5.0
   IsSalvageable: false
   SalvageResources: false
   IsRepairable: false
@@ -64138,52 +64138,52 @@
   ColorFamilies: ""
   PlacementGridDisplaySize: ""
   Notes: ""
-- HouseItemID: House_HousingItem_Summer2024_WallFountain
+- HouseItemID: HousingItem_Corrupted_Ogre_Floor_Statue
   ExcludeFromGame: 0.0
-  PrefabPath: Housing/Items/InGame_Rewards/HolidaySummer2024/HousingItem_Summer2024_WallFountain
+  PrefabPath: Housing/Items/InGame_Rewards/Season6/HousingItem_Corrupted_Ogre_Floor_Statue
   DEV-FurnitureSet: NA-Other
-  UIHousingCategory: Misc
-  HousingTag1 Placed: OnWall
-  HousingTag2 Points: +IsMediumDecor
+  UIHousingCategory: Decorations
+  HousingTag1 Placed: OnFloor
+  HousingTag2 Points: +IsLargeDecor
   HousingTag3 Limiter: ""
   HousingTag5 Buffs: ""
-  HousingTags: OnWall+IsMediumDecor
+  HousingTags: OnFloor+IsLargeDecor
   IsEntitlement: "0"
-  AttributionId: SummerMedleyfaire_2022
-  HowToOptain (Primarily): Holiday Shop
+  AttributionId: ""
+  HowToOptain (Primarily): Loot Drop - Rare
   ItemRarity: Epic
   ForceRarity: 3.0
-  RankingPointsDuplicateLimit: 4.0
-  RankingPointsNegativeLimit: 8.0
+  RankingPointsDuplicateLimit: 2.0
+  RankingPointsNegativeLimit: 4.0
   PointModifier: 0.0
   RankingPoints: "0.13"
-  MaxPotentialPoints: "0.52"
+  MaxPotentialPoints: "0.26"
   HousingStatusEffect: ""
   StorageBonus: null
   InteractionAnimationID: ""
-  Name: "@House_HousingItem_Summer2024_WallFountain_MasterName"
-  Description: "@House_HousingItem_Summer2024_WallFountain_Description"
-  IconPath: lyshineui/images/icons/items/HousingItem/House_HousingItem_Summer2024_WallFountain.png
-  HiResIconPath: lyshineui/images/icons/items_hires/House_HousingItem_Summer2024_WallFountain.png
-  Weight: 7.0
+  Name: "@HousingItem_Corrupted_Ogre_Floor_Statue_MasterName"
+  Description: "@HousingItem_Corrupted_Ogre_Floor_Statue_Description"
+  IconPath: lyshineui/images/icons/items/HousingItem/HousingItem_Corrupted_Ogre_Floor_Statue.png
+  HiResIconPath: lyshineui/images/icons/items_hires/HousingItem_Corrupted_Ogre_Floor_Statue.png
+  Weight: 9.0
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
   ItemType: HousingItem
   UiItemClass: UI_Furniture
   Tier: 4.0
-  IsSalvageable: false
+  IsSalvageable: true
   SalvageResources: false
   IsRepairable: false
-  BindOnPickup: true
+  BindOnPickup: false
   CraftingRecipe: ""
   RepairRecipe: ""
   SalvageRecipe: ""
-  SalvageGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT4
   RepairDustModifier: 0.0
   ConfirmBeforeUse: false
   ConsumeOnUse: false
-  MaxStackSize: 4.0
+  MaxStackSize: 2.0
   DeathDropPercentage: 0.0
   ItemTypeDisplayName: "@ui_itemtypedescription_housingitem"
   Nonremovable: false
@@ -64198,40 +64198,100 @@
   ColorFamilies: ""
   PlacementGridDisplaySize: ""
   Notes: ""
-- HouseItemID: House_HousingItem_Summer2024_WallSunArt
+- HouseItemID: HousingItem_Corrupted_Ogre_Miniature_Statue
   ExcludeFromGame: 0.0
-  PrefabPath: Housing/Items/InGame_Rewards/HolidaySummer2024/HousingItem_Summer2024_WallSunArt
+  PrefabPath: Housing/Items/InGame_Rewards/Season6/HousingItem_Corrupted_Ogre_Miniature_Statue
   DEV-FurnitureSet: NA-Other
-  UIHousingCategory: Misc
-  HousingTag1 Placed: OnWall
-  HousingTag2 Points: +IsMediumDecor
+  UIHousingCategory: Decorations
+  HousingTag1 Placed: OnFurniture
+  HousingTag2 Points: +IsSmallDecor
   HousingTag3 Limiter: ""
   HousingTag5 Buffs: ""
-  HousingTags: OnWall+IsMediumDecor
+  HousingTags: OnFurniture+IsSmallDecor
   IsEntitlement: "0"
-  AttributionId: SummerMedleyfaire_2022
-  HowToOptain (Primarily): Holiday Shop
+  AttributionId: ""
+  HowToOptain (Primarily): Loot Drop - Rare
   ItemRarity: Epic
   ForceRarity: 3.0
-  RankingPointsDuplicateLimit: 4.0
-  RankingPointsNegativeLimit: 8.0
+  RankingPointsDuplicateLimit: 6.0
+  RankingPointsNegativeLimit: 12.0
   PointModifier: 0.0
   RankingPoints: "0.13"
-  MaxPotentialPoints: "0.52"
+  MaxPotentialPoints: "0.78"
   HousingStatusEffect: ""
   StorageBonus: null
   InteractionAnimationID: ""
-  Name: "@House_HousingItem_Summer2024_WallSunArt_MasterName"
-  Description: "@House_HousingItem_Summer2024_WallSunArt_Description"
-  IconPath: lyshineui/images/icons/items/HousingItem/House_HousingItem_Summer2024_WallSunArt.png
-  HiResIconPath: lyshineui/images/icons/items_hires/House_HousingItem_Summer2024_WallSunArt.png
-  Weight: 7.0
+  Name: "@HousingItem_Corrupted_Ogre_Miniature_Statue_MasterName"
+  Description: "@HousingItem_Corrupted_Ogre_Miniature_Statue_Description"
+  IconPath: lyshineui/images/icons/items/HousingItem/HousingItem_Corrupted_Ogre_Miniature_Statue.png
+  HiResIconPath: lyshineui/images/icons/items_hires/HousingItem_Corrupted_Ogre_Miniature_Statue.png
+  Weight: 5.0
   TradingCategory: ""
   TradingFamily: ""
   TradingGroup: ""
   ItemType: HousingItem
   UiItemClass: UI_Furniture
   Tier: 4.0
+  IsSalvageable: true
+  SalvageResources: false
+  IsRepairable: false
+  BindOnPickup: false
+  CraftingRecipe: ""
+  RepairRecipe: ""
+  SalvageRecipe: ""
+  SalvageGameEventID: SalvageCoinGrantT4
+  RepairDustModifier: 0.0
+  ConfirmBeforeUse: false
+  ConsumeOnUse: false
+  MaxStackSize: 6.0
+  DeathDropPercentage: 0.0
+  ItemTypeDisplayName: "@ui_itemtypedescription_housingitem"
+  Nonremovable: false
+  AudioPickup: Play_UI_Pickup_Generic
+  AudioPlace: Play_UI_Drop_Generic
+  AudioUse: Play_UI_Use_Generic
+  AudioCreated: Play_UI_Created_Generic
+  AudioDestroyed: ""
+  Primary Color: ""
+  Secondary Color: ""
+  Tertiary Color: ""
+  ColorFamilies: ""
+  PlacementGridDisplaySize: ""
+  Notes: ""
+- HouseItemID: House_HousingItem_Pet_Entitlement_Cat_Prime2024
+  ExcludeFromGame: 0.0
+  PrefabPath: Housing/Items/Animals_LiveOps/HousingItem_Pet_Nightveil2024_Cat
+  DEV-FurnitureSet: NA-Other
+  UIHousingCategory: Pets
+  HousingTag1 Placed: OnFloor
+  HousingTag2 Points: +IsAnimal
+  HousingTag3 Limiter: +LimiterAnimatedRigged
+  HousingTag5 Buffs: +NoStacking
+  HousingTags: OnFloor+IsAnimal+LimiterAnimatedRigged+NoStacking
+  IsEntitlement: "1"
+  AttributionId: ""
+  HowToOptain (Primarily): MTX Shop/Gift
+  ItemRarity: Rare
+  ForceRarity: 2.0
+  RankingPointsDuplicateLimit: 1.0
+  RankingPointsNegativeLimit: 2.0
+  PointModifier: 0.0
+  RankingPoints: "0.12"
+  MaxPotentialPoints: "0.12"
+  HousingStatusEffect: ""
+  StorageBonus: null
+  InteractionAnimationID: HousingItemPetCat
+  Name: "@House_HousingItem_Pet_Entitlement_Cat_Prime2024_MasterName"
+  Description: "@House_HousingItem_Pet_Entitlement_Cat_Prime2024_Description"
+  IconPath: lyshineui/images/icons/items/HousingItem/House_HousingItem_Pet_Entitlement_Cat_Prime2024.png
+  HiResIconPath: lyshineui/images/icons/items_hires/House_HousingItem_Pet_Entitlement_Cat_Prime2024.png
+  Weight: 10.0
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  ItemType: HousingItem
+  UiItemClass: UI_Furniture
+  Tier: 3.0
   IsSalvageable: false
   SalvageResources: false
   IsRepairable: false
@@ -64243,7 +64303,7 @@
   RepairDustModifier: 0.0
   ConfirmBeforeUse: false
   ConsumeOnUse: false
-  MaxStackSize: 4.0
+  MaxStackSize: 1.0
   DeathDropPercentage: 0.0
   ItemTypeDisplayName: "@ui_itemtypedescription_housingitem"
   Nonremovable: false

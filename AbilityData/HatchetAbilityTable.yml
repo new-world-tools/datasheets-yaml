@@ -1,7 +1,7 @@
 - AbilityID: Ability_Hatchet_Berserk
   DisplayName: "@Berserk"
   Description: "@Berserk_description"
-  UICategory: Buff
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/hatchet_Ability01.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Hatchet_Ability_1
@@ -83,6 +83,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -109,6 +110,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: Hatchet_Berserk_Taunt
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -148,7 +150,7 @@
 - AbilityID: Upgrade_Hatchet_Berserk_Speed
   DisplayName: "@Berserk_Mod1"
   Description: "@Berserk_Mod1_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/hatchet_Ability01_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -230,6 +232,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -256,6 +259,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -295,7 +299,7 @@
 - AbilityID: Upgrade_Hatchet_Berserk_HPOnEnd
   DisplayName: "@Berserk_Mod2"
   Description: "@Berserk_Mod2_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/hatchet_Ability01_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -377,6 +381,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -403,6 +408,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -442,7 +448,7 @@
 - AbilityID: Upgrade_Hatchet_Berserk_Purge
   DisplayName: "@Berserk_Mod3"
   Description: "@Berserk_Mod3_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/hatchet_Ability01_Mod03.png
   StatusEffectIcon: ""
   Sound: ""
@@ -524,6 +530,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -550,6 +557,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -589,7 +597,7 @@
 - AbilityID: Upgrade_Hatchet_Berserk_Unstoppable
   DisplayName: "@Berserk_Mod4"
   Description: "@Berserk_Mod4_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/hatchet_Ability01_Mod04.png
   StatusEffectIcon: ""
   Sound: ""
@@ -671,6 +679,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -697,6 +706,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -736,7 +746,7 @@
 - AbilityID: Ability_Hatchet_FeralRush
   DisplayName: "@SprintAttack"
   Description: "@SprintAttack_description"
-  UICategory: Melee Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/hatchet_Ability02.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Hatchet_Ability_2
@@ -748,7 +758,7 @@
   RequiredAbilityId: ""
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 1.0
+  TreeRowPosition: 2.0
   TreeColumnPosition: 0.0
   IsActiveAbility: true
   IsGlobalAbility: false
@@ -818,6 +828,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -844,6 +855,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -883,7 +895,7 @@
 - AbilityID: Upgrade_Hatchet_FeralRush_DMGVsLowHP
   DisplayName: "@SprintAttack_Mod1"
   Description: "@SprintAttack_Mod1_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/hatchet_Ability02_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -895,7 +907,7 @@
   RequiredAbilityId: Ability_Hatchet_FeralRush
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 2.0
+  TreeRowPosition: 3.0
   TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -919,7 +931,7 @@
   OnDeath: false
   OnDeathsDoor: false
   AllowSelfDamageForHitEvents: null
-  RequireReaction: null
+  RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
@@ -932,7 +944,7 @@
   DamageIsMelee: null
   ForceShowNameTag: ""
   TargetHasGritActive: ""
-  DamageTableRow: ""
+  DamageTableRow: Hatchet_Damage_SprintAttack1,Hatchet_Damage_SprintAttack2
   RemoteDamageTableRow: ""
   RangedAttackName: ""
   AttackType: ""
@@ -959,12 +971,13 @@
   NumAroundComparisonType: ""
   AbilityList: ""
   AbilityTrigger: ""
-  InAction: Hatchet_Attack_Sprint_Land
-  InActionTime: 0.25
+  InAction: ""
+  InActionTime: null
   AfterAction: ""
-  InSequence: Attack_Sprint_Land
-  InSequenceTime: 0.25
+  InSequence: ""
+  InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.2
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -991,6 +1004,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -1030,7 +1044,7 @@
 - AbilityID: Upgrade_Hatchet_FeralRush_BackstabRoot
   DisplayName: "@SprintAttack_Mod2"
   Description: "@SprintAttack_Mod2_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/hatchet_Ability02_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -1042,7 +1056,7 @@
   RequiredAbilityId: Upgrade_Hatchet_FeralRush_DMGVsLowHP
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 3.0
+  TreeRowPosition: 4.0
   TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -1112,6 +1126,7 @@
   InSequence: Attack_Sprint_Land
   InSequenceTime: 0.25
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -1138,6 +1153,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -1177,7 +1193,7 @@
 - AbilityID: Ability_Hatchet_RagingTorrent
   DisplayName: "@RapidStrikes"
   Description: "@RapidStrikes_description"
-  UICategory: Melee Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/hatchet_Ability03.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Hatchet_Ability_3
@@ -1189,7 +1205,7 @@
   RequiredAbilityId: ""
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 2.0
+  TreeRowPosition: 1.0
   TreeColumnPosition: 4.0
   IsActiveAbility: true
   IsGlobalAbility: false
@@ -1259,6 +1275,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -1285,6 +1302,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -1324,7 +1342,7 @@
 - AbilityID: Upgrade_Hatchet_Torrent_Haste
   DisplayName: "@RapidStrikes_Mod1"
   Description: "@RapidStrikes_Mod1_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/hatchet_Ability03_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -1336,7 +1354,7 @@
   RequiredAbilityId: Ability_Hatchet_RagingTorrent
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 3.0
+  TreeRowPosition: 2.0
   TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -1406,6 +1424,7 @@
   InSequence: Ability_Hatchet_RapidStrikes
   InSequenceTime: 0.1
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -1432,6 +1451,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -1471,7 +1491,7 @@
 - AbilityID: Upgrade_Hatchet_Torrent_ExtraAtk
   DisplayName: "@RapidStrikes_Mod2"
   Description: "@RapidStrikes_Mod2_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/hatchet_Ability03_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -1483,7 +1503,7 @@
   RequiredAbilityId: Upgrade_Hatchet_Torrent_Haste
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 4.0
+  TreeRowPosition: 3.0
   TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -1553,6 +1573,7 @@
   InSequence: Ability_Hatchet_RapidStrikes
   InSequenceTime: 0.1
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -1579,6 +1600,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -1700,6 +1722,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.2
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -1726,6 +1749,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -1847,6 +1871,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -1873,6 +1898,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -1994,6 +2020,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -2020,6 +2047,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -2072,7 +2100,7 @@
   RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 1.0
-  TreeColumnPosition: 4.0
+  TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -2141,6 +2169,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -2167,6 +2196,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -2288,6 +2318,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.1
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -2314,6 +2345,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -2435,6 +2467,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -2461,6 +2494,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -2582,6 +2616,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -2608,6 +2643,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -2729,6 +2765,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: 500.0
   BaseDamageReduction: ""
@@ -2755,6 +2792,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -2794,7 +2832,7 @@
 - AbilityID: Ability_Hatchet_RendingThrow
   DisplayName: "@RendingThrow"
   Description: "@RendingThrow_description"
-  UICategory: Ranged Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/hatchet_Ability04.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Hatchet_Ability_4
@@ -2876,6 +2914,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -2902,6 +2941,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -2941,7 +2981,7 @@
 - AbilityID: Upgrade_Hatchet_RendThrow_DistanceBuffRend
   DisplayName: "@RendingThrow_Mod1"
   Description: "@RendingThrow_Mod1_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/hatchet_Ability04_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3023,6 +3063,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -3049,6 +3090,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -3088,7 +3130,7 @@
 - AbilityID: Upgrade_Hatchet_RendThrow_DmgOnDebuff
   DisplayName: "@RendingThrow_Mod2"
   Description: "@RendingThrow_Mod2_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/hatchet_Ability04_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3170,6 +3212,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.2
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -3196,6 +3239,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -3235,7 +3279,7 @@
 - AbilityID: Upgrade_Hatchet_RendThrow_CDROnDebuff
   DisplayName: "@RendingThrow_Mod3"
   Description: "@RendingThrow_Mod3_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/hatchet_Ability04_Mod03.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3317,6 +3361,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -3343,6 +3388,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -3382,7 +3428,7 @@
 - AbilityID: Ability_Hatchet_SocialDistancing
   DisplayName: "@SocialDistancing"
   Description: "@SocialDistancing_description"
-  UICategory: Ranged Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/hatchet_Ability05.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Hatchet_Ability_2
@@ -3464,6 +3510,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -3490,6 +3537,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -3529,7 +3577,7 @@
 - AbilityID: Passive_Hatchet_Distance_HasteOnDebuff
   DisplayName: "@SocialDistancing_Mod1"
   Description: "@SocialDistancing_Mod1_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/hatchet_Ability05_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3611,6 +3659,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -3637,6 +3686,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -3676,7 +3726,7 @@
 - AbilityID: Passive_Hatchet_Distance_BetterSlow
   DisplayName: "@SocialDistancing_Mod2"
   Description: "@SocialDistancing_Mod2_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/hatchet_Ability05_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3758,6 +3808,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -3784,6 +3835,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -3823,7 +3875,7 @@
 - AbilityID: Ability_Hatchet_InfectedThrow
   DisplayName: "@InfectedThrow"
   Description: "@InfectedThrow_description"
-  UICategory: Ranged Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/hatchet_Ability06.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Hatchet_Ability_5
@@ -3905,6 +3957,7 @@
   InSequence: Attack_Special3
   InSequenceTime: 0.1
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -3931,6 +3984,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -3970,7 +4024,7 @@
 - AbilityID: Upgrade_Hatchet_Infected_BuffWeakenVsLowHP
   DisplayName: "@InfectedThrow_Mod1"
   Description: "@InfectedThrow_Mod1_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/hatchet_Ability06_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -4052,6 +4106,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -4078,6 +4133,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -4117,7 +4173,7 @@
 - AbilityID: Upgrade_Hatchet_Infected_AOE
   DisplayName: "@InfectedThrow_Mod2"
   Description: "@InfectedThrow_Mod2_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/hatchet_Ability06_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -4199,6 +4255,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -4225,6 +4282,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -4264,7 +4322,7 @@
 - AbilityID: Passive_Hatchet_ThrowingAxe_AimedThrow
   DisplayName: "@AimedThrow"
   Description: "@AimedThrow_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/hatchet_Passive08.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Hatchet_Ability_6
@@ -4346,6 +4404,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -4372,6 +4431,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -4493,6 +4553,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -4519,6 +4580,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -4640,6 +4702,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -4666,6 +4729,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -4787,6 +4851,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.1
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -4813,6 +4878,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -4934,6 +5000,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -4960,6 +5027,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -5081,6 +5149,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -5107,6 +5176,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -5228,6 +5298,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -5254,6 +5325,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -5375,6 +5447,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.25
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -5401,6 +5474,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -5522,6 +5596,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -5548,6 +5623,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -5669,6 +5745,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -5695,6 +5772,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""
@@ -5816,6 +5894,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.04
   SetHealthOnFatalDamageTaken: null
   BaseDamageReduction: ""
@@ -5842,6 +5921,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   EnableCrit: ""

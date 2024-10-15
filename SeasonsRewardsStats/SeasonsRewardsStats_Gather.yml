@@ -42,7 +42,7 @@
   ItemClass: ""
   PerUse: true
   Tradeskills: ""
-  GatherableIds: LootLargeT3ElitePOI
+  GatherableIds: LootLargeT3ElitePOI,LootLargeT3ElitePOI_SulfurChestOnly,LootLargeT3ElitePOI_BeastChestOnly
 - TrackedStatID: GatherPrismabloom
   StatType: Gather
   TargetID: ""
@@ -78,4 +78,22 @@
   ItemClass: ""
   PerUse: true
   Tradeskills: Skinning,Mining,Logging,Harvesting
+  GatherableIds: ""
+- TrackedStatID: GatherCKPvPChest
+  StatType: Gather
+  TargetID: ""
+  Level: null
+  ItemType: ""
+  ItemClass: ""
+  PerUse: true
+  Tradeskills: ""
+  GatherableIds: 10ws_DoubloonChestPvP_Small,10ws_DoubloonChestPvP_Medium,10ws_DoubloonChestPvP_Large
+- TrackedStatID: GatherCKPvPDoubloon
+  StatType: Gather
+  TargetID: CK_PVPResource_DoubloonToken
+  Level: null
+  ItemType: ""
+  ItemClass: ""
+  PerUse: null
+  Tradeskills: ""
   GatherableIds: ""

@@ -1,7 +1,7 @@
 - AbilityID: Ability_Greataxe_Charge
   DisplayName: "@Ability_Greataxe_Charge"
   Description: "@Ability_Greataxe_Charge_description"
-  UICategory: Melee Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/GreatAxe_Ability01.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_GreatAxe_Ability_1
@@ -11,7 +11,7 @@
   WeaponTag: GreatAxe
   RequiredAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 1.0
+  TreeRowPosition: 2.0
   TreeColumnPosition: 0.0
   IsActiveAbility: true
   IsGlobalAbility: false
@@ -78,6 +78,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -132,7 +133,7 @@
 - AbilityID: Upgrade_Greataxe_Charge_DmgPerDistance
   DisplayName: "@Upgrade_Greataxe_Charge_DmgPerDistance"
   Description: "@Upgrade_Greataxe_Charge_DmgPerDistance_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/GreatAxe_Ability01_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -142,7 +143,7 @@
   WeaponTag: GreatAxe
   RequiredAbilityId: Ability_Greataxe_Charge
   TreeId: 0.0
-  TreeRowPosition: 2.0
+  TreeRowPosition: 3.0
   TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -209,6 +210,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -263,7 +265,7 @@
 - AbilityID: Upgrade_Greataxe_Charge_SwingAttack
   DisplayName: "@Upgrade_Greataxe_Charge_SwingAttack"
   Description: "@Upgrade_Greataxe_Charge_SwingAttack_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/GreatAxe_Ability01_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -340,6 +342,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -394,7 +397,7 @@
 - AbilityID: Ability_Greataxe_Reap
   DisplayName: "@Ability_Greataxe_Reap"
   Description: "@Ability_Greataxe_Reap_description"
-  UICategory: Melee Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/GreatAxe_Ability02.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_GreatAxe_Ability_2
@@ -404,7 +407,7 @@
   WeaponTag: GreatAxe
   RequiredAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 0.0
+  TreeRowPosition: 1.0
   TreeColumnPosition: 2.0
   IsActiveAbility: true
   IsGlobalAbility: false
@@ -471,6 +474,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -525,7 +529,7 @@
 - AbilityID: Upgrade_Greataxe_Reap_RngInc
   DisplayName: "@Upgrade_Greataxe_Reap_RngInc"
   Description: "@Upgrade_Greataxe_Reap_RngInc_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/GreatAxe_Ability02_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -535,7 +539,7 @@
   WeaponTag: GreatAxe
   RequiredAbilityId: Ability_Greataxe_Reap
   TreeId: 0.0
-  TreeRowPosition: 1.0
+  TreeRowPosition: 2.0
   TreeColumnPosition: 2.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -602,6 +606,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -656,7 +661,7 @@
 - AbilityID: Upgrade_Greataxe_Reap_Lifesteal
   DisplayName: "@Upgrade_Greataxe_Reap_Lifesteal"
   Description: "@Upgrade_Greataxe_Reap_Lifesteal_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/GreatAxe_Ability02_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -733,6 +738,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -787,7 +793,7 @@
 - AbilityID: Upgrade_Greataxe_Reap_SpingAttack
   DisplayName: "@Upgrade_Greataxe_Reap_SpingAttack"
   Description: "@Upgrade_Greataxe_Reap_SpingAttack_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/GreatAxe_Ability02_Mod03.png
   StatusEffectIcon: ""
   Sound: ""
@@ -864,6 +870,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -918,7 +925,7 @@
 - AbilityID: Ability_Greataxe_Executioner
   DisplayName: "@Ability_Greataxe_Executioner"
   Description: "@Ability_Greataxe_Executioner_description"
-  UICategory: Melee Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/GreatAxe_Ability03.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_GreatAxe_Ability_3
@@ -928,7 +935,7 @@
   WeaponTag: GreatAxe
   RequiredAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 2.0
+  TreeRowPosition: 0.0
   TreeColumnPosition: 4.0
   IsActiveAbility: true
   IsGlobalAbility: false
@@ -995,6 +1002,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.5
   BaseDamageReduction: null
   BlockDamage: ""
@@ -1049,7 +1057,7 @@
 - AbilityID: Upgrade_Greataxe_Executioner_AddGrit
   DisplayName: "@Upgrade_Greataxe_Executioner_AddGrit"
   Description: "@Upgrade_Greataxe_Executioner_AddGrit_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/GreatAxe_Ability03_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -1059,7 +1067,7 @@
   WeaponTag: GreatAxe
   RequiredAbilityId: Ability_Greataxe_Executioner
   TreeId: 0.0
-  TreeRowPosition: 3.0
+  TreeRowPosition: 1.0
   TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -1126,6 +1134,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -1180,7 +1189,7 @@
 - AbilityID: Upgrade_Greataxe_Executioner_CritVsLowHP
   DisplayName: "@Upgrade_Greataxe_Executioner_CritVsLowHP"
   Description: "@Upgrade_Greataxe_Executioner_CritVsLowHP_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/GreatAxe_Ability03_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -1190,7 +1199,7 @@
   WeaponTag: GreatAxe
   RequiredAbilityId: Ability_Greataxe_Executioner
   TreeId: 0.0
-  TreeRowPosition: 4.0
+  TreeRowPosition: 2.0
   TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -1257,6 +1266,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -1388,6 +1398,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -1453,7 +1464,7 @@
   RequiredAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 0.0
-  TreeColumnPosition: 4.0
+  TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -1519,6 +1530,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -1650,6 +1662,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -1781,6 +1794,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -1912,6 +1926,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -2043,6 +2058,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -2174,6 +2190,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -2239,7 +2256,7 @@
   RequiredAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 4.0
-  TreeColumnPosition: 1.0
+  TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -2305,6 +2322,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -2436,6 +2454,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -2490,7 +2509,7 @@
 - AbilityID: Ability_Greataxe_Whirlwind
   DisplayName: "@Ability_Greataxe_Whirlwind"
   Description: "@Ability_Greataxe_Whirlwind_description"
-  UICategory: Melee Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/GreatAxe_Ability04.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_GreatAxe_Ability_5
@@ -2500,7 +2519,7 @@
   WeaponTag: GreatAxe
   RequiredAbilityId: ""
   TreeId: 1.0
-  TreeRowPosition: 1.0
+  TreeRowPosition: 0.0
   TreeColumnPosition: 0.0
   IsActiveAbility: true
   IsGlobalAbility: false
@@ -2567,6 +2586,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -2621,8 +2641,140 @@
 - AbilityID: Upgrade_Greataxe_Whirlwind_MoreSpins
   DisplayName: "@Upgrade_Greataxe_Whirlwind_MoreSpins"
   Description: "@Upgrade_Greataxe_Whirlwind_MoreSpins_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/GreatAxe_Ability04_Mod01.png
+  StatusEffectIcon: ""
+  Sound: ""
+  TelegraphStatusEffect: ""
+  TelegraphCountOffset: ""
+  OnEquipStatusEffect: ""
+  WeaponTag: GreatAxe
+  RequiredAbilityId: Ability_Greataxe_Whirlwind
+  TreeId: 1.0
+  TreeRowPosition: 1.0
+  TreeColumnPosition: 0.0
+  IsActiveAbility: false
+  IsGlobalAbility: false
+  ScalingStrength: ""
+  ScalingDexterity: ""
+  ScalingIntelligence: ""
+  ScalingSpirit: ""
+  ScalingConstitution: ""
+  OnKill: false
+  OnExecuted: false
+  OnHit: false
+  OnBlockedHit: false
+  OnCrit: false
+  OnHeadShot: false
+  OnLegShot: false
+  OnHitTaken: false
+  OnBlockedHitTaken: false
+  OnBlockBreak: false
+  OnTargetBlockBreak: false
+  OnDeath: false
+  OnDeathsDoor: false
+  RequireReaction: false
+  NumSuccessfulHits: 0.0
+  NumConsecutiveHits: 0.0
+  MaxConsecutiveHits: 0.0
+  TrackHitCount: false
+  MaxTrackedHitCounts: 0.0
+  ResetConsecutiveOnSuccess: ""
+  NumberOfTrackedHits: null
+  NumberOfHitsComparisonType: ""
+  DamageIsRanged: ""
+  DamageIsMelee: ""
+  ForceShowNameTag: ""
+  HasGritActive: null
+  TargetHasGritActive: ""
+  DamageTableRow: ""
+  RemoteDamageTableRow: ""
+  RangedAttackName: ""
+  AttackType: ""
+  IgnoreDisabledAttackTypes: ""
+  DamageTypes: ""
+  StatusEffect: ""
+  StatusEffectCategories: ""
+  DontHaveStatusEffect: ""
+  TargetStatusEffect: ""
+  TargetStatusEffectCategory: ""
+  TargetStatusEffectStackSize: ""
+  TargetStatusEffectComparison: ""
+  TargetCollisionFilters: ""
+  TargetMarker: ""
+  MyHealthPercent: ""
+  MyComparisonType: ""
+  MyStaminaPercent: ""
+  MyStaminaComparisonType: ""
+  TargetHealthPercent: null
+  TargetComparisonType: ""
+  DistFromDefender: ""
+  DistComparisonType: ""
+  MaxNumAroundMe: null
+  NumAroundMe: null
+  NumAroundComparisonType: ""
+  AbilityList: ""
+  AbilityTrigger: ""
+  InAction: ""
+  InActionTime: ""
+  AfterAction: ""
+  TargetVitalsCategory: ""
+  BaseDamage: null
+  BaseDamageReduction: null
+  BlockDamage: ""
+  BlockDamageReduction: ""
+  CritDamage: null
+  CritChance: null
+  HeadshotDamage: ""
+  stagger damage: ""
+  StaggerDamageReduction: ""
+  HitRateDmg: ""
+  HitRateDmgReduction: ""
+  HealthDamageMitigation: ""
+  ThreatDamage: ""
+  ArmorPenetration: null
+  PhysicalArmor: ""
+  ElementalArmor: ""
+  Knockback: ""
+  WeaponAccuracy: ""
+  Health: ""
+  DmgPctToHealth: null
+  MaxHealth: ""
+  Mana: ""
+  MaxMana: ""
+  DamageTableRowOverride: ""
+  RangedAttackNameOverride: ""
+  EnableCrit: ""
+  PerStatusEffectOnTarget: ""
+  ForceTakeStaminaDamage: ""
+  CastSpell: ""
+  SelfApplyStatusEffect: ""
+  OtherApplyStatusEffect: ""
+  SetPotencyAsCount: ""
+  MultiplyRemovedByPotency: ""
+  RemoveStatusEffects: ""
+  StatusEffectsList: ""
+  StatusEffectCategoriesList: ""
+  RemoveTargetStatusEffectsList: ""
+  ConsumeTargetStatusEffectMult: ""
+  StatusEffectDurationReduction: ""
+  TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
+  Duration: ""
+  CooldownId: ""
+  CDRImmediatelyOptions: ""
+  ResetCooldownTimers: ""
+  CooldownTimer: ""
+  NumFreeCooldownsPerUse: ""
+  MaxHitCountMultiplier: ""
+  SetMannequinTag: ""
+  SetMannequinTagStatus: ""
+- AbilityID: Upgrade_Greataxe_Whirlwind_Speed
+  DisplayName: "@Upgrade_Greataxe_Whirlwind_Speed"
+  Description: "@Upgrade_Greataxe_Whirlwind_Speed_description"
+  UICategory: Passive
+  Icon: lyshineui/images/icons/abilities/GreatAxe_Ability04_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
   TelegraphStatusEffect: ""
@@ -2698,137 +2850,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
-  BaseDamage: null
-  BaseDamageReduction: null
-  BlockDamage: ""
-  BlockDamageReduction: ""
-  CritDamage: null
-  CritChance: null
-  HeadshotDamage: ""
-  stagger damage: ""
-  StaggerDamageReduction: ""
-  HitRateDmg: ""
-  HitRateDmgReduction: ""
-  HealthDamageMitigation: ""
-  ThreatDamage: ""
-  ArmorPenetration: null
-  PhysicalArmor: ""
-  ElementalArmor: ""
-  Knockback: ""
-  WeaponAccuracy: ""
-  Health: ""
-  DmgPctToHealth: null
-  MaxHealth: ""
-  Mana: ""
-  MaxMana: ""
-  DamageTableRowOverride: ""
-  RangedAttackNameOverride: ""
-  EnableCrit: ""
-  PerStatusEffectOnTarget: ""
-  ForceTakeStaminaDamage: ""
-  CastSpell: ""
-  SelfApplyStatusEffect: ""
-  OtherApplyStatusEffect: ""
-  SetPotencyAsCount: ""
-  MultiplyRemovedByPotency: ""
-  RemoveStatusEffects: ""
-  StatusEffectsList: ""
-  StatusEffectCategoriesList: ""
-  RemoveTargetStatusEffectsList: ""
-  ConsumeTargetStatusEffectMult: ""
-  StatusEffectDurationReduction: ""
-  TargetStatusEffectDurationList: ""
-  TargetStatusEffectDurationMod: ""
-  ActivationCooldown: null
-  Duration: ""
-  CooldownId: ""
-  CDRImmediatelyOptions: ""
-  ResetCooldownTimers: ""
-  CooldownTimer: ""
-  NumFreeCooldownsPerUse: ""
-  MaxHitCountMultiplier: ""
-  SetMannequinTag: ""
-  SetMannequinTagStatus: ""
-- AbilityID: Upgrade_Greataxe_Whirlwind_Speed
-  DisplayName: "@Upgrade_Greataxe_Whirlwind_Speed"
-  Description: "@Upgrade_Greataxe_Whirlwind_Speed_description"
-  UICategory: Melee Damage
-  Icon: lyshineui/images/icons/abilities/GreatAxe_Ability04_Mod02.png
-  StatusEffectIcon: ""
-  Sound: ""
-  TelegraphStatusEffect: ""
-  TelegraphCountOffset: ""
-  OnEquipStatusEffect: ""
-  WeaponTag: GreatAxe
-  RequiredAbilityId: Ability_Greataxe_Whirlwind
-  TreeId: 1.0
-  TreeRowPosition: 3.0
-  TreeColumnPosition: 0.0
-  IsActiveAbility: false
-  IsGlobalAbility: false
-  ScalingStrength: ""
-  ScalingDexterity: ""
-  ScalingIntelligence: ""
-  ScalingSpirit: ""
-  ScalingConstitution: ""
-  OnKill: false
-  OnExecuted: false
-  OnHit: false
-  OnBlockedHit: false
-  OnCrit: false
-  OnHeadShot: false
-  OnLegShot: false
-  OnHitTaken: false
-  OnBlockedHitTaken: false
-  OnBlockBreak: false
-  OnTargetBlockBreak: false
-  OnDeath: false
-  OnDeathsDoor: false
-  RequireReaction: false
-  NumSuccessfulHits: 0.0
-  NumConsecutiveHits: 0.0
-  MaxConsecutiveHits: 0.0
-  TrackHitCount: false
-  MaxTrackedHitCounts: 0.0
-  ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: null
-  NumberOfHitsComparisonType: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
-  ForceShowNameTag: ""
-  HasGritActive: null
-  TargetHasGritActive: ""
-  DamageTableRow: ""
-  RemoteDamageTableRow: ""
-  RangedAttackName: ""
-  AttackType: ""
-  IgnoreDisabledAttackTypes: ""
-  DamageTypes: ""
-  StatusEffect: ""
-  StatusEffectCategories: ""
-  DontHaveStatusEffect: ""
-  TargetStatusEffect: ""
-  TargetStatusEffectCategory: ""
-  TargetStatusEffectStackSize: ""
-  TargetStatusEffectComparison: ""
-  TargetCollisionFilters: ""
-  TargetMarker: ""
-  MyHealthPercent: ""
-  MyComparisonType: ""
-  MyStaminaPercent: ""
-  MyStaminaComparisonType: ""
-  TargetHealthPercent: null
-  TargetComparisonType: ""
-  DistFromDefender: ""
-  DistComparisonType: ""
-  MaxNumAroundMe: null
-  NumAroundMe: null
-  NumAroundComparisonType: ""
-  AbilityList: ""
-  AbilityTrigger: ""
-  InAction: ""
-  InActionTime: ""
-  AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -2883,7 +2905,7 @@
 - AbilityID: Upgrade_Greataxe_Whirlwind_DmgWhenFoesNear
   DisplayName: "@Upgrade_Greataxe_Whirlwind_DmgWhenFoesNear"
   Description: "@Upgrade_Greataxe_Whirlwind_DmgWhenFoesNear_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/GreatAxe_Ability04_Mod03.png
   StatusEffectIcon: ""
   Sound: ""
@@ -2893,7 +2915,7 @@
   WeaponTag: GreatAxe
   RequiredAbilityId: Ability_Greataxe_Whirlwind
   TreeId: 1.0
-  TreeRowPosition: 4.0
+  TreeRowPosition: 3.0
   TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -2960,6 +2982,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.15
   BaseDamageReduction: null
   BlockDamage: ""
@@ -3014,7 +3037,7 @@
 - AbilityID: Ability_Greataxe_Maelstorm
   DisplayName: "@Ability_Greataxe_Maelstorm"
   Description: "@Ability_Greataxe_Maelstorm_description"
-  UICategory: Melee Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/GreatAxe_Ability05.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_GreatAxe_Ability_4
@@ -3024,7 +3047,7 @@
   WeaponTag: GreatAxe
   RequiredAbilityId: ""
   TreeId: 1.0
-  TreeRowPosition: 0.0
+  TreeRowPosition: 1.0
   TreeColumnPosition: 2.0
   IsActiveAbility: true
   IsGlobalAbility: false
@@ -3091,6 +3114,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -3145,139 +3169,8 @@
 - AbilityID: Upgrade_Greataxe_Maelstorm_Rng
   DisplayName: "@Upgrade_Greataxe_Maelstorm_Rng"
   Description: "@Upgrade_Greataxe_Maelstorm_Rng_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/GreatAxe_Ability05_Mod01.png
-  StatusEffectIcon: ""
-  Sound: ""
-  TelegraphStatusEffect: ""
-  TelegraphCountOffset: ""
-  OnEquipStatusEffect: ""
-  WeaponTag: GreatAxe
-  RequiredAbilityId: Ability_Greataxe_Maelstorm
-  TreeId: 1.0
-  TreeRowPosition: 1.0
-  TreeColumnPosition: 2.0
-  IsActiveAbility: false
-  IsGlobalAbility: false
-  ScalingStrength: ""
-  ScalingDexterity: ""
-  ScalingIntelligence: ""
-  ScalingSpirit: ""
-  ScalingConstitution: ""
-  OnKill: false
-  OnExecuted: false
-  OnHit: false
-  OnBlockedHit: false
-  OnCrit: false
-  OnHeadShot: false
-  OnLegShot: false
-  OnHitTaken: false
-  OnBlockedHitTaken: false
-  OnBlockBreak: false
-  OnTargetBlockBreak: false
-  OnDeath: false
-  OnDeathsDoor: false
-  RequireReaction: false
-  NumSuccessfulHits: 0.0
-  NumConsecutiveHits: 0.0
-  MaxConsecutiveHits: 0.0
-  TrackHitCount: false
-  MaxTrackedHitCounts: 0.0
-  ResetConsecutiveOnSuccess: ""
-  NumberOfTrackedHits: null
-  NumberOfHitsComparisonType: ""
-  DamageIsRanged: ""
-  DamageIsMelee: ""
-  ForceShowNameTag: ""
-  HasGritActive: null
-  TargetHasGritActive: ""
-  DamageTableRow: ""
-  RemoteDamageTableRow: ""
-  RangedAttackName: ""
-  AttackType: ""
-  IgnoreDisabledAttackTypes: ""
-  DamageTypes: ""
-  StatusEffect: ""
-  StatusEffectCategories: ""
-  DontHaveStatusEffect: ""
-  TargetStatusEffect: ""
-  TargetStatusEffectCategory: ""
-  TargetStatusEffectStackSize: ""
-  TargetStatusEffectComparison: ""
-  TargetCollisionFilters: ""
-  TargetMarker: ""
-  MyHealthPercent: ""
-  MyComparisonType: ""
-  MyStaminaPercent: ""
-  MyStaminaComparisonType: ""
-  TargetHealthPercent: null
-  TargetComparisonType: ""
-  DistFromDefender: ""
-  DistComparisonType: ""
-  MaxNumAroundMe: null
-  NumAroundMe: null
-  NumAroundComparisonType: ""
-  AbilityList: ""
-  AbilityTrigger: ""
-  InAction: ""
-  InActionTime: ""
-  AfterAction: ""
-  BaseDamage: null
-  BaseDamageReduction: null
-  BlockDamage: ""
-  BlockDamageReduction: ""
-  CritDamage: null
-  CritChance: null
-  HeadshotDamage: ""
-  stagger damage: ""
-  StaggerDamageReduction: ""
-  HitRateDmg: ""
-  HitRateDmgReduction: ""
-  HealthDamageMitigation: ""
-  ThreatDamage: ""
-  ArmorPenetration: null
-  PhysicalArmor: ""
-  ElementalArmor: ""
-  Knockback: ""
-  WeaponAccuracy: ""
-  Health: ""
-  DmgPctToHealth: null
-  MaxHealth: ""
-  Mana: ""
-  MaxMana: ""
-  DamageTableRowOverride: ""
-  RangedAttackNameOverride: ""
-  EnableCrit: ""
-  PerStatusEffectOnTarget: ""
-  ForceTakeStaminaDamage: ""
-  CastSpell: ""
-  SelfApplyStatusEffect: ""
-  OtherApplyStatusEffect: ""
-  SetPotencyAsCount: ""
-  MultiplyRemovedByPotency: ""
-  RemoveStatusEffects: ""
-  StatusEffectsList: ""
-  StatusEffectCategoriesList: ""
-  RemoveTargetStatusEffectsList: ""
-  ConsumeTargetStatusEffectMult: ""
-  StatusEffectDurationReduction: ""
-  TargetStatusEffectDurationList: ""
-  TargetStatusEffectDurationMod: ""
-  ActivationCooldown: null
-  Duration: ""
-  CooldownId: ""
-  CDRImmediatelyOptions: ""
-  ResetCooldownTimers: ""
-  CooldownTimer: ""
-  NumFreeCooldownsPerUse: ""
-  MaxHitCountMultiplier: ""
-  SetMannequinTag: ""
-  SetMannequinTagStatus: ""
-- AbilityID: Upgrade_Greataxe_Maelstorm_AbsorbProjectiles
-  DisplayName: "@Upgrade_Greataxe_Maelstorm_AbsorbProjectiles"
-  Description: "@Upgrade_Greataxe_Maelstorm_AbsorbProjectiles_description"
-  UICategory: Melee Damage
-  Icon: lyshineui/images/icons/abilities/GreatAxe_Ability05_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
   TelegraphStatusEffect: ""
@@ -3353,6 +3246,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -3404,11 +3298,11 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-- AbilityID: Upgrade_Greataxe_Maelstorm_SpinAttack
-  DisplayName: "@Upgrade_Greataxe_Maelstorm_SpinAttack"
-  Description: "@Upgrade_Greataxe_Maelstorm_SpinAttack_description"
-  UICategory: Melee Damage
-  Icon: lyshineui/images/icons/abilities/GreatAxe_Ability05_Mod03.png
+- AbilityID: Upgrade_Greataxe_Maelstorm_AbsorbProjectiles
+  DisplayName: "@Upgrade_Greataxe_Maelstorm_AbsorbProjectiles"
+  Description: "@Upgrade_Greataxe_Maelstorm_AbsorbProjectiles_description"
+  UICategory: Passive
+  Icon: lyshineui/images/icons/abilities/GreatAxe_Ability05_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
   TelegraphStatusEffect: ""
@@ -3484,6 +3378,139 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
+  BaseDamage: null
+  BaseDamageReduction: null
+  BlockDamage: ""
+  BlockDamageReduction: ""
+  CritDamage: null
+  CritChance: null
+  HeadshotDamage: ""
+  stagger damage: ""
+  StaggerDamageReduction: ""
+  HitRateDmg: ""
+  HitRateDmgReduction: ""
+  HealthDamageMitigation: ""
+  ThreatDamage: ""
+  ArmorPenetration: null
+  PhysicalArmor: ""
+  ElementalArmor: ""
+  Knockback: ""
+  WeaponAccuracy: ""
+  Health: ""
+  DmgPctToHealth: null
+  MaxHealth: ""
+  Mana: ""
+  MaxMana: ""
+  DamageTableRowOverride: ""
+  RangedAttackNameOverride: ""
+  EnableCrit: ""
+  PerStatusEffectOnTarget: ""
+  ForceTakeStaminaDamage: ""
+  CastSpell: ""
+  SelfApplyStatusEffect: ""
+  OtherApplyStatusEffect: ""
+  SetPotencyAsCount: ""
+  MultiplyRemovedByPotency: ""
+  RemoveStatusEffects: ""
+  StatusEffectsList: ""
+  StatusEffectCategoriesList: ""
+  RemoveTargetStatusEffectsList: ""
+  ConsumeTargetStatusEffectMult: ""
+  StatusEffectDurationReduction: ""
+  TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
+  Duration: ""
+  CooldownId: ""
+  CDRImmediatelyOptions: ""
+  ResetCooldownTimers: ""
+  CooldownTimer: ""
+  NumFreeCooldownsPerUse: ""
+  MaxHitCountMultiplier: ""
+  SetMannequinTag: ""
+  SetMannequinTagStatus: ""
+- AbilityID: Upgrade_Greataxe_Maelstorm_SpinAttack
+  DisplayName: "@Upgrade_Greataxe_Maelstorm_SpinAttack"
+  Description: "@Upgrade_Greataxe_Maelstorm_SpinAttack_description"
+  UICategory: Passive
+  Icon: lyshineui/images/icons/abilities/GreatAxe_Ability05_Mod03.png
+  StatusEffectIcon: ""
+  Sound: ""
+  TelegraphStatusEffect: ""
+  TelegraphCountOffset: ""
+  OnEquipStatusEffect: ""
+  WeaponTag: GreatAxe
+  RequiredAbilityId: Ability_Greataxe_Maelstorm
+  TreeId: 1.0
+  TreeRowPosition: 4.0
+  TreeColumnPosition: 2.0
+  IsActiveAbility: false
+  IsGlobalAbility: false
+  ScalingStrength: ""
+  ScalingDexterity: ""
+  ScalingIntelligence: ""
+  ScalingSpirit: ""
+  ScalingConstitution: ""
+  OnKill: false
+  OnExecuted: false
+  OnHit: false
+  OnBlockedHit: false
+  OnCrit: false
+  OnHeadShot: false
+  OnLegShot: false
+  OnHitTaken: false
+  OnBlockedHitTaken: false
+  OnBlockBreak: false
+  OnTargetBlockBreak: false
+  OnDeath: false
+  OnDeathsDoor: false
+  RequireReaction: false
+  NumSuccessfulHits: 0.0
+  NumConsecutiveHits: 0.0
+  MaxConsecutiveHits: 0.0
+  TrackHitCount: false
+  MaxTrackedHitCounts: 0.0
+  ResetConsecutiveOnSuccess: ""
+  NumberOfTrackedHits: null
+  NumberOfHitsComparisonType: ""
+  DamageIsRanged: ""
+  DamageIsMelee: ""
+  ForceShowNameTag: ""
+  HasGritActive: null
+  TargetHasGritActive: ""
+  DamageTableRow: ""
+  RemoteDamageTableRow: ""
+  RangedAttackName: ""
+  AttackType: ""
+  IgnoreDisabledAttackTypes: ""
+  DamageTypes: ""
+  StatusEffect: ""
+  StatusEffectCategories: ""
+  DontHaveStatusEffect: ""
+  TargetStatusEffect: ""
+  TargetStatusEffectCategory: ""
+  TargetStatusEffectStackSize: ""
+  TargetStatusEffectComparison: ""
+  TargetCollisionFilters: ""
+  TargetMarker: ""
+  MyHealthPercent: ""
+  MyComparisonType: ""
+  MyStaminaPercent: ""
+  MyStaminaComparisonType: ""
+  TargetHealthPercent: null
+  TargetComparisonType: ""
+  DistFromDefender: ""
+  DistComparisonType: ""
+  MaxNumAroundMe: null
+  NumAroundMe: null
+  NumAroundComparisonType: ""
+  AbilityList: ""
+  AbilityTrigger: ""
+  InAction: ""
+  InActionTime: ""
+  AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -3538,7 +3565,7 @@
 - AbilityID: Ability_Greataxe_GravityWell
   DisplayName: "@Ability_Greataxe_GravityWell"
   Description: "@Ability_Greataxe_GravityWell_description"
-  UICategory: Debuff
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/GreatAxe_Ability06.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_GreatAxe_Ability_6
@@ -3615,6 +3642,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -3669,7 +3697,7 @@
 - AbilityID: Upgrade_Greataxe_GravityWell_DmgPerFoe
   DisplayName: "@Upgrade_Greataxe_GravityWell_DmgPerFoe"
   Description: "@Upgrade_Greataxe_GravityWell_DmgPerFoe_description"
-  UICategory: Debuff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/GreatAxe_Ability06_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3746,6 +3774,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.1
   BaseDamageReduction: null
   BlockDamage: ""
@@ -3800,7 +3829,7 @@
 - AbilityID: Upgrade_Greataxe_GravityWell_ArmorInWell
   DisplayName: "@Upgrade_Greataxe_GravityWell_ArmorInWell"
   Description: "@Upgrade_Greataxe_GravityWell_ArmorInWell_description"
-  UICategory: Debuff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/GreatAxe_Ability06_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3877,6 +3906,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -4008,6 +4038,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -4139,6 +4170,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -4270,6 +4302,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: 0.12
   BlockDamage: ""
@@ -4401,6 +4434,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -4532,6 +4566,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -4663,6 +4698,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -4794,6 +4830,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -4925,6 +4962,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""

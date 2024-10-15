@@ -91,6 +91,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -243,11 +244,11 @@
   IgnoreInvulnerable: ""
   NotCombatAction: ""
 - StatusID: Hatchet_Berserk_SpeedUp
-  DisplayName: ""
-  Description: ""
+  DisplayName: "@Status_Haste"
+  Description: "@Status_Haste_Description"
   EffectCategories: Buff+Haste
-  PlaceholderIcon: ""
-  ShowInUITray: null
+  PlaceholderIcon: lyshineui/images/status/SE_Haste.png
+  ShowInUITray: true
   ShowTextInDamageNumbers: false
   FxScriptOn: StatFX_Haste_ON
   FxScriptOff: ""
@@ -335,6 +336,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -472,9 +474,9 @@
   HealRewardGameEventId: ""
   HealRewardThreshold: ""
   WeaponMasteryCategoryId: ""
-  UIPriority: null
-  UiNameplatePriority: null
-  ShowInNameplates: null
+  UIPriority: 3.0
+  UiNameplatePriority: 3.0
+  ShowInNameplates: true
   ShowTextInNameplates: ""
   OverrideOtherNameplateText: ""
   HidesOtherStatusEffectIcons: ""
@@ -579,6 +581,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -716,9 +719,9 @@
   HealRewardGameEventId: ""
   HealRewardThreshold: ""
   WeaponMasteryCategoryId: ""
-  UIPriority: null
-  UiNameplatePriority: null
-  ShowInNameplates: null
+  UIPriority: 3.0
+  UiNameplatePriority: 3.0
+  ShowInNameplates: false
   ShowTextInNameplates: ""
   OverrideOtherNameplateText: ""
   HidesOtherStatusEffectIcons: ""
@@ -823,6 +826,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -960,9 +964,9 @@
   HealRewardGameEventId: ""
   HealRewardThreshold: ""
   WeaponMasteryCategoryId: ""
-  UIPriority: null
-  UiNameplatePriority: null
-  ShowInNameplates: null
+  UIPriority: 3.0
+  UiNameplatePriority: 3.0
+  ShowInNameplates: false
   ShowTextInNameplates: ""
   OverrideOtherNameplateText: ""
   HidesOtherStatusEffectIcons: ""
@@ -1067,6 +1071,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1204,9 +1209,9 @@
   HealRewardGameEventId: ""
   HealRewardThreshold: ""
   WeaponMasteryCategoryId: ""
-  UIPriority: null
-  UiNameplatePriority: null
-  ShowInNameplates: null
+  UIPriority: 3.0
+  UiNameplatePriority: 3.0
+  ShowInNameplates: false
   ShowTextInNameplates: ""
   OverrideOtherNameplateText: ""
   HidesOtherStatusEffectIcons: ""
@@ -1311,6 +1316,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1448,9 +1454,9 @@
   HealRewardGameEventId: ""
   HealRewardThreshold: ""
   WeaponMasteryCategoryId: ""
-  UIPriority: null
-  UiNameplatePriority: null
-  ShowInNameplates: null
+  UIPriority: 3.0
+  UiNameplatePriority: 3.0
+  ShowInNameplates: false
   ShowTextInNameplates: ""
   OverrideOtherNameplateText: ""
   HidesOtherStatusEffectIcons: ""
@@ -1555,6 +1561,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1707,13 +1714,13 @@
   IgnoreInvulnerable: ""
   NotCombatAction: ""
 - StatusID: Hatchet_Berserk_Uninterruptible
-  DisplayName: ""
-  Description: ""
+  DisplayName: "@Status_Berserk_Uninterruptible"
+  Description: "@Status_Berserk_Uninterruptible_Description"
   EffectCategories: Buff+Uninterruptible
-  PlaceholderIcon: ""
-  ShowInUITray: null
-  ShowTextInDamageNumbers: false
-  FxScriptOn: ""
+  PlaceholderIcon: lyshineui/images/status/SE_berserk.png
+  ShowInUITray: true
+  ShowTextInDamageNumbers: true
+  FxScriptOn: StatFX_Uninterruptible_ON
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
   WeaponEffectType: ""
@@ -1799,6 +1806,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -1936,9 +1944,9 @@
   HealRewardGameEventId: ""
   HealRewardThreshold: ""
   WeaponMasteryCategoryId: ""
-  UIPriority: null
-  UiNameplatePriority: null
-  ShowInNameplates: null
+  UIPriority: 1.0
+  UiNameplatePriority: 1.0
+  ShowInNameplates: true
   ShowTextInNameplates: ""
   OverrideOtherNameplateText: ""
   HidesOtherStatusEffectIcons: ""
@@ -2043,6 +2051,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2287,6 +2296,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2531,6 +2541,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -2775,6 +2786,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3019,6 +3031,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3263,6 +3276,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3507,6 +3521,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3628,7 +3643,7 @@
   AFACurse: ""
   AFABlight: ""
   StackDuration: null
-  DurationMax: 6.0
+  DurationMax: 12.0
   InheritDuration: ""
   InheritTotalDuration: null
   RefreshDuration: "1"
@@ -3751,6 +3766,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -3995,6 +4011,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4239,6 +4256,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4483,6 +4501,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4727,6 +4746,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -4971,6 +4991,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5215,6 +5236,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5459,6 +5481,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5703,6 +5726,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -5947,6 +5971,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -6191,6 +6216,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -6435,6 +6461,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -6679,6 +6706,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -6923,6 +6951,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -7167,6 +7196,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -7411,6 +7441,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -7563,8 +7594,8 @@
   IgnoreInvulnerable: ""
   NotCombatAction: ""
 - StatusID: Hatchet_BloodLust
-  DisplayName: "@Hatchet_BloodLust_DisplayName"
-  Description: "@Hatchet_BloodLust_Description"
+  DisplayName: "@CommonBlank"
+  Description: "@CommonBlank"
   EffectCategories: Buff+Empower
   PlaceholderIcon: lyshineui/images/status/SE_EmpowerT3.png
   ShowInUITray: true
@@ -7655,6 +7686,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -7899,6 +7931,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -8143,6 +8176,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -8295,8 +8329,8 @@
   IgnoreInvulnerable: ""
   NotCombatAction: ""
 - StatusID: Hatchet_CleavingThrows_Rend
-  DisplayName: "@Hatchet_CleavingThrows_DisplayName"
-  Description: "@Hatchet_CleavingThrows_Description"
+  DisplayName: "@CommonBlank"
+  Description: "@CommonBlank"
   EffectCategories: Debuff+ArmorRend+Debilitate
   PlaceholderIcon: lyshineui/images/status/SE_RendT1.png
   ShowInUITray: true
@@ -8387,6 +8421,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -8539,8 +8574,8 @@
   IgnoreInvulnerable: ""
   NotCombatAction: ""
 - StatusID: Hatchet_QuickCounter_Icon
-  DisplayName: "@Hatchet_QuickCounter_Icon_DisplayName"
-  Description: "@Hatchet_QuickCounter_Icon_Description"
+  DisplayName: "@CommonBlank"
+  Description: "@CommonBlank"
   EffectCategories: ""
   PlaceholderIcon: lyshineui/images/status/SE_EmpowerT3.png
   ShowInUITray: true
@@ -8631,6 +8666,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -8783,8 +8819,8 @@
   IgnoreInvulnerable: ""
   NotCombatAction: ""
 - StatusID: Hatchet_DesperateRefresh_Icon
-  DisplayName: "@Hatchet_DesperateRefresh_Icon_DisplayName"
-  Description: "@Hatchet_DesperateRefresh_Icon_Description"
+  DisplayName: "@CommonBlank"
+  Description: "@CommonBlank"
   EffectCategories: ""
   PlaceholderIcon: lyshineui/images/status/SE_Haste.png
   ShowInUITray: true
@@ -8875,6 +8911,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -9027,8 +9064,8 @@
   IgnoreInvulnerable: ""
   NotCombatAction: ""
 - StatusID: Hatchet_OnFire_Icon
-  DisplayName: "@Hatchet_OnFire_Icon_DisplayName"
-  Description: "@Hatchet_OnFire_Icon_Description"
+  DisplayName: "@CommonBlank"
+  Description: "@CommonBlank"
   EffectCategories: ""
   PlaceholderIcon: lyshineui/images/status/SE_EmpowerT3.png
   ShowInUITray: true
@@ -9119,6 +9156,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
@@ -9363,6 +9401,7 @@
   RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""

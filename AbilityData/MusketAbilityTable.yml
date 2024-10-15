@@ -1,7 +1,7 @@
 - AbilityID: Ability_Musket_PowerShot
   DisplayName: "@PowerShot"
   Description: "@PowerShot_description"
-  UICategory: Buff
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/musket_Ability01.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Musket_Ability_1
@@ -104,6 +104,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -139,7 +140,7 @@
 - AbilityID: Upgrade_Musket_Power_Empower
   DisplayName: "@PowerShot_Mod1"
   Description: "@PowerShot_Mod1_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/musket_Ability01_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -242,6 +243,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -277,7 +279,7 @@
 - AbilityID: Upgrade_Musket_Power_DmgAtFullHealth
   DisplayName: "@PowerShot_Mod2"
   Description: "@PowerShot_Mod2_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/musket_Ability01_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -380,6 +382,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -415,7 +418,7 @@
 - AbilityID: Upgrade_Musket_Power_CDRonHeadshot
   DisplayName: "@PowerShot_Mod3"
   Description: "@PowerShot_Mod3_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/musket_Ability01_Mod03.png
   StatusEffectIcon: ""
   Sound: ""
@@ -518,6 +521,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -553,7 +557,7 @@
 - AbilityID: Ability_Musket_PowderBurn
   DisplayName: "@PowderBurn"
   Description: "@PowderBurn_description"
-  UICategory: Ranged Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/musket_Ability02.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Musket_Ability_2
@@ -656,6 +660,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -691,7 +696,7 @@
 - AbilityID: Upgrade_Musket_Burn_DmgWhileOnFire
   DisplayName: "@PowderBurn_Mod1"
   Description: "@PowderBurn_Mod1_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/musket_Ability02_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -769,7 +774,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
-  BaseDamage: 0.12
+  BaseDamage: 0.08
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
@@ -794,6 +799,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -829,7 +835,7 @@
 - AbilityID: Upgrade_Musket_Burn_ExtendBurnOnHeadshot
   DisplayName: "@PowderBurn_Mod2"
   Description: "@PowderBurn_Mod2_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/musket_Ability02_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -932,6 +938,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -967,7 +974,7 @@
 - AbilityID: Ability_Musket_ShootersStance
   DisplayName: "@ShootersStance"
   Description: "@ShootersStance_description"
-  UICategory: Buff
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/musket_Ability03.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Musket_Ability_3
@@ -1070,6 +1077,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -1105,7 +1113,7 @@
 - AbilityID: Upgrade_Musket_Shooters_ShootMore
   DisplayName: "@ShootersStance_Mod1"
   Description: "@ShootersStance_Mod1_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/musket_Ability03_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -1208,6 +1216,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -1243,7 +1252,7 @@
 - AbilityID: Upgrade_Musket_Shooters_CDROnSameTarget
   DisplayName: "@ShootersStance_Mod2"
   Description: "@ShootersStance_Mod2_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/musket_Ability03_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -1346,6 +1355,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -1484,6 +1494,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -1622,6 +1633,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -1760,6 +1772,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -1898,6 +1911,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -2036,6 +2050,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -2174,6 +2189,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -2312,6 +2328,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -2450,6 +2467,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -2588,6 +2606,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -2726,6 +2745,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -2864,6 +2884,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -3002,6 +3023,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -3037,7 +3059,7 @@
 - AbilityID: Ability_Musket_Traps
   DisplayName: "@Traps"
   Description: "@Traps_description"
-  UICategory: Debuff
+  UICategory: Defense
   Icon: lyshineui/images/icons/abilities/musket_Ability04.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Musket_Ability_4
@@ -3049,7 +3071,7 @@
   RequiredAbilityId: ""
   RequiredEquippedAbilityId: ""
   TreeId: 1.0
-  TreeRowPosition: 0.0
+  TreeRowPosition: 1.0
   TreeColumnPosition: 2.0
   IsActiveAbility: true
   IsGlobalAbility: true
@@ -3140,6 +3162,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -3175,7 +3198,7 @@
 - AbilityID: Upgrade_Musket_TrapRend
   DisplayName: "@Traps_Mod1"
   Description: "@Traps_Mod1_description"
-  UICategory: Debuff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/musket_Ability04_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3187,7 +3210,7 @@
   RequiredAbilityId: Ability_Musket_Traps
   RequiredEquippedAbilityId: ""
   TreeId: 1.0
-  TreeRowPosition: 1.0
+  TreeRowPosition: 2.0
   TreeColumnPosition: 2.0
   IsActiveAbility: false
   IsGlobalAbility: true
@@ -3278,6 +3301,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -3313,7 +3337,7 @@
 - AbilityID: Upgrade_Musket_TrapLifeSteal
   DisplayName: "@Traps_Mod2"
   Description: "@Traps_Mod2_description"
-  UICategory: Debuff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/musket_Ability04_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3416,6 +3440,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -3451,7 +3476,7 @@
 - AbilityID: Upgrade_Musket_DoubleTrap
   DisplayName: "@Traps_Mod3"
   Description: "@Traps_Mod3_description"
-  UICategory: Debuff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/musket_Ability04_Mod03.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3460,7 +3485,7 @@
   OnEquipStatusEffect: ""
   EquipWhenUnsheathed: null
   WeaponTag: Rifle
-  RequiredAbilityId: Upgrade_Musket_TrapWeakenAOE
+  RequiredAbilityId: Upgrade_Musket_TrapLifeSteal
   RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 4.0
@@ -3554,6 +3579,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -3589,7 +3615,7 @@
 - AbilityID: Ability_Musket_StickyBomb
   DisplayName: "@StickyBomb"
   Description: "@StickyBomb_description"
-  UICategory: Ranged Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/musket_Ability05.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Musket_Ability_5
@@ -3692,6 +3718,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -3727,7 +3754,7 @@
 - AbilityID: Passive_Musket_StickyStamina
   DisplayName: "@StickyBomb_Mod1"
   Description: "@StickyBomb_Mod1_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/musket_Ability05_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3830,6 +3857,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -3865,7 +3893,7 @@
 - AbilityID: Passive_Musket_StickySlow
   DisplayName: "@StickyBomb_Mod2"
   Description: "@StickyBomb_Mod2_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/musket_Ability05_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3968,6 +3996,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -4003,7 +4032,7 @@
 - AbilityID: Ability_Musket_StoppingPower
   DisplayName: "@StoppingPower"
   Description: "@StoppingPower_description"
-  UICategory: Ranged Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/musket_Ability06.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Musket_Ability_6
@@ -4015,7 +4044,7 @@
   RequiredAbilityId: ""
   RequiredEquippedAbilityId: ""
   TreeId: 1.0
-  TreeRowPosition: 1.0
+  TreeRowPosition: 0.0
   TreeColumnPosition: 0.0
   IsActiveAbility: true
   IsGlobalAbility: false
@@ -4106,6 +4135,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -4141,7 +4171,7 @@
 - AbilityID: Upgrade_Musket_StoppingExhaust
   DisplayName: "@StoppingPower_Mod1"
   Description: "@StoppingPower_Mod1_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/musket_Ability06_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -4153,7 +4183,7 @@
   RequiredAbilityId: Ability_Musket_StoppingPower
   RequiredEquippedAbilityId: ""
   TreeId: 1.0
-  TreeRowPosition: 2.0
+  TreeRowPosition: 1.0
   TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -4244,6 +4274,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -4279,7 +4310,7 @@
 - AbilityID: Upgrade_Musket_StoppingSlow
   DisplayName: "@StoppingPower_Mod2"
   Description: "@StoppingPower_Mod2_description"
-  UICategory: Ranged Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/musket_Ability06_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -4382,6 +4413,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -4430,7 +4462,7 @@
   RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 0.0
-  TreeColumnPosition: 0.0
+  TreeColumnPosition: 2.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -4520,6 +4552,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -4658,6 +4691,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -4796,6 +4830,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -4934,6 +4969,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -5072,6 +5108,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -5210,6 +5247,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -5348,6 +5386,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -5486,6 +5525,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""
@@ -5599,7 +5639,7 @@
   InSequence: ""
   InSequenceTime: null
   AfterSequence: ""
-  BaseDamage: 0.2
+  BaseDamage: 0.17
   BaseDamageReduction: ""
   BlockDamage: null
   BlockDamageReduction: ""
@@ -5624,6 +5664,7 @@
   Mana: ""
   MaxMana: ""
   DamageTableRowOverride: ""
+  StatusEffectDamageTableIdForRowOverride: ""
   StatusEffectDamageTableRowOverride: ""
   ForceStatusEffectDamageTableRow: ""
   RangedAttackNameOverride: ""

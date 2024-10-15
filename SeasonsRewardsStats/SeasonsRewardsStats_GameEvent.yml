@@ -52,7 +52,7 @@
   StatType: GameEvent
   GameEventTypes: ""
   CreatureTypes: ""
-  GameEventIDs: SandwormEliteTrial_Reward
+  GameEventIDs: SandwormEliteTrial_Reward_V2
 - TrackedStatID: TakeInfluenceTower
   StatType: GameEvent
   GameEventTypes: ""
@@ -93,3 +93,8 @@
   GameEventTypes: ""
   CreatureTypes: ""
   GameEventIDs: Arena3v3_Win_3_Round
+- TrackedStatID: QuestGameEvent
+  StatType: GameEvent
+  GameEventTypes: ""
+  CreatureTypes: Quest,Quest+,Quest-,MSQ-,MSQ,MSQ+
+  GameEventIDs: ""

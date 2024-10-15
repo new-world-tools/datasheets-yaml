@@ -1,7 +1,7 @@
 - AbilityID: IceMagic_Spikes
   DisplayName: "@IceSpikes"
   Description: "@IceSpikes_description"
-  UICategory: Magic Damage
+  UICategory: Attack
   UISpellForManaCheck: IceMagic_Spell_Spikes_UI
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability1.png
   StatusEffectIcon: ""
@@ -12,8 +12,9 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 0.0
+  TreeRowPosition: 1.0
   TreeColumnPosition: 2.0
   IsActiveAbility: true
   IsGlobalAbility: false
@@ -79,6 +80,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -119,6 +121,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: IceMagic_Spikes
   CDRImmediatelyOptions: ""
@@ -130,10 +133,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: SpikesRefreshingSpikes
   DisplayName: "@RefreshingSpikes"
   Description: "@RefreshingSpikes_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability1_Mod1.png
   StatusEffectIcon: ""
@@ -144,8 +148,9 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: IceMagic_Spikes
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 1.0
+  TreeRowPosition: 2.0
   TreeColumnPosition: 2.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -211,6 +216,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -251,6 +257,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: IceMagic_Spikes
   CDRImmediatelyOptions: AbilitySpecific
@@ -262,10 +269,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: SpikesEmpoweredSpikes
   DisplayName: "@EmpoweredSpikes"
   Description: "@EmpoweredSpikes_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability1_Mod2.png
   StatusEffectIcon: ""
@@ -276,8 +284,9 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: IceMagic_Spikes
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 2.0
+  TreeRowPosition: 3.0
   TreeColumnPosition: 2.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -343,6 +352,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.2
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -383,6 +393,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -394,10 +405,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: SpikesDeadlyPath
   DisplayName: "@DeadlyPath"
   Description: "@DeadlyPath_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability1_Mod3.png
   StatusEffectIcon: ""
@@ -408,8 +420,9 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: IceMagic_Spikes
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 3.0
+  TreeRowPosition: 4.0
   TreeColumnPosition: 2.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -475,6 +488,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -515,6 +529,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -526,10 +541,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: SpikesSpikyReach
   DisplayName: "@SpikyReach"
   Description: "@SpikyReach_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability1_Mod4.png
   StatusEffectIcon: ""
@@ -540,9 +556,10 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: IceMagic_Spikes
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 4.0
-  TreeColumnPosition: 2.0
+  TreeColumnPosition: 1.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -607,6 +624,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -647,6 +665,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -658,10 +677,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceMagic_IceStorm
   DisplayName: "@IceStorm"
   Description: "@IceStorm_description"
-  UICategory: Magic Damage
+  UICategory: Defense
   UISpellForManaCheck: IceMagic_Spell_IceStorm
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability2.png
   StatusEffectIcon: ""
@@ -672,8 +692,9 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 1.0
+  TreeRowPosition: 0.0
   TreeColumnPosition: 4.0
   IsActiveAbility: true
   IsGlobalAbility: false
@@ -739,6 +760,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -779,6 +801,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: IceMagic_IceStorm
   CDRImmediatelyOptions: ""
@@ -790,10 +813,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: true
 - AbilityID: IceStormWeakeningGust
   DisplayName: "@WeakeningGust"
   Description: "@WeakeningGust_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability2_Mod1.png
   StatusEffectIcon: ""
@@ -804,8 +828,9 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: IceMagic_IceStorm
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 2.0
+  TreeRowPosition: 1.0
   TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -871,6 +896,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -911,6 +937,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -922,10 +949,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceStormStormSummoner
   DisplayName: "@StormSummoner"
   Description: "@StormSummoner_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability2_Mod2.png
   StatusEffectIcon: ""
@@ -936,8 +964,9 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: IceMagic_IceStorm
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 3.0
+  TreeRowPosition: 2.0
   TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -1003,6 +1032,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1043,6 +1073,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1054,10 +1085,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceStormPunishingStorm
   DisplayName: "@PunishingStorm"
   Description: "@PunishingStorm_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability2_Mod3.png
   StatusEffectIcon: ""
@@ -1068,8 +1100,9 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: IceMagic_IceStorm
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
-  TreeRowPosition: 4.0
+  TreeRowPosition: 3.0
   TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: true
@@ -1135,6 +1168,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1175,6 +1209,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1186,10 +1221,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceMagic_WindChill
   DisplayName: "@WindChill"
   Description: "@WindChill_description"
-  UICategory: Magic Damage
+  UICategory: Attack
   UISpellForManaCheck: IceMagic_Spell_WindChill_UI
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability3.png
   StatusEffectIcon: ""
@@ -1200,6 +1236,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 2.0
   TreeColumnPosition: 0.0
@@ -1223,7 +1260,7 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
-  RequireReaction: ""
+  RequireReaction: "0"
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
@@ -1234,7 +1271,7 @@
   DamageIsMelee: null
   ForceShowNameTag: ""
   TargetHasGritActive: ""
-  DamageTableRow: IceMagic_WindChill,IceMagic_WindChill_Shatter,IceMagic_WindChill_SW,IceMagic_WindChill_Shatter_SW
+  DamageTableRow: IceMagic_WindChill,IceMagic_WindChill_End,IceMagic_WindChill_Shatter,IceMagic_WindChill_SW,IceMagic_WindChill_Shatter_SW
   RemoteDamageTableRow: ""
   RangedAttackName: ""
   AttackType: ""
@@ -1267,7 +1304,8 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
-  BaseDamage: null
+  TargetVitalsCategory: Hostile
+  BaseDamage: 0.25
   BaseDamageReduction: ""
   BlockDamage: ""
   BlockDamageReduction: ""
@@ -1307,8 +1345,9 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
-  CooldownId: IceMagic_WindChill
+  CooldownId: ""
   CDRImmediatelyOptions: ""
   ResetCooldownTimers: ""
   CooldownTimer: null
@@ -1318,10 +1357,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: WindChillEnduringChill
   DisplayName: "@EnduringChill"
   Description: "@EnduringChill_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability5_Mod3.png
   StatusEffectIcon: ""
@@ -1332,6 +1372,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: IceMagic_WindChill
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 3.0
   TreeColumnPosition: 0.0
@@ -1399,6 +1440,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1439,6 +1481,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1450,10 +1493,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: WindChillShatter
   DisplayName: "@Shatter"
   Description: "@Shatter_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability3_Mod1.png
   StatusEffectIcon: ""
@@ -1464,6 +1508,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: IceMagic_WindChill
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 4.0
   TreeColumnPosition: 0.0
@@ -1531,6 +1576,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.25
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1571,6 +1617,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1582,6 +1629,7 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceTempestPass1
   DisplayName: "@IceTempestPass1"
   Description: "@IceTempestPass1_description"
@@ -1596,6 +1644,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 0.0
   TreeColumnPosition: 1.0
@@ -1663,6 +1712,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.15
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1703,6 +1753,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1714,6 +1765,7 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceTempestPass2
   DisplayName: "@IceTempestPass2"
   Description: "@IceTempestPass2_description"
@@ -1728,6 +1780,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 0.0
   TreeColumnPosition: 3.0
@@ -1795,6 +1848,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1816,7 +1870,7 @@
   Health: ""
   DmgPctToHealth: ""
   MaxHealth: ""
-  Mana: 0.15
+  Mana: 0.1
   MaxMana: ""
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
@@ -1835,6 +1889,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1846,6 +1901,143 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
+- AbilityID: IceTempestPass2_Helper
+  DisplayName: ""
+  Description: ""
+  UICategory: ""
+  UISpellForManaCheck: ""
+  Icon: ""
+  StatusEffectIcon: ""
+  Sound: ""
+  TelegraphStatusEffect: ""
+  TelegraphCountOffset: ""
+  OnEquipStatusEffect: ""
+  EquipWhenUnsheathed: true
+  WeaponTag: Ice
+  RequiredAbilityId: IceTempestPass2
+  RequiredEquippedAbilityId: IceTempestPass2
+  TreeId: null
+  TreeRowPosition: null
+  TreeColumnPosition: null
+  IsActiveAbility: false
+  IsGlobalAbility: false
+  ScalingStrength: ""
+  ScalingDexterity: ""
+  ScalingIntelligence: ""
+  ScalingSpirit: ""
+  ScalingConstitution: ""
+  OnKill: false
+  OnExecuted: false
+  OnHit: true
+  OnBlockedHit: false
+  OnCrit: false
+  OnHeadShot: false
+  OnLegShot: false
+  OnHitTaken: false
+  OnBlockedHitTaken: false
+  OnBlockBreak: false
+  OnTargetBlockBreak: false
+  OnDeath: false
+  OnDeathsDoor: false
+  RequireReaction: "1"
+  NumSuccessfulHits: 0.0
+  NumConsecutiveHits: 0.0
+  MaxConsecutiveHits: 0.0
+  TrackHitCount: false
+  MaxTrackedHitCounts: 0.0
+  ResetConsecutiveOnSuccess: null
+  DamageIsRanged: ""
+  DamageIsMelee: null
+  ForceShowNameTag: ""
+  TargetHasGritActive: ""
+  DamageTableRow: ""
+  RemoteDamageTableRow: ""
+  RangedAttackName: ""
+  AttackType: Heavy
+  DamageTypes: ""
+  StatusEffect: ""
+  StatusEffectCategories: ""
+  TargetStatusEffect: ""
+  TargetStatusEffectCategory: ""
+  TargetStatusEffectStackSize: ""
+  TargetStatusEffectComparison: ""
+  TargetStatusEffectPotency: ""
+  TargetStatusEffectPotencyComparison: ""
+  TargetCollisionFilters: ""
+  TargetMarker: ""
+  MyHealthPercent: null
+  MyComparisonType: ""
+  MyStaminaPercent: null
+  MyStaminaComparisonType: ""
+  MyManaPercent: null
+  MyManaComparisonType: ""
+  TargetHealthPercent: null
+  TargetComparisonType: ""
+  DistFromDefender: null
+  DistComparisonType: ""
+  MaxNumAroundMe: null
+  NumAroundMe: null
+  NumAroundComparisonType: ""
+  AbilityList: ""
+  AbilityTrigger: ""
+  InAction: ""
+  InActionTime: ""
+  AfterAction: ""
+  TargetVitalsCategory: ""
+  BaseDamage: null
+  BaseDamageReduction: ""
+  BlockDamage: ""
+  BlockDamageReduction: ""
+  CritDamage: null
+  CritChance: null
+  HeadshotDamage: ""
+  stagger damage: ""
+  StaggerDamageReduction: ""
+  HitRateDmg: ""
+  HitRateDmgReduction: ""
+  HealthDamageMitigation: ""
+  ThreatDamage: ""
+  ArmorPenetration: ""
+  PhysicalArmor: ""
+  ElementalArmor: ""
+  Knockback: ""
+  WeaponAccuracy: ""
+  Health: ""
+  DmgPctToHealth: ""
+  MaxHealth: ""
+  Mana: 0.05
+  MaxMana: ""
+  DamageTableRowOverride: ""
+  RangedAttackNameOverride: ""
+  EnableCrit: ""
+  PerStatusEffectOnTarget: ""
+  ForceTakeStaminaDamage: ""
+  CastSpell: ""
+  SelfApplyStatusEffect: ""
+  OtherApplyStatusEffect: ""
+  SetPotencyAsCount: ""
+  RemoveStatusEffects: ""
+  StatusEffectsList: ""
+  StatusEffectCategoriesList: ""
+  RemoveTargetStatusEffectsList: ""
+  ConsumeTargetStatusEffectMult: ""
+  StatusEffectDurationReduction: ""
+  TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationMod: ""
+  ActivationCooldown: 0.5
+  Duration: ""
+  CooldownId: ""
+  CDRImmediatelyOptions: ""
+  ResetCooldownTimers: ""
+  CooldownTimer: null
+  NumFreeCooldownsPerUse: ""
+  MaxHitCountMultiplier: ""
+  SetMannequinTag: ""
+  SetMannequinTagStatus: ""
+  EnableHoldConditionIfTrackedSpellExistsOfType: ""
+  HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceTempestPass3
   DisplayName: "@IceTempestPass3"
   Description: "@IceTempestPass3_description"
@@ -1860,6 +2052,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 1.0
   TreeColumnPosition: 1.0
@@ -1927,6 +2120,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -1967,6 +2161,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -1978,6 +2173,7 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceTempestPass4
   DisplayName: "@IceTempestPass4"
   Description: "@IceTempestPass4_description"
@@ -1992,6 +2188,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 2.0
   TreeColumnPosition: 3.0
@@ -2059,6 +2256,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2099,6 +2297,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -2110,6 +2309,7 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceTempestPass5
   DisplayName: "@IceTempestPass5"
   Description: "@IceTempestPass5_description"
@@ -2124,6 +2324,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 3.0
   TreeColumnPosition: 3.0
@@ -2191,6 +2392,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2231,6 +2433,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -2242,6 +2445,7 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceTempestPass6
   DisplayName: "@IceTempestPass6"
   Description: "@IceTempestPass6_description"
@@ -2256,9 +2460,10 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 4.0
-  TreeColumnPosition: 1.0
+  TreeColumnPosition: 4.0
   IsActiveAbility: false
   IsGlobalAbility: false
   ScalingStrength: ""
@@ -2323,6 +2528,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2363,6 +2569,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -2374,6 +2581,7 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceTempestUltimate
   DisplayName: "@IceTempestUltimate"
   Description: "@IceTempestUltimate_description"
@@ -2388,6 +2596,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 0.0
   TreeRowPosition: 5.0
   TreeColumnPosition: 2.0
@@ -2455,6 +2664,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2495,6 +2705,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -2506,6 +2717,7 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceTempestUltimate_Helper
   DisplayName: ""
   Description: ""
@@ -2520,6 +2732,7 @@
   EquipWhenUnsheathed: true
   WeaponTag: Ice
   RequiredAbilityId: IceTempestUltimate
+  RequiredEquippedAbilityId: IceTempestUltimate
   TreeId: null
   TreeRowPosition: null
   TreeColumnPosition: null
@@ -2587,6 +2800,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.25
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2627,6 +2841,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -2638,10 +2853,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceMagic_IcePylon
   DisplayName: "@IcePylon"
   Description: "@IcePylon_description"
-  UICategory: Magic Damage
+  UICategory: Defense
   UISpellForManaCheck: IceMagic_Spell_Pylon_UI
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability4.png
   StatusEffectIcon: ""
@@ -2652,6 +2868,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 0.0
   TreeColumnPosition: 2.0
@@ -2719,6 +2936,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2759,6 +2977,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: IceMagic_IcePylon
   CDRImmediatelyOptions: ""
@@ -2770,10 +2989,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: IcePylon
   HoldConditionButtonIcon: lyshineui/images/icons/abilities/ice_Pylon_cancel.png
+  SupportsSmartcast: null
 - AbilityID: IcePylonGreaterPylon
   DisplayName: "@GreaterPylon"
   Description: "@GreaterPylon_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability4_Mod1.png
   StatusEffectIcon: ""
@@ -2784,6 +3004,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: IceMagic_IcePylon
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 1.0
   TreeColumnPosition: 2.0
@@ -2851,6 +3072,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.1
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -2891,6 +3113,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -2902,10 +3125,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IcePylonPylonRegen
   DisplayName: "@PylonRegen"
   Description: "@PylonRegen_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability4_Mod2.png
   StatusEffectIcon: ""
@@ -2916,6 +3140,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: IceMagic_IcePylon
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 2.0
   TreeColumnPosition: 2.0
@@ -2983,6 +3208,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3023,6 +3249,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -3034,10 +3261,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IcePylonPylonDodge
   DisplayName: "@PylonDodge"
   Description: "@PylonDodge_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability4_Mod3.png
   StatusEffectIcon: ""
@@ -3048,6 +3276,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: IceMagic_IcePylon
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 3.0
   TreeColumnPosition: 2.0
@@ -3115,6 +3344,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3155,6 +3385,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -3166,10 +3397,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IcePylonPylonRefresh
   DisplayName: "@PylonRefresh"
   Description: "@PylonRefresh_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability4_Mod4.png
   StatusEffectIcon: ""
@@ -3180,6 +3412,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: IceMagic_IcePylon
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 4.0
   TreeColumnPosition: 2.0
@@ -3247,6 +3480,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3287,6 +3521,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -3298,10 +3533,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceMagic_IceShower
   DisplayName: "@IceShower"
   Description: "@IceShower_description"
-  UICategory: Magic Damage
+  UICategory: Attack
   UISpellForManaCheck: IceMagic_Spell_Shower1
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability5.png
   StatusEffectIcon: ""
@@ -3312,6 +3548,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 1.0
   TreeColumnPosition: 0.0
@@ -3379,6 +3616,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3419,6 +3657,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: IceMagic_IceShower
   CDRImmediatelyOptions: ""
@@ -3430,10 +3669,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceShowerEnduringShower
   DisplayName: "@EnduringShower"
   Description: "@EnduringShower_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability5_Mod1.png
   StatusEffectIcon: ""
@@ -3444,6 +3684,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: IceMagic_IceShower
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 2.0
   TreeColumnPosition: 0.0
@@ -3511,6 +3752,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3551,6 +3793,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -3562,10 +3805,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceShowerQuickShower
   DisplayName: "@QuickShower"
   Description: "@QuickShower_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability5_Mod2.png
   StatusEffectIcon: ""
@@ -3576,6 +3820,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: IceMagic_IceShower
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 3.0
   TreeColumnPosition: 0.0
@@ -3643,6 +3888,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3683,6 +3929,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -3694,10 +3941,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceShowerShowerSlush
   DisplayName: "@ShowerSlush"
   Description: "@ShowerSlush_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability3_Mod2.png
   StatusEffectIcon: ""
@@ -3708,6 +3956,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: IceMagic_IceShower
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 4.0
   TreeColumnPosition: 0.0
@@ -3775,6 +4024,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3815,6 +4065,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -3826,10 +4077,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceMagic_Entombed
   DisplayName: "@Entombed"
   Description: "@Entombed_description"
-  UICategory: Magic Damage
+  UICategory: Defense
   UISpellForManaCheck: IceMagic_Spell_Entomb
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability6.png
   StatusEffectIcon: ""
@@ -3840,6 +4092,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 2.0
   TreeColumnPosition: 4.0
@@ -3907,6 +4160,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -3947,6 +4201,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: IceMagic_Entombed
   CDRImmediatelyOptions: ""
@@ -3958,10 +4213,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: EntombedStrengthenedTomb
   DisplayName: "@StrengthenedTomb"
   Description: "@StrengthenedTomb_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability6_Mod1.png
   StatusEffectIcon: ""
@@ -3972,6 +4228,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: IceMagic_Entombed
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 3.0
   TreeColumnPosition: 4.0
@@ -4039,6 +4296,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4079,6 +4337,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4090,10 +4349,11 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: EntombedCleansingTomb
   DisplayName: "@CleansingTomb"
   Description: "@CleansingTomb_description"
-  UICategory: Magic Damage
+  UICategory: Passive
   UISpellForManaCheck: ""
   Icon: lyshineui/images/icons/abilities/iceMagic_Ability6_Mod2.png
   StatusEffectIcon: ""
@@ -4104,6 +4364,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: IceMagic_Entombed
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 4.0
   TreeColumnPosition: 4.0
@@ -4171,6 +4432,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4211,6 +4473,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4222,6 +4485,7 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceConjurorPass1
   DisplayName: "@IceConjurorPass1"
   Description: "@IceConjurorPass1_description"
@@ -4236,6 +4500,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 0.0
   TreeColumnPosition: 1.0
@@ -4303,6 +4568,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4343,6 +4609,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4354,6 +4621,7 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceConjurorPass2
   DisplayName: "@IceConjurorPass2"
   Description: "@IceConjurorPass2_description"
@@ -4368,6 +4636,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 0.0
   TreeColumnPosition: 3.0
@@ -4435,6 +4704,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4475,6 +4745,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4486,6 +4757,7 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceConjurorPass3
   DisplayName: "@IceConjurorPass3"
   Description: "@IceConjurorPass3_description"
@@ -4500,6 +4772,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 1.0
   TreeColumnPosition: 3.0
@@ -4567,6 +4840,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4607,6 +4881,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4618,6 +4893,7 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceConjurorPass4
   DisplayName: "@IceConjurorPass4"
   Description: "@IceConjurorPass4_description"
@@ -4632,6 +4908,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 2.0
   TreeColumnPosition: 1.0
@@ -4699,6 +4976,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4739,6 +5017,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -4750,6 +5029,7 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceConjurorPass5
   DisplayName: "@IceConjurorPass5"
   Description: "@IceConjurorPass5_description"
@@ -4764,6 +5044,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 3.0
   TreeColumnPosition: 3.0
@@ -4831,6 +5112,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -4871,6 +5153,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ActiveWeapon
@@ -4882,6 +5165,7 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceConjurorPass6
   DisplayName: "@IceConjurorPass6"
   Description: "@IceConjurorPass6_description"
@@ -4896,6 +5180,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: ""
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 4.0
   TreeColumnPosition: 1.0
@@ -4963,6 +5248,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -5003,6 +5289,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -5014,6 +5301,7 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null
 - AbilityID: IceConjurorUltimate
   DisplayName: "@IceConjurorUltimate"
   Description: "@IceConjurorUltimate_description"
@@ -5028,6 +5316,7 @@
   EquipWhenUnsheathed: null
   WeaponTag: Ice
   RequiredAbilityId: IceMagic_IcePylon
+  RequiredEquippedAbilityId: ""
   TreeId: 1.0
   TreeRowPosition: 5.0
   TreeColumnPosition: 2.0
@@ -5095,6 +5384,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: ""
   BlockDamage: ""
@@ -5135,6 +5425,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: ""
+  ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ""
@@ -5146,3 +5437,4 @@
   SetMannequinTagStatus: ""
   EnableHoldConditionIfTrackedSpellExistsOfType: ""
   HoldConditionButtonIcon: ""
+  SupportsSmartcast: null

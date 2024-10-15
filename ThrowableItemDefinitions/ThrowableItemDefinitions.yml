@@ -25,12 +25,21 @@
   AttachmentName: righthandattach
   WarningTime: 2.0
   AttachmentSlicePath: slices/Characters/SpellSlices/Dynasty_Empress_Solo_Cannon_Equipped.dynamicslice
-- ThrowableId: LightningFields_Core_Throwable_Item
+- ThrowableId: Raid_CutlassKeys00_Water_Throwable_Item
   ActivationTime: null
-  SpawnSliceOnActivate: true
+  SpawnSliceOnActivate: false
   ActivationSlicePath: ""
+  GatherableSlicePath: slices/Dungeon/Raids/CutlassKeys00/Raid_CutlassKeys00_Cleansing_Water_Throwable.dynamicslice
+  SpellName: Raid_CutlassKeys00_Water_Throwable_Projectile
+  AttachmentName: righthandattach
+  WarningTime: null
+  AttachmentSlicePath: slices/Dungeon/Raids/CutlassKeys00/Raid_CutlassKeys00_Cleansing_Water_Throwable_Equipped.dynamicslice
+- ThrowableId: LightningFields_Core_Throwable_Item
+  ActivationTime: 3.0
+  SpawnSliceOnActivate: true
+  ActivationSlicePath: slices/worldevents/cutlasskeys/lightningfields/lightningfields_throwable_base_equipped_explosion.dynamicslice
   GatherableSlicePath: slices/WorldEvents/CutlassKeys/LightningFields/LightningFields_Throwable_Gatherable_01.dynamicslice
   SpellName: LightningFields_Throwable_Base_Projectile
   AttachmentName: righthandattach
-  WarningTime: null
+  WarningTime: 2.0
   AttachmentSlicePath: slices/WorldEvents/CutlassKeys/LightningFields/LightningFields_Throwable_Object_Equipped_01.dynamicslice

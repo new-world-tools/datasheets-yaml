@@ -4,6 +4,7 @@
   ReqAchievementId: SwapActive_MSQ_MaraBook
   OnWatchedAchievementId: Cinematic_TempestReckoning
   DurationInSec: 108.0
+  CanSkip: ""
   Description: ""
   Subtitle: "@TempestReckoning01"
   Comment: ""
@@ -13,6 +14,7 @@
   ReqAchievementId: S_headstatue_cutscene
   OnWatchedAchievementId: Cinematic_TempestRising
   DurationInSec: 106.0
+  CanSkip: ""
   Description: ""
   Subtitle: "@TempestRising01"
   Comment: ""
@@ -22,6 +24,7 @@
   ReqAchievementId: S_headstatue_cutscene_mb
   OnWatchedAchievementId: Cinematic_TempestRising
   DurationInSec: 106.0
+  CanSkip: ""
   Description: ""
   Subtitle: "@TempestRisingMB01"
   Comment: ""
@@ -31,6 +34,7 @@
   ReqAchievementId: 16_ImhotepCinematic_Unlock
   OnWatchedAchievementId: Cinematic_LegacyOfAncients
   DurationInSec: 106.0
+  CanSkip: ""
   Description: ""
   Subtitle: "@AncientsLegacy01"
   Comment: ""
@@ -40,6 +44,7 @@
   ReqAchievementId: 16_CharmionCinematic_Unlock
   OnWatchedAchievementId: Cinematic_LegacyOfRome
   DurationInSec: 123.0
+  CanSkip: ""
   Description: ""
   Subtitle: "@RomeLegacy01"
   Comment: ""
@@ -49,6 +54,7 @@
   ReqAchievementId: 16_HuntressCinematic_Unlock
   OnWatchedAchievementId: Cinematic_TheHuntress
   DurationInSec: 115.0
+  CanSkip: ""
   Description: ""
   Subtitle: "@WildHuntress01"
   Comment: ""
@@ -58,6 +64,7 @@
   ReqAchievementId: 95_s01_Skye_Cinematic_Letter_Unlock
   OnWatchedAchievementId: Cinematic_95_s01_Skye_Watched
   DurationInSec: 79.0
+  CanSkip: ""
   Description: ""
   Subtitle: "@SkyeLetter01"
   Comment: ""
@@ -67,6 +74,7 @@
   ReqAchievementId: 99C_MorgaineCinematic_Unlock
   OnWatchedAchievementId: Cinematic_MorgainesTruth
   DurationInSec: 86.0
+  CanSkip: ""
   Description: ""
   Subtitle: "@MorgaineTruth01"
   Comment: ""
@@ -76,6 +84,7 @@
   ReqAchievementId: 99B_GalahadCinematic_Unlock
   OnWatchedAchievementId: Cinematic_GalahadsRegret
   DurationInSec: 86.0
+  CanSkip: ""
   Description: ""
   Subtitle: "@GalahadRegret01"
   Comment: ""
@@ -85,6 +94,7 @@
   ReqAchievementId: 99B_AzothTreeCinematic_Unlock
   OnWatchedAchievementId: Cinematic_AzothTree
   DurationInSec: 111.0
+  CanSkip: ""
   Description: ""
   Subtitle: ""
   Comment: ""
@@ -94,6 +104,7 @@
   ReqAchievementId: 99B_PennyfatherCinematic_Unlock
   OnWatchedAchievementId: Cinematic_CorpseCrone
   DurationInSec: 82.0
+  CanSkip: ""
   Description: ""
   Subtitle: "@CorpseCrone01"
   Comment: ""
@@ -103,6 +114,7 @@
   ReqAchievementId: Unlock_95A_S02_DevourerCinematic
   OnWatchedAchievementId: Watched_95A_S02_DevourerCinematic
   DurationInSec: 107.0
+  CanSkip: ""
   Description: ""
   Subtitle: "@DevourerLegacy01"
   Comment: ""
@@ -112,6 +124,7 @@
   ReqAchievementId: 99E_BonesEarthCinematic_Unlock
   OnWatchedAchievementId: Cinematic_BonesEarth
   DurationInSec: 93.0
+  CanSkip: ""
   Description: ""
   Subtitle: "@BonesEarth01"
   Comment: ""
@@ -121,8 +134,19 @@
   ReqAchievementId: 99E_CaerDunCinematic_Unlock
   OnWatchedAchievementId: Cinematic_CaerDun
   DurationInSec: 82.0
+  CanSkip: ""
   Description: ""
   Subtitle: "@FallCaerDun01"
+  Comment: ""
+- CinematicVideoId: EW_ElysianIntro
+  VideoPath: LyShineUI/Videos/NW23_3DRothAE_PlaceHolder.bk2
+  Name: "@cinmatic_video_ew_elysianintro"
+  ReqAchievementId: Start_Ely_IntroCinematic
+  OnWatchedAchievementId: Watched_Ely_IntroCinematic
+  DurationInSec: 113.0
+  CanSkip: ""
+  Description: ""
+  Subtitle: "@ElysianIntro01"
   Comment: ""
 - CinematicVideoId: FL_BeastLords
   VideoPath: LyShineUI/Videos/NW23_BL_Final_00.bk2
@@ -130,6 +154,7 @@
   ReqAchievementId: 09A_BeastLordsCinematic_Unlock
   OnWatchedAchievementId: Cinematic_BeastLords
   DurationInSec: 94.0
+  CanSkip: ""
   Description: ""
   Subtitle: "@BeastLords01"
   Comment: ""
@@ -139,6 +164,7 @@
   ReqAchievementId: 09A_NewEdenCinematic_Unlock
   OnWatchedAchievementId: Cinematic_NewEden
   DurationInSec: 91.0
+  CanSkip: ""
   Description: ""
   Subtitle: "@NewEden01"
   Comment: ""
@@ -148,6 +174,7 @@
   ReqAchievementId: 09A_ShadowAwakensCinematic_Unlock
   OnWatchedAchievementId: Cinematic_ShadowAwakens
   DurationInSec: 89.0
+  CanSkip: ""
   Description: ""
   Subtitle: "@ShadowAwakens01"
   Comment: ""
@@ -157,6 +184,7 @@
   ReqAchievementId: 99D_Unlock_ThorpeCinematic
   OnWatchedAchievementId: Cinematic_DarkCommand
   DurationInSec: 98.0
+  CanSkip: ""
   Description: ""
   Subtitle: "@DarkCommand01"
   Comment: ""
@@ -166,6 +194,7 @@
   ReqAchievementId: 99F_WiseManCinematic_Unlock
   OnWatchedAchievementId: Cinematic_WiseMan
   DurationInSec: 103.0
+  CanSkip: ""
   Description: ""
   Subtitle: "@WisemansCounsel01"
   Comment: ""
@@ -175,6 +204,7 @@
   ReqAchievementId: 99F_MothersHopeCinematic_Unlock
   OnWatchedAchievementId: Cinematic_MothersHope
   DurationInSec: 95.0
+  CanSkip: ""
   Description: ""
   Subtitle: "@MothersHope01"
   Comment: ""
@@ -184,6 +214,7 @@
   ReqAchievementId: 99G_FallenAngelCinematic_Unlock
   OnWatchedAchievementId: Cinematic_FallenAngel
   DurationInSec: 111.0
+  CanSkip: ""
   Description: ""
   Subtitle: "@FallenAngel01"
   Comment: ""
@@ -193,6 +224,117 @@
   ReqAchievementId: Unlock_95_s04_Cinematic
   OnWatchedAchievementId: Watched_95_s04_Cinematic
   DurationInSec: 96.0
+  CanSkip: ""
   Description: ""
   Subtitle: "@MordredsRegret01"
+  Comment: ""
+- CinematicVideoId: MB_EmptyThrone
+  VideoPath: LyShineUI/Videos/S6_TET_Final_00.bk2
+  Name: "@cinmatic_video_mb_emptythrone"
+  ReqAchievementId: 12_EmptyThroneCinematic_Unlock
+  OnWatchedAchievementId: Cinematic_EmptyThrone
+  DurationInSec: 116.0
+  CanSkip: ""
+  Description: ""
+  Subtitle: "@EmptyThrone01"
+  Comment: ""
+- CinematicVideoId: MSQ_AncientAeternum
+  VideoPath: LyShineUI/Videos/S6_AA_Final_00.bk2
+  Name: "@cinmatic_video_msq_ancientaeternum"
+  ReqAchievementId: MSQ_AncientAeternumCinematic_Unlock
+  OnWatchedAchievementId: Cinematic_AncientAeternum
+  DurationInSec: 101.0
+  CanSkip: ""
+  Description: ""
+  Subtitle: "@AncientAeternum01"
+  Comment: ""
+- CinematicVideoId: MSQ_FallSoulwardens
+  VideoPath: LyShineUI/Videos/S6_FOTSW_Final_00.bk2
+  Name: "@cinmatic_video_msq_fallsoulwardens"
+  ReqAchievementId: MSQ_FallSoulwardensCinematic_Unlock
+  OnWatchedAchievementId: Cinematic_FallSoulwardens
+  DurationInSec: 118.0
+  CanSkip: ""
+  Description: ""
+  Subtitle: "@FallSoulwardens01"
+  Comment: ""
+- CinematicVideoId: WW_MedeasTribute
+  VideoPath: LyShineUI/Videos/S6_MT_Final_00.bk2
+  Name: "@cinmatic_video_ww_medeastribute"
+  ReqAchievementId: 06_MedeasTributeCinematic_Unlock
+  OnWatchedAchievementId: Cinematic_MedeasTribute
+  DurationInSec: 129.0
+  CanSkip: ""
+  Description: ""
+  Subtitle: "@MedeasTribute01"
+  Comment: ""
+- CinematicVideoId: MSQ_TroubleOxboro
+  VideoPath: LyShineUI/Videos/S6_TWO_FINAL.bk2
+  Name: "@cinmatic_video_msq_troubleoxboro"
+  ReqAchievementId: MSQ_TroubleOxboroCinematic_Unlock
+  OnWatchedAchievementId: Cinematic_TroubleOxboro
+  DurationInSec: 97.0
+  CanSkip: ""
+  Description: ""
+  Subtitle: "@TroubleOxboro01"
+  Comment: ""
+- CinematicVideoId: MSQ_LaEsperanza
+  VideoPath: LyShineUI/Videos/S6_LAE_FINAL.bk2
+  Name: "@cinmatic_video_msq_laesperanza"
+  ReqAchievementId: MSQ_LaEsperanza_Unlock
+  OnWatchedAchievementId: Cinematic_LaEsperanza
+  DurationInSec: 120.0
+  CanSkip: ""
+  Description: ""
+  Subtitle: "@LaEsperanza01"
+  Comment: ""
+- CinematicVideoId: FTUE_Intro1
+  VideoPath: LyShineUI/Videos/FF_I1.bk2
+  Name: "@cinmatic_video_FTUE_Intro1"
+  ReqAchievementId: FTUE_Intro1_Cinematic_Unlock
+  OnWatchedAchievementId: FTUE_Intro1_Cinematic_Watched
+  DurationInSec: 88.0
+  CanSkip: ""
+  Description: ""
+  Subtitle: "@Intro_A_01"
+  Comment: ""
+- CinematicVideoId: FTUE_Intro2
+  VideoPath: LyShineUI/Videos/FF_I2.bk2
+  Name: "@cinmatic_video_FTUE_Intro2"
+  ReqAchievementId: FTUE_Intro2_Cinematic_Unlock
+  OnWatchedAchievementId: FTUE_Intro2_Cinematic_Watched
+  DurationInSec: 171.0
+  CanSkip: ""
+  Description: ""
+  Subtitle: "@Intro_B_01"
+  Comment: ""
+- CinematicVideoId: FTUE_Intro3
+  VideoPath: LyShineUI/Videos/FF_I3.bk2
+  Name: "@cinmatic_video_FTUE_Intro3"
+  ReqAchievementId: FTUE_Intro3_Cinematic_Unlock
+  OnWatchedAchievementId: FTUE_Intro3_Cinematic_Watched
+  DurationInSec: 44.0
+  CanSkip: "false"
+  Description: ""
+  Subtitle: ""
+  Comment: ""
+- CinematicVideoId: FTUE_Rez
+  VideoPath: LyShineUI/Videos/FF_RES.bk2
+  Name: "@cinmatic_video_FTUE_Rez"
+  ReqAchievementId: FTUE_Rez_Cinematic_Unlock
+  OnWatchedAchievementId: FTUE_Rez_Cinematic_Watched
+  DurationInSec: 64.0
+  CanSkip: ""
+  Description: ""
+  Subtitle: "@Resurrection_01"
+  Comment: ""
+- CinematicVideoId: FTUE_Rit
+  VideoPath: LyShineUI/Videos/FF_RITUAL_v2.bk2
+  Name: "@cinmatic_video_FTUE_Rit"
+  ReqAchievementId: FTUE_Rit_Cinematic_Unlock
+  OnWatchedAchievementId: FTUE_Rit_Cinematic_Watched
+  DurationInSec: 40.0
+  CanSkip: "false"
+  Description: ""
+  Subtitle: "@Ritual_01"
   Comment: ""

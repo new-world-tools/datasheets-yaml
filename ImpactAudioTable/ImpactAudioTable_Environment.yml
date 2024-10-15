@@ -19,6 +19,7 @@
   mat_corruption_core: ""
   mat_corruption: ""
   mat_holy_shield: ""
+  mat_Ice_Entomb: ""
   mat_flesh: ""
   mat_ice: ""
 - Name: Default
@@ -42,6 +43,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_PunchUnarmed_Flesh
   mat_ice: Play_Imp_PunchUnarmed_IceWall
 - Name: Default+Crit
@@ -65,6 +67,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_PunchUnarmed_Flesh
   mat_ice: Play_Imp_PunchUnarmed_IceWall
 - Name: Sword
@@ -88,6 +91,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_SwordMetal_Flesh
   mat_ice: Play_Imp_SwordMetal_IceWall
 - Name: Sword_Fleche
@@ -111,8 +115,9 @@
   mat_corruption_core: NoEnvironment
   mat_corruption: NoEnvironment
   mat_holy_shield: NoEnvironment
-  mat_flesh: Play_Imp_Rapier_Fleche
-  mat_ice: Play_Imp_SwordMetal_IceWall
+  mat_Ice_Entomb: NoEnvironment
+  mat_flesh: NoEnvironment
+  mat_ice: NoEnvironment
 - Name: Sword+Crit
   mat_default: Play_Imp_PunchUnarmed_Dirt
   mat_bark: Play_Imp_SwordMetal_Wood
@@ -134,6 +139,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_SwordMetal_Flesh
   mat_ice: Play_Imp_SwordMetal_IceWall
 - Name: Club
@@ -157,6 +163,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_ClubMetal_Flesh
   mat_ice: Play_Imp_ClubMetal_IceWall
 - Name: ClubSpriggan
@@ -180,6 +187,7 @@
   mat_corruption_core: Play_Imp_ClubWoodSpriggan_Ground
   mat_corruption: Play_Imp_ClubWoodSpriggan_Ground
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_ClubMetal_Flesh
   mat_ice: Play_Imp_ClubMetal_IceWall
 - Name: Axe
@@ -203,6 +211,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Axe_Flesh
   mat_ice: Play_Imp_Axe_IceWall
 - Name: Axe+Crit
@@ -226,6 +235,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Axe_Flesh
   mat_ice: Play_Imp_Axe_IceWall
 - Name: Axe_Throw
@@ -249,6 +259,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Axe_Flesh
   mat_ice: Play_Imp_Axe_IceWall
 - Name: Axe_Throw+Crit
@@ -272,6 +283,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Axe_Flesh
   mat_ice: Play_Imp_Axe_IceWall
 - Name: GreatAxe
@@ -295,6 +307,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_GreatAxe_Flesh
   mat_ice: Play_Imp_GreatAxe_IceWall
 - Name: GreatAxe+Crit
@@ -318,6 +331,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_GreatAxe_Flesh
   mat_ice: Play_Imp_GreatAxe_IceWall
 - Name: Unarmed
@@ -341,6 +355,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_PunchUnarmed_Flesh
   mat_ice: Play_Imp_PunchUnarmed_IceWall
 - Name: Musket
@@ -364,6 +379,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Bullet_Flesh
   mat_ice: Play_Imp_Bullet_IceWall
 - Name: Musket_Heavy
@@ -387,6 +403,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Bullet_Flesh
   mat_ice: Play_Imp_Bullet_IceWall
 - Name: StickyBomb
@@ -410,6 +427,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Ability_StickyBomb_Stuck
   mat_ice: Play_Imp_Bullet_IceWall
 - Name: Musket+Crit
@@ -433,6 +451,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Bullet_Flesh
   mat_ice: Play_Imp_Bullet_IceWall
 - Name: Bow
@@ -456,6 +475,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Arrow_Flesh
   mat_ice: Play_Imp_Bullet_IceWall
 - Name: Bow_Heavy
@@ -479,6 +499,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Arrow_Flesh
   mat_ice: Play_Imp_Bullet_IceWall
 - Name: Bow+Crit
@@ -502,6 +523,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Arrow_Flesh
   mat_ice: Play_Imp_Bullet_IceWall
 - Name: Shield
@@ -525,8 +547,9 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_ShieldMetal_Flesh
-  mat_ice: ""
+  mat_ice: Play_Imp_ShieldMetal_Flesh
 - Name: Shield+Crit
   mat_default: Play_Imp_PunchUnarmed_Dirt
   mat_bark: Play_Imp_ShieldMetal_Wood
@@ -548,8 +571,9 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_ShieldMetal_Flesh
-  mat_ice: ""
+  mat_ice: Play_Imp_ShieldMetal_Flesh
 - Name: DemoHammer
   mat_default: Play_Imp_PunchUnarmed_Dirt
   mat_bark: Play_Imp_GreatAxe_Wood
@@ -571,8 +595,9 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Warhammer_Flesh
-  mat_ice: ""
+  mat_ice: Play_Imp_Warhammer_Flesh
 - Name: Warhammer
   mat_default: Play_Imp_GreatAxe_Dirt
   mat_bark: Play_Imp_GreatAxe_Wood
@@ -594,6 +619,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Warhammer_Flesh
   mat_ice: Play_Imp_Warhammer_IceWall
 - Name: Warhammer_Heavy
@@ -617,6 +643,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Warhammer_Flesh
   mat_ice: Play_Imp_Warhammer_IceWall
 - Name: Warhammer+Crit
@@ -640,6 +667,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Warhammer_Flesh
   mat_ice: Play_Imp_Warhammer_IceWall
 - Name: Spear
@@ -663,6 +691,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_SpearMetal_Flesh
   mat_ice: Play_Imp_SpearMetal_IceWall
 - Name: Spear_Throw
@@ -686,6 +715,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_SpearMetal_Flesh
   mat_ice: Play_Imp_SpearMetal_IceWall
 - Name: Spear_Kick
@@ -709,6 +739,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_SpearMetal_Flesh
   mat_ice: Play_Imp_SpearMetal_IceWall
 - Name: Spear+Crit
@@ -732,6 +763,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_SpearMetal_Flesh
   mat_ice: Play_Imp_SpearMetal_IceWall
 - Name: Spear_Throw+Crit
@@ -755,6 +787,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_SpearMetal_Flesh
   mat_ice: Play_Imp_SpearMetal_IceWall
 - Name: GhostSpell_Ice
@@ -778,6 +811,7 @@
   mat_corruption_core: Play_Imp_PunchUnarmed_Dirt
   mat_corruption: Play_Imp_PunchUnarmed_Dirt
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_GreatAxe_Flesh
   mat_ice: Play_Imp_Axe_IceWall
 - Name: GhostSpell_Fire
@@ -801,6 +835,7 @@
   mat_corruption_core: Play_Imp_PunchUnarmed_Dirt
   mat_corruption: Play_Imp_PunchUnarmed_Dirt
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_GreatAxe_Flesh
   mat_ice: Play_Imp_Axe_IceWall
 - Name: GhostSpell_Lightning
@@ -824,6 +859,7 @@
   mat_corruption_core: Play_Imp_PunchUnarmed_Dirt
   mat_corruption: Play_Imp_PunchUnarmed_Dirt
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_GreatAxe_Flesh
   mat_ice: Play_Imp_Axe_IceWall
 - Name: GhostSpell_Curse
@@ -847,6 +883,7 @@
   mat_corruption_core: Play_Imp_PunchUnarmed_Dirt
   mat_corruption: Play_Imp_PunchUnarmed_Dirt
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_GreatAxe_Flesh
   mat_ice: Play_Imp_Axe_IceWall
 - Name: GhostSpell_Disease
@@ -870,6 +907,7 @@
   mat_corruption_core: Play_Imp_PunchUnarmed_Dirt
   mat_corruption: Play_Imp_PunchUnarmed_Dirt
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_GreatAxe_Flesh
   mat_ice: Play_Imp_Axe_IceWall
 - Name: Bite_AI
@@ -892,9 +930,10 @@
   mat_wood: NoEnvironment
   mat_corruption_core: NoEnvironment
   mat_corruption: NoEnvironment
-  mat_holy_shield: NoEnvironment
-  mat_flesh: ""
-  mat_ice: ""
+  mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
+  mat_flesh: NoEnvironment
+  mat_ice: NoEnvironment
 - Name: Blunt_AI
   mat_default: Play_Imp_PunchUnarmed_Dirt
   mat_bark: Play_Imp_PunchUnarmed_Wood
@@ -916,6 +955,7 @@
   mat_corruption_core: Play_Imp_PunchUnarmed_Dirt
   mat_corruption: Play_Imp_PunchUnarmed_Dirt
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_GreatAxe_Flesh
   mat_ice: Play_Imp_Axe_IceWall
 - Name: Bear_Claw
@@ -939,6 +979,7 @@
   mat_corruption_core: Play_Imp_PunchUnarmed_Dirt
   mat_corruption: Play_Imp_PunchUnarmed_Dirt
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_GreatAxe_Flesh
   mat_ice: Play_Imp_Axe_IceWall
 - Name: Regurgitator_Vomitball
@@ -962,6 +1003,7 @@
   mat_corruption_core: Play_Imp_Regurgitator_Vomitball_Environment
   mat_corruption: Play_Imp_Regurgitator_Vomitball_Environment
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_GreatAxe_Flesh
   mat_ice: Play_Imp_Axe_IceWall
 - Name: Sword+Fire
@@ -985,6 +1027,7 @@
   mat_corruption_core: Play_Imp_Bullet_Flesh
   mat_corruption: Play_Imp_Bullet_Flesh
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Bullet_Flesh
   mat_ice: Play_Imp_Bullet_IceWall
 - Name: MagicFire
@@ -1008,6 +1051,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_FireProj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_GreatAxe_Flesh
   mat_ice: Play_Imp_PunchUnarmed_IceWall
 - Name: Ballista
@@ -1031,6 +1075,7 @@
   mat_corruption_core: Play_Imp_GreatAxe_Wood
   mat_corruption: Play_Imp_GreatAxe_Wood
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_GreatAxe_Flesh
   mat_ice: Play_Imp_Axe_IceWall
 - Name: CannonBall
@@ -1054,6 +1099,7 @@
   mat_corruption_core: Play_Cannon_Imp
   mat_corruption: Play_Cannon_Imp
   mat_holy_shield: Play_Imp_FireProj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Warhammer_Flesh
   mat_ice: Play_Imp_Warhammer_IceWall
 - Name: MagicStaff
@@ -1077,6 +1123,7 @@
   mat_corruption_core: Play_Imp_ClubMetal_Wood
   mat_corruption: Play_Imp_ClubMetal_Wood
   mat_holy_shield: Play_Imp_FireProj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Warhammer_Flesh
   mat_ice: Play_Imp_Warhammer_IceWall
 - Name: FireStaff_Proj
@@ -1100,6 +1147,7 @@
   mat_corruption_core: Play_Fire_Proj_Explo_Ground
   mat_corruption: Play_Fire_Proj_Explo_Ground
   mat_holy_shield: Play_Imp_FireProj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_GreatAxe_Flesh
   mat_ice: Play_Imp_Warhammer_IceWall
 - Name: FireStaff_Proj+Crit
@@ -1123,6 +1171,7 @@
   mat_corruption_core: Play_Fire_Proj_Explo_Ground
   mat_corruption: Play_Fire_Proj_Explo_Ground
   mat_holy_shield: Play_Imp_FireProj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_GreatAxe_Flesh
   mat_ice: Play_Imp_Warhammer_IceWall
 - Name: FlameThrower
@@ -1146,8 +1195,9 @@
   mat_corruption_core: NoEnvironment
   mat_corruption: NoEnvironment
   mat_holy_shield: NoEnvironment
-  mat_flesh: ""
-  mat_ice: ""
+  mat_Ice_Entomb: NoEnvironment
+  mat_flesh: NoEnvironment
+  mat_ice: NoEnvironment
 - Name: LifeStaff_Proj
   mat_default: Play_Imp_LifeStaff_Env
   mat_bark: Play_Imp_LifeStaff_Env
@@ -1169,6 +1219,7 @@
   mat_corruption_core: Play_Imp_LifeStaff_Env
   mat_corruption: Play_Imp_LifeStaff_Env
   mat_holy_shield: Play_Imp_LifeProj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_LifeStaff
   mat_ice: Play_Imp_Warhammer_IceWall
 - Name: LifeStaff_Proj_Protect
@@ -1192,6 +1243,7 @@
   mat_corruption_core: Play_IMP_LifeStaff_Protect
   mat_corruption: Play_IMP_LifeStaff_Protect
   mat_holy_shield: Play_Imp_LifeProj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_LifeStaff
   mat_ice: Play_Imp_Warhammer_IceWall
 - Name: LifeStaff_Proj+Crit
@@ -1215,6 +1267,7 @@
   mat_corruption_core: Play_Imp_LifeStaff_Env
   mat_corruption: Play_Imp_LifeStaff_Env
   mat_holy_shield: Play_Imp_LifeProj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_LifeStaff
   mat_ice: Play_Imp_Warhammer_IceWall
 - Name: IceGauntlet_Proj
@@ -1238,6 +1291,7 @@
   mat_corruption_core: Play_Imp_IceGauntlet_Env
   mat_corruption: Play_Imp_IceGauntlet_Env
   mat_holy_shield: Play_Imp_LifeProj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_IceGauntlet
   mat_ice: Play_Imp_Warhammer_IceWall
 - Name: IceGauntlet_Proj_Heavy
@@ -1261,6 +1315,7 @@
   mat_corruption_core: Play_Imp_IceGauntlet_Env
   mat_corruption: Play_Imp_IceGauntlet_Env
   mat_holy_shield: Play_Imp_LifeProj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_IceGauntlet
   mat_ice: Play_Imp_Warhammer_IceWall
 - Name: IceGauntlet_Null
@@ -1284,6 +1339,7 @@
   mat_corruption_core: Play_Imp_IceGauntlet_Env
   mat_corruption: Play_Imp_IceGauntlet_Env
   mat_holy_shield: Play_Imp_LifeProj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_IceGauntlet
   mat_ice: Play_Imp_Warhammer_IceWall
 - Name: IceGauntlet_Proj+Crit
@@ -1307,6 +1363,7 @@
   mat_corruption_core: Play_Imp_IceGauntlet_Env
   mat_corruption: Play_Imp_IceGauntlet_Env
   mat_holy_shield: Play_Imp_LifeProj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_IceGauntlet
   mat_ice: Play_Imp_Warhammer_IceWall
 - Name: CorruptedMagic
@@ -1330,8 +1387,9 @@
   mat_corruption_core: Play_Imp_CorruptedMagic_Environment
   mat_corruption: Play_Imp_CorruptedMagic_Environment
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_CorruptedMagic
-  mat_ice: ""
+  mat_ice: Play_Imp_CorruptedMagic_Environment
 - Name: DryadMagic
   mat_default: Play_Imp_DryadMagic_Environment
   mat_bark: Play_Imp_DryadMagic_Environment
@@ -1353,8 +1411,9 @@
   mat_corruption_core: Play_Imp_DryadMagic_Environment
   mat_corruption: Play_Imp_DryadMagic_Environment
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_CorruptedMagic
-  mat_ice: ""
+  mat_ice: Play_Imp_DryadMagic_Environment
 - Name: CorruptedSlash
   mat_default: Play_Imp_CorruptedMagic_Environment
   mat_bark: Play_Imp_CorruptedMagic_Environment
@@ -1375,9 +1434,10 @@
   mat_wood: Play_Imp_CorruptedMagic_Environment
   mat_corruption_core: Play_Imp_CorruptedMagic_Environment
   mat_corruption: Play_Imp_CorruptedMagic_Environment
-  mat_holy_shield: Play_Imp_CorruptedMagic_Environment
+  mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_CorruptedMagic
-  mat_ice: ""
+  mat_ice: Play_Imp_CorruptedMagic_Environment
 - Name: VoidGauntlet_Proj
   mat_default: Play_Imp_VoidGauntlet_Env
   mat_bark: Play_Imp_VoidGauntlet_Env
@@ -1399,8 +1459,9 @@
   mat_corruption_core: Play_Imp_VoidGauntlet_Env
   mat_corruption: Play_Imp_VoidGauntlet_Env
   mat_holy_shield: Play_Imp_LifeProj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_VoidGauntlet
-  mat_ice: ""
+  mat_ice: Play_Imp_VoidGauntlet
 - Name: VoidGauntlet_Proj_Heavy
   mat_default: Play_Imp_VoidGauntlet_Env
   mat_bark: Play_Imp_VoidGauntlet_Env
@@ -1422,8 +1483,9 @@
   mat_corruption_core: Play_Imp_VoidGauntlet_Env
   mat_corruption: Play_Imp_VoidGauntlet_Env
   mat_holy_shield: Play_Imp_LifeProj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_VoidGauntlet
-  mat_ice: ""
+  mat_ice: Play_Imp_VoidGauntlet
 - Name: VoidGauntlet_Blade
   mat_default: Play_Imp_VoidGauntlet_Blade
   mat_bark: Play_Imp_VoidGauntlet_Blade
@@ -1444,9 +1506,10 @@
   mat_wood: Play_Imp_VoidGauntlet_Blade
   mat_corruption_core: Play_Imp_VoidGauntlet_Blade
   mat_corruption: Play_Imp_VoidGauntlet_Blade
-  mat_holy_shield: Play_Imp_VoidGauntlet_Blade
+  mat_holy_shield: Play_Imp_LifeProj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_VoidGauntlet_Blade
-  mat_ice: ""
+  mat_ice: Play_Imp_VoidGauntlet_Blade
 - Name: VoidGauntlet_Special
   mat_default: Play_Imp_VoidGauntlet_Env_Special
   mat_bark: Play_Imp_VoidGauntlet_Env_Special
@@ -1468,8 +1531,9 @@
   mat_corruption_core: Play_Imp_VoidGauntlet_Env_Special
   mat_corruption: Play_Imp_VoidGauntlet_Env_Special
   mat_holy_shield: Play_Imp_LifeProj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_VoidGauntlet_Special
-  mat_ice: ""
+  mat_ice: Play_Imp_VoidGauntlet_Special
 - Name: VoidGauntlet_Rupture
   mat_default: Play_Imp_VoidGauntlet_Special
   mat_bark: Play_Imp_VoidGauntlet_Special
@@ -1491,8 +1555,9 @@
   mat_corruption_core: Play_Imp_VoidGauntlet_Special
   mat_corruption: Play_Imp_VoidGauntlet_Special
   mat_holy_shield: Play_Imp_LifeProj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_VoidGauntlet_Special
-  mat_ice: ""
+  mat_ice: Play_Imp_VoidGauntlet_Special
 - Name: VoidGauntlet_Proj+Crit
   mat_default: Play_Imp_VoidGauntlet_Env
   mat_bark: Play_Imp_VoidGauntlet_Env
@@ -1514,8 +1579,33 @@
   mat_corruption_core: Play_Imp_VoidGauntlet_Env
   mat_corruption: Play_Imp_VoidGauntlet_Env
   mat_holy_shield: Play_Imp_LifeProj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_VoidGauntlet
-  mat_ice: ""
+  mat_ice: Play_Imp_VoidGauntlet
+- Name: VoidGauntlet_Blade+Crit
+  mat_default: Play_Imp_VoidGauntlet_Blade
+  mat_bark: Play_Imp_VoidGauntlet_Blade
+  mat_dirt: Play_Imp_VoidGauntlet_Blade
+  mat_fabric: Play_Imp_VoidGauntlet_Blade
+  mat_glass: Play_Imp_VoidGauntlet_Blade
+  mat_grass: Play_Imp_VoidGauntlet_Blade
+  mat_metal: Play_Imp_VoidGauntlet_Blade
+  mat_mud: Play_Imp_VoidGauntlet_Blade
+  mat_rock: Play_Imp_VoidGauntlet_Blade
+  mat_rock_wet: Play_Imp_VoidGauntlet_Blade
+  mat_sand: Play_Imp_VoidGauntlet_Blade
+  mat_sand_wet: Play_Imp_VoidGauntlet_Blade
+  mat_thatch: Play_Imp_VoidGauntlet_Blade
+  mat_water: Play_Imp_VoidGauntlet_Blade
+  mat_water_deep: Play_Imp_VoidGauntlet_Blade
+  mat_water_shallow: Play_Imp_VoidGauntlet_Blade
+  mat_wood: Play_Imp_VoidGauntlet_Blade
+  mat_corruption_core: Play_Imp_VoidGauntlet_Blade
+  mat_corruption: Play_Imp_VoidGauntlet_Blade
+  mat_holy_shield: Play_Imp_LifeProj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
+  mat_flesh: Play_Imp_VoidGauntlet_Blade
+  mat_ice: Play_Imp_VoidGauntlet_Blade
 - Name: Blunderbuss
   mat_default: Play_Imp_Bullet_Dirt
   mat_bark: Play_Imp_Bullet_Wood
@@ -1537,6 +1627,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Bullet_Flesh
   mat_ice: Play_Imp_Bullet_IceWall
 - Name: Blunderbuss_Claw
@@ -1560,6 +1651,7 @@
   mat_corruption_core: Play_Imp_Bullet_Metal
   mat_corruption: Play_Imp_Bullet_Metal
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Bullet_Flesh
   mat_ice: Play_Imp_Bullet_IceWall
 - Name: Blunderbuss_Net
@@ -1583,6 +1675,7 @@
   mat_corruption_core: Play_Imp_Bullet_Cloth
   mat_corruption: Play_Imp_Bullet_Cloth
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Bullet_Flesh
   mat_ice: Play_Imp_Bullet_IceWall
 - Name: Blunderbuss_Net_Barbed
@@ -1606,6 +1699,7 @@
   mat_corruption_core: Play_Imp_Bullet_Stone
   mat_corruption: Play_Imp_Bullet_Stone
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Bullet_Flesh
   mat_ice: Play_Imp_Bullet_IceWall
 - Name: Blunderbuss_Shrapnel
@@ -1629,6 +1723,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Bullet_Flesh
   mat_ice: Play_Imp_Bullet_IceWall
 - Name: Greatsword
@@ -1652,6 +1747,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_GreatAxe_Flesh
   mat_ice: Play_Imp_GreatAxe_IceWall
 - Name: Greatsword+Crit
@@ -1675,6 +1771,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_GreatAxe_Flesh
   mat_ice: Play_Imp_GreatAxe_IceWall
 - Name: Greatsword_Heavy
@@ -1698,6 +1795,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_GreatAxe_Flesh
   mat_ice: Play_Imp_GreatAxe_IceWall
 - Name: Flail
@@ -1721,6 +1819,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_1H_Flail_Flesh
   mat_ice: Play_Imp_1H_Flail_IceWall
 - Name: Flail_No_Environment
@@ -1744,6 +1843,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_1H_Flail_Flesh
   mat_ice: Play_Imp_1H_Flail_IceWall
 - Name: Flail+Crit
@@ -1767,6 +1867,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_1H_Flail_Flesh
   mat_ice: Play_Imp_1H_Flail_IceWall
 - Name: Flail_No_Environment+Crit
@@ -1790,6 +1891,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_1H_Flail_Flesh
   mat_ice: Play_Imp_1H_Flail_IceWall
 - Name: Flail_Heavy
@@ -1813,6 +1915,7 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_1H_Flail_Flesh
   mat_ice: Play_Imp_1H_Flail_IceWall
 - Name: Megaflora_PetalProjectile
@@ -1835,9 +1938,10 @@
   mat_wood: Play_Imp_PetalProjectile_Env
   mat_corruption_core: Play_Imp_PetalProjectile_Env
   mat_corruption: Play_Imp_PetalProjectile_Env
-  mat_holy_shield: Play_Imp_PetalProjectile_Env
+  mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_PetalProjectile_Env
-  mat_ice: ""
+  mat_ice: Play_Imp_PetalProjectile_Env
 - Name: Mammoth_Lob
   mat_default: Play_Imp_Rock_Env
   mat_bark: Play_Imp_Rock_Env
@@ -1858,9 +1962,10 @@
   mat_wood: Play_Imp_Rock_Env
   mat_corruption_core: Play_Imp_Rock_Env
   mat_corruption: Play_Imp_Rock_Env
-  mat_holy_shield: Play_Imp_Rock_Env
+  mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Rock_Env
-  mat_ice: ""
+  mat_ice: Play_Imp_Rock_Env
 - Name: Mammoth_Shock
   mat_default: Play_Imp_Shock
   mat_bark: Play_Imp_Shock
@@ -1881,9 +1986,10 @@
   mat_wood: Play_Imp_Shock
   mat_corruption_core: Play_Imp_Shock
   mat_corruption: Play_Imp_Shock
-  mat_holy_shield: Play_Imp_Shock
+  mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Shock
-  mat_ice: ""
+  mat_ice: Play_Imp_Shock
 - Name: Mammoth_LavaToss
   mat_default: Play_Imp_LavaRock_Env
   mat_bark: Play_Imp_LavaRock_Env
@@ -1904,9 +2010,10 @@
   mat_wood: Play_Imp_LavaRock_Env
   mat_corruption_core: Play_Imp_LavaRock_Env
   mat_corruption: Play_Imp_LavaRock_Env
-  mat_holy_shield: Play_Imp_LavaRock_Env
+  mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_LavaRock_Env
-  mat_ice: ""
+  mat_ice: Play_Imp_LavaRock_Env
 - Name: Medusa_SlashPoison
   mat_default: Play_Imp_Medusa_ShashPoison_Env
   mat_bark: Play_Imp_Medusa_ShashPoison_Env
@@ -1928,8 +2035,9 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Corruption_Core
-  mat_ice: ""
+  mat_ice: Play_Imp_Medusa_ShashPoison_Env
 - Name: Medusa_Charge
   mat_default: Play_Imp_Medusa_Charge_Env
   mat_bark: Play_Imp_Medusa_Charge_Env
@@ -1951,8 +2059,9 @@
   mat_corruption_core: Play_Imp_Corruption_Core
   mat_corruption: Play_Imp_Corruption_Core
   mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Corruption_Core
-  mat_ice: ""
+  mat_ice: Play_Imp_Medusa_Charge_Env
 - Name: Kurok_Nature_RipperProjectile
   mat_default: Play_Imp_Kurok_Nature_RipperProjectile_Env
   mat_bark: Play_Imp_Kurok_Nature_RipperProjectile_Env
@@ -1973,9 +2082,10 @@
   mat_wood: Play_Imp_Kurok_Nature_RipperProjectile_Env
   mat_corruption_core: Play_Imp_Kurok_Nature_RipperProjectile_Env
   mat_corruption: Play_Imp_Kurok_Nature_RipperProjectile_Env
-  mat_holy_shield: Play_Imp_Kurok_Nature_RipperProjectile_Env
+  mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Kurok_Nature_RipperProjectile_Env
-  mat_ice: ""
+  mat_ice: Play_Imp_Kurok_Nature_RipperProjectile_Env
 - Name: Mordred_ManiFistAtion
   mat_default: Play_Imp_Mordred_ManiFistAtion
   mat_bark: Play_Imp_Mordred_ManiFistAtion
@@ -1996,6 +2106,7 @@
   mat_wood: Play_Imp_Mordred_ManiFistAtion
   mat_corruption_core: Play_Imp_Mordred_ManiFistAtion
   mat_corruption: Play_Imp_Mordred_ManiFistAtion
-  mat_holy_shield: Play_Imp_Mordred_ManiFistAtion
+  mat_holy_shield: Play_Imp_Proj_HolyShield
+  mat_Ice_Entomb: Play_Imp_IceEntomb
   mat_flesh: Play_Imp_Mordred_ManiFistAtion
-  mat_ice: ""
+  mat_ice: Play_Imp_Mordred_ManiFistAtion

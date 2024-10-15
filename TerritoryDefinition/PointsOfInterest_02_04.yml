@@ -202,7 +202,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/campsite.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_campsite.png
   CompassIcon: ""
   DiscoveryRadius: 275.0
   IsDiscoverable: true
@@ -334,7 +334,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\angryearth_camp.png"
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_campsite.png
   CompassIcon: ""
   DiscoveryRadius: 275.0
   IsDiscoverable: true
@@ -400,7 +400,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\expedition_ennead.png"
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\expedition.png"
   CompassIcon: ""
   DiscoveryRadius: 600.0
   IsDiscoverable: true
@@ -532,7 +532,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\angryearth_cave.png"
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\Cave.png"
   CompassIcon: ""
   DiscoveryRadius: 275.0
   IsDiscoverable: true
@@ -725,12 +725,12 @@
   UnchartedIcon: ""
   EventId: ""
 - TerritoryID: 20425.0
-  NameLocalizationKey: "@ui_poi_necropolis_20425"
+  NameLocalizationKey: "@ui_poi_necropolis_20425_DailySoloTrials"
   BaseStructureLimit: ""
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\ancient_temple_lg_elite.png"
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   CompassIcon: ""
   DiscoveryRadius: 60.0
   IsDiscoverable: true
@@ -750,8 +750,8 @@
   VitalsCategory: ""
   LevelRange: ""
   Containers: null
-  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestApophis.dds"
-  GameMode: ""
+  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestApophis.png"
+  GameMode: QuestApophis
   GroupSize: null
   IsCollapsible: null
   RecommendedLevel: null

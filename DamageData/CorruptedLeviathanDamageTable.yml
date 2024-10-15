@@ -14,7 +14,7 @@
   StatusEffect: ""
   EffectOnlyOnDamage: ""
   CanCrit: false
-  DmgCoef: 0.75
+  DmgCoef: 0.6
   DmgCoefHead: 0.7
   DmgCoefCrit: 1.4
   PowerLevel: 3.0
@@ -24,7 +24,7 @@
   BlockHitStun: 20.0
   CritHitStun: 30.0
   ImpactDistanceX: 0.0
-  ImpactDistanceY: 4.0
+  ImpactDistanceY: 2.5
   ImpactDistanceZ: 0.0
   ImpactDecayRate: 0.8
   BlockImpactDistanceX: 0.0
@@ -43,7 +43,7 @@
   ThirstDmg: 0.0
   StaminaDmg: 0.0
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 0.9
+  BlockStaminaDmgMod: 0.75
   BlockAbsorptionModifier: 1.0
   TargetCameraShakeID: Large_short
   BlockTargetCameraShakeID: Small
@@ -67,13 +67,13 @@
   StatusEffect: ""
   EffectOnlyOnDamage: ""
   CanCrit: false
-  DmgCoef: 0.45
+  DmgCoef: 0.4
   DmgCoefHead: 0.3
   DmgCoefCrit: 0.6
   PowerLevel: 1.0
   BlockPowerLevel: 0.0
   CritPowerLevel: 1.0
-  HitStun: 30.0
+  HitStun: 15.0
   BlockHitStun: 20.0
   CritHitStun: 30.0
   ImpactDistanceX: 0.0
@@ -96,7 +96,7 @@
   ThirstDmg: 0.0
   StaminaDmg: 0.0
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 0.9
+  BlockStaminaDmgMod: 0.45
   BlockAbsorptionModifier: 1.0
   TargetCameraShakeID: Large_short
   BlockTargetCameraShakeID: Small
@@ -116,11 +116,11 @@
   Affliction: ""
   AddAffliction: ""
   AfflictionPercent: ""
-  Affixes: AI_CorruptionDMG_25
-  StatusEffect: ""
-  EffectOnlyOnDamage: ""
+  Affixes: ""
+  StatusEffect: AI_CorruptedLeviathan_IchorCoating
+  EffectOnlyOnDamage: "TRUE"
   CanCrit: false
-  DmgCoef: 0.35
+  DmgCoef: 0.3
   DmgCoefHead: 0.3
   DmgCoefCrit: 0.6
   PowerLevel: 0.0
@@ -149,7 +149,7 @@
   ThirstDmg: 0.0
   StaminaDmg: 0.0
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 0.6
+  BlockStaminaDmgMod: 0.35
   BlockAbsorptionModifier: 1.0
   TargetCameraShakeID: Small
   BlockTargetCameraShakeID: Small
@@ -173,7 +173,7 @@
   StatusEffect: AI_CorruptedLeviathan_IchorBurn
   EffectOnlyOnDamage: "TRUE"
   CanCrit: false
-  DmgCoef: 0.5
+  DmgCoef: 0.4
   DmgCoefHead: 0.5
   DmgCoefCrit: 1.0
   PowerLevel: 1.0
@@ -202,7 +202,7 @@
   ThirstDmg: 0.0
   StaminaDmg: 0.0
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 0.6
+  BlockStaminaDmgMod: 0.5
   BlockAbsorptionModifier: 1.0
   TargetCameraShakeID: Small
   BlockTargetCameraShakeID: Small
@@ -222,15 +222,15 @@
   Affliction: ""
   AddAffliction: ""
   AfflictionPercent: ""
-  Affixes: ""
-  StatusEffect: AI_CorruptedLeviathan_IchorBurn,AI_CorruptedLeviathan_IchorCoating
-  EffectOnlyOnDamage: "TRUE"
+  Affixes: AI_CorruptionDMG_10_Additive
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
   CanCrit: false
-  DmgCoef: 0.9
-  DmgCoefHead: 0.5
-  DmgCoefCrit: 1.0
-  PowerLevel: 1.0
-  BlockPowerLevel: 1.0
+  DmgCoef: 0.05
+  DmgCoefHead: 0.05
+  DmgCoefCrit: 0.05
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
   CritPowerLevel: 0.0
   HitStun: 15.0
   BlockHitStun: 10.0
@@ -255,7 +255,7 @@
   ThirstDmg: 0.0
   StaminaDmg: 0.0
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 0.9
+  BlockStaminaDmgMod: 0.04
   BlockAbsorptionModifier: 1.0
   TargetCameraShakeID: Small
   BlockTargetCameraShakeID: Small
@@ -308,7 +308,7 @@
   ThirstDmg: 0.0
   StaminaDmg: 0.0
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 0.6
+  BlockStaminaDmgMod: 0.2
   BlockAbsorptionModifier: 1.0
   TargetCameraShakeID: Small
   BlockTargetCameraShakeID: Small
@@ -361,7 +361,7 @@
   ThirstDmg: 0.0
   StaminaDmg: 0.0
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 0.6
+  BlockStaminaDmgMod: 0.5
   BlockAbsorptionModifier: 1.0
   TargetCameraShakeID: Small
   BlockTargetCameraShakeID: Small
@@ -414,7 +414,7 @@
   ThirstDmg: 0.0
   StaminaDmg: 0.0
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 0.6
+  BlockStaminaDmgMod: 0.5
   BlockAbsorptionModifier: 1.0
   TargetCameraShakeID: Small
   BlockTargetCameraShakeID: Small
@@ -444,7 +444,7 @@
   PowerLevel: 2.0
   BlockPowerLevel: 0.0
   CritPowerLevel: 2.0
-  HitStun: 30.0
+  HitStun: 20.0
   BlockHitStun: 20.0
   CritHitStun: 30.0
   ImpactDistanceX: 0.0
@@ -467,7 +467,7 @@
   ThirstDmg: 0.0
   StaminaDmg: 0.0
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 0.9
+  BlockStaminaDmgMod: 0.5
   BlockAbsorptionModifier: 1.0
   TargetCameraShakeID: Large_short
   BlockTargetCameraShakeID: Small
@@ -497,7 +497,7 @@
   PowerLevel: 0.0
   BlockPowerLevel: 0.0
   CritPowerLevel: 0.0
-  HitStun: 15.0
+  HitStun: 10.0
   BlockHitStun: 10.0
   CritHitStun: 15.0
   ImpactDistanceX: 0.5
@@ -520,7 +520,7 @@
   ThirstDmg: 0.0
   StaminaDmg: 0.0
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 0.75
+  BlockStaminaDmgMod: 0.35
   BlockAbsorptionModifier: 1.0
   TargetCameraShakeID: Small
   BlockTargetCameraShakeID: Small
@@ -550,7 +550,7 @@
   PowerLevel: 0.0
   BlockPowerLevel: 0.0
   CritPowerLevel: 0.0
-  HitStun: 15.0
+  HitStun: 10.0
   BlockHitStun: 10.0
   CritHitStun: 15.0
   ImpactDistanceX: 0.0
@@ -573,7 +573,7 @@
   ThirstDmg: 0.0
   StaminaDmg: 0.0
   ImpactRating: 3.0
-  BlockStaminaDmgMod: 0.6
+  BlockStaminaDmgMod: 0.1
   BlockAbsorptionModifier: 1.0
   TargetCameraShakeID: Small
   BlockTargetCameraShakeID: Small

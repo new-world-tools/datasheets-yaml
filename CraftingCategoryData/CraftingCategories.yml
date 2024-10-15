@@ -34,6 +34,10 @@
   ImagePath: Icons/Items/Drawing/placeholder
   DisplayText: "@ScarabRangedWeapons_GroupName"
   Description: ""
+- CategoryID: Prismatic
+  ImagePath: ""
+  DisplayText: "@Prismatic_GroupName"
+  Description: ""
 - CategoryID: PrismaticMeleeWeapons
   ImagePath: Icons/Items/Drawing/placeholder
   DisplayText: "@PrismaticMeleeWeapons_GroupName"
@@ -1238,6 +1242,10 @@
   ImagePath: Icons/Items/Drawing/StaffFire
   DisplayText: "@ScarabFlail_GroupName"
   Description: "@ScarabFlail_GroupName"
+- CategoryID: ScarabJewelry
+  ImagePath: ""
+  DisplayText: "@ScarabJewelry_GroupName"
+  Description: ""
 - CategoryID: WeaponCoatings
   ImagePath: ""
   DisplayText: "@CategoryData_WeaponCoatings"
@@ -1910,10 +1918,6 @@
   ImagePath: Icons/Crafting/icon_crafting_category_tools
   DisplayText: "@CategoryData_Tools"
   Description: ""
-- CategoryID: Ammo
-  ImagePath: ""
-  DisplayText: "@Ammo_GroupName"
-  Description: ""
 - CategoryID: ArmorHeavy
   ImagePath: ""
   DisplayText: "@ArmorHeavy_GroupName"
@@ -2169,10 +2173,6 @@
 - CategoryID: FishingPoles
   ImagePath: ""
   DisplayText: "@FishingPoles_GroupName"
-  Description: ""
-- CategoryID: Arrows
-  ImagePath: ""
-  DisplayText: "@Arrows_GroupName"
   Description: ""
 - CategoryID: Cartridges
   ImagePath: ""
@@ -3400,19 +3400,19 @@
   Description: ""
 - CategoryID: TrinketBand
   ImagePath: Icons/Items/Drawing/TrinketBand
-  DisplayText: ""
+  DisplayText: "@TrinketBand_GroupName"
   Description: ""
 - CategoryID: TrinketSetting
   ImagePath: Icons/Items/Drawing/TrinketSetting
-  DisplayText: ""
+  DisplayText: "@TrinketSetting_GroupName"
   Description: ""
 - CategoryID: TrinketChain
   ImagePath: Icons/Items/Drawing/TrinketChain
-  DisplayText: ""
+  DisplayText: "@TrinketChain_GroupName"
   Description: ""
 - CategoryID: TrinketHook
   ImagePath: Icons/Items/Drawing/TrinketHook
-  DisplayText: ""
+  DisplayText: "@TrinketHook_GroupName"
   Description: ""
 - CategoryID: TrinketComponents
   ImagePath: ""
@@ -3886,6 +3886,14 @@
   ImagePath: crafting/itemBgCircleNone
   DisplayText: "@AttributeCon"
   Description: ""
+- CategoryID: AttributeCore
+  ImagePath: crafting/itemBgCircleNone
+  DisplayText: "@AttributeCore"
+  Description: ""
+- CategoryID: TimelessShards
+  ImagePath: ""
+  DisplayText: "@TimelessShards"
+  Description: ""
 - CategoryID: TimelessShardsStr
   ImagePath: ""
   DisplayText: "@TimelessShardsStr"
@@ -4249,6 +4257,62 @@
 - CategoryID: arcanarecipes
   ImagePath: ""
   DisplayText: "@arcanarecipes_GroupName"
+  Description: ""
+- CategoryID: DoubloonPriority
+  ImagePath: ""
+  DisplayText: "@DoubloonPriority_GroupName"
+  Description: ""
+- CategoryID: DoubloonApexCrafting
+  ImagePath: ""
+  DisplayText: "@DoubloonCraftingApex_GroupName"
+  Description: ""
+- CategoryID: DoubloonCrafting
+  ImagePath: ""
+  DisplayText: "@DoubloonCrafting_GroupName"
+  Description: ""
+- CategoryID: DoubloonCraftingMisc
+  ImagePath: ""
+  DisplayText: "@DoubloonCraftingMisc_GroupName"
+  Description: ""
+- CategoryID: DoubloonCraftingKey
+  ImagePath: ""
+  DisplayText: "@DoubloonCraftingKey_GroupName"
+  Description: ""
+- CategoryID: DoubloonCraftingArmor
+  ImagePath: ""
+  DisplayText: "@DoubloonCraftingArmor_GroupName"
+  Description: ""
+- CategoryID: DoubloonCraftingWeapons
+  ImagePath: ""
+  DisplayText: "@DoubloonCraftingWeapons_GroupName"
+  Description: ""
+- CategoryID: DoubloonCraftingNamed
+  ImagePath: ""
+  DisplayText: "@DoubloonCraftingNamed_GroupName"
+  Description: ""
+- CategoryID: DoubloonCraftingApexNamed
+  ImagePath: ""
+  DisplayText: "@DoubloonCraftingApexNamed_GroupName"
+  Description: ""
+- CategoryID: DoubloonCraftingTrinkets
+  ImagePath: ""
+  DisplayText: "@DoubloonCraftingTrinkets_GroupName"
+  Description: ""
+- CategoryID: DoubloonCraftingAntiques
+  ImagePath: ""
+  DisplayText: "@DoubloonCraftingAntiques_GroupName"
+  Description: ""
+- CategoryID: DoubloonCraftingGrabBags
+  ImagePath: ""
+  DisplayText: "@DoubloonCraftingGrabBags_GroupName"
+  Description: ""
+- CategoryID: DoubloonCraftingConsumables
+  ImagePath: ""
+  DisplayText: "@DoubloonCraftingConsumables_GroupName"
+  Description: ""
+- CategoryID: DoubloonFoodExchange
+  ImagePath: ""
+  DisplayText: "@DoubloonFoodExchange_GroupName"
   Description: ""
 - CategoryID: LightHead_MarauderRank1_Sealed
   ImagePath: ""
@@ -5565,4 +5629,28 @@
 - CategoryID: HeavyLegs_SyndicateRank6_2_Sealed
   ImagePath: ""
   DisplayText: "@sealedFactionArmor_GroupName"
+  Description: ""
+- CategoryID: RaidEquipment
+  ImagePath: ""
+  DisplayText: "@RaidEquipment_GroupName"
+  Description: ""
+- CategoryID: HercyneRaid
+  ImagePath: ""
+  DisplayText: "@HercyneRaid_GroupName"
+  Description: ""
+- CategoryID: RaidMateria
+  ImagePath: ""
+  DisplayText: "@RaidMateria_GroupName"
+  Description: ""
+- CategoryID: HercyneMateria
+  ImagePath: ""
+  DisplayText: "@HercyneMateria_GroupName"
+  Description: ""
+- CategoryID: RaidCrafting
+  ImagePath: ""
+  DisplayText: "@RaidCrafting_GroupName"
+  Description: ""
+- CategoryID: 725EndgameUpgradeResource
+  ImagePath: ""
+  DisplayText: "@725EndgameUpgradeResource_GroupName"
   Description: ""

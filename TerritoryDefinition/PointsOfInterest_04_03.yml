@@ -68,7 +68,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_farm_village.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_village.png
   CompassIcon: ""
   DiscoveryRadius: 150.0
   IsDiscoverable: true
@@ -1540,7 +1540,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/expedition_empyrean.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/expedition.png
   CompassIcon: ""
   DiscoveryRadius: 200.0
   IsDiscoverable: true
@@ -1631,12 +1631,12 @@
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
   EventId: ""
 - TerritoryID: 40354.0
-  NameLocalizationKey: "@ui_poi_caerdun_40354"
+  NameLocalizationKey: "@ui_poi_caerdun_40354_DailySoloTrials"
   BaseStructureLimit: ""
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\cave_elite.png"
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   CompassIcon: ""
   DiscoveryRadius: 60.0
   IsDiscoverable: false
@@ -1656,8 +1656,8 @@
   VitalsCategory: ""
   LevelRange: ""
   Containers: null
-  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestCaerDun.dds"
-  GameMode: ""
+  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestCaerDun.png"
+  GameMode: QuestCaerDun
   GroupSize: null
   IsCollapsible: null
   UnchartedIcon: ""
@@ -1828,7 +1828,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/expedition_glacialtarn.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/expedition.png
   CompassIcon: ""
   DiscoveryRadius: 200.0
   IsDiscoverable: true
@@ -1906,6 +1906,134 @@
   POITag: spiritshrine_40362,fasttravel
   AudioGroup: POI_State
   AudioState: spiritshrine_40362
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Spirit Shrine
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/mapTooltip_spiritshrine.png
+  GameMode: ""
+  GroupSize: null
+  IsCollapsible: null
+  UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
+  EventId: ""
+- TerritoryID: 40363.0
+  NameLocalizationKey: "@ui_poi_trial_questyonas_40363"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: trial_questyonas_40363_discovered
+  ChartedAchievement: trial_questyonas_40363_charted
+  POITag: trial_questyonas_40363
+  AudioGroup: POI_State
+  AudioState: graveyard
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: The Last Soulwarden
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestYonas.png"
+  GameMode: QuestYonas
+  GroupSize: null
+  IsCollapsible: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 40364.0
+  NameLocalizationKey: "@ui_poi_trial_mordred_40364"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: trial_mordred_40364_discovered
+  ChartedAchievement: trial_mordred_40364_charted
+  POITag: trial_mordred_40364
+  AudioGroup: POI_State
+  AudioState: cave_ice
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Eternal Frost
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: LyShineUI/Images/Map/tooltipImages/SoloTrial/mapTooltip_TrialSeason04Q06.png
+  GameMode: TrialSeason04Q06
+  GroupSize: null
+  IsCollapsible: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 40365.0
+  NameLocalizationKey: "@ui_poi_trial_questnihilo_40365"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: trial_questnihilo_40365_discovered
+  ChartedAchievement: trial_questnihilo_40365_charted
+  POITag: trial_questnihilo_40365
+  AudioGroup: POI_State
+  AudioState: cave_ice
+  AudioBank: ""
+  CanPlaceCamp: false
+  DevName: Beyond the Gates
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestNihilo.png"
+  GameMode: QuestNihilo
+  GroupSize: null
+  IsCollapsible: null
+  UnchartedIcon: ""
+  EventId: ""
+- TerritoryID: 40366.0
+  NameLocalizationKey: "@ui_poi_spiritshrine_40366"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine_bg.dds
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\POIs\\spirit_shrine_charted.dds"
+  DiscoveryRadius: 150.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: 1.0
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: spiritshrine_40366_charted
+  POITag: spiritshrine_40366,fasttravel
+  AudioGroup: POI_State
+  AudioState: spiritshrine_40366
   AudioBank: ""
   CanPlaceCamp: false
   DevName: Spirit Shrine

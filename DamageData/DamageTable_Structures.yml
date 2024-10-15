@@ -98,7 +98,7 @@
   NoReaction: 1.0
   IsRanged: null
   IsSiege: true
-  DamageType: ""
+  DamageType: Nature
   Affliction: ""
   AddAffliction: ""
   AfflictionPercent: ""
@@ -380,8 +380,8 @@
   NoReaction: 1.0
   IsRanged: null
   IsSiege: true
-  DamageType: AfflictionDisease
-  Affliction: AfflictionDisease
+  DamageType: Nature
+  Affliction: ""
   AddAffliction: ""
   AfflictionPercent: ""
   StatusEffect: ""
@@ -709,7 +709,7 @@
   NoReaction: 0.0
   IsRanged: true
   IsSiege: true
-  DamageType: Siege
+  DamageType: Thrust
   Affliction: ""
   AddAffliction: ""
   AfflictionPercent: ""
@@ -719,7 +719,7 @@
   DeflectDamageID: ""
   CanCrit: true
   ForceAttackToHit: null
-  DmgCoef: 1.0
+  DmgCoef: 1.2
   DmgCoefHead: 1.15
   DmgCoefCrit: 1.15
   PowerLevel: 0.0
@@ -944,8 +944,8 @@
   NoReaction: 1.0
   IsRanged: null
   IsSiege: true
-  DamageType: AfflictionFrostbite
-  Affliction: AfflictionFrostbite
+  DamageType: Ice
+  Affliction: ""
   AddAffliction: ""
   AfflictionPercent: ""
   StatusEffect: ""
@@ -1444,6 +1444,100 @@
   AddDmg: 0.0
   StaggerDmgModifier: 1.0
   CritStaggerDmgModifier: 1.0
+  CameraShakeID: ""
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  ImpactRating: 4.0
+  BlockStaminaDmgMod: 1.0
+  BlockAbsorptionModifier: 1.0
+  StunBreakoutIncrement: 1.0
+  DamageReceiverCooldown: null
+  HitRuneCharge: 0.1625
+  HitBlockedRuneCharge: 0.325
+- DamageID: GhostShip_CannonBall_Explosion
+  WeaponCategory: Unarmed
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: true
+  IsSiege: true
+  DamageType: Standard
+  Affliction: AfflictionBleed
+  AddAffliction: ""
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: ""
+  CanCrit: false
+  ForceAttackToHit: null
+  DmgCoef: 1.0
+  DmgCoefHead: 1.0
+  DmgCoefCrit: 1.0
+  PowerLevel: 4.0
+  BlockPowerLevel: 4.0
+  CritPowerLevel: 4.0
+  HitStun: 100.0
+  BlockHitStun: 100.0
+  CritHitStun: 100.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 100.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.5
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.0
+  AddDmg: 0.0
+  StaggerDmgModifier: 3.0
+  CritStaggerDmgModifier: 3.0
+  CameraShakeID: ""
+  TargetCameraShakeID: Large
+  BlockCameraShakeID: Large
+  BlockTargetCameraShakeID: Large
+  ImpactRating: 4.0
+  BlockStaminaDmgMod: 1.0
+  BlockAbsorptionModifier: 1.0
+  StunBreakoutIncrement: 1.0
+  DamageReceiverCooldown: null
+  HitRuneCharge: 0.1625
+  HitBlockedRuneCharge: 0.325
+- DamageID: GhostShip_CannonBall_Fallout
+  WeaponCategory: Unarmed
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: true
+  IsSiege: true
+  DamageType: Standard
+  Affliction: AfflictionBleed
+  AddAffliction: ""
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: ""
+  CanCrit: false
+  ForceAttackToHit: null
+  DmgCoef: 1.0
+  DmgCoefHead: 1.0
+  DmgCoefCrit: 1.0
+  PowerLevel: 4.0
+  BlockPowerLevel: 4.0
+  CritPowerLevel: 4.0
+  HitStun: 100.0
+  BlockHitStun: 100.0
+  CritHitStun: 100.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 20.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.5
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.0
+  AddDmg: 0.0
+  StaggerDmgModifier: 3.0
+  CritStaggerDmgModifier: 3.0
   CameraShakeID: ""
   TargetCameraShakeID: Small
   BlockCameraShakeID: Small

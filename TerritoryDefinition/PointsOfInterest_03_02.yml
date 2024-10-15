@@ -4,7 +4,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_fishing_village.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_village.png
   CompassIcon: ""
   DiscoveryRadius: 200.0
   IsDiscoverable: true
@@ -841,7 +841,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/angryearth_ruins.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/ancient_ruins.png
   CompassIcon: ""
   DiscoveryRadius: 150.0
   IsDiscoverable: true
@@ -934,7 +934,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/angryearth_ruins.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/ancient_ruins.png
   CompassIcon: ""
   DiscoveryRadius: 150.0
   IsDiscoverable: true
@@ -1120,7 +1120,7 @@
   MaxStructureLimit: ""
   TerritoryScore: ""
   IsPOI: true
-  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_fishing_village.png
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/abandoned_village.png
   CompassIcon: ""
   DiscoveryRadius: 200.0
   IsDiscoverable: true
@@ -1857,4 +1857,35 @@
   GameMode: ""
   IsCollapsible: null
   UnchartedIcon: LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png
+  EventId: ""
+- TerritoryID: 30264.0
+  NameLocalizationKey: "@ui_poi_trialliang_30264"
+  BaseStructureLimit: ""
+  MaxStructureLimit: ""
+  TerritoryScore: ""
+  IsPOI: true
+  MapIcon: LyShineUI/Images/Map/Icon/POIs/trial_soul.png
+  CompassIcon: ""
+  DiscoveryRadius: 60.0
+  IsDiscoverable: false
+  IsChartable: true
+  DefaultAchievement: null
+  OutpostId: ""
+  Debug: ""
+  LootTags: ""
+  DiscoveredAchievement: ""
+  ChartedAchievement: trialliang_30264_charted
+  POITag: poi_trialliang_30264
+  AudioGroup: POI_State
+  AudioState: abandoned_village
+  AudioBank: AbandonedMine
+  CanPlaceCamp: false
+  DevName: Liang Solo Trial
+  VitalsCategory: ""
+  LevelRange: ""
+  Containers: null
+  TooltipBackground: "LyShineUI\\Images\\Map\\tooltipImages\\SoloTrial\\mapTooltip_QuestLiang.png"
+  GameMode: QuestLiang
+  IsCollapsible: null
+  UnchartedIcon: ""
   EventId: ""

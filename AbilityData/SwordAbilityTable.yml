@@ -1,8 +1,8 @@
 - AbilityID: Ability_Sword_ReverseStab
   DisplayName: "@Ability_Sword_ReverseStab"
   Description: "@Ability_Sword_ReverseStab_description"
-  UICategory: Melee Damage
-  Icon: lyshineui/images/icons/abilities/sword_Ability01.png
+  UICategory: Attack
+  Icon: lyshineui/images/icons/abilities/sword_Ability07.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Sword_Ability_1
   TelegraphStatusEffect: ""
@@ -36,6 +36,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -57,6 +60,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -78,6 +82,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -90,7 +95,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -119,8 +124,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: Ability_Sword_ReverseStab
@@ -134,8 +143,8 @@
 - AbilityID: Upgrade_Sword_ReverseStab_Grit
   DisplayName: "@Upgrade_Sword_ReverseStab_Grit"
   Description: "@Upgrade_Sword_ReverseStab_Grit_description"
-  UICategory: Melee Damage
-  Icon: lyshineui/images/icons/abilities/sword_Ability01_Mod01.png
+  UICategory: Passive
+  Icon: lyshineui/images/icons/abilities/spear_Passive01.png
   StatusEffectIcon: ""
   Sound: ""
   TelegraphStatusEffect: ""
@@ -157,7 +166,7 @@
   ScalingConstitution: ""
   OnKill: false
   OnExecuted: false
-  OnHit: false
+  OnHit: true
   OnBlockedHit: false
   OnHitBehind: false
   OnCrit: false
@@ -169,7 +178,10 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
-  RequireReaction: null
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
+  RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
@@ -182,7 +194,7 @@
   DamageIsMelee: null
   ForceShowNameTag: ""
   TargetHasGritActive: ""
-  DamageTableRow: ""
+  DamageTableRow: 1H_Sword_Attack_Stab
   RemoteDamageTableRow: ""
   RangedAttackName: ""
   AttackType: ""
@@ -190,8 +202,9 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
-  TargetStatusEffectCategory: ""
+  TargetStatusEffectCategory: CC
   TargetStatusEffectStackSize: ""
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
@@ -211,7 +224,8 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
-  BaseDamage: null
+  TargetVitalsCategory: ""
+  BaseDamage: 0.2
   BaseDamageReduction: null
   BlockDamage: ""
   BlockDamageReduction: null
@@ -223,7 +237,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -252,8 +266,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -267,7 +285,7 @@
 - AbilityID: Upgrade_Sword_ReverseStab_CDRonHit
   DisplayName: "@Upgrade_Sword_ReverseStab_CDRonHit"
   Description: "@Upgrade_Sword_ReverseStab_CDRonHit_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/sword_Ability01_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -302,6 +320,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -323,6 +344,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -344,6 +366,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -356,7 +379,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -385,8 +408,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: 0.3
   Duration: ""
   CooldownId: Ability_Sword_ReverseStab
@@ -400,7 +427,7 @@
 - AbilityID: Ability_Sword_WhirlingBlade
   DisplayName: "@Ability_Sword_WhirlingBlade"
   Description: "@Ability_Sword_WhirlingBlade_description"
-  UICategory: Melee Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/sword_Ability02.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Sword_Ability_2
@@ -435,6 +462,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -456,6 +486,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -477,6 +508,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -489,7 +521,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -518,8 +550,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: Ability_Sword_WhirlingBlade
@@ -533,7 +569,7 @@
 - AbilityID: Upgrade_Sword_WhirlingBlade_Rend
   DisplayName: "@Upgrade_Sword_WhirlingBlade_Rend"
   Description: "@Upgrade_Sword_WhirlingBlade_Rend_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/sword_Ability02_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -568,6 +604,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: Fast
+  RequiredEquipment: ""
   RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -589,6 +628,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: IgnoreDebuffs
   TargetStatusEffectStackSize: ""
@@ -610,6 +650,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -622,7 +663,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -651,8 +692,296 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
+  ActivationCooldown: null
+  Duration: ""
+  CooldownId: ""
+  CDRImmediatelyOptions: ""
+  ResetCooldownTimers: ""
+  CooldownTimer: null
+  NumFreeCooldownsPerUse: ""
+  MaxHitCountMultiplier: ""
+  SetMannequinTag: ""
+  SetMannequinTagStatus: ""
+- AbilityID: Upgrade_Sword_WhirlingBlade_Helper_StaminaRegen
+  DisplayName: ""
+  Description: ""
+  UICategory: ""
+  Icon: ""
+  StatusEffectIcon: ""
+  Sound: ""
+  TelegraphStatusEffect: ""
+  TelegraphCountOffset: ""
+  OnEquipStatusEffect: ""
+  WeaponTag: Sword
+  EquipWhenUnsheathed: true
+  RequiredAbilityId: Ability_Sword_WhirlingBlade
+  RequiredEquippedAbilityId: Upgrade_Sword_WhirlingBlade_Rend
+  TreeId: null
+  TreeRowPosition: null
+  TreeColumnPosition: null
+  IsActiveAbility: false
+  IsGlobalAbility: false
+  ScalingStrength: ""
+  ScalingDexterity: ""
+  ScalingIntelligence: ""
+  ScalingSpirit: ""
+  ScalingConstitution: ""
+  OnKill: false
+  OnExecuted: false
+  OnHit: true
+  OnBlockedHit: false
+  OnHitBehind: false
+  OnCrit: false
+  OnHeadShot: false
+  OnLegShot: false
+  OnHitTaken: false
+  OnBlockedHitTaken: false
+  OnBlockBreak: false
+  OnTargetBlockBreak: false
+  OnDeath: false
+  OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: Normal
+  RequiredEquipment: ""
+  RequireReaction: true
+  NumSuccessfulHits: 0.0
+  NumConsecutiveHits: 0.0
+  MaxConsecutiveHits: 0.0
+  TrackHitCount: false
+  MaxTrackedHitCounts: 0.0
+  ResetConsecutiveOnSuccess: ""
+  NumberOfTrackedHits: ""
+  NumberOfHitsComparisonType: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
+  ForceShowNameTag: ""
+  TargetHasGritActive: ""
+  DamageTableRow: 1H_Sword_Attack_Spin
+  RemoteDamageTableRow: ""
+  RangedAttackName: ""
+  AttackType: ""
+  IgnoreDisabledAttackTypes: ""
+  DamageTypes: ""
+  StatusEffect: ""
+  StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
+  TargetStatusEffect: ""
+  TargetStatusEffectCategory: ""
+  TargetStatusEffectStackSize: ""
+  TargetStatusEffectComparison: ""
+  TargetCollisionFilters: ""
+  TargetMarker: ""
+  MyHealthPercent: null
+  MyComparisonType: ""
+  MyStaminaPercent: ""
+  MyStaminaComparisonType: ""
+  TargetHealthPercent: null
+  TargetComparisonType: ""
+  DistFromDefender: ""
+  DistComparisonType: ""
+  NumAroundMe: ""
+  NumAroundComparisonType: ""
+  AbilityList: ""
+  AbilityTrigger: ""
+  InAction: ""
+  InActionTime: ""
+  AfterAction: ""
+  TargetVitalsCategory: ""
+  BaseDamage: null
+  BaseDamageReduction: null
+  BlockDamage: ""
+  BlockDamageReduction: null
+  CritDamage: ""
+  CritChance: null
+  HeadshotDamage: ""
+  stagger damage: ""
+  StaggerDamageReduction: ""
+  HitRateDmg: ""
+  HitRateDmgReduction: ""
+  HealthDamageMitigation: ""
+  ThreatDamage: null
+  ArmorPenetration: ""
+  PhysicalArmor: null
+  ElementalArmor: ""
+  Knockback: ""
+  WeaponAccuracy: ""
+  Health: ""
+  DmgPctToHealth: ""
+  MaxHealth: ""
+  Mana: ""
+  MaxMana: ""
+  DamageTableRowOverride: ""
+  RangedAttackNameOverride: ""
+  EnableCrit: ""
+  PerStatusEffectOnTarget: ""
+  ForceTakeStaminaDamage: ""
+  CastSpell: ""
+  DisableCastSpellDurability: null
+  SelfApplyStatusEffect: Status_Upgrade_Sword_WhirlingBlade_StaminaRegen
+  OtherApplyStatusEffect: ""
+  SetPotencyAsCount: ""
+  MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
+  RemoveStatusEffects: ""
+  StatusEffectsList: ""
+  StatusEffectCategoriesList: ""
+  RemoveTargetStatusEffectsList: ""
+  ConsumeTargetStatusEffectMult: ""
+  StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
+  TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
+  TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
+  ActivationCooldown: null
+  Duration: ""
+  CooldownId: ""
+  CDRImmediatelyOptions: ""
+  ResetCooldownTimers: ""
+  CooldownTimer: null
+  NumFreeCooldownsPerUse: ""
+  MaxHitCountMultiplier: ""
+  SetMannequinTag: ""
+  SetMannequinTagStatus: ""
+- AbilityID: Upgrade_Sword_WhirlingBlade_Helper_Weaken
+  DisplayName: ""
+  Description: ""
+  UICategory: ""
+  Icon: ""
+  StatusEffectIcon: ""
+  Sound: ""
+  TelegraphStatusEffect: ""
+  TelegraphCountOffset: ""
+  OnEquipStatusEffect: ""
+  WeaponTag: Sword
+  EquipWhenUnsheathed: true
+  RequiredAbilityId: Ability_Sword_WhirlingBlade
+  RequiredEquippedAbilityId: Upgrade_Sword_WhirlingBlade_Rend
+  TreeId: null
+  TreeRowPosition: null
+  TreeColumnPosition: null
+  IsActiveAbility: false
+  IsGlobalAbility: false
+  ScalingStrength: ""
+  ScalingDexterity: ""
+  ScalingIntelligence: ""
+  ScalingSpirit: ""
+  ScalingConstitution: ""
+  OnKill: false
+  OnExecuted: false
+  OnHit: true
+  OnBlockedHit: false
+  OnHitBehind: false
+  OnCrit: false
+  OnHeadShot: false
+  OnLegShot: false
+  OnHitTaken: false
+  OnBlockedHitTaken: false
+  OnBlockBreak: false
+  OnTargetBlockBreak: false
+  OnDeath: false
+  OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: Slow
+  RequiredEquipment: ""
+  RequireReaction: true
+  NumSuccessfulHits: 0.0
+  NumConsecutiveHits: 0.0
+  MaxConsecutiveHits: 0.0
+  TrackHitCount: false
+  MaxTrackedHitCounts: 0.0
+  ResetConsecutiveOnSuccess: ""
+  NumberOfTrackedHits: ""
+  NumberOfHitsComparisonType: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
+  ForceShowNameTag: ""
+  TargetHasGritActive: ""
+  DamageTableRow: 1H_Sword_Attack_Spin
+  RemoteDamageTableRow: ""
+  RangedAttackName: ""
+  AttackType: ""
+  IgnoreDisabledAttackTypes: ""
+  DamageTypes: ""
+  StatusEffect: ""
+  StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
+  TargetStatusEffect: ""
+  TargetStatusEffectCategory: IgnoreDebuffs
+  TargetStatusEffectStackSize: ""
+  TargetStatusEffectComparison: NotEqual
+  TargetCollisionFilters: ""
+  TargetMarker: ""
+  MyHealthPercent: null
+  MyComparisonType: ""
+  MyStaminaPercent: ""
+  MyStaminaComparisonType: ""
+  TargetHealthPercent: null
+  TargetComparisonType: ""
+  DistFromDefender: ""
+  DistComparisonType: ""
+  NumAroundMe: ""
+  NumAroundComparisonType: ""
+  AbilityList: ""
+  AbilityTrigger: ""
+  InAction: ""
+  InActionTime: ""
+  AfterAction: ""
+  TargetVitalsCategory: ""
+  BaseDamage: null
+  BaseDamageReduction: null
+  BlockDamage: ""
+  BlockDamageReduction: null
+  CritDamage: ""
+  CritChance: null
+  HeadshotDamage: ""
+  stagger damage: ""
+  StaggerDamageReduction: ""
+  HitRateDmg: ""
+  HitRateDmgReduction: ""
+  HealthDamageMitigation: ""
+  ThreatDamage: null
+  ArmorPenetration: ""
+  PhysicalArmor: null
+  ElementalArmor: ""
+  Knockback: ""
+  WeaponAccuracy: ""
+  Health: ""
+  DmgPctToHealth: ""
+  MaxHealth: ""
+  Mana: ""
+  MaxMana: ""
+  DamageTableRowOverride: ""
+  RangedAttackNameOverride: ""
+  EnableCrit: ""
+  PerStatusEffectOnTarget: ""
+  ForceTakeStaminaDamage: ""
+  CastSpell: ""
+  DisableCastSpellDurability: null
+  SelfApplyStatusEffect: ""
+  OtherApplyStatusEffect: Status_Upgrade_Sword_WhirlingBlade_Weaken
+  SetPotencyAsCount: ""
+  MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
+  RemoveStatusEffects: ""
+  StatusEffectsList: ""
+  StatusEffectCategoriesList: ""
+  RemoveTargetStatusEffectsList: ""
+  ConsumeTargetStatusEffectMult: ""
+  StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
+  TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
+  TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -666,7 +995,7 @@
 - AbilityID: Upgrade_Sword_WhirlingBlade_CDR
   DisplayName: "@Upgrade_Sword_WhirlingBlade_CDR"
   Description: "@Upgrade_Sword_WhirlingBlade_CDR_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/sword_Ability02_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -701,6 +1030,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -722,6 +1054,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -743,6 +1076,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -755,7 +1089,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -784,8 +1118,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: Ability_Sword_WhirlingBlade
@@ -799,7 +1137,7 @@
 - AbilityID: Ability_Sword_LeapingStrike
   DisplayName: "@Ability_Sword_LeapingStrike"
   Description: "@Ability_Sword_LeapingStrike_description"
-  UICategory: Melee Damage
+  UICategory: Attack
   Icon: lyshineui/images/icons/abilities/sword_Ability03.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Sword_Ability_3
@@ -834,6 +1172,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -855,6 +1196,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -876,6 +1218,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -888,7 +1231,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -917,8 +1260,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: Ability_Sword_LeapingStrike
@@ -932,7 +1279,7 @@
 - AbilityID: Upgrade_Sword_LeapingStrike_Extra
   DisplayName: "@Upgrade_Sword_LeapingStrike_Extra"
   Description: "@Upgrade_Sword_LeapingStrike_Extra_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/sword_Ability03_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -967,6 +1314,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -988,6 +1338,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -1009,6 +1360,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.5
   BaseDamageReduction: null
   BlockDamage: ""
@@ -1021,7 +1373,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -1050,8 +1402,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -1065,7 +1421,7 @@
 - AbilityID: Upgrade_Sword_LeapingStrike_Slow
   DisplayName: "@Upgrade_Sword_LeapingStrike_Slow"
   Description: "@Upgrade_Sword_LeapingStrike_Slow_description"
-  UICategory: Melee Damage
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/sword_Ability03_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -1100,6 +1456,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -1121,6 +1480,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: IgnoreDebuffs
   TargetStatusEffectStackSize: ""
@@ -1142,6 +1502,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -1154,7 +1515,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -1183,8 +1544,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -1233,6 +1598,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -1254,6 +1622,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -1275,6 +1644,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -1287,7 +1657,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -1316,8 +1686,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -1366,6 +1740,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -1387,6 +1764,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: IgnoreDebuffs
   TargetStatusEffectStackSize: ""
@@ -1408,6 +1786,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -1420,7 +1799,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -1449,8 +1828,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -1499,6 +1882,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -1520,6 +1906,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -1541,6 +1928,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -1553,7 +1941,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -1582,8 +1970,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -1632,6 +2024,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -1653,6 +2048,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -1674,6 +2070,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -1686,7 +2083,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -1715,8 +2112,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -1765,6 +2166,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -1786,6 +2190,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -1807,6 +2212,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -1819,7 +2225,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -1848,8 +2254,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -1898,6 +2308,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -1919,6 +2332,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -1940,6 +2354,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -1952,7 +2367,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -1981,8 +2396,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -2031,6 +2450,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -2052,6 +2474,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: Slow
   TargetStatusEffectStackSize: ""
@@ -2073,6 +2496,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.1
   BaseDamageReduction: null
   BlockDamage: ""
@@ -2085,7 +2509,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -2114,8 +2538,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -2164,6 +2592,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -2185,6 +2616,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -2206,6 +2638,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -2218,7 +2651,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -2247,8 +2680,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: 0.5
   Duration: ""
   CooldownId: ""
@@ -2297,6 +2734,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -2318,6 +2758,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -2339,6 +2780,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.15
   BaseDamageReduction: null
   BlockDamage: ""
@@ -2351,7 +2793,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -2380,8 +2822,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -2430,6 +2876,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -2451,6 +2900,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -2472,6 +2922,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -2484,7 +2935,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -2513,8 +2964,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -2528,7 +2983,7 @@
 - AbilityID: Ability_Sword_Bash
   DisplayName: "@Ability_Sword_Bash"
   Description: "@Ability_Sword_Bash_description"
-  UICategory: Debuff
+  UICategory: Defense
   Icon: lyshineui/images/icons/abilities/sword_Ability04.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Sword_Ability_4
@@ -2540,7 +2995,7 @@
   RequiredAbilityId: ""
   RequiredEquippedAbilityId: ""
   TreeId: 1.0
-  TreeRowPosition: 1.0
+  TreeRowPosition: 0.0
   TreeColumnPosition: 0.0
   IsActiveAbility: true
   IsGlobalAbility: false
@@ -2563,6 +3018,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -2584,6 +3042,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -2605,6 +3064,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -2617,7 +3077,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -2646,8 +3106,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: Ability_Sword_Bash
@@ -2661,7 +3125,7 @@
 - AbilityID: Upgrade_Sword_Bash_Dmg
   DisplayName: "@Upgrade_Sword_Bash_Dmg"
   Description: "@Upgrade_Sword_Bash_Dmg_description"
-  UICategory: Debuff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/sword_Ability04_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -2673,7 +3137,7 @@
   RequiredAbilityId: Ability_Sword_Bash
   RequiredEquippedAbilityId: ""
   TreeId: 1.0
-  TreeRowPosition: 2.0
+  TreeRowPosition: 1.0
   TreeColumnPosition: 0.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -2696,6 +3160,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -2717,6 +3184,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -2738,6 +3206,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -2750,7 +3219,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -2779,8 +3248,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -2794,7 +3267,7 @@
 - AbilityID: Upgrade_Sword_Bash_StunDur
   DisplayName: "@Upgrade_Sword_Bash_StunDur"
   Description: "@Upgrade_Sword_Bash_StunDur_description"
-  UICategory: Debuff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/sword_Ability04_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -2829,6 +3302,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: RoundShield
   RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -2850,6 +3326,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -2871,6 +3348,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -2883,7 +3361,291 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
+  ArmorPenetration: ""
+  PhysicalArmor: null
+  ElementalArmor: ""
+  Knockback: ""
+  WeaponAccuracy: ""
+  Health: ""
+  DmgPctToHealth: ""
+  MaxHealth: ""
+  Mana: ""
+  MaxMana: ""
+  DamageTableRowOverride: ""
+  RangedAttackNameOverride: ""
+  EnableCrit: ""
+  PerStatusEffectOnTarget: ""
+  ForceTakeStaminaDamage: ""
+  CastSpell: ""
+  DisableCastSpellDurability: null
+  SelfApplyStatusEffect: Status_Upgrade_Sword_Bash_CritChanceIncrease
+  OtherApplyStatusEffect: ""
+  SetPotencyAsCount: ""
+  MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
+  RemoveStatusEffects: ""
+  StatusEffectsList: ""
+  StatusEffectCategoriesList: ""
+  RemoveTargetStatusEffectsList: ""
+  ConsumeTargetStatusEffectMult: ""
+  StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
+  TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
+  TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
+  ActivationCooldown: null
+  Duration: ""
+  CooldownId: ""
+  CDRImmediatelyOptions: ""
+  ResetCooldownTimers: ""
+  CooldownTimer: null
+  NumFreeCooldownsPerUse: ""
+  MaxHitCountMultiplier: ""
+  SetMannequinTag: ""
+  SetMannequinTagStatus: ""
+- AbilityID: Upgrade_Sword_Bash_StunDur_Helper1
+  DisplayName: ""
+  Description: ""
+  UICategory: ""
+  Icon: ""
+  StatusEffectIcon: ""
+  Sound: ""
+  TelegraphStatusEffect: ""
+  TelegraphCountOffset: ""
+  OnEquipStatusEffect: ""
+  WeaponTag: Sword
+  EquipWhenUnsheathed: true
+  RequiredAbilityId: Ability_Sword_Bash
+  RequiredEquippedAbilityId: Upgrade_Sword_Bash_StunDur
+  TreeId: null
+  TreeRowPosition: null
+  TreeColumnPosition: null
+  IsActiveAbility: false
+  IsGlobalAbility: false
+  ScalingStrength: ""
+  ScalingDexterity: ""
+  ScalingIntelligence: ""
+  ScalingSpirit: ""
+  ScalingConstitution: ""
+  OnKill: false
+  OnExecuted: false
+  OnHit: true
+  OnBlockedHit: false
+  OnHitBehind: false
+  OnCrit: false
+  OnHeadShot: false
+  OnLegShot: false
+  OnHitTaken: false
+  OnBlockedHitTaken: false
+  OnBlockBreak: false
+  OnTargetBlockBreak: false
+  OnDeath: false
+  OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: KiteShield
+  RequireReaction: true
+  NumSuccessfulHits: 0.0
+  NumConsecutiveHits: 0.0
+  MaxConsecutiveHits: 0.0
+  TrackHitCount: false
+  MaxTrackedHitCounts: 0.0
+  ResetConsecutiveOnSuccess: ""
+  NumberOfTrackedHits: ""
+  NumberOfHitsComparisonType: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
+  ForceShowNameTag: ""
+  TargetHasGritActive: ""
+  DamageTableRow: OH_Shield_Attack_Bash,OH_Shield_Attack_Bash_Upgrade
+  RemoteDamageTableRow: ""
+  RangedAttackName: ""
+  AttackType: ""
+  IgnoreDisabledAttackTypes: ""
+  DamageTypes: ""
+  StatusEffect: ""
+  StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
+  TargetStatusEffect: ""
+  TargetStatusEffectCategory: ""
+  TargetStatusEffectStackSize: ""
+  TargetStatusEffectComparison: ""
+  TargetCollisionFilters: ""
+  TargetMarker: ""
+  MyHealthPercent: null
+  MyComparisonType: ""
+  MyStaminaPercent: ""
+  MyStaminaComparisonType: ""
+  TargetHealthPercent: null
+  TargetComparisonType: ""
+  DistFromDefender: ""
+  DistComparisonType: ""
+  NumAroundMe: ""
+  NumAroundComparisonType: ""
+  AbilityList: ""
+  AbilityTrigger: ""
+  InAction: ""
+  InActionTime: ""
+  AfterAction: ""
+  TargetVitalsCategory: ""
+  BaseDamage: null
+  BaseDamageReduction: null
+  BlockDamage: ""
+  BlockDamageReduction: null
+  CritDamage: ""
+  CritChance: null
+  HeadshotDamage: ""
+  stagger damage: ""
+  StaggerDamageReduction: ""
+  HitRateDmg: ""
+  HitRateDmgReduction: ""
+  HealthDamageMitigation: ""
+  ThreatDamage: null
+  ArmorPenetration: ""
+  PhysicalArmor: null
+  ElementalArmor: ""
+  Knockback: ""
+  WeaponAccuracy: ""
+  Health: ""
+  DmgPctToHealth: ""
+  MaxHealth: ""
+  Mana: ""
+  MaxMana: ""
+  DamageTableRowOverride: ""
+  RangedAttackNameOverride: ""
+  EnableCrit: ""
+  PerStatusEffectOnTarget: ""
+  ForceTakeStaminaDamage: ""
+  CastSpell: ""
+  DisableCastSpellDurability: null
+  SelfApplyStatusEffect: ""
+  OtherApplyStatusEffect: ""
+  SetPotencyAsCount: ""
+  MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: 1.0
+  RemoveStatusEffects: AbilitySpecific
+  StatusEffectsList: ""
+  StatusEffectCategoriesList: Debuff
+  RemoveTargetStatusEffectsList: ""
+  ConsumeTargetStatusEffectMult: ""
+  StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
+  TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
+  TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
+  ActivationCooldown: null
+  Duration: ""
+  CooldownId: ""
+  CDRImmediatelyOptions: ""
+  ResetCooldownTimers: ""
+  CooldownTimer: null
+  NumFreeCooldownsPerUse: ""
+  MaxHitCountMultiplier: ""
+  SetMannequinTag: ""
+  SetMannequinTagStatus: ""
+- AbilityID: Upgrade_Sword_Bash_StunDur_Helper2
+  DisplayName: ""
+  Description: ""
+  UICategory: ""
+  Icon: ""
+  StatusEffectIcon: ""
+  Sound: ""
+  TelegraphStatusEffect: ""
+  TelegraphCountOffset: ""
+  OnEquipStatusEffect: ""
+  WeaponTag: Sword
+  EquipWhenUnsheathed: true
+  RequiredAbilityId: Ability_Sword_Bash
+  RequiredEquippedAbilityId: Upgrade_Sword_Bash_StunDur
+  TreeId: null
+  TreeRowPosition: null
+  TreeColumnPosition: null
+  IsActiveAbility: false
+  IsGlobalAbility: false
+  ScalingStrength: ""
+  ScalingDexterity: ""
+  ScalingIntelligence: ""
+  ScalingSpirit: ""
+  ScalingConstitution: ""
+  OnKill: false
+  OnExecuted: false
+  OnHit: true
+  OnBlockedHit: false
+  OnHitBehind: false
+  OnCrit: false
+  OnHeadShot: false
+  OnLegShot: false
+  OnHitTaken: false
+  OnBlockedHitTaken: false
+  OnBlockBreak: false
+  OnTargetBlockBreak: false
+  OnDeath: false
+  OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: TowerShield
+  RequireReaction: true
+  NumSuccessfulHits: 0.0
+  NumConsecutiveHits: 0.0
+  MaxConsecutiveHits: 0.0
+  TrackHitCount: false
+  MaxTrackedHitCounts: 0.0
+  ResetConsecutiveOnSuccess: ""
+  NumberOfTrackedHits: ""
+  NumberOfHitsComparisonType: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
+  ForceShowNameTag: ""
+  TargetHasGritActive: ""
+  DamageTableRow: OH_Shield_Attack_Bash,OH_Shield_Attack_Bash_Upgrade
+  RemoteDamageTableRow: ""
+  RangedAttackName: ""
+  AttackType: ""
+  IgnoreDisabledAttackTypes: ""
+  DamageTypes: ""
+  StatusEffect: ""
+  StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
+  TargetStatusEffect: ""
+  TargetStatusEffectCategory: ""
+  TargetStatusEffectStackSize: ""
+  TargetStatusEffectComparison: ""
+  TargetCollisionFilters: ""
+  TargetMarker: ""
+  MyHealthPercent: null
+  MyComparisonType: ""
+  MyStaminaPercent: ""
+  MyStaminaComparisonType: ""
+  TargetHealthPercent: null
+  TargetComparisonType: ""
+  DistFromDefender: ""
+  DistComparisonType: ""
+  NumAroundMe: ""
+  NumAroundComparisonType: ""
+  AbilityList: ""
+  AbilityTrigger: ""
+  InAction: ""
+  InActionTime: ""
+  AfterAction: ""
+  TargetVitalsCategory: ""
+  BaseDamage: null
+  BaseDamageReduction: null
+  BlockDamage: ""
+  BlockDamageReduction: null
+  CritDamage: ""
+  CritChance: null
+  HeadshotDamage: ""
+  stagger damage: ""
+  StaggerDamageReduction: ""
+  HitRateDmg: ""
+  HitRateDmgReduction: ""
+  HealthDamageMitigation: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -2912,8 +3674,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: Sword_ShieldBash_Stun2
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: 1.0
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -2927,7 +3693,7 @@
 - AbilityID: Ability_Sword_Rush
   DisplayName: "@Ability_Sword_Rush"
   Description: "@Ability_Sword_Rush_description"
-  UICategory: Buff
+  UICategory: Defense
   Icon: lyshineui/images/icons/abilities/sword_Ability05.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Sword_Ability_5
@@ -2939,7 +3705,7 @@
   RequiredAbilityId: ""
   RequiredEquippedAbilityId: ""
   TreeId: 1.0
-  TreeRowPosition: 0.0
+  TreeRowPosition: 1.0
   TreeColumnPosition: 2.0
   IsActiveAbility: true
   IsGlobalAbility: false
@@ -2962,6 +3728,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -2983,6 +3752,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -3004,6 +3774,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -3016,7 +3787,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -3045,8 +3816,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: Ability_Sword_Rush
@@ -3060,7 +3835,7 @@
 - AbilityID: Upgrade_Sword_Rush_Weak
   DisplayName: "@Upgrade_Sword_Rush_Weak"
   Description: "@Upgrade_Sword_Rush_Weak_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/sword_Ability05_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3095,6 +3870,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -3116,6 +3894,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: IgnoreDebuffs
   TargetStatusEffectStackSize: ""
@@ -3137,6 +3916,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -3149,7 +3929,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -3178,8 +3958,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -3193,7 +3977,7 @@
 - AbilityID: Upgrade_Sword_Rush_Slow
   DisplayName: "@Upgrade_Sword_Rush_Slow"
   Description: "@Upgrade_Sword_Rush_Slow_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/sword_Ability05_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3228,6 +4012,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -3249,6 +4036,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: IgnoreDebuffs
   TargetStatusEffectStackSize: ""
@@ -3270,6 +4058,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -3282,7 +4071,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -3311,8 +4100,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -3326,7 +4119,7 @@
 - AbilityID: Ability_Sword_FinalStand
   DisplayName: "@Ability_Sword_FinalStand"
   Description: "@Ability_Sword_FinalStand_description"
-  UICategory: Buff
+  UICategory: Defense
   Icon: lyshineui/images/icons/abilities/sword_Ability06.png
   StatusEffectIcon: ""
   Sound: Play_UI_WeaponSkills_Sword_Ability_6
@@ -3361,6 +4154,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -3382,6 +4178,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: LastStand
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -3403,6 +4200,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: 0.3
   BlockDamage: ""
@@ -3415,7 +4213,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -3444,8 +4242,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: Ability_Sword_FinalStand
@@ -3467,7 +4269,7 @@
   TelegraphCountOffset: ""
   OnEquipStatusEffect: ""
   WeaponTag: Sword
-  EquipWhenUnsheathed: 1.0
+  EquipWhenUnsheathed: true
   RequiredAbilityId: ""
   RequiredEquippedAbilityId: Ability_Sword_FinalStand
   TreeId: null
@@ -3494,6 +4296,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -3515,6 +4320,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: LastStand
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -3536,6 +4342,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -3548,7 +4355,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -3577,8 +4384,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: Ability_Sword_FinalStand
@@ -3592,7 +4403,7 @@
 - AbilityID: Upgrade_Sword_FinalStand_ArmorAboveHalf
   DisplayName: "@Upgrade_Sword_FinalStand_ArmorAboveHalf"
   Description: "@Upgrade_Sword_FinalStand_ArmorAboveHalf_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/sword_Ability06_Mod01.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3627,6 +4438,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: RoundShield
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -3648,14 +4462,15 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: LastStand
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
   TargetMarker: ""
-  MyHealthPercent: 50.0
-  MyComparisonType: GreaterThan
+  MyHealthPercent: null
+  MyComparisonType: ""
   MyStaminaPercent: ""
   MyStaminaComparisonType: ""
   TargetHealthPercent: null
@@ -3669,8 +4484,9 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
-  BaseDamage: null
-  BaseDamageReduction: 0.2
+  TargetVitalsCategory: ""
+  BaseDamage: 0.2
+  BaseDamageReduction: null
   BlockDamage: ""
   BlockDamageReduction: null
   CritDamage: ""
@@ -3681,7 +4497,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -3710,8 +4526,296 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
+  ActivationCooldown: null
+  Duration: ""
+  CooldownId: ""
+  CDRImmediatelyOptions: ""
+  ResetCooldownTimers: ""
+  CooldownTimer: null
+  NumFreeCooldownsPerUse: ""
+  MaxHitCountMultiplier: ""
+  SetMannequinTag: ""
+  SetMannequinTagStatus: ""
+- AbilityID: Upgrade_Sword_FinalStand_ArmorAboveHalf_Helper1
+  DisplayName: ""
+  Description: ""
+  UICategory: ""
+  Icon: ""
+  StatusEffectIcon: ""
+  Sound: ""
+  TelegraphStatusEffect: ""
+  TelegraphCountOffset: ""
+  OnEquipStatusEffect: ""
+  WeaponTag: Sword
+  EquipWhenUnsheathed: true
+  RequiredAbilityId: Ability_Sword_FinalStand
+  RequiredEquippedAbilityId: Upgrade_Sword_FinalStand_ArmorAboveHalf
+  TreeId: null
+  TreeRowPosition: null
+  TreeColumnPosition: null
+  IsActiveAbility: false
+  IsGlobalAbility: false
+  ScalingStrength: ""
+  ScalingDexterity: ""
+  ScalingIntelligence: ""
+  ScalingSpirit: ""
+  ScalingConstitution: ""
+  OnKill: false
+  OnExecuted: false
+  OnHit: false
+  OnBlockedHit: false
+  OnHitBehind: false
+  OnCrit: false
+  OnHeadShot: false
+  OnLegShot: false
+  OnHitTaken: false
+  OnBlockedHitTaken: false
+  OnBlockBreak: false
+  OnTargetBlockBreak: false
+  OnDeath: false
+  OnDeathsDoor: false
+  OnStatusEffectApplied: true
+  EquipLoadCategory: ""
+  RequiredEquipment: KiteShield
+  RequireReaction: null
+  NumSuccessfulHits: 0.0
+  NumConsecutiveHits: 0.0
+  MaxConsecutiveHits: 0.0
+  TrackHitCount: false
+  MaxTrackedHitCounts: 0.0
+  ResetConsecutiveOnSuccess: ""
+  NumberOfTrackedHits: ""
+  NumberOfHitsComparisonType: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
+  ForceShowNameTag: ""
+  TargetHasGritActive: ""
+  DamageTableRow: ""
+  RemoteDamageTableRow: ""
+  RangedAttackName: ""
+  AttackType: ""
+  IgnoreDisabledAttackTypes: Heartgem
+  DamageTypes: ""
+  StatusEffect: ""
+  StatusEffectCategories: ""
+  StatusEffectBeingApplied: Status_Ability_Sword_FinalStand
+  TargetStatusEffect: ""
+  TargetStatusEffectCategory: ""
+  TargetStatusEffectStackSize: ""
+  TargetStatusEffectComparison: ""
+  TargetCollisionFilters: ""
+  TargetMarker: ""
+  MyHealthPercent: null
+  MyComparisonType: ""
+  MyStaminaPercent: ""
+  MyStaminaComparisonType: ""
+  TargetHealthPercent: null
+  TargetComparisonType: ""
+  DistFromDefender: ""
+  DistComparisonType: ""
+  NumAroundMe: ""
+  NumAroundComparisonType: ""
+  AbilityList: ""
+  AbilityTrigger: ""
+  InAction: ""
+  InActionTime: ""
+  AfterAction: ""
+  TargetVitalsCategory: ""
+  BaseDamage: null
+  BaseDamageReduction: null
+  BlockDamage: ""
+  BlockDamageReduction: null
+  CritDamage: ""
+  CritChance: null
+  HeadshotDamage: ""
+  stagger damage: ""
+  StaggerDamageReduction: ""
+  HitRateDmg: ""
+  HitRateDmgReduction: ""
+  HealthDamageMitigation: ""
+  ThreatDamage: null
+  ArmorPenetration: ""
+  PhysicalArmor: null
+  ElementalArmor: ""
+  Knockback: ""
+  WeaponAccuracy: ""
+  Health: ""
+  DmgPctToHealth: ""
+  MaxHealth: ""
+  Mana: ""
+  MaxMana: ""
+  DamageTableRowOverride: ""
+  RangedAttackNameOverride: ""
+  EnableCrit: ""
+  PerStatusEffectOnTarget: ""
+  ForceTakeStaminaDamage: ""
+  CastSpell: ""
+  DisableCastSpellDurability: null
+  SelfApplyStatusEffect: Status_Upgrade_Sword_FinalStand_SlowPotencyReduction
+  OtherApplyStatusEffect: ""
+  SetPotencyAsCount: ""
+  MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
+  RemoveStatusEffects: ""
+  StatusEffectsList: ""
+  StatusEffectCategoriesList: ""
+  RemoveTargetStatusEffectsList: ""
+  ConsumeTargetStatusEffectMult: ""
+  StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
+  TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
+  TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
+  ActivationCooldown: null
+  Duration: ""
+  CooldownId: ""
+  CDRImmediatelyOptions: ""
+  ResetCooldownTimers: ""
+  CooldownTimer: null
+  NumFreeCooldownsPerUse: ""
+  MaxHitCountMultiplier: ""
+  SetMannequinTag: ""
+  SetMannequinTagStatus: ""
+- AbilityID: Upgrade_Sword_FinalStand_ArmorAboveHalf_Helper2
+  DisplayName: ""
+  Description: ""
+  UICategory: ""
+  Icon: ""
+  StatusEffectIcon: ""
+  Sound: ""
+  TelegraphStatusEffect: ""
+  TelegraphCountOffset: ""
+  OnEquipStatusEffect: ""
+  WeaponTag: Sword
+  EquipWhenUnsheathed: true
+  RequiredAbilityId: Ability_Sword_FinalStand
+  RequiredEquippedAbilityId: Upgrade_Sword_FinalStand_ArmorAboveHalf
+  TreeId: null
+  TreeRowPosition: null
+  TreeColumnPosition: null
+  IsActiveAbility: false
+  IsGlobalAbility: false
+  ScalingStrength: ""
+  ScalingDexterity: ""
+  ScalingIntelligence: ""
+  ScalingSpirit: ""
+  ScalingConstitution: ""
+  OnKill: false
+  OnExecuted: false
+  OnHit: false
+  OnBlockedHit: false
+  OnHitBehind: false
+  OnCrit: false
+  OnHeadShot: false
+  OnLegShot: false
+  OnHitTaken: false
+  OnBlockedHitTaken: false
+  OnBlockBreak: false
+  OnTargetBlockBreak: false
+  OnDeath: false
+  OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: TowerShield
+  RequireReaction: null
+  NumSuccessfulHits: 0.0
+  NumConsecutiveHits: 0.0
+  MaxConsecutiveHits: 0.0
+  TrackHitCount: false
+  MaxTrackedHitCounts: 0.0
+  ResetConsecutiveOnSuccess: ""
+  NumberOfTrackedHits: ""
+  NumberOfHitsComparisonType: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
+  ForceShowNameTag: ""
+  TargetHasGritActive: ""
+  DamageTableRow: ""
+  RemoteDamageTableRow: ""
+  RangedAttackName: ""
+  AttackType: ""
+  IgnoreDisabledAttackTypes: Heartgem
+  DamageTypes: ""
+  StatusEffect: ""
+  StatusEffectCategories: LastStand
+  StatusEffectBeingApplied: ""
+  TargetStatusEffect: ""
+  TargetStatusEffectCategory: ""
+  TargetStatusEffectStackSize: ""
+  TargetStatusEffectComparison: ""
+  TargetCollisionFilters: ""
+  TargetMarker: ""
+  MyHealthPercent: null
+  MyComparisonType: ""
+  MyStaminaPercent: ""
+  MyStaminaComparisonType: ""
+  TargetHealthPercent: null
+  TargetComparisonType: ""
+  DistFromDefender: ""
+  DistComparisonType: ""
+  NumAroundMe: ""
+  NumAroundComparisonType: ""
+  AbilityList: ""
+  AbilityTrigger: ""
+  InAction: ""
+  InActionTime: ""
+  AfterAction: ""
+  TargetVitalsCategory: ""
+  BaseDamage: null
+  BaseDamageReduction: 0.2
+  BlockDamage: ""
+  BlockDamageReduction: null
+  CritDamage: ""
+  CritChance: null
+  HeadshotDamage: ""
+  stagger damage: ""
+  StaggerDamageReduction: ""
+  HitRateDmg: ""
+  HitRateDmgReduction: ""
+  HealthDamageMitigation: ""
+  ThreatDamage: null
+  ArmorPenetration: ""
+  PhysicalArmor: null
+  ElementalArmor: ""
+  Knockback: ""
+  WeaponAccuracy: ""
+  Health: ""
+  DmgPctToHealth: ""
+  MaxHealth: ""
+  Mana: ""
+  MaxMana: ""
+  DamageTableRowOverride: ""
+  RangedAttackNameOverride: ""
+  EnableCrit: ""
+  PerStatusEffectOnTarget: ""
+  ForceTakeStaminaDamage: ""
+  CastSpell: ""
+  DisableCastSpellDurability: null
+  SelfApplyStatusEffect: ""
+  OtherApplyStatusEffect: ""
+  SetPotencyAsCount: ""
+  MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
+  RemoveStatusEffects: ""
+  StatusEffectsList: ""
+  StatusEffectCategoriesList: ""
+  RemoveTargetStatusEffectsList: ""
+  ConsumeTargetStatusEffectMult: ""
+  StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
+  TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
+  TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -3725,7 +4829,7 @@
 - AbilityID: Upgrade_Sword_FinalStand_Heal
   DisplayName: "@Upgrade_Sword_FinalStand_Heal"
   Description: "@Upgrade_Sword_FinalStand_Heal_description"
-  UICategory: Buff
+  UICategory: Passive
   Icon: lyshineui/images/icons/abilities/sword_Ability06_Mod02.png
   StatusEffectIcon: ""
   Sound: ""
@@ -3760,6 +4864,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -3781,6 +4888,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -3802,6 +4910,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -3814,7 +4923,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -3843,8 +4952,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -3893,6 +5006,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -3914,6 +5030,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -3935,6 +5052,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -3947,7 +5065,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: 0.15
   ElementalArmor: ""
@@ -3976,8 +5094,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -4026,6 +5148,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -4047,6 +5172,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -4068,6 +5194,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -4080,7 +5207,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -4109,8 +5236,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -4159,6 +5290,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -4177,9 +5311,10 @@
   RangedAttackName: ""
   AttackType: ""
   IgnoreDisabledAttackTypes: Heartgem
-  DamageTypes: Magic,Fire,Lightning,Corruption,Void,Life,Ice,Arcane,Nature
+  DamageTypes: Fire,Lightning,Corruption,Ice,Arcane,Nature
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -4201,6 +5336,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: 0.1
   BlockDamage: ""
@@ -4213,7 +5349,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -4242,8 +5378,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -4269,7 +5409,7 @@
   RequiredAbilityId: ""
   RequiredEquippedAbilityId: ""
   TreeId: 1.0
-  TreeRowPosition: 1.0
+  TreeRowPosition: 2.0
   TreeColumnPosition: 3.0
   IsActiveAbility: false
   IsGlobalAbility: false
@@ -4292,6 +5432,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -4313,6 +5456,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -4334,6 +5478,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -4346,7 +5491,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -4375,8 +5520,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -4425,6 +5574,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -4446,6 +5598,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -4467,6 +5620,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -4479,7 +5633,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -4508,8 +5662,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -4546,7 +5704,7 @@
   ScalingConstitution: ""
   OnKill: false
   OnExecuted: false
-  OnHit: false
+  OnHit: true
   OnBlockedHit: false
   OnHitBehind: false
   OnCrit: false
@@ -4558,6 +5716,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: RoundShield
   RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -4579,8 +5740,9 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
-  TargetStatusEffectCategory: ""
+  TargetStatusEffectCategory: Debuff
   TargetStatusEffectStackSize: ""
   TargetStatusEffectComparison: ""
   TargetCollisionFilters: ""
@@ -4600,6 +5762,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -4612,7 +5775,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -4641,14 +5804,302 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: Debuff
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: 0.05
+  ActivationCooldown: null
+  Duration: ""
+  CooldownId: ""
+  CDRImmediatelyOptions: ""
+  ResetCooldownTimers: ""
+  CooldownTimer: null
+  NumFreeCooldownsPerUse: ""
+  MaxHitCountMultiplier: ""
+  SetMannequinTag: ""
+  SetMannequinTagStatus: ""
+- AbilityID: Passive_Sword_Defender_CDRWhileBlock_Helper1
+  DisplayName: ""
+  Description: ""
+  UICategory: ""
+  Icon: ""
+  StatusEffectIcon: ""
+  Sound: ""
+  TelegraphStatusEffect: ""
+  TelegraphCountOffset: ""
+  OnEquipStatusEffect: ""
+  WeaponTag: Sword
+  EquipWhenUnsheathed: true
+  RequiredAbilityId: Passive_Sword_Defender_CDRWhileBlock
+  RequiredEquippedAbilityId: Passive_Sword_Defender_CDRWhileBlock
+  TreeId: null
+  TreeRowPosition: null
+  TreeColumnPosition: null
+  IsActiveAbility: false
+  IsGlobalAbility: false
+  ScalingStrength: ""
+  ScalingDexterity: ""
+  ScalingIntelligence: ""
+  ScalingSpirit: ""
+  ScalingConstitution: ""
+  OnKill: false
+  OnExecuted: false
+  OnHit: false
+  OnBlockedHit: false
+  OnHitBehind: false
+  OnCrit: false
+  OnHeadShot: false
+  OnLegShot: false
+  OnHitTaken: false
+  OnBlockedHitTaken: true
+  OnBlockBreak: false
+  OnTargetBlockBreak: false
+  OnDeath: false
+  OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: KiteShield
+  RequireReaction: true
+  NumSuccessfulHits: 0.0
+  NumConsecutiveHits: 0.0
+  MaxConsecutiveHits: 0.0
+  TrackHitCount: false
+  MaxTrackedHitCounts: 0.0
+  ResetConsecutiveOnSuccess: ""
+  NumberOfTrackedHits: ""
+  NumberOfHitsComparisonType: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
+  ForceShowNameTag: ""
+  TargetHasGritActive: ""
+  DamageTableRow: ""
+  RemoteDamageTableRow: ""
+  RangedAttackName: ""
+  AttackType: ""
+  IgnoreDisabledAttackTypes: ""
+  DamageTypes: ""
+  StatusEffect: ""
+  StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
+  TargetStatusEffect: ""
+  TargetStatusEffectCategory: ""
+  TargetStatusEffectStackSize: ""
+  TargetStatusEffectComparison: ""
+  TargetCollisionFilters: ""
+  TargetMarker: ""
+  MyHealthPercent: null
+  MyComparisonType: ""
+  MyStaminaPercent: ""
+  MyStaminaComparisonType: ""
+  TargetHealthPercent: null
+  TargetComparisonType: ""
+  DistFromDefender: ""
+  DistComparisonType: ""
+  NumAroundMe: ""
+  NumAroundComparisonType: ""
+  AbilityList: ""
+  AbilityTrigger: ""
+  InAction: ""
+  InActionTime: ""
+  AfterAction: ""
+  TargetVitalsCategory: ""
+  BaseDamage: null
+  BaseDamageReduction: null
+  BlockDamage: ""
+  BlockDamageReduction: null
+  CritDamage: ""
+  CritChance: null
+  HeadshotDamage: ""
+  stagger damage: ""
+  StaggerDamageReduction: ""
+  HitRateDmg: ""
+  HitRateDmgReduction: ""
+  HealthDamageMitigation: ""
+  ThreatDamage: null
+  ArmorPenetration: ""
+  PhysicalArmor: null
+  ElementalArmor: ""
+  Knockback: ""
+  WeaponAccuracy: ""
+  Health: ""
+  DmgPctToHealth: ""
+  MaxHealth: ""
+  Mana: ""
+  MaxMana: ""
+  DamageTableRowOverride: ""
+  RangedAttackNameOverride: ""
+  EnableCrit: ""
+  PerStatusEffectOnTarget: ""
+  ForceTakeStaminaDamage: ""
+  CastSpell: ""
+  DisableCastSpellDurability: null
+  SelfApplyStatusEffect: ""
+  OtherApplyStatusEffect: ""
+  SetPotencyAsCount: ""
+  MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
+  RemoveStatusEffects: ""
+  StatusEffectsList: ""
+  StatusEffectCategoriesList: ""
+  RemoveTargetStatusEffectsList: ""
+  ConsumeTargetStatusEffectMult: ""
+  StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
+  TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
+  TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
   CDRImmediatelyOptions: ActiveWeapon
   ResetCooldownTimers: ""
   CooldownTimer: -0.01
+  NumFreeCooldownsPerUse: ""
+  MaxHitCountMultiplier: ""
+  SetMannequinTag: ""
+  SetMannequinTagStatus: ""
+- AbilityID: Passive_Sword_Defender_CDRWhileBlock_Helper2
+  DisplayName: ""
+  Description: ""
+  UICategory: ""
+  Icon: ""
+  StatusEffectIcon: ""
+  Sound: ""
+  TelegraphStatusEffect: ""
+  TelegraphCountOffset: ""
+  OnEquipStatusEffect: ""
+  WeaponTag: Sword
+  EquipWhenUnsheathed: true
+  RequiredAbilityId: Passive_Sword_Defender_CDRWhileBlock
+  RequiredEquippedAbilityId: Passive_Sword_Defender_CDRWhileBlock
+  TreeId: null
+  TreeRowPosition: null
+  TreeColumnPosition: null
+  IsActiveAbility: false
+  IsGlobalAbility: false
+  ScalingStrength: ""
+  ScalingDexterity: ""
+  ScalingIntelligence: ""
+  ScalingSpirit: ""
+  ScalingConstitution: ""
+  OnKill: false
+  OnExecuted: false
+  OnHit: false
+  OnBlockedHit: false
+  OnHitBehind: false
+  OnCrit: false
+  OnHeadShot: false
+  OnLegShot: false
+  OnHitTaken: true
+  OnBlockedHitTaken: true
+  OnBlockBreak: false
+  OnTargetBlockBreak: false
+  OnDeath: false
+  OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: TowerShield
+  RequireReaction: true
+  NumSuccessfulHits: 0.0
+  NumConsecutiveHits: 0.0
+  MaxConsecutiveHits: 0.0
+  TrackHitCount: false
+  MaxTrackedHitCounts: 0.0
+  ResetConsecutiveOnSuccess: ""
+  NumberOfTrackedHits: ""
+  NumberOfHitsComparisonType: ""
+  DamageIsRanged: null
+  DamageIsMelee: null
+  ForceShowNameTag: ""
+  TargetHasGritActive: ""
+  DamageTableRow: ""
+  RemoteDamageTableRow: ""
+  RangedAttackName: ""
+  AttackType: ""
+  IgnoreDisabledAttackTypes: ""
+  DamageTypes: ""
+  StatusEffect: ""
+  StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
+  TargetStatusEffect: ""
+  TargetStatusEffectCategory: ""
+  TargetStatusEffectStackSize: ""
+  TargetStatusEffectComparison: ""
+  TargetCollisionFilters: ""
+  TargetMarker: ""
+  MyHealthPercent: null
+  MyComparisonType: ""
+  MyStaminaPercent: ""
+  MyStaminaComparisonType: ""
+  TargetHealthPercent: null
+  TargetComparisonType: ""
+  DistFromDefender: ""
+  DistComparisonType: ""
+  NumAroundMe: ""
+  NumAroundComparisonType: ""
+  AbilityList: ""
+  AbilityTrigger: ""
+  InAction: ""
+  InActionTime: ""
+  AfterAction: ""
+  TargetVitalsCategory: ""
+  BaseDamage: null
+  BaseDamageReduction: null
+  BlockDamage: ""
+  BlockDamageReduction: null
+  CritDamage: ""
+  CritChance: null
+  HeadshotDamage: ""
+  stagger damage: ""
+  StaggerDamageReduction: ""
+  HitRateDmg: ""
+  HitRateDmgReduction: ""
+  HealthDamageMitigation: ""
+  ThreatDamage: null
+  ArmorPenetration: ""
+  PhysicalArmor: null
+  ElementalArmor: ""
+  Knockback: ""
+  WeaponAccuracy: ""
+  Health: ""
+  DmgPctToHealth: ""
+  MaxHealth: ""
+  Mana: ""
+  MaxMana: ""
+  DamageTableRowOverride: ""
+  RangedAttackNameOverride: ""
+  EnableCrit: ""
+  PerStatusEffectOnTarget: ""
+  ForceTakeStaminaDamage: ""
+  CastSpell: ""
+  DisableCastSpellDurability: null
+  SelfApplyStatusEffect: ""
+  OtherApplyStatusEffect: ""
+  SetPotencyAsCount: ""
+  MultiplyRemovedByPotency: ""
+  NumStatusEffectsToRemove: null
+  RemoveStatusEffects: ""
+  StatusEffectsList: ""
+  StatusEffectCategoriesList: ""
+  RemoveTargetStatusEffectsList: ""
+  ConsumeTargetStatusEffectMult: ""
+  StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: Buff
+  StatusEffectDurationMult: 0.05
+  TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
+  TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
+  ActivationCooldown: null
+  Duration: ""
+  CooldownId: ""
+  CDRImmediatelyOptions: ""
+  ResetCooldownTimers: ""
+  CooldownTimer: null
   NumFreeCooldownsPerUse: ""
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
@@ -4691,6 +6142,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -4712,6 +6166,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -4733,6 +6188,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: 0.15
   BaseDamageReduction: null
   BlockDamage: ""
@@ -4745,7 +6201,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: 0.4
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -4774,8 +6230,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -4824,6 +6284,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -4845,6 +6308,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -4866,6 +6330,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -4878,7 +6343,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -4907,8 +6372,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -4957,6 +6426,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -4978,6 +6450,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -4999,6 +6472,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -5011,7 +6485,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -5040,8 +6514,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""
@@ -5090,6 +6568,9 @@
   OnTargetBlockBreak: false
   OnDeath: false
   OnDeathsDoor: false
+  OnStatusEffectApplied: null
+  EquipLoadCategory: ""
+  RequiredEquipment: ""
   RequireReaction: null
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
@@ -5111,6 +6592,7 @@
   DamageTypes: ""
   StatusEffect: ""
   StatusEffectCategories: ""
+  StatusEffectBeingApplied: ""
   TargetStatusEffect: ""
   TargetStatusEffectCategory: ""
   TargetStatusEffectStackSize: ""
@@ -5132,6 +6614,7 @@
   InAction: ""
   InActionTime: ""
   AfterAction: ""
+  TargetVitalsCategory: ""
   BaseDamage: null
   BaseDamageReduction: null
   BlockDamage: ""
@@ -5144,7 +6627,7 @@
   HitRateDmg: ""
   HitRateDmgReduction: ""
   HealthDamageMitigation: ""
-  ThreatDamage: ""
+  ThreatDamage: null
   ArmorPenetration: ""
   PhysicalArmor: null
   ElementalArmor: ""
@@ -5173,8 +6656,12 @@
   RemoveTargetStatusEffectsList: ""
   ConsumeTargetStatusEffectMult: ""
   StatusEffectDurationReduction: ""
+  StatusEffectDurationCats: ""
+  StatusEffectDurationMult: null
   TargetStatusEffectDurationList: ""
+  TargetStatusEffectDurationCats: ""
   TargetStatusEffectDurationMod: null
+  TargetStatusEffectDurationMult: null
   ActivationCooldown: null
   Duration: ""
   CooldownId: ""

@@ -232,3 +232,21 @@
   LocalizedTextAfflicted: "@ui_afflicted_stunned"
   AfflictionTooltipText: "@ui_affliction_stunned_tooltip"
   AfflictedTooltipText: "@ui_afflicted_stunned_tooltip"
+- AfflictionID: AfflictionFatigue
+  IntID: 14.0
+  StatusEffects: Drowning
+  DrainRate: 0.075
+  AfflictedDrainTime: 4.0
+  DrainDelay: 1.1
+  Max: 20.0
+  IgnoreWhenAfflicted: false
+  IsGlobalAffliction: null
+  IsTimerAffliction: null
+  ColorHex: 80ffcf1c
+  Icon: drowning
+  BGImage: ""
+  FillingColorHex: 80ffa91c
+  LocalizedText: "@ui_affliction_fatigue"
+  LocalizedTextAfflicted: "@ui_afflicted_drowning"
+  AfflictionTooltipText: "@ui_affliction_fatigue_tooltip"
+  AfflictedTooltipText: "@ui_afflicted_drowning_tooltip"

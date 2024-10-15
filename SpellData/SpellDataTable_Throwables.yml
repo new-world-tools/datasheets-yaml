@@ -83,6 +83,7 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  NotSpawnedByAWeapon: null
 - SpellID: AI_Season_04_IceGuardian_IcicleProjectile
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -168,6 +169,7 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  NotSpawnedByAWeapon: null
 - SpellID: AI_MSQ_Empress_Cannon_BallProjectile
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -253,6 +255,93 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  NotSpawnedByAWeapon: null
+- SpellID: Raid_CutlassKeys00_Water_Throwable_Projectile
+  StatusEffects: ""
+  StatusEffectDurations: ""
+  Revive: ""
+  Siphon: ""
+  AttachToOwner: ""
+  StickWhenAttached: ""
+  StoreOffsetWhenStuckToGDE: ""
+  UseDirectTargetAsAttachOwner: ""
+  SpawnSecondaryOnElapsed: ""
+  SpawnSecondaryOnCollision: ""
+  AttachProjectileOnCollision: ""
+  EndOnCasterDeath: ""
+  IgnoreTargetIfAtDeathsDoor: ""
+  IgnoreTargetIfDead: ""
+  UseCameraTargetLock: ""
+  TrackNumInVolume: ""
+  ClearOnExit: ""
+  ClearOnEnd: ""
+  ManaCost: ""
+  UseStatusEffectDuration: false
+  Duration: 100.0
+  DurationScaling: ""
+  Height: ""
+  Length: ""
+  Radius: 0.5
+  InnerRadius: ""
+  RadiusScaling: ""
+  MaxRadiusScaling: ""
+  CastDistance: 10.0
+  CastHeight: ""
+  CastRadius: ""
+  ConeAngle: ""
+  ConeWidth: ""
+  ChannelTime: 0.0
+  ChainDelayDuration: ""
+  MaxChainNum: ""
+  UseChainCasterPaperdoll: ""
+  NumToSpawn: ""
+  NumToSpawnBeforeFail: ""
+  SpawnRate: ""
+  SpawnAngle: ""
+  SecondarySpellProjectileLaunchAngles: ""
+  ScaleWithCharacterBoundingBox: ""
+  ScaleWithDynamicScale: ""
+  TargetTypes: All
+  SpellTypes: Ability
+  CastingTypes: Projectile
+  HitAiTarget: ""
+  OverrideTargetForAiThreat: ""
+  ShapeTypes: ""
+  DamageType: ""
+  CheckObstructions: ""
+  IgnoreOverheadCollision: true
+  IgnoreStructures: ""
+  IgnoreSelf: ""
+  WeaponSlotOverride: ""
+  RangedAttackProfile: AI_Broodmother
+  RangedAttackName: ThrowableWater
+  FireJointName: ""
+  ProjPosOffsetX: ""
+  ProjPosOffsetY: ""
+  ProjPosOffsetZ: ""
+  ProjRotOffsetX: ""
+  ProjRotOffsetY: ""
+  ProjRotOffsetZ: ""
+  CharRelPosOffsetX: ""
+  CharRelPosOffsetY: ""
+  CharRelPosOffsetZ: ""
+  CharRelRotOffsetX: ""
+  CharRelRotOffsetY: ""
+  CharRelRotOffsetZ: ""
+  ProjRaycastOrientation: ""
+  BaseDamage: 1000.0
+  DamageTable: HercyneBroodmotherDamageTable
+  DamageTableRow: ThrowableCleansingWater
+  AbilityId: ""
+  TargetAbilityCondition: ""
+  BeamEffect: ""
+  IndicatorVFX: ""
+  SpellPrefabPath: Dungeon/Raids/CutlassKeys00/Raid_CutlassKeys00_Cleansing_Water_Projectile
+  SecondaryPrefabPath: ""
+  SecondarySpellID: ""
+  TertiaryPrefabPath: ""
+  TertiarySpellID: ""
+  NotSpawnedByAWeapon: true
 - SpellID: LightningFields_Throwable_Base_Projectile
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -338,3 +427,4 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  NotSpawnedByAWeapon: null
