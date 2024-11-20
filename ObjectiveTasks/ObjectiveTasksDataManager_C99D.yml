@@ -5759,12 +5759,12 @@
   SubTask4: ""
   SubTask5: ""
 - TaskID: 99D_MSQ_03_ThorpeBackstory_endCinematicTrigger
-  Type: TaskCutsceneComplete
+  Type: TaskTimer
   FailOnCondition: null
   StayActive: null
   RequiredLevel: ""
   TargetQty: 1.0
-  ItemName: 99D_MSQ_03_ThorpeFortWarning_Vignette
+  ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: ""
@@ -5785,7 +5785,7 @@
   TriggerAreaType: ""
   KillEnemyType: ""
   KillEnemyWeaponID: ""
-  Duration: null
+  Duration: 6.0
   TaskBuySellType: ""
   IsPurchaseOrEarn: ""
   IsExactMatch: ""
