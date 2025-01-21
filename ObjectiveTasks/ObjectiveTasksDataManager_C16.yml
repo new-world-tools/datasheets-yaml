@@ -13655,12 +13655,78 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: ""
-  SubTask1: 1625_0101_d_03_02_01_container_breadcrumbsFallthru
+  SubTask1: 1625_0101_d_03_02_container_breadcrumbPathing
   SubTask2: 1625_0101_d_03_02_02_TriggerArea_AcroClimbGuide
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 1625_0101_d_03_02_01_container_breadcrumbsFallthru
+- TaskID: 1625_0101_d_03_02_container_breadcrumbPathing
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  UseGlobalStorage: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: 1625_0101_d_03_02_01_container_breadcrumbsFallthruA
+  SubTask2: 1625_0101_d_03_02_01_container_breadcrumbsFallthruB
+  SubTask3: 1625_0101_d_03_02_01_container_breadcrumbsFallthruC
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 1625_0101_d_03_02_01_container_breadcrumbsFallthruA
   Type: PartialTaskContainer
   FailOnCondition: ""
   StayActive: null
@@ -13721,12 +13787,12 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: ""
-  SubTask1: 1625_0101_d_03_02_01_01_TriggerArea_AcroClimbStart
-  SubTask2: 1625_0101_d_03_02_01_02_TriggerArea_AcroClimbGuide
+  SubTask1: 1625_0101_d_03_02_01_01a_TriggerArea_AcroClimbStart
+  SubTask2: 1625_0101_d_03_02_01_02a_TriggerArea_AcroClimbFinal
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 1625_0101_d_03_02_01_01_TriggerArea_AcroClimbStart
+- TaskID: 1625_0101_d_03_02_01_01a_TriggerArea_AcroClimbStart
   Type: TaskTriggerArea
   FailOnCondition: ""
   StayActive: null
@@ -13774,7 +13840,73 @@
   TP_TargetTag: TriggerVol_16_AcroClimbStart
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: 1625_0101_d_03_02_container_breadcrumbs
-  OverrideLocation: 7246.865 7307.412 213.970
+  OverrideLocation: 7326.865 7261.280 225.97
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: true
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 1625_0101_d_03_02_01_02a_TriggerArea_AcroClimbFinal
+  Type: TaskTriggerArea
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  UseGlobalStorage: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: Enter
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: TriggerVol_16_AcroClimbGuide
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: 1625_0101_d_03_02_container_breadcrumbs
+  OverrideLocation: 7247.329 7231.070 236.889
   IsHidden: 1.0
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: null
@@ -13792,7 +13924,337 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 1625_0101_d_03_02_01_02_TriggerArea_AcroClimbGuide
+- TaskID: 1625_0101_d_03_02_01_container_breadcrumbsFallthruB
+  Type: PartialTaskContainer
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  UseGlobalStorage: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: 1625_0101_d_03_02_01_01b_TriggerArea_AcroClimbStart
+  SubTask2: 1625_0101_d_03_02_01_02b_TriggerArea_AcroClimbGuide
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 1625_0101_d_03_02_01_01b_TriggerArea_AcroClimbStart
+  Type: TaskTriggerArea
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  UseGlobalStorage: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: Enter
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: TriggerVol_16_AcroClimb1
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: 1625_0101_d_03_02_container_breadcrumbs
+  OverrideLocation: 7294.235 7293.048 224.419
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: true
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 1625_0101_d_03_02_01_02b_TriggerArea_AcroClimbGuide
+  Type: TaskTriggerArea
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  UseGlobalStorage: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: Enter
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: TriggerVol_16_AcroClimbGuide
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: 1625_0101_d_03_02_container_breadcrumbs
+  OverrideLocation: 7247.329 7231.070 236.889
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 1625_0101_d_03_02_01_container_breadcrumbsFallthruC
+  Type: PartialTaskContainer
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  UseGlobalStorage: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: 1625_0101_d_03_02_01_01c_TriggerArea_AcroClimbStart
+  SubTask2: 1625_0101_d_03_02_01_02c_TriggerArea_AcroClimbGuide
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 1625_0101_d_03_02_01_01c_TriggerArea_AcroClimbStart
+  Type: TaskTriggerArea
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  UseGlobalStorage: null
+  EnforceLocationRequirement: null
+  TerritoryID: null
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: Enter
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: null
+  TP_TargetTag: TriggerVol_16_AcroClimb2
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: 1625_0101_d_03_02_container_breadcrumbs
+  OverrideLocation: 7246.865 7307.412 213.970
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: true
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 1625_0101_d_03_02_01_02c_TriggerArea_AcroClimbGuide
   Type: TaskTriggerArea
   FailOnCondition: ""
   StayActive: null
@@ -13909,7 +14371,7 @@
   OverrideLocation: 7247.329 7231.070 236.889
   IsHidden: 1.0
   HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
+  ShowDiegeticTaskPin: true
   DiegeticPinZOverride: null
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -27568,7 +28030,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@1624_0501_powerofthegods_unsealGlyph"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 5499.5 8788.7 225.5
+  OverrideLocation: 5499.42 8790.33 224.75
   IsHidden: null
   HideDiegeticGatherablePins: true
   ShowDiegeticTaskPin: true
@@ -27634,7 +28096,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@1624_0501_powerofthegods_readGlyph"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 5499.5 8788.7 225.5
+  OverrideLocation: 5499.42 8790.33 224.75
   IsHidden: null
   HideDiegeticGatherablePins: true
   ShowDiegeticTaskPin: true
@@ -34992,7 +35454,7 @@
   EnforceLocationRequirement: null
   TerritoryID: null
   POITag: ""
-  GameModeID: ""
+  GameModeID: QuestApophis
   LootTag: ""
   PauseAndClearLootOnTaskComplete: ""
   AwardOnlyOnce: null
@@ -35026,7 +35488,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
-  OverrideLocation: 4590.241 9210.495 365.106
+  OverrideLocation: 4708.90 9077.58 414.98
   IsHidden: 1.0
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: true
@@ -40330,7 +40792,7 @@
   StayActive: null
   RequiredLevel: ""
   TargetQty: 1.0
-  ItemName: SwapActive_1625_Ghazi_p7_On
+  ItemName: SwapActive_1625_Ghazi_p8_On
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null

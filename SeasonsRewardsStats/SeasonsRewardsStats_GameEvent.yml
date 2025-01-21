@@ -3,98 +3,130 @@
   GameEventTypes: ""
   CreatureTypes: ""
   GameEventIDs: ExploreVista_EastCleave01,ExploreVista_EastCutlass01,ExploreVista_EastEdengrove01,ExploreVista_EastEverfall01,ExploreVista_EastShattered01,ExploreVista_MidRestless01,ExploreVista_NorthBrightwood01,ExploreVista_NorthEbonscale01,ExploreVista_NorthFirstLight01,ExploreVista_NorthMonarchs01,ExploreVista_NorthReekwater01,ExploreVista_NorthWeavers01,ExploreVista_NorthWeavers02,ExploreVista_NorthWindsward01,ExploreVista_NorthWindsward02,ExploreVista_SouthBrightwood01,ExploreVista_SouthEbonscale01,ExploreVista_SouthFirstLight01,ExploreVista_SouthMonarchs01,ExploreVista_SouthMourningdale01,ExploreVista_SouthReekwater01,ExploreVista_SouthRestless01,ExploreVista_SouthShattered01,ExploreVista_WestCleave01,ExploreVista_WestEdengrove01,ExploreVista_WestEverfall01,ExploreVista_WestMourningdale01,ExploreVista_WestCutlass01,ExploreVista_EastBrimstone01,ExploreVista_EastBrimstone02
+  RequiredWorldTag: ""
 - TrackedStatID: CompleteAnyTrial
   StatType: GameEvent
   GameEventTypes: ""
   CreatureTypes: ""
   GameEventIDs: Arena_Spriggan_AngryEarth_T1,Arena_LostSiren_Reekwater,Arena_SwampBeast_Reekwater
+  RequiredWorldTag: ""
 - TrackedStatID: GatherWispybloomFlower
   StatType: GameEvent
   GameEventTypes: ""
   CreatureTypes: ""
   GameEventIDs: Gather_Springtide_Wispybloom
+  RequiredWorldTag: ""
 - TrackedStatID: PlantWispySpritzes
   StatType: GameEvent
   GameEventTypes: ""
   CreatureTypes: ""
   GameEventIDs: Gather_WispySpritzPlantSite
+  RequiredWorldTag: ""
 - TrackedStatID: GameEvent_Breach
   StatType: GameEvent
   GameEventTypes: Darkness
   CreatureTypes: DarknessMinor,DarknessMinor+,DarknessMajor,DarknessMajor+,Myrkgard
   GameEventIDs: ""
+  RequiredWorldTag: ""
 - TrackedStatID: GameEvent_MinorBreach
   StatType: GameEvent
   GameEventTypes: Darkness
   CreatureTypes: DarknessMinor,DarknessMinor+
   GameEventIDs: ""
+  RequiredWorldTag: ""
 - TrackedStatID: GameEvent_MajorBreach
   StatType: GameEvent
   GameEventTypes: Darkness
   CreatureTypes: DarknessMajor,DarknessMajor+,Myrkgard
   GameEventIDs: ""
+  RequiredWorldTag: ""
 - TrackedStatID: DefeatSolariumKhepri
   StatType: GameEvent
   GameEventTypes: ""
   CreatureTypes: ""
   GameEventIDs: SolariumKhepri_EliteOverlord_MinorSuccess,SolariumKhepri_EliteOverlord_MajorSuccess
+  RequiredWorldTag: ""
 - TrackedStatID: GatherMaudlinDust
   StatType: GameEvent
   GameEventTypes: ""
   CreatureTypes: ""
   GameEventIDs: Gather_SummerMedley_Maudlindust,MusicReward_Amazing_Waltz,MusicReward_Great_Waltz,MusicReward_Okay_Waltz,MusicReward_Bad_Waltz
+  RequiredWorldTag: ""
 - TrackedStatID: LocateBrimstoneLostEasel
   StatType: GameEvent
   GameEventTypes: ""
   CreatureTypes: ""
   GameEventIDs: ExploreVista_EastBrimstone01,ExploreVista_EastBrimstone02
+  RequiredWorldTag: ""
 - TrackedStatID: DefeatWurmBoss
   StatType: GameEvent
   GameEventTypes: ""
   CreatureTypes: ""
   GameEventIDs: SandwormEliteTrial_Reward
+  RequiredWorldTag: ""
 - TrackedStatID: TakeInfluenceTower
   StatType: GameEvent
   GameEventTypes: ""
   CreatureTypes: ""
   GameEventIDs: PvP_InfluenceTowerTakeover
+  RequiredWorldTag: ""
 - TrackedStatID: ParticipateInfluenceRace
   StatType: GameEvent
   GameEventTypes: ""
   CreatureTypes: ""
   GameEventIDs: InfluenceRace_Lose_Reward,InfluenceRace_Attacker_Win_Reward,InfluenceRace_Defender_Win_Reward
+  RequiredWorldTag: ""
 - TrackedStatID: WinInfluenceRace
   StatType: GameEvent
   GameEventTypes: ""
   CreatureTypes: ""
   GameEventIDs: InfluenceRace_Attacker_Win_Reward,InfluenceRace_Defender_Win_Reward
+  RequiredWorldTag: ""
 - TrackedStatID: DefeatHatcheryTrial
   StatType: GameEvent
   GameEventTypes: ""
   CreatureTypes: ""
   GameEventIDs: Trial_S2_Success
+  RequiredWorldTag: ""
 - TrackedStatID: ConsumeMushroomFlask
   StatType: GameEvent
   GameEventTypes: ""
   CreatureTypes: ""
   GameEventIDs: EVENT_MushroomFlaskT1_Consumed,EVENT_MushroomFlaskT2_Consumed,EVENT_MushroomFlaskT3_Consumed,EVENT_MushroomFlaskT4_Consumed,EVENT_MushroomFlaskT5_Consumed
+  RequiredWorldTag: ""
 - TrackedStatID: LocateLostEaselGreatCleave
   StatType: GameEvent
   GameEventTypes: ""
   CreatureTypes: ""
   GameEventIDs: ExploreVista_EastCleave01,ExploreVista_WestCleave01
+  RequiredWorldTag: ""
 - TrackedStatID: OpenCastGoldNMatter
   StatType: GameEvent
   GameEventTypes: ""
   CreatureTypes: ""
   GameEventIDs: CastGypsum_DarkMatter
+  RequiredWorldTag: ""
 - TrackedStatID: FlawlessArenaVictory
   StatType: GameEvent
   GameEventTypes: ""
   CreatureTypes: ""
   GameEventIDs: Arena3v3_Win_3_Round
+  RequiredWorldTag: ""
 - TrackedStatID: QuestGameEvent
   StatType: GameEvent
   GameEventTypes: ""
   CreatureTypes: Quest,Quest+,Quest-,MSQ-,MSQ,MSQ+
   GameEventIDs: ""
+  RequiredWorldTag: ""
+- TrackedStatID: CompleteAnyArtifact
+  StatType: GameEvent
+  GameEventTypes: ""
+  CreatureTypes: ""
+  GameEventIDs: SeasonJourneyCompleteArtifact
+  RequiredWorldTag: ""
+- TrackedStatID: ParticipateInfluenceRaceSS
+  StatType: GameEvent
+  GameEventTypes: ""
+  CreatureTypes: ""
+  GameEventIDs: InfluenceRace_Lose_Reward,InfluenceRace_Attacker_Win_Reward,InfluenceRace_Defender_Win_Reward
+  RequiredWorldTag: SeasonalServer

@@ -11193,8 +11193,72 @@
   CommunityGoalTag: ""
   HideChildren: ""
   TriggerAnalyticsEvent: ""
-  SubTask1: 99F_MSQ_ER_AscendPeak_Bell_container
-  SubTask2: 99F_MSQ_ER_AscendPeak_Swappings_container
+  SubTask1: 99F_MSQ_ER_AscendPeak_Zhou_Failsafe
+  SubTask2: 99F_MSQ_ER_AscendPeak_Bell_container
+  SubTask3: 99F_MSQ_ER_AscendPeak_Swappings_container
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99F_MSQ_ER_AscendPeak_Zhou_Failsafe
+  Type: TaskUnlockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: SwapActive_99F_Empress_p01
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
@@ -15745,7 +15809,7 @@
 - TaskID: 99F_MSQ_ER_FightLiang_EnterTrialFix
   Type: TaskGameMode
   FailOnCondition: ""
-  StayActive: 1.0
+  StayActive: null
   RequiredLevel: ""
   TargetQty: 1.0
   ItemName: ""
@@ -15789,7 +15853,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@99F_MSQ08_FightLiang_EnterWoodShrine_Desc"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 8064.735352 5452.250977 55.438068
+  OverrideLocation: ""
   IsHidden: 1.0
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: "1"
@@ -15853,7 +15917,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@99F_MSQ08_FightLiang_SubdueLiang_Desc"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 8065.941406 5452.069824 56.315434
+  OverrideLocation: ""
   IsHidden: null
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: ""
@@ -21380,7 +21444,7 @@
   StayActive: null
   RequiredLevel: ""
   TargetQty: 1.0
-  ItemName: 99F_ReuniteFamily_Zhou_TalkTo_01
+  ItemName: 99F_09_Portal_Top
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: ""
@@ -21636,7 +21700,7 @@
   StayActive: null
   RequiredLevel: ""
   TargetQty: 1.0
-  ItemName: 99F_ReuniteFamily_Zhou_TalkTo_01
+  ItemName: 99F_09_Portal_Top
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: ""
@@ -21753,9 +21817,9 @@
   CommunityGoalTag: ""
   HideChildren: ""
   TriggerAnalyticsEvent: ""
-  SubTask1: 99F_MSQ_ER_ReuniteFamily_FollowEmpress
-  SubTask2: 99F_MSQ_ER_ReuniteFamily_KillZhang
-  SubTask3: 99F_MSQ_ER_ReuniteFamily_SwapIn3_container
+  SubTask1: 99F_MSQ_ER_ReuniteFamily_KillZhang
+  SubTask2: 99F_MSQ_ER_ReuniteFamily_SwapIn3_container
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
 - TaskID: 99F_MSQ_ER_ReuniteFamily_FollowEmpress

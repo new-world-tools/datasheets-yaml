@@ -2302,10 +2302,10 @@
   NPCId: 1637_Livia
   Name: "@1637_Livia"
   CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\1637_Livia.cdf"
-  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
-  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
-  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
-  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  ByeTimeline: Libs/Timeline/Npc/gestureCompatible_byeskip.timeline
+  GreetTimeline: Libs/Timeline/Npc/gestureCompatible_greetskip.timeline
+  IdleTimeline: Libs/Timeline/Npc/gestureCompatible_idle_neutral_f.timeline
+  InteractTimeline: Libs/Timeline/Npc/gestureCompatible_Interact_neutral_f.timeline
   SwapAchievementId: ""
   PlaceholderMesh: ""
   AttachedMesh: ""
@@ -5306,7 +5306,7 @@
   GreetTimeline: Libs/Timeline/Npc/gestureCompatible_greetskip.timeline
   IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
   InteractTimeline: "libs\\Timeline\\Npc\\gestureCompatible_Interact_Friendly.timeline"
-  SwapAchievementId: SwapActive_12_SerPayneBennett_A
+  SwapAchievementId: (SwapActive_12_SerPayneBennett_A && !12A_MSQ_15)
   PlaceholderMesh: ""
   AttachedMesh: ""
   AttachmentPositionX: null
@@ -9455,7 +9455,7 @@
   ByeTimeline: Libs/Timeline/Npc/gestureCompatible_byeskip.timeline
   GreetTimeline: Libs/Timeline/Npc/gestureCompatible_greetskip.timeline
   IdleTimeline: "Libs\\Timeline\\Npc\\malek_standing_ambient.timeline"
-  InteractTimeline: "libs\\Timeline\\Npc\\gestureCompatible_Interact_Angry.timeline"
+  InteractTimeline: "libs\\Timeline\\Npc\\gestureCompatible_Interact_AngryNeutralFace.timeline"
   SwapAchievementId: SwapActive_CanaryAdiana_Off
   PlaceholderMesh: ""
   AttachedMesh: ""
@@ -10567,31 +10567,6 @@
   AttachmentRotationZ: null
   InteractOverride_X: null
   InteractOverride_Y: null
-  MarkerOffset_Z: null
-  InteractOverride_Radius: null
-  InteractOverride_VolHeight: null
-  ScaleOverride_X: ""
-  ScaleOverride_Y: ""
-  ScaleOverride_Z: ""
-- VariantID: BabyYeti
-  NPCId: BabyYeti
-  Name: "@BabyYeti"
-  CharacterDefinition: "Objects\\Housing\\SliceItems\\housing_BabyYeti.cdf"
-  ByeTimeline: "Timelines\\Housing\\BabyYeti\\BabyYeti_Idle_Interact.timeline"
-  GreetTimeline: "Timelines\\Housing\\BabyYeti\\BabyYeti_Idle_Interact.timeline"
-  IdleTimeline: "Libs\\Timeline\\Npc\\BabyYeti_Idle_Loop.timeline"
-  InteractTimeline: "Timelines\\Housing\\BabyYeti\\BabyYeti_Idle_Interact.timeline"
-  SwapAchievementId: ""
-  PlaceholderMesh: ""
-  AttachedMesh: ""
-  AttachmentPositionX: null
-  AttachmentPositionY: null
-  AttachmentPositionZ: null
-  AttachmentRotationX: null
-  AttachmentRotationY: null
-  AttachmentRotationZ: null
-  InteractOverride_X: 0.1
-  InteractOverride_Y: 0.1
   MarkerOffset_Z: null
   InteractOverride_Radius: null
   InteractOverride_VolHeight: null
@@ -13702,10 +13677,10 @@
   NPCId: 09a_Marwa_HHOP
   Name: "@09a_Marwa"
   CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09a_shaheen.cdf"
-  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
-  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
-  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
-  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  ByeTimeline: Libs/Timeline/Npc/gestureCompatible_greetskip.timeline
+  GreetTimeline: Libs/Timeline/Npc/gestureCompatible_idle_neutral.timeline
+  IdleTimeline: "Libs\\Timeline\\Npc\\gestureCompatible_Interact_neutral.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
   SwapAchievementId: 09A_S10 && 09A_M15
   PlaceholderMesh: ""
   AttachedMesh: ""
@@ -16156,7 +16131,7 @@
   GreetTimeline: Libs/Timeline/Npc/gestureCompatible_greetskip.timeline
   IdleTimeline: "Libs\\Timeline\\Npc\\settle_magistrate_ambient_01.timeline"
   InteractTimeline: Libs/Timeline/Npc/gestureCompatible_Interact_neutral.timeline
-  SwapAchievementId: SwapActive_MSQ_Galahad_GC_E
+  SwapAchievementId: (SwapActive_MSQ_Galahad_GC_E || (99D_MSQ_05 && !99D_MSQ_06))
   PlaceholderMesh: ""
   AttachedMesh: ""
   AttachmentPositionX: null
@@ -19402,10 +19377,10 @@
   NPCId: 0309_Adjudicator
   Name: "@0309_Adjudicator"
   CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\0309_adjudicator.cdf"
-  ByeTimeline: "Libs\\Timeline\\Npc\\settle_adjudicator_exit_01.timeline"
-  GreetTimeline: "Libs\\Timeline\\Npc\\settle_adjudicator_intro_01.timeline"
-  IdleTimeline: "Libs\\Timeline\\Npc\\settle_adjudicator_ambient_01.timeline"
-  InteractTimeline: "Libs\\Timeline\\Npc\\settle_adjudicator_interact_01.timeline"
+  ByeTimeline: Libs/Timeline/Npc/gestureCompatible_byeskip.timeline
+  GreetTimeline: Libs/Timeline/Npc/gestureCompatible_greetskip.timeline
+  IdleTimeline: "Libs\\Timeline\\Npc\\gestureCompatible_Interact_neutral_offset1.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\gestureCompatible_Interact_neutral.timeline"
   SwapAchievementId: SwapActive_LucaCovenantNPC_On
   PlaceholderMesh: ""
   AttachedMesh: ""
@@ -21352,10 +21327,10 @@
   NPCId: 0828_YueLai_02
   Name: "@0828_YueLai"
   CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\0828_yuelai.cdf"
-  ByeTimeline: "Libs\\Timeline\\Npc\\settle_warden_exit_01.timeline"
-  GreetTimeline: "Libs\\Timeline\\Npc\\settle_warden_intro_01.timeline"
-  IdleTimeline: "Libs\\Timeline\\Npc\\settle_warden_ambient_01.timeline"
-  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_ambient.timeline"
+  ByeTimeline: Libs/Timeline/Npc/gestureCompatible_byeskip.timeline
+  GreetTimeline: Libs/Timeline/Npc/gestureCompatible_greetskip.timeline
+  IdleTimeline: "Libs\\Timeline\\Npc\\gestureCompatible_idle_neutral.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\gestureCompatible_Interact_neutral.timeline"
   SwapAchievementId: 99F_MSQ_08 && 08_Quest_24
   PlaceholderMesh: ""
   AttachedMesh: ""
@@ -22128,7 +22103,7 @@
   Name: "@C10A_Antonia"
   CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\1004_overseer.cdf"
   ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\unarmed_pondering_start_greet.timeline"
-  GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\unarmed_pondering_start_greet.timeline"
+  GreetTimeline: Libs/Timeline/Npc/gestureCompatible_greetskip.timeline
   IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\unarmed_pondering_ambient.timeline"
   InteractTimeline: "Libs\\Timeline\\Npc\\settle_overseer_interact_01.timeline"
   SwapAchievementId: ""
@@ -23704,7 +23679,7 @@
   CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\ambient_drinker_ef2.cdf"
   ByeTimeline: ""
   GreetTimeline: ""
-  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_stand_convo_disappointed_ambient.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
   InteractTimeline: ""
   SwapAchievementId: ""
   PlaceholderMesh: ""
@@ -23729,7 +23704,7 @@
   CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\ambient_sitdrinker.cdf"
   ByeTimeline: ""
   GreetTimeline: ""
-  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_stand_convo_disappointed_ambient.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
   InteractTimeline: ""
   SwapAchievementId: ""
   PlaceholderMesh: ""
@@ -23979,7 +23954,7 @@
   CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\ambient_sitdrinker.cdf"
   ByeTimeline: ""
   GreetTimeline: ""
-  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\settle_stand_convo_lookaround_ambient.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
   InteractTimeline: ""
   SwapAchievementId: ""
   PlaceholderMesh: ""
@@ -25604,7 +25579,7 @@
   CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\ambient_surveyorwithspyglass.cdf"
   ByeTimeline: ""
   GreetTimeline: ""
-  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\unarmed_spyglass_loop.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\unarmed_spyglass_narrowangle_loop.timeline"
   InteractTimeline: ""
   SwapAchievementId: ""
   PlaceholderMesh: ""

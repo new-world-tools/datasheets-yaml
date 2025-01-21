@@ -1307,7 +1307,7 @@
   Category: "@tutorial_category_navigation"
   CTAEnabled: false
   ExitActionAndDescription: ""
-  ExitDuration: Short
+  ExitDuration: Long
   HiddenTriggerConditionId: ""
   IgnoreCombatSuppression: null
   ResetOnFTUEStart: true
@@ -2408,5 +2408,95 @@
   ExitDuration: Short
   HiddenTriggerConditionId: ""
   IgnoreCombatSuppression: null
+  ResetOnFTUEStart: null
+  SearchKeywords: ""
+- TutorialId: S7SeasonalServer1Tutorial
+  Type: Both
+  PromptContentIds: S7SeasonalServerIntro1Prompt_01
+  DialogueContentIds: S7SeasonalServerIntro1Dialogue_01
+  ConditionIdsAND: SeasonalServerS7AchievementCondition
+  ConditionIdsRelation: AND
+  ConditionIdsOR: StarterBeachPOIAchievementCondition1,StarterBeachPOIAchievementCondition2
+  Classification: Core
+  PromptStyle: VoluntaryAction
+  TitleText: "@tutorial_intro_seasonalserver_s7_prompt_subtitle"
+  Category: "@tutorial_category_seasonalservers"
+  CTAEnabled: true
+  ExitActionAndDescription: ""
+  ExitDuration: Long
+  HiddenTriggerConditionId: ""
+  IgnoreCombatSuppression: true
+  ResetOnFTUEStart: null
+  SearchKeywords: ""
+- TutorialId: S7EtherealGear1Tutorial
+  Type: Both
+  PromptContentIds: S7EtherealGear1Prompt_01
+  DialogueContentIds: S7EtherealGear1Dialogue_01
+  ConditionIdsAND: ReceiveItemClassSeasonalEthereal
+  ConditionIdsRelation: ""
+  ConditionIdsOR: ""
+  Classification: Core
+  PromptStyle: VoluntaryAction
+  TitleText: "@tutorial_ethereal_seasonalserver_s7_prompt_subtitle"
+  Category: "@tutorial_category_seasonalservers"
+  CTAEnabled: true
+  ExitActionAndDescription: ""
+  ExitDuration: Medium
+  HiddenTriggerConditionId: ""
+  IgnoreCombatSuppression: true
+  ResetOnFTUEStart: null
+  SearchKeywords: ""
+- TutorialId: S7ConquerorsGear1Tutorial
+  Type: Both
+  PromptContentIds: S7ConquerorsGear1Prompt_01
+  DialogueContentIds: S7ConquerorsGear1Dialogue_01
+  ConditionIdsAND: ReceiveItemClassSeasonalConquerors
+  ConditionIdsRelation: ""
+  ConditionIdsOR: ""
+  Classification: Core
+  PromptStyle: VoluntaryAction
+  TitleText: "@tutorial_conquerors_seasonalserver_s7_prompt_subtitle"
+  Category: "@tutorial_category_seasonalservers"
+  CTAEnabled: true
+  ExitActionAndDescription: ""
+  ExitDuration: Medium
+  HiddenTriggerConditionId: ""
+  IgnoreCombatSuppression: true
+  ResetOnFTUEStart: null
+  SearchKeywords: ""
+- TutorialId: S7SeasonalServerPvP1Tutorial
+  Type: Prompt
+  PromptContentIds: S7SeasonalServerPvP1Prompt_01
+  DialogueContentIds: ""
+  ConditionIdsAND: PlayerLevelEquals14Condition,SeasonalServerS7AchievementCondition
+  ConditionIdsRelation: ""
+  ConditionIdsOR: ""
+  Classification: Core
+  PromptStyle: VoluntaryAction
+  TitleText: ""
+  Category: "@tutorial_category_seasonalservers"
+  CTAEnabled: false
+  ExitActionAndDescription: ""
+  ExitDuration: Medium
+  HiddenTriggerConditionId: ""
+  IgnoreCombatSuppression: true
+  ResetOnFTUEStart: null
+  SearchKeywords: ""
+- TutorialId: S7SeasonalServerPvP2Tutorial
+  Type: Prompt
+  PromptContentIds: S7SeasonalServerPvP2Prompt_01
+  DialogueContentIds: ""
+  ConditionIdsAND: PlayerLevelEquals15Condition,SeasonalServerS7AchievementCondition
+  ConditionIdsRelation: ""
+  ConditionIdsOR: ""
+  Classification: Core
+  PromptStyle: VoluntaryAction
+  TitleText: ""
+  Category: "@tutorial_category_seasonalservers"
+  CTAEnabled: false
+  ExitActionAndDescription: ""
+  ExitDuration: Medium
+  HiddenTriggerConditionId: ""
+  IgnoreCombatSuppression: true
   ResetOnFTUEStart: null
   SearchKeywords: ""

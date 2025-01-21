@@ -3851,7 +3851,7 @@
   LootDropChance: 1.0
   IgnoreLootDropModifier: "FALSE"
   LootTableId: CreatureLootMaster
-  LootTags: Typhon,RaidBoss_BonusNamed,TyphonWeekly,TyphonArtifact
+  LootTags: Typhon,RaidBoss_BonusNamed,TyphonWeekly,TyphonArtifact,MutatorCombo_Typhon
   IgnoreEffectCategories: BossDebuff
   DEFStandard: ""
   DEFSiege: ""
@@ -4671,7 +4671,7 @@
   LootDropChance: 1.0
   IgnoreLootDropModifier: "FALSE"
   LootTableId: CreatureLootMaster
-  LootTags: Broodmother,RaidBoss_BonusNamed,BroodmotherWeekly,BroodmotherArtifact
+  LootTags: Broodmother,RaidBoss_BonusNamed,BroodmotherWeekly,BroodmotherArtifact,MutatorCombo_Broodmother
   IgnoreEffectCategories: ""
   DEFStandard: ""
   DEFSiege: ""
@@ -6753,9 +6753,9 @@
   BlockDamageMitigation: 0.0
   BlockStaminaCost: 0.0
   StaminaMin: 0.0
-  StaminaBaseMax: 250.0
-  StaminaInitial: 250.0
-  StaminaBaseTickRate: 2.0
+  StaminaBaseMax: 1.0
+  StaminaInitial: 0.0
+  StaminaBaseTickRate: 0.0
   StaminaRegenCappedBy: 0.0
   StaminaRegenThresholds: ""
   StaminaTickDelay: 0.0
@@ -7131,7 +7131,7 @@
   LootDropChance: 1.0
   IgnoreLootDropModifier: "FALSE"
   LootTableId: CreatureLootMaster
-  LootTags: Echidna,RaidBoss_BonusNamed,EchidnaWeekly,EchidnaArtifact
+  LootTags: Echidna,RaidBoss_BonusNamed,EchidnaWeekly,EchidnaArtifact,MutatorCombo_Echidna
   IgnoreEffectCategories: ""
   DEFStandard: ""
   DEFSiege: ""

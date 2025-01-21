@@ -2251,7 +2251,7 @@
   MaxHitCountMultiplier: ""
   SetMannequinTag: ""
   SetMannequinTagStatus: ""
-  ActivationCooldown: null
+  ActivationCooldown: 0.5
 - AbilityID: Passive_VoidGauntlet_EmpowerCloseRange
   DisplayName: "@VoidGauntlet_Passive_EmpowerCloseRange"
   Description: "@VoidGauntlet_Passive_EmpowerCloseRange_description"
@@ -4789,9 +4789,9 @@
   DamageTableRowOverride: ""
   RangedAttackNameOverride: ""
   DamageTableStatusEffectOverride: ""
-  StatusEffectDamageTableIdForRowOverride: DamageTable
-  StatusEffectDamageTableRowOverride: Common_DamageOverTime_Override_VoidGauntlet
-  ForceStatusEffectDamageTableRow: true
+  StatusEffectDamageTableIdForRowOverride: ""
+  StatusEffectDamageTableRowOverride: ""
+  ForceStatusEffectDamageTableRow: null
   PowerLevelOverride: ""
   EnableCrit: ""
   PerStatusEffectOnTarget: ""

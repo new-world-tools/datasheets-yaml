@@ -1,97 +1,97 @@
 - AmmoID: DefaultArrow
   AmmoType: Arrow
-  DamageModifier: 1.0
+  DamageModifier: 1.2
   StaggerDamageModifier: 1.0
   AmmoPrefabPath: Items/Weapons/basic_arrow
   AmmoWhizByTrigger: Play_Arrow_WhizzBys
   MeshOverride: ""
 - AmmoID: DefaultShot
   AmmoType: Shot
-  DamageModifier: 1.0
+  DamageModifier: 1.2
   StaggerDamageModifier: 1.0
   AmmoPrefabPath: Items/Weapons/basic_musket_shot
   AmmoWhizByTrigger: Play_Bullet_WizzBys
   MeshOverride: ""
 - AmmoID: ArrowT1
   AmmoType: Arrow
-  DamageModifier: 1.0
+  DamageModifier: 1.2
   StaggerDamageModifier: 1.0
   AmmoPrefabPath: Items/Weapons/basic_arrow
   AmmoWhizByTrigger: Play_Arrow_WhizzBys
   MeshOverride: ""
 - AmmoID: ArrowT2
   AmmoType: Arrow
-  DamageModifier: 1.0
+  DamageModifier: 1.2
   StaggerDamageModifier: 1.0
   AmmoPrefabPath: Items/Weapons/basic_arrow
   AmmoWhizByTrigger: Play_Arrow_WhizzBys
   MeshOverride: ""
 - AmmoID: ArrowBT2
   AmmoType: Arrow
-  DamageModifier: 1.0
+  DamageModifier: 1.2
   StaggerDamageModifier: 1.0
   AmmoPrefabPath: Items/Weapons/basic_arrow
   AmmoWhizByTrigger: Play_Arrow_WhizzBys
   MeshOverride: ""
 - AmmoID: ArrowT3
   AmmoType: Arrow
-  DamageModifier: 1.0
+  DamageModifier: 1.2
   StaggerDamageModifier: 1.0
   AmmoPrefabPath: Items/Weapons/basic_arrow
   AmmoWhizByTrigger: Play_Arrow_WhizzBys
   MeshOverride: ""
 - AmmoID: ArrowT4
   AmmoType: Arrow
-  DamageModifier: 1.0
+  DamageModifier: 1.2
   StaggerDamageModifier: 1.0
   AmmoPrefabPath: Items/Weapons/basic_arrow
   AmmoWhizByTrigger: Play_Arrow_WhizzBys
   MeshOverride: ""
 - AmmoID: ArrowBT4
   AmmoType: Arrow
-  DamageModifier: 1.0
+  DamageModifier: 1.2
   StaggerDamageModifier: 1.0
   AmmoPrefabPath: Items/Weapons/basic_arrow
   AmmoWhizByTrigger: Play_Arrow_WhizzBys
   MeshOverride: ""
 - AmmoID: ArrowT5
   AmmoType: Arrow
-  DamageModifier: 1.0
+  DamageModifier: 1.2
   StaggerDamageModifier: 1.0
   AmmoPrefabPath: Items/Weapons/basic_arrow
   AmmoWhizByTrigger: Play_Arrow_WhizzBys
   MeshOverride: ""
 - AmmoID: ArrowBT5
   AmmoType: Arrow
-  DamageModifier: 1.0
+  DamageModifier: 1.2
   StaggerDamageModifier: 1.0
   AmmoPrefabPath: Items/Weapons/basic_arrow
   AmmoWhizByTrigger: Play_Arrow_WhizzBys
   MeshOverride: ""
 - AmmoID: ShotT2
   AmmoType: Shot
-  DamageModifier: 1.0
+  DamageModifier: 1.2
   StaggerDamageModifier: 1.0
   AmmoPrefabPath: Items/Weapons/basic_musket_shot
   AmmoWhizByTrigger: Play_Bullet_WizzBys
   MeshOverride: ""
 - AmmoID: ShotT3
   AmmoType: Shot
-  DamageModifier: 1.0
+  DamageModifier: 1.2
   StaggerDamageModifier: 1.0
   AmmoPrefabPath: Items/Weapons/basic_musket_shot
   AmmoWhizByTrigger: Play_Bullet_WizzBys
   MeshOverride: ""
 - AmmoID: ShotT4
   AmmoType: Shot
-  DamageModifier: 1.0
+  DamageModifier: 1.2
   StaggerDamageModifier: 1.0
   AmmoPrefabPath: Items/Weapons/basic_musket_shot
   AmmoWhizByTrigger: Play_Bullet_WizzBys
   MeshOverride: ""
 - AmmoID: ShotT5
   AmmoType: Shot
-  DamageModifier: 1.0
+  DamageModifier: 1.2
   StaggerDamageModifier: 1.0
   AmmoPrefabPath: Items/Weapons/basic_musket_shot
   AmmoWhizByTrigger: Play_Bullet_WizzBys
@@ -509,20 +509,6 @@
   AmmoPrefabPath: InteractObjects/Windsward/Falling_Rubble/TriggerEvent_Falling_Rubble_v2_Projectile_Basic
   AmmoWhizByTrigger: Play_Arrow_WhizzBys
   MeshOverride: ""
-- AmmoID: WinterConv_GleamiteLauncher_Projectile
-  AmmoType: Siege
-  DamageModifier: 1.0
-  StaggerDamageModifier: 1.0
-  AmmoPrefabPath: Holiday/WinterConvergence/Activities/Gleamites/WinterConv_Activity_Gleamite_Projectile_Burst
-  AmmoWhizByTrigger: Play_Bullet_WizzBys
-  MeshOverride: ""
-- AmmoID: WinterConv_GleamiteLauncher_Projectile_Rapid
-  AmmoType: Siege
-  DamageModifier: 1.0
-  StaggerDamageModifier: 1.0
-  AmmoPrefabPath: Holiday/WinterConvergence/Activities/Gleamites/WinterConv_Activity_Gleamite_Projectile_Rapid
-  AmmoWhizByTrigger: Play_Bullet_WizzBys
-  MeshOverride: ""
 - AmmoID: Sandworm_BreachEvent_AcidBallLauncher_Projectile_Burst
   AmmoType: Siege
   DamageModifier: 1.0
@@ -675,5 +661,12 @@
   DamageModifier: 1.0
   StaggerDamageModifier: 1.0
   AmmoPrefabPath: WorldEvents/CutlassKeys/GhostShipAttack/CannonBall/GhostShipAttack_CannonBall_Projectile_Rapid
+  AmmoWhizByTrigger: Play_Bullet_WizzBys
+  MeshOverride: ""
+- AmmoID: Ballista_Fire_Projectile_MonarchsBluffs
+  AmmoType: Siege
+  DamageModifier: 1.2
+  StaggerDamageModifier: 1.0
+  AmmoPrefabPath: Dungeon/Raid_MonarchBluff/Spawners/Ballista_Cannon_MonarchsBluffs_Fire_Projectile
   AmmoWhizByTrigger: Play_Bullet_WizzBys
   MeshOverride: ""

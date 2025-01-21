@@ -120,16 +120,79 @@
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
   SubTask1: 09A_M1_BS_push
-  SubTask2: 09A_M1_BS_SwapActive_Morgaine_SM_Off
-  SubTask3: 09A_M1_BS_SwapActive_Morgaine_RW_Off
-  SubTask4: 09A_M1_BS_SwapActive_SickDruids_On
-  SubTask5: ""
+  SubTask2: 09A_M1_BS_Watched_IntroCin
+  SubTask3: 09A_M1_BS_SwapActive_Morgaine_SM_Off
+  SubTask4: 09A_M1_BS_SwapActive_Morgaine_RW_Off
+  SubTask5: 09A_M1_BS_SwapActive_SickDruids_On
 - TaskID: 09A_M1_BS_push
   Type: TaskUnlockAchievement
   FailOnCondition: null
   StayActive: ""
   TargetQty: null
   ItemName: EW_Start
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 09A_M1_BS_Watched_IntroCin
+  Type: TaskUnlockAchievement
+  FailOnCondition: null
+  StayActive: ""
+  TargetQty: null
+  ItemName: Watched_Ely_IntroCinematic
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: ""
@@ -1695,9 +1758,9 @@
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
   SubTask1: 09A_M1_BS_Container_Enter_FL
-  SubTask2: 09A_M1_BS_cinematic_container
-  SubTask3: 09A_M1_BS_TriggerArea_Warcamp
-  SubTask4: 09A_M1_BS_TalkTo_Morgaine2
+  SubTask2: 09A_M1_BS_TriggerArea_Warcamp
+  SubTask3: 09A_M1_BS_TalkTo_Morgaine2
+  SubTask4: ""
   SubTask5: ""
 - TaskID: 09A_M1_BS_Container_Enter_FL
   Type: PartialTaskContainer
@@ -22115,7 +22178,7 @@
   Type: TaskHaveAndReturnItems
   FailOnCondition: null
   StayActive: ""
-  TargetQty: 4.0
+  TargetQty: 2.0
   ItemName: 09A_M5_RatFat
   ItemDropVC: FL_Rat_HercyneRat_09FL02b
   ItemDropProbability: 100.0
@@ -34000,7 +34063,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
-  OverrideLocation: ""
+  OverrideLocation: 8634.76 1413 203.6
   IsHidden: "1"
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: true
@@ -34315,10 +34378,10 @@
   TP_TargetTag: ""
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
-  OverrideLocation: ""
+  OverrideLocation: 8658.8 1391.5 203.6
   IsHidden: "1"
   HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
+  ShowDiegeticTaskPin: true
   DiegeticPinZOverride: ""
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -62238,7 +62301,7 @@
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
   SubTask1: 09A_S19_Container01
-  SubTask2: ""
+  SubTask2: 09A_S19_Finish
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""

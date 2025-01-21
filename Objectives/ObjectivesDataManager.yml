@@ -479,43 +479,6 @@
   ORMReleaseActiveOverride: ""
   SkipReqAchievmentWhenInvalid: ""
   EntitlementId: ""
-- ObjectiveID: D_major_corrupted_portal
-  Type: Darkness
-  Difficulty: ""
-  DifficultyLevel: null
-  MaxInfluenceLevel: ""
-  FlagPvp: null
-  CanBeShared: null
-  CanFastTravel: true
-  Task: darkness_task_major_corrupted_portal_container
-  NpcDestinationId: ""
-  ExclusiveTerritory: ""
-  AchievementId: ""
-  RequiredAchievementId: ""
-  RequiredFaction: ""
-  RequiredLevel: ""
-  SuccessGameEventId: ""
-  FailureGameEventId: ""
-  ExperienceReward: ""
-  ObjectiveReward: ""
-  ItemRewardName: ""
-  ItemRewardQty: ""
-  Repeatable: null
-  CanBeAbandoned: null
-  Title: "@objective_darkness_corrupted_portal_title"
-  Description: "@objective_darkness_corrupted_portal_desc"
-  PlayerPrompt: ""
-  ObjectiveProposalResponse: ""
-  InProgressResponse: ""
-  DestinationCompletionAvailablePrompt: ""
-  DestinationCompletionAvailableResponse: ""
-  ObjectiveCompletionResponse: ""
-  ObjectiveAcceptanceResponse: ""
-  HideIncompleteTurninMarker: ""
-  ORMReleaseEventTags: ""
-  ORMReleaseActiveOverride: ""
-  SkipReqAchievmentWhenInvalid: ""
-  EntitlementId: ""
 - ObjectiveID: S_getoffbeach
   Type: Journey
   Difficulty: ""
@@ -1774,6 +1737,43 @@
   ORMReleaseActiveOverride: ""
   SkipReqAchievmentWhenInvalid: ""
   EntitlementId: ""
+- ObjectiveID: FM_Doubloon_location_low_req
+  Type: Mission
+  Difficulty: ""
+  DifficultyLevel: null
+  MaxInfluenceLevel: ""
+  FlagPvp: null
+  CanBeShared: true
+  CanFastTravel: true
+  Task: FM_task_Doubloon_low_X_times_POITag_container
+  NpcDestinationId: ""
+  ExclusiveTerritory: ""
+  AchievementId: ""
+  RequiredAchievementId: ""
+  RequiredFaction: ""
+  RequiredLevel: ""
+  SuccessGameEventId: FactionMission_Success_R1_Sm
+  FailureGameEventId: FactionMission_Failure
+  ExperienceReward: ""
+  ObjectiveReward: ""
+  ItemRewardName: ""
+  ItemRewardQty: ""
+  Repeatable: 1.0
+  CanBeAbandoned: true
+  Title: ""
+  Description: ""
+  PlayerPrompt: ""
+  ObjectiveProposalResponse: ""
+  InProgressResponse: ""
+  DestinationCompletionAvailablePrompt: ""
+  DestinationCompletionAvailableResponse: ""
+  ObjectiveCompletionResponse: ""
+  ObjectiveAcceptanceResponse: ""
+  HideIncompleteTurninMarker: ""
+  ORMReleaseEventTags: ""
+  ORMReleaseActiveOverride: ""
+  SkipReqAchievmentWhenInvalid: ""
+  EntitlementId: ""
 - ObjectiveID: FM_huntx_location
   Type: Mission
   Difficulty: ""
@@ -2603,7 +2603,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -2640,7 +2640,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -2677,7 +2677,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -2714,7 +2714,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -2751,7 +2751,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -2788,7 +2788,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -2825,7 +2825,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -2862,7 +2862,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -2899,7 +2899,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -2936,7 +2936,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -2973,7 +2973,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3010,7 +3010,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3047,7 +3047,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3084,7 +3084,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3121,7 +3121,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3158,7 +3158,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3195,7 +3195,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3232,7 +3232,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3269,7 +3269,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3306,7 +3306,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3343,7 +3343,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3380,7 +3380,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3417,7 +3417,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3454,7 +3454,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3491,7 +3491,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3528,7 +3528,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3565,7 +3565,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3602,7 +3602,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3639,7 +3639,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3676,7 +3676,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3713,7 +3713,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3750,7 +3750,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3787,7 +3787,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3824,7 +3824,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3861,7 +3861,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3898,7 +3898,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3935,7 +3935,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -3972,7 +3972,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -4009,7 +4009,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -4046,7 +4046,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -4083,7 +4083,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -4120,7 +4120,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -4157,7 +4157,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -4194,7 +4194,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -4231,7 +4231,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -4268,7 +4268,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -4305,7 +4305,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -4342,7 +4342,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -4351,6 +4351,154 @@
   Repeatable: null
   CanBeAbandoned: true
   Title: "@Objective_Artifact_Set2_2hGreatAxe"
+  Description: ""
+  PlayerPrompt: ""
+  ObjectiveProposalResponse: ""
+  InProgressResponse: ""
+  DestinationCompletionAvailablePrompt: ""
+  DestinationCompletionAvailableResponse: ""
+  ObjectiveCompletionResponse: ""
+  ObjectiveAcceptanceResponse: ""
+  HideIncompleteTurninMarker: ""
+  ORMReleaseEventTags: ""
+  ORMReleaseActiveOverride: ""
+  SkipReqAchievmentWhenInvalid: ""
+  EntitlementId: ""
+- ObjectiveID: Objective_Artifact_Set2_2hBow
+  Type: Artifact
+  Difficulty: ""
+  DifficultyLevel: null
+  MaxInfluenceLevel: ""
+  FlagPvp: null
+  CanBeShared: null
+  CanFastTravel: null
+  Task: Task_Container_Artifact_Set2_2hBow
+  NpcDestinationId: ""
+  ExclusiveTerritory: ""
+  AchievementId: Achievement_Objective_Artifact_Set2_2hBow
+  RequiredAchievementId: ""
+  RequiredFaction: ""
+  RequiredLevel: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
+  FailureGameEventId: ""
+  ExperienceReward: ""
+  ObjectiveReward: ""
+  ItemRewardName: ""
+  ItemRewardQty: ""
+  Repeatable: null
+  CanBeAbandoned: true
+  Title: "@Objective_Artifact_Set2_2hBow"
+  Description: ""
+  PlayerPrompt: ""
+  ObjectiveProposalResponse: ""
+  InProgressResponse: ""
+  DestinationCompletionAvailablePrompt: ""
+  DestinationCompletionAvailableResponse: ""
+  ObjectiveCompletionResponse: ""
+  ObjectiveAcceptanceResponse: ""
+  HideIncompleteTurninMarker: ""
+  ORMReleaseEventTags: ""
+  ORMReleaseActiveOverride: ""
+  SkipReqAchievmentWhenInvalid: ""
+  EntitlementId: ""
+- ObjectiveID: Objective_Artifact_Set2_2hMusket
+  Type: Artifact
+  Difficulty: ""
+  DifficultyLevel: null
+  MaxInfluenceLevel: ""
+  FlagPvp: null
+  CanBeShared: null
+  CanFastTravel: null
+  Task: Task_Container_Artifact_Set2_2hMusket
+  NpcDestinationId: ""
+  ExclusiveTerritory: ""
+  AchievementId: Achievement_Objective_Artifact_Set2_2hMusket
+  RequiredAchievementId: ""
+  RequiredFaction: ""
+  RequiredLevel: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
+  FailureGameEventId: ""
+  ExperienceReward: ""
+  ObjectiveReward: ""
+  ItemRewardName: ""
+  ItemRewardQty: ""
+  Repeatable: null
+  CanBeAbandoned: true
+  Title: "@Objective_Artifact_Set2_2hMusket"
+  Description: ""
+  PlayerPrompt: ""
+  ObjectiveProposalResponse: ""
+  InProgressResponse: ""
+  DestinationCompletionAvailablePrompt: ""
+  DestinationCompletionAvailableResponse: ""
+  ObjectiveCompletionResponse: ""
+  ObjectiveAcceptanceResponse: ""
+  HideIncompleteTurninMarker: ""
+  ORMReleaseEventTags: ""
+  ORMReleaseActiveOverride: ""
+  SkipReqAchievmentWhenInvalid: ""
+  EntitlementId: ""
+- ObjectiveID: Objective_Artifact_Set2_2hStaffFire
+  Type: Artifact
+  Difficulty: ""
+  DifficultyLevel: null
+  MaxInfluenceLevel: ""
+  FlagPvp: null
+  CanBeShared: null
+  CanFastTravel: null
+  Task: Task_Container_Artifact_Set2_2hStaffFire
+  NpcDestinationId: ""
+  ExclusiveTerritory: ""
+  AchievementId: Achievement_Objective_Artifact_Set2_2hStaffFire
+  RequiredAchievementId: ""
+  RequiredFaction: ""
+  RequiredLevel: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
+  FailureGameEventId: ""
+  ExperienceReward: ""
+  ObjectiveReward: ""
+  ItemRewardName: ""
+  ItemRewardQty: ""
+  Repeatable: null
+  CanBeAbandoned: true
+  Title: "@Objective_Artifact_Set2_2hStaffFire"
+  Description: ""
+  PlayerPrompt: ""
+  ObjectiveProposalResponse: ""
+  InProgressResponse: ""
+  DestinationCompletionAvailablePrompt: ""
+  DestinationCompletionAvailableResponse: ""
+  ObjectiveCompletionResponse: ""
+  ObjectiveAcceptanceResponse: ""
+  HideIncompleteTurninMarker: ""
+  ORMReleaseEventTags: ""
+  ORMReleaseActiveOverride: ""
+  SkipReqAchievmentWhenInvalid: ""
+  EntitlementId: ""
+- ObjectiveID: Objective_Artifact_Set2_2hStaffLife
+  Type: Artifact
+  Difficulty: ""
+  DifficultyLevel: null
+  MaxInfluenceLevel: ""
+  FlagPvp: null
+  CanBeShared: null
+  CanFastTravel: null
+  Task: Task_Container_Artifact_Set2_2hStaffLife
+  NpcDestinationId: ""
+  ExclusiveTerritory: ""
+  AchievementId: Achievement_Objective_Artifact_Set2_2hStaffLife
+  RequiredAchievementId: ""
+  RequiredFaction: ""
+  RequiredLevel: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
+  FailureGameEventId: ""
+  ExperienceReward: ""
+  ObjectiveReward: ""
+  ItemRewardName: ""
+  ItemRewardQty: ""
+  Repeatable: null
+  CanBeAbandoned: true
+  Title: "@Objective_Artifact_Set2_2hStaffLife"
   Description: ""
   PlayerPrompt: ""
   ObjectiveProposalResponse: ""
@@ -4379,7 +4527,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -4388,6 +4536,117 @@
   Repeatable: null
   CanBeAbandoned: true
   Title: "@Objective_Artifact_Set2_2hSpear"
+  Description: ""
+  PlayerPrompt: ""
+  ObjectiveProposalResponse: ""
+  InProgressResponse: ""
+  DestinationCompletionAvailablePrompt: ""
+  DestinationCompletionAvailableResponse: ""
+  ObjectiveCompletionResponse: ""
+  ObjectiveAcceptanceResponse: ""
+  HideIncompleteTurninMarker: ""
+  ORMReleaseEventTags: ""
+  ORMReleaseActiveOverride: ""
+  SkipReqAchievmentWhenInvalid: ""
+  EntitlementId: ""
+- ObjectiveID: Objective_Artifact_Set2_1hRapier
+  Type: Artifact
+  Difficulty: ""
+  DifficultyLevel: null
+  MaxInfluenceLevel: ""
+  FlagPvp: null
+  CanBeShared: null
+  CanFastTravel: null
+  Task: Task_Container_Artifact_Set2_1hRapier
+  NpcDestinationId: ""
+  ExclusiveTerritory: ""
+  AchievementId: Achievement_Objective_Artifact_Set2_1hRapier
+  RequiredAchievementId: ""
+  RequiredFaction: ""
+  RequiredLevel: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
+  FailureGameEventId: ""
+  ExperienceReward: ""
+  ObjectiveReward: ""
+  ItemRewardName: ""
+  ItemRewardQty: ""
+  Repeatable: null
+  CanBeAbandoned: true
+  Title: "@Objective_Artifact_Set2_1hRapier"
+  Description: ""
+  PlayerPrompt: ""
+  ObjectiveProposalResponse: ""
+  InProgressResponse: ""
+  DestinationCompletionAvailablePrompt: ""
+  DestinationCompletionAvailableResponse: ""
+  ObjectiveCompletionResponse: ""
+  ObjectiveAcceptanceResponse: ""
+  HideIncompleteTurninMarker: ""
+  ORMReleaseEventTags: ""
+  ORMReleaseActiveOverride: ""
+  SkipReqAchievmentWhenInvalid: ""
+  EntitlementId: ""
+- ObjectiveID: Objective_Artifact_Set2_1hGauntletIce
+  Type: Artifact
+  Difficulty: ""
+  DifficultyLevel: null
+  MaxInfluenceLevel: ""
+  FlagPvp: null
+  CanBeShared: null
+  CanFastTravel: null
+  Task: Task_Container_Artifact_Set2_1hGauntletIce
+  NpcDestinationId: ""
+  ExclusiveTerritory: ""
+  AchievementId: Achievement_Objective_Artifact_Set2_1hGauntletIce
+  RequiredAchievementId: ""
+  RequiredFaction: ""
+  RequiredLevel: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
+  FailureGameEventId: ""
+  ExperienceReward: ""
+  ObjectiveReward: ""
+  ItemRewardName: ""
+  ItemRewardQty: ""
+  Repeatable: null
+  CanBeAbandoned: true
+  Title: "@Objective_Artifact_Set2_1hGauntletIce"
+  Description: ""
+  PlayerPrompt: ""
+  ObjectiveProposalResponse: ""
+  InProgressResponse: ""
+  DestinationCompletionAvailablePrompt: ""
+  DestinationCompletionAvailableResponse: ""
+  ObjectiveCompletionResponse: ""
+  ObjectiveAcceptanceResponse: ""
+  HideIncompleteTurninMarker: ""
+  ORMReleaseEventTags: ""
+  ORMReleaseActiveOverride: ""
+  SkipReqAchievmentWhenInvalid: ""
+  EntitlementId: ""
+- ObjectiveID: Objective_Artifact_Set2_1hGauntletVoid
+  Type: Artifact
+  Difficulty: ""
+  DifficultyLevel: null
+  MaxInfluenceLevel: ""
+  FlagPvp: null
+  CanBeShared: null
+  CanFastTravel: null
+  Task: Task_Container_Artifact_Set2_1hGauntletVoid
+  NpcDestinationId: ""
+  ExclusiveTerritory: ""
+  AchievementId: Achievement_Objective_Artifact_Set2_1hGauntletVoid
+  RequiredAchievementId: ""
+  RequiredFaction: ""
+  RequiredLevel: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
+  FailureGameEventId: ""
+  ExperienceReward: ""
+  ObjectiveReward: ""
+  ItemRewardName: ""
+  ItemRewardQty: ""
+  Repeatable: null
+  CanBeAbandoned: true
+  Title: "@Objective_Artifact_Set2_1hGauntletVoid"
   Description: ""
   PlayerPrompt: ""
   ObjectiveProposalResponse: ""
@@ -4416,7 +4675,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -4453,7 +4712,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -4462,6 +4721,43 @@
   Repeatable: null
   CanBeAbandoned: true
   Title: "@Objective_Artifact_Set2_1hFlail"
+  Description: ""
+  PlayerPrompt: ""
+  ObjectiveProposalResponse: ""
+  InProgressResponse: ""
+  DestinationCompletionAvailablePrompt: ""
+  DestinationCompletionAvailableResponse: ""
+  ObjectiveCompletionResponse: ""
+  ObjectiveAcceptanceResponse: ""
+  HideIncompleteTurninMarker: ""
+  ORMReleaseEventTags: ""
+  ORMReleaseActiveOverride: ""
+  SkipReqAchievmentWhenInvalid: ""
+  EntitlementId: ""
+- ObjectiveID: Objective_Artifact_Set2_Earring1
+  Type: Artifact
+  Difficulty: ""
+  DifficultyLevel: null
+  MaxInfluenceLevel: ""
+  FlagPvp: null
+  CanBeShared: null
+  CanFastTravel: null
+  Task: Task_Container_Artifact_Set2_Earring1
+  NpcDestinationId: ""
+  ExclusiveTerritory: ""
+  AchievementId: Achievement_Objective_Artifact_Set2_Earring1
+  RequiredAchievementId: ""
+  RequiredFaction: ""
+  RequiredLevel: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
+  FailureGameEventId: ""
+  ExperienceReward: ""
+  ObjectiveReward: ""
+  ItemRewardName: ""
+  ItemRewardQty: ""
+  Repeatable: null
+  CanBeAbandoned: true
+  Title: "@Objective_Artifact_Set2_Earring1"
   Description: ""
   PlayerPrompt: ""
   ObjectiveProposalResponse: ""
@@ -4490,7 +4786,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""
@@ -4527,7 +4823,7 @@
   RequiredAchievementId: ""
   RequiredFaction: ""
   RequiredLevel: ""
-  SuccessGameEventId: ""
+  SuccessGameEventId: SeasonJourneyCompleteArtifact
   FailureGameEventId: ""
   ExperienceReward: ""
   ObjectiveReward: ""

@@ -21,9 +21,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -49,25 +49,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: -0.3
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -219,7 +219,7 @@
   StackDuration: null
   DurationMax: 16.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -252,6 +252,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_BileBomb_Major
   DisplayName: "@Status_Slow"
   Description: "@Status_Rune_BileBomb_Major_Desc"
@@ -275,9 +276,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -303,25 +304,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -473,7 +474,7 @@
   StackDuration: null
   DurationMax: 6.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -506,6 +507,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_BileBomb_Greater
   DisplayName: "@Status_Disease"
   Description: "@Status_Rune_BileBomb_Greater_Desc"
@@ -529,9 +531,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -557,25 +559,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: -0.3
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: -0.3
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -727,7 +729,7 @@
   StackDuration: null
   DurationMax: 16.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -760,6 +762,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_BileBomb_Survivor
   DisplayName: "@Status_Disease"
   Description: "@Status_Rune_BileBomb_Survivor_Desc"
@@ -783,9 +786,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -811,25 +814,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: -0.15
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -981,7 +984,7 @@
   StackDuration: null
   DurationMax: 16.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -1014,6 +1017,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_BileBomb_Survivor_Heal
   DisplayName: ""
   Description: ""
@@ -1037,9 +1041,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -1065,25 +1069,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -1235,7 +1239,7 @@
   StackDuration: null
   DurationMax: 0.1
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -1268,6 +1272,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_BileBomb_Dominator
   DisplayName: "@Status_Disease"
   Description: "@Status_Rune_BileBomb_Dominator_Desc"
@@ -1291,9 +1296,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -1319,25 +1324,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: -0.5
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -1489,7 +1494,7 @@
   StackDuration: null
   DurationMax: 16.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -1522,6 +1527,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_CannonBlast_Burn
   DisplayName: "@Status_Burn"
   Description: "@Status_Rune_CannonBlast_Major_Desc"
@@ -1545,9 +1551,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -1573,25 +1579,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -1743,7 +1749,7 @@
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -1776,6 +1782,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_Detonate
   DisplayName: "@Status_Rune_Detonate"
   Description: "@Status_Rune_Detonate_Desc"
@@ -1799,9 +1806,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -1827,25 +1834,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -1997,7 +2004,7 @@
   StackDuration: null
   DurationMax: 3.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -2030,6 +2037,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : true
+  ApplicationCooldown: null
 - StatusID: Rune_Detonate_CastAoE
   DisplayName: ""
   Description: ""
@@ -2053,9 +2061,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -2081,25 +2089,25 @@
   DisableCastSpellDurability: true
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -2251,7 +2259,7 @@
   StackDuration: null
   DurationMax: 3.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -2284,6 +2292,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_Detonate_Major
   DisplayName: "@Status_Rune_Detonate"
   Description: "@Status_Rune_Detonate_Major_Desc"
@@ -2307,9 +2316,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -2335,25 +2344,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -2505,7 +2514,7 @@
   StackDuration: null
   DurationMax: 3.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -2538,6 +2547,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_Detonate_Greater
   DisplayName: "@Status_Rune_Detonate"
   Description: "@Status_Rune_Detonate_Greater_Desc"
@@ -2561,9 +2571,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -2589,25 +2599,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -2759,7 +2769,7 @@
   StackDuration: null
   DurationMax: 3.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -2792,6 +2802,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_Detonate_Dominator
   DisplayName: "@Status_Rune_Detonate"
   Description: "@Status_Rune_Detonate_Dominator_Desc"
@@ -2815,9 +2826,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -2843,25 +2854,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -3013,7 +3024,7 @@
   StackDuration: null
   DurationMax: 3.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -3046,6 +3057,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_StoneForm
   DisplayName: "@Status_Rune_StoneForm"
   Description: "@Status_Rune_StoneForm_Desc"
@@ -3069,9 +3081,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -3097,25 +3109,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -3267,7 +3279,7 @@
   StackDuration: null
   DurationMax: 5.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -3300,6 +3312,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : true
+  ApplicationCooldown: null
 - StatusID: Rune_StoneForm_Major
   DisplayName: "@Status_Fortify"
   Description: "@Status_Rune_StoneForm_Major_Desc"
@@ -3323,9 +3336,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -3351,25 +3364,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -3521,7 +3534,7 @@
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -3554,6 +3567,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_StoneForm_Greater
   DisplayName: "@Status_Fortify"
   Description: "@Status_Rune_StoneForm_Greater_Desc"
@@ -3577,9 +3591,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -3605,25 +3619,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -3775,7 +3789,7 @@
   StackDuration: null
   DurationMax: 5.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: true
   StackMax: 3.0
   InitialStackSize: ""
@@ -3808,6 +3822,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_StoneForm_Survivor
   DisplayName: "@Status_Heal"
   Description: "@Status_Rune_StoneForm_Survivor_Desc"
@@ -3831,9 +3846,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -3859,25 +3874,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -4029,7 +4044,7 @@
   StackDuration: null
   DurationMax: 5.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -4062,6 +4077,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_StoneForm_Dominator
   DisplayName: "@Status_Rune_StoneForm"
   Description: "@Status_Rune_StoneForm_Major_Desc"
@@ -4085,9 +4101,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -4113,25 +4129,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -4283,7 +4299,7 @@
   StackDuration: null
   DurationMax: 8.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -4316,6 +4332,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_StoneForm_Dominator_CastAoE
   DisplayName: ""
   Description: ""
@@ -4339,9 +4356,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -4367,25 +4384,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -4537,7 +4554,7 @@
   StackDuration: null
   DurationMax: 3.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -4570,6 +4587,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_GraspingVines
   DisplayName: "@Status_Root"
   Description: "@Status_Root_Description"
@@ -4593,9 +4611,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -4621,25 +4639,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -4791,7 +4809,7 @@
   StackDuration: null
   DurationMax: 3.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -4824,6 +4842,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_GraspingVines_Major
   DisplayName: "@Status_Weaken"
   Description: "@Status_Rune_GraspingVines_Major_Desc"
@@ -4847,9 +4866,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -4875,25 +4894,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -5045,7 +5064,7 @@
   StackDuration: null
   DurationMax: 16.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -5078,6 +5097,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_GraspingVines_Survivor
   DisplayName: "@Status_Fortify"
   Description: "@Status_Rune_GraspingVines_Survivor_Desc"
@@ -5101,9 +5121,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -5129,25 +5149,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -5299,7 +5319,7 @@
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -5332,6 +5352,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_GraspingVines_Dominator_Rend
   DisplayName: "@Status_Rend"
   Description: "@Status_Rune_GraspingVines_Dominator_Rend_Desc"
@@ -5355,9 +5376,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -5383,25 +5404,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -5553,7 +5574,7 @@
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -5586,6 +5607,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_GraspingVines_Dominator_ReduceStamRegen
   DisplayName: "@Status_Exhaust"
   Description: "@Status_Rune_GraspingVines_Dominator_ReducedStamRegen_Desc"
@@ -5609,9 +5631,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -5637,25 +5659,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: -0.5
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -5807,7 +5829,7 @@
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -5840,6 +5862,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_HereticsFall_Greater
   DisplayName: "@Status_Slow"
   Description: "@Status_Rune_HereticsFall_Greater_Desc"
@@ -5863,9 +5886,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -5891,25 +5914,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -6061,7 +6084,7 @@
   StackDuration: null
   DurationMax: 8.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -6094,6 +6117,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_HereticsFall_Survivor
   DisplayName: "@Status_Fortify"
   Description: "@Status_Rune_HereticsFall_Survivor_Desc"
@@ -6117,9 +6141,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -6145,25 +6169,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -6315,7 +6339,7 @@
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 3.0
   InitialStackSize: ""
@@ -6348,6 +6372,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_FireStorm_DoT_Application
   DisplayName: ""
   Description: ""
@@ -6371,9 +6396,9 @@
   TickCondition: ""
   OnTickStatusEffect: Rune_FireStorm_DoT
   KeepOnTickEffectOnEnd: true
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -6399,25 +6424,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -6569,7 +6594,7 @@
   StackDuration: null
   DurationMax: 2.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: true
   StackMax: 1.0
   InitialStackSize: ""
@@ -6602,6 +6627,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_FireStorm_DoT
   DisplayName: "@Status_FireStorm_DoT_Name"
   Description: "@Status_Rune_FireStorm_DoT_Desc"
@@ -6625,9 +6651,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -6653,25 +6679,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -6823,7 +6849,7 @@
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: true
   StackMax: 1.0
   InitialStackSize: ""
@@ -6856,6 +6882,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_FireStorm_Empower
   DisplayName: "@Status_Empower"
   Description: "@Status_Rune_FireStorm_Empower_Desc"
@@ -6879,9 +6906,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -6907,25 +6934,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -7077,7 +7104,7 @@
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -7110,6 +7137,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Status_Rune_FireStorm_Major
   DisplayName: "@Status_Weaken"
   Description: "@Status_FireStorm_Major_Desc"
@@ -7133,9 +7161,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -7161,25 +7189,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -7331,7 +7359,7 @@
   StackDuration: null
   DurationMax: 15.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -7364,6 +7392,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Status_Rune_FireStorm_Greater
   DisplayName: "@Status_Haste"
   Description: "@Status_FireStorm_Greater_Desc"
@@ -7387,9 +7416,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -7415,25 +7444,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -7585,7 +7614,7 @@
   StackDuration: null
   DurationMax: 15.0
   InheritDuration: true
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: false
   StackMax: 1.0
   InitialStackSize: ""
@@ -7618,6 +7647,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Rune_FireStorm_DoT_Survivor_Application
   DisplayName: ""
   Description: ""
@@ -7641,9 +7671,9 @@
   TickCondition: ""
   OnTickStatusEffect: Status_Rune_FireStorm_Survivor_DoT
   KeepOnTickEffectOnEnd: true
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -7669,25 +7699,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -7839,7 +7869,7 @@
   StackDuration: null
   DurationMax: 2.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: true
   StackMax: 1.0
   InitialStackSize: ""
@@ -7872,6 +7902,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Status_Rune_FireStorm_Survivor_DoT
   DisplayName: "@Status_FireStorm_DoT_Name"
   Description: "@Status_FireStorm_Survivor__DoT_Desc"
@@ -7895,9 +7926,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -7923,25 +7954,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -8093,7 +8124,7 @@
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: true
   StackMax: 1.0
   InitialStackSize: ""
@@ -8126,6 +8157,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Status_Rune_FireStorm_Survivor_Cleanse
   DisplayName: ""
   Description: ""
@@ -8149,9 +8181,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -8177,25 +8209,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -8347,7 +8379,7 @@
   StackDuration: null
   DurationMax: 1.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -8380,6 +8412,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Status_Rune_Sandworm_Slow
   DisplayName: "@Status_Slow"
   Description: "@Status_Rune_Sandworm_Major_Desc"
@@ -8403,9 +8436,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -8431,25 +8464,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -8601,7 +8634,7 @@
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -8634,6 +8667,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Status_Rune_Sandworm_Poison
   DisplayName: "@Status_Sandworm_DoT_Name"
   Description: "@Status_Rune_Sandworm_DoT_Desc"
@@ -8657,9 +8691,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -8685,25 +8719,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -8855,7 +8889,7 @@
   StackDuration: null
   DurationMax: 10.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: true
   StackMax: 1.0
   InitialStackSize: ""
@@ -8888,6 +8922,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Status_Rune_Sandworm_SelfWeaken
   DisplayName: "@Status_Sandworm_SelfWeaken_Name"
   Description: "@Status_Sandworm_SelfWeaken_Desc"
@@ -8911,9 +8946,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -8939,25 +8974,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -9109,7 +9144,7 @@
   StackDuration: 0.0
   DurationMax: 5.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -9142,6 +9177,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Status_Rune_Sandworm_Uninterruptible
   DisplayName: "@Status_Sandworm_Uninterruptible_Name"
   Description: "@Status_Sandworm_Uninterruptible_Desc"
@@ -9165,9 +9201,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -9193,25 +9229,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -9363,7 +9399,7 @@
   StackDuration: 0.0
   DurationMax: 5.0
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -9396,6 +9432,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Status_Rune_BeastMode
   DisplayName: ""
   Description: ""
@@ -9419,9 +9456,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -9447,25 +9484,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -9617,7 +9654,7 @@
   StackDuration: null
   DurationMax: null
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -9650,6 +9687,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: "TRUE"
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Status_Rune_BeastMode_Greater_Buff
   DisplayName: "@Status_Unstoppable"
   Description: "@Status_Rune_BeastMode_Greater_Buff_Desc"
@@ -9673,9 +9711,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -9701,25 +9739,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -9871,7 +9909,7 @@
   StackDuration: null
   DurationMax: null
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -9904,6 +9942,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: "TRUE"
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Status_Rune_BeastMode_Survivor_Buff
   DisplayName: "@Status_Fortify"
   Description: "@Status_Rune_BeastMode_Survivor_Buff_Desc"
@@ -9927,9 +9966,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -9955,25 +9994,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -10125,7 +10164,7 @@
   StackDuration: null
   DurationMax: null
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -10158,6 +10197,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: "TRUE"
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Status_Rune_BeastMode_Survivor_Debuff
   DisplayName: "@Status_Weaken"
   Description: "@Status_Rune_BeastMode_Survivor_Debuff_Desc"
@@ -10181,9 +10221,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -10209,25 +10249,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -10379,7 +10419,7 @@
   StackDuration: null
   DurationMax: null
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -10412,6 +10452,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: "TRUE"
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Status_Rune_BeastMode_Dominator_Buff
   DisplayName: "@Status_Empower"
   Description: "@Status_Rune_BeastMode_Dominator_Buff_Desc"
@@ -10435,9 +10476,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -10463,25 +10504,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -10633,7 +10674,7 @@
   StackDuration: null
   DurationMax: null
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -10666,6 +10707,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: "TRUE"
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Status_Rune_BeastMode_Dominator_Debuff
   DisplayName: "@Status_Rend"
   Description: "@Status_Rune_BeastMode_Dominator_Debuff_Desc"
@@ -10689,9 +10731,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -10717,25 +10759,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -10887,7 +10929,7 @@
   StackDuration: null
   DurationMax: null
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -10920,6 +10962,7 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: "TRUE"
   DismissMount : null
+  ApplicationCooldown: null
 - StatusID: Status_Rune_BeastMode_RemoveAll
   DisplayName: ""
   Description: ""
@@ -10943,9 +10986,9 @@
   TickCondition: ""
   OnTickStatusEffect: ""
   KeepOnTickEffectOnEnd: null
-  StopOnHitCount: ""
+  StopOnHitCount: null
   HitCondition: ""
-  RequireReaction: ""
+  RequireReaction: null
   OnStackStatusEffect: ""
   AddOnStackSize: ""
   AddOnStackSizeComparison: ""
@@ -10971,25 +11014,25 @@
   DisableCastSpellDurability: null
   TargetOwnsSpell: ""
   UseSourceWeaponForSpell: ""
-  FromAlchemy: ""
-  FromSpell: ""
-  NoHealthRegen: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
   HealMod: null
-  MaxHealthMod: ""
-  HealthRate: ""
-  CoreTempMod: ""
-  TempMod: ""
-  Stamina: ""
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
   StaminaRate: null
-  Mana: ""
-  ManaRate: ""
-  Food: ""
-  FoodBurn: ""
-  Drink: ""
-  DrinkBurn: ""
-  Encumbrance: ""
-  ItemClassWeightMods: ""
-  XPIncreases: ""
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: null
+  XPIncreases: null
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
@@ -11141,7 +11184,7 @@
   StackDuration: null
   DurationMax: null
   InheritDuration: null
-  InheritTotalDuration: ""
+  InheritTotalDuration: null
   RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
@@ -11174,3 +11217,4 @@
   SourceRuneChargeOnHealthChangeOnly: ""
   RemoveWhenEnteringGameModeRequiringTeleport: ""
   DismissMount : null
+  ApplicationCooldown: null

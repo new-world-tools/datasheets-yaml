@@ -1,46 +1,3 @@
-- VariantID: LostPresent01
-  Visual_Healthy: "slices\\Holiday\\WinterConvergence\\Activities\\LostPresent\\WinterConv_Activity_LostPresent_VisualHealthy.dynamicslice"
-  Visual_Depleted: ""
-  Visual_NotOnRequiredQuest: ""
-  Visual_Basemesh: ""
-  GatherableEntryID: LostPresent01
-  InteractPromptRadius: 1.0
-  DetectableRadius: 1.0
-  MarkerRadius: 1.0
-  AudioPreload_depleted: RarePresent
-  SFX_depleted: Play_SFX_RarePresent_Depleted
-  AudioPreload_idle: RarePresent
-  SFX_Idle: Play_SFX_RarePresent_Lp
-  VFX_Idle: Event_Winter_Convergence.Present.Idle_Rare
-  IdleVFX_Offset_Z: 10.0
-  DepletedVFX: Event_Winter_Convergence.Present.End_Rare
-  depletedVFX_Offset_Z: 10.0
-  DepletedVFX_Quest: ""
-  DepletedVFX_Quest_Offset_Z: null
-  GatheringFX: ""
-  gatheringVFX_Offzet_Z: 10.0
-  interactionMarker_Offset_Z: 10.0
-  InteractionEvent: ""
-  InteractTag: ""
-  InteractOnlyOnQuest: false
-  AchievementID: ""
-  AchievementServerState: ""
-  CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\basesphere.cgf"
-  ShouldHaveStaticCollision: null
-  Collision_Offset_Z: 10.0
-  VisualHealthy_Offset_Z: 10.0
-  IsStateControlledBySlayerScript: null
-  Collision_Scale_X: null
-  Collision_Scale_Y: null
-  Collision_Scale_Z: null
-  Force_Display_Health_Bar: null
-  Marker_Creature_Type_Override: ""
-  Marker_Vertical_Offset: null
-  ScriptDiscoveryTag: ""
-  ScriptSpawnerId: ""
-  RequiredAchievement: ""
-  AudioImpactMaterial: ""
-  TargetLock_Offset_Z: null
 - VariantID: 0404_CorruptedNoduleA
   Visual_Healthy: "slices\\WorldEvents\\Shared\\WorldEvent_Object_Onboarding_CorruptedNodule_Visual_Healthy.dynamicslice"
   Visual_Depleted: "slices\\WorldEvents\\Shared\\WorldEvent_Object_Onboarding_CorruptedNodule_Visual_Depleted.dynamicslice"
@@ -70,6 +27,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -113,6 +72,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -156,6 +117,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -199,6 +162,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -242,6 +207,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Landmarks\\Corruption_Core\\jav_lm_corruption_core_b.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -285,6 +252,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -328,6 +297,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -371,6 +342,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -414,6 +387,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -457,6 +432,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -500,6 +477,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Landmarks\\Corruption_Core\\jav_lm_corruption_core_b.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -543,6 +522,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -586,6 +567,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -629,6 +612,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -672,6 +657,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -715,6 +702,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -758,6 +747,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -801,6 +792,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -844,6 +837,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -887,6 +882,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -930,6 +927,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -973,6 +972,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1016,6 +1017,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1059,6 +1062,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1102,6 +1107,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1145,6 +1152,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1188,6 +1197,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1231,6 +1242,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1274,6 +1287,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: -0.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1317,6 +1332,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1360,6 +1377,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: -0.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1403,6 +1422,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1446,6 +1467,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: -0.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1489,6 +1512,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1532,6 +1557,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Landmarks\\Corruption_Core\\jav_lm_corruption_core_a.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1575,6 +1602,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Landmarks\\Corruption_Core\\jav_lm_corruption_core_a.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1618,6 +1647,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Landmarks\\Corruption_Core\\jav_lm_corruption_core_a.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1661,6 +1692,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\default\\primitive_cylinder.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1704,6 +1737,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\default\\primitive_cylinder.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1747,6 +1782,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\default\\primitive_cylinder.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1790,6 +1827,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Landmarks\\Corruption_Core\\jav_lm_corruption_core_a.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1833,6 +1872,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\nature\\Rock_Crystal\\CrystalM.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1876,6 +1917,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\nature\\veg_bushes\\Bushes_Forest\\Cranberry\\jav_fst_cranberrybush_b.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: -0.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1919,6 +1962,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\Architecture\\Living_Structures\\Dynasty\\dynasty_struc_deco_gong_large_AB.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 6.34
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -1962,6 +2007,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Landmarks\\Corruption_Core\\jav_lm_corruption_core_a.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: true
@@ -2005,6 +2052,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Landmarks\\Corruption_Core\\jav_lm_corruption_core_a.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: true
@@ -2048,6 +2097,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Landmarks\\Corruption_Core\\jav_lm_corruption_core_a.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: true
@@ -2091,6 +2142,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Landmarks\\Corruption_Core\\jav_lm_corruption_core_a.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: true
@@ -2134,6 +2187,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Landmarks\\Corruption_Core\\jav_lm_corruption_core_a.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -2177,6 +2232,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -2220,6 +2277,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -2263,6 +2322,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -2306,6 +2367,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -2349,6 +2412,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -2392,6 +2457,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -2435,6 +2502,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -2478,6 +2547,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -2521,6 +2592,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -2564,6 +2637,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -2607,6 +2682,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\Props\\Storage\\Crates\\shopcrate\\Jav_prp_ShopCrateb.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -2650,6 +2727,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\default\\primitive_sphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -2693,6 +2772,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\default\\primitive_sphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -2736,6 +2817,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\default\\primitive_sphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -2779,6 +2862,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -2822,6 +2907,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -2865,6 +2952,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -2908,6 +2997,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -2951,6 +3042,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -2994,6 +3087,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -3037,6 +3132,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -3078,14 +3175,16 @@
   InteractOnlyOnQuest: true
   AchievementID: ""
   AchievementServerState: ""
-  CollisionAssetOverride: "Objects\\default\\primitive_cone_a.cgf"
+  CollisionAssetOverride: "Objects\\default\\primitive_cylinder.cgf"
   ShouldHaveStaticCollision: true
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
-  Collision_Scale_X: 1.8
-  Collision_Scale_Y: 1.8
-  Collision_Scale_Z: 1.4
+  Collision_Scale_X: 2.2
+  Collision_Scale_Y: 2.2
+  Collision_Scale_Z: 1.9
   Force_Display_Health_Bar: true
   Marker_Creature_Type_Override: DamageableGatherable
   Marker_Vertical_Offset: -65.0
@@ -3121,14 +3220,16 @@
   InteractOnlyOnQuest: true
   AchievementID: ""
   AchievementServerState: ""
-  CollisionAssetOverride: "Objects\\Crafting\\Props\\Props_Everfall\\Decor\\Syndicate\\ef_syndicate_waterwheel.cgf"
+  CollisionAssetOverride: "Objects\\default\\primitive_cube.cgf"
   ShouldHaveStaticCollision: true
-  Collision_Offset_Z: 0.1
+  Collision_Offset_X: 1.34
+  Collision_Offset_Y: null
+  Collision_Offset_Z: -0.325
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
-  Collision_Scale_X: 0.28
-  Collision_Scale_Y: 0.3
-  Collision_Scale_Z: 0.37
+  Collision_Scale_X: 1.9
+  Collision_Scale_Y: 3.0
+  Collision_Scale_Z: 2.1
   Force_Display_Health_Bar: true
   Marker_Creature_Type_Override: DamageableGatherable
   Marker_Vertical_Offset: -100.0
@@ -3164,14 +3265,16 @@
   InteractOnlyOnQuest: true
   AchievementID: ""
   AchievementServerState: ""
-  CollisionAssetOverride: "Objects\\SEASONS\\SEASON_01\\IO_azoth_sap_extractor\\io_azoth_sap_extractor_01.cgf"
+  CollisionAssetOverride: "Objects\\default\\primitive_cylinder.cgf"
   ShouldHaveStaticCollision: true
-  Collision_Offset_Z: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
+  Collision_Offset_Z: -0.5
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
-  Collision_Scale_X: 3.8
-  Collision_Scale_Y: 3.8
-  Collision_Scale_Z: 3.8
+  Collision_Scale_X: 1.9
+  Collision_Scale_Y: 1.9
+  Collision_Scale_Z: 3.0
   Force_Display_Health_Bar: true
   Marker_Creature_Type_Override: DamageableGatherable
   Marker_Vertical_Offset: -100.0
@@ -3207,14 +3310,16 @@
   InteractOnlyOnQuest: true
   AchievementID: ""
   AchievementServerState: ""
-  CollisionAssetOverride: "Objects\\default\\primitive_cone_a.cgf"
+  CollisionAssetOverride: "Objects\\default\\primitive_cube.cgf"
   ShouldHaveStaticCollision: true
-  Collision_Offset_Z: -2.0
+  Collision_Offset_X: null
+  Collision_Offset_Y: -2.0
+  Collision_Offset_Z: -3.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
-  Collision_Scale_X: 0.9
-  Collision_Scale_Y: 0.9
-  Collision_Scale_Z: 2.2
+  Collision_Scale_X: 3.25
+  Collision_Scale_Y: 3.75
+  Collision_Scale_Z: 2.75
   Force_Display_Health_Bar: true
   Marker_Creature_Type_Override: DamageableGatherable
   Marker_Vertical_Offset: -100.0
@@ -3252,12 +3357,14 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\default\\primitive_cylinder.cgf"
   ShouldHaveStaticCollision: true
+  Collision_Offset_X: -3.0
+  Collision_Offset_Y: 2.0
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
-  Collision_Scale_X: 1.1
-  Collision_Scale_Y: 1.1
-  Collision_Scale_Z: 2.4
+  Collision_Scale_X: 4.5
+  Collision_Scale_Y: 5.2
+  Collision_Scale_Z: 2.5
   Force_Display_Health_Bar: true
   Marker_Creature_Type_Override: DamageableGatherable
   Marker_Vertical_Offset: -65.0
@@ -3295,12 +3402,14 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\default\\primitive_cylinder.cgf"
   ShouldHaveStaticCollision: true
+  Collision_Offset_X: null
+  Collision_Offset_Y: -2.09
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
-  Collision_Scale_X: 1.0
-  Collision_Scale_Y: 1.0
-  Collision_Scale_Z: 3.0
+  Collision_Scale_X: 2.75
+  Collision_Scale_Y: 3.75
+  Collision_Scale_Z: 3.5
   Force_Display_Health_Bar: true
   Marker_Creature_Type_Override: DamageableGatherable
   Marker_Vertical_Offset: -100.0
@@ -3338,6 +3447,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -3381,6 +3492,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -3424,6 +3537,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -3467,6 +3582,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -3510,6 +3627,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -3553,6 +3672,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -3596,6 +3717,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -3639,6 +3762,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -3682,6 +3807,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -3725,6 +3852,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -3768,6 +3897,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -3811,6 +3942,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: ""
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -3854,6 +3987,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -3897,6 +4032,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: ""
   ShouldHaveStaticCollision: true
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -3940,6 +4077,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -3963,8 +4102,8 @@
   InteractPromptRadius: 5.0
   DetectableRadius: 8.0
   MarkerRadius: 12.0
-  AudioPreload_depleted: Missions_ThorpeBackStory
-  SFX_depleted: Play_SFX_Barricade_Destroy
+  AudioPreload_depleted: First_Light_Dun01
+  SFX_depleted: Play_SFX_RockFall_Large_Impact
   AudioPreload_idle: ""
   SFX_Idle: ""
   VFX_Idle: cFX_Loot.Loot_Quest_Small
@@ -3983,6 +4122,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -4006,8 +4147,8 @@
   InteractPromptRadius: 5.0
   DetectableRadius: 8.0
   MarkerRadius: 12.0
-  AudioPreload_depleted: Missions_ThorpeBackStory
-  SFX_depleted: Play_SFX_Barricade_Destroy
+  AudioPreload_depleted: First_Light_Dun01
+  SFX_depleted: Play_SFX_RockFall_Large_Impact
   AudioPreload_idle: ""
   SFX_Idle: ""
   VFX_Idle: cFX_Loot.Loot_Quest_Small
@@ -4026,6 +4167,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -4049,8 +4192,8 @@
   InteractPromptRadius: 5.0
   DetectableRadius: 8.0
   MarkerRadius: 12.0
-  AudioPreload_depleted: Missions_ThorpeBackStory
-  SFX_depleted: Play_SFX_Barricade_Destroy
+  AudioPreload_depleted: First_Light_Dun01
+  SFX_depleted: Play_SFX_RockFall_Large_Impact
   AudioPreload_idle: ""
   SFX_Idle: ""
   VFX_Idle: cFX_Loot.Loot_Quest_Small
@@ -4069,6 +4212,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -4092,8 +4237,8 @@
   InteractPromptRadius: 5.0
   DetectableRadius: 8.0
   MarkerRadius: 12.0
-  AudioPreload_depleted: Missions_ThorpeBackStory
-  SFX_depleted: Play_SFX_Barricade_Destroy
+  AudioPreload_depleted: First_Light_Dun01
+  SFX_depleted: Play_SFX_RockFall_Large_Impact
   AudioPreload_idle: ""
   SFX_Idle: ""
   VFX_Idle: cFX_Loot.Loot_Quest_Small
@@ -4112,6 +4257,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -4135,8 +4282,8 @@
   InteractPromptRadius: 5.0
   DetectableRadius: 8.0
   MarkerRadius: 12.0
-  AudioPreload_depleted: Missions_ThorpeBackStory
-  SFX_depleted: Play_SFX_Barricade_Destroy
+  AudioPreload_depleted: First_Light_Dun01
+  SFX_depleted: Play_SFX_RockFall_Large_Impact
   AudioPreload_idle: ""
   SFX_Idle: ""
   VFX_Idle: cFX_Loot.Loot_Quest_Small
@@ -4155,6 +4302,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -4198,6 +4347,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -4241,6 +4392,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: ""
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 1.0
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -4284,6 +4437,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\Architecture\\Living_Structures\\Dynasty\\dynasty_struc_deco_gong_large_AB.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 6.34
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -4327,6 +4482,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\Architecture\\Living_Structures\\Dynasty\\dynasty_struc_deco_gong_large_AB.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 6.34
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -4370,6 +4527,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\Architecture\\Living_Structures\\Dynasty\\dynasty_struc_deco_gong_large_AB.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: 6.34
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null
@@ -4413,6 +4572,8 @@
   AchievementServerState: ""
   CollisionAssetOverride: "Objects\\Crafting\\BaseMaterials\\BaseSphere.cgf"
   ShouldHaveStaticCollision: null
+  Collision_Offset_X: null
+  Collision_Offset_Y: null
   Collision_Offset_Z: null
   VisualHealthy_Offset_Z: null
   IsStateControlledBySlayerScript: null

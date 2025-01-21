@@ -7078,10 +7078,335 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
-  SubTask1: 06A_MSQ_08_RescueGideon_camp_container
-  SubTask2: 06A_MSQ_08_RescueGideon_simple_Lost_container
-  SubTask3: 06A_MSQ_08_RescueGideon_simple_IronRose_container
-  SubTask4: 06A_MSQ_08_RescueGideon_swap_container
+  SubTask1: 06A_MSQ_08_RescueGideon_RESET_container
+  SubTask2: 06A_MSQ_08_RescueGideon_camp_container
+  SubTask3: 06A_MSQ_08_RescueGideon_simple_Lost_container
+  SubTask4: 06A_MSQ_08_RescueGideon_simple_IronRose_container
+  SubTask5: 06A_MSQ_08_RescueGideon_swap_container
+- TaskID: 06A_MSQ_08_RescueGideon_RESET_container
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: null
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: null
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: 06A_MSQ_08_RescueGideon_reset_swapLeovix01On
+  SubTask2: 06A_MSQ_08_RescueGideon_reset_swapLeovix02Off
+  SubTask3: 06A_MSQ_08_RescueGideon_reset_swapGideon01On
+  SubTask4: 06A_MSQ_08_RescueGideon_reset_swapGideon02Off
+  SubTask5: ""
+- TaskID: 06A_MSQ_08_RescueGideon_reset_swapLeovix01On
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: SwapActive_06_LeovixSilva_A
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: null
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 06A_MSQ_08_RescueGideon_reset_swapLeovix02Off
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: SwapActive_06_LeovixSilva_B
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: null
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 06A_MSQ_08_RescueGideon_reset_swapGideon01On
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: SwapActive_06_Gideon_A
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: null
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 06A_MSQ_08_RescueGideon_reset_swapGideon02Off
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: SwapActive_06_Gideon_B
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: null
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
   SubTask5: ""
 - TaskID: 06A_MSQ_08_RescueGideon_camp_container
   Type: ConsecutiveTaskContainer
@@ -7999,7 +8324,7 @@
   StayActive: null
   RequiredLevel: ""
   TargetQty: 1.0
-  ItemName: SwapActive_06_Gideon_A
+  ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -8258,7 +8583,7 @@
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: ""
-  TargetQty: 1.0
+  TargetQty: null
   ItemName: SwapActive_06_LeovixSilva_A
   ItemDropVC: ""
   ItemDropProbability: null
@@ -8323,7 +8648,7 @@
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: ""
-  TargetQty: 1.0
+  TargetQty: null
   ItemName: SwapActive_06_LeovixSilva_B
   ItemDropVC: ""
   ItemDropProbability: null
@@ -8388,7 +8713,7 @@
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: ""
-  TargetQty: 1.0
+  TargetQty: null
   ItemName: SwapActive_06_Gideon_A
   ItemDropVC: ""
   ItemDropProbability: null
@@ -8453,7 +8778,7 @@
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: ""
-  TargetQty: 1.0
+  TargetQty: null
   ItemName: SwapActive_06_Gideon_B
   ItemDropVC: ""
   ItemDropProbability: null
@@ -13968,8 +14293,73 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
-  SubTask1: 06A_MSQ_13_ReturnMiradorJewel_talk_Grace
-  SubTask2: 06A_MSQ_13_ReturnMiradorJewel_goto_ruins
+  SubTask1: 06A_MSQ_13_ReturnMiradorJewel_GraceSwapIn_Failsafe
+  SubTask2: 06A_MSQ_13_ReturnMiradorJewel_talk_Grace
+  SubTask3: 06A_MSQ_13_ReturnMiradorJewel_goto_ruins
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 06A_MSQ_13_ReturnMiradorJewel_GraceSwapIn_Failsafe
+  Type: TaskUnlockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: SwapActive_06_GraceWW_C
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: null
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
@@ -16048,9 +16438,74 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
-  SubTask1: 06A_MSQ_14_SolveMapPuzzle_swap_container
-  SubTask2: 06A_MSQ_14_SolveMapPuzzle_Breakwater_container
-  SubTask3: 06A_MSQ_14_SolveMapPuzzle_swap2_container
+  SubTask1: 06A_MSQ_14_SolveMapPuzzle_GraceOff_Failsafe
+  SubTask2: 06A_MSQ_14_SolveMapPuzzle_swap_container
+  SubTask3: 06A_MSQ_14_SolveMapPuzzle_Breakwater_container
+  SubTask4: 06A_MSQ_14_SolveMapPuzzle_swap2_container
+  SubTask5: ""
+- TaskID: 06A_MSQ_14_SolveMapPuzzle_GraceOff_Failsafe
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: SwapActive_06_GraceWW_C
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: null
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
 - TaskID: 06A_MSQ_14_SolveMapPuzzle_swap_container
@@ -26515,8 +26970,8 @@
   OnInteractStart: null
   SubTask1: 06A_IR_02_GoToIronEstates
   SubTask2: 06A_IR_02_HaveSword
-  SubTask3: 06A_IR_02_swapRoya03On
-  SubTask4: ""
+  SubTask3: 06A_IR_02_swapRoya02On
+  SubTask4: 06A_IR_02_swapRoya03On
   SubTask5: ""
 - TaskID: 06A_IR_02_GoToIronEstates
   Type: TaskGoToPOITag
@@ -26632,6 +27087,71 @@
   TargetDescriptionTaskId: ""
   OverrideLocation: 8285.90 2452.98 66.28
   IsHidden: null
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: null
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 06A_IR_02_swapRoya02On
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: SwapActive_06_Roya_B
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: null
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: null
   DiegeticPinZOverride: ""
@@ -29623,7 +30143,7 @@
   OverrideLocation: 9339 2700 82.7
   IsHidden: null
   HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
+  ShowDiegeticTaskPin: true
   DiegeticPinZOverride: ""
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -29818,7 +30338,7 @@
   OverrideLocation: 9348 2713 82.7
   IsHidden: null
   HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
+  ShowDiegeticTaskPin: true
   DiegeticPinZOverride: ""
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -30013,7 +30533,7 @@
   OverrideLocation: 9362 2657 82.6
   IsHidden: null
   HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
+  ShowDiegeticTaskPin: true
   DiegeticPinZOverride: ""
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -32640,7 +33160,7 @@
   ChestDropProbability: null
   EnforceLocationRequirement: null
   TerritoryID: ""
-  POITag: ""
+  POITag: undead_bastion_3_40124
   GameModeID: ""
   LootTag: ""
   PauseAndClearLootOnTaskComplete: true
@@ -33209,7 +33729,7 @@
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
   SubTask1: 06A_T_01_DefeatBear_haveItems_meat
-  SubTask2: 06A_T_01_DefeatBear_gather_fur
+  SubTask2: ""
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
@@ -33938,12 +34458,12 @@
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
-  EnforceLocationRequirement: true
+  EnforceLocationRequirement: null
   TerritoryID: ""
-  POITag: undead_bastion_1_40137
+  POITag: undead_bastion_1_40137,undead_bastion_2_40122
   GameModeID: ""
   LootTag: ""
-  PauseAndClearLootOnTaskComplete: true
+  PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
   ShouldCheckPoints: null
   GuranteedDropAttempts: null
@@ -34008,7 +34528,7 @@
   POITag: undead_bastion_1_40137
   GameModeID: ""
   LootTag: ""
-  PauseAndClearLootOnTaskComplete: true
+  PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
   ShouldCheckPoints: null
   GuranteedDropAttempts: null

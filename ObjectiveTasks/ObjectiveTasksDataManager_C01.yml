@@ -13906,7 +13906,7 @@
   SubTask1: 06_getoffbeach_01_01_SliceSwap_01_HoweWW_A_On
   SubTask2: 06_getoffbeach_01_02_SliceSwap_01_CaveCorruption_On
   SubTask3: 06_getoffbeach_01_04_SliceSwap_01_UrdaWW_p01_On
-  SubTask4: ""
+  SubTask4: 06_getoffbeach_01_05_HideCorinthGrace
   SubTask5: ""
 - TaskID: 06_getoffbeach_01_01_SliceSwap_01_HoweWW_A_On
   Type: TaskUnlockAchievement
@@ -14045,6 +14045,71 @@
   RequiredLevel: ""
   TargetQty: 1.0
   ItemName: SwapActive_01_UrdaWW_01
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: true
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 06_getoffbeach_01_05_HideCorinthGrace
+  Type: TaskUnlockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: SwapActive_06_GraceWW_A
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -21915,7 +21980,7 @@
   ChestDropProbability: null
   EnforceLocationRequirement: null
   TerritoryID: ""
-  POITag: drowned_shipwreck_1_40143
+  POITag: ""
   GameModeID: ""
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
@@ -23854,7 +23919,7 @@
   SubTask4: ""
   SubTask5: ""
 - TaskID: 06_survivors_03_03_01_grace_outro_container
-  Type: SimpleTaskContainer
+  Type: ConsecutiveTaskContainer
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: ""
@@ -24173,11 +24238,11 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: ""
-  SubTask1: 06_survivors_03_03_GracecinematicTrigger
-  SubTask2: 06_survivors_03_03_turnOnIGC
-  SubTask3: 06_survivors_03_03_unlockIGC
-  SubTask4: 06_survivors_03_03_endCinematicTrigger
-  SubTask5: 06_survivors_03_03_turnOffIGC
+  SubTask1: 06_survivors_03_03_turnOnIGC
+  SubTask2: 06_survivors_03_03_unlockIGC
+  SubTask3: 06_survivors_03_03_endCinematicTrigger
+  SubTask4: 06_survivors_03_03_turnOffIGC
+  SubTask5: ""
 - TaskID: 06_survivors_03_03_escape_PreloadIGC
   Type: TaskUnlockAchievement
   FailOnCondition: ""
@@ -27234,7 +27299,7 @@
   SubTask4: ""
   SubTask5: ""
 - TaskID: 12_survivors_03_03_01_grace_outro_container
-  Type: SimpleTaskContainer
+  Type: ConsecutiveTaskContainer
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: ""
@@ -27553,11 +27618,11 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: ""
-  SubTask1: 12_survivors_03_01_cinematicTrigger
-  SubTask2: 12_survivors_03_01_turnOnIGC
-  SubTask3: 12_survivors_03_01_unlockIGC
-  SubTask4: 12_survivors_03_01_endCinematicTrigger
-  SubTask5: 12_survivors_03_01_turnOffIGC
+  SubTask1: 12_survivors_03_01_turnOnIGC
+  SubTask2: 12_survivors_03_01_unlockIGC
+  SubTask3: 12_survivors_03_01_endCinematicTrigger
+  SubTask4: 12_survivors_03_01_turnOffIGC
+  SubTask5: ""
 - TaskID: 12_survivors_03_01_cinematicTrigger
   Type: TaskTriggerArea
   FailOnCondition: ""
@@ -31456,8 +31521,8 @@
   SubTask1: 06_demonstorm_01_initialize_container
   SubTask2: 06_demonstorm_02_TalkTo_Grace
   SubTask3: 06_demonstorm_03_SliceSwap_01_GraceWW_C_Off
-  SubTask4: 06_demonstorm_04_TaskTriggerArea_Reese
-  SubTask5: ""
+  SubTask4: 06_demonstorm_03b_UnlockCorinthGrace
+  SubTask5: 06_demonstorm_04_TaskTriggerArea_Reese
 - TaskID: 06_demonstorm_01_initialize_container
   Type: ConsecutiveTaskContainer
   FailOnCondition: ""
@@ -31920,6 +31985,71 @@
   RequiredLevel: ""
   TargetQty: 1.0
   ItemName: SwapActive_01_GraceWW_C
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: null
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 06_demonstorm_03b_UnlockCorinthGrace
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: SwapActive_06_GraceWW_A
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
@@ -33260,10 +33390,10 @@
   TP_TargetTag: TriggerVol_06_CaveWhisper
   TP_DescriptionTag: "@01_demonstorm_task_search"
   TargetDescriptionTaskId: ""
-  OverrideLocation: ""
+  OverrideLocation: 9751.9111 2509.6472 49.6127
   IsHidden: ""
   HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
+  ShowDiegeticTaskPin: true
   DiegeticPinZOverride: null
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -34495,10 +34625,10 @@
   TP_TargetTag: TriggerVol_12_CaveWhisper
   TP_DescriptionTag: "@01_demonstorm_task_search"
   TargetDescriptionTaskId: ""
-  OverrideLocation: ""
+  OverrideLocation: 7290.2793 2900.3755 51.2266
   IsHidden: ""
   HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
+  ShowDiegeticTaskPin: true
   DiegeticPinZOverride: null
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -39113,7 +39243,7 @@
   OverrideLocation: 7334.5303 3129.9849 49.0539
   IsHidden: ""
   HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
+  ShowDiegeticTaskPin: true
   DiegeticPinZOverride: null
   SS_VariantName: ""
   SS_StatePreset: ""

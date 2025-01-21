@@ -9418,74 +9418,9 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: ""
-  SubTask1: 0505_0103_d_01_container_partial
-  SubTask2: 0505_0103_d_02_TaskGoToPOITag_EternalPool
-  SubTask3: 0505_0103_d_03_kill_SwampDryadArenaBoss
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 0505_0103_d_01_container_partial
-  Type: PartialTaskContainer
-  FailOnCondition: ""
-  StayActive: null
-  TargetQty: null
-  ItemName: ""
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: null
-  UseGlobalStorage: null
-  EnforceLocationRequirement: null
-  TerritoryID: null
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: null
-  ShouldCheckPoints: ""
-  GuranteedDropAttempts: ""
-  TargetThreshold: ""
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: null
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: ""
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: 1.0
-  HideDiegeticGatherablePins: ""
-  ShowDiegeticTaskPin: null
-  DiegeticPinZOverride: ""
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: ""
   SubTask1: 0505_0103_d_01_01_TaskGoToPOITag_EternalPool
   SubTask2: 0505_0103_d_01_02_Have_EternalPoolBossKey
-  SubTask3: ""
+  SubTask3: 0505_0103_d_03_kill_SwampDryadArenaBoss
   SubTask4: ""
   SubTask5: ""
 - TaskID: 0505_0103_d_01_01_TaskGoToPOITag_EternalPool
@@ -9600,72 +9535,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@0505_0103_thedryadpromenade_get_key_from_boss"
   TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: null
-  HideDiegeticGatherablePins: ""
-  ShowDiegeticTaskPin: null
-  DiegeticPinZOverride: ""
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: ""
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 0505_0103_d_02_TaskGoToPOITag_EternalPool
-  Type: TaskGoToPOITag
-  FailOnCondition: ""
-  StayActive: 1.0
-  TargetQty: null
-  ItemName: ""
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: null
-  UseGlobalStorage: null
-  EnforceLocationRequirement: true
-  TerritoryID: null
-  POITag: AE_Elite_50119
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: null
-  ShouldCheckPoints: ""
-  GuranteedDropAttempts: ""
-  TargetThreshold: ""
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: null
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: ""
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: "@0505_0103_thedryadpromenade_goto_POI"
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
+  OverrideLocation: 10962.8887 3864.3997 145.6568
   IsHidden: null
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: null
@@ -9730,7 +9600,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@0505_0103_thedryadpromenade_defeat_boss"
   TargetDescriptionTaskId: ""
-  OverrideLocation: ""
+  OverrideLocation: 11055.6973 3824.9583 173.0805
   IsHidden: null
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: null

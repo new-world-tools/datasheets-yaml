@@ -6061,7 +6061,7 @@
   TP_TargetTag: TriggerVol_MSQ_Whisper03
   TP_DescriptionTag: "@99A_MSQ_03_01_GoToPOI"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 9499.253906 4436.030273 104.952866
+  OverrideLocation: 9507.8721 4451.7969 105.5238
   IsHidden: ""
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: ""
@@ -7786,10 +7786,10 @@
   MapMarkerWorldPositionY: ""
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: ""
-  TP_TargetTag: EverfallHero_IGC_Trigger
+  TP_TargetTag: Everfall_History_Trigger
   TP_DescriptionTag: "@99A_MSQ_04_02_GraceTrigger"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 8912.0 4266.42 139.0
+  OverrideLocation: 8920.4170 4263.8975 139.1005
   IsHidden: ""
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: "1"
@@ -12539,8 +12539,8 @@
   TriggerAnalyticsEvent: ""
   SubTask1: 99A_MSQ_09_02_CrossBarrier
   SubTask2: 99A_MSQ_09_02a_LeapOfFaith
-  SubTask3: 99A_MSQ_09_02b_Unlock_Prone_Tutorial
-  SubTask4: ""
+  SubTask3: 99A_MSQ_09_02b1_TriggerTutorial
+  SubTask4: 99A_MSQ_09_02b2_Unlock_Prone_Tutorial
   SubTask5: ""
 - TaskID: 99A_MSQ_09_02_CrossBarrier
   Type: TaskTriggerArea
@@ -12670,7 +12670,71 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99A_MSQ_09_02b_Unlock_Prone_Tutorial
+- TaskID: 99A_MSQ_09_02b1_TriggerTutorial
+  Type: TaskTriggerArea
+  FailOnCondition: ""
+  StayActive: ""
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: Enter
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: ""
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: TriggerVol_MSQ_ProneTutorial
+  TP_DescriptionTag: "@99A_MSQ_09_03_DescendPuzzle"
+  TargetDescriptionTaskId: ""
+  OverrideLocation: 9777.3066 4237.8203 83.5882
+  IsHidden: ""
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: "1"
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99A_MSQ_09_02b2_Unlock_Prone_Tutorial
   Type: TaskUnlockAchievement
   FailOnCondition: ""
   StayActive: ""

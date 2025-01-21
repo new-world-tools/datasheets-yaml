@@ -14320,7 +14320,7 @@
   OverrideLocation: 11073.50 7725.41 171.53
   IsHidden: null
   HideDiegeticGatherablePins: false
-  ShowDiegeticTaskPin: true
+  ShowDiegeticTaskPin: null
   DiegeticPinZOverride: ""
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -14703,8 +14703,8 @@
   TargetDescriptionTaskId: ""
   OverrideLocation: 11073.6494 7739.0088 256.006
   IsHidden: null
-  HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: true
+  HideDiegeticGatherablePins: false
+  ShowDiegeticTaskPin: null
   DiegeticPinZOverride: ""
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -15085,10 +15085,10 @@
   TP_TargetTag: TriggerVol_99E_MyrddinSphereC
   TP_DescriptionTag: "@99E_MSQ_05_UnlockPrison_volume_myrddinSphere"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 11292.9063 7537.0488 181.6552
+  OverrideLocation: ""
   IsHidden: null
   HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: true
+  ShowDiegeticTaskPin: null
   DiegeticPinZOverride: ""
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -15152,7 +15152,7 @@
   OverrideLocation: 11292.9063 7537.0488 181.6552
   IsHidden: null
   HideDiegeticGatherablePins: false
-  ShowDiegeticTaskPin: true
+  ShowDiegeticTaskPin: null
   DiegeticPinZOverride: ""
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -17657,8 +17657,648 @@
   CommunityGoalTag: ""
   HideChildren: ""
   TriggerAnalyticsEvent: ""
-  SubTask1: 99E_MSQ_06_d_01_container_prisonStart
-  SubTask2: 99E_MSQ_06_d_02_container_insidePrison
+  SubTask1: 99E_MSQ_06_RESET1_container
+  SubTask2: 99E_MSQ_06_RESET2_container
+  SubTask3: 99E_MSQ_06_d_01_container_prisonStart
+  SubTask4: 99E_MSQ_06_d_02_container_insidePrison
+  SubTask5: 99E_MSQ_06_d_02_04_container_prisonExit
+- TaskID: 99E_MSQ_06_RESET1_container
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: 99E_MSQ_06_reset_PrisonArgument_IGC_Preload
+  SubTask2: 99E_MSQ_06_reset_MyrddinArgumentIGC_Watched
+  SubTask3: 99E_MSQ_06_reset_MyrddinArgumentIGC_Active_Off
+  SubTask4: 99E_MSQ_06_reset_SwapActive_99E_Myrddin
+  SubTask5: 99E_MSQ_06_reset_SwapActive_99E_Morgaine_p10a_Prison_On
+- TaskID: 99E_MSQ_06_reset_PrisonArgument_IGC_Preload
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: 99E_MSQ_06_PrisonArgument_IGC_Preload
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99E_MSQ_06_reset_MyrddinArgumentIGC_Watched
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: 99E_MSQ_06_MyrddinArgumentIGC_Watched
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99E_MSQ_06_reset_MyrddinArgumentIGC_Active_Off
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: 99E_MSQ_06_MyrddinArgumentIGC_Active
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99E_MSQ_06_reset_SwapActive_99E_Myrddin
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: SwapActive_MSQ_Myrddin_EG_p1
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99E_MSQ_06_reset_SwapActive_99E_Morgaine_p10a_Prison_On
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: SwapActive_MSQ_Morgaine_EG_p10a
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99E_MSQ_06_RESET2_container
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: 99E_MSQ_06_reset_SwapActive_99E_Galahad_p4a_Prison_On
+  SubTask2: 99E_MSQ_06_reset_SwapActive_PrisonPortal_Off
+  SubTask3: 99E_MSQ_06_reset_SwapActive_99E_Galahad_p4a_Walkaway
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99E_MSQ_06_reset_SwapActive_99E_Galahad_p4a_Prison_On
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: SwapActive_MSQ_Galahad_EG_p4a
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99E_MSQ_06_reset_SwapActive_PrisonPortal_Off
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: 99E_MSQ_06_PrisonPortal_Viz_On
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99E_MSQ_06_reset_SwapActive_99E_Galahad_p4a_Walkaway
+  Type: TaskLockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: SwapActive_MSQ_Galahad_EG_p4a
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
@@ -18285,10 +18925,10 @@
   TP_TargetTag: TriggerVol_99E_TowerTeleTarget
   TP_DescriptionTag: "@99E_MSQ_06_MyrddinsPrison_enterPortal"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 11290.405 7550.276 256.675
+  OverrideLocation: 11290.6338 7550.1562 256.6617
   IsHidden: null
   HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
+  ShowDiegeticTaskPin: true
   DiegeticPinZOverride: ""
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -18348,11 +18988,11 @@
   UseLargeItemDisplay: ""
   TP_TargetTag: ""
   TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
+  TargetDescriptionTaskId: 99E_MSQ_06_d_01_05_03_TriggerArea_TowerTarget
+  OverrideLocation: 11290.6338 7550.1562 256.6617
   IsHidden: 1.0
-  HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
+  HideDiegeticGatherablePins: true
+  ShowDiegeticTaskPin: true
   DiegeticPinZOverride: ""
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -18365,7 +19005,7 @@
   SubTask2: 99E_MSQ_06_PrisonArgument_IGC_Preload
   SubTask3: 99E_MSQ_06_d_02_02_container_prisonIGC
   SubTask4: 99E_MSQ_06_d_02_03_container_postIGC_TalkTo
-  SubTask5: 99E_MSQ_06_d_02_04_container_prisonExit
+  SubTask5: ""
 - TaskID: 99E_MSQ_06_d_02_01_TalkTo_Morgaine_07
   Type: TaskConversationTopic
   FailOnCondition: ""
@@ -18608,7 +19248,7 @@
   OverrideLocation: 11278.4775 7708.3921 358.746
   IsHidden: null
   HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
+  ShowDiegeticTaskPin: true
   DiegeticPinZOverride: ""
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -19919,7 +20559,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: ""
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: "1"
   GuranteedDropAttempts: ""
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -20623,7 +21263,7 @@
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: ""
-  ShouldCheckPoints: ""
+  ShouldCheckPoints: "1"
   GuranteedDropAttempts: ""
   TargetThreshold: ""
   CraftingRecipeId: ""
@@ -20717,7 +21357,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@99E_Default_Task_TalkTo"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 11276.7227 7110.2104 358.8857
+  OverrideLocation: 11276.7256 7710.2334 358.9825
   IsHidden: null
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: null
@@ -20976,7 +21616,7 @@
   OverrideLocation: 11275.3066 7701.7148 354.8155
   IsHidden: null
   HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
+  ShowDiegeticTaskPin: true
   DiegeticPinZOverride: ""
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -25005,7 +25645,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
-  OverrideLocation: 11779.975 6836.915 520.064
+  OverrideLocation: 11777.1787 6833.1919 517.8877
   IsHidden: 1.0
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: true
@@ -25069,7 +25709,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
-  OverrideLocation: 11779.975 6836.915 520.064
+  OverrideLocation: ""
   IsHidden: 1.0
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: true
@@ -25133,7 +25773,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: "@99E_MSQ_09_TheMotherwell_goto_POI_A"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 11779.975 6836.915 520.064
+  OverrideLocation: ""
   IsHidden: null
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: true
@@ -25197,7 +25837,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
-  OverrideLocation: 11779.975 6836.915 520.064
+  OverrideLocation: 11777.1787 6833.1919 517.8877
   IsHidden: 1.0
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: true
@@ -25227,7 +25867,7 @@
   EnforceLocationRequirement: null
   TerritoryID: ""
   POITag: ""
-  GameModeID: QuestMotherwell
+  GameModeID: ""
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: ""
@@ -25261,7 +25901,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
-  OverrideLocation: 11779.975 6836.915 520.064
+  OverrideLocation: ""
   IsHidden: 1.0
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: true
@@ -25453,7 +26093,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
-  OverrideLocation: 11779.975 6836.915 520.064
+  OverrideLocation: ""
   IsHidden: 1.0
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: true
@@ -25675,7 +26315,7 @@
   EnforceLocationRequirement: null
   TerritoryID: ""
   POITag: ""
-  GameModeID: QuestMotherwell
+  GameModeID: ""
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: ""
@@ -25709,7 +26349,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
-  OverrideLocation: 11779.975 6836.915 520.064
+  OverrideLocation: ""
   IsHidden: 1.0
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: true
@@ -25901,7 +26541,7 @@
   TP_TargetTag: ""
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
-  OverrideLocation: 11779.975 6836.915 520.064
+  OverrideLocation: ""
   IsHidden: 1.0
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: true
@@ -26093,7 +26733,7 @@
   TP_TargetTag: TriggerVol_99E_MotherwellExit
   TP_DescriptionTag: "@99E_MSQ_09_TheMotherwell_exitMotherwell"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 11336.3174 6862.5151 329.9552
+  OverrideLocation: 11779.975 6836.915 520.064
   IsHidden: null
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: null
@@ -28796,7 +29436,7 @@
   SubTask1: 99E_MSQ_10_d_04_01_GoToPOI_10b
   SubTask2: 99E_MSQ_10_d_04_02_99E_ORI_YonasCave_Unlock
   SubTask3: 99E_MSQ_10_d_04_03_TriggerArea_YonasCaveDoor
-  SubTask4: 99E_MSQ_10_d_04_04_container_insideYonasCave
+  SubTask4: 99E_MSQ_10_d_04_04_container_YonasCaveWorldPins
   SubTask5: ""
 - TaskID: 99E_MSQ_10_d_04_01_GoToPOI_10b
   Type: TaskGoToPOITag
@@ -28990,7 +29630,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99E_MSQ_10_d_04_04_container_insideYonasCave
+- TaskID: 99E_MSQ_10_d_04_04_container_YonasCaveWorldPins
   Type: ConsecutiveTaskContainer
   FailOnCondition: ""
   StayActive: null
@@ -29049,9 +29689,73 @@
   CommunityGoalTag: ""
   HideChildren: ""
   TriggerAnalyticsEvent: ""
+  SubTask1: 99E_MSQ_10_d_04_04_container_insideYonasCave
+  SubTask2: 99E_MSQ_10_d_04_04_03_container_yonasCaveComplete
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99E_MSQ_10_d_04_04_container_insideYonasCave
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: 8773.330 6580.665 313.175
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: true
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
   SubTask1: 99E_MSQ_10_d_04_04_01_container_yonasCavePins
   SubTask2: 99E_MSQ_10_d_04_04_02_container_YonasCaveEncounter
-  SubTask3: 99E_MSQ_10_d_04_04_03_container_yonasCaveComplete
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
 - TaskID: 99E_MSQ_10_d_04_04_01_container_yonasCavePins
@@ -29819,7 +30523,7 @@
   TriggerAnalyticsEvent: ""
   SubTask1: 99E_MSQ_10_d_04_04_03_01_yonasCaveComplete
   SubTask2: 99E_MSQ_10_d_04_04_03_02_ORI_YonasCave_Lock
-  SubTask3: 99E_MSQ_10_d_04_04_02_03_container_Whisper
+  SubTask3: 99E_MSQ_10_d_04_04_02_03_container_Finish
   SubTask4: ""
   SubTask5: ""
 - TaskID: 99E_MSQ_10_d_04_04_03_01_yonasCaveComplete
@@ -29950,7 +30654,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99E_MSQ_10_d_04_04_02_03_container_Whisper
+- TaskID: 99E_MSQ_10_d_04_04_02_03_container_Finish
   Type: ConsecutiveTaskContainer
   FailOnCondition: ""
   StayActive: null
@@ -30010,10 +30714,10 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   SubTask1: 99E_MSQ_10_d_04_04_03_03_TriggerArea_YonasCaveExit
-  SubTask2: 99E_MSQ_10_d_04_04_03_05_container_LeavingCave
-  SubTask3: 99E_MSQ_10_d_04_04_03_04_IsabellaWhisper_F
-  SubTask4: ""
-  SubTask5: ""
+  SubTask2: 99E_MSQ_10_d_05_container_completeSwaps
+  SubTask3: 99E_MSQ_10_d_04_04_03_05_container_WhisperFTrigger
+  SubTask4: 99E_MSQ_10_d_04_04_03_04_IsabellaWhisper_F
+  SubTask5: 99E_MSQ_10_d_05_04_05_GoToPOI_CaerDun
 - TaskID: 99E_MSQ_10_d_04_04_03_03_TriggerArea_YonasCaveExit
   Type: TaskTriggerArea
   FailOnCondition: ""
@@ -30142,7 +30846,7 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99E_MSQ_10_d_04_04_03_05_container_LeavingCave
+- TaskID: 99E_MSQ_10_d_04_04_03_05_container_WhisperFTrigger
   Type: PartialTaskContainer
   FailOnCondition: ""
   StayActive: null
@@ -30251,10 +30955,10 @@
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: ""
   TP_TargetTag: TriggerVol_99E_YonasCaveDoor
-  TP_DescriptionTag: "@99E_MSQ_10_ToCaerDun_leave_YonasCave"
+  TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
-  OverrideLocation: 8771.457 6576.4814 312.7061
-  IsHidden: null
+  OverrideLocation: ""
+  IsHidden: 1.0
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: null
   DiegeticPinZOverride: ""
@@ -30716,7 +31420,7 @@
   SubTask1: 99E_MSQ_10_d_05_04_01_SwapActive_99E_Yash_p3_On
   SubTask2: 99E_MSQ_10_d_05_04_02_SwapActive_99E_Sun_p17_On
   SubTask3: 99E_MSQ_10_d_05_04_04_SwapActive_99F_Grace_On
-  SubTask4: 99E_MSQ_10_d_05_05_TriggerArea_CaerDunInterior
+  SubTask4: ""
   SubTask5: ""
 - TaskID: 99E_MSQ_10_d_05_04_01_SwapActive_99E_Yash_p3_On
   Type: TaskUnlockAchievement
@@ -30974,8 +31678,8 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: 99E_MSQ_10_d_05_05_TriggerArea_CaerDunInterior
-  Type: TaskTriggerArea
+- TaskID: 99E_MSQ_10_d_05_04_05_GoToPOI_CaerDun
+  Type: TaskGoToPOITag
   FailOnCondition: ""
   StayActive: null
   RequiredLevel: ""
@@ -30998,7 +31702,7 @@
   CraftAnyRecipe: ""
   InteractTag: ""
   UIScreenTag: ""
-  TriggerAreaType: Enter
+  TriggerAreaType: ""
   KillEnemyType: ""
   KillEnemyWeaponID: ""
   Duration: null
@@ -31018,10 +31722,10 @@
   MapMarkerWorldPositionY: ""
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: ""
-  TP_TargetTag: TriggerVol_99B_CaerDunExpA
+  TP_TargetTag: ""
   TP_DescriptionTag: "@99E_MSQ_10_ToCaerDun_return_CaerDun"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 9151.8838 6551.2285 319.1301
+  OverrideLocation: ""
   IsHidden: null
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: null

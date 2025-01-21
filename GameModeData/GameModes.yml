@@ -1,6 +1,5 @@
 - GameModeId: TestMode1
   ScriptName: GameModeTest
-  SlicePath: GameModes/GameModeTest_01
   RequiresTeamRaids: "0"
   AdvanceThroughStatesOnUpdate: "0"
   DisplayName: ""
@@ -11,9 +10,6 @@
   SimpleImagePath: ""
   BackgroundImagePath: ""
   ListImagePath: ""
-  CoatlicueName: ""
-  WorldBounds: ""
-  TeamTeleportData: ""
   FeatureFlag: test1
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -52,7 +48,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: false
-  MapId: ""
   LootTags: TestMode1
   MutLootTagsOverride: ""
   ContainerLevel: null
@@ -63,13 +58,9 @@
   MaxAI: ""
   AISpawnRadius: ""
   AIDespawnRadius: ""
-  ProjectedAZothComputeUnits: null
-  ProjectedMemoryUseMb: null
   ProjectedDurationMinutes: null
   Priority: null
   ImmediateLaunch: null
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: false
   DisableDeathsDoor: null
@@ -97,6 +88,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: null
+  TimerThresholdDefault: null
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -152,11 +145,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: TestMode2
   ScriptName: GameModeTest
-  SlicePath: GameModes/GameModeTest_02
   RequiresTeamRaids: "0"
   AdvanceThroughStatesOnUpdate: "0"
   DisplayName: ""
@@ -167,9 +166,6 @@
   SimpleImagePath: ""
   BackgroundImagePath: ""
   ListImagePath: ""
-  CoatlicueName: ""
-  WorldBounds: ""
-  TeamTeleportData: ""
   FeatureFlag: test2
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -208,7 +204,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: false
-  MapId: ""
   LootTags: TestMode2
   MutLootTagsOverride: ""
   ContainerLevel: null
@@ -219,13 +214,9 @@
   MaxAI: ""
   AISpawnRadius: ""
   AIDespawnRadius: ""
-  ProjectedAZothComputeUnits: null
-  ProjectedMemoryUseMb: null
   ProjectedDurationMinutes: null
   Priority: null
   ImmediateLaunch: null
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: false
   DisableDeathsDoor: null
@@ -253,6 +244,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: null
+  TimerThresholdDefault: null
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -308,11 +301,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: Duel
   ScriptName: Duel
-  SlicePath: GameModes/GameMode_Duel
   RequiresTeamRaids: "0"
   AdvanceThroughStatesOnUpdate: "0"
   DisplayName: ""
@@ -323,9 +322,6 @@
   SimpleImagePath: ""
   BackgroundImagePath: ""
   ListImagePath: ""
-  CoatlicueName: ""
-  WorldBounds: ""
-  TeamTeleportData: ""
   FeatureFlag: duels
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -364,7 +360,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: false
-  MapId: ""
   LootTags: Duel
   MutLootTagsOverride: ""
   ContainerLevel: null
@@ -375,13 +370,9 @@
   MaxAI: ""
   AISpawnRadius: ""
   AIDespawnRadius: ""
-  ProjectedAZothComputeUnits: null
-  ProjectedMemoryUseMb: null
   ProjectedDurationMinutes: null
   Priority: null
   ImmediateLaunch: null
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: false
   DisableDeathsDoor: null
@@ -409,6 +400,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: null
+  TimerThresholdDefault: null
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -464,11 +457,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: OutpostRush
   ScriptName: OutpostRush
-  SlicePath: POIs/OutpostRush/OutpostRush_Layout_00
   RequiresTeamRaids: "1"
   AdvanceThroughStatesOnUpdate: "0"
   DisplayName: "@ui_outpost_rush_signup_title"
@@ -479,9 +478,6 @@
   SimpleImagePath: LyShineUI/Images/Icons/OutpostRush/icon_outpostRush.png
   BackgroundImagePath: ""
   ListImagePath: ""
-  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
-  WorldBounds: 937.0,10562.0,704.0,1056.0
-  TeamTeleportData: 1241,10746,96,0+1309,11279,66,180
   FeatureFlag: outpost-rush
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: OutpostRushOnly
@@ -520,7 +516,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: true
   RestrictWaterGathering: true
-  MapId: ""
   LootTags: OutpostRush
   MutLootTagsOverride: ""
   ContainerLevel: null
@@ -531,13 +526,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 8.0
-  ProjectedMemoryUseMb: 1024.0
   ProjectedDurationMinutes: 50.0
   Priority: 1.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: false
   DisableDeathsDoor: true
@@ -565,6 +556,8 @@
   GrantConsumables: ""
   ActivityType: OutpostRush
   OverrideDungeonTimeout: null
+  TimerThresholdDefault: null
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -620,11 +613,17 @@
   MRV2_CConst: 1e-06
   MRV2_DecDays: 14.0
   MRV2_GBs: 1.0,1.2,1.25,1.25,1.3
+  MRV2_RankMultipliers_WinningTeam: 1,1,0.9,0.9,0.8,0.8,0.7,0.7,0.6,0.6,0.5,0.5,0.4,0.4,0.3,0.3,0.2,0.2,0.1,0.1
+  MRV2_RankMultipliers_LosingTeam: 0.1,0.1,0.2,0.2,0.3,0.3,0.4,0.4,0.5,0.5,0.6,0.6,0.7,0.7,0.8,0.8,0.9,0.9,1,1
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: OutpostRush
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: 0.0
+  MapRotationTimeSpanInSeconds: 1.2096e+06
 - GameModeId: Arena3v3
   ScriptName: Arena3v3
-  SlicePath: GameModes/GameMode_Arena01_3v3
   RequiresTeamRaids: "TRUE"
   AdvanceThroughStatesOnUpdate: "FALSE"
   DisplayName: "@ui_pvp_3v3_arena_queue_title"
@@ -635,9 +634,6 @@
   SimpleImagePath: LyShineUI/Images/Icons/PvpArena/icon_pvpArena.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonBrimstoneSands00.png
   ListImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonBrimstoneSands00.png
-  CoatlicueName: "coatlicue\\NW_Arena01"
-  WorldBounds: 864.0,832.0,992.0,960.0
-  TeamTeleportData: 939,935,227,180+939,873,227,0
   FeatureFlag: arena-3v3
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -676,7 +672,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: false
-  MapId: NW_Arena01
   LootTags: CasualArenas
   MutLootTagsOverride: ""
   ContainerLevel: null
@@ -687,13 +682,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.5
-  ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: true
-  FreezeTime: 14.1
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: false
   DisableDeathsDoor: true
@@ -721,6 +712,8 @@
   GrantConsumables: ""
   ActivityType: Arena3v3
   OverrideDungeonTimeout: null
+  TimerThresholdDefault: null
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: 3.0
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: true
@@ -776,167 +769,17 @@
   MRV2_CConst: 1e-06
   MRV2_DecDays: 14.0
   MRV2_GBs: 1.0,1.2,1.25,1.25,1.3
+  MRV2_RankMultipliers_WinningTeam: 1,0.9,0.8
+  MRV2_RankMultipliers_LosingTeam: 0.8,0.9,1
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
-- GameModeId: Arena3v3_02
-  ScriptName: Arena3v3
-  SlicePath: GameModes/GameMode_Arena02_3v3
-  RequiresTeamRaids: "TRUE"
-  AdvanceThroughStatesOnUpdate: "FALSE"
-  DisplayName: "@ui_pvp_3v3_arena_queue_title"
-  Description: ""
-  UiInteractOption: ""
-  RequirementText: ""
-  IconPath: LyShineUI/Images/Icons/PvpArena/icon_pvpArena.png
-  SimpleImagePath: LyShineUI/Images/Icons/PvpArena/icon_pvpArena.png
-  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonBrimstoneSands00.png
-  ListImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonBrimstoneSands00.png
-  CoatlicueName: "coatlicue\\NW_Arena02"
-  WorldBounds: 1064.0,1189.0,256.0,256.0
-  TeamTeleportData: 1206,1300,52,180+1206,1226,52,0
-  FeatureFlag: arena-3v3
-  PurchasableItemClasses: ""
-  PurchasableItemClassesRestrictedToMode: ""
-  NonPurchasableItemClasses: ""
-  ItemClassesToRemoveOnExit: ArenaConsumable
-  RequiredConsumableItemClasses: ""
-  DisabledItemClasses: NoPvPArenas
-  ClearBattleTokensOnExit: "0"
-  RequiresGameModeGDEException: "1"
-  RecommendedLevel: 20.0
-  RequiredLevel: 20.0
-  EntryAchievementConditional: ""
-  QueueLevelBuckets: 20,30,40,50,60,66
-  QueueReadyThreshold: 6.0
-  BackfillReadyThreshold: 5.0
-  NumTeams: 2.0
-  TeamCapacity: 3.0
-  CombineTeamGroups: true
-  ModeNameLocStringId: "@ui_pvp_3v3_arena_signup_title"
-  GearScoreOverrideValueMin: 700.0
-  GearScoreOverrideValueMax: 725.0
-  MinPlayerLevelToUseGearScoreOverride: 60.0
-  MaxPlayerLevelToUseGearScoreOverride: 65.0
-  PossibleItemDropIds: ""
-  ItemDropLevelThreshold01: null
-  PossibleItemDropIdsByLevel01: ""
-  MinGroupSize: null
-  PreserveOldGroup: true
-  IgnoreRequireContribution: null
-  IsDungeon: null
-  IsRaidTrial: null
-  IsSeasonTrial: null
-  IsSoloTrial: null
-  IsMutable: null
-  IsRemoteEntryAllowed: null
-  DifficultyProgressionId: ""
-  RestrictGathering: false
-  RestrictWaterGathering: false
-  MapId: NW_Arena02
-  LootTags: CasualArenas
-  MutLootTagsOverride: ""
-  ContainerLevel: null
-  LootGSRangeOverride: ""
-  UseLevelGS: ""
-  GSClampLevelReqDelta: null
-  VictoryDelaySec: 4.0
-  MaxAI: OpenWorld
-  AISpawnRadius: OpenWorld
-  AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.5
-  ProjectedMemoryUseMb: 512.0
-  ProjectedDurationMinutes: 10.0
-  Priority: 2.0
-  ImmediateLaunch: false
-  PauseTimeOfDay: true
-  FreezeTime: 15.11
-  AILevelAdjustedPerceptionEnabled: false
-  AILeashingOptOut: false
-  DisableDeathsDoor: true
-  DisableMSQTrackersOnHud: true
-  AIPreventEnemyTraining: false
-  UseTeamNamePlate: true
-  ItemDropQuantityOnDeathModifier: 1.0
-  QuitButtonTextId: "@ui_pvp_arena_leave"
-  CannotFastTravelTextId: "@ui_cannot_travel_pvp_arena"
-  LeaveDescTextId: "@ui_pvp_arena_leave_desc"
-  LeaveTimeDescTextId: "@ui_pvp_arena_leave_desc_time"
-  LeaveTitleTextId: "@ui_pvp_arena_leave_title"
-  WarBoardStatDefinitions: PvPArenaWarboardStatDefinitions
-  WarBoardAttackerTeamIdx: 0.0
-  WarBoardDefenderTeamIdx: 1.0
-  RaidInviteDelaySec: 5.0
-  RaidInviteDurationSec: 45.0
-  BackfillDelaySec: 30.0
-  PriorityAddMin: 5.0
-  PriorityAddMax: 10.0
-  AllowPvpValueAccumulation: false
-  MinAcceptedInvites: 6.0
-  UsePendingListMatchmaking: true
-  AutoEquipQuickslot: true
-  GrantConsumables: ""
-  ActivityType: Arena3v3
-  OverrideDungeonTimeout: null
-  SpecialQueueGroupSizes: 3.0
-  ResetChargeOnEnter: true
-  ShouldShowAcceptedFlow: true
-  ScreenHeaderTextId: "@ui_pvparenas_title_join"
-  JoinButtonTextId: "@ui_outpost_rush_signup_joinsolo"
-  SignupTitleTextId: "@ui_pvp_3v3_arena_signup_title"
-  LeaveQueueTitleTextId: "@ui_pvparenas_leave_queue_title"
-  LeaveQueueDescriptionTextId: "@ui_pvparenas_leave_queue_desc"
-  FailGroupPenaltyTextId: "@ui_pvparenas_failgrouppenalty"
-  RespawnTypeToUseForUnstuck: ""
-  LootLimitId: ""
-  DailyLootLimitId: ""
-  WeeklyLootLimitId: ""
-  PossibleJourneyIds: ""
-  TrialIconPath: ""
-  Tip01IconPath: ""
-  Tip01Text: ""
-  Tip02IconPath: ""
-  Tip02Text: ""
-  Tip03IconPath: ""
-  Tip03Text: ""
-  ProsperoActivityId: nw_activity_arena
-  HidePoiName: null
-  HideCompass: true
-  ExclusiveRewardIds: ""
-  UniqueRewardIds: ""
-  BasicRewardIds: ""
-  ReplicateParticipantCharacterIds: true
-  GearScoreRecommendedValueMin: null
-  GearScoreRecommendedValueMax: null
-  MatchmakingMinLevel: 20.0
-  MatchmakingMaxLevel: 65.0
-  MatchmakingMinGS: null
-  UsesRoleSelection: true
-  MatchmakingRequiredHealingFocus: 200.0
-  MatchmakingRequiredHealingMastery: 10.0
-  MatchmakingRequiresTauntGem: false
-  MatchmakingMinTanks: 0.0
-  MatchmakingMaxTanks: 3.0
-  MatchmakingMinHealers: 0.0
-  MatchmakingMaxHealers: 1.0
-  MatchmakingMinDPS: 0.0
-  MatchmakingMaxDPS: 3.0
-  UseMMBuff: false
-  MatchmakingPriority: null
-  AllowMounts: false
-  MountSummonErrorMsg: "@ui_mount_summon_failed_arena3v3"
-  AchievementIdForCompletingMaxRank: ""
-  MRV2_NewR: 1500.0
-  MRV2_NewD: 350.0
-  MRV2_NewV: 0.06
-  MRV2_SConst: 0.5
-  MRV2_CConst: 1e-06
-  MRV2_DecDays: 14.0
-  MRV2_GBs: 1.0,1.2,1.25,1.25,1.3
-  WorldPosToTeleportBackTo: ""
-  DisablePSActivityCards: true
+  AfkModeId: 3v3Arena
+  ReadyUp_PercentRequired: 1.0
+  MapRotationStartIndex: 0.0
+  MapRotationTimeSpanInSeconds: 1.2096e+06
 - GameModeId: Dungeon
   ScriptName: Dungeon
-  SlicePath: ""
   RequiresTeamRaids: ""
   AdvanceThroughStatesOnUpdate: ""
   DisplayName: "@matchmaking_dungeon_activity"
@@ -947,9 +790,6 @@
   SimpleImagePath: LyShineUI/Images/PugFinder/expeditionIconSmall.png
   BackgroundImagePath: ""
   ListImagePath: ""
-  CoatlicueName: ""
-  WorldBounds: ""
-  TeamTeleportData: ""
   FeatureFlag: dungeon-activity
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -988,7 +828,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: null
   RestrictWaterGathering: null
-  MapId: ""
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: null
@@ -999,13 +838,9 @@
   MaxAI: ""
   AISpawnRadius: ""
   AIDespawnRadius: ""
-  ProjectedAZothComputeUnits: null
-  ProjectedMemoryUseMb: null
   ProjectedDurationMinutes: null
   Priority: null
   ImmediateLaunch: null
-  PauseTimeOfDay: null
-  FreezeTime: null
   AILevelAdjustedPerceptionEnabled: null
   AILeashingOptOut: null
   DisableDeathsDoor: null
@@ -1033,6 +868,8 @@
   GrantConsumables: ""
   ActivityType: Dungeon
   OverrideDungeonTimeout: null
+  TimerThresholdDefault: null
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -1088,11 +925,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: Mutation
   ScriptName: Mutation
-  SlicePath: ""
   RequiresTeamRaids: ""
   AdvanceThroughStatesOnUpdate: ""
   DisplayName: "@matchmaking_mutation_activity"
@@ -1103,9 +946,6 @@
   SimpleImagePath: LyShineUI/Images/PugFinder/expeditionMutatedIconSmall.png
   BackgroundImagePath: ""
   ListImagePath: ""
-  CoatlicueName: ""
-  WorldBounds: ""
-  TeamTeleportData: ""
   FeatureFlag: mutation-activity
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -1144,7 +984,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: null
   RestrictWaterGathering: null
-  MapId: ""
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: null
@@ -1155,13 +994,9 @@
   MaxAI: ""
   AISpawnRadius: ""
   AIDespawnRadius: ""
-  ProjectedAZothComputeUnits: null
-  ProjectedMemoryUseMb: null
   ProjectedDurationMinutes: null
   Priority: null
   ImmediateLaunch: null
-  PauseTimeOfDay: null
-  FreezeTime: null
   AILevelAdjustedPerceptionEnabled: null
   AILeashingOptOut: null
   DisableDeathsDoor: null
@@ -1189,6 +1024,8 @@
   GrantConsumables: ""
   ActivityType: Mutation
   OverrideDungeonTimeout: null
+  TimerThresholdDefault: null
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -1244,11 +1081,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: DungeonAmrine
   ScriptName: DungeonAmrine
-  SlicePath: Dungeon/LevelScripts/AmrineDungeon
   RequiresTeamRaids: "0"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@dungeon_amrine_title"
@@ -1259,9 +1102,6 @@
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonAmrine.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonAmrine.png
-  CoatlicueName: "coatlicue\\NW_Dungeon_Windsward_00"
-  WorldBounds: 610.0,560.0,352.0,512.0
-  TeamTeleportData: 645.0,663.0,153.0,0
   FeatureFlag: amrine-dungeon
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -1300,7 +1140,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_Dungeon_Windsward_00
   LootTags: Amrine,Lost,Dungeon
   MutLootTagsOverride: ""
   ContainerLevel: 25.0
@@ -1311,13 +1150,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.75
-  ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -1345,6 +1180,8 @@
   GrantConsumables: ""
   ActivityType: Dungeon
   OverrideDungeonTimeout: null
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -1400,11 +1237,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: DungeonShatteredObelisk
   ScriptName: DungeonShatteredObelisk
-  SlicePath: Dungeon/LevelScripts/ShatteredObeliskDungeon
   RequiresTeamRaids: "0"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@dungeon_everfall_title"
@@ -1415,9 +1258,6 @@
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonShatteredObelisk_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonShatteredObelisk.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonShatteredObelisk.png
-  CoatlicueName: "coatlicue\\NW_Dungeon_Everfall_00"
-  WorldBounds: 0.0,0.0,1056.0,864.0
-  TeamTeleportData: 965.0,576.0,317.0,90
   FeatureFlag: shatteredobelisk-dungeon
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -1456,7 +1296,6 @@
   DifficultyProgressionId: DungeonEverfall00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_Dungeon_Everfall_00
   LootTags: ShatteredObelisk,Ancient,Dungeon
   MutLootTagsOverride: ShatteredObelisk_Mut,Ancient,GypsumBlue,Dungeon
   ContainerLevel: 35.0
@@ -1467,13 +1306,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 1.5
-  ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -1501,6 +1336,8 @@
   GrantConsumables: ""
   ActivityType: Dungeon
   OverrideDungeonTimeout: null
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: 600.0
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -1556,11 +1393,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: DungeonRestlessShores01
   ScriptName: DungeonRestlessShores01
-  SlicePath: Dungeon/LevelScripts/RestlessShores01Dungeon
   RequiresTeamRaids: "0"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@dungeon_restlessshores01_title"
@@ -1571,9 +1414,6 @@
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonRestlessShores01_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonRestlessShores01.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonRestlessShores01.png
-  CoatlicueName: "coatlicue\\NW_Dungeon_RestlessShores_01"
-  WorldBounds: 500.0,780.0,1152.0,1440.0
-  TeamTeleportData: 992.0,1007.0,149.0,180
   FeatureFlag: restlessshores01-dungeon
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -1612,7 +1452,6 @@
   DifficultyProgressionId: DungeonRestlessShores01DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_Dungeon_RestlessShores_01
   LootTags: RestlessShores01,Corrupted,Dungeon
   MutLootTagsOverride: Restless01_Mut,Corrupted,GypsumBlue,Dungeon
   ContainerLevel: 45.0
@@ -1623,13 +1462,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.75
-  ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -1657,6 +1492,8 @@
   GrantConsumables: ""
   ActivityType: Dungeon
   OverrideDungeonTimeout: null
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: 600.0
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -1712,11 +1549,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: DungeonEbonscale00
   ScriptName: DungeonEbonscale00
-  SlicePath: Dungeon/LevelScripts/Ebonscale00Dungeon
   RequiresTeamRaids: "0"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@dungeon_ebonscale00_title"
@@ -1727,9 +1570,6 @@
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonEbonscale00_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonEbonscale00.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonEbonscale00.png
-  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
-  WorldBounds: 4480.0,4096.0,608.0,544.0
-  TeamTeleportData: 5039.0,4321.0,41,0
   FeatureFlag: ebonscale00-dungeon
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -1768,7 +1608,6 @@
   DifficultyProgressionId: DungeonEbonscale00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NewWorld_VitaeEterna
   LootTags: Ebonscale00,Corrupted,Dungeon
   MutLootTagsOverride: Ebonscale00_Mut,Corrupted,GypsumBlue,Dungeon
   ContainerLevel: 55.0
@@ -1779,13 +1618,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.75
-  ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: true
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -1813,6 +1648,8 @@
   GrantConsumables: ""
   ActivityType: Dungeon
   OverrideDungeonTimeout: null
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: 600.0
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -1868,11 +1705,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: DungeonEdengrove00
   ScriptName: DungeonEdengrove00
-  SlicePath: Dungeon/LevelScripts/Edengrove00Dungeon
   RequiresTeamRaids: "0"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@dungeon_edengrove00_title"
@@ -1883,9 +1726,6 @@
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonEdengrove00_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonEdengrove00.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonEdengrove00.png
-  CoatlicueName: "coatlicue\\NW_Dungeon_Edengrove_00"
-  WorldBounds: 384.0,1024.0,640.0,800.0
-  TeamTeleportData: 675.0,1166.0,186.0,0
   FeatureFlag: edengrove00-dungeon
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -1924,7 +1764,6 @@
   DifficultyProgressionId: DungeonEdengrove00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_Dungeon_Edengrove_00
   LootTags: Edengrove00,AngryEarth,GypsumBlue,Dungeon
   MutLootTagsOverride: ""
   ContainerLevel: 60.0
@@ -1935,13 +1774,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.75
-  ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -1969,6 +1804,8 @@
   GrantConsumables: ""
   ActivityType: Dungeon
   OverrideDungeonTimeout: null
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: 600.0
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -2024,11 +1861,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: DungeonReekwater00
   ScriptName: DungeonReekwater00
-  SlicePath: Dungeon/LevelScripts/Reekwater00Dungeon
   RequiresTeamRaids: "0"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@dungeon_reekwater_title"
@@ -2039,9 +1882,6 @@
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonReekwater00_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonReekwater00.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonReekwater00.png
-  CoatlicueName: "coatlicue\\NW_Dungeon_Reekwater_00"
-  WorldBounds: 610.0,560.0,512.0,512.0
-  TeamTeleportData: 798.0,569.0,205.0,0
   FeatureFlag: reekwater00-dungeon
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -2080,7 +1920,6 @@
   DifficultyProgressionId: DungeonReekwater00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_Dungeon_Reekwater_00
   LootTags: Reekwater00,Ancient,GypsumBlue,Dungeon
   MutLootTagsOverride: ""
   ContainerLevel: 60.0
@@ -2091,13 +1930,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.75
-  ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -2125,6 +1960,8 @@
   GrantConsumables: ""
   ActivityType: Dungeon
   OverrideDungeonTimeout: null
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: 600.0
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -2180,11 +2017,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: DungeonCutlassKeys00
   ScriptName: DungeonCutlassKeys00
-  SlicePath: Dungeon/LevelScripts/CutlassKeys00Dungeon
   RequiresTeamRaids: "0"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@dungeon_cutlasskeys00_title"
@@ -2195,9 +2038,6 @@
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonCutlassKeys00_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonCutlassKeys00.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonCutlassKeys00.png
-  CoatlicueName: "coatlicue\\NW_Dungeon_CutlassKeys_00"
-  WorldBounds: 198.0,640.0,800.0,800.0
-  TeamTeleportData: 407,922,175.0,270
   FeatureFlag: cutlasskeys00-dungeon
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -2236,7 +2076,6 @@
   DifficultyProgressionId: DungeonCutlass00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_Dungeon_CutlassKeys_00
   LootTags: CutlassKeys00,Lost,GypsumBlue,Dungeon
   MutLootTagsOverride: ""
   ContainerLevel: 64.0
@@ -2247,13 +2086,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.75
-  ProjectedMemoryUseMb: 575.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: true
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -2281,6 +2116,8 @@
   GrantConsumables: ""
   ActivityType: Dungeon
   OverrideDungeonTimeout: null
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: 600.0
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -2336,11 +2173,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: DungeonGreatCleave01
   ScriptName: DungeonGreatCleave01
-  SlicePath: Dungeon/LevelScripts/GreatCleave01Dungeon
   RequiresTeamRaids: "0"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@dungeon_greatcleave01_title"
@@ -2351,9 +2194,6 @@
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonEmpyreanForge00_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonEmpyreanForge00.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonEmpyreanForge00.png
-  CoatlicueName: "coatlicue\\NW_Dungeon_GreatCleave_01"
-  WorldBounds: 256.0,180.0,1024.0,1024.0
-  TeamTeleportData: 652.0,228.0,236.0,45
   FeatureFlag: greatcleave01-dungeon
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -2392,7 +2232,6 @@
   DifficultyProgressionId: DungeonGreatCleave01DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_Dungeon_GreatCleave_01
   LootTags: GreatCleave01,Knight,GypsumBlue,Dungeon
   MutLootTagsOverride: ""
   ContainerLevel: 65.0
@@ -2403,13 +2242,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.75
-  ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -2437,6 +2272,8 @@
   GrantConsumables: ""
   ActivityType: Dungeon
   OverrideDungeonTimeout: null
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: 600.0
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -2492,11 +2329,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: DungeonShatterMtn00
   ScriptName: DungeonShatterMtn00
-  SlicePath: Dungeon/LevelScripts/ShatterMtn00Dungeon
   RequiresTeamRaids: "0"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@dungeon_shattermtn00_title"
@@ -2507,9 +2350,6 @@
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonShatterMtn00_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonIsabella.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonIsabella.png
-  CoatlicueName: "coatlicue\\NW_Dungeon_ShatterMtn_00"
-  WorldBounds: 242.0,368.0,1760.0,1760.0
-  TeamTeleportData: 1566.0,819.0,190.0,55
   FeatureFlag: shatterMtn00-dungeon
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -2548,7 +2388,6 @@
   DifficultyProgressionId: DungeonShatterMtn00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_Dungeon_ShatterMtn_00
   LootTags: ShatterMtn00,Corrupted,GypsumBlue,Dungeon
   MutLootTagsOverride: ""
   ContainerLevel: 62.0
@@ -2559,13 +2398,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 1.25
-  ProjectedMemoryUseMb: 768.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: true
-  FreezeTime: 17.2
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -2593,6 +2428,8 @@
   GrantConsumables: ""
   ActivityType: Dungeon
   OverrideDungeonTimeout: null
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: 600.0
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -2648,11 +2485,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: DungeonBrimstoneSands00
   ScriptName: DungeonBrimstoneSands00
-  SlicePath: Dungeon/LevelScripts/BrimstoneSands00Dungeon
   RequiresTeamRaids: "0"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@dungeon_brimstonesands00_title"
@@ -2663,9 +2506,6 @@
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonBrimstoneSands00_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonBrimstoneSands00.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonBrimstoneSands00.png
-  CoatlicueName: "coatlicue\\NW_Dungeon_BrimstoneSands_00"
-  WorldBounds: 544.0,576.0,960.0,960.0
-  TeamTeleportData: 898.0,1085.0,863.0,90
   FeatureFlag: brimstonesands00-dungeon
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -2704,7 +2544,6 @@
   DifficultyProgressionId: DungeonBrimstoneSands00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_Dungeon_BrimstoneSands_00
   LootTags: BrimstoneSands00,Ancient,GypsumBlue,Dungeon
   MutLootTagsOverride: ""
   ContainerLevel: 65.0
@@ -2715,13 +2554,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 1.25
-  ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: true
-  FreezeTime: 23.59
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -2749,6 +2584,8 @@
   GrantConsumables: ""
   ActivityType: Dungeon
   OverrideDungeonTimeout: null
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: 600.0
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -2804,11 +2641,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: DungeonFirstLight01
   ScriptName: DungeonFirstLight01
-  SlicePath: Dungeon/LevelScripts/FirstLight01Dungeon
   RequiresTeamRaids: "0"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@dungeon_firstlight01_title"
@@ -2819,9 +2662,6 @@
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonCrystalclawCavern_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonFirstLight00.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonFirstLight00.png
-  CoatlicueName: "coatlicue\\NW_Dungeon_FirstLight_01"
-  WorldBounds: 384.0,384.0,960.0,960.0
-  TeamTeleportData: 651.0,1181.4,279.0,240
   FeatureFlag: firstLight01-dungeon
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -2860,7 +2700,6 @@
   DifficultyProgressionId: DungeonFirstLight01DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_Dungeon_FirstLight_01
   LootTags: EXPFirstLight01,FirstLight,GypsumBlue,Dungeon
   MutLootTagsOverride: ""
   ContainerLevel: 70.0
@@ -2871,13 +2710,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 1.0
-  ProjectedMemoryUseMb: 768.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: true
-  FreezeTime: 17.2
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -2905,6 +2740,8 @@
   GrantConsumables: ""
   ActivityType: Dungeon
   OverrideDungeonTimeout: null
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: 600.0
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -2960,11 +2797,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: DungeonGreatCleave00
   ScriptName: DungeonGreatCleave00
-  SlicePath: Dungeon/LevelScripts/GlacialTarnDungeon
   RequiresTeamRaids: "0"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@dungeon_greatcleave00_title"
@@ -2975,9 +2818,6 @@
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_glacialtarn_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonGreatCleave00.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonGreatCleave00.png
-  CoatlicueName: "coatlicue\\NW_Dungeon_GreatCleave_00"
-  WorldBounds: 679.0,320.0,640.0,640.0
-  TeamTeleportData: 1223,586,302,80
   FeatureFlag: greatcleave00-dungeon
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -3016,7 +2856,6 @@
   DifficultyProgressionId: DungeonGreatCleave00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_Dungeon_GreatCleave_00
   LootTags: GreatCleave00,Ancient,GypsumBlue,Dungeon
   MutLootTagsOverride: ""
   ContainerLevel: 65.0
@@ -3027,13 +2866,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.75
-  ProjectedMemoryUseMb: 512.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -3061,6 +2896,8 @@
   GrantConsumables: ""
   ActivityType: Dungeon
   OverrideDungeonTimeout: null
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: 600.0
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -3116,11 +2953,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: TrialBrimstoneSandworm
   ScriptName: TrialBrimstoneSandworm
-  SlicePath: GameModes/Trials/BrimstoneSandwormTrial00
   RequiresTeamRaids: "TRUE"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@trial_brimstone_sandworm_title"
@@ -3131,9 +2974,6 @@
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
   BackgroundImagePath: LyShineUI/Images/EntranceScreen/Sandworm/EntranceScreenBG_Sandworm.png
   ListImagePath: LyShineUI/Images/EntranceScreen/Sandworm/EntranceScreenBG_Sandworm.png
-  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
-  WorldBounds: 4902.0,7698.0,128.0,128.0
-  TeamTeleportData: 4935.0,7788.0,224.0,235
   FeatureFlag: sandworm-trial
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -3172,7 +3012,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: ""
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: null
@@ -3183,13 +3022,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 3.2
-  ProjectedMemoryUseMb: 256.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -3217,6 +3052,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 10800.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -3272,11 +3109,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: RaidCutlassKeys00
   ScriptName: RaidCutlassKeys00
-  SlicePath: Dungeon/LevelScripts/RaidCutlassKeys00
   RequiresTeamRaids: "TRUE"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@raid_cutlasskeys00_title"
@@ -3287,9 +3130,6 @@
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/raid.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/raidImages/raidimages_RaidCutlassKeys00.png
   ListImagePath: LyShineUI/Images/Dungeons/raidImages/raidimages_RaidCutlassKeys00.png
-  CoatlicueName: "coatlicue\\NW_Raid_CutlassKeys_00"
-  WorldBounds: 545.0,574.0,800.0,768.0
-  TeamTeleportData: 569.0,1237.0,120.0,260
   FeatureFlag: cutlasskeys00-raid
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -3313,9 +3153,9 @@
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
-  PossibleItemDropIds: AmuletT5_Hoplite,RingT5_Hoplite,EarringT5_Hoplite,2hStaffLife_Hoplite,1hGauntletIce_Hoplite,1hGauntletVoid_Hoplite,2hStaffFire_Hoplite,2hSpear_Hoplite,1hRapier_Hoplite,2hWarhammer_Hoplite,1hRshield_Hoplite,1hKshield_Hoplite,1hTshield_Hoplite,1hThrowingAxe_Hoplite,2hBow_Hoplite,2hBlunderbuss_Hoplite,2hMusket_Hoplite,2hGreataxe_Hoplite,1hLongsword_Hoplite,2hGreatSword_Hoplite,1hFlail_Hoplite,LightChest_Hoplite,LightHead_Hoplite,LightLegs_Hoplite,LightFeet_Hoplite,LightHands_Hoplite,MediumChest_Hoplite,MediumHead_Hoplite,MediumLegs_Hoplite,MediumFeet_Hoplite,MediumHands_Hoplite,HeavyChest_Hoplite,HeavyHead_Hoplite,HeavyLegs_Hoplite,HeavyFeet_Hoplite,HeavyHands_Hoplite
+  PossibleItemDropIds: Artifact_Set2_2hWarhammer,Artifact_Set2_Ring1,Artifact_Set2_MediumLegs,AmuletT5_Hoplite,RingT5_Hoplite,EarringT5_Hoplite,2hStaffLife_Hoplite,1hGauntletIce_Hoplite,1hGauntletVoid_Hoplite,2hStaffFire_Hoplite,2hSpear_Hoplite,1hRapier_Hoplite,2hWarhammer_Hoplite,1hRshield_Hoplite,1hKshield_Hoplite,1hTshield_Hoplite,1hThrowingAxe_Hoplite,2hBow_Hoplite,2hBlunderbuss_Hoplite,2hMusket_Hoplite,2hGreataxe_Hoplite,1hLongsword_Hoplite,2hGreatSword_Hoplite,1hFlail_Hoplite,LightChest_Hoplite,LightHead_Hoplite,LightLegs_Hoplite,LightFeet_Hoplite,LightHands_Hoplite,MediumChest_Hoplite,MediumHead_Hoplite,MediumLegs_Hoplite,MediumFeet_Hoplite,MediumHands_Hoplite,HeavyChest_Hoplite,HeavyHead_Hoplite,HeavyLegs_Hoplite,HeavyFeet_Hoplite,HeavyHands_Hoplite
   ItemDropLevelThreshold01: null
-  PossibleItemDropIdsByLevel01: AmuletT5_Hoplite,RingT5_Hoplite,EarringT5_Hoplite,2hStaffLife_Hoplite,1hGauntletIce_Hoplite,1hGauntletVoid_Hoplite,2hStaffFire_Hoplite,2hSpear_Hoplite,1hRapier_Hoplite,2hWarhammer_Hoplite,1hRshield_Hoplite,1hKshield_Hoplite,1hTshield_Hoplite,1hThrowingAxe_Hoplite,2hBow_Hoplite,2hBlunderbuss_Hoplite,2hMusket_Hoplite,2hGreataxe_Hoplite,1hLongsword_Hoplite,2hGreatSword_Hoplite,1hFlail_Hoplite,LightChest_Hoplite,LightHead_Hoplite,LightLegs_Hoplite,LightFeet_Hoplite,LightHands_Hoplite,MediumChest_Hoplite,MediumHead_Hoplite,MediumLegs_Hoplite,MediumFeet_Hoplite,MediumHands_Hoplite,HeavyChest_Hoplite,HeavyHead_Hoplite,HeavyLegs_Hoplite,HeavyFeet_Hoplite,HeavyHands_Hoplite
+  PossibleItemDropIdsByLevel01: Artifact_Set2_2hWarhammer,Artifact_Set2_Ring1,Artifact_Set2_MediumLegs,AmuletT5_Hoplite,RingT5_Hoplite,EarringT5_Hoplite,2hStaffLife_Hoplite,1hGauntletIce_Hoplite,1hGauntletVoid_Hoplite,2hStaffFire_Hoplite,2hSpear_Hoplite,1hRapier_Hoplite,2hWarhammer_Hoplite,1hRshield_Hoplite,1hKshield_Hoplite,1hTshield_Hoplite,1hThrowingAxe_Hoplite,2hBow_Hoplite,2hBlunderbuss_Hoplite,2hMusket_Hoplite,2hGreataxe_Hoplite,1hLongsword_Hoplite,2hGreatSword_Hoplite,1hFlail_Hoplite,LightChest_Hoplite,LightHead_Hoplite,LightLegs_Hoplite,LightFeet_Hoplite,LightHands_Hoplite,MediumChest_Hoplite,MediumHead_Hoplite,MediumLegs_Hoplite,MediumFeet_Hoplite,MediumHands_Hoplite,HeavyChest_Hoplite,HeavyHead_Hoplite,HeavyLegs_Hoplite,HeavyFeet_Hoplite,HeavyHands_Hoplite
   MinGroupSize: 6.0
   PreserveOldGroup: null
   IgnoreRequireContribution: true
@@ -3328,7 +3168,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_Raid_CutlassKeys_00
   LootTags: GypsumBlue,Raid,HercyneRaid
   MutLootTagsOverride: ""
   ContainerLevel: 70.0
@@ -3339,13 +3178,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 3.2
-  ProjectedMemoryUseMb: 256.0
   ProjectedDurationMinutes: 30.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: true
-  FreezeTime: 14.25
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -3373,6 +3208,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 14400.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -3428,11 +3265,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: Raid
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: TrialSeason01
   ScriptName: TrialSeason01
-  SlicePath: Dungeon/LevelScripts/Season_Trial_01
   RequiresTeamRaids: "TRUE"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@Trial_Season_01_title"
@@ -3443,9 +3286,6 @@
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_season.png"
   BackgroundImagePath: LyShineUI/Images/EntranceScreen/Hatchery/EntranceScreenBG_Hatchery.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_TrialSeason02Q12.png
-  CoatlicueName: "coatlicue\\NW_Trial_Season_02"
-  WorldBounds: 921.0,916.0,256.0,256.0
-  TeamTeleportData: 1056.0,959.0,105.5,0
   FeatureFlag: trial-season-02
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -3484,7 +3324,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_Trial_Season_02
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: null
@@ -3495,13 +3334,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 1.875
-  ProjectedMemoryUseMb: 1280.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -3529,6 +3364,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 3600.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -3584,11 +3421,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: TrialSeason04
   ScriptName: TrialSeason04
-  SlicePath: Dungeon/LevelScripts/Trial_Season_04
   RequiresTeamRaids: "TRUE"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@Trial_Season_04_title"
@@ -3599,9 +3442,6 @@
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_season.png"
   BackgroundImagePath: LyShineUI/Images/EntranceScreen/Season5_Trial/EntranceScreenBG_Season5_Trial.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_TrialSeason04Q05.png
-  CoatlicueName: "coatlicue\\NW_Trial_Season_04"
-  WorldBounds: 145.0,6.0,512.0,512.0
-  TeamTeleportData: 213.0,258.0,247.0,270
   FeatureFlag: trial-season-04
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -3640,7 +3480,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_Trial_Season_04
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: null
@@ -3651,13 +3490,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 1.875
-  ProjectedMemoryUseMb: 1280.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: true
-  FreezeTime: 4.2
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -3685,6 +3520,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 3600.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -3740,11 +3577,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: QuestAdiana
   ScriptName: QuestAdiana
-  SlicePath: Dungeon/AdianaFirstLight/AdianaScript
   RequiresTeamRaids: "FALSE"
   AdvanceThroughStatesOnUpdate: "TRUE"
   DisplayName: "@Quest_Adiana_title"
@@ -3755,9 +3598,6 @@
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestAdiana.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestAdiana.png
-  CoatlicueName: "coatlicue\\NW_ORI_FL_QuestAdiana"
-  WorldBounds: 600.0,700.0,256.0,256.0
-  TeamTeleportData: 730.0,788,417.0,0
   FeatureFlag: quest-adiana
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -3796,7 +3636,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_ORI_FL_QuestAdiana
   LootTags: FirstLight
   MutLootTagsOverride: ""
   ContainerLevel: 65.0
@@ -3807,13 +3646,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.2
-  ProjectedMemoryUseMb: 100.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -3841,6 +3676,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 2700.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -3896,11 +3733,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: false
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: QuestApophis
   ScriptName: QuestApophis
-  SlicePath: Dungeon/ApophisBrimstone/ApophisScript
   RequiresTeamRaids: "0"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@Quest_Apophis_title"
@@ -3911,9 +3754,6 @@
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestApophis.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestApophis.png
-  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
-  WorldBounds: 4660.0,8992.0,128.0,128.0
-  TeamTeleportData: 4710.0,9075.2,414.4,207
   FeatureFlag: apophis-quest
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -3952,7 +3792,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: ""
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: 63.0
@@ -3963,13 +3802,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.2
-  ProjectedMemoryUseMb: 200.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -3997,6 +3832,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 1800.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -4052,11 +3889,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: false
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: QuestCaerDun
   ScriptName: QuestCaerDun
-  SlicePath: Dungeon/CaerDunBrightwood/CaerDunScript
   RequiresTeamRaids: "0"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@Quest_CaerDun_title"
@@ -4067,9 +3910,6 @@
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestCaerDun.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestCaerDun.png
-  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
-  WorldBounds: 9074.68,6534.42,64.0,64.0
-  TeamTeleportData: 9109,6554,316,90
   FeatureFlag: quest-caerdun
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -4108,7 +3948,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: ""
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: 35.0
@@ -4119,13 +3958,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.125
-  ProjectedMemoryUseMb: 75.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -4153,6 +3988,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 1200.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -4208,11 +4045,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: false
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: QuestEmpressZhou
   ScriptName: QuestEmpressZhou
-  SlicePath: Dungeon/EmpressZhou/Script_QuestEmpressZhou
   RequiresTeamRaids: "0"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@quest_empress_zhou_title"
@@ -4223,9 +4066,6 @@
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestEmpressZhou.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestEmpressZhou.png
-  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
-  WorldBounds: 5201.0,4282.0,256.0,256.0
-  TeamTeleportData: 5329.0,4375.43,44.28,90
   FeatureFlag: quest-empresszhou
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -4264,7 +4104,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NewWorld_VitaeEterna
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: 59.0
@@ -4275,13 +4114,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.225
-  ProjectedMemoryUseMb: 200.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: true
-  FreezeTime: 18.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -4309,6 +4144,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 1200.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -4364,11 +4201,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: false
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: QuestIsabella
   ScriptName: QuestIsabella
-  SlicePath: Dungeon/Isabella/QuestIsabellaScript
   RequiresTeamRaids: "0"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@quest_isabella_title"
@@ -4379,9 +4222,6 @@
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestIsabella.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestIsabella.png
-  CoatlicueName: "coatlicue\\NW_ORI_SM_QuestIsabella"
-  WorldBounds: 962.0,779.0,512.0,512.0
-  TeamTeleportData: 1240,1078,140,90
   FeatureFlag: quest-isabella
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -4420,7 +4260,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_ORI_SM_QuestIsabella
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: 60.0
@@ -4431,13 +4270,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.35
-  ProjectedMemoryUseMb: 150.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -4465,6 +4300,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 2700.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -4520,11 +4357,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: false
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: QuestMammoth
   ScriptName: QuestMammoth
-  SlicePath: Dungeon/MammothFirstLight/MammothScript
   RequiresTeamRaids: "FALSE"
   AdvanceThroughStatesOnUpdate: "TRUE"
   DisplayName: "@Quest_Mammoth_title"
@@ -4535,9 +4378,6 @@
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestMammoth.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestMammoth.png
-  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
-  WorldBounds: 9461.7,1919.0,128.0,128.0
-  TeamTeleportData: 9471.6,1960.6,65.4,301.4
   FeatureFlag: quest-mammoth
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -4576,7 +4416,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: ""
   LootTags: FirstLight
   MutLootTagsOverride: ""
   ContainerLevel: 64.0
@@ -4587,13 +4426,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.15
-  ProjectedMemoryUseMb: 130.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -4621,6 +4456,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 1800.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -4676,11 +4513,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: false
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: QuestMedusa
   ScriptName: QuestMedusa
-  SlicePath: Dungeon/MedusaFirstLight/MedusaScript
   RequiresTeamRaids: "FALSE"
   AdvanceThroughStatesOnUpdate: "TRUE"
   DisplayName: "@Quest_Medusa_title"
@@ -4691,9 +4534,6 @@
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestMedusa.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestMedusa.png
-  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
-  WorldBounds: 8601.0,1193.0,64.0,256.0
-  TeamTeleportData: 8654.499023,1399.289917,203.916153,51.72
   FeatureFlag: quest-medusa
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -4732,7 +4572,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: ""
   LootTags: FirstLight
   MutLootTagsOverride: ""
   ContainerLevel: 65.0
@@ -4743,13 +4582,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.2
-  ProjectedMemoryUseMb: 225.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -4777,6 +4612,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 1800.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -4832,11 +4669,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: false
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: QuestMotherwell
   ScriptName: QuestMotherwell
-  SlicePath: Dungeon/MotherwellEdengrove/MotherwellScript
   RequiresTeamRaids: "FALSE"
   AdvanceThroughStatesOnUpdate: "TRUE"
   DisplayName: "@Quest_Motherwell_title"
@@ -4847,9 +4690,6 @@
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestMotherwell.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestMotherwell.png
-  CoatlicueName: "coatlicue\\NW_ORI_EG_QuestMotherwell"
-  WorldBounds: 928.0,672.0,320.0,320.0
-  TeamTeleportData: 1149.9,925.3,114.1,122.7
   FeatureFlag: quest-motherwell
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -4888,7 +4728,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_ORI_EG_QuestMotherwell
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: 57.0
@@ -4899,13 +4738,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.1
-  ProjectedMemoryUseMb: 75.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -4933,6 +4768,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 1200.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -4988,11 +4825,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: false
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: QuestMedea
   ScriptName: QuestMedea
-  SlicePath: Dungeon/MedeaWindsward/MedeaScript
   RequiresTeamRaids: "FALSE"
   AdvanceThroughStatesOnUpdate: "TRUE"
   DisplayName: "@Quest_Medea_title"
@@ -5003,9 +4846,6 @@
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestMedea.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestMedea.png
-  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
-  WorldBounds: 8436,2615,256,256
-  TeamTeleportData: 8504,2663,56.6259,90
   FeatureFlag: quest-medea
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -5044,7 +4884,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_ORI_EG_QuestMedea
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: 17.0
@@ -5055,13 +4894,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.375
-  ProjectedMemoryUseMb: 256.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -5089,6 +4924,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 1800.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -5144,11 +4981,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: false
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: QuestNihilo
   ScriptName: QuestNihilo
-  SlicePath: Dungeon/NihiloGreatCleave/LeviathanScript
   RequiresTeamRaids: "FALSE"
   AdvanceThroughStatesOnUpdate: "TRUE"
   DisplayName: "@Quest_Nihilo_title"
@@ -5159,9 +5002,6 @@
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestNihilo.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestNihilo.png
-  CoatlicueName: "coatlicue\\NW_ORI_GC_QuestNihilo"
-  WorldBounds: 777.0,534.0,640.0,640.0
-  TeamTeleportData: 1033.0,707.0,169.5,90.0
   FeatureFlag: quest-nihilo
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -5200,7 +5040,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_ORI_GC_QuestNihilo
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: 50.0
@@ -5211,13 +5050,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.175
-  ProjectedMemoryUseMb: 125.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -5245,6 +5080,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 2700.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -5300,11 +5137,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: false
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: QuestYonas
   ScriptName: QuestYonas
-  SlicePath: Dungeon/YonasCave/YonasScript
   RequiresTeamRaids: "FALSE"
   AdvanceThroughStatesOnUpdate: "TRUE"
   DisplayName: "@Quest_Yonas_title"
@@ -5315,9 +5158,6 @@
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestYonas.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestYonas.png
-  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
-  WorldBounds: 8766.0,6596.0,96.0,96.0
-  TeamTeleportData: 8784.0,6608.0,314.1,0.0
   FeatureFlag: quest-yonas
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -5356,7 +5196,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: ""
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: 57.0
@@ -5367,13 +5206,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.1
-  ProjectedMemoryUseMb: 50.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -5401,6 +5236,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 1200.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -5456,11 +5293,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: false
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: TrialSeason02Q13
   ScriptName: TrialSeason02Q13
-  SlicePath: Dungeon/LevelScripts/TrialSeason02Q13
   RequiresTeamRaids: "FALSE"
   AdvanceThroughStatesOnUpdate: "TRUE"
   DisplayName: "@trial_season_02_q13_title"
@@ -5471,9 +5314,6 @@
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_TrialSeason02Q13.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_TrialSeason02Q13.png
-  CoatlicueName: "coatlicue\\NW_Trial_Season_02_Q13"
-  WorldBounds: 877.0,935.0,256.0,256.0
-  TeamTeleportData: 973.0,1085.0,142.0,180
   FeatureFlag: trial-season-02-q13
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -5512,7 +5352,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_Trial_Season_02_Q13
   LootTags: Corrupted
   MutLootTagsOverride: ""
   ContainerLevel: 67.0
@@ -5523,13 +5362,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.375
-  ProjectedMemoryUseMb: 99999.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -5557,6 +5392,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 1200.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -5612,11 +5449,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: TrialSeason02Q12
   ScriptName: TrialSeason02Q12
-  SlicePath: Dungeon/LevelScripts/TrialSeason02Q12
   RequiresTeamRaids: "FALSE"
   AdvanceThroughStatesOnUpdate: "TRUE"
   DisplayName: "@trial_season_02_q12_title"
@@ -5627,9 +5470,6 @@
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_TrialSeason02Q12.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_TrialSeason02Q12.png
-  CoatlicueName: "coatlicue\\NW_Trial_Season_02"
-  WorldBounds: 921.0,916.0,256.0,256.0
-  TeamTeleportData: 1056.269,987.204,98.031,0
   FeatureFlag: trial-season-02-q12
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -5668,7 +5508,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_Trial_Season_02
   LootTags: Corrupted
   MutLootTagsOverride: ""
   ContainerLevel: 67.0
@@ -5679,13 +5518,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.125
-  ProjectedMemoryUseMb: 125.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: true
-  FreezeTime: 6.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -5713,6 +5548,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 1800.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -5768,11 +5605,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: TrialSeason04Q02
   ScriptName: TrialSeason04Q02
-  SlicePath: Dungeon/LevelScripts/TrialSeason04Q02
   RequiresTeamRaids: "FALSE"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@trial_season_04_q02_title"
@@ -5783,9 +5626,6 @@
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_TrialSeason04Q02.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_TrialSeason04Q02.png
-  CoatlicueName: "coatlicue\\NW_Trial_Season_04_DaichiDojo"
-  WorldBounds: 277.0,375.0,64.0,64.0
-  TeamTeleportData: 308.0,416.0,75.0,180
   FeatureFlag: trial-season-04-q02
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -5824,7 +5664,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_Trial_Season_04_DaichiDojo
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: 67.0
@@ -5835,13 +5674,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.375
-  ProjectedMemoryUseMb: 99999.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: true
-  FreezeTime: 13.8
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -5869,6 +5704,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 1800.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -5924,11 +5761,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: TrialSeason04Q06
   ScriptName: TrialSeason04Q06
-  SlicePath: Dungeon/LevelScripts/TrialSeason04Q06
   RequiresTeamRaids: "FALSE"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@trial_season_04_q06_title"
@@ -5939,9 +5782,6 @@
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_TrialSeason04Q06.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_TrialSeason04Q06.png
-  CoatlicueName: "coatlicue\\NW_Trial_Season_04_DeviceRoom"
-  WorldBounds: 121.0,128.0,256.0,256.0
-  TeamTeleportData: 172.82,254.97,260.34,270
   FeatureFlag: trial-season-04-q06
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -5980,7 +5820,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_Trial_Season_04_DeviceRoom
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: 67.0
@@ -5991,13 +5830,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.1
-  ProjectedMemoryUseMb: 50.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -6025,6 +5860,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 1800.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -6080,11 +5917,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: TrialSeason04Q05
   ScriptName: TrialSeason04Q05
-  SlicePath: Dungeon/LevelScripts/TrialSeason04Q05
   RequiresTeamRaids: "FALSE"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@trial_season_04_q05_title"
@@ -6095,9 +5938,6 @@
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_TrialSeason04Q05.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_TrialSeason04Q05.png
-  CoatlicueName: "coatlicue\\NW_Trial_Season_04"
-  WorldBounds: 145.0,6.0,512.0,512.0
-  TeamTeleportData: 213.0,258.0,248.5,270
   FeatureFlag: trial-season-04-q05
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -6136,7 +5976,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_Trial_Season_04
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: 67.0
@@ -6147,13 +5986,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.2
-  ProjectedMemoryUseMb: 100.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 1.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -6181,6 +6016,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 2700.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: true
   ShouldShowAcceptedFlow: null
@@ -6236,11 +6073,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: QuestHeartforge
   ScriptName: QuestHeartforge
-  SlicePath: Dungeon/Heartforge/HeartforgeScript
   RequiresTeamRaids: "FALSE"
   AdvanceThroughStatesOnUpdate: "TRUE"
   DisplayName: "@Quest_Heartforge_title"
@@ -6251,9 +6094,6 @@
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestHeartforge.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestHeartforge.png
-  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
-  WorldBounds: 9511.0,3128.0,96.0,96.0
-  TeamTeleportData: 9534.0,3189.0,135.0,200.0
   FeatureFlag: quest-heartforge
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -6292,7 +6132,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: ""
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: 25.0
@@ -6303,13 +6142,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.375
-  ProjectedMemoryUseMb: 256.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -6337,6 +6172,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 1800.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -6392,11 +6229,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: false
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: QuestLiang
   ScriptName: QuestLiang
-  SlicePath: Dungeon/AbominableLiangEbonscale/AbominableLiangScript
   RequiresTeamRaids: "0"
   AdvanceThroughStatesOnUpdate: "1"
   DisplayName: "@quest_liang_title"
@@ -6407,9 +6250,6 @@
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestLiang.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestLiang.png
-  CoatlicueName: "coatlicue\\NW_ORI_ER_QuestLiang"
-  WorldBounds: 500.0,500.0,1024.0,1024.0
-  TeamTeleportData: 1034.3,943.5,130.0,270.0
   FeatureFlag: quest-liang
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -6448,7 +6288,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: NW_ORI_ER_QuestLiang
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: 58.0
@@ -6459,13 +6298,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.375
-  ProjectedMemoryUseMb: 256.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -6493,6 +6328,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 1800.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -6548,11 +6385,17 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: false
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
 - GameModeId: QuestGawain
   ScriptName: QuestGawain
-  SlicePath: Dungeon/Gawain/GawainScript
   RequiresTeamRaids: "0"
   AdvanceThroughStatesOnUpdate: "FALSE"
   DisplayName: "@quest_gawain_title"
@@ -6563,9 +6406,6 @@
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestGawain.png
   ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestGawain.png
-  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
-  WorldBounds: 6786.0,2882.0,96.0,96.0
-  TeamTeleportData: 6831,2907,78,315
   FeatureFlag: quest-gawain
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -6604,7 +6444,6 @@
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
-  MapId: ""
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: 17.0
@@ -6615,13 +6454,9 @@
   MaxAI: OpenWorld
   AISpawnRadius: OpenWorld
   AIDespawnRadius: OpenWorld
-  ProjectedAZothComputeUnits: 0.225
-  ProjectedMemoryUseMb: 150.0
   ProjectedDurationMinutes: 10.0
   Priority: 2.0
   ImmediateLaunch: false
-  PauseTimeOfDay: false
-  FreezeTime: 0.0
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
   DisableDeathsDoor: null
@@ -6649,6 +6484,8 @@
   GrantConsumables: ""
   ActivityType: ""
   OverrideDungeonTimeout: 1800.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
   SpecialQueueGroupSizes: null
   ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: null
@@ -6704,5 +6541,12 @@
   MRV2_CConst: null
   MRV2_DecDays: null
   MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: false
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null

@@ -305,7 +305,7 @@
   OnDeath: false
   OnDeathsDoor: false
   OnHitTakenWhileInvulnerable: false
-  RequireReaction: null
+  RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
@@ -1756,12 +1756,12 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: null
+  ActivationCooldown: 0.5
   Duration: null
   CooldownId: Ability_Rapier_Flourish
   CDRImmediatelyOptions: AbilitySpecific
   ResetCooldownTimers: ""
-  CooldownTimer: -0.035
+  CooldownTimer: -0.09
   NumFreeCooldownsPerUse: ""
   MaxHitCountMultiplier: null
   SetMannequinTag: ""
@@ -3297,7 +3297,7 @@
   OnDeath: false
   OnDeathsDoor: false
   OnHitTakenWhileInvulnerable: false
-  RequireReaction: null
+  RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
@@ -3569,7 +3569,7 @@
   OnDeath: false
   OnDeathsDoor: false
   OnHitTakenWhileInvulnerable: false
-  RequireReaction: null
+  RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
@@ -5065,15 +5065,15 @@
   OnDeath: false
   OnDeathsDoor: false
   OnHitTakenWhileInvulnerable: false
-  RequireReaction: null
+  RequireReaction: true
   NumSuccessfulHits: 0.0
   NumConsecutiveHits: 0.0
   MaxConsecutiveHits: 0.0
   ResetConsecutiveOnSuccess: null
-  TrackHitCount: true
+  TrackHitCount: false
   MaxTrackedHitCounts: 0.0
-  NumberOfTrackedHits: 5.0
-  NumberOfHitsComparisonType: LessThanOrEqual
+  NumberOfTrackedHits: null
+  NumberOfHitsComparisonType: ""
   DamageIsRanged: ""
   DamageIsMelee: true
   ForceShowNameTag: ""
@@ -5156,7 +5156,7 @@
   StatusEffectDurationReduction: ""
   TargetStatusEffectDurationList: ""
   TargetStatusEffectDurationMod: null
-  ActivationCooldown: null
+  ActivationCooldown: 0.26
   Duration: null
   CooldownId: ""
   CDRImmediatelyOptions: ActiveWeapon

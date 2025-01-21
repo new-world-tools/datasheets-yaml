@@ -89,7 +89,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -248,6 +248,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: FireStaff_Incinerate_Stun5s
   DisplayName: "@Combust_Stun_DisplayName"
   Description: "@Combust_Stun_Description"
@@ -339,7 +340,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -498,6 +499,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: FireStaff_FlameThrower
   DisplayName: ""
   Description: ""
@@ -589,7 +591,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -748,6 +750,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: FireStaff_DoT_Upgrade_Slow
   DisplayName: "@PyroSlow_DisplayName"
   Description: "@PyroSlow_Description"
@@ -839,7 +842,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -998,6 +1001,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: FireStaff_ScorchedEarth_DOT
   DisplayName: "@ScorchedEarthDoT_DisplayName"
   Description: "@ScorchedEarthDoT_Description"
@@ -1089,7 +1093,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -1248,6 +1252,7 @@
   SourceRuneChargeOnTick: 0.26
   SourceRuneChargeOnHealthChangeOnly: true
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: FireStaff_Burnout_DOT
   DisplayName: "@Status_Burn"
   Description: "@BurnoutDoT_Description"
@@ -1339,7 +1344,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -1498,6 +1503,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: FireStaff_Burnout_DMG_DOT
   DisplayName: "@Status_Burn"
   Description: "@BurnoutDoT_Description"
@@ -1589,7 +1595,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -1748,6 +1754,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: FireStaff_FireRes_Aura_Passive
   DisplayName: "@FireRes_DisplayName"
   Description: "@FireRes_Description"
@@ -1839,7 +1846,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -1998,6 +2005,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: FireStaff_Damaging_Aura_Passive
   DisplayName: "@FireAura_DisplayName"
   Description: "@FireAura_Description"
@@ -2089,7 +2097,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -2248,6 +2256,7 @@
   SourceRuneChargeOnTick: 0.43
   SourceRuneChargeOnHealthChangeOnly: true
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: TrialByFireTimer
   DisplayName: "@Status_Timer"
   Description: "@FireAuraTimer_Description"
@@ -2339,7 +2348,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 0.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -2498,6 +2507,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: FireStaff_FireDMG_Aura_Passive
   DisplayName: "@FireExtraDMG_DisplayName"
   Description: "@FireExtraDMG_Description"
@@ -2589,7 +2599,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -2748,6 +2758,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: FireStaff_LowHealth_FireDmgBonus
   DisplayName: "@FireStaff_LowHealth_FireDmgBonus_DisplayName"
   Description: "@FireStaff_LowHealth_FireDmgBonus_Description"
@@ -2839,7 +2850,7 @@
   RemoveOnDeath: 0.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: "TRUE"
@@ -2998,6 +3009,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Elemental_Fire_AoE
   DisplayName: ""
   Description: ""
@@ -3089,7 +3101,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -3248,6 +3260,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Elemental_CC_Slow
   DisplayName: ""
   Description: ""
@@ -3339,7 +3352,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -3498,6 +3511,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Elemental_CC_Silenced
   DisplayName: ""
   Description: ""
@@ -3589,7 +3603,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -3748,6 +3762,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Elemental_CC_Weakness
   DisplayName: ""
   Description: ""
@@ -3839,7 +3854,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -3998,6 +4013,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: FireStaff_Pyro_DOT
   DisplayName: "@PyroDoT_DisplayName"
   Description: "@PyroDoT_Description"
@@ -4089,7 +4105,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -4218,7 +4234,7 @@
   InheritDuration: ""
   InheritTotalDuration: ""
   RefreshDuration: ""
-  StackMax: 5.0
+  StackMax: 4.0
   InitialStackSize: ""
   RemoveUnappliedStacks: "TRUE"
   PotencyMax: null
@@ -4248,6 +4264,7 @@
   SourceRuneChargeOnTick: 0.065
   SourceRuneChargeOnHealthChangeOnly: true
   ApplicationCooldown: 0.0
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Status_Passive_Firestaff_Pyro_FortOnBurn
   DisplayName: "@Status_Fortify"
   Description: "@Status_Passive_Firestaff_Pyro_FortOnBurn_description"
@@ -4339,7 +4356,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -4498,6 +4515,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: 1.0
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Status_Passive_Firestaff_FireMage_DmgFullMana
   DisplayName: "@Status_Empower"
   Description: "@Status_Passive_Firestaff_FireMage_DmgFullMana_description"
@@ -4589,7 +4607,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: "1"
@@ -4748,6 +4766,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Status_Passive_Firestaff_FireMage_DmgNoDmg_Timer
   DisplayName: "@Status_Timer"
   Description: "@Status_Passive_Firestaff_FireMage_DmgNoDmg_Timer_description"
@@ -4839,7 +4858,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 0.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: "1"
@@ -4998,6 +5017,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Status_Passive_Firestaff_FireMage_DmgNoDmg
   DisplayName: "@Status_Empower"
   Description: "@Status_Passive_Firestaff_FireMage_DmgNoDmg_description"
@@ -5089,7 +5109,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: "1"
@@ -5248,6 +5268,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Status_Passive_Firestaff_Pyro_Haste
   DisplayName: "@Status_Haste"
   Description: "@Status_Passive_Firestaff_Pyro_Haste_description"
@@ -5339,7 +5360,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: "1"
@@ -5498,6 +5519,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Status_Passive_Firestaff_Pyro_Haste_Timer
   DisplayName: "@Status_Timer"
   Description: "@Status_Passive_Firestaff_Pyro_Haste_Timer_description"
@@ -5589,7 +5611,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 0.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: "1"
@@ -5748,6 +5770,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Status_Passive_Firestaff_Pyro_Ultimate_Timer
   DisplayName: "@Status_Timer"
   Description: "@Status_Passive_Firestaff_Pyro_Ultimate_Timer_description"
@@ -5839,7 +5862,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 0.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -5998,6 +6021,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Status_Passive_Firestaff_Pyro_Ultimate
   DisplayName: "@Passive_Firestaff_Pyro_Ultimate"
   Description: "@Status_Passive_Firestaff_Pyro_Ultimate_description"
@@ -6089,7 +6113,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -6248,6 +6272,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Status_Passive_Firestaff_Pyro_Ultimate_Removal_Tick
   DisplayName: ""
   Description: ""
@@ -6339,7 +6364,7 @@
   RemoveOnDeath: null
   RemoveOnDeathsDoor: null
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -6498,6 +6523,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Status_Passive_Firestaff_Pyro_Ultimate_Removal
   DisplayName: ""
   Description: ""
@@ -6589,7 +6615,7 @@
   RemoveOnDeath: 0.0
   RemoveOnDeathsDoor: 0.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -6748,6 +6774,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Status_Ultimate_Firemage
   DisplayName: ""
   Description: ""
@@ -6839,7 +6866,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: "1"
@@ -6998,6 +7025,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Status_Ultimate_Firemage_DMG
   DisplayName: "@Status_Empower"
   Description: "@Status_Ultimate_Firemage_DMG_description"
@@ -7089,7 +7117,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: "1"
@@ -7248,6 +7276,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Status_Ultimate_Firemage_Timer
   DisplayName: "@Status_Timer"
   Description: "@Status_Ultimate_Firemage_Timer_description"
@@ -7339,7 +7368,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 0.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: 1.0
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: "1"
@@ -7498,6 +7527,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: 1.0
 - StatusID: Status_Passive_Firestaff_Pyro_BurnNearby
   DisplayName: "@FireAura_DisplayName"
   Description: "@FireAura_Description"
@@ -7589,7 +7619,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -7748,6 +7778,7 @@
   SourceRuneChargeOnTick: 0.43
   SourceRuneChargeOnHealthChangeOnly: true
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Status_FireStaff_ScorchedEarth_DOT
   DisplayName: "@ScorchedEarthDoT_DisplayName"
   Description: "@ScorchedEarthDoT_Description"
@@ -7839,7 +7870,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -7998,6 +8029,7 @@
   SourceRuneChargeOnTick: 0.26
   SourceRuneChargeOnHealthChangeOnly: true
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Status_FireStaff_MeteorShower_Damage
   DisplayName: "@MeteorShowerDamage_DisplayName"
   Description: "@MeteorShowerDamage_Description"
@@ -8089,7 +8121,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -8248,6 +8280,7 @@
   SourceRuneChargeOnTick: 0.325
   SourceRuneChargeOnHealthChangeOnly: true
   ApplicationCooldown: 0.5
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Status_FireStaff_MeteorShower_DamageUpgrade
   DisplayName: "@MeteorShowerDamage_DisplayName"
   Description: "@MeteorShowerDamage_Description"
@@ -8339,7 +8372,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -8498,6 +8531,7 @@
   SourceRuneChargeOnTick: 0.325
   SourceRuneChargeOnHealthChangeOnly: true
   ApplicationCooldown: 0.5
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Status_FireStaff_MeteorShower_Disease
   DisplayName: "@Status_Disease"
   Description: "@Status_Disease_Description"
@@ -8537,7 +8571,7 @@
   HealthModifierPercent: null
   HealthModifierDamageBased: null
   UseHealScalingValue: ""
-  HealScalingValueMultiplier: -0.1
+  HealScalingValueMultiplier: -0.05
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
@@ -8551,7 +8585,7 @@
   FromAlchemy: 0.0
   FromSpell: 1.0
   NoHealthRegen: 0.0
-  HealMod: -0.2
+  HealMod: -0.1
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
@@ -8589,7 +8623,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -8748,6 +8782,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Status_FireStaff_PyroUlt_Explosion
   DisplayName: ""
   Description: ""
@@ -8839,7 +8874,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -8998,6 +9033,7 @@
   SourceRuneChargeOnTick: 0.325
   SourceRuneChargeOnHealthChangeOnly: true
   ApplicationCooldown: 0.5
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Status_Passive_Firestaff_PyroUlt_Explosion_Timer
   DisplayName: "@Status_Timer"
   Description: "@Status_Passive_Firestaff_Pyro_Ultimate_Timer_description"
@@ -9089,7 +9125,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 0.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -9248,6 +9284,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Status_Passive_Firestaff_incinerate_Empower
   DisplayName: "@Status_Empower"
   Description: "@Status_Passive_Firestaff_IncinerateEmpower_description"
@@ -9339,7 +9376,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -9498,6 +9535,7 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null
 - StatusID: Status_Passive_Firestaff_incinerate_Weaken
   DisplayName: "@Status_Weaken"
   Description: "@Status_Weaken_Description"
@@ -9589,7 +9627,7 @@
   RemoveOnDeath: 1.0
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
-  RemoveOnGameModeExit: null
+  RemoveOnGameModeExit: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: ""
@@ -9748,3 +9786,4 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
   ApplicationCooldown: null
+  RemoveWhenEnteringGameModeRequiringTeleport: null

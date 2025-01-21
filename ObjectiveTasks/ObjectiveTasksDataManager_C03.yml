@@ -4724,6 +4724,69 @@
   SubTask4: ""
   SubTask5: ""
 - TaskID: 0334_0101_d_00_container_perfectpiroshkis
+  Type: ConsecutiveTaskContainer
+  FailOnCondition: ""
+  StayActive: null
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: 0334_0101_d_00_container_simple_gathering
+  SubTask2: 0334_0101_d_04_00_container_swap
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 0334_0101_d_00_container_simple_gathering
   Type: SimpleTaskContainer
   FailOnCondition: ""
   StayActive: null
@@ -4769,7 +4832,7 @@
   TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
   OverrideLocation: ""
-  IsHidden: ""
+  IsHidden: "1"
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: null
   DiegeticPinZOverride: ""
@@ -4784,7 +4847,7 @@
   SubTask1: 0334_0101_d_01_container_dill
   SubTask2: 0334_0101_d_02_container_cheese
   SubTask3: 0334_0101_d_03_container_bison
-  SubTask4: 0334_0101_d_04_00_container_swap
+  SubTask4: ""
   SubTask5: ""
 - TaskID: 0334_0101_d_01_container_dill
   Type: ConsecutiveTaskContainer
@@ -5417,7 +5480,7 @@
   SubTask4: ""
   SubTask5: ""
 - TaskID: 0334_0101_d_04_Task_Swap
-  Type: TaskLockAchievement
+  Type: TaskUnlockAchievement
   FailOnCondition: ""
   StayActive: null
   TargetQty: 1.0
@@ -5679,7 +5742,7 @@
   ChestDropProbability: null
   EnforceLocationRequirement: null
   TerritoryID: ""
-  POITag: ""
+  POITag: outpost_43_2_40325
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
@@ -46488,10 +46551,10 @@
   TriggerAnalyticsEvent: ""
   OnInteractStart: ""
   SubTask1: Vector_Kiln_Loot
-  SubTask2: Vector_Kiln_GoTo
-  SubTask3: Vector_Kiln_Trigger
-  SubTask4: Vector_Kiln_TutorialPopUp
-  SubTask5: Vector_Kiln_Craft
+  SubTask2: Vector_Kiln_TutorialPopUp
+  SubTask3: Vector_Kiln_Partial1
+  SubTask4: Vector_Kiln_HaveOrb1
+  SubTask5: ""
 - TaskID: Vector_Kiln_Loot
   Type: TaskHaveAndReturnItems
   FailOnCondition: ""
@@ -46555,18 +46618,18 @@
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
-- TaskID: Vector_Kiln_GoTo
-  Type: TaskGoToPOITag
+- TaskID: Vector_Kiln_Partial1
+  Type: PartialTaskContainer
   FailOnCondition: ""
-  StayActive: 1.0
+  StayActive: null
   TargetQty: null
   ItemName: ""
   ItemDropVC: ""
   ItemDropProbability: null
   ChestDropProbability: null
-  EnforceLocationRequirement: true
+  EnforceLocationRequirement: null
   TerritoryID: ""
-  POITag: outpost_43_1_40324
+  POITag: ""
   LootTag: ""
   PauseAndClearLootOnTaskComplete: null
   AwardOnlyOnce: null
@@ -46598,12 +46661,12 @@
   MapMarkerWorldDistanceThreshold: ""
   UseLargeItemDisplay: ""
   TP_TargetTag: ""
-  TP_DescriptionTag: "@Vector_Kiln_Task_GoTo"
+  TP_DescriptionTag: ""
   TargetDescriptionTaskId: ""
   OverrideLocation: ""
-  IsHidden: ""
+  IsHidden: "1"
   HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: true
+  ShowDiegeticTaskPin: null
   DiegeticPinZOverride: ""
   SS_VariantName: ""
   SS_StatePreset: ""
@@ -46613,71 +46676,8 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: ""
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: Vector_Kiln_Trigger
-  Type: TaskTriggerArea
-  FailOnCondition: ""
-  StayActive: null
-  TargetQty: 1.0
-  ItemName: ""
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: null
-  EnforceLocationRequirement: null
-  TerritoryID: ""
-  POITag: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: null
-  ShouldCheckPoints: ""
-  GuranteedDropAttempts: null
-  TargetThreshold: ""
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: Enter
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: null
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: ""
-  UseLargeItemDisplay: ""
-  TP_TargetTag: TV_Kiln_PushQuest
-  TP_DescriptionTag: "@Vector_Kiln_Approach"
-  TargetDescriptionTaskId: ""
-  OverrideLocation: 8871 7963
-  IsHidden: ""
-  HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: true
-  DiegeticPinZOverride: ""
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  OnInteractStart: ""
-  SubTask1: ""
-  SubTask2: ""
+  SubTask1: Vector_Kiln_Craft
+  SubTask2: Vector_Kiln_HaveOrb
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
@@ -46745,9 +46745,9 @@
   SubTask4: ""
   SubTask5: ""
 - TaskID: Vector_Kiln_Craft
-  Type: TaskCraftRecipe
+  Type: TaskRefineRecipe
   FailOnCondition: ""
-  StayActive: null
+  StayActive: 1.0
   TargetQty: 1.0
   ItemName: ""
   ItemDropVC: ""
@@ -46762,7 +46762,7 @@
   ShouldCheckPoints: ""
   GuranteedDropAttempts: null
   TargetThreshold: ""
-  CraftingRecipeId: GypsumOrbBlue
+  CraftingRecipeId: GypsumOrb
   CraftAnyRecipe: ""
   InteractTag: ""
   UIScreenTag: ""
@@ -46793,6 +46793,132 @@
   IsHidden: ""
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: true
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Vector_Kiln_HaveOrb
+  Type: TaskHaveItems
+  FailOnCondition: ""
+  StayActive: null
+  TargetQty: 1.0
+  ItemName: GypsumOrb
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: Vector_Kiln_HaveOrb1
+  Type: TaskHaveItems
+  FailOnCondition: ""
+  StayActive: null
+  TargetQty: 1.0
+  ItemName: GypsumOrb
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: null
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@Vector_Kiln_Craft"
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
   DiegeticPinZOverride: ""
   SS_VariantName: ""
   SS_StatePreset: ""

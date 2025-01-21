@@ -6,6 +6,7 @@
   PerUse: null
   Precision: 2.0
   ItemRarity: null
+  RequiredWorldTag: ""
 - TrackedStatID: CatchRareFish
   StatType: Fishing
   TargetID: ""
@@ -14,6 +15,7 @@
   PerUse: true
   Precision: null
   ItemRarity: 1.0
+  RequiredWorldTag: ""
 - TrackedStatID: CatchTreasureChest
   StatType: Fishing
   TargetID: FishingTreasureChestT3,FishingTreasureGoodProvisionT3,FishingTreasurePigmentT3,FishingTreasureGearT3,FishingTreasureMoteT3,FishingTreasureSeaweedT2,FishingTreasureBootT2,FishingTreasureOarT2,FishingTreasureSwordT2,FishingTreasureHammerT2
@@ -22,6 +24,7 @@
   PerUse: true
   Precision: null
   ItemRarity: null
+  RequiredWorldTag: ""
 - TrackedStatID: CatchBrimstoneLegendaryFish
   StatType: Fishing
   TargetID: FishingAnmisemaT5
@@ -30,6 +33,7 @@
   PerUse: null
   Precision: null
   ItemRarity: null
+  RequiredWorldTag: ""
 - TrackedStatID: CatchAeternumSturgeon
   StatType: Fishing
   TargetID: FishingSummerMedleySturgeonSmallT3,FishingSummerMedleySturgeonMediumT3,FishingSummerMedleySturgeonLargeT3
@@ -38,3 +42,13 @@
   PerUse: true
   Precision: null
   ItemRarity: null
+  RequiredWorldTag: ""
+- TrackedStatID: CatchNonFishSS
+  StatType: Fishing
+  TargetID: FishingSeaweedT1,FishingBootT2,FishingAnchorT2,FishingFishSwordT2,FishingHeadedHammerT2,FishingOarT2,FishingTreasureChestT3,FishingTreasureBootT2,FishingTreasureOarT2,FishingTreasureGoodProvisionT3,FishingTreasurePigmentT3,FishingTreasureMoteT3,FishingTreasureGearT3,FishingTreasureHammerT2,FishingTreasureSwordT2,FishingTreasureSeaweedT2
+  Level: null
+  MinWeight: ""
+  PerUse: true
+  Precision: null
+  ItemRarity: null
+  RequiredWorldTag: SeasonalServer

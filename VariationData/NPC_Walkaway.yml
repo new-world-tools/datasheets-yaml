@@ -1651,7 +1651,7 @@
   InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_right_walkaway.timeline"
-  AE.0_RequiredAchievementConditional: (06A_IR_02 && SwapActive_06_Roya_B)
+  AE.0_RequiredAchievementConditional: "!(!06A_IR_02 && SwapActive_06_Roya_B)"
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
   AE.9_EventDelayDuration: 0.05
@@ -1659,8 +1659,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 10.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: "!(06A_IR_02 && SwapActive_06_Roya_B)"
-  SwapAchievementId: "!(06A_IR_02 && SwapActive_06_Roya_B)"
+  AE.3_RequiredAchievementConditional: (!06A_IR_02 && SwapActive_06_Roya_B)
+  SwapAchievementId: (!06A_IR_02 && SwapActive_06_Roya_B)
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.05
@@ -2803,7 +2803,7 @@
   InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway_nt.timeline"
-  AE.0_RequiredAchievementConditional: "!SwapActive_99C_Galahad_D"
+  AE.0_RequiredAchievementConditional: "!(SwapActive_99C_Galahad_D && !99C_MSQ_08)"
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
   AE.9_EventDelayDuration: 0.05
@@ -2811,8 +2811,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 4.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: SwapActive_99C_Galahad_D
-  SwapAchievementId: SwapActive_99C_Galahad_D
+  AE.3_RequiredAchievementConditional: (SwapActive_99C_Galahad_D && !99C_MSQ_08)
+  SwapAchievementId: (SwapActive_99C_Galahad_D && !99C_MSQ_08)
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.05
@@ -3171,10 +3171,10 @@
   Name: "@09a_Marwa"
   CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\09a_shaheen.cdf"
   CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\09a_shaheen.cdf"
-  ByeTimeline: "Libs\\Timeline\\Npc\\NPC_PlayByeAnim.timeline"
-  GreetTimeline: "Libs\\Timeline\\Npc\\NPC_PlayGreetAnim.timeline"
-  IdleTimeline: "Libs\\Timeline\\Npc\\NPC_PlayIdleLoop.timeline"
-  InteractTimeline: "Libs\\Timeline\\Npc\\NPC_PlayInteractLoop.timeline"
+  ByeTimeline: Libs/Timeline/Npc/gestureCompatible_byeskip.timeline
+  GreetTimeline: Libs/Timeline/Npc/gestureCompatible_greetskip.timeline
+  IdleTimeline: "Libs\\Timeline\\Npc\\gestureCompatible_idle_neutral.timeline"
+  InteractTimeline: "libs\\Timeline\\Npc\\gestureCompatible_Interact_Neutral.timeline"
   PlaceholderMesh: ""
   AttachedMesh: ""
   AttachmentPositionX: ""
@@ -4442,16 +4442,16 @@
   AE.1_EventDelayDuration: 3.0
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 4.0
-  WalkInTimeline: "Timelines\\WorldEvent\\FirstLight\\09A_M5_Trahern_RR_WalkIn.timeline"
+  WalkInTimeline: "libs\\Timeline\\Npc\\Walkaways\\unique_99d_galahad_b_walkin.timeline"
   AE.3_RequiredAchievementConditional: SwapActive_MSQ_Galahad_GC_B
   SwapAchievementId: SwapActive_MSQ_Galahad_GC_B
   AE.10_RequiredAchievementConditional: 3.0
-  AE.3_EventDelayDuration: 0.5
-  AE.10_EventDelayDuration: 0.55
-  AE.4_EventDelayDuration: 0.55
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.05
+  AE.4_EventDelayDuration: 0.0
   AE.4_OE.0_OpacityTransitionDuration: 1.0
-  AE.5_EventDelayDuration: 1.55
-  AE.6_EventDelayDuration: 1.55
+  AE.5_EventDelayDuration: 4.5
+  AE.6_EventDelayDuration: 5.0
   AudioPreload_SFX_Idle: ""
   InteractOverride_Z: null
   InteractOverride_Radius: null
@@ -5250,7 +5250,7 @@
   InteractOverride_X: ""
   InteractOverride_Y: null
   MarkerOffset_Z: null
-  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_25_left_walkaway_nt.timeline"
+  WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\curve_90_left_walkaway_nt.timeline"
   AE.0_RequiredAchievementConditional: "!SwapActive_MSQ_Sun_EG_p5"
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
@@ -7747,7 +7747,7 @@
   InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\turn_55_left_nt_walkaway.timeline"
-  AE.0_RequiredAchievementConditional: "!SwapActive_95_s04_Rima_p01"
+  AE.0_RequiredAchievementConditional: "!(SwapActive_95_s04_Rima_p01 || (95_s04_03 && !95_s04_04))"
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
   AE.9_EventDelayDuration: 0.05
@@ -7755,8 +7755,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 3.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: SwapActive_95_s04_Rima_p01
-  SwapAchievementId: SwapActive_95_s04_Rima_p01
+  AE.3_RequiredAchievementConditional: (SwapActive_95_s04_Rima_p01 || (95_s04_03 && !95_s04_04))
+  SwapAchievementId: (SwapActive_95_s04_Rima_p01 || (95_s04_03 && !95_s04_04))
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.05
@@ -8659,7 +8659,7 @@
   InteractOverride_Y: null
   MarkerOffset_Z: null
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\curve_90_right_walkaway_nt.timeline"
-  AE.0_RequiredAchievementConditional: "!SwapActive_95_s04_Grace_p01"
+  AE.0_RequiredAchievementConditional: "!(SwapActive_95_s04_Grace_p01 || (95_s04_03 && !95_s04_04))"
   AE.9_RequiredAchievementConditional: 0.0
   AE.0_EventDelayDuration: 0.0
   AE.9_EventDelayDuration: 0.05
@@ -8667,8 +8667,8 @@
   AE.1_OE.0_OpacityTransitionDuration: 1.0
   AE.2_EventDelayDuration: 3.0
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
-  AE.3_RequiredAchievementConditional: SwapActive_95_s04_Grace_p01
-  SwapAchievementId: SwapActive_95_s04_Grace_p01
+  AE.3_RequiredAchievementConditional: (SwapActive_95_s04_Grace_p01 || (95_s04_03 && !95_s04_04))
+  SwapAchievementId: (SwapActive_95_s04_Grace_p01 || (95_s04_03 && !95_s04_04))
   AE.10_RequiredAchievementConditional: null
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.05
@@ -11187,10 +11187,10 @@
   Name: "@0828_YueLai"
   CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\0828_yuelai.cdf"
   CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\0828_yuelai.cdf"
-  ByeTimeline: "Libs\\Timeline\\Npc\\settle_warden_exit_01.timeline"
-  GreetTimeline: "Libs\\Timeline\\Npc\\settle_warden_intro_01.timeline"
-  IdleTimeline: "Libs\\Timeline\\Npc\\settle_warden_ambient_01.timeline"
-  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_ambient.timeline"
+  ByeTimeline: Libs/Timeline/Npc/gestureCompatible_byeskip.timeline
+  GreetTimeline: Libs/Timeline/Npc/gestureCompatible_greetskip.timeline
+  IdleTimeline: "Libs\\Timeline\\Npc\\gestureCompatible_idle_neutral.timeline"
+  InteractTimeline: "libs\\Timeline\\Npc\\gestureCompatible_Interact_neutral.timeline"
   PlaceholderMesh: ""
   AttachedMesh: ""
   AttachmentPositionX: ""
@@ -11235,10 +11235,10 @@
   Name: "@0828_YueLai"
   CharacterDefinition: "Objects\\Characters\\npc\\Settlements\\0828_yuelai.cdf"
   CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\0828_yuelai.cdf"
-  ByeTimeline: "Libs\\Timeline\\Npc\\settle_warden_exit_01.timeline"
-  GreetTimeline: "Libs\\Timeline\\Npc\\settle_warden_intro_01.timeline"
-  IdleTimeline: "Libs\\Timeline\\Npc\\settle_warden_ambient_01.timeline"
-  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_ambient.timeline"
+  ByeTimeline: Libs/Timeline/Npc/gestureCompatible_byeskip.timeline
+  GreetTimeline: Libs/Timeline/Npc/gestureCompatible_greetskip.timeline
+  IdleTimeline: "Libs\\Timeline\\Npc\\gestureCompatible_idle_neutral.timeline"
+  InteractTimeline: "libs\\Timeline\\Npc\\gestureCompatible_Interact_neutral.timeline"
   PlaceholderMesh: ""
   AttachedMesh: ""
   AttachmentPositionX: ""

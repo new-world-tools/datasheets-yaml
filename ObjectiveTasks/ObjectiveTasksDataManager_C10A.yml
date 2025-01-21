@@ -5223,8 +5223,8 @@
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
   SubTask1: C10A_Q3_Container01
-  SubTask2: C10A_Q3_Container03
-  SubTask3: ""
+  SubTask2: C10A_Q3_SkullOff
+  SubTask3: C10A_Q3_Container03
   SubTask4: ""
   SubTask5: ""
 - TaskID: C10A_Q3_Container01
@@ -5790,8 +5790,8 @@
   TriggerAnalyticsEvent: ""
   OnInteractStart: null
   SubTask1: C10A_Q3_SpectralEventStart
-  SubTask2: C10A_Q3_SkullOff
-  SubTask3: C10A_Q3_SpectralWaveEventComplete
+  SubTask2: C10A_Q3_SpectralWaveEventComplete
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
 - TaskID: C10A_Q3_SkullOff
@@ -7436,7 +7436,7 @@
   Type: TaskHaveAndReturnItems
   FailOnCondition: ""
   StayActive: null
-  TargetQty: 10.0
+  TargetQty: 6.0
   ItemName: C10A_Q5_SoulGem
   ItemDropVC: CK_Spectral_Lost_2hBlunderbuss_10WS10,CK_Spectral_Lost_2hSpear_10WS10,CK_Spectral_Lost_1hSword_10WS10,CK_Spectral_Lost_2hAxe_10WS10
   ItemDropProbability: 100.0
@@ -7499,7 +7499,7 @@
   Type: TaskHaveAndReturnItems
   FailOnCondition: ""
   StayActive: null
-  TargetQty: 10.0
+  TargetQty: 6.0
   ItemName: C10A_Q5_SoulGem
   ItemDropVC: Player
   ItemDropProbability: 100.0
@@ -7562,7 +7562,7 @@
   Type: TaskHaveAndReturnItems
   FailOnCondition: ""
   StayActive: null
-  TargetQty: 10.0
+  TargetQty: 6.0
   ItemName: C10A_Q5_SoulGem
   ItemDropVC: Player
   ItemDropProbability: 100.0
@@ -7625,7 +7625,7 @@
   Type: TaskHaveAndReturnItems
   FailOnCondition: ""
   StayActive: null
-  TargetQty: 10.0
+  TargetQty: 6.0
   ItemName: C10A_Q5_SoulGem
   ItemDropVC: Player
   ItemDropProbability: 100.0
@@ -7751,7 +7751,7 @@
   Type: TaskRemoveItem
   FailOnCondition: ""
   StayActive: null
-  TargetQty: 10.0
+  TargetQty: 6.0
   ItemName: C10A_Q5_SoulGem
   ItemDropVC: ""
   ItemDropProbability: null
@@ -8318,7 +8318,7 @@
   Type: TaskHaveAndReturnItems
   FailOnCondition: ""
   StayActive: 1.0
-  TargetQty: 2.0
+  TargetQty: 1.0
   ItemName: C10A_S1_Swampys_Stewpots
   ItemDropVC: CK_Alligator_Strange
   ItemDropProbability: 100.0
@@ -9207,7 +9207,7 @@
   ChestDropProbability: null
   EnforceLocationRequirement: true
   TerritoryID: ""
-  POITag: corrupted_camp_30010
+  POITag: corrupted_camp_30010,bear_den_30005
   GameModeID: ""
   PauseAndClearLootOnTaskComplete: true
   AwardOnlyOnce: ""
@@ -9270,7 +9270,7 @@
   ChestDropProbability: null
   EnforceLocationRequirement: true
   TerritoryID: ""
-  POITag: corrupted_camp_30010
+  POITag: corrupted_camp_30010,bear_den_30005
   GameModeID: ""
   PauseAndClearLootOnTaskComplete: true
   AwardOnlyOnce: ""
@@ -9515,7 +9515,7 @@
   Type: TaskHaveAndReturnItems
   FailOnCondition: ""
   StayActive: 1.0
-  TargetQty: 5.0
+  TargetQty: 2.0
   ItemName: 1005_0101_water_vapors
   ItemDropVC: CK_Ghost_Frozen_10WS06
   ItemDropProbability: 100.0
@@ -9578,7 +9578,7 @@
   Type: TaskHaveAndReturnItems
   FailOnCondition: ""
   StayActive: 1.0
-  TargetQty: 5.0
+  TargetQty: 3.0
   ItemName: 1005_0101_bottle_lightning
   ItemDropVC: CK_Ghost_Shipwrecked_10WS06
   ItemDropProbability: 100.0

@@ -118,6 +118,26 @@
   Item: ""
   UIEvent: ""
   Notes: ""
+- ConditionId: PlayerLevelEquals14Condition
+  Operation: Equals
+  PlayerLevel: 14.0
+  CategoricalProgression: ""
+  GameEvent: ""
+  Achievement: ""
+  Entitlement: ""
+  Item: ""
+  UIEvent: ""
+  Notes: ""
+- ConditionId: PlayerLevelEquals15Condition
+  Operation: Equals
+  PlayerLevel: 15.0
+  CategoricalProgression: ""
+  GameEvent: ""
+  Achievement: ""
+  Entitlement: ""
+  Item: ""
+  UIEvent: ""
+  Notes: ""
 - ConditionId: PlayerLevelOver15Condition
   Operation: GreaterThan
   PlayerLevel: 15.0
@@ -128,8 +148,28 @@
   Item: ""
   UIEvent: ""
   Notes: ""
+- ConditionId: PlayerLevelEquals19Condition
+  Operation: Equals
+  PlayerLevel: 19.0
+  CategoricalProgression: ""
+  GameEvent: ""
+  Achievement: ""
+  Entitlement: ""
+  Item: ""
+  UIEvent: ""
+  Notes: ""
 - ConditionId: PlayerLevelOver20Condition
   Operation: GreaterThan
+  PlayerLevel: 20.0
+  CategoricalProgression: ""
+  GameEvent: ""
+  Achievement: ""
+  Entitlement: ""
+  Item: ""
+  UIEvent: ""
+  Notes: ""
+- ConditionId: PlayerLevelEquals20Condition
+  Operation: Equals
   PlayerLevel: 20.0
   CategoricalProgression: ""
   GameEvent: ""
@@ -2887,4 +2927,34 @@
   Entitlement: ""
   Item: ""
   UIEvent: WarHammerMasteryTreesEvent
+  Notes: ""
+- ConditionId: ReceiveItemClassSeasonalEthereal
+  Operation: ReceiveItemClassAny
+  PlayerLevel: null
+  CategoricalProgression: ""
+  GameEvent: ""
+  Achievement: ""
+  Entitlement: ""
+  Item: SeasonalEthereal
+  UIEvent: ""
+  Notes: ""
+- ConditionId: ReceiveItemClassSeasonalConquerors
+  Operation: ReceiveItemClassAny
+  PlayerLevel: null
+  CategoricalProgression: ""
+  GameEvent: ""
+  Achievement: ""
+  Entitlement: ""
+  Item: SeasonalConqueror
+  UIEvent: ""
+  Notes: ""
+- ConditionId: SeasonalServerS7AchievementCondition
+  Operation: HasUnlocked
+  PlayerLevel: null
+  CategoricalProgression: ""
+  GameEvent: ""
+  Achievement: SeasonalServerS7
+  Entitlement: ""
+  Item: ""
+  UIEvent: ""
   Notes: ""

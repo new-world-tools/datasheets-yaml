@@ -1,24 +1,29 @@
 - BalanceTarget: HealingAdjustments
+  BalanceTargetUIString: ""
   BalanceCategory: Healing
   AbilityBaseDamageAdjustment: ""
   WeaponBaseDamageAdjustment: null
   AffixStatAdjustment: ""
   IncomingHealAdjustment: ""
-  SelfHealAdjustment: -0.1
+  SelfHealAdjustment: -0.3
   ConsumableHealAdjustment: ""
   PotencyAdjustment: ""
   DurationAdjustment: ""
+  CooldownAdjustment: null
 - BalanceTarget: Blunderbuss
+  BalanceTargetUIString: "@ui_blunderbuss"
   BalanceCategory: ItemClass
   AbilityBaseDamageAdjustment: ""
-  WeaponBaseDamageAdjustment: -0.2
+  WeaponBaseDamageAdjustment: -0.1562
   AffixStatAdjustment: ""
   IncomingHealAdjustment: ""
   SelfHealAdjustment: null
   ConsumableHealAdjustment: ""
   PotencyAdjustment: ""
   DurationAdjustment: ""
+  CooldownAdjustment: null
 - BalanceTarget: Bow
+  BalanceTargetUIString: "@ui_bow"
   BalanceCategory: ItemClass
   AbilityBaseDamageAdjustment: ""
   WeaponBaseDamageAdjustment: -0.1632
@@ -28,7 +33,9 @@
   ConsumableHealAdjustment: ""
   PotencyAdjustment: ""
   DurationAdjustment: ""
-- BalanceTarget: FIreStaff
+  CooldownAdjustment: null
+- BalanceTarget: FireStaff
+  BalanceTargetUIString: "@ui_firestaff"
   BalanceCategory: ItemClass
   AbilityBaseDamageAdjustment: ""
   WeaponBaseDamageAdjustment: -0.05
@@ -38,7 +45,9 @@
   ConsumableHealAdjustment: ""
   PotencyAdjustment: ""
   DurationAdjustment: ""
+  CooldownAdjustment: null
 - BalanceTarget: IceMagic
+  BalanceTargetUIString: "@ui_icemagic"
   BalanceCategory: ItemClass
   AbilityBaseDamageAdjustment: ""
   WeaponBaseDamageAdjustment: -0.05
@@ -48,7 +57,9 @@
   ConsumableHealAdjustment: ""
   PotencyAdjustment: ""
   DurationAdjustment: ""
+  CooldownAdjustment: null
 - BalanceTarget: LifeStaff
+  BalanceTargetUIString: "@ui_lifestaff"
   BalanceCategory: ItemClass
   AbilityBaseDamageAdjustment: ""
   WeaponBaseDamageAdjustment: -0.05
@@ -58,7 +69,9 @@
   ConsumableHealAdjustment: ""
   PotencyAdjustment: ""
   DurationAdjustment: ""
+  CooldownAdjustment: null
 - BalanceTarget: Musket
+  BalanceTargetUIString: "@ui_musket"
   BalanceCategory: ItemClass
   AbilityBaseDamageAdjustment: ""
   WeaponBaseDamageAdjustment: -0.1604
@@ -68,7 +81,9 @@
   ConsumableHealAdjustment: ""
   PotencyAdjustment: ""
   DurationAdjustment: ""
+  CooldownAdjustment: null
 - BalanceTarget: VoidGauntlet
+  BalanceTargetUIString: "@ui_voidmagic"
   BalanceCategory: ItemClass
   AbilityBaseDamageAdjustment: ""
   WeaponBaseDamageAdjustment: -0.05
@@ -78,3 +93,16 @@
   ConsumableHealAdjustment: ""
   PotencyAdjustment: ""
   DurationAdjustment: ""
+  CooldownAdjustment: null
+- BalanceTarget: SurvivalPotion
+  BalanceTargetUIString: "@PotionSurvival_GroupName"
+  BalanceCategory: CooldownAdjustment
+  AbilityBaseDamageAdjustment: ""
+  WeaponBaseDamageAdjustment: null
+  AffixStatAdjustment: ""
+  IncomingHealAdjustment: ""
+  SelfHealAdjustment: null
+  ConsumableHealAdjustment: ""
+  PotencyAdjustment: ""
+  DurationAdjustment: ""
+  CooldownAdjustment: null

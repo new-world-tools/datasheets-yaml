@@ -26,7 +26,7 @@
   DmgCoefCrit: null
   DurabilityCostOverride: null
   PowerLevel: 0.0
-  BlockPowerLevel: 3.0
+  BlockPowerLevel: 0.0
   CritPowerLevel: 0.0
   HitStun: 30.0
   BlockHitStun: 20.0
@@ -684,8 +684,8 @@
   DmgCoefCrit: null
   DurabilityCostOverride: null
   PowerLevel: 0.0
-  BlockPowerLevel: 3.0
-  CritPowerLevel: 3.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
   HitStun: 25.0
   BlockHitStun: 15.0
   CritHitStun: 25.0
@@ -3819,7 +3819,7 @@
   BlockStaminaDmgMod: 1.0
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -3949,7 +3949,7 @@
 - DamageID: Musket_Sacrifice_AOE_No_Shake
   WeaponCategory: Musket
   IgnoreInvulnerable: 0.0
-  NoReaction: 1.0
+  NoReaction: 0.0
   IsRanged: null
   IsAbility: true
   IsEmote: null
@@ -4101,7 +4101,7 @@
   BlockStaminaDmgMod: 0.8
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -5041,7 +5041,7 @@
   BlockStaminaDmgMod: 0.1
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -5323,7 +5323,7 @@
   BlockStaminaDmgMod: 0.25
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -5417,7 +5417,7 @@
   BlockStaminaDmgMod: 0.5
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -5511,7 +5511,7 @@
   BlockStaminaDmgMod: 0.5
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -5606,7 +5606,7 @@
   BlockAbsorptionModifier: 1.2
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
-  ThreatMultiplier: 1.5
+  ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
   TauntDuration: 0.0
@@ -5700,7 +5700,7 @@
   BlockAbsorptionModifier: 1.1
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
-  ThreatMultiplier: 2.0
+  ThreatMultiplier: 1.5
   AddThreat: 0.0
   IsTaunt: false
   TauntDuration: 0.0
@@ -5794,12 +5794,12 @@
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
-  ThreatMultiplier: 3.0
+  ThreatMultiplier: 2.0
   AddThreat: 1.0
   IsTaunt: true
   TauntDuration: 0.5
-  TauntThreatBoostPercentage: 0.15
-  TauntMinimumThreatValue: 1500.0
+  TauntThreatBoostPercentage: 0.2
+  TauntMinimumThreatValue: 2000.0
   UseAttackerPosForReaction: null
   AttackRuneCharge: 1.344
   AttackBlockedRuneCharge: 0.672
@@ -5888,12 +5888,12 @@
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
   StunBreakoutIncrement: 0.0
-  ThreatMultiplier: 3.0
+  ThreatMultiplier: 2.0
   AddThreat: 1.0
   IsTaunt: true
   TauntDuration: 0.5
-  TauntThreatBoostPercentage: 0.15
-  TauntMinimumThreatValue: 1500.0
+  TauntThreatBoostPercentage: 0.2
+  TauntMinimumThreatValue: 2000.0
   UseAttackerPosForReaction: null
   AttackRuneCharge: 1.778
   AttackBlockedRuneCharge: 0.889
@@ -6451,7 +6451,7 @@
   BlockStaminaDmgMod: 1.0
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -11339,7 +11339,7 @@
   BlockStaminaDmgMod: 0.3
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 16.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -11903,7 +11903,7 @@
   BlockStaminaDmgMod: 0.4
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 16.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -11997,7 +11997,7 @@
   BlockStaminaDmgMod: 0.4
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 16.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -13971,7 +13971,7 @@
   BlockStaminaDmgMod: 0.5
   BlockAbsorptionModifier: 1.2
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -15381,7 +15381,7 @@
   BlockStaminaDmgMod: 1.0
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -16603,7 +16603,7 @@
   BlockStaminaDmgMod: 0.75
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -17104,6 +17104,100 @@
   CritImpactDistanceZ_AI: ""
   CritImpactDecayRate_AI: ""
   StunBreakoutIncrement_AI: 1.0
+  EnableSharedDamage: ""
+  MaxAllowedDamageShareCount: ""
+- DamageID: Bow_PoisonShotCloud_Vortex
+  WeaponCategory: Bow
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: true
+  IsAbility: null
+  IsEmote: null
+  AttackType: Ability
+  DamageType: Nature
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: ""
+  DeflectDamageID: Deflect_Default
+  CanCrit: false
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: true
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 0.0
+  DmgCoefHead: 1.3
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 25.0
+  BlockHitStun: 20.0
+  CritHitStun: 25.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: -7.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.0
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: -7.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.0
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: -7.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.0
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.7
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: 10.0
+  CameraShakeID: ""
+  TargetCameraShakeID: ""
+  BlockCameraShakeID: ""
+  BlockTargetCameraShakeID: ""
+  CritCameraShakeID: ""
+  CritTargetCameraShakeID: ""
+  ImpactRating: 3.0
+  BlockStaminaDmgMod: 0.7
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 0.361
+  AttackBlockedRuneCharge: 0.1805
+  HitRuneCharge: 0.09025
+  HitBlockedRuneCharge: 0.1805
+  PowerLevel_AI: null
+  BlockPowerLevel_AI: null
+  CritPowerLevel_AI: null
+  HitStun_AI: 18.0
+  BlockHitStun_AI: 18.0
+  CritHitStun_AI: 18.0
+  ImpactDistanceX_AI: ""
+  ImpactDistanceY_AI: null
+  ImpactDistanceZ_AI: ""
+  ImpactDecayRate_AI: ""
+  BlockImpactDistanceX_AI: ""
+  BlockImpactDistanceY_AI: ""
+  BlockImpactDistanceZ_AI: ""
+  BlockImpactDecayRate_AI: ""
+  CritImpactDistanceX_AI: null
+  CritImpactDistanceY_AI: null
+  CritImpactDistanceZ_AI: ""
+  CritImpactDecayRate_AI: ""
+  StunBreakoutIncrement_AI: 0.0
   EnableSharedDamage: ""
   MaxAllowedDamageShareCount: ""
 - DamageID: Bow_Gunbutt_Large
@@ -18704,6 +18798,100 @@
   StunBreakoutIncrement_AI: 1.0
   EnableSharedDamage: ""
   MaxAllowedDamageShareCount: ""
+- DamageID: GreatSword_HeavyAttack_CrescentWave
+  WeaponCategory: Greatsword
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  IsRanged: null
+  IsAbility: null
+  IsEmote: null
+  AttackType: Heavy
+  DamageType: Arcane
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: null
+  NoBackstab: null
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 1.5
+  DmgCoefHead: 1.3
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 25.0
+  BlockHitStun: 25.0
+  CritHitStun: 25.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.5
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.9
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.5
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.85
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.5
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.9
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.5
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: 10.0
+  CameraShakeID: Small
+  TargetCameraShakeID: Small
+  BlockCameraShakeID: Small
+  BlockTargetCameraShakeID: Small
+  CritCameraShakeID: Large_short
+  CritTargetCameraShakeID: Large_short
+  ImpactRating: 4.0
+  BlockStaminaDmgMod: 0.5
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: true
+  TauntDuration: 0.5
+  TauntThreatBoostPercentage: 0.15
+  TauntMinimumThreatValue: 1500.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 0.939
+  AttackBlockedRuneCharge: 0.4695
+  HitRuneCharge: 0.23475
+  HitBlockedRuneCharge: 0.4695
+  PowerLevel_AI: 3.0
+  BlockPowerLevel_AI: 3.0
+  CritPowerLevel_AI: 3.0
+  HitStun_AI: 28.0
+  BlockHitStun_AI: 28.0
+  CritHitStun_AI: 28.0
+  ImpactDistanceX_AI: ""
+  ImpactDistanceY_AI: 1.5
+  ImpactDistanceZ_AI: ""
+  ImpactDecayRate_AI: ""
+  BlockImpactDistanceX_AI: ""
+  BlockImpactDistanceY_AI: ""
+  BlockImpactDistanceZ_AI: ""
+  BlockImpactDecayRate_AI: ""
+  CritImpactDistanceX_AI: null
+  CritImpactDistanceY_AI: 1.5
+  CritImpactDistanceZ_AI: ""
+  CritImpactDecayRate_AI: ""
+  StunBreakoutIncrement_AI: 1.0
+  EnableSharedDamage: ""
+  MaxAllowedDamageShareCount: ""
 - DamageID: Greatsword_DashAttack1
   WeaponCategory: Greatsword
   IgnoreInvulnerable: 0.0
@@ -20081,7 +20269,7 @@
   BlockStaminaDmgMod: 0.7
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 2.0
   AddThreat: 0.0
   IsTaunt: true
@@ -20175,7 +20363,7 @@
   BlockStaminaDmgMod: 0.7
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 2.0
   AddThreat: 0.0
   IsTaunt: true
@@ -20269,7 +20457,7 @@
   BlockStaminaDmgMod: 0.7
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 2.0
   AddThreat: 0.0
   IsTaunt: true
@@ -21552,7 +21740,7 @@
   DmgCoefCrit: null
   DurabilityCostOverride: null
   PowerLevel: 0.0
-  BlockPowerLevel: 2.0
+  BlockPowerLevel: 0.0
   CritPowerLevel: 0.0
   HitStun: 23.0
   BlockHitStun: 18.0
@@ -21646,7 +21834,7 @@
   DmgCoefCrit: null
   DurabilityCostOverride: null
   PowerLevel: 0.0
-  BlockPowerLevel: 2.0
+  BlockPowerLevel: 0.0
   CritPowerLevel: 0.0
   HitStun: 25.0
   BlockHitStun: 20.0
@@ -21740,7 +21928,7 @@
   DmgCoefCrit: null
   DurabilityCostOverride: null
   PowerLevel: 0.0
-  BlockPowerLevel: 2.0
+  BlockPowerLevel: 0.0
   CritPowerLevel: 0.0
   HitStun: 27.0
   BlockHitStun: 22.0
@@ -21834,7 +22022,7 @@
   DmgCoefCrit: null
   DurabilityCostOverride: null
   PowerLevel: 0.0
-  BlockPowerLevel: 2.0
+  BlockPowerLevel: 0.0
   CritPowerLevel: 0.0
   HitStun: 21.0
   BlockHitStun: 14.0
@@ -21928,7 +22116,7 @@
   DmgCoefCrit: null
   DurabilityCostOverride: null
   PowerLevel: 0.0
-  BlockPowerLevel: 2.0
+  BlockPowerLevel: 0.0
   CritPowerLevel: 0.0
   HitStun: 23.0
   BlockHitStun: 18.0
@@ -22022,7 +22210,7 @@
   DmgCoefCrit: null
   DurabilityCostOverride: null
   PowerLevel: 0.0
-  BlockPowerLevel: 2.0
+  BlockPowerLevel: 0.0
   CritPowerLevel: 0.0
   HitStun: 25.0
   BlockHitStun: 20.0
@@ -22116,7 +22304,7 @@
   DmgCoefCrit: null
   DurabilityCostOverride: null
   PowerLevel: 0.0
-  BlockPowerLevel: 2.0
+  BlockPowerLevel: 0.0
   CritPowerLevel: 0.0
   HitStun: 27.0
   BlockHitStun: 22.0
@@ -22210,7 +22398,7 @@
   DmgCoefCrit: null
   DurabilityCostOverride: null
   PowerLevel: 0.0
-  BlockPowerLevel: 5.0
+  BlockPowerLevel: 0.0
   CritPowerLevel: 0.0
   HitStun: 35.0
   BlockHitStun: 25.0
@@ -22304,7 +22492,7 @@
   DmgCoefCrit: null
   DurabilityCostOverride: null
   PowerLevel: 0.0
-  BlockPowerLevel: 2.0
+  BlockPowerLevel: 0.0
   CritPowerLevel: 0.0
   HitStun: 25.0
   BlockHitStun: 20.0
@@ -22525,7 +22713,7 @@
   BlockStaminaDmgMod: 0.7
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 0.1
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: true
@@ -22619,7 +22807,7 @@
   BlockStaminaDmgMod: 0.7
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 0.1
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: true
@@ -22713,7 +22901,7 @@
   BlockStaminaDmgMod: 0.7
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 0.1
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: true
@@ -22807,7 +22995,7 @@
   BlockStaminaDmgMod: 0.7
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 0.1
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: true
@@ -22901,7 +23089,7 @@
   BlockStaminaDmgMod: 0.7
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 0.1
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: true
@@ -22995,7 +23183,7 @@
   BlockStaminaDmgMod: 0.7
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 0.1
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: true
@@ -23089,7 +23277,7 @@
   BlockStaminaDmgMod: 0.7
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 0.1
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: true
@@ -23183,7 +23371,7 @@
   BlockStaminaDmgMod: 0.7
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 0.1
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: true
@@ -23277,7 +23465,7 @@
   BlockStaminaDmgMod: 0.7
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 0.1
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: true
@@ -23371,7 +23559,7 @@
   BlockStaminaDmgMod: 0.7
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 0.1
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: true
@@ -23465,7 +23653,7 @@
   BlockStaminaDmgMod: 0.7
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 0.1
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: true
@@ -23559,7 +23747,7 @@
   BlockStaminaDmgMod: 0.7
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 0.1
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: true
@@ -23653,7 +23841,7 @@
   BlockStaminaDmgMod: 0.7
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 0.0
+  StunBreakoutIncrement: 0.1
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: true
@@ -33429,7 +33617,7 @@
   BlockStaminaDmgMod: 1.5
   BlockAbsorptionModifier: 1.2
   LOSCheckVerticalAngleOffset: 35.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -34966,6 +35154,100 @@
   StunBreakoutIncrement_AI: 1.0
   EnableSharedDamage: ""
   MaxAllowedDamageShareCount: ""
+- DamageID: VoidGauntlet_Conqueror_HarvestDamage
+  WeaponCategory: VoidGauntlet_Blade
+  IgnoreInvulnerable: 0.0
+  NoReaction: 1.0
+  IsRanged: true
+  IsAbility: false
+  IsEmote: null
+  AttackType: Light
+  DamageType: Corruption
+  Affliction: ""
+  AddAffliction: null
+  AfflictionPercent: ""
+  StatusEffect: ""
+  EffectOnlyOnDamage: ""
+  SurfaceImpactEffect: Bullet
+  DeflectDamageID: Deflect_Default
+  CanCrit: null
+  Unblockable: null
+  AttackDealsNoDurability: null
+  NoHeadshot: true
+  NoBackstab: true
+  NoLegShots: null
+  CancelTargetHoming: null
+  DmgCoef: 0.4
+  DmgCoefHead: 1.0
+  DmgCoefCrit: null
+  DurabilityCostOverride: null
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
+  HitStun: 15.0
+  BlockHitStun: 12.0
+  CritHitStun: 15.0
+  ImpactDistanceX: 0.0
+  ImpactDistanceY: 0.0
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.0
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.0
+  CritImpactDistanceX: 0.0
+  CritImpactDistanceY: 0.0
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.0
+  AddDmg: 0.0
+  StaggerDmgModifier: 0.4
+  StaggerResistModifier: 1.0
+  CritStaggerDmgModifier: null
+  HitRateDmgModifier: null
+  MaxHitRateDmgMod: null
+  CameraShakeID: ""
+  TargetCameraShakeID: ""
+  BlockCameraShakeID: ""
+  BlockTargetCameraShakeID: ""
+  CritCameraShakeID: ""
+  CritTargetCameraShakeID: ""
+  ImpactRating: 2.0
+  BlockStaminaDmgMod: 0.4
+  BlockAbsorptionModifier: 1.0
+  LOSCheckVerticalAngleOffset: 0.0
+  StunBreakoutIncrement: 0.0
+  ThreatMultiplier: 1.0
+  AddThreat: 0.0
+  IsTaunt: false
+  TauntDuration: 0.0
+  TauntThreatBoostPercentage: 0.0
+  TauntMinimumThreatValue: 0.0
+  UseAttackerPosForReaction: null
+  AttackRuneCharge: 1.213
+  AttackBlockedRuneCharge: 0.6065
+  HitRuneCharge: 0.30325
+  HitBlockedRuneCharge: 0.6065
+  PowerLevel_AI: null
+  BlockPowerLevel_AI: null
+  CritPowerLevel_AI: null
+  HitStun_AI: null
+  BlockHitStun_AI: null
+  CritHitStun_AI: null
+  ImpactDistanceX_AI: ""
+  ImpactDistanceY_AI: null
+  ImpactDistanceZ_AI: ""
+  ImpactDecayRate_AI: ""
+  BlockImpactDistanceX_AI: ""
+  BlockImpactDistanceY_AI: ""
+  BlockImpactDistanceZ_AI: ""
+  BlockImpactDecayRate_AI: ""
+  CritImpactDistanceX_AI: null
+  CritImpactDistanceY_AI: null
+  CritImpactDistanceZ_AI: ""
+  CritImpactDecayRate_AI: ""
+  StunBreakoutIncrement_AI: 3.0
+  EnableSharedDamage: ""
+  MaxAllowedDamageShareCount: ""
 - DamageID: Common_DamageOverTime_Override
   WeaponCategory: Sword
   IgnoreInvulnerable: 0.0
@@ -35369,9 +35651,9 @@
   DmgCoefHead: 1.3
   DmgCoefCrit: null
   DurabilityCostOverride: null
-  PowerLevel: 2.0
-  BlockPowerLevel: 2.0
-  CritPowerLevel: 2.0
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
   HitStun: 0.0
   BlockHitStun: 0.0
   CritHitStun: 0.0
@@ -35403,7 +35685,7 @@
   BlockStaminaDmgMod: 1.0
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -35463,9 +35745,9 @@
   DmgCoefHead: 1.3
   DmgCoefCrit: null
   DurabilityCostOverride: null
-  PowerLevel: 2.0
-  BlockPowerLevel: 2.0
-  CritPowerLevel: 2.0
+  PowerLevel: 0.0
+  BlockPowerLevel: 0.0
+  CritPowerLevel: 0.0
   HitStun: 0.0
   BlockHitStun: 0.0
   CritHitStun: 0.0
@@ -35497,7 +35779,7 @@
   BlockStaminaDmgMod: 1.0
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false
@@ -37753,7 +38035,7 @@
   BlockStaminaDmgMod: 1.0
   BlockAbsorptionModifier: 1.0
   LOSCheckVerticalAngleOffset: 0.0
-  StunBreakoutIncrement: 1.0
+  StunBreakoutIncrement: 0.0
   ThreatMultiplier: 1.0
   AddThreat: 0.0
   IsTaunt: false

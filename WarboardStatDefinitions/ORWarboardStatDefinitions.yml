@@ -1,8 +1,8 @@
 - WarboardStatID: PlayerKills
   InGameStat: true
   EndGameStat: true
-  BonusDistanceRange: 0.0
-  InRangeBonusMultiplier: 1.0
+  BonusDistanceRange: 14.0
+  InRangeBonusMultiplier: 1.25
   AG_TotalDamageDealt: 0.0
   AG_HealingDone: 0.0
   AG_Score: 50.0
@@ -100,8 +100,8 @@
 - WarboardStatID: DamageToPlayers
   InGameStat: false
   EndGameStat: true
-  BonusDistanceRange: 0.0
-  InRangeBonusMultiplier: 1.0
+  BonusDistanceRange: 14.0
+  InRangeBonusMultiplier: 1.25
   AG_TotalDamageDealt: 1.0
   AG_HealingDone: 0.0
   AG_Score: 0.005
@@ -153,7 +153,7 @@
   AG_PlayerTakedowns: 0.0
   AG_TotalResourcesDeposited: 0.0
 - WarboardStatID: HealingDoneToAllies
-  InGameStat: false
+  InGameStat: true
   EndGameStat: true
   BonusDistanceRange: 0.0
   InRangeBonusMultiplier: 1.0
@@ -164,7 +164,7 @@
   AG_PlayerTakedowns: 0.0
   AG_TotalResourcesDeposited: 0.0
 - WarboardStatID: TotalDamageDealt
-  InGameStat: false
+  InGameStat: true
   EndGameStat: true
   BonusDistanceRange: 0.0
   InRangeBonusMultiplier: 1.0
@@ -199,8 +199,8 @@
 - WarboardStatID: PlayerAssists
   InGameStat: true
   EndGameStat: true
-  BonusDistanceRange: 0.0
-  InRangeBonusMultiplier: 1.0
+  BonusDistanceRange: 14.0
+  InRangeBonusMultiplier: 1.25
   AG_TotalDamageDealt: 0.0
   AG_HealingDone: 0.0
   AG_Score: 50.0
@@ -285,10 +285,10 @@
   AG_PlayerTakedowns: 0.0
   AG_TotalResourcesDeposited: 0.0
 - WarboardStatID: DamageBlocked
-  InGameStat: false
+  InGameStat: true
   EndGameStat: true
-  BonusDistanceRange: 0.0
-  InRangeBonusMultiplier: 1.0
+  BonusDistanceRange: 14.0
+  InRangeBonusMultiplier: 1.25
   AG_TotalDamageDealt: 0.0
   AG_HealingDone: 0.0
   AG_Score: 0.01
