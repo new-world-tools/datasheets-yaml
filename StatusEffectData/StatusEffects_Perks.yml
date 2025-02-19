@@ -110683,7 +110683,7 @@
 - StatusID: Status_Perk_Artifact_Set2_Firestaff_Burn
   DisplayName: "@Status_Burn"
   Description: "@Status_Burn_Description"
-  EffectCategories: Debuff+Burn+Dot+FireBurn
+  EffectCategories: Debuff+Burn+Dot
   PlaceholderIcon: lyshineui/images/status/SE_BurnT1.png
   ShowInUITray: "TRUE"
   ShowTextInDamageNumbers: true
@@ -110717,7 +110717,7 @@
   HealthMin: null
   HealthModifierPercent: 0.0
   HealthModifierBasePercent: null
-  HealthModifierDamageBased: -0.15
+  HealthModifierDamageBased: -0.1
   UseHealScalingValue: null
   HealScalingValueMultiplier: null
   ShowUiDamageNumbersOnHeal: null
@@ -110903,14 +110903,14 @@
   AFAFrostbite: null
   AFACurse: null
   AFABlight: null
-  StackDuration: ""
+  StackDuration: "0"
   DurationMax: 10.0
-  InheritDuration: "FALSE"
-  InheritTotalDuration: "TRUE"
-  RefreshDuration: "TRUE"
+  InheritDuration: ""
+  InheritTotalDuration: ""
+  RefreshDuration: ""
   StackMax: 5.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: "FALSE"
+  RemoveUnappliedStacks: "1"
   PotencyMax: null
   DontReplaceStack: null
   MoveSpeedMod: null
