@@ -101949,7 +101949,7 @@
   PauseOnDisable: null
   PotencyPerLevel: ""
   HideHudDurationNumbers: null
-  BaseDuration: -1.0
+  BaseDuration: 5.0
   TickRate: 0.0
   DelayInitialTick: null
   TickCondition: ""
@@ -102030,9 +102030,9 @@
   Silenced: 0.0
   Stunned: 0.0
   RemoveOnDeath: 1.0
-  RemoveOnDeathsDoor: null
-  RemoveOnRespawn: null
-  RemoveOnGameModeExit: null
+  RemoveOnDeathsDoor: 1.0
+  RemoveOnRespawn: 1.0
+  RemoveOnGameModeExit: 1.0
   IgnoreDiminishingReturns: ""
   OnlyChangeOwnedStatusEffects: ""
   AlwaysReplicate: null
@@ -102157,8 +102157,8 @@
   AFAFrostbite: 1.0
   AFACurse: 1.0
   AFABlight: 1.0
-  StackDuration: ""
-  DurationMax: null
+  StackDuration: "0"
+  DurationMax: 5.0
   InheritDuration: ""
   InheritTotalDuration: ""
   RefreshDuration: ""
