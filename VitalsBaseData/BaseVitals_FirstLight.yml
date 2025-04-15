@@ -65778,7 +65778,7 @@
   DifficultyTierOverride: null
   NoExpNoCoin: null
   CanDropLoot: true
-  DamageMod: 1.0
+  DamageMod: 10.0
   HealthMin: 0.0
   HealthInitial: 1.0
   HealthMod: 1.0
@@ -65786,7 +65786,7 @@
   PhysicalMitigation: 0.35
   ElementalMitigation: 0.35
   MinionVitalsId: ""
-  BuffBuckets: ""
+  BuffBuckets: AISelfDestructCorruptionBuff_1in3
   BaseStaggerDamageOverride: ""
   BlockStaminaDamageOverride: ""
   HealthBaseTickRate: 0.0
@@ -65850,8 +65850,8 @@
   KillEventIdOverride: ""
   LootDropChance: 0.1
   IgnoreLootDropModifier: "FALSE"
-  LootTableId: ""
-  LootTags: ""
+  LootTableId: RabbitSeasonLoot
+  LootTags: RabbitSeason
   IgnoreEffectCategories: ""
   DEFStandard: ""
   DEFSiege: ""
@@ -65926,7 +65926,7 @@
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
-  CharacterScale: 1.1
+  CharacterScale: 1.8
   IsMinion: ""
   ChainSpellImmune: null
   MutatorDifficultyMod: ""
