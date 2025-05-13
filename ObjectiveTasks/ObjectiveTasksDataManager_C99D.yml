@@ -9659,7 +9659,7 @@
   TriggerAnalyticsEvent: ""
   SubTask1: 99D_MSQ_05_CrossBridge_unlockFire_ballista
   SubTask2: 99D_MSQ_05_CrossBridge_fireCannon
-  SubTask3: ""
+  SubTask3: 99D_MSQ_05_CrossBridge_swapCannonOn
   SubTask4: ""
   SubTask5: ""
 - TaskID: 99D_MSQ_05_CrossBridge_unlockFire_ballista
@@ -9775,6 +9775,70 @@
   TargetDescriptionTaskId: ""
   OverrideLocation: 9521.57 7771.68 462.09
   IsHidden: null
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99D_MSQ_05_CrossBridge_swapCannonOn
+  Type: TaskLockAchievement
+  FailOnCondition: null
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: SwapCannon_OnOff
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: null
   DiegeticPinZOverride: ""
@@ -9978,9 +10042,9 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   SubTask1: 99D_MSQ_05_CrossBridge_talkToYash
-  SubTask2: 99D_MSQ_05_CrossBridge_swapCannonOn
-  SubTask3: 99D_MSQ_05_CrossBridge_fort1_container
-  SubTask4: 99D_MSQ_05_CrossBridge_fort2_container
+  SubTask2: 99D_MSQ_05_CrossBridge_fort1_container
+  SubTask3: 99D_MSQ_05_CrossBridge_fort2_container
+  SubTask4: ""
   SubTask5: ""
 - TaskID: 99D_MSQ_05_CrossBridge_talkToYash
   Type: TaskConversationTopic
@@ -10031,70 +10095,6 @@
   TargetDescriptionTaskId: ""
   OverrideLocation: 9415.73 7692.03 453.95
   IsHidden: null
-  HideDiegeticGatherablePins: null
-  ShowDiegeticTaskPin: null
-  DiegeticPinZOverride: ""
-  SS_VariantName: ""
-  SS_StatePreset: ""
-  CompletedNotificationId: ""
-  GridLayout: ""
-  CommunityGoalTag: ""
-  HideChildren: ""
-  TriggerAnalyticsEvent: ""
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-- TaskID: 99D_MSQ_05_CrossBridge_swapCannonOn
-  Type: TaskLockAchievement
-  FailOnCondition: null
-  StayActive: null
-  RequiredLevel: ""
-  TargetQty: 1.0
-  ItemName: SwapCannon_OnOff
-  ItemDropVC: ""
-  ItemDropProbability: null
-  ChestDropProbability: ""
-  EnforceLocationRequirement: null
-  TerritoryID: ""
-  POITag: ""
-  GameModeID: ""
-  LootTag: ""
-  PauseAndClearLootOnTaskComplete: null
-  AwardOnlyOnce: ""
-  ShouldCheckPoints: null
-  GuranteedDropAttempts: ""
-  TargetThreshold: ""
-  CraftingRecipeId: ""
-  CraftAnyRecipe: ""
-  InteractTag: ""
-  UIScreenTag: ""
-  TriggerAreaType: ""
-  KillEnemyType: ""
-  KillEnemyWeaponID: ""
-  Duration: null
-  TaskBuySellType: ""
-  IsPurchaseOrEarn: ""
-  IsExactMatch: ""
-  UseTypeAffix: ""
-  TypeAffix: ""
-  UseMatAffix: ""
-  MatAffix: ""
-  UseMagicAffix: ""
-  MagicAffix: ""
-  MapMarkerMapIcon: ""
-  MapMarkerTitleLocTag: ""
-  MapMarkerDescriptionLocTag: ""
-  MapMarkerWorldPositionX: ""
-  MapMarkerWorldPositionY: ""
-  MapMarkerWorldDistanceThreshold: ""
-  UseLargeItemDisplay: ""
-  TP_TargetTag: ""
-  TP_DescriptionTag: ""
-  TargetDescriptionTaskId: ""
-  OverrideLocation: ""
-  IsHidden: 1.0
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: null
   DiegeticPinZOverride: ""

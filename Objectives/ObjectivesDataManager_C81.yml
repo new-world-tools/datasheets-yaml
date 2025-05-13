@@ -10,7 +10,7 @@
   NpcDestinationId: ""
   ExclusiveTerritory: ""
   AchievementId: Faction_Push
-  RequiredAchievementId: 99A_MSQ_01B && !Faction_Push_Start
+  RequiredAchievementId: "!Faction_Push_Start"
   RequiredFaction: ""
   RequiredLevel: 17.0
   RequiredEntitlementId: ""
@@ -42,7 +42,7 @@
   SkipReqAchievmentWhenInvalid: ""
   EntitlementId: ""
   QuestArcTag: ""
-  HideAvailableMapIcon : ""
+  HideAvailableMapIcon: ""
   ScheduleId: ""
   ShouldResetInProgressQuestOnScheduleEnd: ""
 - ObjectiveID: Vector_Crafting_MB_PushQuest
@@ -89,7 +89,7 @@
   SkipReqAchievmentWhenInvalid: ""
   EntitlementId: ""
   QuestArcTag: ""
-  HideAvailableMapIcon : ""
+  HideAvailableMapIcon: ""
   ScheduleId: ""
   ShouldResetInProgressQuestOnScheduleEnd: ""
 - ObjectiveID: Vector_Crafting_WW_PushQuest
@@ -136,7 +136,7 @@
   SkipReqAchievmentWhenInvalid: ""
   EntitlementId: ""
   QuestArcTag: ""
-  HideAvailableMapIcon : ""
+  HideAvailableMapIcon: ""
   ScheduleId: ""
   ShouldResetInProgressQuestOnScheduleEnd: ""
 - ObjectiveID: Vector_Mounts_PushQuest
@@ -183,6 +183,6 @@
   SkipReqAchievmentWhenInvalid: ""
   EntitlementId: ""
   QuestArcTag: ""
-  HideAvailableMapIcon : ""
+  HideAvailableMapIcon: ""
   ScheduleId: ""
   ShouldResetInProgressQuestOnScheduleEnd: ""

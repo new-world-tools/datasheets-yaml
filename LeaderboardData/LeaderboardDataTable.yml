@@ -7886,6 +7886,93 @@
   RewardType: Sandworm
   NameString: ""
   ValueString: "@ui_leaderboard_column_completed"
+- LeaderboardId: MonthRaidCompletionsHercyne
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Month
+  LeaderboardDefinitionId: top-boss-trial-completions.HercyneRaid_Reward.{world}.{month}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: Raids
+  DataSheetLBScope: World
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: HercyneRaid_Reward
+  FirstLevelCategory: Vs. Environment
+  SecondLevelCategory: "@ui_leaderboard_display_raids_cutlassKeys2"
+  SecondLevelCategoryPriority: null
+  DisplayName: "@ui_leaderboard_display_raids_cutlassKeys2"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_raids"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: ""
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_completed"
+- LeaderboardId: SeasonRaidCompletionsHercyne
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Season
+  LeaderboardDefinitionId: top-boss-trial-completions.HercyneRaid_Reward.{world}.{season}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: Raids
+  DataSheetLBScope: World
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: HercyneRaid_Reward
+  FirstLevelCategory: Vs. Environment
+  SecondLevelCategory: "@ui_leaderboard_display_raids_cutlassKeys2"
+  SecondLevelCategoryPriority: null
+  DisplayName: "@ui_leaderboard_display_raids_cutlassKeys2"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_raids"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: 10:Leaderboard_HercyneRaidTopTier,50:Leaderboard_HercyneRaidSecondTier
+  ItemRewards: ""
+  EntitlementRewards: 10:LB_HercyneRaid_Rank1,50:LB_HercyneRaid_Rank2
+  CategoryDescription: ""
+  CategoryAdditionalHeader: ""
+  RewardType: HercyneRaidCompletion
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_completed"
+- LeaderboardId: SeasonExpeditionClearTimeHercyne
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Season
+  LeaderboardDefinitionId: min-dungeon-group-gold-medal-expedition-clear-time.RaidCutlassKeys00.0.{world}.{season}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: Expeditions
+  DataSheetLBScope: World
+  CharacterLeaderboard: true
+  GroupLeaderboard: true
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: RaidCutlassKeys00
+  FirstLevelCategory: Vs. Environment
+  SecondLevelCategory: "@ui_leaderboard_display_raids_cutlassKeys1"
+  SecondLevelCategoryPriority: null
+  DisplayName: "@ui_leaderboard_display_raids_cutlassKeys1"
+  DisplayNamePriority: 2.0
+  Category: "@ui_leaderboard_category_raids"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: ""
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_time"
 - LeaderboardId: MonthTerritoryControlAll
   IsEnabled: true
   Namespace: pc

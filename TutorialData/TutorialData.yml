@@ -1546,16 +1546,106 @@
   IgnoreCombatSuppression: null
   ResetOnFTUEStart: null
   SearchKeywords: ""
-- TutorialId: WarsAndInvasions1Tutorial
+- TutorialId: WarTutorial
   Type: Both
-  PromptContentIds: WarsAndInvasions1Prompt_01
-  DialogueContentIds: WarsAndInvasions1Dialogue_01
-  ConditionIdsAND: WarBoardOpenedUIScreenCondition
+  PromptContentIds: WarPrompt_01
+  DialogueContentIds: WarDialogue_01
+  ConditionIdsAND: WarEnteredCondition
   ConditionIdsRelation: ""
   ConditionIdsOR: ""
   Classification: All
   PromptStyle: VoluntaryAction
-  TitleText: "@tutorial_wars_and_invasions1_01_title"
+  TitleText: "@tutorial_war_01_title"
+  Category: "@tutorial_category_territory_control"
+  CTAEnabled: true
+  ExitActionAndDescription: ""
+  ExitDuration: Medium
+  HiddenTriggerConditionId: ""
+  IgnoreCombatSuppression: null
+  ResetOnFTUEStart: null
+  SearchKeywords: ""
+- TutorialId: InvasionTutorial
+  Type: Both
+  PromptContentIds: InvasionPrompt_01
+  DialogueContentIds: InvasionDialogue_01
+  ConditionIdsAND: InvasionEnteredCondition
+  ConditionIdsRelation: ""
+  ConditionIdsOR: ""
+  Classification: All
+  PromptStyle: VoluntaryAction
+  TitleText: "@tutorial_invasion_01_title"
+  Category: "@tutorial_category_territory_control"
+  CTAEnabled: true
+  ExitActionAndDescription: ""
+  ExitDuration: Medium
+  HiddenTriggerConditionId: ""
+  IgnoreCombatSuppression: null
+  ResetOnFTUEStart: null
+  SearchKeywords: ""
+- TutorialId: OutpostRushTutorial
+  Type: Both
+  PromptContentIds: OutpostRushPrompt_01
+  DialogueContentIds: OutpostRushDialogue_01
+  ConditionIdsAND: OutpostRushEnteredCondition
+  ConditionIdsRelation: ""
+  ConditionIdsOR: ""
+  Classification: All
+  PromptStyle: VoluntaryAction
+  TitleText: "@tutorial_outpostrush_01_title"
+  Category: "@tutorial_category_activities"
+  CTAEnabled: true
+  ExitActionAndDescription: ""
+  ExitDuration: Medium
+  HiddenTriggerConditionId: ""
+  IgnoreCombatSuppression: null
+  ResetOnFTUEStart: null
+  SearchKeywords: ""
+- TutorialId: CaptureTheFlagTutorial
+  Type: Both
+  PromptContentIds: CaptureTheFlagPrompt_01
+  DialogueContentIds: CaptureTheFlagDialogue_01
+  ConditionIdsAND: CaptureTheFlagEnteredCondition
+  ConditionIdsRelation: ""
+  ConditionIdsOR: ""
+  Classification: All
+  PromptStyle: VoluntaryAction
+  TitleText: "@tutorial_capturetheflag_01_title"
+  Category: "@tutorial_category_activities"
+  CTAEnabled: true
+  ExitActionAndDescription: ""
+  ExitDuration: Medium
+  HiddenTriggerConditionId: ""
+  IgnoreCombatSuppression: null
+  ResetOnFTUEStart: null
+  SearchKeywords: ""
+- TutorialId: GMJumppadTutorial
+  Type: Prompt
+  PromptContentIds: GMJumppadPrompt_01
+  DialogueContentIds: ""
+  ConditionIdsAND: ""
+  ConditionIdsRelation: ""
+  ConditionIdsOR: GM_Jumppad_Long_EventCondition,GM_Jumppad_Auto_EventCondition,GM_Jumppad_High_EventCondition
+  Classification: All
+  PromptStyle: VoluntaryAction
+  TitleText: ""
+  Category: "@tutorial_category_activities"
+  CTAEnabled: false
+  ExitActionAndDescription: ""
+  ExitDuration: Short
+  HiddenTriggerConditionId: ""
+  IgnoreCombatSuppression: true
+  ResetOnFTUEStart: null
+  SearchKeywords: ""
+- TutorialId: InfluenceRaceTutorial
+  Type: Dialogue
+  PromptContentIds: ""
+  DialogueContentIds: InfluenceRaceDialogue_01
+  ConditionIdsAND: ""
+  ConditionIdsRelation: ""
+  ConditionIdsOR: ""
+  Classification: All
+  PromptStyle: VoluntaryAction
+  TitleText: "@tutorial_influencerace_01_title"
   Category: "@tutorial_category_territory_control"
   CTAEnabled: true
   ExitActionAndDescription: ""

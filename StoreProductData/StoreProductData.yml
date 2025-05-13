@@ -6200,7 +6200,7 @@
   StoreProductType: TokenPack
 - UniqueTagID: MountAttachmentItem_Blacksmith
   IsEnabled: 1.0
-  DisplayName: "@MountAttachmentItem_Blacksmith_name"
+  DisplayName: "@MountAttachmentItem_Skin_Blacksmith_MasterName"
   Description: "@MountAttachmentItem_Blacksmith_description"
   PortraitImage: LyShineUI/Images/mtx/mtx_product_images/mountAttachment_Portrait_BlacksmithKit.png
   LandscapeImage: LyShineUI/Images/mtx/mtx_product_images/mountAttachment_Rectangle_BlacksmithKit.png
@@ -6210,7 +6210,7 @@
   StoreProductType: MountAttachment
 - UniqueTagID: MountAttachmentItem_Flags
   IsEnabled: 1.0
-  DisplayName: "@MountAttachmentItem_Flags_name"
+  DisplayName: "@MountAttachmentItem_Skin_Flags_MasterName"
   Description: "@MountAttachmentItem_Flags_description"
   PortraitImage: LyShineUI/Images/mtx/mtx_product_images/mountAttachment_Portrait_FlagKit.png
   LandscapeImage: LyShineUI/Images/mtx/mtx_product_images/mountAttachment_Rectangle_FlagKit.png
@@ -6220,7 +6220,7 @@
   StoreProductType: MountAttachment
 - UniqueTagID: MountAttachmentItem_Tome
   IsEnabled: 1.0
-  DisplayName: "@MountAttachmentItem_Tome_name"
+  DisplayName: "@MountAttachmentItem_Skin_Tome_MasterName"
   Description: "@MountAttachmentItem_Tome_description"
   PortraitImage: LyShineUI/Images/mtx/mtx_product_images/mountAttachment_Portrait_Tome.png
   LandscapeImage: LyShineUI/Images/mtx/mtx_product_images/mountAttachment_Rectangle_Tome.png
@@ -6230,7 +6230,7 @@
   StoreProductType: MountAttachment
 - UniqueTagID: MountAttachmentItem_Logging
   IsEnabled: 1.0
-  DisplayName: "@MountAttachmentItem_Logging_name"
+  DisplayName: "@MountAttachmentItem_Skin_Logging_MasterName"
   Description: "@MountAttachmentItem_Logging_description"
   PortraitImage: LyShineUI/Images/mtx/mtx_product_images/mountAttachment_Portrait_AxeLogs.png
   LandscapeImage: LyShineUI/Images/mtx/mtx_product_images/mountAttachment_Rectangle_AxeLogs.png
@@ -6240,7 +6240,7 @@
   StoreProductType: MountAttachment
 - UniqueTagID: MountAttachmentItem_TreasureChest
   IsEnabled: 1.0
-  DisplayName: "@MountAttachmentItem_TreasureChest_name"
+  DisplayName: "@MountAttachmentItem_Skin_TreasureChest_MasterName"
   Description: "@MountAttachmentItem_TreasureChest_description"
   PortraitImage: LyShineUI/Images/mtx/mtx_product_images/mountAttachment_Portrait_TreasureChest.png
   LandscapeImage: LyShineUI/Images/mtx/mtx_product_images/mountAttachment_Rectangle_TreasureChest.png
@@ -6250,7 +6250,7 @@
   StoreProductType: MountAttachment
 - UniqueTagID: MountAttachmentItem_Cooking
   IsEnabled: 1.0
-  DisplayName: "@MountAttachmentItem_Cooking_name"
+  DisplayName: "@MountAttachmentItem_Skin_Cooking_MasterName"
   Description: "@MountAttachmentItem_Cooking_description"
   PortraitImage: LyShineUI/Images/mtx/mtx_product_images/mountAttachment_Portrait_CookingSetKit.png
   LandscapeImage: LyShineUI/Images/mtx/mtx_product_images/mountAttachment_Rectangle_CookingSetKit.png
@@ -6260,7 +6260,7 @@
   StoreProductType: MountAttachment
 - UniqueTagID: MountAttachmentItem_AncientArtifact
   IsEnabled: 1.0
-  DisplayName: "@MountAttachmentItem_AncientArtifact_name"
+  DisplayName: "@MountAttachmentItem_Skin_AncientArtifact_MasterName"
   Description: "@MountAttachmentItem_AncientArtifact_description"
   PortraitImage: LyShineUI/Images/mtx/mtx_product_images/mountAttachment_Portrait_ArtifactKit.png
   LandscapeImage: LyShineUI/Images/mtx/mtx_product_images/mountAttachment_Rectangle_ArtifactKit.png
@@ -6270,7 +6270,7 @@
   StoreProductType: MountAttachment
 - UniqueTagID: MountAttachmentItem_Fishing
   IsEnabled: 1.0
-  DisplayName: "@MountAttachmentItem_Fishing_name"
+  DisplayName: "@MountAttachmentItem_Skin_Fishing_MasterName"
   Description: "@MountAttachmentItem_Fishing_description"
   PortraitImage: LyShineUI/Images/mtx/mtx_product_images/mountAttachment_Portrait_FishingBasket.png
   LandscapeImage: LyShineUI/Images/mtx/mtx_product_images/mountAttachment_Rectangle_FishingBasket.png
@@ -6280,7 +6280,7 @@
   StoreProductType: MountAttachment
 - UniqueTagID: MountAttachmentItem_BotanyKit
   IsEnabled: 1.0
-  DisplayName: "@MountAttachmentItem_BotanyKit_name"
+  DisplayName: "@MountAttachmentItem_Skin_BotanyKit_MasterName"
   Description: "@MountAttachmentItem_BotanyKit_description"
   PortraitImage: LyShineUI/Images/mtx/mtx_product_images/mountAttachment_Portrait_BotanyKit.png
   LandscapeImage: LyShineUI/Images/mtx/mtx_product_images/mountAttachment_Rectangle_BotanyKit.png
@@ -8838,6 +8838,16 @@
   ThumbnailImage: lyshineui/images/mtx/mtx_product_images/bundle_Thumbnail_Valentines.png
   TypeDescription: "@ui_bundle"
   StoreProductType: Bundle
+- UniqueTagID: StoreItem_Token_Barbershop_X1
+  IsEnabled: 1.0
+  DisplayName: "@StoreItem_Token_Barbershop_X1_name"
+  Description: "@StoreItem_Token_Barbershop_X1_description"
+  PortraitImage: LyShineUI/Images/mtx/mtx_product_images/bundle_Portrait_BarbershopTokens.png
+  LandscapeImage: LyShineUI/Images/mtx/mtx_product_images/bundle_Rectangle_BarbershopTokens.png
+  SquareImage: LyShineUI/Images/mtx/mtx_product_images/bundle_Square_BarbershopTokens.png
+  ThumbnailImage: LyShineUI/Images/mtx/mtx_product_images/bundle_Thumbnail_BarbershopTokens.png
+  TypeDescription: "@reward_type_token_single"
+  StoreProductType: TokenSingle
 - UniqueTagID: StoreItem_Bundle_Valkyrie_Coiled
   IsEnabled: 1.0
   DisplayName: "@StoreItem_Bundle_Valkyrie_Coiled_name"
@@ -8868,6 +8878,16 @@
   ThumbnailImage: LyShineUI/Images/mtx/mtx_product_images/armor_Thumbnail_RabbitsRevengeSet1_Head.png
   TypeDescription: "@reward_type_Apparelskin"
   StoreProductType: ApparelSkin
+- UniqueTagID: StoreItem_Bundle_GreekGodsApparelWeapon
+  IsEnabled: 1.0
+  DisplayName: "@StoreItem_Bundle_GreekGodsApparelWeapon_name"
+  Description: "@StoreItem_Bundle_GreekGodsApparelWeapon_description"
+  PortraitImage: LyShineUI/Images/mtx/mtx_product_images/bundle_Square_LionMane.png
+  LandscapeImage: LyShineUI/Images/mtx/mtx_product_images/bundle_Rectangle_LionMane.png
+  SquareImage: LyShineUI/Images/mtx/mtx_product_images/bundle_Square_LionMane.png
+  ThumbnailImage: LyShineUI/Images/mtx/mtx_product_images/bundle_Square_LionMane.png
+  TypeDescription: "@ui_bundle"
+  StoreProductType: Bundle
 - UniqueTagID: StoreItem_Weapon_KickMe_Shield
   IsEnabled: 1.0
   DisplayName: "@Skin_MTX_April_Fools_Kick_Me_shield_MasterName"
@@ -8878,6 +8898,26 @@
   ThumbnailImage: LyShineUI/Images/mtx/mtx_product_images/weapon_Square_AprilFools_KiteShield.png
   TypeDescription: "@reward_type_Weaponskin_Kiteshield"
   StoreProductType: WeaponSkinKiteshield
+- UniqueTagID: StoreItem_Emote_NinjaRun1
+  IsEnabled: 1.0
+  DisplayName: "@ui_Emote_Walk_NinjaRun_name"
+  Description: "@ui_Emote_Walk_NinjaRun_description"
+  PortraitImage: LyShineUI/Images/mtx/mtx_product_images/emote_Square_Unarmed_NinjaRun.png
+  LandscapeImage: LyShineUI/Images/mtx/mtx_product_images/emote_Rectangle_Unarmed_NinjaRun.png
+  SquareImage: LyShineUI/Images/mtx/mtx_product_images/emote_Square_Unarmed_NinjaRun.png
+  ThumbnailImage: LyShineUI/Images/mtx/mtx_product_images/emote_Square_Unarmed_NinjaRun.png
+  TypeDescription: "@reward_type_emote"
+  StoreProductType: Emote
+- UniqueTagID: StoreItem_Bundle_NinjaKitsune
+  IsEnabled: 1.0
+  DisplayName: "@StoreItem_Bundle_Ninja_Kitsune_name"
+  Description: "@StoreItem_Bundle_Ninja_Kitsune_description"
+  PortraitImage: LyShineUI/Images/mtx/mtx_product_images/bundle_Square_Kitsune.png
+  LandscapeImage: LyShineUI/Images/mtx/mtx_product_images/bundle_Rectangle_Kitsune.png
+  SquareImage: LyShineUI/Images/mtx/mtx_product_images/bundle_Square_Kitsune.png
+  ThumbnailImage: LyShineUI/Images/mtx/mtx_product_images/bundle_Square_Kitsune.png
+  TypeDescription: "@ui_bundle"
+  StoreProductType: Bundle
 - UniqueTagID: StoreItem_Weapon_Easter_Rapier
   IsEnabled: 1.0
   DisplayName: "@Skin_MTX_Easter_1hRapier_MasterName"
@@ -8908,3 +8948,123 @@
   ThumbnailImage: LyShineUI/Images/mtx/mtx_product_images/weapon_Square_PlushieBunny_RoundShield.png
   TypeDescription: "@reward_type_Weaponskin_Shield"
   StoreProductType: WeaponSkinShield
+- UniqueTagID: StoreItem_Bundle_GothicCoquette
+  IsEnabled: 1.0
+  DisplayName: "@StoreItem_Bundle_GothicCoquette_name"
+  Description: "@StoreItem_Bundle_GothicCoquette_description"
+  PortraitImage: LyShineUI/Images/mtx/mtx_product_images/bundle_Square_GothicCoquette.png
+  LandscapeImage: LyShineUI/Images/mtx/mtx_product_images/bundle_Rectangle_GothicCoquette.png
+  SquareImage: LyShineUI/Images/mtx/mtx_product_images/bundle_Square_GothicCoquette.png
+  ThumbnailImage: LyShineUI/Images/mtx/mtx_product_images/bundle_Square_GothicCoquette.png
+  TypeDescription: "@ui_bundle"
+  StoreProductType: Bundle
+- UniqueTagID: SeasonPass_Premium_Season_8
+  IsEnabled: 1.0
+  DisplayName: "@SeasonPass_Premium_Season_8_name"
+  Description: "@SeasonPass_Premium_Season_1_description"
+  PortraitImage: lyshineui/images/mtx/mtx_product_images/services_Portrait_ServerTransfer.png
+  LandscapeImage: lyshineui/images/mtx/mtx_product_images/services_Rectangle_ServerTransfer.png
+  SquareImage: lyshineui/images/mtx/mtx_product_images/services_Square_ServerTransfer.png
+  ThumbnailImage: lyshineui/images/mtx/mtx_product_images/services_Thumbnail_ServerTransfer.png
+  TypeDescription: "@reward_type_service"
+  StoreProductType: Service
+- UniqueTagID: SeasonPass_TierSkip_X1_Season_8
+  IsEnabled: 1.0
+  DisplayName: "@SeasonPass_TierSkip_X1_Season_1_name"
+  Description: "@SeasonPass_TierSkip_X1_Season_1_description"
+  PortraitImage: lyshineui/images/mtx/mtx_product_images/services_Portrait_ServerTransfer.png
+  LandscapeImage: lyshineui/images/mtx/mtx_product_images/services_Rectangle_ServerTransfer.png
+  SquareImage: lyshineui/images/mtx/mtx_product_images/services_Square_ServerTransfer.png
+  ThumbnailImage: lyshineui/images/mtx/mtx_product_images/services_Thumbnail_ServerTransfer.png
+  TypeDescription: "@reward_type_service"
+  StoreProductType: Service
+- UniqueTagID: SeasonPass_TierSkip_X10_Season_8
+  IsEnabled: 1.0
+  DisplayName: "@SeasonPass_TierSkip_X10_Season_1_name"
+  Description: "@SeasonPass_TierSkip_X10_Season_1_description"
+  PortraitImage: lyshineui/images/mtx/mtx_product_images/services_Portrait_ServerTransfer.png
+  LandscapeImage: lyshineui/images/mtx/mtx_product_images/services_Rectangle_ServerTransfer.png
+  SquareImage: lyshineui/images/mtx/mtx_product_images/services_Square_ServerTransfer.png
+  ThumbnailImage: lyshineui/images/mtx/mtx_product_images/services_Thumbnail_ServerTransfer.png
+  TypeDescription: "@reward_type_service"
+  StoreProductType: Service
+- UniqueTagID: SeasonPass_HeadStart_Season_8
+  IsEnabled: 1.0
+  DisplayName: "@SeasonPass_HeadStart_Season_8_name"
+  Description: "@SeasonPass_HeadStart_Season_1_description"
+  PortraitImage: lyshineui/images/mtx/mtx_product_images/services_Portrait_ServerTransfer.png
+  LandscapeImage: lyshineui/images/mtx/mtx_product_images/services_Rectangle_ServerTransfer.png
+  SquareImage: lyshineui/images/mtx/mtx_product_images/services_Square_ServerTransfer.png
+  ThumbnailImage: lyshineui/images/mtx/mtx_product_images/services_Thumbnail_ServerTransfer.png
+  TypeDescription: "@reward_type_service"
+  StoreProductType: Service
+- UniqueTagID: SeasonPass_TierSkip_X5_Season_8
+  IsEnabled: 1.0
+  DisplayName: "@SeasonPass_TierSkip_X5_Season_1_name"
+  Description: "@SeasonPass_TierSkip_X5_Season_1_description"
+  PortraitImage: lyshineui/images/mtx/mtx_product_images/services_Portrait_ServerTransfer.png
+  LandscapeImage: lyshineui/images/mtx/mtx_product_images/services_Rectangle_ServerTransfer.png
+  SquareImage: lyshineui/images/mtx/mtx_product_images/services_Square_ServerTransfer.png
+  ThumbnailImage: lyshineui/images/mtx/mtx_product_images/services_Thumbnail_ServerTransfer.png
+  TypeDescription: "@reward_type_service"
+  StoreProductType: Service
+- UniqueTagID: MountDye_Black
+  IsEnabled: 1.0
+  DisplayName: "@DyeA024_Mounts_MasterName"
+  Description: "@Dye_Mounts_Description"
+  PortraitImage: LyShineUI/Images/mtx/mtx_product_images/dye_mount_24_Square.png
+  LandscapeImage: LyShineUI/Images/mtx/mtx_product_images/dye_mount_24_Rectangle.png
+  SquareImage: LyShineUI/Images/mtx/mtx_product_images/dye_mount_24_Square.png
+  ThumbnailImage: LyShineUI/Images/mtx/mtx_product_images/dye_mount_24_Square.png
+  TypeDescription: "@reward_type_MountDye"
+  StoreProductType: MountDye
+- UniqueTagID: MountDye_White
+  IsEnabled: 1.0
+  DisplayName: "@DyeA025_Mounts_MasterName"
+  Description: "@Dye_Mounts_Description"
+  PortraitImage: LyShineUI/Images/mtx/mtx_product_images/dye_mount_25_Square.png
+  LandscapeImage: LyShineUI/Images/mtx/mtx_product_images/dye_mount_25_Rectangle.png
+  SquareImage: LyShineUI/Images/mtx/mtx_product_images/dye_mount_25_Square.png
+  ThumbnailImage: LyShineUI/Images/mtx/mtx_product_images/dye_mount_25_Square.png
+  TypeDescription: "@reward_type_MountDye"
+  StoreProductType: MountDye
+- UniqueTagID: MountDye_Red
+  IsEnabled: 1.0
+  DisplayName: "@DyeA026_Mounts_MasterName"
+  Description: "@Dye_Mounts_Description"
+  PortraitImage: LyShineUI/Images/mtx/mtx_product_images/dye_mount_26_Square.png
+  LandscapeImage: LyShineUI/Images/mtx/mtx_product_images/dye_mount_26_Rectangle.png
+  SquareImage: LyShineUI/Images/mtx/mtx_product_images/dye_mount_26_Square.png
+  ThumbnailImage: LyShineUI/Images/mtx/mtx_product_images/dye_mount_26_Square.png
+  TypeDescription: "@reward_type_MountDye"
+  StoreProductType: MountDye
+- UniqueTagID: housing_factionfest_reward_decor_covenant
+  IsEnabled: 1.0
+  DisplayName: "@housing_factionfest_reward_decor_covenant_mastername"
+  Description: "@housing_factionfest_reward_decor_covenant_description"
+  PortraitImage: LyShineUI/Images/mtx/mtx_product_images/housingItem_Portrait_EgyptianGods_JarHawk.png
+  LandscapeImage: LyShineUI/Images/mtx/mtx_product_images/housingItem_Rectangle_EgyptianGods_JarHawk.png
+  SquareImage: LyShineUI/Images/mtx/mtx_product_images/housingItem_Square_EgyptianGods_JarHawk.png
+  ThumbnailImage: LyShineUI/Images/mtx/mtx_product_images/housingItem_Thumbnail_EgyptianGods_JarHawk.png
+  TypeDescription: "@reward_type_housing_item"
+  StoreProductType: HousingItem
+- UniqueTagID: housing_factionfest_reward_decor_marauder
+  IsEnabled: 1.0
+  DisplayName: "@housing_factionfest_reward_decor_marauder_mastername"
+  Description: "@housing_factionfest_reward_decor_marauder_description"
+  PortraitImage: LyShineUI/Images/mtx/mtx_product_images/housingItem_Portrait_EgyptianGods_JarHawk.png
+  LandscapeImage: LyShineUI/Images/mtx/mtx_product_images/housingItem_Rectangle_EgyptianGods_JarHawk.png
+  SquareImage: LyShineUI/Images/mtx/mtx_product_images/housingItem_Square_EgyptianGods_JarHawk.png
+  ThumbnailImage: LyShineUI/Images/mtx/mtx_product_images/housingItem_Thumbnail_EgyptianGods_JarHawk.png
+  TypeDescription: "@reward_type_housing_item"
+  StoreProductType: HousingItem
+- UniqueTagID: housing_factionfest_reward_decor_syndicate
+  IsEnabled: 1.0
+  DisplayName: "@housing_factionfest_reward_decor_syndicate_mastername"
+  Description: "@housing_factionfest_reward_decor_syndicate_description"
+  PortraitImage: LyShineUI/Images/mtx/mtx_product_images/housingItem_Portrait_EgyptianGods_JarHawk.png
+  LandscapeImage: LyShineUI/Images/mtx/mtx_product_images/housingItem_Rectangle_EgyptianGods_JarHawk.png
+  SquareImage: LyShineUI/Images/mtx/mtx_product_images/housingItem_Square_EgyptianGods_JarHawk.png
+  ThumbnailImage: LyShineUI/Images/mtx/mtx_product_images/housingItem_Thumbnail_EgyptianGods_JarHawk.png
+  TypeDescription: "@reward_type_housing_item"
+  StoreProductType: HousingItem

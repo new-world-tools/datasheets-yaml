@@ -63726,8 +63726,8 @@
   HousingTag1 Placed: OnWall
   HousingTag2 Points: +IsLargeDecor
   HousingTag3 Limiter: ""
-  HousingTag5 Buffs: +SeasonXPBonus
-  HousingTags: OnWall+IsLargeDecor+SeasonXPBonus
+  HousingTag5 Buffs: ""
+  HousingTags: OnWall+IsLargeDecor
   IsEntitlement: "FALSE"
   AttributionId: Season_5
   HowToOptain (Primarily): Season Journey Reward
@@ -64078,6 +64078,66 @@
   ColorFamilies: ""
   PlacementGridDisplaySize: ""
   Notes: ""
+- HouseItemID: House_HousingItem_Spriggan2024_PottedTree
+  ExcludeFromGame: 0.0
+  PrefabPath: Housing/Items/InGame_Rewards/Season6/HousingItem_Spriggan2024_PottedTree
+  DEV-FurnitureSet: NA-Other
+  UIHousingCategory: Misc
+  HousingTag1 Placed: OnFloor
+  HousingTag2 Points: +IsMediumDecor
+  HousingTag3 Limiter: ""
+  HousingTag5 Buffs: ""
+  HousingTags: OnFloor+IsMediumDecor
+  IsEntitlement: "0"
+  AttributionId: SpringtideBloom_2023
+  HowToOptain (Primarily): Season Event Drop
+  ItemRarity: Epic
+  ForceRarity: 3.0
+  RankingPointsDuplicateLimit: 2.0
+  RankingPointsNegativeLimit: 3.0
+  PointModifier: 0.0
+  RankingPoints: "0.13"
+  MaxPotentialPoints: "0.26"
+  HousingStatusEffect: ""
+  StorageBonus: null
+  InteractionAnimationID: ""
+  Name: "@House_HousingItem_Spriggan2024_PottedTree_MasterName"
+  Description: "@House_HousingItem_Spriggan2024_PottedTree_Description"
+  IconPath: lyshineui/images/icons/items/HousingItem/House_HousingItem_Spriggan2024_PottedTree.png
+  HiResIconPath: lyshineui/images/icons/items_hires/House_HousingItem_Spriggan2024_PottedTree.png
+  Weight: 9.0
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  ItemType: HousingItem
+  UiItemClass: UI_Furniture
+  Tier: 4.0
+  IsSalvageable: false
+  SalvageResources: false
+  IsRepairable: false
+  BindOnPickup: true
+  CraftingRecipe: ""
+  RepairRecipe: ""
+  SalvageRecipe: ""
+  SalvageGameEventID: ""
+  RepairDustModifier: 0.0
+  ConfirmBeforeUse: false
+  ConsumeOnUse: false
+  MaxStackSize: 2.0
+  DeathDropPercentage: 0.0
+  ItemTypeDisplayName: "@ui_itemtypedescription_housingitem"
+  Nonremovable: false
+  AudioPickup: Play_UI_Pickup_Generic
+  AudioPlace: Play_UI_Drop_Generic
+  AudioUse: Play_UI_Use_Generic
+  AudioCreated: Play_UI_Created_Generic
+  AudioDestroyed: ""
+  Primary Color: ""
+  Secondary Color: ""
+  Tertiary Color: ""
+  ColorFamilies: ""
+  PlacementGridDisplaySize: ""
+  Notes: ""
 - HouseItemID: House_HousingItem_Buff_SPECIAL_Season6_T1
   ExcludeFromGame: 0.0
   PrefabPath: Housing/Items/InGame_Rewards/Buff_Trophies/HousingItem_Buff_SPECIAL_Season6_T1
@@ -64086,8 +64146,8 @@
   HousingTag1 Placed: OnWall
   HousingTag2 Points: +IsLargeDecor
   HousingTag3 Limiter: ""
-  HousingTag5 Buffs: +SeasonXPBonus
-  HousingTags: OnWall+IsLargeDecor+SeasonXPBonus
+  HousingTag5 Buffs: ""
+  HousingTags: OnWall+IsLargeDecor
   IsEntitlement: "FALSE"
   AttributionId: Season_6
   HowToOptain (Primarily): Season Journey Reward
@@ -64146,8 +64206,8 @@
   HousingTag1 Placed: OnWall
   HousingTag2 Points: +IsLargeDecor
   HousingTag3 Limiter: ""
-  HousingTag5 Buffs: +SeasonXPBonus
-  HousingTags: OnWall+IsLargeDecor+SeasonXPBonus
+  HousingTag5 Buffs: ""
+  HousingTags: OnWall+IsLargeDecor
   IsEntitlement: "0"
   AttributionId: Season_7
   HowToOptain (Primarily): Season Journey Reward
@@ -64484,6 +64544,306 @@
   ConfirmBeforeUse: false
   ConsumeOnUse: false
   MaxStackSize: 1.0
+  DeathDropPercentage: 0.0
+  ItemTypeDisplayName: "@ui_itemtypedescription_housingitem"
+  Nonremovable: false
+  AudioPickup: Play_UI_Pickup_Generic
+  AudioPlace: Play_UI_Drop_Generic
+  AudioUse: Play_UI_Use_Generic
+  AudioCreated: Play_UI_Created_Generic
+  AudioDestroyed: ""
+  Primary Color: ""
+  Secondary Color: ""
+  Tertiary Color: ""
+  ColorFamilies: ""
+  PlacementGridDisplaySize: ""
+  Notes: ""
+- HouseItemID: House_HousingItem_Buff_SPECIAL_Season8_T1
+  ExcludeFromGame: 0.0
+  PrefabPath: Housing/Items/InGame_Rewards/Buff_Trophies/HousingItem_Buff_SPECIAL_Season8_T1
+  DEV-FurnitureSet: NA-Buffs
+  UIHousingCategory: Misc
+  HousingTag1 Placed: OnWall
+  HousingTag2 Points: +IsLargeDecor
+  HousingTag3 Limiter: ""
+  HousingTag5 Buffs: +SeasonXPBonus
+  HousingTags: OnWall+IsLargeDecor+SeasonXPBonus
+  IsEntitlement: "0"
+  AttributionId: Season_7
+  HowToOptain (Primarily): Season Journey Reward
+  ItemRarity: Legendary
+  ForceRarity: 4.0
+  RankingPointsDuplicateLimit: 2.0
+  RankingPointsNegativeLimit: 4.0
+  PointModifier: 0.0
+  RankingPoints: "0.15"
+  MaxPotentialPoints: "0.3"
+  HousingStatusEffect: Season8_TrophySeasonXPBonus
+  StorageBonus: null
+  InteractionAnimationID: ""
+  Name: "@House_HousingItem_Buff_SPECIAL_Season8_T1_MasterName"
+  Description: "@House_HousingItem_Buff_SPECIAL_Season8_T1_Description"
+  IconPath: lyshineui/images/icons/items/HousingItem/House_HousingItem_Buff_SPECIAL_Season8_T1.png
+  HiResIconPath: lyshineui/images/icons/items_hires/House_HousingItem_Buff_SPECIAL_Season8_T1.png
+  Weight: 9.0
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  ItemType: HousingItem
+  UiItemClass: UI_Furniture
+  Tier: 5.0
+  IsSalvageable: false
+  SalvageResources: false
+  IsRepairable: false
+  BindOnPickup: true
+  CraftingRecipe: ""
+  RepairRecipe: ""
+  SalvageRecipe: ""
+  SalvageGameEventID: ""
+  RepairDustModifier: 0.0
+  ConfirmBeforeUse: false
+  ConsumeOnUse: false
+  MaxStackSize: 1.0
+  DeathDropPercentage: 0.0
+  ItemTypeDisplayName: "@ui_itemtypedescription_housingitem"
+  Nonremovable: false
+  AudioPickup: Play_UI_Pickup_Generic
+  AudioPlace: Play_UI_Drop_Generic
+  AudioUse: Play_UI_Use_Generic
+  AudioCreated: Play_UI_Created_Generic
+  AudioDestroyed: ""
+  Primary Color: ""
+  Secondary Color: ""
+  Tertiary Color: ""
+  ColorFamilies: ""
+  PlacementGridDisplaySize: ""
+  Notes: ""
+- HouseItemID: House_HousingItem_Buff_SeasonalServer_Season8_T1
+  ExcludeFromGame: 0.0
+  PrefabPath: Housing/Items/InGame_Rewards/Buff_Trophies/HousingItem_Buff_SeasonalServer_Season8_T1
+  DEV-FurnitureSet: NA-Buffs
+  UIHousingCategory: Misc
+  HousingTag1 Placed: OnWall
+  HousingTag2 Points: +IsTrophyBuff
+  HousingTag3 Limiter: +LimiterTrophyBuff
+  HousingTag5 Buffs: +TerritoryRepBonus
+  HousingTags: OnWall+IsTrophyBuff+LimiterTrophyBuff+TerritoryRepBonus
+  IsEntitlement: "1"
+  AttributionId: Season_7
+  HowToOptain (Primarily): Season Journey Reward
+  ItemRarity: Legendary
+  ForceRarity: 4.0
+  RankingPointsDuplicateLimit: 1.0
+  RankingPointsNegativeLimit: 2.0
+  PointModifier: 0.0
+  RankingPoints: "0.16"
+  MaxPotentialPoints: "0.16"
+  HousingStatusEffect: Season8_TrophyTerritoryBonus
+  StorageBonus: null
+  InteractionAnimationID: ""
+  Name: "@House_HousingItem_Buff_SeasonalServer_Season8_T1_MasterName"
+  Description: "@House_HousingItem_Buff_SeasonalServer_Season8_T1_Description"
+  IconPath: lyshineui/images/icons/items/HousingItem/House_HousingItem_Buff_SeasonalServer_Season8_T1.png
+  HiResIconPath: lyshineui/images/icons/items_hires/House_HousingItem_Buff_SeasonalServer_Season8_T1.png
+  Weight: 10.0
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  ItemType: HousingItem
+  UiItemClass: UI_Furniture
+  Tier: 5.0
+  IsSalvageable: false
+  SalvageResources: false
+  IsRepairable: false
+  BindOnPickup: true
+  CraftingRecipe: ""
+  RepairRecipe: ""
+  SalvageRecipe: ""
+  SalvageGameEventID: ""
+  RepairDustModifier: 0.0
+  ConfirmBeforeUse: false
+  ConsumeOnUse: false
+  MaxStackSize: 1.0
+  DeathDropPercentage: 0.0
+  ItemTypeDisplayName: "@ui_itemtypedescription_housingitem"
+  Nonremovable: false
+  AudioPickup: Play_UI_Pickup_Generic
+  AudioPlace: Play_UI_Drop_Generic
+  AudioUse: Play_UI_Use_Generic
+  AudioCreated: Play_UI_Created_Generic
+  AudioDestroyed: ""
+  Primary Color: ""
+  Secondary Color: ""
+  Tertiary Color: ""
+  ColorFamilies: ""
+  PlacementGridDisplaySize: ""
+  Notes: ""
+- HouseItemID: housing_factionfest_reward_decor_covenant
+  ExcludeFromGame: 0.0
+  PrefabPath: Housing/Items/InGame_Rewards/FactionFest/reward_decor/housing_factionfest_reward_decor_covenant
+  DEV-FurnitureSet: NA-Other
+  UIHousingCategory: Decorations
+  HousingTag1 Placed: OnFloor
+  HousingTag2 Points: +IsMediumDecor
+  HousingTag3 Limiter: ""
+  HousingTag5 Buffs: ""
+  HousingTags: OnFloor+IsMediumDecor
+  IsEntitlement: "1"
+  AttributionId: Season_7
+  HowToOptain (Primarily): MTX Shop/Gift
+  ItemRarity: Rare
+  ForceRarity: 2.0
+  RankingPointsDuplicateLimit: 4.0
+  RankingPointsNegativeLimit: 8.0
+  PointModifier: 0.0
+  RankingPoints: "0.09"
+  MaxPotentialPoints: "0.36"
+  HousingStatusEffect: ""
+  StorageBonus: null
+  InteractionAnimationID: ""
+  Name: "@housing_factionfest_reward_decor_covenant_MasterName"
+  Description: "@housing_factionfest_reward_decor_covenant_Description"
+  IconPath: lyshineui/images/icons/items/HousingItem/housing_factionfest_reward_decor_covenant.png
+  HiResIconPath: lyshineui/images/icons/items_hires/housing_factionfest_reward_decor_covenant.png
+  Weight: 7.0
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  ItemType: HousingItem
+  UiItemClass: UI_Furniture
+  Tier: 3.0
+  IsSalvageable: false
+  SalvageResources: false
+  IsRepairable: false
+  BindOnPickup: true
+  CraftingRecipe: ""
+  RepairRecipe: ""
+  SalvageRecipe: ""
+  SalvageGameEventID: ""
+  RepairDustModifier: 1.0
+  ConfirmBeforeUse: false
+  ConsumeOnUse: false
+  MaxStackSize: 4.0
+  DeathDropPercentage: 0.0
+  ItemTypeDisplayName: "@ui_itemtypedescription_housingitem"
+  Nonremovable: false
+  AudioPickup: Play_UI_Pickup_Generic
+  AudioPlace: Play_UI_Drop_Generic
+  AudioUse: Play_UI_Use_Generic
+  AudioCreated: Play_UI_Created_Generic
+  AudioDestroyed: ""
+  Primary Color: ""
+  Secondary Color: ""
+  Tertiary Color: ""
+  ColorFamilies: ""
+  PlacementGridDisplaySize: ""
+  Notes: ""
+- HouseItemID: housing_factionfest_reward_decor_marauder
+  ExcludeFromGame: 0.0
+  PrefabPath: Housing/Items/InGame_Rewards/FactionFest/reward_decor/housing_factionfest_reward_decor_marauder
+  DEV-FurnitureSet: NA-Other
+  UIHousingCategory: Decorations
+  HousingTag1 Placed: OnFloor
+  HousingTag2 Points: +IsMediumDecor
+  HousingTag3 Limiter: ""
+  HousingTag5 Buffs: ""
+  HousingTags: OnFloor+IsMediumDecor
+  IsEntitlement: "1"
+  AttributionId: Season_7
+  HowToOptain (Primarily): MTX Shop/Gift
+  ItemRarity: Rare
+  ForceRarity: 2.0
+  RankingPointsDuplicateLimit: 4.0
+  RankingPointsNegativeLimit: 8.0
+  PointModifier: 0.0
+  RankingPoints: "0.09"
+  MaxPotentialPoints: "0.36"
+  HousingStatusEffect: ""
+  StorageBonus: null
+  InteractionAnimationID: ""
+  Name: "@housing_factionfest_reward_decor_marauder_MasterName"
+  Description: "@housing_factionfest_reward_decor_marauder_Description"
+  IconPath: lyshineui/images/icons/items/HousingItem/housing_factionfest_reward_decor_marauder.png
+  HiResIconPath: lyshineui/images/icons/items_hires/housing_factionfest_reward_decor_marauder.png
+  Weight: 7.0
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  ItemType: HousingItem
+  UiItemClass: UI_Furniture
+  Tier: 3.0
+  IsSalvageable: false
+  SalvageResources: false
+  IsRepairable: false
+  BindOnPickup: true
+  CraftingRecipe: ""
+  RepairRecipe: ""
+  SalvageRecipe: ""
+  SalvageGameEventID: ""
+  RepairDustModifier: 2.0
+  ConfirmBeforeUse: false
+  ConsumeOnUse: false
+  MaxStackSize: 4.0
+  DeathDropPercentage: 0.0
+  ItemTypeDisplayName: "@ui_itemtypedescription_housingitem"
+  Nonremovable: false
+  AudioPickup: Play_UI_Pickup_Generic
+  AudioPlace: Play_UI_Drop_Generic
+  AudioUse: Play_UI_Use_Generic
+  AudioCreated: Play_UI_Created_Generic
+  AudioDestroyed: ""
+  Primary Color: ""
+  Secondary Color: ""
+  Tertiary Color: ""
+  ColorFamilies: ""
+  PlacementGridDisplaySize: ""
+  Notes: ""
+- HouseItemID: housing_factionfest_reward_decor_syndicate
+  ExcludeFromGame: 0.0
+  PrefabPath: Housing/Items/InGame_Rewards/FactionFest/reward_decor/housing_factionfest_reward_decor_syndicate
+  DEV-FurnitureSet: NA-Other
+  UIHousingCategory: Decorations
+  HousingTag1 Placed: OnFloor
+  HousingTag2 Points: +IsMediumDecor
+  HousingTag3 Limiter: ""
+  HousingTag5 Buffs: ""
+  HousingTags: OnFloor+IsMediumDecor
+  IsEntitlement: "1"
+  AttributionId: Season_7
+  HowToOptain (Primarily): MTX Shop/Gift
+  ItemRarity: Rare
+  ForceRarity: 2.0
+  RankingPointsDuplicateLimit: 4.0
+  RankingPointsNegativeLimit: 8.0
+  PointModifier: 0.0
+  RankingPoints: "0.09"
+  MaxPotentialPoints: "0.36"
+  HousingStatusEffect: ""
+  StorageBonus: null
+  InteractionAnimationID: ""
+  Name: "@housing_factionfest_reward_decor_syndicate_MasterName"
+  Description: "@housing_factionfest_reward_decor_syndicate_Description"
+  IconPath: lyshineui/images/icons/items/HousingItem/housing_factionfest_reward_decor_syndicate.png
+  HiResIconPath: lyshineui/images/icons/items_hires/housing_factionfest_reward_decor_syndicate.png
+  Weight: 7.0
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  ItemType: HousingItem
+  UiItemClass: UI_Furniture
+  Tier: 3.0
+  IsSalvageable: false
+  SalvageResources: false
+  IsRepairable: false
+  BindOnPickup: true
+  CraftingRecipe: ""
+  RepairRecipe: ""
+  SalvageRecipe: ""
+  SalvageGameEventID: ""
+  RepairDustModifier: 3.0
+  ConfirmBeforeUse: false
+  ConsumeOnUse: false
+  MaxStackSize: 4.0
   DeathDropPercentage: 0.0
   ItemTypeDisplayName: "@ui_itemtypedescription_housingitem"
   Nonremovable: false

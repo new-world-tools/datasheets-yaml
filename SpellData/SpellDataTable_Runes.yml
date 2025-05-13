@@ -822,7 +822,7 @@
   RadiusScaling: ""
   MaxRadiusScaling: ""
   CastDistance: 20.0
-  CastHeight: 1.5
+  CastHeight: 5.0
   CastRadius: null
   ConeAngle: ""
   ConeWidth: ""
@@ -1086,7 +1086,7 @@
   RadiusScaling: ""
   MaxRadiusScaling: ""
   CastDistance: 20.0
-  CastHeight: 1.5
+  CastHeight: 5.0
   CastRadius: null
   ConeAngle: ""
   ConeWidth: ""
@@ -1350,7 +1350,7 @@
   RadiusScaling: ""
   MaxRadiusScaling: ""
   CastDistance: 20.0
-  CastHeight: 1.5
+  CastHeight: 5.0
   CastRadius: null
   ConeAngle: ""
   ConeWidth: ""
@@ -1614,7 +1614,7 @@
   RadiusScaling: ""
   MaxRadiusScaling: ""
   CastDistance: 20.0
-  CastHeight: 1.5
+  CastHeight: 5.0
   CastRadius: null
   ConeAngle: ""
   ConeWidth: ""
@@ -1930,6 +1930,270 @@
   BeamEffect: ""
   IndicatorVFX: ""
   SpellPrefabPath: Items/Weapons/Rune_Sandworm
+  SecondaryPrefabPath: ""
+  SecondarySpellID: ""
+  TertiaryPrefabPath: ""
+  TertiarySpellID: ""
+- SpellID: Rune_SpinningSwords_Base
+  StatusEffects: Status_Rune_SpinningSwords_Tracker
+  StatusEffectDurations: ""
+  Revive: ""
+  Siphon: ""
+  AttachToOwner: null
+  StickWhenAttached: null
+  StoreOffsetWhenStuckToGDE: null
+  DoNotSyncToJointOnClient: null
+  UseDirectTargetAsAttachOwner: ""
+  SpawnSecondaryOnElapsed: ""
+  SpawnSecondaryOnCollision: ""
+  SpawnSecondaryOnPassthrough: ""
+  AttachProjectileOnCollision: null
+  EndOnCasterDeath: ""
+  IgnoreTargetIfAtDeathsDoor: ""
+  IgnoreTargetIfDead: ""
+  UseCameraTargetLock: null
+  TrackNumInVolume: ""
+  ClearOnExit: true
+  ClearOnEnd: true
+  ManaCost: ""
+  UseStatusEffectDuration: false
+  Duration: 7000.0
+  DurationScaling: ""
+  Height: 5.0
+  Length: ""
+  Radius: 4.0
+  InnerRadius: ""
+  RadiusScaling: ""
+  MaxRadiusScaling: ""
+  CastDistance: 0.1
+  CastHeight: 5.0
+  CastRadius: 2.0
+  ConeAngle: ""
+  ConeWidth: ""
+  ChannelTime: 0.0
+  ChainDelayDuration: ""
+  MaxChainNum: ""
+  UseChainCasterPaperdoll: ""
+  NumToSpawn: ""
+  NumToSpawnBeforeFail: ""
+  SpawnRate: null
+  SpawnAngle: ""
+  SecondarySpellProjectileLaunchAngles: ""
+  ScaleWithCharacterBoundingBox: ""
+  ScaleWithDynamicScale: ""
+  TargetTypes: Enemy
+  SpellTypes: Ability
+  CastingTypes: NoTargetSpawnFromRaycast
+  HitAiTarget: ""
+  OverrideTargetForAiThreat: ""
+  ShapeTypes: Sphere
+  DamageType: Slash
+  MaintainDistanceFromGround: null
+  CheckObstructions: true
+  IgnoreOverheadCollision: true
+  IgnoreStructures: false
+  IgnoreSelf: true
+  WeaponSlotOverride: heart-gem-slot
+  RangedAttackProfile: ""
+  RangedAttackName: ""
+  FireJointName: ""
+  ProjPosOffsetX: ""
+  ProjPosOffsetY: ""
+  ProjPosOffsetZ: ""
+  ProjRotOffsetX: ""
+  ProjRotOffsetY: ""
+  ProjRotOffsetZ: ""
+  CharRelPosOffsetX: ""
+  CharRelPosOffsetY: 2.0
+  CharRelPosOffsetZ: ""
+  CharRelRotOffsetX: ""
+  CharRelRotOffsetY: ""
+  CharRelRotOffsetZ: ""
+  ProjRaycastOrientation: ""
+  BaseDamage: ""
+  DamageTable: ""
+  DamageTableRow: ""
+  AbilityId: ""
+  TargetAbilityCondition: ""
+  BeamEffect: ""
+  IndicatorVFX: ""
+  SpellPrefabPath: Items/Weapons/Rune_SpinningSwords_Base
+  SecondaryPrefabPath: ""
+  SecondarySpellID: ""
+  TertiaryPrefabPath: ""
+  TertiarySpellID: ""
+- SpellID: Rune_SpinningSwords_AttachedToPlayer
+  StatusEffects: Status_Rune_SpinningSwords_Tracker
+  StatusEffectDurations: ""
+  Revive: ""
+  Siphon: ""
+  AttachToOwner: true
+  StickWhenAttached: true
+  StoreOffsetWhenStuckToGDE: true
+  DoNotSyncToJointOnClient: true
+  UseDirectTargetAsAttachOwner: ""
+  SpawnSecondaryOnElapsed: ""
+  SpawnSecondaryOnCollision: ""
+  SpawnSecondaryOnPassthrough: ""
+  AttachProjectileOnCollision: null
+  EndOnCasterDeath: ""
+  IgnoreTargetIfAtDeathsDoor: ""
+  IgnoreTargetIfDead: ""
+  UseCameraTargetLock: null
+  TrackNumInVolume: ""
+  ClearOnExit: true
+  ClearOnEnd: true
+  ManaCost: ""
+  UseStatusEffectDuration: false
+  Duration: 7000.0
+  DurationScaling: ""
+  Height: 5.0
+  Length: ""
+  Radius: 2.5
+  InnerRadius: ""
+  RadiusScaling: ""
+  MaxRadiusScaling: ""
+  CastDistance: 5.0
+  CastHeight: 5.0
+  CastRadius: 4.0
+  ConeAngle: ""
+  ConeWidth: ""
+  ChannelTime: 0.0
+  ChainDelayDuration: ""
+  MaxChainNum: ""
+  UseChainCasterPaperdoll: ""
+  NumToSpawn: ""
+  NumToSpawnBeforeFail: ""
+  SpawnRate: null
+  SpawnAngle: ""
+  SecondarySpellProjectileLaunchAngles: ""
+  ScaleWithCharacterBoundingBox: ""
+  ScaleWithDynamicScale: ""
+  TargetTypes: Enemy
+  SpellTypes: Ability
+  CastingTypes: AoE
+  HitAiTarget: ""
+  OverrideTargetForAiThreat: ""
+  ShapeTypes: Sphere
+  DamageType: Slash
+  MaintainDistanceFromGround: null
+  CheckObstructions: true
+  IgnoreOverheadCollision: true
+  IgnoreStructures: false
+  IgnoreSelf: true
+  WeaponSlotOverride: heart-gem-slot
+  RangedAttackProfile: ""
+  RangedAttackName: ""
+  FireJointName: ""
+  ProjPosOffsetX: ""
+  ProjPosOffsetY: ""
+  ProjPosOffsetZ: ""
+  ProjRotOffsetX: ""
+  ProjRotOffsetY: ""
+  ProjRotOffsetZ: ""
+  CharRelPosOffsetX: ""
+  CharRelPosOffsetY: null
+  CharRelPosOffsetZ: ""
+  CharRelRotOffsetX: ""
+  CharRelRotOffsetY: ""
+  CharRelRotOffsetZ: ""
+  ProjRaycastOrientation: ""
+  BaseDamage: ""
+  DamageTable: ""
+  DamageTableRow: ""
+  AbilityId: ""
+  TargetAbilityCondition: ""
+  BeamEffect: ""
+  IndicatorVFX: ""
+  SpellPrefabPath: Items/Weapons/Rune_SpinningSwords_Dominator
+  SecondaryPrefabPath: ""
+  SecondarySpellID: ""
+  TertiaryPrefabPath: ""
+  TertiarySpellID: ""
+- SpellID: Rune_SpinningSwords_Greater
+  StatusEffects: Status_Rune_SpinningSwords_Tracker
+  StatusEffectDurations: ""
+  Revive: ""
+  Siphon: ""
+  AttachToOwner: null
+  StickWhenAttached: null
+  StoreOffsetWhenStuckToGDE: null
+  DoNotSyncToJointOnClient: null
+  UseDirectTargetAsAttachOwner: ""
+  SpawnSecondaryOnElapsed: ""
+  SpawnSecondaryOnCollision: ""
+  SpawnSecondaryOnPassthrough: ""
+  AttachProjectileOnCollision: null
+  EndOnCasterDeath: ""
+  IgnoreTargetIfAtDeathsDoor: ""
+  IgnoreTargetIfDead: ""
+  UseCameraTargetLock: null
+  TrackNumInVolume: ""
+  ClearOnExit: false
+  ClearOnEnd: false
+  ManaCost: ""
+  UseStatusEffectDuration: false
+  Duration: 10000.0
+  DurationScaling: ""
+  Height: 1.0
+  Length: ""
+  Radius: 4.0
+  InnerRadius: ""
+  RadiusScaling: ""
+  MaxRadiusScaling: ""
+  CastDistance: 5.0
+  CastHeight: 5.0
+  CastRadius: null
+  ConeAngle: ""
+  ConeWidth: ""
+  ChannelTime: 0.0
+  ChainDelayDuration: ""
+  MaxChainNum: ""
+  UseChainCasterPaperdoll: ""
+  NumToSpawn: ""
+  NumToSpawnBeforeFail: ""
+  SpawnRate: 30.0
+  SpawnAngle: ""
+  SecondarySpellProjectileLaunchAngles: ""
+  ScaleWithCharacterBoundingBox: ""
+  ScaleWithDynamicScale: ""
+  TargetTypes: Enemy
+  SpellTypes: Ability
+  CastingTypes: Projectile
+  HitAiTarget: ""
+  OverrideTargetForAiThreat: ""
+  ShapeTypes: Sphere
+  DamageType: ""
+  MaintainDistanceFromGround: true
+  CheckObstructions: true
+  IgnoreOverheadCollision: true
+  IgnoreStructures: false
+  IgnoreSelf: false
+  WeaponSlotOverride: heart-gem-slot
+  RangedAttackProfile: Rune_FireStorm
+  RangedAttackName: Tornado
+  FireJointName: ""
+  ProjPosOffsetX: ""
+  ProjPosOffsetY: ""
+  ProjPosOffsetZ: ""
+  ProjRotOffsetX: ""
+  ProjRotOffsetY: ""
+  ProjRotOffsetZ: ""
+  CharRelPosOffsetX: ""
+  CharRelPosOffsetY: null
+  CharRelPosOffsetZ: ""
+  CharRelRotOffsetX: ""
+  CharRelRotOffsetY: ""
+  CharRelRotOffsetZ: ""
+  ProjRaycastOrientation: ""
+  BaseDamage: ""
+  DamageTable: ""
+  DamageTableRow: ""
+  AbilityId: ""
+  TargetAbilityCondition: ""
+  BeamEffect: ""
+  IndicatorVFX: ""
+  SpellPrefabPath: Items/Weapons/Rune_SpinningSwords_Greater
   SecondaryPrefabPath: ""
   SecondarySpellID: ""
   TertiaryPrefabPath: ""

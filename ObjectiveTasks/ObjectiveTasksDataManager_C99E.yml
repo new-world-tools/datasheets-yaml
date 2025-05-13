@@ -1593,11 +1593,11 @@
   CommunityGoalTag: ""
   HideChildren: ""
   TriggerAnalyticsEvent: ""
-  SubTask1: 99E_MSQ_01_d_03_02_01_TriggerArea_EdengroveEntryIGC
-  SubTask2: 99E_MSQ_01_d_03_02_02_01_EnterEdengroveIGC_Active_On
-  SubTask3: 99E_MSQ_01_d_03_02_03_01_EnterEdengroveIGC_Timer
-  SubTask4: 99E_MSQ_01_d_03_02_04_02_EnterEdengroveIGC_Active_Off
-  SubTask5: 99E_MSQ_01_d_03_02_02_02_SwapActive_99E_Sun_p3_Off
+  SubTask1: 99E_MSQ_01_d_03_02_02_02_SwapActive_99E_Sun_p3_Off
+  SubTask2: 99E_MSQ_01_d_03_02_01_TriggerArea_EdengroveEntryIGC
+  SubTask3: 99E_MSQ_01_d_03_02_02_01_EnterEdengroveIGC_Active_On
+  SubTask4: 99E_MSQ_01_d_03_02_03_01_EnterEdengroveIGC_Timer
+  SubTask5: 99E_MSQ_01_d_03_02_04_container_EnterEdengroveIGC_Finished
 - TaskID: 99E_MSQ_01_d_03_02_01_TriggerArea_EdengroveEntryIGC
   Type: TaskTriggerArea
   FailOnCondition: ""
@@ -2299,7 +2299,7 @@
   TriggerAnalyticsEvent: ""
   SubTask1: 99E_MSQ_01_d_03_02_04_01_EnterEdengroveIGC_Watched
   SubTask2: 99E_MSQ_01_d_03_02_04_02_EnterEdengroveIGC_Active_Off
-  SubTask3: 99E_MSQ_01_d_03_02_04_03_SwapActive_99E_Sun_p4_On
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
 - TaskID: 99E_MSQ_01_d_03_02_04_01_EnterEdengroveIGC_Watched
@@ -27258,9 +27258,9 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   SubTask1: 99E_MSQ_09_d_05_01_GoToPOI_9b
-  SubTask2: 99E_MSQ_09_d_05_02_IsabellaWhisper_D
-  SubTask3: 99E_MSQ_09_d_05_03_TriggerArea_MorgaineHub
-  SubTask4: 99E_MSQ_09_d_05_04_IsabellaWhisper_E
+  SubTask2: 99E_MSQ_09_d_05_01_Whisper_Failsafe
+  SubTask3: 99E_MSQ_09_d_05_02_IsabellaWhisper_D
+  SubTask4: ""
   SubTask5: ""
 - TaskID: 99E_MSQ_09_d_05_01_GoToPOI_9b
   Type: TaskGoToPOITag
@@ -27311,6 +27311,70 @@
   TargetDescriptionTaskId: ""
   OverrideLocation: ""
   IsHidden: null
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99E_MSQ_09_d_05_01_Whisper_Failsafe
+  Type: TaskTimer
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: 3.0
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: "@99E_MSQ_09_TheMotherwell_goto_QGHub"
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
   HideDiegeticGatherablePins: null
   ShowDiegeticTaskPin: null
   DiegeticPinZOverride: ""
@@ -27964,6 +28028,70 @@
   SubTask1: 99E_MSQ_10_d_01_03_02_SwapActive_99E_Yash_OLD_Off
   SubTask2: 99E_MSQ_10_d_01_03_03_SwapActive_99E_Yash_p1_On
   SubTask3: 99E_MSQ_10_d_04_03_SoulTrialResetFailsafe
+  SubTask4: 99E_MSQ_10_d_02_02_IsabellaWhisper_E_Redux
+  SubTask5: ""
+- TaskID: 99E_MSQ_10_d_02_02_IsabellaWhisper_E_Redux
+  Type: TaskTriggerGameEvent
+  FailOnCondition: ""
+  StayActive: null
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: ""
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: ""
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: 99E_MSQ_Isabella_whisper_EG_05_interact
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: 1.0
+  HideDiegeticGatherablePins: null
+  ShowDiegeticTaskPin: null
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
 - TaskID: 99E_MSQ_10_d_04_03_SoulTrialResetFailsafe

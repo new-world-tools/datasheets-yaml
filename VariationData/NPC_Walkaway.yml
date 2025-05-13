@@ -4326,7 +4326,7 @@
   ByeTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_exit.timeline"
   GreetTimeline: "Libs\\Timeline\\Npc\\Interactions\\captured_to_stand_greet.timeline"
   IdleTimeline: "Libs\\Timeline\\Npc\\Interactions\\captured_kneeling_idle.timeline"
-  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_stand_convo_disappointed_ambient.timeline"
+  InteractTimeline: "Libs\\Timeline\\Npc\\Interactions\\Stand\\Generic\\settle_generic_stand_interact.timeline"
   PlaceholderMesh: ""
   AttachedMesh: ""
   AttachmentPositionX: ""
@@ -9237,21 +9237,21 @@
   WalkawayTimeline: "Libs\\Timeline\\Npc\\Walkaways\\straight_walkaway_nt_short.timeline"
   AE.0_RequiredAchievementConditional: 95_s01_X1
   AE.9_RequiredAchievementConditional: 0.0
-  AE.0_EventDelayDuration: 4.0
-  AE.9_EventDelayDuration: 4.05
-  AE.1_EventDelayDuration: 3.0
-  AE.1_OE.0_OpacityTransitionDuration: 1.0
-  AE.2_EventDelayDuration: 4.0
+  AE.0_EventDelayDuration: 0.0
+  AE.9_EventDelayDuration: 0.05
+  AE.1_EventDelayDuration: 1.0
+  AE.1_OE.0_OpacityTransitionDuration: 0.5
+  AE.2_EventDelayDuration: 1.5
   WalkInTimeline: "Timelines\\EmptyTimeline.timeline"
   AE.3_RequiredAchievementConditional: "!95_s01_X1"
   SwapAchievementId: "!95_s01_X1"
   AE.10_RequiredAchievementConditional: null
-  AE.3_EventDelayDuration: 3.0
-  AE.10_EventDelayDuration: 3.05
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
   AE.4_EventDelayDuration: 0.05
-  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.4_OE.0_OpacityTransitionDuration: 0.0
   AE.5_EventDelayDuration: 0.0
-  AE.6_EventDelayDuration: 1.1
+  AE.6_EventDelayDuration: 0.05
   AudioPreload_SFX_Idle: ""
   InteractOverride_Z: null
   InteractOverride_Radius: null
@@ -9294,12 +9294,12 @@
   AE.3_RequiredAchievementConditional: (95_s01_X1 && !s04_GT_EXPD_01)
   SwapAchievementId: (95_s01_X1 && !s04_GT_EXPD_01)
   AE.10_RequiredAchievementConditional: null
-  AE.3_EventDelayDuration: 3.0
-  AE.10_EventDelayDuration: 3.05
+  AE.3_EventDelayDuration: 0.0
+  AE.10_EventDelayDuration: 0.0
   AE.4_EventDelayDuration: 0.05
-  AE.4_OE.0_OpacityTransitionDuration: 1.0
+  AE.4_OE.0_OpacityTransitionDuration: 0.0
   AE.5_EventDelayDuration: 0.0
-  AE.6_EventDelayDuration: 1.1
+  AE.6_EventDelayDuration: 0.05
   AudioPreload_SFX_Idle: ""
   InteractOverride_Z: null
   InteractOverride_Radius: null
@@ -9345,9 +9345,9 @@
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.05
   AE.4_EventDelayDuration: 0.05
-  AE.4_OE.0_OpacityTransitionDuration: 1.0
-  AE.5_EventDelayDuration: 0.0
-  AE.6_EventDelayDuration: 1.1
+  AE.4_OE.0_OpacityTransitionDuration: 0.5
+  AE.5_EventDelayDuration: 4.0
+  AE.6_EventDelayDuration: 4.0
   AudioPreload_SFX_Idle: ""
   InteractOverride_Z: null
   InteractOverride_Radius: null
@@ -9365,7 +9365,7 @@
   CharacterDefinitionEditor: "Objects\\Characters\\npc\\Settlements\\0210_barkeep.cdf"
   ByeTimeline: Libs/Timeline/Npc/gestureCompatible_byeskip.timeline
   GreetTimeline: Libs/Timeline/Npc/gestureCompatible_greetskip.timeline
-  IdleTimeline: "libs\\Timeline\\Npc\\gestureCompatible_Interact_Nervous.timeline"
+  IdleTimeline: "Libs\\Timeline\\Npc\\gestureCompatible_idle_neutral.timeline"
   InteractTimeline: "Libs\\Timeline\\Npc\\gestureCompatible_Interact_neutral.timeline"
   PlaceholderMesh: ""
   AttachedMesh: ""
@@ -9393,9 +9393,9 @@
   AE.3_EventDelayDuration: 0.0
   AE.10_EventDelayDuration: 0.05
   AE.4_EventDelayDuration: 0.05
-  AE.4_OE.0_OpacityTransitionDuration: 1.0
-  AE.5_EventDelayDuration: 0.0
-  AE.6_EventDelayDuration: 1.1
+  AE.4_OE.0_OpacityTransitionDuration: 0.5
+  AE.5_EventDelayDuration: 4.0
+  AE.6_EventDelayDuration: 4.0
   AudioPreload_SFX_Idle: ""
   InteractOverride_Z: null
   InteractOverride_Radius: null

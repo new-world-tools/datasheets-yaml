@@ -14,6 +14,7 @@
   ProjectedMemoryUseMb: null
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: TestMode2
   GameModeId: TestMode2
   SlicePath: GameModes/GameModeTest_02
@@ -30,6 +31,75 @@
   ProjectedMemoryUseMb: null
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
+- GameModeMapId: BattleBanners
+  GameModeId: BattleBanners
+  SlicePath: MODES/CTF/Gamemode_BattleBanners
+  UIMapDisplayName: "@gamemode_type_and_map_name_undefined"
+  ActivityScreenBgPath: LyShineUI/Images/PUGFinder/gameModeSignUp/OutpostRush/OutpostRushTabBg.png
+  DynamicStackConfigName: battle-banners
+  ExcludeFromMapRotation: ""
+  CoatlicueName: "coatlicue\\NW_CTF_Fortress_00"
+  WorldBounds: 0.0,0.0,2048.0,2048.0
+  TeamTeleportData: 1072,1070,56,140+975,976,56,315
+  TeamTeleportFormationData: ""
+  UIMapId: ""
+  ProjectedAZothComputeUnits: 2.0
+  ProjectedMemoryUseMb: 1024.0
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  NavGenerationEnabled: false
+- GameModeMapId: CTF_002_Wide
+  GameModeId: CaptureTheFlag
+  SlicePath: MODES/CTF/NW_CTF_002_Wide/Gamemode_CTF_002_Wide
+  UIMapDisplayName: "@ctf_002_Wide_Map_Name"
+  ActivityScreenBgPath: LyShineUI/Images/PUGFinder/gameModeSignUp/CaptureTheFlag/CTF_002_CastleRuinsBg.png
+  DynamicStackConfigName: ctf-002-wide
+  ExcludeFromMapRotation: "true"
+  CoatlicueName: "coatlicue\\NW_CTF_002_Wide"
+  WorldBounds: 632.0,1024.0,384.0,288.0
+  TeamTeleportData: 854.1,1263.8,84.4,180+854.4,1113.2,84.2,0
+  TeamTeleportFormationData: ""
+  UIMapId: NW_CTF_002_Wide
+  ProjectedAZothComputeUnits: 2.0
+  ProjectedMemoryUseMb: 700.0
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  NavGenerationEnabled: false
+- GameModeMapId: CTF_003_Long
+  GameModeId: CaptureTheFlag
+  SlicePath: MODES/CTF/NW_CTF_003_Long/Gamemode_CTF_003_Long
+  UIMapDisplayName: "@ctf_003_Long_Map_Name"
+  ActivityScreenBgPath: LyShineUI/Images/PUGFinder/gameModeSignUp/CaptureTheFlag/CTF_001_BridgeBg.png
+  DynamicStackConfigName: ctf-003-long
+  ExcludeFromMapRotation: ""
+  CoatlicueName: "coatlicue\\NW_CTF_003_Long"
+  WorldBounds: 864.0,864.0,320.0,256.0
+  TeamTeleportData: 1087.669,1097.134,190.888,150+1005.846,955.411,189.979,330
+  TeamTeleportFormationData: ""
+  UIMapId: NW_CTF_003_Long
+  ProjectedAZothComputeUnits: 2.0
+  ProjectedMemoryUseMb: 600.0
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  NavGenerationEnabled: false
+- GameModeMapId: CaptureTheFlag
+  GameModeId: CaptureTheFlag
+  SlicePath: MODES/CTF/Gamemode_CTF
+  UIMapDisplayName: "@gamemode_type_and_map_name_undefined"
+  ActivityScreenBgPath: LyShineUI/Images/PUGFinder/gameModeSignUp/OutpostRush/OutpostRushTabBg.png
+  DynamicStackConfigName: capture-the-flag
+  ExcludeFromMapRotation: "true"
+  CoatlicueName: "coatlicue\\NW_CTF_Fortress_00"
+  WorldBounds: 0.0,0.0,2048.0,2048.0
+  TeamTeleportData: 1157.0,1160.0,50.0,140.0+889.0,889.0,50.0,315.0
+  TeamTeleportFormationData: ""
+  UIMapId: ""
+  ProjectedAZothComputeUnits: 2.0
+  ProjectedMemoryUseMb: 1024.0
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  NavGenerationEnabled: false
 - GameModeMapId: Duel
   GameModeId: Duel
   SlicePath: GameModes/GameMode_Duel
@@ -46,11 +116,12 @@
   ProjectedMemoryUseMb: null
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: OutpostRush
   GameModeId: OutpostRush
   SlicePath: POIs/OutpostRush/OutpostRush_Layout_00
   UIMapDisplayName: "@or_outpost_rush_map_name"
-  ActivityScreenBgPath: LyShineUI/Images/ModesScreen/OutpostRushTabBg.png
+  ActivityScreenBgPath: LyShineUI/Images/PUGFinder/gameModeSignUp/OutpostRush/OutpostRushTabBg.png
   DynamicStackConfigName: outpost-rush
   ExcludeFromMapRotation: ""
   CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
@@ -62,12 +133,47 @@
   ProjectedMemoryUseMb: 1024.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: OutpostRush_004_Trench
   GameModeId: OutpostRush
   SlicePath: MODES/OPR/NW_OPR_004_Trench/OutpostRush_Layout_004_Trench
   UIMapDisplayName: "@or_outpost_rush_trench_map_name"
-  ActivityScreenBgPath: LyShineUI/Images/ModesScreen/OutpostRush_004_TrenchBg.png
+  ActivityScreenBgPath: LyShineUI/Images/PUGFinder/gameModeSignUp/OutpostRush/OutpostRush_004_TrenchBg.png
   DynamicStackConfigName: outpost-rush-trench
+  ExcludeFromMapRotation: ""
+  CoatlicueName: "coatlicue\\NW_OPR_004_Trench"
+  WorldBounds: 832.0,768.0,512.0,512.0
+  TeamTeleportData: 931.2498,983.3751,49.75,270.0+1170.75,987.75,49.3,90.0
+  TeamTeleportFormationData: ""
+  UIMapId: NW_OPR_004_Trench
+  ProjectedAZothComputeUnits: 8.0
+  ProjectedMemoryUseMb: 1024.0
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  NavGenerationEnabled: null
+- GameModeMapId: OutpostRush_NoPerks
+  GameModeId: OutpostRush_NoPerks
+  SlicePath: POIs/OutpostRush/OutpostRush_Layout_00
+  UIMapDisplayName: "@or_outpost_rush_map_name"
+  ActivityScreenBgPath: LyShineUI/Images/PUGFinder/gameModeSignUp/OutpostRush/OutpostRushTabBg.png
+  DynamicStackConfigName: outpost-rush-no-perks
+  ExcludeFromMapRotation: ""
+  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
+  WorldBounds: 937.0,10562.0,704.0,1056.0
+  TeamTeleportData: 1241,10746,96,0+1309,11279,66,180
+  TeamTeleportFormationData: ""
+  UIMapId: OutpostRush
+  ProjectedAZothComputeUnits: 8.0
+  ProjectedMemoryUseMb: 1024.0
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  NavGenerationEnabled: null
+- GameModeMapId: OutpostRush_NoPerks_Trench
+  GameModeId: OutpostRush_NoPerks
+  SlicePath: MODES/OPR/NW_OPR_004_Trench/OutpostRush_Layout_004_Trench
+  UIMapDisplayName: "@or_outpost_rush_trench_map_name"
+  ActivityScreenBgPath: LyShineUI/Images/PUGFinder/gameModeSignUp/OutpostRush/OutpostRush_004_TrenchBg.png
+  DynamicStackConfigName: outpost-rush-no-perks-trench
   ExcludeFromMapRotation: "true"
   CoatlicueName: "coatlicue\\NW_OPR_004_Trench"
   WorldBounds: 832.0,768.0,512.0,512.0
@@ -78,11 +184,12 @@
   ProjectedMemoryUseMb: 1024.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: Arena3v3
   GameModeId: Arena3v3
   SlicePath: GameModes/GameMode_Arena01_3v3
   UIMapDisplayName: "@arena_3v3_map_name"
-  ActivityScreenBgPath: LyShineUI/Images/ModesScreen/3v3ArenaTabBgOld.png
+  ActivityScreenBgPath: LyShineUI/Images/PUGFinder/gameModeSignUp/3v3Arena/3v3ArenaTabBgOld.png
   DynamicStackConfigName: arena-3v3
   ExcludeFromMapRotation: ""
   CoatlicueName: "coatlicue\\NW_Arena01"
@@ -90,15 +197,16 @@
   TeamTeleportData: 939,935,226.5,180+939,873,227,0
   TeamTeleportFormationData: 1.5,0.0+-1.5,0.0
   UIMapId: NW_Arena01
-  ProjectedAZothComputeUnits: 0.5
-  ProjectedMemoryUseMb: 512.0
+  ProjectedAZothComputeUnits: 0.3
+  ProjectedMemoryUseMb: 300.0
   PauseTimeOfDay: true
   FreezeTime: 14.1
+  NavGenerationEnabled: false
 - GameModeMapId: Arena3v3_02
   GameModeId: Arena3v3
   SlicePath: GameModes/GameMode_Arena02_3v3
   UIMapDisplayName: "@arena_3v3_02_map_name"
-  ActivityScreenBgPath: LyShineUI/Images/ModesScreen/3v3ArenaTabBg.png
+  ActivityScreenBgPath: LyShineUI/Images/PUGFinder/gameModeSignUp/3v3Arena/3v3ArenaTabBg.png
   DynamicStackConfigName: arena-3v3-02
   ExcludeFromMapRotation: ""
   CoatlicueName: "coatlicue\\NW_Arena02"
@@ -106,10 +214,28 @@
   TeamTeleportData: 1206,1300,50.7,180+1206,1226,50.7,0
   TeamTeleportFormationData: 1.5,0.0+-1.5,0.0
   UIMapId: NW_Arena02
-  ProjectedAZothComputeUnits: 0.5
-  ProjectedMemoryUseMb: 512.0
+  ProjectedAZothComputeUnits: 0.3
+  ProjectedMemoryUseMb: 300.0
   PauseTimeOfDay: true
   FreezeTime: 15.11
+  NavGenerationEnabled: false
+- GameModeMapId: Arena_3v3_04
+  GameModeId: Arena3v3
+  SlicePath: MODES/Arena/GameMode_Arena_3v3_04
+  UIMapDisplayName: "@arena_3v3_04_map_name"
+  ActivityScreenBgPath: LyShineUI/Images/PUGFinder/gameModeSignUp/3v3Arena/3v3Arena_003_Bg.png
+  DynamicStackConfigName: arena-3v3-04
+  ExcludeFromMapRotation: "true"
+  CoatlicueName: "coatlicue\\NW_Arena_3v3_04"
+  WorldBounds: 1152.0,1584.0,160.0,192.0
+  TeamTeleportData: 1232.4,1717.9,105.7,180+1231.8,1618.4,105.6,0
+  TeamTeleportFormationData: 1.5,0.0+-1.5,0.0
+  UIMapId: NW_Arena01
+  ProjectedAZothComputeUnits: 0.3
+  ProjectedMemoryUseMb: 300.0
+  PauseTimeOfDay: true
+  FreezeTime: 14.1
+  NavGenerationEnabled: false
 - GameModeMapId: Dungeon
   GameModeId: Dungeon
   SlicePath: ""
@@ -126,6 +252,7 @@
   ProjectedMemoryUseMb: null
   PauseTimeOfDay: null
   FreezeTime: null
+  NavGenerationEnabled: null
 - GameModeMapId: Mutation
   GameModeId: Mutation
   SlicePath: ""
@@ -142,6 +269,7 @@
   ProjectedMemoryUseMb: null
   PauseTimeOfDay: null
   FreezeTime: null
+  NavGenerationEnabled: null
 - GameModeMapId: DungeonAmrine
   GameModeId: DungeonAmrine
   SlicePath: Dungeon/LevelScripts/AmrineDungeon
@@ -158,6 +286,7 @@
   ProjectedMemoryUseMb: 512.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: DungeonShatteredObelisk
   GameModeId: DungeonShatteredObelisk
   SlicePath: Dungeon/LevelScripts/ShatteredObeliskDungeon
@@ -171,9 +300,10 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Dungeon_Everfall_00
   ProjectedAZothComputeUnits: 1.5
-  ProjectedMemoryUseMb: 512.0
+  ProjectedMemoryUseMb: 750.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: DungeonRestlessShores01
   GameModeId: DungeonRestlessShores01
   SlicePath: Dungeon/LevelScripts/RestlessShores01Dungeon
@@ -190,6 +320,7 @@
   ProjectedMemoryUseMb: 512.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: DungeonEbonscale00
   GameModeId: DungeonEbonscale00
   SlicePath: Dungeon/LevelScripts/Ebonscale00Dungeon
@@ -206,6 +337,7 @@
   ProjectedMemoryUseMb: 512.0
   PauseTimeOfDay: true
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: DungeonEdengrove00
   GameModeId: DungeonEdengrove00
   SlicePath: Dungeon/LevelScripts/Edengrove00Dungeon
@@ -222,6 +354,7 @@
   ProjectedMemoryUseMb: 512.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: DungeonReekwater00
   GameModeId: DungeonReekwater00
   SlicePath: Dungeon/LevelScripts/Reekwater00Dungeon
@@ -238,6 +371,7 @@
   ProjectedMemoryUseMb: 512.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: DungeonCutlassKeys00
   GameModeId: DungeonCutlassKeys00
   SlicePath: Dungeon/LevelScripts/CutlassKeys00Dungeon
@@ -254,6 +388,7 @@
   ProjectedMemoryUseMb: 575.0
   PauseTimeOfDay: true
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: DungeonGreatCleave01
   GameModeId: DungeonGreatCleave01
   SlicePath: Dungeon/LevelScripts/GreatCleave01Dungeon
@@ -267,9 +402,10 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Dungeon_GreatCleave_01
   ProjectedAZothComputeUnits: 0.75
-  ProjectedMemoryUseMb: 512.0
+  ProjectedMemoryUseMb: 650.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: DungeonShatterMtn00
   GameModeId: DungeonShatterMtn00
   SlicePath: Dungeon/LevelScripts/ShatterMtn00Dungeon
@@ -286,6 +422,7 @@
   ProjectedMemoryUseMb: 768.0
   PauseTimeOfDay: true
   FreezeTime: 17.2
+  NavGenerationEnabled: null
 - GameModeMapId: DungeonBrimstoneSands00
   GameModeId: DungeonBrimstoneSands00
   SlicePath: Dungeon/LevelScripts/BrimstoneSands00Dungeon
@@ -302,6 +439,7 @@
   ProjectedMemoryUseMb: 512.0
   PauseTimeOfDay: true
   FreezeTime: 23.59
+  NavGenerationEnabled: null
 - GameModeMapId: DungeonFirstLight01
   GameModeId: DungeonFirstLight01
   SlicePath: Dungeon/LevelScripts/FirstLight01Dungeon
@@ -318,6 +456,7 @@
   ProjectedMemoryUseMb: 768.0
   PauseTimeOfDay: true
   FreezeTime: 17.2
+  NavGenerationEnabled: null
 - GameModeMapId: DungeonGreatCleave00
   GameModeId: DungeonGreatCleave00
   SlicePath: Dungeon/LevelScripts/GlacialTarnDungeon
@@ -334,6 +473,24 @@
   ProjectedMemoryUseMb: 512.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
+- GameModeMapId: DungeonDunwood02
+  GameModeId: DungeonDunwood02
+  SlicePath: Dungeon/LevelScripts/Dunwood02Dungeon
+  UIMapDisplayName: ""
+  ActivityScreenBgPath: ""
+  DynamicStackConfigName: ""
+  ExcludeFromMapRotation: ""
+  CoatlicueName: "coatlicue\\NW_Dungeon_Dunwood_02"
+  WorldBounds: 462.4,364.5,480.0,352.0
+  TeamTeleportData: 494.0,507.0,82.0,295
+  TeamTeleportFormationData: ""
+  UIMapId: NW_Dungeon_Dunwood_02
+  ProjectedAZothComputeUnits: 0.75
+  ProjectedMemoryUseMb: 512.0
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: TrialBrimstoneSandworm
   GameModeId: TrialBrimstoneSandworm
   SlicePath: GameModes/Trials/BrimstoneSandwormTrial00
@@ -350,6 +507,7 @@
   ProjectedMemoryUseMb: 256.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: RaidCutlassKeys00
   GameModeId: RaidCutlassKeys00
   SlicePath: Dungeon/LevelScripts/RaidCutlassKeys00
@@ -366,6 +524,7 @@
   ProjectedMemoryUseMb: 2500.0
   PauseTimeOfDay: true
   FreezeTime: 14.25
+  NavGenerationEnabled: null
 - GameModeMapId: TrialSeason01
   GameModeId: TrialSeason01
   SlicePath: Dungeon/LevelScripts/Season_Trial_01
@@ -382,6 +541,7 @@
   ProjectedMemoryUseMb: 1280.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: TrialSeason04
   GameModeId: TrialSeason04
   SlicePath: Dungeon/LevelScripts/Trial_Season_04
@@ -398,6 +558,7 @@
   ProjectedMemoryUseMb: 1280.0
   PauseTimeOfDay: true
   FreezeTime: 4.2
+  NavGenerationEnabled: null
 - GameModeMapId: QuestAdiana
   GameModeId: QuestAdiana
   SlicePath: Dungeon/AdianaFirstLight/AdianaScript
@@ -414,6 +575,7 @@
   ProjectedMemoryUseMb: 100.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: QuestApophis
   GameModeId: QuestApophis
   SlicePath: Dungeon/ApophisBrimstone/ApophisScript
@@ -430,6 +592,7 @@
   ProjectedMemoryUseMb: 200.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: QuestCaerDun
   GameModeId: QuestCaerDun
   SlicePath: Dungeon/CaerDunBrightwood/CaerDunScript
@@ -446,6 +609,7 @@
   ProjectedMemoryUseMb: 75.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: QuestEmpressZhou
   GameModeId: QuestEmpressZhou
   SlicePath: Dungeon/EmpressZhou/Script_QuestEmpressZhou
@@ -462,6 +626,7 @@
   ProjectedMemoryUseMb: 200.0
   PauseTimeOfDay: true
   FreezeTime: 18.0
+  NavGenerationEnabled: null
 - GameModeMapId: QuestIsabella
   GameModeId: QuestIsabella
   SlicePath: Dungeon/Isabella/QuestIsabellaScript
@@ -478,6 +643,7 @@
   ProjectedMemoryUseMb: 150.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: QuestMammoth
   GameModeId: QuestMammoth
   SlicePath: Dungeon/MammothFirstLight/MammothScript
@@ -494,6 +660,7 @@
   ProjectedMemoryUseMb: 130.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: QuestMedusa
   GameModeId: QuestMedusa
   SlicePath: Dungeon/MedusaFirstLight/MedusaScript
@@ -510,6 +677,7 @@
   ProjectedMemoryUseMb: 225.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: QuestMotherwell
   GameModeId: QuestMotherwell
   SlicePath: Dungeon/MotherwellEdengrove/MotherwellScript
@@ -526,6 +694,7 @@
   ProjectedMemoryUseMb: 75.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: QuestMedea
   GameModeId: QuestMedea
   SlicePath: Dungeon/MedeaWindsward/MedeaScript
@@ -542,6 +711,7 @@
   ProjectedMemoryUseMb: 256.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: QuestNihilo
   GameModeId: QuestNihilo
   SlicePath: Dungeon/NihiloGreatCleave/LeviathanScript
@@ -558,6 +728,7 @@
   ProjectedMemoryUseMb: 125.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: QuestYonas
   GameModeId: QuestYonas
   SlicePath: Dungeon/YonasCave/YonasScript
@@ -574,6 +745,7 @@
   ProjectedMemoryUseMb: 50.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: TrialSeason02Q13
   GameModeId: TrialSeason02Q13
   SlicePath: Dungeon/LevelScripts/TrialSeason02Q13
@@ -590,6 +762,7 @@
   ProjectedMemoryUseMb: 150.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: TrialSeason02Q12
   GameModeId: TrialSeason02Q12
   SlicePath: Dungeon/LevelScripts/TrialSeason02Q12
@@ -606,6 +779,7 @@
   ProjectedMemoryUseMb: 125.0
   PauseTimeOfDay: true
   FreezeTime: 6.0
+  NavGenerationEnabled: null
 - GameModeMapId: TrialSeason04Q02
   GameModeId: TrialSeason04Q02
   SlicePath: Dungeon/LevelScripts/TrialSeason04Q02
@@ -622,6 +796,7 @@
   ProjectedMemoryUseMb: 150.0
   PauseTimeOfDay: true
   FreezeTime: 13.8
+  NavGenerationEnabled: null
 - GameModeMapId: TrialSeason04Q06
   GameModeId: TrialSeason04Q06
   SlicePath: Dungeon/LevelScripts/TrialSeason04Q06
@@ -638,6 +813,7 @@
   ProjectedMemoryUseMb: 50.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: TrialSeason04Q05
   GameModeId: TrialSeason04Q05
   SlicePath: Dungeon/LevelScripts/TrialSeason04Q05
@@ -654,6 +830,7 @@
   ProjectedMemoryUseMb: 100.0
   PauseTimeOfDay: false
   FreezeTime: 1.0
+  NavGenerationEnabled: null
 - GameModeMapId: QuestHeartforge
   GameModeId: QuestHeartforge
   SlicePath: Dungeon/Heartforge/HeartforgeScript
@@ -670,6 +847,7 @@
   ProjectedMemoryUseMb: 256.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: QuestLiang
   GameModeId: QuestLiang
   SlicePath: Dungeon/AbominableLiangEbonscale/AbominableLiangScript
@@ -686,6 +864,7 @@
   ProjectedMemoryUseMb: 256.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null
 - GameModeMapId: QuestGawain
   GameModeId: QuestGawain
   SlicePath: Dungeon/Gawain/GawainScript
@@ -702,3 +881,4 @@
   ProjectedMemoryUseMb: 150.0
   PauseTimeOfDay: false
   FreezeTime: 0.0
+  NavGenerationEnabled: null

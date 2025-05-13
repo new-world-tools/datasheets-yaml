@@ -3672,6 +3672,28 @@
   GameMode: SandwormEliteTrial_Reward
   Scope: Character
   PersonalBest: ""
+- LeaderboardStatId: MonthRaidCompletionsHercyne
+  Notes: ""
+  Namespace: pc
+  Rotation: Month
+  StatType: GameEvent
+  Aggregation: Sum
+  ServiceStatId: boss-trial-completions
+  CategoricalProgressionId: ""
+  GameMode: HercyneRaid_Reward
+  Scope: Character
+  PersonalBest: ""
+- LeaderboardStatId: SeasonRaidCompletionsHercyne
+  Notes: ""
+  Namespace: pc
+  Rotation: Season
+  StatType: GameEvent
+  Aggregation: Sum
+  ServiceStatId: boss-trial-completions
+  CategoricalProgressionId: ""
+  GameMode: HercyneRaid_Reward
+  Scope: Character
+  PersonalBest: ""
 - LeaderboardStatId: InfluenceRaceFactionModifiedInfluence
   Notes: ""
   Namespace: pc

@@ -15,8 +15,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "False"
   RequiresGameModeGDEException: "True"
   RecommendedLevel: null
@@ -45,6 +48,7 @@
   IsSoloTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: null
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: false
@@ -82,7 +86,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: null
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -134,9 +138,12 @@
   MatchmakingMinDPS: 0.0
   MatchmakingMaxDPS: 5.0
   UseMMBuff: true
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: ""
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -154,6 +161,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: TestMode2
   ScriptName: GameModeTest
   RequiresTeamRaids: "0"
@@ -171,8 +179,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "False"
   RequiresGameModeGDEException: "True"
   RecommendedLevel: null
@@ -201,6 +212,7 @@
   IsSoloTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: null
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: false
@@ -238,7 +250,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: null
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -290,9 +302,12 @@
   MatchmakingMinDPS: 0.0
   MatchmakingMaxDPS: 0.0
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: ""
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -310,6 +325,335 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
+- GameModeId: BattleBanners
+  ScriptName: BattleBanners
+  RequiresTeamRaids: "TRUE"
+  AdvanceThroughStatesOnUpdate: "0"
+  DisplayName: "@ui_outpost_rush_signup_title"
+  Description: "@ui_outpost_rush_signup_desc_cross_world"
+  UiInteractOption: ""
+  RequirementText: ""
+  IconPath: LyShineUI/Images/PUGFinder/PugFinder_OPR.png
+  SimpleImagePath: LyShineUI/Images/PUGFinder/PugFinder_OPR.png
+  BackgroundImagePath: LyShineUI/Images/PUGFinder/gameModeSignUp/OutpostRush/OutpostRushTabBg.png
+  ListImagePath: ""
+  FeatureFlag: test1
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: OutpostRushOnly
+  RestrictCombatGearToItemClasses: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
+  ClearBattleTokensOnExit: "True"
+  RequiresGameModeGDEException: "True"
+  RecommendedLevel: 40.0
+  RequiredLevel: 40.0
+  EntryAchievementConditional: ""
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: 16.0
+  BackfillReadyThreshold: 19.0
+  NumTeams: 2.0
+  TeamCapacity: 10.0
+  CombineTeamGroups: null
+  ModeNameLocStringId: "@ui_outpost_rush_title"
+  GearScoreOverrideValueMin: 700.0
+  GearScoreOverrideValueMax: 725.0
+  MinPlayerLevelToUseGearScoreOverride: 60.0
+  MaxPlayerLevelToUseGearScoreOverride: 65.0
+  PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: null
+  PreserveOldGroup: true
+  IgnoreRequireContribution: null
+  IsDungeon: null
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: null
+  IsMutable: null
+  IsRemoteEntryAllowed: null
+  IsPVP: true
+  DifficultyProgressionId: ""
+  RestrictGathering: true
+  RestrictWaterGathering: true
+  LootTags: OutpostRush
+  MutLootTagsOverride: ""
+  ContainerLevel: null
+  LootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: null
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedDurationMinutes: 15.0
+  Priority: 1.0
+  ImmediateLaunch: false
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: false
+  DisableDeathsDoor: true
+  DisableMSQTrackersOnHud: true
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: true
+  ItemDropQuantityOnDeathModifier: 0.5
+  QuitButtonTextId: "@ui_outpost_rush_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_outpost_rush"
+  LeaveDescTextId: "@ui_outpost_rush_leave_desc"
+  LeaveTimeDescTextId: "@ui_outpost_rush_leave_desc_time"
+  LeaveTitleTextId: "@ui_outpost_rush_leave_title"
+  WarBoardStatDefinitions: ORWarboardStatDefinitions
+  WarBoardAttackerTeamIdx: 0.0
+  WarBoardDefenderTeamIdx: 1.0
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: ""
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: true
+  GrantConsumables: ""
+  ActivityType: BattleBanners
+  OverrideDungeonTimeout: null
+  TimerThresholdDefault: null
+  TimerThresholdMutated: null
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: true
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: "@Topic_Prompt_Join_Outpost_Rush"
+  JoinButtonTextId: "@ui_outpost_rush_signup_joinsolo"
+  SignupTitleTextId: "@ui_outpost_rush_title"
+  LeaveQueueTitleTextId: "@ui_outpost_rush_leave_queue_title"
+  LeaveQueueDescriptionTextId: "@ui_outpost_rush_leave_queue_desc"
+  FailGroupPenaltyTextId: "@ui_outpost_rush_signup_failgrouppenalty"
+  RespawnTypeToUseForUnstuck: Raid
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  ProsperoActivityId: ""
+  HidePoiName: true
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 40.0
+  MatchmakingMaxLevel: 65.0
+  MatchmakingMinGS: null
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 200.0
+  MatchmakingRequiredHealingMastery: 10.0
+  MatchmakingRequiresTauntGem: false
+  MatchmakingMinTanks: 0.0
+  MatchmakingMaxTanks: 4.0
+  MatchmakingMinHealers: 1.0
+  MatchmakingMaxHealers: 1.0
+  MatchmakingMinDPS: 0.0
+  MatchmakingMaxDPS: 4.0
+  UseMMBuff: false
+  DisableAllPerks: null
+  MatchmakingPriority: null
+  AllowMounts: false
+  MountSummonErrorMsg: "@ui_mount_summon_failed_opr"
+  AllowCamping: false
+  CampingErrorMsg: ""
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: 1500.0
+  MRV2_NewD: 350.0
+  MRV2_NewV: 0.06
+  MRV2_SConst: 0.5
+  MRV2_CConst: 1e-06
+  MRV2_DecDays: 14.0
+  MRV2_GBs: 1.0,1.2,1.25,1.25,1.3
+  MRV2_RankMultipliers_WinningTeam: 1,0.9,0.8,0.7,0.6,0.5,0.4,0.3,0.2,0.1
+  MRV2_RankMultipliers_LosingTeam: 0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1
+  MRV2_RankMultipliers_Overall: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
+  AfkModeId: OutpostRush
+  ReadyUp_PercentRequired: 0.8
+  MapRotationStartIndex: 0.0
+  MapRotationTimeSpanInSeconds: 3600.0
+  ForceFFA: null
+- GameModeId: CaptureTheFlag
+  ScriptName: CaptureTheFlag
+  RequiresTeamRaids: "TRUE"
+  AdvanceThroughStatesOnUpdate: "0"
+  DisplayName: "@ctf_gamemode_name"
+  Description: "@ctf_gamemode_description"
+  UiInteractOption: ""
+  RequirementText: ""
+  IconPath: LyShineUI/Images/PUGFinder/PugFinder_CTF.png
+  SimpleImagePath: LyShineUI/Images/PUGFinder/PugFinder_CTF.png
+  BackgroundImagePath: LyShineUI/Images/PUGFinder/gameModeSignUp/OutpostRush/OutpostRushTabBg.png
+  ListImagePath: ""
+  FeatureFlag: capture-the-flag
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: OutpostRushOnly
+  RestrictCombatGearToItemClasses: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
+  ClearBattleTokensOnExit: "True"
+  RequiresGameModeGDEException: "True"
+  RecommendedLevel: 60.0
+  RequiredLevel: 65.0
+  EntryAchievementConditional: ""
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: 16.0
+  BackfillReadyThreshold: 19.0
+  NumTeams: 2.0
+  TeamCapacity: 10.0
+  CombineTeamGroups: null
+  ModeNameLocStringId: "@ctf_gamemode_name"
+  GearScoreOverrideValueMin: 700.0
+  GearScoreOverrideValueMax: 725.0
+  MinPlayerLevelToUseGearScoreOverride: 60.0
+  MaxPlayerLevelToUseGearScoreOverride: 65.0
+  PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: null
+  PreserveOldGroup: true
+  IgnoreRequireContribution: null
+  IsDungeon: null
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: null
+  IsMutable: null
+  IsRemoteEntryAllowed: null
+  IsPVP: true
+  DifficultyProgressionId: ""
+  RestrictGathering: true
+  RestrictWaterGathering: true
+  LootTags: OutpostRush
+  MutLootTagsOverride: ""
+  ContainerLevel: null
+  LootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: null
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedDurationMinutes: 15.0
+  Priority: 1.0
+  ImmediateLaunch: false
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: false
+  DisableDeathsDoor: true
+  DisableMSQTrackersOnHud: true
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: true
+  ItemDropQuantityOnDeathModifier: 0.5
+  QuitButtonTextId: "@ui_ctf_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_ctf"
+  LeaveDescTextId: "@ui_ctf_leave_desc"
+  LeaveTimeDescTextId: "@ui_ctf_leave_desc_time"
+  LeaveTitleTextId: "@ui_ctf_leave"
+  WarBoardStatDefinitions: CTFWarboardStatDefinitions
+  WarBoardAttackerTeamIdx: 0.0
+  WarBoardDefenderTeamIdx: 1.0
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: ""
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: true
+  GrantConsumables: ""
+  ActivityType: CaptureTheFlag
+  OverrideDungeonTimeout: null
+  TimerThresholdDefault: null
+  TimerThresholdMutated: null
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: true
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: "@Topic_Prompt_Join_Capture_The_Flag"
+  JoinButtonTextId: "@ui_capture_the_flag_signup_joinsolo"
+  SignupTitleTextId: "@ui_capture_the_flag_title"
+  LeaveQueueTitleTextId: "@ui_capture_the_flag_leave_queue_title"
+  LeaveQueueDescriptionTextId: "@ui_capture_the_flag_leave_queue_desc"
+  FailGroupPenaltyTextId: "@ui_capture_the_flag_signup_failgrouppenalty"
+  RespawnTypeToUseForUnstuck: Raid
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: LyShineUI/Images/PUGFinder/gameModeSignUp/ctf_capture.png
+  Tip01Text: "@ui_capture_the_flag_signup_goal1"
+  Tip02IconPath: LyShineUI/Images/PUGFinder/gameModeSignUp/ctf_base.png
+  Tip02Text: "@ui_capture_the_flag_signup_goal2"
+  Tip03IconPath: LyShineUI/Images/PUGFinder/gameModeSignUp/ctf_protect.png
+  Tip03Text: "@ui_capture_the_flag_signup_goal3"
+  ProsperoActivityId: ""
+  HidePoiName: true
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 60.0
+  MatchmakingMaxLevel: 65.0
+  MatchmakingMinGS: null
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 200.0
+  MatchmakingRequiredHealingMastery: 10.0
+  MatchmakingRequiresTauntGem: false
+  MatchmakingMinTanks: 0.0
+  MatchmakingMaxTanks: 3.0
+  MatchmakingMinHealers: 1.0
+  MatchmakingMaxHealers: 2.0
+  MatchmakingMinDPS: 0.0
+  MatchmakingMaxDPS: 8.0
+  UseMMBuff: false
+  DisableAllPerks: null
+  MatchmakingPriority: null
+  AllowMounts: false
+  MountSummonErrorMsg: "@ui_mount_summon_failed_ctf"
+  AllowCamping: false
+  CampingErrorMsg: ""
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: 1500.0
+  MRV2_NewD: 350.0
+  MRV2_NewV: 0.06
+  MRV2_SConst: 0.5
+  MRV2_CConst: 1e-06
+  MRV2_DecDays: 14.0
+  MRV2_GBs: 1.0,1.2,1.25,1.25,1.3
+  MRV2_RankMultipliers_WinningTeam: 1,0.9,0.8,0.7,0.6,0.5,0.4,0.3,0.2,0.1
+  MRV2_RankMultipliers_LosingTeam: 0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1
+  MRV2_RankMultipliers_Overall: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
+  AfkModeId: CaptureTheFlag
+  ReadyUp_PercentRequired: 0.8
+  MapRotationStartIndex: 0.0
+  MapRotationTimeSpanInSeconds: 3600.0
+  ForceFFA: null
 - GameModeId: Duel
   ScriptName: Duel
   RequiresTeamRaids: "0"
@@ -327,8 +671,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "False"
   RequiresGameModeGDEException: "True"
   RecommendedLevel: null
@@ -357,6 +704,7 @@
   IsSoloTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: null
+  IsPVP: true
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: false
@@ -394,7 +742,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: true
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -446,9 +794,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_duel"
+  AllowCamping: true
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -466,25 +817,29 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: OutpostRush
   ScriptName: OutpostRush
   RequiresTeamRaids: "1"
   AdvanceThroughStatesOnUpdate: "0"
-  DisplayName: "@ui_outpost_rush_signup_title"
-  Description: ""
+  DisplayName: "@ui_outpost_rush_title"
+  Description: "@ui_outpost_rush_signup_desc_cross_world"
   UiInteractOption: ""
   RequirementText: ""
-  IconPath: LyShineUI/Images/Icons/OutpostRush/icon_outpostRush.png
-  SimpleImagePath: LyShineUI/Images/Icons/OutpostRush/icon_outpostRush.png
-  BackgroundImagePath: ""
+  IconPath: LyShineUI/Images/PUGFinder/PugFinder_OPR.png
+  SimpleImagePath: LyShineUI/Images/PUGFinder/PugFinder_OPR.png
+  BackgroundImagePath: LyShineUI/Images/PUGFinder/gameModeSignUp/OutpostRush/OutpostRushTabBg.png
   ListImagePath: ""
   FeatureFlag: outpost-rush
-  PurchasableItemClasses: ""
+  PurchasableItemClasses: OutpostRushOnly
   PurchasableItemClassesRestrictedToMode: OutpostRushOnly
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: OutpostRushOnly
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "True"
   RequiresGameModeGDEException: "True"
   RecommendedLevel: 60.0
@@ -513,6 +868,7 @@
   IsSoloTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: null
+  IsPVP: true
   DifficultyProgressionId: ""
   RestrictGathering: true
   RestrictWaterGathering: true
@@ -550,7 +906,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: true
   GrantConsumables: ""
@@ -573,12 +929,12 @@
   WeeklyLootLimitId: ""
   PossibleJourneyIds: ""
   TrialIconPath: ""
-  Tip01IconPath: ""
-  Tip01Text: ""
-  Tip02IconPath: ""
-  Tip02Text: ""
-  Tip03IconPath: ""
-  Tip03Text: ""
+  Tip01IconPath: LyShineUI/Images/PUGFinder/gameModeSignUp/iconOutpost.dds
+  Tip01Text: "@ui_outpost_rush_signup_goal1"
+  Tip02IconPath: LyShineUI/Images/PUGFinder/gameModeSignUp/arena_stars.dds
+  Tip02Text: "@ui_outpost_rush_signup_goal2"
+  Tip03IconPath: LyShineUI/Images/PUGFinder/gameModeSignUp/iconResource.dds
+  Tip03Text: "@ui_outpost_rush_signup_goal3"
   ProsperoActivityId: nw_activity_opr
   HidePoiName: true
   HideCompass: null
@@ -602,9 +958,12 @@
   MatchmakingMinDPS: 0.0
   MatchmakingMaxDPS: 4.0
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: true
   MountSummonErrorMsg: "@ui_mount_summon_failed_opr"
+  AllowCamping: false
+  CampingErrorMsg: "@ui_camping_error_poi_restricted_outpost_rush"
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: 1500.0
   MRV2_NewD: 350.0
@@ -619,28 +978,196 @@
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
   AfkModeId: OutpostRush
-  ReadyUp_PercentRequired: null
+  ReadyUp_PercentRequired: 0.8
   MapRotationStartIndex: 0.0
-  MapRotationTimeSpanInSeconds: 1.2096e+06
+  MapRotationTimeSpanInSeconds: 3600.0
+  ForceFFA: null
+- GameModeId: OutpostRush_NoPerks
+  ScriptName: OutpostRush
+  RequiresTeamRaids: "1"
+  AdvanceThroughStatesOnUpdate: "0"
+  DisplayName: "@ui_opr_no_perks_title"
+  Description: "@ui_opr_no_perks_signup_desc_cross_world"
+  UiInteractOption: ""
+  RequirementText: ""
+  IconPath: LyShineUI/Images/PUGFinder/PugFinder_OPR_Perkless.png
+  SimpleImagePath: LyShineUI/Images/PUGFinder/PugFinder_OPR_Perkless.png
+  BackgroundImagePath: LyShineUI/Images/PUGFinder/gameModeSignUp/OutpostRush/OutpostRushTabBg.png
+  ListImagePath: ""
+  FeatureFlag: outpost-rush-no-perks
+  PurchasableItemClasses: OutpostRushOnly
+  PurchasableItemClassesRestrictedToMode: OutpostRushOnly
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: OutpostRushOnly
+  RestrictCombatGearToItemClasses: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
+  ClearBattleTokensOnExit: "True"
+  RequiresGameModeGDEException: "True"
+  RecommendedLevel: 60.0
+  RequiredLevel: 60.0
+  EntryAchievementConditional: ""
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: 32.0
+  BackfillReadyThreshold: 39.0
+  NumTeams: 2.0
+  TeamCapacity: 20.0
+  CombineTeamGroups: null
+  ModeNameLocStringId: "@ui_opr_no_perks_title"
+  GearScoreOverrideValueMin: 725.0
+  GearScoreOverrideValueMax: 725.0
+  MinPlayerLevelToUseGearScoreOverride: 60.0
+  MaxPlayerLevelToUseGearScoreOverride: 65.0
+  PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: null
+  PreserveOldGroup: true
+  IgnoreRequireContribution: null
+  IsDungeon: null
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: null
+  IsMutable: null
+  IsRemoteEntryAllowed: null
+  IsPVP: true
+  DifficultyProgressionId: ""
+  RestrictGathering: true
+  RestrictWaterGathering: true
+  LootTags: OutpostRush
+  MutLootTagsOverride: ""
+  ContainerLevel: null
+  LootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: null
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedDurationMinutes: 50.0
+  Priority: 1.0
+  ImmediateLaunch: false
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: false
+  DisableDeathsDoor: true
+  DisableMSQTrackersOnHud: true
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: true
+  ItemDropQuantityOnDeathModifier: 0.5
+  QuitButtonTextId: "@ui_outpost_rush_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_outpost_rush"
+  LeaveDescTextId: "@ui_outpost_rush_leave_desc"
+  LeaveTimeDescTextId: "@ui_outpost_rush_leave_desc_time"
+  LeaveTitleTextId: "@ui_outpost_rush_leave_title"
+  WarBoardStatDefinitions: ORWarboardStatDefinitions
+  WarBoardAttackerTeamIdx: 0.0
+  WarBoardDefenderTeamIdx: 1.0
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: ""
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: true
+  GrantConsumables: ""
+  ActivityType: OutpostRush_NoPerks
+  OverrideDungeonTimeout: null
+  TimerThresholdDefault: null
+  TimerThresholdMutated: null
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: true
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: "@Topic_Prompt_Join_Outpost_Rush"
+  JoinButtonTextId: "@ui_outpost_rush_signup_joinsolo"
+  SignupTitleTextId: "@ui_outpost_rush_title"
+  LeaveQueueTitleTextId: "@ui_outpost_rush_leave_queue_title"
+  LeaveQueueDescriptionTextId: "@ui_outpost_rush_leave_queue_desc"
+  FailGroupPenaltyTextId: "@ui_outpost_rush_signup_failgrouppenalty"
+  RespawnTypeToUseForUnstuck: Raid
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: LyShineUI/Images/PUGFinder/gameModeSignUp/iconOutpost.dds
+  Tip01Text: "@ui_opr_no_perks_signup_goal1"
+  Tip02IconPath: LyShineUI/Images/PUGFinder/gameModeSignUp/arena_stars.dds
+  Tip02Text: "@ui_opr_no_perks_signup_goal2"
+  Tip03IconPath: LyShineUI/Images/PUGFinder/gameModeSignUp/iconResource.dds
+  Tip03Text: "@ui_opr_no_perks_signup_goal3"
+  ProsperoActivityId: ""
+  HidePoiName: true
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: false
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 60.0
+  MatchmakingMaxLevel: 65.0
+  MatchmakingMinGS: null
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 200.0
+  MatchmakingRequiredHealingMastery: 10.0
+  MatchmakingRequiresTauntGem: false
+  MatchmakingMinTanks: 0.0
+  MatchmakingMaxTanks: 4.0
+  MatchmakingMinHealers: 1.0
+  MatchmakingMaxHealers: 1.0
+  MatchmakingMinDPS: 0.0
+  MatchmakingMaxDPS: 4.0
+  UseMMBuff: false
+  DisableAllPerks: true
+  MatchmakingPriority: null
+  AllowMounts: true
+  MountSummonErrorMsg: "@ui_mount_summon_failed_opr"
+  AllowCamping: false
+  CampingErrorMsg: ""
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: 1500.0
+  MRV2_NewD: 350.0
+  MRV2_NewV: 0.06
+  MRV2_SConst: 0.5
+  MRV2_CConst: 1e-06
+  MRV2_DecDays: 14.0
+  MRV2_GBs: 1.0,1.2,1.25,1.25,1.3
+  MRV2_RankMultipliers_WinningTeam: 1,1,0.9,0.9,0.8,0.8,0.7,0.7,0.6,0.6,0.5,0.5,0.4,0.4,0.3,0.3,0.2,0.2,0.1,0.1
+  MRV2_RankMultipliers_LosingTeam: 0.1,0.1,0.2,0.2,0.3,0.3,0.4,0.4,0.5,0.5,0.6,0.6,0.7,0.7,0.8,0.8,0.9,0.9,1,1
+  MRV2_RankMultipliers_Overall: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
+  AfkModeId: OutpostRush_NoPerks
+  ReadyUp_PercentRequired: 0.8
+  MapRotationStartIndex: 0.0
+  MapRotationTimeSpanInSeconds: 3600.0
+  ForceFFA: null
 - GameModeId: Arena3v3
   ScriptName: Arena3v3
   RequiresTeamRaids: "TRUE"
   AdvanceThroughStatesOnUpdate: "FALSE"
   DisplayName: "@ui_pvp_3v3_arena_queue_title"
-  Description: ""
+  Description: "@ui_pvparenas_description_gearscore"
   UiInteractOption: ""
   RequirementText: ""
-  IconPath: LyShineUI/Images/Icons/PvpArena/icon_pvpArena.png
-  SimpleImagePath: LyShineUI/Images/Icons/PvpArena/icon_pvpArena.png
-  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonBrimstoneSands00.png
+  IconPath: LyShineUI/Images/PUGFinder/PugFinder_Arena.png
+  SimpleImagePath: LyShineUI/Images/PUGFinder/PugFinder_Arena.png
+  BackgroundImagePath: LyShineUI/Images/PUGFinder/gameModeSignUp/3v3Arena/3v3ArenaTabBgOld.png
   ListImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonBrimstoneSands00.png
   FeatureFlag: arena-3v3
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ArenaConsumable
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: NoPvPArenas
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 20.0
@@ -652,7 +1179,7 @@
   NumTeams: 2.0
   TeamCapacity: 3.0
   CombineTeamGroups: true
-  ModeNameLocStringId: "@ui_pvp_3v3_arena_signup_title"
+  ModeNameLocStringId: "@ui_opr_no_perks_title"
   GearScoreOverrideValueMin: 700.0
   GearScoreOverrideValueMax: 725.0
   MinPlayerLevelToUseGearScoreOverride: 60.0
@@ -669,6 +1196,7 @@
   IsSoloTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: null
+  IsPVP: true
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: false
@@ -706,7 +1234,7 @@
   PriorityAddMin: 5.0
   PriorityAddMax: 10.0
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: 6.0
+  MinAcceptedInvites: "6"
   UsePendingListMatchmaking: true
   AutoEquipQuickslot: true
   GrantConsumables: ""
@@ -729,12 +1257,12 @@
   WeeklyLootLimitId: ""
   PossibleJourneyIds: ""
   TrialIconPath: ""
-  Tip01IconPath: ""
-  Tip01Text: ""
-  Tip02IconPath: ""
-  Tip02Text: ""
-  Tip03IconPath: ""
-  Tip03Text: ""
+  Tip01IconPath: LyShineUI/Images/PUGFinder/gameModeSignUp/arena_stars.dds
+  Tip01Text: "@ui_pvparenas_signup_goal1"
+  Tip02IconPath: LyShineUI/Images/PUGFinder/gameModeSignUp/arena_fire.dds
+  Tip02Text: "@ui_pvparenas_signup_goal2"
+  Tip03IconPath: LyShineUI/Images/PUGFinder/gameModeSignUp/arena_diminishedHealing.dds
+  Tip03Text: "@ui_pvparenas_signup_goal3"
   ProsperoActivityId: nw_activity_arena
   HidePoiName: true
   HideCompass: true
@@ -758,9 +1286,12 @@
   MatchmakingMinDPS: 0.0
   MatchmakingMaxDPS: 3.0
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_arena3v3"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: 1500.0
   MRV2_NewD: 350.0
@@ -777,7 +1308,8 @@
   AfkModeId: 3v3Arena
   ReadyUp_PercentRequired: 1.0
   MapRotationStartIndex: 0.0
-  MapRotationTimeSpanInSeconds: 1.2096e+06
+  MapRotationTimeSpanInSeconds: 3600.0
+  ForceFFA: null
 - GameModeId: Dungeon
   ScriptName: Dungeon
   RequiresTeamRaids: ""
@@ -795,8 +1327,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: ""
   RequiresGameModeGDEException: ""
   RecommendedLevel: null
@@ -825,6 +1360,7 @@
   IsSoloTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: null
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: null
   RestrictWaterGathering: null
@@ -862,7 +1398,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: null
-  MinAcceptedInvites: 5.0
+  MinAcceptedInvites: "5"
   UsePendingListMatchmaking: null
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -914,9 +1450,12 @@
   MatchmakingMinDPS: 3.0
   MatchmakingMaxDPS: 3.0
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -934,6 +1473,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: Mutation
   ScriptName: Mutation
   RequiresTeamRaids: ""
@@ -951,8 +1491,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: ""
   RequiresGameModeGDEException: ""
   RecommendedLevel: null
@@ -981,6 +1524,7 @@
   IsSoloTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: null
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: null
   RestrictWaterGathering: null
@@ -1018,7 +1562,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: null
-  MinAcceptedInvites: 5.0
+  MinAcceptedInvites: "5"
   UsePendingListMatchmaking: null
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -1070,9 +1614,12 @@
   MatchmakingMinDPS: 3.0
   MatchmakingMaxDPS: 3.0
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -1090,6 +1637,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: DungeonAmrine
   ScriptName: DungeonAmrine
   RequiresTeamRaids: "0"
@@ -1107,8 +1655,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: DungeonItem
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "False"
   RequiresGameModeGDEException: "True"
   RecommendedLevel: 25.0
@@ -1137,6 +1688,7 @@
   IsSoloTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -1174,7 +1726,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -1226,9 +1778,12 @@
   MatchmakingMinDPS: 3.0
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
+  DisableAllPerks: null
   MatchmakingPriority: 1.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: DungeonEverfall00MaxRank
   MRV2_NewR: null
   MRV2_NewD: null
@@ -1246,6 +1801,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: DungeonShatteredObelisk
   ScriptName: DungeonShatteredObelisk
   RequiresTeamRaids: "0"
@@ -1263,8 +1819,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: DungeonItem
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 35.0
@@ -1293,6 +1852,7 @@
   IsSoloTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: DungeonEverfall00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -1330,7 +1890,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -1382,9 +1942,12 @@
   MatchmakingMinDPS: 3.0
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
+  DisableAllPerks: null
   MatchmakingPriority: 2.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: DungeonShatterMtn00MaxRank
   MRV2_NewR: null
   MRV2_NewD: null
@@ -1402,6 +1965,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: DungeonRestlessShores01
   ScriptName: DungeonRestlessShores01
   RequiresTeamRaids: "0"
@@ -1419,8 +1983,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: DungeonItem
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 45.0
@@ -1449,6 +2016,7 @@
   IsSoloTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: DungeonRestlessShores01DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -1486,7 +2054,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -1538,9 +2106,12 @@
   MatchmakingMinDPS: 3.0
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
+  DisableAllPerks: null
   MatchmakingPriority: 3.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: DungeonRestlessShores01MaxRank
   MRV2_NewR: null
   MRV2_NewD: null
@@ -1558,6 +2129,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: DungeonEbonscale00
   ScriptName: DungeonEbonscale00
   RequiresTeamRaids: "0"
@@ -1575,8 +2147,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: DungeonItem
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 55.0
@@ -1605,6 +2180,7 @@
   IsSoloTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: DungeonEbonscale00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -1642,7 +2218,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -1694,9 +2270,12 @@
   MatchmakingMinDPS: 3.0
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
+  DisableAllPerks: null
   MatchmakingPriority: 4.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: DungeonEbonscale00MaxRank
   MRV2_NewR: null
   MRV2_NewD: null
@@ -1714,6 +2293,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: DungeonEdengrove00
   ScriptName: DungeonEdengrove00
   RequiresTeamRaids: "0"
@@ -1731,8 +2311,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: DungeonItem
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 60.0
@@ -1761,6 +2344,7 @@
   IsSoloTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: DungeonEdengrove00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -1798,7 +2382,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -1850,9 +2434,12 @@
   MatchmakingMinDPS: 3.0
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
+  DisableAllPerks: null
   MatchmakingPriority: 5.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: DungeonEdengrove00MaxRank
   MRV2_NewR: null
   MRV2_NewD: null
@@ -1870,6 +2457,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: DungeonReekwater00
   ScriptName: DungeonReekwater00
   RequiresTeamRaids: "0"
@@ -1887,8 +2475,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: DungeonItem
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "FALSE"
   RequiresGameModeGDEException: "TRUE"
   RecommendedLevel: 60.0
@@ -1917,6 +2508,7 @@
   IsSoloTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: DungeonReekwater00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -1954,7 +2546,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -2006,9 +2598,12 @@
   MatchmakingMinDPS: 3.0
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
+  DisableAllPerks: null
   MatchmakingPriority: 5.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: DungeonReekwater00MaxRank
   MRV2_NewR: null
   MRV2_NewD: null
@@ -2026,6 +2621,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: DungeonCutlassKeys00
   ScriptName: DungeonCutlassKeys00
   RequiresTeamRaids: "0"
@@ -2043,8 +2639,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: DungeonItem
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 60.0
@@ -2073,6 +2672,7 @@
   IsSoloTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: DungeonCutlass00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -2110,7 +2710,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -2162,9 +2762,12 @@
   MatchmakingMinDPS: 3.0
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
+  DisableAllPerks: null
   MatchmakingPriority: 5.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: DungeonCutlass00MaxRank
   MRV2_NewR: null
   MRV2_NewD: null
@@ -2182,6 +2785,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: DungeonGreatCleave01
   ScriptName: DungeonGreatCleave01
   RequiresTeamRaids: "0"
@@ -2199,8 +2803,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: DungeonItem
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 60.0
@@ -2229,6 +2836,7 @@
   IsSoloTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: DungeonGreatCleave01DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -2266,7 +2874,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -2318,9 +2926,12 @@
   MatchmakingMinDPS: 3.0
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
+  DisableAllPerks: null
   MatchmakingPriority: 5.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: DungeonGreatCleave00MaxRank
   MRV2_NewR: null
   MRV2_NewD: null
@@ -2338,6 +2949,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: DungeonShatterMtn00
   ScriptName: DungeonShatterMtn00
   RequiresTeamRaids: "0"
@@ -2355,8 +2967,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: DungeonItem
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 60.0
@@ -2385,6 +3000,7 @@
   IsSoloTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: DungeonShatterMtn00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -2422,7 +3038,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -2474,9 +3090,12 @@
   MatchmakingMinDPS: 3.0
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
+  DisableAllPerks: null
   MatchmakingPriority: 5.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: DungeonShatterMtn00MaxRank
   MRV2_NewR: null
   MRV2_NewD: null
@@ -2494,6 +3113,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: DungeonBrimstoneSands00
   ScriptName: DungeonBrimstoneSands00
   RequiresTeamRaids: "0"
@@ -2511,8 +3131,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: DungeonItem
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 60.0
@@ -2541,6 +3164,7 @@
   IsSoloTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: DungeonBrimstoneSands00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -2578,7 +3202,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -2630,9 +3254,12 @@
   MatchmakingMinDPS: 3.0
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
+  DisableAllPerks: null
   MatchmakingPriority: 5.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: DungeonBrimstoneSands00MaxRank
   MRV2_NewR: null
   MRV2_NewD: null
@@ -2650,6 +3277,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: DungeonFirstLight01
   ScriptName: DungeonFirstLight01
   RequiresTeamRaids: "0"
@@ -2667,8 +3295,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: DungeonItem
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 65.0
@@ -2697,6 +3328,7 @@
   IsSoloTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: DungeonFirstLight01DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -2734,7 +3366,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -2786,9 +3418,12 @@
   MatchmakingMinDPS: 3.0
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
+  DisableAllPerks: null
   MatchmakingPriority: 5.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: DungeonFirstLight01MaxRank
   MRV2_NewR: null
   MRV2_NewD: null
@@ -2806,6 +3441,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: DungeonGreatCleave00
   ScriptName: DungeonGreatCleave00
   RequiresTeamRaids: "0"
@@ -2823,8 +3459,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: DungeonItem
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 65.0
@@ -2853,6 +3492,7 @@
   IsSoloTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: DungeonGreatCleave00DifficultyExp23
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -2890,7 +3530,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -2942,9 +3582,12 @@
   MatchmakingMinDPS: 3.0
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
+  DisableAllPerks: null
   MatchmakingPriority: 5.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: DungeonGreatCleave01MaxRank
   MRV2_NewR: null
   MRV2_NewD: null
@@ -2962,6 +3605,171 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
+- GameModeId: DungeonDunwood02
+  ScriptName: DungeonDunwood02
+  RequiresTeamRaids: "0"
+  AdvanceThroughStatesOnUpdate: "1"
+  DisplayName: "@dungeon_dunwood02_title"
+  Description: "@dungeon_dunwood02_description"
+  UiInteractOption: ""
+  RequirementText: ""
+  IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
+  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonAmrine.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_DungeonAmrine.png
+  FeatureFlag: dunwood02-dungeon
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: DungeonItem
+  RestrictCombatGearToItemClasses: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 65.0
+  RequiredLevel: 65.0
+  EntryAchievementConditional: ""
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: 5.0
+  BackfillReadyThreshold: 4.0
+  NumTeams: 1.0
+  TeamCapacity: 5.0
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: 61.0
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 3.0
+  PreserveOldGroup: true
+  IgnoreRequireContribution: true
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: null
+  IsMutable: null
+  IsRemoteEntryAllowed: true
+  IsPVP: null
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  LootTags: ""
+  MutLootTagsOverride: ""
+  ContainerLevel: 70.0
+  LootGSRangeOverride: 650-685
+  UseLevelGS: ""
+  GSClampLevelReqDelta: 2.0
+  VictoryDelaySec: 4.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedDurationMinutes: 30.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: ""
+  CannotFastTravelTextId: ""
+  LeaveDescTextId: ""
+  LeaveTimeDescTextId: ""
+  LeaveTitleTextId: ""
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: ""
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: Dungeon
+  OverrideDungeonTimeout: null
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: 600.0
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: true
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  ProsperoActivityId: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 60.0
+  MatchmakingMaxLevel: 65.0
+  MatchmakingMinGS: 0.0
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 220.0
+  MatchmakingRequiredHealingMastery: 9.0
+  MatchmakingRequiresTauntGem: true
+  MatchmakingMinTanks: 1.0
+  MatchmakingMaxTanks: 1.0
+  MatchmakingMinHealers: 1.0
+  MatchmakingMaxHealers: 1.0
+  MatchmakingMinDPS: 3.0
+  MatchmakingMaxDPS: 3.0
+  UseMMBuff: true
+  DisableAllPerks: null
+  MatchmakingPriority: 5.0
+  AllowMounts: false
+  MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
+  AllowCamping: false
+  CampingErrorMsg: ""
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: TrialBrimstoneSandworm
   ScriptName: TrialBrimstoneSandworm
   RequiresTeamRaids: "TRUE"
@@ -2979,8 +3787,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 65.0
@@ -3009,6 +3820,7 @@
   IsSoloTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -3046,7 +3858,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -3098,9 +3910,12 @@
   MatchmakingMinDPS: 3.0
   MatchmakingMaxDPS: 4.0
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -3118,6 +3933,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: RaidCutlassKeys00
   ScriptName: RaidCutlassKeys00
   RequiresTeamRaids: "TRUE"
@@ -3135,8 +3951,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 65.0
@@ -3165,6 +3984,7 @@
   IsSoloTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -3202,7 +4022,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -3254,9 +4074,12 @@
   MatchmakingMinDPS: 2.0
   MatchmakingMaxDPS: 3.0
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -3274,6 +4097,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: TrialSeason01
   ScriptName: TrialSeason01
   RequiresTeamRaids: "TRUE"
@@ -3291,8 +4115,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 65.0
@@ -3321,6 +4148,7 @@
   IsSoloTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -3358,7 +4186,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -3410,9 +4238,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -3430,6 +4261,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: TrialSeason04
   ScriptName: TrialSeason04
   RequiresTeamRaids: "TRUE"
@@ -3447,8 +4279,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 65.0
@@ -3477,6 +4312,7 @@
   IsSoloTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -3514,7 +4350,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -3566,9 +4402,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -3586,6 +4425,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: QuestAdiana
   ScriptName: QuestAdiana
   RequiresTeamRaids: "FALSE"
@@ -3603,8 +4443,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 65.0
@@ -3633,6 +4476,7 @@
   IsSoloTrial: true
   IsMutable: null
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -3670,7 +4514,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -3722,9 +4566,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -3742,6 +4589,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: QuestApophis
   ScriptName: QuestApophis
   RequiresTeamRaids: "0"
@@ -3759,8 +4607,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 63.0
@@ -3789,6 +4640,7 @@
   IsSoloTrial: true
   IsMutable: null
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -3826,7 +4678,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -3878,9 +4730,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -3898,6 +4753,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: QuestCaerDun
   ScriptName: QuestCaerDun
   RequiresTeamRaids: "0"
@@ -3915,8 +4771,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 35.0
@@ -3945,6 +4804,7 @@
   IsSoloTrial: true
   IsMutable: null
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -3982,7 +4842,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -4034,9 +4894,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -4054,6 +4917,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: QuestEmpressZhou
   ScriptName: QuestEmpressZhou
   RequiresTeamRaids: "0"
@@ -4071,8 +4935,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 59.0
@@ -4101,6 +4968,7 @@
   IsSoloTrial: true
   IsMutable: null
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -4138,7 +5006,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -4190,9 +5058,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -4210,6 +5081,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: QuestIsabella
   ScriptName: QuestIsabella
   RequiresTeamRaids: "0"
@@ -4227,8 +5099,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 60.0
@@ -4257,6 +5132,7 @@
   IsSoloTrial: true
   IsMutable: null
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -4294,7 +5170,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -4346,9 +5222,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -4366,6 +5245,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: QuestMammoth
   ScriptName: QuestMammoth
   RequiresTeamRaids: "FALSE"
@@ -4383,8 +5263,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 64.0
@@ -4413,6 +5296,7 @@
   IsSoloTrial: true
   IsMutable: null
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -4450,7 +5334,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -4502,9 +5386,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -4522,6 +5409,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: QuestMedusa
   ScriptName: QuestMedusa
   RequiresTeamRaids: "FALSE"
@@ -4539,8 +5427,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 65.0
@@ -4569,6 +5460,7 @@
   IsSoloTrial: true
   IsMutable: null
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -4606,7 +5498,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -4658,9 +5550,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -4678,6 +5573,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: QuestMotherwell
   ScriptName: QuestMotherwell
   RequiresTeamRaids: "FALSE"
@@ -4695,8 +5591,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 57.0
@@ -4725,6 +5624,7 @@
   IsSoloTrial: true
   IsMutable: null
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -4762,7 +5662,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -4814,9 +5714,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -4834,6 +5737,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: QuestMedea
   ScriptName: QuestMedea
   RequiresTeamRaids: "FALSE"
@@ -4851,8 +5755,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 17.0
@@ -4881,6 +5788,7 @@
   IsSoloTrial: true
   IsMutable: null
   IsRemoteEntryAllowed: false
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -4918,7 +5826,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -4970,9 +5878,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -4990,6 +5901,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: QuestNihilo
   ScriptName: QuestNihilo
   RequiresTeamRaids: "FALSE"
@@ -5007,8 +5919,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 48.0
@@ -5037,6 +5952,7 @@
   IsSoloTrial: true
   IsMutable: null
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -5074,7 +5990,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -5126,9 +6042,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -5146,6 +6065,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: QuestYonas
   ScriptName: QuestYonas
   RequiresTeamRaids: "FALSE"
@@ -5163,8 +6083,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 57.0
@@ -5193,6 +6116,7 @@
   IsSoloTrial: true
   IsMutable: null
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -5230,7 +6154,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -5282,9 +6206,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -5302,6 +6229,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: TrialSeason02Q13
   ScriptName: TrialSeason02Q13
   RequiresTeamRaids: "FALSE"
@@ -5319,8 +6247,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 60.0
@@ -5349,6 +6280,7 @@
   IsSoloTrial: true
   IsMutable: null
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -5386,7 +6318,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -5438,9 +6370,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -5458,6 +6393,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: TrialSeason02Q12
   ScriptName: TrialSeason02Q12
   RequiresTeamRaids: "FALSE"
@@ -5475,8 +6411,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 60.0
@@ -5505,6 +6444,7 @@
   IsSoloTrial: true
   IsMutable: null
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -5542,7 +6482,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -5594,9 +6534,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -5614,6 +6557,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: TrialSeason04Q02
   ScriptName: TrialSeason04Q02
   RequiresTeamRaids: "FALSE"
@@ -5631,8 +6575,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 61.0
@@ -5661,6 +6608,7 @@
   IsSoloTrial: true
   IsMutable: null
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -5698,7 +6646,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -5750,9 +6698,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -5770,6 +6721,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: TrialSeason04Q06
   ScriptName: TrialSeason04Q06
   RequiresTeamRaids: "FALSE"
@@ -5787,8 +6739,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 61.0
@@ -5817,6 +6772,7 @@
   IsSoloTrial: true
   IsMutable: null
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -5854,7 +6810,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -5906,9 +6862,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -5926,6 +6885,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: TrialSeason04Q05
   ScriptName: TrialSeason04Q05
   RequiresTeamRaids: "FALSE"
@@ -5943,8 +6903,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 60.0
@@ -5973,6 +6936,7 @@
   IsSoloTrial: true
   IsMutable: null
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -6010,7 +6974,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -6062,9 +7026,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -6082,6 +7049,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: QuestHeartforge
   ScriptName: QuestHeartforge
   RequiresTeamRaids: "FALSE"
@@ -6099,8 +7067,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 25.0
@@ -6129,6 +7100,7 @@
   IsSoloTrial: true
   IsMutable: null
   IsRemoteEntryAllowed: false
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -6166,7 +7138,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -6218,9 +7190,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -6238,6 +7213,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: QuestLiang
   ScriptName: QuestLiang
   RequiresTeamRaids: "0"
@@ -6255,8 +7231,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 58.0
@@ -6285,6 +7264,7 @@
   IsSoloTrial: true
   IsMutable: null
   IsRemoteEntryAllowed: false
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -6322,7 +7302,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -6374,9 +7354,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -6394,6 +7377,7 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
 - GameModeId: QuestGawain
   ScriptName: QuestGawain
   RequiresTeamRaids: "0"
@@ -6411,8 +7395,11 @@
   PurchasableItemClassesRestrictedToMode: ""
   NonPurchasableItemClasses: ""
   ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
   RequiredConsumableItemClasses: ""
   DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
   ClearBattleTokensOnExit: "0"
   RequiresGameModeGDEException: "1"
   RecommendedLevel: 17.0
@@ -6441,6 +7428,7 @@
   IsSoloTrial: true
   IsMutable: null
   IsRemoteEntryAllowed: true
+  IsPVP: null
   DifficultyProgressionId: ""
   RestrictGathering: false
   RestrictWaterGathering: true
@@ -6478,7 +7466,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: null
+  MinAcceptedInvites: ""
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -6530,9 +7518,12 @@
   MatchmakingMinDPS: null
   MatchmakingMaxDPS: null
   UseMMBuff: false
+  DisableAllPerks: null
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
   AchievementIdForCompletingMaxRank: ""
   MRV2_NewR: null
   MRV2_NewD: null
@@ -6550,3 +7541,4 @@
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
+  ForceFFA: null

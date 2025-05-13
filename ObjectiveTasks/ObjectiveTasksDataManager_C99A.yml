@@ -4845,7 +4845,7 @@
   TP_TargetTag: Oxboro_IGC_Trigger
   TP_DescriptionTag: "@99A_MSQ_02_01_GoToPOI"
   TargetDescriptionTaskId: ""
-  OverrideLocation: 8783.0 4208.81 138.95
+  OverrideLocation: 8805.42 4211.72 135.32
   IsHidden: ""
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: "1"
@@ -18367,12 +18367,12 @@
   SubTask4: ""
   SubTask5: ""
 - TaskID: 99A_MSQ_14b_02_03d_GiveHeartgem_Hidden
-  Type: TaskGiveItem
+  Type: TaskGiveAndTakeItem
   FailOnCondition: ""
   StayActive: ""
   RequiredLevel: ""
   TargetQty: 1.0
-  ItemName: MSQ_Heartgem
+  ItemName: MSQ_Heartgem_V2
   ItemDropVC: ""
   ItemDropProbability: 100.0
   ChestDropProbability: null
@@ -18381,7 +18381,7 @@
   POITag: ""
   GameModeID: ""
   LootTag: ""
-  PauseAndClearLootOnTaskComplete: ""
+  PauseAndClearLootOnTaskComplete: "1"
   AwardOnlyOnce: "TRUE"
   ShouldCheckPoints: null
   GuranteedDropAttempts: null
@@ -18681,9 +18681,73 @@
   CommunityGoalTag: ""
   HideChildren: ""
   TriggerAnalyticsEvent: ""
-  SubTask1: 99A_MSQ_15_00_container_GoTo_KillNamed
-  SubTask2: 99A_MSQ_15_02_cinematic_container
-  SubTask3: 99A_MSQ_15_03_LeaveTrial_container
+  SubTask1: 99A_MSQ_15_Ritual_HeartgemCheck_GiveHeartgem_Hidden
+  SubTask2: 99A_MSQ_15_00_container_GoTo_KillNamed
+  SubTask3: 99A_MSQ_15_02_cinematic_container
+  SubTask4: 99A_MSQ_15_03_LeaveTrial_container
+  SubTask5: ""
+- TaskID: 99A_MSQ_15_Ritual_HeartgemCheck_GiveHeartgem_Hidden
+  Type: TaskGiveAndTakeItem
+  FailOnCondition: ""
+  StayActive: ""
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: MSQ_Heartgem_V2
+  ItemDropVC: ""
+  ItemDropProbability: 100.0
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: "1"
+  AwardOnlyOnce: "TRUE"
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: ""
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
 - TaskID: 99A_MSQ_15_00_container_GoTo_KillNamed
@@ -19452,7 +19516,7 @@
   SubTask1: 99A_MSQ_15_02_turnOnIGC
   SubTask2: 99A_MSQ_15_02_IGCComplete
   SubTask3: 99A_MSQ_15_02_turnOffIGC
-  SubTask4: ""
+  SubTask4: 99A_MSQ_15_02_partialcontingency
   SubTask5: ""
 - TaskID: 99A_MSQ_15_02_cinematicTrigger
   Type: TaskTriggerArea
@@ -19697,6 +19761,198 @@
   IsHidden: "1"
   HideDiegeticGatherablePins: ""
   ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99A_MSQ_15_02_partialcontingency
+  Type: PartialTaskContainer
+  FailOnCondition: ""
+  StayActive: ""
+  RequiredLevel: ""
+  TargetQty: null
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: ""
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: 99A_MSQ_15_02_RemoveHeartgem_Hidden
+  SubTask2: 99A_MSQ_15_03_LeaveTrialBarrier0
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99A_MSQ_15_02_RemoveHeartgem_Hidden
+  Type: TaskRemoveItem
+  FailOnCondition: ""
+  StayActive: ""
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: MSQ_Heartgem_V2
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: "1"
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: ""
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: ""
+  DiegeticPinZOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 99A_MSQ_15_03_LeaveTrialBarrier0
+  Type: TaskTriggerArea
+  FailOnCondition: ""
+  StayActive: ""
+  RequiredLevel: ""
+  TargetQty: 1.0
+  ItemName: ""
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: ""
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: null
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: Enter
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: ""
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: TriggerVol_MSQ_AmrineTemple_Failsafe
+  TP_DescriptionTag: "@99A_MSQ_15_01B_PassBarrier_Leave"
+  TargetDescriptionTaskId: ""
+  OverrideLocation: 9531.60 3197.31 135.14
+  IsHidden: ""
+  HideDiegeticGatherablePins: ""
+  ShowDiegeticTaskPin: "1"
   DiegeticPinZOverride: ""
   SS_VariantName: ""
   SS_StatePreset: ""

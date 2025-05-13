@@ -4,10 +4,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -29,14 +29,14 @@
   TargetLockIsStickyLock-Controller-PVE: true
   TargetLockIsStickyLock-Controller-PVP: true
   IsProjectileMagnetismEnabled: false
-  IsProjectileMagnetismEnabled-Controller-PVP: true
-  IsProjectileMagnetismEnabled-Controller-PVE: true
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 30.0
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 30.0
+  IsProjectileMagnetismEnabled-Controller-PVP: false
+  IsProjectileMagnetismEnabled-Controller-PVE: false
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 10.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 10.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 0.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 20.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 20.0
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
   ProjectileMagnetismSelectionRadius-Controller-PVE: 2.0
   ProjectileMagnetismSelectionRadius-Controller-PVP: 2.0
   ProjectileMagnetismSelectionDistance-Controller-PVE: 100.0
@@ -44,9 +44,9 @@
   IsReticleMagnetismEnabled: false
   IsReticleMagnetismEnabled-Controller-PVP: false
   IsReticleMagnetismEnabled-Controller-PVE: false
-  IsReticleMagnetismDeadReckoned: true
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned: false
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -115,9 +115,11 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: null
   FrictionRadius-Controller-PVE: null
+  FrictionMinRadius-Controller-PVE: null
   FrictionMaxDistance-Controller-PVE: null
   ADSFriction-Controller-PVE: 0.0
   ADSFrictionRadius-Controller-PVE: 0.0
+  ADSFrictionMinRadius-Controller-PVE: null
   ADSFrictionMaxDistance-Controller-PVE: 0.0
   MinRelaxedFriction-Controller-PVE: null
   ADSMinRelaxedFriction-Controller-PVE: null
@@ -129,9 +131,11 @@
   FrictionRadiusRelaxationMinValue-Controller-PVE: null
   Friction-Controller-PVP: null
   FrictionRadius-Controller-PVP: null
+  FrictionMinRadius-Controller-PVP: null
   FrictionMaxDistance-Controller-PVP: null
   ADSFriction-Controller-PVP: 0.0
   ADSFrictionRadius-Controller-PVP: 0.0
+  ADSFrictionMinRadius-Controller-PVP: null
   ADSFrictionMaxDistance-Controller-PVP: 0.0
   MinRelaxedFriction-Controller-PVP: null
   ADSMinRelaxedFriction-Controller-PVP: null
@@ -141,6 +145,8 @@
   FrictionRadiusRelaxationMaxDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinValue-Controller-PVP: null
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 100.0
 - ProfileName: RangedWeaponGeneric
   IsTargetLockEnabled: true
@@ -148,10 +154,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -173,14 +179,14 @@
   TargetLockIsStickyLock-Controller-PVE: true
   TargetLockIsStickyLock-Controller-PVP: true
   IsProjectileMagnetismEnabled: false
-  IsProjectileMagnetismEnabled-Controller-PVP: true
-  IsProjectileMagnetismEnabled-Controller-PVE: true
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 30.0
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 30.0
+  IsProjectileMagnetismEnabled-Controller-PVP: false
+  IsProjectileMagnetismEnabled-Controller-PVE: false
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 10.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 10.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 0.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 20.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 20.0
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
   ProjectileMagnetismSelectionRadius-Controller-PVE: 2.0
   ProjectileMagnetismSelectionRadius-Controller-PVP: 2.0
   ProjectileMagnetismSelectionDistance-Controller-PVE: 100.0
@@ -188,9 +194,9 @@
   IsReticleMagnetismEnabled: false
   IsReticleMagnetismEnabled-Controller-PVP: false
   IsReticleMagnetismEnabled-Controller-PVE: false
-  IsReticleMagnetismDeadReckoned: true
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned: false
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -259,32 +265,38 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: null
   FrictionRadius-Controller-PVE: null
+  FrictionMinRadius-Controller-PVE: null
   FrictionMaxDistance-Controller-PVE: null
   ADSFriction-Controller-PVE: 0.66
   ADSFrictionRadius-Controller-PVE: 0.15
+  ADSFrictionMinRadius-Controller-PVE: null
   ADSFrictionMaxDistance-Controller-PVE: 60.0
-  MinRelaxedFriction-Controller-PVE: null
-  ADSMinRelaxedFriction-Controller-PVE: null
-  FrictionRelaxationMaxDistance-Controller-PVE: 12.0
-  FrictionRelaxationMinDistance-Controller-PVE: 6.0
-  FrictionRelaxationMinValue-Controller-PVE: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVE: 12.0
+  MinRelaxedFriction-Controller-PVE: 0.2
+  ADSMinRelaxedFriction-Controller-PVE: 0.3
+  FrictionRelaxationMaxDistance-Controller-PVE: 10.0
+  FrictionRelaxationMinDistance-Controller-PVE: 1.0
+  FrictionRelaxationMinValue-Controller-PVE: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVE: 30.0
   FrictionRadiusRelaxationMinValue-Controller-PVE: 0.25
   Friction-Controller-PVP: null
   FrictionRadius-Controller-PVP: null
+  FrictionMinRadius-Controller-PVP: null
   FrictionMaxDistance-Controller-PVP: null
   ADSFriction-Controller-PVP: 0.66
   ADSFrictionRadius-Controller-PVP: 0.15
+  ADSFrictionMinRadius-Controller-PVP: null
   ADSFrictionMaxDistance-Controller-PVP: 60.0
   MinRelaxedFriction-Controller-PVP: 0.2
-  ADSMinRelaxedFriction-Controller-PVP: null
-  FrictionRelaxationMaxDistance-Controller-PVP: 12.0
-  FrictionRelaxationMinDistance-Controller-PVP: 6.0
-  FrictionRelaxationMinValue-Controller-PVP: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVP: 12.0
+  ADSMinRelaxedFriction-Controller-PVP: 0.3
+  FrictionRelaxationMaxDistance-Controller-PVP: 10.0
+  FrictionRelaxationMinDistance-Controller-PVP: 1.0
+  FrictionRelaxationMinValue-Controller-PVP: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVP: 30.0
   FrictionRadiusRelaxationMinValue-Controller-PVP: 0.25
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 100.0
 - ProfileName: LifeStaffGeneric
   IsTargetLockEnabled: true
@@ -292,10 +304,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -319,14 +331,14 @@
   IsProjectileMagnetismEnabled: false
   IsProjectileMagnetismEnabled-Controller-PVP: true
   IsProjectileMagnetismEnabled-Controller-PVE: true
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 5.0
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 5.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 10.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 10.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 0.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 10.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 10.0
-  ProjectileMagnetismSelectionRadius-Controller-PVE: 0.5
-  ProjectileMagnetismSelectionRadius-Controller-PVP: 0.5
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
+  ProjectileMagnetismSelectionRadius-Controller-PVE: 1.0
+  ProjectileMagnetismSelectionRadius-Controller-PVP: 1.0
   ProjectileMagnetismSelectionDistance-Controller-PVE: 50.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 50.0
   IsReticleMagnetismEnabled: false
@@ -403,32 +415,38 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: 0.85
   FrictionRadius-Controller-PVE: 0.1
+  FrictionMinRadius-Controller-PVE: 0.015
   FrictionMaxDistance-Controller-PVE: 50.0
-  ADSFriction-Controller-PVE: 0.85
+  ADSFriction-Controller-PVE: 0.7
   ADSFrictionRadius-Controller-PVE: 0.1
+  ADSFrictionMinRadius-Controller-PVE: 0.01
   ADSFrictionMaxDistance-Controller-PVE: 50.0
   MinRelaxedFriction-Controller-PVE: 0.2
   ADSMinRelaxedFriction-Controller-PVE: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVE: 12.0
-  FrictionRelaxationMinDistance-Controller-PVE: 6.0
-  FrictionRelaxationMinValue-Controller-PVE: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVE: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVE: 10.0
+  FrictionRelaxationMinDistance-Controller-PVE: 1.0
+  FrictionRelaxationMinValue-Controller-PVE: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVE: 35.0
   FrictionRadiusRelaxationMinValue-Controller-PVE: 0.25
   Friction-Controller-PVP: 0.85
   FrictionRadius-Controller-PVP: 0.1
+  FrictionMinRadius-Controller-PVP: 0.015
   FrictionMaxDistance-Controller-PVP: 50.0
-  ADSFriction-Controller-PVP: 0.85
+  ADSFriction-Controller-PVP: 0.7
   ADSFrictionRadius-Controller-PVP: 0.1
+  ADSFrictionMinRadius-Controller-PVP: 0.01
   ADSFrictionMaxDistance-Controller-PVP: 50.0
   MinRelaxedFriction-Controller-PVP: 0.2
   ADSMinRelaxedFriction-Controller-PVP: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVP: 12.0
-  FrictionRelaxationMinDistance-Controller-PVP: 6.0
-  FrictionRelaxationMinValue-Controller-PVP: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVP: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVP: 10.0
+  FrictionRelaxationMinDistance-Controller-PVP: 1.0
+  FrictionRelaxationMinValue-Controller-PVP: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVP: 25.0
   FrictionRadiusRelaxationMinValue-Controller-PVP: 0.25
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 50.0
 - ProfileName: LifeStaffCameraLock
   IsTargetLockEnabled: true
@@ -436,10 +454,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -463,22 +481,22 @@
   IsProjectileMagnetismEnabled: false
   IsProjectileMagnetismEnabled-Controller-PVP: true
   IsProjectileMagnetismEnabled-Controller-PVE: true
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 5.0
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 5.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 10.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 10.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 0.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 10.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 10.0
-  ProjectileMagnetismSelectionRadius-Controller-PVE: 0.5
-  ProjectileMagnetismSelectionRadius-Controller-PVP: 0.5
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
+  ProjectileMagnetismSelectionRadius-Controller-PVE: 1.0
+  ProjectileMagnetismSelectionRadius-Controller-PVP: 1.0
   ProjectileMagnetismSelectionDistance-Controller-PVE: 50.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 50.0
   IsReticleMagnetismEnabled: false
   IsReticleMagnetismEnabled-Controller-PVP: true
   IsReticleMagnetismEnabled-Controller-PVE: true
   IsReticleMagnetismDeadReckoned: false
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -547,32 +565,38 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: 0.85
   FrictionRadius-Controller-PVE: 0.1
+  FrictionMinRadius-Controller-PVE: 0.015
   FrictionMaxDistance-Controller-PVE: 50.0
-  ADSFriction-Controller-PVE: 0.85
+  ADSFriction-Controller-PVE: 0.7
   ADSFrictionRadius-Controller-PVE: 0.1
+  ADSFrictionMinRadius-Controller-PVE: 0.01
   ADSFrictionMaxDistance-Controller-PVE: 50.0
   MinRelaxedFriction-Controller-PVE: 0.2
   ADSMinRelaxedFriction-Controller-PVE: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVE: 12.0
-  FrictionRelaxationMinDistance-Controller-PVE: 6.0
-  FrictionRelaxationMinValue-Controller-PVE: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVE: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVE: 10.0
+  FrictionRelaxationMinDistance-Controller-PVE: 1.0
+  FrictionRelaxationMinValue-Controller-PVE: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVE: 35.0
   FrictionRadiusRelaxationMinValue-Controller-PVE: 0.25
   Friction-Controller-PVP: 0.85
   FrictionRadius-Controller-PVP: 0.1
+  FrictionMinRadius-Controller-PVP: 0.015
   FrictionMaxDistance-Controller-PVP: 50.0
-  ADSFriction-Controller-PVP: 0.85
+  ADSFriction-Controller-PVP: 0.7
   ADSFrictionRadius-Controller-PVP: 0.1
+  ADSFrictionMinRadius-Controller-PVP: 0.01
   ADSFrictionMaxDistance-Controller-PVP: 50.0
   MinRelaxedFriction-Controller-PVP: 0.2
   ADSMinRelaxedFriction-Controller-PVP: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVP: 12.0
-  FrictionRelaxationMinDistance-Controller-PVP: 6.0
-  FrictionRelaxationMinValue-Controller-PVP: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVP: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVP: 10.0
+  FrictionRelaxationMinDistance-Controller-PVP: 1.0
+  FrictionRelaxationMinValue-Controller-PVP: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVP: 25.0
   FrictionRadiusRelaxationMinValue-Controller-PVP: 0.25
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 50.0
 - ProfileName: MusketGeneric
   IsTargetLockEnabled: true
@@ -580,10 +604,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -607,14 +631,14 @@
   IsProjectileMagnetismEnabled: false
   IsProjectileMagnetismEnabled-Controller-PVP: true
   IsProjectileMagnetismEnabled-Controller-PVE: true
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 5.0
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 5.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 10.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 10.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 0.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 10.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 10.0
-  ProjectileMagnetismSelectionRadius-Controller-PVE: 0.5
-  ProjectileMagnetismSelectionRadius-Controller-PVP: 0.5
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
+  ProjectileMagnetismSelectionRadius-Controller-PVE: 1.0
+  ProjectileMagnetismSelectionRadius-Controller-PVP: 1.0
   ProjectileMagnetismSelectionDistance-Controller-PVE: 70.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 70.0
   IsReticleMagnetismEnabled: false
@@ -691,32 +715,38 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: 0.85
   FrictionRadius-Controller-PVE: 0.1
+  FrictionMinRadius-Controller-PVE: 0.015
   FrictionMaxDistance-Controller-PVE: 70.0
-  ADSFriction-Controller-PVE: 0.85
+  ADSFriction-Controller-PVE: 0.7
   ADSFrictionRadius-Controller-PVE: 0.1
+  ADSFrictionMinRadius-Controller-PVE: 0.01
   ADSFrictionMaxDistance-Controller-PVE: 70.0
   MinRelaxedFriction-Controller-PVE: 0.2
   ADSMinRelaxedFriction-Controller-PVE: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVE: 12.0
-  FrictionRelaxationMinDistance-Controller-PVE: 6.0
-  FrictionRelaxationMinValue-Controller-PVE: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVE: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVE: 10.0
+  FrictionRelaxationMinDistance-Controller-PVE: 1.0
+  FrictionRelaxationMinValue-Controller-PVE: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 70.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVE: 45.0
   FrictionRadiusRelaxationMinValue-Controller-PVE: 0.25
   Friction-Controller-PVP: 0.85
   FrictionRadius-Controller-PVP: 0.1
+  FrictionMinRadius-Controller-PVP: 0.015
   FrictionMaxDistance-Controller-PVP: 70.0
-  ADSFriction-Controller-PVP: 0.85
+  ADSFriction-Controller-PVP: 0.7
   ADSFrictionRadius-Controller-PVP: 0.1
+  ADSFrictionMinRadius-Controller-PVP: 0.01
   ADSFrictionMaxDistance-Controller-PVP: 70.0
   MinRelaxedFriction-Controller-PVP: 0.2
   ADSMinRelaxedFriction-Controller-PVP: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVP: 12.0
-  FrictionRelaxationMinDistance-Controller-PVP: 6.0
-  FrictionRelaxationMinValue-Controller-PVP: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVP: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVP: 10.0
+  FrictionRelaxationMinDistance-Controller-PVP: 1.0
+  FrictionRelaxationMinValue-Controller-PVP: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 70.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVP: 40.0
   FrictionRadiusRelaxationMinValue-Controller-PVP: 0.25
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 70.0
 - ProfileName: MusketCameraLock
   IsTargetLockEnabled: true
@@ -724,14 +754,14 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
-  TargetLockCameraFollow-KBAM-PVE: true
-  TargetLockCameraFollow-KBAM-PVP: true
-  TargetLockCameraFollow-Controller-PVE: true
-  TargetLockCameraFollow-Controller-PVP: true
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
+  TargetLockCameraFollow-KBAM-PVE: false
+  TargetLockCameraFollow-KBAM-PVP: false
+  TargetLockCameraFollow-Controller-PVE: false
+  TargetLockCameraFollow-Controller-PVP: false
   TargetLockAllowRetarget-KBAM-PVE: false
   TargetLockAllowRetarget-KBAM-PVP: false
   TargetLockAllowRetarget-Controller-PVE: false
@@ -751,22 +781,22 @@
   IsProjectileMagnetismEnabled: false
   IsProjectileMagnetismEnabled-Controller-PVP: true
   IsProjectileMagnetismEnabled-Controller-PVE: true
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 5.0
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 5.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 10.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 10.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 0.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 10.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 10.0
-  ProjectileMagnetismSelectionRadius-Controller-PVE: 0.5
-  ProjectileMagnetismSelectionRadius-Controller-PVP: 0.5
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
+  ProjectileMagnetismSelectionRadius-Controller-PVE: 1.0
+  ProjectileMagnetismSelectionRadius-Controller-PVP: 1.0
   ProjectileMagnetismSelectionDistance-Controller-PVE: 70.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 70.0
   IsReticleMagnetismEnabled: false
   IsReticleMagnetismEnabled-Controller-PVP: true
   IsReticleMagnetismEnabled-Controller-PVE: true
   IsReticleMagnetismDeadReckoned: false
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -835,32 +865,38 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: 0.85
   FrictionRadius-Controller-PVE: 0.1
+  FrictionMinRadius-Controller-PVE: 0.015
   FrictionMaxDistance-Controller-PVE: 70.0
-  ADSFriction-Controller-PVE: 0.85
+  ADSFriction-Controller-PVE: 0.7
   ADSFrictionRadius-Controller-PVE: 0.1
+  ADSFrictionMinRadius-Controller-PVE: 0.01
   ADSFrictionMaxDistance-Controller-PVE: 70.0
   MinRelaxedFriction-Controller-PVE: 0.2
   ADSMinRelaxedFriction-Controller-PVE: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVE: 12.0
-  FrictionRelaxationMinDistance-Controller-PVE: 6.0
-  FrictionRelaxationMinValue-Controller-PVE: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVE: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVE: 10.0
+  FrictionRelaxationMinDistance-Controller-PVE: 1.0
+  FrictionRelaxationMinValue-Controller-PVE: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 70.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVE: 45.0
   FrictionRadiusRelaxationMinValue-Controller-PVE: 0.25
   Friction-Controller-PVP: 0.85
   FrictionRadius-Controller-PVP: 0.1
+  FrictionMinRadius-Controller-PVP: 0.015
   FrictionMaxDistance-Controller-PVP: 70.0
-  ADSFriction-Controller-PVP: 0.85
+  ADSFriction-Controller-PVP: 0.7
   ADSFrictionRadius-Controller-PVP: 0.1
+  ADSFrictionMinRadius-Controller-PVP: 0.01
   ADSFrictionMaxDistance-Controller-PVP: 70.0
   MinRelaxedFriction-Controller-PVP: 0.2
   ADSMinRelaxedFriction-Controller-PVP: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVP: 12.0
-  FrictionRelaxationMinDistance-Controller-PVP: 6.0
-  FrictionRelaxationMinValue-Controller-PVP: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVP: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVP: 10.0
+  FrictionRelaxationMinDistance-Controller-PVP: 1.0
+  FrictionRelaxationMinValue-Controller-PVP: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 70.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVP: 40.0
   FrictionRadiusRelaxationMinValue-Controller-PVP: 0.25
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 70.0
 - ProfileName: BowGeneric
   IsTargetLockEnabled: true
@@ -868,10 +904,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -895,14 +931,14 @@
   IsProjectileMagnetismEnabled: false
   IsProjectileMagnetismEnabled-Controller-PVP: true
   IsProjectileMagnetismEnabled-Controller-PVE: true
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 5.0
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 5.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 10.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 10.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 0.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 10.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 10.0
-  ProjectileMagnetismSelectionRadius-Controller-PVE: 0.5
-  ProjectileMagnetismSelectionRadius-Controller-PVP: 0.5
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
+  ProjectileMagnetismSelectionRadius-Controller-PVE: 1.0
+  ProjectileMagnetismSelectionRadius-Controller-PVP: 1.0
   ProjectileMagnetismSelectionDistance-Controller-PVE: 60.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 60.0
   IsReticleMagnetismEnabled: false
@@ -979,32 +1015,38 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: 0.85
   FrictionRadius-Controller-PVE: 0.1
+  FrictionMinRadius-Controller-PVE: 0.015
   FrictionMaxDistance-Controller-PVE: 60.0
-  ADSFriction-Controller-PVE: 0.85
+  ADSFriction-Controller-PVE: 0.7
   ADSFrictionRadius-Controller-PVE: 0.1
+  ADSFrictionMinRadius-Controller-PVE: 0.01
   ADSFrictionMaxDistance-Controller-PVE: 60.0
   MinRelaxedFriction-Controller-PVE: 0.2
   ADSMinRelaxedFriction-Controller-PVE: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVE: 12.0
-  FrictionRelaxationMinDistance-Controller-PVE: 6.0
-  FrictionRelaxationMinValue-Controller-PVE: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVE: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVE: 10.0
+  FrictionRelaxationMinDistance-Controller-PVE: 1.0
+  FrictionRelaxationMinValue-Controller-PVE: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 60.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVE: 45.0
   FrictionRadiusRelaxationMinValue-Controller-PVE: 0.25
   Friction-Controller-PVP: 0.85
   FrictionRadius-Controller-PVP: 0.1
+  FrictionMinRadius-Controller-PVP: 0.015
   FrictionMaxDistance-Controller-PVP: 60.0
-  ADSFriction-Controller-PVP: 0.85
+  ADSFriction-Controller-PVP: 0.7
   ADSFrictionRadius-Controller-PVP: 0.1
+  ADSFrictionMinRadius-Controller-PVP: 0.01
   ADSFrictionMaxDistance-Controller-PVP: 60.0
   MinRelaxedFriction-Controller-PVP: 0.2
   ADSMinRelaxedFriction-Controller-PVP: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVP: 12.0
-  FrictionRelaxationMinDistance-Controller-PVP: 6.0
-  FrictionRelaxationMinValue-Controller-PVP: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVP: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVP: 10.0
+  FrictionRelaxationMinDistance-Controller-PVP: 1.0
+  FrictionRelaxationMinValue-Controller-PVP: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 60.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVP: 40.0
   FrictionRadiusRelaxationMinValue-Controller-PVP: 0.25
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 60.0
 - ProfileName: BowCameraLock
   IsTargetLockEnabled: true
@@ -1012,14 +1054,14 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
-  TargetLockCameraFollow-KBAM-PVE: true
-  TargetLockCameraFollow-KBAM-PVP: true
-  TargetLockCameraFollow-Controller-PVE: true
-  TargetLockCameraFollow-Controller-PVP: true
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
+  TargetLockCameraFollow-KBAM-PVE: false
+  TargetLockCameraFollow-KBAM-PVP: false
+  TargetLockCameraFollow-Controller-PVE: false
+  TargetLockCameraFollow-Controller-PVP: false
   TargetLockAllowRetarget-KBAM-PVE: false
   TargetLockAllowRetarget-KBAM-PVP: false
   TargetLockAllowRetarget-Controller-PVE: false
@@ -1039,22 +1081,22 @@
   IsProjectileMagnetismEnabled: false
   IsProjectileMagnetismEnabled-Controller-PVP: true
   IsProjectileMagnetismEnabled-Controller-PVE: true
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 5.0
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 5.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 10.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 10.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 0.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 10.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 10.0
-  ProjectileMagnetismSelectionRadius-Controller-PVE: 0.5
-  ProjectileMagnetismSelectionRadius-Controller-PVP: 0.5
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
+  ProjectileMagnetismSelectionRadius-Controller-PVE: 1.0
+  ProjectileMagnetismSelectionRadius-Controller-PVP: 1.0
   ProjectileMagnetismSelectionDistance-Controller-PVE: 60.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 60.0
   IsReticleMagnetismEnabled: false
   IsReticleMagnetismEnabled-Controller-PVP: true
   IsReticleMagnetismEnabled-Controller-PVE: true
   IsReticleMagnetismDeadReckoned: false
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -1123,32 +1165,38 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: 0.85
   FrictionRadius-Controller-PVE: 0.1
+  FrictionMinRadius-Controller-PVE: 0.015
   FrictionMaxDistance-Controller-PVE: 60.0
-  ADSFriction-Controller-PVE: 0.85
+  ADSFriction-Controller-PVE: 0.7
   ADSFrictionRadius-Controller-PVE: 0.1
+  ADSFrictionMinRadius-Controller-PVE: 0.01
   ADSFrictionMaxDistance-Controller-PVE: 60.0
   MinRelaxedFriction-Controller-PVE: 0.2
   ADSMinRelaxedFriction-Controller-PVE: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVE: 12.0
-  FrictionRelaxationMinDistance-Controller-PVE: 6.0
-  FrictionRelaxationMinValue-Controller-PVE: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVE: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVE: 10.0
+  FrictionRelaxationMinDistance-Controller-PVE: 1.0
+  FrictionRelaxationMinValue-Controller-PVE: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 60.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVE: 45.0
   FrictionRadiusRelaxationMinValue-Controller-PVE: 0.25
   Friction-Controller-PVP: 0.85
   FrictionRadius-Controller-PVP: 0.1
+  FrictionMinRadius-Controller-PVP: 0.015
   FrictionMaxDistance-Controller-PVP: 60.0
-  ADSFriction-Controller-PVP: 0.85
+  ADSFriction-Controller-PVP: 0.7
   ADSFrictionRadius-Controller-PVP: 0.1
+  ADSFrictionMinRadius-Controller-PVP: 0.01
   ADSFrictionMaxDistance-Controller-PVP: 60.0
   MinRelaxedFriction-Controller-PVP: 0.2
   ADSMinRelaxedFriction-Controller-PVP: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVP: 12.0
-  FrictionRelaxationMinDistance-Controller-PVP: 6.0
-  FrictionRelaxationMinValue-Controller-PVP: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVP: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVP: 10.0
+  FrictionRelaxationMinDistance-Controller-PVP: 1.0
+  FrictionRelaxationMinValue-Controller-PVP: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 60.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVP: 40.0
   FrictionRadiusRelaxationMinValue-Controller-PVP: 0.25
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 60.0
 - ProfileName: FireStaffGeneric
   IsTargetLockEnabled: true
@@ -1156,10 +1204,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -1183,14 +1231,14 @@
   IsProjectileMagnetismEnabled: false
   IsProjectileMagnetismEnabled-Controller-PVP: true
   IsProjectileMagnetismEnabled-Controller-PVE: true
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 5.0
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 5.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 10.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 10.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 0.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 10.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 10.0
-  ProjectileMagnetismSelectionRadius-Controller-PVE: 0.5
-  ProjectileMagnetismSelectionRadius-Controller-PVP: 0.5
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
+  ProjectileMagnetismSelectionRadius-Controller-PVE: 1.0
+  ProjectileMagnetismSelectionRadius-Controller-PVP: 1.0
   ProjectileMagnetismSelectionDistance-Controller-PVE: 50.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 50.0
   IsReticleMagnetismEnabled: false
@@ -1267,32 +1315,38 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: 0.85
   FrictionRadius-Controller-PVE: 0.1
+  FrictionMinRadius-Controller-PVE: 0.015
   FrictionMaxDistance-Controller-PVE: 50.0
-  ADSFriction-Controller-PVE: 0.85
+  ADSFriction-Controller-PVE: 0.7
   ADSFrictionRadius-Controller-PVE: 0.1
+  ADSFrictionMinRadius-Controller-PVE: 0.01
   ADSFrictionMaxDistance-Controller-PVE: 50.0
   MinRelaxedFriction-Controller-PVE: 0.2
   ADSMinRelaxedFriction-Controller-PVE: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVE: 12.0
-  FrictionRelaxationMinDistance-Controller-PVE: 6.0
-  FrictionRelaxationMinValue-Controller-PVE: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVE: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVE: 10.0
+  FrictionRelaxationMinDistance-Controller-PVE: 1.0
+  FrictionRelaxationMinValue-Controller-PVE: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVE: 35.0
   FrictionRadiusRelaxationMinValue-Controller-PVE: 0.25
   Friction-Controller-PVP: 0.85
   FrictionRadius-Controller-PVP: 0.1
+  FrictionMinRadius-Controller-PVP: 0.015
   FrictionMaxDistance-Controller-PVP: 50.0
-  ADSFriction-Controller-PVP: 0.85
+  ADSFriction-Controller-PVP: 0.7
   ADSFrictionRadius-Controller-PVP: 0.1
+  ADSFrictionMinRadius-Controller-PVP: 0.01
   ADSFrictionMaxDistance-Controller-PVP: 50.0
   MinRelaxedFriction-Controller-PVP: 0.2
   ADSMinRelaxedFriction-Controller-PVP: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVP: 12.0
-  FrictionRelaxationMinDistance-Controller-PVP: 6.0
-  FrictionRelaxationMinValue-Controller-PVP: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVP: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVP: 10.0
+  FrictionRelaxationMinDistance-Controller-PVP: 1.0
+  FrictionRelaxationMinValue-Controller-PVP: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVP: 25.0
   FrictionRadiusRelaxationMinValue-Controller-PVP: 0.25
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 50.0
 - ProfileName: FireStaffCameraLock
   IsTargetLockEnabled: true
@@ -1300,10 +1354,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -1327,22 +1381,22 @@
   IsProjectileMagnetismEnabled: false
   IsProjectileMagnetismEnabled-Controller-PVP: true
   IsProjectileMagnetismEnabled-Controller-PVE: true
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 5.0
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 5.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 10.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 10.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 0.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 10.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 10.0
-  ProjectileMagnetismSelectionRadius-Controller-PVE: 0.5
-  ProjectileMagnetismSelectionRadius-Controller-PVP: 0.5
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
+  ProjectileMagnetismSelectionRadius-Controller-PVE: 1.0
+  ProjectileMagnetismSelectionRadius-Controller-PVP: 1.0
   ProjectileMagnetismSelectionDistance-Controller-PVE: 50.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 50.0
   IsReticleMagnetismEnabled: false
   IsReticleMagnetismEnabled-Controller-PVP: true
   IsReticleMagnetismEnabled-Controller-PVE: true
   IsReticleMagnetismDeadReckoned: false
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -1411,32 +1465,38 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: 0.85
   FrictionRadius-Controller-PVE: 0.1
+  FrictionMinRadius-Controller-PVE: 0.015
   FrictionMaxDistance-Controller-PVE: 50.0
-  ADSFriction-Controller-PVE: 0.85
+  ADSFriction-Controller-PVE: 0.7
   ADSFrictionRadius-Controller-PVE: 0.1
+  ADSFrictionMinRadius-Controller-PVE: 0.01
   ADSFrictionMaxDistance-Controller-PVE: 50.0
   MinRelaxedFriction-Controller-PVE: 0.2
   ADSMinRelaxedFriction-Controller-PVE: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVE: 12.0
-  FrictionRelaxationMinDistance-Controller-PVE: 6.0
-  FrictionRelaxationMinValue-Controller-PVE: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVE: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVE: 10.0
+  FrictionRelaxationMinDistance-Controller-PVE: 1.0
+  FrictionRelaxationMinValue-Controller-PVE: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVE: 35.0
   FrictionRadiusRelaxationMinValue-Controller-PVE: 0.25
   Friction-Controller-PVP: 0.85
   FrictionRadius-Controller-PVP: 0.1
+  FrictionMinRadius-Controller-PVP: 0.015
   FrictionMaxDistance-Controller-PVP: 50.0
-  ADSFriction-Controller-PVP: 0.85
+  ADSFriction-Controller-PVP: 0.7
   ADSFrictionRadius-Controller-PVP: 0.1
+  ADSFrictionMinRadius-Controller-PVP: 0.01
   ADSFrictionMaxDistance-Controller-PVP: 50.0
   MinRelaxedFriction-Controller-PVP: 0.2
   ADSMinRelaxedFriction-Controller-PVP: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVP: 12.0
-  FrictionRelaxationMinDistance-Controller-PVP: 6.0
-  FrictionRelaxationMinValue-Controller-PVP: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVP: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVP: 10.0
+  FrictionRelaxationMinDistance-Controller-PVP: 1.0
+  FrictionRelaxationMinValue-Controller-PVP: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVP: 25.0
   FrictionRadiusRelaxationMinValue-Controller-PVP: 0.25
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 50.0
 - ProfileName: VoidGauntletGeneric
   IsTargetLockEnabled: true
@@ -1444,10 +1504,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -1471,14 +1531,14 @@
   IsProjectileMagnetismEnabled: false
   IsProjectileMagnetismEnabled-Controller-PVP: true
   IsProjectileMagnetismEnabled-Controller-PVE: true
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 5.0
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 5.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 10.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 10.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 0.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 10.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 10.0
-  ProjectileMagnetismSelectionRadius-Controller-PVE: 0.5
-  ProjectileMagnetismSelectionRadius-Controller-PVP: 0.5
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
+  ProjectileMagnetismSelectionRadius-Controller-PVE: 1.0
+  ProjectileMagnetismSelectionRadius-Controller-PVP: 1.0
   ProjectileMagnetismSelectionDistance-Controller-PVE: 50.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 50.0
   IsReticleMagnetismEnabled: false
@@ -1555,32 +1615,38 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: 0.85
   FrictionRadius-Controller-PVE: 0.1
+  FrictionMinRadius-Controller-PVE: 0.015
   FrictionMaxDistance-Controller-PVE: 50.0
-  ADSFriction-Controller-PVE: 0.85
+  ADSFriction-Controller-PVE: 0.7
   ADSFrictionRadius-Controller-PVE: 0.1
+  ADSFrictionMinRadius-Controller-PVE: 0.01
   ADSFrictionMaxDistance-Controller-PVE: 50.0
   MinRelaxedFriction-Controller-PVE: 0.2
   ADSMinRelaxedFriction-Controller-PVE: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVE: 12.0
-  FrictionRelaxationMinDistance-Controller-PVE: 6.0
-  FrictionRelaxationMinValue-Controller-PVE: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVE: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVE: 10.0
+  FrictionRelaxationMinDistance-Controller-PVE: 1.0
+  FrictionRelaxationMinValue-Controller-PVE: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVE: 35.0
   FrictionRadiusRelaxationMinValue-Controller-PVE: 0.25
   Friction-Controller-PVP: 0.85
   FrictionRadius-Controller-PVP: 0.1
+  FrictionMinRadius-Controller-PVP: 0.015
   FrictionMaxDistance-Controller-PVP: 50.0
-  ADSFriction-Controller-PVP: 0.85
+  ADSFriction-Controller-PVP: 0.7
   ADSFrictionRadius-Controller-PVP: 0.1
+  ADSFrictionMinRadius-Controller-PVP: 0.01
   ADSFrictionMaxDistance-Controller-PVP: 50.0
   MinRelaxedFriction-Controller-PVP: 0.2
   ADSMinRelaxedFriction-Controller-PVP: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVP: 12.0
-  FrictionRelaxationMinDistance-Controller-PVP: 6.0
-  FrictionRelaxationMinValue-Controller-PVP: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVP: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVP: 10.0
+  FrictionRelaxationMinDistance-Controller-PVP: 1.0
+  FrictionRelaxationMinValue-Controller-PVP: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVP: 25.0
   FrictionRadiusRelaxationMinValue-Controller-PVP: 0.25
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 50.0
 - ProfileName: VoidGauntletCameraLock
   IsTargetLockEnabled: true
@@ -1588,10 +1654,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -1615,22 +1681,22 @@
   IsProjectileMagnetismEnabled: false
   IsProjectileMagnetismEnabled-Controller-PVP: true
   IsProjectileMagnetismEnabled-Controller-PVE: true
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 5.0
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 5.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 10.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 10.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 0.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 10.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 10.0
-  ProjectileMagnetismSelectionRadius-Controller-PVE: 0.5
-  ProjectileMagnetismSelectionRadius-Controller-PVP: 0.5
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
+  ProjectileMagnetismSelectionRadius-Controller-PVE: 1.0
+  ProjectileMagnetismSelectionRadius-Controller-PVP: 1.0
   ProjectileMagnetismSelectionDistance-Controller-PVE: 50.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 50.0
   IsReticleMagnetismEnabled: false
   IsReticleMagnetismEnabled-Controller-PVP: true
   IsReticleMagnetismEnabled-Controller-PVE: true
   IsReticleMagnetismDeadReckoned: false
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -1699,32 +1765,38 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: 0.85
   FrictionRadius-Controller-PVE: 0.1
+  FrictionMinRadius-Controller-PVE: 0.015
   FrictionMaxDistance-Controller-PVE: 50.0
-  ADSFriction-Controller-PVE: 0.85
+  ADSFriction-Controller-PVE: 0.7
   ADSFrictionRadius-Controller-PVE: 0.1
+  ADSFrictionMinRadius-Controller-PVE: 0.01
   ADSFrictionMaxDistance-Controller-PVE: 50.0
   MinRelaxedFriction-Controller-PVE: 0.2
   ADSMinRelaxedFriction-Controller-PVE: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVE: 12.0
-  FrictionRelaxationMinDistance-Controller-PVE: 6.0
-  FrictionRelaxationMinValue-Controller-PVE: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVE: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVE: 10.0
+  FrictionRelaxationMinDistance-Controller-PVE: 1.0
+  FrictionRelaxationMinValue-Controller-PVE: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVE: 35.0
   FrictionRadiusRelaxationMinValue-Controller-PVE: 0.25
   Friction-Controller-PVP: 0.85
   FrictionRadius-Controller-PVP: 0.1
+  FrictionMinRadius-Controller-PVP: 0.015
   FrictionMaxDistance-Controller-PVP: 50.0
-  ADSFriction-Controller-PVP: 0.85
+  ADSFriction-Controller-PVP: 0.7
   ADSFrictionRadius-Controller-PVP: 0.1
+  ADSFrictionMinRadius-Controller-PVP: 0.01
   ADSFrictionMaxDistance-Controller-PVP: 50.0
   MinRelaxedFriction-Controller-PVP: 0.2
   ADSMinRelaxedFriction-Controller-PVP: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVP: 12.0
-  FrictionRelaxationMinDistance-Controller-PVP: 6.0
-  FrictionRelaxationMinValue-Controller-PVP: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVP: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVP: 10.0
+  FrictionRelaxationMinDistance-Controller-PVP: 1.0
+  FrictionRelaxationMinValue-Controller-PVP: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVP: 25.0
   FrictionRadiusRelaxationMinValue-Controller-PVP: 0.25
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 50.0
 - ProfileName: IceMagicGeneric
   IsTargetLockEnabled: true
@@ -1732,10 +1804,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -1759,14 +1831,14 @@
   IsProjectileMagnetismEnabled: false
   IsProjectileMagnetismEnabled-Controller-PVP: true
   IsProjectileMagnetismEnabled-Controller-PVE: true
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 5.0
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 5.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 10.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 10.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 0.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 10.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 10.0
-  ProjectileMagnetismSelectionRadius-Controller-PVE: 0.5
-  ProjectileMagnetismSelectionRadius-Controller-PVP: 0.5
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
+  ProjectileMagnetismSelectionRadius-Controller-PVE: 1.0
+  ProjectileMagnetismSelectionRadius-Controller-PVP: 1.0
   ProjectileMagnetismSelectionDistance-Controller-PVE: 50.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 50.0
   IsReticleMagnetismEnabled: false
@@ -1843,32 +1915,38 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: 0.85
   FrictionRadius-Controller-PVE: 0.1
+  FrictionMinRadius-Controller-PVE: 0.015
   FrictionMaxDistance-Controller-PVE: 50.0
-  ADSFriction-Controller-PVE: 0.85
+  ADSFriction-Controller-PVE: 0.7
   ADSFrictionRadius-Controller-PVE: 0.1
+  ADSFrictionMinRadius-Controller-PVE: 0.01
   ADSFrictionMaxDistance-Controller-PVE: 50.0
   MinRelaxedFriction-Controller-PVE: 0.2
   ADSMinRelaxedFriction-Controller-PVE: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVE: 12.0
-  FrictionRelaxationMinDistance-Controller-PVE: 6.0
-  FrictionRelaxationMinValue-Controller-PVE: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVE: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVE: 10.0
+  FrictionRelaxationMinDistance-Controller-PVE: 1.0
+  FrictionRelaxationMinValue-Controller-PVE: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVE: 35.0
   FrictionRadiusRelaxationMinValue-Controller-PVE: 0.25
   Friction-Controller-PVP: 0.85
   FrictionRadius-Controller-PVP: 0.1
+  FrictionMinRadius-Controller-PVP: 0.015
   FrictionMaxDistance-Controller-PVP: 50.0
-  ADSFriction-Controller-PVP: 0.85
+  ADSFriction-Controller-PVP: 0.7
   ADSFrictionRadius-Controller-PVP: 0.1
+  ADSFrictionMinRadius-Controller-PVP: 0.01
   ADSFrictionMaxDistance-Controller-PVP: 50.0
   MinRelaxedFriction-Controller-PVP: 0.2
   ADSMinRelaxedFriction-Controller-PVP: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVP: 12.0
-  FrictionRelaxationMinDistance-Controller-PVP: 6.0
-  FrictionRelaxationMinValue-Controller-PVP: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVP: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVP: 10.0
+  FrictionRelaxationMinDistance-Controller-PVP: 1.0
+  FrictionRelaxationMinValue-Controller-PVP: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVP: 25.0
   FrictionRadiusRelaxationMinValue-Controller-PVP: 0.25
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 50.0
 - ProfileName: IceMagicCameraLock
   IsTargetLockEnabled: true
@@ -1876,10 +1954,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -1903,22 +1981,22 @@
   IsProjectileMagnetismEnabled: false
   IsProjectileMagnetismEnabled-Controller-PVP: true
   IsProjectileMagnetismEnabled-Controller-PVE: true
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 5.0
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 5.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 10.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 10.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 0.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 10.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 10.0
-  ProjectileMagnetismSelectionRadius-Controller-PVE: 0.5
-  ProjectileMagnetismSelectionRadius-Controller-PVP: 0.5
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
+  ProjectileMagnetismSelectionRadius-Controller-PVE: 1.0
+  ProjectileMagnetismSelectionRadius-Controller-PVP: 1.0
   ProjectileMagnetismSelectionDistance-Controller-PVE: 50.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 50.0
   IsReticleMagnetismEnabled: false
   IsReticleMagnetismEnabled-Controller-PVP: true
   IsReticleMagnetismEnabled-Controller-PVE: true
   IsReticleMagnetismDeadReckoned: false
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -1987,32 +2065,38 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: 0.85
   FrictionRadius-Controller-PVE: 0.1
+  FrictionMinRadius-Controller-PVE: 0.015
   FrictionMaxDistance-Controller-PVE: 50.0
-  ADSFriction-Controller-PVE: 0.85
+  ADSFriction-Controller-PVE: 0.7
   ADSFrictionRadius-Controller-PVE: 0.1
+  ADSFrictionMinRadius-Controller-PVE: 0.01
   ADSFrictionMaxDistance-Controller-PVE: 50.0
   MinRelaxedFriction-Controller-PVE: 0.2
   ADSMinRelaxedFriction-Controller-PVE: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVE: 12.0
-  FrictionRelaxationMinDistance-Controller-PVE: 6.0
-  FrictionRelaxationMinValue-Controller-PVE: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVE: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVE: 10.0
+  FrictionRelaxationMinDistance-Controller-PVE: 1.0
+  FrictionRelaxationMinValue-Controller-PVE: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVE: 35.0
   FrictionRadiusRelaxationMinValue-Controller-PVE: 0.25
   Friction-Controller-PVP: 0.85
   FrictionRadius-Controller-PVP: 0.1
+  FrictionMinRadius-Controller-PVP: 0.015
   FrictionMaxDistance-Controller-PVP: 50.0
-  ADSFriction-Controller-PVP: 0.85
+  ADSFriction-Controller-PVP: 0.7
   ADSFrictionRadius-Controller-PVP: 0.1
+  ADSFrictionMinRadius-Controller-PVP: 0.01
   ADSFrictionMaxDistance-Controller-PVP: 50.0
   MinRelaxedFriction-Controller-PVP: 0.2
   ADSMinRelaxedFriction-Controller-PVP: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVP: 12.0
-  FrictionRelaxationMinDistance-Controller-PVP: 6.0
-  FrictionRelaxationMinValue-Controller-PVP: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVP: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVP: 10.0
+  FrictionRelaxationMinDistance-Controller-PVP: 1.0
+  FrictionRelaxationMinValue-Controller-PVP: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVP: 25.0
   FrictionRadiusRelaxationMinValue-Controller-PVP: 0.25
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 50.0
 - ProfileName: HeartgemGeneric
   IsTargetLockEnabled: true
@@ -2020,10 +2104,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -2047,14 +2131,14 @@
   IsProjectileMagnetismEnabled: false
   IsProjectileMagnetismEnabled-Controller-PVP: true
   IsProjectileMagnetismEnabled-Controller-PVE: true
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 5.0
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 5.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 10.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 10.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 0.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 10.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 10.0
-  ProjectileMagnetismSelectionRadius-Controller-PVE: 0.5
-  ProjectileMagnetismSelectionRadius-Controller-PVP: 0.5
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
+  ProjectileMagnetismSelectionRadius-Controller-PVE: 1.0
+  ProjectileMagnetismSelectionRadius-Controller-PVP: 1.0
   ProjectileMagnetismSelectionDistance-Controller-PVE: 50.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 50.0
   IsReticleMagnetismEnabled: false
@@ -2131,32 +2215,38 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: 0.85
   FrictionRadius-Controller-PVE: 0.1
+  FrictionMinRadius-Controller-PVE: 0.015
   FrictionMaxDistance-Controller-PVE: 50.0
-  ADSFriction-Controller-PVE: 0.85
+  ADSFriction-Controller-PVE: 0.7
   ADSFrictionRadius-Controller-PVE: 0.1
+  ADSFrictionMinRadius-Controller-PVE: 0.01
   ADSFrictionMaxDistance-Controller-PVE: 50.0
   MinRelaxedFriction-Controller-PVE: 0.2
   ADSMinRelaxedFriction-Controller-PVE: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVE: 12.0
-  FrictionRelaxationMinDistance-Controller-PVE: 6.0
-  FrictionRelaxationMinValue-Controller-PVE: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVE: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVE: 10.0
+  FrictionRelaxationMinDistance-Controller-PVE: 1.0
+  FrictionRelaxationMinValue-Controller-PVE: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVE: 35.0
   FrictionRadiusRelaxationMinValue-Controller-PVE: 0.25
   Friction-Controller-PVP: 0.85
   FrictionRadius-Controller-PVP: 0.1
+  FrictionMinRadius-Controller-PVP: 0.015
   FrictionMaxDistance-Controller-PVP: 50.0
-  ADSFriction-Controller-PVP: 0.85
+  ADSFriction-Controller-PVP: 0.7
   ADSFrictionRadius-Controller-PVP: 0.1
+  ADSFrictionMinRadius-Controller-PVP: 0.01
   ADSFrictionMaxDistance-Controller-PVP: 50.0
   MinRelaxedFriction-Controller-PVP: 0.2
   ADSMinRelaxedFriction-Controller-PVP: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVP: 12.0
-  FrictionRelaxationMinDistance-Controller-PVP: 6.0
-  FrictionRelaxationMinValue-Controller-PVP: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVP: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVP: 10.0
+  FrictionRelaxationMinDistance-Controller-PVP: 1.0
+  FrictionRelaxationMinValue-Controller-PVP: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVP: 25.0
   FrictionRadiusRelaxationMinValue-Controller-PVP: 0.25
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 50.0
 - ProfileName: HatchetGeneric
   IsTargetLockEnabled: true
@@ -2164,10 +2254,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -2191,14 +2281,14 @@
   IsProjectileMagnetismEnabled: false
   IsProjectileMagnetismEnabled-Controller-PVP: true
   IsProjectileMagnetismEnabled-Controller-PVE: true
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 5.0
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 5.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 10.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 10.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 0.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 10.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 10.0
-  ProjectileMagnetismSelectionRadius-Controller-PVE: 0.5
-  ProjectileMagnetismSelectionRadius-Controller-PVP: 0.5
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
+  ProjectileMagnetismSelectionRadius-Controller-PVE: 1.0
+  ProjectileMagnetismSelectionRadius-Controller-PVP: 1.0
   ProjectileMagnetismSelectionDistance-Controller-PVE: 50.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 50.0
   IsReticleMagnetismEnabled: false
@@ -2275,32 +2365,38 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: null
   FrictionRadius-Controller-PVE: null
+  FrictionMinRadius-Controller-PVE: null
   FrictionMaxDistance-Controller-PVE: null
-  ADSFriction-Controller-PVE: 0.85
+  ADSFriction-Controller-PVE: 0.7
   ADSFrictionRadius-Controller-PVE: 0.1
+  ADSFrictionMinRadius-Controller-PVE: null
   ADSFrictionMaxDistance-Controller-PVE: 50.0
   MinRelaxedFriction-Controller-PVE: null
   ADSMinRelaxedFriction-Controller-PVE: null
-  FrictionRelaxationMaxDistance-Controller-PVE: 12.0
-  FrictionRelaxationMinDistance-Controller-PVE: 6.0
-  FrictionRelaxationMinValue-Controller-PVE: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVE: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVE: 10.0
+  FrictionRelaxationMinDistance-Controller-PVE: 1.0
+  FrictionRelaxationMinValue-Controller-PVE: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVE: 35.0
   FrictionRadiusRelaxationMinValue-Controller-PVE: 0.25
-  Friction-Controller-PVP: 0.85
-  FrictionRadius-Controller-PVP: 0.1
-  FrictionMaxDistance-Controller-PVP: 50.0
-  ADSFriction-Controller-PVP: 0.85
+  Friction-Controller-PVP: null
+  FrictionRadius-Controller-PVP: null
+  FrictionMinRadius-Controller-PVP: null
+  FrictionMaxDistance-Controller-PVP: null
+  ADSFriction-Controller-PVP: 0.7
   ADSFrictionRadius-Controller-PVP: 0.1
+  ADSFrictionMinRadius-Controller-PVP: null
   ADSFrictionMaxDistance-Controller-PVP: 50.0
   MinRelaxedFriction-Controller-PVP: null
   ADSMinRelaxedFriction-Controller-PVP: null
-  FrictionRelaxationMaxDistance-Controller-PVP: 12.0
-  FrictionRelaxationMinDistance-Controller-PVP: 6.0
-  FrictionRelaxationMinValue-Controller-PVP: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVP: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVP: 10.0
+  FrictionRelaxationMinDistance-Controller-PVP: 1.0
+  FrictionRelaxationMinValue-Controller-PVP: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVP: 25.0
   FrictionRadiusRelaxationMinValue-Controller-PVP: 0.25
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 50.0
 - ProfileName: HatchetCameraLock
   IsTargetLockEnabled: true
@@ -2308,10 +2404,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -2335,22 +2431,22 @@
   IsProjectileMagnetismEnabled: false
   IsProjectileMagnetismEnabled-Controller-PVP: true
   IsProjectileMagnetismEnabled-Controller-PVE: true
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 5.0
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 5.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 10.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 10.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 0.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 10.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 10.0
-  ProjectileMagnetismSelectionRadius-Controller-PVE: 0.5
-  ProjectileMagnetismSelectionRadius-Controller-PVP: 0.5
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
+  ProjectileMagnetismSelectionRadius-Controller-PVE: 1.0
+  ProjectileMagnetismSelectionRadius-Controller-PVP: 1.0
   ProjectileMagnetismSelectionDistance-Controller-PVE: 50.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 50.0
   IsReticleMagnetismEnabled: false
   IsReticleMagnetismEnabled-Controller-PVP: true
   IsReticleMagnetismEnabled-Controller-PVE: true
   IsReticleMagnetismDeadReckoned: false
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -2419,32 +2515,38 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: null
   FrictionRadius-Controller-PVE: null
+  FrictionMinRadius-Controller-PVE: null
   FrictionMaxDistance-Controller-PVE: null
-  ADSFriction-Controller-PVE: 0.85
+  ADSFriction-Controller-PVE: 0.7
   ADSFrictionRadius-Controller-PVE: 0.1
+  ADSFrictionMinRadius-Controller-PVE: null
   ADSFrictionMaxDistance-Controller-PVE: 50.0
   MinRelaxedFriction-Controller-PVE: null
   ADSMinRelaxedFriction-Controller-PVE: null
-  FrictionRelaxationMaxDistance-Controller-PVE: 12.0
-  FrictionRelaxationMinDistance-Controller-PVE: 6.0
-  FrictionRelaxationMinValue-Controller-PVE: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVE: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVE: 10.0
+  FrictionRelaxationMinDistance-Controller-PVE: 1.0
+  FrictionRelaxationMinValue-Controller-PVE: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVE: 35.0
   FrictionRadiusRelaxationMinValue-Controller-PVE: 0.25
-  Friction-Controller-PVP: 0.85
-  FrictionRadius-Controller-PVP: 0.1
-  FrictionMaxDistance-Controller-PVP: 50.0
-  ADSFriction-Controller-PVP: 0.85
+  Friction-Controller-PVP: null
+  FrictionRadius-Controller-PVP: null
+  FrictionMinRadius-Controller-PVP: null
+  FrictionMaxDistance-Controller-PVP: null
+  ADSFriction-Controller-PVP: 0.7
   ADSFrictionRadius-Controller-PVP: 0.1
+  ADSFrictionMinRadius-Controller-PVP: null
   ADSFrictionMaxDistance-Controller-PVP: 50.0
   MinRelaxedFriction-Controller-PVP: null
   ADSMinRelaxedFriction-Controller-PVP: null
-  FrictionRelaxationMaxDistance-Controller-PVP: 12.0
-  FrictionRelaxationMinDistance-Controller-PVP: 6.0
-  FrictionRelaxationMinValue-Controller-PVP: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVP: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVP: 10.0
+  FrictionRelaxationMinDistance-Controller-PVP: 1.0
+  FrictionRelaxationMinValue-Controller-PVP: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVP: 25.0
   FrictionRadiusRelaxationMinValue-Controller-PVP: 0.25
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 50.0
 - ProfileName: SpearGeneric
   IsTargetLockEnabled: true
@@ -2452,10 +2554,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -2479,14 +2581,14 @@
   IsProjectileMagnetismEnabled: false
   IsProjectileMagnetismEnabled-Controller-PVP: true
   IsProjectileMagnetismEnabled-Controller-PVE: true
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 5.0
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 5.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 10.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 10.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 0.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 10.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 10.0
-  ProjectileMagnetismSelectionRadius-Controller-PVE: 0.5
-  ProjectileMagnetismSelectionRadius-Controller-PVP: 0.5
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
+  ProjectileMagnetismSelectionRadius-Controller-PVE: 1.0
+  ProjectileMagnetismSelectionRadius-Controller-PVP: 1.0
   ProjectileMagnetismSelectionDistance-Controller-PVE: 50.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 50.0
   IsReticleMagnetismEnabled: false
@@ -2563,32 +2665,38 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: null
   FrictionRadius-Controller-PVE: null
+  FrictionMinRadius-Controller-PVE: null
   FrictionMaxDistance-Controller-PVE: null
-  ADSFriction-Controller-PVE: 0.85
+  ADSFriction-Controller-PVE: 0.7
   ADSFrictionRadius-Controller-PVE: 0.1
+  ADSFrictionMinRadius-Controller-PVE: null
   ADSFrictionMaxDistance-Controller-PVE: 50.0
   MinRelaxedFriction-Controller-PVE: null
   ADSMinRelaxedFriction-Controller-PVE: null
-  FrictionRelaxationMaxDistance-Controller-PVE: 12.0
-  FrictionRelaxationMinDistance-Controller-PVE: 6.0
-  FrictionRelaxationMinValue-Controller-PVE: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVE: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVE: 10.0
+  FrictionRelaxationMinDistance-Controller-PVE: 1.0
+  FrictionRelaxationMinValue-Controller-PVE: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVE: 35.0
   FrictionRadiusRelaxationMinValue-Controller-PVE: 0.25
-  Friction-Controller-PVP: 0.85
-  FrictionRadius-Controller-PVP: 0.1
-  FrictionMaxDistance-Controller-PVP: 50.0
-  ADSFriction-Controller-PVP: 0.85
+  Friction-Controller-PVP: null
+  FrictionRadius-Controller-PVP: null
+  FrictionMinRadius-Controller-PVP: null
+  FrictionMaxDistance-Controller-PVP: null
+  ADSFriction-Controller-PVP: 0.7
   ADSFrictionRadius-Controller-PVP: 0.1
+  ADSFrictionMinRadius-Controller-PVP: null
   ADSFrictionMaxDistance-Controller-PVP: 50.0
   MinRelaxedFriction-Controller-PVP: null
   ADSMinRelaxedFriction-Controller-PVP: null
-  FrictionRelaxationMaxDistance-Controller-PVP: 12.0
-  FrictionRelaxationMinDistance-Controller-PVP: 6.0
-  FrictionRelaxationMinValue-Controller-PVP: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVP: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVP: 10.0
+  FrictionRelaxationMinDistance-Controller-PVP: 1.0
+  FrictionRelaxationMinValue-Controller-PVP: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVP: 25.0
   FrictionRadiusRelaxationMinValue-Controller-PVP: 0.25
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 50.0
 - ProfileName: SpearCameraLock
   IsTargetLockEnabled: true
@@ -2596,10 +2704,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -2623,22 +2731,22 @@
   IsProjectileMagnetismEnabled: false
   IsProjectileMagnetismEnabled-Controller-PVP: true
   IsProjectileMagnetismEnabled-Controller-PVE: true
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 5.0
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 5.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 10.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 10.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 0.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 10.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 10.0
-  ProjectileMagnetismSelectionRadius-Controller-PVE: 0.5
-  ProjectileMagnetismSelectionRadius-Controller-PVP: 0.5
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
+  ProjectileMagnetismSelectionRadius-Controller-PVE: 1.0
+  ProjectileMagnetismSelectionRadius-Controller-PVP: 1.0
   ProjectileMagnetismSelectionDistance-Controller-PVE: 50.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 50.0
   IsReticleMagnetismEnabled: false
   IsReticleMagnetismEnabled-Controller-PVP: true
   IsReticleMagnetismEnabled-Controller-PVE: true
   IsReticleMagnetismDeadReckoned: false
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -2707,32 +2815,38 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: null
   FrictionRadius-Controller-PVE: null
+  FrictionMinRadius-Controller-PVE: null
   FrictionMaxDistance-Controller-PVE: null
-  ADSFriction-Controller-PVE: 0.85
+  ADSFriction-Controller-PVE: 0.7
   ADSFrictionRadius-Controller-PVE: 0.1
+  ADSFrictionMinRadius-Controller-PVE: null
   ADSFrictionMaxDistance-Controller-PVE: 50.0
   MinRelaxedFriction-Controller-PVE: null
   ADSMinRelaxedFriction-Controller-PVE: null
-  FrictionRelaxationMaxDistance-Controller-PVE: 12.0
-  FrictionRelaxationMinDistance-Controller-PVE: 6.0
-  FrictionRelaxationMinValue-Controller-PVE: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVE: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVE: 10.0
+  FrictionRelaxationMinDistance-Controller-PVE: 1.0
+  FrictionRelaxationMinValue-Controller-PVE: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVE: 35.0
   FrictionRadiusRelaxationMinValue-Controller-PVE: 0.25
-  Friction-Controller-PVP: 0.85
-  FrictionRadius-Controller-PVP: 0.1
-  FrictionMaxDistance-Controller-PVP: 50.0
-  ADSFriction-Controller-PVP: 0.85
+  Friction-Controller-PVP: null
+  FrictionRadius-Controller-PVP: null
+  FrictionMinRadius-Controller-PVP: null
+  FrictionMaxDistance-Controller-PVP: null
+  ADSFriction-Controller-PVP: 0.7
   ADSFrictionRadius-Controller-PVP: 0.1
+  ADSFrictionMinRadius-Controller-PVP: null
   ADSFrictionMaxDistance-Controller-PVP: 50.0
   MinRelaxedFriction-Controller-PVP: null
   ADSMinRelaxedFriction-Controller-PVP: null
-  FrictionRelaxationMaxDistance-Controller-PVP: 12.0
-  FrictionRelaxationMinDistance-Controller-PVP: 6.0
-  FrictionRelaxationMinValue-Controller-PVP: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 45.0
-  FrictionRadiusRelaxationMinDistance-Controller-PVP: 12.0
+  FrictionRelaxationMaxDistance-Controller-PVP: 10.0
+  FrictionRelaxationMinDistance-Controller-PVP: 1.0
+  FrictionRelaxationMinValue-Controller-PVP: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 50.0
+  FrictionRadiusRelaxationMinDistance-Controller-PVP: 25.0
   FrictionRadiusRelaxationMinValue-Controller-PVP: 0.25
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 50.0
 - ProfileName: BlunderbussGeneric
   IsTargetLockEnabled: true
@@ -2740,9 +2854,9 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
+  BreakLockOnADS-KBAM-PVE: true
   BreakLockOnADS-KBAM-PVP: true
-  BreakLockOnADS-Controller-PVE: false
+  BreakLockOnADS-Controller-PVE: true
   BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
@@ -2767,22 +2881,22 @@
   IsProjectileMagnetismEnabled: false
   IsProjectileMagnetismEnabled-Controller-PVP: true
   IsProjectileMagnetismEnabled-Controller-PVE: true
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 5.0
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 5.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 0.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 0.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 10.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 10.0
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
   ProjectileMagnetismSelectionRadius-Controller-PVE: 0.5
   ProjectileMagnetismSelectionRadius-Controller-PVP: 0.5
-  ProjectileMagnetismSelectionDistance-Controller-PVE: 80.0
-  ProjectileMagnetismSelectionDistance-Controller-PVP: 80.0
+  ProjectileMagnetismSelectionDistance-Controller-PVE: 20.0
+  ProjectileMagnetismSelectionDistance-Controller-PVP: 20.0
   IsReticleMagnetismEnabled: false
-  IsReticleMagnetismEnabled-Controller-PVP: true
+  IsReticleMagnetismEnabled-Controller-PVP: false
   IsReticleMagnetismEnabled-Controller-PVE: true
   IsReticleMagnetismDeadReckoned: false
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -2851,32 +2965,38 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: 0.85
   FrictionRadius-Controller-PVE: 0.1
-  FrictionMaxDistance-Controller-PVE: 12.0
-  ADSFriction-Controller-PVE: 0.85
+  FrictionMinRadius-Controller-PVE: 0.015
+  FrictionMaxDistance-Controller-PVE: 25.0
+  ADSFriction-Controller-PVE: 0.7
   ADSFrictionRadius-Controller-PVE: 0.1
-  ADSFrictionMaxDistance-Controller-PVE: 12.0
+  ADSFrictionMinRadius-Controller-PVE: 0.01
+  ADSFrictionMaxDistance-Controller-PVE: 25.0
   MinRelaxedFriction-Controller-PVE: 0.2
   ADSMinRelaxedFriction-Controller-PVE: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVE: 12.0
-  FrictionRelaxationMinDistance-Controller-PVE: 6.0
-  FrictionRelaxationMinValue-Controller-PVE: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 45.0
+  FrictionRelaxationMaxDistance-Controller-PVE: 5.0
+  FrictionRelaxationMinDistance-Controller-PVE: 1.0
+  FrictionRelaxationMinValue-Controller-PVE: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 25.0
   FrictionRadiusRelaxationMinDistance-Controller-PVE: 12.0
   FrictionRadiusRelaxationMinValue-Controller-PVE: 0.25
   Friction-Controller-PVP: 0.85
   FrictionRadius-Controller-PVP: 0.1
-  FrictionMaxDistance-Controller-PVP: 12.0
-  ADSFriction-Controller-PVP: 0.85
+  FrictionMinRadius-Controller-PVP: 0.0145
+  FrictionMaxDistance-Controller-PVP: 25.0
+  ADSFriction-Controller-PVP: 0.7
   ADSFrictionRadius-Controller-PVP: 0.1
-  ADSFrictionMaxDistance-Controller-PVP: 12.0
+  ADSFrictionMinRadius-Controller-PVP: 0.01
+  ADSFrictionMaxDistance-Controller-PVP: 25.0
   MinRelaxedFriction-Controller-PVP: 0.2
   ADSMinRelaxedFriction-Controller-PVP: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVP: 12.0
-  FrictionRelaxationMinDistance-Controller-PVP: 6.0
-  FrictionRelaxationMinValue-Controller-PVP: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 45.0
+  FrictionRelaxationMaxDistance-Controller-PVP: 5.0
+  FrictionRelaxationMinDistance-Controller-PVP: 1.0
+  FrictionRelaxationMinValue-Controller-PVP: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 25.0
   FrictionRadiusRelaxationMinDistance-Controller-PVP: 12.0
   FrictionRadiusRelaxationMinValue-Controller-PVP: 0.25
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 12.0
 - ProfileName: BlunderbussCameraLock
   IsTargetLockEnabled: true
@@ -2884,14 +3004,14 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
+  BreakLockOnADS-KBAM-PVE: true
   BreakLockOnADS-KBAM-PVP: true
-  BreakLockOnADS-Controller-PVE: false
+  BreakLockOnADS-Controller-PVE: true
   BreakLockOnADS-Controller-PVP: true
-  TargetLockCameraFollow-KBAM-PVE: true
-  TargetLockCameraFollow-KBAM-PVP: true
-  TargetLockCameraFollow-Controller-PVE: true
-  TargetLockCameraFollow-Controller-PVP: true
+  TargetLockCameraFollow-KBAM-PVE: false
+  TargetLockCameraFollow-KBAM-PVP: false
+  TargetLockCameraFollow-Controller-PVE: false
+  TargetLockCameraFollow-Controller-PVP: false
   TargetLockAllowRetarget-KBAM-PVE: false
   TargetLockAllowRetarget-KBAM-PVP: false
   TargetLockAllowRetarget-Controller-PVE: false
@@ -2911,22 +3031,22 @@
   IsProjectileMagnetismEnabled: false
   IsProjectileMagnetismEnabled-Controller-PVP: true
   IsProjectileMagnetismEnabled-Controller-PVE: true
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 5.0
-  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 5.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 0.0
+  ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 0.0
   ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 0.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 10.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 10.0
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
   ProjectileMagnetismSelectionRadius-Controller-PVE: 0.5
   ProjectileMagnetismSelectionRadius-Controller-PVP: 0.5
-  ProjectileMagnetismSelectionDistance-Controller-PVE: 80.0
-  ProjectileMagnetismSelectionDistance-Controller-PVP: 80.0
+  ProjectileMagnetismSelectionDistance-Controller-PVE: 20.0
+  ProjectileMagnetismSelectionDistance-Controller-PVP: 20.0
   IsReticleMagnetismEnabled: false
   IsReticleMagnetismEnabled-Controller-PVP: false
   IsReticleMagnetismEnabled-Controller-PVE: true
   IsReticleMagnetismDeadReckoned: false
   IsReticleMagnetismDeadReckoned-Controller-PVP: false
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -2995,32 +3115,38 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: 0.85
   FrictionRadius-Controller-PVE: 0.1
-  FrictionMaxDistance-Controller-PVE: 12.0
-  ADSFriction-Controller-PVE: 0.85
+  FrictionMinRadius-Controller-PVE: 0.015
+  FrictionMaxDistance-Controller-PVE: 25.0
+  ADSFriction-Controller-PVE: 0.7
   ADSFrictionRadius-Controller-PVE: 0.1
-  ADSFrictionMaxDistance-Controller-PVE: 12.0
+  ADSFrictionMinRadius-Controller-PVE: 0.01
+  ADSFrictionMaxDistance-Controller-PVE: 25.0
   MinRelaxedFriction-Controller-PVE: 0.2
   ADSMinRelaxedFriction-Controller-PVE: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVE: 12.0
-  FrictionRelaxationMinDistance-Controller-PVE: 6.0
-  FrictionRelaxationMinValue-Controller-PVE: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 45.0
+  FrictionRelaxationMaxDistance-Controller-PVE: 5.0
+  FrictionRelaxationMinDistance-Controller-PVE: 1.0
+  FrictionRelaxationMinValue-Controller-PVE: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVE: 25.0
   FrictionRadiusRelaxationMinDistance-Controller-PVE: 12.0
   FrictionRadiusRelaxationMinValue-Controller-PVE: 0.25
   Friction-Controller-PVP: 0.85
   FrictionRadius-Controller-PVP: 0.1
-  FrictionMaxDistance-Controller-PVP: 12.0
-  ADSFriction-Controller-PVP: 0.85
+  FrictionMinRadius-Controller-PVP: 0.0145
+  FrictionMaxDistance-Controller-PVP: 25.0
+  ADSFriction-Controller-PVP: 0.7
   ADSFrictionRadius-Controller-PVP: 0.1
-  ADSFrictionMaxDistance-Controller-PVP: 12.0
+  ADSFrictionMinRadius-Controller-PVP: 0.01
+  ADSFrictionMaxDistance-Controller-PVP: 25.0
   MinRelaxedFriction-Controller-PVP: 0.2
   ADSMinRelaxedFriction-Controller-PVP: 0.3
-  FrictionRelaxationMaxDistance-Controller-PVP: 12.0
-  FrictionRelaxationMinDistance-Controller-PVP: 6.0
-  FrictionRelaxationMinValue-Controller-PVP: 0.1
-  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 45.0
+  FrictionRelaxationMaxDistance-Controller-PVP: 5.0
+  FrictionRelaxationMinDistance-Controller-PVP: 1.0
+  FrictionRelaxationMinValue-Controller-PVP: 0.2
+  FrictionRadiusRelaxationMaxDistance-Controller-PVP: 25.0
   FrictionRadiusRelaxationMinDistance-Controller-PVP: 12.0
   FrictionRadiusRelaxationMinValue-Controller-PVP: 0.25
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 12.0
 - ProfileName: RapierGeneric
   IsTargetLockEnabled: true
@@ -3028,10 +3154,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -3066,11 +3192,11 @@
   ProjectileMagnetismSelectionDistance-Controller-PVE: 0.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 0.0
   IsReticleMagnetismEnabled: false
-  IsReticleMagnetismEnabled-Controller-PVP: false
-  IsReticleMagnetismEnabled-Controller-PVE: false
-  IsReticleMagnetismDeadReckoned: true
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismEnabled-Controller-PVP: true
+  IsReticleMagnetismEnabled-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned: false
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -3139,9 +3265,11 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: null
   FrictionRadius-Controller-PVE: null
+  FrictionMinRadius-Controller-PVE: null
   FrictionMaxDistance-Controller-PVE: null
   ADSFriction-Controller-PVE: 0.0
   ADSFrictionRadius-Controller-PVE: 0.0
+  ADSFrictionMinRadius-Controller-PVE: null
   ADSFrictionMaxDistance-Controller-PVE: 0.0
   MinRelaxedFriction-Controller-PVE: null
   ADSMinRelaxedFriction-Controller-PVE: null
@@ -3153,9 +3281,11 @@
   FrictionRadiusRelaxationMinValue-Controller-PVE: null
   Friction-Controller-PVP: null
   FrictionRadius-Controller-PVP: null
+  FrictionMinRadius-Controller-PVP: null
   FrictionMaxDistance-Controller-PVP: null
   ADSFriction-Controller-PVP: 0.0
   ADSFrictionRadius-Controller-PVP: 0.0
+  ADSFrictionMinRadius-Controller-PVP: null
   ADSFrictionMaxDistance-Controller-PVP: 0.0
   MinRelaxedFriction-Controller-PVP: null
   ADSMinRelaxedFriction-Controller-PVP: null
@@ -3165,6 +3295,8 @@
   FrictionRadiusRelaxationMaxDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinValue-Controller-PVP: null
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 0.0
 - ProfileName: RapierCameraLock
   IsTargetLockEnabled: true
@@ -3172,10 +3304,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -3210,11 +3342,11 @@
   ProjectileMagnetismSelectionDistance-Controller-PVE: 0.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 0.0
   IsReticleMagnetismEnabled: false
-  IsReticleMagnetismEnabled-Controller-PVP: false
-  IsReticleMagnetismEnabled-Controller-PVE: false
-  IsReticleMagnetismDeadReckoned: true
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismEnabled-Controller-PVP: true
+  IsReticleMagnetismEnabled-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned: false
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -3283,9 +3415,11 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: null
   FrictionRadius-Controller-PVE: null
+  FrictionMinRadius-Controller-PVE: null
   FrictionMaxDistance-Controller-PVE: null
   ADSFriction-Controller-PVE: 0.0
   ADSFrictionRadius-Controller-PVE: 0.0
+  ADSFrictionMinRadius-Controller-PVE: null
   ADSFrictionMaxDistance-Controller-PVE: 0.0
   MinRelaxedFriction-Controller-PVE: null
   ADSMinRelaxedFriction-Controller-PVE: null
@@ -3297,9 +3431,11 @@
   FrictionRadiusRelaxationMinValue-Controller-PVE: null
   Friction-Controller-PVP: null
   FrictionRadius-Controller-PVP: null
+  FrictionMinRadius-Controller-PVP: null
   FrictionMaxDistance-Controller-PVP: null
   ADSFriction-Controller-PVP: 0.0
   ADSFrictionRadius-Controller-PVP: 0.0
+  ADSFrictionMinRadius-Controller-PVP: null
   ADSFrictionMaxDistance-Controller-PVP: 0.0
   MinRelaxedFriction-Controller-PVP: null
   ADSMinRelaxedFriction-Controller-PVP: null
@@ -3309,6 +3445,8 @@
   FrictionRadiusRelaxationMaxDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinValue-Controller-PVP: null
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 0.0
 - ProfileName: SwordGeneric
   IsTargetLockEnabled: true
@@ -3316,10 +3454,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -3354,11 +3492,11 @@
   ProjectileMagnetismSelectionDistance-Controller-PVE: 0.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 0.0
   IsReticleMagnetismEnabled: false
-  IsReticleMagnetismEnabled-Controller-PVP: false
-  IsReticleMagnetismEnabled-Controller-PVE: false
-  IsReticleMagnetismDeadReckoned: true
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismEnabled-Controller-PVP: true
+  IsReticleMagnetismEnabled-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned: false
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -3427,9 +3565,11 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: null
   FrictionRadius-Controller-PVE: null
+  FrictionMinRadius-Controller-PVE: null
   FrictionMaxDistance-Controller-PVE: null
   ADSFriction-Controller-PVE: 0.0
   ADSFrictionRadius-Controller-PVE: 0.0
+  ADSFrictionMinRadius-Controller-PVE: null
   ADSFrictionMaxDistance-Controller-PVE: 0.0
   MinRelaxedFriction-Controller-PVE: null
   ADSMinRelaxedFriction-Controller-PVE: null
@@ -3441,9 +3581,11 @@
   FrictionRadiusRelaxationMinValue-Controller-PVE: null
   Friction-Controller-PVP: null
   FrictionRadius-Controller-PVP: null
+  FrictionMinRadius-Controller-PVP: null
   FrictionMaxDistance-Controller-PVP: null
   ADSFriction-Controller-PVP: 0.0
   ADSFrictionRadius-Controller-PVP: 0.0
+  ADSFrictionMinRadius-Controller-PVP: null
   ADSFrictionMaxDistance-Controller-PVP: 0.0
   MinRelaxedFriction-Controller-PVP: null
   ADSMinRelaxedFriction-Controller-PVP: null
@@ -3453,6 +3595,8 @@
   FrictionRadiusRelaxationMaxDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinValue-Controller-PVP: null
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 0.0
 - ProfileName: SwordCameraLock
   IsTargetLockEnabled: true
@@ -3460,10 +3604,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -3498,11 +3642,11 @@
   ProjectileMagnetismSelectionDistance-Controller-PVE: 0.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 0.0
   IsReticleMagnetismEnabled: false
-  IsReticleMagnetismEnabled-Controller-PVP: false
-  IsReticleMagnetismEnabled-Controller-PVE: false
-  IsReticleMagnetismDeadReckoned: true
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismEnabled-Controller-PVP: true
+  IsReticleMagnetismEnabled-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned: false
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -3571,9 +3715,11 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: null
   FrictionRadius-Controller-PVE: null
+  FrictionMinRadius-Controller-PVE: null
   FrictionMaxDistance-Controller-PVE: null
   ADSFriction-Controller-PVE: 0.0
   ADSFrictionRadius-Controller-PVE: 0.0
+  ADSFrictionMinRadius-Controller-PVE: null
   ADSFrictionMaxDistance-Controller-PVE: 0.0
   MinRelaxedFriction-Controller-PVE: null
   ADSMinRelaxedFriction-Controller-PVE: null
@@ -3585,9 +3731,11 @@
   FrictionRadiusRelaxationMinValue-Controller-PVE: null
   Friction-Controller-PVP: null
   FrictionRadius-Controller-PVP: null
+  FrictionMinRadius-Controller-PVP: null
   FrictionMaxDistance-Controller-PVP: null
   ADSFriction-Controller-PVP: 0.0
   ADSFrictionRadius-Controller-PVP: 0.0
+  ADSFrictionMinRadius-Controller-PVP: null
   ADSFrictionMaxDistance-Controller-PVP: 0.0
   MinRelaxedFriction-Controller-PVP: null
   ADSMinRelaxedFriction-Controller-PVP: null
@@ -3597,6 +3745,8 @@
   FrictionRadiusRelaxationMaxDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinValue-Controller-PVP: null
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 0.0
 - ProfileName: FlailGeneric
   IsTargetLockEnabled: true
@@ -3604,10 +3754,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -3642,11 +3792,11 @@
   ProjectileMagnetismSelectionDistance-Controller-PVE: 0.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 0.0
   IsReticleMagnetismEnabled: false
-  IsReticleMagnetismEnabled-Controller-PVP: false
-  IsReticleMagnetismEnabled-Controller-PVE: false
-  IsReticleMagnetismDeadReckoned: true
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismEnabled-Controller-PVP: true
+  IsReticleMagnetismEnabled-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned: false
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -3715,9 +3865,11 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: null
   FrictionRadius-Controller-PVE: null
+  FrictionMinRadius-Controller-PVE: null
   FrictionMaxDistance-Controller-PVE: null
   ADSFriction-Controller-PVE: 0.0
   ADSFrictionRadius-Controller-PVE: 0.0
+  ADSFrictionMinRadius-Controller-PVE: null
   ADSFrictionMaxDistance-Controller-PVE: 0.0
   MinRelaxedFriction-Controller-PVE: null
   ADSMinRelaxedFriction-Controller-PVE: null
@@ -3729,9 +3881,11 @@
   FrictionRadiusRelaxationMinValue-Controller-PVE: null
   Friction-Controller-PVP: null
   FrictionRadius-Controller-PVP: null
+  FrictionMinRadius-Controller-PVP: null
   FrictionMaxDistance-Controller-PVP: null
   ADSFriction-Controller-PVP: 0.0
   ADSFrictionRadius-Controller-PVP: 0.0
+  ADSFrictionMinRadius-Controller-PVP: null
   ADSFrictionMaxDistance-Controller-PVP: 0.0
   MinRelaxedFriction-Controller-PVP: null
   ADSMinRelaxedFriction-Controller-PVP: null
@@ -3741,6 +3895,8 @@
   FrictionRadiusRelaxationMaxDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinValue-Controller-PVP: null
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 0.0
 - ProfileName: FlailCameraLock
   IsTargetLockEnabled: true
@@ -3748,10 +3904,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -3786,11 +3942,11 @@
   ProjectileMagnetismSelectionDistance-Controller-PVE: 0.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 0.0
   IsReticleMagnetismEnabled: false
-  IsReticleMagnetismEnabled-Controller-PVP: false
-  IsReticleMagnetismEnabled-Controller-PVE: false
-  IsReticleMagnetismDeadReckoned: true
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismEnabled-Controller-PVP: true
+  IsReticleMagnetismEnabled-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned: false
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -3859,9 +4015,11 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: null
   FrictionRadius-Controller-PVE: null
+  FrictionMinRadius-Controller-PVE: null
   FrictionMaxDistance-Controller-PVE: null
   ADSFriction-Controller-PVE: 0.0
   ADSFrictionRadius-Controller-PVE: 0.0
+  ADSFrictionMinRadius-Controller-PVE: null
   ADSFrictionMaxDistance-Controller-PVE: 0.0
   MinRelaxedFriction-Controller-PVE: null
   ADSMinRelaxedFriction-Controller-PVE: null
@@ -3873,9 +4031,11 @@
   FrictionRadiusRelaxationMinValue-Controller-PVE: null
   Friction-Controller-PVP: null
   FrictionRadius-Controller-PVP: null
+  FrictionMinRadius-Controller-PVP: null
   FrictionMaxDistance-Controller-PVP: null
   ADSFriction-Controller-PVP: 0.0
   ADSFrictionRadius-Controller-PVP: 0.0
+  ADSFrictionMinRadius-Controller-PVP: null
   ADSFrictionMaxDistance-Controller-PVP: 0.0
   MinRelaxedFriction-Controller-PVP: null
   ADSMinRelaxedFriction-Controller-PVP: null
@@ -3885,6 +4045,8 @@
   FrictionRadiusRelaxationMaxDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinValue-Controller-PVP: null
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 0.0
 - ProfileName: GreatSwordGeneric
   IsTargetLockEnabled: true
@@ -3892,10 +4054,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -3930,11 +4092,11 @@
   ProjectileMagnetismSelectionDistance-Controller-PVE: 0.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 0.0
   IsReticleMagnetismEnabled: false
-  IsReticleMagnetismEnabled-Controller-PVP: false
-  IsReticleMagnetismEnabled-Controller-PVE: false
-  IsReticleMagnetismDeadReckoned: true
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismEnabled-Controller-PVP: true
+  IsReticleMagnetismEnabled-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned: false
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -4003,9 +4165,11 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: null
   FrictionRadius-Controller-PVE: null
+  FrictionMinRadius-Controller-PVE: null
   FrictionMaxDistance-Controller-PVE: null
   ADSFriction-Controller-PVE: 0.0
   ADSFrictionRadius-Controller-PVE: 0.0
+  ADSFrictionMinRadius-Controller-PVE: null
   ADSFrictionMaxDistance-Controller-PVE: 0.0
   MinRelaxedFriction-Controller-PVE: null
   ADSMinRelaxedFriction-Controller-PVE: null
@@ -4017,9 +4181,11 @@
   FrictionRadiusRelaxationMinValue-Controller-PVE: null
   Friction-Controller-PVP: null
   FrictionRadius-Controller-PVP: null
+  FrictionMinRadius-Controller-PVP: null
   FrictionMaxDistance-Controller-PVP: null
   ADSFriction-Controller-PVP: 0.0
   ADSFrictionRadius-Controller-PVP: 0.0
+  ADSFrictionMinRadius-Controller-PVP: null
   ADSFrictionMaxDistance-Controller-PVP: 0.0
   MinRelaxedFriction-Controller-PVP: null
   ADSMinRelaxedFriction-Controller-PVP: null
@@ -4029,6 +4195,8 @@
   FrictionRadiusRelaxationMaxDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinValue-Controller-PVP: null
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 0.0
 - ProfileName: GreatSwordCameraLock
   IsTargetLockEnabled: true
@@ -4036,10 +4204,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -4074,11 +4242,11 @@
   ProjectileMagnetismSelectionDistance-Controller-PVE: 0.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 0.0
   IsReticleMagnetismEnabled: false
-  IsReticleMagnetismEnabled-Controller-PVP: false
-  IsReticleMagnetismEnabled-Controller-PVE: false
-  IsReticleMagnetismDeadReckoned: true
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismEnabled-Controller-PVP: true
+  IsReticleMagnetismEnabled-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned: false
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -4147,9 +4315,11 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: null
   FrictionRadius-Controller-PVE: null
+  FrictionMinRadius-Controller-PVE: null
   FrictionMaxDistance-Controller-PVE: null
   ADSFriction-Controller-PVE: 0.0
   ADSFrictionRadius-Controller-PVE: 0.0
+  ADSFrictionMinRadius-Controller-PVE: null
   ADSFrictionMaxDistance-Controller-PVE: 0.0
   MinRelaxedFriction-Controller-PVE: null
   ADSMinRelaxedFriction-Controller-PVE: null
@@ -4161,9 +4331,11 @@
   FrictionRadiusRelaxationMinValue-Controller-PVE: null
   Friction-Controller-PVP: null
   FrictionRadius-Controller-PVP: null
+  FrictionMinRadius-Controller-PVP: null
   FrictionMaxDistance-Controller-PVP: null
   ADSFriction-Controller-PVP: 0.0
   ADSFrictionRadius-Controller-PVP: 0.0
+  ADSFrictionMinRadius-Controller-PVP: null
   ADSFrictionMaxDistance-Controller-PVP: 0.0
   MinRelaxedFriction-Controller-PVP: null
   ADSMinRelaxedFriction-Controller-PVP: null
@@ -4173,6 +4345,8 @@
   FrictionRadiusRelaxationMaxDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinValue-Controller-PVP: null
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 0.0
 - ProfileName: Hammer2HGeneric
   IsTargetLockEnabled: true
@@ -4180,10 +4354,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -4218,11 +4392,11 @@
   ProjectileMagnetismSelectionDistance-Controller-PVE: 0.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 0.0
   IsReticleMagnetismEnabled: false
-  IsReticleMagnetismEnabled-Controller-PVP: false
-  IsReticleMagnetismEnabled-Controller-PVE: false
-  IsReticleMagnetismDeadReckoned: true
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismEnabled-Controller-PVP: true
+  IsReticleMagnetismEnabled-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned: false
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -4291,9 +4465,11 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: null
   FrictionRadius-Controller-PVE: null
+  FrictionMinRadius-Controller-PVE: null
   FrictionMaxDistance-Controller-PVE: null
   ADSFriction-Controller-PVE: 0.0
   ADSFrictionRadius-Controller-PVE: 0.0
+  ADSFrictionMinRadius-Controller-PVE: null
   ADSFrictionMaxDistance-Controller-PVE: 0.0
   MinRelaxedFriction-Controller-PVE: null
   ADSMinRelaxedFriction-Controller-PVE: null
@@ -4305,9 +4481,11 @@
   FrictionRadiusRelaxationMinValue-Controller-PVE: null
   Friction-Controller-PVP: null
   FrictionRadius-Controller-PVP: null
+  FrictionMinRadius-Controller-PVP: null
   FrictionMaxDistance-Controller-PVP: null
   ADSFriction-Controller-PVP: 0.0
   ADSFrictionRadius-Controller-PVP: 0.0
+  ADSFrictionMinRadius-Controller-PVP: null
   ADSFrictionMaxDistance-Controller-PVP: 0.0
   MinRelaxedFriction-Controller-PVP: null
   ADSMinRelaxedFriction-Controller-PVP: null
@@ -4317,6 +4495,8 @@
   FrictionRadiusRelaxationMaxDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinValue-Controller-PVP: null
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 0.0
 - ProfileName: Hammer2HCameraLock
   IsTargetLockEnabled: true
@@ -4324,10 +4504,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -4362,11 +4542,11 @@
   ProjectileMagnetismSelectionDistance-Controller-PVE: 0.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 0.0
   IsReticleMagnetismEnabled: false
-  IsReticleMagnetismEnabled-Controller-PVP: false
-  IsReticleMagnetismEnabled-Controller-PVE: false
-  IsReticleMagnetismDeadReckoned: true
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismEnabled-Controller-PVP: true
+  IsReticleMagnetismEnabled-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned: false
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -4435,9 +4615,11 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: null
   FrictionRadius-Controller-PVE: null
+  FrictionMinRadius-Controller-PVE: null
   FrictionMaxDistance-Controller-PVE: null
   ADSFriction-Controller-PVE: 0.0
   ADSFrictionRadius-Controller-PVE: 0.0
+  ADSFrictionMinRadius-Controller-PVE: null
   ADSFrictionMaxDistance-Controller-PVE: 0.0
   MinRelaxedFriction-Controller-PVE: null
   ADSMinRelaxedFriction-Controller-PVE: null
@@ -4449,9 +4631,11 @@
   FrictionRadiusRelaxationMinValue-Controller-PVE: null
   Friction-Controller-PVP: null
   FrictionRadius-Controller-PVP: null
+  FrictionMinRadius-Controller-PVP: null
   FrictionMaxDistance-Controller-PVP: null
   ADSFriction-Controller-PVP: 0.0
   ADSFrictionRadius-Controller-PVP: 0.0
+  ADSFrictionMinRadius-Controller-PVP: null
   ADSFrictionMaxDistance-Controller-PVP: 0.0
   MinRelaxedFriction-Controller-PVP: null
   ADSMinRelaxedFriction-Controller-PVP: null
@@ -4461,6 +4645,8 @@
   FrictionRadiusRelaxationMaxDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinValue-Controller-PVP: null
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 0.0
 - ProfileName: Axe2HGeneric
   IsTargetLockEnabled: true
@@ -4468,10 +4654,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -4506,11 +4692,11 @@
   ProjectileMagnetismSelectionDistance-Controller-PVE: 0.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 0.0
   IsReticleMagnetismEnabled: false
-  IsReticleMagnetismEnabled-Controller-PVP: false
-  IsReticleMagnetismEnabled-Controller-PVE: false
-  IsReticleMagnetismDeadReckoned: true
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismEnabled-Controller-PVP: true
+  IsReticleMagnetismEnabled-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned: false
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -4579,9 +4765,11 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: null
   FrictionRadius-Controller-PVE: null
+  FrictionMinRadius-Controller-PVE: null
   FrictionMaxDistance-Controller-PVE: null
   ADSFriction-Controller-PVE: 0.0
   ADSFrictionRadius-Controller-PVE: 0.0
+  ADSFrictionMinRadius-Controller-PVE: null
   ADSFrictionMaxDistance-Controller-PVE: 0.0
   MinRelaxedFriction-Controller-PVE: null
   ADSMinRelaxedFriction-Controller-PVE: null
@@ -4593,9 +4781,11 @@
   FrictionRadiusRelaxationMinValue-Controller-PVE: null
   Friction-Controller-PVP: null
   FrictionRadius-Controller-PVP: null
+  FrictionMinRadius-Controller-PVP: null
   FrictionMaxDistance-Controller-PVP: null
   ADSFriction-Controller-PVP: 0.0
   ADSFrictionRadius-Controller-PVP: 0.0
+  ADSFrictionMinRadius-Controller-PVP: null
   ADSFrictionMaxDistance-Controller-PVP: 0.0
   MinRelaxedFriction-Controller-PVP: null
   ADSMinRelaxedFriction-Controller-PVP: null
@@ -4605,6 +4795,8 @@
   FrictionRadiusRelaxationMaxDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinValue-Controller-PVP: null
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 0.0
 - ProfileName: Axe2HCameraLock
   IsTargetLockEnabled: true
@@ -4612,10 +4804,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -4650,11 +4842,11 @@
   ProjectileMagnetismSelectionDistance-Controller-PVE: 0.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 0.0
   IsReticleMagnetismEnabled: false
-  IsReticleMagnetismEnabled-Controller-PVP: false
-  IsReticleMagnetismEnabled-Controller-PVE: false
-  IsReticleMagnetismDeadReckoned: true
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismEnabled-Controller-PVP: true
+  IsReticleMagnetismEnabled-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned: false
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -4723,9 +4915,11 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: null
   FrictionRadius-Controller-PVE: null
+  FrictionMinRadius-Controller-PVE: null
   FrictionMaxDistance-Controller-PVE: null
   ADSFriction-Controller-PVE: 0.0
   ADSFrictionRadius-Controller-PVE: 0.0
+  ADSFrictionMinRadius-Controller-PVE: null
   ADSFrictionMaxDistance-Controller-PVE: 0.0
   MinRelaxedFriction-Controller-PVE: null
   ADSMinRelaxedFriction-Controller-PVE: null
@@ -4737,9 +4931,11 @@
   FrictionRadiusRelaxationMinValue-Controller-PVE: null
   Friction-Controller-PVP: null
   FrictionRadius-Controller-PVP: null
+  FrictionMinRadius-Controller-PVP: null
   FrictionMaxDistance-Controller-PVP: null
   ADSFriction-Controller-PVP: 0.0
   ADSFrictionRadius-Controller-PVP: 0.0
+  ADSFrictionMinRadius-Controller-PVP: null
   ADSFrictionMaxDistance-Controller-PVP: 0.0
   MinRelaxedFriction-Controller-PVP: null
   ADSMinRelaxedFriction-Controller-PVP: null
@@ -4749,6 +4945,8 @@
   FrictionRadiusRelaxationMaxDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinValue-Controller-PVP: null
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 0.0
 - ProfileName: UnarmedGeneric
   IsTargetLockEnabled: true
@@ -4756,10 +4954,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -4794,11 +4992,11 @@
   ProjectileMagnetismSelectionDistance-Controller-PVE: 0.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 0.0
   IsReticleMagnetismEnabled: false
-  IsReticleMagnetismEnabled-Controller-PVP: false
-  IsReticleMagnetismEnabled-Controller-PVE: false
-  IsReticleMagnetismDeadReckoned: true
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismEnabled-Controller-PVP: true
+  IsReticleMagnetismEnabled-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned: false
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -4867,9 +5065,11 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: null
   FrictionRadius-Controller-PVE: null
+  FrictionMinRadius-Controller-PVE: null
   FrictionMaxDistance-Controller-PVE: null
   ADSFriction-Controller-PVE: 0.0
   ADSFrictionRadius-Controller-PVE: 0.0
+  ADSFrictionMinRadius-Controller-PVE: null
   ADSFrictionMaxDistance-Controller-PVE: 0.0
   MinRelaxedFriction-Controller-PVE: null
   ADSMinRelaxedFriction-Controller-PVE: null
@@ -4881,9 +5081,11 @@
   FrictionRadiusRelaxationMinValue-Controller-PVE: null
   Friction-Controller-PVP: null
   FrictionRadius-Controller-PVP: null
+  FrictionMinRadius-Controller-PVP: null
   FrictionMaxDistance-Controller-PVP: null
   ADSFriction-Controller-PVP: 0.0
   ADSFrictionRadius-Controller-PVP: 0.0
+  ADSFrictionMinRadius-Controller-PVP: null
   ADSFrictionMaxDistance-Controller-PVP: 0.0
   MinRelaxedFriction-Controller-PVP: null
   ADSMinRelaxedFriction-Controller-PVP: null
@@ -4893,6 +5095,8 @@
   FrictionRadiusRelaxationMaxDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinValue-Controller-PVP: null
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 0.0
 - ProfileName: TurretGeneric
   IsTargetLockEnabled: false
@@ -4900,10 +5104,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -4938,11 +5142,11 @@
   ProjectileMagnetismSelectionDistance-Controller-PVE: 0.0
   ProjectileMagnetismSelectionDistance-Controller-PVP: 0.0
   IsReticleMagnetismEnabled: false
-  IsReticleMagnetismEnabled-Controller-PVP: false
-  IsReticleMagnetismEnabled-Controller-PVE: false
-  IsReticleMagnetismDeadReckoned: true
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismEnabled-Controller-PVP: true
+  IsReticleMagnetismEnabled-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned: false
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -5011,9 +5215,11 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: null
   FrictionRadius-Controller-PVE: null
+  FrictionMinRadius-Controller-PVE: null
   FrictionMaxDistance-Controller-PVE: null
   ADSFriction-Controller-PVE: 0.0
   ADSFrictionRadius-Controller-PVE: 0.0
+  ADSFrictionMinRadius-Controller-PVE: null
   ADSFrictionMaxDistance-Controller-PVE: 0.0
   MinRelaxedFriction-Controller-PVE: null
   ADSMinRelaxedFriction-Controller-PVE: null
@@ -5025,9 +5231,11 @@
   FrictionRadiusRelaxationMinValue-Controller-PVE: null
   Friction-Controller-PVP: null
   FrictionRadius-Controller-PVP: null
+  FrictionMinRadius-Controller-PVP: null
   FrictionMaxDistance-Controller-PVP: null
   ADSFriction-Controller-PVP: 0.0
   ADSFrictionRadius-Controller-PVP: 0.0
+  ADSFrictionMinRadius-Controller-PVP: null
   ADSFrictionMaxDistance-Controller-PVP: 0.0
   MinRelaxedFriction-Controller-PVP: null
   ADSMinRelaxedFriction-Controller-PVP: null
@@ -5037,6 +5245,8 @@
   FrictionRadiusRelaxationMaxDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinDistance-Controller-PVP: null
   FrictionRadiusRelaxationMinValue-Controller-PVP: null
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 0.0
 - ProfileName: AbilityGeneric
   IsTargetLockEnabled: true
@@ -5044,10 +5254,10 @@
   TargetLockFilterOutTargets-KBAM-PVP: false
   TargetLockFilterOutTargets-Controller-PVE: false
   TargetLockFilterOutTargets-Controller-PVP: false
-  BreakLockOnADS-KBAM-PVE: false
-  BreakLockOnADS-KBAM-PVP: false
-  BreakLockOnADS-Controller-PVE: false
-  BreakLockOnADS-Controller-PVP: false
+  BreakLockOnADS-KBAM-PVE: true
+  BreakLockOnADS-KBAM-PVP: true
+  BreakLockOnADS-Controller-PVE: true
+  BreakLockOnADS-Controller-PVP: true
   TargetLockCameraFollow-KBAM-PVE: true
   TargetLockCameraFollow-KBAM-PVP: true
   TargetLockCameraFollow-Controller-PVE: true
@@ -5073,10 +5283,10 @@
   IsProjectileMagnetismEnabled-Controller-PVE: true
   ProjectileMagnetismAngularVelocityHorizontal-Controller-PVE: 5.0
   ProjectileMagnetismAngularVelocityHorizontal-Controller-PVP: 5.0
-  ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 30.0
-  ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 30.0
-  ProjectileMagnetismSelectionAngle-Controller-PVE: 10.0
-  ProjectileMagnetismSelectionAngle-Controller-PVP: 10.0
+  ProjectileMagnetismAngularVelocityVertical-Controller-PVE: 5.0
+  ProjectileMagnetismAngularVelocityVertical-Controller-PVP: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVE: 5.0
+  ProjectileMagnetismSelectionAngle-Controller-PVP: 5.0
   ProjectileMagnetismSelectionRadius-Controller-PVE: 0.5
   ProjectileMagnetismSelectionRadius-Controller-PVP: 0.5
   ProjectileMagnetismSelectionDistance-Controller-PVE: 60.0
@@ -5085,8 +5295,8 @@
   IsReticleMagnetismEnabled-Controller-PVP: true
   IsReticleMagnetismEnabled-Controller-PVE: true
   IsReticleMagnetismDeadReckoned: false
-  IsReticleMagnetismDeadReckoned-Controller-PVP: true
-  IsReticleMagnetismDeadReckoned-Controller-PVE: true
+  IsReticleMagnetismDeadReckoned-Controller-PVP: false
+  IsReticleMagnetismDeadReckoned-Controller-PVE: false
   AllyLosBreakDelay-KBAM-PVE: 3.0
   AllyLosBreakDelay-KBAM-PVP: 3.0
   AllyLosBreakDelay-Controller-PVE: 3.0
@@ -5155,9 +5365,11 @@
   FrictionRadiusRelaxationMinValue-KBAM-PVP: ""
   Friction-Controller-PVE: 0.85
   FrictionRadius-Controller-PVE: 0.1
+  FrictionMinRadius-Controller-PVE: 0.1
   FrictionMaxDistance-Controller-PVE: 60.0
   ADSFriction-Controller-PVE: 0.85
   ADSFrictionRadius-Controller-PVE: 0.1
+  ADSFrictionMinRadius-Controller-PVE: 0.1
   ADSFrictionMaxDistance-Controller-PVE: 60.0
   MinRelaxedFriction-Controller-PVE: 0.2
   ADSMinRelaxedFriction-Controller-PVE: 0.3
@@ -5169,9 +5381,11 @@
   FrictionRadiusRelaxationMinValue-Controller-PVE: 0.25
   Friction-Controller-PVP: 0.85
   FrictionRadius-Controller-PVP: 0.1
+  FrictionMinRadius-Controller-PVP: 0.1
   FrictionMaxDistance-Controller-PVP: 60.0
   ADSFriction-Controller-PVP: 0.85
   ADSFrictionRadius-Controller-PVP: 0.1
+  ADSFrictionMinRadius-Controller-PVP: 0.1
   ADSFrictionMaxDistance-Controller-PVP: 60.0
   MinRelaxedFriction-Controller-PVP: 0.2
   ADSMinRelaxedFriction-Controller-PVP: 0.3
@@ -5181,4 +5395,6 @@
   FrictionRadiusRelaxationMaxDistance-Controller-PVP: 45.0
   FrictionRadiusRelaxationMinDistance-Controller-PVP: 12.0
   FrictionRadiusRelaxationMinValue-Controller-PVP: 0.25
+  FrictionFadeOutTime: 0.5
+  ADSFrictionFadeOutTime: 0.25
   ReticleColorMaxDistance: 60.0

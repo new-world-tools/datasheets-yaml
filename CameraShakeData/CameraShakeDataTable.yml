@@ -491,6 +491,23 @@
   UpdateOnly: 0.0
   Permanent: 0.0
   IsSmooth: 1.0
+- CameraShakeID: UndeadNaga_FieryDomain
+  ShakeShiftX: 0.001
+  ShakeShiftY: 0.001
+  ShakeShiftZ: 0.001
+  ShakeAngleX: 0.001
+  ShakeAngleY: 0.001
+  ShakeAngleZ: 0.001
+  SustainDuration: 0.2
+  FadeInDuration: 0.2
+  FadeOutDuration: 0.2
+  Frequency: 0.05
+  Randomness: 0.3
+  ShakeChannel: 6.0
+  FlipVec: 1.0
+  UpdateOnly: 0.0
+  Permanent: 0.0
+  IsSmooth: 1.0
 - CameraShakeID: Ice_Floor_Broken
   ShakeShiftX: 0.01
   ShakeShiftY: 0.01
@@ -635,6 +652,23 @@
   ShakeAngleY: 0.003
   ShakeAngleZ: 0.003
   SustainDuration: 4.0
+  FadeInDuration: 0.3
+  FadeOutDuration: 1.0
+  Frequency: 0.03
+  Randomness: 0.3
+  ShakeChannel: 6.0
+  FlipVec: 1.0
+  UpdateOnly: 0.0
+  Permanent: 0.0
+  IsSmooth: 1.0
+- CameraShakeID: DW_RotatingWall
+  ShakeShiftX: 0.01
+  ShakeShiftY: 0.01
+  ShakeShiftZ: 0.01
+  ShakeAngleX: 0.003
+  ShakeAngleY: 0.003
+  ShakeAngleZ: 0.003
+  SustainDuration: 6.0
   FadeInDuration: 0.3
   FadeOutDuration: 1.0
   Frequency: 0.03
