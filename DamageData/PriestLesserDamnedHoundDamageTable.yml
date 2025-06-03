@@ -428,6 +428,49 @@
   StunBreakoutIncrement: 1.0
   HitRuneCharge: 0.1625
   HitBlockedRuneCharge: 0.325
+- DamageID: Attack_04_Triple_Bite
+  WeaponCategory: Bite_AI
+  IgnoreInvulnerable: 0.0
+  NoReaction: 0.0
+  SurfaceImpactEffect: Bullet
+  AttackType: Heavy
+  DamageType: Slash
+  Affixes: ""
+  StatusEffect: AI_Bleed_9
+  EffectOnlyOnDamage: true
+  DeflectDamageID: ""
+  CanCrit: false
+  DmgCoef: 0.6
+  DmgCoefHead: 1.0
+  DmgCoefCrit: 1.0
+  PowerLevel: 3.0
+  BlockPowerLevel: 3.0
+  CritPowerLevel: 3.0
+  HitStun: 30.0
+  BlockHitStun: 25.0
+  CritHitStun: 30.0
+  ImpactDistanceX: 2.0
+  ImpactDistanceY: 1.5
+  ImpactDistanceZ: 0.0
+  ImpactDecayRate: 0.8
+  CritImpactDistanceX: 2.0
+  CritImpactDistanceY: 1.5
+  CritImpactDistanceZ: 0.0
+  CritImpactDecayRate: 0.8
+  BlockImpactDistanceX: 0.0
+  BlockImpactDistanceY: 0.0
+  BlockImpactDistanceZ: 0.0
+  BlockImpactDecayRate: 0.8
+  StaggerDmgModifier: 0.9
+  StaggerResistModifier: 1.6
+  AddDmg: 0.0
+  ImpactRating: 1.0
+  BlockStaminaDmgMod: 0.4
+  BlockAbsorptionModifier: 1.0
+  TargetCameraShakeID: Large
+  StunBreakoutIncrement: 1.0
+  HitRuneCharge: 0.1625
+  HitBlockedRuneCharge: 0.325
 - DamageID: Attack_Hamstring
   WeaponCategory: Bite_AI
   IgnoreInvulnerable: 0.0

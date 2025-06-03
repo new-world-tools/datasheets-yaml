@@ -11,8 +11,8 @@
   TeamTeleportFormationData: ""
   UIMapId: ""
   ProjectedAZothComputeUnits: null
-  ProjectedMemoryUseMb: null
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: ""
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: TestMode2
@@ -28,8 +28,8 @@
   TeamTeleportFormationData: ""
   UIMapId: ""
   ProjectedAZothComputeUnits: null
-  ProjectedMemoryUseMb: null
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: ""
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: BattleBanners
@@ -45,8 +45,8 @@
   TeamTeleportFormationData: ""
   UIMapId: ""
   ProjectedAZothComputeUnits: 2.0
-  ProjectedMemoryUseMb: 1024.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "1024"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: false
 - GameModeMapId: CTF_002_Wide
@@ -62,8 +62,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_CTF_002_Wide
   ProjectedAZothComputeUnits: 2.0
-  ProjectedMemoryUseMb: 700.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "700"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: false
 - GameModeMapId: CTF_003_Long
@@ -79,8 +79,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_CTF_003_Long
   ProjectedAZothComputeUnits: 2.0
-  ProjectedMemoryUseMb: 600.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "600"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: false
 - GameModeMapId: CaptureTheFlag
@@ -96,8 +96,8 @@
   TeamTeleportFormationData: ""
   UIMapId: ""
   ProjectedAZothComputeUnits: 2.0
-  ProjectedMemoryUseMb: 1024.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "1024"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: false
 - GameModeMapId: Duel
@@ -113,8 +113,8 @@
   TeamTeleportFormationData: ""
   UIMapId: ""
   ProjectedAZothComputeUnits: null
-  ProjectedMemoryUseMb: null
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: ""
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: OutpostRush
@@ -130,8 +130,8 @@
   TeamTeleportFormationData: ""
   UIMapId: OutpostRush
   ProjectedAZothComputeUnits: 8.0
-  ProjectedMemoryUseMb: 1024.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "1024"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: OutpostRush_004_Trench
@@ -147,8 +147,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_OPR_004_Trench
   ProjectedAZothComputeUnits: 8.0
-  ProjectedMemoryUseMb: 1024.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "1024"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: OutpostRush_NoPerks
@@ -164,8 +164,8 @@
   TeamTeleportFormationData: ""
   UIMapId: OutpostRush
   ProjectedAZothComputeUnits: 8.0
-  ProjectedMemoryUseMb: 1024.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "1024"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: OutpostRush_NoPerks_Trench
@@ -174,15 +174,15 @@
   UIMapDisplayName: "@or_outpost_rush_trench_map_name"
   ActivityScreenBgPath: LyShineUI/Images/PUGFinder/gameModeSignUp/OutpostRush/OutpostRush_004_TrenchBg.png
   DynamicStackConfigName: outpost-rush-no-perks-trench
-  ExcludeFromMapRotation: "true"
+  ExcludeFromMapRotation: ""
   CoatlicueName: "coatlicue\\NW_OPR_004_Trench"
   WorldBounds: 832.0,768.0,512.0,512.0
   TeamTeleportData: 931.2498,983.3751,49.75,270.0+1170.75,987.75,49.3,90.0
   TeamTeleportFormationData: ""
   UIMapId: NW_OPR_004_Trench
   ProjectedAZothComputeUnits: 8.0
-  ProjectedMemoryUseMb: 1024.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "1024"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: Arena3v3
@@ -198,8 +198,8 @@
   TeamTeleportFormationData: 1.5,0.0+-1.5,0.0
   UIMapId: NW_Arena01
   ProjectedAZothComputeUnits: 0.3
-  ProjectedMemoryUseMb: 300.0
-  PauseTimeOfDay: true
+  ProjectedMemoryUseMb: "300"
+  PauseTimeOfDay: "1"
   FreezeTime: 14.1
   NavGenerationEnabled: false
 - GameModeMapId: Arena3v3_02
@@ -215,8 +215,8 @@
   TeamTeleportFormationData: 1.5,0.0+-1.5,0.0
   UIMapId: NW_Arena02
   ProjectedAZothComputeUnits: 0.3
-  ProjectedMemoryUseMb: 300.0
-  PauseTimeOfDay: true
+  ProjectedMemoryUseMb: "300"
+  PauseTimeOfDay: "1"
   FreezeTime: 15.11
   NavGenerationEnabled: false
 - GameModeMapId: Arena_3v3_04
@@ -232,8 +232,8 @@
   TeamTeleportFormationData: 1.5,0.0+-1.5,0.0
   UIMapId: NW_Arena01
   ProjectedAZothComputeUnits: 0.3
-  ProjectedMemoryUseMb: 300.0
-  PauseTimeOfDay: true
+  ProjectedMemoryUseMb: "300"
+  PauseTimeOfDay: "1"
   FreezeTime: 14.1
   NavGenerationEnabled: false
 - GameModeMapId: Dungeon
@@ -249,8 +249,8 @@
   TeamTeleportFormationData: ""
   UIMapId: ""
   ProjectedAZothComputeUnits: null
-  ProjectedMemoryUseMb: null
-  PauseTimeOfDay: null
+  ProjectedMemoryUseMb: ""
+  PauseTimeOfDay: ""
   FreezeTime: null
   NavGenerationEnabled: null
 - GameModeMapId: Mutation
@@ -266,8 +266,8 @@
   TeamTeleportFormationData: ""
   UIMapId: ""
   ProjectedAZothComputeUnits: null
-  ProjectedMemoryUseMb: null
-  PauseTimeOfDay: null
+  ProjectedMemoryUseMb: ""
+  PauseTimeOfDay: ""
   FreezeTime: null
   NavGenerationEnabled: null
 - GameModeMapId: DungeonAmrine
@@ -283,8 +283,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Dungeon_Windsward_00
   ProjectedAZothComputeUnits: 0.75
-  ProjectedMemoryUseMb: 512.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "512"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: DungeonShatteredObelisk
@@ -300,8 +300,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Dungeon_Everfall_00
   ProjectedAZothComputeUnits: 1.5
-  ProjectedMemoryUseMb: 750.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "750"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: DungeonRestlessShores01
@@ -317,8 +317,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Dungeon_RestlessShores_01
   ProjectedAZothComputeUnits: 0.75
-  ProjectedMemoryUseMb: 512.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "512"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: DungeonEbonscale00
@@ -334,8 +334,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NewWorld_VitaeEterna
   ProjectedAZothComputeUnits: 0.75
-  ProjectedMemoryUseMb: 512.0
-  PauseTimeOfDay: true
+  ProjectedMemoryUseMb: "512"
+  PauseTimeOfDay: "1"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: DungeonEdengrove00
@@ -351,8 +351,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Dungeon_Edengrove_00
   ProjectedAZothComputeUnits: 0.75
-  ProjectedMemoryUseMb: 512.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "512"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: DungeonReekwater00
@@ -368,8 +368,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Dungeon_Reekwater_00
   ProjectedAZothComputeUnits: 0.75
-  ProjectedMemoryUseMb: 512.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "512"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: DungeonCutlassKeys00
@@ -385,8 +385,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Dungeon_CutlassKeys_00
   ProjectedAZothComputeUnits: 0.75
-  ProjectedMemoryUseMb: 575.0
-  PauseTimeOfDay: true
+  ProjectedMemoryUseMb: "575"
+  PauseTimeOfDay: "1"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: DungeonGreatCleave01
@@ -402,8 +402,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Dungeon_GreatCleave_01
   ProjectedAZothComputeUnits: 0.75
-  ProjectedMemoryUseMb: 650.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "650"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: DungeonShatterMtn00
@@ -419,8 +419,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Dungeon_ShatterMtn_00
   ProjectedAZothComputeUnits: 1.25
-  ProjectedMemoryUseMb: 768.0
-  PauseTimeOfDay: true
+  ProjectedMemoryUseMb: "768"
+  PauseTimeOfDay: "1"
   FreezeTime: 17.2
   NavGenerationEnabled: null
 - GameModeMapId: DungeonBrimstoneSands00
@@ -436,8 +436,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Dungeon_BrimstoneSands_00
   ProjectedAZothComputeUnits: 1.25
-  ProjectedMemoryUseMb: 512.0
-  PauseTimeOfDay: true
+  ProjectedMemoryUseMb: "512"
+  PauseTimeOfDay: "1"
   FreezeTime: 23.59
   NavGenerationEnabled: null
 - GameModeMapId: DungeonFirstLight01
@@ -453,8 +453,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Dungeon_FirstLight_01
   ProjectedAZothComputeUnits: 1.0
-  ProjectedMemoryUseMb: 768.0
-  PauseTimeOfDay: true
+  ProjectedMemoryUseMb: "768"
+  PauseTimeOfDay: "1"
   FreezeTime: 17.2
   NavGenerationEnabled: null
 - GameModeMapId: DungeonGreatCleave00
@@ -470,8 +470,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Dungeon_GreatCleave_00
   ProjectedAZothComputeUnits: 0.75
-  ProjectedMemoryUseMb: 512.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "512"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: DungeonDunwood02
@@ -487,8 +487,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Dungeon_Dunwood_02
   ProjectedAZothComputeUnits: 0.75
-  ProjectedMemoryUseMb: 512.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "512"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: TrialBrimstoneSandworm
@@ -504,8 +504,8 @@
   TeamTeleportFormationData: ""
   UIMapId: ""
   ProjectedAZothComputeUnits: 3.2
-  ProjectedMemoryUseMb: 256.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "256"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: RaidCutlassKeys00
@@ -521,8 +521,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Raid_CutlassKeys_00
   ProjectedAZothComputeUnits: 3.2
-  ProjectedMemoryUseMb: 2500.0
-  PauseTimeOfDay: true
+  ProjectedMemoryUseMb: "2500"
+  PauseTimeOfDay: "1"
   FreezeTime: 14.25
   NavGenerationEnabled: null
 - GameModeMapId: TrialSeason01
@@ -538,8 +538,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Trial_Season_02
   ProjectedAZothComputeUnits: 1.875
-  ProjectedMemoryUseMb: 1280.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "1280"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: TrialSeason04
@@ -555,8 +555,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Trial_Season_04
   ProjectedAZothComputeUnits: 1.875
-  ProjectedMemoryUseMb: 1280.0
-  PauseTimeOfDay: true
+  ProjectedMemoryUseMb: "1280"
+  PauseTimeOfDay: "1"
   FreezeTime: 4.2
   NavGenerationEnabled: null
 - GameModeMapId: QuestAdiana
@@ -572,8 +572,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_ORI_FL_QuestAdiana
   ProjectedAZothComputeUnits: 0.2
-  ProjectedMemoryUseMb: 100.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "100"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: QuestApophis
@@ -589,8 +589,8 @@
   TeamTeleportFormationData: ""
   UIMapId: ""
   ProjectedAZothComputeUnits: 0.2
-  ProjectedMemoryUseMb: 200.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "200"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: QuestCaerDun
@@ -606,8 +606,8 @@
   TeamTeleportFormationData: ""
   UIMapId: ""
   ProjectedAZothComputeUnits: 0.125
-  ProjectedMemoryUseMb: 75.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "75"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: QuestEmpressZhou
@@ -623,8 +623,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NewWorld_VitaeEterna
   ProjectedAZothComputeUnits: 0.225
-  ProjectedMemoryUseMb: 200.0
-  PauseTimeOfDay: true
+  ProjectedMemoryUseMb: "200"
+  PauseTimeOfDay: "1"
   FreezeTime: 18.0
   NavGenerationEnabled: null
 - GameModeMapId: QuestIsabella
@@ -640,8 +640,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_ORI_SM_QuestIsabella
   ProjectedAZothComputeUnits: 0.35
-  ProjectedMemoryUseMb: 150.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "150"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: QuestMammoth
@@ -657,8 +657,8 @@
   TeamTeleportFormationData: ""
   UIMapId: ""
   ProjectedAZothComputeUnits: 0.15
-  ProjectedMemoryUseMb: 130.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "130"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: QuestMedusa
@@ -674,8 +674,8 @@
   TeamTeleportFormationData: ""
   UIMapId: ""
   ProjectedAZothComputeUnits: 0.2
-  ProjectedMemoryUseMb: 225.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "225"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: QuestMotherwell
@@ -691,8 +691,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_ORI_EG_QuestMotherwell
   ProjectedAZothComputeUnits: 0.1
-  ProjectedMemoryUseMb: 75.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "75"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: QuestMedea
@@ -708,8 +708,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_ORI_EG_QuestMedea
   ProjectedAZothComputeUnits: 0.375
-  ProjectedMemoryUseMb: 256.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "256"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: QuestNihilo
@@ -725,8 +725,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_ORI_GC_QuestNihilo
   ProjectedAZothComputeUnits: 0.175
-  ProjectedMemoryUseMb: 125.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "125"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: QuestYonas
@@ -742,8 +742,8 @@
   TeamTeleportFormationData: ""
   UIMapId: ""
   ProjectedAZothComputeUnits: 0.1
-  ProjectedMemoryUseMb: 50.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "50"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: TrialSeason02Q13
@@ -759,8 +759,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Trial_Season_02_Q13
   ProjectedAZothComputeUnits: 0.375
-  ProjectedMemoryUseMb: 150.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "150"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: TrialSeason02Q12
@@ -776,8 +776,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Trial_Season_02
   ProjectedAZothComputeUnits: 0.125
-  ProjectedMemoryUseMb: 125.0
-  PauseTimeOfDay: true
+  ProjectedMemoryUseMb: "125"
+  PauseTimeOfDay: "1"
   FreezeTime: 6.0
   NavGenerationEnabled: null
 - GameModeMapId: TrialSeason04Q02
@@ -793,8 +793,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Trial_Season_04_DaichiDojo
   ProjectedAZothComputeUnits: 0.375
-  ProjectedMemoryUseMb: 150.0
-  PauseTimeOfDay: true
+  ProjectedMemoryUseMb: "150"
+  PauseTimeOfDay: "1"
   FreezeTime: 13.8
   NavGenerationEnabled: null
 - GameModeMapId: TrialSeason04Q06
@@ -810,8 +810,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Trial_Season_04_DeviceRoom
   ProjectedAZothComputeUnits: 0.1
-  ProjectedMemoryUseMb: 50.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "50"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: TrialSeason04Q05
@@ -827,8 +827,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_Trial_Season_04
   ProjectedAZothComputeUnits: 0.2
-  ProjectedMemoryUseMb: 100.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "100"
+  PauseTimeOfDay: "0"
   FreezeTime: 1.0
   NavGenerationEnabled: null
 - GameModeMapId: QuestHeartforge
@@ -844,8 +844,8 @@
   TeamTeleportFormationData: ""
   UIMapId: ""
   ProjectedAZothComputeUnits: 0.375
-  ProjectedMemoryUseMb: 256.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "256"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: QuestLiang
@@ -861,8 +861,8 @@
   TeamTeleportFormationData: ""
   UIMapId: NW_ORI_ER_QuestLiang
   ProjectedAZothComputeUnits: 0.375
-  ProjectedMemoryUseMb: 256.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "256"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
 - GameModeMapId: QuestGawain
@@ -878,7 +878,7 @@
   TeamTeleportFormationData: ""
   UIMapId: ""
   ProjectedAZothComputeUnits: 0.225
-  ProjectedMemoryUseMb: 150.0
-  PauseTimeOfDay: false
+  ProjectedMemoryUseMb: "150"
+  PauseTimeOfDay: "0"
   FreezeTime: 0.0
   NavGenerationEnabled: null
