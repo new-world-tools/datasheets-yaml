@@ -1,5 +1,8 @@
 - TaskID: Quest_18025_Task_0
-  SubTask1: Quest_18025_Task_1
+  SubTask1: Quest_18025_Task_3
+  SubTask2: Quest_18025_Task_4
+  SubTask3: Quest_18025_Task_2
+  SubTask4: Quest_18025_Task_1
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -15,7 +18,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -34,10 +37,17 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: ""
+  TP_TargetTag: ""
+  OverrideLocation: ""
+  ItemName: ""
+  UIScreenTag: ""
   POITag: ""
 - TaskID: Quest_18025_Task_1
   SubTask1: ""
-  Type: TASKGOTOPOITAG
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
   TargetQty: "1"
@@ -52,7 +62,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -71,4 +81,140 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18025_Task_1_Description"
-  POITag: upyr_archives_10202
+  TP_TargetTag: TV_17_MSQ_DraculaSoulTrial
+  OverrideLocation: 3305.245117 5686.068848 291.274994
+  ItemName: ""
+  UIScreenTag: ""
+  POITag: ""
+- TaskID: Quest_18025_Task_2
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  Type: TASKCONVERSATIONTOPIC
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: "@Quest_18025_Task_2_Description"
+  TP_TargetTag: ""
+  OverrideLocation: ""
+  ItemName: NPC_18021
+  UIScreenTag: NPC_18021_State_1_Topic_0
+  POITag: ""
+- TaskID: Quest_18025_Task_3
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  Type: TASKGOTOPOITAG
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: "@Quest_18025_Task_3_Description"
+  TP_TargetTag: ""
+  OverrideLocation: ""
+  ItemName: ""
+  UIScreenTag: ""
+  POITag: dunwood_castle_10201
+- TaskID: Quest_18025_Task_4
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  Type: TASKTRIGGERAREA
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: "@Quest_18025_Task_4_Description"
+  TP_TargetTag: TV_17_MSQ_Clocktower
+  OverrideLocation: 3305.245117 5686.068848 291.274994
+  ItemName: ""
+  UIScreenTag: ""
+  POITag: ""

@@ -5,6 +5,8 @@
   EndWeekday: ""
   UTC: false
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: Forinternaltesting,donotremove
 - ScheduleId: test_2
   StartDate: ""
@@ -13,6 +15,8 @@
   EndWeekday: Thursday
   UTC: false
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: Forinternaltesting,donotremove
 - ScheduleId: TurkeyTerror
   StartDate: 2024-11-19T*:*:*
@@ -21,6 +25,8 @@
   EndWeekday: ""
   UTC: true
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: TurkeyTerror Event
 - ScheduleId: LegacyOfCrassus
   StartDate: 2024-01-09T*:*:*
@@ -29,6 +35,8 @@
   EndWeekday: ""
   UTC: true
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: Legacy of Crassus Second Release (Modified for dates 2024)
 - ScheduleId: EggcitingDefense
   StartDate: 2024-09-24T*:*:*
@@ -37,6 +45,8 @@
   EndWeekday: ""
   UTC: true
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: Siege of Sulfur Defense Second Release (Modified for dates 2024)
 - ScheduleId: FuryOfTheSpriggan
   StartDate: 2024-07-02T*:*:*
@@ -45,6 +55,8 @@
   EndWeekday: ""
   UTC: true
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: Fury of the Spriggan Second Release (Modified for dates 2024)
 - ScheduleId: EventKill
   StartDate: "*-01-01T*:*:*"
@@ -53,6 +65,8 @@
   EndWeekday: ""
   UTC: null
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: For Diamond Gypsum Events (JuniperBag)
 - ScheduleId: EventDarkness
   StartDate: "*-04-01T*:*:*"
@@ -61,6 +75,8 @@
   EndWeekday: ""
   UTC: null
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: For Diamond Gypsum Events (RitualBag)
 - ScheduleId: EventGather
   StartDate: "*-07-01T*:*:*"
@@ -69,6 +85,8 @@
   EndWeekday: ""
   UTC: null
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: For Diamond Gypsum Events (BagofEarthGifts)
 - ScheduleId: EventChest
   StartDate: "*-10-01T*:*:*"
@@ -77,6 +95,8 @@
   EndWeekday: ""
   UTC: null
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: For Diamond Gypsum Events (ConcealedVault)
 - ScheduleId: FortunesOfTheBold
   StartDate: 2023-08-16T*:*:*
@@ -85,6 +105,8 @@
   EndWeekday: ""
   UTC: false
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: For C2C event Fortunes of the Bold (Rafflebones)
 - ScheduleId: EventSummer
   StartDate: 2024-06-04T*:*:*
@@ -93,6 +115,8 @@
   EndWeekday: ""
   UTC: true
   ScheduledQuestDescription: ""
+  MainMenuOverride: frontendv2_summermedely
+  MainMenuCoatOverride: coatlicue/Frontend
   Comments: Summer Medleyfaire
 - ScheduleId: EventHalloween
   StartDate: 2024-10-22T06:15:00
@@ -101,6 +125,8 @@
   EndWeekday: ""
   UTC: true
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: Nightveil Hollow
 - ScheduleId: EventWinter
   StartDate: 2023-12-01T13:15:00
@@ -109,6 +135,8 @@
   EndWeekday: ""
   UTC: true
   ScheduledQuestDescription: ""
+  MainMenuOverride: NW_Frontend_WinterConv
+  MainMenuCoatOverride: coatlicue/NW_Frontend_Base
   Comments: Winter Convergence
 - ScheduleId: EventSpring
   StartDate: 2024-04-09T*:*:*
@@ -117,6 +145,8 @@
   EndWeekday: ""
   UTC: true
   ScheduledQuestDescription: ""
+  MainMenuOverride: frontendv2_springtide
+  MainMenuCoatOverride: coatlicue/Frontend
   Comments: Springtide Bloom
 - ScheduleId: EventLunarNewYear
   StartDate: 2024-02-06T*:*:*
@@ -125,6 +155,8 @@
   EndWeekday: ""
   UTC: false
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: Lunar New Year
 - ScheduleId: EventLunarNewYear_Rotation01
   StartDate: ""
@@ -133,6 +165,8 @@
   EndWeekday: Tuesday
   UTC: false
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: "Tribute run rotation: S,M,T for Skysong Temple"
 - ScheduleId: EventLunarNewYear_Rotation02
   StartDate: ""
@@ -141,6 +175,8 @@
   EndWeekday: Thursday
   UTC: false
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: "Tribute run rotation: W,H for Serenity Outpost"
 - ScheduleId: EventLunarNewYear_Rotation03
   StartDate: ""
@@ -149,6 +185,8 @@
   EndWeekday: Saturday
   UTC: false
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: "Tribute run rotation: F,S for Imperial Palace"
 - ScheduleId: Minutely
   StartDate: "*-*-*T*:*:00"
@@ -157,6 +195,8 @@
   EndWeekday: ""
   UTC: null
   ScheduledQuestDescription: "@objective_minutely_description"
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: Once per minute schedule
 - ScheduleId: Hourly
   StartDate: "*-*-*T*:00:00"
@@ -165,6 +205,8 @@
   EndWeekday: ""
   UTC: null
   ScheduledQuestDescription: "@objective_hourly_description"
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: Hourly schedule
 - ScheduleId: Daily
   StartDate: "*-*-*TDailyCooldown"
@@ -173,6 +215,8 @@
   EndWeekday: ""
   UTC: null
   ScheduledQuestDescription: "@objective_daily_description"
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: Daily schedule - resets at daily cooldown config time
 - ScheduleId: Weekly
   StartDate: ""
@@ -181,6 +225,8 @@
   EndWeekday: ""
   UTC: null
   ScheduledQuestDescription: "@objective_weekly_description"
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: Weekly schedule - resets at weekly cooldown config time
 - ScheduleId: Admiral
   StartDate: 2025-08-05T*:*:*
@@ -189,6 +235,8 @@
   EndWeekday: ""
   UTC: null
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: Admiral First Release (For dates in 2025)
 - ScheduleId: Empress
   StartDate: 2025-09-09T*:*:*
@@ -197,6 +245,8 @@
   EndWeekday: ""
   UTC: null
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: Empress First Release (For dates in 2025)
 - ScheduleId: FireNaga
   StartDate: 2025-07-15T*:*:*
@@ -205,6 +255,8 @@
   EndWeekday: ""
   UTC: null
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: Fire Naga First Release (For dates in 2025)
 - ScheduleId: LotusScarab
   StartDate: 2025-06-17T*:*:*
@@ -213,6 +265,8 @@
   EndWeekday: ""
   UTC: null
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: Lotus Scarab First Release (For dates in 2025)
 - ScheduleId: Mammoth
   StartDate: 2025-05-20T*:*:*
@@ -221,6 +275,8 @@
   EndWeekday: ""
   UTC: null
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: Mammoth First Release (For dates in 2025)
 - ScheduleId: RabbitSeason
   StartDate: 2025-03-25T*:*:*
@@ -229,6 +285,8 @@
   EndWeekday: ""
   UTC: true
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: ""
 - ScheduleId: Admiral2
   StartDate: 2025-12-30T*:*:*
@@ -237,6 +295,8 @@
   EndWeekday: ""
   UTC: null
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: Admiral Second Release (For dates in 2025)
 - ScheduleId: FireNaga2
   StartDate: 2025-12-02T*:*:*
@@ -245,6 +305,8 @@
   EndWeekday: ""
   UTC: null
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: Fire Naga Second Release (For dates in 2025)
 - ScheduleId: LotusScarab2
   StartDate: 2025-11-04T*:*:*
@@ -253,6 +315,8 @@
   EndWeekday: ""
   UTC: null
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: Lotus Scarab Second Release (For dates in 2025)
 - ScheduleId: Mammoth2
   StartDate: 2025-10-07T*:*:*
@@ -261,4 +325,6 @@
   EndWeekday: ""
   UTC: null
   ScheduledQuestDescription: ""
+  MainMenuOverride: ""
+  MainMenuCoatOverride: ""
   Comments: Mammoth Second Release (For dates in 2025)

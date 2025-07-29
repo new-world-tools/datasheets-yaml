@@ -17,7 +17,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -38,9 +38,9 @@
   KillEnemyType: ""
   TP_DescriptionTag: ""
   POITag: ""
-  TP_TargetTag: ""
   InteractTag: ""
   OverrideLocation: ""
+  TP_TargetTag: ""
 - TaskID: Quest_02793_Task_3
   SubTask1: ""
   SubTask2: ""
@@ -60,7 +60,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -81,9 +81,9 @@
   KillEnemyType: Undead_Pirate_Brute_Named_ELITE_RW_02
   TP_DescriptionTag: "@Quest_02793_Task_3_Description"
   POITag: Lost_Elite_City_50130
-  TP_TargetTag: ""
   InteractTag: ""
   OverrideLocation: ""
+  TP_TargetTag: ""
 - TaskID: Quest_02793_Task_5
   SubTask1: ""
   SubTask2: ""
@@ -103,7 +103,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -124,9 +124,9 @@
   KillEnemyType: 0518_SirenMachine_interact
   TP_DescriptionTag: "@Quest_02793_Task_5_Description"
   POITag: Lost_Elite_City_50130
-  TP_TargetTag: "@Quest_02793_Task_5_TargetTag"
   InteractTag: IO_0518_SirenMachine
   OverrideLocation: 11448.012695 2536.728027 228.800995
+  TP_TargetTag: ""
 - TaskID: Quest_02793_Task_6
   SubTask1: ""
   SubTask2: ""
@@ -146,7 +146,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -167,9 +167,9 @@
   KillEnemyType: ""
   TP_DescriptionTag: "@Quest_02793_Task_6_Description"
   POITag: UNKNOWN_VALUE
-  TP_TargetTag: "@Quest_02793_Task_6_TargetTag"
   InteractTag: ""
   OverrideLocation: 11443.613281 3004.973389 71.274300
+  TP_TargetTag: TriggerVol_05_SirenSiege
 - TaskID: Quest_02793_Task_3_0
   SubTask1: ""
   SubTask2: ""
@@ -189,7 +189,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -210,9 +210,9 @@
   KillEnemyType: Undead_Pirate_Brute_Named_ELITE_RW_01
   TP_DescriptionTag: "@Quest_02793_Task_3_0_Description"
   POITag: Lost_Elite_City_50130
-  TP_TargetTag: "@Quest_02793_Task_3_0_TargetTag"
   InteractTag: ""
   OverrideLocation: ""
+  TP_TargetTag: ""
 - TaskID: Quest_02793_Task_3_0_0
   SubTask1: ""
   SubTask2: ""
@@ -232,7 +232,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -253,9 +253,9 @@
   KillEnemyType: Ghost_Shackled_Named_ELITE_RW
   TP_DescriptionTag: "@Quest_02793_Task_3_0_0_Description"
   POITag: Lost_Elite_City_50130
-  TP_TargetTag: "@Quest_02793_Task_3_0_0_TargetTag"
   InteractTag: ""
   OverrideLocation: ""
+  TP_TargetTag: ""
 - TaskID: Quest_02793_Task_1
   SubTask1: Quest_02793_Task_3_0
   SubTask2: Quest_02793_Task_3
@@ -275,7 +275,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -296,9 +296,9 @@
   KillEnemyType: ""
   TP_DescriptionTag: ""
   POITag: ""
-  TP_TargetTag: ""
   InteractTag: ""
   OverrideLocation: ""
+  TP_TargetTag: ""
 - TaskID: Quest_02793_Task_2
   SubTask1: Quest_02793_Task_6
   SubTask2: Quest_02793_Task_4
@@ -318,7 +318,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -339,9 +339,9 @@
   KillEnemyType: ""
   TP_DescriptionTag: ""
   POITag: ""
-  TP_TargetTag: ""
   InteractTag: ""
   OverrideLocation: ""
+  TP_TargetTag: ""
 - TaskID: Quest_02793_Task_4
   SubTask1: ""
   SubTask2: ""
@@ -361,7 +361,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -382,6 +382,6 @@
   KillEnemyType: ""
   TP_DescriptionTag: "@Quest_02793_Task_4_Description"
   POITag: Lost_Elite_City_50130
-  TP_TargetTag: ""
   InteractTag: ""
   OverrideLocation: ""
+  TP_TargetTag: ""

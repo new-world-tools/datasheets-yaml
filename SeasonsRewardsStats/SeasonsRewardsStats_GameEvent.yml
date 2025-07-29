@@ -198,3 +198,19 @@
   RequiredWorldTag: SeasonalServer
   RequiresStatusEffect: ""
   RequiresPristineGroup: null
+- TrackedStatID: PlayCTF
+  StatType: GameEvent
+  GameEventTypes: ""
+  CreatureTypes: ""
+  GameEventIDs: CaptureTheFlag_T2,CaptureTheFlag_T3,CaptureTheFlag_T4
+  RequiredWorldTag: ""
+  RequiresStatusEffect: ""
+  RequiresPristineGroup: null
+- TrackedStatID: WinCTF
+  StatType: GameEvent
+  GameEventTypes: ""
+  CreatureTypes: ""
+  GameEventIDs: CaptureTheFlag_T4
+  RequiredWorldTag: ""
+  RequiresStatusEffect: ""
+  RequiresPristineGroup: null

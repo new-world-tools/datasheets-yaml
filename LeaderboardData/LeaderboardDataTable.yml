@@ -7950,10 +7950,10 @@
   Rotation: Season
   LeaderboardDefinitionId: min-dungeon-group-gold-medal-expedition-clear-time.RaidCutlassKeys00.0.{world}.{season}
   FactionLeaderboardDefinitionId: ""
-  DataSheetCategory: Expeditions
+  DataSheetCategory: Raids
   DataSheetLBScope: World
   CharacterLeaderboard: true
-  GroupLeaderboard: true
+  GroupLeaderboard: false
   CompanyLeaderboard: false
   FactionLeaderboard: false
   GameMode: RaidCutlassKeys00
@@ -7965,12 +7965,12 @@
   Category: "@ui_leaderboard_category_raids"
   CategoryPriority: null
   Faction: ""
-  Rewards: ""
+  Rewards: 10:Leaderboard_HercyneRaidTopTime,50:Leaderboard_HercyneRaidSecondTime
   ItemRewards: ""
-  EntitlementRewards: ""
+  EntitlementRewards: 10:LB_RegionalHercyneTime_Rank1Skin,50:LB_RegionalHercyneTime_Rank2Skin
   CategoryDescription: ""
   CategoryAdditionalHeader: ""
-  RewardType: ""
+  RewardType: HercyneRaidTime
   NameString: ""
   ValueString: "@ui_leaderboard_column_time"
 - LeaderboardId: MonthTerritoryControlAll
@@ -11656,3 +11656,583 @@
   RewardType: ""
   NameString: ""
   ValueString: "@ui_leaderboard_column_ratio"
+- LeaderboardId: MonthRegionalCaptureTheFlagTotalWins
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Month
+  LeaderboardDefinitionId: top-capture-the-flag-total-wins.{month}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_wins"
+  SecondLevelCategoryPriority: 1.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_regional_only"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_wins"
+- LeaderboardId: SeasonRegionalCaptureTheFlagTotalWins
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Season
+  LeaderboardDefinitionId: top-capture-the-flag-total-wins.{season}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_wins"
+  SecondLevelCategoryPriority: 1.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_regional_only"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_wins"
+- LeaderboardId: MonthRegionalCaptureTheFlagBestScore
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Month
+  LeaderboardDefinitionId: top-capture-the-flag-best-score.{month}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_score"
+  SecondLevelCategoryPriority: 2.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_regional_only"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_score"
+- LeaderboardId: SeasonRegionalCaptureTheFlagBestScore
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Season
+  LeaderboardDefinitionId: top-capture-the-flag-best-score.{season}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_score"
+  SecondLevelCategoryPriority: 2.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_regional_only"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_score"
+- LeaderboardId: MonthRegionalCaptureTheFlagTotalPoints
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Month
+  LeaderboardDefinitionId: top-capture-the-flag-points.{month}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_points"
+  SecondLevelCategoryPriority: 3.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_flag_points"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_points"
+- LeaderboardId: SeasonRegionalCaptureTheFlagTotalPoints
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Season
+  LeaderboardDefinitionId: top-capture-the-flag-points.{season}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_points"
+  SecondLevelCategoryPriority: 3.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_flag_points"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_points"
+- LeaderboardId: MonthRegionalCaptureTheFlagTotalReturns
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Month
+  LeaderboardDefinitionId: top-capture-the-flag-returns.{month}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_returns"
+  SecondLevelCategoryPriority: 4.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_flag_returns"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_returns"
+- LeaderboardId: SeasonRegionalCaptureTheFlagTotalReturns
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Season
+  LeaderboardDefinitionId: top-capture-the-flag-returns.{season}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_returns"
+  SecondLevelCategoryPriority: 4.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_flag_returns"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_returns"
+- LeaderboardId: MonthRegionalCaptureTheFlagTotalKills
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Month
+  LeaderboardDefinitionId: top-capture-the-flag-total-kills.{month}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_kills"
+  SecondLevelCategoryPriority: 5.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_regional_only"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_total_kills"
+- LeaderboardId: SeasonRegionalCaptureTheFlagTotalKills
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Season
+  LeaderboardDefinitionId: top-capture-the-flag-total-kills.{season}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_kills"
+  SecondLevelCategoryPriority: 5.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_regional_only"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_total_kills"
+- LeaderboardId: MonthRegionalCaptureTheFlagTotalAssists
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Month
+  LeaderboardDefinitionId: top-capture-the-flag-total-assists.{month}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_assists"
+  SecondLevelCategoryPriority: 8.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_regional_only"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_assists"
+- LeaderboardId: SeasonRegionalCaptureTheFlagTotalAssists
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Season
+  LeaderboardDefinitionId: top-capture-the-flag-total-assists.{season}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_assists"
+  SecondLevelCategoryPriority: 8.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_regional_only"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_assists"
+- LeaderboardId: MonthRegionalCaptureTheFlagBestHeals
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Month
+  LeaderboardDefinitionId: top-capture-the-flag-best-heals.{month}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_heals"
+  SecondLevelCategoryPriority: 9.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_regional_only"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_heals"
+- LeaderboardId: SeasonRegionalCaptureTheFlagBestHeals
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Season
+  LeaderboardDefinitionId: top-capture-the-flag-best-heals.{season}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_heals"
+  SecondLevelCategoryPriority: 9.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_regional_only"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_heals"
+- LeaderboardId: MonthRegionalCaptureTheFlagBestDamageDealt
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Month
+  LeaderboardDefinitionId: top-capture-the-flag-best-damage-dealt.{month}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_damage_dealt"
+  SecondLevelCategoryPriority: 10.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_regional_only"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_damage"
+- LeaderboardId: SeasonRegionalCaptureTheFlagBestDamageDealt
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Season
+  LeaderboardDefinitionId: top-capture-the-flag-best-damage-dealt.{season}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_damage_dealt"
+  SecondLevelCategoryPriority: 10.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_regional_only"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_damage"
+- LeaderboardId: MonthRegionalCaptureTheFlagKillDeathRatio
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Month
+  LeaderboardDefinitionId: top-capture-the-flag-kill-death-ratio.{month}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_kill_death"
+  SecondLevelCategoryPriority: 11.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_kd"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_kill_death_ratio"
+- LeaderboardId: SeasonRegionalCaptureTheFlagKillDeathRatio
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Season
+  LeaderboardDefinitionId: top-capture-the-flag-kill-death-ratio.{season}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_kill_death"
+  SecondLevelCategoryPriority: 11.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_kd"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_kill_death_ratio"
+- LeaderboardId: MonthRegionalCaptureTheFlagKillDeathAssistRatio
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Month
+  LeaderboardDefinitionId: top-capture-the-flag-kill-death-assist-ratio.{month}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_kill_death_assist"
+  SecondLevelCategoryPriority: 12.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_kda"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_kill_death_assist_ratio"
+- LeaderboardId: SeasonRegionalCaptureTheFlagKillDeathAssistRatio
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Season
+  LeaderboardDefinitionId: top-capture-the-flag-kill-death-assist-ratio.{season}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_kill_death_assist"
+  SecondLevelCategoryPriority: 12.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_kda"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_kill_death_assist_ratio"

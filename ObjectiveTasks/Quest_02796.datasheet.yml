@@ -15,7 +15,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -35,6 +35,8 @@
   TerritoryID: "0"
   SubTask2: ""
   SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
   ItemName: ""
   ItemDropVC: ""
   TP_DescriptionTag: ""
@@ -42,7 +44,6 @@
   POITag: ""
   KillEnemyType: ""
   OverrideLocation: ""
-  TP_TargetTag: ""
 - TaskID: Quest_02796_Task_1
   SubTask1: Quest_02796_Task_3
   Type: CONSECUTIVETASKCONTAINER
@@ -60,7 +61,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -80,6 +81,8 @@
   TerritoryID: "0"
   SubTask2: Quest_02796_Task_5
   SubTask3: Quest_02796_Task_4
+  SubTask4: Quest_02796_Task_6
+  SubTask5: Quest_02796_Task_7
   ItemName: ""
   ItemDropVC: ""
   TP_DescriptionTag: ""
@@ -87,7 +90,6 @@
   POITag: ""
   KillEnemyType: ""
   OverrideLocation: ""
-  TP_TargetTag: ""
 - TaskID: Quest_02796_Task_2
   SubTask1: ""
   Type: TASKGATHERANDRETURNITEMS
@@ -105,7 +107,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -125,6 +127,8 @@
   TerritoryID: "0"
   SubTask2: ""
   SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
   ItemName: 0502_0101_AncientStoneTablet
   ItemDropVC: 0509_StoneTablet_00
   TP_DescriptionTag: "@Quest_02796_Task_2_Description"
@@ -132,7 +136,6 @@
   POITag: Flooded_Ruins_50127
   KillEnemyType: ""
   OverrideLocation: ""
-  TP_TargetTag: ""
 - TaskID: Quest_02796_Task_3
   SubTask1: ""
   Type: TASKGOTOPOITAG
@@ -150,7 +153,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -170,6 +173,8 @@
   TerritoryID: "0"
   SubTask2: ""
   SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
   ItemName: ""
   ItemDropVC: ""
   TP_DescriptionTag: "@Quest_02796_Task_3_Description"
@@ -177,7 +182,6 @@
   POITag: Flooded_Ruins_50127
   KillEnemyType: ""
   OverrideLocation: ""
-  TP_TargetTag: ""
 - TaskID: Quest_02796_Task_4
   SubTask1: ""
   Type: TASKGAMEEVENT
@@ -195,7 +199,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -215,6 +219,8 @@
   TerritoryID: "0"
   SubTask2: ""
   SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
   ItemName: 0502_0104_UnlockedGuardianHeart
   ItemDropVC: 0508_HeartDevice
   TP_DescriptionTag: "@Quest_02796_Task_4_Description"
@@ -222,7 +228,6 @@
   POITag: Flooded_Ruins_50127
   KillEnemyType: 0508_HeartDevice_interact
   OverrideLocation: 11865.000000 3206.100098 89.680000
-  TP_TargetTag: ""
 - TaskID: Quest_02796_Task_2_0
   SubTask1: ""
   Type: TASKGATHERANDRETURNITEMS
@@ -240,7 +245,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -260,6 +265,8 @@
   TerritoryID: "0"
   SubTask2: ""
   SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
   ItemName: 0604_0201_ResearchNotes
   ItemDropVC: 0504_AncientBookcase
   TP_DescriptionTag: "@Quest_02796_Task_2_0_Description"
@@ -267,7 +274,6 @@
   POITag: Flooded_Ruins_50127
   KillEnemyType: ""
   OverrideLocation: ""
-  TP_TargetTag: "@Quest_02796_Task_2_0_TargetTag"
 - TaskID: Quest_02796_Task_5
   SubTask1: Quest_02796_Task_2
   Type: SIMPLETASKCONTAINER
@@ -285,7 +291,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -305,6 +311,8 @@
   TerritoryID: "0"
   SubTask2: Quest_02796_Task_2_0
   SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
   ItemName: ""
   ItemDropVC: ""
   TP_DescriptionTag: ""
@@ -312,4 +320,95 @@
   POITag: ""
   KillEnemyType: ""
   OverrideLocation: ""
-  TP_TargetTag: ""
+- TaskID: Quest_02796_Task_6
+  SubTask1: ""
+  Type: TASKUNLOCKACHIEVEMENT
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+  ItemName: SwapActive_JaneHargreve_2
+  ItemDropVC: ""
+  TP_DescriptionTag: ""
+  InteractTag: ""
+  POITag: ""
+  KillEnemyType: ""
+  OverrideLocation: ""
+- TaskID: Quest_02796_Task_7
+  SubTask1: ""
+  Type: TASKUNLOCKACHIEVEMENT
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+  ItemName: SwapActive_JaneHargreve_Repeat
+  ItemDropVC: ""
+  TP_DescriptionTag: ""
+  InteractTag: ""
+  POITag: ""
+  KillEnemyType: ""
+  OverrideLocation: ""

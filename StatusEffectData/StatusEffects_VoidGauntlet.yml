@@ -1296,7 +1296,7 @@
   HealthMin: ""
   HealthModifierPercent: null
   HealthModifierDamageBased: 0.05
-  UseHealScalingValue: null
+  UseHealScalingValue: true
   HealScalingValueMultiplier: null
   StaminaDamageModifier: ""
   ManaModifierDamageBased: null
@@ -6819,7 +6819,7 @@
   UseLightweightReplication: null
   ForceReplicateToRemotes: null
   PotencyPerLevel: ""
-  BaseDuration: 0.0
+  BaseDuration: 0.1
   TickRate: 1.0
   DelayInitialTick: null
   TickCondition: ""
@@ -7071,7 +7071,7 @@
   UseLightweightReplication: null
   ForceReplicateToRemotes: null
   PotencyPerLevel: ""
-  BaseDuration: 0.0
+  BaseDuration: 0.1
   TickRate: 1.0
   DelayInitialTick: null
   TickCondition: ""
@@ -7305,7 +7305,7 @@
   SourceRuneChargeOnApply: 0.144
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: true
-  ApplicationCooldown: null
+  ApplicationCooldown: 0.1
 - StatusID: VoidGauntlet_EssenceRupture_AoE_Heal
   DisplayName: ""
   Description: ""

@@ -11339,13 +11339,13 @@
   SourceRuneChargeOnTick: null
   SourceRuneChargeOnHealthChangeOnly: null
 - StatusID: Status_Passive_Lifestaff_Protection_HealingOnDodge
-  DisplayName: "@Status_Recovery"
-  Description: "@Status_Heal_Description"
+  DisplayName: "@Status_Blessed"
+  Description: "@Status_Blessed_Description"
   EffectCategories: Buff+Heal+LifestaffBuff
-  PlaceholderIcon: lyshineui/images/status/SE_HealT2.png
+  PlaceholderIcon: lyshineui/images/status/SE_MaxHealthIncreaseT1.png
   ShowInUITray: true
   ShowTextInDamageNumbers: false
-  FxScriptOn: POTION_Heal
+  FxScriptOn: ""
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
   WeaponEffectType: ""
@@ -15346,8 +15346,8 @@
   RemoveUnappliedStacks: "0"
   PotencyMax: 1.0
   DontReplaceStack: ""
-  MoveSpeedMod: 0.2
-  SprintSpeedMod: 0.2
+  MoveSpeedMod: 0.15
+  SprintSpeedMod: 0.15
   FastTravelEncumbranceMod: ""
   GameEventId: ""
   HealRewardGameEventId: ""

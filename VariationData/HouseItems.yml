@@ -64566,8 +64566,8 @@
   HousingTag1 Placed: OnWall
   HousingTag2 Points: +IsLargeDecor
   HousingTag3 Limiter: ""
-  HousingTag5 Buffs: +SeasonXPBonus
-  HousingTags: OnWall+IsLargeDecor+SeasonXPBonus
+  HousingTag5 Buffs: ""
+  HousingTags: OnWall+IsLargeDecor
   IsEntitlement: "0"
   AttributionId: Season_7
   HowToOptain (Primarily): Season Journey Reward
@@ -64844,6 +64844,126 @@
   ConfirmBeforeUse: false
   ConsumeOnUse: false
   MaxStackSize: 4.0
+  DeathDropPercentage: 0.0
+  ItemTypeDisplayName: "@ui_itemtypedescription_housingitem"
+  Nonremovable: false
+  AudioPickup: Play_UI_Pickup_Generic
+  AudioPlace: Play_UI_Drop_Generic
+  AudioUse: Play_UI_Use_Generic
+  AudioCreated: Play_UI_Created_Generic
+  AudioDestroyed: ""
+  Primary Color: ""
+  Secondary Color: ""
+  Tertiary Color: ""
+  ColorFamilies: ""
+  PlacementGridDisplaySize: ""
+  Notes: ""
+- HouseItemID: House_HousingItem_Buff_SPECIAL_Season9_T1
+  ExcludeFromGame: 0.0
+  PrefabPath: Housing/Items/InGame_Rewards/Buff_Trophies/HousingItem_Buff_SPECIAL_Season9_T1
+  DEV-FurnitureSet: NA-Buffs
+  UIHousingCategory: Misc
+  HousingTag1 Placed: OnWall
+  HousingTag2 Points: +IsLargeDecor
+  HousingTag3 Limiter: ""
+  HousingTag5 Buffs: +SeasonXPBonus
+  HousingTags: OnWall+IsLargeDecor+SeasonXPBonus
+  IsEntitlement: "0"
+  AttributionId: Season_7
+  HowToOptain (Primarily): Season Journey Reward
+  ItemRarity: Legendary
+  ForceRarity: 4.0
+  RankingPointsDuplicateLimit: 2.0
+  RankingPointsNegativeLimit: 4.0
+  PointModifier: 0.0
+  RankingPoints: "0.15"
+  MaxPotentialPoints: "0.3"
+  HousingStatusEffect: Season9_TrophySeasonXPBonus
+  StorageBonus: null
+  InteractionAnimationID: ""
+  Name: "@House_HousingItem_Buff_SPECIAL_Season9_T1_MasterName"
+  Description: "@House_HousingItem_Buff_SPECIAL_Season9_T1_Description"
+  IconPath: lyshineui/images/icons/items/HousingItem/House_HousingItem_Buff_SPECIAL_Season9_T1.png
+  HiResIconPath: lyshineui/images/icons/items_hires/House_HousingItem_Buff_SPECIAL_Season9_T1.png
+  Weight: 9.0
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  ItemType: HousingItem
+  UiItemClass: UI_Furniture
+  Tier: 5.0
+  IsSalvageable: false
+  SalvageResources: false
+  IsRepairable: false
+  BindOnPickup: true
+  CraftingRecipe: ""
+  RepairRecipe: ""
+  SalvageRecipe: ""
+  SalvageGameEventID: ""
+  RepairDustModifier: 0.0
+  ConfirmBeforeUse: false
+  ConsumeOnUse: false
+  MaxStackSize: 1.0
+  DeathDropPercentage: 0.0
+  ItemTypeDisplayName: "@ui_itemtypedescription_housingitem"
+  Nonremovable: false
+  AudioPickup: Play_UI_Pickup_Generic
+  AudioPlace: Play_UI_Drop_Generic
+  AudioUse: Play_UI_Use_Generic
+  AudioCreated: Play_UI_Created_Generic
+  AudioDestroyed: ""
+  Primary Color: ""
+  Secondary Color: ""
+  Tertiary Color: ""
+  ColorFamilies: ""
+  PlacementGridDisplaySize: ""
+  Notes: ""
+- HouseItemID: House_HousingItem_Buff_Summer_Season9_T1
+  ExcludeFromGame: 0.0
+  PrefabPath: Housing/Items/InGame_Rewards/Buff_Trophies/Housingitem_Buff_SPECIAL_Medleyfaire
+  DEV-FurnitureSet: NA-Other
+  UIHousingCategory: Misc
+  HousingTag1 Placed: OnWall
+  HousingTag2 Points: +IsLargeDecor
+  HousingTag3 Limiter: ""
+  HousingTag5 Buffs: ""
+  HousingTags: OnWall+IsLargeDecor
+  IsEntitlement: "0"
+  AttributionId: SummerMedleyfaire_2022
+  HowToOptain (Primarily): Holiday Shop
+  ItemRarity: Epic
+  ForceRarity: 3.0
+  RankingPointsDuplicateLimit: 2.0
+  RankingPointsNegativeLimit: 4.0
+  PointModifier: 1.0
+  RankingPoints: "1.1299999999999999"
+  MaxPotentialPoints: "2.2599999999999998"
+  HousingStatusEffect: ""
+  StorageBonus: null
+  InteractionAnimationID: ""
+  Name: "@House_HousingItem_Buff_Summer_Season9_T1_MasterName"
+  Description: "@House_HousingItem_Buff_Summer_Season9_T1_Description"
+  IconPath: lyshineui/images/icons/items/HousingItem/House_HousingItem_Buff_Summer_Season9_T1.png
+  HiResIconPath: lyshineui/images/icons/items_hires/House_HousingItem_Buff_Summer_Season9_T1.png
+  Weight: 9.0
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  ItemType: HousingItem
+  UiItemClass: UI_Furniture
+  Tier: 5.0
+  IsSalvageable: false
+  SalvageResources: false
+  IsRepairable: false
+  BindOnPickup: true
+  CraftingRecipe: ""
+  RepairRecipe: ""
+  SalvageRecipe: ""
+  SalvageGameEventID: ""
+  RepairDustModifier: 0.0
+  ConfirmBeforeUse: false
+  ConsumeOnUse: false
+  MaxStackSize: 1.0
   DeathDropPercentage: 0.0
   ItemTypeDisplayName: "@ui_itemtypedescription_housingitem"
   Nonremovable: false

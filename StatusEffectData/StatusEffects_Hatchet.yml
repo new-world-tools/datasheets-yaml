@@ -1,7 +1,7 @@
 - StatusID: Hatchet_Berserk
   DisplayName: "@Hatchet_Berserk_DisplayName"
   Description: "@Hatchet_Berserk_Description"
-  EffectCategories: Buff
+  EffectCategories: Buff+Hatchet_Berserk
   PlaceholderIcon: lyshineui/images/status/SE_Hatchet_BerserkT1.png
   ShowInUITray: true
   ShowTextInDamageNumbers: true
@@ -14,7 +14,7 @@
   IsClientPredicted: null
   UseLightweightReplication: null
   PotencyPerLevel: ""
-  BaseDuration: 12.0
+  BaseDuration: 5.0
   TickRate: 1.0
   DelayInitialTick: null
   TickCondition: ""
@@ -213,7 +213,7 @@
   AFACurse: ""
   AFABlight: ""
   StackDuration: 0.0
-  DurationMax: 15.0
+  DurationMax: 12.0
   InheritDuration: "0"
   InheritTotalDuration: false
   RefreshDuration: ""
@@ -467,8 +467,8 @@
   RemoveUnappliedStacks: true
   PotencyMax: null
   DontReplaceStack: null
-  MoveSpeedMod: 0.2
-  SprintSpeedMod: 0.2
+  MoveSpeedMod: 0.13
+  SprintSpeedMod: 0.13
   FastTravelEncumbranceMod: ""
   GameEventId: ""
   HealRewardGameEventId: ""
@@ -3407,8 +3407,8 @@
   RemoveUnappliedStacks: true
   PotencyMax: null
   DontReplaceStack: null
-  MoveSpeedMod: 0.2
-  SprintSpeedMod: 0.2
+  MoveSpeedMod: 0.15
+  SprintSpeedMod: 0.15
   FastTravelEncumbranceMod: ""
   GameEventId: ""
   HealRewardGameEventId: ""
@@ -3652,8 +3652,8 @@
   RemoveUnappliedStacks: true
   PotencyMax: null
   DontReplaceStack: null
-  MoveSpeedMod: 0.2
-  SprintSpeedMod: 0.2
+  MoveSpeedMod: 0.15
+  SprintSpeedMod: 0.15
   FastTravelEncumbranceMod: ""
   GameEventId: ""
   HealRewardGameEventId: ""
@@ -9528,6 +9528,251 @@
   InheritTotalDuration: null
   RefreshDuration: "1"
   StackMax: 1.0
+  InitialStackSize: ""
+  RemoveUnappliedStacks: null
+  PotencyMax: null
+  DontReplaceStack: null
+  MoveSpeedMod: null
+  SprintSpeedMod: null
+  FastTravelEncumbranceMod: ""
+  GameEventId: ""
+  HealRewardGameEventId: ""
+  HealRewardThreshold: ""
+  WeaponMasteryCategoryId: ""
+  UIPriority: 3.0
+  UiNameplatePriority: 3.0
+  ShowInNameplates: false
+  ShowTextInNameplates: ""
+  OverrideOtherNameplateText: ""
+  HidesOtherStatusEffectIcons: ""
+  DynamicModelScaleFactor: ""
+  DynamicModelScaleRampTimeSecs: ""
+  SpawnSlice: ""
+  DisableSupportContributionRewards: ""
+  BlockMultipleEffectsFromSameSource: ""
+  AllowSelfOnlyAsSourceForAbilities: null
+  IgnoreInvulnerable: ""
+  NotCombatAction: ""
+- StatusID: Hatchet_Berserk_DurationExtendCount
+  DisplayName: ""
+  Description: ""
+  EffectCategories: ""
+  PlaceholderIcon: ""
+  ShowInUITray: false
+  ShowTextInDamageNumbers: false
+  FxScriptOn: ""
+  FxScriptOff: ""
+  ShouldRefreshFxScript: ""
+  WeaponEffectType: ""
+  Notification: ""
+  DisableTelemetry: ""
+  IsClientPredicted: null
+  UseLightweightReplication: true
+  PotencyPerLevel: ""
+  BaseDuration: 12.0
+  TickRate: 1.0
+  DelayInitialTick: null
+  TickCondition: ""
+  OnTickStatusEffect: ""
+  KeepOnTickEffectOnEnd: ""
+  StopOnHitCount: null
+  HitCondition: ""
+  RequireReaction: null
+  OnStackStatusEffect: ""
+  AddOnStackSize: ""
+  AddOnStackSizeComparison: ""
+  HealThreatMultiplier: ""
+  ScaleAmountOverTime: null
+  ScaleAmountOverTimeMin: ""
+  ScaleAmountOverTimeMax: null
+  DamageSkipsDeathsDoor: ""
+  Health: null
+  HealthMin: null
+  HealthModifierPercent: null
+  HealthModifierBasePercent: null
+  HealthModifierDamageBased: ""
+  UseHealScalingValue: ""
+  HealScalingValueMultiplier: null
+  StaminaDamageModifier: ""
+  ManaModifierDamageBased: ""
+  DamageType: ""
+  CritChanceModifier: ""
+  CritDamageModifier: ""
+  OnEndStatusEffect: ""
+  CastSpell: ""
+  TargetOwnsSpell: ""
+  UseSourceWeaponForSpell: ""
+  FromAlchemy: null
+  FromSpell: null
+  NoHealthRegen: null
+  HealMod: null
+  MaxHealthMod: null
+  HealthRate: null
+  CoreTempMod: null
+  TempMod: null
+  Stamina: null
+  StaminaRate: null
+  Mana: null
+  ManaRate: null
+  Food: null
+  FoodBurn: null
+  Drink: null
+  DrinkBurn: null
+  Encumbrance: null
+  ItemClassWeightMods: ""
+  XPIncreases: ""
+  AzothMod: ""
+  FactionReputationMod: ""
+  FactionTokensMod: ""
+  EXPLogging: ""
+  EXPMining: ""
+  EXPHarvesting: ""
+  EXPSkinning: ""
+  EXPSmelting: ""
+  EXPWoodworking: ""
+  EXPLeatherworking: ""
+  EXPWeaving: ""
+  EXPStonecutting: ""
+  GrantSanctuary: null
+  NoSprint: null
+  NoRun: null
+  NoDodge: null
+  NoNav: null
+  Silenced: null
+  Stunned: null
+  RemoveOnDeath: 1.0
+  RemoveOnDeathsDoor: 1.0
+  RemoveOnRespawn: ""
+  RemoveOnGameModeExit: ""
+  IgnoreDiminishingReturns: null
+  OnlyChangeOwnedStatusEffects: ""
+  AlwaysReplicate: true
+  Afflictions: ""
+  OnHitAffixes: ""
+  EquipAbility: ""
+  UseSourceWeaponForAbilityEffect: ""
+  IsNegative: null
+  RespecTradeskills: ""
+  RespecAttributes: ""
+  EffectDurationMods: ""
+  EffectPotencyMods: ""
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: ""
+  GlobalRollMod: ""
+  FishingLineStrength: ""
+  FishSizeRollModifier: ""
+  MODConstitution: ""
+  MODFocus: ""
+  MODStrength: ""
+  MODDexterity: ""
+  MODIntelligence: ""
+  MGSArcana: ""
+  MGSWeaponsmithing: ""
+  MGSJewelcrafting: ""
+  MGSEngineering: ""
+  MGSArmoring: ""
+  MaxGSArcana: ""
+  MaxGSWeaponsmithing: ""
+  MaxGSJewelcrafting: ""
+  MaxGSEngineering: ""
+  MaxGSArmoring: ""
+  ROLCooking: ""
+  ROLWeaving: ""
+  ROLStonecutting: ""
+  ROLSmelting: ""
+  ROLLeatherworking: ""
+  ROLWoodworking: ""
+  ROLLogging: ""
+  ROLMining: ""
+  ROLSkinning: ""
+  ROLHarvesting: ""
+  ROLFishing: ""
+  MULTLogging: ""
+  MULTMining: ""
+  MULTSkinning: ""
+  MULTHarvesting: ""
+  MULTFishing: ""
+  EFFLogging: ""
+  EFFMining: ""
+  EFFSkinning: ""
+  EFFHarvesting: ""
+  INSLogging: ""
+  INSMining: ""
+  INSSkinning: ""
+  INSHarvesting: ""
+  PhysicalArmor: null
+  ElementalArmor: null
+  ABSStandard: ""
+  ABSSiege: ""
+  ABSStrike: ""
+  ABSSlash: ""
+  ABSThrust: ""
+  ABSArcane: ""
+  ABSFire: ""
+  ABSIce: ""
+  ABSNature: ""
+  ABSLightning: ""
+  ABSCorruption: ""
+  ABSAcid: ""
+  ABSVitalsCategory: ""
+  RESPoison: ""
+  RESDisease: ""
+  RESBleed: ""
+  RESFrostbite: ""
+  RESCurse: ""
+  RESBlight: ""
+  BLAStandard: ""
+  BLASiege: ""
+  BLAStrike: ""
+  BLASlash: ""
+  BLAThrust: ""
+  BLAArcane: ""
+  BLAFire: ""
+  BLAIce: ""
+  BLALightning: ""
+  BLACorruption: ""
+  ABAPoison: ""
+  ABADisease: ""
+  ABABleed: ""
+  ABAFrostbite: ""
+  ABACurse: ""
+  ABABlight: ""
+  WKNStandard: ""
+  WKNSiege: ""
+  WKNStrike: ""
+  WKNSlash: ""
+  WKNThrust: ""
+  WKNArcane: ""
+  WKNFire: ""
+  WKNIce: ""
+  WKNNature: ""
+  WKNLightning: ""
+  WKNCorruption: ""
+  DMGStandard: null
+  DMGSiege: null
+  DMGStrike: null
+  DMGSlash: null
+  DMGThrust: null
+  DMGArcane: null
+  DMGFire: null
+  DMGIce: null
+  DMGNature: null
+  DMGLightning: null
+  DMGCorruption: null
+  DMGAcid: null
+  DMGVitalsCategory: null
+  AFAPoison: ""
+  AFADisease: ""
+  AFABleed: ""
+  AFAFrostbite: ""
+  AFACurse: ""
+  AFABlight: ""
+  StackDuration: 0.0
+  DurationMax: 12.0
+  InheritDuration: "0"
+  InheritTotalDuration: false
+  RefreshDuration: "0"
+  StackMax: 7.0
   InitialStackSize: ""
   RemoveUnappliedStacks: null
   PotencyMax: null

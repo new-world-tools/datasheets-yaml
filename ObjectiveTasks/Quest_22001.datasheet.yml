@@ -1,6 +1,8 @@
 - TaskID: Quest_22001_Task_0
   SubTask1: Quest_22001_Task_3
   SubTask2: Quest_22001_Task_1
+  SubTask3: Quest_22001_Task_6
+  SubTask4: Quest_22001_Task_7
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -16,7 +18,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -34,11 +36,16 @@
   ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
-  SubTask3: ""
+  KillEnemyType: ""
   TP_DescriptionTag: ""
+  POITag: ""
+  ItemName: ""
+  ItemDropVC: ""
 - TaskID: Quest_22001_Task_1
   SubTask1: Quest_22001_Task_2
-  SubTask2: Quest_22001_Task_4
+  SubTask2: Quest_22001_Task_5
+  SubTask3: ""
+  SubTask4: ""
   Type: SIMPLETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -54,7 +61,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -64,7 +71,7 @@
   TP_HideOnCompassOnEnterPOI: "false"
   GameModeMustBeMutated: "false"
   StayActive: "false"
-  IsHidden: "false"
+  IsHidden: "true"
   TriggerAnalyticsEvent: "false"
   HideProgress: "false"
   EnforceLocationRequirement: "false"
@@ -72,11 +79,16 @@
   ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
-  SubTask3: Quest_22001_Task_5
+  KillEnemyType: ""
   TP_DescriptionTag: ""
+  POITag: ""
+  ItemName: ""
+  ItemDropVC: ""
 - TaskID: Quest_22001_Task_2
   SubTask1: ""
   SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
   Type: TASKKILLCONTRIBUTION
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -92,7 +104,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -105,16 +117,21 @@
   IsHidden: "false"
   TriggerAnalyticsEvent: "false"
   HideProgress: "false"
-  EnforceLocationRequirement: "false"
+  EnforceLocationRequirement: "true"
   HideDiegeticGatherablePins: "false"
   ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
-  SubTask3: ""
+  KillEnemyType: Risen_L-R_Arm_04NW10c
   TP_DescriptionTag: "@Quest_22001_Task_2_Description"
+  POITag: abandoned_village_40266
+  ItemName: ""
+  ItemDropVC: ""
 - TaskID: Quest_22001_Task_3
   SubTask1: ""
   SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
   Type: TASKGOTOPOITAG
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -130,7 +147,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -148,18 +165,66 @@
   ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
-  SubTask3: ""
+  KillEnemyType: ""
   TP_DescriptionTag: "@Quest_22001_Task_3_Description"
+  POITag: abandoned_village_40266
+  ItemName: ""
+  ItemDropVC: ""
 - TaskID: Quest_22001_Task_4
   SubTask1: ""
   SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  Type: TASKHAVEANDRETURNITEMS
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "5"
+  Duration: "0.000000"
+  ItemDropProbability: "75"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "1"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "true"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  KillEnemyType: ""
+  TP_DescriptionTag: "@Quest_22001_Task_4_Description"
+  POITag: undead_bastion_40227
+  ItemName: Quest_22001_Supplies2
+  ItemDropVC: Drowned_Sailor_1H_Sword_04NW11b,Undead_Pistoleer_04NW11b,Undead_Shaman_04NW11b,Drowned_Sailor_1H_Sword_04NW11b,Drowned_Sailor_2H_Axe_12,Undead_Navigator_04NW11b,Undead_Officer_04NW11b,Drowned_Sailor_2H_Axe_04NW11b,Drowned_Sailor_1H_Club_04NW11b,UNKNOWN_VALUE
+- TaskID: Quest_22001_Task_5
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
   Type: TASKHAVEANDRETURNITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
   TargetQty: "3"
   Duration: "0.000000"
   ItemDropProbability: "0"
-  ChestDropProbability: "0"
+  ChestDropProbability: "100"
   MinGearScore: "0"
   GuranteedDropAttempts: "0"
   TargetThreshold: "0.000000"
@@ -168,7 +233,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -181,20 +246,25 @@
   IsHidden: "false"
   TriggerAnalyticsEvent: "false"
   HideProgress: "false"
-  EnforceLocationRequirement: "false"
+  EnforceLocationRequirement: "true"
   HideDiegeticGatherablePins: "false"
   ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
-  SubTask3: ""
-  TP_DescriptionTag: "@Quest_22001_Task_4_Description"
-- TaskID: Quest_22001_Task_5
+  KillEnemyType: ""
+  TP_DescriptionTag: "@Quest_22001_Task_5_Description"
+  POITag: abandoned_village_40266
+  ItemName: Quest_22001_Supplies
+  ItemDropVC: ""
+- TaskID: Quest_22001_Task_6
   SubTask1: ""
   SubTask2: ""
-  Type: TASKGATHERITEMS
+  SubTask3: ""
+  SubTask4: ""
+  Type: TASKGOTOPOITAG
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "3"
+  TargetQty: "0"
   Duration: "0.000000"
   ItemDropProbability: "0"
   ChestDropProbability: "0"
@@ -206,7 +276,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -224,5 +294,51 @@
   ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
+  KillEnemyType: ""
+  TP_DescriptionTag: "@Quest_22001_Task_6_Description"
+  POITag: undead_bastion_40227
+  ItemName: ""
+  ItemDropVC: ""
+- TaskID: Quest_22001_Task_7
+  SubTask1: Quest_22001_Task_4
+  SubTask2: ""
   SubTask3: ""
-  TP_DescriptionTag: "@Quest_22001_Task_5_Description"
+  SubTask4: ""
+  Type: SIMPLETASKCONTAINER
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "0"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "true"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  KillEnemyType: ""
+  TP_DescriptionTag: ""
+  POITag: ""
+  ItemName: ""
+  ItemDropVC: ""

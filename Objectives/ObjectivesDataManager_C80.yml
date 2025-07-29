@@ -21,15 +21,15 @@
   ItemRewardName: 13_Summer_01_QuestReward
   ItemRewardQty: 1.0
   ShouldResetOnFactionChange: ""
-  Repeatable: true
-  CanBeAbandoned: "@13_Summer_01_Welcome_objective_title"
-  Title: "@13_Summer_01_Welcome_description"
-  Description: "@13_Summer_01_Welcome_prompt"
-  PlayerPrompt: "@13_Summer_01_Welcome_proposal_a"
-  ObjectiveProposalResponse: "@13_Summer_01_Welcome_incomplete"
-  InProgressResponse: "@complete_available_prompt_DEFAULT"
-  DestinationCompletionAvailablePrompt: "@13_Summer_01_Welcome_complete_a"
-  DestinationCompletionAvailableResponse: ""
+  Repeatable: false
+  CanBeAbandoned: ""
+  Title: "@13_Summer_01_Welcome_objective_title"
+  Description: "@13_Summer_01_Welcome_description"
+  PlayerPrompt: "@13_Summer_01_Welcome_prompt"
+  ObjectiveProposalResponse: "@13_Summer_01_Welcome_proposal_a"
+  InProgressResponse: "@13_Summer_01_Welcome_incomplete"
+  DestinationCompletionAvailablePrompt: "@complete_available_prompt_DEFAULT"
+  DestinationCompletionAvailableResponse: "@13_Summer_01_Welcome_complete_a"
   ObjectiveCompletionResponse: ""
   ObjectiveAcceptanceResponse: ""
   HideIncompleteTurninMarker: ""
@@ -38,7 +38,8 @@
   SkipReqAchievmentWhenInvalid: ""
   EntitlementId: ""
   QuestArcTag: ""
-  HideAvailableMapIcon: EventSummer
+  ScheduleId: EventSummer
+  HideAvailableMapIcon: true
 - ObjectiveID: 13_Summer_02_Maudlinbugs
   Type: Event
   Difficulty: ""
@@ -62,15 +63,15 @@
   ItemRewardName: 13_Summer_02_QuestReward
   ItemRewardQty: 1.0
   ShouldResetOnFactionChange: ""
-  Repeatable: true
-  CanBeAbandoned: "@13_Summer_02_Maudlinbugs_objective_title"
-  Title: "@13_Summer_02_Maudlinbugs_description"
-  Description: "@13_Summer_02_Maudlinbugs_prompt"
-  PlayerPrompt: "@13_Summer_02_Maudlinbugs_proposal_a"
-  ObjectiveProposalResponse: "@13_Summer_02_Maudlinbugs_incomplete"
-  InProgressResponse: "@complete_available_prompt_DEFAULT"
-  DestinationCompletionAvailablePrompt: "@13_Summer_02_Maudlinbugs_complete_a"
-  DestinationCompletionAvailableResponse: ""
+  Repeatable: false
+  CanBeAbandoned: ""
+  Title: "@13_Summer_02_Maudlinbugs_objective_title"
+  Description: "@13_Summer_02_Maudlinbugs_description"
+  PlayerPrompt: "@13_Summer_02_Maudlinbugs_prompt"
+  ObjectiveProposalResponse: "@13_Summer_02_Maudlinbugs_proposal_a"
+  InProgressResponse: "@13_Summer_02_Maudlinbugs_incomplete"
+  DestinationCompletionAvailablePrompt: "@complete_available_prompt_DEFAULT"
+  DestinationCompletionAvailableResponse: "@13_Summer_02_Maudlinbugs_complete_a"
   ObjectiveCompletionResponse: ""
   ObjectiveAcceptanceResponse: ""
   HideIncompleteTurninMarker: ""
@@ -79,7 +80,8 @@
   SkipReqAchievmentWhenInvalid: ""
   EntitlementId: ""
   QuestArcTag: ""
-  HideAvailableMapIcon: EventSummer
+  ScheduleId: EventSummer
+  HideAvailableMapIcon: true
 - ObjectiveID: 13_Summer_03_CatchSturgeon
   Type: Event
   Difficulty: ""
@@ -104,14 +106,14 @@
   ItemRewardQty: 1.0
   ShouldResetOnFactionChange: ""
   Repeatable: false
-  CanBeAbandoned: "@13_Summer_03_CatchSturgeon_objective_title"
-  Title: "@13_Summer_03_CatchSturgeon_description"
-  Description: "@13_Summer_03_CatchSturgeon_prompt"
-  PlayerPrompt: "@13_Summer_03_CatchSturgeon_proposal_a"
-  ObjectiveProposalResponse: "@13_Summer_03_CatchSturgeon_incomplete"
-  InProgressResponse: "@complete_available_prompt_DEFAULT"
-  DestinationCompletionAvailablePrompt: "@13_Summer_03_CatchSturgeon_complete_a"
-  DestinationCompletionAvailableResponse: ""
+  CanBeAbandoned: ""
+  Title: "@13_Summer_03_CatchSturgeon_objective_title"
+  Description: "@13_Summer_03_CatchSturgeon_description"
+  PlayerPrompt: "@13_Summer_03_CatchSturgeon_prompt"
+  ObjectiveProposalResponse: "@13_Summer_03_CatchSturgeon_proposal_a"
+  InProgressResponse: "@13_Summer_03_CatchSturgeon_incomplete"
+  DestinationCompletionAvailablePrompt: "@complete_available_prompt_DEFAULT"
+  DestinationCompletionAvailableResponse: "@13_Summer_03_CatchSturgeon_complete_a"
   ObjectiveCompletionResponse: ""
   ObjectiveAcceptanceResponse: ""
   HideIncompleteTurninMarker: ""
@@ -120,7 +122,8 @@
   SkipReqAchievmentWhenInvalid: ""
   EntitlementId: ""
   QuestArcTag: ""
-  HideAvailableMapIcon: EventSummer
+  ScheduleId: EventSummer
+  HideAvailableMapIcon: true
 - ObjectiveID: 13_Summer_04_Carpenter
   Type: Event
   Difficulty: ""
@@ -144,15 +147,15 @@
   ItemRewardName: 13_Summer_04_QuestReward
   ItemRewardQty: 1.0
   ShouldResetOnFactionChange: ""
-  Repeatable: true
-  CanBeAbandoned: "@13_Summer_04_Carpenter_objective_title"
-  Title: "@13_Summer_04_Carpenter_description"
-  Description: "@13_Summer_04_Carpenter_prompt"
-  PlayerPrompt: "@13_Summer_04_Carpenter_proposal_a"
-  ObjectiveProposalResponse: "@13_Summer_04_Carpenter_incomplete"
-  InProgressResponse: "@complete_available_prompt_DEFAULT"
-  DestinationCompletionAvailablePrompt: "@13_Summer_04_Carpenter_complete_a"
-  DestinationCompletionAvailableResponse: ""
+  Repeatable: false
+  CanBeAbandoned: ""
+  Title: "@13_Summer_04_Carpenter_objective_title"
+  Description: "@13_Summer_04_Carpenter_description"
+  PlayerPrompt: "@13_Summer_04_Carpenter_prompt"
+  ObjectiveProposalResponse: "@13_Summer_04_Carpenter_proposal_a"
+  InProgressResponse: "@13_Summer_04_Carpenter_incomplete"
+  DestinationCompletionAvailablePrompt: "@complete_available_prompt_DEFAULT"
+  DestinationCompletionAvailableResponse: "@13_Summer_04_Carpenter_complete_a"
   ObjectiveCompletionResponse: ""
   ObjectiveAcceptanceResponse: ""
   HideIncompleteTurninMarker: ""
@@ -161,7 +164,8 @@
   SkipReqAchievmentWhenInvalid: ""
   EntitlementId: ""
   QuestArcTag: ""
-  HideAvailableMapIcon: EventSummer
+  ScheduleId: EventSummer
+  HideAvailableMapIcon: true
 - ObjectiveID: 13_Summer_05_Florist
   Type: Event
   Difficulty: ""
@@ -185,15 +189,15 @@
   ItemRewardName: 13_Summer_05_QuestReward
   ItemRewardQty: 1.0
   ShouldResetOnFactionChange: ""
-  Repeatable: true
-  CanBeAbandoned: "@13_Summer_05_Florist_objective_title"
-  Title: "@13_Summer_05_Florist_description"
-  Description: "@13_Summer_05_Florist_prompt"
-  PlayerPrompt: "@13_Summer_05_Florist_proposal_a"
-  ObjectiveProposalResponse: "@13_Summer_05_Florist_incomplete"
-  InProgressResponse: "@complete_available_prompt_DEFAULT"
-  DestinationCompletionAvailablePrompt: "@13_Summer_05_Florist_complete_a"
-  DestinationCompletionAvailableResponse: ""
+  Repeatable: false
+  CanBeAbandoned: ""
+  Title: "@13_Summer_05_Florist_objective_title"
+  Description: "@13_Summer_05_Florist_description"
+  PlayerPrompt: "@13_Summer_05_Florist_prompt"
+  ObjectiveProposalResponse: "@13_Summer_05_Florist_proposal_a"
+  InProgressResponse: "@13_Summer_05_Florist_incomplete"
+  DestinationCompletionAvailablePrompt: "@complete_available_prompt_DEFAULT"
+  DestinationCompletionAvailableResponse: "@13_Summer_05_Florist_complete_a"
   ObjectiveCompletionResponse: ""
   ObjectiveAcceptanceResponse: ""
   HideIncompleteTurninMarker: ""
@@ -202,7 +206,8 @@
   SkipReqAchievmentWhenInvalid: ""
   EntitlementId: ""
   QuestArcTag: ""
-  HideAvailableMapIcon: EventSummer
+  ScheduleId: EventSummer
+  HideAvailableMapIcon: true
 - ObjectiveID: 13_Summer_06_Beekeep
   Type: Event
   Difficulty: ""
@@ -226,15 +231,15 @@
   ItemRewardName: 13_Summer_06_QuestReward
   ItemRewardQty: 1.0
   ShouldResetOnFactionChange: ""
-  Repeatable: true
-  CanBeAbandoned: "@13_Summer_06_Beekeep_objective_title"
-  Title: "@13_Summer_06_Beekeep_description"
-  Description: "@13_Summer_06_Beekeep_prompt"
-  PlayerPrompt: "@13_Summer_06_Beekeep_proposal_a"
-  ObjectiveProposalResponse: "@13_Summer_06_Beekeep_incomplete"
-  InProgressResponse: "@complete_available_prompt_DEFAULT"
-  DestinationCompletionAvailablePrompt: "@13_Summer_06_Beekeep_complete_a"
-  DestinationCompletionAvailableResponse: ""
+  Repeatable: false
+  CanBeAbandoned: ""
+  Title: "@13_Summer_06_Beekeep_objective_title"
+  Description: "@13_Summer_06_Beekeep_description"
+  PlayerPrompt: "@13_Summer_06_Beekeep_prompt"
+  ObjectiveProposalResponse: "@13_Summer_06_Beekeep_proposal_a"
+  InProgressResponse: "@13_Summer_06_Beekeep_incomplete"
+  DestinationCompletionAvailablePrompt: "@complete_available_prompt_DEFAULT"
+  DestinationCompletionAvailableResponse: "@13_Summer_06_Beekeep_complete"
   ObjectiveCompletionResponse: ""
   ObjectiveAcceptanceResponse: ""
   HideIncompleteTurninMarker: ""
@@ -243,7 +248,8 @@
   SkipReqAchievmentWhenInvalid: ""
   EntitlementId: ""
   QuestArcTag: ""
-  HideAvailableMapIcon: EventSummer
+  ScheduleId: EventSummer
+  HideAvailableMapIcon: true
 - ObjectiveID: 13_Summer_07_Baker
   Type: Event
   Difficulty: ""
@@ -267,15 +273,15 @@
   ItemRewardName: 13_Summer_07_QuestReward
   ItemRewardQty: 1.0
   ShouldResetOnFactionChange: ""
-  Repeatable: true
-  CanBeAbandoned: "@13_Summer_07_Baker_objective_title"
-  Title: "@13_Summer_07_Baker_description"
-  Description: "@13_Summer_07_Baker_prompt"
-  PlayerPrompt: "@13_Summer_07_Baker_proposal_a"
-  ObjectiveProposalResponse: "@13_Summer_07_Baker_incomplete"
-  InProgressResponse: "@complete_available_prompt_DEFAULT"
-  DestinationCompletionAvailablePrompt: "@13_Summer_07_Baker_complete_a"
-  DestinationCompletionAvailableResponse: ""
+  Repeatable: false
+  CanBeAbandoned: ""
+  Title: "@13_Summer_07_Baker_objective_title"
+  Description: "@13_Summer_07_Baker_description"
+  PlayerPrompt: "@13_Summer_07_Baker_prompt"
+  ObjectiveProposalResponse: "@13_Summer_07_Baker_proposal_a"
+  InProgressResponse: "@13_Summer_07_Baker_incomplete"
+  DestinationCompletionAvailablePrompt: "@complete_available_prompt_DEFAULT"
+  DestinationCompletionAvailableResponse: "@13_Summer_07_Baker_complete_a"
   ObjectiveCompletionResponse: ""
   ObjectiveAcceptanceResponse: ""
   HideIncompleteTurninMarker: ""
@@ -284,7 +290,8 @@
   SkipReqAchievmentWhenInvalid: ""
   EntitlementId: ""
   QuestArcTag: ""
-  HideAvailableMapIcon: EventSummer
+  ScheduleId: EventSummer
+  HideAvailableMapIcon: true
 - ObjectiveID: 13_Summer_08_Poet
   Type: Event
   Difficulty: ""
@@ -308,15 +315,15 @@
   ItemRewardName: 13_Summer_08_QuestReward
   ItemRewardQty: 1.0
   ShouldResetOnFactionChange: ""
-  Repeatable: true
-  CanBeAbandoned: "@13_Summer_08_Poet_objective_title"
-  Title: "@13_Summer_08_Poet_description"
-  Description: "@13_Summer_08_Poet_prompt"
-  PlayerPrompt: "@13_Summer_08_Poet_proposal_a"
-  ObjectiveProposalResponse: "@13_Summer_08_Poet_incomplete"
-  InProgressResponse: "@complete_available_prompt_DEFAULT"
-  DestinationCompletionAvailablePrompt: "@13_Summer_08_Poet_complete_a"
-  DestinationCompletionAvailableResponse: ""
+  Repeatable: false
+  CanBeAbandoned: ""
+  Title: "@13_Summer_08_Poet_objective_title"
+  Description: "@13_Summer_08_Poet_description"
+  PlayerPrompt: "@13_Summer_08_Poet_prompt"
+  ObjectiveProposalResponse: "@13_Summer_08_Poet_proposal"
+  InProgressResponse: "@13_Summer_08_Poet_incomplete"
+  DestinationCompletionAvailablePrompt: "@complete_available_prompt_DEFAULT"
+  DestinationCompletionAvailableResponse: "@13_Summer_08_Poet_complete_a"
   ObjectiveCompletionResponse: ""
   ObjectiveAcceptanceResponse: ""
   HideIncompleteTurninMarker: ""
@@ -325,7 +332,8 @@
   SkipReqAchievmentWhenInvalid: ""
   EntitlementId: ""
   QuestArcTag: ""
-  HideAvailableMapIcon: EventSummer
+  ScheduleId: EventSummer
+  HideAvailableMapIcon: true
 - ObjectiveID: 13_Summer_09_PlayWithBand
   Type: Event
   Difficulty: ""
@@ -349,15 +357,15 @@
   ItemRewardName: 13_Summer_09_QuestReward
   ItemRewardQty: 1.0
   ShouldResetOnFactionChange: ""
-  Repeatable: true
-  CanBeAbandoned: "@13_Summer_09_PlayWithBand_objective_title"
-  Title: "@13_Summer_09_PlayWithBand_description"
-  Description: "@13_Summer_09_PlayWithBand_prompt"
-  PlayerPrompt: "@13_Summer_09_PlayWithBand_proposal_a"
-  ObjectiveProposalResponse: "@13_Summer_09_PlayWithBand_incomplete"
-  InProgressResponse: "@complete_available_prompt_DEFAULT"
-  DestinationCompletionAvailablePrompt: "@13_Summer_09_PlayWithBand_complete_a"
-  DestinationCompletionAvailableResponse: ""
+  Repeatable: false
+  CanBeAbandoned: ""
+  Title: "@13_Summer_09_PlayWithBand_objective_title"
+  Description: "@13_Summer_09_PlayWithBand_description"
+  PlayerPrompt: "@13_Summer_09_PlayWithBand_prompt"
+  ObjectiveProposalResponse: "@13_Summer_09_PlayWithBand_proposal_a"
+  InProgressResponse: "@13_Summer_09_PlayWithBand_incomplete"
+  DestinationCompletionAvailablePrompt: "@complete_available_prompt_DEFAULT"
+  DestinationCompletionAvailableResponse: "@13_Summer_09_PlayWithBand_complete_a"
   ObjectiveCompletionResponse: ""
   ObjectiveAcceptanceResponse: ""
   HideIncompleteTurninMarker: ""
@@ -366,4 +374,5 @@
   SkipReqAchievmentWhenInvalid: ""
   EntitlementId: ""
   QuestArcTag: ""
-  HideAvailableMapIcon: EventSummer
+  ScheduleId: EventSummer
+  HideAvailableMapIcon: true

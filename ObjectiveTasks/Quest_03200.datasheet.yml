@@ -1,6 +1,8 @@
 - TaskID: Quest_03200_Task_0
   SubTask1: Quest_03200_Task_1
   SubTask2: Quest_03200_Task_8
+  SubTask3: Quest_03200_Task_5_0
+  SubTask4: Quest_03200_Task_10
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -34,8 +36,6 @@
   ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
-  SubTask3: ""
-  SubTask4: ""
   TP_DescriptionTag: ""
   POITag: ""
   ItemName: ""
@@ -46,6 +46,8 @@
 - TaskID: Quest_03200_Task_1
   SubTask1: Quest_03200_Task_2
   SubTask2: Quest_03200_Task_3
+  SubTask3: Quest_03200_Task_4
+  SubTask4: Quest_03200_Task_5
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -79,8 +81,6 @@
   ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
-  SubTask3: Quest_03200_Task_4
-  SubTask4: Quest_03200_Task_5
   TP_DescriptionTag: ""
   POITag: ""
   ItemName: ""
@@ -91,6 +91,8 @@
 - TaskID: Quest_03200_Task_2
   SubTask1: ""
   SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
   Type: TASKGOTOPOITAG
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -124,8 +126,6 @@
   ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
-  SubTask3: ""
-  SubTask4: ""
   TP_DescriptionTag: "@Quest_03200_Task_2_Description"
   POITag: abandoned_village_40062
   ItemName: ""
@@ -136,6 +136,8 @@
 - TaskID: Quest_03200_Task_3
   SubTask1: ""
   SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
   Type: TASKLOCKACHIEVEMENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -169,8 +171,6 @@
   ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
-  SubTask3: ""
-  SubTask4: ""
   TP_DescriptionTag: ""
   POITag: ""
   ItemName: SS2_SwapActive_Aelstrom_09
@@ -181,6 +181,8 @@
 - TaskID: Quest_03200_Task_4
   SubTask1: ""
   SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
   Type: TASKUNLOCKACHIEVEMENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -214,8 +216,6 @@
   ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
-  SubTask3: ""
-  SubTask4: ""
   TP_DescriptionTag: ""
   POITag: ""
   ItemName: SS2_SwapActive_Aelstrom_10
@@ -226,6 +226,8 @@
 - TaskID: Quest_03200_Task_5
   SubTask1: ""
   SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
   Type: TASKCONVERSATIONTOPIC
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -259,8 +261,6 @@
   ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
-  SubTask3: ""
-  SubTask4: ""
   TP_DescriptionTag: "@Quest_03200_Task_5_Description"
   POITag: ""
   ItemName: NPC_04636
@@ -271,6 +271,8 @@
 - TaskID: Quest_03200_Task_8
   SubTask1: ""
   SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
   Type: TASKCRAFTMULTIPLERECIPES
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -304,8 +306,6 @@
   ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
-  SubTask3: ""
-  SubTask4: ""
   TP_DescriptionTag: "@Quest_03200_Task_8_Description"
   POITag: ""
   ItemName: ""
@@ -313,3 +313,93 @@
   CraftingRecipeId: 90_SS2_PHRecipe
   KillEnemyType: S8BoxCraftT51
   ItemDropVC: WeaponsBoxT51,ArmorBoxT51,JewelryBoxT51,ToolsBoxT51,CombatConsumablesBoxT51,ArtifactsBoxT5,HeartrunesBoxT51,TrophiesBoxT51,CutGemsBoxT51
+- TaskID: Quest_03200_Task_5_0
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  Type: TASKCONVERSATIONTOPIC
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "0"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: "@Quest_03200_Task_5_0_Description"
+  POITag: ""
+  ItemName: NPC_04636
+  UIScreenTag: NPC_04636_State_4_Topic_0
+  CraftingRecipeId: ""
+  KillEnemyType: ""
+  ItemDropVC: ""
+- TaskID: Quest_03200_Task_10
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  Type: TASKACHIEVEMENT
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: "@Quest_03200_Task_10_Description"
+  POITag: ""
+  ItemName: debug_2
+  UIScreenTag: ""
+  CraftingRecipeId: ""
+  KillEnemyType: ""
+  ItemDropVC: ""

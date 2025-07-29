@@ -1,11 +1,12 @@
 - TaskID: Quest_18006_Task_0
   SubTask1: Quest_18006_Task_1
   SubTask2: Quest_18006_Task_6
-  SubTask3: Quest_18006_Task_3
-  SubTask4: Quest_18006_Task_7
-  SubTask5: Quest_18006_Task_8
-  SubTask6: Quest_18006_Task_4
-  SubTask7: Quest_18006_Task_5
+  SubTask3: Quest_18006_Task_2
+  SubTask4: Quest_18006_Task_3
+  SubTask5: Quest_18006_Task_7
+  SubTask6: Quest_18006_Task_8
+  SubTask7: Quest_18006_Task_4
+  SubTask8: Quest_18006_Task_5
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -21,7 +22,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -54,6 +55,7 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
+  SubTask8: ""
   Type: TASKGOTOPOITAG
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -69,7 +71,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -102,6 +104,7 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
+  SubTask8: ""
   Type: TASKCONVERSATIONTOPIC
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -117,7 +120,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -150,6 +153,7 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
+  SubTask8: ""
   Type: TASKGOTOPOITAG
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -165,7 +169,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -198,6 +202,7 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
+  SubTask8: ""
   Type: TASKGAMEEVENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -213,7 +218,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -246,6 +251,7 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
+  SubTask8: ""
   Type: TASKUNLOCKACHIEVEMENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -261,7 +267,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -294,6 +300,7 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
+  SubTask8: ""
   Type: TASKUNLOCKACHIEVEMENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -309,7 +316,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -342,6 +349,7 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
+  SubTask8: ""
   Type: TASKLOCKACHIEVEMENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -357,7 +365,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -378,6 +386,55 @@
   TP_DescriptionTag: ""
   POITag: ""
   ItemName: SwapActive_KirksleyDunham_2
+  UIScreenTag: ""
+  KillEnemyType: ""
+  InteractTag: ""
+  OverrideLocation: ""
+- TaskID: Quest_18006_Task_2
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+  SubTask6: ""
+  SubTask7: ""
+  SubTask8: ""
+  Type: TASKUNLOCKACHIEVEMENT
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "0"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: ""
+  POITag: ""
+  ItemName: SwapActive_KirksleyDunham_1
   UIScreenTag: ""
   KillEnemyType: ""
   InteractTag: ""

@@ -37,6 +37,32 @@
   TopicId1: ""
   RequiredActiveObjectiveId: ""
   RequiredActiveTaskId: ""
+- ConversationStateId: NPC_04627_State_3
+  ConversationType: Conversation
+  DefaultDialogue: "@NPC_04627_State_3_DefaultDialogue"
+  IsInitialState: "false"
+  RequiredLevel: "0"
+  RequiredFaction: None
+  RequiredFactionCooldown: NotInCooldown
+  ForceConversationOpen: "false"
+  LinearObjectiveId1: ""
+  RequiredAchievement: ""
+  TopicId1: NPC_04627_State_3_Topic_0
+  RequiredActiveObjectiveId: Quest_03190
+  RequiredActiveTaskId: Quest_03190_Task_19
+- ConversationStateId: NPC_04627_State_4
+  ConversationType: Conversation
+  DefaultDialogue: "@NPC_04627_State_4_DefaultDialogue"
+  IsInitialState: "false"
+  RequiredLevel: "0"
+  RequiredFaction: None
+  RequiredFactionCooldown: NotInCooldown
+  ForceConversationOpen: "false"
+  LinearObjectiveId1: ""
+  RequiredAchievement: ""
+  TopicId1: NPC_04627_State_4_Topic_0
+  RequiredActiveObjectiveId: Quest_03189
+  RequiredActiveTaskId: Quest_03189_Task_12
 - ConversationStateId: NPC_04627_State_5
   ConversationType: Conversation
   DefaultDialogue: "@NPC_04627_State_5_DefaultDialogue"

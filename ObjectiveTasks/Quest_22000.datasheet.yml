@@ -1,7 +1,6 @@
 - TaskID: Quest_22000_Task_0
   SubTask1: Quest_22000_Task_7
   SubTask2: Quest_22000_Task_8
-  SubTask3: Quest_22000_Task_12
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -17,7 +16,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -39,13 +38,15 @@
   TP_TargetTag: ""
   OverrideLocation: ""
   ItemName: ""
+  ItemDropVC: ""
+  InteractTag: ""
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
   SubTask6: ""
 - TaskID: Quest_22000_Task_1
   SubTask1: ""
   SubTask2: ""
-  SubTask3: ""
   Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -61,7 +62,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -80,22 +81,24 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_22000_Task_1_Description"
-  TP_TargetTag: "@Quest_22000_Task_1_TargetTag"
-  OverrideLocation: 0.000000 0.000000 0.000000
+  TP_TargetTag: TidbitTrigger_Arcturus
+  OverrideLocation: 9728.065430 4421.518066 129.016006
   ItemName: ""
+  ItemDropVC: ""
+  InteractTag: ""
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
   SubTask6: ""
 - TaskID: Quest_22000_Task_2
   SubTask1: ""
   SubTask2: ""
-  SubTask3: ""
   Type: TASKGATHERANDRETURNITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
   TargetQty: "1"
   Duration: "0.000000"
-  ItemDropProbability: "0"
+  ItemDropProbability: "100"
   ChestDropProbability: "0"
   MinGearScore: "0"
   GuranteedDropAttempts: "0"
@@ -105,7 +108,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -127,13 +130,15 @@
   TP_TargetTag: ""
   OverrideLocation: ""
   ItemName: Quest_22000_Honey
+  ItemDropVC: TestQuest_Honey
+  InteractTag: IO_TestQuest_Honey
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
   SubTask6: ""
 - TaskID: Quest_22000_Task_3
   SubTask1: ""
   SubTask2: ""
-  SubTask3: ""
   Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -149,7 +154,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -168,22 +173,24 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_22000_Task_3_Description"
-  TP_TargetTag: "@Quest_22000_Task_3_TargetTag"
-  OverrideLocation: 0.000000 0.000000 0.000000
+  TP_TargetTag: TidbitTrigger_Emberwood
+  OverrideLocation: 8864.980469 3963.861084 108.562500
   ItemName: ""
+  ItemDropVC: ""
+  InteractTag: ""
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
   SubTask6: ""
 - TaskID: Quest_22000_Task_4
   SubTask1: ""
   SubTask2: ""
-  SubTask3: ""
   Type: TASKGATHERANDRETURNITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "2"
+  TargetQty: "1"
   Duration: "0.000000"
-  ItemDropProbability: "0"
+  ItemDropProbability: "100"
   ChestDropProbability: "0"
   MinGearScore: "0"
   GuranteedDropAttempts: "0"
@@ -193,7 +200,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -214,14 +221,16 @@
   TP_DescriptionTag: "@Quest_22000_Task_4_Description"
   TP_TargetTag: ""
   OverrideLocation: ""
-  ItemName: Quest_22000_Honey
+  ItemName: Quest_22000_Honey2
+  ItemDropVC: TestQuest_Honey2
+  InteractTag: IO_TestQuest_Honey2
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
   SubTask6: ""
 - TaskID: Quest_22000_Task_5
   SubTask1: ""
   SubTask2: ""
-  SubTask3: ""
   Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -237,7 +246,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -256,22 +265,24 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_22000_Task_5_Description"
-  TP_TargetTag: "@Quest_22000_Task_5_TargetTag"
-  OverrideLocation: 0.000000 0.000000 0.000000
+  TP_TargetTag: TidbitTrigger_FaithsBounty
+  OverrideLocation: 9338.570312 4252.031250 116.410004
   ItemName: ""
+  ItemDropVC: ""
+  InteractTag: ""
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
   SubTask6: ""
 - TaskID: Quest_22000_Task_6
   SubTask1: ""
   SubTask2: ""
-  SubTask3: ""
   Type: TASKGATHERANDRETURNITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "3"
+  TargetQty: "1"
   Duration: "0.000000"
-  ItemDropProbability: "0"
+  ItemDropProbability: "100"
   ChestDropProbability: "0"
   MinGearScore: "0"
   GuranteedDropAttempts: "0"
@@ -281,7 +292,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -302,14 +313,16 @@
   TP_DescriptionTag: "@Quest_22000_Task_6_Description"
   TP_TargetTag: ""
   OverrideLocation: ""
-  ItemName: Quest_22000_Honey
+  ItemName: Quest_22000_Honey3
+  ItemDropVC: TestQuest_Honey3
+  InteractTag: IO_TestQuest_Honey3
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
   SubTask6: ""
 - TaskID: Quest_22000_Task_7
   SubTask1: Quest_22000_Task_3
   SubTask2: Quest_22000_Task_2
-  SubTask3: Quest_22000_Task_5
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -325,7 +338,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -347,13 +360,15 @@
   TP_TargetTag: ""
   OverrideLocation: ""
   ItemName: ""
+  ItemDropVC: ""
+  InteractTag: ""
+  SubTask3: Quest_22000_Task_5
   SubTask4: Quest_22000_Task_4
   SubTask5: Quest_22000_Task_1
   SubTask6: Quest_22000_Task_6
 - TaskID: Quest_22000_Task_8
   SubTask1: Quest_22000_Task_9
   SubTask2: Quest_22000_Task_10
-  SubTask3: Quest_22000_Task_11
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -369,7 +384,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -391,13 +406,15 @@
   TP_TargetTag: ""
   OverrideLocation: ""
   ItemName: ""
-  SubTask4: ""
+  ItemDropVC: ""
+  InteractTag: ""
+  SubTask3: Quest_22000_Task_11
+  SubTask4: Quest_22000_Task_14
   SubTask5: ""
   SubTask6: ""
 - TaskID: Quest_22000_Task_9
   SubTask1: ""
   SubTask2: ""
-  SubTask3: ""
   Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -413,7 +430,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -432,16 +449,18 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_22000_Task_9_Description"
-  TP_TargetTag: "@Quest_22000_Task_9_TargetTag"
-  OverrideLocation: 0.000000 0.000000 0.000000
+  TP_TargetTag: TidbitTrigger_Track1
+  OverrideLocation: 9704.357422 4468.450195 127.826202
   ItemName: ""
+  ItemDropVC: ""
+  InteractTag: ""
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
   SubTask6: ""
 - TaskID: Quest_22000_Task_10
   SubTask1: ""
   SubTask2: ""
-  SubTask3: ""
   Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -457,7 +476,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -476,16 +495,18 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_22000_Task_10_Description"
-  TP_TargetTag: "@Quest_22000_Task_10_TargetTag"
-  OverrideLocation: 0.000000 0.000000 0.000000
+  TP_TargetTag: TidbitTrigger_Track2
+  OverrideLocation: 9697.078125 4517.781738 121.616501
   ItemName: ""
+  ItemDropVC: ""
+  InteractTag: ""
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
   SubTask6: ""
 - TaskID: Quest_22000_Task_11
   SubTask1: ""
   SubTask2: ""
-  SubTask3: ""
   Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -501,7 +522,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -520,64 +541,22 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_22000_Task_11_Description"
-  TP_TargetTag: "@Quest_22000_Task_11_TargetTag"
-  OverrideLocation: 0.000000 0.000000 0.000000
+  TP_TargetTag: TidbitTrigger_Track3
+  OverrideLocation: 9727.084961 4539.825195 126.101402
   ItemName: ""
-  SubTask4: ""
-  SubTask5: ""
-  SubTask6: ""
-- TaskID: Quest_22000_Task_12
-  SubTask1: Quest_22000_Task_13
-  SubTask2: ""
+  ItemDropVC: ""
+  InteractTag: ""
   SubTask3: ""
-  Type: CONSECUTIVETASKCONTAINER
-  TriggerAreaType: Enter
-  TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "0"
-  Duration: "0.000000"
-  ItemDropProbability: "0"
-  ChestDropProbability: "0"
-  MinGearScore: "0"
-  GuranteedDropAttempts: "0"
-  TargetThreshold: "0.000000"
-  IsPurchaseOrEarn: "true"
-  IsExactMatch: "false"
-  AwardOnlyOnce: "false"
-  GridLayout: "false"
-  HideChildren: "false"
-  Oninteractstart: "false"
-  FailOnCondition: "false"
-  ResetOnCondition: "false"
-  ShouldCheckPoints: "false"
-  UseGlobalStorage: "true"
-  CraftAnyRecipe: "false"
-  PauseAndClearLootOnTaskComplete: "false"
-  TP_HideOnCompassOnEnterPOI: "false"
-  GameModeMustBeMutated: "false"
-  StayActive: "false"
-  IsHidden: "true"
-  TriggerAnalyticsEvent: "false"
-  HideProgress: "false"
-  EnforceLocationRequirement: "false"
-  HideDiegeticGatherablePins: "false"
-  ShowDiegeticTaskPin: "false"
-  DiegeticPinZOverride: "0.000000"
-  TerritoryID: "0"
-  TP_DescriptionTag: "@Quest_22000_Task_12_Description"
-  TP_TargetTag: ""
-  OverrideLocation: ""
-  ItemName: ""
   SubTask4: ""
   SubTask5: ""
   SubTask6: ""
-- TaskID: Quest_22000_Task_13
+- TaskID: Quest_22000_Task_14
   SubTask1: ""
   SubTask2: ""
-  SubTask3: ""
-  Type: TASKINTERACT
+  Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "0"
+  TargetQty: "1"
   Duration: "0.000000"
   ItemDropProbability: "0"
   ChestDropProbability: "0"
@@ -589,7 +568,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -607,10 +586,13 @@
   ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
-  TP_DescriptionTag: "@Quest_22000_Task_13_Description"
-  TP_TargetTag: ""
-  OverrideLocation: ""
+  TP_DescriptionTag: "@Quest_22000_Task_14_Description"
+  TP_TargetTag: TidbitTrigger_Track4
+  OverrideLocation: 9751.989258 4533.306152 127.203903
   ItemName: ""
+  ItemDropVC: ""
+  InteractTag: ""
+  SubTask3: ""
   SubTask4: ""
   SubTask5: ""
   SubTask6: ""

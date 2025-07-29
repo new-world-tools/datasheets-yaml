@@ -9888,7 +9888,7 @@
   DeprecatedPerkId: ""
   ScalingPerGearScore: 0.00545,625:0.007,1450:0.00
   ScalingPerGearScoreAttributes: ""
-  ItemClassGSBonus: Musket:700
+  ItemClassGSBonus: Musket:450
   DisplayName: "@PerkID_Ability_Musket_Traps_Name"
   SecondaryEffectDisplayName: ""
   Description: "@PerkID_Ability_Musket_Traps_Description"
@@ -10776,7 +10776,7 @@
   DeprecatedPerkId: ""
   ScalingPerGearScore: 0.00488,625:0.0085,1600:0.00
   ScalingPerGearScoreAttributes: ""
-  ItemClassGSBonus: LifeStaff:700
+  ItemClassGSBonus: LifeStaff:400
   DisplayName: "@PerkID_Ability_LifeStaff_LightsEmbrace_Name"
   SecondaryEffectDisplayName: ""
   Description: "@PerkID_Ability_LifeStaff_LightsEmbrace_Description"
@@ -12515,7 +12515,7 @@
   DeprecatedPerkId: ""
   ScalingPerGearScore: 0.005,1600:0.00
   ScalingPerGearScoreAttributes: ""
-  ItemClassGSBonus: Flail:600
+  ItemClassGSBonus: Flail:500
   DisplayName: "@PerkID_Ability_Flail_Charge_Name"
   SecondaryEffectDisplayName: ""
   Description: "@PerkID_Ability_Flail_Charge_Description"
@@ -12617,7 +12617,7 @@
   Includes: ""
 - PerkID: PerkID_Common_CDR
   PerkType: Generated
-  ConditionEvent: OnEquip
+  ConditionEvent: OnActive
   ItemClass: EquippableToken+EquippableRing+EquippableAmulet+Armor+Shield
   ExcludeItemClass: ""
   Channel: 1.0
@@ -22997,7 +22997,7 @@
   AppliedPrefix: ""
   AppliedSuffix: ""
   NamePriority: ""
-  IconPath: LyShineUI/Images/Icons/Perks/SlashDMG1.png
+  IconPath: LyShineUI/Images/Icons/Perks/Empower1.png
   Affix: ""
   EquipAbility: Heartgem_Rune_SpinningSwords_Major
   DayPhases: ""
@@ -23034,7 +23034,7 @@
   AppliedPrefix: ""
   AppliedSuffix: ""
   NamePriority: ""
-  IconPath: LyShineUI/Images/Icons/Perks/SlashDMG1.png
+  IconPath: LyShineUI/Images/Status/Sluggish.png
   Affix: ""
   EquipAbility: Heartgem_Rune_SpinningSwords_Greater
   DayPhases: ""
@@ -23071,7 +23071,7 @@
   AppliedPrefix: ""
   AppliedSuffix: ""
   NamePriority: ""
-  IconPath: LyShineUI/Images/Icons/Perks/SlashDMG1.png
+  IconPath: LyShineUI/Images/Icons/Perks/DebuffDur1.png
   Affix: ""
   EquipAbility: Heartgem_Rune_SpinningSwords_Survivor
   DayPhases: ""
@@ -23108,7 +23108,7 @@
   AppliedPrefix: ""
   AppliedSuffix: ""
   NamePriority: ""
-  IconPath: LyShineUI/Images/Icons/Perks/SlashDMG1.png
+  IconPath: LyShineUI/Images/Icons/Perks/MoreDMG_LessExplosionDMG.png
   Affix: ""
   EquipAbility: Heartgem_Rune_SpinningSwords_Dominator
   DayPhases: ""
@@ -39686,7 +39686,7 @@
   NamePriority: ""
   IconPath: "LyShineUI\\Images\\Icons\\Misc\\icon_attribute_arrow.png"
   Affix: Affix_Artifact_Set2_LightFeet
-  EquipAbility: GlobalPerk_Artifact_Set2_LightFeet,GlobalPerk_Artifact_Set2_LightFeet_Tracker
+  EquipAbility: GlobalPerk_Artifact_Set2_LightFeet
   DayPhases: ""
   FishingWaterType: ""
   TerritoryId: ""
@@ -39760,7 +39760,7 @@
   NamePriority: ""
   IconPath: "LyShineUI\\Images\\Icons\\Misc\\icon_attribute_arrow.png"
   Affix: Affix_Artifact_Set2_Warhammer
-  EquipAbility: GlobalPerk_Artifact_Set2_Warhammer
+  EquipAbility: GlobalPerk_Artifact_Set2_Warhammer,GlobalPerk_Artifact_Set2_Warhammer2
   DayPhases: ""
   FishingWaterType: ""
   TerritoryId: ""
@@ -40723,6 +40723,154 @@
   IconPath: "LyShineUI\\Images\\Icons\\Misc\\icon_attribute_arrow.png"
   Affix: Affix_Artifact_Set2_TowerShield
   EquipAbility: GlobalPerk_Artifact_Set2_TowerShield
+  DayPhases: ""
+  FishingWaterType: ""
+  TerritoryId: ""
+  CombatStatus: ""
+  WeaponTag: ""
+  Category: ""
+  WorldTags: ""
+  OnlyInOpenWorld: null
+  OpenWorldOnlyOverrideGameModes: ""
+  ScheduleID: ""
+  Sorting: Artifact
+  Includes: ""
+- PerkID: PerkID_Artifact_Set3_MediumHead
+  PerkType: Inherent
+  ConditionEvent: OnEquip
+  ItemClass: EquippableHead
+  ExcludeItemClass: ""
+  Channel: 1.0
+  ExclusiveLabels: ""
+  ItemPerkConflictsLocText: ""
+  DeprecatedPerkId: ""
+  ScalingPerGearScore: ""
+  ScalingPerGearScoreAttributes: 0.018,625:0.03134,700:0.04,720:0.16,725:0.032
+  ItemClassGSBonus: ""
+  DisplayName: ""
+  SecondaryEffectDisplayName: "@PerkID_Artifact_Set3_MediumHead_Name"
+  Description: "@PerkID_Artifact_Set3_MediumHead_Desc"
+  StatDisplayText: "@ui_stat_magnify_tooltip"
+  GroupName: ""
+  Tier: null
+  ExcludeFromTradingPost: "TRUE"
+  AppliedPrefix: ""
+  AppliedSuffix: ""
+  NamePriority: ""
+  IconPath: "LyShineUI\\Images\\Icons\\Misc\\icon_attribute_arrow.png"
+  Affix: Affix_Artifact_Set3_MediumHead
+  EquipAbility: GlobalPerk_Artifact_Set3_MediumHead,GlobalPerk_Artifact_Set3_MediumHead_StackMax,GlobalPerk_Artifact_Set3_MediumHead_NoReaction
+  DayPhases: ""
+  FishingWaterType: ""
+  TerritoryId: ""
+  CombatStatus: ""
+  WeaponTag: ""
+  Category: ""
+  WorldTags: ""
+  OnlyInOpenWorld: null
+  OpenWorldOnlyOverrideGameModes: ""
+  ScheduleID: ""
+  Sorting: Artifact
+  Includes: ""
+- PerkID: PerkID_Artifact_Set3_Warhammer
+  PerkType: Inherent
+  ConditionEvent: OnEquip
+  ItemClass: 2HHammer
+  ExcludeItemClass: ""
+  Channel: 1.0
+  ExclusiveLabels: ""
+  ItemPerkConflictsLocText: ""
+  DeprecatedPerkId: ""
+  ScalingPerGearScore: ""
+  ScalingPerGearScoreAttributes: 0.018,625:0.02956,700:0.03333,720:0.13333,725:0.02667
+  ItemClassGSBonus: ""
+  DisplayName: ""
+  SecondaryEffectDisplayName: "@PerkID_Artifact_Set3_Warhammer_Name"
+  Description: "@PerkID_Artifact_Set3_Warhammer_Desc"
+  StatDisplayText: "@ui_stat_magnify_tooltip"
+  GroupName: ""
+  Tier: null
+  ExcludeFromTradingPost: "TRUE"
+  AppliedPrefix: ""
+  AppliedSuffix: ""
+  NamePriority: ""
+  IconPath: "LyShineUI\\Images\\Icons\\Misc\\icon_attribute_arrow.png"
+  Affix: Affix_Artifact_Set3_Warhammer
+  EquipAbility: GlobalPerk_Artifact_Set3_Warhammer,GlobalPerk_Artifact_Set3_Warhammer_SpellAOE
+  DayPhases: ""
+  FishingWaterType: ""
+  TerritoryId: ""
+  CombatStatus: ""
+  WeaponTag: ""
+  Category: ""
+  WorldTags: ""
+  OnlyInOpenWorld: null
+  OpenWorldOnlyOverrideGameModes: ""
+  ScheduleID: ""
+  Sorting: Artifact
+  Includes: ""
+- PerkID: PerkID_Artifact_Set3_Greatsword
+  PerkType: Inherent
+  ConditionEvent: OnEquip
+  ItemClass: GreatSword
+  ExcludeItemClass: ""
+  Channel: 1.0
+  ExclusiveLabels: ""
+  ItemPerkConflictsLocText: ""
+  DeprecatedPerkId: ""
+  ScalingPerGearScore: ""
+  ScalingPerGearScoreAttributes: 0.018,625:0.02956,700:0.03333,720:0.13333,725:0.02667
+  ItemClassGSBonus: ""
+  DisplayName: ""
+  SecondaryEffectDisplayName: "@PerkID_Artifact_Set3_Greatsword_Name"
+  Description: "@PerkID_Artifact_Set3_Greatsword_Desc"
+  StatDisplayText: "@ui_stat_magnify_tooltip"
+  GroupName: ""
+  Tier: null
+  ExcludeFromTradingPost: "TRUE"
+  AppliedPrefix: ""
+  AppliedSuffix: ""
+  NamePriority: ""
+  IconPath: "LyShineUI\\Images\\Icons\\Misc\\icon_attribute_arrow.png"
+  Affix: Affix_Artifact_Set3_Greatsword
+  EquipAbility: GlobalPerk_Artifact_Set3_Greatsword
+  DayPhases: ""
+  FishingWaterType: ""
+  TerritoryId: ""
+  CombatStatus: ""
+  WeaponTag: ""
+  Category: ""
+  WorldTags: ""
+  OnlyInOpenWorld: null
+  OpenWorldOnlyOverrideGameModes: ""
+  ScheduleID: ""
+  Sorting: Artifact
+  Includes: ""
+- PerkID: PerkID_Artifact_Set3_GreatswordPerk
+  PerkType: Generated
+  ConditionEvent: OnEquip
+  ItemClass: GreatSword
+  ExcludeItemClass: ""
+  Channel: 1.0
+  ExclusiveLabels: ""
+  ItemPerkConflictsLocText: ""
+  DeprecatedPerkId: ""
+  ScalingPerGearScore: ""
+  ScalingPerGearScoreAttributes: ""
+  ItemClassGSBonus: ""
+  DisplayName: "@PerkID_Artifact_Set3_GreatswordPerk_Name"
+  SecondaryEffectDisplayName: ""
+  Description: "@PerkID_Artifact_Set3_GreatswordPerk_Desc"
+  StatDisplayText: ""
+  GroupName: ""
+  Tier: null
+  ExcludeFromTradingPost: "TRUE"
+  AppliedPrefix: ""
+  AppliedSuffix: ""
+  NamePriority: ""
+  IconPath: "LyShineUI\\Images\\Icons\\Perks\\SlashDMG1.png"
+  Affix: ""
+  EquipAbility: GlobalPerk_Artifact_Set3_Greatsword_Perk
   DayPhases: ""
   FishingWaterType: ""
   TerritoryId: ""

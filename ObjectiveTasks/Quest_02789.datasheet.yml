@@ -1,8 +1,9 @@
 - TaskID: Quest_02789_Task_0
   SubTask1: Quest_02789_Task_1
-  SubTask2: Quest_02789_Task_2
-  SubTask3: Quest_02789_Task_4
-  SubTask4: Quest_02789_Task_3
+  SubTask2: Quest_02789_Task_5
+  SubTask3: Quest_02789_Task_2
+  SubTask4: Quest_02789_Task_4
+  SubTask5: Quest_02789_Task_3
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -18,7 +19,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -41,7 +42,6 @@
   ItemName: ""
   OverrideLocation: ""
   LootTag: ""
-  TP_TargetTag: ""
   InteractTag: ""
   UIScreenTag: ""
 - TaskID: Quest_02789_Task_1
@@ -49,6 +49,7 @@
   SubTask2: ""
   SubTask3: ""
   SubTask4: ""
+  SubTask5: ""
   Type: TASKUNLOCKACHIEVEMENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -64,7 +65,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -87,7 +88,6 @@
   ItemName: 05A_PQ_Vector_Start
   OverrideLocation: 10897.480469 3295.949951 75.419998
   LootTag: ""
-  TP_TargetTag: ""
   InteractTag: ""
   UIScreenTag: ""
 - TaskID: Quest_02789_Task_2
@@ -95,10 +95,11 @@
   SubTask2: ""
   SubTask3: ""
   SubTask4: ""
+  SubTask5: ""
   Type: TASKGATHERANDRETURNITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "3"
+  TargetQty: "1"
   Duration: "0.000000"
   ItemDropProbability: "100"
   ChestDropProbability: "0"
@@ -110,7 +111,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -129,11 +130,10 @@
   ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "5"
-  POITag: ""
+  POITag: Flooded_Ruins_50125
   ItemName: 05A_MSQ_DamagedHeartgemItem
-  OverrideLocation: 10979.344727 3285.188477 98.569099
+  OverrideLocation: ""
   LootTag: 05A_MSQ_DamagedHeartgemItem
-  TP_TargetTag: "@Quest_02789_Task_2_TargetTag"
   InteractTag: IO_05A_MSQ_DamagedHeartgem
   UIScreenTag: ""
 - TaskID: Quest_02789_Task_4
@@ -141,6 +141,7 @@
   SubTask2: ""
   SubTask3: ""
   SubTask4: ""
+  SubTask5: ""
   Type: TASKCONVERSATIONTOPIC
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -156,7 +157,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -179,7 +180,6 @@
   ItemName: NPC_04289
   OverrideLocation: ""
   LootTag: ""
-  TP_TargetTag: ""
   InteractTag: ""
   UIScreenTag: NPC_04289_State_5_Topic_0
 - TaskID: Quest_02789_Task_3
@@ -187,6 +187,7 @@
   SubTask2: ""
   SubTask3: ""
   SubTask4: ""
+  SubTask5: ""
   Type: TASKINTERACT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -202,7 +203,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "true"
+  OnInteractStart: "true"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -225,6 +226,51 @@
   ItemName: ""
   OverrideLocation: 10891.599609 3282.830078 76.479797
   LootTag: ""
-  TP_TargetTag: ""
   InteractTag: Specialty_Reekwater
+  UIScreenTag: ""
+- TaskID: Quest_02789_Task_5
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+  Type: TASKGOTOPOITAG
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_DescriptionTag: "@Quest_02789_Task_5_Description"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  POITag: Flooded_Ruins_50125
+  ItemName: ""
+  OverrideLocation: ""
+  LootTag: ""
+  InteractTag: ""
   UIScreenTag: ""

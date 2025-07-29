@@ -1,12 +1,11 @@
 - TaskID: Quest_03190_Task_0
   SubTask1: Quest_03190_Task_1
-  SubTask2: Quest_03190_Task_1_0
-  SubTask3: Quest_03190_Task_6
-  SubTask4: Quest_03190_Task_2
-  SubTask5: Quest_03190_Task_17
-  SubTask6: Quest_03190_Task_7
-  SubTask7: Quest_03190_Task_13
-  SubTask8: Quest_03190_Task_4
+  SubTask2: Quest_03190_Task_6
+  SubTask3: Quest_03190_Task_2
+  SubTask4: Quest_03190_Task_17
+  SubTask5: Quest_03190_Task_7
+  SubTask6: Quest_03190_Task_13
+  SubTask7: Quest_03190_Task_4
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -43,9 +42,9 @@
   TP_DescriptionTag: ""
   OverrideLocation: ""
   ItemName: ""
-  TP_TargetTag: ""
   POITag: ""
   UIScreenTag: ""
+  InteractTag: ""
 - TaskID: Quest_03190_Task_2
   SubTask1: Quest_03190_Task_3
   SubTask2: Quest_03190_Task_3_0
@@ -54,7 +53,6 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  SubTask8: ""
   Type: SIMPLETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -91,9 +89,9 @@
   TP_DescriptionTag: "@Quest_03190_Task_2_Description"
   OverrideLocation: 7303.674805 3091.511475 45.167999
   ItemName: ""
-  TP_TargetTag: ""
   POITag: ""
   UIScreenTag: ""
+  InteractTag: ""
 - TaskID: Quest_03190_Task_3
   SubTask1: ""
   SubTask2: ""
@@ -102,7 +100,6 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  SubTask8: ""
   Type: TASKHAVEITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -139,9 +136,9 @@
   TP_DescriptionTag: "@Quest_03190_Task_3_Description"
   OverrideLocation: ""
   ItemName: 1hPickT1
-  TP_TargetTag: ""
   POITag: ""
   UIScreenTag: ""
+  InteractTag: ""
 - TaskID: Quest_03190_Task_3_0
   SubTask1: ""
   SubTask2: ""
@@ -150,7 +147,6 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  SubTask8: ""
   Type: TASKHAVEITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -187,9 +183,9 @@
   TP_DescriptionTag: "@Quest_03190_Task_3_0_Description"
   OverrideLocation: ""
   ItemName: 1hHatchetT1
-  TP_TargetTag: "@Quest_03190_Task_3_0_TargetTag"
   POITag: ""
   UIScreenTag: ""
+  InteractTag: ""
 - TaskID: Quest_03190_Task_3_0_0
   SubTask1: ""
   SubTask2: ""
@@ -198,7 +194,6 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  SubTask8: ""
   Type: TASKHAVEITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -235,9 +230,9 @@
   TP_DescriptionTag: "@Quest_03190_Task_3_0_0_Description"
   OverrideLocation: ""
   ItemName: 1hSkinningKnifeT1
-  TP_TargetTag: "@Quest_03190_Task_3_0_0_TargetTag"
   POITag: ""
   UIScreenTag: ""
+  InteractTag: ""
 - TaskID: Quest_03190_Task_3_0_0_0
   SubTask1: ""
   SubTask2: ""
@@ -246,7 +241,6 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  SubTask8: ""
   Type: TASKHAVEITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -283,9 +277,9 @@
   TP_DescriptionTag: "@Quest_03190_Task_3_0_0_0_Description"
   OverrideLocation: ""
   ItemName: 1hSickleT1
-  TP_TargetTag: "@Quest_03190_Task_3_0_0_0_TargetTag"
   POITag: ""
   UIScreenTag: ""
+  InteractTag: ""
 - TaskID: Quest_03190_Task_7
   SubTask1: Quest_03190_Task_8
   SubTask2: Quest_03190_Task_9
@@ -294,7 +288,6 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  SubTask8: ""
   Type: SIMPLETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -331,9 +324,9 @@
   TP_DescriptionTag: ""
   OverrideLocation: ""
   ItemName: ""
-  TP_TargetTag: ""
   POITag: ""
   UIScreenTag: ""
+  InteractTag: ""
 - TaskID: Quest_03190_Task_8
   SubTask1: ""
   SubTask2: ""
@@ -342,7 +335,6 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  SubTask8: ""
   Type: TASKGOTOPOITAGONTERRITORY
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -379,9 +371,9 @@
   TP_DescriptionTag: "@Quest_03190_Task_8_Description"
   OverrideLocation: 7429.529785 3614.060059 97.882896
   ItemName: ""
-  TP_TargetTag: "@Quest_03190_Task_8_TargetTag"
   POITag: Windsward_Settlement_01
   UIScreenTag: ""
+  InteractTag: ""
 - TaskID: Quest_03190_Task_9
   SubTask1: Quest_03190_Task_8_0
   SubTask2: Quest_03190_Task_11
@@ -390,7 +382,6 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  SubTask8: ""
   Type: PARTIALTASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -427,9 +418,9 @@
   TP_DescriptionTag: "@Quest_03190_Task_9_Description"
   OverrideLocation: ""
   ItemName: ""
-  TP_TargetTag: ""
   POITag: ""
   UIScreenTag: ""
+  InteractTag: ""
 - TaskID: Quest_03190_Task_8_0
   SubTask1: ""
   SubTask2: ""
@@ -438,7 +429,6 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  SubTask8: ""
   Type: TASKGOTOPOITAGONTERRITORY
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -475,9 +465,9 @@
   TP_DescriptionTag: "@Quest_03190_Task_8_0_Description"
   OverrideLocation: ""
   ItemName: ""
-  TP_TargetTag: "@Quest_03190_Task_8_0_TargetTag"
   POITag: Windsward_Settlement_01
   UIScreenTag: ""
+  InteractTag: ""
 - TaskID: Quest_03190_Task_11
   SubTask1: Quest_03190_Task_12
   SubTask2: Quest_03190_Task_12_0
@@ -486,7 +476,6 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  SubTask8: ""
   Type: SIMPLETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -523,9 +512,9 @@
   TP_DescriptionTag: ""
   OverrideLocation: ""
   ItemName: ""
-  TP_TargetTag: ""
   POITag: ""
   UIScreenTag: ""
+  InteractTag: ""
 - TaskID: Quest_03190_Task_12
   SubTask1: ""
   SubTask2: ""
@@ -534,7 +523,6 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  SubTask8: ""
   Type: TASKHAVEITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -571,9 +559,9 @@
   TP_DescriptionTag: "@Quest_03190_Task_12_Description"
   OverrideLocation: ""
   ItemName: WoodT1
-  TP_TargetTag: ""
   POITag: ""
   UIScreenTag: ""
+  InteractTag: ""
 - TaskID: Quest_03190_Task_12_0
   SubTask1: ""
   SubTask2: ""
@@ -582,7 +570,6 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  SubTask8: ""
   Type: TASKHAVEITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -619,9 +606,9 @@
   TP_DescriptionTag: "@Quest_03190_Task_12_0_Description"
   OverrideLocation: ""
   ItemName: StoneT1
-  TP_TargetTag: "@Quest_03190_Task_12_0_TargetTag"
   POITag: ""
   UIScreenTag: ""
+  InteractTag: ""
 - TaskID: Quest_03190_Task_13
   SubTask1: ""
   SubTask2: ""
@@ -630,7 +617,6 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  SubTask8: ""
   Type: TASKGOTOPOITAGONTERRITORY
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -667,9 +653,197 @@
   TP_DescriptionTag: "@Quest_03190_Task_13_Description"
   OverrideLocation: 9329.480469 2589.790039 79.620003
   ItemName: ""
-  TP_TargetTag: "@Quest_03190_Task_13_TargetTag"
   POITag: Windsward_Settlement_01
   UIScreenTag: ""
+  InteractTag: ""
+- TaskID: Quest_03190_Task_14
+  SubTask1: Quest_03190_Task_15
+  SubTask2: Quest_03190_Task_15_0
+  SubTask3: Quest_03190_Task_16
+  SubTask4: ""
+  SubTask5: ""
+  SubTask6: ""
+  SubTask7: ""
+  Type: SIMPLETASKCONTAINER
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "0"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: "@Quest_03190_Task_14_Description"
+  OverrideLocation: ""
+  ItemName: ""
+  POITag: ""
+  UIScreenTag: ""
+  InteractTag: ""
+- TaskID: Quest_03190_Task_15
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+  SubTask6: ""
+  SubTask7: ""
+  Type: TASKOPENUISCREEN
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "true"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: "@Quest_03190_Task_15_Description"
+  OverrideLocation: 9316.625000 2706.854004 83.286003
+  ItemName: ""
+  POITag: ""
+  UIScreenTag: Contracts
+  InteractTag: ""
+- TaskID: Quest_03190_Task_15_0
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+  SubTask6: ""
+  SubTask7: ""
+  Type: TASKINTERACT
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "true"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: "@Quest_03190_Task_15_0_Description"
+  OverrideLocation: 9287.845703 2685.091309 82.663200
+  ItemName: ""
+  POITag: ""
+  UIScreenTag: ""
+  InteractTag: SettlementStorage
+- TaskID: Quest_03190_Task_16
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+  SubTask6: ""
+  SubTask7: ""
+  Type: TASKOPENUISCREEN
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "true"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: "@Quest_03190_Task_16_Description"
+  OverrideLocation: 9319.522461 2667.009033 85.393097
+  ItemName: ""
+  POITag: ""
+  UIScreenTag: InnInteractMenu
+  InteractTag: ""
 - TaskID: Quest_03190_Task_1
   SubTask1: ""
   SubTask2: ""
@@ -678,7 +852,6 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  SubTask8: ""
   Type: TASKUNLOCKACHIEVEMENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -714,19 +887,18 @@
   TerritoryID: "0"
   TP_DescriptionTag: ""
   OverrideLocation: ""
-  ItemName: SS2_Quest_01a_Started
-  TP_TargetTag: ""
+  ItemName: SS2_SwapActive_Aelstrom_01a
   POITag: ""
   UIScreenTag: ""
+  InteractTag: ""
 - TaskID: Quest_03190_Task_4
   SubTask1: Quest_03190_Task_5
   SubTask2: Quest_03190_Task_10
-  SubTask3: ""
-  SubTask4: ""
+  SubTask3: Quest_03190_Task_19
+  SubTask4: Quest_03190_Task_14
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  SubTask8: ""
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -763,9 +935,9 @@
   TP_DescriptionTag: ""
   OverrideLocation: ""
   ItemName: ""
-  TP_TargetTag: ""
   POITag: ""
   UIScreenTag: ""
+  InteractTag: ""
 - TaskID: Quest_03190_Task_5
   SubTask1: ""
   SubTask2: ""
@@ -774,7 +946,6 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  SubTask8: ""
   Type: TASKLOCKACHIEVEMENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -811,9 +982,9 @@
   TP_DescriptionTag: ""
   OverrideLocation: ""
   ItemName: SS2_SwapActive_Aelstrom_01a
-  TP_TargetTag: ""
   POITag: ""
   UIScreenTag: ""
+  InteractTag: ""
 - TaskID: Quest_03190_Task_10
   SubTask1: ""
   SubTask2: ""
@@ -822,7 +993,6 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  SubTask8: ""
   Type: TASKUNLOCKACHIEVEMENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -859,9 +1029,9 @@
   TP_DescriptionTag: ""
   OverrideLocation: ""
   ItemName: SS2_SwapActive_Aelstrom_02
-  TP_TargetTag: ""
   POITag: ""
   UIScreenTag: ""
+  InteractTag: ""
 - TaskID: Quest_03190_Task_18
   SubTask1: ""
   SubTask2: ""
@@ -870,7 +1040,6 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  SubTask8: ""
   Type: TASKHAVEITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -907,9 +1076,9 @@
   TP_DescriptionTag: "@Quest_03190_Task_18_Description"
   OverrideLocation: ""
   ItemName: RawhideT1
-  TP_TargetTag: ""
   POITag: ""
   UIScreenTag: ""
+  InteractTag: ""
 - TaskID: Quest_03190_Task_6
   SubTask1: ""
   SubTask2: ""
@@ -918,7 +1087,6 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  SubTask8: ""
   Type: TASKCONVERSATIONTOPIC
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -955,9 +1123,9 @@
   TP_DescriptionTag: "@Quest_03190_Task_6_Description"
   OverrideLocation: ""
   ItemName: NPC_04629
-  TP_TargetTag: ""
   POITag: ""
   UIScreenTag: NPC_04629_State_1_Topic_0
+  InteractTag: ""
 - TaskID: Quest_03190_Task_17
   SubTask1: ""
   SubTask2: ""
@@ -966,7 +1134,6 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  SubTask8: ""
   Type: TASKCONVERSATIONTOPIC
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -1003,10 +1170,10 @@
   TP_DescriptionTag: "@Quest_03190_Task_17_Description_0"
   OverrideLocation: ""
   ItemName: NPC_04629
-  TP_TargetTag: ""
   POITag: ""
   UIScreenTag: NPC_04629_State_2_Topic_0
-- TaskID: Quest_03190_Task_1_0
+  InteractTag: ""
+- TaskID: Quest_03190_Task_19
   SubTask1: ""
   SubTask2: ""
   SubTask3: ""
@@ -1014,8 +1181,7 @@
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  SubTask8: ""
-  Type: TASKUNLOCKACHIEVEMENT
+  Type: TASKCONVERSATIONTOPIC
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
   TargetQty: "0"
@@ -1040,7 +1206,7 @@
   TP_HideOnCompassOnEnterPOI: "false"
   GameModeMustBeMutated: "false"
   StayActive: "false"
-  IsHidden: "true"
+  IsHidden: "false"
   TriggerAnalyticsEvent: "false"
   HideProgress: "false"
   EnforceLocationRequirement: "false"
@@ -1048,9 +1214,9 @@
   ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
-  TP_DescriptionTag: "@Quest_03190_Task_1_0_Description"
+  TP_DescriptionTag: "@Quest_03190_Task_19_Description"
   OverrideLocation: ""
-  ItemName: SS2_SwapActive_Aelstrom_01a
-  TP_TargetTag: "@Quest_03190_Task_1_0_TargetTag"
+  ItemName: NPC_04627
   POITag: ""
-  UIScreenTag: ""
+  UIScreenTag: NPC_04627_State_3_Topic_0
+  InteractTag: ""

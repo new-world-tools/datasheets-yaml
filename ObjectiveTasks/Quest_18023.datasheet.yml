@@ -1,5 +1,6 @@
 - TaskID: Quest_18023_Task_0
   SubTask1: Quest_18023_Task_1
+  SubTask2: Quest_18023_Task_2
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -15,7 +16,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -34,9 +35,11 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: ""
-  POITag: ""
+  ItemName: ""
+  UIScreenTag: ""
 - TaskID: Quest_18023_Task_1
   SubTask1: ""
+  SubTask2: ""
   Type: TASKGOTOPOITAG
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -52,7 +55,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -71,4 +74,44 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18023_Task_1_Description"
-  POITag: spider_castle_20331
+  ItemName: ""
+  UIScreenTag: ""
+- TaskID: Quest_18023_Task_2
+  SubTask1: ""
+  SubTask2: ""
+  Type: TASKCONVERSATIONTOPIC
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: "@Quest_18023_Task_2_Description"
+  ItemName: NPC_18048
+  UIScreenTag: NPC_18048_State_1_Topic_0

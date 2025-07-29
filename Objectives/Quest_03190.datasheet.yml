@@ -7,11 +7,10 @@
   RequiredLevel: "0"
   DifficultyLevel: "0"
   AchievementId: SS2_Quest_01a_Complete
-  RequiredAchievementId: "!SS2_Quest_01_Started && !SS2_Quest_01_Complete"
+  RequiredAchievementId: debug_1 && !SS2_Quest_01_Complete
   SuccessGameEventId: 90_SS2_Quest01a_Success
   ExperienceReward: "0"
-  ItemRewardName: SeasonalAzothStaffBox
-  ItemRewardQty: "1"
+  ItemRewardQty: "0"
   Repeatable: "false"
   CanBeAbandoned: "false"
   ExclusiveTerritory: "12"

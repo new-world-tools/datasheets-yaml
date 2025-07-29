@@ -1798,8 +1798,8 @@
   mat_water_deep: EnvironmentWater
   mat_water_shallow: EnvironmentWater
   mat_wood: EnvironmentWood
-  mat_corruption_core: EnvironmentCorruptionCore
-  mat_corruption: EnvironmentCorruptionCore
+  mat_corruption_core: EnvironmentDefault
+  mat_corruption: EnvironmentDefault
   mat_holy_shield: HolyShield_Proj
   mat_ice_entomb: EnvironmentRock
 - Name: Mammoth_LavaToss
@@ -1886,8 +1886,8 @@
   mat_water_deep: EnvironmentWater
   mat_water_shallow: EnvironmentWater
   mat_wood: EnvironmentWood
-  mat_corruption_core: EnvironmentCorruptionCore
-  mat_corruption: EnvironmentCorruptionCore
+  mat_corruption_core: EnvironmentDefault
+  mat_corruption: EnvironmentDefault
   mat_holy_shield: HolyShield_Proj
   mat_ice_entomb: EnvironmentRock
 - Name: Medusa_SlashPoison
@@ -1908,8 +1908,8 @@
   mat_water_deep: Medusa_SlashPoison_Env
   mat_water_shallow: Medusa_SlashPoison_Env
   mat_wood: Medusa_SlashPoison_Env
-  mat_corruption_core: EnvironmentCorruptionCore
-  mat_corruption: EnvironmentCorruptionCore
+  mat_corruption_core: Medusa_SlashPoison_Env
+  mat_corruption: Medusa_SlashPoison_Env
   mat_holy_shield: HolyShield_Proj
   mat_ice_entomb: Medusa_SlashPoison_Env
 - Name: Medusa_Charge
@@ -1930,8 +1930,8 @@
   mat_water_deep: Medusa_Charge_Env
   mat_water_shallow: Medusa_Charge_Env
   mat_wood: Medusa_Charge_Env
-  mat_corruption_core: EnvironmentCorruptionCore
-  mat_corruption: EnvironmentCorruptionCore
+  mat_corruption_core: Medusa_Charge_Env
+  mat_corruption: Medusa_Charge_Env
   mat_holy_shield: HolyShield_Proj
   mat_ice_entomb: Medusa_Charge_Env
 - Name: Kurok_Nature_RipperProjectile
@@ -1978,3 +1978,47 @@
   mat_corruption: Mordred_ManiFistAtion
   mat_holy_shield: HolyShield_Proj
   mat_ice_entomb: Mordred_ManiFistAtion
+- Name: Dagger
+  mat_default: EnvironmentSwordDirt
+  mat_bark: EnvironmentSwordWood
+  mat_dirt: EnvironmentSwordDirt
+  mat_fabric: EnvironmentSwordFabric
+  mat_glass: EnvironmentSwordRock
+  mat_grass: EnvironmentSwordGrass
+  mat_metal: EnvironmentSwordMetal
+  mat_mud: EnvironmentSwordDirt
+  mat_rock: EnvironmentSwordRock
+  mat_rock_wet: EnvironmentSwordRock
+  mat_sand: EnvironmentSwordSand
+  mat_sand_wet: EnvironmentSwordSand
+  mat_thatch: EnvironmentSwordDirt
+  mat_water: EnvironmentSwordWater
+  mat_water_deep: EnvironmentSwordWater
+  mat_water_shallow: EnvironmentSwordWater
+  mat_wood: EnvironmentSwordWood
+  mat_corruption_core: EnvironmentCorruptionCore
+  mat_corruption: EnvironmentCorruptionCore
+  mat_holy_shield: HolyShield_Proj
+  mat_ice_entomb: EnvironmentSwordRock
+- Name: Dagger+Crit
+  mat_default: EnvironmentDefault
+  mat_bark: EnvironmentSwordWood
+  mat_dirt: EnvironmentSwordDirt
+  mat_fabric: EnvironmentSwordFabric
+  mat_glass: EnvironmentSwordRock
+  mat_grass: EnvironmentSwordGrass
+  mat_metal: EnvironmentSwordMetal
+  mat_mud: EnvironmentSwordDirt
+  mat_rock: EnvironmentSwordRock
+  mat_rock_wet: EnvironmentSwordRock
+  mat_sand: EnvironmentSwordSand
+  mat_sand_wet: EnvironmentSwordSand
+  mat_thatch: EnvironmentSwordDirt
+  mat_water: EnvironmentSwordWater
+  mat_water_deep: EnvironmentSwordWater
+  mat_water_shallow: EnvironmentSwordWater
+  mat_wood: EnvironmentSwordWood
+  mat_corruption_core: EnvironmentCorruptionCore
+  mat_corruption: EnvironmentCorruptionCore
+  mat_holy_shield: HolyShield_Proj
+  mat_ice_entomb: EnvironmentSwordRock

@@ -1,5 +1,6 @@
 - TaskID: Quest_18019_Task_0
   SubTask1: Quest_18019_Task_1
+  SubTask2: Quest_18019_Task_4
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -15,7 +16,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -34,10 +35,16 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: ""
-  POITag: ""
+  TP_TargetTag: ""
+  OverrideLocation: ""
+  ItemName: ""
+  ItemDropVC: ""
+  InteractTag: ""
+  SubTask3: ""
 - TaskID: Quest_18019_Task_1
   SubTask1: ""
-  Type: TASKGOTOPOITAG
+  SubTask2: ""
+  Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
   TargetQty: "1"
@@ -52,7 +59,50 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "true"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: "@Quest_18019_Task_1_Description"
+  TP_TargetTag: TV_17_MSQ_DestroyedCaravan
+  OverrideLocation: 3850.710938 5946.895996 175.910004
+  ItemName: ""
+  ItemDropVC: ""
+  InteractTag: ""
+  SubTask3: ""
+- TaskID: Quest_18019_Task_2
+  SubTask1: ""
+  SubTask2: ""
+  Type: TASKACHIEVEMENT
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -70,5 +120,139 @@
   ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
-  TP_DescriptionTag: "@Quest_18019_Task_1_Description"
-  POITag: werebeast_warren_20211
+  TP_DescriptionTag: "@Quest_18019_Task_2_Description"
+  TP_TargetTag: ""
+  OverrideLocation: 3855.351074 5938.579102 176.044998
+  ItemName: Lore_unlock_Topic_17_Nighthaven_Title_01_01
+  ItemDropVC: ""
+  InteractTag: ""
+  SubTask3: ""
+- TaskID: Quest_18019_Task_3
+  SubTask1: ""
+  SubTask2: ""
+  Type: TASKGATHERANDRETURNITEMS
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "100"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "true"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: "@Quest_18019_Task_3_Description"
+  TP_TargetTag: ""
+  OverrideLocation: 3850.370117 5932.028809 175.921005
+  ItemName: 17_MSQ_Scrawled_Notes
+  ItemDropVC: 17_MSQ_ScrawledNotes
+  InteractTag: IO_17_MSQ_ScrawledNotes
+  SubTask3: ""
+- TaskID: Quest_18019_Task_2_0
+  SubTask1: ""
+  SubTask2: ""
+  Type: TASKACHIEVEMENT
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: "@Quest_18019_Task_2_0_Description"
+  TP_TargetTag: ""
+  OverrideLocation: 3844.758057 5930.046875 179.550995
+  ItemName: Lore_unlock_Topic_17_Nighthaven_Title_01_02
+  ItemDropVC: ""
+  InteractTag: ""
+  SubTask3: ""
+- TaskID: Quest_18019_Task_4
+  SubTask1: Quest_18019_Task_2
+  SubTask2: Quest_18019_Task_2_0
+  Type: SIMPLETASKCONTAINER
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "0"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "true"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: ""
+  TP_TargetTag: ""
+  OverrideLocation: ""
+  ItemName: ""
+  ItemDropVC: ""
+  InteractTag: ""
+  SubTask3: Quest_18019_Task_3

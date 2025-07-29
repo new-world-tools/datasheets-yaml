@@ -4,9 +4,9 @@
   Notes: ""
   WindowHeader: ""
   RankSorting: ""
-  EffectCategories: NonDispellableDebuff+NonDispellableSlow+NonDispellableExhaust+NonDispellableRend+NonDispellableDisease+CTFFlags
+  EffectCategories: Tracker
   PlaceholderIcon: LyShineUI/Images/status/SE_FlagCarrier.png
-  ShowInUITray: true
+  ShowInUITray: false
   ShowTextInDamageNumbers: false
   FxScriptOn: ""
   FxScriptOff: ""
@@ -19,10 +19,10 @@
   PotencyPerLevel: ""
   HideHudDurationNumbers: ""
   BaseDuration: -1.0
-  TickRate: 1.0
+  TickRate: 4.0
   DelayInitialTick: false
   TickCondition: ""
-  OnTickStatusEffect: ""
+  OnTickStatusEffect: GM_CTF_TickingFlagDebuff
   KeepOnTickEffectOnEnd: ""
   StopOnHitCount: ""
   HitCondition: ""
@@ -58,13 +58,13 @@
   FromAlchemy: ""
   FromSpell: ""
   NoHealthRegen: ""
-  HealMod: -0.5
+  HealMod: 0.0
   MaxHealthMod: 0.0
   HealthRate: ""
   CoreTempMod: ""
   TempMod: ""
   Stamina: ""
-  StaminaRate: -0.5
+  StaminaRate: 0.0
   Mana: ""
   ManaRate: ""
   Food: ""
@@ -153,19 +153,19 @@
   INSMining: ""
   INSSkinning: ""
   INSHarvesting: ""
-  PhysicalArmor: -0.5
-  ElementalArmor: -0.5
-  ABSStandard: -0.5
-  ABSSiege: -0.5
-  ABSStrike: -0.5
-  ABSSlash: -0.5
-  ABSThrust: -0.5
-  ABSArcane: -0.5
-  ABSFire: -0.5
-  ABSIce: -0.5
-  ABSNature: -0.5
-  ABSLightning: -0.5
-  ABSCorruption: -0.5
+  PhysicalArmor: 0.0
+  ElementalArmor: 0.0
+  ABSStandard: 0.0
+  ABSSiege: 0.0
+  ABSStrike: 0.0
+  ABSSlash: 0.0
+  ABSThrust: 0.0
+  ABSArcane: 0.0
+  ABSFire: 0.0
+  ABSIce: 0.0
+  ABSNature: 0.0
+  ABSLightning: 0.0
+  ABSCorruption: 0.0
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -223,14 +223,14 @@
   DurationMax: null
   InheritDuration: null
   InheritTotalDuration: ""
-  RefreshDuration: ""
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: null
   PotencyMax: ""
   DontReplaceStack: ""
-  MoveSpeedMod: -0.25
-  SprintSpeedMod: -0.25
+  MoveSpeedMod: 0.0
+  SprintSpeedMod: 0.0
   FastTravelEncumbranceMod: ""
   GameEventId: ""
   HealRewardGameEventId: ""
@@ -261,15 +261,17 @@
   AlwaysReplicate: null
   UseLightweightReplication: true
   TriggersTutorial: null
+  JumpModScalar: null
+  JumpModType: ""
 - StatusID: GM_CTF_RedFlag
   DisplayName: "@ctf_flag_carrier_debuff_icon_name"
   Description: "@ctf_flag_carrier_debuff_icon_desc"
   Notes: ""
   WindowHeader: ""
   RankSorting: ""
-  EffectCategories: NonDispellableDebuff+NonDispellableSlow+NonDispellableExhaust+NonDispellableRend+NonDispellableDisease+CTFFlags
+  EffectCategories: Tracker
   PlaceholderIcon: LyShineUI/Images/status/SE_FlagCarrier.png
-  ShowInUITray: true
+  ShowInUITray: false
   ShowTextInDamageNumbers: false
   FxScriptOn: ""
   FxScriptOff: ""
@@ -282,10 +284,10 @@
   PotencyPerLevel: ""
   HideHudDurationNumbers: ""
   BaseDuration: -1.0
-  TickRate: 1.0
+  TickRate: 4.0
   DelayInitialTick: false
   TickCondition: ""
-  OnTickStatusEffect: ""
+  OnTickStatusEffect: GM_CTF_TickingFlagDebuff
   KeepOnTickEffectOnEnd: ""
   StopOnHitCount: ""
   HitCondition: ""
@@ -321,13 +323,13 @@
   FromAlchemy: ""
   FromSpell: ""
   NoHealthRegen: ""
-  HealMod: -0.5
+  HealMod: 0.0
   MaxHealthMod: 0.0
   HealthRate: ""
   CoreTempMod: ""
   TempMod: ""
   Stamina: ""
-  StaminaRate: -0.5
+  StaminaRate: 0.0
   Mana: ""
   ManaRate: ""
   Food: ""
@@ -416,19 +418,19 @@
   INSMining: ""
   INSSkinning: ""
   INSHarvesting: ""
-  PhysicalArmor: -0.5
-  ElementalArmor: -0.5
-  ABSStandard: -0.5
-  ABSSiege: -0.5
-  ABSStrike: -0.5
-  ABSSlash: -0.5
-  ABSThrust: -0.5
-  ABSArcane: -0.5
-  ABSFire: -0.5
-  ABSIce: -0.5
-  ABSNature: -0.5
-  ABSLightning: -0.5
-  ABSCorruption: -0.5
+  PhysicalArmor: 0.0
+  ElementalArmor: 0.0
+  ABSStandard: 0.0
+  ABSSiege: 0.0
+  ABSStrike: 0.0
+  ABSSlash: 0.0
+  ABSThrust: 0.0
+  ABSArcane: 0.0
+  ABSFire: 0.0
+  ABSIce: 0.0
+  ABSNature: 0.0
+  ABSLightning: 0.0
+  ABSCorruption: 0.0
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -486,14 +488,14 @@
   DurationMax: null
   InheritDuration: null
   InheritTotalDuration: ""
-  RefreshDuration: ""
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: null
   PotencyMax: ""
   DontReplaceStack: ""
-  MoveSpeedMod: -0.25
-  SprintSpeedMod: -0.25
+  MoveSpeedMod: 0.0
+  SprintSpeedMod: 0.0
   FastTravelEncumbranceMod: ""
   GameEventId: ""
   HealRewardGameEventId: ""
@@ -524,15 +526,17 @@
   AlwaysReplicate: null
   UseLightweightReplication: true
   TriggersTutorial: null
+  JumpModScalar: null
+  JumpModType: ""
 - StatusID: GM_CTF_BlueFlag
   DisplayName: "@ctf_flag_carrier_debuff_icon_name"
   Description: "@ctf_flag_carrier_debuff_icon_desc"
   Notes: ""
   WindowHeader: ""
   RankSorting: ""
-  EffectCategories: NonDispellableDebuff+NonDispellableSlow+NonDispellableExhaust+NonDispellableRend+NonDispellableDisease+CTFFlags
+  EffectCategories: Tracker
   PlaceholderIcon: LyShineUI/Images/status/SE_FlagCarrier.png
-  ShowInUITray: true
+  ShowInUITray: false
   ShowTextInDamageNumbers: false
   FxScriptOn: ""
   FxScriptOff: ""
@@ -545,10 +549,10 @@
   PotencyPerLevel: ""
   HideHudDurationNumbers: ""
   BaseDuration: -1.0
-  TickRate: 1.0
+  TickRate: 4.0
   DelayInitialTick: false
   TickCondition: ""
-  OnTickStatusEffect: ""
+  OnTickStatusEffect: GM_CTF_TickingFlagDebuff
   KeepOnTickEffectOnEnd: ""
   StopOnHitCount: ""
   HitCondition: ""
@@ -584,13 +588,13 @@
   FromAlchemy: ""
   FromSpell: ""
   NoHealthRegen: ""
-  HealMod: -0.5
+  HealMod: 0.0
   MaxHealthMod: 0.0
   HealthRate: ""
   CoreTempMod: ""
   TempMod: ""
   Stamina: ""
-  StaminaRate: -0.5
+  StaminaRate: 0.0
   Mana: ""
   ManaRate: ""
   Food: ""
@@ -679,19 +683,19 @@
   INSMining: ""
   INSSkinning: ""
   INSHarvesting: ""
-  PhysicalArmor: -0.5
-  ElementalArmor: -0.5
-  ABSStandard: -0.5
-  ABSSiege: -0.5
-  ABSStrike: -0.5
-  ABSSlash: -0.5
-  ABSThrust: -0.5
-  ABSArcane: -0.5
-  ABSFire: -0.5
-  ABSIce: -0.5
-  ABSNature: -0.5
-  ABSLightning: -0.5
-  ABSCorruption: -0.5
+  PhysicalArmor: 0.0
+  ElementalArmor: 0.0
+  ABSStandard: 0.0
+  ABSSiege: 0.0
+  ABSStrike: 0.0
+  ABSSlash: 0.0
+  ABSThrust: 0.0
+  ABSArcane: 0.0
+  ABSFire: 0.0
+  ABSIce: 0.0
+  ABSNature: 0.0
+  ABSLightning: 0.0
+  ABSCorruption: 0.0
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -749,14 +753,14 @@
   DurationMax: null
   InheritDuration: null
   InheritTotalDuration: ""
-  RefreshDuration: ""
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: null
   PotencyMax: ""
   DontReplaceStack: ""
-  MoveSpeedMod: -0.25
-  SprintSpeedMod: -0.25
+  MoveSpeedMod: 0.0
+  SprintSpeedMod: 0.0
   FastTravelEncumbranceMod: ""
   GameEventId: ""
   HealRewardGameEventId: ""
@@ -787,15 +791,282 @@
   AlwaysReplicate: null
   UseLightweightReplication: true
   TriggersTutorial: null
+  JumpModScalar: null
+  JumpModType: ""
+- StatusID: GM_CTF_TickingFlagDebuff
+  DisplayName: "@ctf_flag_carrier_debuff_icon_name"
+  Description: "@ctf_flag_carrier_debuff_icon_desc"
+  Notes: ""
+  WindowHeader: ""
+  RankSorting: ""
+  EffectCategories: NonDispellableDebuff+NonDispellableSlow+NonDispellableExhaust+NonDispellableRend+NonDispellableDisease+NonDispellableArmorRend+CTFFlags
+  PlaceholderIcon: LyShineUI/Images/status/SE_FlagCarrier.png
+  ShowInUITray: true
+  ShowTextInDamageNumbers: false
+  FxScriptOn: ""
+  FxScriptOff: ""
+  ShouldRefreshFxScript: ""
+  WeaponEffectType: ""
+  Notification: ""
+  DisableTelemetry: ""
+  IsClientPredicted: ""
+  PauseInGameModesList: ""
+  PotencyPerLevel: ""
+  HideHudDurationNumbers: ""
+  BaseDuration: -1.0
+  TickRate: null
+  DelayInitialTick: false
+  TickCondition: ""
+  OnTickStatusEffect: ""
+  KeepOnTickEffectOnEnd: ""
+  StopOnHitCount: ""
+  HitCondition: ""
+  RequireReaction: ""
+  OnStackStatusEffect: ""
+  AddOnStackSize: ""
+  AddOnStackSizeComparison: ""
+  HealThreatMultiplier: ""
+  ScaleAmountOverTime: ""
+  ScaleAmountOverTimeMin: ""
+  ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
+  DamageSkipsDeathsDoor: ""
+  Health: null
+  HealthMin: ""
+  HealthMinPercent: ""
+  HealthModifierBasePercent: ""
+  HealthModifierPercent: ""
+  HealthModifierDamageBased: ""
+  UseHealScalingValue: ""
+  HealScalingValueMultiplier: ""
+  StaminaDamageModifier: ""
+  ManaModifierDamageBased: ""
+  DamageType: ""
+  CritChanceModifier: ""
+  CritDamageModifier: ""
+  OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: ""
+  CastSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
+  TargetOwnsSpell: null
+  UseSourceWeaponForSpell: ""
+  FromAlchemy: ""
+  FromSpell: ""
+  NoHealthRegen: ""
+  HealMod: -0.1
+  MaxHealthMod: 0.0
+  HealthRate: ""
+  CoreTempMod: ""
+  TempMod: ""
+  Stamina: ""
+  StaminaRate: -0.1
+  Mana: ""
+  ManaRate: ""
+  Food: ""
+  FoodBurn: ""
+  Drink: ""
+  DrinkBurn: ""
+  Encumbrance: ""
+  ItemClassWeightMods: ""
+  XPIncreases: ""
+  AzothMod: ""
+  FactionReputationMod: ""
+  FactionTokensMod: ""
+  EXPLogging: ""
+  EXPMining: ""
+  EXPHarvesting: ""
+  EXPSkinning: ""
+  EXPSmelting: ""
+  EXPWoodworking: ""
+  EXPLeatherworking: ""
+  EXPWeaving: ""
+  EXPStonecutting: ""
+  GrantSanctuary: ""
+  NoSprint: ""
+  NoRun: ""
+  NoDodge: null
+  NoNav: ""
+  Silenced: null
+  Stunned: ""
+  RemoveOnDeath: 1.0
+  RemoveOnDeathsDoor: 1.0
+  RemoveOnDeathsDoorRevive: ""
+  RemoveOnRespawn: 1.0
+  RemoveOnGameModeExit: 1.0
+  IgnoreDiminishingReturns: ""
+  OnlyChangeOwnedStatusEffects: ""
+  Afflictions: ""
+  OnHitAffixes: ""
+  EquipAbility: ""
+  UseSourceWeaponForAbilityEffect: ""
+  IsNegative: ""
+  RespecTradeskills: ""
+  RespecAttributes: ""
+  EffectDurationMods: ""
+  EffectPotencyMods: ""
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: ""
+  GlobalRollMod: ""
+  FishingLineStrength: ""
+  FishSizeRollModifier: ""
+  MODConstitution: ""
+  MODFocus: ""
+  MODStrength: ""
+  MODDexterity: ""
+  MODIntelligence: ""
+  MGSArcana: ""
+  MGSWeaponsmithing: ""
+  MGSJewelcrafting: ""
+  MGSEngineering: ""
+  MGSArmoring: ""
+  MaxGSArcana: ""
+  MaxGSWeaponsmithing: ""
+  MaxGSJewelcrafting: ""
+  MaxGSEngineering: ""
+  MaxGSArmoring: ""
+  ROLCooking: ""
+  ROLWeaving: ""
+  ROLStonecutting: ""
+  ROLSmelting: ""
+  ROLLeatherworking: ""
+  ROLWoodworking: ""
+  ROLLogging: ""
+  ROLMining: ""
+  ROLSkinning: ""
+  ROLHarvesting: ""
+  ROLFishing: ""
+  MULTLogging: ""
+  MULTMining: ""
+  MULTSkinning: ""
+  MULTHarvesting: ""
+  MULTFishing: ""
+  EFFLogging: ""
+  EFFMining: ""
+  EFFSkinning: ""
+  EFFHarvesting: ""
+  INSLogging: ""
+  INSMining: ""
+  INSSkinning: ""
+  INSHarvesting: ""
+  PhysicalArmor: -0.06
+  ElementalArmor: -0.06
+  ABSStandard: -0.06
+  ABSSiege: -0.06
+  ABSStrike: -0.06
+  ABSSlash: -0.06
+  ABSThrust: -0.06
+  ABSArcane: -0.06
+  ABSFire: -0.06
+  ABSIce: -0.06
+  ABSNature: -0.06
+  ABSLightning: -0.06
+  ABSCorruption: -0.06
+  ABSVitalsCategory: ""
+  RESPoison: ""
+  RESDisease: ""
+  RESBleed: ""
+  RESFrostbite: ""
+  RESCurse: ""
+  RESBlight: ""
+  BLAStandard: ""
+  BLASiege: ""
+  BLAStrike: ""
+  BLASlash: ""
+  BLAThrust: ""
+  BLAArcane: ""
+  BLAFire: ""
+  BLAIce: ""
+  BLALightning: ""
+  BLACorruption: ""
+  ABAPoison: ""
+  ABADisease: ""
+  ABABleed: ""
+  ABAFrostbite: ""
+  ABACurse: ""
+  ABABlight: ""
+  WKNStandard: ""
+  WKNSiege: ""
+  WKNStrike: ""
+  WKNSlash: ""
+  WKNThrust: ""
+  WKNArcane: ""
+  WKNFire: ""
+  WKNIce: ""
+  WKNNature: ""
+  WKNLightning: ""
+  WKNCorruption: ""
+  DMGStandard: null
+  DMGSiege: null
+  DMGStrike: null
+  DMGSlash: null
+  DMGThrust: null
+  DMGArcane: null
+  DMGFire: null
+  DMGIce: null
+  DMGNature: null
+  DMGLightning: null
+  DMGCorruption: null
+  DMGAcid: null
+  DMGVitalsCategory: ""
+  AFAPoison: ""
+  AFADisease: ""
+  AFABleed: ""
+  AFAFrostbite: ""
+  AFACurse: ""
+  AFABlight: ""
+  StackDuration: null
+  DurationMax: null
+  InheritDuration: null
+  InheritTotalDuration: ""
+  RefreshDuration: null
+  StackMax: 5.0
+  InitialStackSize: ""
+  RemoveUnappliedStacks: null
+  PotencyMax: ""
+  DontReplaceStack: ""
+  MoveSpeedMod: -0.05
+  SprintSpeedMod: -0.05
+  FastTravelEncumbranceMod: ""
+  GameEventId: ""
+  HealRewardGameEventId: ""
+  HealRewardThreshold: ""
+  WeaponMasteryCategoryId: ""
+  UIPriority: null
+  UiNameplatePriority: null
+  ShowInNameplates: false
+  ShowTextInNameplates: ""
+  OverrideOtherNameplateText: ""
+  HidesOtherStatusEffectIcons: ""
+  DynamicModelScaleFactor: ""
+  DynamicModelScaleRampTimeSecs: ""
+  SpawnSlice: ""
+  DisableSupportContributionRewards: ""
+  BlockMultipleEffectsFromSameSource: ""
+  AllowSelfOnlyAsSourceForAbilities: ""
+  IgnoreInvulnerable: true
+  NotCombatAction: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  IsServerOnly: ""
+  AlwaysReplicate: null
+  UseLightweightReplication: false
+  TriggersTutorial: null
+  JumpModScalar: null
+  JumpModType: ""
 - StatusID: GM_CTF_Flag_01
   DisplayName: "@ctf_flag_carrier_debuff_icon_name"
   Description: "@ctf_flag_carrier_debuff_icon_desc"
   Notes: NoDodge
   WindowHeader: ""
   RankSorting: ""
-  EffectCategories: NonDispellableDebuff+NonDispellableSlow+NonDispellableExhaust+NonDispellableRend+NonDispellableDisease+CTFFlags
+  EffectCategories: Tracker
   PlaceholderIcon: LyShineUI/Images/status/SE_FlagCarrier.png
-  ShowInUITray: true
+  ShowInUITray: false
   ShowTextInDamageNumbers: false
   FxScriptOn: ""
   FxScriptOff: ""
@@ -808,10 +1079,10 @@
   PotencyPerLevel: ""
   HideHudDurationNumbers: ""
   BaseDuration: -1.0
-  TickRate: 1.0
+  TickRate: 4.0
   DelayInitialTick: false
   TickCondition: ""
-  OnTickStatusEffect: ""
+  OnTickStatusEffect: GM_CTF_TickingFlagDebuff
   KeepOnTickEffectOnEnd: ""
   StopOnHitCount: ""
   HitCondition: ""
@@ -847,13 +1118,13 @@
   FromAlchemy: ""
   FromSpell: ""
   NoHealthRegen: ""
-  HealMod: -0.5
+  HealMod: 0.0
   MaxHealthMod: 0.0
   HealthRate: ""
   CoreTempMod: ""
   TempMod: ""
   Stamina: ""
-  StaminaRate: -0.5
+  StaminaRate: 0.0
   Mana: ""
   ManaRate: ""
   Food: ""
@@ -942,19 +1213,19 @@
   INSMining: ""
   INSSkinning: ""
   INSHarvesting: ""
-  PhysicalArmor: -0.5
-  ElementalArmor: -0.5
-  ABSStandard: -0.5
-  ABSSiege: -0.5
-  ABSStrike: -0.5
-  ABSSlash: -0.5
-  ABSThrust: -0.5
-  ABSArcane: -0.5
-  ABSFire: -0.5
-  ABSIce: -0.5
-  ABSNature: -0.5
-  ABSLightning: -0.5
-  ABSCorruption: -0.5
+  PhysicalArmor: 0.0
+  ElementalArmor: 0.0
+  ABSStandard: 0.0
+  ABSSiege: 0.0
+  ABSStrike: 0.0
+  ABSSlash: 0.0
+  ABSThrust: 0.0
+  ABSArcane: 0.0
+  ABSFire: 0.0
+  ABSIce: 0.0
+  ABSNature: 0.0
+  ABSLightning: 0.0
+  ABSCorruption: 0.0
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -1012,14 +1283,14 @@
   DurationMax: null
   InheritDuration: null
   InheritTotalDuration: ""
-  RefreshDuration: ""
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: null
   PotencyMax: ""
   DontReplaceStack: ""
-  MoveSpeedMod: -0.25
-  SprintSpeedMod: -0.25
+  MoveSpeedMod: 0.0
+  SprintSpeedMod: 0.0
   FastTravelEncumbranceMod: ""
   GameEventId: ""
   HealRewardGameEventId: ""
@@ -1050,15 +1321,17 @@
   AlwaysReplicate: null
   UseLightweightReplication: true
   TriggersTutorial: null
+  JumpModScalar: null
+  JumpModType: ""
 - StatusID: GM_CTF_RedFlag_01
   DisplayName: "@ctf_flag_carrier_debuff_icon_name"
   Description: "@ctf_flag_carrier_debuff_icon_desc"
   Notes: NoDodge
   WindowHeader: ""
   RankSorting: ""
-  EffectCategories: NonDispellableDebuff+NonDispellableSlow+NonDispellableExhaust+NonDispellableRend+NonDispellableDisease+CTFFlags
+  EffectCategories: Tracker
   PlaceholderIcon: LyShineUI/Images/status/SE_FlagCarrier.png
-  ShowInUITray: true
+  ShowInUITray: false
   ShowTextInDamageNumbers: false
   FxScriptOn: ""
   FxScriptOff: ""
@@ -1071,10 +1344,10 @@
   PotencyPerLevel: ""
   HideHudDurationNumbers: ""
   BaseDuration: -1.0
-  TickRate: 1.0
+  TickRate: 4.0
   DelayInitialTick: false
   TickCondition: ""
-  OnTickStatusEffect: ""
+  OnTickStatusEffect: GM_CTF_TickingFlagDebuff
   KeepOnTickEffectOnEnd: ""
   StopOnHitCount: ""
   HitCondition: ""
@@ -1110,13 +1383,13 @@
   FromAlchemy: ""
   FromSpell: ""
   NoHealthRegen: ""
-  HealMod: -0.5
+  HealMod: 0.0
   MaxHealthMod: 0.0
   HealthRate: ""
   CoreTempMod: ""
   TempMod: ""
   Stamina: ""
-  StaminaRate: -0.5
+  StaminaRate: 0.0
   Mana: ""
   ManaRate: ""
   Food: ""
@@ -1205,19 +1478,19 @@
   INSMining: ""
   INSSkinning: ""
   INSHarvesting: ""
-  PhysicalArmor: -0.5
-  ElementalArmor: -0.5
-  ABSStandard: -0.5
-  ABSSiege: -0.5
-  ABSStrike: -0.5
-  ABSSlash: -0.5
-  ABSThrust: -0.5
-  ABSArcane: -0.5
-  ABSFire: -0.5
-  ABSIce: -0.5
-  ABSNature: -0.5
-  ABSLightning: -0.5
-  ABSCorruption: -0.5
+  PhysicalArmor: 0.0
+  ElementalArmor: 0.0
+  ABSStandard: 0.0
+  ABSSiege: 0.0
+  ABSStrike: 0.0
+  ABSSlash: 0.0
+  ABSThrust: 0.0
+  ABSArcane: 0.0
+  ABSFire: 0.0
+  ABSIce: 0.0
+  ABSNature: 0.0
+  ABSLightning: 0.0
+  ABSCorruption: 0.0
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -1275,14 +1548,14 @@
   DurationMax: null
   InheritDuration: null
   InheritTotalDuration: ""
-  RefreshDuration: ""
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: null
   PotencyMax: ""
   DontReplaceStack: ""
-  MoveSpeedMod: -0.25
-  SprintSpeedMod: -0.25
+  MoveSpeedMod: 0.0
+  SprintSpeedMod: 0.0
   FastTravelEncumbranceMod: ""
   GameEventId: ""
   HealRewardGameEventId: ""
@@ -1313,15 +1586,17 @@
   AlwaysReplicate: null
   UseLightweightReplication: true
   TriggersTutorial: null
+  JumpModScalar: null
+  JumpModType: ""
 - StatusID: GM_CTF_BlueFlag_01
   DisplayName: "@ctf_flag_carrier_debuff_icon_name"
   Description: "@ctf_flag_carrier_debuff_icon_desc"
   Notes: NoDodge
   WindowHeader: ""
   RankSorting: ""
-  EffectCategories: NonDispellableDebuff+NonDispellableSlow+NonDispellableExhaust+NonDispellableRend+NonDispellableDisease+CTFFlags
+  EffectCategories: Tracker
   PlaceholderIcon: LyShineUI/Images/status/SE_FlagCarrier.png
-  ShowInUITray: true
+  ShowInUITray: false
   ShowTextInDamageNumbers: false
   FxScriptOn: ""
   FxScriptOff: ""
@@ -1334,10 +1609,10 @@
   PotencyPerLevel: ""
   HideHudDurationNumbers: ""
   BaseDuration: -1.0
-  TickRate: 1.0
+  TickRate: 4.0
   DelayInitialTick: false
   TickCondition: ""
-  OnTickStatusEffect: ""
+  OnTickStatusEffect: GM_CTF_TickingFlagDebuff
   KeepOnTickEffectOnEnd: ""
   StopOnHitCount: ""
   HitCondition: ""
@@ -1373,13 +1648,13 @@
   FromAlchemy: ""
   FromSpell: ""
   NoHealthRegen: ""
-  HealMod: -0.5
+  HealMod: 0.0
   MaxHealthMod: 0.0
   HealthRate: ""
   CoreTempMod: ""
   TempMod: ""
   Stamina: ""
-  StaminaRate: -0.5
+  StaminaRate: 0.0
   Mana: ""
   ManaRate: ""
   Food: ""
@@ -1468,19 +1743,19 @@
   INSMining: ""
   INSSkinning: ""
   INSHarvesting: ""
-  PhysicalArmor: -0.5
-  ElementalArmor: -0.5
-  ABSStandard: -0.5
-  ABSSiege: -0.5
-  ABSStrike: -0.5
-  ABSSlash: -0.5
-  ABSThrust: -0.5
-  ABSArcane: -0.5
-  ABSFire: -0.5
-  ABSIce: -0.5
-  ABSNature: -0.5
-  ABSLightning: -0.5
-  ABSCorruption: -0.5
+  PhysicalArmor: 0.0
+  ElementalArmor: 0.0
+  ABSStandard: 0.0
+  ABSSiege: 0.0
+  ABSStrike: 0.0
+  ABSSlash: 0.0
+  ABSThrust: 0.0
+  ABSArcane: 0.0
+  ABSFire: 0.0
+  ABSIce: 0.0
+  ABSNature: 0.0
+  ABSLightning: 0.0
+  ABSCorruption: 0.0
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -1538,14 +1813,14 @@
   DurationMax: null
   InheritDuration: null
   InheritTotalDuration: ""
-  RefreshDuration: ""
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: null
   PotencyMax: ""
   DontReplaceStack: ""
-  MoveSpeedMod: -0.25
-  SprintSpeedMod: -0.25
+  MoveSpeedMod: 0.0
+  SprintSpeedMod: 0.0
   FastTravelEncumbranceMod: ""
   GameEventId: ""
   HealRewardGameEventId: ""
@@ -1576,15 +1851,17 @@
   AlwaysReplicate: null
   UseLightweightReplication: true
   TriggersTutorial: null
+  JumpModScalar: null
+  JumpModType: ""
 - StatusID: GM_CTF_Flag_02
   DisplayName: "@ctf_flag_carrier_debuff_icon_name"
   Description: "@ctf_flag_carrier_debuff_icon_desc"
   Notes: Silenced
   WindowHeader: ""
   RankSorting: ""
-  EffectCategories: NonDispellableDebuff+NonDispellableSlow+NonDispellableExhaust+NonDispellableRend+NonDispellableDisease+CTFFlags
+  EffectCategories: Tracker
   PlaceholderIcon: LyShineUI/Images/status/SE_FlagCarrier.png
-  ShowInUITray: true
+  ShowInUITray: false
   ShowTextInDamageNumbers: false
   FxScriptOn: ""
   FxScriptOff: ""
@@ -1597,10 +1874,10 @@
   PotencyPerLevel: ""
   HideHudDurationNumbers: ""
   BaseDuration: -1.0
-  TickRate: 1.0
+  TickRate: 4.0
   DelayInitialTick: false
   TickCondition: ""
-  OnTickStatusEffect: ""
+  OnTickStatusEffect: GM_CTF_TickingFlagDebuff
   KeepOnTickEffectOnEnd: ""
   StopOnHitCount: ""
   HitCondition: ""
@@ -1636,13 +1913,13 @@
   FromAlchemy: ""
   FromSpell: ""
   NoHealthRegen: ""
-  HealMod: -0.5
+  HealMod: 0.0
   MaxHealthMod: 0.0
   HealthRate: ""
   CoreTempMod: ""
   TempMod: ""
   Stamina: ""
-  StaminaRate: -0.5
+  StaminaRate: 0.0
   Mana: ""
   ManaRate: ""
   Food: ""
@@ -1731,19 +2008,19 @@
   INSMining: ""
   INSSkinning: ""
   INSHarvesting: ""
-  PhysicalArmor: -0.5
-  ElementalArmor: -0.5
-  ABSStandard: -0.5
-  ABSSiege: -0.5
-  ABSStrike: -0.5
-  ABSSlash: -0.5
-  ABSThrust: -0.5
-  ABSArcane: -0.5
-  ABSFire: -0.5
-  ABSIce: -0.5
-  ABSNature: -0.5
-  ABSLightning: -0.5
-  ABSCorruption: -0.5
+  PhysicalArmor: 0.0
+  ElementalArmor: 0.0
+  ABSStandard: 0.0
+  ABSSiege: 0.0
+  ABSStrike: 0.0
+  ABSSlash: 0.0
+  ABSThrust: 0.0
+  ABSArcane: 0.0
+  ABSFire: 0.0
+  ABSIce: 0.0
+  ABSNature: 0.0
+  ABSLightning: 0.0
+  ABSCorruption: 0.0
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -1801,14 +2078,14 @@
   DurationMax: null
   InheritDuration: null
   InheritTotalDuration: ""
-  RefreshDuration: ""
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: null
   PotencyMax: ""
   DontReplaceStack: ""
-  MoveSpeedMod: -0.25
-  SprintSpeedMod: -0.25
+  MoveSpeedMod: 0.0
+  SprintSpeedMod: 0.0
   FastTravelEncumbranceMod: ""
   GameEventId: ""
   HealRewardGameEventId: ""
@@ -1839,15 +2116,17 @@
   AlwaysReplicate: null
   UseLightweightReplication: true
   TriggersTutorial: null
+  JumpModScalar: null
+  JumpModType: ""
 - StatusID: GM_CTF_RedFlag_02
   DisplayName: "@ctf_flag_carrier_debuff_icon_name"
   Description: "@ctf_flag_carrier_debuff_icon_desc"
   Notes: Silenced
   WindowHeader: ""
   RankSorting: ""
-  EffectCategories: NonDispellableDebuff+NonDispellableSlow+NonDispellableExhaust+NonDispellableRend+NonDispellableDisease+CTFFlags
+  EffectCategories: Tracker
   PlaceholderIcon: LyShineUI/Images/status/SE_FlagCarrier.png
-  ShowInUITray: true
+  ShowInUITray: false
   ShowTextInDamageNumbers: false
   FxScriptOn: ""
   FxScriptOff: ""
@@ -1860,10 +2139,10 @@
   PotencyPerLevel: ""
   HideHudDurationNumbers: ""
   BaseDuration: -1.0
-  TickRate: 1.0
+  TickRate: 4.0
   DelayInitialTick: false
   TickCondition: ""
-  OnTickStatusEffect: ""
+  OnTickStatusEffect: GM_CTF_TickingFlagDebuff
   KeepOnTickEffectOnEnd: ""
   StopOnHitCount: ""
   HitCondition: ""
@@ -1899,13 +2178,13 @@
   FromAlchemy: ""
   FromSpell: ""
   NoHealthRegen: ""
-  HealMod: -0.5
+  HealMod: 0.0
   MaxHealthMod: 0.0
   HealthRate: ""
   CoreTempMod: ""
   TempMod: ""
   Stamina: ""
-  StaminaRate: -0.5
+  StaminaRate: 0.0
   Mana: ""
   ManaRate: ""
   Food: ""
@@ -1994,19 +2273,19 @@
   INSMining: ""
   INSSkinning: ""
   INSHarvesting: ""
-  PhysicalArmor: -0.5
-  ElementalArmor: -0.5
-  ABSStandard: -0.5
-  ABSSiege: -0.5
-  ABSStrike: -0.5
-  ABSSlash: -0.5
-  ABSThrust: -0.5
-  ABSArcane: -0.5
-  ABSFire: -0.5
-  ABSIce: -0.5
-  ABSNature: -0.5
-  ABSLightning: -0.5
-  ABSCorruption: -0.5
+  PhysicalArmor: 0.0
+  ElementalArmor: 0.0
+  ABSStandard: 0.0
+  ABSSiege: 0.0
+  ABSStrike: 0.0
+  ABSSlash: 0.0
+  ABSThrust: 0.0
+  ABSArcane: 0.0
+  ABSFire: 0.0
+  ABSIce: 0.0
+  ABSNature: 0.0
+  ABSLightning: 0.0
+  ABSCorruption: 0.0
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -2064,14 +2343,14 @@
   DurationMax: null
   InheritDuration: null
   InheritTotalDuration: ""
-  RefreshDuration: ""
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: null
   PotencyMax: ""
   DontReplaceStack: ""
-  MoveSpeedMod: -0.25
-  SprintSpeedMod: -0.25
+  MoveSpeedMod: 0.0
+  SprintSpeedMod: 0.0
   FastTravelEncumbranceMod: ""
   GameEventId: ""
   HealRewardGameEventId: ""
@@ -2102,15 +2381,17 @@
   AlwaysReplicate: null
   UseLightweightReplication: true
   TriggersTutorial: null
+  JumpModScalar: null
+  JumpModType: ""
 - StatusID: GM_CTF_BlueFlag_02
   DisplayName: "@ctf_flag_carrier_debuff_icon_name"
   Description: "@ctf_flag_carrier_debuff_icon_desc"
   Notes: Silenced
   WindowHeader: ""
   RankSorting: ""
-  EffectCategories: NonDispellableDebuff+NonDispellableSlow+NonDispellableExhaust+NonDispellableRend+NonDispellableDisease+CTFFlags
+  EffectCategories: Tracker
   PlaceholderIcon: LyShineUI/Images/status/SE_FlagCarrier.png
-  ShowInUITray: true
+  ShowInUITray: false
   ShowTextInDamageNumbers: false
   FxScriptOn: ""
   FxScriptOff: ""
@@ -2123,10 +2404,10 @@
   PotencyPerLevel: ""
   HideHudDurationNumbers: ""
   BaseDuration: -1.0
-  TickRate: 1.0
+  TickRate: 4.0
   DelayInitialTick: false
   TickCondition: ""
-  OnTickStatusEffect: ""
+  OnTickStatusEffect: GM_CTF_TickingFlagDebuff
   KeepOnTickEffectOnEnd: ""
   StopOnHitCount: ""
   HitCondition: ""
@@ -2162,13 +2443,13 @@
   FromAlchemy: ""
   FromSpell: ""
   NoHealthRegen: ""
-  HealMod: -0.5
+  HealMod: 0.0
   MaxHealthMod: 0.0
   HealthRate: ""
   CoreTempMod: ""
   TempMod: ""
   Stamina: ""
-  StaminaRate: -0.5
+  StaminaRate: 0.0
   Mana: ""
   ManaRate: ""
   Food: ""
@@ -2257,19 +2538,19 @@
   INSMining: ""
   INSSkinning: ""
   INSHarvesting: ""
-  PhysicalArmor: -0.5
-  ElementalArmor: -0.5
-  ABSStandard: -0.5
-  ABSSiege: -0.5
-  ABSStrike: -0.5
-  ABSSlash: -0.5
-  ABSThrust: -0.5
-  ABSArcane: -0.5
-  ABSFire: -0.5
-  ABSIce: -0.5
-  ABSNature: -0.5
-  ABSLightning: -0.5
-  ABSCorruption: -0.5
+  PhysicalArmor: 0.0
+  ElementalArmor: 0.0
+  ABSStandard: 0.0
+  ABSSiege: 0.0
+  ABSStrike: 0.0
+  ABSSlash: 0.0
+  ABSThrust: 0.0
+  ABSArcane: 0.0
+  ABSFire: 0.0
+  ABSIce: 0.0
+  ABSNature: 0.0
+  ABSLightning: 0.0
+  ABSCorruption: 0.0
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -2327,14 +2608,14 @@
   DurationMax: null
   InheritDuration: null
   InheritTotalDuration: ""
-  RefreshDuration: ""
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: null
   PotencyMax: ""
   DontReplaceStack: ""
-  MoveSpeedMod: -0.25
-  SprintSpeedMod: -0.25
+  MoveSpeedMod: 0.0
+  SprintSpeedMod: 0.0
   FastTravelEncumbranceMod: ""
   GameEventId: ""
   HealRewardGameEventId: ""
@@ -2365,15 +2646,17 @@
   AlwaysReplicate: null
   UseLightweightReplication: true
   TriggersTutorial: null
+  JumpModScalar: null
+  JumpModType: ""
 - StatusID: GM_CTF_Flag_03
   DisplayName: "@ctf_flag_carrier_debuff_icon_name"
   Description: "@ctf_flag_carrier_debuff_icon_desc"
   Notes: NoDodgeAndSilenced
   WindowHeader: ""
   RankSorting: ""
-  EffectCategories: NonDispellableDebuff+NonDispellableSlow+NonDispellableExhaust+NonDispellableRend+NonDispellableDisease+CTFFlags
+  EffectCategories: Tracker
   PlaceholderIcon: LyShineUI/Images/status/SE_FlagCarrier.png
-  ShowInUITray: true
+  ShowInUITray: false
   ShowTextInDamageNumbers: false
   FxScriptOn: ""
   FxScriptOff: ""
@@ -2386,10 +2669,10 @@
   PotencyPerLevel: ""
   HideHudDurationNumbers: ""
   BaseDuration: -1.0
-  TickRate: 1.0
+  TickRate: 4.0
   DelayInitialTick: false
   TickCondition: ""
-  OnTickStatusEffect: ""
+  OnTickStatusEffect: GM_CTF_TickingFlagDebuff
   KeepOnTickEffectOnEnd: ""
   StopOnHitCount: ""
   HitCondition: ""
@@ -2425,13 +2708,13 @@
   FromAlchemy: ""
   FromSpell: ""
   NoHealthRegen: ""
-  HealMod: -0.5
+  HealMod: 0.0
   MaxHealthMod: 0.0
   HealthRate: ""
   CoreTempMod: ""
   TempMod: ""
   Stamina: ""
-  StaminaRate: -0.5
+  StaminaRate: 0.0
   Mana: ""
   ManaRate: ""
   Food: ""
@@ -2520,19 +2803,19 @@
   INSMining: ""
   INSSkinning: ""
   INSHarvesting: ""
-  PhysicalArmor: -0.5
-  ElementalArmor: -0.5
-  ABSStandard: -0.5
-  ABSSiege: -0.5
-  ABSStrike: -0.5
-  ABSSlash: -0.5
-  ABSThrust: -0.5
-  ABSArcane: -0.5
-  ABSFire: -0.5
-  ABSIce: -0.5
-  ABSNature: -0.5
-  ABSLightning: -0.5
-  ABSCorruption: -0.5
+  PhysicalArmor: 0.0
+  ElementalArmor: 0.0
+  ABSStandard: 0.0
+  ABSSiege: 0.0
+  ABSStrike: 0.0
+  ABSSlash: 0.0
+  ABSThrust: 0.0
+  ABSArcane: 0.0
+  ABSFire: 0.0
+  ABSIce: 0.0
+  ABSNature: 0.0
+  ABSLightning: 0.0
+  ABSCorruption: 0.0
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -2590,14 +2873,14 @@
   DurationMax: null
   InheritDuration: null
   InheritTotalDuration: ""
-  RefreshDuration: ""
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: null
   PotencyMax: ""
   DontReplaceStack: ""
-  MoveSpeedMod: -0.25
-  SprintSpeedMod: -0.25
+  MoveSpeedMod: 0.0
+  SprintSpeedMod: 0.0
   FastTravelEncumbranceMod: ""
   GameEventId: ""
   HealRewardGameEventId: ""
@@ -2628,15 +2911,17 @@
   AlwaysReplicate: null
   UseLightweightReplication: true
   TriggersTutorial: null
+  JumpModScalar: null
+  JumpModType: ""
 - StatusID: GM_CTF_RedFlag_03
   DisplayName: "@ctf_flag_carrier_debuff_icon_name"
   Description: "@ctf_flag_carrier_debuff_icon_desc"
   Notes: NoDodgeAndSilenced
   WindowHeader: ""
   RankSorting: ""
-  EffectCategories: NonDispellableDebuff+NonDispellableSlow+NonDispellableExhaust+NonDispellableRend+NonDispellableDisease+CTFFlags
+  EffectCategories: Tracker
   PlaceholderIcon: LyShineUI/Images/status/SE_FlagCarrier.png
-  ShowInUITray: true
+  ShowInUITray: false
   ShowTextInDamageNumbers: false
   FxScriptOn: ""
   FxScriptOff: ""
@@ -2649,10 +2934,10 @@
   PotencyPerLevel: ""
   HideHudDurationNumbers: ""
   BaseDuration: -1.0
-  TickRate: 1.0
+  TickRate: 4.0
   DelayInitialTick: false
   TickCondition: ""
-  OnTickStatusEffect: ""
+  OnTickStatusEffect: GM_CTF_TickingFlagDebuff
   KeepOnTickEffectOnEnd: ""
   StopOnHitCount: ""
   HitCondition: ""
@@ -2688,13 +2973,13 @@
   FromAlchemy: ""
   FromSpell: ""
   NoHealthRegen: ""
-  HealMod: -0.5
+  HealMod: 0.0
   MaxHealthMod: 0.0
   HealthRate: ""
   CoreTempMod: ""
   TempMod: ""
   Stamina: ""
-  StaminaRate: -0.5
+  StaminaRate: 0.0
   Mana: ""
   ManaRate: ""
   Food: ""
@@ -2783,19 +3068,19 @@
   INSMining: ""
   INSSkinning: ""
   INSHarvesting: ""
-  PhysicalArmor: -0.5
-  ElementalArmor: -0.5
-  ABSStandard: -0.5
-  ABSSiege: -0.5
-  ABSStrike: -0.5
-  ABSSlash: -0.5
-  ABSThrust: -0.5
-  ABSArcane: -0.5
-  ABSFire: -0.5
-  ABSIce: -0.5
-  ABSNature: -0.5
-  ABSLightning: -0.5
-  ABSCorruption: -0.5
+  PhysicalArmor: 0.0
+  ElementalArmor: 0.0
+  ABSStandard: 0.0
+  ABSSiege: 0.0
+  ABSStrike: 0.0
+  ABSSlash: 0.0
+  ABSThrust: 0.0
+  ABSArcane: 0.0
+  ABSFire: 0.0
+  ABSIce: 0.0
+  ABSNature: 0.0
+  ABSLightning: 0.0
+  ABSCorruption: 0.0
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -2853,14 +3138,14 @@
   DurationMax: null
   InheritDuration: null
   InheritTotalDuration: ""
-  RefreshDuration: ""
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: null
   PotencyMax: ""
   DontReplaceStack: ""
-  MoveSpeedMod: -0.25
-  SprintSpeedMod: -0.25
+  MoveSpeedMod: 0.0
+  SprintSpeedMod: 0.0
   FastTravelEncumbranceMod: ""
   GameEventId: ""
   HealRewardGameEventId: ""
@@ -2891,15 +3176,17 @@
   AlwaysReplicate: null
   UseLightweightReplication: true
   TriggersTutorial: null
+  JumpModScalar: null
+  JumpModType: ""
 - StatusID: GM_CTF_BlueFlag_03
   DisplayName: "@ctf_flag_carrier_debuff_icon_name"
   Description: "@ctf_flag_carrier_debuff_icon_desc"
   Notes: NoDodgeAndSilenced
   WindowHeader: ""
   RankSorting: ""
-  EffectCategories: NonDispellableDebuff+NonDispellableSlow+NonDispellableExhaust+NonDispellableRend+NonDispellableDisease+CTFFlags
+  EffectCategories: Tracker
   PlaceholderIcon: LyShineUI/Images/status/SE_FlagCarrier.png
-  ShowInUITray: true
+  ShowInUITray: false
   ShowTextInDamageNumbers: false
   FxScriptOn: ""
   FxScriptOff: ""
@@ -2912,10 +3199,10 @@
   PotencyPerLevel: ""
   HideHudDurationNumbers: ""
   BaseDuration: -1.0
-  TickRate: 1.0
+  TickRate: 4.0
   DelayInitialTick: false
   TickCondition: ""
-  OnTickStatusEffect: ""
+  OnTickStatusEffect: GM_CTF_TickingFlagDebuff
   KeepOnTickEffectOnEnd: ""
   StopOnHitCount: ""
   HitCondition: ""
@@ -2951,13 +3238,13 @@
   FromAlchemy: ""
   FromSpell: ""
   NoHealthRegen: ""
-  HealMod: -0.5
+  HealMod: 0.0
   MaxHealthMod: 0.0
   HealthRate: ""
   CoreTempMod: ""
   TempMod: ""
   Stamina: ""
-  StaminaRate: -0.5
+  StaminaRate: 0.0
   Mana: ""
   ManaRate: ""
   Food: ""
@@ -3046,19 +3333,19 @@
   INSMining: ""
   INSSkinning: ""
   INSHarvesting: ""
-  PhysicalArmor: -0.5
-  ElementalArmor: -0.5
-  ABSStandard: -0.5
-  ABSSiege: -0.5
-  ABSStrike: -0.5
-  ABSSlash: -0.5
-  ABSThrust: -0.5
-  ABSArcane: -0.5
-  ABSFire: -0.5
-  ABSIce: -0.5
-  ABSNature: -0.5
-  ABSLightning: -0.5
-  ABSCorruption: -0.5
+  PhysicalArmor: 0.0
+  ElementalArmor: 0.0
+  ABSStandard: 0.0
+  ABSSiege: 0.0
+  ABSStrike: 0.0
+  ABSSlash: 0.0
+  ABSThrust: 0.0
+  ABSArcane: 0.0
+  ABSFire: 0.0
+  ABSIce: 0.0
+  ABSNature: 0.0
+  ABSLightning: 0.0
+  ABSCorruption: 0.0
   ABSVitalsCategory: ""
   RESPoison: ""
   RESDisease: ""
@@ -3116,14 +3403,14 @@
   DurationMax: null
   InheritDuration: null
   InheritTotalDuration: ""
-  RefreshDuration: ""
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: null
   PotencyMax: ""
   DontReplaceStack: ""
-  MoveSpeedMod: -0.25
-  SprintSpeedMod: -0.25
+  MoveSpeedMod: 0.0
+  SprintSpeedMod: 0.0
   FastTravelEncumbranceMod: ""
   GameEventId: ""
   HealRewardGameEventId: ""
@@ -3154,17 +3441,19 @@
   AlwaysReplicate: null
   UseLightweightReplication: true
   TriggersTutorial: null
+  JumpModScalar: null
+  JumpModType: ""
 - StatusID: CTF_PowerUp_Damage
   DisplayName: "@CTF_Powerup_Damage_Empower_Name"
   Description: "@CTF_Powerup_Damage_Empower_Desc"
   Notes: ""
   WindowHeader: ""
   RankSorting: ""
-  EffectCategories: Buff+Empower
+  EffectCategories: Buff+Empower+Powerup
   PlaceholderIcon: lyshineui/images/status/SE_EmpowerT2.png
   ShowInUITray: true
   ShowTextInDamageNumbers: false
-  FxScriptOn: StatFX_Empower_ON
+  FxScriptOn: Powerup_Damage_CTF
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
   WeaponEffectType: ""
@@ -3174,7 +3463,7 @@
   PauseInGameModesList: ""
   PotencyPerLevel: ""
   HideHudDurationNumbers: ""
-  BaseDuration: 30.0
+  BaseDuration: 25.0
   TickRate: 1.0
   DelayInitialTick: false
   TickCondition: ""
@@ -3376,13 +3665,13 @@
   AFACurse: ""
   AFABlight: ""
   StackDuration: false
-  DurationMax: 30.0
+  DurationMax: 25.0
   InheritDuration: false
   InheritTotalDuration: ""
-  RefreshDuration: ""
+  RefreshDuration: true
   StackMax: 1.0
   InitialStackSize: ""
-  RemoveUnappliedStacks: false
+  RemoveUnappliedStacks: true
   PotencyMax: ""
   DontReplaceStack: ""
   MoveSpeedMod: null
@@ -3417,17 +3706,19 @@
   AlwaysReplicate: null
   UseLightweightReplication: null
   TriggersTutorial: null
+  JumpModScalar: null
+  JumpModType: ""
 - StatusID: CTF_PowerUp_Health
   DisplayName: "@CTF_Powerup_Healing_Name"
   Description: "@CTF_Powerup_Healing_Desc"
   Notes: ""
   WindowHeader: ""
   RankSorting: ""
-  EffectCategories: Heal
+  EffectCategories: Heal+Powerup
   PlaceholderIcon: ""
   ShowInUITray: false
   ShowTextInDamageNumbers: false
-  FxScriptOn: POTION_Heal
+  FxScriptOn: Powerup_Heal_CTF
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
   WeaponEffectType: ""
@@ -3642,7 +3933,7 @@
   DurationMax: 1.0
   InheritDuration: null
   InheritTotalDuration: ""
-  RefreshDuration: ""
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: false
@@ -3680,17 +3971,19 @@
   AlwaysReplicate: null
   UseLightweightReplication: null
   TriggersTutorial: null
+  JumpModScalar: null
+  JumpModType: ""
 - StatusID: CTF_PowerUp_Speed
   DisplayName: "@CTF_Powerup_Speed_Name"
   Description: "@CTF_Powerup_Speed_Desc"
   Notes: ""
   WindowHeader: ""
   RankSorting: ""
-  EffectCategories: Haste+Buff
+  EffectCategories: Haste+Buff+Powerup
   PlaceholderIcon: lyshineui/images/status/SE_Haste.png
   ShowInUITray: true
   ShowTextInDamageNumbers: false
-  FxScriptOn: StatFX_Haste_ON
+  FxScriptOn: Powerup_Speed_CTF
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
   WeaponEffectType: ""
@@ -3905,7 +4198,7 @@
   DurationMax: 14.0
   InheritDuration: false
   InheritTotalDuration: ""
-  RefreshDuration: ""
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: false
@@ -3943,7 +4236,9 @@
   AlwaysReplicate: true
   UseLightweightReplication: null
   TriggersTutorial: null
-- StatusID: GM_JumpPad_High
+  JumpModScalar: null
+  JumpModType: ""
+- StatusID: CTF_JumpPad_High
   DisplayName: ""
   Description: ""
   Notes: ""
@@ -4168,7 +4463,7 @@
   DurationMax: 60.0
   InheritDuration: null
   InheritTotalDuration: ""
-  RefreshDuration: ""
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: null
@@ -4206,7 +4501,9 @@
   AlwaysReplicate: true
   UseLightweightReplication: true
   TriggersTutorial: true
-- StatusID: GM_JumpPad_Long
+  JumpModScalar: 0.85
+  JumpModType: High
+- StatusID: CTF_JumpPad_Long
   DisplayName: ""
   Description: ""
   Notes: ""
@@ -4431,7 +4728,7 @@
   DurationMax: 60.0
   InheritDuration: null
   InheritTotalDuration: ""
-  RefreshDuration: ""
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: null
@@ -4469,7 +4766,9 @@
   AlwaysReplicate: true
   UseLightweightReplication: true
   TriggersTutorial: true
-- StatusID: GM_JumpPad_Auto
+  JumpModScalar: 0.85
+  JumpModType: Long
+- StatusID: CTF_JumpPad_Super
   DisplayName: ""
   Description: ""
   Notes: ""
@@ -4694,7 +4993,7 @@
   DurationMax: 60.0
   InheritDuration: null
   InheritTotalDuration: ""
-  RefreshDuration: ""
+  RefreshDuration: null
   StackMax: 1.0
   InitialStackSize: ""
   RemoveUnappliedStacks: null
@@ -4732,3 +5031,800 @@
   AlwaysReplicate: true
   UseLightweightReplication: true
   TriggersTutorial: true
+  JumpModScalar: 0.7
+  JumpModType: Super
+- StatusID: CTF_Carrier_JumpPad_High
+  DisplayName: ""
+  Description: ""
+  Notes: ""
+  WindowHeader: ""
+  RankSorting: ""
+  EffectCategories: JumpPads
+  PlaceholderIcon: ""
+  ShowInUITray: false
+  ShowTextInDamageNumbers: false
+  FxScriptOn: ""
+  FxScriptOff: ""
+  ShouldRefreshFxScript: ""
+  WeaponEffectType: ""
+  Notification: ""
+  DisableTelemetry: ""
+  IsClientPredicted: ""
+  PauseInGameModesList: ""
+  PotencyPerLevel: ""
+  HideHudDurationNumbers: ""
+  BaseDuration: 60.0
+  TickRate: 1.0
+  DelayInitialTick: false
+  TickCondition: ""
+  OnTickStatusEffect: ""
+  KeepOnTickEffectOnEnd: ""
+  StopOnHitCount: ""
+  HitCondition: ""
+  RequireReaction: ""
+  OnStackStatusEffect: ""
+  AddOnStackSize: ""
+  AddOnStackSizeComparison: ""
+  HealThreatMultiplier: ""
+  ScaleAmountOverTime: ""
+  ScaleAmountOverTimeMin: ""
+  ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
+  DamageSkipsDeathsDoor: ""
+  Health: null
+  HealthMin: ""
+  HealthMinPercent: ""
+  HealthModifierBasePercent: ""
+  HealthModifierPercent: ""
+  HealthModifierDamageBased: ""
+  UseHealScalingValue: ""
+  HealScalingValueMultiplier: ""
+  StaminaDamageModifier: ""
+  ManaModifierDamageBased: ""
+  DamageType: ""
+  CritChanceModifier: ""
+  CritDamageModifier: ""
+  OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: ""
+  CastSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
+  TargetOwnsSpell: null
+  UseSourceWeaponForSpell: ""
+  FromAlchemy: ""
+  FromSpell: ""
+  NoHealthRegen: ""
+  HealMod: null
+  MaxHealthMod: null
+  HealthRate: ""
+  CoreTempMod: ""
+  TempMod: ""
+  Stamina: ""
+  StaminaRate: null
+  Mana: ""
+  ManaRate: ""
+  Food: ""
+  FoodBurn: ""
+  Drink: ""
+  DrinkBurn: ""
+  Encumbrance: ""
+  ItemClassWeightMods: ""
+  XPIncreases: ""
+  AzothMod: ""
+  FactionReputationMod: ""
+  FactionTokensMod: ""
+  EXPLogging: ""
+  EXPMining: ""
+  EXPHarvesting: ""
+  EXPSkinning: ""
+  EXPSmelting: ""
+  EXPWoodworking: ""
+  EXPLeatherworking: ""
+  EXPWeaving: ""
+  EXPStonecutting: ""
+  GrantSanctuary: ""
+  NoSprint: ""
+  NoRun: ""
+  NoDodge: null
+  NoNav: ""
+  Silenced: null
+  Stunned: ""
+  RemoveOnDeath: 1.0
+  RemoveOnDeathsDoor: 1.0
+  RemoveOnDeathsDoorRevive: ""
+  RemoveOnRespawn: 1.0
+  RemoveOnGameModeExit: 1.0
+  IgnoreDiminishingReturns: ""
+  OnlyChangeOwnedStatusEffects: ""
+  Afflictions: ""
+  OnHitAffixes: ""
+  EquipAbility: ""
+  UseSourceWeaponForAbilityEffect: ""
+  IsNegative: ""
+  RespecTradeskills: ""
+  RespecAttributes: ""
+  EffectDurationMods: ""
+  EffectPotencyMods: ""
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: ""
+  GlobalRollMod: ""
+  FishingLineStrength: ""
+  FishSizeRollModifier: ""
+  MODConstitution: ""
+  MODFocus: ""
+  MODStrength: ""
+  MODDexterity: ""
+  MODIntelligence: ""
+  MGSArcana: ""
+  MGSWeaponsmithing: ""
+  MGSJewelcrafting: ""
+  MGSEngineering: ""
+  MGSArmoring: ""
+  MaxGSArcana: ""
+  MaxGSWeaponsmithing: ""
+  MaxGSJewelcrafting: ""
+  MaxGSEngineering: ""
+  MaxGSArmoring: ""
+  ROLCooking: ""
+  ROLWeaving: ""
+  ROLStonecutting: ""
+  ROLSmelting: ""
+  ROLLeatherworking: ""
+  ROLWoodworking: ""
+  ROLLogging: ""
+  ROLMining: ""
+  ROLSkinning: ""
+  ROLHarvesting: ""
+  ROLFishing: ""
+  MULTLogging: ""
+  MULTMining: ""
+  MULTSkinning: ""
+  MULTHarvesting: ""
+  MULTFishing: ""
+  EFFLogging: ""
+  EFFMining: ""
+  EFFSkinning: ""
+  EFFHarvesting: ""
+  INSLogging: ""
+  INSMining: ""
+  INSSkinning: ""
+  INSHarvesting: ""
+  PhysicalArmor: null
+  ElementalArmor: null
+  ABSStandard: null
+  ABSSiege: null
+  ABSStrike: null
+  ABSSlash: null
+  ABSThrust: null
+  ABSArcane: null
+  ABSFire: null
+  ABSIce: null
+  ABSNature: null
+  ABSLightning: null
+  ABSCorruption: null
+  ABSVitalsCategory: ""
+  RESPoison: ""
+  RESDisease: ""
+  RESBleed: ""
+  RESFrostbite: ""
+  RESCurse: ""
+  RESBlight: ""
+  BLAStandard: ""
+  BLASiege: ""
+  BLAStrike: ""
+  BLASlash: ""
+  BLAThrust: ""
+  BLAArcane: ""
+  BLAFire: ""
+  BLAIce: ""
+  BLALightning: ""
+  BLACorruption: ""
+  ABAPoison: ""
+  ABADisease: ""
+  ABABleed: ""
+  ABAFrostbite: ""
+  ABACurse: ""
+  ABABlight: ""
+  WKNStandard: ""
+  WKNSiege: ""
+  WKNStrike: ""
+  WKNSlash: ""
+  WKNThrust: ""
+  WKNArcane: ""
+  WKNFire: ""
+  WKNIce: ""
+  WKNNature: ""
+  WKNLightning: ""
+  WKNCorruption: ""
+  DMGStandard: null
+  DMGSiege: null
+  DMGStrike: null
+  DMGSlash: null
+  DMGThrust: null
+  DMGArcane: null
+  DMGFire: null
+  DMGIce: null
+  DMGNature: null
+  DMGLightning: null
+  DMGCorruption: null
+  DMGAcid: null
+  DMGVitalsCategory: ""
+  AFAPoison: ""
+  AFADisease: ""
+  AFABleed: ""
+  AFAFrostbite: ""
+  AFACurse: ""
+  AFABlight: ""
+  StackDuration: null
+  DurationMax: 60.0
+  InheritDuration: null
+  InheritTotalDuration: ""
+  RefreshDuration: null
+  StackMax: 1.0
+  InitialStackSize: ""
+  RemoveUnappliedStacks: null
+  PotencyMax: ""
+  DontReplaceStack: ""
+  MoveSpeedMod: null
+  SprintSpeedMod: null
+  FastTravelEncumbranceMod: ""
+  GameEventId: ""
+  HealRewardGameEventId: ""
+  HealRewardThreshold: ""
+  WeaponMasteryCategoryId: ""
+  UIPriority: null
+  UiNameplatePriority: null
+  ShowInNameplates: false
+  ShowTextInNameplates: ""
+  OverrideOtherNameplateText: ""
+  HidesOtherStatusEffectIcons: ""
+  DynamicModelScaleFactor: ""
+  DynamicModelScaleRampTimeSecs: ""
+  SpawnSlice: ""
+  DisableSupportContributionRewards: ""
+  BlockMultipleEffectsFromSameSource: ""
+  AllowSelfOnlyAsSourceForAbilities: ""
+  IgnoreInvulnerable: null
+  NotCombatAction: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  IsServerOnly: ""
+  AlwaysReplicate: true
+  UseLightweightReplication: true
+  TriggersTutorial: true
+  JumpModScalar: 0.4
+  JumpModType: High
+- StatusID: CTF_Carrier_JumpPad_Long
+  DisplayName: ""
+  Description: ""
+  Notes: ""
+  WindowHeader: ""
+  RankSorting: ""
+  EffectCategories: JumpPads
+  PlaceholderIcon: ""
+  ShowInUITray: false
+  ShowTextInDamageNumbers: false
+  FxScriptOn: ""
+  FxScriptOff: ""
+  ShouldRefreshFxScript: ""
+  WeaponEffectType: ""
+  Notification: ""
+  DisableTelemetry: ""
+  IsClientPredicted: ""
+  PauseInGameModesList: ""
+  PotencyPerLevel: ""
+  HideHudDurationNumbers: ""
+  BaseDuration: 60.0
+  TickRate: 1.0
+  DelayInitialTick: false
+  TickCondition: ""
+  OnTickStatusEffect: ""
+  KeepOnTickEffectOnEnd: ""
+  StopOnHitCount: ""
+  HitCondition: ""
+  RequireReaction: ""
+  OnStackStatusEffect: ""
+  AddOnStackSize: ""
+  AddOnStackSizeComparison: ""
+  HealThreatMultiplier: ""
+  ScaleAmountOverTime: ""
+  ScaleAmountOverTimeMin: ""
+  ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
+  DamageSkipsDeathsDoor: ""
+  Health: null
+  HealthMin: ""
+  HealthMinPercent: ""
+  HealthModifierBasePercent: ""
+  HealthModifierPercent: ""
+  HealthModifierDamageBased: ""
+  UseHealScalingValue: ""
+  HealScalingValueMultiplier: ""
+  StaminaDamageModifier: ""
+  ManaModifierDamageBased: ""
+  DamageType: ""
+  CritChanceModifier: ""
+  CritDamageModifier: ""
+  OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: ""
+  CastSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
+  TargetOwnsSpell: null
+  UseSourceWeaponForSpell: ""
+  FromAlchemy: ""
+  FromSpell: ""
+  NoHealthRegen: ""
+  HealMod: null
+  MaxHealthMod: null
+  HealthRate: ""
+  CoreTempMod: ""
+  TempMod: ""
+  Stamina: ""
+  StaminaRate: null
+  Mana: ""
+  ManaRate: ""
+  Food: ""
+  FoodBurn: ""
+  Drink: ""
+  DrinkBurn: ""
+  Encumbrance: ""
+  ItemClassWeightMods: ""
+  XPIncreases: ""
+  AzothMod: ""
+  FactionReputationMod: ""
+  FactionTokensMod: ""
+  EXPLogging: ""
+  EXPMining: ""
+  EXPHarvesting: ""
+  EXPSkinning: ""
+  EXPSmelting: ""
+  EXPWoodworking: ""
+  EXPLeatherworking: ""
+  EXPWeaving: ""
+  EXPStonecutting: ""
+  GrantSanctuary: ""
+  NoSprint: ""
+  NoRun: ""
+  NoDodge: null
+  NoNav: ""
+  Silenced: null
+  Stunned: ""
+  RemoveOnDeath: 1.0
+  RemoveOnDeathsDoor: 1.0
+  RemoveOnDeathsDoorRevive: ""
+  RemoveOnRespawn: 1.0
+  RemoveOnGameModeExit: 1.0
+  IgnoreDiminishingReturns: ""
+  OnlyChangeOwnedStatusEffects: ""
+  Afflictions: ""
+  OnHitAffixes: ""
+  EquipAbility: ""
+  UseSourceWeaponForAbilityEffect: ""
+  IsNegative: ""
+  RespecTradeskills: ""
+  RespecAttributes: ""
+  EffectDurationMods: ""
+  EffectPotencyMods: ""
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: ""
+  GlobalRollMod: ""
+  FishingLineStrength: ""
+  FishSizeRollModifier: ""
+  MODConstitution: ""
+  MODFocus: ""
+  MODStrength: ""
+  MODDexterity: ""
+  MODIntelligence: ""
+  MGSArcana: ""
+  MGSWeaponsmithing: ""
+  MGSJewelcrafting: ""
+  MGSEngineering: ""
+  MGSArmoring: ""
+  MaxGSArcana: ""
+  MaxGSWeaponsmithing: ""
+  MaxGSJewelcrafting: ""
+  MaxGSEngineering: ""
+  MaxGSArmoring: ""
+  ROLCooking: ""
+  ROLWeaving: ""
+  ROLStonecutting: ""
+  ROLSmelting: ""
+  ROLLeatherworking: ""
+  ROLWoodworking: ""
+  ROLLogging: ""
+  ROLMining: ""
+  ROLSkinning: ""
+  ROLHarvesting: ""
+  ROLFishing: ""
+  MULTLogging: ""
+  MULTMining: ""
+  MULTSkinning: ""
+  MULTHarvesting: ""
+  MULTFishing: ""
+  EFFLogging: ""
+  EFFMining: ""
+  EFFSkinning: ""
+  EFFHarvesting: ""
+  INSLogging: ""
+  INSMining: ""
+  INSSkinning: ""
+  INSHarvesting: ""
+  PhysicalArmor: null
+  ElementalArmor: null
+  ABSStandard: null
+  ABSSiege: null
+  ABSStrike: null
+  ABSSlash: null
+  ABSThrust: null
+  ABSArcane: null
+  ABSFire: null
+  ABSIce: null
+  ABSNature: null
+  ABSLightning: null
+  ABSCorruption: null
+  ABSVitalsCategory: ""
+  RESPoison: ""
+  RESDisease: ""
+  RESBleed: ""
+  RESFrostbite: ""
+  RESCurse: ""
+  RESBlight: ""
+  BLAStandard: ""
+  BLASiege: ""
+  BLAStrike: ""
+  BLASlash: ""
+  BLAThrust: ""
+  BLAArcane: ""
+  BLAFire: ""
+  BLAIce: ""
+  BLALightning: ""
+  BLACorruption: ""
+  ABAPoison: ""
+  ABADisease: ""
+  ABABleed: ""
+  ABAFrostbite: ""
+  ABACurse: ""
+  ABABlight: ""
+  WKNStandard: ""
+  WKNSiege: ""
+  WKNStrike: ""
+  WKNSlash: ""
+  WKNThrust: ""
+  WKNArcane: ""
+  WKNFire: ""
+  WKNIce: ""
+  WKNNature: ""
+  WKNLightning: ""
+  WKNCorruption: ""
+  DMGStandard: null
+  DMGSiege: null
+  DMGStrike: null
+  DMGSlash: null
+  DMGThrust: null
+  DMGArcane: null
+  DMGFire: null
+  DMGIce: null
+  DMGNature: null
+  DMGLightning: null
+  DMGCorruption: null
+  DMGAcid: null
+  DMGVitalsCategory: ""
+  AFAPoison: ""
+  AFADisease: ""
+  AFABleed: ""
+  AFAFrostbite: ""
+  AFACurse: ""
+  AFABlight: ""
+  StackDuration: null
+  DurationMax: 60.0
+  InheritDuration: null
+  InheritTotalDuration: ""
+  RefreshDuration: null
+  StackMax: 1.0
+  InitialStackSize: ""
+  RemoveUnappliedStacks: null
+  PotencyMax: ""
+  DontReplaceStack: ""
+  MoveSpeedMod: null
+  SprintSpeedMod: null
+  FastTravelEncumbranceMod: ""
+  GameEventId: ""
+  HealRewardGameEventId: ""
+  HealRewardThreshold: ""
+  WeaponMasteryCategoryId: ""
+  UIPriority: null
+  UiNameplatePriority: null
+  ShowInNameplates: false
+  ShowTextInNameplates: ""
+  OverrideOtherNameplateText: ""
+  HidesOtherStatusEffectIcons: ""
+  DynamicModelScaleFactor: ""
+  DynamicModelScaleRampTimeSecs: ""
+  SpawnSlice: ""
+  DisableSupportContributionRewards: ""
+  BlockMultipleEffectsFromSameSource: ""
+  AllowSelfOnlyAsSourceForAbilities: ""
+  IgnoreInvulnerable: null
+  NotCombatAction: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  IsServerOnly: ""
+  AlwaysReplicate: true
+  UseLightweightReplication: true
+  TriggersTutorial: true
+  JumpModScalar: 0.5
+  JumpModType: Long
+- StatusID: CTF_Carrier_JumpPad_Super
+  DisplayName: ""
+  Description: ""
+  Notes: ""
+  WindowHeader: ""
+  RankSorting: ""
+  EffectCategories: JumpPads
+  PlaceholderIcon: ""
+  ShowInUITray: false
+  ShowTextInDamageNumbers: false
+  FxScriptOn: ""
+  FxScriptOff: ""
+  ShouldRefreshFxScript: ""
+  WeaponEffectType: ""
+  Notification: ""
+  DisableTelemetry: ""
+  IsClientPredicted: ""
+  PauseInGameModesList: ""
+  PotencyPerLevel: ""
+  HideHudDurationNumbers: ""
+  BaseDuration: 60.0
+  TickRate: 1.0
+  DelayInitialTick: false
+  TickCondition: ""
+  OnTickStatusEffect: ""
+  KeepOnTickEffectOnEnd: ""
+  StopOnHitCount: ""
+  HitCondition: ""
+  RequireReaction: ""
+  OnStackStatusEffect: ""
+  AddOnStackSize: ""
+  AddOnStackSizeComparison: ""
+  HealThreatMultiplier: ""
+  ScaleAmountOverTime: ""
+  ScaleAmountOverTimeMin: ""
+  ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
+  DamageSkipsDeathsDoor: ""
+  Health: null
+  HealthMin: ""
+  HealthMinPercent: ""
+  HealthModifierBasePercent: ""
+  HealthModifierPercent: ""
+  HealthModifierDamageBased: ""
+  UseHealScalingValue: ""
+  HealScalingValueMultiplier: ""
+  StaminaDamageModifier: ""
+  ManaModifierDamageBased: ""
+  DamageType: ""
+  CritChanceModifier: ""
+  CritDamageModifier: ""
+  OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: ""
+  CastSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
+  TargetOwnsSpell: null
+  UseSourceWeaponForSpell: ""
+  FromAlchemy: ""
+  FromSpell: ""
+  NoHealthRegen: ""
+  HealMod: null
+  MaxHealthMod: null
+  HealthRate: ""
+  CoreTempMod: ""
+  TempMod: ""
+  Stamina: ""
+  StaminaRate: null
+  Mana: ""
+  ManaRate: ""
+  Food: ""
+  FoodBurn: ""
+  Drink: ""
+  DrinkBurn: ""
+  Encumbrance: ""
+  ItemClassWeightMods: ""
+  XPIncreases: ""
+  AzothMod: ""
+  FactionReputationMod: ""
+  FactionTokensMod: ""
+  EXPLogging: ""
+  EXPMining: ""
+  EXPHarvesting: ""
+  EXPSkinning: ""
+  EXPSmelting: ""
+  EXPWoodworking: ""
+  EXPLeatherworking: ""
+  EXPWeaving: ""
+  EXPStonecutting: ""
+  GrantSanctuary: ""
+  NoSprint: ""
+  NoRun: ""
+  NoDodge: null
+  NoNav: ""
+  Silenced: null
+  Stunned: ""
+  RemoveOnDeath: 1.0
+  RemoveOnDeathsDoor: 1.0
+  RemoveOnDeathsDoorRevive: ""
+  RemoveOnRespawn: 1.0
+  RemoveOnGameModeExit: 1.0
+  IgnoreDiminishingReturns: ""
+  OnlyChangeOwnedStatusEffects: ""
+  Afflictions: ""
+  OnHitAffixes: ""
+  EquipAbility: ""
+  UseSourceWeaponForAbilityEffect: ""
+  IsNegative: ""
+  RespecTradeskills: ""
+  RespecAttributes: ""
+  EffectDurationMods: ""
+  EffectPotencyMods: ""
+  RemoveStatusEffects: ""
+  RemoveStatusEffectCategories: ""
+  GlobalRollMod: ""
+  FishingLineStrength: ""
+  FishSizeRollModifier: ""
+  MODConstitution: ""
+  MODFocus: ""
+  MODStrength: ""
+  MODDexterity: ""
+  MODIntelligence: ""
+  MGSArcana: ""
+  MGSWeaponsmithing: ""
+  MGSJewelcrafting: ""
+  MGSEngineering: ""
+  MGSArmoring: ""
+  MaxGSArcana: ""
+  MaxGSWeaponsmithing: ""
+  MaxGSJewelcrafting: ""
+  MaxGSEngineering: ""
+  MaxGSArmoring: ""
+  ROLCooking: ""
+  ROLWeaving: ""
+  ROLStonecutting: ""
+  ROLSmelting: ""
+  ROLLeatherworking: ""
+  ROLWoodworking: ""
+  ROLLogging: ""
+  ROLMining: ""
+  ROLSkinning: ""
+  ROLHarvesting: ""
+  ROLFishing: ""
+  MULTLogging: ""
+  MULTMining: ""
+  MULTSkinning: ""
+  MULTHarvesting: ""
+  MULTFishing: ""
+  EFFLogging: ""
+  EFFMining: ""
+  EFFSkinning: ""
+  EFFHarvesting: ""
+  INSLogging: ""
+  INSMining: ""
+  INSSkinning: ""
+  INSHarvesting: ""
+  PhysicalArmor: null
+  ElementalArmor: null
+  ABSStandard: null
+  ABSSiege: null
+  ABSStrike: null
+  ABSSlash: null
+  ABSThrust: null
+  ABSArcane: null
+  ABSFire: null
+  ABSIce: null
+  ABSNature: null
+  ABSLightning: null
+  ABSCorruption: null
+  ABSVitalsCategory: ""
+  RESPoison: ""
+  RESDisease: ""
+  RESBleed: ""
+  RESFrostbite: ""
+  RESCurse: ""
+  RESBlight: ""
+  BLAStandard: ""
+  BLASiege: ""
+  BLAStrike: ""
+  BLASlash: ""
+  BLAThrust: ""
+  BLAArcane: ""
+  BLAFire: ""
+  BLAIce: ""
+  BLALightning: ""
+  BLACorruption: ""
+  ABAPoison: ""
+  ABADisease: ""
+  ABABleed: ""
+  ABAFrostbite: ""
+  ABACurse: ""
+  ABABlight: ""
+  WKNStandard: ""
+  WKNSiege: ""
+  WKNStrike: ""
+  WKNSlash: ""
+  WKNThrust: ""
+  WKNArcane: ""
+  WKNFire: ""
+  WKNIce: ""
+  WKNNature: ""
+  WKNLightning: ""
+  WKNCorruption: ""
+  DMGStandard: null
+  DMGSiege: null
+  DMGStrike: null
+  DMGSlash: null
+  DMGThrust: null
+  DMGArcane: null
+  DMGFire: null
+  DMGIce: null
+  DMGNature: null
+  DMGLightning: null
+  DMGCorruption: null
+  DMGAcid: null
+  DMGVitalsCategory: ""
+  AFAPoison: ""
+  AFADisease: ""
+  AFABleed: ""
+  AFAFrostbite: ""
+  AFACurse: ""
+  AFABlight: ""
+  StackDuration: null
+  DurationMax: 60.0
+  InheritDuration: null
+  InheritTotalDuration: ""
+  RefreshDuration: null
+  StackMax: 1.0
+  InitialStackSize: ""
+  RemoveUnappliedStacks: null
+  PotencyMax: ""
+  DontReplaceStack: ""
+  MoveSpeedMod: null
+  SprintSpeedMod: null
+  FastTravelEncumbranceMod: ""
+  GameEventId: ""
+  HealRewardGameEventId: ""
+  HealRewardThreshold: ""
+  WeaponMasteryCategoryId: ""
+  UIPriority: null
+  UiNameplatePriority: null
+  ShowInNameplates: false
+  ShowTextInNameplates: ""
+  OverrideOtherNameplateText: ""
+  HidesOtherStatusEffectIcons: ""
+  DynamicModelScaleFactor: ""
+  DynamicModelScaleRampTimeSecs: ""
+  SpawnSlice: ""
+  DisableSupportContributionRewards: ""
+  BlockMultipleEffectsFromSameSource: ""
+  AllowSelfOnlyAsSourceForAbilities: ""
+  IgnoreInvulnerable: null
+  NotCombatAction: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  IsServerOnly: ""
+  AlwaysReplicate: true
+  UseLightweightReplication: true
+  TriggersTutorial: true
+  JumpModScalar: 0.4
+  JumpModType: Super

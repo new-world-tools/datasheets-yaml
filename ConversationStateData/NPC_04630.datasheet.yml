@@ -49,4 +49,17 @@
   RequiredAchievement: ""
   TopicId1: NPC_04630_State_3_Topic_0
   RequiredActiveObjectiveId: Quest_03194
-  RequiredActiveTaskId: Quest_03194_Task_13_1
+  RequiredActiveTaskId: Quest_03194_Task_13_0
+- ConversationStateId: NPC_04630_State_4
+  ConversationType: Conversation
+  DefaultDialogue: "@NPC_04630_State_4_DefaultDialogue"
+  IsInitialState: "false"
+  RequiredLevel: "0"
+  RequiredFaction: None
+  RequiredFactionCooldown: NotInCooldown
+  ForceConversationOpen: "false"
+  LinearObjectiveId1: ""
+  RequiredAchievement: ""
+  TopicId1: NPC_04630_State_4_Topic_0
+  RequiredActiveObjectiveId: Quest_03194
+  RequiredActiveTaskId: Quest_03194_Task_11

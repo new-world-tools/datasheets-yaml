@@ -6,6 +6,8 @@
   Description: ""
   UiInteractOption: ""
   RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: ""
   SimpleImagePath: ""
   BackgroundImagePath: ""
@@ -86,7 +88,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: null
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -139,6 +141,7 @@
   MatchmakingMaxDPS: 5.0
   UseMMBuff: true
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: ""
@@ -162,6 +165,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: TestMode2
   ScriptName: GameModeTest
   RequiresTeamRaids: "0"
@@ -170,6 +177,8 @@
   Description: ""
   UiInteractOption: ""
   RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: ""
   SimpleImagePath: ""
   BackgroundImagePath: ""
@@ -250,7 +259,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: null
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -303,6 +312,7 @@
   MatchmakingMaxDPS: 0.0
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: ""
@@ -326,170 +336,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
-- GameModeId: BattleBanners
-  ScriptName: BattleBanners
-  RequiresTeamRaids: "TRUE"
-  AdvanceThroughStatesOnUpdate: "0"
-  DisplayName: "@ui_outpost_rush_signup_title"
-  Description: "@ui_outpost_rush_signup_desc_cross_world"
-  UiInteractOption: ""
-  RequirementText: ""
-  IconPath: LyShineUI/Images/PUGFinder/PugFinder_OPR.png
-  SimpleImagePath: LyShineUI/Images/PUGFinder/PugFinder_OPR.png
-  BackgroundImagePath: LyShineUI/Images/PUGFinder/gameModeSignUp/OutpostRush/OutpostRushTabBg.png
-  ListImagePath: ""
-  FeatureFlag: test1
-  PurchasableItemClasses: ""
-  PurchasableItemClassesRestrictedToMode: ""
-  NonPurchasableItemClasses: ""
-  ItemClassesToRemoveOnExit: OutpostRushOnly
-  RestrictCombatGearToItemClasses: ""
-  RequiredConsumableItemClasses: ""
-  DisabledItemClasses: ""
-  LootTableIdOverride: ""
-  UseTempGameModeLoadout: null
-  ClearBattleTokensOnExit: "True"
-  RequiresGameModeGDEException: "True"
-  RecommendedLevel: 40.0
-  RequiredLevel: 40.0
-  EntryAchievementConditional: ""
-  QueueLevelBuckets: ""
-  QueueReadyThreshold: 16.0
-  BackfillReadyThreshold: 19.0
-  NumTeams: 2.0
-  TeamCapacity: 10.0
-  CombineTeamGroups: null
-  ModeNameLocStringId: "@ui_outpost_rush_title"
-  GearScoreOverrideValueMin: 700.0
-  GearScoreOverrideValueMax: 725.0
-  MinPlayerLevelToUseGearScoreOverride: 60.0
-  MaxPlayerLevelToUseGearScoreOverride: 65.0
-  PossibleItemDropIds: ""
-  ItemDropLevelThreshold01: null
-  PossibleItemDropIdsByLevel01: ""
-  MinGroupSize: null
-  PreserveOldGroup: true
-  IgnoreRequireContribution: null
-  IsDungeon: null
-  IsRaidTrial: null
-  IsSeasonTrial: null
-  IsSoloTrial: null
-  IsMutable: null
-  IsRemoteEntryAllowed: null
-  IsPVP: true
-  DifficultyProgressionId: ""
-  RestrictGathering: true
-  RestrictWaterGathering: true
-  LootTags: OutpostRush
-  MutLootTagsOverride: ""
-  ContainerLevel: null
-  LootGSRangeOverride: ""
-  UseLevelGS: ""
-  GSClampLevelReqDelta: null
-  VictoryDelaySec: null
-  MaxAI: OpenWorld
-  AISpawnRadius: OpenWorld
-  AIDespawnRadius: OpenWorld
-  ProjectedDurationMinutes: 15.0
-  Priority: 1.0
-  ImmediateLaunch: false
-  AILevelAdjustedPerceptionEnabled: false
-  AILeashingOptOut: false
-  DisableDeathsDoor: true
-  DisableMSQTrackersOnHud: true
-  AIPreventEnemyTraining: false
-  UseTeamNamePlate: true
-  ItemDropQuantityOnDeathModifier: 0.5
-  QuitButtonTextId: "@ui_outpost_rush_leave"
-  CannotFastTravelTextId: "@ui_cannot_travel_outpost_rush"
-  LeaveDescTextId: "@ui_outpost_rush_leave_desc"
-  LeaveTimeDescTextId: "@ui_outpost_rush_leave_desc_time"
-  LeaveTitleTextId: "@ui_outpost_rush_leave_title"
-  WarBoardStatDefinitions: ORWarboardStatDefinitions
-  WarBoardAttackerTeamIdx: 0.0
-  WarBoardDefenderTeamIdx: 1.0
-  RaidInviteDelaySec: 5.0
-  RaidInviteDurationSec: 90.0
-  BackfillDelaySec: 30.0
-  PriorityAddMin: null
-  PriorityAddMax: null
-  AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
-  UsePendingListMatchmaking: false
-  AutoEquipQuickslot: true
-  GrantConsumables: ""
-  ActivityType: BattleBanners
-  OverrideDungeonTimeout: null
-  TimerThresholdDefault: null
-  TimerThresholdMutated: null
-  SpecialQueueGroupSizes: null
-  ResetChargeOnEnter: true
-  ShouldShowAcceptedFlow: null
-  ScreenHeaderTextId: "@Topic_Prompt_Join_Outpost_Rush"
-  JoinButtonTextId: "@ui_outpost_rush_signup_joinsolo"
-  SignupTitleTextId: "@ui_outpost_rush_title"
-  LeaveQueueTitleTextId: "@ui_outpost_rush_leave_queue_title"
-  LeaveQueueDescriptionTextId: "@ui_outpost_rush_leave_queue_desc"
-  FailGroupPenaltyTextId: "@ui_outpost_rush_signup_failgrouppenalty"
-  RespawnTypeToUseForUnstuck: Raid
-  LootLimitId: ""
-  DailyLootLimitId: ""
-  WeeklyLootLimitId: ""
-  PossibleJourneyIds: ""
-  TrialIconPath: ""
-  Tip01IconPath: ""
-  Tip01Text: ""
-  Tip02IconPath: ""
-  Tip02Text: ""
-  Tip03IconPath: ""
-  Tip03Text: ""
-  ProsperoActivityId: ""
-  HidePoiName: true
-  HideCompass: null
-  ExclusiveRewardIds: ""
-  UniqueRewardIds: ""
-  BasicRewardIds: ""
-  ReplicateParticipantCharacterIds: true
-  GearScoreRecommendedValueMin: null
-  GearScoreRecommendedValueMax: null
-  MatchmakingMinLevel: 40.0
-  MatchmakingMaxLevel: 65.0
-  MatchmakingMinGS: null
-  UsesRoleSelection: true
-  MatchmakingRequiredHealingFocus: 200.0
-  MatchmakingRequiredHealingMastery: 10.0
-  MatchmakingRequiresTauntGem: false
-  MatchmakingMinTanks: 0.0
-  MatchmakingMaxTanks: 4.0
-  MatchmakingMinHealers: 1.0
-  MatchmakingMaxHealers: 1.0
-  MatchmakingMinDPS: 0.0
-  MatchmakingMaxDPS: 4.0
-  UseMMBuff: false
-  DisableAllPerks: null
-  MatchmakingPriority: null
-  AllowMounts: false
-  MountSummonErrorMsg: "@ui_mount_summon_failed_opr"
-  AllowCamping: false
-  CampingErrorMsg: ""
-  AchievementIdForCompletingMaxRank: ""
-  MRV2_NewR: 1500.0
-  MRV2_NewD: 350.0
-  MRV2_NewV: 0.06
-  MRV2_SConst: 0.5
-  MRV2_CConst: 1e-06
-  MRV2_DecDays: 14.0
-  MRV2_GBs: 1.0,1.2,1.25,1.25,1.3
-  MRV2_RankMultipliers_WinningTeam: 1,0.9,0.8,0.7,0.6,0.5,0.4,0.3,0.2,0.1
-  MRV2_RankMultipliers_LosingTeam: 0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1
-  MRV2_RankMultipliers_Overall: ""
-  WorldPosToTeleportBackTo: ""
-  DisablePSActivityCards: true
-  AfkModeId: OutpostRush
-  ReadyUp_PercentRequired: 0.8
-  MapRotationStartIndex: 0.0
-  MapRotationTimeSpanInSeconds: 3600.0
-  ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: CaptureTheFlag
   ScriptName: CaptureTheFlag
   RequiresTeamRaids: "TRUE"
@@ -498,6 +348,8 @@
   Description: "@ctf_gamemode_description"
   UiInteractOption: ""
   RequirementText: ""
+  NotificationTitle: "@ui_capture_the_flag_invite_notification_title"
+  NotificationText: "@ui_capture_the_flag_invite_notification_text"
   IconPath: LyShineUI/Images/PUGFinder/PugFinder_CTF.png
   SimpleImagePath: LyShineUI/Images/PUGFinder/PugFinder_CTF.png
   BackgroundImagePath: LyShineUI/Images/PUGFinder/gameModeSignUp/OutpostRush/OutpostRushTabBg.png
@@ -518,7 +370,7 @@
   RequiredLevel: 65.0
   EntryAchievementConditional: ""
   QueueLevelBuckets: ""
-  QueueReadyThreshold: 20.0
+  QueueReadyThreshold: 16.0
   BackfillReadyThreshold: 19.0
   NumTeams: 2.0
   TeamCapacity: 10.0
@@ -578,7 +430,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: "16"
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: true
   GrantConsumables: ""
@@ -631,6 +483,7 @@
   MatchmakingMaxDPS: 8.0
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_ctf"
@@ -650,10 +503,14 @@
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
   AfkModeId: CaptureTheFlag
-  ReadyUp_PercentRequired: 0.8
+  ReadyUp_PercentRequired: 1.0
   MapRotationStartIndex: 0.0
   MapRotationTimeSpanInSeconds: 3600.0
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: true
+  EnableEquipInCombat: null
 - GameModeId: Duel
   ScriptName: Duel
   RequiresTeamRaids: "0"
@@ -662,6 +519,8 @@
   Description: ""
   UiInteractOption: ""
   RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: ""
   SimpleImagePath: ""
   BackgroundImagePath: ""
@@ -742,7 +601,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: true
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -795,6 +654,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_duel"
@@ -818,6 +678,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: OutpostRush
   ScriptName: OutpostRush
   RequiresTeamRaids: "1"
@@ -826,6 +690,8 @@
   Description: "@ui_outpost_rush_signup_desc_cross_world"
   UiInteractOption: ""
   RequirementText: ""
+  NotificationTitle: "@ui_outpost_rush_invite_notification_title"
+  NotificationText: "@ui_outpost_rush_invite_notification_text"
   IconPath: LyShineUI/Images/PUGFinder/PugFinder_OPR.png
   SimpleImagePath: LyShineUI/Images/PUGFinder/PugFinder_OPR.png
   BackgroundImagePath: LyShineUI/Images/PUGFinder/gameModeSignUp/OutpostRush/OutpostRushTabBg.png
@@ -906,7 +772,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: true
   GrantConsumables: ""
@@ -959,6 +825,7 @@
   MatchmakingMaxDPS: 4.0
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: true
   MountSummonErrorMsg: "@ui_mount_summon_failed_opr"
@@ -982,6 +849,10 @@
   MapRotationStartIndex: 0.0
   MapRotationTimeSpanInSeconds: 3600.0
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: OutpostRush_NoPerks
   ScriptName: OutpostRush
   RequiresTeamRaids: "1"
@@ -990,6 +861,8 @@
   Description: "@ui_opr_no_perks_signup_desc_cross_world"
   UiInteractOption: ""
   RequirementText: ""
+  NotificationTitle: "@ui_outpost_rush_invite_notification_title"
+  NotificationText: "@ui_outpost_rush_invite_notification_text"
   IconPath: LyShineUI/Images/PUGFinder/PugFinder_OPR_Perkless.png
   SimpleImagePath: LyShineUI/Images/PUGFinder/PugFinder_OPR_Perkless.png
   BackgroundImagePath: LyShineUI/Images/PUGFinder/gameModeSignUp/OutpostRush/OutpostRushTabBg.png
@@ -1070,7 +943,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: true
   GrantConsumables: ""
@@ -1123,6 +996,7 @@
   MatchmakingMaxDPS: 4.0
   UseMMBuff: false
   DisableAllPerks: true
+  DisableAllPerkLabelOverrides: EncumAdd,EncumReduce
   MatchmakingPriority: null
   AllowMounts: true
   MountSummonErrorMsg: "@ui_mount_summon_failed_opr"
@@ -1146,6 +1020,10 @@
   MapRotationStartIndex: 0.0
   MapRotationTimeSpanInSeconds: 3600.0
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: Arena3v3
   ScriptName: Arena3v3
   RequiresTeamRaids: "TRUE"
@@ -1154,6 +1032,8 @@
   Description: "@ui_pvparenas_description_gearscore"
   UiInteractOption: ""
   RequirementText: ""
+  NotificationTitle: "@ui_pvp_3v3_arena_invite_notification_title"
+  NotificationText: "@ui_pvp_3v3_arena_invite_notification_text"
   IconPath: LyShineUI/Images/PUGFinder/PugFinder_Arena.png
   SimpleImagePath: LyShineUI/Images/PUGFinder/PugFinder_Arena.png
   BackgroundImagePath: LyShineUI/Images/PUGFinder/gameModeSignUp/3v3Arena/3v3ArenaTabBgOld.png
@@ -1234,7 +1114,7 @@
   PriorityAddMin: 5.0
   PriorityAddMax: 10.0
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: "6"
+  MinAcceptedInvites: 6.0
   UsePendingListMatchmaking: true
   AutoEquipQuickslot: true
   GrantConsumables: ""
@@ -1287,6 +1167,7 @@
   MatchmakingMaxDPS: 3.0
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_arena3v3"
@@ -1310,6 +1191,10 @@
   MapRotationStartIndex: 0.0
   MapRotationTimeSpanInSeconds: 3600.0
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: Dungeon
   ScriptName: Dungeon
   RequiresTeamRaids: ""
@@ -1318,6 +1203,8 @@
   Description: ""
   UiInteractOption: ""
   RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: ""
   SimpleImagePath: LyShineUI/Images/PugFinder/expeditionIconSmall.png
   BackgroundImagePath: ""
@@ -1398,7 +1285,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: null
-  MinAcceptedInvites: "5"
+  MinAcceptedInvites: 5.0
   UsePendingListMatchmaking: null
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -1451,6 +1338,7 @@
   MatchmakingMaxDPS: 3.0
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
@@ -1469,11 +1357,15 @@
   MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
-  AfkModeId: ""
+  AfkModeId: Expedition
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: Mutation
   ScriptName: Mutation
   RequiresTeamRaids: ""
@@ -1482,6 +1374,8 @@
   Description: ""
   UiInteractOption: ""
   RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: ""
   SimpleImagePath: LyShineUI/Images/PugFinder/expeditionMutatedIconSmall.png
   BackgroundImagePath: ""
@@ -1562,7 +1456,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: null
-  MinAcceptedInvites: "5"
+  MinAcceptedInvites: 5.0
   UsePendingListMatchmaking: null
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -1615,6 +1509,7 @@
   MatchmakingMaxDPS: 3.0
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
@@ -1633,11 +1528,15 @@
   MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
-  AfkModeId: ""
+  AfkModeId: Expedition
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: DungeonAmrine
   ScriptName: DungeonAmrine
   RequiresTeamRaids: "0"
@@ -1646,6 +1545,8 @@
   Description: "@dungeon_amrine_description"
   UiInteractOption: EnterDungeonAmrine
   RequirementText: "@dungeon_amrine_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonAmrine.png
@@ -1726,7 +1627,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -1779,6 +1680,7 @@
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: 1.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
@@ -1797,11 +1699,15 @@
   MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
-  AfkModeId: ""
+  AfkModeId: Expedition
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: DungeonShatteredObelisk
   ScriptName: DungeonShatteredObelisk
   RequiresTeamRaids: "0"
@@ -1810,6 +1716,8 @@
   Description: "@dungeon_everfall_description"
   UiInteractOption: EnterDungeonShatteredObelisk
   RequirementText: "@dungeon_everfall_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonShatteredObelisk_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonShatteredObelisk.png
@@ -1890,7 +1798,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -1943,6 +1851,7 @@
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: 2.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
@@ -1961,11 +1870,15 @@
   MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
-  AfkModeId: ""
+  AfkModeId: Expedition
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: DungeonRestlessShores01
   ScriptName: DungeonRestlessShores01
   RequiresTeamRaids: "0"
@@ -1974,6 +1887,8 @@
   Description: "@dungeon_restlessshores01_description"
   UiInteractOption: EnterDungeonDepths
   RequirementText: "@dungeon_restlessshores01_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonRestlessShores01_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonRestlessShores01.png
@@ -2054,7 +1969,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -2107,6 +2022,7 @@
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: 3.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
@@ -2125,11 +2041,15 @@
   MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
-  AfkModeId: ""
+  AfkModeId: Expedition
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: DungeonEbonscale00
   ScriptName: DungeonEbonscale00
   RequiresTeamRaids: "0"
@@ -2138,6 +2058,8 @@
   Description: "@dungeon_ebonscale00_description"
   UiInteractOption: EnterDungeonShipyard
   RequirementText: "@dungeon_ebonscale_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonEbonscale00_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonEbonscale00.png
@@ -2218,7 +2140,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -2271,6 +2193,7 @@
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: 4.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
@@ -2289,11 +2212,15 @@
   MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
-  AfkModeId: ""
+  AfkModeId: Expedition
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: DungeonEdengrove00
   ScriptName: DungeonEdengrove00
   RequiresTeamRaids: "0"
@@ -2302,6 +2229,8 @@
   Description: "@dungeon_edengrove00_description"
   UiInteractOption: EnterDungeonGenesis
   RequirementText: "@dungeon_edengrove00_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonEdengrove00_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonEdengrove00.png
@@ -2382,7 +2311,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -2435,6 +2364,7 @@
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: 5.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
@@ -2453,11 +2383,15 @@
   MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
-  AfkModeId: ""
+  AfkModeId: Expedition
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: DungeonReekwater00
   ScriptName: DungeonReekwater00
   RequiresTeamRaids: "0"
@@ -2466,6 +2400,8 @@
   Description: "@dungeon_reekwater_description"
   UiInteractOption: EnterDungeonLazarus
   RequirementText: "@dungeon_reekwater_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonReekwater00_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonReekwater00.png
@@ -2546,7 +2482,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -2599,6 +2535,7 @@
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: 5.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
@@ -2617,11 +2554,15 @@
   MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
-  AfkModeId: ""
+  AfkModeId: Expedition
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: DungeonCutlassKeys00
   ScriptName: DungeonCutlassKeys00
   RequiresTeamRaids: "0"
@@ -2630,6 +2571,8 @@
   Description: "@dungeon_cutlasskeys00_description"
   UiInteractOption: EnterDungeonCutlassKeys
   RequirementText: "@dungeon_cutlasskeys00_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonCutlassKeys00_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonCutlassKeys00.png
@@ -2710,7 +2653,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -2763,6 +2706,7 @@
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: 5.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
@@ -2781,11 +2725,15 @@
   MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
-  AfkModeId: ""
+  AfkModeId: Expedition
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: DungeonGreatCleave01
   ScriptName: DungeonGreatCleave01
   RequiresTeamRaids: "0"
@@ -2794,6 +2742,8 @@
   Description: "@dungeon_greatcleave01_description"
   UiInteractOption: ""
   RequirementText: "@dungeon_greatcleave01_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonEmpyreanForge00_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonEmpyreanForge00.png
@@ -2874,7 +2824,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -2927,6 +2877,7 @@
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: 5.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
@@ -2945,11 +2896,15 @@
   MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
-  AfkModeId: ""
+  AfkModeId: Expedition
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: DungeonShatterMtn00
   ScriptName: DungeonShatterMtn00
   RequiresTeamRaids: "0"
@@ -2958,6 +2913,8 @@
   Description: "@dungeon_shattermtn00_description"
   UiInteractOption: EnterDungeonIsabella
   RequirementText: "@dungeon_shattermtn00_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonShatterMtn00_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonIsabella.png
@@ -3038,7 +2995,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -3091,6 +3048,7 @@
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: 5.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
@@ -3109,11 +3067,15 @@
   MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
-  AfkModeId: ""
+  AfkModeId: Expedition
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: DungeonBrimstoneSands00
   ScriptName: DungeonBrimstoneSands00
   RequiresTeamRaids: "0"
@@ -3122,6 +3084,8 @@
   Description: "@dungeon_brimstonesands00_description"
   UiInteractOption: ""
   RequirementText: "@dungeon_brimstonesands00_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: LyShineUI/Images/Map/Icon/POIs/scarab_elite.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonBrimstoneSands00_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonBrimstoneSands00.png
@@ -3202,7 +3166,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -3255,6 +3219,7 @@
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: 5.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
@@ -3273,11 +3238,15 @@
   MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
-  AfkModeId: ""
+  AfkModeId: Expedition
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: DungeonFirstLight01
   ScriptName: DungeonFirstLight01
   RequiresTeamRaids: "0"
@@ -3286,6 +3255,8 @@
   Description: "@dungeon_firstlight01_description"
   UiInteractOption: EnterDungeonFirstLight
   RequirementText: "@dungeon_firstlight01_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonCrystalclawCavern_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonFirstLight00.png
@@ -3366,7 +3337,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -3419,6 +3390,7 @@
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: 5.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
@@ -3437,11 +3409,15 @@
   MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
-  AfkModeId: ""
+  AfkModeId: Expedition
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: DungeonGreatCleave00
   ScriptName: DungeonGreatCleave00
   RequiresTeamRaids: "0"
@@ -3450,6 +3426,8 @@
   Description: "@dungeon_greatcleave00_description"
   UiInteractOption: ""
   RequirementText: "@dungeon_greatcleave00_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_glacialtarn_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonGreatCleave00.png
@@ -3530,7 +3508,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -3583,6 +3561,7 @@
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: 5.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
@@ -3601,11 +3580,15 @@
   MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
-  AfkModeId: ""
+  AfkModeId: Expedition
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: DungeonDunwood02
   ScriptName: DungeonDunwood02
   RequiresTeamRaids: "0"
@@ -3614,6 +3597,8 @@
   Description: "@dungeon_dunwood02_description"
   UiInteractOption: ""
   RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: LyShineUI/Images/Map/Icon/POIs/expedition.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_DungeonAmrine.png
@@ -3694,7 +3679,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -3747,6 +3732,7 @@
   MatchmakingMaxDPS: 3.0
   UseMMBuff: true
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: 5.0
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
@@ -3765,11 +3751,15 @@
   MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
-  AfkModeId: ""
+  AfkModeId: Expedition
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: TrialBrimstoneSandworm
   ScriptName: TrialBrimstoneSandworm
   RequiresTeamRaids: "TRUE"
@@ -3778,6 +3768,8 @@
   Description: "@trial_brimstone_sandworm_description"
   UiInteractOption: EnterDungeon_RaidTrial
   RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: LyShineUI/Images/Map/Icon/POIs/trial_elite.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/expedition_DungeonAmrine_simple.png
   BackgroundImagePath: LyShineUI/Images/EntranceScreen/Sandworm/EntranceScreenBG_Sandworm.png
@@ -3858,7 +3850,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -3911,6 +3903,7 @@
   MatchmakingMaxDPS: 4.0
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -3929,11 +3922,15 @@
   MRV2_RankMultipliers_Overall: ""
   WorldPosToTeleportBackTo: ""
   DisablePSActivityCards: true
-  AfkModeId: ""
+  AfkModeId: Expedition
   ReadyUp_PercentRequired: null
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: RaidCutlassKeys00
   ScriptName: RaidCutlassKeys00
   RequiresTeamRaids: "TRUE"
@@ -3942,6 +3939,8 @@
   Description: "@raid_cutlasskeys00_description"
   UiInteractOption: ""
   RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: LyShineUI/Images/Map/Icon/POIs/raid.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/raid.png
   BackgroundImagePath: LyShineUI/Images/Dungeons/raidImages/raidimages_RaidCutlassKeys00.png
@@ -4022,7 +4021,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -4075,6 +4074,7 @@
   MatchmakingMaxDPS: 3.0
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -4098,6 +4098,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: TrialSeason01
   ScriptName: TrialSeason01
   RequiresTeamRaids: "TRUE"
@@ -4106,6 +4110,8 @@
   Description: "@Trial_Season_01_description"
   UiInteractOption: EnterTrialSeason01
   RequirementText: "@Trial_Season_01_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_season.png"
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_season.png"
   BackgroundImagePath: LyShineUI/Images/EntranceScreen/Hatchery/EntranceScreenBG_Hatchery.png
@@ -4186,7 +4192,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -4239,6 +4245,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -4262,6 +4269,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: TrialSeason04
   ScriptName: TrialSeason04
   RequiresTeamRaids: "TRUE"
@@ -4270,6 +4281,8 @@
   Description: "@Trial_Season_04_description"
   UiInteractOption: EnterTrialSeason04
   RequirementText: "@Trial_Season_04_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_season.png"
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_season.png"
   BackgroundImagePath: LyShineUI/Images/EntranceScreen/Season5_Trial/EntranceScreenBG_Season5_Trial.png
@@ -4350,7 +4363,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -4403,6 +4416,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -4426,6 +4440,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: QuestAdiana
   ScriptName: QuestAdiana
   RequiresTeamRaids: "FALSE"
@@ -4434,6 +4452,8 @@
   Description: "@Quest_Adiana_description"
   UiInteractOption: EnterQuestAdiana
   RequirementText: "@Quest_Adiana_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestAdiana.png
@@ -4514,7 +4534,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -4567,6 +4587,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -4590,6 +4611,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: QuestApophis
   ScriptName: QuestApophis
   RequiresTeamRaids: "0"
@@ -4598,6 +4623,8 @@
   Description: "@Quest_Apophis_description"
   UiInteractOption: EnterQuestApophis
   RequirementText: "@Quest_Apophis_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestApophis.png
@@ -4678,7 +4705,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -4731,6 +4758,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -4754,6 +4782,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: QuestCaerDun
   ScriptName: QuestCaerDun
   RequiresTeamRaids: "0"
@@ -4762,6 +4794,8 @@
   Description: "@Quest_CaerDun_description"
   UiInteractOption: EnterQuestCaerDun
   RequirementText: "@Quest_CaerDun_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestCaerDun.png
@@ -4842,7 +4876,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -4895,6 +4929,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -4918,6 +4953,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: QuestEmpressZhou
   ScriptName: QuestEmpressZhou
   RequiresTeamRaids: "0"
@@ -4926,6 +4965,8 @@
   Description: "@quest_empress_zhou_description"
   UiInteractOption: EnterQuestEmpressZhou
   RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestEmpressZhou.png
@@ -5006,7 +5047,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -5059,6 +5100,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -5082,6 +5124,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: QuestIsabella
   ScriptName: QuestIsabella
   RequiresTeamRaids: "0"
@@ -5090,6 +5136,8 @@
   Description: "@quest_isabella_description"
   UiInteractOption: EnterQuestIsabella
   RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestIsabella.png
@@ -5170,7 +5218,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -5223,6 +5271,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -5246,6 +5295,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: QuestMammoth
   ScriptName: QuestMammoth
   RequiresTeamRaids: "FALSE"
@@ -5254,6 +5307,8 @@
   Description: "@trial_mammoth_description"
   UiInteractOption: EnterQuestMammoth
   RequirementText: "@Quest_Mammoth_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestMammoth.png
@@ -5334,7 +5389,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -5387,6 +5442,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -5410,6 +5466,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: QuestMedusa
   ScriptName: QuestMedusa
   RequiresTeamRaids: "FALSE"
@@ -5418,6 +5478,8 @@
   Description: "@Quest_Medusa_description"
   UiInteractOption: EnterQuestMedusa
   RequirementText: "@Quest_Medusa_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestMedusa.png
@@ -5498,7 +5560,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -5551,6 +5613,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -5574,6 +5637,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: QuestMotherwell
   ScriptName: QuestMotherwell
   RequiresTeamRaids: "FALSE"
@@ -5582,6 +5649,8 @@
   Description: "@Quest_Motherwell_description"
   UiInteractOption: EnterQuestMotherwell
   RequirementText: "@Quest_Motherwell_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestMotherwell.png
@@ -5662,7 +5731,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -5715,6 +5784,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -5738,6 +5808,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: QuestMedea
   ScriptName: QuestMedea
   RequiresTeamRaids: "FALSE"
@@ -5746,6 +5820,8 @@
   Description: "@Quest_Medea_description"
   UiInteractOption: EnterQuestMedea
   RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestMedea.png
@@ -5826,7 +5902,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -5879,6 +5955,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -5902,6 +5979,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: QuestNihilo
   ScriptName: QuestNihilo
   RequiresTeamRaids: "FALSE"
@@ -5910,6 +5991,8 @@
   Description: "@Quest_Nihilo_description"
   UiInteractOption: EnterQuestNihilo
   RequirementText: "@Quest_Nihilo_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestNihilo.png
@@ -5990,7 +6073,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -6043,6 +6126,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -6066,6 +6150,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: QuestYonas
   ScriptName: QuestYonas
   RequiresTeamRaids: "FALSE"
@@ -6074,6 +6162,8 @@
   Description: "@Quest_Yonas_description"
   UiInteractOption: EnterQuestYonas
   RequirementText: "@Quest_Yonas_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestYonas.png
@@ -6154,7 +6244,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -6207,6 +6297,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -6230,6 +6321,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: TrialSeason02Q13
   ScriptName: TrialSeason02Q13
   RequiresTeamRaids: "FALSE"
@@ -6238,6 +6333,8 @@
   Description: "@trial_season_02_q13_description"
   UiInteractOption: EnterTrialSeason02Q13
   RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_TrialSeason02Q13.png
@@ -6318,7 +6415,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -6371,6 +6468,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -6394,6 +6492,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: TrialSeason02Q12
   ScriptName: TrialSeason02Q12
   RequiresTeamRaids: "FALSE"
@@ -6402,6 +6504,8 @@
   Description: "@trial_season_02_q12_description"
   UiInteractOption: EnterTrialSeason02Q12
   RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_TrialSeason02Q12.png
@@ -6482,7 +6586,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -6535,6 +6639,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -6558,6 +6663,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: TrialSeason04Q02
   ScriptName: TrialSeason04Q02
   RequiresTeamRaids: "FALSE"
@@ -6566,6 +6675,8 @@
   Description: "@trial_season_04_q02_description"
   UiInteractOption: EnterTrialSeason04Q02
   RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_TrialSeason04Q02.png
@@ -6646,7 +6757,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -6699,6 +6810,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -6722,6 +6834,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: TrialSeason04Q06
   ScriptName: TrialSeason04Q06
   RequiresTeamRaids: "FALSE"
@@ -6730,6 +6846,8 @@
   Description: "@trial_season_04_q06_description"
   UiInteractOption: EnterTrialSeason04Q06
   RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_TrialSeason04Q06.png
@@ -6810,7 +6928,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -6863,6 +6981,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -6886,6 +7005,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: TrialSeason04Q05
   ScriptName: TrialSeason04Q05
   RequiresTeamRaids: "FALSE"
@@ -6894,6 +7017,8 @@
   Description: "@trial_season_04_q05_description"
   UiInteractOption: EnterTrialSeason04Q05
   RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_TrialSeason04Q05.png
@@ -6974,7 +7099,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -7027,6 +7152,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -7050,6 +7176,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: QuestHeartforge
   ScriptName: QuestHeartforge
   RequiresTeamRaids: "FALSE"
@@ -7058,6 +7188,8 @@
   Description: "@Quest_Heartforge_description"
   UiInteractOption: EnterQuestHeartforge
   RequirementText: "@Quest_Heartforge_required_equipment"
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestHeartforge.png
@@ -7138,7 +7270,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -7191,6 +7323,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -7214,6 +7347,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: QuestLiang
   ScriptName: QuestLiang
   RequiresTeamRaids: "0"
@@ -7222,6 +7359,8 @@
   Description: "@quest_liang_description"
   UiInteractOption: EnterQuestLiang
   RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestLiang.png
@@ -7302,7 +7441,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -7355,6 +7494,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -7378,6 +7518,10 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
 - GameModeId: QuestGawain
   ScriptName: QuestGawain
   RequiresTeamRaids: "0"
@@ -7386,6 +7530,8 @@
   Description: "@quest_gawain_description"
   UiInteractOption: EnterQuestGawain
   RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
   IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
   BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestGawain.png
@@ -7466,7 +7612,7 @@
   PriorityAddMin: null
   PriorityAddMax: null
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: ""
+  MinAcceptedInvites: null
   UsePendingListMatchmaking: false
   AutoEquipQuickslot: null
   GrantConsumables: ""
@@ -7519,6 +7665,7 @@
   MatchmakingMaxDPS: null
   UseMMBuff: false
   DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
   MatchmakingPriority: null
   AllowMounts: false
   MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
@@ -7542,3 +7689,7 @@
   MapRotationStartIndex: null
   MapRotationTimeSpanInSeconds: null
   ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null

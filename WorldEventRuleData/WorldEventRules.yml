@@ -34,10 +34,10 @@
   Category: WorldBoss
   Hub: "*"
   Zone: ""
-  MaxEvents: 10.0
-  MinDistance: null
-  Disabled: true
-  Comments: Prevents more than 10 WorldBoss events active on a hub at a time
+  MaxEvents: 150.0
+  MinDistance: 10.0
+  Disabled: null
+  Comments: Preventsmorethan150WorldBosseventsactiveonahubatatime,andpreventsWorldBosseventsoverlapping
 - RuleId: Darkness-hub
   Category: DarknessEvent
   Hub: "*"

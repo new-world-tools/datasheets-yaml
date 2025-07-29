@@ -1,5 +1,6 @@
 - TaskID: Quest_18009_Task_0
-  SubTask1: Quest_18009_Task_1
+  SubTask1: Quest_18009_Task_2
+  SubTask2: Quest_18009_Task_1
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -15,7 +16,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -34,8 +35,11 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: ""
+  OverrideLocation: ""
+  TP_TargetTag: ""
 - TaskID: Quest_18009_Task_1
   SubTask1: ""
+  SubTask2: ""
   Type: TASKGOTOTERRITORY
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -51,7 +55,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -70,3 +74,44 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "17"
   TP_DescriptionTag: "@Quest_18009_Task_1_Description"
+  OverrideLocation: 2853.376953 4509.755859 42.219002
+  TP_TargetTag: ""
+- TaskID: Quest_18009_Task_2
+  SubTask1: ""
+  SubTask2: ""
+  Type: TASKTRIGGERAREA
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "true"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: "@Quest_18009_Task_2_Description_0"
+  OverrideLocation: 8187.746094 303.212006 40.487999
+  TP_TargetTag: TV_17_MSQ_BoatToNighthaven

@@ -42,7 +42,6 @@
   UIScreenTag: ""
   SubTask5: ""
   ItemDropVC: ""
-  TP_TargetTag: ""
 - TaskID: Quest_03199_Task_1
   SubTask1: Quest_03199_Task_2
   SubTask2: Quest_03199_Task_4
@@ -87,7 +86,6 @@
   UIScreenTag: ""
   SubTask5: ""
   ItemDropVC: ""
-  TP_TargetTag: ""
 - TaskID: Quest_03199_Task_2
   SubTask1: ""
   SubTask2: ""
@@ -132,7 +130,6 @@
   UIScreenTag: ""
   SubTask5: ""
   ItemDropVC: ""
-  TP_TargetTag: ""
 - TaskID: Quest_03199_Task_3
   SubTask1: ""
   SubTask2: ""
@@ -177,7 +174,6 @@
   UIScreenTag: NPC_04635_State_2_Topic_0
   SubTask5: ""
   ItemDropVC: ""
-  TP_TargetTag: ""
 - TaskID: Quest_03199_Task_4
   SubTask1: ""
   SubTask2: ""
@@ -222,7 +218,6 @@
   UIScreenTag: ""
   SubTask5: ""
   ItemDropVC: ""
-  TP_TargetTag: ""
 - TaskID: Quest_03199_Task_5
   SubTask1: ""
   SubTask2: ""
@@ -267,7 +262,6 @@
   UIScreenTag: ""
   SubTask5: ""
   ItemDropVC: ""
-  TP_TargetTag: ""
 - TaskID: Quest_03199_Task_6
   SubTask1: Quest_03199_Task_12
   SubTask2: Quest_03199_Task_12_0
@@ -310,9 +304,8 @@
   POITag: ""
   ItemName: ""
   UIScreenTag: ""
-  SubTask5: Quest_03199_Task_7
+  SubTask5: Quest_03199_Task_12_0_0_0_0
   ItemDropVC: ""
-  TP_TargetTag: ""
 - TaskID: Quest_03199_Task_12
   SubTask1: ""
   SubTask2: ""
@@ -320,7 +313,7 @@
   Type: TASKHAVEITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "24"
+  TargetQty: "8"
   Duration: "0.000000"
   ItemDropProbability: "0"
   ChestDropProbability: "0"
@@ -357,7 +350,6 @@
   UIScreenTag: ""
   SubTask5: ""
   ItemDropVC: ""
-  TP_TargetTag: ""
 - TaskID: Quest_03199_Task_8
   SubTask1: ""
   SubTask2: ""
@@ -365,7 +357,7 @@
   Type: TASKCRAFTMULTIPLERECIPES
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "4"
+  TargetQty: "5"
   Duration: "0.000000"
   ItemDropProbability: "0"
   ChestDropProbability: "0"
@@ -401,8 +393,7 @@
   ItemName: ""
   UIScreenTag: ""
   SubTask5: ""
-  ItemDropVC: WeaponsBoxT5,ArmorBoxT5,JewelryBoxT5,ToolsBoxT5,CombatConsumablesBoxT5,ArtifactsBoxT5,TrophiesBoxT5,CutGemsBoxT5,WeaponsBoxT51,ArmorBoxT51,JewelryBoxT51,ToolsBoxT51,CombatConsumablesBoxT51,HeartrunesBoxT51,HeartrunesBoxT5,PerkItemsBoxT5,RerollingMatsBoxT5,CutGemsBoxT51,MountsBoxT3
-  TP_TargetTag: ""
+  ItemDropVC: WeaponsBoxT5,ArmorBoxT5,JewelryBoxT5,ToolsBoxT5,CombatConsumablesBoxT5,ArtifactsBoxT5,TrophiesBoxT5,CutGemsBoxT5
 - TaskID: Quest_03199_Task_12_0
   SubTask1: ""
   SubTask2: ""
@@ -410,7 +401,7 @@
   Type: TASKHAVEITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "16"
+  TargetQty: "8"
   Duration: "0.000000"
   ItemDropProbability: "0"
   ChestDropProbability: "0"
@@ -447,7 +438,6 @@
   UIScreenTag: ""
   SubTask5: ""
   ItemDropVC: ""
-  TP_TargetTag: "@Quest_03199_Task_12_0_TargetTag"
 - TaskID: Quest_03199_Task_12_0_0
   SubTask1: ""
   SubTask2: ""
@@ -455,7 +445,7 @@
   Type: TASKHAVEITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "8"
+  TargetQty: "3"
   Duration: "0.000000"
   ItemDropProbability: "0"
   ChestDropProbability: "0"
@@ -492,7 +482,6 @@
   UIScreenTag: ""
   SubTask5: ""
   ItemDropVC: ""
-  TP_TargetTag: "@Quest_03199_Task_12_0_0_TargetTag"
 - TaskID: Quest_03199_Task_12_0_0_0
   SubTask1: ""
   SubTask2: ""
@@ -500,7 +489,7 @@
   Type: TASKHAVEITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "16"
+  TargetQty: "5"
   Duration: "0.000000"
   ItemDropProbability: "0"
   ChestDropProbability: "0"
@@ -537,7 +526,6 @@
   UIScreenTag: ""
   SubTask5: ""
   ItemDropVC: ""
-  TP_TargetTag: "@Quest_03199_Task_12_0_0_0_TargetTag"
 - TaskID: Quest_03199_Task_12_0_0_0_0
   SubTask1: ""
   SubTask2: ""
@@ -545,7 +533,7 @@
   Type: TASKHAVEITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "8"
+  TargetQty: "1"
   Duration: "0.000000"
   ItemDropProbability: "0"
   ChestDropProbability: "0"
@@ -582,274 +570,3 @@
   UIScreenTag: ""
   SubTask5: ""
   ItemDropVC: ""
-  TP_TargetTag: "@Quest_03199_Task_12_0_0_0_0_TargetTag"
-- TaskID: Quest_03199_Task_7
-  SubTask1: Quest_03199_Task_12_0_0_0_0
-  SubTask2: Quest_03199_Task_6_0
-  SubTask3: ""
-  Type: PARTIALTASKCONTAINER
-  TriggerAreaType: Enter
-  TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "0"
-  Duration: "0.000000"
-  ItemDropProbability: "0"
-  ChestDropProbability: "0"
-  MinGearScore: "0"
-  GuranteedDropAttempts: "0"
-  TargetThreshold: "0.000000"
-  IsPurchaseOrEarn: "true"
-  IsExactMatch: "false"
-  AwardOnlyOnce: "false"
-  GridLayout: "false"
-  HideChildren: "false"
-  OnInteractStart: "false"
-  FailOnCondition: "false"
-  ResetOnCondition: "false"
-  ShouldCheckPoints: "false"
-  UseGlobalStorage: "true"
-  CraftAnyRecipe: "false"
-  PauseAndClearLootOnTaskComplete: "false"
-  TP_HideOnCompassOnEnterPOI: "false"
-  GameModeMustBeMutated: "false"
-  StayActive: "false"
-  IsHidden: "true"
-  TriggerAnalyticsEvent: "false"
-  HideProgress: "false"
-  EnforceLocationRequirement: "false"
-  HideDiegeticGatherablePins: "false"
-  ShowDiegeticTaskPin: "false"
-  DiegeticPinZOverride: "0.000000"
-  TerritoryID: "0"
-  SubTask4: ""
-  TP_DescriptionTag: "@Quest_03199_Task_7_Description"
-  POITag: ""
-  ItemName: ""
-  UIScreenTag: ""
-  SubTask5: ""
-  ItemDropVC: ""
-  TP_TargetTag: ""
-- TaskID: Quest_03199_Task_6_0
-  SubTask1: Quest_03199_Task_12_1
-  SubTask2: Quest_03199_Task_12_0_1
-  SubTask3: Quest_03199_Task_12_0_0_0_1
-  Type: SIMPLETASKCONTAINER
-  TriggerAreaType: Enter
-  TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "0"
-  Duration: "0.000000"
-  ItemDropProbability: "0"
-  ChestDropProbability: "0"
-  MinGearScore: "0"
-  GuranteedDropAttempts: "0"
-  TargetThreshold: "0.000000"
-  IsPurchaseOrEarn: "true"
-  IsExactMatch: "false"
-  AwardOnlyOnce: "false"
-  GridLayout: "false"
-  HideChildren: "false"
-  OnInteractStart: "false"
-  FailOnCondition: "false"
-  ResetOnCondition: "false"
-  ShouldCheckPoints: "false"
-  UseGlobalStorage: "true"
-  CraftAnyRecipe: "false"
-  PauseAndClearLootOnTaskComplete: "false"
-  TP_HideOnCompassOnEnterPOI: "false"
-  GameModeMustBeMutated: "false"
-  StayActive: "false"
-  IsHidden: "true"
-  TriggerAnalyticsEvent: "false"
-  HideProgress: "false"
-  EnforceLocationRequirement: "false"
-  HideDiegeticGatherablePins: "false"
-  ShowDiegeticTaskPin: "false"
-  DiegeticPinZOverride: "0.000000"
-  TerritoryID: "0"
-  SubTask4: Quest_03199_Task_12_0_0_1
-  TP_DescriptionTag: "@Quest_03199_Task_6_0_Description"
-  POITag: ""
-  ItemName: ""
-  UIScreenTag: ""
-  SubTask5: ""
-  ItemDropVC: ""
-  TP_TargetTag: "@Quest_03199_Task_6_0_TargetTag"
-- TaskID: Quest_03199_Task_12_1
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  Type: TASKHAVEITEMS
-  TriggerAreaType: Enter
-  TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "24"
-  Duration: "0.000000"
-  ItemDropProbability: "0"
-  ChestDropProbability: "0"
-  MinGearScore: "0"
-  GuranteedDropAttempts: "0"
-  TargetThreshold: "0.000000"
-  IsPurchaseOrEarn: "true"
-  IsExactMatch: "false"
-  AwardOnlyOnce: "false"
-  GridLayout: "false"
-  HideChildren: "false"
-  OnInteractStart: "false"
-  FailOnCondition: "false"
-  ResetOnCondition: "false"
-  ShouldCheckPoints: "false"
-  UseGlobalStorage: "true"
-  CraftAnyRecipe: "false"
-  PauseAndClearLootOnTaskComplete: "false"
-  TP_HideOnCompassOnEnterPOI: "false"
-  GameModeMustBeMutated: "false"
-  StayActive: "false"
-  IsHidden: "true"
-  TriggerAnalyticsEvent: "false"
-  HideProgress: "false"
-  EnforceLocationRequirement: "false"
-  HideDiegeticGatherablePins: "false"
-  ShowDiegeticTaskPin: "false"
-  DiegeticPinZOverride: "0.000000"
-  TerritoryID: "0"
-  SubTask4: ""
-  TP_DescriptionTag: "@Quest_03199_Task_12_1_Description"
-  POITag: ""
-  ItemName: RedGuffinT5_S8
-  UIScreenTag: ""
-  SubTask5: ""
-  ItemDropVC: ""
-  TP_TargetTag: "@Quest_03199_Task_12_1_TargetTag"
-- TaskID: Quest_03199_Task_12_0_1
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  Type: TASKHAVEITEMS
-  TriggerAreaType: Enter
-  TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "16"
-  Duration: "0.000000"
-  ItemDropProbability: "0"
-  ChestDropProbability: "0"
-  MinGearScore: "0"
-  GuranteedDropAttempts: "0"
-  TargetThreshold: "0.000000"
-  IsPurchaseOrEarn: "true"
-  IsExactMatch: "false"
-  AwardOnlyOnce: "false"
-  GridLayout: "false"
-  HideChildren: "false"
-  OnInteractStart: "false"
-  FailOnCondition: "false"
-  ResetOnCondition: "false"
-  ShouldCheckPoints: "false"
-  UseGlobalStorage: "true"
-  CraftAnyRecipe: "false"
-  PauseAndClearLootOnTaskComplete: "false"
-  TP_HideOnCompassOnEnterPOI: "false"
-  GameModeMustBeMutated: "false"
-  StayActive: "false"
-  IsHidden: "true"
-  TriggerAnalyticsEvent: "false"
-  HideProgress: "false"
-  EnforceLocationRequirement: "false"
-  HideDiegeticGatherablePins: "false"
-  ShowDiegeticTaskPin: "false"
-  DiegeticPinZOverride: "0.000000"
-  TerritoryID: "0"
-  SubTask4: ""
-  TP_DescriptionTag: "@Quest_03199_Task_12_0_1_Description"
-  POITag: ""
-  ItemName: BlueGuffinT5_S8
-  UIScreenTag: ""
-  SubTask5: ""
-  ItemDropVC: ""
-  TP_TargetTag: "@Quest_03199_Task_12_0_1_TargetTag"
-- TaskID: Quest_03199_Task_12_0_0_0_1
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  Type: TASKHAVEITEMS
-  TriggerAreaType: Enter
-  TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "16"
-  Duration: "0.000000"
-  ItemDropProbability: "0"
-  ChestDropProbability: "0"
-  MinGearScore: "0"
-  GuranteedDropAttempts: "0"
-  TargetThreshold: "0.000000"
-  IsPurchaseOrEarn: "true"
-  IsExactMatch: "false"
-  AwardOnlyOnce: "false"
-  GridLayout: "false"
-  HideChildren: "false"
-  OnInteractStart: "false"
-  FailOnCondition: "false"
-  ResetOnCondition: "false"
-  ShouldCheckPoints: "false"
-  UseGlobalStorage: "true"
-  CraftAnyRecipe: "false"
-  PauseAndClearLootOnTaskComplete: "false"
-  TP_HideOnCompassOnEnterPOI: "false"
-  GameModeMustBeMutated: "false"
-  StayActive: "false"
-  IsHidden: "true"
-  TriggerAnalyticsEvent: "false"
-  HideProgress: "false"
-  EnforceLocationRequirement: "false"
-  HideDiegeticGatherablePins: "false"
-  ShowDiegeticTaskPin: "false"
-  DiegeticPinZOverride: "0.000000"
-  TerritoryID: "0"
-  SubTask4: ""
-  TP_DescriptionTag: "@Quest_03199_Task_12_0_0_0_1_Description"
-  POITag: ""
-  ItemName: PurpleGuffinT5_S8
-  UIScreenTag: ""
-  SubTask5: ""
-  ItemDropVC: ""
-  TP_TargetTag: "@Quest_03199_Task_12_0_0_0_1_TargetTag"
-- TaskID: Quest_03199_Task_12_0_0_1
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  Type: TASKHAVEITEMS
-  TriggerAreaType: Enter
-  TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "8"
-  Duration: "0.000000"
-  ItemDropProbability: "0"
-  ChestDropProbability: "0"
-  MinGearScore: "0"
-  GuranteedDropAttempts: "0"
-  TargetThreshold: "0.000000"
-  IsPurchaseOrEarn: "true"
-  IsExactMatch: "false"
-  AwardOnlyOnce: "false"
-  GridLayout: "false"
-  HideChildren: "false"
-  OnInteractStart: "false"
-  FailOnCondition: "false"
-  ResetOnCondition: "false"
-  ShouldCheckPoints: "false"
-  UseGlobalStorage: "true"
-  CraftAnyRecipe: "false"
-  PauseAndClearLootOnTaskComplete: "false"
-  TP_HideOnCompassOnEnterPOI: "false"
-  GameModeMustBeMutated: "false"
-  StayActive: "false"
-  IsHidden: "true"
-  TriggerAnalyticsEvent: "false"
-  HideProgress: "false"
-  EnforceLocationRequirement: "false"
-  HideDiegeticGatherablePins: "false"
-  ShowDiegeticTaskPin: "false"
-  DiegeticPinZOverride: "0.000000"
-  TerritoryID: "0"
-  SubTask4: ""
-  TP_DescriptionTag: "@Quest_03199_Task_12_0_0_1_Description"
-  POITag: ""
-  ItemName: YellowGuffinT5_S8
-  UIScreenTag: ""
-  SubTask5: ""
-  ItemDropVC: ""
-  TP_TargetTag: "@Quest_03199_Task_12_0_0_1_TargetTag"

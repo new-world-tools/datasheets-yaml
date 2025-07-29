@@ -15,7 +15,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -34,10 +34,11 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: ""
+  TP_TargetTag: ""
   POITag: ""
 - TaskID: Quest_18026_Task_1
   SubTask1: ""
-  Type: TASKGOTOPOITAG
+  Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
   TargetQty: "1"
@@ -52,7 +53,7 @@
   AwardOnlyOnce: "false"
   GridLayout: "false"
   HideChildren: "false"
-  Oninteractstart: "false"
+  OnInteractStart: "false"
   FailOnCondition: "false"
   ResetOnCondition: "false"
   ShouldCheckPoints: "false"
@@ -71,4 +72,5 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18026_Task_1_Description"
+  TP_TargetTag: TV_17_MSQ_Clocktower
   POITag: dunwood_castle_10201
