@@ -134690,7 +134690,7 @@
   IsClientPredicted: ""
   PotencyPerLevel: ""
   HideHudDurationNumbers: null
-  BaseDuration: 0.5
+  BaseDuration: 1.0
   TickRate: 0.0
   DelayInitialTick: ""
   TickCondition: ""
@@ -134783,7 +134783,7 @@
   RespecAttributes: ""
   EffectDurationMods: ""
   EffectDurationMods_Tooltip: null
-  EffectPotencyMods: KnockBackDmg=-0.75
+  EffectPotencyMods: KnockBackDmg=-0.5
   RemoveStatusEffects: ""
   RemoveStatusEffectCategories: ""
   GlobalRollMod: null
@@ -134935,7 +134935,7 @@
 - StatusID: Status_Perk_Artifact_Set3_Hammer_Knockback_Damage
   DisplayName: "@Status_Runeglass_Corrosion"
   Description: "@Status_DoT_Corrosion_Description"
-  EffectCategories: Debuff+DMG+DoT+KnockBackDmg
+  EffectCategories: NonDispellableDebuff+DMG+DoT+KnockBackDmg
   PlaceholderIcon: lyshineui/images/status/SE_CorruptedDMGBonusT1.png
   ShowInUITray: "1"
   ShowTextInDamageNumbers: true
@@ -135156,7 +135156,7 @@
   AFACurse: null
   AFABlight: null
   StackDuration: ""
-  DurationMax: 0.9
+  DurationMax: 0.1
   InheritDuration: ""
   InheritTotalDuration: ""
   RefreshDuration: ""
