@@ -94,15 +94,15 @@
   IconPath: lyshineui/images/pugfinder/PugFinder_Raid.dds
   IsPvp: false
   MinGroupSize: 6.0
-  MaxGroupSize: 20.0
+  MaxGroupSize: 10.0
   RequireAzothStaff: null
   RequireLocalGroup: true
   RequireRaidGroup: true
-  IconPathSmall: ""
-  PanelIconPath: ""
-  PanelName: ""
-  PanelSubText: ""
-  PanelDescription: ""
+  IconPathSmall: lyshineui/images/pugfinder/raidIconSmall.dds
+  PanelIconPath: lyshineui/images/pugfinder/RaidIcon.dds
+  PanelName: "@ui_pugfinder_activity_raids_name"
+  PanelSubText: "@ui_pugfinder_activity_raids_name"
+  PanelDescription: "@ui_pugfinder_activity_raids_desc"
 - GameModeId: SoulTrial
   Name: "@ui_pugfinder_activity_solo_trials_name"
   Description: "@ui_pugfinder_activity_solo_trials_desc"
@@ -148,3 +148,33 @@
   PanelName: ""
   PanelSubText: ""
   PanelDescription: ""
+- GameModeId: BattleRoyale
+  Name: "@br_gamemode_name"
+  Description: "@br_gamemode_description"
+  IconPath: lyshineui/images/pugfinder/PugFinder_CTF.png
+  IsPvp: true
+  MinGroupSize: null
+  MaxGroupSize: null
+  RequireAzothStaff: null
+  RequireLocalGroup: null
+  RequireRaidGroup: null
+  IconPathSmall: lyshineui/images/pugfinder/PugFinder_CTF.png
+  PanelIconPath: lyshineui/images/pugfinder/PugFinder_CTF.png
+  PanelName: ""
+  PanelSubText: ""
+  PanelDescription: ""
+- GameModeId: Catacombs
+  Name: "@ui_pugfinder_activity_catacombs_name"
+  Description: "@ui_pugfinder_activity_catacombs_desc"
+  IconPath: lyshineui/images/pugfinder/PugFinder_Catacombs.png
+  IsPvp: false
+  MinGroupSize: null
+  MaxGroupSize: null
+  RequireAzothStaff: null
+  RequireLocalGroup: null
+  RequireRaidGroup: null
+  IconPathSmall: lyshineui/images/pugfinder/PugFinder_Catacombs.png
+  PanelIconPath: lyshineui/images/pugfinder/PugFinder_Catacombs.png
+  PanelName: "@dungeon_catacombs_title"
+  PanelSubText: ""
+  PanelDescription: "@dungeon_catacombs_description"

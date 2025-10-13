@@ -8,8 +8,6 @@
   SubTask7: Quest_18016_Task_10_0
   SubTask8: Quest_18016_Task_10
   SubTask9: Quest_18016_Task_4
-  SubTask10: Quest_18016_Task_5
-  SubTask11: Quest_18016_Task_9
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -49,6 +47,7 @@
   OverrideLocation: ""
   ItemName: ""
   UIScreenTag: ""
+  InteractTag: ""
   KillEnemyType: ""
 - TaskID: Quest_18016_Task_1
   SubTask1: ""
@@ -60,8 +59,6 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
   Type: TASKGOTOPOITAG
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -101,6 +98,7 @@
   OverrideLocation: ""
   ItemName: ""
   UIScreenTag: ""
+  InteractTag: ""
   KillEnemyType: ""
 - TaskID: Quest_18016_Task_2
   SubTask1: ""
@@ -112,8 +110,6 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
   Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -153,6 +149,7 @@
   OverrideLocation: 2429.065918 5979.551758 210.220001
   ItemName: ""
   UIScreenTag: ""
+  InteractTag: ""
   KillEnemyType: ""
 - TaskID: Quest_18016_Task_3
   SubTask1: ""
@@ -164,8 +161,6 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
   Type: TASKCONVERSATIONTOPIC
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -205,6 +200,7 @@
   OverrideLocation: ""
   ItemName: NPC_18047
   UIScreenTag: NPC_18047_State_1_Topic_0
+  InteractTag: ""
   KillEnemyType: ""
 - TaskID: Quest_18016_Task_4
   SubTask1: ""
@@ -216,8 +212,6 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
   Type: TASKCONVERSATIONTOPIC
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -257,58 +251,7 @@
   OverrideLocation: ""
   ItemName: NPC_18026
   UIScreenTag: NPC_18026_State_1_Topic_0
-  KillEnemyType: ""
-- TaskID: Quest_18016_Task_5
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-  SubTask6: ""
-  SubTask7: ""
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
-  Type: TASKGIVEITEM
-  TriggerAreaType: Enter
-  TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "1"
-  Duration: "0.000000"
-  ItemDropProbability: "100"
-  ChestDropProbability: "0"
-  MinGearScore: "0"
-  GuranteedDropAttempts: "0"
-  TargetThreshold: "0.000000"
-  IsPurchaseOrEarn: "true"
-  IsExactMatch: "false"
-  AwardOnlyOnce: "false"
-  GridLayout: "false"
-  HideChildren: "false"
-  OnInteractStart: "false"
-  FailOnCondition: "false"
-  ResetOnCondition: "false"
-  ShouldCheckPoints: "false"
-  UseGlobalStorage: "true"
-  CraftAnyRecipe: "false"
-  PauseAndClearLootOnTaskComplete: "true"
-  TP_HideOnCompassOnEnterPOI: "false"
-  GameModeMustBeMutated: "false"
-  StayActive: "false"
-  IsHidden: "true"
-  TriggerAnalyticsEvent: "false"
-  HideProgress: "false"
-  EnforceLocationRequirement: "false"
-  HideDiegeticGatherablePins: "false"
-  ShowDiegeticTaskPin: "false"
-  DiegeticPinZOverride: "0.000000"
-  TerritoryID: "0"
-  TP_DescriptionTag: "@Quest_18016_Task_5_Description"
-  POITag: ""
-  TP_TargetTag: ""
-  OverrideLocation: ""
-  ItemName: 17_MSQ_Charmed_Salve
-  UIScreenTag: ""
+  InteractTag: ""
   KillEnemyType: ""
 - TaskID: Quest_18016_Task_6
   SubTask1: ""
@@ -320,8 +263,6 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
   Type: TASKHAVEANDRETURNITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -352,15 +293,16 @@
   HideProgress: "false"
   EnforceLocationRequirement: "false"
   HideDiegeticGatherablePins: "false"
-  ShowDiegeticTaskPin: "false"
+  ShowDiegeticTaskPin: "true"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18016_Task_6_Description"
   POITag: ""
   TP_TargetTag: ""
-  OverrideLocation: ""
+  OverrideLocation: 2488.531738 5962.698242 211.485397
   ItemName: 17_MSQ_Ethereal_Essence
   UIScreenTag: ""
+  InteractTag: 17DW_ArcanaLock_Chest_interact
   KillEnemyType: ""
 - TaskID: Quest_18016_Task_8
   SubTask1: ""
@@ -372,8 +314,6 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
   Type: TASKACHIEVEMENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -404,67 +344,16 @@
   HideProgress: "false"
   EnforceLocationRequirement: "false"
   HideDiegeticGatherablePins: "false"
-  ShowDiegeticTaskPin: "false"
+  ShowDiegeticTaskPin: "true"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18016_Task_8_Description"
   POITag: ""
   TP_TargetTag: ""
-  OverrideLocation: 2438.397949 6000.909180 211.244995
+  OverrideLocation: 2488.269287 5973.591309 210.263000
   ItemName: Lore_unlock_Topic_17_Nighthaven_Title_03_16
   UIScreenTag: ""
-  KillEnemyType: ""
-- TaskID: Quest_18016_Task_9
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-  SubTask6: ""
-  SubTask7: ""
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
-  Type: TASKHAVEANDRETURNITEMS
-  TriggerAreaType: Enter
-  TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "1"
-  Duration: "0.000000"
-  ItemDropProbability: "0"
-  ChestDropProbability: "0"
-  MinGearScore: "0"
-  GuranteedDropAttempts: "0"
-  TargetThreshold: "0.000000"
-  IsPurchaseOrEarn: "true"
-  IsExactMatch: "false"
-  AwardOnlyOnce: "false"
-  GridLayout: "false"
-  HideChildren: "false"
-  OnInteractStart: "false"
-  FailOnCondition: "false"
-  ResetOnCondition: "false"
-  ShouldCheckPoints: "false"
-  UseGlobalStorage: "true"
-  CraftAnyRecipe: "false"
-  PauseAndClearLootOnTaskComplete: "true"
-  TP_HideOnCompassOnEnterPOI: "false"
-  GameModeMustBeMutated: "false"
-  StayActive: "false"
-  IsHidden: "true"
-  TriggerAnalyticsEvent: "false"
-  HideProgress: "false"
-  EnforceLocationRequirement: "false"
-  HideDiegeticGatherablePins: "false"
-  ShowDiegeticTaskPin: "false"
-  DiegeticPinZOverride: "0.000000"
-  TerritoryID: "0"
-  TP_DescriptionTag: ""
-  POITag: ""
-  TP_TargetTag: ""
-  OverrideLocation: ""
-  ItemName: 17_MSQ_Charmed_Salve
-  UIScreenTag: ""
+  InteractTag: ""
   KillEnemyType: ""
 - TaskID: Quest_18016_Task_10
   SubTask1: ""
@@ -476,8 +365,6 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
   Type: TASKUNLOCKACHIEVEMENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -517,6 +404,7 @@
   OverrideLocation: ""
   ItemName: spiritshrine_10329_discovered
   UIScreenTag: ""
+  InteractTag: ""
   KillEnemyType: ""
 - TaskID: Quest_18016_Task_10_0
   SubTask1: ""
@@ -528,8 +416,6 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
   Type: TASKUNLOCKACHIEVEMENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -569,6 +455,7 @@
   OverrideLocation: ""
   ItemName: spiritshrine_10329_charted
   UIScreenTag: ""
+  InteractTag: ""
   KillEnemyType: ""
 - TaskID: Quest_18016_Task_7
   SubTask1: ""
@@ -580,8 +467,6 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
   Type: TASKGAMEEVENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -621,4 +506,5 @@
   OverrideLocation: ""
   ItemName: ""
   UIScreenTag: ""
+  InteractTag: ""
   KillEnemyType: 17_MSQ_DevilTower_GlobalSuccess

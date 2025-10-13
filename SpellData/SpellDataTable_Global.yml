@@ -30,7 +30,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 5.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: 0.0
@@ -91,6 +91,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Spell_Taunt_AOE
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -123,7 +125,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: 0.0
@@ -184,6 +186,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: DungeonStatusInteractArcaneProtection
   StatusEffects: LifeStaff_Mana_Regen
   StatusEffectDurations: ""
@@ -216,7 +220,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 5.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: 0.0
@@ -277,6 +281,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: DungeonStatusInteractRelicBubble
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -309,7 +315,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 5.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: 0.0
@@ -370,6 +376,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: DungeonStatusInteractRelicBubbleDrop
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -402,7 +410,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 5.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: 0.0
@@ -463,6 +471,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: DungeonStatusInteractRelicBubbleRemove
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -495,7 +505,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 5.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: 0.0
@@ -556,6 +566,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: DungeonCorruptedTether
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -588,7 +600,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: 0.0
@@ -649,6 +661,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: DungeonCorruptedTether_Cultist
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -681,7 +695,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: 0.0
@@ -742,6 +756,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: DungeonCorruptedTetherTarget
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -774,7 +790,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: 0.0
@@ -835,6 +851,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Dungeon_BotKillRadius
   StatusEffects: Dungeon_FallToDeath
   StatusEffectDurations: ""
@@ -867,7 +885,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -928,6 +946,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Dungeon_BotKillRadius_Predator
   StatusEffects: Dungeon_FallToDeath
   StatusEffectDurations: ""
@@ -960,7 +980,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -1021,6 +1041,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Dungeon_BotKillRadius_AngryEarth
   StatusEffects: Dungeon_FallToDeath
   StatusEffectDurations: ""
@@ -1053,7 +1075,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -1114,6 +1136,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Dungeon_BotKillRadius_Corrupted
   StatusEffects: Dungeon_FallToDeath
   StatusEffectDurations: ""
@@ -1146,7 +1170,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -1207,6 +1231,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Dungeon_RemoveStatus_Sandworm
   StatusEffects: Bot_TrialSandworm_RemoveShield
   StatusEffectDurations: ""
@@ -1239,7 +1265,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -1300,6 +1326,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Dungeon_BrimstoneSands00_SunTurretBeam
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -1332,7 +1360,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 1.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: 0.0
@@ -1393,6 +1421,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Dungeon_BrimstoneSands00_SunTurretBeam02
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -1425,7 +1455,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 1.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: 0.0
@@ -1486,6 +1516,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Dungeon_BrimstoneSands00_SunTurretBeam03
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -1518,7 +1550,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 1.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: 0.0
@@ -1579,6 +1611,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Dungeon_BrimstoneSands00_SunTurretAlert
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -1611,7 +1645,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 1.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: 0.0
@@ -1672,6 +1706,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Dungeon_CutlassKeys00_TornadoTrap
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -1704,7 +1740,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: 0.0
@@ -1765,6 +1801,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Dungeon_Bot10PercentDmg
   StatusEffects: Bot_10PercentDamage
   StatusEffectDurations: ""
@@ -1797,7 +1835,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -1858,6 +1896,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Dungeon_Medusa_Statue_Gaze
   StatusEffects: Dungeon_Medusa_Statue_Gaze_Root
   StatusEffectDurations: "5"
@@ -1890,7 +1930,7 @@
   MaxRadiusScaling: ""
   CastDistance: 20.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: 13.0
   ConeWidth: 2.0
   ChannelTime: 0.0
@@ -1951,6 +1991,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Raid_CutlassKeys00_MushroomInfection_Spread
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -1983,7 +2025,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 5.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -2044,6 +2086,103 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
+- SpellID: Raid_MonarchsBluffs00_InteractBarrel
+  StatusEffects: ""
+  StatusEffectDurations: ""
+  Revive: ""
+  Siphon: ""
+  AttachToOwner: true
+  StickWhenAttached: null
+  StoreOffsetWhenStuckToGDE: null
+  DoNotSyncToJointOnClient: null
+  UseDirectTargetAsAttachOwner: ""
+  SpawnSecondaryOnElapsed: ""
+  SpawnSecondaryOnCollision: ""
+  AttachProjectileOnCollision: ""
+  EndOnCasterDeath: true
+  IgnoreTargetIfAtDeathsDoor: null
+  IgnoreTargetIfDead: null
+  UseCameraTargetLock: ""
+  TrackNumInVolume: ""
+  ClearOnExit: false
+  ClearOnEnd: false
+  ManaCost: ""
+  UseStatusEffectDuration: false
+  Duration: -1.0
+  DurationScaling: ""
+  Height: null
+  Length: ""
+  Radius: 1.0
+  InnerRadius: ""
+  RadiusScaling: ""
+  MaxRadiusScaling: ""
+  CastDistance: null
+  CastHeight: null
+  CastRadius: null
+  ConeAngle: null
+  ConeWidth: null
+  ChannelTime: 0.0
+  ChainDelayDuration: null
+  MaxChainNum: null
+  UseChainCasterPaperdoll: null
+  NumToSpawn: null
+  NumToSpawnBeforeFail: null
+  SpawnRate: ""
+  SpawnAngle: ""
+  SecondarySpellProjectileLaunchAngles: ""
+  ScaleWithCharacterBoundingBox: ""
+  ScaleWithDynamicScale: ""
+  TargetTypes: All
+  SpellTypes: Elemental
+  CastingTypes: Aoe
+  HitAiTarget: null
+  OverrideTargetForAiThreat: ""
+  ShapeTypes: Sphere
+  DamageType: ""
+  CheckObstructions: null
+  IgnoreOverheadCollision: true
+  IgnoreStructures: true
+  IgnoreSelf: true
+  IsUnaffiliated: true
+  WeaponSlotOverride: ""
+  RangedAttackProfile: ""
+  RangedAttackName: ""
+  FireJointName: ""
+  ProjPosOffsetX: null
+  ProjPosOffsetY: null
+  ProjPosOffsetZ: null
+  ProjRotOffsetX: ""
+  ProjRotOffsetY: ""
+  ProjRotOffsetZ: ""
+  CharRelPosOffsetX: ""
+  CharRelPosOffsetY: ""
+  CharRelPosOffsetZ: ""
+  CharRelRotOffsetX: ""
+  CharRelRotOffsetY: ""
+  CharRelRotOffsetZ: ""
+  AOECharRelPosOffsetX: ""
+  AOECharRelPosOffsetY: ""
+  AOECharRelPosOffsetZ: ""
+  AOECharRelRotOffsetX: ""
+  AOECharRelRotOffsetY: ""
+  AOECharRelRotOffsetZ: null
+  ProjRaycastOrientation: ""
+  BaseDamage: null
+  DamageTable: ""
+  DamageTableRow: ""
+  AbilityId: ""
+  TargetAbilityCondition: ""
+  BeamEffect: ""
+  IndicatorVFX: ""
+  SpellPrefabPath: Characters/SpellSlices/AI_IoN_InteractBarrel_Spell
+  SecondaryPrefabPath: ""
+  SecondarySpellID: ""
+  TertiaryPrefabPath: ""
+  TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Fir_Curse1_Minor
   StatusEffects: Mut_Curse1_Fir_Minor_Chain_Damage
   StatusEffectDurations: ""
@@ -2076,7 +2215,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -2137,6 +2276,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Lig_Curse1_Minor
   StatusEffects: Mut_Curse1_Lig_Minor_Chain_Damage
   StatusEffectDurations: ""
@@ -2169,7 +2310,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -2230,6 +2371,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Voi_Curse1_Minor
   StatusEffects: Mut_Curse1_Voi_Minor_Chain_Damage
   StatusEffectDurations: ""
@@ -2262,7 +2405,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -2323,6 +2466,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Nat_Curse1_Minor
   StatusEffects: Mut_Curse1_Nat_Minor_Chain_Damage
   StatusEffectDurations: ""
@@ -2355,7 +2500,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -2416,6 +2561,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Ice_Curse1_Minor
   StatusEffects: Mut_Curse1_Ice_Minor_Chain_Damage
   StatusEffectDurations: ""
@@ -2448,7 +2595,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -2509,6 +2656,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Fir_Curse1_Major
   StatusEffects: Mut_Curse1_Fir_Major_Damage_DoT
   StatusEffectDurations: ""
@@ -2541,7 +2690,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -2602,6 +2751,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Lig_Curse1_Major
   StatusEffects: Mut_Curse1_Lig_Major_Damage_DoT
   StatusEffectDurations: ""
@@ -2634,7 +2785,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -2695,6 +2846,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Voi_Curse1_Major
   StatusEffects: Mut_Curse1_Voi_Major_Damage_DoT
   StatusEffectDurations: ""
@@ -2727,7 +2880,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -2788,6 +2941,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Nat_Curse1_Major
   StatusEffects: Mut_Curse1_Nat_Major_Damage_DoT
   StatusEffectDurations: ""
@@ -2820,7 +2975,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -2881,6 +3036,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Ice_Curse1_Major
   StatusEffects: Mut_Curse1_Ice_Major_Damage_DoT
   StatusEffectDurations: ""
@@ -2913,7 +3070,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -2974,6 +3131,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Curse2_Minor
   StatusEffects: Mut_Curse2_Minor_SlowRend
   StatusEffectDurations: ""
@@ -3006,7 +3165,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -3067,6 +3226,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Fir_Curse3_Minor_Tell
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -3099,7 +3260,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -3160,6 +3321,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Fir_Curse3_Minor
   StatusEffects: Mut_Fir_Curse3_Minor_Damage
   StatusEffectDurations: ""
@@ -3192,7 +3355,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -3253,6 +3416,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Voi_Curse3_Minor_Tell
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -3285,7 +3450,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -3346,6 +3511,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Voi_Curse3_Minor
   StatusEffects: Mut_Voi_Curse3_Minor_Damage
   StatusEffectDurations: ""
@@ -3378,7 +3545,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -3439,6 +3606,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Nat_Curse3_Minor_Tell
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -3471,7 +3640,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -3532,6 +3701,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Nat_Curse3_Minor
   StatusEffects: Mut_Nat_Curse3_Minor_Damage
   StatusEffectDurations: ""
@@ -3564,7 +3735,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -3625,6 +3796,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Ice_Curse3_Minor_Tell
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -3657,7 +3830,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -3718,6 +3891,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Ice_Curse3_Minor
   StatusEffects: Mut_Ice_Curse3_Minor_Damage
   StatusEffectDurations: ""
@@ -3750,7 +3925,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -3811,6 +3986,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Curse3_Major_Tell
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -3843,7 +4020,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -3904,6 +4081,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Fir_Curse3_Major_Tell
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -3936,7 +4115,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -3997,6 +4176,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Voi_Curse3_Major_Tell
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -4029,7 +4210,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -4090,6 +4271,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Nat_Curse3_Major_Tell
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -4122,7 +4305,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -4183,6 +4366,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Ice_Curse3_Major_Tell
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -4215,7 +4400,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -4276,6 +4461,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Base_Curse3_Major
   StatusEffects: Mut_Base_Curse3_Major_Heal
   StatusEffectDurations: ""
@@ -4308,7 +4495,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -4369,6 +4556,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Fir_Curse4_Minor
   StatusEffects: Mut_Fir_Curse4_Minor_Damage
   StatusEffectDurations: ""
@@ -4401,7 +4590,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -4462,6 +4651,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Voi_Curse4_Minor
   StatusEffects: Mut_Voi_Curse4_Minor_Damage
   StatusEffectDurations: ""
@@ -4494,7 +4685,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -4555,6 +4746,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Nat_Curse4_Minor
   StatusEffects: Mut_Nat_Curse4_Minor_Damage
   StatusEffectDurations: ""
@@ -4587,7 +4780,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -4648,6 +4841,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Ice_Curse4_Minor
   StatusEffects: Mut_Ice_Curse4_Minor_Damage
   StatusEffectDurations: ""
@@ -4680,7 +4875,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -4741,6 +4936,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Fir_Curse4_Major
   StatusEffects: Mut_Fir_Curse4_Minor_Damage
   StatusEffectDurations: ""
@@ -4773,7 +4970,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -4834,6 +5031,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Voi_Curse4_Major
   StatusEffects: Mut_Voi_Curse4_Minor_Damage
   StatusEffectDurations: ""
@@ -4866,7 +5065,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -4927,6 +5126,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Nat_Curse4_Major
   StatusEffects: Mut_Nat_Curse4_Minor_Damage
   StatusEffectDurations: ""
@@ -4959,7 +5160,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -5020,6 +5221,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Mut_Ice_Curse4_Major
   StatusEffects: Mut_Ice_Curse4_Minor_Damage
   StatusEffectDurations: ""
@@ -5052,7 +5255,7 @@
   MaxRadiusScaling: ""
   CastDistance: 0.0
   CastHeight: 0.0
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -5113,6 +5316,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: ChainLightningPerk1
   StatusEffects: ChainLightningDamage
   StatusEffectDurations: ""
@@ -5145,7 +5350,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -5206,6 +5411,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: ChainLightningPerk2
   StatusEffects: ChainLightningDamage
   StatusEffectDurations: ""
@@ -5238,7 +5445,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -5299,6 +5506,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: ChainLightningPerk3
   StatusEffects: ChainLightningDamage
   StatusEffectDurations: ""
@@ -5331,7 +5540,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -5392,6 +5601,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: ChainFirePerk1
   StatusEffects: ChainFireDamage
   StatusEffectDurations: ""
@@ -5424,7 +5635,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -5485,6 +5696,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: ChainFirePerk2
   StatusEffects: ChainFireDamage
   StatusEffectDurations: ""
@@ -5517,7 +5730,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -5578,6 +5791,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: ChainFirePerk3
   StatusEffects: ChainFireDamage
   StatusEffectDurations: ""
@@ -5610,7 +5825,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -5671,6 +5886,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: ChainArcanePerk1
   StatusEffects: ChainArcaneDamage
   StatusEffectDurations: ""
@@ -5703,7 +5920,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -5764,6 +5981,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: ChainArcanePerk2
   StatusEffects: ChainArcaneDamage
   StatusEffectDurations: ""
@@ -5796,7 +6015,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -5857,6 +6076,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: ChainArcanePerk3
   StatusEffects: ChainArcaneDamage
   StatusEffectDurations: ""
@@ -5889,7 +6110,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -5950,6 +6171,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: ChainVoidPerk1
   StatusEffects: ChainVoidDamage
   StatusEffectDurations: ""
@@ -5982,7 +6205,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -6043,6 +6266,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: ChainVoidPerk2
   StatusEffects: ChainVoidDamage
   StatusEffectDurations: ""
@@ -6075,7 +6300,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -6136,6 +6361,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: ChainVoidPerk3
   StatusEffects: ChainVoidDamage
   StatusEffectDurations: ""
@@ -6168,7 +6395,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -6229,6 +6456,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: ChainIcePerk1
   StatusEffects: ChainIceDamage
   StatusEffectDurations: ""
@@ -6261,7 +6490,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -6322,6 +6551,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: ChainIcePerk2
   StatusEffects: ChainIceDamage
   StatusEffectDurations: ""
@@ -6354,7 +6585,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -6415,6 +6646,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: ChainIcePerk3
   StatusEffects: ChainIceDamage
   StatusEffectDurations: ""
@@ -6447,7 +6680,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -6508,6 +6741,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: ChainNaturePerk1
   StatusEffects: ChainNatureDamage
   StatusEffectDurations: ""
@@ -6540,7 +6775,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -6601,6 +6836,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: ChainNaturePerk2
   StatusEffects: ChainNatureDamage
   StatusEffectDurations: ""
@@ -6633,7 +6870,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -6694,6 +6931,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: ChainNaturePerk3
   StatusEffects: ChainNatureDamage
   StatusEffectDurations: ""
@@ -6726,7 +6965,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -6787,6 +7026,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: ChainLightning
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -6819,7 +7060,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -6880,6 +7121,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: BrotherUmberto_Tether
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -6912,7 +7155,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: 0.0
@@ -6973,6 +7216,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Emote_Snowball_Projectile
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -7005,7 +7250,7 @@
   MaxRadiusScaling: ""
   CastDistance: 20.0
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -7066,6 +7311,103 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
+- SpellID: Dungeon_Bot10PercentDmgAOE150
+  StatusEffects: Bot_10PercentDamage
+  StatusEffectDurations: ""
+  Revive: ""
+  Siphon: ""
+  AttachToOwner: true
+  StickWhenAttached: null
+  StoreOffsetWhenStuckToGDE: null
+  DoNotSyncToJointOnClient: null
+  UseDirectTargetAsAttachOwner: ""
+  SpawnSecondaryOnElapsed: ""
+  SpawnSecondaryOnCollision: ""
+  AttachProjectileOnCollision: ""
+  EndOnCasterDeath: true
+  IgnoreTargetIfAtDeathsDoor: null
+  IgnoreTargetIfDead: null
+  UseCameraTargetLock: ""
+  TrackNumInVolume: ""
+  ClearOnExit: true
+  ClearOnEnd: true
+  ManaCost: ""
+  UseStatusEffectDuration: true
+  Duration: -1.0
+  DurationScaling: ""
+  Height: null
+  Length: ""
+  Radius: 150.0
+  InnerRadius: ""
+  RadiusScaling: ""
+  MaxRadiusScaling: ""
+  CastDistance: null
+  CastHeight: null
+  CastRadius: null
+  ConeAngle: null
+  ConeWidth: null
+  ChannelTime: null
+  ChainDelayDuration: null
+  MaxChainNum: null
+  UseChainCasterPaperdoll: null
+  NumToSpawn: null
+  NumToSpawnBeforeFail: null
+  SpawnRate: ""
+  SpawnAngle: ""
+  SecondarySpellProjectileLaunchAngles: ""
+  ScaleWithCharacterBoundingBox: ""
+  ScaleWithDynamicScale: ""
+  TargetTypes: All
+  SpellTypes: ""
+  CastingTypes: Aoe
+  HitAiTarget: null
+  OverrideTargetForAiThreat: ""
+  ShapeTypes: Sphere
+  DamageType: ""
+  CheckObstructions: null
+  IgnoreOverheadCollision: true
+  IgnoreStructures: true
+  IgnoreSelf: true
+  IsUnaffiliated: null
+  WeaponSlotOverride: ""
+  RangedAttackProfile: ""
+  RangedAttackName: ""
+  FireJointName: ""
+  ProjPosOffsetX: null
+  ProjPosOffsetY: null
+  ProjPosOffsetZ: null
+  ProjRotOffsetX: ""
+  ProjRotOffsetY: ""
+  ProjRotOffsetZ: ""
+  CharRelPosOffsetX: ""
+  CharRelPosOffsetY: ""
+  CharRelPosOffsetZ: ""
+  CharRelRotOffsetX: ""
+  CharRelRotOffsetY: ""
+  CharRelRotOffsetZ: ""
+  AOECharRelPosOffsetX: ""
+  AOECharRelPosOffsetY: ""
+  AOECharRelPosOffsetZ: ""
+  AOECharRelRotOffsetX: ""
+  AOECharRelRotOffsetY: ""
+  AOECharRelRotOffsetZ: null
+  ProjRaycastOrientation: ""
+  BaseDamage: null
+  DamageTable: ""
+  DamageTableRow: ""
+  AbilityId: ""
+  TargetAbilityCondition: ""
+  BeamEffect: ""
+  IndicatorVFX: ""
+  SpellPrefabPath: Test/Automation/dungeon_spell_bot_kill_radius
+  SecondaryPrefabPath: ""
+  SecondarySpellID: ""
+  TertiaryPrefabPath: ""
+  TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Spell_Artifact_Blunderbuss_KnockbackAOE
   StatusEffects: Status_Perk_Artifact_Set2_Blunderbuss_KnockbackDamage
   StatusEffectDurations: ""
@@ -7098,7 +7440,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -7159,6 +7501,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Spell_Artifact_TowerShield_TankAura
   StatusEffects: Status_Perk_Artifact_Set2_TowerShield_AllyBuff
   StatusEffectDurations: ""
@@ -7191,7 +7535,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -7252,6 +7596,103 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
+- SpellID: Spell_Perk_Greataxe_GravityWell_AOE
+  StatusEffects: ""
+  StatusEffectDurations: ""
+  Revive: ""
+  Siphon: ""
+  AttachToOwner: true
+  StickWhenAttached: null
+  StoreOffsetWhenStuckToGDE: null
+  DoNotSyncToJointOnClient: null
+  UseDirectTargetAsAttachOwner: ""
+  SpawnSecondaryOnElapsed: ""
+  SpawnSecondaryOnCollision: ""
+  AttachProjectileOnCollision: ""
+  EndOnCasterDeath: null
+  IgnoreTargetIfAtDeathsDoor: null
+  IgnoreTargetIfDead: null
+  UseCameraTargetLock: ""
+  TrackNumInVolume: ""
+  ClearOnExit: true
+  ClearOnEnd: true
+  ManaCost: ""
+  UseStatusEffectDuration: false
+  Duration: 300.0
+  DurationScaling: ""
+  Height: null
+  Length: ""
+  Radius: 4.0
+  InnerRadius: ""
+  RadiusScaling: ""
+  MaxRadiusScaling: ""
+  CastDistance: 0.0
+  CastHeight: 5.0
+  CastRadius: null
+  ConeAngle: null
+  ConeWidth: null
+  ChannelTime: 0.0
+  ChainDelayDuration: null
+  MaxChainNum: null
+  UseChainCasterPaperdoll: null
+  NumToSpawn: null
+  NumToSpawnBeforeFail: null
+  SpawnRate: ""
+  SpawnAngle: ""
+  SecondarySpellProjectileLaunchAngles: ""
+  ScaleWithCharacterBoundingBox: ""
+  ScaleWithDynamicScale: ""
+  TargetTypes: Enemy
+  SpellTypes: Ability
+  CastingTypes: AoE
+  HitAiTarget: null
+  OverrideTargetForAiThreat: ""
+  ShapeTypes: Sphere
+  DamageType: ""
+  CheckObstructions: null
+  IgnoreOverheadCollision: true
+  IgnoreStructures: null
+  IgnoreSelf: null
+  IsUnaffiliated: null
+  WeaponSlotOverride: ""
+  RangedAttackProfile: ""
+  RangedAttackName: ""
+  FireJointName: ""
+  ProjPosOffsetX: null
+  ProjPosOffsetY: null
+  ProjPosOffsetZ: null
+  ProjRotOffsetX: ""
+  ProjRotOffsetY: ""
+  ProjRotOffsetZ: ""
+  CharRelPosOffsetX: ""
+  CharRelPosOffsetY: ""
+  CharRelPosOffsetZ: ""
+  CharRelRotOffsetX: ""
+  CharRelRotOffsetY: ""
+  CharRelRotOffsetZ: ""
+  AOECharRelPosOffsetX: ""
+  AOECharRelPosOffsetY: ""
+  AOECharRelPosOffsetZ: ""
+  AOECharRelRotOffsetX: ""
+  AOECharRelRotOffsetY: ""
+  AOECharRelRotOffsetZ: null
+  ProjRaycastOrientation: ""
+  BaseDamage: null
+  DamageTable: DamageTable
+  DamageTableRow: GreatAxe_GravityWell_Burst_Perk
+  AbilityId: ""
+  TargetAbilityCondition: ""
+  BeamEffect: ""
+  IndicatorVFX: ""
+  SpellPrefabPath: Perks/spell_insatiable_gravitywell
+  SecondaryPrefabPath: ""
+  SecondarySpellID: ""
+  TertiaryPrefabPath: ""
+  TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Spell_Perk_Artifact_Set3_Hammer_KnockbackAOE
   StatusEffects: Status_Perk_Artifact_Set3_Hammer_Knockback_Damage
   StatusEffectDurations: ""
@@ -7284,7 +7725,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -7345,6 +7786,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Spell_Perk_Artifact_Set3_MediumHead_DiseaseWeakenAOE
   StatusEffects: Status_Perk_Artifact_Set3_MediumHead_DiseaseAOE,Status_Perk_Artifact_Set3_MediumHead_WeakenAOE
   StatusEffectDurations: 10,10
@@ -7377,7 +7820,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -7438,6 +7881,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Spell_Perk_Artifact_Set3_MediumHead_DiseaseWeakenAOE_Attached
   StatusEffects: Status_Perk_Artifact_Set3_MediumHead_DiseaseAOE,Status_Perk_Artifact_Set3_MediumHead_WeakenAOE
   StatusEffectDurations: 7,7
@@ -7470,7 +7915,7 @@
   MaxRadiusScaling: ""
   CastDistance: null
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: null
@@ -7531,6 +7976,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Spell_Perk_Artifact_Set3_CrescentWave
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -7563,7 +8010,7 @@
   MaxRadiusScaling: ""
   CastDistance: 20.0
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: 0.0
@@ -7624,6 +8071,8 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
 - SpellID: Spell_Perk_Artifact_Set3_CrescentWave_Vertical
   StatusEffects: ""
   StatusEffectDurations: ""
@@ -7656,7 +8105,7 @@
   MaxRadiusScaling: ""
   CastDistance: 20.0
   CastHeight: null
-  CastRadius: ""
+  CastRadius: null
   ConeAngle: null
   ConeWidth: null
   ChannelTime: 0.0
@@ -7717,3 +8166,575 @@
   SecondarySpellID: ""
   TertiaryPrefabPath: ""
   TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
+- SpellID: Spell_Perk_Artifact_Set1_Hatchet_ChainDamage
+  StatusEffects: Status_Perk_Artifact_Set1_Hatchet_ChainDamage_Damage
+  StatusEffectDurations: ""
+  Revive: ""
+  Siphon: ""
+  AttachToOwner: true
+  StickWhenAttached: null
+  StoreOffsetWhenStuckToGDE: null
+  DoNotSyncToJointOnClient: null
+  UseDirectTargetAsAttachOwner: ""
+  SpawnSecondaryOnElapsed: ""
+  SpawnSecondaryOnCollision: ""
+  AttachProjectileOnCollision: ""
+  EndOnCasterDeath: null
+  IgnoreTargetIfAtDeathsDoor: true
+  IgnoreTargetIfDead: true
+  UseCameraTargetLock: ""
+  TrackNumInVolume: ""
+  ClearOnExit: false
+  ClearOnEnd: false
+  ManaCost: ""
+  UseStatusEffectDuration: true
+  Duration: 800.0
+  DurationScaling: ""
+  Height: null
+  Length: ""
+  Radius: 6.0
+  InnerRadius: ""
+  RadiusScaling: ""
+  MaxRadiusScaling: ""
+  CastDistance: null
+  CastHeight: null
+  CastRadius: null
+  ConeAngle: null
+  ConeWidth: null
+  ChannelTime: null
+  ChainDelayDuration: 0.5
+  MaxChainNum: 1.0
+  UseChainCasterPaperdoll: null
+  NumToSpawn: null
+  NumToSpawnBeforeFail: null
+  SpawnRate: ""
+  SpawnAngle: ""
+  SecondarySpellProjectileLaunchAngles: ""
+  ScaleWithCharacterBoundingBox: ""
+  ScaleWithDynamicScale: ""
+  TargetTypes: Enemy
+  SpellTypes: Elemental
+  CastingTypes: Chain
+  HitAiTarget: null
+  OverrideTargetForAiThreat: ""
+  ShapeTypes: Sphere
+  DamageType: Nature
+  CheckObstructions: true
+  IgnoreOverheadCollision: null
+  IgnoreStructures: true
+  IgnoreSelf: true
+  IsUnaffiliated: null
+  WeaponSlotOverride: ""
+  RangedAttackProfile: ""
+  RangedAttackName: ""
+  FireJointName: ""
+  ProjPosOffsetX: null
+  ProjPosOffsetY: null
+  ProjPosOffsetZ: null
+  ProjRotOffsetX: ""
+  ProjRotOffsetY: ""
+  ProjRotOffsetZ: ""
+  CharRelPosOffsetX: ""
+  CharRelPosOffsetY: ""
+  CharRelPosOffsetZ: ""
+  CharRelRotOffsetX: ""
+  CharRelRotOffsetY: ""
+  CharRelRotOffsetZ: ""
+  AOECharRelPosOffsetX: ""
+  AOECharRelPosOffsetY: ""
+  AOECharRelPosOffsetZ: ""
+  AOECharRelRotOffsetX: ""
+  AOECharRelRotOffsetY: ""
+  AOECharRelRotOffsetZ: null
+  ProjRaycastOrientation: ""
+  BaseDamage: null
+  DamageTable: ""
+  DamageTableRow: ""
+  AbilityId: ""
+  TargetAbilityCondition: ""
+  BeamEffect: wFX_Nature_Range.Chain
+  IndicatorVFX: ""
+  SpellPrefabPath: Items/Weapons/spell_aoe_leadership_enemy
+  SecondaryPrefabPath: ""
+  SecondarySpellID: ""
+  TertiaryPrefabPath: ""
+  TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
+- SpellID: Spell_SetBonusInfix_Enrage_DodgePull
+  StatusEffects: ""
+  StatusEffectDurations: ""
+  Revive: ""
+  Siphon: ""
+  AttachToOwner: true
+  StickWhenAttached: true
+  StoreOffsetWhenStuckToGDE: true
+  DoNotSyncToJointOnClient: true
+  UseDirectTargetAsAttachOwner: ""
+  SpawnSecondaryOnElapsed: ""
+  SpawnSecondaryOnCollision: ""
+  AttachProjectileOnCollision: ""
+  EndOnCasterDeath: true
+  IgnoreTargetIfAtDeathsDoor: null
+  IgnoreTargetIfDead: null
+  UseCameraTargetLock: ""
+  TrackNumInVolume: ""
+  ClearOnExit: false
+  ClearOnEnd: true
+  ManaCost: ""
+  UseStatusEffectDuration: false
+  Duration: 1000.0
+  DurationScaling: ""
+  Height: null
+  Length: ""
+  Radius: 3.5
+  InnerRadius: ""
+  RadiusScaling: ""
+  MaxRadiusScaling: ""
+  CastDistance: 0.0
+  CastHeight: 0.0
+  CastRadius: null
+  ConeAngle: null
+  ConeWidth: null
+  ChannelTime: 0.0
+  ChainDelayDuration: null
+  MaxChainNum: null
+  UseChainCasterPaperdoll: null
+  NumToSpawn: null
+  NumToSpawnBeforeFail: null
+  SpawnRate: ""
+  SpawnAngle: ""
+  SecondarySpellProjectileLaunchAngles: ""
+  ScaleWithCharacterBoundingBox: ""
+  ScaleWithDynamicScale: ""
+  TargetTypes: Enemy
+  SpellTypes: Ability
+  CastingTypes: AoE
+  HitAiTarget: null
+  OverrideTargetForAiThreat: ""
+  ShapeTypes: Sphere
+  DamageType: Arcane
+  CheckObstructions: null
+  IgnoreOverheadCollision: true
+  IgnoreStructures: null
+  IgnoreSelf: null
+  IsUnaffiliated: null
+  WeaponSlotOverride: ""
+  RangedAttackProfile: ""
+  RangedAttackName: ""
+  FireJointName: ""
+  ProjPosOffsetX: null
+  ProjPosOffsetY: null
+  ProjPosOffsetZ: null
+  ProjRotOffsetX: ""
+  ProjRotOffsetY: ""
+  ProjRotOffsetZ: ""
+  CharRelPosOffsetX: ""
+  CharRelPosOffsetY: ""
+  CharRelPosOffsetZ: ""
+  CharRelRotOffsetX: ""
+  CharRelRotOffsetY: ""
+  CharRelRotOffsetZ: ""
+  AOECharRelPosOffsetX: ""
+  AOECharRelPosOffsetY: ""
+  AOECharRelPosOffsetZ: ""
+  AOECharRelRotOffsetX: ""
+  AOECharRelRotOffsetY: ""
+  AOECharRelRotOffsetZ: null
+  ProjRaycastOrientation: ""
+  BaseDamage: null
+  DamageTable: ""
+  DamageTableRow: ""
+  AbilityId: ""
+  TargetAbilityCondition: ""
+  BeamEffect: ""
+  IndicatorVFX: ""
+  SpellPrefabPath: Items/Weapons/SetBonus_Spell_Infix_DodgePull
+  SecondaryPrefabPath: ""
+  SecondarySpellID: ""
+  TertiaryPrefabPath: ""
+  TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
+- SpellID: Spell_Perk_Artifact_Set3_Bow_PoisonAOE
+  StatusEffects: Status_Perk_Artifact_Set3_Bow_PoisonAOE_DoT
+  StatusEffectDurations: ""
+  Revive: ""
+  Siphon: ""
+  AttachToOwner: true
+  StickWhenAttached: true
+  StoreOffsetWhenStuckToGDE: true
+  DoNotSyncToJointOnClient: null
+  UseDirectTargetAsAttachOwner: ""
+  SpawnSecondaryOnElapsed: ""
+  SpawnSecondaryOnCollision: ""
+  AttachProjectileOnCollision: ""
+  EndOnCasterDeath: null
+  IgnoreTargetIfAtDeathsDoor: null
+  IgnoreTargetIfDead: null
+  UseCameraTargetLock: ""
+  TrackNumInVolume: ""
+  ClearOnExit: true
+  ClearOnEnd: true
+  ManaCost: ""
+  UseStatusEffectDuration: false
+  Duration: 10000.0
+  DurationScaling: ""
+  Height: null
+  Length: ""
+  Radius: 5.0
+  InnerRadius: ""
+  RadiusScaling: ""
+  MaxRadiusScaling: ""
+  CastDistance: null
+  CastHeight: null
+  CastRadius: null
+  ConeAngle: null
+  ConeWidth: null
+  ChannelTime: null
+  ChainDelayDuration: null
+  MaxChainNum: null
+  UseChainCasterPaperdoll: null
+  NumToSpawn: null
+  NumToSpawnBeforeFail: null
+  SpawnRate: ""
+  SpawnAngle: ""
+  SecondarySpellProjectileLaunchAngles: ""
+  ScaleWithCharacterBoundingBox: ""
+  ScaleWithDynamicScale: ""
+  TargetTypes: Enemy
+  SpellTypes: Ability
+  CastingTypes: AoE
+  HitAiTarget: false
+  OverrideTargetForAiThreat: ""
+  ShapeTypes: Sphere
+  DamageType: Nature
+  CheckObstructions: null
+  IgnoreOverheadCollision: true
+  IgnoreStructures: null
+  IgnoreSelf: null
+  IsUnaffiliated: null
+  WeaponSlotOverride: ""
+  RangedAttackProfile: ""
+  RangedAttackName: ""
+  FireJointName: ""
+  ProjPosOffsetX: null
+  ProjPosOffsetY: null
+  ProjPosOffsetZ: null
+  ProjRotOffsetX: ""
+  ProjRotOffsetY: ""
+  ProjRotOffsetZ: ""
+  CharRelPosOffsetX: ""
+  CharRelPosOffsetY: ""
+  CharRelPosOffsetZ: ""
+  CharRelRotOffsetX: ""
+  CharRelRotOffsetY: ""
+  CharRelRotOffsetZ: ""
+  AOECharRelPosOffsetX: ""
+  AOECharRelPosOffsetY: ""
+  AOECharRelPosOffsetZ: ""
+  AOECharRelRotOffsetX: ""
+  AOECharRelRotOffsetY: ""
+  AOECharRelRotOffsetZ: null
+  ProjRaycastOrientation: ""
+  BaseDamage: null
+  DamageTable: ""
+  DamageTableRow: ""
+  AbilityId: ""
+  TargetAbilityCondition: ""
+  BeamEffect: ""
+  IndicatorVFX: ""
+  SpellPrefabPath: Items/Weapons/Artifact_Spell_PoisonCloud_AOE
+  SecondaryPrefabPath: ""
+  SecondarySpellID: ""
+  TertiaryPrefabPath: ""
+  TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""
+- SpellID: Spell_Perk_Artifact_Set3_Hatchet_Combustion
+  StatusEffects: Status_Perk_Artifact_Set3_Hatchet_Combustion_Damage
+  StatusEffectDurations: ""
+  Revive: ""
+  Siphon: ""
+  AttachToOwner: true
+  StickWhenAttached: true
+  StoreOffsetWhenStuckToGDE: true
+  DoNotSyncToJointOnClient: null
+  UseDirectTargetAsAttachOwner: ""
+  SpawnSecondaryOnElapsed: ""
+  SpawnSecondaryOnCollision: ""
+  AttachProjectileOnCollision: ""
+  EndOnCasterDeath: null
+  IgnoreTargetIfAtDeathsDoor: null
+  IgnoreTargetIfDead: null
+  UseCameraTargetLock: ""
+  TrackNumInVolume: ""
+  ClearOnExit: false
+  ClearOnEnd: true
+  ManaCost: ""
+  UseStatusEffectDuration: false
+  Duration: 1000.0
+  DurationScaling: ""
+  Height: null
+  Length: ""
+  Radius: 8.0
+  InnerRadius: ""
+  RadiusScaling: ""
+  MaxRadiusScaling: ""
+  CastDistance: 0.0
+  CastHeight: 0.0
+  CastRadius: null
+  ConeAngle: null
+  ConeWidth: null
+  ChannelTime: 0.0
+  ChainDelayDuration: null
+  MaxChainNum: null
+  UseChainCasterPaperdoll: null
+  NumToSpawn: null
+  NumToSpawnBeforeFail: null
+  SpawnRate: ""
+  SpawnAngle: ""
+  SecondarySpellProjectileLaunchAngles: ""
+  ScaleWithCharacterBoundingBox: ""
+  ScaleWithDynamicScale: ""
+  TargetTypes: Enemy
+  SpellTypes: Elemental
+  CastingTypes: AoE
+  HitAiTarget: null
+  OverrideTargetForAiThreat: ""
+  ShapeTypes: Sphere
+  DamageType: Fire
+  CheckObstructions: null
+  IgnoreOverheadCollision: true
+  IgnoreStructures: null
+  IgnoreSelf: null
+  IsUnaffiliated: null
+  WeaponSlotOverride: ""
+  RangedAttackProfile: ""
+  RangedAttackName: ""
+  FireJointName: ""
+  ProjPosOffsetX: null
+  ProjPosOffsetY: null
+  ProjPosOffsetZ: null
+  ProjRotOffsetX: ""
+  ProjRotOffsetY: ""
+  ProjRotOffsetZ: ""
+  CharRelPosOffsetX: ""
+  CharRelPosOffsetY: ""
+  CharRelPosOffsetZ: ""
+  CharRelRotOffsetX: ""
+  CharRelRotOffsetY: ""
+  CharRelRotOffsetZ: ""
+  AOECharRelPosOffsetX: ""
+  AOECharRelPosOffsetY: ""
+  AOECharRelPosOffsetZ: ""
+  AOECharRelRotOffsetX: ""
+  AOECharRelRotOffsetY: ""
+  AOECharRelRotOffsetZ: null
+  ProjRaycastOrientation: ""
+  BaseDamage: null
+  DamageTable: ""
+  DamageTableRow: ""
+  AbilityId: ""
+  TargetAbilityCondition: ""
+  BeamEffect: ""
+  IndicatorVFX: ""
+  SpellPrefabPath: Items/Weapons/ConquerorItem_Spell_Combustion
+  SecondaryPrefabPath: ""
+  SecondarySpellID: ""
+  TertiaryPrefabPath: ""
+  TertiarySpellID: ""
+  TrackableByOwner: true
+  StatusEffectsOnTargetBlockingThisSpell: ""
+- SpellID: Spell_Infix_Weapon_Magic_ChainLightning
+  StatusEffects: Status_ItemPerk_Weapon_Magic_ChainLightning_Damage,Status_ItemPerk_Weapon_Magic_ChainLightning_Prevention
+  StatusEffectDurations: "0.5"
+  Revive: ""
+  Siphon: ""
+  AttachToOwner: true
+  StickWhenAttached: null
+  StoreOffsetWhenStuckToGDE: null
+  DoNotSyncToJointOnClient: null
+  UseDirectTargetAsAttachOwner: ""
+  SpawnSecondaryOnElapsed: ""
+  SpawnSecondaryOnCollision: ""
+  AttachProjectileOnCollision: ""
+  EndOnCasterDeath: null
+  IgnoreTargetIfAtDeathsDoor: true
+  IgnoreTargetIfDead: true
+  UseCameraTargetLock: ""
+  TrackNumInVolume: ""
+  ClearOnExit: false
+  ClearOnEnd: false
+  ManaCost: ""
+  UseStatusEffectDuration: true
+  Duration: 3000.0
+  DurationScaling: ""
+  Height: null
+  Length: ""
+  Radius: 6.0
+  InnerRadius: ""
+  RadiusScaling: ""
+  MaxRadiusScaling: ""
+  CastDistance: null
+  CastHeight: null
+  CastRadius: null
+  ConeAngle: null
+  ConeWidth: null
+  ChannelTime: null
+  ChainDelayDuration: 0.5
+  MaxChainNum: 5.0
+  UseChainCasterPaperdoll: null
+  NumToSpawn: null
+  NumToSpawnBeforeFail: null
+  SpawnRate: ""
+  SpawnAngle: ""
+  SecondarySpellProjectileLaunchAngles: ""
+  ScaleWithCharacterBoundingBox: ""
+  ScaleWithDynamicScale: ""
+  TargetTypes: Enemy
+  SpellTypes: Elemental
+  CastingTypes: Chain
+  HitAiTarget: null
+  OverrideTargetForAiThreat: ""
+  ShapeTypes: Sphere
+  DamageType: Lightning
+  CheckObstructions: true
+  IgnoreOverheadCollision: null
+  IgnoreStructures: true
+  IgnoreSelf: true
+  IsUnaffiliated: null
+  WeaponSlotOverride: ""
+  RangedAttackProfile: ""
+  RangedAttackName: ""
+  FireJointName: ""
+  ProjPosOffsetX: null
+  ProjPosOffsetY: null
+  ProjPosOffsetZ: null
+  ProjRotOffsetX: ""
+  ProjRotOffsetY: ""
+  ProjRotOffsetZ: ""
+  CharRelPosOffsetX: ""
+  CharRelPosOffsetY: ""
+  CharRelPosOffsetZ: ""
+  CharRelRotOffsetX: ""
+  CharRelRotOffsetY: ""
+  CharRelRotOffsetZ: ""
+  AOECharRelPosOffsetX: ""
+  AOECharRelPosOffsetY: ""
+  AOECharRelPosOffsetZ: ""
+  AOECharRelRotOffsetX: ""
+  AOECharRelRotOffsetY: ""
+  AOECharRelRotOffsetZ: null
+  ProjRaycastOrientation: ""
+  BaseDamage: null
+  DamageTable: ""
+  DamageTableRow: ""
+  AbilityId: ""
+  TargetAbilityCondition: ""
+  BeamEffect: wFX_Lightning_Range.Chain
+  IndicatorVFX: ""
+  SpellPrefabPath: Items/Weapons/spell_aoe_leadership_enemy
+  SecondaryPrefabPath: ""
+  SecondarySpellID: ""
+  TertiaryPrefabPath: ""
+  TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: Status_ItemPerk_Weapon_Magic_ChainLightning_Prevention
+- SpellID: Spell_SetBonusInfix_Stifling_EvasionDamage
+  StatusEffects: ""
+  StatusEffectDurations: ""
+  Revive: ""
+  Siphon: ""
+  AttachToOwner: null
+  StickWhenAttached: null
+  StoreOffsetWhenStuckToGDE: null
+  DoNotSyncToJointOnClient: null
+  UseDirectTargetAsAttachOwner: ""
+  SpawnSecondaryOnElapsed: ""
+  SpawnSecondaryOnCollision: ""
+  AttachProjectileOnCollision: ""
+  EndOnCasterDeath: null
+  IgnoreTargetIfAtDeathsDoor: null
+  IgnoreTargetIfDead: null
+  UseCameraTargetLock: ""
+  TrackNumInVolume: ""
+  ClearOnExit: true
+  ClearOnEnd: true
+  ManaCost: ""
+  UseStatusEffectDuration: false
+  Duration: 100.0
+  DurationScaling: ""
+  Height: 1.0
+  Length: ""
+  Radius: 2.0
+  InnerRadius: ""
+  RadiusScaling: ""
+  MaxRadiusScaling: ""
+  CastDistance: 1.0
+  CastHeight: 1.0
+  CastRadius: 1.0
+  ConeAngle: null
+  ConeWidth: null
+  ChannelTime: 0.0
+  ChainDelayDuration: null
+  MaxChainNum: null
+  UseChainCasterPaperdoll: null
+  NumToSpawn: null
+  NumToSpawnBeforeFail: null
+  SpawnRate: ""
+  SpawnAngle: ""
+  SecondarySpellProjectileLaunchAngles: ""
+  ScaleWithCharacterBoundingBox: ""
+  ScaleWithDynamicScale: ""
+  TargetTypes: Enemy
+  SpellTypes: Ability
+  CastingTypes: AoE
+  HitAiTarget: null
+  OverrideTargetForAiThreat: ""
+  ShapeTypes: Sphere
+  DamageType: ""
+  CheckObstructions: true
+  IgnoreOverheadCollision: true
+  IgnoreStructures: null
+  IgnoreSelf: null
+  IsUnaffiliated: null
+  WeaponSlotOverride: ""
+  RangedAttackProfile: ""
+  RangedAttackName: ""
+  FireJointName: ""
+  ProjPosOffsetX: null
+  ProjPosOffsetY: null
+  ProjPosOffsetZ: null
+  ProjRotOffsetX: ""
+  ProjRotOffsetY: ""
+  ProjRotOffsetZ: ""
+  CharRelPosOffsetX: ""
+  CharRelPosOffsetY: ""
+  CharRelPosOffsetZ: ""
+  CharRelRotOffsetX: ""
+  CharRelRotOffsetY: ""
+  CharRelRotOffsetZ: ""
+  AOECharRelPosOffsetX: ""
+  AOECharRelPosOffsetY: ""
+  AOECharRelPosOffsetZ: ""
+  AOECharRelRotOffsetX: ""
+  AOECharRelRotOffsetY: ""
+  AOECharRelRotOffsetZ: null
+  ProjRaycastOrientation: ""
+  BaseDamage: null
+  DamageTable: DamageTable
+  DamageTableRow: SetBonus_Infix_Stifling_EvasionDamage
+  AbilityId: ""
+  TargetAbilityCondition: ""
+  BeamEffect: ""
+  IndicatorVFX: ""
+  SpellPrefabPath: Items/Weapons/spell_aoe_leadership_enemy
+  SecondaryPrefabPath: ""
+  SecondarySpellID: ""
+  TertiaryPrefabPath: ""
+  TertiarySpellID: ""
+  TrackableByOwner: null
+  StatusEffectsOnTargetBlockingThisSpell: ""

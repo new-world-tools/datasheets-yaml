@@ -16,6 +16,7 @@
   LocalizedTextAfflicted: "@ui_afflicted_poison"
   AfflictionTooltipText: "@ui_affliction_poison_tooltip"
   AfflictedTooltipText: "@ui_afflicted_poison_tooltip"
+  RemoveOnGameModeExit: null
 - AfflictionID: AfflictionFrostbite
   IntID: 2.0
   StatusEffects: Frostbite
@@ -34,6 +35,7 @@
   LocalizedTextAfflicted: "@ui_afflicted_frostbite"
   AfflictionTooltipText: "@ui_affliction_frostbite_tooltip"
   AfflictedTooltipText: "@ui_afflicted_frostbite_tooltip"
+  RemoveOnGameModeExit: null
 - AfflictionID: AfflictionDisease
   IntID: 3.0
   StatusEffects: Disease
@@ -52,6 +54,7 @@
   LocalizedTextAfflicted: "@ui_afflicted_disease"
   AfflictionTooltipText: "@ui_affliction_disease_tooltip"
   AfflictedTooltipText: "@ui_afflicted_disease_tooltip"
+  RemoveOnGameModeExit: null
 - AfflictionID: AfflictionBleed
   IntID: 4.0
   StatusEffects: Bleed
@@ -70,6 +73,7 @@
   LocalizedTextAfflicted: "@ui_afflicted_bleeding"
   AfflictionTooltipText: "@ui_affliction_bleeding_tooltip"
   AfflictedTooltipText: "@ui_afflicted_bleeding_tooltip"
+  RemoveOnGameModeExit: null
 - AfflictionID: AfflictionCurse
   IntID: 5.0
   StatusEffects: Curse
@@ -88,6 +92,7 @@
   LocalizedTextAfflicted: "@ui_afflicted_curse"
   AfflictionTooltipText: "@ui_affliction_curse_tooltip"
   AfflictedTooltipText: "@ui_afflicted_curse_tooltip"
+  RemoveOnGameModeExit: null
 - AfflictionID: AfflictionDrowning
   IntID: 6.0
   StatusEffects: Drowning
@@ -106,6 +111,7 @@
   LocalizedTextAfflicted: "@ui_afflicted_drowning"
   AfflictionTooltipText: "@ui_affliction_drowning_tooltip"
   AfflictedTooltipText: "@ui_afflicted_drowning_tooltip"
+  RemoveOnGameModeExit: null
 - AfflictionID: AfflictionImmobilized
   IntID: 7.0
   StatusEffects: Immobilized
@@ -124,6 +130,7 @@
   LocalizedTextAfflicted: "@ui_afflicted_drowning"
   AfflictionTooltipText: "@ui_affliction_drowning_tooltip"
   AfflictedTooltipText: "@ui_afflicted_drowning_tooltip"
+  RemoveOnGameModeExit: null
 - AfflictionID: AfflictionBlight
   IntID: 8.0
   StatusEffects: Blight
@@ -142,6 +149,7 @@
   LocalizedTextAfflicted: "@ui_afflicted_blight"
   AfflictionTooltipText: "@ui_affliction_blight_tooltip"
   AfflictedTooltipText: "@ui_afflicted_blight_tooltip"
+  RemoveOnGameModeExit: null
 - AfflictionID: AfflictionCurse3
   IntID: 9.0
   StatusEffects: ""
@@ -160,6 +168,7 @@
   LocalizedTextAfflicted: "@ui_afflicted_mutcurse3"
   AfflictionTooltipText: "@ui_affliction_mutcurse3_tooltip"
   AfflictedTooltipText: "@ui_afflicted_mutcurse3_tooltip"
+  RemoveOnGameModeExit: null
 - AfflictionID: AfflictionCurse4
   IntID: 10.0
   StatusEffects: ""
@@ -178,6 +187,7 @@
   LocalizedTextAfflicted: "@ui_afflicted_mutcurse4"
   AfflictionTooltipText: "@ui_affliction_mutcurse4_tooltip"
   AfflictedTooltipText: "@ui_afflicted_mutcurse4_tooltip"
+  RemoveOnGameModeExit: null
 - AfflictionID: AfflictionCurse2
   IntID: 11.0
   StatusEffects: ""
@@ -196,6 +206,7 @@
   LocalizedTextAfflicted: "@ui_afflicted_mutcurse2"
   AfflictionTooltipText: "@ui_affliction_mutcurse2_tooltip"
   AfflictedTooltipText: "@ui_afflicted_mutcurse2_tooltip"
+  RemoveOnGameModeExit: null
 - AfflictionID: AfflictionSpores
   IntID: 12.0
   StatusEffects: SporeSickness
@@ -214,6 +225,7 @@
   LocalizedTextAfflicted: "@ui_afflicted_spores"
   AfflictionTooltipText: "@ui_affliction_spores_tooltip"
   AfflictedTooltipText: "@ui_afflicted_spores_tooltip"
+  RemoveOnGameModeExit: null
 - AfflictionID: AfflictionStunned
   IntID: 13.0
   StatusEffects: Stunned_Afflict
@@ -232,6 +244,7 @@
   LocalizedTextAfflicted: "@ui_afflicted_stunned"
   AfflictionTooltipText: "@ui_affliction_stunned_tooltip"
   AfflictedTooltipText: "@ui_afflicted_stunned_tooltip"
+  RemoveOnGameModeExit: null
 - AfflictionID: AfflictionFatigue
   IntID: 14.0
   StatusEffects: Drowning
@@ -250,3 +263,23 @@
   LocalizedTextAfflicted: "@ui_afflicted_drowning"
   AfflictionTooltipText: "@ui_affliction_fatigue_tooltip"
   AfflictedTooltipText: "@ui_afflicted_drowning_tooltip"
+  RemoveOnGameModeExit: null
+- AfflictionID: AfflictionErosion
+  IntID: 15.0
+  StatusEffects: Erosion
+  DrainRate: 0.0
+  AfflictedDrainTime: 10.0
+  DrainDelay: 9999.0
+  Max: 40.0
+  IgnoreWhenAfflicted: false
+  IsGlobalAffliction: null
+  IsTimerAffliction: null
+  ColorHex: 9051cf
+  Icon: SE_ErosionT1
+  BGImage: combustible
+  FillingColorHex: 80b0460c
+  LocalizedText: "@ui_affliction_erosion"
+  LocalizedTextAfflicted: "@ui_afflicted_erosion"
+  AfflictionTooltipText: "@ui_affliction_erosion_tooltip"
+  AfflictedTooltipText: "@ui_afflicted_erosion_tooltip"
+  RemoveOnGameModeExit: true

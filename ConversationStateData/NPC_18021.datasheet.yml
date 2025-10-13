@@ -1,1 +1,24 @@
-[]
+- ConversationStateId: NPC_18021_State_0
+  ConversationType: Conversation
+  DefaultDialogue: "@NPC_18021_State_0_DefaultDialogue"
+  IsInitialState: "true"
+  RequiredLevel: "0"
+  RequiredFaction: None
+  RequiredFactionCooldown: NotInCooldown
+  ForceConversationOpen: "false"
+  TopicId1: ""
+  RequiredAchievement: ""
+  RequiredActiveObjectiveId: ""
+  RequiredActiveTaskId: ""
+- ConversationStateId: NPC_18021_State_1
+  ConversationType: Conversation
+  DefaultDialogue: "@NPC_18021_State_1_DefaultDialogue"
+  IsInitialState: "false"
+  RequiredLevel: "65"
+  RequiredFaction: None
+  RequiredFactionCooldown: NotInCooldown
+  ForceConversationOpen: "false"
+  TopicId1: NPC_18021_State_1_Topic_0
+  RequiredAchievement: 17_MSQ_20
+  RequiredActiveObjectiveId: Quest_18025
+  RequiredActiveTaskId: Quest_18025_Task_2

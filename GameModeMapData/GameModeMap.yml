@@ -15,6 +15,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: TestMode2
   GameModeId: TestMode2
   SlicePath: GameModes/GameModeTest_02
@@ -32,6 +39,85 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
+- GameModeMapId: BattleRoyale
+  GameModeId: BattleRoyale
+  SlicePath: BattleRoyale/BattleRoyaleMode
+  UIMapDisplayName: ""
+  ActivityScreenBgPath: ""
+  DynamicStackConfigName: battle-royale
+  ExcludeFromMapRotation: "true"
+  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
+  WorldBounds: 9050.0,3526.0,512.0,512.0
+  TeamTeleportData: 9281.0,3739.0,231.0,0
+  TeamTeleportFormationData: ""
+  UIMapId: ""
+  ProjectedAZothComputeUnits: 8.0
+  ProjectedMemoryUseMb: 1024.0
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
+- GameModeMapId: BattleRoyale_01
+  GameModeId: BattleRoyale
+  SlicePath: BattleRoyale/BattleRoyaleMode
+  UIMapDisplayName: ""
+  ActivityScreenBgPath: ""
+  DynamicStackConfigName: battle-royale-01
+  ExcludeFromMapRotation: "true"
+  CoatlicueName: "coatlicue\\NW_BattleRoyale_01"
+  WorldBounds: 768.0,1280.0,672.0,672.0
+  TeamTeleportData: 1104,1616,100,0
+  TeamTeleportFormationData: ""
+  UIMapId: ""
+  ProjectedAZothComputeUnits: 8.0
+  ProjectedMemoryUseMb: 1024.0
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  NavGenerationEnabled: false
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
+- GameModeMapId: BattleRoyale_02
+  GameModeId: BattleRoyale
+  SlicePath: MODES/br/GameMode/GameMode_BattleRoyale_02
+  UIMapDisplayName: ""
+  ActivityScreenBgPath: ""
+  DynamicStackConfigName: battle-royale-02
+  ExcludeFromMapRotation: ""
+  CoatlicueName: "coatlicue\\NW_BattleRoyale_02"
+  WorldBounds: 738,1272.0,608.0,608.0
+  TeamTeleportData: 1040,1576,164,0
+  TeamTeleportFormationData: ""
+  UIMapId: ""
+  ProjectedAZothComputeUnits: 8.0
+  ProjectedMemoryUseMb: 1024.0
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  NavGenerationEnabled: false
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: CTF_002_Wide
   GameModeId: CaptureTheFlag
   SlicePath: MODES/CTF/NW_CTF_002_Wide/Gamemode_CTF_002_Wide
@@ -49,6 +135,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: false
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: CTF_003_Long
   GameModeId: CaptureTheFlag
   SlicePath: MODES/CTF/NW_CTF_003_Long/Gamemode_CTF_003_Long
@@ -66,6 +159,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: false
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: Duel
   GameModeId: Duel
   SlicePath: GameModes/GameMode_Duel
@@ -83,6 +183,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: OutpostRush
   GameModeId: OutpostRush
   SlicePath: POIs/OutpostRush/OutpostRush_Layout_00
@@ -100,6 +207,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: OutpostRush_004_Trench
   GameModeId: OutpostRush
   SlicePath: MODES/OPR/NW_OPR_004_Trench/OutpostRush_Layout_004_Trench
@@ -117,13 +231,20 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: OutpostRush_005_Vertical
   GameModeId: OutpostRush
   SlicePath: MODES/OPR/NW_OPR_005_Vertical/GameMode_OutpostRush_005_Vertical
   UIMapDisplayName: "@or_outpost_rush_vertical_map_name"
   ActivityScreenBgPath: LyShineUI/Images/PUGFinder/gameModeSignUp/OutpostRush/OutpostRush_Durevos.png
   DynamicStackConfigName: outpost-rush-vertical
-  ExcludeFromMapRotation: "true"
+  ExcludeFromMapRotation: ""
   CoatlicueName: "coatlicue\\NW_OPR_005_Vertical"
   WorldBounds: 816.0,770.0,416.0,480.0
   TeamTeleportData: 1022.7,1184.3,153.0,180+1026.2,863.6,153.0,0
@@ -134,6 +255,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: OutpostRush_NoPerks
   GameModeId: OutpostRush_NoPerks
   SlicePath: POIs/OutpostRush/OutpostRush_Layout_00
@@ -151,6 +279,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: OutpostRush_NoPerks_Trench
   GameModeId: OutpostRush_NoPerks
   SlicePath: MODES/OPR/NW_OPR_004_Trench/OutpostRush_Layout_004_Trench
@@ -168,6 +303,37 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
+- GameModeMapId: OutpostRush_NoPerks_Vertical
+  GameModeId: OutpostRush_NoPerks
+  SlicePath: MODES/OPR/NW_OPR_005_Vertical/GameMode_OutpostRush_005_Vertical
+  UIMapDisplayName: "@or_outpost_rush_vertical_map_name"
+  ActivityScreenBgPath: LyShineUI/Images/PUGFinder/gameModeSignUp/OutpostRush/OutpostRush_Durevos.png
+  DynamicStackConfigName: outpost-rush-no-perks-vertical
+  ExcludeFromMapRotation: ""
+  CoatlicueName: "coatlicue\\NW_OPR_005_Vertical"
+  WorldBounds: 816.0,770.0,416.0,480.0
+  TeamTeleportData: 1022.7,1184.3,153.0,180+1026.2,863.6,153.0,0
+  TeamTeleportFormationData: ""
+  UIMapId: NW_OPR_005_Vertical
+  ProjectedAZothComputeUnits: 8.0
+  ProjectedMemoryUseMb: 1024.0
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: Arena3v3
   GameModeId: Arena3v3
   SlicePath: GameModes/GameMode_Arena01_3v3
@@ -185,6 +351,13 @@
   PauseTimeOfDay: true
   FreezeTime: 14.1
   NavGenerationEnabled: false
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: Arena3v3_02
   GameModeId: Arena3v3
   SlicePath: GameModes/GameMode_Arena02_3v3
@@ -202,6 +375,13 @@
   PauseTimeOfDay: true
   FreezeTime: 15.11
   NavGenerationEnabled: false
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: Arena_3v3_04
   GameModeId: Arena3v3
   SlicePath: MODES/Arena/GameMode_Arena_3v3_04
@@ -219,6 +399,13 @@
   PauseTimeOfDay: true
   FreezeTime: 14.1
   NavGenerationEnabled: false
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: Dungeon
   GameModeId: Dungeon
   SlicePath: ""
@@ -236,6 +423,13 @@
   PauseTimeOfDay: null
   FreezeTime: null
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: Mutation
   GameModeId: Mutation
   SlicePath: ""
@@ -253,6 +447,13 @@
   PauseTimeOfDay: null
   FreezeTime: null
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: DungeonAmrine
   GameModeId: DungeonAmrine
   SlicePath: Dungeon/LevelScripts/AmrineDungeon
@@ -270,6 +471,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: DungeonShatteredObelisk
   GameModeId: DungeonShatteredObelisk
   SlicePath: Dungeon/LevelScripts/ShatteredObeliskDungeon
@@ -287,6 +495,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: DungeonRestlessShores01
   GameModeId: DungeonRestlessShores01
   SlicePath: Dungeon/LevelScripts/RestlessShores01Dungeon
@@ -304,6 +519,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: DungeonEbonscale00
   GameModeId: DungeonEbonscale00
   SlicePath: Dungeon/LevelScripts/Ebonscale00Dungeon
@@ -321,6 +543,13 @@
   PauseTimeOfDay: true
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: DungeonEdengrove00
   GameModeId: DungeonEdengrove00
   SlicePath: Dungeon/LevelScripts/Edengrove00Dungeon
@@ -338,6 +567,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: DungeonReekwater00
   GameModeId: DungeonReekwater00
   SlicePath: Dungeon/LevelScripts/Reekwater00Dungeon
@@ -355,6 +591,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: DungeonCutlassKeys00
   GameModeId: DungeonCutlassKeys00
   SlicePath: Dungeon/LevelScripts/CutlassKeys00Dungeon
@@ -372,6 +615,13 @@
   PauseTimeOfDay: true
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: DungeonGreatCleave01
   GameModeId: DungeonGreatCleave01
   SlicePath: Dungeon/LevelScripts/GreatCleave01Dungeon
@@ -389,6 +639,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: DungeonShatterMtn00
   GameModeId: DungeonShatterMtn00
   SlicePath: Dungeon/LevelScripts/ShatterMtn00Dungeon
@@ -406,6 +663,13 @@
   PauseTimeOfDay: true
   FreezeTime: 17.2
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: DungeonBrimstoneSands00
   GameModeId: DungeonBrimstoneSands00
   SlicePath: Dungeon/LevelScripts/BrimstoneSands00Dungeon
@@ -423,6 +687,13 @@
   PauseTimeOfDay: true
   FreezeTime: 23.59
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: DungeonFirstLight01
   GameModeId: DungeonFirstLight01
   SlicePath: Dungeon/LevelScripts/FirstLight01Dungeon
@@ -440,6 +711,13 @@
   PauseTimeOfDay: true
   FreezeTime: 17.2
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: DungeonGreatCleave00
   GameModeId: DungeonGreatCleave00
   SlicePath: Dungeon/LevelScripts/GlacialTarnDungeon
@@ -457,6 +735,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: DungeonDunwood02
   GameModeId: DungeonDunwood02
   SlicePath: Dungeon/LevelScripts/Dunwood02Dungeon
@@ -474,6 +759,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: TrialBrimstoneSandworm
   GameModeId: TrialBrimstoneSandworm
   SlicePath: GameModes/Trials/BrimstoneSandwormTrial00
@@ -491,6 +783,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: RaidCutlassKeys00
   GameModeId: RaidCutlassKeys00
   SlicePath: Dungeon/LevelScripts/RaidCutlassKeys00
@@ -508,6 +807,37 @@
   PauseTimeOfDay: true
   FreezeTime: 14.25
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
+- GameModeMapId: RaidMonarchsBluffs00
+  GameModeId: RaidMonarchsBluffs00
+  SlicePath: Dungeon/LevelScripts/RaidMonarchsBluffs00
+  UIMapDisplayName: ""
+  ActivityScreenBgPath: ""
+  DynamicStackConfigName: ""
+  ExcludeFromMapRotation: ""
+  CoatlicueName: "coatlicue\\NW_Raid_MonarchBluff_00"
+  WorldBounds: 15.0,0.0,1216.0,1216.0
+  TeamTeleportData: 1173.0,730.0,41.0,140
+  TeamTeleportFormationData: ""
+  UIMapId: NW_Raid_MonarchBluff_00
+  ProjectedAZothComputeUnits: 0.75
+  ProjectedMemoryUseMb: 764.0
+  PauseTimeOfDay: true
+  FreezeTime: 6.05
+  NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: TrialSeason01
   GameModeId: TrialSeason01
   SlicePath: Dungeon/LevelScripts/Season_Trial_01
@@ -525,6 +855,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: TrialSeason04
   GameModeId: TrialSeason04
   SlicePath: Dungeon/LevelScripts/Trial_Season_04
@@ -542,6 +879,13 @@
   PauseTimeOfDay: true
   FreezeTime: 4.2
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: QuestAdiana
   GameModeId: QuestAdiana
   SlicePath: Dungeon/AdianaFirstLight/AdianaScript
@@ -559,6 +903,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: QuestApophis
   GameModeId: QuestApophis
   SlicePath: Dungeon/ApophisBrimstone/ApophisScript
@@ -576,6 +927,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: QuestCaerDun
   GameModeId: QuestCaerDun
   SlicePath: Dungeon/CaerDunBrightwood/CaerDunScript
@@ -593,6 +951,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: QuestEmpressZhou
   GameModeId: QuestEmpressZhou
   SlicePath: Dungeon/EmpressZhou/Script_QuestEmpressZhou
@@ -610,6 +975,13 @@
   PauseTimeOfDay: true
   FreezeTime: 18.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: QuestIsabella
   GameModeId: QuestIsabella
   SlicePath: Dungeon/Isabella/QuestIsabellaScript
@@ -627,6 +999,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: QuestMammoth
   GameModeId: QuestMammoth
   SlicePath: Dungeon/MammothFirstLight/MammothScript
@@ -644,6 +1023,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: QuestMedusa
   GameModeId: QuestMedusa
   SlicePath: Dungeon/MedusaFirstLight/MedusaScript
@@ -661,6 +1047,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: QuestMotherwell
   GameModeId: QuestMotherwell
   SlicePath: Dungeon/MotherwellEdengrove/MotherwellScript
@@ -678,6 +1071,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: QuestMedea
   GameModeId: QuestMedea
   SlicePath: Dungeon/MedeaWindsward/MedeaScript
@@ -695,6 +1095,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: QuestNihilo
   GameModeId: QuestNihilo
   SlicePath: Dungeon/NihiloGreatCleave/LeviathanScript
@@ -712,6 +1119,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: QuestYonas
   GameModeId: QuestYonas
   SlicePath: Dungeon/YonasCave/YonasScript
@@ -729,6 +1143,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: TrialSeason02Q13
   GameModeId: TrialSeason02Q13
   SlicePath: Dungeon/LevelScripts/TrialSeason02Q13
@@ -746,6 +1167,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: TrialSeason02Q12
   GameModeId: TrialSeason02Q12
   SlicePath: Dungeon/LevelScripts/TrialSeason02Q12
@@ -763,6 +1191,13 @@
   PauseTimeOfDay: true
   FreezeTime: 6.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: TrialSeason04Q02
   GameModeId: TrialSeason04Q02
   SlicePath: Dungeon/LevelScripts/TrialSeason04Q02
@@ -780,6 +1215,13 @@
   PauseTimeOfDay: true
   FreezeTime: 13.8
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: TrialSeason04Q06
   GameModeId: TrialSeason04Q06
   SlicePath: Dungeon/LevelScripts/TrialSeason04Q06
@@ -797,6 +1239,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: TrialSeason04Q05
   GameModeId: TrialSeason04Q05
   SlicePath: Dungeon/LevelScripts/TrialSeason04Q05
@@ -814,6 +1263,13 @@
   PauseTimeOfDay: false
   FreezeTime: 1.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: QuestHeartforge
   GameModeId: QuestHeartforge
   SlicePath: Dungeon/Heartforge/HeartforgeScript
@@ -831,6 +1287,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: QuestLiang
   GameModeId: QuestLiang
   SlicePath: Dungeon/AbominableLiangEbonscale/AbominableLiangScript
@@ -848,6 +1311,13 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
 - GameModeMapId: QuestGawain
   GameModeId: QuestGawain
   SlicePath: Dungeon/Gawain/GawainScript
@@ -865,3 +1335,154 @@
   PauseTimeOfDay: false
   FreezeTime: 0.0
   NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
+- GameModeMapId: Catacombs
+  GameModeId: Catacombs
+  SlicePath: Dungeon/LevelScripts/00_Catacombs
+  UIMapDisplayName: ""
+  ActivityScreenBgPath: ""
+  DynamicStackConfigName: ""
+  ExcludeFromMapRotation: ""
+  CoatlicueName: "coatlicue\\NW_Catacomb_00"
+  WorldBounds: 0,0,256,256
+  TeamTeleportData: 492,761,120,0
+  TeamTeleportFormationData: ""
+  UIMapId: NW_Catacomb_00
+  ProjectedAZothComputeUnits: 0.54
+  ProjectedMemoryUseMb: 360.0
+  PauseTimeOfDay: true
+  FreezeTime: 0.0
+  NavGenerationEnabled: false
+  NavTileCacheEnabled: false
+  NavWorldBounds: 0,0,0,0,115,128
+  NavUseHeightfield: false
+  NavObstacleCullingEnabled: true
+  EncounterTickRateHz: 2.0
+  PointSpawnerTickRateHz: 2.0
+  SliceExclusionList: ""
+- GameModeMapId: QuestDracula
+  GameModeId: QuestDracula
+  SlicePath: Dungeon/DraculaDunwood/DraculaScript
+  UIMapDisplayName: ""
+  ActivityScreenBgPath: ""
+  DynamicStackConfigName: quest-dracula
+  ExcludeFromMapRotation: ""
+  CoatlicueName: "coatlicue\\NW_Trial_DW_Dracula"
+  WorldBounds: 1088,824,288,160
+  TeamTeleportData: 1250.0,900.0,253.0,90.0
+  TeamTeleportFormationData: ""
+  UIMapId: NW_Trial_DW_Dracula
+  ProjectedAZothComputeUnits: 0.083
+  ProjectedMemoryUseMb: 65.0
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: ""
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: null
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: ""
+- GameModeMapId: QuestWolf
+  GameModeId: QuestWolf
+  SlicePath: dungeon/wolfdunwood/wolfscript
+  UIMapDisplayName: ""
+  ActivityScreenBgPath: ""
+  DynamicStackConfigName: quest-wolf
+  ExcludeFromMapRotation: ""
+  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
+  WorldBounds: 4224,6042.0,96.0,64.0
+  TeamTeleportData: 4273,6050,63,10
+  TeamTeleportFormationData: ""
+  UIMapId: NewWorld_VitaeEterna
+  ProjectedAZothComputeUnits: 0.209
+  ProjectedMemoryUseMb: 100.0
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: 0,0,0,0,53,66
+  NavUseHeightfield: null
+  NavObstacleCullingEnabled: true
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: gatherables/cursedbriar_a,gatherables/cursedbriar_b,gatherables/cursedbriar_c,angryearth/cursedforest/cursedepicbriar_a,angryearth/cursedforest/cursedepicbriar_c,angryearth/cursedforest/cursedepicbriar_d,angryearth/cursedforest/cursedepicbriar_f,angryearth/cursedforest/cursedepicbriar_g,angryearth/cursedforest/cursedepicbriar_h,gatherables/master_bush,coatgen/b3414055/pointspawner_3wp_path_2808591201,coatgen/b3414055/pointspawner_3wp_path_3276829663,coatgen/b3414055/pointspawner_3wp_path_105500169,coatgen/b3414055/pointspawner_3wp_path_383743887,coatgen/b3414055/pointspawner_3wp_path_3514277478,coatgen/b3414055/pointspawner_3wp_path_686995661,coatgen/29d7f3ab/pointspawner_0wp_wander_4250561427,coatgen/29d7f3ab/pointspawner_0wp_wander_2890699986
+- GameModeMapId: QuestMorgaine
+  GameModeId: QuestMorgaine
+  SlicePath: dungeon/morgainedunwood/MorgaineScript_(Boss_Encounter)
+  UIMapDisplayName: ""
+  ActivityScreenBgPath: ""
+  DynamicStackConfigName: quest-morgaine
+  ExcludeFromMapRotation: ""
+  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
+  WorldBounds: 3490.0,4832.0,96,96
+  TeamTeleportData: 3541,4850,235,345
+  TeamTeleportFormationData: ""
+  UIMapId: NewWorld_VitaeEterna
+  ProjectedAZothComputeUnits: 0.18
+  ProjectedMemoryUseMb: 110.0
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: 0,0,0,0,231,236
+  NavUseHeightfield: false
+  NavObstacleCullingEnabled: true
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: gatherables/master_bush,gatherables/master_minerals,gatherables/master_tree,gatherables/master_stones,gatherables/beechtree_c_all_fall02
+- GameModeMapId: QuestVarlaam
+  GameModeId: QuestVarlaam
+  SlicePath: Dungeon/QuestVarlaam/varlaamscript
+  UIMapDisplayName: ""
+  ActivityScreenBgPath: ""
+  DynamicStackConfigName: quest-varlaam
+  ExcludeFromMapRotation: ""
+  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
+  WorldBounds: 2331,4732.0,96.0,64.0
+  TeamTeleportData: 2391,4768,187,130
+  TeamTeleportFormationData: ""
+  UIMapId: NewWorld_VitaeEterna
+  ProjectedAZothComputeUnits: 0.198
+  ProjectedMemoryUseMb: 110.0
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: 0,0,0,0,184,205
+  NavUseHeightfield: false
+  NavObstacleCullingEnabled: true
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: nature/veg_roots/jav_fst_groundroots_sm_b,nature/veg_roots/jav_fst_groundroots_sm_c,nature/veg_roots/jav_fst_groundroots_sm_a,nature/veg_roots/jav_fst_groundroots_lg_c,nature/veg_roots/jav_fst_groundroots_lg_b,gatherables/master_bush,nature/veg_roots/jav_fst_groundroots_lg_a,gatherables/master_tree,coatgen/7cabf053/pointspawner_3wp_path_2334920989,coatgen/7cabf053/pointspawner_3wp_path_3050963177,coatgen/7cabf053/pointspawner_3wp_path_2964512892,coatgen/7cabf053/pointspawner_3wp_path_3551248620,coatgen/7cabf053/pointspawner_3wp_path_292953400,coatgen/7cabf053/pointspawner_3wp_path_1329702237,coatgen/7cabf053/pointspawner_3wp_path_1458697407,coatgen/7cabf053/pointspawner_3wp_path_3793849141,coatgen/7cabf053/pointspawner_3wp_path_2670985338,coatgen/7cabf053/pointspawner_3wp_path_2959398279,coatgen/7cabf053/pointspawner_3wp_path_1663535813,coatgen/7cabf053/pointspawner_3wp_path_1973827580
+- GameModeMapId: QuestSeraphim
+  GameModeId: QuestSeraphim
+  SlicePath: Dungeon/QuestSeraphim/seraphimscript
+  UIMapDisplayName: ""
+  ActivityScreenBgPath: ""
+  DynamicStackConfigName: quest-seraphim
+  ExcludeFromMapRotation: ""
+  CoatlicueName: "coatlicue\\NewWorld_VitaeEterna"
+  WorldBounds: 4851.0,5124.0,96.0,96.0
+  TeamTeleportData: 4878,5204,98,130
+  TeamTeleportFormationData: ""
+  UIMapId: NewWorld_VitaeEterna
+  ProjectedAZothComputeUnits: 0.38
+  ProjectedMemoryUseMb: 90.0
+  PauseTimeOfDay: false
+  FreezeTime: 0.0
+  NavGenerationEnabled: null
+  NavTileCacheEnabled: null
+  NavWorldBounds: 0,0,0,0,91,100
+  NavUseHeightfield: false
+  NavObstacleCullingEnabled: true
+  EncounterTickRateHz: null
+  PointSpawnerTickRateHz: null
+  SliceExclusionList: nature/veg_roots/jav_fst_groundroots_sm_c,gatherables/master_bush,nature/veg_roots/jav_fst_groundroots_sm_b,nature/veg_roots/jav_fst_groundroots_sm_a,gatherables/master_tree,gatherables/master_minerals,nature/veg_roots/jav_fst_groundroots_lg_c,nature/veg_roots/jav_fst_groundroots_lg_b,nature/veg_roots/jav_fst_groundroots_lg_a,coatgen/29d7f3ab/pointspawner_0wp_wander_496885027,coatgen/1bd80896/pointspawner_3wp_path_3740013961

@@ -16377,8 +16377,72 @@
   HideChildren: ""
   TriggerAnalyticsEvent: ""
   OnInteractStart: ""
-  SubTask1: 0714_0105_d_01_goto_POI
-  SubTask2: 0714_0105_d_02_getitem
+  SubTask1: 0714_0105_d_01_SwapIn_Failsafe
+  SubTask2: 0714_0105_d_01_goto_POI
+  SubTask3: 0714_0105_d_02_getitem
+  SubTask4: ""
+  SubTask5: ""
+- TaskID: 0714_0105_d_01_SwapIn_Failsafe
+  Type: TaskUnlockAchievement
+  FailOnCondition: ""
+  StayActive: null
+  TargetQty: 1.0
+  ItemName: SwapActive_0714_LeysonReese_03
+  ItemDropVC: ""
+  ItemDropProbability: null
+  ChestDropProbability: null
+  EnforceLocationRequirement: null
+  TerritoryID: ""
+  POITag: ""
+  GameModeID: ""
+  LootTag: ""
+  PauseAndClearLootOnTaskComplete: null
+  AwardOnlyOnce: ""
+  ShouldCheckPoints: ""
+  GuranteedDropAttempts: null
+  TargetThreshold: ""
+  CraftingRecipeId: ""
+  CraftAnyRecipe: ""
+  InteractTag: ""
+  UIScreenTag: ""
+  TriggerAreaType: ""
+  KillEnemyType: ""
+  KillEnemyWeaponID: ""
+  Duration: null
+  TaskBuySellType: ""
+  IsPurchaseOrEarn: ""
+  IsExactMatch: ""
+  UseTypeAffix: ""
+  TypeAffix: ""
+  UseMatAffix: ""
+  MatAffix: ""
+  UseMagicAffix: ""
+  MagicAffix: ""
+  MapMarkerMapIcon: ""
+  MapMarkerTitleLocTag: ""
+  MapMarkerDescriptionLocTag: ""
+  MapMarkerWorldPositionX: ""
+  MapMarkerWorldPositionY: ""
+  MapMarkerWorldDistanceThreshold: ""
+  UseLargeItemDisplay: ""
+  TP_TargetTag: ""
+  TP_DescriptionTag: ""
+  TargetDescriptionTaskId: ""
+  OverrideLocation: ""
+  IsHidden: "1"
+  DiegeticPinZOverride: ""
+  ShowDiegeticTaskPin: null
+  DiegeticTaskPinZPosOverride: ""
+  SS_VariantName: ""
+  SS_StatePreset: ""
+  CompletedNotificationId: ""
+  GridLayout: ""
+  CommunityGoalTag: ""
+  HideChildren: ""
+  TriggerAnalyticsEvent: ""
+  OnInteractStart: ""
+  SubTask1: ""
+  SubTask2: ""
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""

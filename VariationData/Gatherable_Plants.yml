@@ -826,7 +826,7 @@
 - VariantID: PumpkinPlant_a
   StartMesh: "Objects\\Nature\\Veg_Plants\\Plants_Forest\\Pumpkin\\jav_fst_pumpkinplant_a.cgf"
   StartMat: "Objects\\Nature\\Veg_Plants\\Plants_Forest\\Pumpkin\\JAV_Fst_PumpkinPlant_A_mat.mtl"
-  GatherableEntryID: Squash
+  GatherableEntryID: Pumpkin_Large
   GatheringRadius: 1.0
   InteractionRadius: 2.5
   DetectableRadius: 2.0
@@ -851,7 +851,7 @@
 - VariantID: PumpkinPlant_b
   StartMesh: "Objects\\Nature\\Veg_Plants\\Plants_Forest\\Pumpkin\\jav_fst_pumpkinplant_b.cgf"
   StartMat: "Objects\\Nature\\Veg_Plants\\Plants_Forest\\Pumpkin\\JAV_Fst_PumpkinPlant_A_mat.mtl"
-  GatherableEntryID: Squash
+  GatherableEntryID: Pumpkin_Large
   GatheringRadius: 1.0
   InteractionRadius: 2.0
   DetectableRadius: 1.5
@@ -874,9 +874,9 @@
   AudioPreload_gathering: gather_interact_resources
   SFX_Gathering: Play_Gather_Interact_Plant
 - VariantID: PumpkinPlant_c
-  StartMesh: "Objects\\Nature\\Veg_Plants\\Plants_Forest\\Pumpkin\\jav_fst_pumpkinplant_c.cgf"
-  StartMat: "Objects\\Nature\\Veg_Plants\\Plants_Forest\\Pumpkin\\JAV_Fst_PumpkinPlant_A_mat.mtl"
-  GatherableEntryID: Squash
+  StartMesh: "Objects\\Crafting\\Props\\FoodStuffs\\Vegetables\\JAV_PRP_pumpkins.cgf"
+  StartMat: ""
+  GatherableEntryID: Pumpkin_Small
   GatheringRadius: 1.0
   InteractionRadius: 1.8
   DetectableRadius: 1.0
@@ -886,8 +886,8 @@
   Collision_Stop_SFX: ""
   CollisionFX: Gatherable.Edible_Flora.Loop_Burstberry_Summer_A
   DepletedVFX: Gatherable.Edible_Flora.Demolish.Pumpkin_C
-  DepletedMesh: "Objects\\Nature\\Veg_Plants\\Plants_Forest\\Pumpkin\\jav_fst_pumpkinplant_pick_c.cgf"
-  DepletedMat: "Objects\\Nature\\Veg_Plants\\Plants_Forest\\Pumpkin\\JAV_Fst_PumpkinPlant_A_mat.mtl"
+  DepletedMesh: ""
+  DepletedMat: ""
   StartMeshLOD: 100.0
   EndMeshLOD: 100.0
   AmbientType: Bush
@@ -4145,6 +4145,156 @@
   CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Wirefiber_Compass.png"
   TradeskillIconUnlockType: harvestingplantT5
   MarkerRadius: 3.0
+  AllowGatheringInGameModes: ""
+  AudioPreload_gathering: gather_interact_resources
+  SFX_Gathering: Play_Gather_Interact_Plant
+- VariantID: BlackWhiteDyePlant_A
+  StartMesh: "Objects\\nature\\Veg_Dyes\\Dyes_Super\\DyeFlower\\jav_sup_dyeflower_a.cgf"
+  StartMat: "Objects\\nature\\Veg_Dyes\\Dyes_Super\\DyeFlower\\Jav_Sup_DyeFlower_BlackWhite_A_mat.mtl"
+  GatherableEntryID: DyePlantBlackWhite
+  GatheringRadius: 0.5
+  InteractionRadius: 1.75
+  DetectableRadius: 2.5
+  AudioPreload_Depletion: gath_bush_leaves_small
+  DepletedSFX: Play_Gather_Bush_Sml
+  Collision_Play_SFX: ""
+  Collision_Stop_SFX: ""
+  CollisionFX: ""
+  DepletedVFX: ""
+  DepletedMesh: "Objects\\nature\\Veg_Dyes\\Dyes_Super\\DyeFlower\\jav_sup_dyeflower_pick_a.cgf"
+  DepletedMat: "Objects\\nature\\Veg_Dyes\\Dyes_Super\\DyeFlower\\Jav_Sup_DyeFlower_BlackWhite_A_mat.mtl"
+  StartMeshLOD: 100.0
+  EndMeshLOD: 100.0
+  AmbientType: ""
+  ShowOnCompass: null
+  CompassIcon: ""
+  TradeskillIconUnlockType: ""
+  MarkerRadius: 3.25
+  AllowGatheringInGameModes: ""
+  AudioPreload_gathering: gather_interact_resources
+  SFX_Gathering: Play_Gather_Interact_Plant
+- VariantID: BlackWhiteDyePlant_B
+  StartMesh: "Objects\\nature\\Veg_Dyes\\Dyes_Super\\DyeFlower\\jav_sup_dyeflower_b.cgf"
+  StartMat: "Objects\\nature\\Veg_Dyes\\Dyes_Super\\DyeFlower\\Jav_Sup_DyeFlower_BlackWhite_A_mat.mtl"
+  GatherableEntryID: DyePlantBlackWhite
+  GatheringRadius: 0.5
+  InteractionRadius: 1.75
+  DetectableRadius: 2.5
+  AudioPreload_Depletion: gath_bush_leaves_small
+  DepletedSFX: Play_Gather_Bush_Sml
+  Collision_Play_SFX: ""
+  Collision_Stop_SFX: ""
+  CollisionFX: ""
+  DepletedVFX: ""
+  DepletedMesh: "Objects\\nature\\Veg_Dyes\\Dyes_Super\\DyeFlower\\jav_sup_dyeflower_pick_b.cgf"
+  DepletedMat: "Objects\\nature\\Veg_Dyes\\Dyes_Super\\DyeFlower\\Jav_Sup_DyeFlower_BlackWhite_A_mat.mtl"
+  StartMeshLOD: 100.0
+  EndMeshLOD: 100.0
+  AmbientType: ""
+  ShowOnCompass: null
+  CompassIcon: ""
+  TradeskillIconUnlockType: ""
+  MarkerRadius: 3.25
+  AllowGatheringInGameModes: ""
+  AudioPreload_gathering: gather_interact_resources
+  SFX_Gathering: Play_Gather_Interact_Plant
+- VariantID: BlackWhiteDyePlant_C
+  StartMesh: "Objects\\nature\\Veg_Dyes\\Dyes_Super\\DyeFlower\\jav_sup_dyeflower_c.cgf"
+  StartMat: "Objects\\nature\\Veg_Dyes\\Dyes_Super\\DyeFlower\\Jav_Sup_DyeFlower_BlackWhite_A_mat.mtl"
+  GatherableEntryID: DyePlantBlackWhite
+  GatheringRadius: 0.5
+  InteractionRadius: 1.75
+  DetectableRadius: 2.5
+  AudioPreload_Depletion: gath_bush_leaves_small
+  DepletedSFX: Play_Gather_Bush_Sml
+  Collision_Play_SFX: ""
+  Collision_Stop_SFX: ""
+  CollisionFX: ""
+  DepletedVFX: ""
+  DepletedMesh: "Objects\\nature\\Veg_Dyes\\Dyes_Super\\DyeFlower\\jav_sup_dyeflower_pick_c.cgf"
+  DepletedMat: "Objects\\nature\\Veg_Dyes\\Dyes_Super\\DyeFlower\\Jav_Sup_DyeFlower_BlackWhite_A_mat.mtl"
+  StartMeshLOD: 100.0
+  EndMeshLOD: 100.0
+  AmbientType: ""
+  ShowOnCompass: null
+  CompassIcon: ""
+  TradeskillIconUnlockType: ""
+  MarkerRadius: 3.25
+  AllowGatheringInGameModes: ""
+  AudioPreload_gathering: gather_interact_resources
+  SFX_Gathering: Play_Gather_Interact_Plant
+- VariantID: SunflowerPlant_a
+  StartMesh: "Objects\\Crafting\\Props\\FoodStuffs\\Grains\\FarmPlants\\JAV_PRP_Sunflowers_A.cgf"
+  StartMat: objects/crafting/props/foodstuffs/grains/farmplants/jav_prp_farmplant_mat.mtl
+  GatherableEntryID: Sunflower
+  GatheringRadius: 1.0
+  InteractionRadius: 2.5
+  DetectableRadius: 2.3
+  AudioPreload_Depletion: gath_bush_leaves_small
+  DepletedSFX: Play_Gather_Bush_Sml
+  Collision_Play_SFX: Play_Foliage_Green_Med
+  Collision_Stop_SFX: Stop_Foliage_Green_Med
+  CollisionFX: Gatherable.Edible_Flora.Loop_Burstberry_Summer_A
+  DepletedVFX: Gatherable.Edible_Flora.Demolish.Corn_A
+  DepletedMesh: ""
+  DepletedMat: ""
+  StartMeshLOD: 100.0
+  EndMeshLOD: 100.0
+  AmbientType: Bush
+  ShowOnCompass: 1.0
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Vegetable_Compass.png"
+  TradeskillIconUnlockType: FarmPlants
+  MarkerRadius: 4.0
+  AllowGatheringInGameModes: ""
+  AudioPreload_gathering: gather_interact_resources
+  SFX_Gathering: Play_Gather_Interact_Plant
+- VariantID: SunflowerPlant_b
+  StartMesh: "Objects\\Crafting\\Props\\FoodStuffs\\Grains\\FarmPlants\\JAV_PRP_Sunflowers_B.cgf"
+  StartMat: objects/crafting/props/foodstuffs/grains/farmplants/jav_prp_farmplant_mat.mtl
+  GatherableEntryID: Sunflower
+  GatheringRadius: 1.0
+  InteractionRadius: 2.0
+  DetectableRadius: 1.75
+  AudioPreload_Depletion: gath_bush_leaves_small
+  DepletedSFX: Play_Gather_Bush_Sml
+  Collision_Play_SFX: Play_Foliage_Green_Med
+  Collision_Stop_SFX: Stop_Foliage_Green_Med
+  CollisionFX: Gatherable.Edible_Flora.Loop_Burstberry_Summer_A
+  DepletedVFX: Gatherable.Edible_Flora.Demolish.Corn_B
+  DepletedMesh: ""
+  DepletedMat: ""
+  StartMeshLOD: 100.0
+  EndMeshLOD: 100.0
+  AmbientType: Bush
+  ShowOnCompass: 1.0
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Vegetable_Compass.png"
+  TradeskillIconUnlockType: FarmPlants
+  MarkerRadius: 3.5
+  AllowGatheringInGameModes: ""
+  AudioPreload_gathering: gather_interact_resources
+  SFX_Gathering: Play_Gather_Interact_Plant
+- VariantID: ApplePile_a
+  StartMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\AppleTree\\JAV_Fst_ApplePile_Tree_A.cgf"
+  StartMat: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\AppleTree\\JAV_Fst_ApplePile_Tree_A.mtl"
+  GatherableEntryID: AppleSmall
+  GatheringRadius: 0.6
+  InteractionRadius: 0.85
+  DetectableRadius: 2.0
+  AudioPreload_Depletion: N/A
+  DepletedSFX: Play_Gather_Nuts
+  Collision_Play_SFX: ""
+  Collision_Stop_SFX: ""
+  CollisionFX: Gatherable.Edible_Flora.Loop_Burstberry_Summer_A
+  DepletedVFX: Gatherable.Tree.Demolish.Break_Tree_D
+  DepletedMesh: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\AppleTree\\JAV_Fst_ApplePile_Tree_A_pick.cgf"
+  DepletedMat: "Objects\\Nature\\Veg_Trees\\Trees_Forest\\AppleTree\\JAV_Fst_ApplePile_Tree_A.mtl"
+  StartMeshLOD: 100.0
+  EndMeshLOD: null
+  AmbientType: ""
+  ShowOnCompass: 1.0
+  CompassIcon: "LyShineUI\\Images\\Map\\Icon\\Gatherables\\Fruit_Compass.png"
+  TradeskillIconUnlockType: FarmPlants
+  MarkerRadius: 2.35
   AllowGatheringInGameModes: ""
   AudioPreload_gathering: gather_interact_resources
   SFX_Gathering: Play_Gather_Interact_Plant

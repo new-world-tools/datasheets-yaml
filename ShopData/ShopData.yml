@@ -8,7 +8,7 @@
   DisplayOnMarker: true
   DisplayOnCompass: true
   DisplayOnMap: true
-  MapTooltipName: ""
+  MapTooltipName: Amazon Games Super Shop
   MapTooltipImage: "LyShineUI\\Images\\frontend\\image_logo_newworld_centered_noletters.png"
   MapTooltipDescription: "Amazon Games - Home of New World: Aeternum."
   DisplayProgressPanel: true
@@ -90,6 +90,30 @@
   WalletDisplayPlayerLevel: null
   WalletDisplayProgression1: SyndicateTokens
   WalletDisplayProgression2: ""
+  WalletDisplayProgression3: ""
+  WalletDisplayItem1: ""
+  WalletDisplayItem2: ""
+  WalletDisplayItem3: ""
+- ShopId: CatacombsShop
+  ProgressionId: CatacombsShop
+  ShopName: "@ui_shop_catacombs_name"
+  ShopIconLarge: ""
+  ShopIconSmall: "LyShineUI\\Images\\Icons\\WorldMap\\catacomb.png"
+  ShopColor: ""
+  SeasonalEventId: ""
+  DisplayOnMarker: true
+  DisplayOnCompass: true
+  DisplayOnMap: true
+  MapTooltipName: ""
+  MapTooltipImage: "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_catacomb.png"
+  MapTooltipDescription: "@ui_shop_maptooltip_description"
+  DisplayProgressPanel: false
+  ProgressPanelTooltip: ""
+  WalletDisplayGold: true
+  WalletDisplayAzoth: null
+  WalletDisplayPlayerLevel: null
+  WalletDisplayProgression1: CatacombsCurrency_Crowns
+  WalletDisplayProgression2: CatacombsCurrency_Silvers
   WalletDisplayProgression3: ""
   WalletDisplayItem1: ""
   WalletDisplayItem2: ""

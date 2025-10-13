@@ -1,4 +1,5 @@
 - ItemID: Artifact_Set1_HeavyHead
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_HeavyHead_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_heavy_head_slot"
@@ -15,6 +16,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: HeavyHead_Balanced
   GrantsHWMBump: ""
@@ -30,15 +32,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_HeavyHead
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Common_CDR
-  Perk4: perkid_armor_dodgesuccess_fortify
-  Perk5: ""
+  Perk3: PerkID_Fixed_Head_OnCritTaken_CritChance
+  Perk4: PerkID_Fixed_Armor_DodgeSuccess_Fortify
+  Perk5: PerkID_Charm_EmptyDefense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_HeavyHead
   ForceRarity: ""
   RequiredLevel: ""
@@ -117,7 +124,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_HeavyChest
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_HeavyChest_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_heavy_chest_slot"
@@ -134,6 +143,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: HeavyChest_Balanced
   GrantsHWMBump: ""
@@ -149,15 +159,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_HeavyChest
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Armor_DefBasic
-  Perk4: PerkID_Armor_RangeDefense_Physical
-  Perk5: ""
+  Perk3: PerkID_Slottable_Common_DefBasic
+  Perk4: PerkID_Slottable_Common_RangeDefense_Physical
+  Perk5: PerkID_Charm_EmptyDefense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_HeavyChest
   ForceRarity: ""
   RequiredLevel: ""
@@ -236,7 +251,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_HeavyHands
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_HeavyHands_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_heavy_glove_slot"
@@ -253,6 +270,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: HeavyHands_Balanced
   GrantsHWMBump: ""
@@ -268,15 +286,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_HeavyHands
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Common_CDR
-  Perk4: PerkID_Armor_RangeDefense_Physical
-  Perk5: ""
+  Perk3: PerkID_Fixed_Hands_OnAtkBlocked_IncStamDmg
+  Perk4: PerkID_Slottable_Common_RangeDefense_Physical
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_HeavyHands
   ForceRarity: ""
   RequiredLevel: ""
@@ -355,7 +378,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_HeavyLegs
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_HeavyLegs_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_heavy_legs_slot"
@@ -372,6 +397,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: HeavyLegs_Balanced
   GrantsHWMBump: ""
@@ -381,21 +407,26 @@
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
   PerkSlot1: PerkID_Artifact_Set1_HeavyLegs
-  PerkSlot2: PerkID_Armor_DurCC
+  PerkSlot2: PerkID_Slottable_Common_DurCC
   PerkSlot3: PerkID_Gem_EmptyGemSlot
   PerkSlot4: PerkID_Armor_DefBasic
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_HeavyLegs
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Armor_DurCC
-  Perk4: PerkID_Armor_DefBasic
-  Perk5: ""
+  Perk3: PerkID_Slottable_Common_DurCC
+  Perk4: PerkID_Slottable_Common_DefBasic
+  Perk5: PerkID_Charm_EmptyDefense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_HeavyLegs
   ForceRarity: ""
   RequiredLevel: ""
@@ -474,7 +505,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_HeavyFeet
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_HeavyFeet_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_heavy_feet_slot"
@@ -491,6 +524,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: HeavyFeet_Balanced
   GrantsHWMBump: ""
@@ -506,15 +540,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_HeavyFeet
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Armor_DefGrit
-  Perk4: PerkID_Armor_RangeDefense_Physical
-  Perk5: ""
+  Perk3: PerkID_Slottable_Common_DefGrit
+  Perk4: PerkID_Slottable_Common_RangeDefense_Physical
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_HeavyFeet
   ForceRarity: ""
   RequiredLevel: ""
@@ -593,7 +632,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_MediumHead
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_MediumHead_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_head_slot"
@@ -610,6 +651,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: MediumHead_Balanced
   GrantsHWMBump: ""
@@ -621,19 +663,24 @@
   PerkSlot1: PerkID_Artifact_Set1_MediumHead
   PerkSlot2: perkid_armor_durdot
   PerkSlot3: PerkID_Gem_EmptyGemSlot
-  PerkSlot4: perkid_armor_durdebuff
+  PerkSlot4: PerkID_Slottable_Common_DurDebuff
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_MediumHead
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: perkid_armor_durdot
-  Perk4: perkid_armor_durdebuff
-  Perk5: ""
+  Perk3: PerkID_Slottable_Common_DurDot
+  Perk4: PerkID_Slottable_Common_DurDebuff
+  Perk5: PerkID_Charm_EmptyDefense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_MediumHead
   ForceRarity: ""
   RequiredLevel: ""
@@ -712,7 +759,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_MediumChest
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_MediumChest_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_chest_slot"
@@ -729,6 +778,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: MediumChest_Balanced
   GrantsHWMBump: ""
@@ -744,15 +794,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_MediumChest
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Common_CDR
-  Perk4: PerkID_Armor_Health
-  Perk5: ""
+  Perk3: PerkID_Fixed_Chest_HealthStam_Synergy
+  Perk4: PerkID_Fixed_Armor_LifestealNoConsumable
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_MediumChest
   ForceRarity: ""
   RequiredLevel: ""
@@ -831,7 +886,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_MediumHands
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_MediumHands_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_glove_slot"
@@ -848,6 +905,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: MediumHands_Balanced
   GrantsHWMBump: ""
@@ -863,15 +921,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_MediumHands
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Common_CDR
-  Perk4: PerkID_Armor_RangeDefense_Elemental
-  Perk5: ""
+  Perk3: PerkID_Fixed_Hands_OnAtkBlocked_IncStamDmg
+  Perk4: PerkID_Slottable_Common_RangeDefense_Elemental
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_MediumHands
   ForceRarity: ""
   RequiredLevel: ""
@@ -950,7 +1013,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_MediumLegs
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_MediumLegs_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_legs_slot"
@@ -967,6 +1032,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: MediumLegs_Balanced
   GrantsHWMBump: ""
@@ -982,15 +1048,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_MediumLegs
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Common_CDR
-  Perk4: PerkID_Armor_RangeDefense_Elemental
-  Perk5: ""
+  Perk3: PerkID_Fixed_Legs_DodgeSuccess_Stamina
+  Perk4: PerkID_Slottable_Common_RangeDefense_Elemental
+  Perk5: PerkID_Charm_EmptyDefense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_MediumLegs
   ForceRarity: ""
   RequiredLevel: ""
@@ -1069,7 +1140,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_MediumFeet
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_MediumFeet_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_feet_slot"
@@ -1086,6 +1159,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: MediumFeet_Balanced
   GrantsHWMBump: ""
@@ -1097,19 +1171,24 @@
   PerkSlot1: PerkID_Artifact_Set1_MediumFeet
   PerkSlot2: PerkID_Common_CDR
   PerkSlot3: PerkID_Gem_EmptyGemSlot
-  PerkSlot4: PerkID_Armor_DurCC
+  PerkSlot4: PerkID_Slottable_Common_DurCC
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_MediumFeet
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Common_CDR
-  Perk4: PerkID_Armor_DurCC
-  Perk5: ""
+  Perk3: PerkID_Fixed_Feet_HasteOnVault
+  Perk4: PerkID_Slottable_Common_DurCC
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_MediumFeet
   ForceRarity: ""
   RequiredLevel: ""
@@ -1188,7 +1267,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_LightHead
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_LightHead_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_light_head_slot"
@@ -1205,6 +1286,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: LightHead_Balanced
   GrantsHWMBump: ""
@@ -1220,15 +1302,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_LightHead
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Common_CDR
-  Perk4: PerkID_Armor_RangeDefense_Physical
-  Perk5: ""
+  Perk3: PerkID_Slottable_Common_DmgBasic
+  Perk4: PerkID_Fixed_Armor_DodgeSuccess_Fortify
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_LightHead
   ForceRarity: ""
   RequiredLevel: ""
@@ -1307,7 +1394,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_LightChest
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_LightChest_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_light_chest_slot"
@@ -1324,6 +1413,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: LightChest_Balanced
   GrantsHWMBump: ""
@@ -1339,15 +1429,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_LightChest
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Common_CDR
-  Perk4: PerkID_Armor_RangeDefense_Physical
-  Perk5: ""
+  Perk3: PerkID_Fixed_Armor_DamageTradeOff
+  Perk4: PerkID_Fixed_Chest_HealthStam_Synergy
+  Perk5: PerkID_Charm_EmptySkillPerk
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_LightChest
   ForceRarity: ""
   RequiredLevel: ""
@@ -1426,7 +1521,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_LightHands
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_LightHands_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_light_glove_slot"
@@ -1443,6 +1540,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: LightHands_Balanced
   GrantsHWMBump: ""
@@ -1454,19 +1552,24 @@
   PerkSlot1: PerkID_Artifact_Set1_LightHands
   PerkSlot2: PerkID_Common_CDR
   PerkSlot3: PerkID_Gem_EmptyGemSlot
-  PerkSlot4: PerkID_Armor_DurCC
+  PerkSlot4: PerkID_Slottable_Common_DurCC
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_LightHands
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Common_CDR
-  Perk4: PerkID_Armor_DurCC
-  Perk5: ""
+  Perk3: PerkID_Fixed_Armor_PvP_ReflectDmg
+  Perk4: PerkID_Slottable_Common_DurCC
+  Perk5: PerkID_Charm_EmptyDefense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_LightHands
   ForceRarity: ""
   RequiredLevel: ""
@@ -1545,7 +1648,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_LightLegs
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_LightLegs_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_light_legs_slot"
@@ -1562,6 +1667,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: LightLegs_Balanced
   GrantsHWMBump: ""
@@ -1577,15 +1683,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_LightLegs
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Armor_DefBasic
-  Perk4: PerkID_Armor_RangeDefense_Physical
-  Perk5: ""
+  Perk3: PerkID_Slottable_Common_DefBasic
+  Perk4: PerkID_Fixed_Legs_DodgeSuccess_Stamina
+  Perk5: PerkID_Charm_EmptyDefense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_LightLegs
   ForceRarity: ""
   RequiredLevel: ""
@@ -1664,7 +1775,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_LightFeet
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_LightFeet_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_light_feet_slot"
@@ -1681,6 +1794,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: LightFeet_Balanced
   GrantsHWMBump: ""
@@ -1696,15 +1810,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_LightFeet
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Common_CDR
-  Perk4: PerkID_Armor_RangeDefense_Physical
-  Perk5: ""
+  Perk3: PerkID_Fixed_Legs_DodgeSuccess_Stamina
+  Perk4: PerkID_Slottable_Common_RangeDefense_Physical
+  Perk5: PerkID_Charm_EmptyDefense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_LightFeet
   ForceRarity: ""
   RequiredLevel: ""
@@ -1783,7 +1902,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_1hLongsword
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_1hLongsword_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_sword"
@@ -1800,6 +1921,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: SwordT5
   GrantsHWMBump: ""
@@ -1815,15 +1937,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_Sword
   Perk2: PerkID_Artifact_Set1_SwordPerk
-  Perk3: PerkID_Ability_Sword_WhirlingBlade
-  Perk4: PerkID_Weapon_BleedonCrit
-  Perk5: ""
+  Perk3: PerkID_WeaponMastery_Sword_WhirlingBlade
+  Perk4: PerkID_Slottable_Common_BleedonCrit
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_1hLongsword
   ForceRarity: ""
   RequiredLevel: ""
@@ -1902,7 +2029,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_1hThrowingAxe
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_1hThrowingAxe_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_hatchet"
@@ -1919,6 +2048,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: HatchetT5
   GrantsHWMBump: ""
@@ -1934,15 +2064,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_Hatchet
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Ability_Hatchet_Rending_Throw
-  Perk4: PerkID_Weapon_CDRBasic
-  Perk5: ""
+  Perk3: PerkID_WeaponMastery_Hatchet_Rending_Throw
+  Perk4: PerkID_Fixed_Weapon_RendingStacks
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_1hThrowingAxe
   ForceRarity: ""
   RequiredLevel: ""
@@ -2021,7 +2156,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_2hWarhammer
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_2hWarhammer_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_warhammer"
@@ -2038,6 +2175,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: 2HHammerT5
   GrantsHWMBump: ""
@@ -2053,15 +2191,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_Warhammer
   Perk2: PerkID_Artifact_Set1_WarhammerPerk
-  Perk3: PerkID_Ability_Hammer_MightyGavel
-  Perk4: PerkID_Weapon_CDRBasic
-  Perk5: ""
+  Perk3: PerkID_WeaponMastery_Hammer_MightyGavel
+  Perk4: PerkID_Fixed_Weapon_Attunement_Lightning
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_2hWarhammer
   ForceRarity: ""
   RequiredLevel: ""
@@ -2140,7 +2283,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_2hGreatAxe
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_2hGreatAxe_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_axe"
@@ -2157,6 +2302,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: 2HAxeT5
   GrantsHWMBump: ""
@@ -2172,15 +2318,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_Greataxe
   Perk2: PerkID_Artifact_Set1_GreatAxePerk
-  Perk3: PerkID_Weapon_Attunement_Void
-  Perk4: PerkID_Weapon_CDRBasic
-  Perk5: ""
+  Perk3: PerkID_Fixed_Weapon_Attunement_Void
+  Perk4: PerkID_Fixed_Weapon_DmgWithGrit
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: true
+  OverrideScalingStrength: 0.0075
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: 0.0075
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_2hGreatAxe
   ForceRarity: ""
   RequiredLevel: ""
@@ -2259,7 +2410,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_2hBow
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_2hBow_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_bow"
@@ -2276,6 +2429,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: BowT5
   GrantsHWMBump: ""
@@ -2291,15 +2445,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_Bow
   Perk2: PerkID_Artifact_Set1_BowPerk
-  Perk3: PerkID_Weapon_DodgeSuccess_LightningDMG
-  Perk4: PerkID_Weapon_DmgBasic
-  Perk5: ""
+  Perk3: PerkID_Fixed_Weapon_DodgeSuccess_LightningDMG
+  Perk4: PerkID_Slottable_Common_DmgBasic
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_2hBow
   ForceRarity: ""
   RequiredLevel: ""
@@ -2378,7 +2537,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_2hMusket
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_2hMusket_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_musket"
@@ -2395,6 +2556,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: MusketT5
   GrantsHWMBump: ""
@@ -2409,16 +2571,21 @@
   PerkSlot4: PerkID_Ability_Musket_StickyBomb
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_Musket
-  Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Ability_Musket_Traps
-  Perk4: PerkID_Ability_Musket_StickyBomb
-  Perk5: ""
+  Perk2: PerkID_Fixed_Weapon_HasteOnCrit
+  Perk3: PerkID_WeaponMastery_Musket_Traps
+  Perk4: PerkID_WeaponMastery_Musket_StickyBomb
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_2hMusket
   ForceRarity: ""
   RequiredLevel: ""
@@ -2497,7 +2664,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_1hRoundShield
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_1hRoundShield_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_roundshield"
@@ -2514,6 +2683,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: 1hShieldAT5
   GrantsHWMBump: ""
@@ -2528,16 +2698,21 @@
   PerkSlot4: PerkID_Ability_Shield_ShieldRush
   PerkSlot5: PerkID_Weapon_EmpowerOnCrit
   Perk1: PerkID_Artifact_Set1_RoundShield
-  Perk2: PerkID_Ability_Shield_ShieldBash
-  Perk3: PerkID_Ability_Shield_ShieldRush
-  Perk4: PerkID_Weapon_EmpowerOnCrit
-  Perk5: ""
+  Perk2: PerkID_WeaponMastery_Shield_ShieldBash
+  Perk3: PerkID_WeaponMastery_Shield_ShieldRush
+  Perk4: PerkID_Fixed_Shield_Kite_OnBlockDmg
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_1hRoundShield
   ForceRarity: ""
   RequiredLevel: ""
@@ -2616,7 +2791,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_1hKiteShield
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_1hKiteShield_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_kiteshield"
@@ -2633,6 +2810,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: 1hShieldBT5
   GrantsHWMBump: ""
@@ -2647,16 +2825,21 @@
   PerkSlot4: PerkID_Shield_Kite_OnBlockHeal
   PerkSlot5: PerkID_Weapon_HealOnDmg
   Perk1: PerkID_Artifact_Set1_KiteShield
-  Perk2: PerkID_Shield_Kite_OnBlockDmg
-  Perk3: PerkID_Shield_Kite_OnBlockHeal
-  Perk4: PerkID_Weapon_HealOnDmg
-  Perk5: ""
+  Perk2: PerkID_Fixed_Shield_Kite_OnBlockDmg
+  Perk3: PerkID_Fixed_Shield_Kite_OnBlockHeal
+  Perk4: PerkID_Slottable_Common_HealperDmg
+  Perk5: PerkID_Charm_EmptyDefense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_1hKiteShield
   ForceRarity: ""
   RequiredLevel: ""
@@ -2735,7 +2918,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_1hTowerShield
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_1hTowerShield_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_towershield"
@@ -2752,6 +2937,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: 1hShieldDT5
   GrantsHWMBump: ""
@@ -2767,15 +2953,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_TowerShield
   Perk2: PerkID_Artifact_Set1_TowerPerk
-  Perk3: PerkID_WeaponMelee_BlockingStam
-  Perk4: PerkID_Weapon_FortifyOnCrit
-  Perk5: ""
+  Perk3: PerkID_Fixed_MeleeShield_BlockingStam
+  Perk4: PerkID_Slottable_Common_FortifyOnCrit
+  Perk5: PerkID_Charm_EmptyDefense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_1hTowerShield
   ForceRarity: ""
   RequiredLevel: ""
@@ -2854,7 +3045,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_2hStaffFire
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_2hStaffFire_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_firestaff"
@@ -2871,6 +3064,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: FireStaffT5
   GrantsHWMBump: ""
@@ -2886,15 +3080,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_FireStaff
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Weapon_EmpowerOnCrit
-  Perk4: PerkID_Weapon_DmgCrit
-  Perk5: ""
+  Perk3: PerkID_Slottable_Common_EmpowerOnCrit
+  Perk4: PerkID_Slottable_Common_DmgCrit
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: true
+  OverrideScalingStrength: 0.0075
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: 0.0075
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_2hStaffFire
   ForceRarity: ""
   RequiredLevel: ""
@@ -2973,7 +3172,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_2hStaffLife
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_2hStaffLife_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_lifestaff"
@@ -2990,6 +3191,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: LifeStaffT5
   GrantsHWMBump: ""
@@ -3004,16 +3206,21 @@
   PerkSlot4: PerkID_Weapon_CDRBasic
   PerkSlot5: PerkID_Weapon_DmgBasic
   Perk1: PerkID_Artifact_Set1_LifeStaff
-  Perk2: PerkID_Ability_LifeStaff_Beacon
-  Perk3: PerkID_Weapon_CDRBasic
-  Perk4: PerkID_Weapon_DmgBasic
-  Perk5: ""
+  Perk2: PerkID_WeaponMastery_LifeStaff_DivineEmbrace
+  Perk3: PerkID_Fixed_WeaponHeal_OnKillContribution_HealMod
+  Perk4: PerkID_Fixed_LifeStaff_OnLowBonusHeal
+  Perk5: PerkID_Charm_EmptyDefense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_2hStaffLife
   ForceRarity: ""
   RequiredLevel: ""
@@ -3092,7 +3299,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_2hSpear
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_2hSpear_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_spear"
@@ -3109,6 +3318,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: SpearT5
   GrantsHWMBump: ""
@@ -3124,15 +3334,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_Spear
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Ability_Spear_Javelin
-  Perk4: PerkID_Weapon_Melee_ChargedHeavy_DMG
-  Perk5: ""
+  Perk3: PerkID_WeaponMastery_Spear_Javelin
+  Perk4: PerkID_Fixed_Weapon_Melee_ChargedHeavy_DMG
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_2hSpear
   ForceRarity: ""
   RequiredLevel: ""
@@ -3211,7 +3426,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_1hRapier
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_1hRapier_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_rapier"
@@ -3228,6 +3445,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: RapierT5
   GrantsHWMBump: ""
@@ -3239,19 +3457,24 @@
   PerkSlot1: PerkID_Artifact_Set1_Rapier
   PerkSlot2: PerkID_Ability_Rapier_FlourishAndFinish
   PerkSlot3: PerkID_Gem_EmptyGemSlot
-  PerkSlot4: PerkID_Ability_Rapier_Tondo
+  PerkSlot4: PerkID_WeaponMastery_Rapier_FlourishAndFinish
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_Rapier
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Ability_Rapier_FlourishAndFinish
-  Perk4: PerkID_Ability_Rapier_Tondo
-  Perk5: ""
+  Perk3: PerkID_Fixed_Weapon_DoTPotDurInc
+  Perk4: PerkID_WeaponMastery_Rapier_FlourishAndFinish
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_1hRapier
   ForceRarity: ""
   RequiredLevel: ""
@@ -3330,7 +3553,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_1hGauntletIce
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_1hGauntletIce_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_icegauntlet"
@@ -3347,6 +3572,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: 1hElementalGauntlet_IceT5
   GrantsHWMBump: ""
@@ -3362,15 +3588,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_IceGauntlet
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Weapon_DmgCrit
-  Perk4: PerkID_Weapon_CDRBasic
-  Perk5: ""
+  Perk3: PerkID_Slottable_Common_DmgCrit
+  Perk4: PerkID_Fixed_Weapon_RendingStacks
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_1hGauntletIce
   ForceRarity: ""
   RequiredLevel: ""
@@ -3449,7 +3680,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_1hGauntletVoid
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_1hGauntletVoid_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_voidgauntlet"
@@ -3466,6 +3699,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: VoidGauntletT5
   GrantsHWMBump: ""
@@ -3480,16 +3714,21 @@
   PerkSlot4: PerkID_Weapon_HealOnDmg
   PerkSlot5: PerkID_Weapon_CDRBasic
   Perk1: PerkID_Artifact_Set1_VoidGauntlet
-  Perk2: PerkID_Weapon_CritChance
-  Perk3: PerkID_Weapon_HealOnDmg
-  Perk4: PerkID_Weapon_CDRBasic
-  Perk5: ""
+  Perk2: PerkID_Fixed_Weapon_Attunement_Void
+  Perk3: PerkID_Slottable_Common_HealperDmg
+  Perk4: PerkID_Fixed_Weapon_DoTPotDurInc
+  Perk5: PerkID_Charm_EmptySkillPerk
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: true
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: 0.0075
+  OverrideScalingIntelligence: 0.0075
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_1hGauntletVoid
   ForceRarity: ""
   RequiredLevel: ""
@@ -3568,7 +3807,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_2hBlunderbuss
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_2hBlunderbuss_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_blunderbuss"
@@ -3585,6 +3826,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: BlunderbussT5
   GrantsHWMBump: ""
@@ -3601,14 +3843,19 @@
   Perk1: PerkID_Artifact_Set1_Blunderbuss
   Perk2: PerkID_Artifact_Set1_BlunderbussPerk
   Perk3: PerkID_Weapon_Disease_OnLowHP_Crit
-  Perk4: PerkID_Weapon_CritChance
-  Perk5: ""
+  Perk4: PerkID_Slottable_Common_CritChance
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_2hBlunderbuss
   ForceRarity: ""
   RequiredLevel: ""
@@ -3687,7 +3934,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_2hGreatSword
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_2hGreatSword_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_greatsword"
@@ -3704,6 +3953,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: 2hGreatSwordT5
   GrantsHWMBump: ""
@@ -3718,16 +3968,21 @@
   PerkSlot4: PerkID_Weapon_Melee_ChargedHeavy_Crit
   PerkSlot5: PerkID_Weapon_CDRBasic
   Perk1: PerkID_Artifact_Set1_Greatsword
-  Perk2: PerkID_Weapon_Melee_ChargedHeavy_DMG
-  Perk3: PerkID_Weapon_Melee_ChargedHeavy_Crit
-  Perk4: PerkID_Weapon_CDRBasic
-  Perk5: ""
+  Perk2: PerkID_Fixed_Weapon_Melee_ChargedHeavy_DMG
+  Perk3: PerkID_Fixed_Weapon_Melee_ChargedHeavy_Crit
+  Perk4: PerkID_Slottable_Common_CritChance
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
-  PerPerkScalingMultiplier: PerkID_Weapon_Melee_ChargedHeavy_DMG=-0.1+PerkID_Weapon_Melee_ChargedHeavy_Crit=-0.1
+  PerkBucket5: ""
+  PerPerkScalingMultiplier: PerkID_Fixed_Weapon_Melee_ChargedHeavy_DMG=-0.1+PerkID_Fixed_Weapon_Melee_ChargedHeavy_Crit=-0.1
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_2hGreatSword
   ForceRarity: ""
   RequiredLevel: ""
@@ -3806,7 +4061,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_1hFlail
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_1hFlail_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_flail"
@@ -3823,6 +4080,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: FlailT5
   GrantsHWMBump: ""
@@ -3838,15 +4096,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_Flail
   Perk2: PerkID_Artifact_Set1_FlailPerk
-  Perk3: PerkID_Weapon_HealOnDmg
-  Perk4: PerkID_Weapon_CDRBasic
-  Perk5: ""
+  Perk3: PerkID_Slottable_Common_HealperDmg
+  Perk4: PerkID_Fixed_Weapon_Melee_ChargedHeavy_DMG
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_1hFlail
   ForceRarity: ""
   RequiredLevel: ""
@@ -3925,7 +4188,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_Earring1
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_Earring1_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_earringjewelry"
@@ -3942,6 +4207,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: EarringCONT5
   GrantsHWMBump: ""
@@ -3957,15 +4223,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_Earring1
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Earring_OnPotionDmg
-  Perk4: PerkID_Earring_OnPotionFort
-  Perk5: ""
+  Perk3: PerkID_Fixed_Earring_OnPotionDmg
+  Perk4: PerkID_Fixed_Earring_OnPotionFort
+  Perk5: PerkID_Charm_EmptyDefense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_Earring1
   ForceRarity: ""
   RequiredLevel: ""
@@ -4044,7 +4315,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_Ring1
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_Ring1_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_ringjewelry"
@@ -4061,6 +4334,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: RingCONT5
   GrantsHWMBump: ""
@@ -4076,15 +4350,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_Ring1
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Ring_HealperDmg
-  Perk4: PerkID_Ring_MaxStamina
-  Perk5: ""
+  Perk3: PerkID_Slottable_Common_HealperDmg
+  Perk4: PerkID_Fixed_Ring_OnSwap_CritChanceTilNextHit
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_Ring1
   ForceRarity: ""
   RequiredLevel: ""
@@ -4163,7 +4442,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_Amulet1
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_Amulet1_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_amuletjewelry"
@@ -4180,6 +4461,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: AmuletCONT5
   GrantsHWMBump: ""
@@ -4195,15 +4477,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_Amulet1
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Amulet_RemoveOnLow
-  Perk4: PerkID_Amulet_HP
-  Perk5: ""
+  Perk3: PerkID_Fixed_Amulet_RemoveOnLow
+  Perk4: PerkID_Fixed_Amulet_HP
+  Perk5: PerkID_Charm_EmptyDefense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_Amulet1
   ForceRarity: ""
   RequiredLevel: ""
@@ -4282,7 +4569,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set1_Amulet2
+  EquipmentSetId: ""
   Name: "@Artifact_Set1_Amulet2_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_amuletjewelry"
@@ -4299,6 +4588,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: AmuletCONT5
   GrantsHWMBump: ""
@@ -4314,15 +4604,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set1_Amulet2
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Amulet_Healing
-  Perk4: PerkID_Amulet_HP
-  Perk5: ""
+  Perk3: PerkID_Slottable_Common_Healing
+  Perk4: PerkID_Fixed_Amulet_HP
+  Perk5: PerkID_Charm_EmptyDefense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set1_Amulet2
   ForceRarity: ""
   RequiredLevel: ""
@@ -4401,7 +4696,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_HeavyChest
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_HeavyChest_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_heavy_chest_slot"
@@ -4418,6 +4715,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: HeavyChest_Balanced
   GrantsHWMBump: ""
@@ -4433,15 +4731,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_HeavyChest
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Armor_DefBasic
-  Perk4: PerkID_Common_CDR
-  Perk5: ""
+  Perk3: PerkID_Fixed_Chest_HealthStam_Synergy
+  Perk4: PerkID_Fixed_Armor_BuffDurExtention
+  Perk5: PerkID_Charm_EmptyDefense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_HeavyChest
   ForceRarity: ""
   RequiredLevel: ""
@@ -4520,7 +4823,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_HeavyHands
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_HeavyHands_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_heavy_glove_slot"
@@ -4537,6 +4842,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: HeavyHands_Balanced
   GrantsHWMBump: ""
@@ -4552,15 +4858,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_HeavyHands
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Armor_Health
-  Perk4: PerkID_Armor_DefBasic
-  Perk5: ""
+  Perk3: PerkID_Fixed_Chest_HealthStam_Synergy
+  Perk4: PerkID_Fixed_Armor_PvP_ReflectDmg
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_HeavyHands
   ForceRarity: ""
   RequiredLevel: ""
@@ -4639,7 +4950,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_HeavyLegs
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_HeavyLegs_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_heavy_legs_slot"
@@ -4656,6 +4969,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: HeavyLegs_Balanced
   GrantsHWMBump: ""
@@ -4665,21 +4979,26 @@
   CanHavePerks: 1.0
   CanReplaceGem: 1.0
   PerkSlot1: PerkID_Artifact_Set1_HeavyLegs
-  PerkSlot2: PerkID_Armor_DurCC
+  PerkSlot2: PerkID_Slottable_Common_DurCC
   PerkSlot3: PerkID_Gem_EmptyGemSlot
   PerkSlot4: PerkID_Armor_DefBasic
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_HeavyLegs
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Common_CDR
-  Perk4: PerkID_Armor_DefBasic
-  Perk5: ""
+  Perk3: PerkID_Slottable_Common_Health
+  Perk4: PerkID_Fixed_Armor_PvP_ReflectDmg
+  Perk5: PerkID_Charm_EmptyDefense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_HeavyLegs
   ForceRarity: ""
   RequiredLevel: ""
@@ -4758,7 +5077,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_MediumChest
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_MediumChest_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_chest_slot"
@@ -4775,6 +5096,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: MediumChest_Balanced
   GrantsHWMBump: ""
@@ -4790,15 +5112,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_MediumChest
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Common_CDR
-  Perk4: PerkID_Armor_DefBasic
-  Perk5: ""
+  Perk3: PerkID_Fixed_Chest_HealthStam_Synergy
+  Perk4: PerkID_Fixed_Legs_DmgPerMissingHP
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_MediumChest
   ForceRarity: ""
   RequiredLevel: ""
@@ -4877,7 +5204,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_MediumHands
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_MediumHands_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_glove_slot"
@@ -4894,6 +5223,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: MediumHands_Balanced
   GrantsHWMBump: ""
@@ -4908,16 +5238,21 @@
   PerkSlot4: PerkID_Armor_RangeDefense_Elemental
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_MediumHands
-  Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Armor_DefBasic
-  Perk4: PerkID_Common_CDR
-  Perk5: ""
+  Perk2: PerkID_Charm_EmptySkillPerk
+  Perk3: PerkID_Slottable_Common_DefBasic
+  Perk4: PerkID_Fixed_Hands_OnSwap_Cleanse
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_MediumHands
   ForceRarity: ""
   RequiredLevel: ""
@@ -4996,7 +5331,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_MediumLegs
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_MediumLegs_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_legs_slot"
@@ -5013,6 +5350,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: MediumLegs_Balanced
   GrantsHWMBump: ""
@@ -5028,15 +5366,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_MediumLegs
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Common_CDR
-  Perk4: PerkID_Armor_Health
-  Perk5: ""
+  Perk3: PerkID_Fixed_Armor_LifestealNoConsumable
+  Perk4: PerkID_Fixed_Armor_PvP_ReflectDmg
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_MediumLegs
   ForceRarity: ""
   RequiredLevel: ""
@@ -5115,7 +5458,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_LightHead
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_LightHead_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_light_head_slot"
@@ -5132,6 +5477,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: LightHead_Balanced
   GrantsHWMBump: ""
@@ -5147,15 +5493,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_LightHead
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Armor_DefBasic
-  Perk4: PerkID_Armor_Health
-  Perk5: ""
+  Perk3: PerkID_Slottable_Common_DefBasic
+  Perk4: PerkID_Slottable_Common_Health
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_LightHead
   ForceRarity: ""
   RequiredLevel: ""
@@ -5234,7 +5585,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_LightFeet
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_LightFeet_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_light_feet_slot"
@@ -5251,6 +5604,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: LightFeet_Balanced
   GrantsHWMBump: ""
@@ -5265,16 +5619,21 @@
   PerkSlot4: PerkID_Armor_RangeDefense_Physical
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_LightFeet
-  Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Common_CDR
-  Perk4: PerkID_Armor_DurCC
-  Perk5: ""
+  Perk2: PerkID_Charm_EmptySkillPerk
+  Perk3: PerkID_Fixed_Armor_DamageTradeOff
+  Perk4: PerkID_Slottable_Common_DurCC
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_LightFeet
   ForceRarity: ""
   RequiredLevel: ""
@@ -5353,7 +5712,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_MediumHead
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_MediumHead_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_head_slot"
@@ -5370,6 +5731,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: MediumHead_Balanced
   GrantsHWMBump: ""
@@ -5381,19 +5743,24 @@
   PerkSlot1: PerkID_Artifact_Set1_MediumHead
   PerkSlot2: perkid_armor_durdot
   PerkSlot3: PerkID_Gem_EmptyGemSlot
-  PerkSlot4: perkid_armor_durdebuff
+  PerkSlot4: PerkID_Slottable_Common_DurDebuff
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_MediumHead
   Perk2: PerkID_RuneglassGem_CruelSub_Stamina
-  Perk3: PerkID_Artifact_Set2_MediumHead_PhysGem
-  Perk4: PerkID_Artifact_Set2_MediumHead_ElemGem
-  Perk5: ""
+  Perk3: PerkID_Gem_PhysicalWard4
+  Perk4: PerkID_Gem_ElementalWard4
+  Perk5: PerkID_Charm_EmptyDefense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_MediumHead
   ForceRarity: ""
   RequiredLevel: ""
@@ -5472,7 +5839,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_LightChest
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_LightChest_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_light_chest_slot"
@@ -5489,6 +5858,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: LightChest_Balanced
   GrantsHWMBump: ""
@@ -5504,15 +5874,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_LightChest
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Armor_Health
-  Perk4: PerkID_PvP_Armor_DodgeSuccess_Heal
-  Perk5: ""
+  Perk3: PerkID_Slottable_Common_Health
+  Perk4: PerkID_Slottable_Common_PvP_DodgeSuccess_Heal
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_LightChest
   ForceRarity: ""
   RequiredLevel: ""
@@ -5591,7 +5966,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_LightHands
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_LightHands_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_light_glove_slot"
@@ -5608,6 +5985,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: LightHands_Balanced
   GrantsHWMBump: ""
@@ -5619,19 +5997,24 @@
   PerkSlot1: PerkID_Artifact_Set1_LightHands
   PerkSlot2: PerkID_Common_CDR
   PerkSlot3: PerkID_Gem_EmptyGemSlot
-  PerkSlot4: PerkID_Armor_DurCC
+  PerkSlot4: PerkID_Slottable_Common_DurCC
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_LightHands
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Armor_RangeDefense_Elemental
-  Perk4: PerkID_Armor_DefBasic
-  Perk5: ""
+  Perk3: PerkID_Slottable_Common_RangeDefense_Elemental
+  Perk4: PerkID_Slottable_Common_DefBasic
+  Perk5: PerkID_Charm_EmptySkillPerk
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_LightHands
   ForceRarity: ""
   RequiredLevel: ""
@@ -5710,7 +6093,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_HeavyFeet
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_HeavyFeet_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_heavy_feet_slot"
@@ -5727,6 +6112,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: HeavyFeet_Balanced
   GrantsHWMBump: ""
@@ -5742,15 +6128,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_HeavyFeet
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Armor_HercyneRaid_1
-  Perk4: PerkID_Armor_RangeDefense_Elemental
-  Perk5: ""
+  Perk3: PerkID_Slottable_Common_DoTPotencyRed_Haste
+  Perk4: PerkID_Slottable_Common_RangeDefense_Elemental
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_HeavyFeet
   ForceRarity: ""
   RequiredLevel: ""
@@ -5829,7 +6220,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_1hThrowingAxe
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_1hThrowingAxe_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_hatchet"
@@ -5846,6 +6239,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: HatchetT5
   GrantsHWMBump: ""
@@ -5861,15 +6255,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_Hatchet
   Perk2: PerkID_Artifact_Set2_HatchetPerk
-  Perk3: PerkID_Weapon_bleedoncrit
+  Perk3: PerkID_Slottable_Common_BleedonCrit
   Perk4: PerkID_Weapon_CDRBasic
-  Perk5: ""
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_1hThrowingAxe
   ForceRarity: ""
   RequiredLevel: ""
@@ -5948,7 +6347,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_2hWarhammer
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_2hWarhammer_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_warhammer"
@@ -5965,6 +6366,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: 2HHammerT5
   GrantsHWMBump: ""
@@ -5980,15 +6382,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_Warhammer
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Weapon_HealOnDmg
+  Perk3: PerkID_Slottable_Common_HealperDmg
   Perk4: PerkID_Weapon_Melee_ChargedHeavy_Heal
-  Perk5: ""
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_2hWarhammer
   ForceRarity: ""
   RequiredLevel: ""
@@ -6067,7 +6474,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_2hGreatAxe
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_2hGreatAxe_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_axe"
@@ -6084,6 +6493,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: 2HAxeT5
   GrantsHWMBump: ""
@@ -6099,15 +6509,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_Greataxe
   Perk2: PerkID_Artifact_Set2_GreatAxePerk
-  Perk3: PerkID_Weapon_CDRBasic
-  Perk4: perkid_ability_greataxe_whirlwind
-  Perk5: ""
+  Perk3: PerkID_WeaponMastery_GreatAxe_Whirlwind
+  Perk4: PerkID_Fixed_Weapon_RendingStacks
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_2hGreatAxe
   ForceRarity: ""
   RequiredLevel: ""
@@ -6186,7 +6601,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_2hBow
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_2hBow_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_bow"
@@ -6203,6 +6620,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: BowT5
   GrantsHWMBump: ""
@@ -6218,15 +6636,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_Bow
   Perk2: PerkID_Artifact_Set2_BowPerk
-  Perk3: PerkID_Weapon_CDRBasic
-  Perk4: PerkID_Weapon_DmgBasic
-  Perk5: ""
+  Perk3: PerkID_Fixed_Weapon_DoTPotDurInc
+  Perk4: PerkID_Fixed_Weapon_Attunement_Nature
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_2hBow
   ForceRarity: ""
   RequiredLevel: ""
@@ -6305,7 +6728,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_2hMusket
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_2hMusket_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_musket"
@@ -6322,6 +6747,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: MusketT5
   GrantsHWMBump: ""
@@ -6337,15 +6763,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_Musket
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Weapon_BleedonCrit
-  Perk4: PerkID_Weapon_DmgCrit
-  Perk5: ""
+  Perk3: PerkID_Slottable_Common_BleedonCrit
+  Perk4: PerkID_Slottable_Common_DmgCrit
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_2hMusket
   ForceRarity: ""
   RequiredLevel: ""
@@ -6424,7 +6855,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_2hStaffFire
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_2hStaffFire_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_firestaff"
@@ -6441,6 +6874,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: FireStaffT5
   GrantsHWMBump: ""
@@ -6456,15 +6890,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_FireStaff
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Weapon_bleedoncrit
-  Perk4: PerkID_Weapon_CDRBasic
-  Perk5: ""
+  Perk3: PerkID_Slottable_Common_BleedonCrit
+  Perk4: PerkID_Fixed_Weapon_DoTPotDurInc
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_2hStaffFire
   ForceRarity: ""
   RequiredLevel: ""
@@ -6543,7 +6982,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_2hStaffLife
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_2hStaffLife_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_lifestaff"
@@ -6560,6 +7001,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: LifeStaffT5
   GrantsHWMBump: ""
@@ -6575,15 +7017,20 @@
   PerkSlot5: PerkID_Weapon_DmgBasic
   Perk1: PerkID_Artifact_Set2_LifeStaff
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Weapon_CDRBasic
-  Perk4: PerkID_WeaponLife_HealOutgoing
-  Perk5: ""
+  Perk3: PerkID_Fixed_LifeStaff_OnLowBonusHeal
+  Perk4: PerkID_Slottable_Common_HealOutgoing
+  Perk5: PerkID_Charm_EmptySkillPerk
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_2hStaffLife
   ForceRarity: ""
   RequiredLevel: ""
@@ -6662,7 +7109,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_2hSpear
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_2hSpear_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_spear"
@@ -6679,6 +7128,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: SpearT5
   GrantsHWMBump: ""
@@ -6694,15 +7144,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_Spear
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: perkid_weapon_melee_chargedheavy_crit
-  Perk4: PerkID_Weapon_Melee_ChargedHeavy_DMG
-  Perk5: ""
+  Perk3: PerkID_Fixed_Weapon_Melee_ChargedHeavy_Crit
+  Perk4: PerkID_Fixed_Weapon_Melee_ChargedHeavy_DMG
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
-  PerPerkScalingMultiplier: PerkID_Weapon_Melee_ChargedHeavy_DMG=-0.1+PerkID_Weapon_Melee_ChargedHeavy_Crit=-0.1
+  PerkBucket5: ""
+  PerPerkScalingMultiplier: PerkID_Fixed_Weapon_Melee_ChargedHeavy_DMG=-0.1+PerkID_Fixed_Weapon_Melee_ChargedHeavy_Crit=-0.1
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_2hSpear
   ForceRarity: ""
   RequiredLevel: ""
@@ -6781,7 +7236,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_1hRapier
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_1hRapier_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_rapier"
@@ -6798,6 +7255,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: RapierT5
   GrantsHWMBump: ""
@@ -6812,16 +7270,21 @@
   PerkSlot4: PerkID_Ability_Rapier_Tondo
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_Rapier
-  Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Weapon_Melee_ChargedHeavy_DMG
-  Perk4: PerkID_Weapon_CDRBasic
-  Perk5: ""
+  Perk2: PerkID_Charm_EmptySkillPerk
+  Perk3: PerkID_Fixed_Weapon_Melee_ChargedHeavy_DMG
+  Perk4: PerkID_Fixed_Weapon_DoTPotDurInc
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_1hRapier
   ForceRarity: ""
   RequiredLevel: ""
@@ -6900,7 +7363,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_1hGauntletIce
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_1hGauntletIce_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_icegauntlet"
@@ -6917,6 +7382,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: 1hElementalGauntlet_IceT5
   GrantsHWMBump: ""
@@ -6931,16 +7397,21 @@
   PerkSlot4: PerkID_Weapon_CDRBasic
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_IceGauntlet
-  Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Weapon_CDRBasic
-  Perk4: PerkID_Weapon_DmgCrit
-  Perk5: ""
+  Perk2: PerkID_Charm_EmptySkillPerk
+  Perk3: PerkID_Fixed_Weapon_DoTPotDurInc
+  Perk4: PerkID_Slottable_Common_DmgCrit
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_1hGauntletIce
   ForceRarity: ""
   RequiredLevel: ""
@@ -7019,7 +7490,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_1hGauntletVoid
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_1hGauntletVoid_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_voidgauntlet"
@@ -7036,6 +7509,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: VoidGauntletT5
   GrantsHWMBump: ""
@@ -7051,15 +7525,20 @@
   PerkSlot5: PerkID_Weapon_CDRBasic
   Perk1: PerkID_Artifact_Set2_VoidGauntlet
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Weapon_CDRBasic
-  Perk4: PerkID_Weapon_CritChance
-  Perk5: ""
+  Perk3: PerkID_Fixed_WeaponHeal_OnKillContribution_HealMod
+  Perk4: PerkID_Slottable_Common_CritChance
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_1hGauntletVoid
   ForceRarity: ""
   RequiredLevel: ""
@@ -7138,7 +7617,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_2hGreatSword
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_2hGreatSword_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_greatsword"
@@ -7155,6 +7636,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: 2hGreatSwordT5
   GrantsHWMBump: ""
@@ -7170,15 +7652,20 @@
   PerkSlot5: PerkID_Weapon_CDRBasic
   Perk1: PerkID_Artifact_Set2_Greatsword
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Weapon_DmgCrit
-  Perk4: PerkID_Weapon_Hasteoncrit
-  Perk5: ""
+  Perk3: PerkID_Slottable_Common_DmgCrit
+  Perk4: PerkID_Fixed_Weapon_HasteOnCrit
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_2hGreatSword
   ForceRarity: ""
   RequiredLevel: ""
@@ -7257,7 +7744,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_1hFlail
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_1hFlail_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_flail"
@@ -7274,6 +7763,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: FlailT5
   GrantsHWMBump: ""
@@ -7289,15 +7779,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_Flail
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Weapon_CDRBasic
-  Perk4: PerkID_Weapon_DmgBasic
-  Perk5: ""
+  Perk3: PerkID_Fixed_WeaponMelee_AbilityEnderDmg
+  Perk4: PerkID_Slottable_Common_DmgBasic
+  Perk5: PerkID_Charm_EmptySkillPerk
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_1hFlail
   ForceRarity: ""
   RequiredLevel: ""
@@ -7376,7 +7871,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_2hBlunderbuss
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_2hBlunderbuss_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_blunderbuss"
@@ -7393,6 +7890,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: BlunderbussT5
   GrantsHWMBump: ""
@@ -7408,15 +7906,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_Blunderbuss
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Ability_Blunderbuss_VortexShot
-  Perk4: PerkID_Weapon_BleedonCrit
-  Perk5: ""
+  Perk3: PerkID_WeaponMastery_Blunderbuss_VortexShot
+  Perk4: PerkID_Slottable_Common_BleedonCrit
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_2hBlunderbuss
   ForceRarity: ""
   RequiredLevel: ""
@@ -7495,7 +7998,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_1hLongsword
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_1hLongsword_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_sword"
@@ -7512,6 +8017,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: SwordT5
   GrantsHWMBump: ""
@@ -7527,15 +8033,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_Sword
   Perk2: PerkId_RuneglassGem_StrikeAdd_Stamina
-  Perk3: PerkID_Weapon_CritChance
-  Perk4: PerkID_Weapon_FortifyOnCrit
-  Perk5: ""
+  Perk3: PerkID_Fixed_Weapon_RendingStacks
+  Perk4: PerkID_Slottable_Common_FortifyOnCrit
+  Perk5: PerkID_Charm_EmptyDefense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_1hLongsword
   ForceRarity: ""
   RequiredLevel: ""
@@ -7614,7 +8125,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_1hTowerShield
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_1hTowerShield_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_towershield"
@@ -7631,6 +8144,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: 1hShieldDT5
   GrantsHWMBump: ""
@@ -7646,15 +8160,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_TowerShield
   Perk2: PerkID_WeaponMelee_BlockingStam
-  Perk3: PerkID_Armor_DefBasic
-  Perk4: PerkID_Weapon_HealOnDmg
-  Perk5: ""
+  Perk3: PerkID_Slottable_Common_DefBasic
+  Perk4: PerkID_Fixed_MeleeShield_BlockingMove
+  Perk5: PerkID_Charm_EmptyDefense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_1hTowerShield
   ForceRarity: ""
   RequiredLevel: ""
@@ -7733,7 +8252,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_Earring1
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_Earring1_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_earringjewelry"
@@ -7750,6 +8271,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: EarringCONT5
   GrantsHWMBump: ""
@@ -7765,15 +8287,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_Earring1
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Earring_OnPotionDmg
-  Perk4: PerkID_Earring_OnHeartHeal
-  Perk5: ""
+  Perk3: PerkID_Fixed_Earring_CDR
+  Perk4: PerkID_Fixed_Earring_OnHeartHeal
+  Perk5: PerkID_Charm_EmptyDefense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_Earring1
   ForceRarity: ""
   RequiredLevel: ""
@@ -7852,7 +8379,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_Ring1
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_Ring1_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_ringjewelry"
@@ -7869,6 +8398,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: RingCONT5
   GrantsHWMBump: ""
@@ -7883,16 +8413,21 @@
   PerkSlot4: PerkID_Ring_MaxStamina
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_Ring1
-  Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Ring_Crit
-  Perk4: PerkID_Ring_MaxStamina
-  Perk5: ""
+  Perk2: PerkID_Fixed_Ring_OnTargetDoT_CritChance
+  Perk3: PerkID_Slottable_Common_DmgCrit
+  Perk4: PerkID_Fixed_Ring_BaseDamageInc
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_Ring1
   ForceRarity: ""
   RequiredLevel: ""
@@ -7971,7 +8506,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set2_Amulet1
+  EquipmentSetId: ""
   Name: "@Artifact_Set2_Amulet1_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_amuletjewelry"
@@ -7988,6 +8525,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: AmuletCONT5
   GrantsHWMBump: ""
@@ -8003,15 +8541,20 @@
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set2_Amulet1
   Perk2: PerkID_Gem_EmptyGemSlot
-  Perk3: PerkID_Amulet_RemoveOnLow
-  Perk4: PerkID_amulet_stamonlow
-  Perk5: ""
+  Perk3: PerkID_Fixed_Amulet_RemoveOnLow
+  Perk4: PerkID_Fixed_Amulet_StamOnLow
+  Perk5: PerkID_Charm_EmptyDefense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set2_Amulet1
   ForceRarity: ""
   RequiredLevel: ""
@@ -8090,7 +8633,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set3_MediumHead
+  EquipmentSetId: ""
   Name: "@Artifact_Set3_MediumHead_Name"
   ItemType: Armor
   ItemTypeDisplayName: "@ui_itemtypedescription_normal_head_slot"
@@ -8107,6 +8652,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: MediumHead_Balanced
   GrantsHWMBump: ""
@@ -8118,19 +8664,24 @@
   PerkSlot1: PerkID_Artifact_Set1_MediumHead
   PerkSlot2: perkid_armor_durdot
   PerkSlot3: PerkID_Gem_EmptyGemSlot
-  PerkSlot4: perkid_armor_durdebuff
+  PerkSlot4: PerkID_Slottable_Common_DurDebuff
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set3_MediumHead
   Perk2: PerkID_RuneglassGem_CruelSub_Heal
-  Perk3: PerkID_Common_CDR
-  Perk4: PerkID_Armor_DurCC
-  Perk5: ""
+  Perk3: PerkID_Fixed_Chest_HealthStam_Synergy
+  Perk4: PerkID_Slottable_Common_DurCC
+  Perk5: PerkID_Charm_EmptySkillPerk
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set3_MediumHead
   ForceRarity: ""
   RequiredLevel: ""
@@ -8209,7 +8760,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set3_2hWarhammer
+  EquipmentSetId: ""
   Name: "@Artifact_Set3_2hWarhammer_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_warhammer"
@@ -8226,6 +8779,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: 2HHammerT5
   GrantsHWMBump: ""
@@ -8240,16 +8794,21 @@
   PerkSlot4: PerkID_Weapon_Melee_AlternateAttacks
   PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
   Perk1: PerkID_Artifact_Set3_Warhammer
-  Perk2: PerkID_Ability_Hammer_ClearOut
+  Perk2: PerkID_WeaponMastery_Hammer_ClearOut
   Perk3: PerkID_Weapon_Disease_OnLowHP_Heavy
-  Perk4: PerkID_Weapon_Melee_AlternateAttacks
-  Perk5: ""
+  Perk4: PerkID_Fixed_Weapon_DmgWithGrit
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set3_2hWarhammer
   ForceRarity: ""
   RequiredLevel: ""
@@ -8328,7 +8887,9 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
 - ItemID: Artifact_Set3_2hGreatSword
+  EquipmentSetId: ""
   Name: "@Artifact_Set3_2hGreatSword_Name"
   ItemType: Weapon
   ItemTypeDisplayName: "@ui_itemtypedescription_greatsword"
@@ -8345,6 +8906,7 @@
   MinGearScore: 700.0
   MaxGearScore: 700.0
   MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
   Tier: 5.0
   ItemStatsRef: 2hGreatSwordT5
   GrantsHWMBump: ""
@@ -8360,15 +8922,20 @@
   PerkSlot5: PerkID_Weapon_CDRBasic
   Perk1: PerkID_Artifact_Set3_Greatsword
   Perk2: PerkID_Artifact_Set3_GreatswordPerk
-  Perk3: PerkID_Weapon_DmgWithGrit
-  Perk4: PerkID_Weapon_RendingStacks
-  Perk5: ""
+  Perk3: PerkID_Fixed_Weapon_DmgWithGrit
+  Perk4: PerkID_Fixed_Weapon_RendingStacks
+  Perk5: PerkID_Charm_EmptyOffense
   PerkBucket1: ""
   PerkBucket2: ""
   PerkBucket3: ""
   PerkBucket4: ""
-  PerkBucket5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  PerkBucket5: ""
   PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
   OnEquipObjectiveId: Objective_Artifact_Set3_2hGreatSword
   ForceRarity: ""
   RequiredLevel: ""
@@ -8447,3 +9014,258 @@
   ScheduleId: ""
   FFAConvertedItemId: ""
   RequiredWorldTags: ""
+  GrantMasteries: ""
+- ItemID: Artifact_Set3_1hThrowingAxe
+  EquipmentSetId: ""
+  Name: "@Artifact_Set3_1hThrowingAxe_Name"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_hatchet"
+  Description: "@Artifact_Set3_1hThrowingAxe_Desc"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: Artifact+Weapon+EquippableMainHand+Hatchet+Melee
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  NoBindOnPickupChance: ""
+  BindOnEquip: ""
+  GearScoreOverride: ""
+  MinGearScore: 700.0
+  MaxGearScore: 700.0
+  MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
+  Tier: 5.0
+  ItemStatsRef: HatchetT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Artifact_Set1_Hatchet
+  PerkSlot2: PerkID_Ability_Hatchet_Rending_Throw
+  PerkSlot3: PerkID_Gem_EmptyGemSlot
+  PerkSlot4: PerkID_Weapon_CDRBasic
+  PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  Perk1: PerkID_Artifact_Set3_Hatchet
+  Perk2: PerkID_WeaponMastery_Hatchet_Rending_Throw
+  Perk3: PerkID_Fixed_Weapon_DoTPotDurInc
+  Perk4: PerkID_Fixed_Weapon_OnKillBuff
+  Perk5: PerkID_Charm_EmptyOffense
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: ""
+  PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
+  OnEquipObjectiveId: Objective_Artifact_Set3_1hThrowingAxe
+  ForceRarity: ""
+  RequiredLevel: ""
+  RequiredTradeskillRank: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 1hHatchetSeason5PassT5
+  WeaponAccessory: ""
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: Items/Weapons/weapon
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: 1.0
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  NotDroppable: true
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: ""
+  ContainerGS: ""
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: false
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageEngineerSmall"
+  CraftingRecipe: SalvageSmall_MetalT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 54.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Axe
+  AudioPlace: Play_UI_Drop_Axe
+  AudioUse: Play_UI_Use_Axe
+  AudioCreated: Play_UI_Created_Axe
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  RetiredInReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
+  RequiredWorldTags: ""
+  GrantMasteries: ""
+- ItemID: Artifact_Set3_2hBow
+  EquipmentSetId: ""
+  Name: "@Artifact_Set3_2hBow_Name"
+  ItemType: Weapon
+  ItemTypeDisplayName: "@ui_itemtypedescription_bow"
+  Description: "@Artifact_Set3_2hBow_Desc"
+  HeartgemRuneTooltipTitle: ""
+  ItemClass: Artifact+Weapon+EquippableTwoHand+Bow+Ranged+NoGem
+  TradingCategory: ""
+  TradingFamily: ""
+  TradingGroup: ""
+  BindOnPickup: 1.0
+  NoBindOnPickupChance: ""
+  BindOnEquip: ""
+  GearScoreOverride: ""
+  MinGearScore: 700.0
+  MaxGearScore: 700.0
+  MaxCraftGS: 725.0
+  MaxCraftUpgradeGS: 800.0
+  Tier: 5.0
+  ItemStatsRef: BowT5
+  GrantsHWMBump: ""
+  IgnoreNameChanges: 1.0
+  IgnoreHWMScaling: ""
+  CanRollPerkOnUpgrade: ""
+  CanHavePerks: 1.0
+  CanReplaceGem: 1.0
+  PerkSlot1: PerkID_Artifact_Set1_BowPerk
+  PerkSlot2: PerkID_Weapon_DodgeSuccess_LightningDMG
+  PerkSlot3: ""
+  PerkSlot4: PerkID_Weapon_DmgBasic
+  PerkSlot5: PerkBucket_CraftedPerkBucketRollT5Fixed
+  Perk1: PerkID_Artifact_Set3_Bow
+  Perk2: PerkID_WeaponMastery_Bow_PoisonShot
+  Perk3: PerkID_Fixed_Weapon_DoTPotDurInc
+  Perk4: PerkID_Fixed_Weapon_Disease_Heavy
+  Perk5: PerkID_Charm_EmptyOffense
+  PerkBucket1: ""
+  PerkBucket2: ""
+  PerkBucket3: ""
+  PerkBucket4: ""
+  PerkBucket5: ""
+  PerPerkScalingMultiplier: ""
+  OverrideAttributeScaling: null
+  OverrideScalingStrength: null
+  OverrideScalingDexterity: null
+  OverrideScalingIntelligence: null
+  OverrideScalingFocus: ""
+  OnEquipObjectiveId: Objective_Artifact_Set3_2hBow
+  ForceRarity: ""
+  RequiredLevel: ""
+  RequiredTradeskillRank: ""
+  UseTypeAffix: 1.0
+  UseMaterialAffix: 1.0
+  UseMagicAffix: 1.0
+  UiItemClass: UI_Weapon
+  ArmorAppearanceM: ""
+  ArmorAppearanceF: ""
+  WeaponAppearanceOverride: 2hBowTempleT5
+  WeaponAccessory: 2hBowAdianaT5
+  ConfirmDestroy: ""
+  ConfirmBeforeUse: 0.0
+  ConsumeOnUse: 0.0
+  PrefabPath: Items/Weapons/weapon
+  HousingTags: ""
+  IconPath: ""
+  HiResIconPath: ""
+  HeartgemTooltipBackgroundImage: ""
+  MaxStackSize: 1.0
+  DeathDropPercentage: 0.0
+  Nonremovable: ""
+  NotDroppable: true
+  IsMissionItem: ""
+  IsUniqueItem: ""
+  IsRequiredItem: ""
+  ContainerLevel: ""
+  ContainerGS: ""
+  ExceedMinIndex: ""
+  ExceedMaxIndex: ""
+  IsSalvageable: false
+  SalvageResources: 1.0
+  IsRepairable: 1.0
+  RepairDustModifier: 4.0
+  RepairRecipe: "[LTID]MasterSalvageEngineerLarge"
+  CraftingRecipe: SalvageSmall_TimberT5
+  RepairGameEventID: ""
+  SalvageGameEventID: SalvageCoinGrantT5
+  SalvageLootTags: ""
+  SalvageGuaranteedPerkCount: ""
+  SalvageAchievement: ""
+  SalvageEntitlementId: ""
+  RepairTypes: ""
+  IngredientCategories: ""
+  IngredientBonusPrimary: ""
+  IngredientBonusSecondary: ""
+  IngredientGearScoreBaseBonus: ""
+  IngredientGearScoreMaxBonus: ""
+  ExtraBonusItemChance: ""
+  Durability: 3000.0
+  DurabilityDmgOnDeath: 0.12
+  DestroyOnBreak: 0.0
+  Weight: 126.0
+  AcquisitionNotificationId: ""
+  AudioPickup: Play_UI_Pickup_Bow
+  AudioPlace: Play_UI_Drop_Bow
+  AudioUse: Play_UI_Use_Bow
+  AudioCreated: Play_UI_Created_Bow
+  AudioDestroyed: Play_UI_item_broken
+  MannequinTag: ""
+  SoundTableID: ""
+  WarboardGatherStat: ""
+  WarboardDepositStat: ""
+  Notes: ""
+  HideInLootTicker: ""
+  HideFromRewardOpenPopup: ""
+  EventId: ""
+  AttributionId: ""
+  ObtainableReleaseVersion: ""
+  RetiredInReleaseVersion: ""
+  MountItemAppearance: ""
+  ExclusivelyForWarCampTier: ""
+  RequiredExpansionId: ""
+  NotDroppableNotificationOverride: ""
+  ScheduleId: ""
+  FFAConvertedItemId: ""
+  RequiredWorldTags: ""
+  GrantMasteries: ""

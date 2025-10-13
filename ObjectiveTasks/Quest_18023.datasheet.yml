@@ -1,6 +1,8 @@
 - TaskID: Quest_18023_Task_0
-  SubTask1: Quest_18023_Task_1
-  SubTask2: Quest_18023_Task_2
+  SubTask1: Quest_18023_Task_3
+  SubTask2: Quest_18023_Task_4
+  SubTask3: Quest_18023_Task_1
+  SubTask4: Quest_18023_Task_2
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -35,12 +37,19 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: ""
+  TP_TargetTag: ""
+  OverrideLocation: ""
+  POITag: ""
   ItemName: ""
   UIScreenTag: ""
+  KillEnemyType: ""
+  InteractTag: ""
 - TaskID: Quest_18023_Task_1
   SubTask1: ""
   SubTask2: ""
-  Type: TASKGOTOPOITAG
+  SubTask3: ""
+  SubTask4: ""
+  Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
   TargetQty: "1"
@@ -70,15 +79,22 @@
   HideProgress: "false"
   EnforceLocationRequirement: "false"
   HideDiegeticGatherablePins: "false"
-  ShowDiegeticTaskPin: "false"
+  ShowDiegeticTaskPin: "true"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18023_Task_1_Description"
+  TP_TargetTag: TV_17_MSQ_GrandCarnivalCinematic
+  OverrideLocation: 3839.532959 6815.018066 155.470993
+  POITag: outpost_10330
   ItemName: ""
   UIScreenTag: ""
+  KillEnemyType: ""
+  InteractTag: ""
 - TaskID: Quest_18023_Task_2
   SubTask1: ""
   SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
   Type: TASKCONVERSATIONTOPIC
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -113,5 +129,102 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18023_Task_2_Description"
+  TP_TargetTag: ""
+  OverrideLocation: ""
+  POITag: outpost_10330
   ItemName: NPC_18048
   UIScreenTag: NPC_18048_State_1_Topic_0
+  KillEnemyType: ""
+  InteractTag: ""
+- TaskID: Quest_18023_Task_3
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  Type: TASKGAMEEVENT
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: "@Quest_18023_Task_3_Description_0"
+  TP_TargetTag: ""
+  OverrideLocation: 3661.611084 5284.105957 140.175003
+  POITag: ""
+  ItemName: ""
+  UIScreenTag: ""
+  KillEnemyType: 17_MSQ_StealCarriage_Interact
+  InteractTag: IO_17_MSQ_StealCarriage
+- TaskID: Quest_18023_Task_4
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  Type: TASKGAMEEVENT
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: "@Quest_18023_Task_4_Description_0"
+  TP_TargetTag: ""
+  OverrideLocation: 3814.844971 6139.658203 144.962006
+  POITag: ""
+  ItemName: ""
+  UIScreenTag: ""
+  KillEnemyType: 17_MSQ_HideCarriage_Interact
+  InteractTag: IO_17_MSQ_HideCarriage

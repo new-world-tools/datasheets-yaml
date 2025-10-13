@@ -392,12 +392,12 @@
   HideProgress: "false"
   EnforceLocationRequirement: "false"
   HideDiegeticGatherablePins: "false"
-  ShowDiegeticTaskPin: "false"
+  ShowDiegeticTaskPin: "true"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_28004_Task_8_Description"
   POITag: inquisition_hq_20219
-  OverrideLocation: 4870.759766 5220.580078 93.798798
+  OverrideLocation: 4875.140137 5211.310059 97.551598
   KillEnemyType: ""
   InteractTag: ""
   GameModeID: QuestSeraphim
@@ -745,7 +745,7 @@
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_28004_Task_19_Description"
   POITag: ""
-  OverrideLocation: 4862.752441 6819.890137 158.108902
+  OverrideLocation: 4862.750000 6819.890137 158.110001
   KillEnemyType: ""
   InteractTag: ""
   GameModeID: ""
@@ -861,7 +861,7 @@
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_28004_Task_21_Description"
   POITag: ""
-  OverrideLocation: 4861.970215 6823.759766 154.000000
+  OverrideLocation: 4861.970215 6823.759766 154.009995
   KillEnemyType: ""
   InteractTag: ""
   GameModeID: ""
@@ -1152,18 +1152,18 @@
   TP_DescriptionTag: "@Quest_28004_Task_22_Description"
   POITag: ""
   OverrideLocation: 4895.379883 5167.720215 94.910004
-  KillEnemyType: Trial_Quest_Seraphim_Boss
+  KillEnemyType: Trial_Quest_Seraphim_Boss_Breathless_Seraph
   InteractTag: ""
-  GameModeID: ""
+  GameModeID: QuestSeraphim
   ItemName: ""
   UIScreenTag: ""
   ItemDropVC: ""
 - TaskID: Quest_28004_Task_9
   SubTask1: Quest_28004_Task_3
   SubTask2: Quest_28004_Task_7
-  SubTask3: Quest_28004_Task_8
+  SubTask3: Quest_28004_Task_28
   SubTask4: Quest_28004_Task_13
-  SubTask5: ""
+  SubTask5: Quest_28004_Task_29
   SubTask6: ""
   SubTask7: ""
   SubTask8: ""
@@ -1506,9 +1506,9 @@
   ItemName: 17_IQ_04_SeraphicLungs
   UIScreenTag: ""
   ItemDropVC: ""
-- TaskID: Quest_28004_Task_13
-  SubTask1: Quest_28004_Task_22
-  SubTask2: Quest_28004_Task_27
+- TaskID: Quest_28004_Task_28
+  SubTask1: ""
+  SubTask2: ""
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
@@ -1522,7 +1522,7 @@
   SubTask13: ""
   SubTask14: ""
   SubTask15: ""
-  Type: PARTIALTASKCONTAINER
+  Type: TASKUNLOCKACHIEVEMENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
   TargetQty: "0"
@@ -1561,10 +1561,10 @@
   KillEnemyType: ""
   InteractTag: ""
   GameModeID: ""
-  ItemName: ""
+  ItemName: 17_IQ_Seraph_Breathless
   UIScreenTag: ""
   ItemDropVC: ""
-- TaskID: Quest_28004_Task_27
+- TaskID: Quest_28004_Task_29
   SubTask1: ""
   SubTask2: ""
   SubTask3: ""
@@ -1580,10 +1580,10 @@
   SubTask13: ""
   SubTask14: ""
   SubTask15: ""
-  Type: TASKKILLCONTRIBUTION
+  Type: TASKLOCKACHIEVEMENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "1"
+  TargetQty: "0"
   Duration: "0.000000"
   ItemDropProbability: "0"
   ChestDropProbability: "0"
@@ -1616,7 +1616,65 @@
   TP_DescriptionTag: ""
   POITag: ""
   OverrideLocation: ""
-  KillEnemyType: Inquisitor_Warden_17DW01_20219
+  KillEnemyType: ""
+  InteractTag: ""
+  GameModeID: ""
+  ItemName: 17_IQ_Seraph_Breathless
+  UIScreenTag: ""
+  ItemDropVC: ""
+- TaskID: Quest_28004_Task_13
+  SubTask1: Quest_28004_Task_8
+  SubTask2: Quest_28004_Task_22
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+  SubTask6: ""
+  SubTask7: ""
+  SubTask8: ""
+  SubTask9: ""
+  SubTask10: ""
+  SubTask11: ""
+  SubTask12: ""
+  SubTask13: ""
+  SubTask14: ""
+  SubTask15: ""
+  Type: CONSECUTIVETASKCONTAINER
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "0"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "true"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "true"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: ""
+  POITag: ""
+  OverrideLocation: 4875.140137 5211.310059 97.551598
+  KillEnemyType: ""
   InteractTag: ""
   GameModeID: ""
   ItemName: ""

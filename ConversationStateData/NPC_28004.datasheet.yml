@@ -1,1 +1,24 @@
-[]
+- ConversationStateId: NPC_28004_State_0
+  ConversationType: Conversation
+  DefaultDialogue: "@NPC_28004_State_0_DefaultDialogue"
+  TopicId1: NPC_28004_State_0_Topic_0
+  IsInitialState: "false"
+  RequiredLevel: "0"
+  RequiredAchievement: 17_IQ_03
+  RequiredActiveObjectiveId: Quest_28004
+  RequiredActiveTaskId: Quest_28004_Task_14
+  RequiredFaction: None
+  RequiredFactionCooldown: NotInCooldown
+  ForceConversationOpen: "false"
+- ConversationStateId: NPC_28004_State_1
+  ConversationType: Conversation
+  DefaultDialogue: "@NPC_28004_State_1_DefaultDialogue"
+  TopicId1: ""
+  IsInitialState: "true"
+  RequiredLevel: "0"
+  RequiredAchievement: ""
+  RequiredActiveObjectiveId: ""
+  RequiredActiveTaskId: ""
+  RequiredFaction: None
+  RequiredFactionCooldown: NotInCooldown
+  ForceConversationOpen: "false"

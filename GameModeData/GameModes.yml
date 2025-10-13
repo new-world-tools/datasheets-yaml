@@ -30,6 +30,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -48,6 +49,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: null
   IsPVP: null
@@ -69,6 +71,7 @@
   ImmediateLaunch: null
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: false
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: true
@@ -127,7 +130,7 @@
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
   MatchmakingMinLevel: 1.0
-  MatchmakingMaxLevel: 65.0
+  MatchmakingMaxLevel: 70.0
   MatchmakingMinGS: 500.0
   UsesRoleSelection: true
   MatchmakingRequiredHealingFocus: null
@@ -167,8 +170,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: null
 - GameModeId: TestMode2
   ScriptName: GameModeTest
   RequiresTeamRaids: "0"
@@ -201,6 +211,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -219,6 +230,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: null
   IsPVP: null
@@ -240,6 +252,7 @@
   ImmediateLaunch: null
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: false
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: true
@@ -298,7 +311,7 @@
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
   MatchmakingMinLevel: 30.0
-  MatchmakingMaxLevel: 65.0
+  MatchmakingMaxLevel: 70.0
   MatchmakingMinGS: 0.0
   UsesRoleSelection: false
   MatchmakingRequiredHealingFocus: null
@@ -338,8 +351,196 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: null
+- GameModeId: BattleRoyale
+  ScriptName: BattleRoyale
+  RequiresTeamRaids: "TRUE"
+  AdvanceThroughStatesOnUpdate: "TRUE"
+  DisplayName: "@br_gamemode_name"
+  Description: "@br_gamemode_description"
+  UiInteractOption: ""
+  RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
+  IconPath: ""
+  SimpleImagePath: ""
+  BackgroundImagePath: ""
+  ListImagePath: ""
+  FeatureFlag: battle-royale
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: BattleRoyaleOnly
+  RestrictCombatGearToItemClasses: BattleRoyaleOnly
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: true
+  ClearBattleTokensOnExit: ""
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: null
+  RequiredLevel: null
+  EntryAchievementConditional: ""
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: 32.0
+  BackfillReadyThreshold: 9.0
+  MaxBackfillDuration: null
+  NumTeams: 32.0
+  TeamCapacity: 1.0
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: null
+  PreserveOldGroup: null
+  IgnoreRequireContribution: null
+  IsDungeon: null
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: null
+  IsPUGRaidTrial: null
+  IsMutable: null
+  IsRemoteEntryAllowed: null
+  IsPVP: true
+  DifficultyProgressionId: ""
+  RestrictGathering: null
+  RestrictWaterGathering: null
+  LootTags: ""
+  MutLootTagsOverride: ""
+  ContainerLevel: 70.0
+  LootGSRangeOverride: 625-675
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: null
+  MaxAI: ""
+  AISpawnRadius: ""
+  AIDespawnRadius: ""
+  ProjectedDurationMinutes: null
+  Priority: null
+  ImmediateLaunch: null
+  AILevelAdjustedPerceptionEnabled: null
+  AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
+  DisableDeathsDoor: true
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: null
+  UseTeamNamePlate: true
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_br_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_br"
+  LeaveDescTextId: "@ui_br_leave_desc"
+  LeaveTimeDescTextId: "@ui_br_leave_desc_time"
+  LeaveTitleTextId: "@ui_br_leave"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: null
+  MinAcceptedInvites: 20.0
+  UsePendingListMatchmaking: null
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: BattleRoyale
+  OverrideDungeonTimeout: null
+  TimerThresholdDefault: null
+  TimerThresholdMutated: null
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  ProsperoActivityId: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: null
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: null
+  DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
+  MatchmakingPriority: null
+  AllowMounts: null
+  MountSummonErrorMsg: ""
+  AllowCamping: false
+  CampingErrorMsg: ""
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: null
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
+  ForceFFA: true
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  BypassInventory: true
+  ClearLevelUpAttributes: true
+  DropOnDeathSliceOverride: slices/MODES/SHARED/Containers/DroppedItem_FillSlots.dynamicslice
+  UsesPowerUps: true
+  EnableEquipInCombat: true
+  ClearMasteries: true
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: null
 - GameModeId: CaptureTheFlag
   ScriptName: CaptureTheFlag
   RequiresTeamRaids: "TRUE"
@@ -372,14 +573,15 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 16.0
   BackfillReadyThreshold: 19.0
+  MaxBackfillDuration: null
   NumTeams: 2.0
   TeamCapacity: 10.0
   CombineTeamGroups: null
   ModeNameLocStringId: "@ctf_gamemode_name"
-  GearScoreOverrideValueMin: 700.0
-  GearScoreOverrideValueMax: 725.0
+  GearScoreOverrideValueMin: 775.0
+  GearScoreOverrideValueMax: 800.0
   MinPlayerLevelToUseGearScoreOverride: 60.0
-  MaxPlayerLevelToUseGearScoreOverride: 65.0
+  MaxPlayerLevelToUseGearScoreOverride: 70.0
   PossibleItemDropIds: ""
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
@@ -390,6 +592,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: null
   IsPVP: true
@@ -411,6 +614,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: false
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: true
   DisableMSQTrackersOnHud: true
   AIPreventEnemyTraining: false
@@ -469,7 +673,7 @@
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
   MatchmakingMinLevel: 60.0
-  MatchmakingMaxLevel: 65.0
+  MatchmakingMaxLevel: 70.0
   MatchmakingMinGS: null
   UsesRoleSelection: true
   MatchmakingRequiredHealingFocus: 200.0
@@ -509,8 +713,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: true
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: null
 - GameModeId: Duel
   ScriptName: Duel
   RequiresTeamRaids: "0"
@@ -543,6 +754,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -561,6 +773,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: null
   IsPVP: true
@@ -582,6 +795,7 @@
   ImmediateLaunch: null
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: false
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: true
@@ -680,8 +894,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: null
 - GameModeId: OutpostRush
   ScriptName: OutpostRush
   RequiresTeamRaids: "1"
@@ -714,14 +935,15 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 32.0
   BackfillReadyThreshold: 39.0
+  MaxBackfillDuration: null
   NumTeams: 2.0
   TeamCapacity: 20.0
   CombineTeamGroups: null
   ModeNameLocStringId: "@ui_outpost_rush_title"
-  GearScoreOverrideValueMin: 700.0
-  GearScoreOverrideValueMax: 725.0
+  GearScoreOverrideValueMin: 775.0
+  GearScoreOverrideValueMax: 800.0
   MinPlayerLevelToUseGearScoreOverride: 60.0
-  MaxPlayerLevelToUseGearScoreOverride: 65.0
+  MaxPlayerLevelToUseGearScoreOverride: 70.0
   PossibleItemDropIds: ""
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
@@ -732,6 +954,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: null
   IsPVP: true
@@ -753,6 +976,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: false
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: true
   DisableMSQTrackersOnHud: true
   AIPreventEnemyTraining: false
@@ -811,7 +1035,7 @@
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
   MatchmakingMinLevel: 60.0
-  MatchmakingMaxLevel: 65.0
+  MatchmakingMaxLevel: 70.0
   MatchmakingMinGS: null
   UsesRoleSelection: true
   MatchmakingRequiredHealingFocus: 200.0
@@ -851,8 +1075,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: null
 - GameModeId: OutpostRush_NoPerks
   ScriptName: OutpostRush
   RequiresTeamRaids: "1"
@@ -885,14 +1116,15 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 32.0
   BackfillReadyThreshold: 39.0
+  MaxBackfillDuration: null
   NumTeams: 2.0
   TeamCapacity: 20.0
   CombineTeamGroups: null
   ModeNameLocStringId: "@ui_opr_no_perks_title"
-  GearScoreOverrideValueMin: 725.0
-  GearScoreOverrideValueMax: 725.0
+  GearScoreOverrideValueMin: 800.0
+  GearScoreOverrideValueMax: 800.0
   MinPlayerLevelToUseGearScoreOverride: 60.0
-  MaxPlayerLevelToUseGearScoreOverride: 65.0
+  MaxPlayerLevelToUseGearScoreOverride: 70.0
   PossibleItemDropIds: ""
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
@@ -903,6 +1135,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: null
   IsPVP: true
@@ -924,6 +1157,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: false
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: true
   DisableMSQTrackersOnHud: true
   AIPreventEnemyTraining: false
@@ -982,7 +1216,7 @@
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
   MatchmakingMinLevel: 60.0
-  MatchmakingMaxLevel: 65.0
+  MatchmakingMaxLevel: 70.0
   MatchmakingMinGS: null
   UsesRoleSelection: true
   MatchmakingRequiredHealingFocus: 200.0
@@ -1022,8 +1256,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: null
 - GameModeId: Arena3v3
   ScriptName: Arena3v3
   RequiresTeamRaids: "TRUE"
@@ -1053,17 +1294,18 @@
   RecommendedLevel: 20.0
   RequiredLevel: 20.0
   EntryAchievementConditional: ""
-  QueueLevelBuckets: 20,30,40,50,60,66
+  QueueLevelBuckets: 20,30,40,50,60,66,71
   QueueReadyThreshold: 6.0
   BackfillReadyThreshold: 5.0
+  MaxBackfillDuration: null
   NumTeams: 2.0
   TeamCapacity: 3.0
   CombineTeamGroups: true
   ModeNameLocStringId: "@ui_opr_no_perks_title"
-  GearScoreOverrideValueMin: 700.0
-  GearScoreOverrideValueMax: 725.0
+  GearScoreOverrideValueMin: 775.0
+  GearScoreOverrideValueMax: 800.0
   MinPlayerLevelToUseGearScoreOverride: 60.0
-  MaxPlayerLevelToUseGearScoreOverride: 65.0
+  MaxPlayerLevelToUseGearScoreOverride: 70.0
   PossibleItemDropIds: ""
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
@@ -1074,6 +1316,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: null
   IsPVP: true
@@ -1095,6 +1338,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: false
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: true
   DisableMSQTrackersOnHud: true
   AIPreventEnemyTraining: false
@@ -1153,7 +1397,7 @@
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
   MatchmakingMinLevel: 20.0
-  MatchmakingMaxLevel: 65.0
+  MatchmakingMaxLevel: 70.0
   MatchmakingMinGS: null
   UsesRoleSelection: true
   MatchmakingRequiredHealingFocus: 200.0
@@ -1193,8 +1437,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: null
 - GameModeId: Dungeon
   ScriptName: Dungeon
   RequiresTeamRaids: ""
@@ -1227,6 +1478,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
+  MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
   CombineTeamGroups: null
@@ -1245,6 +1497,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: null
   IsPVP: null
@@ -1266,6 +1519,7 @@
   ImmediateLaunch: null
   AILevelAdjustedPerceptionEnabled: null
   AILeashingOptOut: null
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: null
@@ -1364,8 +1618,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: null
 - GameModeId: Mutation
   ScriptName: Mutation
   RequiresTeamRaids: ""
@@ -1398,6 +1659,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
+  MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
   CombineTeamGroups: null
@@ -1416,6 +1678,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: null
   IsPVP: null
@@ -1437,6 +1700,7 @@
   ImmediateLaunch: null
   AILevelAdjustedPerceptionEnabled: null
   AILeashingOptOut: null
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: null
@@ -1535,8 +1799,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: null
 - GameModeId: DungeonAmrine
   ScriptName: DungeonAmrine
   RequiresTeamRaids: "0"
@@ -1569,6 +1840,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
+  MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
   CombineTeamGroups: null
@@ -1587,6 +1859,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -1608,6 +1881,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -1706,8 +1980,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: DungeonShatteredObelisk
   ScriptName: DungeonShatteredObelisk
   RequiresTeamRaids: "0"
@@ -1740,6 +2021,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
+  MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
   CombineTeamGroups: null
@@ -1758,6 +2040,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -1779,6 +2062,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -1877,8 +2161,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: DungeonRestlessShores01
   ScriptName: DungeonRestlessShores01
   RequiresTeamRaids: "0"
@@ -1911,6 +2202,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
+  MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
   CombineTeamGroups: null
@@ -1929,6 +2221,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -1950,6 +2243,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -2048,8 +2342,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: DungeonEbonscale00
   ScriptName: DungeonEbonscale00
   RequiresTeamRaids: "0"
@@ -2082,6 +2383,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
+  MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
   CombineTeamGroups: null
@@ -2100,6 +2402,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -2121,6 +2424,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -2219,8 +2523,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: DungeonEdengrove00
   ScriptName: DungeonEdengrove00
   RequiresTeamRaids: "0"
@@ -2253,6 +2564,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
+  MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
   CombineTeamGroups: null
@@ -2271,6 +2583,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -2292,6 +2605,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -2350,7 +2664,7 @@
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
   MatchmakingMinLevel: 60.0
-  MatchmakingMaxLevel: 65.0
+  MatchmakingMaxLevel: 70.0
   MatchmakingMinGS: 0.0
   UsesRoleSelection: true
   MatchmakingRequiredHealingFocus: 125.0
@@ -2390,8 +2704,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: DungeonReekwater00
   ScriptName: DungeonReekwater00
   RequiresTeamRaids: "0"
@@ -2424,6 +2745,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
+  MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
   CombineTeamGroups: null
@@ -2442,6 +2764,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -2463,6 +2786,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -2521,7 +2845,7 @@
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
   MatchmakingMinLevel: 60.0
-  MatchmakingMaxLevel: 65.0
+  MatchmakingMaxLevel: 70.0
   MatchmakingMinGS: 0.0
   UsesRoleSelection: true
   MatchmakingRequiredHealingFocus: 135.0
@@ -2561,8 +2885,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: DungeonCutlassKeys00
   ScriptName: DungeonCutlassKeys00
   RequiresTeamRaids: "0"
@@ -2595,6 +2926,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
+  MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
   CombineTeamGroups: null
@@ -2613,6 +2945,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -2634,6 +2967,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -2692,7 +3026,7 @@
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
   MatchmakingMinLevel: 60.0
-  MatchmakingMaxLevel: 65.0
+  MatchmakingMaxLevel: 70.0
   MatchmakingMinGS: 0.0
   UsesRoleSelection: true
   MatchmakingRequiredHealingFocus: 145.0
@@ -2732,8 +3066,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: DungeonGreatCleave01
   ScriptName: DungeonGreatCleave01
   RequiresTeamRaids: "0"
@@ -2766,6 +3107,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
+  MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
   CombineTeamGroups: null
@@ -2784,6 +3126,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -2805,6 +3148,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -2863,7 +3207,7 @@
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
   MatchmakingMinLevel: 60.0
-  MatchmakingMaxLevel: 65.0
+  MatchmakingMaxLevel: 70.0
   MatchmakingMinGS: 0.0
   UsesRoleSelection: true
   MatchmakingRequiredHealingFocus: 155.0
@@ -2903,8 +3247,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: DungeonShatterMtn00
   ScriptName: DungeonShatterMtn00
   RequiresTeamRaids: "0"
@@ -2937,6 +3288,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
+  MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
   CombineTeamGroups: null
@@ -2955,6 +3307,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -2976,6 +3329,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -3034,7 +3388,7 @@
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
   MatchmakingMinLevel: 60.0
-  MatchmakingMaxLevel: 65.0
+  MatchmakingMaxLevel: 70.0
   MatchmakingMinGS: 0.0
   UsesRoleSelection: true
   MatchmakingRequiredHealingFocus: 160.0
@@ -3074,8 +3428,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: DungeonBrimstoneSands00
   ScriptName: DungeonBrimstoneSands00
   RequiresTeamRaids: "0"
@@ -3108,6 +3469,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
+  MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
   CombineTeamGroups: null
@@ -3126,6 +3488,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -3147,6 +3510,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -3205,7 +3569,7 @@
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
   MatchmakingMinLevel: 60.0
-  MatchmakingMaxLevel: 65.0
+  MatchmakingMaxLevel: 70.0
   MatchmakingMinGS: 0.0
   UsesRoleSelection: true
   MatchmakingRequiredHealingFocus: 170.0
@@ -3245,8 +3609,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: DungeonFirstLight01
   ScriptName: DungeonFirstLight01
   RequiresTeamRaids: "0"
@@ -3279,6 +3650,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
+  MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
   CombineTeamGroups: null
@@ -3297,6 +3669,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -3318,6 +3691,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -3376,7 +3750,7 @@
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
   MatchmakingMinLevel: 62.0
-  MatchmakingMaxLevel: 65.0
+  MatchmakingMaxLevel: 70.0
   MatchmakingMinGS: 0.0
   UsesRoleSelection: true
   MatchmakingRequiredHealingFocus: 190.0
@@ -3416,8 +3790,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: DungeonGreatCleave00
   ScriptName: DungeonGreatCleave00
   RequiresTeamRaids: "0"
@@ -3450,6 +3831,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
+  MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
   CombineTeamGroups: null
@@ -3468,6 +3850,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: true
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -3489,6 +3872,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -3547,7 +3931,7 @@
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
   MatchmakingMinLevel: 65.0
-  MatchmakingMaxLevel: 65.0
+  MatchmakingMaxLevel: 70.0
   MatchmakingMinGS: 0.0
   UsesRoleSelection: true
   MatchmakingRequiredHealingFocus: 220.0
@@ -3587,8 +3971,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: DungeonDunwood02
   ScriptName: DungeonDunwood02
   RequiresTeamRaids: "0"
@@ -3621,6 +4012,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 5.0
   BackfillReadyThreshold: 4.0
+  MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
   CombineTeamGroups: null
@@ -3639,6 +4031,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -3648,7 +4041,7 @@
   LootTags: ""
   MutLootTagsOverride: ""
   ContainerLevel: 70.0
-  LootGSRangeOverride: 650-685
+  LootGSRangeOverride: 730-730
   UseLevelGS: ""
   GSClampLevelReqDelta: 2.0
   VictoryDelaySec: 4.0
@@ -3660,6 +4053,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -3718,7 +4112,7 @@
   GearScoreRecommendedValueMin: null
   GearScoreRecommendedValueMax: null
   MatchmakingMinLevel: 60.0
-  MatchmakingMaxLevel: 65.0
+  MatchmakingMaxLevel: 70.0
   MatchmakingMinGS: 0.0
   UsesRoleSelection: true
   MatchmakingRequiredHealingFocus: 220.0
@@ -3758,8 +4152,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: TrialBrimstoneSandworm
   ScriptName: TrialBrimstoneSandworm
   RequiresTeamRaids: "TRUE"
@@ -3792,6 +4193,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 18.0
   BackfillReadyThreshold: 19.0
+  MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 20.0
   CombineTeamGroups: null
@@ -3810,6 +4212,7 @@
   IsRaidTrial: true
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -3831,6 +4234,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -3889,7 +4293,7 @@
   GearScoreRecommendedValueMin: 700.0
   GearScoreRecommendedValueMax: 725.0
   MatchmakingMinLevel: 60.0
-  MatchmakingMaxLevel: 65.0
+  MatchmakingMaxLevel: 70.0
   MatchmakingMinGS: 625.0
   UsesRoleSelection: false
   MatchmakingRequiredHealingFocus: 350.0
@@ -3929,8 +4333,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: RaidCutlassKeys00
   ScriptName: RaidCutlassKeys00
   RequiresTeamRaids: "TRUE"
@@ -3943,8 +4354,8 @@
   NotificationText: ""
   IconPath: LyShineUI/Images/Map/Icon/POIs/raid.png
   SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/raid.png
-  BackgroundImagePath: LyShineUI/Images/Dungeons/raidImages/raidimages_RaidCutlassKeys00.png
-  ListImagePath: LyShineUI/Images/Dungeons/raidImages/raidimages_RaidCutlassKeys00.png
+  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_HiveOfGordon.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/dungeons/pugActivityList_HiveOfGordon.png
   FeatureFlag: cutlasskeys00-raid
   PurchasableItemClasses: ""
   PurchasableItemClassesRestrictedToMode: ""
@@ -3963,6 +4374,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 8.0
   BackfillReadyThreshold: 9.0
+  MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 10.0
   CombineTeamGroups: null
@@ -3981,6 +4393,7 @@
   IsRaidTrial: true
   IsSeasonTrial: null
   IsSoloTrial: null
+  IsPUGRaidTrial: true
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -3990,7 +4403,7 @@
   LootTags: GypsumBlue,Raid,HercyneRaid
   MutLootTagsOverride: ""
   ContainerLevel: 70.0
-  LootGSRangeOverride: 715-725
+  LootGSRangeOverride: 730-730
   UseLevelGS: ""
   GSClampLevelReqDelta: null
   VictoryDelaySec: 4.0
@@ -4002,6 +4415,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -4060,7 +4474,7 @@
   GearScoreRecommendedValueMin: 710.0
   GearScoreRecommendedValueMax: 725.0
   MatchmakingMinLevel: 62.0
-  MatchmakingMaxLevel: 65.0
+  MatchmakingMaxLevel: 70.0
   MatchmakingMinGS: 625.0
   UsesRoleSelection: true
   MatchmakingRequiredHealingFocus: 325.0
@@ -4100,8 +4514,196 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
+- GameModeId: RaidMonarchsBluffs00
+  ScriptName: RaidMonarchsBluffs00
+  RequiresTeamRaids: "TRUE"
+  AdvanceThroughStatesOnUpdate: "1"
+  DisplayName: "@Raid_MonarchsBluffs00_title"
+  Description: "@raid_MonarchsBluffs00_description"
+  UiInteractOption: ""
+  RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
+  IconPath: ""
+  SimpleImagePath: ""
+  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_IsleofNight.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/Dungeons/pugActivityList_IsleofNight.png
+  FeatureFlag: monarchbluff00-raid
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 70.0
+  RequiredLevel: 70.0
+  EntryAchievementConditional: ""
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: 8.0
+  BackfillReadyThreshold: 9.0
+  MaxBackfillDuration: null
+  NumTeams: 1.0
+  TeamCapacity: 10.0
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: Set_Enrage_LightHead,Set_Enrage_LightChest,Set_Enrage_LightHands,Set_Enrage_LightLegs,Set_Enrage_LightFeet,Set_Enrage_MediumHead,Set_Enrage_MediumChest,Set_Enrage_MediumHands,Set_Enrage_MediumLegs,Set_Enrage_MediumFeet,Set_Enrage_HeavyHead,Set_Enrage_HeavyChest,Set_Enrage_HeavyHands,Set_Enrage_HeavyLegs,Set_Enrage_HeavyFeet,Set_SecondWind_LightHead,Set_SecondWind_LightChest,Set_SecondWind_LightHands,Set_SecondWind_LightLegs,Set_SecondWind_LightFeet,Set_SecondWind_MediumHead,Set_SecondWind_MediumChest,Set_SecondWind_MediumHands,Set_SecondWind_MediumLegs,Set_SecondWind_MediumFeet,Set_SecondWind_HeavyHead,Set_SecondWind_HeavyChest,Set_SecondWind_HeavyHands,Set_SecondWind_HeavyLegs,Set_SecondWind_HeavyFeet,Set_ProtectorsBlessing_LightHead,Set_ProtectorsBlessing_LightChest,Set_ProtectorsBlessing_LightHands,Set_ProtectorsBlessing_LightLegs,Set_ProtectorsBlessing_LightFeet,Set_ProtectorsBlessing_MediumHead,Set_ProtectorsBlessing_MediumChest,Set_ProtectorsBlessing_MediumHands,Set_ProtectorsBlessing_MediumLegs,Set_ProtectorsBlessing_MediumFeet,Set_ProtectorsBlessing_HeavyHead,Set_ProtectorsBlessing_HeavyChest,Set_ProtectorsBlessing_HeavyHands,Set_ProtectorsBlessing_HeavyLegs,Set_ProtectorsBlessing_HeavyFeet,Set_Enrage_1hLongsword,Set_Enrage_1hThrowingAxe,Set_Enrage_2hWarhammer,Set_Enrage_2hGreatAxe,Set_Enrage_2hBow,Set_Enrage_2hMusket,Set_Enrage_2hStaffFire,Set_Enrage_2hStaffLife,Set_Enrage_2hSpear,Set_Enrage_1hRapier,Set_Enrage_1hGauntletIce,Set_Enrage_1hGauntletVoid,Set_Enrage_2hBlunderbuss,Set_Enrage_2hGreatSword,Set_Enrage_1hFlail,Set_Enrage_Ring,Set_Enrage_Amulet,Set_Enrage_Earring,Set_SecondWind_Ring,Set_SecondWind_Amulet,Set_SecondWind_Earring,Set_SecondWind_1hLongsword,Set_SecondWind_1hThrowingAxe,Set_SecondWind_2hWarhammer,Set_SecondWind_2hGreatAxe,Set_SecondWind_2hBow,Set_SecondWind_2hMusket,Set_SecondWind_2hStaffFire,Set_SecondWind_2hStaffLife,Set_SecondWind_2hSpear,Set_SecondWind_1hRapier,Set_SecondWind_1hGauntletIce,Set_SecondWind_1hGauntletVoid,Set_SecondWind_2hBlunderbuss,Set_SecondWind_2hGreatSword,Set_SecondWind_1hFlail,Set_ProtectorsBlessing_Ring,Set_ProtectorsBlessing_Amulet,Set_ProtectorsBlessing_Earring,Set_ProtectorsBlessing_1hLongsword,Set_ProtectorsBlessing_1hThrowingAxe,Set_ProtectorsBlessing_2hWarhammer,Set_ProtectorsBlessing_2hGreatAxe,Set_ProtectorsBlessing_2hBow,Set_ProtectorsBlessing_2hMusket,Set_ProtectorsBlessing_2hStaffFire,Set_ProtectorsBlessing_2hStaffLife,Set_ProtectorsBlessing_2hSpear,Set_ProtectorsBlessing_1hRapier,Set_ProtectorsBlessing_1hGauntletIce,Set_ProtectorsBlessing_1hGauntletVoid,Set_ProtectorsBlessing_2hBlunderbuss,Set_ProtectorsBlessing_2hGreatSword,Set_ProtectorsBlessing_1hFlail
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 6.0
+  PreserveOldGroup: null
+  IgnoreRequireContribution: true
+  IsDungeon: true
+  IsRaidTrial: true
+  IsSeasonTrial: null
+  IsSoloTrial: null
+  IsPUGRaidTrial: true
+  IsMutable: null
+  IsRemoteEntryAllowed: true
+  IsPVP: null
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  LootTags: GypsumBlue,Raid
+  MutLootTagsOverride: ""
+  ContainerLevel: 70.0
+  LootGSRangeOverride: 730-730
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: 4.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedDurationMinutes: 30.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: ""
+  CannotFastTravelTextId: ""
+  LeaveDescTextId: ""
+  LeaveTimeDescTextId: ""
+  LeaveTitleTextId: ""
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: ""
+  OverrideDungeonTimeout: 14400.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  ProsperoActivityId: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: 725.0
+  GearScoreRecommendedValueMax: 800.0
+  MatchmakingMinLevel: 70.0
+  MatchmakingMaxLevel: 70.0
+  MatchmakingMinGS: 700.0
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 325.0
+  MatchmakingRequiredHealingMastery: 13.0
+  MatchmakingRequiresTauntGem: true
+  MatchmakingMinTanks: 2.0
+  MatchmakingMaxTanks: 3.0
+  MatchmakingMinHealers: 4.0
+  MatchmakingMaxHealers: 6.0
+  MatchmakingMinDPS: 2.0
+  MatchmakingMaxDPS: 3.0
+  UseMMBuff: false
+  DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
+  MatchmakingPriority: null
+  AllowMounts: false
+  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
+  AfkModeId: Raid
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: TrialSeason01
   ScriptName: TrialSeason01
   RequiresTeamRaids: "TRUE"
@@ -4134,6 +4736,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 8.0
   BackfillReadyThreshold: 9.0
+  MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 10.0
   CombineTeamGroups: null
@@ -4152,6 +4755,7 @@
   IsRaidTrial: true
   IsSeasonTrial: true
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -4173,6 +4777,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -4271,8 +4876,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: TrialSeason04
   ScriptName: TrialSeason04
   RequiresTeamRaids: "TRUE"
@@ -4305,6 +4917,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: 8.0
   BackfillReadyThreshold: 9.0
+  MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 10.0
   CombineTeamGroups: null
@@ -4323,6 +4936,7 @@
   IsRaidTrial: true
   IsSeasonTrial: true
   IsSoloTrial: null
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -4344,6 +4958,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -4442,8 +5057,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: QuestAdiana
   ScriptName: QuestAdiana
   RequiresTeamRaids: "FALSE"
@@ -4476,6 +5098,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -4494,6 +5117,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: true
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -4515,6 +5139,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -4613,8 +5238,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: QuestApophis
   ScriptName: QuestApophis
   RequiresTeamRaids: "0"
@@ -4647,6 +5279,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -4665,6 +5298,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: true
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -4686,6 +5320,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -4784,8 +5419,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: QuestCaerDun
   ScriptName: QuestCaerDun
   RequiresTeamRaids: "0"
@@ -4818,6 +5460,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -4836,6 +5479,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: true
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -4857,6 +5501,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -4955,8 +5600,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: QuestEmpressZhou
   ScriptName: QuestEmpressZhou
   RequiresTeamRaids: "0"
@@ -4989,6 +5641,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -5007,6 +5660,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: true
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -5028,6 +5682,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -5126,8 +5781,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: QuestIsabella
   ScriptName: QuestIsabella
   RequiresTeamRaids: "0"
@@ -5160,6 +5822,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -5178,6 +5841,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: true
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -5199,6 +5863,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -5297,8 +5962,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: QuestMammoth
   ScriptName: QuestMammoth
   RequiresTeamRaids: "FALSE"
@@ -5331,6 +6003,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -5349,6 +6022,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: true
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -5370,6 +6044,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -5468,8 +6143,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: QuestMedusa
   ScriptName: QuestMedusa
   RequiresTeamRaids: "FALSE"
@@ -5502,6 +6184,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -5520,6 +6203,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: true
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -5541,6 +6225,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -5639,8 +6324,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: QuestMotherwell
   ScriptName: QuestMotherwell
   RequiresTeamRaids: "FALSE"
@@ -5673,6 +6365,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -5691,6 +6384,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: true
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -5712,6 +6406,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -5810,8 +6505,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: QuestMedea
   ScriptName: QuestMedea
   RequiresTeamRaids: "FALSE"
@@ -5844,6 +6546,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -5862,6 +6565,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: true
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: false
   IsPVP: null
@@ -5883,6 +6587,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -5981,8 +6686,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: QuestNihilo
   ScriptName: QuestNihilo
   RequiresTeamRaids: "FALSE"
@@ -6015,6 +6727,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -6033,6 +6746,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: true
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -6054,6 +6768,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -6152,8 +6867,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: QuestYonas
   ScriptName: QuestYonas
   RequiresTeamRaids: "FALSE"
@@ -6186,6 +6908,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -6204,6 +6927,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: true
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -6225,6 +6949,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -6323,8 +7048,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: TrialSeason02Q13
   ScriptName: TrialSeason02Q13
   RequiresTeamRaids: "FALSE"
@@ -6357,6 +7089,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -6375,6 +7108,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: true
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -6396,6 +7130,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -6494,8 +7229,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: TrialSeason02Q12
   ScriptName: TrialSeason02Q12
   RequiresTeamRaids: "FALSE"
@@ -6528,6 +7270,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -6546,6 +7289,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: true
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -6567,6 +7311,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -6665,8 +7410,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: TrialSeason04Q02
   ScriptName: TrialSeason04Q02
   RequiresTeamRaids: "FALSE"
@@ -6699,6 +7451,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -6717,6 +7470,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: true
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -6738,6 +7492,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -6836,8 +7591,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: TrialSeason04Q06
   ScriptName: TrialSeason04Q06
   RequiresTeamRaids: "FALSE"
@@ -6870,6 +7632,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -6888,6 +7651,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: true
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -6909,6 +7673,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -7007,8 +7772,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: TrialSeason04Q05
   ScriptName: TrialSeason04Q05
   RequiresTeamRaids: "FALSE"
@@ -7041,6 +7813,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -7059,6 +7832,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: true
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -7080,6 +7854,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -7178,8 +7953,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: QuestHeartforge
   ScriptName: QuestHeartforge
   RequiresTeamRaids: "FALSE"
@@ -7212,6 +7994,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -7230,6 +8013,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: true
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: false
   IsPVP: null
@@ -7251,6 +8035,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -7349,8 +8134,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: QuestLiang
   ScriptName: QuestLiang
   RequiresTeamRaids: "0"
@@ -7383,6 +8175,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -7401,6 +8194,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: true
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: false
   IsPVP: null
@@ -7422,6 +8216,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -7520,8 +8315,15 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
 - GameModeId: QuestGawain
   ScriptName: QuestGawain
   RequiresTeamRaids: "0"
@@ -7554,6 +8356,7 @@
   QueueLevelBuckets: ""
   QueueReadyThreshold: null
   BackfillReadyThreshold: null
+  MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
   CombineTeamGroups: null
@@ -7572,6 +8375,7 @@
   IsRaidTrial: null
   IsSeasonTrial: null
   IsSoloTrial: true
+  IsPUGRaidTrial: null
   IsMutable: null
   IsRemoteEntryAllowed: true
   IsPVP: null
@@ -7593,6 +8397,7 @@
   ImmediateLaunch: false
   AILevelAdjustedPerceptionEnabled: false
   AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
   DisableDeathsDoor: null
   DisableMSQTrackersOnHud: null
   AIPreventEnemyTraining: false
@@ -7691,5 +8496,1098 @@
   ForceFFA: null
   LevelGeneratorType: ""
   LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
   UsesPowerUps: null
   EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
+- GameModeId: Catacombs
+  ScriptName: Catacombs
+  RequiresTeamRaids: "TRUE"
+  AdvanceThroughStatesOnUpdate: "1"
+  DisplayName: "@dungeon_catacombs_title"
+  Description: "@dungeon_catacombs_description"
+  UiInteractOption: ""
+  RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
+  IconPath: LyShineUI/Images/Map/Icon/POIs/catacombs.png
+  SimpleImagePath: LyShineUI/Images/Map/Icon/POIs/catacombs_simple.png
+  BackgroundImagePath: LyShineUI/Images/Dungeons/dungeonImages/dungeonImages_Catacombs.png
+  ListImagePath: ""
+  FeatureFlag: catacombs
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: DungeonItem
+  RestrictCombatGearToItemClasses: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 65.0
+  RequiredLevel: 65.0
+  EntryAchievementConditional: ""
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: 1.0
+  BackfillReadyThreshold: 2.0
+  MaxBackfillDuration: 20.0
+  NumTeams: 1.0
+  TeamCapacity: 3.0
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: 61.0
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 0.0
+  PreserveOldGroup: true
+  IgnoreRequireContribution: true
+  IsDungeon: false
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: null
+  IsPUGRaidTrial: null
+  IsMutable: null
+  IsRemoteEntryAllowed: true
+  IsPVP: null
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  LootTags: ""
+  MutLootTagsOverride: ""
+  ContainerLevel: 65.0
+  LootGSRangeOverride: 625-675
+  UseLevelGS: ""
+  GSClampLevelReqDelta: 2.0
+  VictoryDelaySec: 4.0
+  MaxAI: "30"
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedDurationMinutes: 30.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: false
+  AIPathDistanceLeashOverride: 80.0
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: ""
+  CannotFastTravelTextId: ""
+  LeaveDescTextId: ""
+  LeaveTimeDescTextId: ""
+  LeaveTitleTextId: ""
+  WarBoardStatDefinitions: CatacombsWarboardStatDefinitions
+  WarBoardAttackerTeamIdx: 0.0
+  WarBoardDefenderTeamIdx: 1.0
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: Catacombs
+  OverrideDungeonTimeout: 2400.0
+  TimerThresholdDefault: 300.0
+  TimerThresholdMutated: null
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: true
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: "@ui_pugfinder_cancel_queue_title"
+  LeaveQueueDescriptionTextId: "@ui_pugfinder_cancel_queue_catacombs_desc"
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  ProsperoActivityId: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: 65.0
+  MatchmakingMaxLevel: 70.0
+  MatchmakingMinGS: 0.0
+  UsesRoleSelection: true
+  MatchmakingRequiredHealingFocus: 200.0
+  MatchmakingRequiredHealingMastery: 9.0
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: 0.0
+  MatchmakingMaxTanks: 1.0
+  MatchmakingMinHealers: 0.0
+  MatchmakingMaxHealers: 1.0
+  MatchmakingMinDPS: 1.0
+  MatchmakingMaxDPS: 2.0
+  UseMMBuff: true
+  DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
+  MatchmakingPriority: 5.0
+  AllowMounts: false
+  MountSummonErrorMsg: "@ui_mount_summon_failed_dungeon"
+  AllowCamping: false
+  CampingErrorMsg: ""
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: true
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
+  LevelGeneratorType: Cyclic
+  LevelGeneratorFeatureId: Catacombs
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: 0.0
+  MaxDynamicDifficultyLevel: 5.0
+  DungeonRespawnsPermitted: true
+- GameModeId: QuestDracula
+  ScriptName: QuestDracula
+  RequiresTeamRaids: "0"
+  AdvanceThroughStatesOnUpdate: "FALSE"
+  DisplayName: "@quest_dracula_title"
+  Description: "@quest_dracula_description"
+  UiInteractOption: EnterQuestDracula
+  RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestDracula.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestGawain.png
+  FeatureFlag: quest-dracula
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 70.0
+  RequiredLevel: null
+  EntryAchievementConditional: ""
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  MaxBackfillDuration: null
+  NumTeams: null
+  TeamCapacity: null
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 0.0
+  PreserveOldGroup: null
+  IgnoreRequireContribution: true
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: true
+  IsPUGRaidTrial: null
+  IsMutable: null
+  IsRemoteEntryAllowed: true
+  IsPVP: null
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  LootTags: ""
+  MutLootTagsOverride: ""
+  ContainerLevel: 65.0
+  LootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: 4.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedDurationMinutes: 10.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: ""
+  OverrideDungeonTimeout: 1800.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  ProsperoActivityId: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
+  MatchmakingPriority: null
+  AllowMounts: false
+  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: false
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
+- GameModeId: QuestWolf
+  ScriptName: QuestWolf
+  RequiresTeamRaids: "0"
+  AdvanceThroughStatesOnUpdate: "FALSE"
+  DisplayName: "@quest_wolf_title"
+  Description: "@quest_wolf_description"
+  UiInteractOption: EnterQuestWolf
+  RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestWolf.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestGawain.png
+  FeatureFlag: quest-wolf
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 67.0
+  RequiredLevel: null
+  EntryAchievementConditional: ""
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  MaxBackfillDuration: null
+  NumTeams: null
+  TeamCapacity: null
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 0.0
+  PreserveOldGroup: null
+  IgnoreRequireContribution: true
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: true
+  IsPUGRaidTrial: null
+  IsMutable: null
+  IsRemoteEntryAllowed: true
+  IsPVP: null
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  LootTags: ""
+  MutLootTagsOverride: ""
+  ContainerLevel: 65.0
+  LootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: 4.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedDurationMinutes: 10.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: ""
+  OverrideDungeonTimeout: 1800.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  ProsperoActivityId: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
+  MatchmakingPriority: null
+  AllowMounts: false
+  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: false
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
+- GameModeId: QuestMorgaine
+  ScriptName: QuestMorgaine
+  RequiresTeamRaids: "0"
+  AdvanceThroughStatesOnUpdate: "FALSE"
+  DisplayName: "@quest_morgaine_title"
+  Description: "@quest_Morgaine_description"
+  UiInteractOption: EnterQuestMorgaine
+  RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestMorgaine.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestMorgaine.png
+  FeatureFlag: quest-morgaine
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 68.0
+  RequiredLevel: null
+  EntryAchievementConditional: ""
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  MaxBackfillDuration: null
+  NumTeams: null
+  TeamCapacity: null
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 0.0
+  PreserveOldGroup: null
+  IgnoreRequireContribution: true
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: true
+  IsPUGRaidTrial: null
+  IsMutable: null
+  IsRemoteEntryAllowed: true
+  IsPVP: null
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  LootTags: ""
+  MutLootTagsOverride: ""
+  ContainerLevel: 65.0
+  LootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: 4.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedDurationMinutes: 10.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: ""
+  OverrideDungeonTimeout: 1800.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  ProsperoActivityId: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
+  MatchmakingPriority: null
+  AllowMounts: false
+  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: false
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
+- GameModeId: QuestVarlaam
+  ScriptName: QuestVarlaam
+  RequiresTeamRaids: "0"
+  AdvanceThroughStatesOnUpdate: "FALSE"
+  DisplayName: "@quest_varlaam_title"
+  Description: "@quest_varlaam_description"
+  UiInteractOption: EnterQuestVarlaam
+  RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestVarlaam.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestGawain.png
+  FeatureFlag: quest-varlaam
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 66.0
+  RequiredLevel: null
+  EntryAchievementConditional: ""
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  MaxBackfillDuration: null
+  NumTeams: null
+  TeamCapacity: null
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 0.0
+  PreserveOldGroup: null
+  IgnoreRequireContribution: true
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: true
+  IsPUGRaidTrial: null
+  IsMutable: null
+  IsRemoteEntryAllowed: true
+  IsPVP: null
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  LootTags: ""
+  MutLootTagsOverride: ""
+  ContainerLevel: 65.0
+  LootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: 4.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedDurationMinutes: 10.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: ""
+  OverrideDungeonTimeout: 1800.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  ProsperoActivityId: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
+  MatchmakingPriority: null
+  AllowMounts: false
+  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: false
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true
+- GameModeId: QuestSeraphim
+  ScriptName: QuestSeraphim
+  RequiresTeamRaids: "0"
+  AdvanceThroughStatesOnUpdate: "FALSE"
+  DisplayName: "@quest_seraphim_title"
+  Description: "@quest_seraphim_description"
+  UiInteractOption: EnterQuestSeraphim
+  RequirementText: ""
+  NotificationTitle: ""
+  NotificationText: ""
+  IconPath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  SimpleImagePath: "LyShineUI\\Images\\Map\\Icon\\POIs\\trial_soul.png"
+  BackgroundImagePath: LyShineUI/Images/Dungeons/soloTrialImages/dungeonImages_QuestSeraphim.png
+  ListImagePath: LyShineUI/Images/PUGFinder/activityListImages/SoloTrial/pugActivityList_QuestGawain.png
+  FeatureFlag: quest-seraphim
+  PurchasableItemClasses: ""
+  PurchasableItemClassesRestrictedToMode: ""
+  NonPurchasableItemClasses: ""
+  ItemClassesToRemoveOnExit: ""
+  RestrictCombatGearToItemClasses: ""
+  RequiredConsumableItemClasses: ""
+  DisabledItemClasses: ""
+  LootTableIdOverride: ""
+  UseTempGameModeLoadout: null
+  ClearBattleTokensOnExit: "0"
+  RequiresGameModeGDEException: "1"
+  RecommendedLevel: 70.0
+  RequiredLevel: null
+  EntryAchievementConditional: ""
+  QueueLevelBuckets: ""
+  QueueReadyThreshold: null
+  BackfillReadyThreshold: null
+  MaxBackfillDuration: null
+  NumTeams: null
+  TeamCapacity: null
+  CombineTeamGroups: null
+  ModeNameLocStringId: ""
+  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMax: null
+  MinPlayerLevelToUseGearScoreOverride: null
+  MaxPlayerLevelToUseGearScoreOverride: null
+  PossibleItemDropIds: ""
+  ItemDropLevelThreshold01: null
+  PossibleItemDropIdsByLevel01: ""
+  MinGroupSize: 0.0
+  PreserveOldGroup: null
+  IgnoreRequireContribution: true
+  IsDungeon: true
+  IsRaidTrial: null
+  IsSeasonTrial: null
+  IsSoloTrial: true
+  IsPUGRaidTrial: null
+  IsMutable: null
+  IsRemoteEntryAllowed: true
+  IsPVP: null
+  DifficultyProgressionId: ""
+  RestrictGathering: false
+  RestrictWaterGathering: true
+  LootTags: ""
+  MutLootTagsOverride: ""
+  ContainerLevel: 65.0
+  LootGSRangeOverride: ""
+  UseLevelGS: ""
+  GSClampLevelReqDelta: null
+  VictoryDelaySec: 4.0
+  MaxAI: OpenWorld
+  AISpawnRadius: OpenWorld
+  AIDespawnRadius: OpenWorld
+  ProjectedDurationMinutes: 10.0
+  Priority: 2.0
+  ImmediateLaunch: false
+  AILevelAdjustedPerceptionEnabled: false
+  AILeashingOptOut: true
+  AIPathDistanceLeashOverride: null
+  DisableDeathsDoor: null
+  DisableMSQTrackersOnHud: null
+  AIPreventEnemyTraining: false
+  UseTeamNamePlate: false
+  ItemDropQuantityOnDeathModifier: 1.0
+  QuitButtonTextId: "@ui_solo_arena_leave"
+  CannotFastTravelTextId: "@ui_cannot_travel_solo_arena"
+  LeaveDescTextId: "@ui_solo_arena_leave_desc"
+  LeaveTimeDescTextId: "@ui_solo_arena_leave_desc_time"
+  LeaveTitleTextId: "@ui_solo_arena_leave_title"
+  WarBoardStatDefinitions: ""
+  WarBoardAttackerTeamIdx: null
+  WarBoardDefenderTeamIdx: null
+  RaidInviteDelaySec: 5.0
+  RaidInviteDurationSec: 90.0
+  BackfillDelaySec: 30.0
+  PriorityAddMin: null
+  PriorityAddMax: null
+  AllowPvpValueAccumulation: false
+  MinAcceptedInvites: null
+  UsePendingListMatchmaking: false
+  AutoEquipQuickslot: null
+  GrantConsumables: ""
+  ActivityType: ""
+  OverrideDungeonTimeout: 1800.0
+  TimerThresholdDefault: 600.0
+  TimerThresholdMutated: null
+  SpecialQueueGroupSizes: null
+  ResetChargeOnEnter: null
+  ShouldShowAcceptedFlow: null
+  ScreenHeaderTextId: ""
+  JoinButtonTextId: ""
+  SignupTitleTextId: ""
+  LeaveQueueTitleTextId: ""
+  LeaveQueueDescriptionTextId: ""
+  FailGroupPenaltyTextId: ""
+  RespawnTypeToUseForUnstuck: ""
+  LootLimitId: ""
+  DailyLootLimitId: ""
+  WeeklyLootLimitId: ""
+  PossibleJourneyIds: ""
+  TrialIconPath: ""
+  Tip01IconPath: ""
+  Tip01Text: ""
+  Tip02IconPath: ""
+  Tip02Text: ""
+  Tip03IconPath: ""
+  Tip03Text: ""
+  ProsperoActivityId: ""
+  HidePoiName: null
+  HideCompass: null
+  ExclusiveRewardIds: ""
+  UniqueRewardIds: ""
+  BasicRewardIds: ""
+  ReplicateParticipantCharacterIds: true
+  GearScoreRecommendedValueMin: null
+  GearScoreRecommendedValueMax: null
+  MatchmakingMinLevel: null
+  MatchmakingMaxLevel: null
+  MatchmakingMinGS: null
+  UsesRoleSelection: false
+  MatchmakingRequiredHealingFocus: null
+  MatchmakingRequiredHealingMastery: null
+  MatchmakingRequiresTauntGem: null
+  MatchmakingMinTanks: null
+  MatchmakingMaxTanks: null
+  MatchmakingMinHealers: null
+  MatchmakingMaxHealers: null
+  MatchmakingMinDPS: null
+  MatchmakingMaxDPS: null
+  UseMMBuff: false
+  DisableAllPerks: null
+  DisableAllPerkLabelOverrides: ""
+  MatchmakingPriority: null
+  AllowMounts: false
+  MountSummonErrorMsg: "@ui_mount_summon_failed_trial"
+  AllowCamping: false
+  CampingErrorMsg: ""
+  AchievementIdForCompletingMaxRank: ""
+  MRV2_NewR: null
+  MRV2_NewD: null
+  MRV2_NewV: null
+  MRV2_SConst: null
+  MRV2_CConst: null
+  MRV2_DecDays: null
+  MRV2_GBs: ""
+  MRV2_RankMultipliers_WinningTeam: ""
+  MRV2_RankMultipliers_LosingTeam: ""
+  MRV2_RankMultipliers_Overall: ""
+  WorldPosToTeleportBackTo: ""
+  DisablePSActivityCards: false
+  AfkModeId: ""
+  ReadyUp_PercentRequired: null
+  MapRotationStartIndex: null
+  MapRotationTimeSpanInSeconds: null
+  ForceFFA: null
+  LevelGeneratorType: ""
+  LevelGeneratorFeatureId: ""
+  BypassInventory: null
+  ClearLevelUpAttributes: null
+  DropOnDeathSliceOverride: ""
+  UsesPowerUps: null
+  EnableEquipInCombat: null
+  ClearMasteries: null
+  StartingDynamicDifficultyLevel: null
+  MaxDynamicDifficultyLevel: null
+  DungeonRespawnsPermitted: true

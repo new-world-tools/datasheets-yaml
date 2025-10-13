@@ -2,12 +2,14 @@
   SubTask1: Quest_18028_Task_5
   SubTask2: Quest_18028_Task_7
   SubTask3: Quest_18028_Task_1
-  SubTask4: Quest_18028_Task_2
-  SubTask5: Quest_18028_Task_3
-  SubTask6: Quest_18028_Task_4
-  SubTask7: Quest_18028_Task_6
-  SubTask8: Quest_18028_Task_9
-  SubTask9: Quest_18028_Task_8
+  SubTask4: Quest_18028_Task_3
+  SubTask5: Quest_18028_Task_9
+  SubTask6: Quest_18028_Task_6
+  SubTask7: Quest_18028_Task_13
+  SubTask8: Quest_18028_Task_10
+  SubTask9: Quest_18028_Task_11
+  SubTask10: Quest_18028_Task_12
+  SubTask11: Quest_18028_Task_8
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -42,12 +44,12 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: ""
-  POITag: ""
+  TP_TargetTag: ""
+  OverrideLocation: ""
   KillEnemyType: ""
   InteractTag: ""
-  OverrideLocation: ""
+  POITag: ""
   ItemName: ""
-  TP_TargetTag: ""
   ItemDropVC: ""
 - TaskID: Quest_18028_Task_1
   SubTask1: ""
@@ -59,10 +61,12 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
-  Type: TASKGOTOPOITAG
+  SubTask10: ""
+  SubTask11: ""
+  Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "0"
+  TargetQty: "1"
   Duration: "0.000000"
   ItemDropProbability: "0"
   ChestDropProbability: "0"
@@ -89,16 +93,16 @@
   HideProgress: "false"
   EnforceLocationRequirement: "false"
   HideDiegeticGatherablePins: "false"
-  ShowDiegeticTaskPin: "false"
+  ShowDiegeticTaskPin: "true"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18028_Task_1_Description"
-  POITag: upyr_castle_10221
+  TP_TargetTag: TV_17_MSQ_CarmillaDungeon
+  OverrideLocation: 3771.148926 5478.444824 109.594002
   KillEnemyType: ""
   InteractTag: ""
-  OverrideLocation: ""
+  POITag: ""
   ItemName: ""
-  TP_TargetTag: ""
   ItemDropVC: ""
 - TaskID: Quest_18028_Task_2
   SubTask1: ""
@@ -110,6 +114,8 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
+  SubTask10: ""
+  SubTask11: ""
   Type: TASKGAMEEVENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -144,12 +150,12 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18028_Task_2_Description"
-  POITag: upyr_castle_10221
+  TP_TargetTag: ""
+  OverrideLocation: 3724.624023 5317.714844 122.288002
   KillEnemyType: 17_MSQ_SearchDresser_Interact
   InteractTag: IO_17_MSQ_SearchDresser
-  OverrideLocation: 3736.218994 5419.592773 134.951996
+  POITag: upyr_castle_10219
   ItemName: ""
-  TP_TargetTag: ""
   ItemDropVC: ""
 - TaskID: Quest_18028_Task_3
   SubTask1: ""
@@ -161,6 +167,8 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
+  SubTask10: ""
+  SubTask11: ""
   Type: TASKGAMEEVENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -195,12 +203,12 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18028_Task_3_Description"
-  POITag: ""
+  TP_TargetTag: ""
+  OverrideLocation: ""
   KillEnemyType: 17_MSQ_SearchPaperwork_Interact
   InteractTag: IO_17_MSQ_SearchPaperwork
-  OverrideLocation: ""
+  POITag: upyr_castle_10219
   ItemName: ""
-  TP_TargetTag: ""
   ItemDropVC: ""
 - TaskID: Quest_18028_Task_4
   SubTask1: ""
@@ -212,6 +220,8 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
+  SubTask10: ""
+  SubTask11: ""
   Type: TASKACHIEVEMENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -246,12 +256,12 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18028_Task_4_Description"
-  POITag: ""
+  TP_TargetTag: ""
+  OverrideLocation: 3752.906006 5331.649902 151.087006
   KillEnemyType: ""
   InteractTag: ""
-  OverrideLocation: ""
+  POITag: upyr_castle_10219
   ItemName: Lore_unlock_Topic_17_Nighthaven_Title_01_05
-  TP_TargetTag: ""
   ItemDropVC: ""
 - TaskID: Quest_18028_Task_6
   SubTask1: ""
@@ -263,6 +273,8 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
+  SubTask10: ""
+  SubTask11: ""
   Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -297,12 +309,12 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18028_Task_6_Description"
-  POITag: ""
+  TP_TargetTag: TV_17_MSQ_MindThiefAttack
+  OverrideLocation: 3737.000000 5353.000000 137.951996
   KillEnemyType: ""
   InteractTag: ""
-  OverrideLocation: 3737.000000 5353.000000 134.886002
+  POITag: upyr_castle_10219
   ItemName: ""
-  TP_TargetTag: TV_17_MSQ_MindThiefAttack
   ItemDropVC: ""
 - TaskID: Quest_18028_Task_7
   SubTask1: ""
@@ -314,6 +326,8 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
+  SubTask10: ""
+  SubTask11: ""
   Type: TASKHAVEANDRETURNITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -348,12 +362,12 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18028_Task_7_Description"
-  POITag: upyr_castle_10221
+  TP_TargetTag: ""
+  OverrideLocation: ""
   KillEnemyType: ""
   InteractTag: ""
-  OverrideLocation: ""
+  POITag: upyr_castle_10220
   ItemName: 17_MSQ_Morgaines_Potions
-  TP_TargetTag: ""
   ItemDropVC: Lost
 - TaskID: Quest_18028_Task_5
   SubTask1: ""
@@ -365,6 +379,8 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
+  SubTask10: ""
+  SubTask11: ""
   Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -399,12 +415,12 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18028_Task_5_Description_0"
-  POITag: ""
+  TP_TargetTag: TV_17_MSQ_Cronewell
+  OverrideLocation: 3879.309082 5645.797852 144.936005
   KillEnemyType: ""
   InteractTag: ""
-  OverrideLocation: 3879.309082 5645.797852 144.936005
+  POITag: ""
   ItemName: ""
-  TP_TargetTag: TV_17_MSQ_Cronewell
   ItemDropVC: ""
 - TaskID: Quest_18028_Task_8
   SubTask1: ""
@@ -416,6 +432,8 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
+  SubTask10: ""
+  SubTask11: ""
   Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -450,12 +468,12 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18028_Task_8_Description"
-  POITag: ""
+  TP_TargetTag: TV_17_MSQ_CarmillaBridge
+  OverrideLocation: 3703.593994 5226.503906 131.001007
   KillEnemyType: ""
   InteractTag: ""
-  OverrideLocation: 3701.945068 5219.604004 131.001007
+  POITag: ""
   ItemName: ""
-  TP_TargetTag: TV_17_MSQ_CarmillaBridge
   ItemDropVC: ""
 - TaskID: Quest_18028_Task_9
   SubTask1: ""
@@ -467,6 +485,8 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
+  SubTask10: ""
+  SubTask11: ""
   Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -500,11 +520,223 @@
   ShowDiegeticTaskPin: "true"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
-  TP_DescriptionTag: "@Quest_18028_Task_9_Description"
-  POITag: ""
+  TP_DescriptionTag: "@Quest_18028_Task_9_Description_0"
+  TP_TargetTag: TV_17_MSQ_ExitCarmillaDungeon
+  OverrideLocation: 3730.409912 5326.355957 125.894997
   KillEnemyType: ""
   InteractTag: ""
-  OverrideLocation: 3720.996094 5341.946777 138.953003
+  POITag: upyr_castle_10219
   ItemName: ""
-  TP_TargetTag: TV_17_MSQ_CarmillaDungeon
+  ItemDropVC: ""
+- TaskID: Quest_18028_Task_10
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+  SubTask6: ""
+  SubTask7: ""
+  SubTask8: ""
+  SubTask9: ""
+  SubTask10: ""
+  SubTask11: ""
+  Type: TASKTRIGGERAREA
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "true"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: "@Quest_18028_Task_10_Description"
+  TP_TargetTag: TV_17_MSQ_CarmillaUpstairs
+  OverrideLocation: 3746.593994 5332.388184 138.828995
+  KillEnemyType: ""
+  InteractTag: ""
+  POITag: upyr_castle_10219
+  ItemName: ""
+  ItemDropVC: ""
+- TaskID: Quest_18028_Task_11
+  SubTask1: Quest_18028_Task_2
+  SubTask2: Quest_18028_Task_4
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+  SubTask6: ""
+  SubTask7: ""
+  SubTask8: ""
+  SubTask9: ""
+  SubTask10: ""
+  SubTask11: ""
+  Type: SIMPLETASKCONTAINER
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "0"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "true"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: ""
+  TP_TargetTag: ""
+  OverrideLocation: ""
+  KillEnemyType: ""
+  InteractTag: ""
+  POITag: ""
+  ItemName: ""
+  ItemDropVC: ""
+- TaskID: Quest_18028_Task_12
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+  SubTask6: ""
+  SubTask7: ""
+  SubTask8: ""
+  SubTask9: ""
+  SubTask10: ""
+  SubTask11: ""
+  Type: TASKTRIGGERAREA
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "true"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: "@Quest_18028_Task_12_Description"
+  TP_TargetTag: TV_17_MSQ_CarmillaExit
+  OverrideLocation: 3726.200928 5310.276855 145.951996
+  KillEnemyType: ""
+  InteractTag: ""
+  POITag: ""
+  ItemName: ""
+  ItemDropVC: ""
+- TaskID: Quest_18028_Task_13
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+  SubTask6: ""
+  SubTask7: ""
+  SubTask8: ""
+  SubTask9: ""
+  SubTask10: ""
+  SubTask11: ""
+  Type: TASKGAMEEVENT
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: "@Quest_18028_Task_13_Description"
+  TP_TargetTag: ""
+  OverrideLocation: 3737.000000 5353.000000 134.886002
+  KillEnemyType: 17_MSQ_UpyrCarmilla_GlobalSuccess
+  InteractTag: ""
+  POITag: upyr_castle_10219
+  ItemName: ""
   ItemDropVC: ""

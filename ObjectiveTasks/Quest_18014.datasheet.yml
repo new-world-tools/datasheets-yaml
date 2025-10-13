@@ -368,7 +368,7 @@
   OverrideLocation: 2431.208008 5465.560059 84.494003
 - TaskID: Quest_18014_Task_9
   SubTask1: Quest_18014_Task_8
-  SubTask2: ""
+  SubTask2: Quest_18014_Task_7_0_0_0_0_0
   SubTask3: ""
   SubTask4: ""
   SubTask5: ""
@@ -422,7 +422,7 @@
   Type: TASKHAVEANDRETURNITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "1"
+  TargetQty: "2"
   Duration: "0.000000"
   ItemDropProbability: "0"
   ChestDropProbability: "100"
@@ -628,12 +628,12 @@
   TP_HideOnCompassOnEnterPOI: "false"
   GameModeMustBeMutated: "false"
   StayActive: "false"
-  IsHidden: "false"
+  IsHidden: "true"
   TriggerAnalyticsEvent: "false"
   HideProgress: "false"
   EnforceLocationRequirement: "false"
   HideDiegeticGatherablePins: "false"
-  ShowDiegeticTaskPin: "true"
+  ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   ItemName: ""
@@ -734,3 +734,49 @@
   POITag: ""
   TP_TargetTag: ""
   OverrideLocation: ""
+- TaskID: Quest_18014_Task_7_0_0_0_0_0
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+  SubTask6: ""
+  Type: TASKTRIGGERAREA
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "true"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  ItemName: ""
+  UIScreenTag: ""
+  TP_DescriptionTag: "@Quest_18014_Task_7_0_0_0_0_0_Description"
+  POITag: ""
+  TP_TargetTag: TV_17_MSQ_ClimbingPuzzle7
+  OverrideLocation: 2474.529053 5469.492188 100.466003

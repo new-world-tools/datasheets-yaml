@@ -1,1 +1,18 @@
-[]
+- ConversationStateId: NPC_18038_State_0
+  ConversationType: Conversation
+  DefaultDialogue: "@NPC_18038_State_0_DefaultDialogue"
+  IsInitialState: "true"
+  RequiredLevel: "0"
+  RequiredFaction: None
+  RequiredFactionCooldown: NotInCooldown
+  ForceConversationOpen: "false"
+  LinearObjectiveId1: ""
+- ConversationStateId: NPC_18038_State_1
+  ConversationType: Conversation
+  DefaultDialogue: "@NPC_18038_State_1_DefaultDialogue"
+  IsInitialState: "false"
+  RequiredLevel: "65"
+  RequiredFaction: None
+  RequiredFactionCooldown: NotInCooldown
+  ForceConversationOpen: "false"
+  LinearObjectiveId1: Quest_18017

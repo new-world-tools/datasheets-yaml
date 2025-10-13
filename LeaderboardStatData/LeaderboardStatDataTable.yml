@@ -4101,6 +4101,28 @@
   GameMode: CaptureTheFlag
   Scope: Character
   PersonalBest: ""
+- LeaderboardStatId: MonthCaptureTheFlagDeaths
+  Notes: ""
+  Namespace: pc
+  Rotation: Month
+  StatType: Deaths
+  Aggregation: Sum
+  ServiceStatId: capture-the-flag-total-deaths
+  CategoricalProgressionId: ""
+  GameMode: CaptureTheFlag
+  Scope: Character
+  PersonalBest: ""
+- LeaderboardStatId: SeasonCaptureTheFlagDeaths
+  Notes: ""
+  Namespace: pc
+  Rotation: Season
+  StatType: Deaths
+  Aggregation: Sum
+  ServiceStatId: capture-the-flag-total-deaths
+  CategoricalProgressionId: ""
+  GameMode: CaptureTheFlag
+  Scope: Character
+  PersonalBest: ""
 - LeaderboardStatId: MonthCaptureTheFlagBestKills
   Notes: ""
   Namespace: pc
@@ -4119,6 +4141,28 @@
   StatType: GameModeFinalKills
   Aggregation: Max
   ServiceStatId: capture-the-flag-best-kills
+  CategoricalProgressionId: ""
+  GameMode: CaptureTheFlag
+  Scope: Character
+  PersonalBest: ""
+- LeaderboardStatId: MonthCaptureTheFlagFlagBearersKilled
+  Notes: ""
+  Namespace: pc
+  Rotation: Month
+  StatType: FlagCarriersKilled
+  Aggregation: Sum
+  ServiceStatId: capture-the-flag-total-flag-bearers-killed
+  CategoricalProgressionId: ""
+  GameMode: CaptureTheFlag
+  Scope: Character
+  PersonalBest: ""
+- LeaderboardStatId: SeasonCaptureTheFlagFlagBearersKilled
+  Notes: ""
+  Namespace: pc
+  Rotation: Season
+  StatType: FlagCarriersKilled
+  Aggregation: Sum
+  ServiceStatId: capture-the-flag-total-flag-bearers-killed
   CategoricalProgressionId: ""
   GameMode: CaptureTheFlag
   Scope: Character

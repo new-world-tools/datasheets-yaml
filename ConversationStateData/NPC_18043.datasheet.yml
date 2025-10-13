@@ -1,1 +1,22 @@
-[]
+- ConversationStateId: NPC_18043_State_0
+  ConversationType: Conversation
+  DefaultDialogue: "@NPC_18043_State_0_DefaultDialogue"
+  IsInitialState: "true"
+  RequiredLevel: "0"
+  RequiredFaction: None
+  RequiredFactionCooldown: NotInCooldown
+  ForceConversationOpen: "false"
+  TopicId1: ""
+  RequiredActiveObjectiveId: ""
+  RequiredActiveTaskId: ""
+- ConversationStateId: NPC_18043_State_1
+  ConversationType: Conversation
+  DefaultDialogue: "@NPC_18043_State_1_DefaultDialogue"
+  IsInitialState: "false"
+  RequiredLevel: "65"
+  RequiredFaction: None
+  RequiredFactionCooldown: NotInCooldown
+  ForceConversationOpen: "false"
+  TopicId1: NPC_18043_State_1_Topic_0
+  RequiredActiveObjectiveId: Quest_18013
+  RequiredActiveTaskId: Quest_18013_Task_3

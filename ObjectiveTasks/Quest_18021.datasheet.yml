@@ -41,12 +41,12 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: ""
+  TP_TargetTag: ""
+  OverrideLocation: ""
   POITag: ""
   ItemName: ""
   KillEnemyType: ""
   InteractTag: ""
-  TP_TargetTag: ""
-  OverrideLocation: ""
 - TaskID: Quest_18021_Task_1
   SubTask1: ""
   SubTask2: ""
@@ -56,7 +56,7 @@
   SubTask6: ""
   SubTask7: ""
   SubTask8: ""
-  Type: TASKGOTOPOITAG
+  Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
   TargetQty: "1"
@@ -86,16 +86,16 @@
   HideProgress: "false"
   EnforceLocationRequirement: "false"
   HideDiegeticGatherablePins: "false"
-  ShowDiegeticTaskPin: "false"
+  ShowDiegeticTaskPin: "true"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18021_Task_1_Description"
+  TP_TargetTag: TV_17_MSQ_BathoryEntrance
+  OverrideLocation: 3997.749023 5906.525879 160.699005
   POITag: upyr_castle_10222
   ItemName: ""
   KillEnemyType: ""
   InteractTag: ""
-  TP_TargetTag: ""
-  OverrideLocation: ""
 - TaskID: Quest_18021_Task_3
   SubTask1: ""
   SubTask2: ""
@@ -139,12 +139,12 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18021_Task_3_Description"
+  TP_TargetTag: ""
+  OverrideLocation: 3994.070068 5895.104004 161.505997
   POITag: ""
   ItemName: Lore_unlock_Topic_17_Nighthaven_Title_01_04
   KillEnemyType: ""
   InteractTag: ""
-  TP_TargetTag: ""
-  OverrideLocation: ""
 - TaskID: Quest_18021_Task_7
   SubTask1: ""
   SubTask2: ""
@@ -188,12 +188,12 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18021_Task_7_Description"
+  TP_TargetTag: ""
+  OverrideLocation: ""
   POITag: upyr_castle_10222
   ItemName: ""
   KillEnemyType: 17_MSQ_DamageableCrates_Interact
   InteractTag: IO_17_MSQ_DamageableCrates
-  TP_TargetTag: ""
-  OverrideLocation: ""
 - TaskID: Quest_18021_Task_8
   SubTask1: ""
   SubTask2: ""
@@ -237,12 +237,12 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18021_Task_8_Description"
+  TP_TargetTag: ""
+  OverrideLocation: ""
   POITag: upyr_castle_10222
   ItemName: ""
   KillEnemyType: 17_MSQ_DamageableDresser_Interact
   InteractTag: IO_17_MSQ_DamageableDresser
-  TP_TargetTag: ""
-  OverrideLocation: ""
 - TaskID: Quest_18021_Task_7_0
   SubTask1: ""
   SubTask2: ""
@@ -286,12 +286,12 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18021_Task_7_0_Description"
+  TP_TargetTag: ""
+  OverrideLocation: ""
   POITag: upyr_castle_10222
   ItemName: ""
   KillEnemyType: 17_MSQ_UpyrNotes_Interact
-  InteractTag: IO_17_MSQ_UpyrNotes_Interact
-  TP_TargetTag: ""
-  OverrideLocation: ""
+  InteractTag: IO_17_MSQ_UpyrNotes
 - TaskID: Quest_18021_Task_2
   SubTask1: ""
   SubTask2: ""
@@ -335,12 +335,12 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18021_Task_2_Description_0"
+  TP_TargetTag: TV_17_MSQ_BathoryDungeonTrap
+  OverrideLocation: 3988.200928 5792.875977 122.999001
   POITag: ""
   ItemName: ""
   KillEnemyType: ""
   InteractTag: ""
-  TP_TargetTag: TV_17_MSQ_BathoryDungeonTrap
-  OverrideLocation: ""
 - TaskID: Quest_18021_Task_4
   SubTask1: ""
   SubTask2: ""
@@ -384,12 +384,12 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18021_Task_4_Description_0"
+  TP_TargetTag: TV_17_MSQ_BathoryDungeonExit
+  OverrideLocation: 3940.793945 5777.066895 127.028000
   POITag: ""
   ItemName: ""
   KillEnemyType: ""
   InteractTag: ""
-  TP_TargetTag: TV_17_MSQ_BathoryDungeonExit
-  OverrideLocation: ""
 - TaskID: Quest_18021_Task_5
   SubTask1: ""
   SubTask2: ""
@@ -433,9 +433,9 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18021_Task_5_Description_0"
+  TP_TargetTag: TV_17_MSQ_BathoryDungeon
+  OverrideLocation: 3988.749023 5817.525879 153.225006
   POITag: ""
   ItemName: ""
   KillEnemyType: ""
   InteractTag: ""
-  TP_TargetTag: TV_17_MSQ_BathoryDungeon
-  OverrideLocation: 3988.749023 5817.525879 153.225006

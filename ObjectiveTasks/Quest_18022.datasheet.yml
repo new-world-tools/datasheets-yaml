@@ -2,6 +2,7 @@
   SubTask1: Quest_18022_Task_1
   SubTask2: Quest_18022_Task_2
   SubTask3: Quest_18022_Task_3
+  SubTask4: Quest_18022_Task_6
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -36,16 +37,19 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: ""
+  TP_TargetTag: ""
+  OverrideLocation: ""
   POITag: ""
   ItemName: ""
   UIScreenTag: ""
-  TP_TargetTag: ""
-  OverrideLocation: ""
+  GameModeID: ""
+  KillEnemyType: ""
 - TaskID: Quest_18022_Task_1
   SubTask1: ""
   SubTask2: ""
   SubTask3: ""
-  Type: TASKGOTOPOITAG
+  SubTask4: ""
+  Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
   TargetQty: "1"
@@ -79,15 +83,18 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18022_Task_1_Description"
+  TP_TargetTag: TV_17_MSQ_MemoraBridge
+  OverrideLocation: 3624.593994 4934.503906 131.001007
   POITag: upyr_castle_10218
   ItemName: ""
   UIScreenTag: ""
-  TP_TargetTag: ""
-  OverrideLocation: ""
+  GameModeID: ""
+  KillEnemyType: ""
 - TaskID: Quest_18022_Task_2
   SubTask1: ""
   SubTask2: ""
   SubTask3: ""
+  SubTask4: ""
   Type: TASKCONVERSATIONTOPIC
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -122,15 +129,18 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18022_Task_2_Description"
+  TP_TargetTag: ""
+  OverrideLocation: ""
   POITag: ""
   ItemName: NPC_18015
   UIScreenTag: NPC_18015_State_1_Topic_0
-  TP_TargetTag: ""
-  OverrideLocation: ""
+  GameModeID: ""
+  KillEnemyType: ""
 - TaskID: Quest_18022_Task_3
   SubTask1: ""
   SubTask2: ""
   SubTask3: ""
+  SubTask4: ""
   Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -165,8 +175,148 @@
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   TP_DescriptionTag: "@Quest_18022_Task_3_Description"
+  TP_TargetTag: TV_17_MSQ_MorgaineSoulTrial
+  OverrideLocation: 3540.266113 4844.059082 235.244003
+  POITag: upyr_castle_10218
+  ItemName: ""
+  UIScreenTag: ""
+  GameModeID: ""
+  KillEnemyType: ""
+- TaskID: Quest_18022_Task_4
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  Type: TASKGAMEMODE
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: "@Quest_18022_Task_4_Description"
+  TP_TargetTag: ""
+  OverrideLocation: 3540.270020 4844.060059 235.244003
+  POITag: upyr_castle_10218
+  ItemName: ""
+  UIScreenTag: ""
+  GameModeID: QuestMorgaine
+  KillEnemyType: ""
+- TaskID: Quest_18022_Task_5
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  Type: TASKGAMEEVENT
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: "@Quest_18022_Task_5_Description"
+  TP_TargetTag: ""
+  OverrideLocation: 3540.270020 4844.060059 235.244003
+  POITag: upyr_castle_10218
+  ItemName: ""
+  UIScreenTag: ""
+  GameModeID: QuestMorgaine
+  KillEnemyType: 17_MSQ_Morgaine_GlobalSuccess
+- TaskID: Quest_18022_Task_6
+  SubTask1: Quest_18022_Task_4
+  SubTask2: Quest_18022_Task_5
+  SubTask3: ""
+  SubTask4: ""
+  Type: CONSECUTIVETASKCONTAINER
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "0"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "true"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "true"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  TP_DescriptionTag: ""
+  TP_TargetTag: ""
+  OverrideLocation: 3540.270020 4844.060059 235.244003
   POITag: ""
   ItemName: ""
   UIScreenTag: ""
-  TP_TargetTag: TV_17_MSQ_MorgaineSoulTrial
-  OverrideLocation: 3540.266113 4844.059082 235.244003
+  GameModeID: ""
+  KillEnemyType: ""

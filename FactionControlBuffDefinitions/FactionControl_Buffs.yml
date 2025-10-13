@@ -154,3 +154,9 @@
   Name: "@ui_free_camping_name"
   Description: "@ui_free_camping_desc"
   Comments: Enables free camping (no resource requirement)
+- FactionControlBuffID: Azoth_FastTravel_GeneralCost_Reduction2
+  IsTerritoryBuff: false
+  Value: 1.0
+  Name: "@ui_azoth_fasttravel_generalcost_reduction_name"
+  Description: "@ui_azoth_fasttravel_generalcost_reduction_desc"
+  Comments: Implemented as a reduction of the azoth base travel cost used in calculating total cost (set by stack config 'javelin.housing.fast-travel-settlement-cost')

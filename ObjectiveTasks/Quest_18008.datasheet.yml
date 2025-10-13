@@ -36,6 +36,8 @@
   TerritoryID: "0"
   ItemName: ""
   TP_DescriptionTag: ""
+  TP_TargetTag: ""
+  OverrideLocation: ""
   POITag: ""
 - TaskID: Quest_18008_Task_1
   SubTask1: ""
@@ -75,11 +77,13 @@
   TerritoryID: "0"
   ItemName: 17_PQ_Vector_Start
   TP_DescriptionTag: ""
+  TP_TargetTag: ""
+  OverrideLocation: ""
   POITag: ""
 - TaskID: Quest_18008_Task_2
   SubTask1: ""
   SubTask2: ""
-  Type: TASKGOTOPOITAG
+  Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
   TargetQty: "1"
@@ -114,4 +118,6 @@
   TerritoryID: "0"
   ItemName: ""
   TP_DescriptionTag: "@Quest_18008_Task_2_Description"
+  TP_TargetTag: TV_17_MSQ_MorgaineStart
+  OverrideLocation: 8203.916992 302.148987 40.638000
   POITag: gorgonslanding_30082

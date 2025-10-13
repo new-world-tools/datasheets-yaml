@@ -1,15 +1,13 @@
 - TaskID: Quest_28001_Task_0
   SubTask1: Quest_28001_Task_1
   SubTask2: Quest_28001_Task_11
-  SubTask3: Quest_28001_Task_12
-  SubTask4: Quest_28001_Task_13
-  SubTask5: Quest_28001_Task_7
-  SubTask6: Quest_28001_Task_4
-  SubTask7: Quest_28001_Task_3
-  SubTask8: Quest_28001_Task_8
-  SubTask9: Quest_28001_Task_9
-  SubTask10: Quest_28001_Task_10
-  SubTask11: Quest_28001_Task_2
+  SubTask3: Quest_28001_Task_9
+  SubTask4: Quest_28001_Task_7
+  SubTask5: Quest_28001_Task_5
+  SubTask6: Quest_28001_Task_8
+  SubTask7: Quest_28001_Task_10
+  SubTask8: Quest_28001_Task_2
+  SubTask9: Quest_28001_Task_3
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -46,6 +44,7 @@
   ItemName: ""
   TP_DescriptionTag: ""
   KillEnemyType: ""
+  InteractTag: ""
   OverrideLocation: ""
   TP_TargetTag: ""
 - TaskID: Quest_28001_Task_7
@@ -58,8 +57,6 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
   Type: TASKUNLOCKACHIEVEMENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -96,6 +93,7 @@
   ItemName: 17_IQ_01_CursedReliquary_IGC_Preload
   TP_DescriptionTag: "@Quest_28001_Task_7_Description"
   KillEnemyType: ""
+  InteractTag: ""
   OverrideLocation: ""
   TP_TargetTag: ""
 - TaskID: Quest_28001_Task_8
@@ -108,8 +106,6 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
   Type: TASKUNLOCKACHIEVEMENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -146,6 +142,7 @@
   ItemName: Start_IGC_17_IQ_01_CursedReliquary
   TP_DescriptionTag: "@Quest_28001_Task_8_Description"
   KillEnemyType: ""
+  InteractTag: ""
   OverrideLocation: ""
   TP_TargetTag: ""
 - TaskID: Quest_28001_Task_3
@@ -158,8 +155,6 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
   Type: TASKUNLOCKACHIEVEMENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -196,6 +191,7 @@
   ItemName: SwapActive_17_IQ_SerCrusader01
   TP_DescriptionTag: "@Quest_28001_Task_3_Description_0"
   KillEnemyType: ""
+  InteractTag: ""
   OverrideLocation: ""
   TP_TargetTag: ""
 - TaskID: Quest_28001_Task_9
@@ -208,8 +204,6 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
   Type: TASKTRIGGERGAMEEVENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -235,7 +229,7 @@
   TP_HideOnCompassOnEnterPOI: "false"
   GameModeMustBeMutated: "false"
   StayActive: "false"
-  IsHidden: "false"
+  IsHidden: "true"
   TriggerAnalyticsEvent: "false"
   HideProgress: "false"
   EnforceLocationRequirement: "false"
@@ -246,6 +240,7 @@
   ItemName: ""
   TP_DescriptionTag: "@Quest_28001_Task_9_Description_1"
   KillEnemyType: 17_IQ_Corruption_Whisper_01
+  InteractTag: ""
   OverrideLocation: ""
   TP_TargetTag: ""
 - TaskID: Quest_28001_Task_10
@@ -258,13 +253,11 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
   Type: TASKTIMER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
   TargetQty: "0"
-  Duration: "22.000000"
+  Duration: "2.000000"
   ItemDropProbability: "0"
   ChestDropProbability: "0"
   MinGearScore: "0"
@@ -296,6 +289,7 @@
   ItemName: ""
   TP_DescriptionTag: "@Quest_28001_Task_10_Description_0"
   KillEnemyType: ""
+  InteractTag: ""
   OverrideLocation: ""
   TP_TargetTag: ""
 - TaskID: Quest_28001_Task_11
@@ -308,8 +302,6 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
   Type: TASKUNLOCKACHIEVEMENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -346,6 +338,7 @@
   ItemName: SwapLore_17_IQ_Title_01_05
   TP_DescriptionTag: "@Quest_28001_Task_11_Description_0"
   KillEnemyType: ""
+  InteractTag: ""
   OverrideLocation: ""
   TP_TargetTag: ""
 - TaskID: Quest_28001_Task_12
@@ -358,9 +351,7 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
-  Type: TASKKILLCONTRIBUTION
+  Type: TASKGAMEEVENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
   TargetQty: "1"
@@ -395,7 +386,8 @@
   TerritoryID: "0"
   ItemName: ""
   TP_DescriptionTag: "@Quest_28001_Task_12_Description_0"
-  KillEnemyType: Corrupted
+  KillEnemyType: Quest_Placeholder_Destructible
+  InteractTag: IO_Quest_Placeholder_Destructible
   OverrideLocation: 5293.088379 6819.117676 145.285400
   TP_TargetTag: ""
 - TaskID: Quest_28001_Task_1
@@ -408,8 +400,6 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
   Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -446,6 +436,7 @@
   ItemName: ""
   TP_DescriptionTag: "@Quest_28001_Task_1_Description_0"
   KillEnemyType: ""
+  InteractTag: ""
   OverrideLocation: 5255.910156 6851.229980 145.559998
   TP_TargetTag: TV_17_IQ_01_SealedEntrance
 - TaskID: Quest_28001_Task_4
@@ -458,8 +449,6 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
   Type: TASKTRIGGERAREA
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -496,58 +485,9 @@
   ItemName: ""
   TP_DescriptionTag: "@Quest_28001_Task_4_Description_0"
   KillEnemyType: ""
+  InteractTag: ""
   OverrideLocation: 5290.808594 6788.260254 145.169800
   TP_TargetTag: TV_17_IQ_01_CursedReliquary
-- TaskID: Quest_28001_Task_13
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-  SubTask6: ""
-  SubTask7: ""
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
-  Type: TASKTRIGGERAREA
-  TriggerAreaType: Enter
-  TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "1"
-  Duration: "0.000000"
-  ItemDropProbability: "0"
-  ChestDropProbability: "0"
-  MinGearScore: "0"
-  GuranteedDropAttempts: "0"
-  TargetThreshold: "0.000000"
-  IsPurchaseOrEarn: "true"
-  IsExactMatch: "false"
-  AwardOnlyOnce: "false"
-  GridLayout: "false"
-  HideChildren: "false"
-  OnInteractStart: "false"
-  FailOnCondition: "false"
-  ResetOnCondition: "false"
-  ShouldCheckPoints: "false"
-  UseGlobalStorage: "true"
-  CraftAnyRecipe: "false"
-  PauseAndClearLootOnTaskComplete: "false"
-  TP_HideOnCompassOnEnterPOI: "false"
-  GameModeMustBeMutated: "false"
-  StayActive: "false"
-  IsHidden: "false"
-  TriggerAnalyticsEvent: "false"
-  HideProgress: "false"
-  EnforceLocationRequirement: "false"
-  HideDiegeticGatherablePins: "false"
-  ShowDiegeticTaskPin: "true"
-  DiegeticPinZOverride: "0.000000"
-  TerritoryID: "0"
-  ItemName: ""
-  TP_DescriptionTag: "@Quest_28001_Task_13_Description_0"
-  KillEnemyType: ""
-  OverrideLocation: 5290.657227 6800.451172 145.122696
-  TP_TargetTag: TV_17_IQ_01_ForbiddenVault
 - TaskID: Quest_28001_Task_2
   SubTask1: ""
   SubTask2: ""
@@ -558,8 +498,6 @@
   SubTask7: ""
   SubTask8: ""
   SubTask9: ""
-  SubTask10: ""
-  SubTask11: ""
   Type: TASKUNLOCKACHIEVEMENT
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -596,5 +534,153 @@
   ItemName: Watched_IGC_17_IQ_01_CursedReliquary
   TP_DescriptionTag: "@Quest_28001_Task_2_Description_1"
   KillEnemyType: ""
+  InteractTag: ""
   OverrideLocation: ""
   TP_TargetTag: ""
+- TaskID: Quest_28001_Task_5
+  SubTask1: Quest_28001_Task_13
+  SubTask2: Quest_28001_Task_6
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+  SubTask6: ""
+  SubTask7: ""
+  SubTask8: ""
+  SubTask9: ""
+  Type: PARTIALTASKCONTAINER
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "0"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "true"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  ItemName: ""
+  TP_DescriptionTag: "@Quest_28001_Task_5_Description_0"
+  KillEnemyType: ""
+  InteractTag: ""
+  OverrideLocation: ""
+  TP_TargetTag: ""
+- TaskID: Quest_28001_Task_6
+  SubTask1: Quest_28001_Task_12
+  SubTask2: Quest_28001_Task_4
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+  SubTask6: ""
+  SubTask7: ""
+  SubTask8: ""
+  SubTask9: ""
+  Type: CONSECUTIVETASKCONTAINER
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "0"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "true"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  ItemName: ""
+  TP_DescriptionTag: ""
+  KillEnemyType: ""
+  InteractTag: ""
+  OverrideLocation: ""
+  TP_TargetTag: ""
+- TaskID: Quest_28001_Task_13
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+  SubTask6: ""
+  SubTask7: ""
+  SubTask8: ""
+  SubTask9: ""
+  Type: TASKTRIGGERAREA
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "true"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  ItemName: ""
+  TP_DescriptionTag: ""
+  KillEnemyType: ""
+  InteractTag: ""
+  OverrideLocation: ""
+  TP_TargetTag: TV_17_IQ_01_CursedReliquary

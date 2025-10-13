@@ -1,7 +1,7 @@
 - TaskID: Quest_18029_Task_0
-  SubTask1: Quest_18029_Task_1
-  SubTask2: Quest_18029_Task_2
-  SubTask3: Quest_18029_Task_3
+  SubTask1: Quest_18029_Task_7
+  SubTask2: Quest_18029_Task_3
+  SubTask3: Quest_18029_Task_9
   SubTask4: Quest_18029_Task_4
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
@@ -40,9 +40,10 @@
   ItemDropVC: ""
   TP_DescriptionTag: ""
   InteractTag: ""
+  OverrideLocation: ""
+  POITag: ""
   UIScreenTag: ""
   CraftingRecipeId: ""
-  OverrideLocation: ""
 - TaskID: Quest_18029_Task_1
   SubTask1: ""
   SubTask2: ""
@@ -51,7 +52,7 @@
   Type: TASKHAVEANDRETURNITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "3"
+  TargetQty: "1"
   Duration: "0.000000"
   ItemDropProbability: "100"
   ChestDropProbability: "0"
@@ -76,7 +77,7 @@
   IsHidden: "false"
   TriggerAnalyticsEvent: "false"
   HideProgress: "false"
-  EnforceLocationRequirement: "false"
+  EnforceLocationRequirement: "true"
   HideDiegeticGatherablePins: "false"
   ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
@@ -85,9 +86,10 @@
   ItemDropVC: 17_MSQ_BoxOfPotions
   TP_DescriptionTag: "@Quest_18029_Task_1_Description"
   InteractTag: IO_17_MSQ_BoxOfPotions
+  OverrideLocation: 4506.087891 7076.846191 156.998993
+  POITag: inquisitor_village_20324
   UIScreenTag: ""
   CraftingRecipeId: ""
-  OverrideLocation: ""
 - TaskID: Quest_18029_Task_2
   SubTask1: ""
   SubTask2: ""
@@ -130,9 +132,10 @@
   ItemDropVC: Corrupted
   TP_DescriptionTag: "@Quest_18029_Task_2_Description"
   InteractTag: ""
+  OverrideLocation: ""
+  POITag: inquisitor_village_20324,ruined_castle_20321,inquisitor_camp_20332
   UIScreenTag: ""
   CraftingRecipeId: ""
-  OverrideLocation: ""
 - TaskID: Quest_18029_Task_3
   SubTask1: ""
   SubTask2: ""
@@ -175,9 +178,10 @@
   ItemDropVC: ""
   TP_DescriptionTag: "@Quest_18029_Task_3_Description"
   InteractTag: ""
+  OverrideLocation: ""
+  POITag: ""
   UIScreenTag: NPC_18061_State_1_Topic_0
   CraftingRecipeId: ""
-  OverrideLocation: ""
 - TaskID: Quest_18029_Task_4
   SubTask1: ""
   SubTask2: ""
@@ -220,6 +224,237 @@
   ItemDropVC: ""
   TP_DescriptionTag: "@Quest_18029_Task_4_Description"
   InteractTag: ""
+  OverrideLocation: 5446.777832 6749.428223 253.158005
+  POITag: ""
   UIScreenTag: ""
   CraftingRecipeId: 17_MSQ_UpyrCure_Recipe
-  OverrideLocation: 5438.290039 6767.458008 250.498001
+- TaskID: Quest_18029_Task_5
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  Type: TASKHAVEANDRETURNITEMS
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "3"
+  Duration: "0.000000"
+  ItemDropProbability: "100"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "true"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "true"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  ItemName: 17_MSQ_Red_Allium_Powder
+  ItemDropVC: 17_MSQ_BoxOfPotions
+  TP_DescriptionTag: "@Quest_18029_Task_5_Description"
+  InteractTag: IO_17_MSQ_BoxOfPotions
+  OverrideLocation: 5196.465820 6934.978027 230.335999
+  POITag: inquisitor_camp_20332
+  UIScreenTag: ""
+  CraftingRecipeId: ""
+- TaskID: Quest_18029_Task_6
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  Type: TASKHAVEANDRETURNITEMS
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "2"
+  Duration: "0.000000"
+  ItemDropProbability: "100"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "true"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "true"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  ItemName: 17_MSQ_Red_Allium_Powder
+  ItemDropVC: 17_MSQ_BoxOfPotions
+  TP_DescriptionTag: "@Quest_18029_Task_6_Description"
+  InteractTag: IO_17_MSQ_BoxOfPotions
+  OverrideLocation: 4975.076172 7045.453125 200.067001
+  POITag: ruined_castle_20321
+  UIScreenTag: ""
+  CraftingRecipeId: ""
+- TaskID: Quest_18029_Task_7
+  SubTask1: Quest_18029_Task_8
+  SubTask2: Quest_18029_Task_2
+  SubTask3: ""
+  SubTask4: ""
+  Type: SIMPLETASKCONTAINER
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "0"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "true"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  ItemName: ""
+  ItemDropVC: ""
+  TP_DescriptionTag: ""
+  InteractTag: ""
+  OverrideLocation: ""
+  POITag: ""
+  UIScreenTag: ""
+  CraftingRecipeId: ""
+- TaskID: Quest_18029_Task_8
+  SubTask1: Quest_18029_Task_1
+  SubTask2: Quest_18029_Task_6
+  SubTask3: Quest_18029_Task_5
+  SubTask4: ""
+  Type: CONSECUTIVETASKCONTAINER
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "0"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "true"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  ItemName: ""
+  ItemDropVC: ""
+  TP_DescriptionTag: ""
+  InteractTag: ""
+  OverrideLocation: ""
+  POITag: ""
+  UIScreenTag: ""
+  CraftingRecipeId: ""
+- TaskID: Quest_18029_Task_9
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  Type: TASKGIVEITEM
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "true"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  ItemName: WorkOrder_17_MSQ_UpyrCure
+  ItemDropVC: ""
+  TP_DescriptionTag: "@Quest_18029_Task_9_Description"
+  InteractTag: ""
+  OverrideLocation: ""
+  POITag: ""
+  UIScreenTag: ""
+  CraftingRecipeId: ""

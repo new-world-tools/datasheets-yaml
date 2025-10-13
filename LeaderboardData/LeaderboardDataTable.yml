@@ -11946,6 +11946,64 @@
   RewardType: ""
   NameString: ""
   ValueString: "@ui_leaderboard_column_total_kills"
+- LeaderboardId: MonthRegionalCaptureTheFlagTotalFlagBearersKilled
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Month
+  LeaderboardDefinitionId: top-capture-the-flag-total-flag-bearers-killed.{month}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_flag_bearers_killed"
+  SecondLevelCategoryPriority: 7.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_regional_only"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_flag_bearers_killed"
+- LeaderboardId: SeasonRegionalCaptureTheFlagTotalFlagBearersKilled
+  IsEnabled: true
+  Namespace: pc
+  Rotation: Season
+  LeaderboardDefinitionId: top-capture-the-flag-total-flag-bearers-killed.{season}
+  FactionLeaderboardDefinitionId: ""
+  DataSheetCategory: PVP CTF
+  DataSheetLBScope: Regional
+  CharacterLeaderboard: true
+  GroupLeaderboard: false
+  CompanyLeaderboard: false
+  FactionLeaderboard: false
+  GameMode: CaptureTheFlag
+  FirstLevelCategory: Vs. Players
+  SecondLevelCategory: "@ui_leaderboard_display_capture_the_flag_flag_bearers_killed"
+  SecondLevelCategoryPriority: 7.0
+  DisplayName: "@ui_leaderboard_display_regional"
+  DisplayNamePriority: 1.0
+  Category: "@ui_leaderboard_category_capture_the_flag"
+  CategoryPriority: null
+  Faction: ""
+  Rewards: ""
+  ItemRewards: ""
+  EntitlementRewards: ""
+  CategoryDescription: "@ui_leaderboard_tip_regional_only"
+  CategoryAdditionalHeader: ""
+  RewardType: ""
+  NameString: ""
+  ValueString: "@ui_leaderboard_column_flag_bearers_killed"
 - LeaderboardId: MonthRegionalCaptureTheFlagTotalAssists
   IsEnabled: true
   Namespace: pc

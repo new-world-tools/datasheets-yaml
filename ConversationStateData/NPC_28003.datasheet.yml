@@ -1,1 +1,20 @@
-[]
+- ConversationStateId: NPC_28003_State_0
+  ConversationType: Conversation
+  DefaultDialogue: "@NPC_28003_State_0_DefaultDialogue"
+  IsInitialState: "true"
+  RequiredLevel: "0"
+  RequiredFaction: None
+  RequiredFactionCooldown: NotInCooldown
+  ForceConversationOpen: "false"
+  TopicId1: ""
+  RequiredAchievement: ""
+- ConversationStateId: NPC_28003_State_1
+  ConversationType: Conversation
+  DefaultDialogue: "@NPC_28003_State_1_DefaultDialogue"
+  IsInitialState: "false"
+  RequiredLevel: "0"
+  RequiredFaction: None
+  RequiredFactionCooldown: NotInCooldown
+  ForceConversationOpen: "false"
+  TopicId1: NPC_28003_State_1_Topic_0
+  RequiredAchievement: 17_IQ_00

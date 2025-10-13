@@ -1,20 +1,39 @@
 - StatusID: GreatAxe_Vortex
   DisplayName: ""
   Description: ""
+  Notes: ""
   EffectCategories: UncategorizedSlow
   PlaceholderIcon: ""
   ShowInUITray: false
+  ShowInTokenTray: ""
+  ShowInStatusWindow: ""
   ShowTextInDamageNumbers: false
+  ShowTextInRemoteDamageNumbers: ""
   FxScriptOn: ""
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
+  IgnoreFxScriptWhenPotencyIsZero: ""
+  WindowHeader: ""
+  RankSorting: ""
   WeaponEffectType: ""
+  ReapplyAfterPersistenceReload: ""
+  PersistEffectInCrossWorldInstances: ""
   Notification: ""
   DisableTelemetry: ""
   IsClientPredicted: ""
+  IsServerOnly: ""
+  ForceServerOnly: ""
   UseLightweightReplication: null
+  AlwaysReplicate: null
+  ForceReplicateToRemotes: ""
+  PauseInGameModesList: ""
+  PauseOnDisable: ""
   PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  HideHudDurationNumbers: ""
   BaseDuration: 3.0
+  DurationMax: 3.0
   TickRate: 1.0
   DelayInitialTick: ""
   TickCondition: ""
@@ -30,32 +49,48 @@
   ScaleAmountOverTime: ""
   ScaleAmountOverTimeMin: ""
   ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
   DamageSkipsDeathsDoor: ""
   Health: 0.0
   HealthMin: ""
+  HealthMinPercent: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: ""
   HealthModifierDamageBased: ""
+  ModDmgBasedMultValue_ForTooltip: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
+  ShowUiDamageNumbersOnHeal: ""
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
   CritChanceModifier: ""
   CritDamageModifier: ""
   OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: ""
+  DontApplyOnEndEffectOnTimeOutDeath: ""
+  OnDeathStatusEffect: ""
   CastSpell: ""
   TargetOwnsSpell: ""
+  DisableCastSpellDurability: ""
   UseSourceWeaponForSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
   FromAlchemy: 0.0
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: ""
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
   TempMod: 0.0
   Stamina: 0.0
   StaminaRate: 0.0
+  MaxStaminaMod: ""
+  MountStaminaRate: ""
+  MountStaminaDrainRate: ""
   Mana: 0.0
   ManaRate: 0.0
   Food: 0.0
@@ -65,11 +100,14 @@
   Encumbrance: 0.0
   ItemClassWeightMods: ""
   XPIncreases: ""
+  XPIncreasesTooltip: ""
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
-  EXPLogging: ""
+  TerritoryStandingMod: ""
+  EXPCategoricalProgression: ""
   EXPMining: ""
+  EXPLogging: ""
   EXPHarvesting: ""
   EXPSkinning: ""
   EXPSmelting: ""
@@ -77,6 +115,8 @@
   EXPLeatherworking: ""
   EXPWeaving: ""
   EXPStonecutting: ""
+  EXPFishing: ""
+  GameEventTypeTradeskillEXPMod: ""
   GrantSanctuary: 0.0
   NoSprint: 0.0
   NoRun: 0.0
@@ -88,23 +128,29 @@
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
   RemoveOnGameModeExit: 1.0
+  RemoveOnDeathsDoorRevive: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
-  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
   UseSourceWeaponForAbilityEffect: ""
+  SlotToFillWeaponDamageInfo: ""
   IsNegative: true
   RespecTradeskills: ""
   RespecAttributes: ""
   EffectDurationMods: ""
+  EffectDurationMods_Tooltip: ""
   EffectPotencyMods: ""
+  RemoveEffectModsOnInactive: ""
   RemoveStatusEffects: ""
   RemoveStatusEffectCategories: ""
   GlobalRollMod: ""
+  LootTags: ""
   FishingLineStrength: ""
   FishSizeRollModifier: ""
+  AttributePlacingMods: ""
   MODConstitution: ""
   MODFocus: ""
   MODStrength: ""
@@ -120,6 +166,7 @@
   MaxGSJewelcrafting: ""
   MaxGSEngineering: ""
   MaxGSArmoring: ""
+  ROLJewelcrafting: ""
   ROLCooking: ""
   ROLWeaving: ""
   ROLStonecutting: ""
@@ -165,6 +212,7 @@
   RESFrostbite: ""
   RESCurse: ""
   RESBlight: ""
+  RESSpores: ""
   BLAStandard: ""
   BLASiege: ""
   BLAStrike: ""
@@ -205,14 +253,17 @@
   DMGCorruption: null
   DMGAcid: null
   DMGVitalsCategory: null
+  DMGVitalsCategory_Tooltip: ""
   AFAPoison: ""
   AFADisease: ""
   AFABleed: ""
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFASpores: ""
+  AFAErosion: ""
+  AFAStunned: ""
   StackDuration: 0.0
-  DurationMax: 3.0
   InheritDuration: ""
   InheritTotalDuration: null
   RefreshDuration: ""
@@ -242,24 +293,82 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ItemLootVolumeMods: ""
   ApplicationCooldown: null
+  ApplicationCooldownAppliedOnRemoval: ""
+  AntirequisiteEffectCategories: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  DismissMount: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  DamageSplitTaken: ""
+  DamageSplitTakenBySource: ""
+  SourceAttributeBasedDurationScalings: ""
+  DurationAttbScalingMaxValue: ""
+  SourceAttributeBasedPotencyScalings: ""
+  PotencyAttbScalingMaxValue: ""
+  CostumeChangeId: ""
+  GrantedSkinId: ""
+  MeshChangeCDF: ""
+  DisableAllNonAttributePerks: ""
+  DisableAllNonAttributePerksExceptionLabels: ""
+  PreventPassiveAbilitiesOnEquip: ""
+  TriggersTutorial: ""
+  JumpModScalar: ""
+  JumpModType: ""
+  AllowAddIfDead: ""
+  MountedOnly: ""
+  RequiredWorldTags: ""
+  DisablePauseOnPersist: ""
+  ReviveSpeedModifier: ""
+  BeingRevivedSpeedModifier: ""
+  ReviveHealthGainedInPctOfMax: ""
+  ReviveHealthGivenInPctOfMax: ""
+  AoeSpellRadiusScaling: ""
+  DamageThreatMultiplier: ""
+  DiminishReturns: ""
 - StatusID: GreatAxe_Vortex_Root
   DisplayName: "@Status_Root"
   Description: "@Status_Root_Description"
+  Notes: ""
   EffectCategories: Debuff+Root
   PlaceholderIcon: lyshineui/images/status/SE_Root.png
   ShowInUITray: true
+  ShowInTokenTray: ""
+  ShowInStatusWindow: ""
   ShowTextInDamageNumbers: false
+  ShowTextInRemoteDamageNumbers: ""
   FxScriptOn: StatFX_Root_ON
   FxScriptOff: StatFX_Root_OFF
   ShouldRefreshFxScript: ""
+  IgnoreFxScriptWhenPotencyIsZero: ""
+  WindowHeader: ""
+  RankSorting: ""
   WeaponEffectType: ""
+  ReapplyAfterPersistenceReload: ""
+  PersistEffectInCrossWorldInstances: ""
   Notification: ""
   DisableTelemetry: ""
   IsClientPredicted: ""
+  IsServerOnly: ""
+  ForceServerOnly: ""
   UseLightweightReplication: null
+  AlwaysReplicate: null
+  ForceReplicateToRemotes: ""
+  PauseInGameModesList: ""
+  PauseOnDisable: ""
   PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  HideHudDurationNumbers: ""
   BaseDuration: 1.0
+  DurationMax: 1.0
   TickRate: 1.0
   DelayInitialTick: ""
   TickCondition: ""
@@ -275,32 +384,48 @@
   ScaleAmountOverTime: ""
   ScaleAmountOverTimeMin: ""
   ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
   DamageSkipsDeathsDoor: ""
   Health: null
   HealthMin: ""
+  HealthMinPercent: ""
   HealthModifierPercent: null
+  HealthModifierBasePercent: ""
   HealthModifierDamageBased: ""
+  ModDmgBasedMultValue_ForTooltip: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
+  ShowUiDamageNumbersOnHeal: ""
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
   CritChanceModifier: ""
   CritDamageModifier: ""
   OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: ""
+  DontApplyOnEndEffectOnTimeOutDeath: ""
+  OnDeathStatusEffect: ""
   CastSpell: ""
   TargetOwnsSpell: ""
+  DisableCastSpellDurability: ""
   UseSourceWeaponForSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
   FromAlchemy: null
   FromSpell: null
   NoHealthRegen: null
   HealMod: null
+  ConsumableHealMod: ""
+  NonConsumableHealMod: ""
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: null
   HealthRate: null
   CoreTempMod: null
   TempMod: null
   Stamina: null
   StaminaRate: null
+  MaxStaminaMod: ""
+  MountStaminaRate: ""
+  MountStaminaDrainRate: ""
   Mana: null
   ManaRate: null
   Food: null
@@ -310,11 +435,14 @@
   Encumbrance: null
   ItemClassWeightMods: ""
   XPIncreases: ""
+  XPIncreasesTooltip: ""
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
-  EXPLogging: ""
+  TerritoryStandingMod: ""
+  EXPCategoricalProgression: ""
   EXPMining: ""
+  EXPLogging: ""
   EXPHarvesting: ""
   EXPSkinning: ""
   EXPSmelting: ""
@@ -322,6 +450,8 @@
   EXPLeatherworking: ""
   EXPWeaving: ""
   EXPStonecutting: ""
+  EXPFishing: ""
+  GameEventTypeTradeskillEXPMod: ""
   GrantSanctuary: 0.0
   NoSprint: 1.0
   NoRun: 1.0
@@ -333,23 +463,29 @@
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
   RemoveOnGameModeExit: null
+  RemoveOnDeathsDoorRevive: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
-  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
   UseSourceWeaponForAbilityEffect: ""
+  SlotToFillWeaponDamageInfo: ""
   IsNegative: true
   RespecTradeskills: ""
   RespecAttributes: ""
   EffectDurationMods: ""
+  EffectDurationMods_Tooltip: ""
   EffectPotencyMods: ""
+  RemoveEffectModsOnInactive: ""
   RemoveStatusEffects: ""
   RemoveStatusEffectCategories: ""
   GlobalRollMod: ""
+  LootTags: ""
   FishingLineStrength: ""
   FishSizeRollModifier: ""
+  AttributePlacingMods: ""
   MODConstitution: ""
   MODFocus: ""
   MODStrength: ""
@@ -365,6 +501,7 @@
   MaxGSJewelcrafting: ""
   MaxGSEngineering: ""
   MaxGSArmoring: ""
+  ROLJewelcrafting: ""
   ROLCooking: ""
   ROLWeaving: ""
   ROLStonecutting: ""
@@ -410,6 +547,7 @@
   RESFrostbite: ""
   RESCurse: ""
   RESBlight: ""
+  RESSpores: ""
   BLAStandard: ""
   BLASiege: ""
   BLAStrike: ""
@@ -450,14 +588,17 @@
   DMGCorruption: null
   DMGAcid: null
   DMGVitalsCategory: null
+  DMGVitalsCategory_Tooltip: ""
   AFAPoison: ""
   AFADisease: ""
   AFABleed: ""
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFASpores: ""
+  AFAErosion: ""
+  AFAStunned: ""
   StackDuration: null
-  DurationMax: 1.0
   InheritDuration: "0"
   InheritTotalDuration: false
   RefreshDuration: "0"
@@ -487,24 +628,82 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ItemLootVolumeMods: ""
   ApplicationCooldown: null
+  ApplicationCooldownAppliedOnRemoval: ""
+  AntirequisiteEffectCategories: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  DismissMount: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  DamageSplitTaken: ""
+  DamageSplitTakenBySource: ""
+  SourceAttributeBasedDurationScalings: ""
+  DurationAttbScalingMaxValue: ""
+  SourceAttributeBasedPotencyScalings: ""
+  PotencyAttbScalingMaxValue: ""
+  CostumeChangeId: ""
+  GrantedSkinId: ""
+  MeshChangeCDF: ""
+  DisableAllNonAttributePerks: ""
+  DisableAllNonAttributePerksExceptionLabels: ""
+  PreventPassiveAbilitiesOnEquip: ""
+  TriggersTutorial: ""
+  JumpModScalar: ""
+  JumpModType: ""
+  AllowAddIfDead: ""
+  MountedOnly: ""
+  RequiredWorldTags: ""
+  DisablePauseOnPersist: ""
+  ReviveSpeedModifier: ""
+  BeingRevivedSpeedModifier: ""
+  ReviveHealthGainedInPctOfMax: ""
+  ReviveHealthGivenInPctOfMax: ""
+  AoeSpellRadiusScaling: ""
+  DamageThreatMultiplier: ""
+  DiminishReturns: ""
 - StatusID: Status_Ultimate_Greataxe_Mauler
   DisplayName: "@Status_Ultimate_Greataxe_Mauler"
   Description: "@Status_Ultimate_Greataxe_Mauler_description"
+  Notes: ""
   EffectCategories: Buff+Empower
   PlaceholderIcon: lyshineui/images/status/SE_EmpowerT1.png
   ShowInUITray: true
+  ShowInTokenTray: ""
+  ShowInStatusWindow: ""
   ShowTextInDamageNumbers: false
+  ShowTextInRemoteDamageNumbers: ""
   FxScriptOn: StatFX_Empower_ON
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
+  IgnoreFxScriptWhenPotencyIsZero: ""
+  WindowHeader: ""
+  RankSorting: ""
   WeaponEffectType: ""
+  ReapplyAfterPersistenceReload: ""
+  PersistEffectInCrossWorldInstances: ""
   Notification: ""
   DisableTelemetry: ""
   IsClientPredicted: ""
+  IsServerOnly: ""
+  ForceServerOnly: ""
   UseLightweightReplication: null
+  AlwaysReplicate: null
+  ForceReplicateToRemotes: ""
+  PauseInGameModesList: ""
+  PauseOnDisable: ""
   PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  HideHudDurationNumbers: ""
   BaseDuration: 3.0
+  DurationMax: 6.0
   TickRate: 1.0
   DelayInitialTick: ""
   TickCondition: ""
@@ -520,32 +719,48 @@
   ScaleAmountOverTime: ""
   ScaleAmountOverTimeMin: ""
   ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
   DamageSkipsDeathsDoor: ""
   Health: 0.0
   HealthMin: ""
+  HealthMinPercent: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: ""
   HealthModifierDamageBased: ""
+  ModDmgBasedMultValue_ForTooltip: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
+  ShowUiDamageNumbersOnHeal: ""
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
   CritChanceModifier: ""
   CritDamageModifier: ""
   OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: ""
+  DontApplyOnEndEffectOnTimeOutDeath: ""
+  OnDeathStatusEffect: ""
   CastSpell: ""
   TargetOwnsSpell: ""
+  DisableCastSpellDurability: ""
   UseSourceWeaponForSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
   FromAlchemy: 0.0
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: ""
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
   TempMod: 0.0
   Stamina: 0.0
   StaminaRate: 0.0
+  MaxStaminaMod: ""
+  MountStaminaRate: ""
+  MountStaminaDrainRate: ""
   Mana: 0.0
   ManaRate: 0.0
   Food: 0.0
@@ -555,11 +770,14 @@
   Encumbrance: 0.0
   ItemClassWeightMods: ""
   XPIncreases: ""
+  XPIncreasesTooltip: ""
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
-  EXPLogging: ""
+  TerritoryStandingMod: ""
+  EXPCategoricalProgression: ""
   EXPMining: ""
+  EXPLogging: ""
   EXPHarvesting: ""
   EXPSkinning: ""
   EXPSmelting: ""
@@ -567,6 +785,8 @@
   EXPLeatherworking: ""
   EXPWeaving: ""
   EXPStonecutting: ""
+  EXPFishing: ""
+  GameEventTypeTradeskillEXPMod: ""
   GrantSanctuary: 0.0
   NoSprint: 0.0
   NoRun: 0.0
@@ -578,23 +798,29 @@
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
   RemoveOnGameModeExit: null
+  RemoveOnDeathsDoorRevive: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
-  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
   UseSourceWeaponForAbilityEffect: ""
+  SlotToFillWeaponDamageInfo: ""
   IsNegative: null
   RespecTradeskills: ""
   RespecAttributes: ""
   EffectDurationMods: ""
+  EffectDurationMods_Tooltip: ""
   EffectPotencyMods: ""
+  RemoveEffectModsOnInactive: ""
   RemoveStatusEffects: ""
   RemoveStatusEffectCategories: ""
   GlobalRollMod: ""
+  LootTags: ""
   FishingLineStrength: ""
   FishSizeRollModifier: ""
+  AttributePlacingMods: ""
   MODConstitution: ""
   MODFocus: ""
   MODStrength: ""
@@ -610,6 +836,7 @@
   MaxGSJewelcrafting: ""
   MaxGSEngineering: ""
   MaxGSArmoring: ""
+  ROLJewelcrafting: ""
   ROLCooking: ""
   ROLWeaving: ""
   ROLStonecutting: ""
@@ -655,6 +882,7 @@
   RESFrostbite: ""
   RESCurse: ""
   RESBlight: ""
+  RESSpores: ""
   BLAStandard: ""
   BLASiege: ""
   BLAStrike: ""
@@ -695,14 +923,17 @@
   DMGCorruption: 0.03
   DMGAcid: 0.03
   DMGVitalsCategory: 0.03
+  DMGVitalsCategory_Tooltip: ""
   AFAPoison: ""
   AFADisease: ""
   AFABleed: ""
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFASpores: ""
+  AFAErosion: ""
+  AFAStunned: ""
   StackDuration: 0.0
-  DurationMax: 6.0
   InheritDuration: "0"
   InheritTotalDuration: null
   RefreshDuration: "TRUE"
@@ -732,24 +963,82 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ItemLootVolumeMods: ""
   ApplicationCooldown: null
+  ApplicationCooldownAppliedOnRemoval: ""
+  AntirequisiteEffectCategories: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  DismissMount: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  DamageSplitTaken: ""
+  DamageSplitTakenBySource: ""
+  SourceAttributeBasedDurationScalings: ""
+  DurationAttbScalingMaxValue: ""
+  SourceAttributeBasedPotencyScalings: ""
+  PotencyAttbScalingMaxValue: ""
+  CostumeChangeId: ""
+  GrantedSkinId: ""
+  MeshChangeCDF: ""
+  DisableAllNonAttributePerks: ""
+  DisableAllNonAttributePerksExceptionLabels: ""
+  PreventPassiveAbilitiesOnEquip: ""
+  TriggersTutorial: ""
+  JumpModScalar: ""
+  JumpModType: ""
+  AllowAddIfDead: ""
+  MountedOnly: ""
+  RequiredWorldTags: ""
+  DisablePauseOnPersist: ""
+  ReviveSpeedModifier: ""
+  BeingRevivedSpeedModifier: ""
+  ReviveHealthGainedInPctOfMax: ""
+  ReviveHealthGivenInPctOfMax: ""
+  AoeSpellRadiusScaling: ""
+  DamageThreatMultiplier: ""
+  DiminishReturns: ""
 - StatusID: Status_Ultimate_Greataxe_Reaper
   DisplayName: "@Status_Ultimate_Greataxe_Reaper"
   Description: "@Status_Ultimate_Greataxe_Reaper_description"
+  Notes: ""
   EffectCategories: Buff+Haste+NonDispellableEmpower
   PlaceholderIcon: lyshineui/images/status/SE_Haste.png
   ShowInUITray: true
+  ShowInTokenTray: ""
+  ShowInStatusWindow: ""
   ShowTextInDamageNumbers: false
+  ShowTextInRemoteDamageNumbers: ""
   FxScriptOn: StatFX_Haste_ON
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
+  IgnoreFxScriptWhenPotencyIsZero: ""
+  WindowHeader: ""
+  RankSorting: ""
   WeaponEffectType: ""
+  ReapplyAfterPersistenceReload: ""
+  PersistEffectInCrossWorldInstances: ""
   Notification: ""
   DisableTelemetry: ""
   IsClientPredicted: ""
+  IsServerOnly: ""
+  ForceServerOnly: ""
   UseLightweightReplication: null
+  AlwaysReplicate: true
+  ForceReplicateToRemotes: ""
+  PauseInGameModesList: ""
+  PauseOnDisable: ""
   PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  HideHudDurationNumbers: ""
   BaseDuration: -1.0
+  DurationMax: null
   TickRate: 1.0
   DelayInitialTick: ""
   TickCondition: ""
@@ -765,32 +1054,48 @@
   ScaleAmountOverTime: ""
   ScaleAmountOverTimeMin: ""
   ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
   DamageSkipsDeathsDoor: ""
   Health: 0.0
   HealthMin: ""
+  HealthMinPercent: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: ""
   HealthModifierDamageBased: ""
+  ModDmgBasedMultValue_ForTooltip: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
+  ShowUiDamageNumbersOnHeal: ""
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
   CritChanceModifier: ""
   CritDamageModifier: ""
   OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: ""
+  DontApplyOnEndEffectOnTimeOutDeath: ""
+  OnDeathStatusEffect: ""
   CastSpell: ""
   TargetOwnsSpell: ""
+  DisableCastSpellDurability: ""
   UseSourceWeaponForSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
   FromAlchemy: 0.0
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: ""
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
   TempMod: 0.0
   Stamina: 0.0
   StaminaRate: 0.0
+  MaxStaminaMod: ""
+  MountStaminaRate: ""
+  MountStaminaDrainRate: ""
   Mana: 0.0
   ManaRate: 0.0
   Food: 0.0
@@ -800,11 +1105,14 @@
   Encumbrance: 0.0
   ItemClassWeightMods: ""
   XPIncreases: ""
+  XPIncreasesTooltip: ""
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
-  EXPLogging: ""
+  TerritoryStandingMod: ""
+  EXPCategoricalProgression: ""
   EXPMining: ""
+  EXPLogging: ""
   EXPHarvesting: ""
   EXPSkinning: ""
   EXPSmelting: ""
@@ -812,6 +1120,8 @@
   EXPLeatherworking: ""
   EXPWeaving: ""
   EXPStonecutting: ""
+  EXPFishing: ""
+  GameEventTypeTradeskillEXPMod: ""
   GrantSanctuary: 0.0
   NoSprint: 0.0
   NoRun: 0.0
@@ -823,23 +1133,29 @@
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
   RemoveOnGameModeExit: 1.0
+  RemoveOnDeathsDoorRevive: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
-  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
   UseSourceWeaponForAbilityEffect: ""
+  SlotToFillWeaponDamageInfo: ""
   IsNegative: null
   RespecTradeskills: ""
   RespecAttributes: ""
   EffectDurationMods: ""
+  EffectDurationMods_Tooltip: ""
   EffectPotencyMods: ""
+  RemoveEffectModsOnInactive: ""
   RemoveStatusEffects: ""
   RemoveStatusEffectCategories: ""
   GlobalRollMod: ""
+  LootTags: ""
   FishingLineStrength: ""
   FishSizeRollModifier: ""
+  AttributePlacingMods: ""
   MODConstitution: ""
   MODFocus: ""
   MODStrength: ""
@@ -855,6 +1171,7 @@
   MaxGSJewelcrafting: ""
   MaxGSEngineering: ""
   MaxGSArmoring: ""
+  ROLJewelcrafting: ""
   ROLCooking: ""
   ROLWeaving: ""
   ROLStonecutting: ""
@@ -900,6 +1217,7 @@
   RESFrostbite: ""
   RESCurse: ""
   RESBlight: ""
+  RESSpores: ""
   BLAStandard: ""
   BLASiege: ""
   BLAStrike: ""
@@ -940,14 +1258,17 @@
   DMGCorruption: 0.15
   DMGAcid: 0.15
   DMGVitalsCategory: null
+  DMGVitalsCategory_Tooltip: ""
   AFAPoison: ""
   AFADisease: ""
   AFABleed: ""
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFASpores: ""
+  AFAErosion: ""
+  AFAStunned: ""
   StackDuration: null
-  DurationMax: null
   InheritDuration: ""
   InheritTotalDuration: null
   RefreshDuration: ""
@@ -977,24 +1298,82 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ItemLootVolumeMods: ""
   ApplicationCooldown: null
+  ApplicationCooldownAppliedOnRemoval: ""
+  AntirequisiteEffectCategories: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  DismissMount: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  DamageSplitTaken: ""
+  DamageSplitTakenBySource: ""
+  SourceAttributeBasedDurationScalings: ""
+  DurationAttbScalingMaxValue: ""
+  SourceAttributeBasedPotencyScalings: ""
+  PotencyAttbScalingMaxValue: ""
+  CostumeChangeId: ""
+  GrantedSkinId: ""
+  MeshChangeCDF: ""
+  DisableAllNonAttributePerks: ""
+  DisableAllNonAttributePerksExceptionLabels: ""
+  PreventPassiveAbilitiesOnEquip: ""
+  TriggersTutorial: ""
+  JumpModScalar: ""
+  JumpModType: ""
+  AllowAddIfDead: ""
+  MountedOnly: ""
+  RequiredWorldTags: ""
+  DisablePauseOnPersist: ""
+  ReviveSpeedModifier: ""
+  BeingRevivedSpeedModifier: ""
+  ReviveHealthGainedInPctOfMax: ""
+  ReviveHealthGivenInPctOfMax: ""
+  AoeSpellRadiusScaling: ""
+  DamageThreatMultiplier: ""
+  DiminishReturns: ""
 - StatusID: Status_Passive_Greataxe_Reaper_DmgOnLight
   DisplayName: "@Status_Empower"
   Description: "@Status_Passive_Greataxe_Reaper_DmgOnLight_description"
+  Notes: ""
   EffectCategories: Buff+Empower
   PlaceholderIcon: lyshineui/images/status/SE_EmpowerT2.png
   ShowInUITray: true
+  ShowInTokenTray: ""
+  ShowInStatusWindow: ""
   ShowTextInDamageNumbers: false
+  ShowTextInRemoteDamageNumbers: ""
   FxScriptOn: StatFX_Empower_ON
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
+  IgnoreFxScriptWhenPotencyIsZero: ""
+  WindowHeader: ""
+  RankSorting: ""
   WeaponEffectType: ""
+  ReapplyAfterPersistenceReload: ""
+  PersistEffectInCrossWorldInstances: ""
   Notification: ""
   DisableTelemetry: ""
   IsClientPredicted: ""
+  IsServerOnly: ""
+  ForceServerOnly: ""
   UseLightweightReplication: null
+  AlwaysReplicate: null
+  ForceReplicateToRemotes: ""
+  PauseInGameModesList: ""
+  PauseOnDisable: ""
   PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  HideHudDurationNumbers: ""
   BaseDuration: 5.0
+  DurationMax: 10.0
   TickRate: 1.0
   DelayInitialTick: ""
   TickCondition: ""
@@ -1010,32 +1389,48 @@
   ScaleAmountOverTime: ""
   ScaleAmountOverTimeMin: ""
   ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
   DamageSkipsDeathsDoor: ""
   Health: 0.0
   HealthMin: ""
+  HealthMinPercent: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: ""
   HealthModifierDamageBased: ""
+  ModDmgBasedMultValue_ForTooltip: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
+  ShowUiDamageNumbersOnHeal: ""
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
   CritChanceModifier: ""
   CritDamageModifier: ""
   OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: ""
+  DontApplyOnEndEffectOnTimeOutDeath: ""
+  OnDeathStatusEffect: ""
   CastSpell: ""
   TargetOwnsSpell: ""
+  DisableCastSpellDurability: ""
   UseSourceWeaponForSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
   FromAlchemy: 0.0
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: ""
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
   TempMod: 0.0
   Stamina: 0.0
   StaminaRate: 0.0
+  MaxStaminaMod: ""
+  MountStaminaRate: ""
+  MountStaminaDrainRate: ""
   Mana: 0.0
   ManaRate: 0.0
   Food: 0.0
@@ -1045,11 +1440,14 @@
   Encumbrance: 0.0
   ItemClassWeightMods: ""
   XPIncreases: ""
+  XPIncreasesTooltip: ""
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
-  EXPLogging: ""
+  TerritoryStandingMod: ""
+  EXPCategoricalProgression: ""
   EXPMining: ""
+  EXPLogging: ""
   EXPHarvesting: ""
   EXPSkinning: ""
   EXPSmelting: ""
@@ -1057,6 +1455,8 @@
   EXPLeatherworking: ""
   EXPWeaving: ""
   EXPStonecutting: ""
+  EXPFishing: ""
+  GameEventTypeTradeskillEXPMod: ""
   GrantSanctuary: 0.0
   NoSprint: 0.0
   NoRun: 0.0
@@ -1068,23 +1468,29 @@
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
   RemoveOnGameModeExit: null
+  RemoveOnDeathsDoorRevive: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
-  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
   UseSourceWeaponForAbilityEffect: ""
+  SlotToFillWeaponDamageInfo: ""
   IsNegative: null
   RespecTradeskills: ""
   RespecAttributes: ""
   EffectDurationMods: ""
+  EffectDurationMods_Tooltip: ""
   EffectPotencyMods: ""
+  RemoveEffectModsOnInactive: ""
   RemoveStatusEffects: ""
   RemoveStatusEffectCategories: ""
   GlobalRollMod: ""
+  LootTags: ""
   FishingLineStrength: ""
   FishSizeRollModifier: ""
+  AttributePlacingMods: ""
   MODConstitution: ""
   MODFocus: ""
   MODStrength: ""
@@ -1100,6 +1506,7 @@
   MaxGSJewelcrafting: ""
   MaxGSEngineering: ""
   MaxGSArmoring: ""
+  ROLJewelcrafting: ""
   ROLCooking: ""
   ROLWeaving: ""
   ROLStonecutting: ""
@@ -1145,6 +1552,7 @@
   RESFrostbite: ""
   RESCurse: ""
   RESBlight: ""
+  RESSpores: ""
   BLAStandard: ""
   BLASiege: ""
   BLAStrike: ""
@@ -1185,14 +1593,17 @@
   DMGCorruption: 0.05
   DMGAcid: 0.05
   DMGVitalsCategory: 0.05
+  DMGVitalsCategory_Tooltip: ""
   AFAPoison: ""
   AFADisease: ""
   AFABleed: ""
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFASpores: ""
+  AFAErosion: ""
+  AFAStunned: ""
   StackDuration: 0.0
-  DurationMax: 10.0
   InheritDuration: "0"
   InheritTotalDuration: false
   RefreshDuration: "0"
@@ -1222,24 +1633,82 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ItemLootVolumeMods: ""
   ApplicationCooldown: null
+  ApplicationCooldownAppliedOnRemoval: ""
+  AntirequisiteEffectCategories: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  DismissMount: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  DamageSplitTaken: ""
+  DamageSplitTakenBySource: ""
+  SourceAttributeBasedDurationScalings: ""
+  DurationAttbScalingMaxValue: ""
+  SourceAttributeBasedPotencyScalings: ""
+  PotencyAttbScalingMaxValue: ""
+  CostumeChangeId: ""
+  GrantedSkinId: ""
+  MeshChangeCDF: ""
+  DisableAllNonAttributePerks: ""
+  DisableAllNonAttributePerksExceptionLabels: ""
+  PreventPassiveAbilitiesOnEquip: ""
+  TriggersTutorial: ""
+  JumpModScalar: ""
+  JumpModType: ""
+  AllowAddIfDead: ""
+  MountedOnly: ""
+  RequiredWorldTags: ""
+  DisablePauseOnPersist: ""
+  ReviveSpeedModifier: ""
+  BeingRevivedSpeedModifier: ""
+  ReviveHealthGainedInPctOfMax: ""
+  ReviveHealthGivenInPctOfMax: ""
+  AoeSpellRadiusScaling: ""
+  DamageThreatMultiplier: ""
+  DiminishReturns: ""
 - StatusID: Status_Passive_Greataxe_Reaper_HasteOnLight
   DisplayName: "@Status_Haste"
   Description: "@Status_Passive_Greataxe_Reaper_HasteOnLight_description"
+  Notes: ""
   EffectCategories: Buff+Haste
   PlaceholderIcon: lyshineui/images/status/SE_Haste.png
   ShowInUITray: true
+  ShowInTokenTray: ""
+  ShowInStatusWindow: ""
   ShowTextInDamageNumbers: false
+  ShowTextInRemoteDamageNumbers: ""
   FxScriptOn: StatFX_Haste_ON
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
+  IgnoreFxScriptWhenPotencyIsZero: ""
+  WindowHeader: ""
+  RankSorting: ""
   WeaponEffectType: ""
+  ReapplyAfterPersistenceReload: ""
+  PersistEffectInCrossWorldInstances: ""
   Notification: ""
   DisableTelemetry: ""
   IsClientPredicted: ""
+  IsServerOnly: ""
+  ForceServerOnly: ""
   UseLightweightReplication: null
+  AlwaysReplicate: null
+  ForceReplicateToRemotes: ""
+  PauseInGameModesList: ""
+  PauseOnDisable: ""
   PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  HideHudDurationNumbers: ""
   BaseDuration: 3.0
+  DurationMax: 6.0
   TickRate: 1.0
   DelayInitialTick: ""
   TickCondition: ""
@@ -1255,32 +1724,48 @@
   ScaleAmountOverTime: ""
   ScaleAmountOverTimeMin: ""
   ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
   DamageSkipsDeathsDoor: ""
   Health: 0.0
   HealthMin: ""
+  HealthMinPercent: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: ""
   HealthModifierDamageBased: ""
+  ModDmgBasedMultValue_ForTooltip: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
+  ShowUiDamageNumbersOnHeal: ""
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
   CritChanceModifier: ""
   CritDamageModifier: ""
   OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: ""
+  DontApplyOnEndEffectOnTimeOutDeath: ""
+  OnDeathStatusEffect: ""
   CastSpell: ""
   TargetOwnsSpell: ""
+  DisableCastSpellDurability: ""
   UseSourceWeaponForSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
   FromAlchemy: 0.0
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: ""
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
   TempMod: 0.0
   Stamina: 0.0
   StaminaRate: 0.0
+  MaxStaminaMod: ""
+  MountStaminaRate: ""
+  MountStaminaDrainRate: ""
   Mana: 0.0
   ManaRate: 0.0
   Food: 0.0
@@ -1290,11 +1775,14 @@
   Encumbrance: 0.0
   ItemClassWeightMods: ""
   XPIncreases: ""
+  XPIncreasesTooltip: ""
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
-  EXPLogging: ""
+  TerritoryStandingMod: ""
+  EXPCategoricalProgression: ""
   EXPMining: ""
+  EXPLogging: ""
   EXPHarvesting: ""
   EXPSkinning: ""
   EXPSmelting: ""
@@ -1302,6 +1790,8 @@
   EXPLeatherworking: ""
   EXPWeaving: ""
   EXPStonecutting: ""
+  EXPFishing: ""
+  GameEventTypeTradeskillEXPMod: ""
   GrantSanctuary: 0.0
   NoSprint: 0.0
   NoRun: 0.0
@@ -1313,23 +1803,29 @@
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
   RemoveOnGameModeExit: 1.0
+  RemoveOnDeathsDoorRevive: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
-  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
   UseSourceWeaponForAbilityEffect: ""
+  SlotToFillWeaponDamageInfo: ""
   IsNegative: null
   RespecTradeskills: ""
   RespecAttributes: ""
   EffectDurationMods: ""
+  EffectDurationMods_Tooltip: ""
   EffectPotencyMods: ""
+  RemoveEffectModsOnInactive: ""
   RemoveStatusEffects: ""
   RemoveStatusEffectCategories: ""
   GlobalRollMod: ""
+  LootTags: ""
   FishingLineStrength: ""
   FishSizeRollModifier: ""
+  AttributePlacingMods: ""
   MODConstitution: ""
   MODFocus: ""
   MODStrength: ""
@@ -1345,6 +1841,7 @@
   MaxGSJewelcrafting: ""
   MaxGSEngineering: ""
   MaxGSArmoring: ""
+  ROLJewelcrafting: ""
   ROLCooking: ""
   ROLWeaving: ""
   ROLStonecutting: ""
@@ -1390,6 +1887,7 @@
   RESFrostbite: ""
   RESCurse: ""
   RESBlight: ""
+  RESSpores: ""
   BLAStandard: ""
   BLASiege: ""
   BLAStrike: ""
@@ -1430,14 +1928,17 @@
   DMGCorruption: null
   DMGAcid: null
   DMGVitalsCategory: null
+  DMGVitalsCategory_Tooltip: ""
   AFAPoison: ""
   AFADisease: ""
   AFABleed: ""
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFASpores: ""
+  AFAErosion: ""
+  AFAStunned: ""
   StackDuration: 0.0
-  DurationMax: 6.0
   InheritDuration: "0"
   InheritTotalDuration: true
   RefreshDuration: "1"
@@ -1467,24 +1968,82 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ItemLootVolumeMods: ""
   ApplicationCooldown: null
+  ApplicationCooldownAppliedOnRemoval: ""
+  AntirequisiteEffectCategories: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  DismissMount: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  DamageSplitTaken: ""
+  DamageSplitTakenBySource: ""
+  SourceAttributeBasedDurationScalings: ""
+  DurationAttbScalingMaxValue: ""
+  SourceAttributeBasedPotencyScalings: ""
+  PotencyAttbScalingMaxValue: ""
+  CostumeChangeId: ""
+  GrantedSkinId: ""
+  MeshChangeCDF: ""
+  DisableAllNonAttributePerks: ""
+  DisableAllNonAttributePerksExceptionLabels: ""
+  PreventPassiveAbilitiesOnEquip: ""
+  TriggersTutorial: ""
+  JumpModScalar: ""
+  JumpModType: ""
+  AllowAddIfDead: ""
+  MountedOnly: ""
+  RequiredWorldTags: ""
+  DisablePauseOnPersist: ""
+  ReviveSpeedModifier: ""
+  BeingRevivedSpeedModifier: ""
+  ReviveHealthGainedInPctOfMax: ""
+  ReviveHealthGivenInPctOfMax: ""
+  AoeSpellRadiusScaling: ""
+  DamageThreatMultiplier: ""
+  DiminishReturns: ""
 - StatusID: Status_Passive_Greataxe_Reaper_DmgWhenBlocked
   DisplayName: "@Status_Empower"
   Description: "@Status_Passive_Greataxe_Reaper_DmgWhenBlocked_description"
+  Notes: ""
   EffectCategories: Buff+Empower
   PlaceholderIcon: lyshineui/images/status/SE_EmpowerT3.png
   ShowInUITray: true
+  ShowInTokenTray: ""
+  ShowInStatusWindow: ""
   ShowTextInDamageNumbers: false
+  ShowTextInRemoteDamageNumbers: ""
   FxScriptOn: StatFX_Empower_ON
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
+  IgnoreFxScriptWhenPotencyIsZero: ""
+  WindowHeader: ""
+  RankSorting: ""
   WeaponEffectType: ""
+  ReapplyAfterPersistenceReload: ""
+  PersistEffectInCrossWorldInstances: ""
   Notification: ""
   DisableTelemetry: ""
   IsClientPredicted: ""
+  IsServerOnly: ""
+  ForceServerOnly: ""
   UseLightweightReplication: null
+  AlwaysReplicate: null
+  ForceReplicateToRemotes: ""
+  PauseInGameModesList: ""
+  PauseOnDisable: ""
   PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  HideHudDurationNumbers: ""
   BaseDuration: 10.0
+  DurationMax: 10.0
   TickRate: 1.0
   DelayInitialTick: ""
   TickCondition: ""
@@ -1500,32 +2059,48 @@
   ScaleAmountOverTime: ""
   ScaleAmountOverTimeMin: ""
   ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
   DamageSkipsDeathsDoor: ""
   Health: 0.0
   HealthMin: ""
+  HealthMinPercent: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: ""
   HealthModifierDamageBased: ""
+  ModDmgBasedMultValue_ForTooltip: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
+  ShowUiDamageNumbersOnHeal: ""
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
   CritChanceModifier: ""
   CritDamageModifier: ""
   OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: ""
+  DontApplyOnEndEffectOnTimeOutDeath: ""
+  OnDeathStatusEffect: ""
   CastSpell: ""
   TargetOwnsSpell: ""
+  DisableCastSpellDurability: ""
   UseSourceWeaponForSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
   FromAlchemy: 0.0
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: ""
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
   TempMod: 0.0
   Stamina: 0.0
   StaminaRate: 0.0
+  MaxStaminaMod: ""
+  MountStaminaRate: ""
+  MountStaminaDrainRate: ""
   Mana: 0.0
   ManaRate: 0.0
   Food: 0.0
@@ -1535,11 +2110,14 @@
   Encumbrance: 0.0
   ItemClassWeightMods: ""
   XPIncreases: ""
+  XPIncreasesTooltip: ""
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
-  EXPLogging: ""
+  TerritoryStandingMod: ""
+  EXPCategoricalProgression: ""
   EXPMining: ""
+  EXPLogging: ""
   EXPHarvesting: ""
   EXPSkinning: ""
   EXPSmelting: ""
@@ -1547,6 +2125,8 @@
   EXPLeatherworking: ""
   EXPWeaving: ""
   EXPStonecutting: ""
+  EXPFishing: ""
+  GameEventTypeTradeskillEXPMod: ""
   GrantSanctuary: 0.0
   NoSprint: 0.0
   NoRun: 0.0
@@ -1558,23 +2138,29 @@
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
   RemoveOnGameModeExit: null
+  RemoveOnDeathsDoorRevive: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
-  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
   UseSourceWeaponForAbilityEffect: ""
+  SlotToFillWeaponDamageInfo: ""
   IsNegative: null
   RespecTradeskills: ""
   RespecAttributes: ""
   EffectDurationMods: ""
+  EffectDurationMods_Tooltip: ""
   EffectPotencyMods: ""
+  RemoveEffectModsOnInactive: ""
   RemoveStatusEffects: ""
   RemoveStatusEffectCategories: ""
   GlobalRollMod: ""
+  LootTags: ""
   FishingLineStrength: ""
   FishSizeRollModifier: ""
+  AttributePlacingMods: ""
   MODConstitution: ""
   MODFocus: ""
   MODStrength: ""
@@ -1590,6 +2176,7 @@
   MaxGSJewelcrafting: ""
   MaxGSEngineering: ""
   MaxGSArmoring: ""
+  ROLJewelcrafting: ""
   ROLCooking: ""
   ROLWeaving: ""
   ROLStonecutting: ""
@@ -1635,6 +2222,7 @@
   RESFrostbite: ""
   RESCurse: ""
   RESBlight: ""
+  RESSpores: ""
   BLAStandard: ""
   BLASiege: ""
   BLAStrike: ""
@@ -1675,14 +2263,17 @@
   DMGCorruption: 0.15
   DMGAcid: 0.15
   DMGVitalsCategory: 0.15
+  DMGVitalsCategory_Tooltip: ""
   AFAPoison: ""
   AFADisease: ""
   AFABleed: ""
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFASpores: ""
+  AFAErosion: ""
+  AFAStunned: ""
   StackDuration: 0.0
-  DurationMax: 10.0
   InheritDuration: "1"
   InheritTotalDuration: null
   RefreshDuration: "TRUE"
@@ -1712,24 +2303,82 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ItemLootVolumeMods: ""
   ApplicationCooldown: null
+  ApplicationCooldownAppliedOnRemoval: ""
+  AntirequisiteEffectCategories: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  DismissMount: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  DamageSplitTaken: ""
+  DamageSplitTakenBySource: ""
+  SourceAttributeBasedDurationScalings: ""
+  DurationAttbScalingMaxValue: ""
+  SourceAttributeBasedPotencyScalings: ""
+  PotencyAttbScalingMaxValue: ""
+  CostumeChangeId: ""
+  GrantedSkinId: ""
+  MeshChangeCDF: ""
+  DisableAllNonAttributePerks: ""
+  DisableAllNonAttributePerksExceptionLabels: ""
+  PreventPassiveAbilitiesOnEquip: ""
+  TriggersTutorial: ""
+  JumpModScalar: ""
+  JumpModType: ""
+  AllowAddIfDead: ""
+  MountedOnly: ""
+  RequiredWorldTags: ""
+  DisablePauseOnPersist: ""
+  ReviveSpeedModifier: ""
+  BeingRevivedSpeedModifier: ""
+  ReviveHealthGainedInPctOfMax: ""
+  ReviveHealthGivenInPctOfMax: ""
+  AoeSpellRadiusScaling: ""
+  DamageThreatMultiplier: ""
+  DiminishReturns: ""
 - StatusID: Status_Passive_Greataxe_Mauler_StamVsLowHp
   DisplayName: ""
   Description: ""
+  Notes: ""
   EffectCategories: ""
   PlaceholderIcon: ""
   ShowInUITray: null
+  ShowInTokenTray: ""
+  ShowInStatusWindow: ""
   ShowTextInDamageNumbers: false
+  ShowTextInRemoteDamageNumbers: ""
   FxScriptOn: ""
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
+  IgnoreFxScriptWhenPotencyIsZero: ""
+  WindowHeader: ""
+  RankSorting: ""
   WeaponEffectType: ""
+  ReapplyAfterPersistenceReload: ""
+  PersistEffectInCrossWorldInstances: ""
   Notification: ""
   DisableTelemetry: ""
   IsClientPredicted: ""
+  IsServerOnly: ""
+  ForceServerOnly: ""
   UseLightweightReplication: true
+  AlwaysReplicate: true
+  ForceReplicateToRemotes: ""
+  PauseInGameModesList: ""
+  PauseOnDisable: ""
   PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  HideHudDurationNumbers: ""
   BaseDuration: 0.1
+  DurationMax: null
   TickRate: 0.25
   DelayInitialTick: ""
   TickCondition: ""
@@ -1745,32 +2394,48 @@
   ScaleAmountOverTime: ""
   ScaleAmountOverTimeMin: ""
   ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
   DamageSkipsDeathsDoor: ""
   Health: null
   HealthMin: ""
+  HealthMinPercent: ""
   HealthModifierPercent: null
+  HealthModifierBasePercent: ""
   HealthModifierDamageBased: ""
+  ModDmgBasedMultValue_ForTooltip: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
+  ShowUiDamageNumbersOnHeal: ""
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
   CritChanceModifier: ""
   CritDamageModifier: ""
   OnEndStatusEffect: Status_Passive_Greataxe_Mauler_StamVsLowHp_Timer
+  DontApplyOnEndEffectOnRemove: ""
+  DontApplyOnEndEffectOnTimeOutDeath: ""
+  OnDeathStatusEffect: ""
   CastSpell: ""
   TargetOwnsSpell: ""
+  DisableCastSpellDurability: ""
   UseSourceWeaponForSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
   FromAlchemy: 0.0
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: ""
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
   TempMod: 0.0
   Stamina: 40.0
   StaminaRate: 0.0
+  MaxStaminaMod: ""
+  MountStaminaRate: ""
+  MountStaminaDrainRate: ""
   Mana: 0.0
   ManaRate: 0.0
   Food: 0.0
@@ -1780,11 +2445,14 @@
   Encumbrance: 0.0
   ItemClassWeightMods: ""
   XPIncreases: ""
+  XPIncreasesTooltip: ""
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
-  EXPLogging: ""
+  TerritoryStandingMod: ""
+  EXPCategoricalProgression: ""
   EXPMining: ""
+  EXPLogging: ""
   EXPHarvesting: ""
   EXPSkinning: ""
   EXPSmelting: ""
@@ -1792,6 +2460,8 @@
   EXPLeatherworking: ""
   EXPWeaving: ""
   EXPStonecutting: ""
+  EXPFishing: ""
+  GameEventTypeTradeskillEXPMod: ""
   GrantSanctuary: 0.0
   NoSprint: 0.0
   NoRun: 0.0
@@ -1803,23 +2473,29 @@
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
   RemoveOnGameModeExit: null
+  RemoveOnDeathsDoorRevive: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
-  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
   UseSourceWeaponForAbilityEffect: ""
+  SlotToFillWeaponDamageInfo: ""
   IsNegative: null
   RespecTradeskills: ""
   RespecAttributes: ""
   EffectDurationMods: ""
+  EffectDurationMods_Tooltip: ""
   EffectPotencyMods: ""
+  RemoveEffectModsOnInactive: ""
   RemoveStatusEffects: ""
   RemoveStatusEffectCategories: ""
   GlobalRollMod: ""
+  LootTags: ""
   FishingLineStrength: ""
   FishSizeRollModifier: ""
+  AttributePlacingMods: ""
   MODConstitution: ""
   MODFocus: ""
   MODStrength: ""
@@ -1835,6 +2511,7 @@
   MaxGSJewelcrafting: ""
   MaxGSEngineering: ""
   MaxGSArmoring: ""
+  ROLJewelcrafting: ""
   ROLCooking: ""
   ROLWeaving: ""
   ROLStonecutting: ""
@@ -1880,6 +2557,7 @@
   RESFrostbite: ""
   RESCurse: ""
   RESBlight: ""
+  RESSpores: ""
   BLAStandard: ""
   BLASiege: ""
   BLAStrike: ""
@@ -1920,14 +2598,17 @@
   DMGCorruption: null
   DMGAcid: null
   DMGVitalsCategory: null
+  DMGVitalsCategory_Tooltip: ""
   AFAPoison: ""
   AFADisease: ""
   AFABleed: ""
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFASpores: ""
+  AFAErosion: ""
+  AFAStunned: ""
   StackDuration: null
-  DurationMax: null
   InheritDuration: ""
   InheritTotalDuration: null
   RefreshDuration: ""
@@ -1957,24 +2638,82 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ItemLootVolumeMods: ""
   ApplicationCooldown: null
+  ApplicationCooldownAppliedOnRemoval: ""
+  AntirequisiteEffectCategories: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  DismissMount: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  DamageSplitTaken: ""
+  DamageSplitTakenBySource: ""
+  SourceAttributeBasedDurationScalings: ""
+  DurationAttbScalingMaxValue: ""
+  SourceAttributeBasedPotencyScalings: ""
+  PotencyAttbScalingMaxValue: ""
+  CostumeChangeId: ""
+  GrantedSkinId: ""
+  MeshChangeCDF: ""
+  DisableAllNonAttributePerks: ""
+  DisableAllNonAttributePerksExceptionLabels: ""
+  PreventPassiveAbilitiesOnEquip: ""
+  TriggersTutorial: ""
+  JumpModScalar: ""
+  JumpModType: ""
+  AllowAddIfDead: ""
+  MountedOnly: ""
+  RequiredWorldTags: ""
+  DisablePauseOnPersist: ""
+  ReviveSpeedModifier: ""
+  BeingRevivedSpeedModifier: ""
+  ReviveHealthGainedInPctOfMax: ""
+  ReviveHealthGivenInPctOfMax: ""
+  AoeSpellRadiusScaling: ""
+  DamageThreatMultiplier: ""
+  DiminishReturns: ""
 - StatusID: Status_Passive_Greataxe_Mauler_DmgOnBlock
   DisplayName: "@Status_Empower"
   Description: "@Status_Passive_Greataxe_Mauler_DmgOnBlock_description"
+  Notes: ""
   EffectCategories: Buff+Empower
   PlaceholderIcon: lyshineui/images/status/SE_EmpowerT1.png
   ShowInUITray: true
+  ShowInTokenTray: ""
+  ShowInStatusWindow: ""
   ShowTextInDamageNumbers: true
+  ShowTextInRemoteDamageNumbers: ""
   FxScriptOn: StatFX_Empower_ON
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
+  IgnoreFxScriptWhenPotencyIsZero: ""
+  WindowHeader: ""
+  RankSorting: ""
   WeaponEffectType: ""
+  ReapplyAfterPersistenceReload: ""
+  PersistEffectInCrossWorldInstances: ""
   Notification: ""
   DisableTelemetry: ""
   IsClientPredicted: ""
+  IsServerOnly: ""
+  ForceServerOnly: ""
   UseLightweightReplication: null
+  AlwaysReplicate: null
+  ForceReplicateToRemotes: ""
+  PauseInGameModesList: ""
+  PauseOnDisable: ""
   PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  HideHudDurationNumbers: ""
   BaseDuration: 5.0
+  DurationMax: 5.0
   TickRate: 1.0
   DelayInitialTick: ""
   TickCondition: ""
@@ -1990,32 +2729,48 @@
   ScaleAmountOverTime: ""
   ScaleAmountOverTimeMin: ""
   ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
   DamageSkipsDeathsDoor: ""
   Health: 0.0
   HealthMin: ""
+  HealthMinPercent: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: ""
   HealthModifierDamageBased: ""
+  ModDmgBasedMultValue_ForTooltip: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
+  ShowUiDamageNumbersOnHeal: ""
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
   CritChanceModifier: ""
   CritDamageModifier: ""
   OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: ""
+  DontApplyOnEndEffectOnTimeOutDeath: ""
+  OnDeathStatusEffect: ""
   CastSpell: ""
   TargetOwnsSpell: ""
+  DisableCastSpellDurability: ""
   UseSourceWeaponForSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
   FromAlchemy: 0.0
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: ""
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
   TempMod: 0.0
   Stamina: 0.0
   StaminaRate: 0.0
+  MaxStaminaMod: ""
+  MountStaminaRate: ""
+  MountStaminaDrainRate: ""
   Mana: 0.0
   ManaRate: 0.0
   Food: 0.0
@@ -2025,11 +2780,14 @@
   Encumbrance: 0.0
   ItemClassWeightMods: ""
   XPIncreases: ""
+  XPIncreasesTooltip: ""
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
-  EXPLogging: ""
+  TerritoryStandingMod: ""
+  EXPCategoricalProgression: ""
   EXPMining: ""
+  EXPLogging: ""
   EXPHarvesting: ""
   EXPSkinning: ""
   EXPSmelting: ""
@@ -2037,6 +2795,8 @@
   EXPLeatherworking: ""
   EXPWeaving: ""
   EXPStonecutting: ""
+  EXPFishing: ""
+  GameEventTypeTradeskillEXPMod: ""
   GrantSanctuary: 0.0
   NoSprint: 0.0
   NoRun: 0.0
@@ -2048,23 +2808,29 @@
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
   RemoveOnGameModeExit: null
+  RemoveOnDeathsDoorRevive: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
-  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
   UseSourceWeaponForAbilityEffect: ""
+  SlotToFillWeaponDamageInfo: ""
   IsNegative: null
   RespecTradeskills: ""
   RespecAttributes: ""
   EffectDurationMods: ""
+  EffectDurationMods_Tooltip: ""
   EffectPotencyMods: ""
+  RemoveEffectModsOnInactive: ""
   RemoveStatusEffects: ""
   RemoveStatusEffectCategories: ""
   GlobalRollMod: ""
+  LootTags: ""
   FishingLineStrength: ""
   FishSizeRollModifier: ""
+  AttributePlacingMods: ""
   MODConstitution: ""
   MODFocus: ""
   MODStrength: ""
@@ -2080,6 +2846,7 @@
   MaxGSJewelcrafting: ""
   MaxGSEngineering: ""
   MaxGSArmoring: ""
+  ROLJewelcrafting: ""
   ROLCooking: ""
   ROLWeaving: ""
   ROLStonecutting: ""
@@ -2125,6 +2892,7 @@
   RESFrostbite: ""
   RESCurse: ""
   RESBlight: ""
+  RESSpores: ""
   BLAStandard: ""
   BLASiege: ""
   BLAStrike: ""
@@ -2165,14 +2933,17 @@
   DMGCorruption: 0.05
   DMGAcid: 0.05
   DMGVitalsCategory: 0.05
+  DMGVitalsCategory_Tooltip: ""
   AFAPoison: ""
   AFADisease: ""
   AFABleed: ""
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFASpores: ""
+  AFAErosion: ""
+  AFAStunned: ""
   StackDuration: 0.0
-  DurationMax: 5.0
   InheritDuration: "1"
   InheritTotalDuration: null
   RefreshDuration: "TRUE"
@@ -2202,24 +2973,82 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ItemLootVolumeMods: ""
   ApplicationCooldown: null
+  ApplicationCooldownAppliedOnRemoval: ""
+  AntirequisiteEffectCategories: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  DismissMount: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  DamageSplitTaken: ""
+  DamageSplitTakenBySource: ""
+  SourceAttributeBasedDurationScalings: ""
+  DurationAttbScalingMaxValue: ""
+  SourceAttributeBasedPotencyScalings: ""
+  PotencyAttbScalingMaxValue: ""
+  CostumeChangeId: ""
+  GrantedSkinId: ""
+  MeshChangeCDF: ""
+  DisableAllNonAttributePerks: ""
+  DisableAllNonAttributePerksExceptionLabels: ""
+  PreventPassiveAbilitiesOnEquip: ""
+  TriggersTutorial: ""
+  JumpModScalar: ""
+  JumpModType: ""
+  AllowAddIfDead: ""
+  MountedOnly: ""
+  RequiredWorldTags: ""
+  DisablePauseOnPersist: ""
+  ReviveSpeedModifier: ""
+  BeingRevivedSpeedModifier: ""
+  ReviveHealthGainedInPctOfMax: ""
+  ReviveHealthGivenInPctOfMax: ""
+  AoeSpellRadiusScaling: ""
+  DamageThreatMultiplier: ""
+  DiminishReturns: ""
 - StatusID: Status_Upgrade_Greataxe_GravityWell_ArmorInWell
   DisplayName: "@Status_Fortify"
   Description: "@Status_Upgrade_Greataxe_GravityWell_ArmorInWell_description"
+  Notes: ""
   EffectCategories: Buff+ArmorFortify
   PlaceholderIcon: lyshineui/images/status/SE_FortifyT3.png
   ShowInUITray: true
+  ShowInTokenTray: ""
+  ShowInStatusWindow: ""
   ShowTextInDamageNumbers: false
+  ShowTextInRemoteDamageNumbers: ""
   FxScriptOn: StatFX_Fortify_ON
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
+  IgnoreFxScriptWhenPotencyIsZero: ""
+  WindowHeader: ""
+  RankSorting: ""
   WeaponEffectType: ""
+  ReapplyAfterPersistenceReload: ""
+  PersistEffectInCrossWorldInstances: ""
   Notification: ""
   DisableTelemetry: ""
   IsClientPredicted: ""
+  IsServerOnly: ""
+  ForceServerOnly: ""
   UseLightweightReplication: null
+  AlwaysReplicate: null
+  ForceReplicateToRemotes: ""
+  PauseInGameModesList: ""
+  PauseOnDisable: ""
   PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  HideHudDurationNumbers: ""
   BaseDuration: -1.0
+  DurationMax: 10.0
   TickRate: null
   DelayInitialTick: ""
   TickCondition: ""
@@ -2235,32 +3064,48 @@
   ScaleAmountOverTime: ""
   ScaleAmountOverTimeMin: ""
   ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
   DamageSkipsDeathsDoor: ""
   Health: 0.0
   HealthMin: ""
+  HealthMinPercent: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: ""
   HealthModifierDamageBased: ""
+  ModDmgBasedMultValue_ForTooltip: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
+  ShowUiDamageNumbersOnHeal: ""
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
   CritChanceModifier: ""
   CritDamageModifier: ""
   OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: ""
+  DontApplyOnEndEffectOnTimeOutDeath: ""
+  OnDeathStatusEffect: ""
   CastSpell: ""
   TargetOwnsSpell: ""
+  DisableCastSpellDurability: ""
   UseSourceWeaponForSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
   FromAlchemy: 0.0
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: ""
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
   TempMod: 0.0
   Stamina: 0.0
   StaminaRate: 0.0
+  MaxStaminaMod: ""
+  MountStaminaRate: ""
+  MountStaminaDrainRate: ""
   Mana: 0.0
   ManaRate: null
   Food: 0.0
@@ -2270,11 +3115,14 @@
   Encumbrance: 0.0
   ItemClassWeightMods: ""
   XPIncreases: ""
+  XPIncreasesTooltip: ""
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
-  EXPLogging: ""
+  TerritoryStandingMod: ""
+  EXPCategoricalProgression: ""
   EXPMining: ""
+  EXPLogging: ""
   EXPHarvesting: ""
   EXPSkinning: ""
   EXPSmelting: ""
@@ -2282,6 +3130,8 @@
   EXPLeatherworking: ""
   EXPWeaving: ""
   EXPStonecutting: ""
+  EXPFishing: ""
+  GameEventTypeTradeskillEXPMod: ""
   GrantSanctuary: 0.0
   NoSprint: 0.0
   NoRun: 0.0
@@ -2293,23 +3143,29 @@
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
   RemoveOnGameModeExit: null
+  RemoveOnDeathsDoorRevive: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
-  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
   UseSourceWeaponForAbilityEffect: ""
+  SlotToFillWeaponDamageInfo: ""
   IsNegative: null
   RespecTradeskills: ""
   RespecAttributes: ""
   EffectDurationMods: ""
+  EffectDurationMods_Tooltip: ""
   EffectPotencyMods: ""
+  RemoveEffectModsOnInactive: ""
   RemoveStatusEffects: ""
   RemoveStatusEffectCategories: ""
   GlobalRollMod: ""
+  LootTags: ""
   FishingLineStrength: ""
   FishSizeRollModifier: ""
+  AttributePlacingMods: ""
   MODConstitution: ""
   MODFocus: ""
   MODStrength: ""
@@ -2325,6 +3181,7 @@
   MaxGSJewelcrafting: ""
   MaxGSEngineering: ""
   MaxGSArmoring: ""
+  ROLJewelcrafting: ""
   ROLCooking: ""
   ROLWeaving: ""
   ROLStonecutting: ""
@@ -2370,6 +3227,7 @@
   RESFrostbite: ""
   RESCurse: ""
   RESBlight: ""
+  RESSpores: ""
   BLAStandard: ""
   BLASiege: ""
   BLAStrike: ""
@@ -2410,14 +3268,17 @@
   DMGCorruption: null
   DMGAcid: null
   DMGVitalsCategory: null
+  DMGVitalsCategory_Tooltip: ""
   AFAPoison: ""
   AFADisease: ""
   AFABleed: ""
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFASpores: ""
+  AFAErosion: ""
+  AFAStunned: ""
   StackDuration: null
-  DurationMax: 10.0
   InheritDuration: ""
   InheritTotalDuration: null
   RefreshDuration: ""
@@ -2447,24 +3308,82 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ItemLootVolumeMods: ""
   ApplicationCooldown: null
+  ApplicationCooldownAppliedOnRemoval: ""
+  AntirequisiteEffectCategories: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  DismissMount: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  DamageSplitTaken: ""
+  DamageSplitTakenBySource: ""
+  SourceAttributeBasedDurationScalings: ""
+  DurationAttbScalingMaxValue: ""
+  SourceAttributeBasedPotencyScalings: ""
+  PotencyAttbScalingMaxValue: ""
+  CostumeChangeId: ""
+  GrantedSkinId: ""
+  MeshChangeCDF: ""
+  DisableAllNonAttributePerks: ""
+  DisableAllNonAttributePerksExceptionLabels: ""
+  PreventPassiveAbilitiesOnEquip: ""
+  TriggersTutorial: ""
+  JumpModScalar: ""
+  JumpModType: ""
+  AllowAddIfDead: ""
+  MountedOnly: ""
+  RequiredWorldTags: ""
+  DisablePauseOnPersist: ""
+  ReviveSpeedModifier: ""
+  BeingRevivedSpeedModifier: ""
+  ReviveHealthGainedInPctOfMax: ""
+  ReviveHealthGivenInPctOfMax: ""
+  AoeSpellRadiusScaling: ""
+  DamageThreatMultiplier: ""
+  DiminishReturns: ""
 - StatusID: Status_Passive_Greataxe_Mauler_StamVsLowHp_Timer
   DisplayName: "@Status_Timer"
   Description: "@Status_Passive_Greataxe_Mauler_StamVsLowHp_Timer_description"
+  Notes: ""
   EffectCategories: Timer
   PlaceholderIcon: lyshineui/images/status/SE_PlaceholderTimer.png
   ShowInUITray: true
+  ShowInTokenTray: ""
+  ShowInStatusWindow: ""
   ShowTextInDamageNumbers: false
+  ShowTextInRemoteDamageNumbers: ""
   FxScriptOn: ""
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
+  IgnoreFxScriptWhenPotencyIsZero: ""
+  WindowHeader: ""
+  RankSorting: ""
   WeaponEffectType: ""
+  ReapplyAfterPersistenceReload: ""
+  PersistEffectInCrossWorldInstances: ""
   Notification: ""
   DisableTelemetry: ""
   IsClientPredicted: ""
+  IsServerOnly: ""
+  ForceServerOnly: ""
   UseLightweightReplication: true
+  AlwaysReplicate: true
+  ForceReplicateToRemotes: ""
+  PauseInGameModesList: ""
+  PauseOnDisable: ""
   PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  HideHudDurationNumbers: ""
   BaseDuration: 20.0
+  DurationMax: null
   TickRate: 21.0
   DelayInitialTick: ""
   TickCondition: ""
@@ -2480,32 +3399,48 @@
   ScaleAmountOverTime: ""
   ScaleAmountOverTimeMin: ""
   ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
   DamageSkipsDeathsDoor: ""
   Health: null
   HealthMin: ""
+  HealthMinPercent: ""
   HealthModifierPercent: null
+  HealthModifierBasePercent: ""
   HealthModifierDamageBased: ""
+  ModDmgBasedMultValue_ForTooltip: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
+  ShowUiDamageNumbersOnHeal: ""
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
   CritChanceModifier: ""
   CritDamageModifier: ""
   OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: ""
+  DontApplyOnEndEffectOnTimeOutDeath: ""
+  OnDeathStatusEffect: ""
   CastSpell: ""
   TargetOwnsSpell: ""
+  DisableCastSpellDurability: ""
   UseSourceWeaponForSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
   FromAlchemy: 0.0
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: ""
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
   TempMod: 0.0
   Stamina: 0.0
   StaminaRate: 0.0
+  MaxStaminaMod: ""
+  MountStaminaRate: ""
+  MountStaminaDrainRate: ""
   Mana: 0.0
   ManaRate: 0.0
   Food: 0.0
@@ -2515,11 +3450,14 @@
   Encumbrance: 0.0
   ItemClassWeightMods: ""
   XPIncreases: ""
+  XPIncreasesTooltip: ""
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
-  EXPLogging: ""
+  TerritoryStandingMod: ""
+  EXPCategoricalProgression: ""
   EXPMining: ""
+  EXPLogging: ""
   EXPHarvesting: ""
   EXPSkinning: ""
   EXPSmelting: ""
@@ -2527,6 +3465,8 @@
   EXPLeatherworking: ""
   EXPWeaving: ""
   EXPStonecutting: ""
+  EXPFishing: ""
+  GameEventTypeTradeskillEXPMod: ""
   GrantSanctuary: 0.0
   NoSprint: 0.0
   NoRun: 0.0
@@ -2538,23 +3478,29 @@
   RemoveOnDeathsDoor: 0.0
   RemoveOnRespawn: ""
   RemoveOnGameModeExit: null
+  RemoveOnDeathsDoorRevive: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
-  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
   UseSourceWeaponForAbilityEffect: ""
+  SlotToFillWeaponDamageInfo: ""
   IsNegative: null
   RespecTradeskills: ""
   RespecAttributes: ""
   EffectDurationMods: ""
+  EffectDurationMods_Tooltip: ""
   EffectPotencyMods: ""
+  RemoveEffectModsOnInactive: ""
   RemoveStatusEffects: ""
   RemoveStatusEffectCategories: ""
   GlobalRollMod: ""
+  LootTags: ""
   FishingLineStrength: ""
   FishSizeRollModifier: ""
+  AttributePlacingMods: ""
   MODConstitution: ""
   MODFocus: ""
   MODStrength: ""
@@ -2570,6 +3516,7 @@
   MaxGSJewelcrafting: ""
   MaxGSEngineering: ""
   MaxGSArmoring: ""
+  ROLJewelcrafting: ""
   ROLCooking: ""
   ROLWeaving: ""
   ROLStonecutting: ""
@@ -2615,6 +3562,7 @@
   RESFrostbite: ""
   RESCurse: ""
   RESBlight: ""
+  RESSpores: ""
   BLAStandard: ""
   BLASiege: ""
   BLAStrike: ""
@@ -2655,14 +3603,17 @@
   DMGCorruption: null
   DMGAcid: null
   DMGVitalsCategory: null
+  DMGVitalsCategory_Tooltip: ""
   AFAPoison: ""
   AFADisease: ""
   AFABleed: ""
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFASpores: ""
+  AFAErosion: ""
+  AFAStunned: ""
   StackDuration: null
-  DurationMax: null
   InheritDuration: ""
   InheritTotalDuration: null
   RefreshDuration: ""
@@ -2692,24 +3643,82 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ItemLootVolumeMods: ""
   ApplicationCooldown: null
+  ApplicationCooldownAppliedOnRemoval: ""
+  AntirequisiteEffectCategories: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  DismissMount: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  DamageSplitTaken: ""
+  DamageSplitTakenBySource: ""
+  SourceAttributeBasedDurationScalings: ""
+  DurationAttbScalingMaxValue: ""
+  SourceAttributeBasedPotencyScalings: ""
+  PotencyAttbScalingMaxValue: ""
+  CostumeChangeId: ""
+  GrantedSkinId: ""
+  MeshChangeCDF: ""
+  DisableAllNonAttributePerks: ""
+  DisableAllNonAttributePerksExceptionLabels: ""
+  PreventPassiveAbilitiesOnEquip: ""
+  TriggersTutorial: ""
+  JumpModScalar: ""
+  JumpModType: ""
+  AllowAddIfDead: ""
+  MountedOnly: ""
+  RequiredWorldTags: ""
+  DisablePauseOnPersist: ""
+  ReviveSpeedModifier: ""
+  BeingRevivedSpeedModifier: ""
+  ReviveHealthGainedInPctOfMax: ""
+  ReviveHealthGivenInPctOfMax: ""
+  AoeSpellRadiusScaling: ""
+  DamageThreatMultiplier: ""
+  DiminishReturns: ""
 - StatusID: Status_Upgrade_Greataxe_Reap_DmgAtRng
   DisplayName: ""
   Description: ""
+  Notes: ""
   EffectCategories: Buff+Empower
   PlaceholderIcon: ""
   ShowInUITray: null
+  ShowInTokenTray: ""
+  ShowInStatusWindow: ""
   ShowTextInDamageNumbers: false
+  ShowTextInRemoteDamageNumbers: ""
   FxScriptOn: ""
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
+  IgnoreFxScriptWhenPotencyIsZero: ""
+  WindowHeader: ""
+  RankSorting: ""
   WeaponEffectType: ""
+  ReapplyAfterPersistenceReload: ""
+  PersistEffectInCrossWorldInstances: ""
   Notification: ""
   DisableTelemetry: ""
   IsClientPredicted: ""
+  IsServerOnly: ""
+  ForceServerOnly: ""
   UseLightweightReplication: null
+  AlwaysReplicate: null
+  ForceReplicateToRemotes: ""
+  PauseInGameModesList: ""
+  PauseOnDisable: ""
   PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  HideHudDurationNumbers: ""
   BaseDuration: 1.0
+  DurationMax: 1.0
   TickRate: 1.0
   DelayInitialTick: ""
   TickCondition: ""
@@ -2725,32 +3734,48 @@
   ScaleAmountOverTime: ""
   ScaleAmountOverTimeMin: ""
   ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
   DamageSkipsDeathsDoor: ""
   Health: 0.0
   HealthMin: ""
+  HealthMinPercent: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: ""
   HealthModifierDamageBased: ""
+  ModDmgBasedMultValue_ForTooltip: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
+  ShowUiDamageNumbersOnHeal: ""
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
   CritChanceModifier: ""
   CritDamageModifier: ""
   OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: ""
+  DontApplyOnEndEffectOnTimeOutDeath: ""
+  OnDeathStatusEffect: ""
   CastSpell: ""
   TargetOwnsSpell: ""
+  DisableCastSpellDurability: ""
   UseSourceWeaponForSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
   FromAlchemy: 0.0
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: ""
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
   TempMod: 0.0
   Stamina: 0.0
   StaminaRate: 0.0
+  MaxStaminaMod: ""
+  MountStaminaRate: ""
+  MountStaminaDrainRate: ""
   Mana: 0.0
   ManaRate: 0.0
   Food: 0.0
@@ -2760,11 +3785,14 @@
   Encumbrance: 0.0
   ItemClassWeightMods: ""
   XPIncreases: ""
+  XPIncreasesTooltip: ""
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
-  EXPLogging: ""
+  TerritoryStandingMod: ""
+  EXPCategoricalProgression: ""
   EXPMining: ""
+  EXPLogging: ""
   EXPHarvesting: ""
   EXPSkinning: ""
   EXPSmelting: ""
@@ -2772,6 +3800,8 @@
   EXPLeatherworking: ""
   EXPWeaving: ""
   EXPStonecutting: ""
+  EXPFishing: ""
+  GameEventTypeTradeskillEXPMod: ""
   GrantSanctuary: 0.0
   NoSprint: 0.0
   NoRun: 0.0
@@ -2783,23 +3813,29 @@
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
   RemoveOnGameModeExit: null
+  RemoveOnDeathsDoorRevive: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
-  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
   UseSourceWeaponForAbilityEffect: ""
+  SlotToFillWeaponDamageInfo: ""
   IsNegative: null
   RespecTradeskills: ""
   RespecAttributes: ""
   EffectDurationMods: ""
+  EffectDurationMods_Tooltip: ""
   EffectPotencyMods: ""
+  RemoveEffectModsOnInactive: ""
   RemoveStatusEffects: ""
   RemoveStatusEffectCategories: ""
   GlobalRollMod: ""
+  LootTags: ""
   FishingLineStrength: ""
   FishSizeRollModifier: ""
+  AttributePlacingMods: ""
   MODConstitution: ""
   MODFocus: ""
   MODStrength: ""
@@ -2815,6 +3851,7 @@
   MaxGSJewelcrafting: ""
   MaxGSEngineering: ""
   MaxGSArmoring: ""
+  ROLJewelcrafting: ""
   ROLCooking: ""
   ROLWeaving: ""
   ROLStonecutting: ""
@@ -2860,6 +3897,7 @@
   RESFrostbite: ""
   RESCurse: ""
   RESBlight: ""
+  RESSpores: ""
   BLAStandard: ""
   BLASiege: ""
   BLAStrike: ""
@@ -2900,14 +3938,17 @@
   DMGCorruption: 0.3
   DMGAcid: 0.3
   DMGVitalsCategory: 0.3
+  DMGVitalsCategory_Tooltip: ""
   AFAPoison: ""
   AFADisease: ""
   AFABleed: ""
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFASpores: ""
+  AFAErosion: ""
+  AFAStunned: ""
   StackDuration: 0.0
-  DurationMax: 1.0
   InheritDuration: "1"
   InheritTotalDuration: null
   RefreshDuration: ""
@@ -2937,24 +3978,82 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ItemLootVolumeMods: ""
   ApplicationCooldown: null
+  ApplicationCooldownAppliedOnRemoval: ""
+  AntirequisiteEffectCategories: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  DismissMount: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  DamageSplitTaken: ""
+  DamageSplitTakenBySource: ""
+  SourceAttributeBasedDurationScalings: ""
+  DurationAttbScalingMaxValue: ""
+  SourceAttributeBasedPotencyScalings: ""
+  PotencyAttbScalingMaxValue: ""
+  CostumeChangeId: ""
+  GrantedSkinId: ""
+  MeshChangeCDF: ""
+  DisableAllNonAttributePerks: ""
+  DisableAllNonAttributePerksExceptionLabels: ""
+  PreventPassiveAbilitiesOnEquip: ""
+  TriggersTutorial: ""
+  JumpModScalar: ""
+  JumpModType: ""
+  AllowAddIfDead: ""
+  MountedOnly: ""
+  RequiredWorldTags: ""
+  DisablePauseOnPersist: ""
+  ReviveSpeedModifier: ""
+  BeingRevivedSpeedModifier: ""
+  ReviveHealthGainedInPctOfMax: ""
+  ReviveHealthGivenInPctOfMax: ""
+  AoeSpellRadiusScaling: ""
+  DamageThreatMultiplier: ""
+  DiminishReturns: ""
 - StatusID: Status_Passive_Greataxe_Mauler_DmgWhenFoesNear
   DisplayName: "@Status_Empower"
   Description: "@Status_Passive_Greataxe_Mauler_DmgWhenFoesNear_description"
+  Notes: ""
   EffectCategories: Buff+Empower
   PlaceholderIcon: lyshineui/images/status/SE_EmpowerT2.png
   ShowInUITray: true
+  ShowInTokenTray: ""
+  ShowInStatusWindow: ""
   ShowTextInDamageNumbers: false
+  ShowTextInRemoteDamageNumbers: ""
   FxScriptOn: StatFX_Empower_ON
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
+  IgnoreFxScriptWhenPotencyIsZero: ""
+  WindowHeader: ""
+  RankSorting: ""
   WeaponEffectType: ""
+  ReapplyAfterPersistenceReload: ""
+  PersistEffectInCrossWorldInstances: ""
   Notification: ""
   DisableTelemetry: ""
   IsClientPredicted: ""
+  IsServerOnly: ""
+  ForceServerOnly: ""
   UseLightweightReplication: null
+  AlwaysReplicate: true
+  ForceReplicateToRemotes: ""
+  PauseInGameModesList: ""
+  PauseOnDisable: ""
   PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  HideHudDurationNumbers: ""
   BaseDuration: -1.0
+  DurationMax: 1.0
   TickRate: null
   DelayInitialTick: ""
   TickCondition: ""
@@ -2970,32 +4069,48 @@
   ScaleAmountOverTime: ""
   ScaleAmountOverTimeMin: ""
   ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
   DamageSkipsDeathsDoor: ""
   Health: 0.0
   HealthMin: ""
+  HealthMinPercent: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: ""
   HealthModifierDamageBased: ""
+  ModDmgBasedMultValue_ForTooltip: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
+  ShowUiDamageNumbersOnHeal: ""
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
   CritChanceModifier: ""
   CritDamageModifier: ""
   OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: ""
+  DontApplyOnEndEffectOnTimeOutDeath: ""
+  OnDeathStatusEffect: ""
   CastSpell: ""
   TargetOwnsSpell: ""
+  DisableCastSpellDurability: ""
   UseSourceWeaponForSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
   FromAlchemy: 0.0
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: ""
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
   TempMod: 0.0
   Stamina: 0.0
   StaminaRate: 0.0
+  MaxStaminaMod: ""
+  MountStaminaRate: ""
+  MountStaminaDrainRate: ""
   Mana: 0.0
   ManaRate: 0.0
   Food: 0.0
@@ -3005,11 +4120,14 @@
   Encumbrance: 0.0
   ItemClassWeightMods: ""
   XPIncreases: ""
+  XPIncreasesTooltip: ""
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
-  EXPLogging: ""
+  TerritoryStandingMod: ""
+  EXPCategoricalProgression: ""
   EXPMining: ""
+  EXPLogging: ""
   EXPHarvesting: ""
   EXPSkinning: ""
   EXPSmelting: ""
@@ -3017,6 +4135,8 @@
   EXPLeatherworking: ""
   EXPWeaving: ""
   EXPStonecutting: ""
+  EXPFishing: ""
+  GameEventTypeTradeskillEXPMod: ""
   GrantSanctuary: 0.0
   NoSprint: 0.0
   NoRun: 0.0
@@ -3028,23 +4148,29 @@
   RemoveOnDeathsDoor: 0.0
   RemoveOnRespawn: ""
   RemoveOnGameModeExit: null
+  RemoveOnDeathsDoorRevive: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
   IgnoreDiminishingReturns: true
   OnlyChangeOwnedStatusEffects: ""
-  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
   UseSourceWeaponForAbilityEffect: ""
+  SlotToFillWeaponDamageInfo: ""
   IsNegative: null
   RespecTradeskills: ""
   RespecAttributes: ""
   EffectDurationMods: ""
+  EffectDurationMods_Tooltip: ""
   EffectPotencyMods: ""
+  RemoveEffectModsOnInactive: ""
   RemoveStatusEffects: ""
   RemoveStatusEffectCategories: ""
   GlobalRollMod: ""
+  LootTags: ""
   FishingLineStrength: ""
   FishSizeRollModifier: ""
+  AttributePlacingMods: ""
   MODConstitution: ""
   MODFocus: ""
   MODStrength: ""
@@ -3060,6 +4186,7 @@
   MaxGSJewelcrafting: ""
   MaxGSEngineering: ""
   MaxGSArmoring: ""
+  ROLJewelcrafting: ""
   ROLCooking: ""
   ROLWeaving: ""
   ROLStonecutting: ""
@@ -3105,6 +4232,7 @@
   RESFrostbite: ""
   RESCurse: ""
   RESBlight: ""
+  RESSpores: ""
   BLAStandard: ""
   BLASiege: ""
   BLAStrike: ""
@@ -3145,14 +4273,17 @@
   DMGCorruption: 0.1
   DMGAcid: 0.1
   DMGVitalsCategory: 0.1
+  DMGVitalsCategory_Tooltip: ""
   AFAPoison: ""
   AFADisease: ""
   AFABleed: ""
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFASpores: ""
+  AFAErosion: ""
+  AFAStunned: ""
   StackDuration: 0.0
-  DurationMax: 1.0
   InheritDuration: "1"
   InheritTotalDuration: null
   RefreshDuration: "TRUE"
@@ -3182,24 +4313,82 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ItemLootVolumeMods: ""
   ApplicationCooldown: null
+  ApplicationCooldownAppliedOnRemoval: ""
+  AntirequisiteEffectCategories: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  DismissMount: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  DamageSplitTaken: ""
+  DamageSplitTakenBySource: ""
+  SourceAttributeBasedDurationScalings: ""
+  DurationAttbScalingMaxValue: ""
+  SourceAttributeBasedPotencyScalings: ""
+  PotencyAttbScalingMaxValue: ""
+  CostumeChangeId: ""
+  GrantedSkinId: ""
+  MeshChangeCDF: ""
+  DisableAllNonAttributePerks: ""
+  DisableAllNonAttributePerksExceptionLabels: ""
+  PreventPassiveAbilitiesOnEquip: ""
+  TriggersTutorial: ""
+  JumpModScalar: ""
+  JumpModType: ""
+  AllowAddIfDead: ""
+  MountedOnly: ""
+  RequiredWorldTags: ""
+  DisablePauseOnPersist: ""
+  ReviveSpeedModifier: ""
+  BeingRevivedSpeedModifier: ""
+  ReviveHealthGainedInPctOfMax: ""
+  ReviveHealthGivenInPctOfMax: ""
+  AoeSpellRadiusScaling: ""
+  DamageThreatMultiplier: ""
+  DiminishReturns: ""
 - StatusID: Status_Passive_Greataxe_Mauler_ArmorWhenFoesNear
   DisplayName: "@Status_Fortify"
   Description: "@Status_Passive_Greataxe_Mauler_ArmorWhenFoesNear_description"
+  Notes: ""
   EffectCategories: Buff+ArmorFortify
   PlaceholderIcon: lyshineui/images/status/SE_FortifyT2.png
   ShowInUITray: true
+  ShowInTokenTray: ""
+  ShowInStatusWindow: ""
   ShowTextInDamageNumbers: false
+  ShowTextInRemoteDamageNumbers: ""
   FxScriptOn: StatFX_Fortify_ON
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
+  IgnoreFxScriptWhenPotencyIsZero: ""
+  WindowHeader: ""
+  RankSorting: ""
   WeaponEffectType: ""
+  ReapplyAfterPersistenceReload: ""
+  PersistEffectInCrossWorldInstances: ""
   Notification: ""
   DisableTelemetry: ""
   IsClientPredicted: ""
+  IsServerOnly: ""
+  ForceServerOnly: ""
   UseLightweightReplication: null
+  AlwaysReplicate: true
+  ForceReplicateToRemotes: ""
+  PauseInGameModesList: ""
+  PauseOnDisable: ""
   PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  HideHudDurationNumbers: ""
   BaseDuration: -1.0
+  DurationMax: null
   TickRate: null
   DelayInitialTick: ""
   TickCondition: ""
@@ -3215,32 +4404,48 @@
   ScaleAmountOverTime: ""
   ScaleAmountOverTimeMin: ""
   ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
   DamageSkipsDeathsDoor: ""
   Health: 0.0
   HealthMin: ""
+  HealthMinPercent: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: ""
   HealthModifierDamageBased: ""
+  ModDmgBasedMultValue_ForTooltip: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
+  ShowUiDamageNumbersOnHeal: ""
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
   CritChanceModifier: ""
   CritDamageModifier: ""
   OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: ""
+  DontApplyOnEndEffectOnTimeOutDeath: ""
+  OnDeathStatusEffect: ""
   CastSpell: ""
   TargetOwnsSpell: ""
+  DisableCastSpellDurability: ""
   UseSourceWeaponForSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
   FromAlchemy: 0.0
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: ""
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
   TempMod: 0.0
   Stamina: 0.0
   StaminaRate: 0.0
+  MaxStaminaMod: ""
+  MountStaminaRate: ""
+  MountStaminaDrainRate: ""
   Mana: 0.0
   ManaRate: null
   Food: 0.0
@@ -3250,11 +4455,14 @@
   Encumbrance: 0.0
   ItemClassWeightMods: ""
   XPIncreases: ""
+  XPIncreasesTooltip: ""
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
-  EXPLogging: ""
+  TerritoryStandingMod: ""
+  EXPCategoricalProgression: ""
   EXPMining: ""
+  EXPLogging: ""
   EXPHarvesting: ""
   EXPSkinning: ""
   EXPSmelting: ""
@@ -3262,6 +4470,8 @@
   EXPLeatherworking: ""
   EXPWeaving: ""
   EXPStonecutting: ""
+  EXPFishing: ""
+  GameEventTypeTradeskillEXPMod: ""
   GrantSanctuary: 0.0
   NoSprint: 0.0
   NoRun: 0.0
@@ -3273,23 +4483,29 @@
   RemoveOnDeathsDoor: 0.0
   RemoveOnRespawn: ""
   RemoveOnGameModeExit: null
+  RemoveOnDeathsDoorRevive: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
-  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
   UseSourceWeaponForAbilityEffect: ""
+  SlotToFillWeaponDamageInfo: ""
   IsNegative: null
   RespecTradeskills: ""
   RespecAttributes: ""
   EffectDurationMods: ""
+  EffectDurationMods_Tooltip: ""
   EffectPotencyMods: ""
+  RemoveEffectModsOnInactive: ""
   RemoveStatusEffects: ""
   RemoveStatusEffectCategories: ""
   GlobalRollMod: ""
+  LootTags: ""
   FishingLineStrength: ""
   FishSizeRollModifier: ""
+  AttributePlacingMods: ""
   MODConstitution: ""
   MODFocus: ""
   MODStrength: ""
@@ -3305,6 +4521,7 @@
   MaxGSJewelcrafting: ""
   MaxGSEngineering: ""
   MaxGSArmoring: ""
+  ROLJewelcrafting: ""
   ROLCooking: ""
   ROLWeaving: ""
   ROLStonecutting: ""
@@ -3350,6 +4567,7 @@
   RESFrostbite: ""
   RESCurse: ""
   RESBlight: ""
+  RESSpores: ""
   BLAStandard: ""
   BLASiege: ""
   BLAStrike: ""
@@ -3390,14 +4608,17 @@
   DMGCorruption: null
   DMGAcid: null
   DMGVitalsCategory: null
+  DMGVitalsCategory_Tooltip: ""
   AFAPoison: ""
   AFADisease: ""
   AFABleed: ""
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFASpores: ""
+  AFAErosion: ""
+  AFAStunned: ""
   StackDuration: null
-  DurationMax: null
   InheritDuration: ""
   InheritTotalDuration: null
   RefreshDuration: ""
@@ -3427,24 +4648,82 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ItemLootVolumeMods: ""
   ApplicationCooldown: null
+  ApplicationCooldownAppliedOnRemoval: ""
+  AntirequisiteEffectCategories: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  DismissMount: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  DamageSplitTaken: ""
+  DamageSplitTakenBySource: ""
+  SourceAttributeBasedDurationScalings: ""
+  DurationAttbScalingMaxValue: ""
+  SourceAttributeBasedPotencyScalings: ""
+  PotencyAttbScalingMaxValue: ""
+  CostumeChangeId: ""
+  GrantedSkinId: ""
+  MeshChangeCDF: ""
+  DisableAllNonAttributePerks: ""
+  DisableAllNonAttributePerksExceptionLabels: ""
+  PreventPassiveAbilitiesOnEquip: ""
+  TriggersTutorial: ""
+  JumpModScalar: ""
+  JumpModType: ""
+  AllowAddIfDead: ""
+  MountedOnly: ""
+  RequiredWorldTags: ""
+  DisablePauseOnPersist: ""
+  ReviveSpeedModifier: ""
+  BeingRevivedSpeedModifier: ""
+  ReviveHealthGainedInPctOfMax: ""
+  ReviveHealthGivenInPctOfMax: ""
+  AoeSpellRadiusScaling: ""
+  DamageThreatMultiplier: ""
+  DiminishReturns: ""
 - StatusID: Status_WhenFoesNearCleanup_Tracker
   DisplayName: ""
   Description: ""
+  Notes: ""
   EffectCategories: ""
   PlaceholderIcon: ""
   ShowInUITray: false
+  ShowInTokenTray: ""
+  ShowInStatusWindow: ""
   ShowTextInDamageNumbers: false
+  ShowTextInRemoteDamageNumbers: ""
   FxScriptOn: ""
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
+  IgnoreFxScriptWhenPotencyIsZero: ""
+  WindowHeader: ""
+  RankSorting: ""
   WeaponEffectType: ""
+  ReapplyAfterPersistenceReload: ""
+  PersistEffectInCrossWorldInstances: ""
   Notification: ""
   DisableTelemetry: ""
   IsClientPredicted: "1"
+  IsServerOnly: ""
+  ForceServerOnly: ""
   UseLightweightReplication: true
+  AlwaysReplicate: true
+  ForceReplicateToRemotes: ""
+  PauseInGameModesList: ""
+  PauseOnDisable: ""
   PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  HideHudDurationNumbers: ""
   BaseDuration: 60.0
+  DurationMax: 60.0
   TickRate: 0.0
   DelayInitialTick: ""
   TickCondition: ""
@@ -3460,32 +4739,48 @@
   ScaleAmountOverTime: ""
   ScaleAmountOverTimeMin: ""
   ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
   DamageSkipsDeathsDoor: ""
   Health: null
   HealthMin: ""
+  HealthMinPercent: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: ""
   HealthModifierDamageBased: ""
+  ModDmgBasedMultValue_ForTooltip: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
+  ShowUiDamageNumbersOnHeal: ""
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
   CritChanceModifier: ""
   CritDamageModifier: ""
   OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: ""
+  DontApplyOnEndEffectOnTimeOutDeath: ""
+  OnDeathStatusEffect: ""
   CastSpell: ""
   TargetOwnsSpell: ""
+  DisableCastSpellDurability: ""
   UseSourceWeaponForSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
   FromAlchemy: 0.0
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: ""
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
   TempMod: 0.0
   Stamina: 0.0
   StaminaRate: 0.0
+  MaxStaminaMod: ""
+  MountStaminaRate: ""
+  MountStaminaDrainRate: ""
   Mana: 0.0
   ManaRate: 0.0
   Food: 0.0
@@ -3495,11 +4790,14 @@
   Encumbrance: 0.0
   ItemClassWeightMods: ""
   XPIncreases: ""
+  XPIncreasesTooltip: ""
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
-  EXPLogging: ""
+  TerritoryStandingMod: ""
+  EXPCategoricalProgression: ""
   EXPMining: ""
+  EXPLogging: ""
   EXPHarvesting: ""
   EXPSkinning: ""
   EXPSmelting: ""
@@ -3507,6 +4805,8 @@
   EXPLeatherworking: ""
   EXPWeaving: ""
   EXPStonecutting: ""
+  EXPFishing: ""
+  GameEventTypeTradeskillEXPMod: ""
   GrantSanctuary: 0.0
   NoSprint: 0.0
   NoRun: 0.0
@@ -3518,23 +4818,29 @@
   RemoveOnDeathsDoor: 0.0
   RemoveOnRespawn: ""
   RemoveOnGameModeExit: null
+  RemoveOnDeathsDoorRevive: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
-  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
   UseSourceWeaponForAbilityEffect: ""
+  SlotToFillWeaponDamageInfo: ""
   IsNegative: null
   RespecTradeskills: ""
   RespecAttributes: ""
   EffectDurationMods: ""
+  EffectDurationMods_Tooltip: ""
   EffectPotencyMods: ""
+  RemoveEffectModsOnInactive: ""
   RemoveStatusEffects: ""
   RemoveStatusEffectCategories: ""
   GlobalRollMod: ""
+  LootTags: ""
   FishingLineStrength: ""
   FishSizeRollModifier: ""
+  AttributePlacingMods: ""
   MODConstitution: ""
   MODFocus: ""
   MODStrength: ""
@@ -3550,6 +4856,7 @@
   MaxGSJewelcrafting: ""
   MaxGSEngineering: ""
   MaxGSArmoring: ""
+  ROLJewelcrafting: ""
   ROLCooking: ""
   ROLWeaving: ""
   ROLStonecutting: ""
@@ -3595,6 +4902,7 @@
   RESFrostbite: ""
   RESCurse: ""
   RESBlight: ""
+  RESSpores: ""
   BLAStandard: ""
   BLASiege: ""
   BLAStrike: ""
@@ -3635,14 +4943,17 @@
   DMGCorruption: null
   DMGAcid: null
   DMGVitalsCategory: null
+  DMGVitalsCategory_Tooltip: ""
   AFAPoison: ""
   AFADisease: ""
   AFABleed: ""
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFASpores: ""
+  AFAErosion: ""
+  AFAStunned: ""
   StackDuration: null
-  DurationMax: 60.0
   InheritDuration: ""
   InheritTotalDuration: null
   RefreshDuration: ""
@@ -3672,24 +4983,82 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ItemLootVolumeMods: ""
   ApplicationCooldown: null
+  ApplicationCooldownAppliedOnRemoval: ""
+  AntirequisiteEffectCategories: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  DismissMount: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  DamageSplitTaken: ""
+  DamageSplitTakenBySource: ""
+  SourceAttributeBasedDurationScalings: ""
+  DurationAttbScalingMaxValue: ""
+  SourceAttributeBasedPotencyScalings: ""
+  PotencyAttbScalingMaxValue: ""
+  CostumeChangeId: ""
+  GrantedSkinId: ""
+  MeshChangeCDF: ""
+  DisableAllNonAttributePerks: ""
+  DisableAllNonAttributePerksExceptionLabels: ""
+  PreventPassiveAbilitiesOnEquip: ""
+  TriggersTutorial: ""
+  JumpModScalar: ""
+  JumpModType: ""
+  AllowAddIfDead: ""
+  MountedOnly: ""
+  RequiredWorldTags: ""
+  DisablePauseOnPersist: ""
+  ReviveSpeedModifier: ""
+  BeingRevivedSpeedModifier: ""
+  ReviveHealthGainedInPctOfMax: ""
+  ReviveHealthGivenInPctOfMax: ""
+  AoeSpellRadiusScaling: ""
+  DamageThreatMultiplier: ""
+  DiminishReturns: ""
 - StatusID: Status_WhenFoesNearCleanup
   DisplayName: ""
   Description: ""
+  Notes: ""
   EffectCategories: ""
   PlaceholderIcon: ""
   ShowInUITray: false
+  ShowInTokenTray: ""
+  ShowInStatusWindow: ""
   ShowTextInDamageNumbers: false
+  ShowTextInRemoteDamageNumbers: ""
   FxScriptOn: ""
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
+  IgnoreFxScriptWhenPotencyIsZero: ""
+  WindowHeader: ""
+  RankSorting: ""
   WeaponEffectType: ""
+  ReapplyAfterPersistenceReload: ""
+  PersistEffectInCrossWorldInstances: ""
   Notification: ""
   DisableTelemetry: ""
   IsClientPredicted: "1"
+  IsServerOnly: ""
+  ForceServerOnly: ""
   UseLightweightReplication: true
+  AlwaysReplicate: true
+  ForceReplicateToRemotes: ""
+  PauseInGameModesList: ""
+  PauseOnDisable: ""
   PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  HideHudDurationNumbers: ""
   BaseDuration: 0.1
+  DurationMax: 1.0
   TickRate: 0.0
   DelayInitialTick: ""
   TickCondition: ""
@@ -3705,32 +5074,48 @@
   ScaleAmountOverTime: ""
   ScaleAmountOverTimeMin: ""
   ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
   DamageSkipsDeathsDoor: ""
   Health: null
   HealthMin: ""
+  HealthMinPercent: ""
   HealthModifierPercent: 0.0
+  HealthModifierBasePercent: ""
   HealthModifierDamageBased: ""
+  ModDmgBasedMultValue_ForTooltip: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
+  ShowUiDamageNumbersOnHeal: ""
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
   CritChanceModifier: ""
   CritDamageModifier: ""
   OnEndStatusEffect: Status_WhenFoesNearCleanup
+  DontApplyOnEndEffectOnRemove: ""
+  DontApplyOnEndEffectOnTimeOutDeath: ""
+  OnDeathStatusEffect: ""
   CastSpell: ""
   TargetOwnsSpell: ""
+  DisableCastSpellDurability: ""
   UseSourceWeaponForSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
   FromAlchemy: 0.0
   FromSpell: 0.0
   NoHealthRegen: 0.0
   HealMod: 0.0
+  ConsumableHealMod: ""
+  NonConsumableHealMod: ""
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: 0.0
   HealthRate: 0.0
   CoreTempMod: 0.0
   TempMod: 0.0
   Stamina: 0.0
   StaminaRate: 0.0
+  MaxStaminaMod: ""
+  MountStaminaRate: ""
+  MountStaminaDrainRate: ""
   Mana: 0.0
   ManaRate: 0.0
   Food: 0.0
@@ -3740,11 +5125,14 @@
   Encumbrance: 0.0
   ItemClassWeightMods: ""
   XPIncreases: ""
+  XPIncreasesTooltip: ""
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
-  EXPLogging: ""
+  TerritoryStandingMod: ""
+  EXPCategoricalProgression: ""
   EXPMining: ""
+  EXPLogging: ""
   EXPHarvesting: ""
   EXPSkinning: ""
   EXPSmelting: ""
@@ -3752,6 +5140,8 @@
   EXPLeatherworking: ""
   EXPWeaving: ""
   EXPStonecutting: ""
+  EXPFishing: ""
+  GameEventTypeTradeskillEXPMod: ""
   GrantSanctuary: 0.0
   NoSprint: 0.0
   NoRun: 0.0
@@ -3763,23 +5153,29 @@
   RemoveOnDeathsDoor: null
   RemoveOnRespawn: ""
   RemoveOnGameModeExit: null
+  RemoveOnDeathsDoorRevive: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
-  AlwaysReplicate: true
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
   UseSourceWeaponForAbilityEffect: ""
+  SlotToFillWeaponDamageInfo: ""
   IsNegative: null
   RespecTradeskills: ""
   RespecAttributes: ""
   EffectDurationMods: ""
+  EffectDurationMods_Tooltip: ""
   EffectPotencyMods: ""
+  RemoveEffectModsOnInactive: ""
   RemoveStatusEffects: ""
   RemoveStatusEffectCategories: ""
   GlobalRollMod: ""
+  LootTags: ""
   FishingLineStrength: ""
   FishSizeRollModifier: ""
+  AttributePlacingMods: ""
   MODConstitution: ""
   MODFocus: ""
   MODStrength: ""
@@ -3795,6 +5191,7 @@
   MaxGSJewelcrafting: ""
   MaxGSEngineering: ""
   MaxGSArmoring: ""
+  ROLJewelcrafting: ""
   ROLCooking: ""
   ROLWeaving: ""
   ROLStonecutting: ""
@@ -3840,6 +5237,7 @@
   RESFrostbite: ""
   RESCurse: ""
   RESBlight: ""
+  RESSpores: ""
   BLAStandard: ""
   BLASiege: ""
   BLAStrike: ""
@@ -3880,14 +5278,17 @@
   DMGCorruption: null
   DMGAcid: null
   DMGVitalsCategory: null
+  DMGVitalsCategory_Tooltip: ""
   AFAPoison: ""
   AFADisease: ""
   AFABleed: ""
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFASpores: ""
+  AFAErosion: ""
+  AFAStunned: ""
   StackDuration: null
-  DurationMax: 1.0
   InheritDuration: ""
   InheritTotalDuration: null
   RefreshDuration: ""
@@ -3917,24 +5318,82 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ItemLootVolumeMods: ""
   ApplicationCooldown: null
+  ApplicationCooldownAppliedOnRemoval: ""
+  AntirequisiteEffectCategories: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  DismissMount: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  DamageSplitTaken: ""
+  DamageSplitTakenBySource: ""
+  SourceAttributeBasedDurationScalings: ""
+  DurationAttbScalingMaxValue: ""
+  SourceAttributeBasedPotencyScalings: ""
+  PotencyAttbScalingMaxValue: ""
+  CostumeChangeId: ""
+  GrantedSkinId: ""
+  MeshChangeCDF: ""
+  DisableAllNonAttributePerks: ""
+  DisableAllNonAttributePerksExceptionLabels: ""
+  PreventPassiveAbilitiesOnEquip: ""
+  TriggersTutorial: ""
+  JumpModScalar: ""
+  JumpModType: ""
+  AllowAddIfDead: ""
+  MountedOnly: ""
+  RequiredWorldTags: ""
+  DisablePauseOnPersist: ""
+  ReviveSpeedModifier: ""
+  BeingRevivedSpeedModifier: ""
+  ReviveHealthGainedInPctOfMax: ""
+  ReviveHealthGivenInPctOfMax: ""
+  AoeSpellRadiusScaling: ""
+  DamageThreatMultiplier: ""
+  DiminishReturns: ""
 - StatusID: Status_Passive_GreatAxe_Gravity_Root
   DisplayName: ""
   Description: ""
+  Notes: ""
   EffectCategories: Tracking
   PlaceholderIcon: ""
   ShowInUITray: false
+  ShowInTokenTray: ""
+  ShowInStatusWindow: ""
   ShowTextInDamageNumbers: false
+  ShowTextInRemoteDamageNumbers: ""
   FxScriptOn: ""
   FxScriptOff: ""
   ShouldRefreshFxScript: ""
+  IgnoreFxScriptWhenPotencyIsZero: ""
+  WindowHeader: ""
+  RankSorting: ""
   WeaponEffectType: ""
+  ReapplyAfterPersistenceReload: ""
+  PersistEffectInCrossWorldInstances: ""
   Notification: ""
   DisableTelemetry: ""
   IsClientPredicted: "0"
+  IsServerOnly: ""
+  ForceServerOnly: ""
   UseLightweightReplication: false
+  AlwaysReplicate: null
+  ForceReplicateToRemotes: ""
+  PauseInGameModesList: ""
+  PauseOnDisable: ""
   PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  HideHudDurationNumbers: ""
   BaseDuration: 0.33
+  DurationMax: 1.0
   TickRate: 1.0
   DelayInitialTick: ""
   TickCondition: ""
@@ -3950,32 +5409,48 @@
   ScaleAmountOverTime: ""
   ScaleAmountOverTimeMin: ""
   ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
   DamageSkipsDeathsDoor: ""
   Health: null
   HealthMin: ""
+  HealthMinPercent: ""
   HealthModifierPercent: null
+  HealthModifierBasePercent: ""
   HealthModifierDamageBased: ""
+  ModDmgBasedMultValue_ForTooltip: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
+  ShowUiDamageNumbersOnHeal: ""
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
   CritChanceModifier: ""
   CritDamageModifier: ""
   OnEndStatusEffect: Status_Passive_GreatAxe_Gravity_Root_Hold
+  DontApplyOnEndEffectOnRemove: ""
+  DontApplyOnEndEffectOnTimeOutDeath: ""
+  OnDeathStatusEffect: ""
   CastSpell: ""
   TargetOwnsSpell: ""
+  DisableCastSpellDurability: ""
   UseSourceWeaponForSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
   FromAlchemy: null
   FromSpell: null
   NoHealthRegen: null
   HealMod: null
+  ConsumableHealMod: ""
+  NonConsumableHealMod: ""
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: null
   HealthRate: null
   CoreTempMod: null
   TempMod: null
   Stamina: null
   StaminaRate: null
+  MaxStaminaMod: ""
+  MountStaminaRate: ""
+  MountStaminaDrainRate: ""
   Mana: null
   ManaRate: null
   Food: null
@@ -3985,11 +5460,14 @@
   Encumbrance: null
   ItemClassWeightMods: ""
   XPIncreases: ""
+  XPIncreasesTooltip: ""
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
-  EXPLogging: ""
+  TerritoryStandingMod: ""
+  EXPCategoricalProgression: ""
   EXPMining: ""
+  EXPLogging: ""
   EXPHarvesting: ""
   EXPSkinning: ""
   EXPSmelting: ""
@@ -3997,6 +5475,8 @@
   EXPLeatherworking: ""
   EXPWeaving: ""
   EXPStonecutting: ""
+  EXPFishing: ""
+  GameEventTypeTradeskillEXPMod: ""
   GrantSanctuary: 0.0
   NoSprint: 0.0
   NoRun: 0.0
@@ -4008,23 +5488,29 @@
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
   RemoveOnGameModeExit: null
+  RemoveOnDeathsDoorRevive: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
-  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
   UseSourceWeaponForAbilityEffect: ""
+  SlotToFillWeaponDamageInfo: ""
   IsNegative: true
   RespecTradeskills: ""
   RespecAttributes: ""
   EffectDurationMods: ""
+  EffectDurationMods_Tooltip: ""
   EffectPotencyMods: ""
+  RemoveEffectModsOnInactive: ""
   RemoveStatusEffects: ""
   RemoveStatusEffectCategories: ""
   GlobalRollMod: ""
+  LootTags: ""
   FishingLineStrength: ""
   FishSizeRollModifier: ""
+  AttributePlacingMods: ""
   MODConstitution: ""
   MODFocus: ""
   MODStrength: ""
@@ -4040,6 +5526,7 @@
   MaxGSJewelcrafting: ""
   MaxGSEngineering: ""
   MaxGSArmoring: ""
+  ROLJewelcrafting: ""
   ROLCooking: ""
   ROLWeaving: ""
   ROLStonecutting: ""
@@ -4085,6 +5572,7 @@
   RESFrostbite: ""
   RESCurse: ""
   RESBlight: ""
+  RESSpores: ""
   BLAStandard: ""
   BLASiege: ""
   BLAStrike: ""
@@ -4125,14 +5613,17 @@
   DMGCorruption: null
   DMGAcid: null
   DMGVitalsCategory: null
+  DMGVitalsCategory_Tooltip: ""
   AFAPoison: ""
   AFADisease: ""
   AFABleed: ""
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFASpores: ""
+  AFAErosion: ""
+  AFAStunned: ""
   StackDuration: null
-  DurationMax: 1.0
   InheritDuration: "0"
   InheritTotalDuration: false
   RefreshDuration: "0"
@@ -4162,24 +5653,82 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ItemLootVolumeMods: ""
   ApplicationCooldown: 1.0
+  ApplicationCooldownAppliedOnRemoval: ""
+  AntirequisiteEffectCategories: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  DismissMount: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  DamageSplitTaken: ""
+  DamageSplitTakenBySource: ""
+  SourceAttributeBasedDurationScalings: ""
+  DurationAttbScalingMaxValue: ""
+  SourceAttributeBasedPotencyScalings: ""
+  PotencyAttbScalingMaxValue: ""
+  CostumeChangeId: ""
+  GrantedSkinId: ""
+  MeshChangeCDF: ""
+  DisableAllNonAttributePerks: ""
+  DisableAllNonAttributePerksExceptionLabels: ""
+  PreventPassiveAbilitiesOnEquip: ""
+  TriggersTutorial: ""
+  JumpModScalar: ""
+  JumpModType: ""
+  AllowAddIfDead: ""
+  MountedOnly: ""
+  RequiredWorldTags: ""
+  DisablePauseOnPersist: ""
+  ReviveSpeedModifier: ""
+  BeingRevivedSpeedModifier: ""
+  ReviveHealthGainedInPctOfMax: ""
+  ReviveHealthGivenInPctOfMax: ""
+  AoeSpellRadiusScaling: ""
+  DamageThreatMultiplier: ""
+  DiminishReturns: ""
 - StatusID: Status_Passive_GreatAxe_Gravity_Root_Hold
   DisplayName: "@Status_Root"
   Description: "@Status_Root_Description"
+  Notes: ""
   EffectCategories: Debuff+Root
   PlaceholderIcon: lyshineui/images/status/SE_Root.png
   ShowInUITray: true
+  ShowInTokenTray: ""
+  ShowInStatusWindow: ""
   ShowTextInDamageNumbers: false
+  ShowTextInRemoteDamageNumbers: ""
   FxScriptOn: StatFX_Root_ON
   FxScriptOff: StatFX_Root_OFF
   ShouldRefreshFxScript: ""
+  IgnoreFxScriptWhenPotencyIsZero: ""
+  WindowHeader: ""
+  RankSorting: ""
   WeaponEffectType: ""
+  ReapplyAfterPersistenceReload: ""
+  PersistEffectInCrossWorldInstances: ""
   Notification: ""
   DisableTelemetry: ""
   IsClientPredicted: ""
+  IsServerOnly: ""
+  ForceServerOnly: ""
   UseLightweightReplication: null
+  AlwaysReplicate: null
+  ForceReplicateToRemotes: ""
+  PauseInGameModesList: ""
+  PauseOnDisable: ""
   PotencyPerLevel: ""
+  PotencyPerGearScore: ""
+  DurationScalingPerGearScore: ""
+  HideHudDurationNumbers: ""
   BaseDuration: 0.4
+  DurationMax: 1.0
   TickRate: 1.0
   DelayInitialTick: ""
   TickCondition: ""
@@ -4195,32 +5744,48 @@
   ScaleAmountOverTime: ""
   ScaleAmountOverTimeMin: ""
   ScaleAmountOverTimeMax: ""
+  IsTrueDamage: ""
   DamageSkipsDeathsDoor: ""
   Health: null
   HealthMin: ""
+  HealthMinPercent: ""
   HealthModifierPercent: null
+  HealthModifierBasePercent: ""
   HealthModifierDamageBased: ""
+  ModDmgBasedMultValue_ForTooltip: ""
   UseHealScalingValue: ""
   HealScalingValueMultiplier: ""
+  ShowUiDamageNumbersOnHeal: ""
   StaminaDamageModifier: ""
   ManaModifierDamageBased: ""
   DamageType: ""
   CritChanceModifier: ""
   CritDamageModifier: ""
   OnEndStatusEffect: ""
+  DontApplyOnEndEffectOnRemove: ""
+  DontApplyOnEndEffectOnTimeOutDeath: ""
+  OnDeathStatusEffect: ""
   CastSpell: ""
   TargetOwnsSpell: ""
+  DisableCastSpellDurability: ""
   UseSourceWeaponForSpell: ""
+  AlwaysCastSpellToDefaultTargets: ""
   FromAlchemy: null
   FromSpell: null
   NoHealthRegen: null
   HealMod: null
+  ConsumableHealMod: ""
+  NonConsumableHealMod: ""
+  DmgPctToHealthHealMod: ""
   MaxHealthMod: null
   HealthRate: null
   CoreTempMod: null
   TempMod: null
   Stamina: null
   StaminaRate: null
+  MaxStaminaMod: ""
+  MountStaminaRate: ""
+  MountStaminaDrainRate: ""
   Mana: null
   ManaRate: null
   Food: null
@@ -4230,11 +5795,14 @@
   Encumbrance: null
   ItemClassWeightMods: ""
   XPIncreases: ""
+  XPIncreasesTooltip: ""
   AzothMod: ""
   FactionReputationMod: ""
   FactionTokensMod: ""
-  EXPLogging: ""
+  TerritoryStandingMod: ""
+  EXPCategoricalProgression: ""
   EXPMining: ""
+  EXPLogging: ""
   EXPHarvesting: ""
   EXPSkinning: ""
   EXPSmelting: ""
@@ -4242,6 +5810,8 @@
   EXPLeatherworking: ""
   EXPWeaving: ""
   EXPStonecutting: ""
+  EXPFishing: ""
+  GameEventTypeTradeskillEXPMod: ""
   GrantSanctuary: 0.0
   NoSprint: 1.0
   NoRun: 1.0
@@ -4253,23 +5823,29 @@
   RemoveOnDeathsDoor: 1.0
   RemoveOnRespawn: ""
   RemoveOnGameModeExit: null
+  RemoveOnDeathsDoorRevive: ""
+  RemoveWhenEnteringGameModeRequiringTeleport: ""
   IgnoreDiminishingReturns: null
   OnlyChangeOwnedStatusEffects: ""
-  AlwaysReplicate: null
   Afflictions: ""
   OnHitAffixes: ""
   EquipAbility: ""
   UseSourceWeaponForAbilityEffect: ""
+  SlotToFillWeaponDamageInfo: ""
   IsNegative: true
   RespecTradeskills: ""
   RespecAttributes: ""
   EffectDurationMods: ""
+  EffectDurationMods_Tooltip: ""
   EffectPotencyMods: ""
+  RemoveEffectModsOnInactive: ""
   RemoveStatusEffects: ""
   RemoveStatusEffectCategories: ""
   GlobalRollMod: ""
+  LootTags: ""
   FishingLineStrength: ""
   FishSizeRollModifier: ""
+  AttributePlacingMods: ""
   MODConstitution: ""
   MODFocus: ""
   MODStrength: ""
@@ -4285,6 +5861,7 @@
   MaxGSJewelcrafting: ""
   MaxGSEngineering: ""
   MaxGSArmoring: ""
+  ROLJewelcrafting: ""
   ROLCooking: ""
   ROLWeaving: ""
   ROLStonecutting: ""
@@ -4330,6 +5907,7 @@
   RESFrostbite: ""
   RESCurse: ""
   RESBlight: ""
+  RESSpores: ""
   BLAStandard: ""
   BLASiege: ""
   BLAStrike: ""
@@ -4370,14 +5948,17 @@
   DMGCorruption: null
   DMGAcid: null
   DMGVitalsCategory: null
+  DMGVitalsCategory_Tooltip: ""
   AFAPoison: ""
   AFADisease: ""
   AFABleed: ""
   AFAFrostbite: ""
   AFACurse: ""
   AFABlight: ""
+  AFASpores: ""
+  AFAErosion: ""
+  AFAStunned: ""
   StackDuration: null
-  DurationMax: 1.0
   InheritDuration: "0"
   InheritTotalDuration: false
   RefreshDuration: "0"
@@ -4407,4 +5988,43 @@
   AllowSelfOnlyAsSourceForAbilities: ""
   IgnoreInvulnerable: ""
   NotCombatAction: ""
+  ItemLootVolumeMods: ""
   ApplicationCooldown: null
+  ApplicationCooldownAppliedOnRemoval: ""
+  AntirequisiteEffectCategories: ""
+  SourceRuneChargeOnApply: ""
+  SourceRuneChargeOnTick: ""
+  SourceRuneChargeOnHealthChangeOnly: ""
+  LocTextTagForDeathRecap: ""
+  ExpansionForDeathRecap: ""
+  ObjectiveLocTextTagForDeathRecap: ""
+  DismissMount: ""
+  PreventMirrorBeams: ""
+  LinkedBeamStackThreshold: ""
+  LinkedBeamName: ""
+  DamageSplitTaken: ""
+  DamageSplitTakenBySource: ""
+  SourceAttributeBasedDurationScalings: ""
+  DurationAttbScalingMaxValue: ""
+  SourceAttributeBasedPotencyScalings: ""
+  PotencyAttbScalingMaxValue: ""
+  CostumeChangeId: ""
+  GrantedSkinId: ""
+  MeshChangeCDF: ""
+  DisableAllNonAttributePerks: ""
+  DisableAllNonAttributePerksExceptionLabels: ""
+  PreventPassiveAbilitiesOnEquip: ""
+  TriggersTutorial: ""
+  JumpModScalar: ""
+  JumpModType: ""
+  AllowAddIfDead: ""
+  MountedOnly: ""
+  RequiredWorldTags: ""
+  DisablePauseOnPersist: ""
+  ReviveSpeedModifier: ""
+  BeingRevivedSpeedModifier: ""
+  ReviveHealthGainedInPctOfMax: ""
+  ReviveHealthGivenInPctOfMax: ""
+  AoeSpellRadiusScaling: ""
+  DamageThreatMultiplier: ""
+  DiminishReturns: ""

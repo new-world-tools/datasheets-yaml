@@ -48,9 +48,6 @@
   InteractTag: ""
   OverrideLocation: ""
   TP_TargetTag: ""
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_1
   SubTask1: ""
   SubTask2: ""
@@ -101,9 +98,6 @@
   InteractTag: ""
   OverrideLocation: ""
   TP_TargetTag: ""
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_2
   SubTask1: Quest_18011_Task_21
   SubTask2: ""
@@ -154,9 +148,6 @@
   InteractTag: ""
   OverrideLocation: ""
   TP_TargetTag: ""
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_3
   SubTask1: ""
   SubTask2: ""
@@ -207,9 +198,6 @@
   InteractTag: ""
   OverrideLocation: ""
   TP_TargetTag: ""
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_4
   SubTask1: ""
   SubTask2: ""
@@ -258,11 +246,8 @@
   ItemDropVC: ""
   KillEnemyType: 17_MSQ_BatteryPost2_Interact
   InteractTag: IO_17_MSQ_BatteryPost2
-  OverrideLocation: 2349.403076 4265.478027 44.355000
+  OverrideLocation: 2364.720947 4256.602051 44.361000
   TP_TargetTag: ""
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_5
   SubTask1: ""
   SubTask2: ""
@@ -313,16 +298,13 @@
   InteractTag: ""
   OverrideLocation: ""
   TP_TargetTag: ""
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_6
   SubTask1: Quest_18011_Task_7
   SubTask2: Quest_18011_Task_8
   SubTask3: Quest_18011_Task_9
-  SubTask4: Quest_18011_Task_10
-  SubTask5: Quest_18011_Task_4_0
-  SubTask6: Quest_18011_Task_11
+  SubTask4: Quest_18011_Task_4_0
+  SubTask5: Quest_18011_Task_11
+  SubTask6: ""
   SubTask7: ""
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
@@ -366,9 +348,6 @@
   InteractTag: ""
   OverrideLocation: ""
   TP_TargetTag: ""
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_7
   SubTask1: ""
   SubTask2: ""
@@ -380,7 +359,7 @@
   Type: TASKHAVEANDRETURNITEMS
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "1"
+  TargetQty: "2"
   Duration: "0.000000"
   ItemDropProbability: "100"
   ChestDropProbability: "0"
@@ -410,7 +389,7 @@
   ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
-  ItemName: 17_MSQ_Ancient_Battery_Inert
+  ItemName: 17_MSQ_Ancient_Battery_Powered
   UIScreenTag: ""
   TP_DescriptionTag: "@Quest_18011_Task_7_Description"
   POITag: catacomb_10203
@@ -419,9 +398,6 @@
   InteractTag: IO_17_MSQ_Battery
   OverrideLocation: ""
   TP_TargetTag: ""
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_4_0
   SubTask1: ""
   SubTask2: ""
@@ -470,11 +446,8 @@
   ItemDropVC: ""
   KillEnemyType: 17_MSQ_BatteryPost1_Interact
   InteractTag: IO_17_MSQ_BatteryPost1
-  OverrideLocation: 2387.076904 4330.184082 40.321999
+  OverrideLocation: 2395.676025 4340.248047 40.348999
   TP_TargetTag: ""
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_8
   SubTask1: ""
   SubTask2: ""
@@ -523,11 +496,8 @@
   ItemDropVC: ""
   KillEnemyType: 17_MSQ_BatteryCharger_Interact
   InteractTag: IO_17_MSQ_BatteryCharger
-  OverrideLocation: 2378.583984 4304.980957 40.349998
+  OverrideLocation: 2379.625000 4306.556152 41.067001
   TP_TargetTag: ""
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_9
   SubTask1: ""
   SubTask2: ""
@@ -569,7 +539,7 @@
   ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
-  ItemName: 17_MSQ_Ancient_Battery_Inert
+  ItemName: 17_MSQ_Ancient_Battery_Powered
   UIScreenTag: ""
   TP_DescriptionTag: "@Quest_18011_Task_9_Description"
   POITag: catacomb_10203
@@ -578,62 +548,6 @@
   InteractTag: ""
   OverrideLocation: ""
   TP_TargetTag: ""
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
-- TaskID: Quest_18011_Task_10
-  SubTask1: ""
-  SubTask2: ""
-  SubTask3: ""
-  SubTask4: ""
-  SubTask5: ""
-  SubTask6: ""
-  SubTask7: ""
-  Type: TASKGIVEITEM
-  TriggerAreaType: Enter
-  TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "1"
-  Duration: "0.000000"
-  ItemDropProbability: "0"
-  ChestDropProbability: "0"
-  MinGearScore: "0"
-  GuranteedDropAttempts: "0"
-  TargetThreshold: "0.000000"
-  IsPurchaseOrEarn: "true"
-  IsExactMatch: "false"
-  AwardOnlyOnce: "false"
-  GridLayout: "false"
-  HideChildren: "false"
-  OnInteractStart: "false"
-  FailOnCondition: "false"
-  ResetOnCondition: "false"
-  ShouldCheckPoints: "false"
-  UseGlobalStorage: "true"
-  CraftAnyRecipe: "false"
-  PauseAndClearLootOnTaskComplete: "false"
-  TP_HideOnCompassOnEnterPOI: "false"
-  GameModeMustBeMutated: "false"
-  StayActive: "false"
-  IsHidden: "true"
-  TriggerAnalyticsEvent: "false"
-  HideProgress: "false"
-  EnforceLocationRequirement: "false"
-  HideDiegeticGatherablePins: "false"
-  ShowDiegeticTaskPin: "false"
-  DiegeticPinZOverride: "0.000000"
-  TerritoryID: "0"
-  ItemName: 17_MSQ_Ancient_Battery_Powered
-  UIScreenTag: ""
-  TP_DescriptionTag: "@Quest_18011_Task_10_Description"
-  POITag: ""
-  ItemDropVC: ""
-  KillEnemyType: ""
-  InteractTag: ""
-  OverrideLocation: ""
-  TP_TargetTag: ""
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_11
   SubTask1: ""
   SubTask2: ""
@@ -684,9 +598,6 @@
   InteractTag: ""
   OverrideLocation: ""
   TP_TargetTag: ""
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_12
   SubTask1: Quest_18011_Task_15_0
   SubTask2: Quest_18011_Task_15
@@ -737,9 +648,6 @@
   InteractTag: ""
   OverrideLocation: ""
   TP_TargetTag: ""
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_15
   SubTask1: ""
   SubTask2: ""
@@ -790,9 +698,6 @@
   InteractTag: IO_17_MSQ_HalfBattery2
   OverrideLocation: ""
   TP_TargetTag: ""
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_16
   SubTask1: ""
   SubTask2: ""
@@ -841,11 +746,8 @@
   ItemDropVC: ""
   KillEnemyType: 17_MSQ_BatteryPost3_Interact
   InteractTag: IO_17_MSQ_BatteryPost3
-  OverrideLocation: 2381.126953 4318.707031 52.326000
+  OverrideLocation: 2381.747070 4317.473145 52.326000
   TP_TargetTag: ""
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_15_0
   SubTask1: ""
   SubTask2: ""
@@ -896,9 +798,6 @@
   InteractTag: IO_17_MSQ_HalfBattery1
   OverrideLocation: ""
   TP_TargetTag: ""
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_17
   SubTask1: ""
   SubTask2: ""
@@ -949,9 +848,6 @@
   InteractTag: ""
   OverrideLocation: 2356.755859 4322.036621 34.923901
   TP_TargetTag: TV_17_MSQ_CatacombSwim1
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_18
   SubTask1: ""
   SubTask2: ""
@@ -1002,9 +898,6 @@
   InteractTag: ""
   OverrideLocation: 2363.513428 4303.869629 34.923901
   TP_TargetTag: TV_17_MSQ_CatacombSwim2
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_19
   SubTask1: ""
   SubTask2: ""
@@ -1055,9 +948,6 @@
   InteractTag: ""
   OverrideLocation: 2350.840088 4274.250000 35.555000
   TP_TargetTag: TV_17_MSQ_CatacombSwim3
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_20
   SubTask1: ""
   SubTask2: ""
@@ -1108,70 +998,14 @@
   InteractTag: ""
   OverrideLocation: 2318.383057 4290.619141 40.679001
   TP_TargetTag: TV_17_MSQ_CatacombSwim4
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_21
-  SubTask1: Quest_18011_Task_3
-  SubTask2: Quest_18011_Task_22
-  SubTask3: ""
+  SubTask1: Quest_18011_Task_26
+  SubTask2: Quest_18011_Task_4
+  SubTask3: Quest_18011_Task_5
   SubTask4: ""
   SubTask5: ""
   SubTask6: ""
   SubTask7: ""
-  Type: SIMPLETASKCONTAINER
-  TriggerAreaType: Enter
-  TaskBuySellType: EarnSpendGoldInSingleTransaction
-  TargetQty: "0"
-  Duration: "0.000000"
-  ItemDropProbability: "0"
-  ChestDropProbability: "0"
-  MinGearScore: "0"
-  GuranteedDropAttempts: "0"
-  TargetThreshold: "0.000000"
-  IsPurchaseOrEarn: "true"
-  IsExactMatch: "false"
-  AwardOnlyOnce: "false"
-  GridLayout: "false"
-  HideChildren: "false"
-  OnInteractStart: "false"
-  FailOnCondition: "false"
-  ResetOnCondition: "false"
-  ShouldCheckPoints: "false"
-  UseGlobalStorage: "true"
-  CraftAnyRecipe: "false"
-  PauseAndClearLootOnTaskComplete: "false"
-  TP_HideOnCompassOnEnterPOI: "false"
-  GameModeMustBeMutated: "false"
-  StayActive: "false"
-  IsHidden: "true"
-  TriggerAnalyticsEvent: "false"
-  HideProgress: "false"
-  EnforceLocationRequirement: "false"
-  HideDiegeticGatherablePins: "false"
-  ShowDiegeticTaskPin: "false"
-  DiegeticPinZOverride: "0.000000"
-  TerritoryID: "0"
-  ItemName: ""
-  UIScreenTag: ""
-  TP_DescriptionTag: ""
-  POITag: ""
-  ItemDropVC: ""
-  KillEnemyType: ""
-  InteractTag: ""
-  OverrideLocation: ""
-  TP_TargetTag: ""
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
-- TaskID: Quest_18011_Task_22
-  SubTask1: Quest_18011_Task_17
-  SubTask2: Quest_18011_Task_18
-  SubTask3: Quest_18011_Task_19
-  SubTask4: Quest_18011_Task_20
-  SubTask5: Quest_18011_Task_20_0
-  SubTask6: Quest_18011_Task_20_0_0
-  SubTask7: Quest_18011_Task_20_0_0_0
   Type: CONSECUTIVETASKCONTAINER
   TriggerAreaType: Enter
   TaskBuySellType: EarnSpendGoldInSingleTransaction
@@ -1214,9 +1048,56 @@
   InteractTag: ""
   OverrideLocation: ""
   TP_TargetTag: ""
-  SubTask8: Quest_18011_Task_20_0_0_0_0
-  SubTask9: Quest_18011_Task_4
-  SubTask10: Quest_18011_Task_5
+- TaskID: Quest_18011_Task_22
+  SubTask1: Quest_18011_Task_17
+  SubTask2: Quest_18011_Task_18
+  SubTask3: Quest_18011_Task_19
+  SubTask4: Quest_18011_Task_20
+  SubTask5: Quest_18011_Task_23
+  SubTask6: Quest_18011_Task_24
+  SubTask7: ""
+  Type: CONSECUTIVETASKCONTAINER
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "0"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "true"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  ItemName: ""
+  UIScreenTag: ""
+  TP_DescriptionTag: ""
+  POITag: ""
+  ItemDropVC: ""
+  KillEnemyType: ""
+  InteractTag: ""
+  OverrideLocation: ""
+  TP_TargetTag: ""
 - TaskID: Quest_18011_Task_20_0
   SubTask1: ""
   SubTask2: ""
@@ -1267,9 +1148,6 @@
   InteractTag: ""
   OverrideLocation: 2333.739014 4283.658203 44.955002
   TP_TargetTag: TV_17_MSQ_CatacombClimb1
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_20_0_0
   SubTask1: ""
   SubTask2: ""
@@ -1320,9 +1198,6 @@
   InteractTag: ""
   OverrideLocation: 2330.393066 4271.074219 47.006001
   TP_TargetTag: TV_17_MSQ_CatacombClimb2
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_20_0_0_0
   SubTask1: ""
   SubTask2: ""
@@ -1373,9 +1248,6 @@
   InteractTag: ""
   OverrideLocation: 2330.354004 4289.325195 52.264000
   TP_TargetTag: TV_17_MSQ_CatacombClimb3
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_20_0_0_0_0
   SubTask1: ""
   SubTask2: ""
@@ -1409,12 +1281,12 @@
   TP_HideOnCompassOnEnterPOI: "false"
   GameModeMustBeMutated: "false"
   StayActive: "false"
-  IsHidden: "false"
+  IsHidden: "true"
   TriggerAnalyticsEvent: "false"
   HideProgress: "false"
   EnforceLocationRequirement: "false"
   HideDiegeticGatherablePins: "false"
-  ShowDiegeticTaskPin: "true"
+  ShowDiegeticTaskPin: "false"
   DiegeticPinZOverride: "0.000000"
   TerritoryID: "0"
   ItemName: ""
@@ -1426,9 +1298,6 @@
   InteractTag: ""
   OverrideLocation: 2316.485107 4269.106934 51.974998
   TP_TargetTag: TV_17_MSQ_CatacombClimb4
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_13
   SubTask1: ""
   SubTask2: ""
@@ -1479,9 +1348,6 @@
   InteractTag: ""
   OverrideLocation: 2441.708984 4585.602051 104.073997
   TP_TargetTag: TV_17_MSQ_MeetAlecksiVarlaam
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_14
   SubTask1: ""
   SubTask2: ""
@@ -1532,9 +1398,6 @@
   InteractTag: ""
   OverrideLocation: 2427.386963 4313.100098 60.393002
   TP_TargetTag: TV_17_MSQ_EnterCatacombs1
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
 - TaskID: Quest_18011_Task_14_0
   SubTask1: ""
   SubTask2: ""
@@ -1585,6 +1448,253 @@
   InteractTag: ""
   OverrideLocation: 2395.996094 4269.454102 40.323002
   TP_TargetTag: TV_17_MSQ_EnterCatacombs2
-  SubTask8: ""
-  SubTask9: ""
-  SubTask10: ""
+- TaskID: Quest_18011_Task_23
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+  SubTask6: ""
+  SubTask7: ""
+  Type: TASKCONVERSATIONTOPIC
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  ItemName: NPC_18063
+  UIScreenTag: NPC_18063_State_1_Topic_0
+  TP_DescriptionTag: "@Quest_18011_Task_23_Description"
+  POITag: catacomb_10203
+  ItemDropVC: ""
+  KillEnemyType: ""
+  InteractTag: ""
+  OverrideLocation: ""
+  TP_TargetTag: ""
+- TaskID: Quest_18011_Task_20_0_0_0_0_0
+  SubTask1: ""
+  SubTask2: ""
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+  SubTask6: ""
+  SubTask7: ""
+  Type: TASKTRIGGERAREA
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "1"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "false"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "true"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  ItemName: ""
+  UIScreenTag: ""
+  TP_DescriptionTag: "@Quest_18011_Task_20_0_0_0_0_0_Description"
+  POITag: ""
+  ItemDropVC: ""
+  KillEnemyType: ""
+  InteractTag: ""
+  OverrideLocation: 2316.485107 4269.106934 51.974998
+  TP_TargetTag: TV_17_MSQ_CatacombClimb4
+- TaskID: Quest_18011_Task_24
+  SubTask1: Quest_18011_Task_25
+  SubTask2: Quest_18011_Task_20_0_0_0_0_0
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+  SubTask6: ""
+  SubTask7: ""
+  Type: PARTIALTASKCONTAINER
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "0"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "true"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  ItemName: ""
+  UIScreenTag: ""
+  TP_DescriptionTag: ""
+  POITag: ""
+  ItemDropVC: ""
+  KillEnemyType: ""
+  InteractTag: ""
+  OverrideLocation: ""
+  TP_TargetTag: ""
+- TaskID: Quest_18011_Task_25
+  SubTask1: Quest_18011_Task_20_0
+  SubTask2: Quest_18011_Task_20_0_0
+  SubTask3: Quest_18011_Task_20_0_0_0
+  SubTask4: Quest_18011_Task_20_0_0_0_0
+  SubTask5: ""
+  SubTask6: ""
+  SubTask7: ""
+  Type: CONSECUTIVETASKCONTAINER
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "0"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "true"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  ItemName: ""
+  UIScreenTag: ""
+  TP_DescriptionTag: ""
+  POITag: ""
+  ItemDropVC: ""
+  KillEnemyType: ""
+  InteractTag: ""
+  OverrideLocation: ""
+  TP_TargetTag: ""
+- TaskID: Quest_18011_Task_26
+  SubTask1: Quest_18011_Task_3
+  SubTask2: Quest_18011_Task_22
+  SubTask3: ""
+  SubTask4: ""
+  SubTask5: ""
+  SubTask6: ""
+  SubTask7: ""
+  Type: SIMPLETASKCONTAINER
+  TriggerAreaType: Enter
+  TaskBuySellType: EarnSpendGoldInSingleTransaction
+  TargetQty: "0"
+  Duration: "0.000000"
+  ItemDropProbability: "0"
+  ChestDropProbability: "0"
+  MinGearScore: "0"
+  GuranteedDropAttempts: "0"
+  TargetThreshold: "0.000000"
+  IsPurchaseOrEarn: "true"
+  IsExactMatch: "false"
+  AwardOnlyOnce: "false"
+  GridLayout: "false"
+  HideChildren: "false"
+  OnInteractStart: "false"
+  FailOnCondition: "false"
+  ResetOnCondition: "false"
+  ShouldCheckPoints: "false"
+  UseGlobalStorage: "true"
+  CraftAnyRecipe: "false"
+  PauseAndClearLootOnTaskComplete: "false"
+  TP_HideOnCompassOnEnterPOI: "false"
+  GameModeMustBeMutated: "false"
+  StayActive: "false"
+  IsHidden: "true"
+  TriggerAnalyticsEvent: "false"
+  HideProgress: "false"
+  EnforceLocationRequirement: "false"
+  HideDiegeticGatherablePins: "false"
+  ShowDiegeticTaskPin: "false"
+  DiegeticPinZOverride: "0.000000"
+  TerritoryID: "0"
+  ItemName: ""
+  UIScreenTag: ""
+  TP_DescriptionTag: ""
+  POITag: ""
+  ItemDropVC: ""
+  KillEnemyType: ""
+  InteractTag: ""
+  OverrideLocation: ""
+  TP_TargetTag: ""

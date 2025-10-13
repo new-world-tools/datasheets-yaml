@@ -1,19 +1,19 @@
-- WarboardStatID: PlayerKills
+- WarboardStatID: KillsWithWeapons
   InGameStat: true
   EndGameStat: true
   DistanceFromAnyFlag: 14.0
   InRangeOfFlagMultiplier: 1.25
   AG_TotalDamageDealt: 0.0
   AG_HealingDone: 0.0
-  AG_Score: 200.0
+  AG_Score: 50.0
 - WarboardStatID: DamageToPlayers
-  InGameStat: false
+  InGameStat: true
   EndGameStat: true
   DistanceFromAnyFlag: 14.0
   InRangeOfFlagMultiplier: 1.25
   AG_TotalDamageDealt: 1.0
   AG_HealingDone: 0.0
-  AG_Score: 50.05
+  AG_Score: 0.005
 - WarboardStatID: HealingDoneToSelf
   InGameStat: false
   EndGameStat: true
@@ -21,17 +21,17 @@
   InRangeOfFlagMultiplier: 1.0
   AG_TotalDamageDealt: 0.0
   AG_HealingDone: 1.0
-  AG_Score: 50.0
+  AG_Score: 0.0
 - WarboardStatID: HealingDoneToAllies
-  InGameStat: false
+  InGameStat: true
   EndGameStat: true
   DistanceFromAnyFlag: 14.0
   InRangeOfFlagMultiplier: 1.25
   AG_TotalDamageDealt: 0.0
   AG_HealingDone: 1.0
-  AG_Score: 50.075
+  AG_Score: 0.0075
 - WarboardStatID: TotalDamageDealt
-  InGameStat: false
+  InGameStat: true
   EndGameStat: true
   DistanceFromAnyFlag: 0.0
   InRangeOfFlagMultiplier: 1.0
@@ -55,7 +55,7 @@
   AG_HealingDone: 0.0
   AG_Score: 0.0
 - WarboardStatID: PlayerAssists
-  InGameStat: false
+  InGameStat: true
   EndGameStat: true
   DistanceFromAnyFlag: 14.0
   InRangeOfFlagMultiplier: 1.25
@@ -69,15 +69,15 @@
   InRangeOfFlagMultiplier: 1.0
   AG_TotalDamageDealt: 0.0
   AG_HealingDone: 0.0
-  AG_Score: 100.0
+  AG_Score: 0.0
 - WarboardStatID: DamageBlocked
-  InGameStat: false
+  InGameStat: true
   EndGameStat: true
   DistanceFromAnyFlag: 14.0
   InRangeOfFlagMultiplier: 1.25
   AG_TotalDamageDealt: 0.0
   AG_HealingDone: 0.0
-  AG_Score: 50.01
+  AG_Score: 0.01
 - WarboardStatID: TeamFlagCapture
   InGameStat: true
   EndGameStat: true
@@ -85,7 +85,7 @@
   InRangeOfFlagMultiplier: 1.0
   AG_TotalDamageDealt: 0.0
   AG_HealingDone: 0.0
-  AG_Score: 0.01
+  AG_Score: 500.0
 - WarboardStatID: NeutralFlagCapture
   InGameStat: true
   EndGameStat: true
@@ -93,7 +93,7 @@
   InRangeOfFlagMultiplier: 1.0
   AG_TotalDamageDealt: 0.0
   AG_HealingDone: 0.0
-  AG_Score: 0.01
+  AG_Score: 250.0
 - WarboardStatID: FlagCarrierKilled
   InGameStat: true
   EndGameStat: true
@@ -101,7 +101,7 @@
   InRangeOfFlagMultiplier: 1.0
   AG_TotalDamageDealt: 0.0
   AG_HealingDone: 0.0
-  AG_Score: 0.01
+  AG_Score: 50.0
 - WarboardStatID: FlagReturnedToBase
   InGameStat: true
   EndGameStat: true
@@ -109,7 +109,7 @@
   InRangeOfFlagMultiplier: 1.0
   AG_TotalDamageDealt: 0.0
   AG_HealingDone: 0.0
-  AG_Score: 0.01
+  AG_Score: 100.0
 - WarboardStatID: FlagsTaken
   InGameStat: true
   EndGameStat: true
@@ -117,4 +117,4 @@
   InRangeOfFlagMultiplier: 1.0
   AG_TotalDamageDealt: 0.0
   AG_HealingDone: 0.0
-  AG_Score: 0.01
+  AG_Score: 50.0
