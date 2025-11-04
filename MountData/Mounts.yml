@@ -1762,6 +1762,48 @@
   RewardBoxRarity: ""
   SourceType: Store
   HideAttachmentItems: true
+- MountId: Mount_MTX_2_Turkey_Skeleton
+  DisplayName: "@ui_mounts_MTX_1_skeletonturkey_name"
+  Description: "@ui_mounts_skeletonturkey_description"
+  MountType: Turkey
+  MountSubType: ""
+  RequiredAchievementId: ""
+  IsEntitlement: 1.0
+  Mesh: Objects/Characters/player/mounts/turkeyMount/turkey.cdf
+  Material: Objects/Characters/player/mounts/turkeyDayOfTheDead/mnt_turkeyDayOfTheDead_matGroup.mtl
+  MaskRColor: ""
+  MaskROverride: null
+  MaskR: null
+  MaskGColor: ""
+  MaskGOverride: null
+  MaskG: null
+  MaskBColor: ""
+  MaskBOverride: null
+  MaskB: null
+  MaskASpecColor: ""
+  MaskASpec: null
+  MaskAGlossShift: ""
+  MaskAGloss: ""
+  EmissiveColor: ""
+  EmissiveIntensity: null
+  RDyeSlotDisabled: 1.0
+  GDyeSlotDisabled: 1.0
+  BDyeSlotDisabled: 1.0
+  ADyeSlotDisabled: 1.0
+  AudioPreloadSfx: MNT_Turkey
+  AudioPreloadFoley: FLY_MNT_LeatherMetalLight
+  AudioPreloadFstp: MNT_FTSP_Turkey
+  IconPath: "LyShineUI\\Images\\Icons\\items\\mount\\Mount_MTX_2_Turkey_Skeleton.png"
+  HiResIconPath: "LyShineUI\\Images\\Icons\\Items_HiRes\\Mount_MTX_2_Turkey_Skeleton.png"
+  MTXIconPath: lyshineui/images/mtx/mtx_product_images/Mount_Rectangle_Turkey_Skeleton.png
+  ConversionId: ""
+  TooltipRelease: "@ui_mounts_test_expansion_name"
+  UnlockMethod: "@ui_mounts_unlock_turkey_message"
+  DisplayPriority: 7.0
+  SortedOrder: 2.0
+  RewardBoxRarity: ""
+  SourceType: Store
+  HideAttachmentItems: true
 - MountId: Mount_MTX_1_Grunt
   DisplayName: "@ui_mounts_MTX_1_grunt_name"
   Description: "@ui_mounts_MTX_1_grunt_description"
@@ -2048,6 +2090,48 @@
   IconPath: LyShineUI/Images/Icons/items/mount/Mount_MTX_1_Ghosthorse.png
   HiResIconPath: "LyShineUI\\Images\\Icons\\Items_HiRes\\Mount_MTX_1_Ghosthorse.png"
   MTXIconPath: lyshineui/images/mtx/mtx_product_images/Mount_Rectangle_Horse_Lost.png
+  ConversionId: ""
+  TooltipRelease: "@ui_mounts_test_expansion_name"
+  UnlockMethod: "@ui_mounts_unlock_horse_message"
+  DisplayPriority: 1.0
+  SortedOrder: 21.0
+  RewardBoxRarity: ""
+  SourceType: Store
+  HideAttachmentItems: false
+- MountId: Mount_MTX_1_skeletonhorse
+  DisplayName: "@ui_mounts_MTX_1_skeletonhorse_name"
+  Description: "@ui_mounts_skeletonhorse_description"
+  MountType: Horse
+  MountSubType: ""
+  RequiredAchievementId: ""
+  IsEntitlement: 1.0
+  Mesh: Objects/Characters/player/mounts/horseDayoftheDead/mnt_horseDayoftheDead.cdf
+  Material: Objects/Characters/player/mounts/horseDayoftheDead/horseDayoftheDead_matGroup.mtl
+  MaskRColor: ""
+  MaskROverride: null
+  MaskR: null
+  MaskGColor: ""
+  MaskGOverride: null
+  MaskG: null
+  MaskBColor: ""
+  MaskBOverride: null
+  MaskB: null
+  MaskASpecColor: ""
+  MaskASpec: null
+  MaskAGlossShift: ""
+  MaskAGloss: ""
+  EmissiveColor: ""
+  EmissiveIntensity: null
+  RDyeSlotDisabled: 0.0
+  GDyeSlotDisabled: 0.0
+  BDyeSlotDisabled: 0.0
+  ADyeSlotDisabled: 1.0
+  AudioPreloadSfx: MNT_Horse
+  AudioPreloadFoley: FLY_MNT_LeatherMetalLight
+  AudioPreloadFstp: MNT_FTSP_Horse
+  IconPath: "LyShineUI\\Images\\Icons\\items\\mount\\Mount_MTX_1_skeletonhorse.png"
+  HiResIconPath: "LyShineUI\\Images\\Icons\\Items_HiRes\\Mount_MTX_1_skeletonhorse.png"
+  MTXIconPath: "LyShineUI\\Images\\Icons\\Items_HiRes\\Mount_MTX_1_skeletonhorse.png"
   ConversionId: ""
   TooltipRelease: "@ui_mounts_test_expansion_name"
   UnlockMethod: "@ui_mounts_unlock_horse_message"

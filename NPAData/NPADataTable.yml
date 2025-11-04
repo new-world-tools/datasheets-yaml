@@ -1,10 +1,14 @@
 - NPAId: "*SwapActive_18064_Charon"
-  ReqAchievementConditional: ""
-  ObjectiveFlow: u:Quest_18008
+  ReqAchievementConditional: 17_PQ_Vector_Start
+  ObjectiveFlow: ""
   ReqStatusEffectId: ""
 - NPAId: "*SwapActive_18034_Morgaine"
+  ReqAchievementConditional: 17_PQ_Vector_Start&&!*SwapActive_18034_Morgaine_off
+  ObjectiveFlow: ""
+  ReqStatusEffectId: ""
+- NPAId: "*SwapActive_18034_Morgaine_off"
   ReqAchievementConditional: ""
-  ObjectiveFlow: u:Quest_18008,l:Quest_18009/Quest_18009_Task_1:c
+  ObjectiveFlow: u:Quest_18009/Quest_18009_Task_1:c
   ReqStatusEffectId: ""
 - NPAId: "*SwapActive_18035_Morgaine"
   ReqAchievementConditional: ""

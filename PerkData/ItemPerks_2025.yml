@@ -2062,7 +2062,7 @@
   ScalingPerPlayerLevel: ""
   ScalingPerGearScore: 0,725:0.00365
   ScalingPerGearScoreAttributes: ""
-  ItemClassGSBonus: Sword:200
+  ItemClassGSBonus: Shield:200
   DisplayName: "@PerkID_WeaponMastery_Shield_ShieldBash_Name"
   SecondaryEffectDisplayName: ""
   Description: "@PerkID_WeaponMastery_Shield_ShieldBash_Description"
@@ -2100,7 +2100,7 @@
   ScalingPerPlayerLevel: ""
   ScalingPerGearScore: 0,725:0.00365
   ScalingPerGearScoreAttributes: ""
-  ItemClassGSBonus: Sword:200
+  ItemClassGSBonus: Shield:200
   DisplayName: "@PerkID_WeaponMastery_Shield_ShieldRush_Name"
   SecondaryEffectDisplayName: ""
   Description: "@PerkID_WeaponMastery_Shield_ShieldRush_Description"
@@ -2138,7 +2138,7 @@
   ScalingPerPlayerLevel: ""
   ScalingPerGearScore: 0,725:0.00365
   ScalingPerGearScoreAttributes: ""
-  ItemClassGSBonus: Sword:200
+  ItemClassGSBonus: Shield:200
   DisplayName: "@PerkID_WeaponMastery_Shield_DefendersResolve_Name"
   SecondaryEffectDisplayName: ""
   Description: "@PerkID_WeaponMastery_Shield_DefendersResolve_Description"
@@ -3520,6 +3520,234 @@
   IconPath: LyShineUI/Images/Icons/Abilities/Flail_Ability06.png
   Affix: ""
   EquipAbility: MasteryPerk_Ability_Flail_Bludgeon
+  DayPhases: ""
+  FishingWaterType: ""
+  TerritoryId: ""
+  CombatStatus: ""
+  WeaponTag: ""
+  Category: ""
+  WorldTags: ""
+  OnlyInOpenWorld: ""
+  OpenWorldOnlyOverrideGameModes: ""
+  ScheduleID: ""
+  Sorting: Ability
+  Includes: ""
+- PerkID: PerkID_WeaponMastery_Dagger_DoubleNeckStab
+  PerkType: SkillCharm
+  ConditionEvent: OnActive
+  ItemClass: Armor+Dagger+Jewelry
+  ExcludeItemClass: ""
+  Channel: 1.0
+  ExclusiveLabels: PerkID_WeaponMastery_Dagger_DoubleNeckStab
+  ItemPerkConflictsLocText: ""
+  DeprecatedPerkId: ""
+  ScalingPerPlayerLevel: ""
+  ScalingPerGearScore: 0,725:0.00365
+  ScalingPerGearScoreAttributes: ""
+  ItemClassGSBonus: Dagger:200
+  DisplayName: "@PerkID_WeaponMastery_Dagger_DoubleNeckStab_Name"
+  SecondaryEffectDisplayName: ""
+  Description: "@PerkID_WeaponMastery_Dagger_DoubleNeckStab_Description"
+  StatDisplayText: ""
+  GroupName: ""
+  Tier: ""
+  ExcludeFromTradingPost: ""
+  AppliedPrefix: ""
+  AppliedSuffix: ""
+  NamePriority: ""
+  IconPath: LyShineUI/Images/Icons/Abilities/Daggers_Ability02.png
+  Affix: ""
+  EquipAbility: MasteryPerk_Ability_Dagger_DoubleNeckStab
+  DayPhases: ""
+  FishingWaterType: ""
+  TerritoryId: ""
+  CombatStatus: ""
+  WeaponTag: ""
+  Category: ""
+  WorldTags: ""
+  OnlyInOpenWorld: ""
+  OpenWorldOnlyOverrideGameModes: ""
+  ScheduleID: ""
+  Sorting: Ability
+  Includes: ""
+- PerkID: PerkID_WeaponMastery_Dagger_FrenziedSlashes
+  PerkType: SkillCharm
+  ConditionEvent: OnActive
+  ItemClass: Armor+Dagger+Jewelry
+  ExcludeItemClass: ""
+  Channel: 1.0
+  ExclusiveLabels: PerkID_WeaponMastery_Dagger_FrenziedSlashes
+  ItemPerkConflictsLocText: ""
+  DeprecatedPerkId: ""
+  ScalingPerPlayerLevel: ""
+  ScalingPerGearScore: 0,725:0.00365
+  ScalingPerGearScoreAttributes: ""
+  ItemClassGSBonus: Dagger:200
+  DisplayName: "@PerkID_WeaponMastery_Dagger_FrenziedSlashes_Name"
+  SecondaryEffectDisplayName: ""
+  Description: "@PerkID_WeaponMastery_Dagger_FrenziedSlashes_Description"
+  StatDisplayText: ""
+  GroupName: ""
+  Tier: ""
+  ExcludeFromTradingPost: ""
+  AppliedPrefix: ""
+  AppliedSuffix: ""
+  NamePriority: ""
+  IconPath: LyShineUI/Images/Icons/Abilities/Daggers_Ability01.png
+  Affix: ""
+  EquipAbility: MasteryPerk_Ability_Dagger_FrenziedSlashes,MasteryPerk_Ability_Dagger_FrenziedSlashes_Bleed
+  DayPhases: ""
+  FishingWaterType: ""
+  TerritoryId: ""
+  CombatStatus: ""
+  WeaponTag: ""
+  Category: ""
+  WorldTags: ""
+  OnlyInOpenWorld: ""
+  OpenWorldOnlyOverrideGameModes: ""
+  ScheduleID: ""
+  Sorting: Ability
+  Includes: ""
+- PerkID: PerkID_WeaponMastery_Dagger_ThrustingSlice
+  PerkType: SkillCharm
+  ConditionEvent: OnActive
+  ItemClass: Armor+Dagger+Jewelry
+  ExcludeItemClass: ""
+  Channel: 1.0
+  ExclusiveLabels: PerkID_WeaponMastery_Dagger_ThrustingSlice
+  ItemPerkConflictsLocText: ""
+  DeprecatedPerkId: ""
+  ScalingPerPlayerLevel: ""
+  ScalingPerGearScore: 0,725:0.00365
+  ScalingPerGearScoreAttributes: ""
+  ItemClassGSBonus: Dagger:200
+  DisplayName: "@PerkID_WeaponMastery_Dagger_ThrustingSlice_Name"
+  SecondaryEffectDisplayName: ""
+  Description: "@PerkID_WeaponMastery_Dagger_ThrustingSlice_Description"
+  StatDisplayText: ""
+  GroupName: ""
+  Tier: ""
+  ExcludeFromTradingPost: ""
+  AppliedPrefix: ""
+  AppliedSuffix: ""
+  NamePriority: ""
+  IconPath: LyShineUI/Images/Icons/Abilities/Daggers_Ability03.png
+  Affix: ""
+  EquipAbility: MasteryPerk_Ability_Dagger_ThrustingSlice
+  DayPhases: ""
+  FishingWaterType: ""
+  TerritoryId: ""
+  CombatStatus: ""
+  WeaponTag: ""
+  Category: ""
+  WorldTags: ""
+  OnlyInOpenWorld: ""
+  OpenWorldOnlyOverrideGameModes: ""
+  ScheduleID: ""
+  Sorting: Ability
+  Includes: ""
+- PerkID: PerkID_WeaponMastery_Dagger_Stealth
+  PerkType: SkillCharm
+  ConditionEvent: OnActive
+  ItemClass: Armor+Dagger+Jewelry
+  ExcludeItemClass: ""
+  Channel: 1.0
+  ExclusiveLabels: PerkID_WeaponMastery_Dagger_Stealth
+  ItemPerkConflictsLocText: ""
+  DeprecatedPerkId: ""
+  ScalingPerPlayerLevel: ""
+  ScalingPerGearScore: 0,725:0.00365
+  ScalingPerGearScoreAttributes: ""
+  ItemClassGSBonus: Dagger:200
+  DisplayName: "@PerkID_WeaponMastery_Dagger_Stealth_Name"
+  SecondaryEffectDisplayName: ""
+  Description: "@PerkID_WeaponMastery_Dagger_Stealth_Description"
+  StatDisplayText: ""
+  GroupName: ""
+  Tier: ""
+  ExcludeFromTradingPost: ""
+  AppliedPrefix: ""
+  AppliedSuffix: ""
+  NamePriority: ""
+  IconPath: LyShineUI/Images/Icons/Abilities/Daggers_Ability04.png
+  Affix: ""
+  EquipAbility: MasteryPerk_Ability_Dagger_Stealth
+  DayPhases: ""
+  FishingWaterType: ""
+  TerritoryId: ""
+  CombatStatus: ""
+  WeaponTag: ""
+  Category: ""
+  WorldTags: ""
+  OnlyInOpenWorld: ""
+  OpenWorldOnlyOverrideGameModes: ""
+  ScheduleID: ""
+  Sorting: Ability
+  Includes: ""
+- PerkID: PerkID_WeaponMastery_Dagger_Ambush
+  PerkType: SkillCharm
+  ConditionEvent: OnActive
+  ItemClass: Armor+Dagger+Jewelry
+  ExcludeItemClass: ""
+  Channel: 1.0
+  ExclusiveLabels: PerkID_WeaponMastery_Dagger_Ambush
+  ItemPerkConflictsLocText: ""
+  DeprecatedPerkId: ""
+  ScalingPerPlayerLevel: ""
+  ScalingPerGearScore: 0,725:0.00365
+  ScalingPerGearScoreAttributes: ""
+  ItemClassGSBonus: Dagger:200
+  DisplayName: "@PerkID_WeaponMastery_Dagger_Ambush_Name"
+  SecondaryEffectDisplayName: ""
+  Description: "@PerkID_WeaponMastery_Dagger_Ambush_Description"
+  StatDisplayText: ""
+  GroupName: ""
+  Tier: ""
+  ExcludeFromTradingPost: ""
+  AppliedPrefix: ""
+  AppliedSuffix: ""
+  NamePriority: ""
+  IconPath: LyShineUI/Images/Icons/Abilities/Daggers_Ability05.png
+  Affix: ""
+  EquipAbility: MasteryPerk_Ability_Dagger_Ambush
+  DayPhases: ""
+  FishingWaterType: ""
+  TerritoryId: ""
+  CombatStatus: ""
+  WeaponTag: ""
+  Category: ""
+  WorldTags: ""
+  OnlyInOpenWorld: ""
+  OpenWorldOnlyOverrideGameModes: ""
+  ScheduleID: ""
+  Sorting: Ability
+  Includes: ""
+- PerkID: PerkID_WeaponMastery_Dagger_CripplingSling
+  PerkType: SkillCharm
+  ConditionEvent: OnActive
+  ItemClass: Armor+Dagger+Jewelry
+  ExcludeItemClass: ""
+  Channel: 1.0
+  ExclusiveLabels: PerkID_WeaponMastery_Dagger_CripplingSling
+  ItemPerkConflictsLocText: ""
+  DeprecatedPerkId: ""
+  ScalingPerPlayerLevel: ""
+  ScalingPerGearScore: 0,725:0.00365
+  ScalingPerGearScoreAttributes: ""
+  ItemClassGSBonus: Dagger:200
+  DisplayName: "@PerkID_WeaponMastery_Dagger_CripplingSling_Name"
+  SecondaryEffectDisplayName: ""
+  Description: "@PerkID_WeaponMastery_Dagger_CripplingSling_Description"
+  StatDisplayText: ""
+  GroupName: ""
+  Tier: ""
+  ExcludeFromTradingPost: ""
+  AppliedPrefix: ""
+  AppliedSuffix: ""
+  NamePriority: ""
+  IconPath: LyShineUI/Images/Icons/Abilities/Daggers_Ability06.png
+  Affix: ""
+  EquipAbility: MasteryPerk_Ability_Dagger_CripplingSling_Close,MasteryPerk_Ability_Dagger_CripplingSling_Far
   DayPhases: ""
   FishingWaterType: ""
   TerritoryId: ""
@@ -8056,7 +8284,7 @@
   Includes: Trinket
 - PerkID: PerkID_Fixed_AmuletShield_DefFire
   PerkType: Generated
-  ConditionEvent: OnEquip
+  ConditionEvent: OnActive
   ItemClass: EquippableAmulet+TowerShield+KiteShield
   ExcludeItemClass: ""
   Channel: 1.0
@@ -8094,7 +8322,7 @@
   Includes: Trinket
 - PerkID: PerkID_Fixed_AmuletShield_DefIce
   PerkType: Generated
-  ConditionEvent: OnEquip
+  ConditionEvent: OnActive
   ItemClass: EquippableAmulet+TowerShield+KiteShield
   ExcludeItemClass: ""
   Channel: 1.0
@@ -8132,7 +8360,7 @@
   Includes: Trinket
 - PerkID: PerkID_Fixed_AmuletShield_DefNature
   PerkType: Generated
-  ConditionEvent: OnEquip
+  ConditionEvent: OnActive
   ItemClass: EquippableAmulet+TowerShield+KiteShield
   ExcludeItemClass: ""
   Channel: 1.0
@@ -8170,7 +8398,7 @@
   Includes: Trinket
 - PerkID: PerkID_Fixed_AmuletShield_DefVoid
   PerkType: Generated
-  ConditionEvent: OnEquip
+  ConditionEvent: OnActive
   ItemClass: EquippableAmulet+TowerShield+KiteShield
   ExcludeItemClass: ""
   Channel: 1.0
@@ -8208,7 +8436,7 @@
   Includes: Trinket
 - PerkID: PerkID_Fixed_AmuletShield_DefThrust
   PerkType: Generated
-  ConditionEvent: OnEquip
+  ConditionEvent: OnActive
   ItemClass: EquippableAmulet+TowerShield+KiteShield
   ExcludeItemClass: ""
   Channel: 1.0
@@ -8246,7 +8474,7 @@
   Includes: Trinket
 - PerkID: PerkID_Fixed_AmuletShield_DefSlash
   PerkType: Generated
-  ConditionEvent: OnEquip
+  ConditionEvent: OnActive
   ItemClass: EquippableAmulet+TowerShield+KiteShield
   ExcludeItemClass: ""
   Channel: 1.0
@@ -8284,7 +8512,7 @@
   Includes: Trinket
 - PerkID: PerkID_Fixed_AmuletShield_DefArcane
   PerkType: Generated
-  ConditionEvent: OnEquip
+  ConditionEvent: OnActive
   ItemClass: EquippableAmulet+TowerShield+KiteShield
   ExcludeItemClass: ""
   Channel: 1.0
@@ -8322,7 +8550,7 @@
   Includes: Trinket
 - PerkID: PerkID_Fixed_AmuletShield_DefLightning
   PerkType: Generated
-  ConditionEvent: OnEquip
+  ConditionEvent: OnActive
   ItemClass: EquippableAmulet+TowerShield+KiteShield
   ExcludeItemClass: ""
   Channel: 1.0
@@ -8360,7 +8588,7 @@
   Includes: Trinket
 - PerkID: PerkID_Fixed_AmuletShield_DefStrike
   PerkType: Generated
-  ConditionEvent: OnEquip
+  ConditionEvent: OnActive
   ItemClass: EquippableAmulet+TowerShield+KiteShield
   ExcludeItemClass: ""
   Channel: 1.0
@@ -10093,7 +10321,7 @@
   NamePriority: ""
   IconPath: LyShineUI/Images/Icons/Perks/ThreatAdd1.png
   Affix: ""
-  EquipAbility: Ability_Perk_Earring_ThreatSub
+  EquipAbility: Ability_Perk_Earring_ThreatSub,Ability_Perk_Earring_ThreatSub_Dmg
   DayPhases: ""
   FishingWaterType: ""
   TerritoryId: ""

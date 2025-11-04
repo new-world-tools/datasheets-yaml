@@ -188,6 +188,16 @@
   MainMenuOverride: ""
   MainMenuCoatOverride: ""
   Comments: "Tribute run rotation: F,S for Imperial Palace"
+- ScheduleId: EventNightHaven_Frontend
+  StartDate: 2025-10-01T*:*:*
+  EndDate: 2027-10-01T*:*:*
+  StartWeekday: ""
+  EndWeekday: ""
+  UTC: true
+  ScheduledQuestDescription: ""
+  MainMenuOverride: NW_Frontend_NightHaven
+  MainMenuCoatOverride: coatlicue/NW_Frontend_Base
+  Comments: Nighthaven frontend level
 - ScheduleId: Minutely
   StartDate: "*-*-*T*:*:00"
   EndDate: ""
