@@ -1528,210 +1528,108 @@
   Visual_RotatedBaseMesh_Offset_X: null
   Visual_RotatedBaseMesh_Offset_Y: null
   Visual_RotatedBaseMesh_Offset_Z: null
-- VariantID: 95_s04_06_lizardStatue1
+- VariantID: 17ZQ_OuterRing
   ResetTime: 0.0
   ForgetInstancedStateTime: ""
-  NumCyclicStates: 3.0
-  InteractTag: IO_95_s04_06_lizardStatue1
+  NumCyclicStates: 4.0
+  InteractTag: IO_17ZQ_OuterRing
   Visual_BaseMesh: ""
-  Visual_RotatedBaseMesh: "slices\\SeasonsQuest\\s04\\95_s04_06_lizardStatue1_Cyclic.dynamicslice"
+  Visual_RotatedBaseMesh: "slices\\Quest\\Nighthaven\\17ZQ_ringplatform_outer.dynamicslice"
   Visual_WaitingForReset: ""
   Visual_NotOnRequiredQuest: ""
   Gatherable_0: "slices\\Gatherables\\Master_Quest_Instanced.dynamicslice"
-  Gatherable_0_Variant: 95_s04_06_lizardStatue1_angle1
+  Gatherable_0_Variant: 17ZQ_OuterRing_angle1
   Delay_0: 0.5
-  RotationPercent_0: 0.125
+  RotationPercent_0: 0.25
   Gatherable_1: "slices\\Gatherables\\Master_Quest_Instanced.dynamicslice"
-  Gatherable_1_Variant: 95_s04_06_lizardStatue1_angle2
+  Gatherable_1_Variant: 17ZQ_OuterRing_angle2
   Delay_1: 1.5
-  RotationPercent_1: 0.875
+  RotationPercent_1: 0.5
   Gatherable_2: "slices\\Gatherables\\Master_Quest_Instanced.dynamicslice"
-  Gatherable_2_Variant: 95_s04_06_lizardStatue1_angle3
+  Gatherable_2_Variant: 17ZQ_OuterRing_angle3
   Delay_2: 0.5
-  RotationPercent_2: 1.0
-  Gatherable_3: ""
-  Gatherable_3_Variant: ""
-  Delay_3: null
-  RotationPercent_3: null
+  RotationPercent_2: 0.75
+  Gatherable_3: "slices\\Gatherables\\Master_Quest_Instanced.dynamicslice"
+  Gatherable_3_Variant: 17ZQ_OuterRing_angle4
+  Delay_3: 0.5
+  RotationPercent_3: 1.0
   Gatherable_4: ""
   Gatherable_4_Variant: ""
   Delay_4: null
   RotationPercent_4: null
-  AE.0_RequiredAchievementConditional: 95_s04_06_LizardPuzzleActivated
-  AE.1_RE.0_TargetRotationPercent: 0.875
-  Visual_RotatedBaseMesh_Offset_X: null
-  Visual_RotatedBaseMesh_Offset_Y: null
-  Visual_RotatedBaseMesh_Offset_Z: null
-- VariantID: 95_s04_06_lizardStatue2
+  AE.0_RequiredAchievementConditional: "*17_ZQUS5_RingPuzzleActivated"
+  AE.1_RE.0_TargetRotationPercent: 0.25
+  Visual_RotatedBaseMesh_Offset_X: -12.3655
+  Visual_RotatedBaseMesh_Offset_Y: -15.2627
+  Visual_RotatedBaseMesh_Offset_Z: 12.32
+- VariantID: 17ZQ_MiddleRing
   ResetTime: 0.0
   ForgetInstancedStateTime: ""
-  NumCyclicStates: 3.0
-  InteractTag: IO_95_s04_06_lizardStatue1
+  NumCyclicStates: 4.0
+  InteractTag: IO_17ZQ_OuterRing
   Visual_BaseMesh: ""
-  Visual_RotatedBaseMesh: "slices\\SeasonsQuest\\s04\\95_s04_06_lizardStatue2_Cyclic.dynamicslice"
+  Visual_RotatedBaseMesh: "slices\\Quest\\Nighthaven\\17ZQ_ringplatform_middle.dynamicslice"
   Visual_WaitingForReset: ""
   Visual_NotOnRequiredQuest: ""
   Gatherable_0: "slices\\Gatherables\\Master_Quest_Instanced.dynamicslice"
-  Gatherable_0_Variant: 95_s04_06_lizardStatue2_angle1
+  Gatherable_0_Variant: 17ZQ_MiddleRing_angle1
   Delay_0: 0.5
-  RotationPercent_0: 0.125
+  RotationPercent_0: 0.25
   Gatherable_1: "slices\\Gatherables\\Master_Quest_Instanced.dynamicslice"
-  Gatherable_1_Variant: 95_s04_06_lizardStatue2_angle2
+  Gatherable_1_Variant: 17ZQ_MiddleRing_angle2
   Delay_1: 1.5
-  RotationPercent_1: 0.875
+  RotationPercent_1: 0.5
   Gatherable_2: "slices\\Gatherables\\Master_Quest_Instanced.dynamicslice"
-  Gatherable_2_Variant: 95_s04_06_lizardStatue2_angle3
+  Gatherable_2_Variant: 17ZQ_MiddleRing_angle3
   Delay_2: 0.5
-  RotationPercent_2: 1.0
-  Gatherable_3: ""
-  Gatherable_3_Variant: ""
-  Delay_3: null
-  RotationPercent_3: null
+  RotationPercent_2: 0.75
+  Gatherable_3: "slices\\Gatherables\\Master_Quest_Instanced.dynamicslice"
+  Gatherable_3_Variant: 17ZQ_MiddleRing_angle4
+  Delay_3: 0.5
+  RotationPercent_3: 1.0
   Gatherable_4: ""
   Gatherable_4_Variant: ""
   Delay_4: null
   RotationPercent_4: null
-  AE.0_RequiredAchievementConditional: 95_s04_06_LizardPuzzleActivated
-  AE.1_RE.0_TargetRotationPercent: 0.125
-  Visual_RotatedBaseMesh_Offset_X: null
-  Visual_RotatedBaseMesh_Offset_Y: null
-  Visual_RotatedBaseMesh_Offset_Z: null
-- VariantID: 95_s04_06_lizardStatue3
+  AE.0_RequiredAchievementConditional: "*17_ZQUS5_RingPuzzleActivated"
+  AE.1_RE.0_TargetRotationPercent: 0.25
+  Visual_RotatedBaseMesh_Offset_X: -10.632
+  Visual_RotatedBaseMesh_Offset_Y: -15.935
+  Visual_RotatedBaseMesh_Offset_Z: 12.22
+- VariantID: 17ZQ_InnerRing
   ResetTime: 0.0
   ForgetInstancedStateTime: ""
-  NumCyclicStates: 3.0
-  InteractTag: IO_95_s04_06_lizardStatue1
+  NumCyclicStates: 4.0
+  InteractTag: IO_17ZQ_OuterRing
   Visual_BaseMesh: ""
-  Visual_RotatedBaseMesh: "slices\\SeasonsQuest\\s04\\95_s04_06_lizardStatue3_Cyclic.dynamicslice"
+  Visual_RotatedBaseMesh: "slices\\Quest\\Nighthaven\\17ZQ_ringplatform_inner.dynamicslice"
   Visual_WaitingForReset: ""
   Visual_NotOnRequiredQuest: ""
   Gatherable_0: "slices\\Gatherables\\Master_Quest_Instanced.dynamicslice"
-  Gatherable_0_Variant: 95_s04_06_lizardStatue3_angle1
+  Gatherable_0_Variant: 17ZQ_InnerRing_angle1
   Delay_0: 1.5
-  RotationPercent_0: 0.75
+  RotationPercent_0: 0.25
   Gatherable_1: "slices\\Gatherables\\Master_Quest_Instanced.dynamicslice"
-  Gatherable_1_Variant: 95_s04_06_lizardStatue3_angle2
+  Gatherable_1_Variant: 17ZQ_InnerRing_angle2
   Delay_1: 0.5
-  RotationPercent_1: 0.875
+  RotationPercent_1: 0.5
   Gatherable_2: "slices\\Gatherables\\Master_Quest_Instanced.dynamicslice"
-  Gatherable_2_Variant: 95_s04_06_lizardStatue3_angle3
+  Gatherable_2_Variant: 17ZQ_InnerRing_angle3
   Delay_2: 0.5
-  RotationPercent_2: 1.0
-  Gatherable_3: ""
-  Gatherable_3_Variant: ""
-  Delay_3: null
-  RotationPercent_3: null
+  RotationPercent_2: 0.75
+  Gatherable_3: "slices\\Gatherables\\Master_Quest_Instanced.dynamicslice"
+  Gatherable_3_Variant: 17ZQ_InnerRing_angle4
+  Delay_3: 0.5
+  RotationPercent_3: 1.0
   Gatherable_4: ""
   Gatherable_4_Variant: ""
   Delay_4: null
   RotationPercent_4: null
-  AE.0_RequiredAchievementConditional: 95_s04_06_LizardPuzzleActivated
-  AE.1_RE.0_TargetRotationPercent: 1.0
-  Visual_RotatedBaseMesh_Offset_X: null
-  Visual_RotatedBaseMesh_Offset_Y: null
-  Visual_RotatedBaseMesh_Offset_Z: null
-- VariantID: 95_s04_04_MageDoor1
-  ResetTime: 0.0
-  ForgetInstancedStateTime: ""
-  NumCyclicStates: 3.0
-  InteractTag: IO_95_s04_04_MageDoor1
-  Visual_BaseMesh: ""
-  Visual_RotatedBaseMesh: ""
-  Visual_WaitingForReset: ""
-  Visual_NotOnRequiredQuest: ""
-  Gatherable_0: "slices\\Gatherables\\Master_Quest_Instanced.dynamicslice"
-  Gatherable_0_Variant: 95_s04_04_MageDoor1_clue1
-  Delay_0: null
-  RotationPercent_0: null
-  Gatherable_1: "slices\\Gatherables\\Master_Quest_Instanced.dynamicslice"
-  Gatherable_1_Variant: 95_s04_04_MageDoor1_clue2
-  Delay_1: null
-  RotationPercent_1: null
-  Gatherable_2: "slices\\Gatherables\\Master_Quest_Instanced.dynamicslice"
-  Gatherable_2_Variant: 95_s04_04_MageDoor1_clue3
-  Delay_2: null
-  RotationPercent_2: null
-  Gatherable_3: ""
-  Gatherable_3_Variant: ""
-  Delay_3: null
-  RotationPercent_3: null
-  Gatherable_4: ""
-  Gatherable_4_Variant: ""
-  Delay_4: null
-  RotationPercent_4: null
-  AE.0_RequiredAchievementConditional: 95_s04_TelDoorPuzzle_JustStarted
-  AE.1_RE.0_TargetRotationPercent: null
-  Visual_RotatedBaseMesh_Offset_X: null
-  Visual_RotatedBaseMesh_Offset_Y: null
-  Visual_RotatedBaseMesh_Offset_Z: null
-- VariantID: 95_s04_04_MageDoor2
-  ResetTime: 0.0
-  ForgetInstancedStateTime: ""
-  NumCyclicStates: 3.0
-  InteractTag: IO_95_s04_04_MageDoor1
-  Visual_BaseMesh: ""
-  Visual_RotatedBaseMesh: ""
-  Visual_WaitingForReset: ""
-  Visual_NotOnRequiredQuest: ""
-  Gatherable_0: "slices\\Gatherables\\Master_Quest_Instanced.dynamicslice"
-  Gatherable_0_Variant: 95_s04_04_MageDoor2_clue1
-  Delay_0: null
-  RotationPercent_0: null
-  Gatherable_1: "slices\\Gatherables\\Master_Quest_Instanced.dynamicslice"
-  Gatherable_1_Variant: 95_s04_04_MageDoor2_clue2
-  Delay_1: null
-  RotationPercent_1: null
-  Gatherable_2: "slices\\Gatherables\\Master_Quest_Instanced.dynamicslice"
-  Gatherable_2_Variant: 95_s04_04_MageDoor2_clue3
-  Delay_2: null
-  RotationPercent_2: null
-  Gatherable_3: ""
-  Gatherable_3_Variant: ""
-  Delay_3: null
-  RotationPercent_3: null
-  Gatherable_4: ""
-  Gatherable_4_Variant: ""
-  Delay_4: null
-  RotationPercent_4: null
-  AE.0_RequiredAchievementConditional: 95_s04_TelDoorPuzzle_JustStarted
-  AE.1_RE.0_TargetRotationPercent: null
-  Visual_RotatedBaseMesh_Offset_X: null
-  Visual_RotatedBaseMesh_Offset_Y: null
-  Visual_RotatedBaseMesh_Offset_Z: null
-- VariantID: 95_s04_04_MageDoor3
-  ResetTime: 0.0
-  ForgetInstancedStateTime: ""
-  NumCyclicStates: 3.0
-  InteractTag: IO_95_s04_04_MageDoor1
-  Visual_BaseMesh: ""
-  Visual_RotatedBaseMesh: ""
-  Visual_WaitingForReset: ""
-  Visual_NotOnRequiredQuest: ""
-  Gatherable_0: "slices\\Gatherables\\Master_Quest_Instanced.dynamicslice"
-  Gatherable_0_Variant: 95_s04_04_MageDoor3_clue1
-  Delay_0: null
-  RotationPercent_0: null
-  Gatherable_1: "slices\\Gatherables\\Master_Quest_Instanced.dynamicslice"
-  Gatherable_1_Variant: 95_s04_04_MageDoor3_clue2
-  Delay_1: null
-  RotationPercent_1: null
-  Gatherable_2: "slices\\Gatherables\\Master_Quest_Instanced.dynamicslice"
-  Gatherable_2_Variant: 95_s04_04_MageDoor3_clue3
-  Delay_2: null
-  RotationPercent_2: null
-  Gatherable_3: ""
-  Gatherable_3_Variant: ""
-  Delay_3: null
-  RotationPercent_3: null
-  Gatherable_4: ""
-  Gatherable_4_Variant: ""
-  Delay_4: null
-  RotationPercent_4: null
-  AE.0_RequiredAchievementConditional: 95_s04_TelDoorPuzzle_JustStarted
-  AE.1_RE.0_TargetRotationPercent: null
-  Visual_RotatedBaseMesh_Offset_X: null
-  Visual_RotatedBaseMesh_Offset_Y: null
-  Visual_RotatedBaseMesh_Offset_Z: null
+  AE.0_RequiredAchievementConditional: "*17_ZQUS5_RingPuzzleActivated"
+  AE.1_RE.0_TargetRotationPercent: 0.25
+  Visual_RotatedBaseMesh_Offset_X: -9.802
+  Visual_RotatedBaseMesh_Offset_Y: -17.605
+  Visual_RotatedBaseMesh_Offset_Z: 12.12
 - VariantID: Cyclic_99A_MSQ_HoweCart
   ResetTime: 120.0
   ForgetInstancedStateTime: ""
