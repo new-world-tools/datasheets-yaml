@@ -33,9 +33,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -214,9 +214,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -395,9 +395,9 @@
   MaxBackfillDuration: null
   NumTeams: 32.0
   TeamCapacity: 1.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -576,9 +576,9 @@
   MaxBackfillDuration: null
   NumTeams: 2.0
   TeamCapacity: 10.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: "@ctf_gamemode_name"
-  GearScoreOverrideValueMin: 775.0
+  GearScoreOverrideValueMin: "775"
   GearScoreOverrideValueMax: 800.0
   MinPlayerLevelToUseGearScoreOverride: 60.0
   MaxPlayerLevelToUseGearScoreOverride: 70.0
@@ -757,9 +757,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -938,9 +938,9 @@
   MaxBackfillDuration: null
   NumTeams: 2.0
   TeamCapacity: 20.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: "@ui_outpost_rush_title"
-  GearScoreOverrideValueMin: 775.0
+  GearScoreOverrideValueMin: "775"
   GearScoreOverrideValueMax: 800.0
   MinPlayerLevelToUseGearScoreOverride: 60.0
   MaxPlayerLevelToUseGearScoreOverride: 70.0
@@ -1119,9 +1119,9 @@
   MaxBackfillDuration: null
   NumTeams: 2.0
   TeamCapacity: 20.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: "@ui_opr_no_perks_title"
-  GearScoreOverrideValueMin: 800.0
+  GearScoreOverrideValueMin: "800"
   GearScoreOverrideValueMax: 800.0
   MinPlayerLevelToUseGearScoreOverride: 60.0
   MaxPlayerLevelToUseGearScoreOverride: 70.0
@@ -1295,18 +1295,18 @@
   RequiredLevel: 20.0
   EntryAchievementConditional: ""
   QueueLevelBuckets: 20,30,40,50,60,66,71
-  QueueReadyThreshold: 6.0
-  BackfillReadyThreshold: 5.0
+  QueueReadyThreshold: 2.0
+  BackfillReadyThreshold: 1.0
   MaxBackfillDuration: null
   NumTeams: 2.0
-  TeamCapacity: 3.0
-  CombineTeamGroups: true
-  ModeNameLocStringId: "@ui_opr_no_perks_title"
-  GearScoreOverrideValueMin: 775.0
-  GearScoreOverrideValueMax: 800.0
-  MinPlayerLevelToUseGearScoreOverride: 60.0
-  MaxPlayerLevelToUseGearScoreOverride: 70.0
-  PossibleItemDropIds: ""
+  TeamCapacity: 1.0
+  CombineTeamGroups: ""
+  ModeNameLocStringId: "1"
+  GearScoreOverrideValueMin: "@ui_opr_no_perks_title"
+  GearScoreOverrideValueMax: 775.0
+  MinPlayerLevelToUseGearScoreOverride: 800.0
+  MaxPlayerLevelToUseGearScoreOverride: 60.0
+  PossibleItemDropIds: "70"
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
   MinGroupSize: null
@@ -1358,7 +1358,7 @@
   PriorityAddMin: 5.0
   PriorityAddMax: 10.0
   AllowPvpValueAccumulation: false
-  MinAcceptedInvites: 6.0
+  MinAcceptedInvites: 2.0
   UsePendingListMatchmaking: true
   AutoEquipQuickslot: true
   GrantConsumables: ""
@@ -1366,16 +1366,16 @@
   OverrideDungeonTimeout: null
   TimerThresholdDefault: null
   TimerThresholdMutated: null
-  SpecialQueueGroupSizes: 3.0
-  ResetChargeOnEnter: true
+  SpecialQueueGroupSizes: 1.0
+  ResetChargeOnEnter: null
   ShouldShowAcceptedFlow: true
-  ScreenHeaderTextId: "@ui_pvparenas_title_join"
-  JoinButtonTextId: "@ui_outpost_rush_signup_joinsolo"
-  SignupTitleTextId: "@ui_pvp_3v3_arena_signup_title"
-  LeaveQueueTitleTextId: "@ui_pvparenas_leave_queue_title"
-  LeaveQueueDescriptionTextId: "@ui_pvparenas_leave_queue_desc"
-  FailGroupPenaltyTextId: "@ui_pvparenas_failgrouppenalty"
-  RespawnTypeToUseForUnstuck: ""
+  ScreenHeaderTextId: "1"
+  JoinButtonTextId: "@ui_pvparenas_title_join"
+  SignupTitleTextId: "@ui_outpost_rush_signup_joinsolo"
+  LeaveQueueTitleTextId: "@ui_pvp_3v3_arena_signup_title"
+  LeaveQueueDescriptionTextId: "@ui_pvparenas_leave_queue_title"
+  FailGroupPenaltyTextId: "@ui_pvparenas_leave_queue_desc"
+  RespawnTypeToUseForUnstuck: "@ui_pvparenas_failgrouppenalty"
   LootLimitId: ""
   DailyLootLimitId: ""
   WeeklyLootLimitId: ""
@@ -1481,9 +1481,9 @@
   MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -1662,9 +1662,9 @@
   MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -1843,9 +1843,9 @@
   MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -2024,9 +2024,9 @@
   MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -2205,9 +2205,9 @@
   MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -2386,9 +2386,9 @@
   MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -2567,9 +2567,9 @@
   MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -2748,9 +2748,9 @@
   MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -2929,9 +2929,9 @@
   MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -3110,9 +3110,9 @@
   MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -3291,9 +3291,9 @@
   MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -3472,9 +3472,9 @@
   MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -3653,9 +3653,9 @@
   MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -3834,9 +3834,9 @@
   MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -4015,9 +4015,9 @@
   MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 5.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -4196,16 +4196,16 @@
   MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 20.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: "@trial_brimstone_sandworm_title"
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: ""
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
-  MinGroupSize: 12.0
+  MinGroupSize: 5.0
   PreserveOldGroup: null
   IgnoreRequireContribution: true
   IsDungeon: true
@@ -4377,16 +4377,16 @@
   MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 10.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: Artifact_Set2_2hWarhammer,Artifact_Set2_Ring1,Artifact_Set2_MediumLegs,AmuletT5_Hoplite,RingT5_Hoplite,EarringT5_Hoplite,2hStaffLife_Hoplite,1hGauntletIce_Hoplite,1hGauntletVoid_Hoplite,2hStaffFire_Hoplite,2hSpear_Hoplite,1hRapier_Hoplite,2hWarhammer_Hoplite,1hRshield_Hoplite,1hKshield_Hoplite,1hTshield_Hoplite,1hThrowingAxe_Hoplite,2hBow_Hoplite,2hBlunderbuss_Hoplite,2hMusket_Hoplite,2hGreataxe_Hoplite,1hLongsword_Hoplite,2hGreatSword_Hoplite,1hFlail_Hoplite,LightChest_Hoplite,LightHead_Hoplite,LightLegs_Hoplite,LightFeet_Hoplite,LightHands_Hoplite,MediumChest_Hoplite,MediumHead_Hoplite,MediumLegs_Hoplite,MediumFeet_Hoplite,MediumHands_Hoplite,HeavyChest_Hoplite,HeavyHead_Hoplite,HeavyLegs_Hoplite,HeavyFeet_Hoplite,HeavyHands_Hoplite
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: Artifact_Set2_2hWarhammer,Artifact_Set2_Ring1,Artifact_Set2_MediumLegs,AmuletT5_Hoplite,RingT5_Hoplite,EarringT5_Hoplite,2hStaffLife_Hoplite,1hGauntletIce_Hoplite,1hGauntletVoid_Hoplite,2hStaffFire_Hoplite,2hSpear_Hoplite,1hRapier_Hoplite,2hWarhammer_Hoplite,1hRshield_Hoplite,1hKshield_Hoplite,1hTshield_Hoplite,1hThrowingAxe_Hoplite,2hBow_Hoplite,2hBlunderbuss_Hoplite,2hMusket_Hoplite,2hGreataxe_Hoplite,1hLongsword_Hoplite,2hGreatSword_Hoplite,1hFlail_Hoplite,LightChest_Hoplite,LightHead_Hoplite,LightLegs_Hoplite,LightFeet_Hoplite,LightHands_Hoplite,MediumChest_Hoplite,MediumHead_Hoplite,MediumLegs_Hoplite,MediumFeet_Hoplite,MediumHands_Hoplite,HeavyChest_Hoplite,HeavyHead_Hoplite,HeavyLegs_Hoplite,HeavyFeet_Hoplite,HeavyHands_Hoplite
-  MinGroupSize: 6.0
+  MinGroupSize: 5.0
   PreserveOldGroup: null
   IgnoreRequireContribution: true
   IsDungeon: true
@@ -4558,16 +4558,16 @@
   MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 10.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: Set_Enrage_LightHead,Set_Enrage_LightChest,Set_Enrage_LightHands,Set_Enrage_LightLegs,Set_Enrage_LightFeet,Set_Enrage_MediumHead,Set_Enrage_MediumChest,Set_Enrage_MediumHands,Set_Enrage_MediumLegs,Set_Enrage_MediumFeet,Set_Enrage_HeavyHead,Set_Enrage_HeavyChest,Set_Enrage_HeavyHands,Set_Enrage_HeavyLegs,Set_Enrage_HeavyFeet,Set_SecondWind_LightHead,Set_SecondWind_LightChest,Set_SecondWind_LightHands,Set_SecondWind_LightLegs,Set_SecondWind_LightFeet,Set_SecondWind_MediumHead,Set_SecondWind_MediumChest,Set_SecondWind_MediumHands,Set_SecondWind_MediumLegs,Set_SecondWind_MediumFeet,Set_SecondWind_HeavyHead,Set_SecondWind_HeavyChest,Set_SecondWind_HeavyHands,Set_SecondWind_HeavyLegs,Set_SecondWind_HeavyFeet,Set_ProtectorsBlessing_LightHead,Set_ProtectorsBlessing_LightChest,Set_ProtectorsBlessing_LightHands,Set_ProtectorsBlessing_LightLegs,Set_ProtectorsBlessing_LightFeet,Set_ProtectorsBlessing_MediumHead,Set_ProtectorsBlessing_MediumChest,Set_ProtectorsBlessing_MediumHands,Set_ProtectorsBlessing_MediumLegs,Set_ProtectorsBlessing_MediumFeet,Set_ProtectorsBlessing_HeavyHead,Set_ProtectorsBlessing_HeavyChest,Set_ProtectorsBlessing_HeavyHands,Set_ProtectorsBlessing_HeavyLegs,Set_ProtectorsBlessing_HeavyFeet,Set_Enrage_1hLongsword,Set_Enrage_1hThrowingAxe,Set_Enrage_2hWarhammer,Set_Enrage_2hGreatAxe,Set_Enrage_2hBow,Set_Enrage_2hMusket,Set_Enrage_2hStaffFire,Set_Enrage_2hStaffLife,Set_Enrage_2hSpear,Set_Enrage_1hRapier,Set_Enrage_1hGauntletIce,Set_Enrage_1hGauntletVoid,Set_Enrage_2hBlunderbuss,Set_Enrage_2hGreatSword,Set_Enrage_1hFlail,Set_Enrage_Ring,Set_Enrage_Amulet,Set_Enrage_Earring,Set_SecondWind_Ring,Set_SecondWind_Amulet,Set_SecondWind_Earring,Set_SecondWind_1hLongsword,Set_SecondWind_1hThrowingAxe,Set_SecondWind_2hWarhammer,Set_SecondWind_2hGreatAxe,Set_SecondWind_2hBow,Set_SecondWind_2hMusket,Set_SecondWind_2hStaffFire,Set_SecondWind_2hStaffLife,Set_SecondWind_2hSpear,Set_SecondWind_1hRapier,Set_SecondWind_1hGauntletIce,Set_SecondWind_1hGauntletVoid,Set_SecondWind_2hBlunderbuss,Set_SecondWind_2hGreatSword,Set_SecondWind_1hFlail,Set_ProtectorsBlessing_Ring,Set_ProtectorsBlessing_Amulet,Set_ProtectorsBlessing_Earring,Set_ProtectorsBlessing_1hLongsword,Set_ProtectorsBlessing_1hThrowingAxe,Set_ProtectorsBlessing_2hWarhammer,Set_ProtectorsBlessing_2hGreatAxe,Set_ProtectorsBlessing_2hBow,Set_ProtectorsBlessing_2hMusket,Set_ProtectorsBlessing_2hStaffFire,Set_ProtectorsBlessing_2hStaffLife,Set_ProtectorsBlessing_2hSpear,Set_ProtectorsBlessing_1hRapier,Set_ProtectorsBlessing_1hGauntletIce,Set_ProtectorsBlessing_1hGauntletVoid,Set_ProtectorsBlessing_2hBlunderbuss,Set_ProtectorsBlessing_2hGreatSword,Set_ProtectorsBlessing_1hFlail
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
-  MinGroupSize: 6.0
+  MinGroupSize: 5.0
   PreserveOldGroup: null
   IgnoreRequireContribution: true
   IsDungeon: true
@@ -4739,16 +4739,16 @@
   MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 10.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: ""
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
-  MinGroupSize: 6.0
+  MinGroupSize: 5.0
   PreserveOldGroup: null
   IgnoreRequireContribution: true
   IsDungeon: true
@@ -4920,16 +4920,16 @@
   MaxBackfillDuration: null
   NumTeams: 1.0
   TeamCapacity: 10.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
   PossibleItemDropIds: ""
   ItemDropLevelThreshold01: null
   PossibleItemDropIdsByLevel01: ""
-  MinGroupSize: 6.0
+  MinGroupSize: 5.0
   PreserveOldGroup: null
   IgnoreRequireContribution: true
   IsDungeon: true
@@ -5101,9 +5101,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -5282,9 +5282,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -5463,9 +5463,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -5644,9 +5644,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -5825,9 +5825,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -6006,9 +6006,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -6187,9 +6187,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -6368,9 +6368,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -6549,9 +6549,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -6730,9 +6730,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -6911,9 +6911,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -7092,9 +7092,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -7273,9 +7273,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -7454,9 +7454,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -7635,9 +7635,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -7816,9 +7816,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -7997,9 +7997,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -8178,9 +8178,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -8359,9 +8359,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -8540,9 +8540,9 @@
   MaxBackfillDuration: 20.0
   NumTeams: 1.0
   TeamCapacity: 3.0
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -8721,9 +8721,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -8902,9 +8902,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -9083,9 +9083,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -9264,9 +9264,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
@@ -9445,9 +9445,9 @@
   MaxBackfillDuration: null
   NumTeams: null
   TeamCapacity: null
-  CombineTeamGroups: null
+  CombineTeamGroups: ""
   ModeNameLocStringId: ""
-  GearScoreOverrideValueMin: null
+  GearScoreOverrideValueMin: ""
   GearScoreOverrideValueMax: null
   MinPlayerLevelToUseGearScoreOverride: null
   MaxPlayerLevelToUseGearScoreOverride: null
